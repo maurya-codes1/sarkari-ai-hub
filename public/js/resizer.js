@@ -516,3 +516,8 @@ function downloadProcessedImage() {
 }
 
 document.addEventListener('DOMContentLoaded', initResizer);
+
+window.addEventListener('languageChanged', () => {
+  if (typeof updatePresetUI === 'function') updatePresetUI();
+});
+

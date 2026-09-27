@@ -331,3 +331,8 @@ window.finishTypingTest = finishTypingTest;
 document.addEventListener('DOMContentLoaded', () => {
   initTypingTest();
 });
+
+window.addEventListener('languageChanged', () => {
+  if (typeof initTypingPassageSelect === 'function') initTypingPassageSelect();
+});
+

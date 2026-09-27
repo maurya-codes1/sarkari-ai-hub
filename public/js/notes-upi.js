@@ -7510,3 +7510,9 @@ async function generateAiExamNotes() {
 }
 
 document.addEventListener('DOMContentLoaded', initNotesVault);
+
+window.addEventListener('languageChanged', () => {
+  if (typeof renderNotesCatalog === 'function') renderNotesCatalog();
+  if (typeof updateNotesDependentDropdowns === 'function') updateNotesDependentDropdowns();
+});
+

@@ -17,3 +17,7 @@ temp-check.js
 Thumbs.db
 *.zip
 SarkariAI-Hub-Production.zip
+*.db-wal
+*.db-shm
+scratch/
+

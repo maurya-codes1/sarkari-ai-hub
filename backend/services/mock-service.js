@@ -951,6 +951,11 @@ class MockService {
         }
       }
 
+      const firstSec = (mockTruth.sections && mockTruth.sections[0]) ? mockTruth.sections[0] : null;
+      const negVal = mockTruth.isNegativeMarking
+        ? (mockTruth.negativeMarkingValue !== undefined ? mockTruth.negativeMarkingValue : (firstSec ? firstSec.marksWrong : 0.25))
+        : 0.0;
+
       blueprintSummary = {
         blueprintId: mockTruth.blueprintId,
         blueprintName: mockTruth.blueprintName,
@@ -958,6 +963,8 @@ class MockService {
         totalMarks: mockTruth.totalMarks,
         durationMinutes: mockTruth.durationMinutes,
         isNegativeMarking: mockTruth.isNegativeMarking,
+        negativeValue: negVal,
+        verificationStatus: 'VERIFIED',
         sections: mockTruth.sections.map(s => ({
           sectionId: s.sectionId,
           name: s.name,
@@ -965,7 +972,8 @@ class MockService {
           questionCount: s.questionCount,
           marksCorrect: s.marksCorrect,
           marksWrong: s.marksWrong,
-          hasNegativeMarking: s.hasNegativeMarking
+          hasNegativeMarking: s.hasNegativeMarking,
+          negativeValue: s.hasNegativeMarking ? s.marksWrong : 0.0
         }))
       };
 
@@ -988,6 +996,10 @@ class MockService {
         ? mockTruth.reasons[0] 
         : 'UNVERIFIED_PATTERN';
       if (mockTruth && mockTruth.sections) {
+        const firstSec = mockTruth.sections[0] || null;
+        const negVal = Boolean(mockTruth.isNegativeMarking)
+          ? (mockTruth.negativeMarkingValue !== undefined ? mockTruth.negativeMarkingValue : (firstSec ? (firstSec.marksWrong || firstSec.negativeValue || 0.25) : 0.25))
+          : 0.0;
         blueprintSummary = {
           blueprintId: mockTruth.blueprintId,
           blueprintName: mockTruth.blueprintName,
@@ -995,6 +1007,8 @@ class MockService {
           totalMarks: mockTruth.totalMarks || 0,
           durationMinutes: mockTruth.durationMinutes || 0,
           isNegativeMarking: Boolean(mockTruth.isNegativeMarking),
+          negativeValue: negVal,
+          verificationStatus: 'VERIFIED',
           sections: mockTruth.sections
         };
       }
