@@ -1,0 +1,14 @@
+{
+  "isolated": true,
+  "isIsolated": true,
+  "crossContaminationDetected": false,
+  "sharedBoards": [],
+  "sharedRules": [],
+  "stateA": "AP",
+  "stateB": "TG",
+  "boardA": "bseap-board",
+  "boardB": "bsetg-board",
+  "pscA": "Andhra Pradesh Public Service Commission (APPSC)",
+  "pscB": "Telangana Public Service Commission (TGPSC)",
+  "message": "AP and TG isolated with independent PSC and Police authorities."
+}

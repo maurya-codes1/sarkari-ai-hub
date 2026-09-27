@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/question.schema.json",
+  "title": "QuestionSpecification",
+  "description": "Standardized schema for assessment questions with rigorous source attribution, multilinguality, and versioning.",
+  "type": "object",
+  "required": [
+    "questionId",
+    "subjectId",
+    "questionTypeId",
+    "difficulty",
+    "marks",
+    "sourceType",
+    "languageContent",
+    "correctAnswer",
+    "currentVersion"
+  ],
+  "properties": {
+    "questionId": { "type": "string" },
+    "examVersionId": { "type": ["string", "null"] },
+    "boardId": { "type": ["string", "null"] },
+    "subjectId": { "type": "string" },
+    "chapterId": { "type": ["string", "null"] },
+    "topicId": { "type": ["string", "null"] },
+    "questionTypeId": {
+      "type": "string",
+      "enum": [
+        "single_mcq",
+        "multiple_mcq",
+        "numerical",
+        "short_answer",
+        "very_short_answer",
+        "long_answer",
+        "essay",
+        "descriptive",
+        "assertion_reason",
+        "statement_based",
+        "match_following",
+        "true_false",
+        "fill_blank",
+        "case_study",
+        "passage_based",
+        "diagram_based",
+        "coding",
+        "translation",
+        "literature",
+        "other"
+      ]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["EASY", "MEDIUM", "HARD"]
+    },
+    "marks": { "type": "number", "minimum": 0 },
+    "sourceType": {
+      "type": "string",
+      "enum": [
+        "OFFICIAL_QUESTION",
+        "PREVIOUS_YEAR_QUESTION",
+        "OFFICIAL_SAMPLE",
+        "OFFICIAL_MODEL",
+        "AI_PRACTICE",
+        "HUMAN_CURATED",
+        "IMPORTED_LICENSED",
+        "OTHER_VERIFIED"
+      ]
+    },
+    "sourceId": { "type": ["string", "null"] },
+    "officialYear": { "type": ["string", "null"] },
+    "isVerified": { "type": "boolean", "default": false },
+    "verifiedAt": { "type": ["string", "null"] },
+    "currentVersion": { "type": "integer", "default": 1 },
+    "languageContent": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["q"],
+        "properties": {
+          "q": { "type": "string" },
+          "options": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "ans": { "type": "string" },
+          "exp": { "type": "string" }
+        }
+      }
+    },
+    "correctAnswer": {
+      "type": "object",
+      "properties": {
+        "index": { "type": "integer" },
+        "key": { "type": "string" },
+        "value": { "type": ["number", "string", "array"] },
+        "tolerance": { "type": "number" }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

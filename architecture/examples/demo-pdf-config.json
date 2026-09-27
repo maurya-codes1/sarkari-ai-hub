@@ -1,0 +1,16 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates vector exam paper layout with TrueType font embedding",
+  "templateId": "tmpl-demo-2026-exam-paper",
+  "name": "Demo Exam 2026 Full Exam Question Paper Booklet",
+  "pdfType": "FULL_EXAM_MOCK_PAPER",
+  "blueprintId": "bp-demo-exam-2026-tier1",
+  "pageFormat": "A4",
+  "orientation": "portrait",
+  "layoutMode": "TWO_COLUMN_BILINGUAL",
+  "embeddedFonts": [
+    "NotoSansDevanagari-Regular.ttf",
+    "NotoSansDevanagari-Bold.ttf",
+    "PlusJakartaSans-Regular.ttf",
+    "PlusJakartaSans-Bold.ttf"
+  ]
+}

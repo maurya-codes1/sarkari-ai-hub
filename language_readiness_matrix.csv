@@ -1,0 +1,25 @@
+language_code,language_name_native,language_name_english,script_type,is_eighth_schedule,db_is_ui_language_core,db_is_expanded_ui_language,ui_dropdown_available,total_keys_in_dict,distinct_translated_keys,english_fallback_keys,translation_completeness_pct,rtl_support,readiness_classification
+bn,বাংলা,Bengali,Bengali,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+en,English,English,Latin,NO,YES (14 Core),YES (24 Expanded),YES,406,406,0,100.0%,NO_LTR,FULL_PRODUCTION_READY
+gu,ગુજરાતી,Gujarati,Gujarati,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+hi,हिन्दी,Hindi,Devanagari,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,FULL_PRODUCTION_READY
+hi-latn,Hinglish,Hinglish,Latin,NO,YES (14 Core),YES (24 Expanded),YES,406,213,193,52.5%,NO_LTR,PARTIALLY_TRANSLATED_FALLBACK_ACTIVE
+kn,ಕನ್ನಡ,Kannada,Kannada,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+ml,മലയാളം,Malayalam,Malayalam,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+mr,मराठी,Marathi,Devanagari,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+or,ଓଡ଼ିଆ,Odia,Odia,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+pa,ਪੰਜਾਬੀ,Punjabi,Gurmukhi,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+sa,संस्कृतम्,Sanskrit,Devanagari,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+ta,தமிழ்,Tamil,Tamil,YES,YES (14 Core),YES (24 Expanded),YES,406,406,0,100.0%,NO_LTR,PRODUCTION_READY
+te,తెలుగు,Telugu,Telugu,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+ur,اردو,Urdu,Perso-Arabic,YES,YES (14 Core),YES (24 Expanded),YES,406,405,1,99.8%,YES_RTL,PRODUCTION_READY
+as,অসমীয়া,Assamese,Bengali-Assamese,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+bho,भोजपुरी,Bhojpuri,Devanagari,NO,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+brx,बड़ो,Bodo,Devanagari,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+doi,डोगरी,Dogri,Devanagari,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+kok,कोंकणी,Konkani,Devanagari,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+ks,کٲشُر / कश्मीरी,Kashmiri,Perso-Arabic,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+mai,मैथिली,Maithili,Devanagari,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+ne,नेपाली,Nepali,Devanagari,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+sat,ᱥᱟᱱᱛᱟᱲᱤ,Santali,Ol Chiki,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY
+sd,سنڌي / सिन्धी,Sindhi,Perso-Arabic,YES,NO,YES (24 Expanded),YES,406,405,1,99.8%,NO_LTR,PRODUCTION_READY

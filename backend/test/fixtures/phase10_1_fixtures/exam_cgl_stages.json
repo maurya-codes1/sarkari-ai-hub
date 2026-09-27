@@ -1,0 +1,83 @@
+{
+  "inventoryId": "inv-ssc-cgl",
+  "examId": "ssc-cgl",
+  "exam_id": "ssc-cgl",
+  "category": "SSC",
+  "subCategory": "Graduate Level",
+  "examNameEn": "SSC Combined Graduate Level (CGL)",
+  "exam_name_en": "SSC Combined Graduate Level (CGL)",
+  "examNameHi": "एसएससी संयुक्त स्नातक स्तरीय परीक्षा (सीजीएल)",
+  "authorityName": "Staff Selection Commission",
+  "authorityCode": "SSC",
+  "stateId": null,
+  "state_id": null,
+  "examScope": "NATIONAL",
+  "officialWebsiteUrl": "https://ssc.gov.in",
+  "currentStageCount": 2,
+  "blueprintStatus": "VERIFIED",
+  "syllabusStatus": "VERIFIED",
+  "eligibilityStatus": "VERIFIED",
+  "registrationStatus": "VERIFIED",
+  "languageSupport": [
+    "en",
+    "hi"
+  ],
+  "readinessState": "FULL_EXAM_READY",
+  "sourceVerificationStatus": "SOURCE_VERIFIED",
+  "stages": [
+    {
+      "stageMappingId": "stg-ssc-cgl-1",
+      "stageOrder": 1,
+      "stageCode": "TIER_1",
+      "stage_code": "TIER_1",
+      "stageName": "Tier-I: Computer Based Examination",
+      "stageType": "OBJECTIVE_CBT",
+      "totalMarks": 200,
+      "durationMinutes": 60,
+      "evaluationType": "QUALIFYING",
+      "isQualifying": true,
+      "is_qualifying": 1
+    },
+    {
+      "stageMappingId": "stg-ssc-cgl-2",
+      "stageOrder": 2,
+      "stageCode": "TIER_2",
+      "stage_code": "TIER_2",
+      "stageName": "Tier-II: Paper-I (Compulsory for All) & Paper-II",
+      "stageType": "OBJECTIVE_CBT",
+      "totalMarks": 390,
+      "durationMinutes": 150,
+      "evaluationType": "MERIT",
+      "isQualifying": false,
+      "is_qualifying": 0
+    }
+  ],
+  "exam_stages": [
+    {
+      "stageMappingId": "stg-ssc-cgl-1",
+      "stageOrder": 1,
+      "stageCode": "TIER_1",
+      "stage_code": "TIER_1",
+      "stageName": "Tier-I: Computer Based Examination",
+      "stageType": "OBJECTIVE_CBT",
+      "totalMarks": 200,
+      "durationMinutes": 60,
+      "evaluationType": "QUALIFYING",
+      "isQualifying": true,
+      "is_qualifying": 1
+    },
+    {
+      "stageMappingId": "stg-ssc-cgl-2",
+      "stageOrder": 2,
+      "stageCode": "TIER_2",
+      "stage_code": "TIER_2",
+      "stageName": "Tier-II: Paper-I (Compulsory for All) & Paper-II",
+      "stageType": "OBJECTIVE_CBT",
+      "totalMarks": 390,
+      "durationMinutes": 150,
+      "evaluationType": "MERIT",
+      "isQualifying": false,
+      "is_qualifying": 0
+    }
+  ]
+}

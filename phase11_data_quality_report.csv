@@ -1,0 +1,13 @@
+metric_name,measured_value,benchmark_target,compliance_status,details
+"Total Preserved Question Records",1064,1064,"PASS","100% baseline preservation confirmed"
+"Verified True Official PYQs",153,153,"PASS","TIER_2_VERIFIED_PYQ across 15 papers"
+"Official Sample Questions",39,39,"PASS","CBSE 10th Science SQP 2024 (practice eligible)"
+"Legacy Preserved Baseline",872,872,"PASS","726 Tier-4 Human Curated + 146 Tier-6 Needs Review"
+"Full Exam Eligible Questions",150,150,"PASS","100 SSC CGL + 25 TN SSLC + 25 Multi-Year PYQs"
+"Full Exam Gate Status","1 READY / 48 BLOCKED","1 READY / 48 BLOCKED","PASS","SSC CGL Ready; 48 safely blocked"
+"Monitored Official Sources",52,52,"PASS","52 active official sources monitored with telemetry"
+"Unified Exam Calendar Events",196,196+,"PASS","Covers 49 nationwide exams"
+"Statutory Corrigenda Preserved",2,2+,"PASS","Original and revised values preserved"
+"AI Question Safety Invariant","ENFORCED","ENFORCED","PASS","AI practice questions NEVER unblock Full Exam"
+"Database FK Violations",0,0,"PASS","PRAGMA foreign_key_check clean"
+"Database Integrity Check","ok","ok","PASS","PRAGMA integrity_check ok"

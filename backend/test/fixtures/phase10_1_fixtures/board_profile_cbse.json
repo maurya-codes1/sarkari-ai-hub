@@ -1,0 +1,298 @@
+{
+  "boardId": "cbse-board",
+  "name": "CBSE Board (Class 10th & 12th)",
+  "shortName": "CBSE 10th/12th",
+  "jurisdiction": "National",
+  "boardType": "National",
+  "officialWebsite": "https://www.cbse.gov.in",
+  "resultPortal": "https://cbseresults.nic.in",
+  "verificationStatus": "VERIFIED",
+  "classes": [
+    {
+      "offeringId": "cbse-cls9-2025",
+      "classId": "class-9",
+      "className": "Class 9",
+      "numericLevel": 9,
+      "isPublicBoardExam": false,
+      "is_public_board_exam": 0,
+      "is_internal_evaluation": 1,
+      "assessment_model": "CONTINUOUS_COMPREHENSIVE_INTERNAL",
+      "academicSupportType": "INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT",
+      "availableStreams": [
+        "general"
+      ],
+      "compulsorySubjects": [
+        "English",
+        "Hindi/Language 2",
+        "Mathematics",
+        "Science",
+        "Social Science"
+      ],
+      "optionalSubjects": [
+        "Information Technology",
+        "Artificial Intelligence",
+        "Sanskrit"
+      ],
+      "evaluationSummary": "School-based continuous internal evaluation (20 marks) + Annual exam (80 marks). No public board exam.",
+      "registrationPrerequisite": "Class 9 online registration with CBSE portal is mandatory for Class 10 board exam eligibility.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    },
+    {
+      "offeringId": "cbse-cls10-2025",
+      "classId": "class-10",
+      "className": "Class 10",
+      "numericLevel": 10,
+      "isPublicBoardExam": true,
+      "is_public_board_exam": 1,
+      "is_internal_evaluation": 0,
+      "assessment_model": "CENTRALIZED_PUBLIC_BOARD_EXAM",
+      "academicSupportType": "PUBLIC_BOARD_EXAM",
+      "availableStreams": [
+        "general"
+      ],
+      "compulsorySubjects": [
+        "English",
+        "Hindi/Language 2",
+        "Mathematics Standard/Basic",
+        "Science",
+        "Social Science"
+      ],
+      "optionalSubjects": [
+        "IT",
+        "Computer Applications",
+        "Sanskrit",
+        "Music",
+        "Home Science"
+      ],
+      "evaluationSummary": "Centralized Public Board Examination (80 marks written) + School Internal Assessment (20 marks).",
+      "registrationPrerequisite": "Mandatory Class 9 registration in official CBSE LOC (List of Candidates) with 75% minimum attendance.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    },
+    {
+      "offeringId": "cbse-cls11-2025",
+      "classId": "class-11",
+      "className": "Class 11",
+      "numericLevel": 11,
+      "isPublicBoardExam": false,
+      "is_public_board_exam": 0,
+      "is_internal_evaluation": 1,
+      "assessment_model": "CONTINUOUS_COMPREHENSIVE_INTERNAL",
+      "academicSupportType": "INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT",
+      "availableStreams": [
+        "science-pcm",
+        "science-pcb",
+        "commerce",
+        "humanities"
+      ],
+      "compulsorySubjects": [
+        "English Core"
+      ],
+      "optionalSubjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology",
+        "Economics",
+        "Accountancy",
+        "Business Studies",
+        "History",
+        "Pol Science"
+      ],
+      "evaluationSummary": "School-based terminal evaluation. Practical / Project assessment (20-30 marks) + Written exam (70-80 marks).",
+      "registrationPrerequisite": "Class 10 board certificate passing verification. Stream allotment based on Class 10 performance.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    },
+    {
+      "offeringId": "cbse-cls12-2025",
+      "classId": "class-12",
+      "className": "Class 12",
+      "numericLevel": 12,
+      "isPublicBoardExam": true,
+      "is_public_board_exam": 1,
+      "is_internal_evaluation": 0,
+      "assessment_model": "CENTRALIZED_PUBLIC_BOARD_EXAM",
+      "academicSupportType": "PUBLIC_BOARD_EXAM",
+      "availableStreams": [
+        "science-pcm",
+        "science-pcb",
+        "commerce",
+        "humanities"
+      ],
+      "compulsorySubjects": [
+        "English Core"
+      ],
+      "optionalSubjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology",
+        "Economics",
+        "Accountancy",
+        "Business Studies",
+        "History",
+        "Pol Science"
+      ],
+      "evaluationSummary": "Centralized Senior School Certificate Board Exam. External examiner practicals + written theory exam.",
+      "registrationPrerequisite": "Direct progression from Class 11 with same stream and subjects. Minimum 75% verified school attendance.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    }
+  ],
+  "classesOffered": [
+    {
+      "offeringId": "cbse-cls9-2025",
+      "classId": "class-9",
+      "className": "Class 9",
+      "numericLevel": 9,
+      "isPublicBoardExam": false,
+      "is_public_board_exam": 0,
+      "is_internal_evaluation": 1,
+      "assessment_model": "CONTINUOUS_COMPREHENSIVE_INTERNAL",
+      "academicSupportType": "INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT",
+      "availableStreams": [
+        "general"
+      ],
+      "compulsorySubjects": [
+        "English",
+        "Hindi/Language 2",
+        "Mathematics",
+        "Science",
+        "Social Science"
+      ],
+      "optionalSubjects": [
+        "Information Technology",
+        "Artificial Intelligence",
+        "Sanskrit"
+      ],
+      "evaluationSummary": "School-based continuous internal evaluation (20 marks) + Annual exam (80 marks). No public board exam.",
+      "registrationPrerequisite": "Class 9 online registration with CBSE portal is mandatory for Class 10 board exam eligibility.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    },
+    {
+      "offeringId": "cbse-cls10-2025",
+      "classId": "class-10",
+      "className": "Class 10",
+      "numericLevel": 10,
+      "isPublicBoardExam": true,
+      "is_public_board_exam": 1,
+      "is_internal_evaluation": 0,
+      "assessment_model": "CENTRALIZED_PUBLIC_BOARD_EXAM",
+      "academicSupportType": "PUBLIC_BOARD_EXAM",
+      "availableStreams": [
+        "general"
+      ],
+      "compulsorySubjects": [
+        "English",
+        "Hindi/Language 2",
+        "Mathematics Standard/Basic",
+        "Science",
+        "Social Science"
+      ],
+      "optionalSubjects": [
+        "IT",
+        "Computer Applications",
+        "Sanskrit",
+        "Music",
+        "Home Science"
+      ],
+      "evaluationSummary": "Centralized Public Board Examination (80 marks written) + School Internal Assessment (20 marks).",
+      "registrationPrerequisite": "Mandatory Class 9 registration in official CBSE LOC (List of Candidates) with 75% minimum attendance.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    },
+    {
+      "offeringId": "cbse-cls11-2025",
+      "classId": "class-11",
+      "className": "Class 11",
+      "numericLevel": 11,
+      "isPublicBoardExam": false,
+      "is_public_board_exam": 0,
+      "is_internal_evaluation": 1,
+      "assessment_model": "CONTINUOUS_COMPREHENSIVE_INTERNAL",
+      "academicSupportType": "INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT",
+      "availableStreams": [
+        "science-pcm",
+        "science-pcb",
+        "commerce",
+        "humanities"
+      ],
+      "compulsorySubjects": [
+        "English Core"
+      ],
+      "optionalSubjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology",
+        "Economics",
+        "Accountancy",
+        "Business Studies",
+        "History",
+        "Pol Science"
+      ],
+      "evaluationSummary": "School-based terminal evaluation. Practical / Project assessment (20-30 marks) + Written exam (70-80 marks).",
+      "registrationPrerequisite": "Class 10 board certificate passing verification. Stream allotment based on Class 10 performance.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    },
+    {
+      "offeringId": "cbse-cls12-2025",
+      "classId": "class-12",
+      "className": "Class 12",
+      "numericLevel": 12,
+      "isPublicBoardExam": true,
+      "is_public_board_exam": 1,
+      "is_internal_evaluation": 0,
+      "assessment_model": "CENTRALIZED_PUBLIC_BOARD_EXAM",
+      "academicSupportType": "PUBLIC_BOARD_EXAM",
+      "availableStreams": [
+        "science-pcm",
+        "science-pcb",
+        "commerce",
+        "humanities"
+      ],
+      "compulsorySubjects": [
+        "English Core"
+      ],
+      "optionalSubjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology",
+        "Economics",
+        "Accountancy",
+        "Business Studies",
+        "History",
+        "Pol Science"
+      ],
+      "evaluationSummary": "Centralized Senior School Certificate Board Exam. External examiner practicals + written theory exam.",
+      "registrationPrerequisite": "Direct progression from Class 11 with same stream and subjects. Minimum 75% verified school attendance.",
+      "curriculumUrl": "https://cbseacademic.nic.in"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependencyId": "dep-cbse-9-10",
+      "rule_code": "CBSE Class 9 Online Registration & LOC Invariant",
+      "fromClass": "Class 9",
+      "toClass": "Class 10",
+      "ruleName": "CBSE Class 9 Online Registration & LOC Invariant",
+      "descriptionEn": "Candidate must be registered in Class 9 on CBSE portal with unique registration number. No fresh direct admission to Class 10 permitted except transfer cases with board approval. Minimum 75% attendance required.",
+      "descriptionHi": "सीबीएसई पोर्टल पर कक्षा 9 में पंजीकृत होना और पंजीकरण संख्या होना अनिवार्य है। बोर्ड की अनुमति के बिना कक्षा 10 में सीधा प्रवेश अनुमत नहीं है। 75% उपस्थिति अनिवार्य है।",
+      "isMandatory": true,
+      "minAttendancePct": 75,
+      "allowStreamChange": false,
+      "officialCircularRef": "CBSE Exam Bylaws Rule 13.1 & 14.2"
+    },
+    {
+      "dependencyId": "dep-cbse-11-12",
+      "rule_code": "CBSE Stream and Subject Lock Invariant",
+      "fromClass": "Class 11",
+      "toClass": "Class 12",
+      "ruleName": "CBSE Stream and Subject Lock Invariant",
+      "descriptionEn": "Subject combination chosen and passed in Class 11 must be strictly continued in Class 12. Stream change in Class 12 is strictly prohibited. Practical project work initiated in Class 11 continues into Class 12 external assessment.",
+      "descriptionHi": "कक्षा 11 में चुने और उत्तीर्ण किए गए विषयों को कक्षा 12 में जारी रखना अनिवार्य है। कक्षा 12 में संकाय (स्ट्रीम) परिवर्तन पूरी तरह से प्रतिबंधित है।",
+      "isMandatory": true,
+      "minAttendancePct": 75,
+      "allowStreamChange": false,
+      "officialCircularRef": "CBSE Examination Bylaws Rule 26"
+    }
+  ]
+}

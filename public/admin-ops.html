@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Operations & Source Observability — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-cyan-400 uppercase tracking-wider">Production Operations Console</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/dashboard.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📊 Candidate Dashboard</a>
+        <a href="/calendar.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition">📅 National Calendar</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Header with Operational Controls -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-bold mb-2">
+          <span>⚙️ Continuous Source Observability</span>
+          <span>•</span>
+          <span>Auditable Overrides</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Operations & Source Health Monitor</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Continuous automated monitoring & health telemetry across 52 official recruitment, public commission, and academic examination portals.</p>
+      </div>
+
+      <div class="flex items-center gap-2">
+        <button onclick="triggerBatchCheck()" id="checkAllBtn" class="px-3.5 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white text-xs font-bold shadow-lg transition">🔄 Run All Source Checks</button>
+        <button onclick="promptRecordOverride()" class="px-3.5 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold shadow-lg transition">+ Record Audit Override</button>
+      </div>
+    </div>
+
+    <!-- Operations Overview KPI Cards -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Monitored Sources</div>
+        <div id="statTotalSources" class="text-2xl sm:text-3xl font-black text-white mt-1">52</div>
+        <div class="text-[10px] text-emerald-400 mt-1" id="statHealthRatio">100% Healthy</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Average Check Latency</div>
+        <div id="statLatency" class="text-2xl sm:text-3xl font-black text-cyan-400 mt-1">45 ms</div>
+        <div class="text-[10px] text-slate-400 mt-1">Sub-second telemetry</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Critical Rule Changes</div>
+        <div id="statCriticalChanges" class="text-2xl sm:text-3xl font-black text-rose-400 mt-1">0</div>
+        <div class="text-[10px] text-rose-300/80 mt-1">Impact-analyzed events</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Admin Override Audits</div>
+        <div id="statOverrides" class="text-2xl sm:text-3xl font-black text-amber-400 mt-1">0</div>
+        <div class="text-[10px] text-amber-300/80 mt-1">Mandatory reason logged</div>
+      </div>
+    </div>
+
+    <!-- Source Health Telemetry Table -->
+    <div class="bg-slate-900 rounded-3xl border border-slate-800 overflow-hidden shadow-xl space-y-4 p-6">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <span class="text-lg">🌐</span>
+          <h2 class="text-base font-bold text-white">Official Sources Live Status Telemetry</h2>
+        </div>
+        <span class="text-[10px] font-bold text-slate-400 bg-slate-800 px-2 py-1 rounded-lg">52 Sources Indexed</span>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-850/60 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+              <th class="p-3">Source ID</th>
+              <th class="p-3">Authority Code</th>
+              <th class="p-3">Official URL</th>
+              <th class="p-3">Health Status</th>
+              <th class="p-3">Freshness</th>
+              <th class="p-3">Latency</th>
+              <th class="p-3 text-right">Action</th>
+            </tr>
+          </thead>
+          <tbody id="sourceTableBody" class="divide-y divide-slate-800 text-xs">
+            <tr>
+              <td colspan="7" class="p-6 text-center text-slate-500">Loading live telemetry...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- 2 Column Section: Corrigenda Audit & Recent Override Logs -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- Statutory Corrigenda Audit -->
+      <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+        <div class="flex items-center space-x-2">
+          <span class="text-lg">📜</span>
+          <h2 class="text-base font-bold text-white">Statutory Corrigenda & Historical Preservation</h2>
+        </div>
+        <p class="text-[11px] text-slate-400 leading-snug">Preserves original and superseded official values with exact publication timestamps.</p>
+        <div id="corrigendaContainer" class="space-y-3">
+          <div class="text-xs text-slate-500 text-center py-6">Loading corrigenda...</div>
+        </div>
+      </div>
+
+      <!-- Admin Overrides Audit Log -->
+      <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+        <div class="flex items-center space-x-2">
+          <span class="text-lg">🛡️</span>
+          <h2 class="text-base font-bold text-white">Auditable Manual Overrides Log</h2>
+        </div>
+        <p class="text-[11px] text-slate-400 leading-snug">Requires mandatory admin identity, justification reason, old value, and new value.</p>
+        <div id="overridesContainer" class="space-y-3">
+          <div class="text-xs text-slate-500 text-center py-6">Loading override audit trail...</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    async function loadOpsData() {
+      try {
+        const [overviewRes, sourcesRes, corrRes, overridesRes] = await Promise.all([
+          fetch('/api/v1/admin/operations').then(r => r.json()),
+          fetch('/api/v1/sources/health').then(r => r.json()),
+          fetch('/api/v1/sources/corrigenda').then(r => r.json()),
+          fetch('/api/v1/admin/overrides').then(r => r.json())
+        ]);
+
+        if (overviewRes.success) {
+          const ov = overviewRes.overview;
+          document.getElementById('statTotalSources').textContent = ov.sourceHealth.totalMonitoredSources;
+          document.getElementById('statHealthRatio').textContent = `${Math.round(ov.sourceHealth.healthRatio * 100)}% Healthy`;
+          document.getElementById('statLatency').textContent = `${ov.sourceHealth.averageLatencyMs} ms`;
+          document.getElementById('statCriticalChanges').textContent = ov.sourceChanges.criticalCount;
+          document.getElementById('statOverrides').textContent = ov.systemCounters.totalOverrides;
+        }
+
+        if (sourcesRes.success) {
+          renderSources(sourcesRes.monitors);
+        }
+
+        if (corrRes.success) {
+          renderCorrigenda(corrRes.corrigenda);
+        }
+
+        if (overridesRes.success) {
+          renderOverrides(overridesRes.overrides);
+        }
+      } catch (e) {
+        console.error('Ops data loading failed:', e);
+      }
+    }
+
+    function renderSources(monitors) {
+      const tbody = document.getElementById('sourceTableBody');
+      tbody.innerHTML = monitors.slice(0, 15).map(m => `
+        <tr class="hover:bg-slate-850/40 transition">
+          <td class="p-3 font-mono font-bold text-slate-300 text-[11px]">${m.source_id}</td>
+          <td class="p-3 font-bold text-white text-[11px]">${m.authority_code}</td>
+          <td class="p-3 text-[11px] text-cyan-400 truncate max-w-xs"><a href="${m.portal_url}" target="_blank">${m.portal_url}</a></td>
+          <td class="p-3">
+            <span class="text-[9px] font-bold px-2 py-0.5 rounded-full ${m.availability_status === 'HEALTHY' ? 'bg-emerald-500/20 text-emerald-400' : 'bg-rose-500/20 text-rose-400'}">${m.availability_status}</span>
+          </td>
+          <td class="p-3 text-[10px] text-slate-400">${m.source_freshness_status}</td>
+          <td class="p-3 font-mono text-[11px] text-amber-300">${m.check_latency_ms || 45} ms</td>
+          <td class="p-3 text-right">
+            <button onclick="checkSingleSource('${m.source_id}')" class="px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-[10px] font-bold text-slate-300 border border-slate-700">Check Now</button>
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    function renderCorrigenda(corrigenda) {
+      const container = document.getElementById('corrigendaContainer');
+      if (corrigenda.length === 0) {
+        container.innerHTML = '<div class="text-xs text-slate-500 text-center py-4">No corrigenda recorded.</div>';
+        return;
+      }
+      container.innerHTML = corrigenda.map(c => `
+        <div class="p-3.5 rounded-2xl bg-slate-850 border border-slate-750 space-y-1.5">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-white">${c.corrigendum_number}</span>
+            <span class="text-[9px] text-slate-400 font-mono">${c.publication_date}</span>
+          </div>
+          <div class="text-xs font-semibold text-amber-300">${c.title}</div>
+          <div class="text-[11px] text-slate-400">
+            <span class="text-rose-400 line-through mr-2">Old: ${c.original_field_value}</span>
+            <span class="text-emerald-400 font-bold">New: ${c.corrected_field_value}</span>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderOverrides(overrides) {
+      const container = document.getElementById('overridesContainer');
+      if (overrides.length === 0) {
+        container.innerHTML = '<div class="text-xs text-slate-500 text-center py-4">No manual overrides recorded in database. System running in pure verified state.</div>';
+        return;
+      }
+      container.innerHTML = overrides.map(o => `
+        <div class="p-3.5 rounded-2xl bg-slate-850 border border-slate-750 space-y-1">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-bold text-rose-400">${o.target_entity_type}: ${o.target_entity_id}</span>
+            <span class="text-[10px] text-slate-400">By ${o.admin_identity}</span>
+          </div>
+          <div class="text-[11px] text-slate-300 font-semibold">Field: ${o.field_name}</div>
+          <div class="text-[11px] text-slate-400">Reason: ${o.override_reason}</div>
+          <div class="text-[9px] text-slate-500">${new Date(o.created_at).toLocaleString()}</div>
+        </div>
+      `).join('');
+    }
+
+    async function triggerBatchCheck() {
+      const btn = document.getElementById('checkAllBtn');
+      btn.textContent = 'Checking 52 Sources...';
+      btn.disabled = true;
+      await fetch('/api/v1/sources/check', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({}) });
+      btn.textContent = '🔄 Run All Source Checks';
+      btn.disabled = false;
+      loadOpsData();
+    }
+
+    async function checkSingleSource(sourceId) {
+      await fetch('/api/v1/sources/check', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sourceId })
+      });
+      loadOpsData();
+    }
+
+    async function promptRecordOverride() {
+      const adminIdentity = prompt('Enter Admin Identity / Badge ID:', 'sec-admin-01');
+      if (!adminIdentity) return;
+      const targetEntityType = prompt('Enter Entity Type (SOURCE, EXAM, QUESTION, BLUEPRINT):', 'SOURCE');
+      const targetEntityId = prompt('Enter Target Entity ID (e.g. src-ssc-portal):', 'src-ssc-portal');
+      const fieldName = prompt('Enter Field Name (e.g. availability_status):', 'availability_status');
+      const oldValue = prompt('Enter Current Value:', 'HEALTHY');
+      const newValue = prompt('Enter Overridden Value:', 'REQUIRES_REVIEW');
+      const overrideReason = prompt('Enter Mandatory Audit Justification Reason:', 'Official portal maintenance announced in circular #401');
+      if (!overrideReason) {
+        alert('Override aborted: Reason is mandatory.');
+        return;
+      }
+
+      await fetch('/api/v1/admin/overrides', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          adminIdentity,
+          targetEntityType,
+          targetEntityId,
+          fieldName,
+          oldValue,
+          newValue,
+          overrideReason
+        })
+      });
+      loadOpsData();
+    }
+
+    document.addEventListener('DOMContentLoaded', loadOpsData);
+  </script>
+</body>
+</html>

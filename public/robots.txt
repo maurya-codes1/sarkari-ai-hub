@@ -1,0 +1,8 @@
+# robots.txt for SarkariAI Hub
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /scratch/
+
+# Sitemap location
+Sitemap: http://localhost:5000/sitemap.xml

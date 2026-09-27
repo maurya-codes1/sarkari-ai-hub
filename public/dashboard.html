@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidate Preparation Intelligence Dashboard — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">Candidate Intelligence Portal</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/calendar.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📅 National Calendar</a>
+        <a href="/admin-ops.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition">⚙️ Ops Monitor</a>
+        <button id="notifBellBtn" onclick="toggleNotifications()" class="relative p-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300">
+          <span class="text-sm">🔔</span>
+          <span id="unreadBadge" class="absolute -top-1 -right-1 w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] font-bold flex items-center justify-center hidden">0</span>
+        </button>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Notification Drawer (Overlay) -->
+  <div id="notifDrawer" class="fixed inset-y-0 right-0 w-80 sm:w-96 bg-slate-900 border-l border-slate-800 shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+    <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <span class="text-lg">🔔</span>
+        <h3 class="font-bold text-sm text-white">Official Verified Alerts</h3>
+      </div>
+      <div class="flex items-center space-x-2">
+        <button onclick="markAllNotificationsRead()" class="text-[10px] font-bold text-saffron-400 hover:underline">Mark all read</button>
+        <button onclick="toggleNotifications()" class="text-slate-400 hover:text-white text-sm">✕</button>
+      </div>
+    </div>
+    <div id="notifList" class="flex-1 overflow-y-auto p-3 space-y-2">
+      <div class="text-xs text-slate-400 text-center py-8">Loading alerts...</div>
+    </div>
+  </div>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Welcome Header & Active Exam Selector -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-saffron-500/10 border border-saffron-500/30 text-saffron-400 text-xs font-bold mb-2">
+          <span>● Production Intelligence Engine</span>
+          <span>•</span>
+          <span>Official-Source First</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Candidate Preparation Dashboard</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Grounded in official syllabus blueprints, verified historical question papers, and statutory gazette corrigenda.</p>
+      </div>
+      <div class="flex items-center space-x-3">
+        <label for="examSelect" class="text-xs font-bold text-slate-400">Target Exam:</label>
+        <select id="examSelect" onchange="loadDashboard(this.value)" class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs font-bold focus:ring-2 focus:ring-saffron-500 outline-none">
+          <option value="ssc-cgl">SSC CGL Tier-1 (Full Exam Ready)</option>
+          <option value="upsc-cse">UPSC Civil Services Prelims (Monitoring)</option>
+          <option value="cbse-board">CBSE Board Class 10 Science (Sample Practice)</option>
+          <option value="rrb-ntpc">RRB NTPC CBT-1 (Monitoring)</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- 4 Key Performance Metric Cards -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Questions Practiced</div>
+        <div id="statAttempted" class="text-2xl sm:text-3xl font-black text-white mt-1">0</div>
+        <div class="text-[10px] text-emerald-400 mt-1">Verified practice tracking</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Accuracy Rate</div>
+        <div id="statAccuracy" class="text-2xl sm:text-3xl font-black text-amber-400 mt-1">0%</div>
+        <div class="text-[10px] text-slate-400 mt-1">Objective score-based metric</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Time Invested</div>
+        <div id="statTime" class="text-2xl sm:text-3xl font-black text-cyan-400 mt-1">0 min</div>
+        <div class="text-[10px] text-slate-400 mt-1">Across practice & mocks</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-2xl border border-slate-800">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">PYQ Coverage</div>
+        <div id="statPyq" class="text-2xl sm:text-3xl font-black text-rose-400 mt-1">0</div>
+        <div class="text-[10px] text-rose-300/80 mt-1">Official administered PYQs</div>
+      </div>
+    </div>
+
+    <!-- Grid: Applications & Explainable Recommendations -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Left 2 Cols: Tracked Applications & Weak Areas -->
+      <div class="lg:col-span-2 space-y-8">
+        <!-- Tracked Applications Section -->
+        <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+              <span class="text-lg">📋</span>
+              <h2 class="text-base font-bold text-white">Application Tracker & Deadlines</h2>
+            </div>
+            <button onclick="promptTrackApplication()" class="px-3 py-1.5 rounded-xl bg-saffron-500/20 hover:bg-saffron-500/30 text-saffron-400 text-xs font-bold border border-saffron-500/40 transition">+ Track New Exam</button>
+          </div>
+          <div id="applicationsContainer" class="space-y-3">
+            <div class="text-xs text-slate-500 text-center py-6">No exams currently tracked in your application manager. Click "+ Track New Exam" above.</div>
+          </div>
+        </div>
+
+        <!-- Objective Weak-Topic Drill Engine -->
+        <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+          <div class="flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+              <span class="text-lg">🎯</span>
+              <h2 class="text-base font-bold text-white">Topic Performance & Targeted Review</h2>
+            </div>
+            <span class="text-[10px] font-bold text-slate-400 bg-slate-800 px-2 py-1 rounded-lg">Performance-Driven</span>
+          </div>
+          <div id="weakTopicsContainer" class="space-y-3">
+            <div class="text-xs text-slate-500 text-center py-6">All practiced topics currently meet passing accuracy thresholds (>60%).</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right 1 Col: Explainable Preparation Recommendations & Gate Status -->
+      <div class="space-y-8">
+        <!-- Explainable Recommendations -->
+        <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+          <div class="flex items-center space-x-2">
+            <span class="text-lg">💡</span>
+            <h2 class="text-base font-bold text-white">Recommended Practice</h2>
+          </div>
+          <p class="text-[11px] text-slate-400 leading-relaxed">Each recommendation specifies its exact rationale derived from verified blueprints and question eligibility.</p>
+          <div id="recommendationsContainer" class="space-y-3">
+            <div class="text-xs text-slate-500 text-center py-6">Loading verified recommendations...</div>
+          </div>
+        </div>
+
+        <!-- Gating & Safety Invariant Card -->
+        <div class="bg-slate-900/60 p-5 rounded-2xl border border-slate-800 space-y-3 text-xs">
+          <div class="font-bold text-slate-300 flex items-center space-x-2">
+            <span>🛡️</span>
+            <span>Phase 11 Safety Invariant</span>
+          </div>
+          <p class="text-slate-400 text-[11px] leading-relaxed">
+            SarkariAI Hub guarantees that AI practice questions <strong class="text-rose-400">never unblock Full Exam readiness</strong>. Full Mocks are only unlocked when 100% of blueprint sections are satisfied by verified authentic question papers.
+          </p>
+          <div class="flex items-center justify-between pt-2 border-t border-slate-800 text-[10px]">
+            <span class="text-slate-500">SSC CGL Tier-1:</span>
+            <span class="text-emerald-400 font-bold">READY (100 Verified PYQs)</span>
+          </div>
+          <div class="flex items-center justify-between text-[10px]">
+            <span class="text-slate-500">Other Nationwide Exams (48):</span>
+            <span class="text-amber-400 font-bold">SAFELY BLOCKED (Practice Available)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    async function loadDashboard(examId = 'ssc-cgl') {
+      try {
+        const res = await fetch(`/api/v1/user/dashboard?examId=${encodeURIComponent(examId)}`);
+        const json = await res.json();
+        if (!json.success) return;
+
+        const data = json.data;
+        document.getElementById('statAttempted').textContent = data.overallMetrics.questionsAttempted;
+        document.getElementById('statAccuracy').textContent = `${data.overallMetrics.accuracyPercentage}%`;
+        document.getElementById('statTime').textContent = `${data.overallMetrics.totalTimeMinutes} min`;
+        document.getElementById('statPyq').textContent = data.overallMetrics.pyqsAttempted;
+
+        // Render Recommendations
+        const recContainer = document.getElementById('recommendationsContainer');
+        if (data.recommendations && data.recommendations.length > 0) {
+          recContainer.innerHTML = data.recommendations.map(r => `
+            <div class="p-3.5 rounded-2xl bg-slate-850 border border-slate-750 space-y-2 hover:border-slate-600 transition">
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-bold text-white">${r.title}</span>
+                <span class="text-[9px] font-bold px-2 py-0.5 rounded-full ${r.type === 'FULL_MOCK' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-saffron-500/20 text-saffron-400 border border-saffron-500/30'}">${r.difficulty}</span>
+              </div>
+              <p class="text-[11px] text-slate-400 leading-snug">${r.rationale}</p>
+              <div class="flex items-center justify-between pt-1">
+                <span class="text-[10px] text-slate-500">${r.questionCount} Questions</span>
+                <a href="/#tool/quiz" class="text-[10px] font-bold text-saffron-400 hover:underline">Start Practice →</a>
+              </div>
+            </div>
+          `).join('');
+        } else {
+          recContainer.innerHTML = '<div class="text-xs text-slate-500 text-center py-4">No active recommendations.</div>';
+        }
+
+        // Render Applications
+        loadApplications();
+        loadNotifications();
+      } catch (e) {
+        console.error('Error loading dashboard:', e);
+      }
+    }
+
+    async function loadApplications() {
+      const res = await fetch('/api/v1/user/applications');
+      const json = await res.json();
+      const container = document.getElementById('applicationsContainer');
+      if (json.success && json.applications.length > 0) {
+        container.innerHTML = json.applications.map(app => `
+          <div class="p-4 rounded-2xl bg-slate-850 border border-slate-750 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+              <div class="flex items-center space-x-2">
+                <span class="font-bold text-xs text-white">${app.exam_name || app.exam_id}</span>
+                <span class="text-[9px] font-bold px-2 py-0.5 rounded-full ${app.is_eligible ? 'bg-emerald-500/20 text-emerald-400' : 'bg-rose-500/20 text-rose-400'}">${app.is_eligible ? 'Verified Eligible' : 'Ineligible'}</span>
+                <span class="text-[9px] font-bold px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">${app.application_status}</span>
+              </div>
+              <div class="text-[11px] text-slate-400 mt-1">${app.eligibility_notes} • Fee: ₹${app.fee_payable}</div>
+              <div class="text-[10px] text-amber-400/80 mt-0.5">${app.correction_window_notes}</div>
+            </div>
+            <div class="flex items-center space-x-2 shrink-0">
+              <a href="${app.official_portal_url}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-[11px] font-bold border border-slate-700 transition">Official Portal ↗</a>
+              <select onchange="updateAppStatus('${app.tracker_id}', this.value)" class="bg-slate-800 border border-slate-700 text-[11px] font-bold text-white rounded-xl px-2 py-1.5 outline-none">
+                <option value="INTENDED" ${app.application_status === 'INTENDED' ? 'selected' : ''}>Intended</option>
+                <option value="APPLIED" ${app.application_status === 'APPLIED' ? 'selected' : ''}>Applied</option>
+                <option value="PAYMENT_DONE" ${app.application_status === 'PAYMENT_DONE' ? 'selected' : ''}>Payment Done</option>
+                <option value="ADMIT_CARD_DOWNLOADED" ${app.application_status === 'ADMIT_CARD_DOWNLOADED' ? 'selected' : ''}>Admit Card</option>
+              </select>
+            </div>
+          </div>
+        `).join('');
+      } else {
+        container.innerHTML = '<div class="text-xs text-slate-500 text-center py-6">No exams currently tracked in your application manager. Click "+ Track New Exam" above.</div>';
+      }
+    }
+
+    async function promptTrackApplication() {
+      const examId = prompt('Enter Exam ID to track (e.g. ssc-cgl, upsc-cse, rrb-ntpc):', 'ssc-cgl');
+      if (!examId) return;
+      const dob = prompt('Enter Date of Birth (YYYY-MM-DD):', '1998-05-15');
+      const category = prompt('Enter Category (UR, OBC, SC, ST, EWS):', 'OBC');
+
+      await fetch('/api/v1/user/applications', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ examId, candidateDob: dob, candidateCategory: category })
+      });
+      loadApplications();
+    }
+
+    async function updateAppStatus(trackerId, status) {
+      await fetch(`/api/v1/user/applications/${trackerId}/status`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ status })
+      });
+      loadApplications();
+    }
+
+    async function loadNotifications() {
+      const res = await fetch('/api/v1/notifications');
+      const json = await res.json();
+      const badge = document.getElementById('unreadBadge');
+      if (json.success) {
+        if (json.unreadCount > 0) {
+          badge.textContent = json.unreadCount;
+          badge.classList.remove('hidden');
+        } else {
+          badge.classList.add('hidden');
+        }
+
+        const notifList = document.getElementById('notifList');
+        if (json.notifications.length > 0) {
+          notifList.innerHTML = json.notifications.map(n => `
+            <div class="p-3 rounded-xl ${n.is_read ? 'bg-slate-850/50' : 'bg-slate-800 border-l-2 border-saffron-500'} space-y-1">
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold ${n.severity === 'CRITICAL' ? 'text-rose-400' : 'text-amber-400'}">${n.notification_type}</span>
+                <span class="text-[9px] text-slate-500">${new Date(n.created_at).toLocaleDateString()}</span>
+              </div>
+              <div class="text-xs font-bold text-white">${n.title}</div>
+              <div class="text-[11px] text-slate-400 leading-snug">${n.summary}</div>
+            </div>
+          `).join('');
+        } else {
+          notifList.innerHTML = '<div class="text-xs text-slate-500 text-center py-8">No alerts.</div>';
+        }
+      }
+    }
+
+    function toggleNotifications() {
+      const drawer = document.getElementById('notifDrawer');
+      drawer.classList.toggle('translate-x-full');
+    }
+
+    async function markAllNotificationsRead() {
+      await fetch('/api/v1/notifications/read-all', { method: 'PUT' });
+      loadNotifications();
+    }
+
+    // Auto-init on load
+    document.addEventListener('DOMContentLoaded', () => {
+      loadDashboard('ssc-cgl');
+    });
+  </script>
+</body>
+</html>

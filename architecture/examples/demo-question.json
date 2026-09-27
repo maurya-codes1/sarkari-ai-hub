@@ -1,0 +1,52 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates source attribution, multilinguality, versioning, and explanation",
+  "questionId": "q-demo-2026-phy-001",
+  "examVersionId": "ver-demo-exam-2026",
+  "boardId": null,
+  "subjectId": "subj-advanced-science-math",
+  "chapterId": "chap-demo-mechanics",
+  "topicId": "top-demo-newton-laws",
+  "questionTypeId": "single_mcq",
+  "difficulty": "MEDIUM",
+  "marks": 1.75,
+  "sourceType": "OFFICIAL_MODEL",
+  "sourceId": "src-demo-model-paper-2026",
+  "officialYear": "2026",
+  "isVerified": true,
+  "verifiedAt": "2026-09-27T00:00:00Z",
+  "currentVersion": 1,
+  "languageContent": {
+    "hi": {
+      "q": "यदि 5 kg द्रव्यमान वाले किसी पिंड पर 20 N का नियत बल 3 सेकंड तक लगाया जाए, तो पिंड में उत्पन्न संवेग (Momentum) में कितना परिवर्तन होगा?",
+      "options": [
+        "A) 15 kg·m/s",
+        "B) 60 kg·m/s",
+        "C) 100 kg·m/s",
+        "D) 300 kg·m/s"
+      ],
+      "ans": "B) 60 kg·m/s",
+      "exp": "💡 सही उत्तर: B) 60 kg·m/s। न्यूटन के द्वितीय नियमानुसार: आवेग (Impulse) = संवेग में परिवर्तन (Δp) = बल (F) × समयांतराल (Δt) = 20 N × 3 s = 60 kg·m/s।"
+    },
+    "en": {
+      "q": "If a constant force of 20 N is applied to a body of mass 5 kg for 3 seconds, what will be the change in momentum (Δp) of the body?",
+      "options": [
+        "A) 15 kg·m/s",
+        "B) 60 kg·m/s",
+        "C) 100 kg·m/s",
+        "D) 300 kg·m/s"
+      ],
+      "ans": "B) 60 kg·m/s",
+      "exp": "💡 Correct Answer: B) 60 kg·m/s. By Newton's Second Law: Impulse = Change in Momentum (Δp) = Force (F) × Time (Δt) = 20 N × 3 s = 60 kg·m/s."
+    }
+  },
+  "correctAnswer": {
+    "index": 1,
+    "key": "B",
+    "value": "60 kg·m/s"
+  },
+  "tags": [
+    "SAMPLE_MODEL_2026",
+    "NEWTON_SECOND_LAW",
+    "IMPULSE_MOMENTUM_THEOREM"
+  ]
+}

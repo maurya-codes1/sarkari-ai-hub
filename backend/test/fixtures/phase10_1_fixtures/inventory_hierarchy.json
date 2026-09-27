@@ -1,0 +1,268 @@
+[
+  {
+    "category": "SSC",
+    "examCount": 7,
+    "exams": [
+      {
+        "examId": "ssc-cpo",
+        "exam_id": "ssc-cpo",
+        "nameEn": "SSC Central Police Organization (Sub-Inspector in Delhi Police & CAPFs)",
+        "exam_name_en": "SSC Central Police Organization (Sub-Inspector in Delhi Police & CAPFs)",
+        "nameHi": "एसएससी सीपीओ (दिल्ली पुलिस एवं सीएपीएफ में उप-निरीक्षक)",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "ssc-cgl",
+        "exam_id": "ssc-cgl",
+        "nameEn": "SSC Combined Graduate Level (CGL)",
+        "exam_name_en": "SSC Combined Graduate Level (CGL)",
+        "nameHi": "एसएससी संयुक्त स्नातक स्तरीय परीक्षा (सीजीएल)",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "FULL_EXAM_READY"
+      },
+      {
+        "examId": "ssc-chsl",
+        "exam_id": "ssc-chsl",
+        "nameEn": "SSC Combined Higher Secondary Level (CHSL)",
+        "exam_name_en": "SSC Combined Higher Secondary Level (CHSL)",
+        "nameHi": "एसएससी कम्बाइंड हायर सेकेंडरी लेवल (सीएचएसएल)",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "ssc-gd",
+        "exam_id": "ssc-gd",
+        "nameEn": "SSC General Duty Constable (CAPFs, SSF, Assam Rifles)",
+        "exam_name_en": "SSC General Duty Constable (CAPFs, SSF, Assam Rifles)",
+        "nameHi": "एसएससी जीडी कांस्टेबल (सीएपीएफ, एसएसएफ, असम राइफल्स)",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "ssc-je",
+        "exam_id": "ssc-je",
+        "nameEn": "SSC Junior Engineer (Civil, Mechanical, Electrical)",
+        "exam_name_en": "SSC Junior Engineer (Civil, Mechanical, Electrical)",
+        "nameHi": "एसएससी जूनियर इंजीनियर (सिविल, मैकेनिकल, इलेक्ट्रिकल)",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "ssc-mts",
+        "exam_id": "ssc-mts",
+        "nameEn": "SSC Multi-Tasking Staff & Havaldar (MTS)",
+        "exam_name_en": "SSC Multi-Tasking Staff & Havaldar (MTS)",
+        "nameHi": "एसएससी मल्टी टास्किंग स्टाफ एवं हवलदार (एमटीएस)",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 1,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "ssc-steno",
+        "exam_id": "ssc-steno",
+        "nameEn": "SSC Stenographer Grade C & D",
+        "exam_name_en": "SSC Stenographer Grade C & D",
+        "nameHi": "एसएससी आशुलिपिक ग्रेड सी एवं डी",
+        "authority": "Staff Selection Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      }
+    ]
+  },
+  {
+    "category": "RAILWAY",
+    "examCount": 6,
+    "exams": [
+      {
+        "examId": "rpf-constable",
+        "exam_id": "rpf-constable",
+        "nameEn": "RPF Constable (Executive)",
+        "exam_name_en": "RPF Constable (Executive)",
+        "nameHi": "आरपीएफ कांस्टेबल (कार्यकारी)",
+        "authority": "Ministry of Railways / RPF",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "rpf-si",
+        "exam_id": "rpf-si",
+        "nameEn": "RPF Sub-Inspector (SI)",
+        "exam_name_en": "RPF Sub-Inspector (SI)",
+        "nameHi": "आरपीएफ उप-निरीक्षक (एसआई)",
+        "authority": "Ministry of Railways / RPF",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "rrb-alp",
+        "exam_id": "rrb-alp",
+        "nameEn": "RRB Assistant Loco Pilot (ALP)",
+        "exam_name_en": "RRB Assistant Loco Pilot (ALP)",
+        "nameHi": "आरआरबी सहायक लोको पायलट (एएलपी)",
+        "authority": "Railway Recruitment Boards",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "rrb-group-d",
+        "exam_id": "rrb-group-d",
+        "nameEn": "RRB Group D (RRC Level-1 Track Maintainer & Assistant)",
+        "exam_name_en": "RRB Group D (RRC Level-1 Track Maintainer & Assistant)",
+        "nameHi": "आरआरबी ग्रुप डी (आरआरसी लेवल-1 पद)",
+        "authority": "Railway Recruitment Cells",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "rrb-ntpc",
+        "exam_id": "rrb-ntpc",
+        "nameEn": "RRB NTPC (Graduate & Undergraduate Posts)",
+        "exam_name_en": "RRB NTPC (Graduate & Undergraduate Posts)",
+        "nameHi": "आरआरबी एनटीपीसी (गैर-तकनीकी लोकप्रिय श्रेणियां)",
+        "authority": "Railway Recruitment Boards",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "rrb-technician",
+        "exam_id": "rrb-technician",
+        "nameEn": "RRB Technician Grade-I Signal & Grade-III",
+        "exam_name_en": "RRB Technician Grade-I Signal & Grade-III",
+        "nameHi": "आरआरबी तकनीशियन ग्रेड-I एवं ग्रेड-III",
+        "authority": "Railway Recruitment Boards",
+        "scope": "NATIONAL",
+        "stageCount": 1,
+        "readiness": "PRACTICE_READY"
+      }
+    ]
+  },
+  {
+    "category": "BANKING",
+    "examCount": 5,
+    "exams": [
+      {
+        "examId": "ibps-clerk",
+        "exam_id": "ibps-clerk",
+        "nameEn": "IBPS Clerk (Customer Support & Sales)",
+        "exam_name_en": "IBPS Clerk (Customer Support & Sales)",
+        "nameHi": "आईबीपीएस क्लर्क (लिपिकीय संवर्ग)",
+        "authority": "Institute of Banking Personnel Selection",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "ibps-po-clerk",
+        "exam_id": "ibps-po-clerk",
+        "nameEn": "IBPS Probationary Officer (PO / MT)",
+        "exam_name_en": "IBPS Probationary Officer (PO / MT)",
+        "nameHi": "आईबीपीएस प्रोबेशनरी ऑफिसर (पीओ)",
+        "authority": "Institute of Banking Personnel Selection",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "rbi-grade-b",
+        "exam_id": "rbi-grade-b",
+        "nameEn": "RBI Grade B Officer (General / DEPR / DSIM)",
+        "exam_name_en": "RBI Grade B Officer (General / DEPR / DSIM)",
+        "nameHi": "आरबीआई ग्रेड बी अधिकारी",
+        "authority": "Reserve Bank of India Services Board",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "sbi-clerk",
+        "exam_id": "sbi-clerk",
+        "nameEn": "SBI Junior Associates (Customer Support & Sales)",
+        "exam_name_en": "SBI Junior Associates (Customer Support & Sales)",
+        "nameHi": "एसबीआई जूनियर एसोसिएट्स (क्लर्क)",
+        "authority": "State Bank of India",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "sbi-po",
+        "exam_id": "sbi-po",
+        "nameEn": "SBI Probationary Officer (PO)",
+        "exam_name_en": "SBI Probationary Officer (PO)",
+        "nameHi": "एसबीआई प्रोबेशनरी ऑफिसर (पीओ)",
+        "authority": "State Bank of India",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      }
+    ]
+  },
+  {
+    "category": "UPSC",
+    "examCount": 4,
+    "exams": [
+      {
+        "examId": "upsc-capf",
+        "exam_id": "upsc-capf",
+        "nameEn": "UPSC Central Armed Police Forces (Assistant Commandants)",
+        "exam_name_en": "UPSC Central Armed Police Forces (Assistant Commandants)",
+        "nameHi": "केंद्रीय सशस्त्र पुलिस बल (सहायक कमांडेंट)",
+        "authority": "Union Public Service Commission",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "upsc-cse",
+        "exam_id": "upsc-cse",
+        "nameEn": "UPSC Civil Services Examination (CSE - IAS/IPS/IFS)",
+        "exam_name_en": "UPSC Civil Services Examination (CSE - IAS/IPS/IFS)",
+        "nameHi": "संघ लोक सेवा आयोग सिविल सेवा परीक्षा (आईएएस/आईपीएस)",
+        "authority": "Union Public Service Commission",
+        "scope": "NATIONAL",
+        "stageCount": 3,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "upsc-cds",
+        "exam_id": "upsc-cds",
+        "nameEn": "UPSC Combined Defence Services Examination (CDS)",
+        "exam_name_en": "UPSC Combined Defence Services Examination (CDS)",
+        "nameHi": "संयुक्त रक्षा सेवा परीक्षा (सीडीएस)",
+        "authority": "Union Public Service Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      },
+      {
+        "examId": "upsc-nda",
+        "exam_id": "upsc-nda",
+        "nameEn": "UPSC National Defence Academy & Naval Academy (NDA/NA)",
+        "exam_name_en": "UPSC National Defence Academy & Naval Academy (NDA/NA)",
+        "nameHi": "राष्ट्रीय रक्षा अकादमी एवं नौसेना अकादमी परीक्षा (एनडीए)",
+        "authority": "Union Public Service Commission",
+        "scope": "NATIONAL",
+        "stageCount": 2,
+        "readiness": "PRACTICE_READY"
+      }
+    ]
+  }
+]

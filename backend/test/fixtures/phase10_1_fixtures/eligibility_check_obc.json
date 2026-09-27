@@ -1,0 +1,17 @@
+{
+  "isEligible": true,
+  "entityId": "ssc-cgl",
+  "category": "OBC",
+  "relaxationsApplied": [
+    "OBC relaxation of 3 years (max permissible age: 35)."
+  ],
+  "errors": [],
+  "disqualifications": [],
+  "remainingAttempts": "UNLIMITED",
+  "criteriaSummary": {
+    "minAge": 18,
+    "maxAge": 32,
+    "qualification": "Bachelor's Degree in any discipline from a recognized University or equivalent institute.",
+    "maxAttempts": "UNLIMITED"
+  }
+}

@@ -1,0 +1,567 @@
+{
+  "working": [
+    {
+      "url": "https://www.cbse.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://parikshasangam.cbse.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://www.cbse.gov.in/cbsenew/circulars.html",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://cbseresults.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://digilocker.gov.in",
+      "status": 301,
+      "location": "https://www.digilocker.gov.in:443/",
+      "ok": true
+    },
+    {
+      "url": "https://upmsp.edu.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://biharboardonline.com",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "http://secondary.biharboardonline.com",
+      "status": 301,
+      "location": "https://secondary.biharboardonline.com/",
+      "ok": true
+    },
+    {
+      "url": "https://bsebinter.org",
+      "status": 301,
+      "location": "https://www.cmdkerala.net/",
+      "ok": true
+    },
+    {
+      "url": "https://mahahsscboard.in",
+      "status": 302,
+      "location": "/mr",
+      "ok": true
+    },
+    {
+      "url": "https://rajeduboard.rajasthan.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://mpbse.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://mpbse.mponline.gov.in",
+      "status": 302,
+      "location": "/MPBSE/MPBSE",
+      "ok": true
+    },
+    {
+      "url": "https://dge.tn.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://kseab.karnataka.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://www.gseb.org",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://result.gseb.org",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://bseh.org.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://bseh.org.in/all-results",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://jac.jharkhand.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://jacresults.com",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://punjab.indiaresults.com",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://nios.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://sdmis.nios.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://www.nios.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://results.nios.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://cgbse.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://results.cg.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://bseodisha.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://chseodisha.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://sebaonline.org",
+      "status": 301,
+      "location": "https://www.sebaonline.org/",
+      "ok": true
+    },
+    {
+      "url": "https://ahsec.assam.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://site.sebaonline.org",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://bse.telangana.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://bie.ap.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://results.cgg.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://ssc.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://ssc.gov.in/portal/apply",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://ssc.gov.in/portal/results",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://www.rrbapply.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://www.rrbapply.gov.in/#/auth/home",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://indianrailways.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://www.rrbchennai.gov.in",
+      "status": 302,
+      "location": "https://rrb.indianrailways.gov.in/chennai",
+      "ok": true
+    },
+    {
+      "url": "https://upsc.gov.in",
+      "status": 307,
+      "location": "https://www.upsc.gov.in",
+      "ok": true
+    },
+    {
+      "url": "https://upsconline.nic.in",
+      "status": 302,
+      "location": "https://upsconline.nic.in/candidate/realms/candidate-portal/protocol/openid-connect/auth?client_id=account&redirect_uri=https%3A%2F%2Fupsconline.nic.in%2Fcandidate%2Frealms%2Fcandidate-portal%2Faccount%2Flogin-redirect&state=0%2Fd597e8fb-1530-96a7-ae4c-06e3d84d339c&response_type=code&scope=openid",
+      "ok": true
+    },
+    {
+      "url": "https://upsc.gov.in/examinations/active-exams",
+      "status": 307,
+      "location": "https://www.upsc.gov.in",
+      "ok": true
+    },
+    {
+      "url": "https://upsc.gov.in/examination/written-results",
+      "status": 307,
+      "location": "https://www.upsc.gov.in",
+      "ok": true
+    },
+    {
+      "url": "https://joinindianarmy.nic.in",
+      "status": 302,
+      "location": "/Authentication.aspx",
+      "ok": true
+    },
+    {
+      "url": "https://agnipathvayu.cdac.in",
+      "status": 302,
+      "location": "/AV",
+      "ok": true
+    },
+    {
+      "url": "https://www.joinindiannavy.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://sbi.co.in/careers",
+      "status": 302,
+      "location": "http://sbi.co.in/web/careers",
+      "ok": true
+    },
+    {
+      "url": "https://uppbpb.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://delhipolice.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://police.rajasthan.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://sso.rajasthan.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://esb.mp.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://esb.mponline.gov.in",
+      "status": 302,
+      "location": "/Portal/Examinations/Vyapam/examsList.aspx",
+      "ok": true
+    },
+    {
+      "url": "https://hssc.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://mahapolice.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://neet.nta.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://neet.nta.nic.in/information-bulletin",
+      "status": 301,
+      "location": "https://neet.nta.nic.in/document/information-bulletin-english/",
+      "ok": true
+    },
+    {
+      "url": "https://exams.nta.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://jeemain.nta.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://jeeadv.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://consortiumofnlus.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://ctet.nic.in/information-bulletin",
+      "status": 301,
+      "location": "https://ctet.nic.in/information-bulletin/",
+      "ok": true
+    },
+    {
+      "url": "https://updeled.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://onlinebpsc.bihar.gov.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://ugcnet.nta.ac.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    },
+    {
+      "url": "https://ugcnet.nta.nic.in",
+      "status": 200,
+      "location": null,
+      "ok": true
+    }
+  ],
+  "failed": [
+    {
+      "url": "https://cisce.org",
+      "status": 403,
+      "location": null,
+      "ok": false
+    },
+    {
+      "url": "https://cisce.org/notice-board",
+      "status": 403,
+      "location": null,
+      "ok": false
+    },
+    {
+      "url": "https://results.cisce.org",
+      "status": 403,
+      "location": null,
+      "ok": false
+    },
+    {
+      "url": "https://upresults.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://wbbse.wb.gov.in",
+      "status": "EPROTO",
+      "ok": false
+    },
+    {
+      "url": "https://wbchse.wb.gov.in",
+      "status": "EPROTO",
+      "ok": false
+    },
+    {
+      "url": "https://wbresults.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://tnresults.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://karresults.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://www.pseb.ac.in",
+      "status": 403,
+      "location": null,
+      "ok": false
+    },
+    {
+      "url": "https://orissaresults.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://ubse.uk.gov.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://joinindiannavy.gov.in",
+      "status": "ECONNRESET",
+      "ok": false
+    },
+    {
+      "url": "https://www.ibps.in",
+      "status": "EPROTO",
+      "ok": false
+    },
+    {
+      "url": "https://ibpsonline.ibps.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://ccp123.onlinereg.co.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://csbc.bih.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://bpssc.bih.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://prb.wb.gov.in",
+      "status": "EPROTO",
+      "ok": false
+    },
+    {
+      "url": "https://wbpolice.gov.in",
+      "status": "EPROTO",
+      "ok": false
+    },
+    {
+      "url": "https://policerecruitment2024.mahait.org",
+      "status": 403,
+      "location": null,
+      "ok": false
+    },
+    {
+      "url": "https://josaa.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://ctet.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://www.bpsc.bih.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    },
+    {
+      "url": "https://rrbapply.gov.in",
+      "status": "ENOTFOUND",
+      "ok": false
+    },
+    {
+      "url": "https://exams.nta.ac.in/NEET/",
+      "status": 404,
+      "location": null,
+      "ok": false
+    },
+    {
+      "url": "https://bpsc.bih.nic.in",
+      "status": "TIMEOUT",
+      "ok": false
+    }
+  ]
+}

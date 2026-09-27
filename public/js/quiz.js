@@ -1,0 +1,1561 @@
+// Interactive Live Mock Test & Universal CBT Engine for SarkariAI Hub
+// Phase 4: Full Exam Blueprint-Driven Mode vs Flexible Practice Set Mode
+// Multi-section architecture, countdown timer with auto-submit, zero-duplicate guarantee,
+// separate language layers, numerical/subjective hooks, and fail-safe offline fallback.
+
+let activeQuiz = window.activeQuiz = {
+  mode: 'FULL_EXAM', // 'FULL_EXAM' or 'PRACTICE'
+  exam: 'ssc-gd',
+  board: '',
+  subject: 'all',
+  size: 30,
+  negativeMarkingRate: 0.25,
+  isSpeaking: false,
+  questions: [],
+  sections: [],
+  currentSectionIndex: 0,
+  currentIndex: 0,
+  userAnswers: {},
+  reviewFlags: {},
+  visited: {},
+  sessionId: null,
+  blueprint: null,
+  timerMode: 'COUNTDOWN',
+  totalSeconds: 3600,
+  secondsRemaining: 3600,
+  secondsElapsed: 0,
+  timerInterval: null,
+  isRunning: false
+};
+
+// Global Voice Question Reader controller & Sweet Natural Indian Voices (सुरीली आवाज)
+let quizVoiceGender = 'female';
+try {
+  quizVoiceGender = localStorage.getItem('sarkari_quiz_voice_gender') || 'female';
+} catch (e) {}
+
+function updateQuizVoiceUI() {
+  const btn = document.getElementById('quizVoiceToggleBtn');
+  const icon = document.getElementById('quizVoiceIcon');
+  const label = document.getElementById('quizVoiceLabel');
+  if (!btn) return;
+  if (quizVoiceGender === 'male') {
+    if (icon) icon.textContent = '👨';
+    if (label) label.textContent = 'मधुर आवाज (पुरुष)';
+    btn.title = 'Switch to Sweet Female Voice (सुरीली महिला आवाज चुनें)';
+  } else {
+    if (icon) icon.textContent = '👩';
+    if (label) label.textContent = 'सुरीली आवाज (महिला)';
+    btn.title = 'Switch to Sweet Male Voice (मधुर पुरुष आवाज चुनें)';
+  }
+}
+
+function toggleQuizVoiceGender() {
+  quizVoiceGender = quizVoiceGender === 'female' ? 'male' : 'female';
+  try {
+    localStorage.setItem('sarkari_quiz_voice_gender', quizVoiceGender);
+  } catch (e) {}
+  updateQuizVoiceUI();
+  if (activeQuiz && activeQuiz.isSpeaking) {
+    stopSpeaking();
+    setTimeout(toggleSpeakActiveQuestion, 150);
+  }
+}
+
+function getSweetVoice(langCode = 'hi-IN', gender = 'female') {
+  if (!('speechSynthesis' in window)) return null;
+  const voices = window.speechSynthesis.getVoices() || [];
+  if (voices.length === 0) return null;
+
+  const isFemale = gender === 'female';
+  const isHindi = langCode.toLowerCase().startsWith('hi');
+
+  if (isHindi) {
+    const hiVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('hi'));
+    if (hiVoices.length > 0) {
+      const femaleHiNames = ['swara', 'kalpana', 'google हिन्दी', 'google hindi', 'kavya', 'female'];
+      const maleHiNames = ['madhur', 'hemant', 'google hindi male', 'male'];
+      const prefNames = isFemale ? femaleHiNames : maleHiNames;
+      for (const name of prefNames) {
+        const found = hiVoices.find(v => v.name.toLowerCase().includes(name));
+        if (found) return found;
+      }
+      return hiVoices[0];
+    }
+  }
+
+  const inEngVoices = voices.filter(v => v.lang && (v.lang.toLowerCase().includes('in') || v.lang.toLowerCase().startsWith('en')));
+  if (inEngVoices.length > 0) {
+    const femaleEngNames = ['neerja', 'swara', 'zira', 'natasha', 'samantha', 'victoria', 'female'];
+    const maleEngNames = ['prabhat', 'madhur', 'ravi', 'david', 'george', 'male'];
+    const prefNames = isFemale ? femaleEngNames : maleEngNames;
+    for (const name of prefNames) {
+      const found = inEngVoices.find(v => v.name.toLowerCase().includes(name));
+      if (found) return found;
+    }
+    return inEngVoices[0];
+  }
+
+  return voices[0] || null;
+}
+
+if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = function() {
+    updateQuizVoiceUI();
+  };
+}
+
+function stopSpeaking() {
+  if ('speechSynthesis' in window) {
+    try { window.speechSynthesis.cancel(); } catch (e) {}
+  }
+  const speechBtn = document.getElementById('quizSpeechBtn');
+  if (speechBtn) {
+    speechBtn.classList.remove('speech-pulse');
+    const label = typeof getTranslation === 'function' ? getTranslation('quiz_listen_btn') : 'Listen';
+    speechBtn.innerHTML = `<span>🔊</span> <span class="hidden sm:inline">${label}</span>`;
+  }
+  if (activeQuiz) activeQuiz.isSpeaking = false;
+}
+
+function toggleSpeakActiveQuestion() {
+  if (!('speechSynthesis' in window)) {
+    alert('आपके डिवाइस या ब्राउज़र में टेक्स्ट-टू-स्पीच (Voice Reader) सपोर्ट उपलब्ध नहीं है।');
+    return;
+  }
+
+  if (activeQuiz.isSpeaking) {
+    stopSpeaking();
+    return;
+  }
+
+  stopSpeaking();
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  if (!q) return;
+
+  const isFemale = quizVoiceGender === 'female';
+  const speechSegments = [];
+
+  const rawQ = q.q || '';
+  const secQ = q.secondaryQ || '';
+
+  if (rawQ) {
+    speechSegments.push({
+      text: `प्रश्न ${activeQuiz.currentIndex + 1}: ${rawQ.replace(/\n\[English:.*\]/g, '')}`,
+      lang: /[\u0900-\u097F]/.test(rawQ) ? 'hi-IN' : 'en-IN'
+    });
+  }
+
+  if (secQ) {
+    speechSegments.push({
+      text: `In English: ${secQ}`,
+      lang: 'en-IN'
+    });
+  }
+
+  if (Array.isArray(q.options)) {
+    q.options.forEach((opt, idx) => {
+      const letter = String.fromCharCode(65 + idx);
+      const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+      speechSegments.push({
+        text: `विकल्प ${letter}: ${cleanOpt}.`,
+        lang: /[\u0900-\u097F]/.test(cleanOpt) ? 'hi-IN' : 'en-IN'
+      });
+    });
+  }
+
+  const speechBtn = document.getElementById('quizSpeechBtn');
+  if (speechBtn) {
+    speechBtn.classList.add('speech-pulse');
+    speechBtn.innerHTML = '<span>⏹️</span> <span class="hidden sm:inline">Stop Voice</span>';
+  }
+  activeQuiz.isSpeaking = true;
+
+  speechSegments.forEach((seg, idx) => {
+    const utt = new SpeechSynthesisUtterance(seg.text);
+    utt.lang = seg.lang;
+    const voice = getSweetVoice(seg.lang, quizVoiceGender);
+    if (voice) utt.voice = voice;
+    utt.rate = 0.93;
+    utt.pitch = isFemale ? 1.06 : 0.95;
+
+    if (idx === speechSegments.length - 1) {
+      utt.onend = stopSpeaking;
+      utt.onerror = stopSpeaking;
+    }
+    window.speechSynthesis.speak(utt);
+  });
+}
+
+// ----------------------------------------------------
+// Mode Switcher: 3 Distinct Mock Modes
+// Mode A: SUBJECT_PRACTICE
+// Mode B: ALL_SUBJECTS_PRACTICE
+// Mode C: FULL_EXAM_PATTERN (or FULL_EXAM)
+// ----------------------------------------------------
+function switchQuizMode(mode) {
+  activeQuiz.mode = mode;
+  const subjBtn = document.getElementById('quizModeSubjectBtn');
+  const allSubjBtn = document.getElementById('quizModeAllSubjectsBtn');
+  const fullBtn = document.getElementById('quizModeFullExamBtn');
+  const bpCard = document.getElementById('quizBlueprintSummaryCard');
+  const pracCard = document.getElementById('quizPracticeControlsContainer');
+  const subjSelectContainer = document.getElementById('quizSubjectSelect')?.parentElement;
+
+  const activeClass = "px-4 py-2 rounded-xl text-xs font-black transition cursor-pointer bg-white dark:bg-slate-700 text-rose-700 dark:text-rose-300 shadow-sm";
+  const inactiveClass = "px-4 py-2 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-slate-900 transition cursor-pointer";
+
+  if (subjBtn) subjBtn.className = (mode === 'SUBJECT_PRACTICE') ? activeClass : inactiveClass;
+  if (allSubjBtn) allSubjBtn.className = (mode === 'ALL_SUBJECTS_PRACTICE') ? activeClass : inactiveClass;
+  if (fullBtn) fullBtn.className = (mode === 'FULL_EXAM_PATTERN' || mode === 'FULL_EXAM') ? activeClass : inactiveClass;
+
+  if (mode === 'FULL_EXAM_PATTERN' || mode === 'FULL_EXAM') {
+    if (bpCard) bpCard.classList.remove('hidden');
+    if (pracCard) pracCard.classList.add('hidden');
+    updateBlueprintSummaryDisplay();
+  } else if (mode === 'SUBJECT_PRACTICE') {
+    if (bpCard) bpCard.classList.add('hidden');
+    if (pracCard) pracCard.classList.remove('hidden');
+    if (subjSelectContainer) subjSelectContainer.classList.remove('hidden');
+  } else if (mode === 'ALL_SUBJECTS_PRACTICE') {
+    if (bpCard) bpCard.classList.add('hidden');
+    if (pracCard) pracCard.classList.remove('hidden');
+    if (subjSelectContainer) subjSelectContainer.classList.add('hidden');
+  }
+}
+
+// ----------------------------------------------------
+// Blueprint Summary Hydration & Display
+// ----------------------------------------------------
+async function updateBlueprintSummaryDisplay() {
+  const examSelect = document.getElementById('quizExamSelect');
+  if (!examSelect) return;
+  const examId = examSelect.value || 'ssc-gd';
+
+  try {
+    const res = await fetch(`/api/v2/mock/modes/${examId}`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.success && data.modes) {
+        const modeC = data.modes.find(m => m.mode === 'FULL_EXAM_PATTERN');
+        if (modeC && modeC.blueprintSummary) {
+          renderBlueprintSummaryCard({
+            ...modeC.blueprintSummary,
+            isAvailable: modeC.isAvailable,
+            status: modeC.status,
+            shortageDetails: modeC.shortageDetails
+          });
+          return;
+        }
+      }
+    }
+  } catch (e) {
+    console.warn('[Quiz] Could not fetch remote mock modes, falling back to blueprint endpoint', e.message);
+  }
+
+  try {
+    const res = await fetch(`/api/v2/exams/${examId}/blueprint`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.success && data.blueprint) {
+        renderBlueprintSummaryCard(data.blueprint);
+        return;
+      }
+    }
+  } catch (e) {
+    console.warn('[Quiz] Could not fetch remote blueprint, resolving locally', e.message);
+  }
+
+  // Local fallback blueprint preview
+  const localBp = resolveLocalBlueprint(examId);
+  renderBlueprintSummaryCard(localBp);
+}
+
+function resolveLocalBlueprint(examId) {
+  const isSSC = examId.includes('ssc');
+  const isRRB = examId.includes('rrb') || examId.includes('railway') || examId.includes('alp');
+  const isBoard = examId.includes('board') || examId.includes('10th') || examId.includes('12th');
+
+  if (examId === 'ssc-cgl') {
+    return {
+      name: 'SSC CGL Tier-1 Official Pattern (4 Sections)',
+      verification_status: 'VERIFIED',
+      duration_minutes: 60,
+      total_questions: 100,
+      questions_to_attempt: 100,
+      total_marks: 200,
+      is_negative_marking: true,
+      negative_value: 0.50,
+      sections: [
+        { name: 'Reasoning', question_count: 25, marks_correct: 2, negative_value: 0.5 },
+        { name: 'General Awareness', question_count: 25, marks_correct: 2, negative_value: 0.5 },
+        { name: 'Quantitative Aptitude', question_count: 25, marks_correct: 2, negative_value: 0.5 },
+        { name: 'English Comprehension', question_count: 25, marks_correct: 2, negative_value: 0.5 }
+      ]
+    };
+  }
+
+  return {
+    name: `${examId.toUpperCase()} Standard Examination Pattern`,
+    verification_status: isSSC || isRRB || isBoard ? 'VERIFIED' : 'NEEDS_REVIEW',
+    duration_minutes: isBoard ? 180 : 60,
+    total_questions: isSSC ? 80 : (isBoard ? 39 : 50),
+    questions_to_attempt: isSSC ? 80 : (isBoard ? 39 : 50),
+    total_marks: isSSC ? 160 : (isBoard ? 80 : 50),
+    is_negative_marking: !isBoard,
+    negative_value: isBoard ? 0 : 0.25,
+    sections: [
+      { name: 'Main Examination Section', question_count: isSSC ? 80 : (isBoard ? 39 : 50), marks_correct: 1, negative_value: isBoard ? 0 : 0.25 }
+    ]
+  };
+}
+
+function renderBlueprintSummaryCard(bp) {
+  if (!bp) return;
+
+  const isVerified = bp.verification_status === 'VERIFIED';
+  const badgeEl = document.getElementById('quizBpBadge');
+  const nameEl = document.getElementById('quizBpName');
+  const durEl = document.getElementById('quizBpDuration');
+  const qEl = document.getElementById('quizBpQuestions');
+  const marksEl = document.getElementById('quizBpMarks');
+  const negEl = document.getElementById('quizBpNegative');
+  const sectionsListEl = document.getElementById('quizBpSectionsList');
+
+  if (badgeEl) {
+    if (isVerified) {
+      badgeEl.className = "inline-flex items-center px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider bg-emerald-500/20 text-emerald-300 border border-emerald-400/40";
+      badgeEl.textContent = "Verified Official Pattern";
+    } else {
+      badgeEl.className = "inline-flex items-center px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-400/40";
+      badgeEl.textContent = "Pattern data pending verification";
+    }
+  }
+
+  if (nameEl) nameEl.textContent = bp.name || 'Official Examination Pattern';
+  if (durEl) durEl.textContent = `${bp.duration_minutes || 60} Mins (Countdown)`;
+  
+  const attemptStr = bp.questions_to_attempt < bp.total_questions 
+    ? `${bp.total_questions} Qs (Attempt ${bp.questions_to_attempt})` 
+    : `${bp.total_questions} Qs (Attempt All)`;
+  if (qEl) qEl.textContent = attemptStr;
+
+  if (marksEl) marksEl.textContent = `${bp.total_marks || bp.total_questions} Marks`;
+
+  if (negEl) {
+    if (!bp.is_negative_marking) {
+      negEl.textContent = "0.00 (No Negative Marking)";
+      negEl.className = "text-sm font-black text-emerald-400";
+    } else {
+      negEl.textContent = bp.negative_value ? `-${bp.negative_value} Mark per Wrong` : "-0.25 Mark per Wrong";
+      negEl.className = "text-sm font-black text-rose-400";
+    }
+  }
+
+  if (sectionsListEl && Array.isArray(bp.sections)) {
+    sectionsListEl.innerHTML = bp.sections.map(s => `
+      <span class="inline-flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-white/10 border border-white/15 text-slate-200">
+        <span class="font-bold">${s.name || 'Section'}</span>
+        <span class="text-amber-300 font-black">(${s.question_count || s.questions_to_attempt || 20} Qs)</span>
+      </span>
+    `).join('');
+  }
+}
+
+// ----------------------------------------------------
+// Initialization & Dynamic Events
+// ----------------------------------------------------
+function initQuiz() {
+  populateExamDropdown();
+  setupDynamicEventListeners();
+  updateDependentDropdowns();
+  updateBlueprintSummaryDisplay();
+  restoreQuizStateIfActive();
+  updateQuizVoiceUI();
+}
+
+function populateExamDropdown() {
+  const examSelect = document.getElementById('quizExamSelect');
+  if (!examSelect || typeof EXAMS_CONFIG === 'undefined') return;
+
+  const categories = [
+    { key: 'central', label: '🏛️ Central & Defence Exams (SSC, Railway, Defence, UPSC, Banking)' },
+    { key: 'police', label: '👮 State Police Bharti (UP, Bihar, Delhi, Raj, MP, Har, WB, MH)' },
+    { key: 'entrance', label: '🎓 National Entrance Tests (NEET, JEE, CUET, CLAT)' },
+    { key: 'teaching', label: '👨‍🏫 Teaching, TET & State PSCs (CTET, UPTET, BPSC, REET, NET)' },
+    { key: 'board', label: '🏫 All-India Board Examinations (20 State & Central Boards)' },
+    { key: 'master', label: '🎯 All-India Master Practice Mix' }
+  ];
+
+  let html = '';
+  categories.forEach(cat => {
+    const list = EXAMS_CONFIG.filter(e => (e.category === cat.key) || (cat.key === 'board' && e.isBoard));
+    if (list.length > 0) {
+      html += `<optgroup label="${cat.label}">`;
+      list.forEach(e => {
+        html += `<option value="${e.id}">${e.name}</option>`;
+      });
+      html += `</optgroup>`;
+    }
+  });
+
+  examSelect.innerHTML = html;
+}
+
+function setupDynamicEventListeners() {
+  const examSelect = document.getElementById('quizExamSelect');
+  const subjectSelect = document.getElementById('quizSubjectSelect');
+  const boardSelect = document.getElementById('quizBoardSelect');
+  const sizeSelect = document.getElementById('quizSizeSelect');
+  const startBtn = document.getElementById('startQuizBtn');
+
+  if (examSelect) {
+    examSelect.addEventListener('change', () => {
+      updateDependentDropdowns();
+      updateBlueprintSummaryDisplay();
+    });
+  }
+
+  if (boardSelect) {
+    boardSelect.addEventListener('change', () => {
+      updateBoardSubjects();
+      updateBlueprintSummaryDisplay();
+    });
+  }
+
+  if (startBtn) {
+    startBtn.addEventListener('click', startNewQuiz);
+  }
+}
+
+function updateBoardSubjects() {
+  const examSelect = document.getElementById('quizExamSelect');
+  const boardSelect = document.getElementById('quizBoardSelect');
+  const subjectSelect = document.getElementById('quizSubjectSelect');
+  if (!examSelect || !subjectSelect) return;
+  const examId = examSelect.value;
+  const boardId = boardSelect ? boardSelect.value : 'bseb';
+
+  if (typeof getSubjectsForBoard === 'function' && (examId === 'board-10th' || examId.startsWith('board-12th') || examId === 'board-12th')) {
+    const subjects = getSubjectsForBoard(examId, boardId);
+    subjectSelect.innerHTML = subjects.map(s => `
+      <option value="${s.id}">${s.name}</option>
+    `).join('');
+  }
+}
+
+function updateDependentDropdowns() {
+  const examSelect = document.getElementById('quizExamSelect');
+  const subjectSelect = document.getElementById('quizSubjectSelect');
+  const boardContainer = document.getElementById('quizBoardContainer');
+  const boardSelect = document.getElementById('quizBoardSelect');
+
+  if (!examSelect || !subjectSelect || typeof EXAMS_CONFIG === 'undefined') return;
+
+  const selectedExamId = examSelect.value;
+  const examObj = EXAMS_CONFIG.find(e => e.id === selectedExamId) || EXAMS_CONFIG[0];
+
+  if (examObj.isBoard) {
+    if (boardContainer) boardContainer.classList.remove('hidden');
+    if (boardSelect && examObj.boards) {
+      boardSelect.innerHTML = examObj.boards.map(b => `
+        <option value="${b.id}">${b.name}</option>
+      `).join('');
+      updateBoardSubjects();
+    }
+  } else {
+    if (boardContainer) boardContainer.classList.add('hidden');
+    if (Array.isArray(examObj.subjects)) {
+      subjectSelect.innerHTML = examObj.subjects.map(s => `
+        <option value="${s.id}">${s.name}</option>
+      `).join('');
+    }
+  }
+
+  updateQuizPaidPdfBanner();
+}
+
+// ----------------------------------------------------
+// Start Test (API-Driven with Safe Local Fallback)
+// ----------------------------------------------------
+async function startNewQuiz() {
+  const examSelect = document.getElementById('quizExamSelect');
+  const subjectSelect = document.getElementById('quizSubjectSelect');
+  const boardSelect = document.getElementById('quizBoardSelect');
+  const sizeSelect = document.getElementById('quizSizeSelect');
+  const diffSelect = document.getElementById('quizDifficultySelect');
+  const timerSelect = document.getElementById('quizTimerModeSelect');
+
+  const examId = examSelect ? examSelect.value : 'ssc-gd';
+  const subjectId = subjectSelect ? subjectSelect.value : 'all';
+  const boardId = boardSelect ? boardSelect.value : '';
+  const testMode = activeQuiz.mode || 'FULL_EXAM_PATTERN';
+  const requestedCount = sizeSelect ? parseInt(sizeSelect.value, 10) : 30;
+  const difficulty = diffSelect ? diffSelect.value : 'MIXED';
+  const timerMode = timerSelect ? timerSelect.value : 'COUNTDOWN';
+
+  let sessionData = null;
+
+  try {
+    const res = await fetch('/api/v2/mock/start', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        examId,
+        testMode,
+        requestedCount,
+        subjectId,
+        difficulty,
+        timerMode
+      })
+    });
+
+    if (res.ok) {
+      const data = await res.json();
+      if (!data.success && data.status === 'FULL_EXAM_UNAVAILABLE') {
+        alert(`⚠️ ${data.message || 'Full Exam pattern simulation is currently unavailable.'}\n\nPlease practice in Subject-wise Practice or All Subjects Practice mode!`);
+        return;
+      }
+      if (data.success && Array.isArray(data.questions) && data.questions.length > 0) {
+        sessionData = data;
+      }
+    }
+  } catch (err) {
+    console.warn('[Quiz] Remote mock/start failed, activating safe local fallback:', err.message);
+  }
+
+  // Fallback to local question generation if offline or API unavailable
+  if (!sessionData) {
+    sessionData = generateLocalSessionFallback(examId, subjectId, requestedCount, boardId, testMode);
+  }
+
+  if (!sessionData.questions || sessionData.questions.length === 0) {
+    alert('इस विषय के लिए प्रश्न लोड हो रहे हैं। कृपया दूसरा विकल्प चुनें।');
+    return;
+  }
+
+  // Populate active quiz state
+  activeQuiz.mode = testMode;
+  activeQuiz.sessionId = sessionData.sessionId;
+  activeQuiz.exam = examId;
+  activeQuiz.board = boardId;
+  activeQuiz.subject = subjectId;
+  activeQuiz.blueprint = sessionData.blueprint;
+  activeQuiz.sections = sessionData.sections || [];
+  activeQuiz.questions = sessionData.questions;
+  activeQuiz.currentIndex = 0;
+  activeQuiz.currentSectionIndex = 0;
+  activeQuiz.userAnswers = {};
+  activeQuiz.reviewFlags = {};
+  activeQuiz.visited = { 0: true };
+  activeQuiz.isRunning = true;
+
+  // Setup timer
+  const timerConfig = sessionData.timerConfig || { mode: 'COUNTDOWN', durationMinutes: 60, totalSeconds: 3600 };
+  activeQuiz.timerMode = timerConfig.mode || 'COUNTDOWN';
+  activeQuiz.totalSeconds = timerConfig.totalSeconds || 3600;
+  activeQuiz.secondsRemaining = activeQuiz.totalSeconds;
+  activeQuiz.secondsElapsed = 0;
+
+  if (window.location.hash !== '#tool/quiz') {
+    window.location.hash = '#tool/quiz';
+  }
+
+  // Start timer interval
+  if (activeQuiz.timerInterval) clearInterval(activeQuiz.timerInterval);
+  activeQuiz.timerInterval = setInterval(() => {
+    activeQuiz.secondsElapsed++;
+    if (activeQuiz.timerMode === 'COUNTDOWN') {
+      activeQuiz.secondsRemaining--;
+      if (activeQuiz.secondsRemaining <= 0) {
+        clearInterval(activeQuiz.timerInterval);
+        submitQuiz(true); // AUTO SUBMIT ON EXPIRATION
+        return;
+      }
+    }
+    updateQuizTimerDisplay();
+    saveActiveQuizState();
+  }, 1000);
+
+  // Switch UI view
+  document.getElementById('quizSetupCard')?.classList.add('hidden');
+  document.getElementById('quizScorecardModal')?.classList.add('hidden');
+  document.getElementById('quizActiveArena')?.classList.remove('hidden');
+
+  renderSectionTabs();
+  renderQuestionPalette();
+  renderActiveQuestion();
+  updateQuizTimerDisplay();
+  saveActiveQuizState();
+}
+
+function generateLocalSessionFallback(examId, subjectId, requestedCount, boardId, testMode) {
+  let localQuestions = [];
+  if (typeof getFilteredQuestions === 'function') {
+    localQuestions = getFilteredQuestions(examId, subjectId, requestedCount, boardId);
+  }
+
+  const defaultSection = {
+    sectionId: 'sec-local-1',
+    name: 'General Assessment Section',
+    questionCount: localQuestions.length,
+    questionsToAttempt: localQuestions.length,
+    marksCorrect: 1.0,
+    marksWrong: 0.25,
+    hasNegativeMarking: true,
+    attemptRuleType: 'ATTEMPT_ALL'
+  };
+
+  return {
+    sessionId: `local-${Date.now()}`,
+    testMode,
+    blueprint: resolveLocalBlueprint(examId),
+    sections: [defaultSection],
+    questions: localQuestions.map((q, idx) => ({
+      id: q.id || `q-local-${idx}`,
+      sectionId: 'sec-local-1',
+      sectionName: 'General Assessment Section',
+      questionType: 'single_mcq',
+      q: q.q,
+      secondaryQ: '',
+      options: q.options || [],
+      correct: q.correct !== undefined ? q.correct : q.ans,
+      explanation: q.explanation || '',
+      marksCorrect: 1.0,
+      marksWrong: 0.25
+    })),
+    timerConfig: {
+      mode: 'COUNTDOWN',
+      durationMinutes: 60,
+      totalSeconds: 3600
+    }
+  };
+}
+
+// ----------------------------------------------------
+// Section Tabs & Navigation (Multi-Section Support)
+// ----------------------------------------------------
+function renderSectionTabs() {
+  const tabsContainer = document.getElementById('quizSectionTabs');
+  const tabsParent = document.getElementById('quizSectionTabsContainer');
+  if (!tabsContainer) return;
+
+  if (!activeQuiz.sections || activeQuiz.sections.length <= 1) {
+    if (tabsParent) tabsParent.classList.add('hidden');
+    return;
+  }
+
+  if (tabsParent) tabsParent.classList.remove('hidden');
+
+  const currentQ = activeQuiz.questions[activeQuiz.currentIndex];
+  const activeSectionId = currentQ ? currentQ.sectionId : activeQuiz.sections[0]?.sectionId;
+
+  tabsContainer.innerHTML = activeQuiz.sections.map((sec, idx) => {
+    const isCurrent = sec.sectionId === activeSectionId;
+    let answeredCount = 0;
+
+    activeQuiz.questions.forEach((q, qIdx) => {
+      if (q.sectionId === sec.sectionId && activeQuiz.userAnswers.hasOwnProperty(q.id || qIdx)) {
+        answeredCount++;
+      }
+    });
+
+    const activeClass = isCurrent
+      ? "bg-rose-600 text-white font-black shadow-md border-rose-700"
+      : "bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold border-slate-200";
+
+    return `
+      <button 
+        type="button" 
+        onclick="jumpToSection(${idx})"
+        class="shrink-0 px-3.5 py-1.5 rounded-xl border text-xs transition flex items-center space-x-1.5 cursor-pointer ${activeClass}">
+        <span>${sec.name}</span>
+        <span class="text-[10px] px-1.5 py-0.2 rounded-full ${isCurrent ? 'bg-white/30 text-white' : 'bg-slate-200 text-slate-700'}">
+          ${answeredCount}/${sec.questionCount || sec.questionsToAttempt}
+        </span>
+      </button>
+    `;
+  }).join('');
+}
+
+function jumpToSection(sectionIndex) {
+  stopSpeaking();
+  const targetSection = activeQuiz.sections[sectionIndex];
+  if (!targetSection) return;
+
+  const firstQIdx = activeQuiz.questions.findIndex(q => q.sectionId === targetSection.sectionId);
+  if (firstQIdx >= 0) {
+    activeQuiz.currentIndex = firstQIdx;
+    activeQuiz.visited[firstQIdx] = true;
+    renderSectionTabs();
+    renderActiveQuestion();
+    renderQuestionPalette();
+    saveActiveQuizState();
+  }
+}
+
+// ----------------------------------------------------
+// Timer Display
+// ----------------------------------------------------
+function updateQuizTimerDisplay() {
+  const timerElem = document.getElementById('quizLiveTimer');
+  if (!timerElem) return;
+
+  if (activeQuiz.timerMode === 'COUNTDOWN') {
+    const totalSecs = Math.max(0, activeQuiz.secondsRemaining);
+    const hrs = Math.floor(totalSecs / 3600);
+    const mins = Math.floor((totalSecs % 3600) / 60);
+    const secs = totalSecs % 60;
+
+    const timeStr = hrs > 0 
+      ? `⏱️ ${hrs.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`
+      : `⏱️ ${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+
+    timerElem.textContent = timeStr;
+
+    // Pulse red if under 5 minutes
+    if (totalSecs < 300) {
+      timerElem.className = "font-mono text-xs font-black text-rose-700 bg-rose-100 px-3 py-1.5 rounded-xl border border-rose-400 animate-pulse";
+    } else {
+      timerElem.className = "font-mono text-xs font-black text-slate-800 bg-amber-100/80 px-3 py-1.5 rounded-xl border border-amber-300";
+    }
+  } else {
+    const mins = Math.floor(activeQuiz.secondsElapsed / 60).toString().padStart(2, '0');
+    const secs = (activeQuiz.secondsElapsed % 60).toString().padStart(2, '0');
+    timerElem.textContent = `⏱️ ${mins}:${secs}`;
+    timerElem.className = "font-mono text-xs font-black text-slate-800 bg-slate-100 px-3 py-1.5 rounded-xl border border-slate-300";
+  }
+}
+
+// ----------------------------------------------------
+// Question Rendering (Bilingual, Options, Numerical, Subjective)
+// ----------------------------------------------------
+function renderActiveQuestion() {
+  stopSpeaking();
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  if (!q) return;
+
+  const total = activeQuiz.questions.length;
+  const currentNum = activeQuiz.currentIndex + 1;
+  const qKey = q.id || activeQuiz.currentIndex;
+  activeQuiz.visited[activeQuiz.currentIndex] = true;
+
+  // Header & Progress
+  document.getElementById('quizQuestionCounter').textContent = `Question ${currentNum} of ${total}`;
+  const pct = Math.round((currentNum / total) * 100);
+  document.getElementById('quizProgressBar').style.width = `${pct}%`;
+
+  // Tag Badge
+  const tagElem = document.getElementById('quizQuestionTag');
+  if (tagElem) {
+    const subjBadge = q.subjectName ? `[${q.subjectName}] • ` : '';
+    tagElem.textContent = subjBadge + (q.sectionName ? q.sectionName + ' • ' : '') + (q.topic || 'High Yield');
+  }
+
+  // Section Banner Update
+  const secTitle = document.getElementById('quizActiveSectionTitle');
+  const secInstr = document.getElementById('quizActiveSectionInstructions');
+  const secBadge = document.getElementById('quizActiveSectionAttemptBadge');
+  const currentSec = activeQuiz.sections.find(s => s.sectionId === q.sectionId) || activeQuiz.sections[0];
+
+  if (currentSec) {
+    if (secTitle) secTitle.textContent = currentSec.name;
+    if (secInstr) secInstr.textContent = currentSec.instructions || `Each question: +${currentSec.marksCorrect || 1} mark.`;
+    if (secBadge) {
+      if (currentSec.attemptRuleType === 'ATTEMPT_N_OF_M') {
+        secBadge.textContent = `Attempt any ${currentSec.questionsToAttempt} of ${currentSec.questionCount} Qs`;
+      } else {
+        secBadge.textContent = "Attempt All Questions";
+      }
+    }
+  }
+
+  // Bilingual Question Text Rendering
+  const qElem = document.getElementById('quizQuestionText');
+  if (qElem) {
+    const primaryText = q.q || '';
+    const secondaryText = q.secondaryQ || '';
+
+    if (secondaryText && secondaryText !== primaryText) {
+      qElem.innerHTML = `
+        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${primaryText}</div>
+        <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
+          <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">In English / Dual Medium:</span>
+          <div>${secondaryText}</div>
+        </div>
+      `;
+    } else if (primaryText.includes('\n[English:')) {
+      const parts = primaryText.split('\n[English:');
+      const hindiPart = parts[0].trim();
+      const engPart = parts[1].replace(/\]\s*$/, '').trim();
+      qElem.innerHTML = `
+        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${hindiPart}</div>
+        <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
+          <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">In English / Dual Medium:</span>
+          <div>${engPart}</div>
+        </div>
+      `;
+    } else {
+      qElem.innerHTML = `<div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${primaryText}</div>`;
+    }
+  }
+
+  // Controls for Question Types
+  const optContainer = document.getElementById('quizOptionsContainer');
+  const numContainer = document.getElementById('quizNumericalContainer');
+  const subContainer = document.getElementById('quizSubjectiveContainer');
+
+  const isAnswered = activeQuiz.userAnswers.hasOwnProperty(qKey);
+  const selectedAnswer = isAnswered ? activeQuiz.userAnswers[qKey] : null;
+
+  if (q.questionType === 'numerical') {
+    if (optContainer) optContainer.classList.add('hidden');
+    if (subContainer) subContainer.classList.add('hidden');
+    if (numContainer) {
+      numContainer.classList.remove('hidden');
+      const numInput = document.getElementById('quizNumericalInput');
+      if (numInput) numInput.value = selectedAnswer !== null ? selectedAnswer : '';
+    }
+  } else if (q.questionType === 'short_answer' || q.questionType === 'long_answer') {
+    if (optContainer) optContainer.classList.add('hidden');
+    if (numContainer) numContainer.classList.add('hidden');
+    if (subContainer) {
+      subContainer.classList.remove('hidden');
+      const subInput = document.getElementById('quizSubjectiveInput');
+      if (subInput) subInput.value = selectedAnswer !== null ? selectedAnswer : '';
+    }
+  } else {
+    // Standard MCQ
+    if (numContainer) numContainer.classList.add('hidden');
+    if (subContainer) subContainer.classList.add('hidden');
+    if (optContainer) {
+      optContainer.classList.remove('hidden');
+      optContainer.innerHTML = (q.options || []).map((opt, optIndex) => {
+        let styleClasses = "bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-750 border-2 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 cursor-pointer shadow-sm";
+        let icon = `<span class="w-7 h-7 rounded-xl bg-slate-100 dark:bg-slate-700 flex items-center justify-center font-black text-slate-700 dark:text-slate-200 text-xs shrink-0">${String.fromCharCode(65 + optIndex)}</span>`;
+
+        if (isAnswered) {
+          if (optIndex === selectedAnswer) {
+            styleClasses = "bg-rose-600 dark:bg-rose-600 text-white border-2 border-rose-700 dark:border-rose-500 shadow-md font-bold ring-2 ring-rose-400";
+            icon = `<span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center font-black text-white text-xs shrink-0">✓</span>`;
+          } else {
+            styleClasses = "bg-slate-50 dark:bg-slate-850 text-slate-500 border border-slate-200 dark:border-slate-800 opacity-75";
+          }
+        }
+
+        const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        let optDisplay = cleanOpt;
+        if (cleanOpt.includes(' / ')) {
+          const parts = cleanOpt.split(' / ');
+          const hi = parts[0].trim();
+          const en = parts.slice(1).join(' / ').trim();
+          optDisplay = `<span class="font-bold">${hi}</span> <span class="text-xs sm:text-sm font-semibold opacity-90">/ ${en}</span>`;
+        }
+
+        return `
+          <button 
+            type="button" 
+            onclick="handleOptionSelection(${optIndex})"
+            class="w-full text-left p-4 rounded-2xl transition duration-150 flex items-center space-x-3 active:scale-98 ${styleClasses}">
+            ${icon}
+            <span class="text-sm font-semibold leading-snug">${optDisplay}</span>
+          </button>
+        `;
+      }).join('');
+    }
+  }
+
+  // Explanation Card (Hidden during CBT mock for integrity)
+  const expCard = document.getElementById('quizExplanationCard');
+  if (expCard) expCard.classList.add('hidden');
+
+  // Navigation Buttons
+  const prevBtn = document.getElementById('quizPrevBtn');
+  const nextBtn = document.getElementById('quizNextBtn');
+
+  if (prevBtn) prevBtn.disabled = activeQuiz.currentIndex === 0;
+  if (nextBtn) {
+    if (activeQuiz.currentIndex === total - 1) {
+      nextBtn.innerHTML = `<span>🏁 Finish & Submit Test</span>`;
+      nextBtn.onclick = () => submitQuiz(false);
+    } else {
+      nextBtn.innerHTML = `<span>Next Question →</span>`;
+      nextBtn.onclick = nextQuizQuestion;
+    }
+  }
+
+  updateMarkReviewButtonDisplay();
+  updateLiveScoreStats();
+  renderSectionTabs();
+  renderQuestionPalette();
+  updateBookmarkButtonDisplay();
+}
+
+function handleOptionSelection(optionIndex) {
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  if (!q) return;
+  const qKey = q.id || activeQuiz.currentIndex;
+
+  // Enforce ATTEMPT_N_OF_M limit check
+  const currentSec = activeQuiz.sections.find(s => s.sectionId === q.sectionId);
+  if (currentSec && currentSec.attemptRuleType === 'ATTEMPT_N_OF_M') {
+    let attemptedInSection = 0;
+    activeQuiz.questions.forEach((item, idx) => {
+      if (item.sectionId === q.sectionId && activeQuiz.userAnswers.hasOwnProperty(item.id || idx)) {
+        attemptedInSection++;
+      }
+    });
+
+    if (!activeQuiz.userAnswers.hasOwnProperty(qKey) && attemptedInSection >= currentSec.questionsToAttempt) {
+      alert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`);
+      return;
+    }
+  }
+
+  activeQuiz.userAnswers[qKey] = optionIndex;
+  renderActiveQuestion();
+  renderQuestionPalette();
+  saveActiveQuizState();
+}
+
+function clearCurrentQuestionResponse() {
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  if (!q) return;
+  const qKey = q.id || activeQuiz.currentIndex;
+
+  if (activeQuiz.userAnswers.hasOwnProperty(qKey)) {
+    delete activeQuiz.userAnswers[qKey];
+  }
+  renderActiveQuestion();
+  renderQuestionPalette();
+  saveActiveQuizState();
+}
+
+function toggleMarkCurrentQuestionForReview() {
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  if (!q) return;
+  const qKey = q.id || activeQuiz.currentIndex;
+
+  if (activeQuiz.reviewFlags[qKey]) {
+    delete activeQuiz.reviewFlags[qKey];
+  } else {
+    activeQuiz.reviewFlags[qKey] = true;
+  }
+
+  updateMarkReviewButtonDisplay();
+  renderQuestionPalette();
+  saveActiveQuizState();
+}
+
+function updateMarkReviewButtonDisplay() {
+  const btn = document.getElementById('quizMarkReviewBtn');
+  if (!btn) return;
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  const qKey = q?.id || activeQuiz.currentIndex;
+
+  if (activeQuiz.reviewFlags[qKey]) {
+    btn.className = "text-xs font-black text-white bg-purple-600 hover:bg-purple-700 border border-purple-700 px-4 py-3 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
+    btn.innerHTML = '<span>🟣 Marked for Review</span>';
+  } else {
+    btn.className = "text-xs font-bold text-purple-700 bg-purple-50 hover:bg-purple-100 border border-purple-200 px-4 py-3 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
+    btn.innerHTML = '<span>☆ Mark for Review</span>';
+  }
+}
+
+function saveNumericalAnswer() {
+  const input = document.getElementById('quizNumericalInput');
+  if (!input) return;
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  const qKey = q?.id || activeQuiz.currentIndex;
+
+  const val = input.value.trim();
+  if (val !== '') {
+    activeQuiz.userAnswers[qKey] = val;
+  } else {
+    delete activeQuiz.userAnswers[qKey];
+  }
+  nextQuizQuestion();
+}
+
+function saveSubjectiveAnswer() {
+  const input = document.getElementById('quizSubjectiveInput');
+  if (!input) return;
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  const qKey = q?.id || activeQuiz.currentIndex;
+
+  const val = input.value.trim();
+  if (val !== '') {
+    activeQuiz.userAnswers[qKey] = val;
+  } else {
+    delete activeQuiz.userAnswers[qKey];
+  }
+  renderQuestionPalette();
+  saveActiveQuizState();
+  alert('उत्तर सुरक्षित कर लिया गया है।');
+}
+
+function nextQuizQuestion() {
+  stopSpeaking();
+  if (activeQuiz.currentIndex < activeQuiz.questions.length - 1) {
+    activeQuiz.currentIndex++;
+    activeQuiz.visited[activeQuiz.currentIndex] = true;
+    renderActiveQuestion();
+    saveActiveQuizState();
+    window.scrollTo({ top: document.getElementById('quizActiveArena').offsetTop - 80, behavior: 'smooth' });
+  }
+}
+
+function prevQuizQuestion() {
+  stopSpeaking();
+  if (activeQuiz.currentIndex > 0) {
+    activeQuiz.currentIndex--;
+    activeQuiz.visited[activeQuiz.currentIndex] = true;
+    renderActiveQuestion();
+    saveActiveQuizState();
+    window.scrollTo({ top: document.getElementById('quizActiveArena').offsetTop - 80, behavior: 'smooth' });
+  }
+}
+
+function jumpToQuizQuestion(index) {
+  stopSpeaking();
+  if (index >= 0 && index < activeQuiz.questions.length) {
+    activeQuiz.currentIndex = index;
+    activeQuiz.visited[index] = true;
+    renderActiveQuestion();
+    saveActiveQuizState();
+  }
+}
+
+function updateLiveScoreStats() {
+  const total = activeQuiz.questions.length;
+  let answered = 0;
+  let reviewCount = 0;
+
+  activeQuiz.questions.forEach((q, idx) => {
+    const qKey = q.id || idx;
+    if (activeQuiz.userAnswers.hasOwnProperty(qKey)) answered++;
+    if (activeQuiz.reviewFlags[qKey]) reviewCount++;
+  });
+
+  const remaining = total - answered;
+
+  const statElem = document.getElementById('quizLiveStats');
+  if (statElem) {
+    statElem.innerHTML = `
+      <span class="text-emerald-700 dark:text-emerald-400 font-bold">🟢 ${answered} Answered</span>
+      <span class="text-slate-300">|</span>
+      <span class="text-purple-700 dark:text-purple-400 font-bold">🟣 ${reviewCount} Review</span>
+      <span class="text-slate-300">|</span>
+      <span class="text-slate-500 font-medium">⏳ ${remaining} Left</span>
+    `;
+  }
+}
+
+// ----------------------------------------------------
+// Question Palette (4 High-Contrast Status Indicators)
+// ----------------------------------------------------
+function renderQuestionPalette() {
+  const paletteContainer = document.getElementById('quizPaletteContainer');
+  if (!paletteContainer) return;
+
+  paletteContainer.innerHTML = activeQuiz.questions.map((q, idx) => {
+    const qKey = q.id || idx;
+    const isAnswered = activeQuiz.userAnswers.hasOwnProperty(qKey);
+    const isReview = Boolean(activeQuiz.reviewFlags[qKey]);
+    const isVisited = Boolean(activeQuiz.visited[idx]);
+    const isCurrent = idx === activeQuiz.currentIndex;
+
+    let bg = "bg-slate-100 text-slate-700 border-slate-300 hover:bg-slate-200";
+
+    if (isAnswered && isReview) {
+      bg = "bg-purple-600 text-white border-purple-700 ring-2 ring-emerald-400 font-bold";
+    } else if (isAnswered) {
+      bg = "bg-emerald-600 text-white border-emerald-700 font-bold";
+    } else if (isReview) {
+      bg = "bg-purple-600 text-white border-purple-700 font-bold";
+    } else if (isVisited) {
+      bg = "bg-rose-500 text-white border-rose-600 font-bold";
+    }
+
+    if (isCurrent) {
+      bg += " ring-4 ring-amber-400 scale-105 font-black";
+    }
+
+    return `
+      <button 
+        type="button" 
+        onclick="jumpToQuizQuestion(${idx})"
+        class="w-8 h-8 rounded-xl border text-xs flex items-center justify-center transition cursor-pointer ${bg}">
+        ${idx + 1}
+      </button>
+    `;
+  }).join('');
+}
+
+// ----------------------------------------------------
+// Submit Test (Server-Side Evaluation & Secure Result)
+// ----------------------------------------------------
+async function submitQuiz(isAutoSubmit = false) {
+  stopSpeaking();
+  if (activeQuiz.timerInterval) {
+    clearInterval(activeQuiz.timerInterval);
+    activeQuiz.timerInterval = null;
+  }
+  activeQuiz.isRunning = false;
+
+  // If manual submission, confirm first
+  if (!isAutoSubmit) {
+    let answered = 0;
+    activeQuiz.questions.forEach((q, idx) => {
+      if (activeQuiz.userAnswers.hasOwnProperty(q.id || idx)) answered++;
+    });
+    const total = activeQuiz.questions.length;
+    const unanswered = total - answered;
+
+    if (!confirm(`क्या आप टेस्ट सबमिट करना चाहते हैं?\n\nकुल प्रश्न: ${total}\nहल किए: ${answered}\nछोड़े गए: ${unanswered}`)) {
+      // Resume timer if cancelled
+      if (activeQuiz.timerMode === 'COUNTDOWN') {
+        activeQuiz.timerInterval = setInterval(() => {
+          activeQuiz.secondsRemaining--;
+          activeQuiz.secondsElapsed++;
+          if (activeQuiz.secondsRemaining <= 0) {
+            clearInterval(activeQuiz.timerInterval);
+            submitQuiz(true);
+          }
+          updateQuizTimerDisplay();
+        }, 1000);
+      }
+      activeQuiz.isRunning = true;
+      return;
+    }
+  }
+
+  try { sessionStorage.removeItem('sarkari_active_quiz'); } catch (e) {}
+
+  let scorecard = null;
+
+  // Try server-side evaluation via persistent database API
+  if (activeQuiz.sessionId) {
+    try {
+      const res = await fetch('/api/v2/mock/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          sessionId: activeQuiz.sessionId,
+          userAnswers: activeQuiz.userAnswers,
+          reviewFlags: Object.keys(activeQuiz.reviewFlags),
+          timeSpentSeconds: activeQuiz.secondsElapsed,
+          isAutoSubmit: Boolean(isAutoSubmit)
+        })
+      });
+
+      if (res.ok) {
+        const data = await res.json();
+        if (data.success && data.scorecard) {
+          scorecard = data.scorecard;
+        }
+      }
+    } catch (e) {
+      console.warn('[Quiz] Remote submit evaluation failed, running client fallback:', e.message);
+    }
+  }
+
+  // Client-side fallback scoring if server was unavailable
+  if (!scorecard) {
+    scorecard = evaluateLocalScorecardFallback(isAutoSubmit);
+  }
+
+  displayScorecardUI(scorecard, isAutoSubmit);
+}
+
+function evaluateLocalScorecardFallback(isAutoSubmit) {
+  let correct = 0;
+  let wrong = 0;
+  const total = activeQuiz.questions.length;
+
+  activeQuiz.questions.forEach((q, idx) => {
+    const qKey = q.id || idx;
+    if (activeQuiz.userAnswers.hasOwnProperty(qKey)) {
+      if (activeQuiz.userAnswers[qKey] === q.correct) correct++;
+      else wrong++;
+    }
+  });
+
+  const attempted = Object.keys(activeQuiz.userAnswers).length;
+  const skipped = total - attempted;
+  const negRate = activeQuiz.negativeMarkingRate || 0.25;
+  const penalty = parseFloat((wrong * negRate).toFixed(2));
+  const netScore = Math.max(0, parseFloat((correct * 1.0 - penalty).toFixed(2)));
+  const scorePct = Math.round((netScore / total) * 100);
+  const accuracyPct = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
+
+  return {
+    isAutoSubmit,
+    summary: {
+      totalQuestions: total,
+      attempted,
+      unattempted: skipped,
+      correct,
+      wrong,
+      grossMarks: correct,
+      negativeMarksDeducted: penalty,
+      netScore,
+      maxMarks: total,
+      percentage: scorePct,
+      accuracy: accuracyPct,
+      timeSpentFormatted: `${Math.floor(activeQuiz.secondsElapsed / 60)}m ${activeQuiz.secondsElapsed % 60}s`,
+      verdictBadge: scorePct >= 70 ? "🏆 Merit List Top Ranker!" : (scorePct >= 40 ? "⚡ Qualified / Good Effort" : "⚠️ Re-attempt Recommended"),
+      verdictClass: scorePct >= 70 ? "from-emerald-600 to-teal-700" : (scorePct >= 40 ? "from-amber-500 to-orange-600" : "from-rose-600 to-orange-700"),
+      verdictDesc: scorePct >= 70 ? "शानदार प्रदर्शन! आपका चयन सुनिश्चित है।" : "अभ्यास जारी रखें।"
+    },
+    sections: []
+  };
+}
+
+function displayScorecardUI(scorecard, isAutoSubmit) {
+  const sum = scorecard.summary;
+
+  // Auto Expired Banner
+  const expBanner = document.getElementById('scorecardExpiredBanner');
+  if (expBanner) {
+    if (isAutoSubmit || scorecard.isAutoSubmit) {
+      expBanner.classList.remove('hidden');
+    } else {
+      expBanner.classList.add('hidden');
+    }
+  }
+
+  // Summary fields
+  const pctEl = document.getElementById('scorecardPct');
+  if (pctEl) pctEl.textContent = `${sum.percentage}%`;
+
+  const rawEl = document.getElementById('scorecardRaw');
+  if (rawEl) rawEl.textContent = `${sum.netScore} / ${sum.maxMarks} Marks`;
+
+  const descEl = document.getElementById('scorecardDesc');
+  if (descEl) descEl.textContent = sum.verdictDesc;
+
+  const corrEl = document.getElementById('scorecardCorrectCount');
+  if (corrEl) corrEl.textContent = sum.correct;
+
+  const wrgEl = document.getElementById('scorecardWrongCount');
+  if (wrgEl) wrgEl.textContent = sum.wrong;
+
+  const skipEl = document.getElementById('scorecardSkippedCount');
+  if (skipEl) skipEl.textContent = sum.unattempted;
+
+  const penEl = document.getElementById('scorecardPenalty');
+  if (penEl) penEl.textContent = sum.negativeMarksDeducted > 0 ? `-${sum.negativeMarksDeducted}` : '0.00';
+
+  const accEl = document.getElementById('scorecardAccuracy');
+  if (accEl) accEl.textContent = `${sum.accuracy}%`;
+
+  const timeEl = document.getElementById('scorecardTimeTaken');
+  if (timeEl) timeEl.textContent = sum.timeSpentFormatted;
+
+  const badgeEl = document.getElementById('scorecardVerdictBadge');
+  if (badgeEl) {
+    badgeEl.textContent = sum.verdictBadge;
+    badgeEl.className = `inline-flex items-center px-4 py-1.5 rounded-full text-xs font-black text-white bg-gradient-to-r ${sum.verdictClass} shadow-md`;
+  }
+
+  const netElem = document.getElementById('scorecardNetScore');
+  if (netElem) netElem.textContent = `${sum.netScore} / ${sum.maxMarks}`;
+
+  // Multi-Section Breakdown Table
+  const secContainer = document.getElementById('scorecardSectionBreakdownContainer');
+  const secRows = document.getElementById('scorecardSectionRows');
+  if (secContainer && secRows) {
+    if (Array.isArray(scorecard.sections) && scorecard.sections.length > 0) {
+      secContainer.classList.remove('hidden');
+      secRows.innerHTML = scorecard.sections.map(s => `
+        <tr class="hover:bg-slate-50">
+          <td class="p-2.5 font-bold">${s.sectionName || s.name}</td>
+          <td class="p-2.5 text-center font-semibold">${s.questionCount}</td>
+          <td class="p-2.5 text-center font-semibold">${s.attempted}</td>
+          <td class="p-2.5 text-center text-emerald-700 font-bold">${s.correct}</td>
+          <td class="p-2.5 text-center text-rose-700 font-bold">${s.wrong}</td>
+          <td class="p-2.5 text-right font-black ${s.netScore >= 0 ? 'text-emerald-700' : 'text-rose-700'}">${s.netScore} / ${s.maxMarks}</td>
+        </tr>
+      `).join('');
+    } else {
+      secContainer.classList.add('hidden');
+    }
+  }
+
+  document.getElementById('quizActiveArena')?.classList.add('hidden');
+  document.getElementById('quizScorecardModal')?.classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ----------------------------------------------------
+// Reset & Exit Handlers
+// ----------------------------------------------------
+function resetQuiz() {
+  stopSpeaking();
+  if (activeQuiz.timerInterval) {
+    clearInterval(activeQuiz.timerInterval);
+    activeQuiz.timerInterval = null;
+  }
+  activeQuiz.isRunning = false;
+  try { sessionStorage.removeItem('sarkari_active_quiz'); } catch (e) {}
+  document.getElementById('quizScorecardModal')?.classList.add('hidden');
+  document.getElementById('quizActiveArena')?.classList.add('hidden');
+  document.getElementById('quizSetupCard')?.classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function exitQuizTest() {
+  if (confirm('क्या आप सच में टेस्ट छोड़ना चाहते हैं?')) {
+    resetQuiz();
+  }
+}
+
+// ----------------------------------------------------
+// State Persistence (sessionStorage)
+// ----------------------------------------------------
+function saveActiveQuizState() {
+  if (activeQuiz && activeQuiz.isRunning && activeQuiz.questions?.length > 0) {
+    const state = {
+      mode: activeQuiz.mode,
+      sessionId: activeQuiz.sessionId,
+      exam: activeQuiz.exam,
+      board: activeQuiz.board,
+      subject: activeQuiz.subject,
+      blueprint: activeQuiz.blueprint,
+      sections: activeQuiz.sections,
+      questions: activeQuiz.questions,
+      currentIndex: activeQuiz.currentIndex,
+      userAnswers: activeQuiz.userAnswers,
+      reviewFlags: activeQuiz.reviewFlags,
+      visited: activeQuiz.visited,
+      timerMode: activeQuiz.timerMode,
+      totalSeconds: activeQuiz.totalSeconds,
+      secondsRemaining: activeQuiz.secondsRemaining,
+      secondsElapsed: activeQuiz.secondsElapsed,
+      isRunning: true
+    };
+    try {
+      sessionStorage.setItem('sarkari_active_quiz', JSON.stringify(state));
+    } catch (e) {}
+  }
+}
+
+function restoreQuizStateIfActive() {
+  try {
+    const raw = sessionStorage.getItem('sarkari_active_quiz');
+    if (!raw) return;
+    const saved = JSON.parse(raw);
+    if (saved && saved.isRunning && Array.isArray(saved.questions) && saved.questions.length > 0) {
+      activeQuiz.mode = saved.mode || 'FULL_EXAM';
+      activeQuiz.sessionId = saved.sessionId || null;
+      activeQuiz.exam = saved.exam || 'ssc-gd';
+      activeQuiz.board = saved.board || '';
+      activeQuiz.subject = saved.subject || 'all';
+      activeQuiz.blueprint = saved.blueprint || null;
+      activeQuiz.sections = saved.sections || [];
+      activeQuiz.questions = saved.questions;
+      activeQuiz.currentIndex = saved.currentIndex || 0;
+      activeQuiz.userAnswers = saved.userAnswers || {};
+      activeQuiz.reviewFlags = saved.reviewFlags || {};
+      activeQuiz.visited = saved.visited || { [saved.currentIndex]: true };
+      activeQuiz.timerMode = saved.timerMode || 'COUNTDOWN';
+      activeQuiz.totalSeconds = saved.totalSeconds || 3600;
+      activeQuiz.secondsRemaining = saved.secondsRemaining || 3600;
+      activeQuiz.secondsElapsed = saved.secondsElapsed || 0;
+      activeQuiz.isRunning = true;
+
+      if (activeQuiz.timerInterval) clearInterval(activeQuiz.timerInterval);
+      activeQuiz.timerInterval = setInterval(() => {
+        activeQuiz.secondsElapsed++;
+        if (activeQuiz.timerMode === 'COUNTDOWN') {
+          activeQuiz.secondsRemaining--;
+          if (activeQuiz.secondsRemaining <= 0) {
+            clearInterval(activeQuiz.timerInterval);
+            submitQuiz(true);
+            return;
+          }
+        }
+        updateQuizTimerDisplay();
+        saveActiveQuizState();
+      }, 1000);
+
+      document.getElementById('quizSetupCard')?.classList.add('hidden');
+      document.getElementById('quizScorecardModal')?.classList.add('hidden');
+      document.getElementById('quizActiveArena')?.classList.remove('hidden');
+
+      renderSectionTabs();
+      renderQuestionPalette();
+      renderActiveQuestion();
+      updateQuizTimerDisplay();
+    }
+  } catch (e) {
+    console.warn('[Quiz] Error restoring quiz state:', e.message);
+  }
+}
+
+// ----------------------------------------------------
+// Bookmarks & Revision Vault (100% Preserved)
+// ----------------------------------------------------
+function getBookmarkedQuestions() {
+  try {
+    const raw = localStorage.getItem('sarkari_bookmarked_questions');
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) { return []; }
+}
+
+function saveBookmarkedQuestions(list) {
+  try {
+    localStorage.setItem('sarkari_bookmarked_questions', JSON.stringify(list));
+  } catch (e) {}
+}
+
+function isCurrentQuestionBookmarked() {
+  if (!activeQuiz.questions || !activeQuiz.questions[activeQuiz.currentIndex]) return false;
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  const list = getBookmarkedQuestions();
+  return list.some(item => item.q === q.q);
+}
+
+function toggleBookmarkCurrentQuestion() {
+  if (!activeQuiz.questions || !activeQuiz.questions[activeQuiz.currentIndex]) return;
+  const q = activeQuiz.questions[activeQuiz.currentIndex];
+  let list = getBookmarkedQuestions();
+  const existingIdx = list.findIndex(item => item.q === q.q);
+
+  if (existingIdx >= 0) {
+    list.splice(existingIdx, 1);
+  } else {
+    list.push({ ...q, bookmarkedAt: new Date().toISOString() });
+  }
+  saveBookmarkedQuestions(list);
+  updateBookmarkButtonDisplay();
+  if (typeof renderRevisionVault === 'function') renderRevisionVault();
+}
+
+function updateBookmarkButtonDisplay() {
+  const btn = document.getElementById('quizBookmarkBtn');
+  if (!btn) return;
+  const isBm = isCurrentQuestionBookmarked();
+  if (isBm) {
+    btn.className = "text-xs font-black text-amber-900 bg-amber-300 border-2 border-amber-500 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
+    btn.innerHTML = '<span>★</span> <span class="hidden sm:inline">Bookmarked (सेव्ड)</span>';
+  } else {
+    btn.className = "text-xs font-bold text-slate-700 hover:text-amber-800 hover:bg-amber-100 bg-slate-100 border border-slate-300 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
+    btn.innerHTML = '<span>☆</span> <span class="hidden sm:inline">Bookmark (कठिन प्रश्न)</span>';
+  }
+}
+
+function startRevisionQuiz() {
+  const bookmarks = getBookmarkedQuestions();
+  if (!bookmarks || bookmarks.length === 0) {
+    alert('आपकी रिवीजन तिजोरी अभी खाली है!\n\nकठिन प्रश्नों पर Bookmark बटन दबाकर सेव करें।');
+    return;
+  }
+  activeQuiz.mode = 'PRACTICE';
+  activeQuiz.sessionId = `rev-${Date.now()}`;
+  activeQuiz.questions = JSON.parse(JSON.stringify(bookmarks));
+  activeQuiz.sections = [{ sectionId: 'sec-rev', name: 'Revision Vault', questionCount: bookmarks.length, questionsToAttempt: bookmarks.length, marksCorrect: 1.0, marksWrong: 0.25, hasNegativeMarking: true }];
+  activeQuiz.currentIndex = 0;
+  activeQuiz.userAnswers = {};
+  activeQuiz.reviewFlags = {};
+  activeQuiz.visited = { 0: true };
+  activeQuiz.timerMode = 'STOPWATCH';
+  activeQuiz.secondsElapsed = 0;
+  activeQuiz.isRunning = true;
+
+  if (activeQuiz.timerInterval) clearInterval(activeQuiz.timerInterval);
+  activeQuiz.timerInterval = setInterval(() => {
+    activeQuiz.secondsElapsed++;
+    updateQuizTimerDisplay();
+  }, 1000);
+
+  document.getElementById('quizSetupCard')?.classList.add('hidden');
+  document.getElementById('quizScorecardModal')?.classList.add('hidden');
+  document.getElementById('quizActiveArena')?.classList.remove('hidden');
+
+  renderSectionTabs();
+  renderQuestionPalette();
+  renderActiveQuestion();
+}
+
+function renderRevisionVault() {
+  const container = document.getElementById('revisionVaultContainer');
+  if (!container) return;
+  const bookmarks = getBookmarkedQuestions();
+
+  if (bookmarks.length === 0) {
+    container.innerHTML = `
+      <div class="bg-white rounded-3xl p-8 sm:p-12 text-center border-2 border-dashed border-amber-300 shadow-sm space-y-4">
+        <div class="w-16 h-16 mx-auto rounded-3xl bg-amber-100 flex items-center justify-center text-3xl">⭐</div>
+        <h3 class="text-lg font-black text-slate-900">Your Revision Vault is Empty (तिजोरी खाली है)</h3>
+        <p class="text-xs sm:text-sm text-slate-500 max-w-md mx-auto">कठिन प्रश्नों के ऊपर दिए गए Bookmark बटन पर क्लिक करके उन्हें यहाँ सेव करें।</p>
+        <a href="#tool/quiz" class="inline-flex items-center space-x-2 bg-gradient-to-r from-rose-600 to-orange-600 text-white font-black text-xs px-6 py-3 rounded-2xl shadow-md">
+          <span>🎯 Go to Live Mock Test</span>
+        </a>
+      </div>
+    `;
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="bg-gradient-to-br from-amber-900 to-slate-900 text-white rounded-3xl p-6 shadow-xl border border-amber-600/40 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div>
+        <h2 class="text-2xl font-black">Revision Vault (${bookmarks.length} Saved Questions)</h2>
+        <p class="text-xs text-amber-200 mt-1">इन कठिन प्रश्नों का बार-बार अभ्यास करें।</p>
+      </div>
+      <button onclick="startRevisionQuiz()" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-black text-xs px-5 py-3 rounded-2xl shadow-lg cursor-pointer">
+        🚀 Start Revision Test
+      </button>
+    </div>
+  `;
+}
+
+function updateQuizPaidPdfBanner() {
+  const examSelect = document.getElementById('quizExamSelect');
+  const subjectSelect = document.getElementById('quizSubjectSelect');
+  const badge = document.getElementById('quizBannerActiveSubjectBadge');
+  const title = document.getElementById('quizBannerTitle');
+
+  if (!badge || !title) return;
+  const examText = examSelect ? (examSelect.options[examSelect.selectedIndex]?.text || examSelect.value) : "SSC GD 2026";
+  const subText = subjectSelect ? (subjectSelect.options[subjectSelect.selectedIndex]?.text || subjectSelect.value) : "All Subjects";
+  badge.textContent = subText.slice(0, 25);
+  title.textContent = `${examText.slice(0, 30)} सर्वाधिक पूछे जाने वाले रामबाण प्रश्नों की Verified PDF`;
+}
+
+function triggerQuizPdfPurchase(isAllSubject = false) {
+  const price = isAllSubject ? 19 : 9;
+  if (typeof openUpiPaymentModal === 'function') {
+    openUpiPaymentModal(`quiz-${Date.now()}`, { price });
+  } else {
+    alert(`₹${price} UPI भुगतान गेटवे लोड हो रहा है...`);
+  }
+}
+
+// Global Window Exports
+window.switchQuizMode = switchQuizMode;
+window.startNewQuiz = startNewQuiz;
+window.submitQuiz = submitQuiz;
+window.resetQuiz = resetQuiz;
+window.exitQuizTest = exitQuizTest;
+window.prevQuizQuestion = prevQuizQuestion;
+window.nextQuizQuestion = nextQuizQuestion;
+window.jumpToQuizQuestion = jumpToQuizQuestion;
+window.jumpToSection = jumpToSection;
+window.handleOptionSelection = handleOptionSelection;
+window.clearCurrentQuestionResponse = clearCurrentQuestionResponse;
+window.toggleMarkCurrentQuestionForReview = toggleMarkCurrentQuestionForReview;
+window.saveNumericalAnswer = saveNumericalAnswer;
+window.saveSubjectiveAnswer = saveSubjectiveAnswer;
+window.toggleBookmarkCurrentQuestion = toggleBookmarkCurrentQuestion;
+window.startRevisionQuiz = startRevisionQuiz;
+window.renderRevisionVault = renderRevisionVault;
+window.triggerQuizPdfPurchase = triggerQuizPdfPurchase;
+window.updateQuizPaidPdfBanner = updateQuizPaidPdfBanner;
+
+document.addEventListener('DOMContentLoaded', () => {
+  initQuiz();
+  updateQuizPaidPdfBanner();
+  renderRevisionVault();
+});

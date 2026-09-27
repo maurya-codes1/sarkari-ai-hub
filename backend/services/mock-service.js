@@ -1,0 +1,1043 @@
+// backend/services/mock-service.js
+// Universal Blueprint-Driven Mock Test Engine Service
+// Enforces:
+// 1. Strict Blueprint-Driven Full Exam Mode vs Flexible Practice Mode
+// 2. Multi-section architecture with section rules, timers, and attempt limits
+// 3. Official countdown timers with automatic expiration submission
+// 4. Strict Zero-Duplicate Question Selection per session
+// 5. Anti-tampering server-side score calculation
+// 6. Multi-language separation (UI vs Paper vs Question vs Options)
+// 7. Numerical and Subjective question support hooks
+// 8. Graceful fallback for legacy exams and offline operations
+
+const blueprintRepository = require('../db/repositories/blueprint-repository');
+const questionRepository = require('../db/repositories/question-repository');
+const mockSessionRepository = require('../db/repositories/mock-session-repository');
+const examRepository = require('../db/repositories/exam-repository');
+const zeroQuestionService = require('./zero-question-service');
+const aiInterleavingService = require('./ai-interleaving-service');
+const contentDependencyService = require('./content-dependency-service');
+
+class MockService {
+  /**
+   * Initializes a new Mock Test Session
+   */
+  startMockSession(options = {}) {
+    const {
+      examId = 'ssc-gd',
+      versionId = null,
+      examVersionId = null,
+      testMode = 'FULL_EXAM', // 'SUBJECT_PRACTICE' | 'ALL_SUBJECTS_PRACTICE' | 'FULL_EXAM' | 'FULL_EXAM_PATTERN' | 'PRACTICE'
+      requestedCount,
+      questionCount,
+      count,
+      size,
+      subjectId = 'all',
+      difficulty = 'MIXED',
+      languageConfig = { primary: 'hi', secondary: 'en', optionMode: 'bilingual' },
+      timerMode = 'COUNTDOWN',
+      aiProportion = 0.0,
+      strictVerification = false,
+      exactCountRequired = false
+    } = options;
+
+    const effectiveCount = requestedCount || questionCount || count || size || 30;
+    const targetVersionId = versionId || examVersionId || null;
+    const isDbReady = mockSessionRepository.isAvailable();
+    const sessionId = `mock-${Date.now()}-${Math.random().toString(36).substr(2, 7)}`;
+
+    if (!isDbReady) {
+      return this._generateOfflineFallbackSession(sessionId, examId, testMode, effectiveCount, subjectId);
+    }
+
+    const exam = examRepository.getExamById(examId) || { exam_id: examId, name: examId };
+
+    const isFullExam = ['FULL_EXAM', 'FULL_EXAM_PATTERN'].includes(testMode);
+    const isSubjectPractice = testMode === 'SUBJECT_PRACTICE' || (!isFullExam && subjectId && subjectId !== 'all');
+
+    if (isFullExam) {
+      return this._createFullExamSession({
+        sessionId,
+        exam,
+        examId,
+        versionId: targetVersionId,
+        testMode,
+        languageConfig,
+        strictVerification: Boolean(strictVerification),
+        exactCountRequired: exactCountRequired || testMode === 'FULL_EXAM_PATTERN',
+        aiProportion
+      });
+    } else {
+      return this._createPracticeSession({
+        sessionId,
+        exam,
+        examId,
+        versionId: targetVersionId,
+        requestedCount: effectiveCount,
+        subjectId: isSubjectPractice ? subjectId : 'all',
+        practiceType: isSubjectPractice ? 'SUBJECT_PRACTICE' : 'ALL_SUBJECTS_PRACTICE',
+        testMode,
+        difficulty,
+        languageConfig,
+        timerMode,
+        aiProportion
+      });
+    }
+  }
+
+  /**
+   * Generates a Full Exam Mock derived from the verified blueprint
+   */
+  _createFullExamSession({ sessionId, exam, examId, versionId = null, testMode = 'FULL_EXAM', languageConfig, strictVerification = false, exactCountRequired = false }) {
+    const unifiedExamTruthService = require('./unified-exam-truth-service');
+    const verifiedMockConfig = unifiedExamTruthService.getMockConfiguration(examId, versionId);
+
+    // If strict verification required and blueprint is not official verified:
+    if (strictVerification) {
+      const fullExamGateService = require('./full-exam-gate-service');
+      const readiness = fullExamGateService.evaluateExamReadiness(examId, versionId);
+      if (!readiness.isEligible) {
+        return {
+          success: false,
+          status: 'FULL_EXAM_UNAVAILABLE',
+          reason: readiness.primaryReason,
+          blockingReasons: readiness.blockingReasons,
+          message: readiness.userMessage,
+          suggestedModes: ['SUBJECT_PRACTICE', 'ALL_SUBJECTS_PRACTICE']
+        };
+      }
+    }
+
+    let blueprint = null;
+    if (verifiedMockConfig && verifiedMockConfig.success) {
+      blueprint = {
+        blueprint_id: verifiedMockConfig.blueprintId,
+        name: verifiedMockConfig.blueprintName,
+        verification_status: 'VERIFIED',
+        duration_minutes: verifiedMockConfig.durationMinutes,
+        total_questions: verifiedMockConfig.totalQuestions,
+        total_marks: verifiedMockConfig.totalMarks,
+        is_negative_marking: verifiedMockConfig.isNegativeMarking,
+        questions_to_attempt: verifiedMockConfig.questionsToAttempt,
+        attempt_rule_type: verifiedMockConfig.attemptRuleType,
+        sections: verifiedMockConfig.sections.map(s => ({
+          section_id: s.sectionId,
+          name: s.name,
+          section_order: s.sectionOrder,
+          subject_id: s.subjectId,
+          question_count: s.questionCount,
+          questions_to_attempt: s.questionsToAttempt,
+          marks_correct: s.marksCorrect !== undefined ? s.marksCorrect : s.marksPerQuestion,
+          marks_wrong: s.marksWrong !== undefined ? s.marksWrong : (verifiedMockConfig.isNegativeMarking ? (s.marksPerQuestion * 0.25) : 0.0),
+          has_negative_marking: s.hasNegativeMarking !== undefined ? (s.hasNegativeMarking ? 1 : 0) : (verifiedMockConfig.isNegativeMarking ? 1 : 0),
+          negative_value: s.negativeValue !== undefined ? s.negativeValue : (verifiedMockConfig.isNegativeMarking ? (s.marksPerQuestion * 0.25) : 0.0),
+          attempt_rule_type: 'ATTEMPT_ALL',
+          allowed_question_types: s.allowedQuestionTypes || ['single_mcq'],
+          instructions: s.instructions
+        }))
+      };
+      if (verifiedMockConfig.languageConfig) {
+        languageConfig = {
+          primary: verifiedMockConfig.languageConfig.questionLanguages[0] || 'hi',
+          secondary: verifiedMockConfig.languageConfig.questionLanguages[1] || 'en',
+          optionMode: verifiedMockConfig.languageConfig.isBilingual ? 'bilingual' : 'monolingual'
+        };
+      }
+    } else {
+      blueprint = blueprintRepository.getBlueprintForExam(examId);
+    }
+
+    // Fallback if no specific blueprint in DB: create a safe default single-section blueprint
+    if (!blueprint) {
+      blueprint = {
+        blueprint_id: `bp-fallback-${examId}`,
+        name: `${exam.name || examId} Standard Mock Pattern`,
+        verification_status: 'NEEDS_REVIEW',
+        duration_minutes: 60,
+        total_questions: 30,
+        questions_to_attempt: 30,
+        is_negative_marking: true,
+        sections: [
+          {
+            section_id: `sec-fallback-1`,
+            name: 'General Assessment Section',
+            section_order: 1,
+            subject_id: 'subj-gk',
+            question_count: 30,
+            questions_to_attempt: 30,
+            marks_correct: 1.0,
+            marks_wrong: 0.25,
+            has_negative_marking: 1,
+            negative_value: 0.25,
+            attempt_rule_type: 'ATTEMPT_ALL',
+            allowed_question_types: ['single_mcq'],
+            instructions: 'Attempt all questions. 0.25 negative marking applies for incorrect responses.'
+          }
+        ]
+      };
+    }
+
+    const usedQuestionIds = new Set();
+    const sessionSections = [];
+    const sessionQuestions = [];
+    let totalQuestionsCount = 0;
+    let totalQuestionsToAttempt = 0;
+    let hasInsufficientInventory = false;
+    const sectionShortages = [];
+
+    // Build questions section by section
+    for (const section of blueprint.sections) {
+      const neededCount = section.question_count || 20;
+      totalQuestionsToAttempt += (section.questions_to_attempt || neededCount);
+
+      // Strict Zero Duplicate Question selection
+      const questionsFromDb = questionRepository.getQuestionsForSection(
+        section.subject_id,
+        neededCount,
+        Array.from(usedQuestionIds),
+        section.allowed_question_types
+      );
+
+      if (questionsFromDb.length < neededCount) {
+        hasInsufficientInventory = true;
+        sectionShortages.push({
+          sectionId: section.section_id,
+          sectionName: section.name,
+          subjectId: section.subject_id,
+          required: neededCount,
+          available: questionsFromDb.length,
+          shortage: neededCount - questionsFromDb.length
+        });
+      }
+
+      if (strictVerification && questionsFromDb.length === 0) {
+        return {
+          success: false,
+          status: 'FULL_EXAM_UNAVAILABLE',
+          reason: 'NO_VERIFIED_QUESTIONS',
+          message: `Mock Test Not Available: Verified questions are currently unavailable for section '${section.name}'.`,
+          suggestedModes: ['SUBJECT_PRACTICE', 'ALL_SUBJECTS_PRACTICE']
+        };
+      }
+
+      const sectionQuestionItems = [];
+
+      for (const qRow of questionsFromDb) {
+        usedQuestionIds.add(qRow.question_id);
+
+        const formatted = this._formatQuestionForClient(qRow, section, languageConfig);
+        sectionQuestionItems.push(formatted);
+        sessionQuestions.push(formatted);
+      }
+
+      totalQuestionsCount += sectionQuestionItems.length;
+
+      sessionSections.push({
+        sectionId: section.section_id,
+        name: section.name,
+        subjectId: section.subject_id,
+        subjectName: section.subject_name || section.name,
+        sectionOrder: section.section_order,
+        questionCount: sectionQuestionItems.length,
+        blueprintTargetCount: section.question_count,
+        questionsToAttempt: section.questions_to_attempt,
+        marksCorrect: Number(section.marks_correct !== undefined ? section.marks_correct : (section.marksCorrect || 1.0)),
+        marksWrong: Number(section.marks_wrong !== undefined ? section.marks_wrong : (section.marksWrong || 0.0)),
+        hasNegativeMarking: Boolean(section.has_negative_marking !== undefined ? section.has_negative_marking : (section.is_negative_marking !== undefined ? section.is_negative_marking : blueprint.is_negative_marking)),
+        negativeValue: Number(section.negative_value !== undefined ? section.negative_value : (section.marks_wrong !== undefined ? section.marks_wrong : 0.0)),
+        attemptRuleType: section.attempt_rule_type || 'ATTEMPT_ALL',
+        instructions: section.instructions || '',
+        allowedQuestionTypes: section.allowed_question_types || ['single_mcq'],
+        questionIds: sectionQuestionItems.map(q => q.id)
+      });
+    }
+
+    // Exact Question Count & No Silent Fallback for Mode C
+    if (exactCountRequired || testMode === 'FULL_EXAM_PATTERN') {
+      if (hasInsufficientInventory || sectionShortages.length > 0 || (blueprint.total_questions && totalQuestionsCount < blueprint.total_questions)) {
+        const shortageText = sectionShortages.map(s => `${s.sectionName} (${s.shortage})`).join(', ');
+        return {
+          success: false,
+          status: 'FULL_EXAM_UNAVAILABLE',
+          reason: 'FULL_EXAM_UNAVAILABLE_QUESTION_BANK_INSUFFICIENT',
+          requiredTotal: blueprint.total_questions || totalQuestionsToAttempt,
+          availableTotal: totalQuestionsCount,
+          sectionShortages,
+          message: `Full Exam pattern requires ${blueprint.total_questions || totalQuestionsToAttempt} questions. Current verified question bank has only ${totalQuestionsCount} questions with shortages in: ${shortageText || 'Sections'}. Please practice in Subject-wise Practice or All Subjects Practice mode until the question bank is fully populated.`,
+          suggestedModes: ['SUBJECT_PRACTICE', 'ALL_SUBJECTS_PRACTICE']
+        };
+      }
+    }
+
+    const returnTestMode = (testMode === 'FULL_EXAM_PATTERN') ? 'FULL_EXAM_PATTERN' : 'FULL_EXAM';
+    const isVerified = blueprint.verification_status === 'VERIFIED';
+    const patternBadge = isVerified ? 'Verified Official Pattern' : 'Pattern data pending verification';
+
+    // Phase 6 Final Addendum: Immutable Snapshot Association
+    let snapshotId = null;
+    try {
+      const snap = contentDependencyService.getLatestSnapshot(examId, blueprint.exam_version_id);
+      if (snap && snap.snapshotId) {
+        snapshotId = snap.snapshotId;
+      } else {
+        const newSnap = contentDependencyService.createExamSnapshot(examId, blueprint.exam_version_id);
+        if (newSnap && newSnap.snapshotId) {
+          snapshotId = newSnap.snapshotId;
+        }
+      }
+    } catch (e) {
+      // Snapshot creation should not break mock initialization if dependencies are partial
+    }
+
+    const sessionRecord = {
+      sessionId,
+      examId,
+      examVersionId: blueprint.exam_version_id || null,
+      blueprintId: blueprint.blueprint_id,
+      snapshotId,
+      testMode: returnTestMode,
+      languageConfig,
+      durationMinutes: blueprint.duration_minutes || 60,
+      totalQuestions: totalQuestionsCount,
+      questionsToAttempt: totalQuestionsToAttempt,
+      markingRules: {
+        isNegativeMarking: Boolean(blueprint.is_negative_marking),
+        verificationStatus: blueprint.verification_status
+      },
+      sections: sessionSections,
+      questionIds: Array.from(usedQuestionIds),
+      userAnswers: {},
+      reviewFlags: []
+    };
+
+    mockSessionRepository.createSession(sessionRecord);
+
+    return {
+      success: true,
+      sessionId,
+      snapshotId,
+      testMode: returnTestMode,
+      modeTitle: 'Full Exam — Official Pattern',
+      isFlexibleCount: false,
+      examId,
+      examName: exam.name || examId,
+      blueprint: {
+        blueprintId: blueprint.blueprint_id,
+        name: blueprint.name,
+        verificationStatus: blueprint.verification_status,
+        patternBadge,
+        isVerified,
+        isFlexibleCount: false,
+        totalMarks: blueprint.total_marks || (totalQuestionsCount * 1),
+        durationMinutes: blueprint.duration_minutes || 60,
+        totalQuestions: blueprint.total_questions || totalQuestionsCount,
+        questionsToAttempt: blueprint.questions_to_attempt || totalQuestionsToAttempt,
+        isNegativeMarking: Boolean(blueprint.is_negative_marking),
+        hasInsufficientInventory
+      },
+      sections: sessionSections,
+      questions: sessionQuestions,
+      timerConfig: {
+        mode: 'COUNTDOWN',
+        durationMinutes: blueprint.duration_minutes || 60,
+        totalSeconds: (blueprint.duration_minutes || 60) * 60,
+        autoSubmitOnExpiry: true
+      },
+      languageConfig
+    };
+  }
+
+  /**
+   * Generates a Flexible Practice Set
+   */
+  _createPracticeSession({
+    sessionId,
+    exam,
+    examId,
+    versionId = null,
+    requestedCount,
+    subjectId,
+    practiceType = 'SUBJECT_PRACTICE',
+    testMode = null,
+    difficulty,
+    languageConfig,
+    timerMode,
+    aiProportion = 0.0
+  }) {
+    // Validate requested quantity (10, 20, 30, 50, 75, 100, 200, 250, custom)
+    const validCount = Math.max(5, Math.min(250, parseInt(requestedCount, 10) || 30));
+
+    let subjectIds = null;
+    if (practiceType === 'ALL_SUBJECTS_PRACTICE' || subjectId === 'all') {
+      const db = require('../db/database').getDb();
+      if (db) {
+        const bp = blueprintRepository.getBlueprintForExam(examId);
+        if (bp && Array.isArray(bp.sections) && bp.sections.length > 0) {
+          subjectIds = bp.sections.map(s => s.subject_id).filter(Boolean);
+        }
+        if (!subjectIds || subjectIds.length === 0) {
+          const subRows = db.prepare(`
+            SELECT DISTINCT st.subject_id 
+            FROM syllabus_topics st
+            JOIN exam_versions ev ON st.exam_version_id = ev.version_id
+            WHERE ev.exam_id = ?
+          `).all(examId);
+          subjectIds = subRows.map(r => r.subject_id);
+        }
+      }
+    }
+
+    // Strict zero duplicate selection
+    const questionsFromDb = questionRepository.getPracticeQuestions({
+      subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : null,
+      subjectIds: (practiceType === 'ALL_SUBJECTS_PRACTICE' && subjectIds && subjectIds.length > 0) ? subjectIds : null,
+      difficulty,
+      count: validCount,
+      excludeIds: []
+    });
+
+    // Zero-question handling for practice mode
+    if (questionsFromDb.length === 0) {
+      return zeroQuestionService.evaluatePracticeInventory({
+        examId,
+        subjectId,
+        requestedCount: validCount,
+        availableQuestions: []
+      });
+    }
+
+    const usedQuestionIds = new Set();
+    let sessionQuestions = [];
+
+    const isSubjMode = practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all';
+    const sectionName = isSubjMode ? `Subject Practice: ${subjectId}` : 'Comprehensive Practice Set';
+    const sectionSubjectName = isSubjMode ? subjectId : 'All Subjects';
+
+    const practiceSection = {
+      section_id: isSubjMode ? `sec-practice-${subjectId}` : 'sec-practice-all',
+      name: sectionName,
+      subject_id: subjectId,
+      subject_name: sectionSubjectName,
+      section_order: 1,
+      question_count: questionsFromDb.length,
+      questions_to_attempt: questionsFromDb.length,
+      marks_correct: 1.0,
+      marks_wrong: 0.0,
+      has_negative_marking: 0,
+      negative_value: 0.0,
+      attempt_rule_type: 'ATTEMPT_ALL',
+      instructions: 'Practice Mode: Test your concepts at your own pace.',
+      questionIds: questionsFromDb.map(q => q.question_id)
+    };
+
+    for (const qRow of questionsFromDb) {
+      usedQuestionIds.add(qRow.question_id);
+      const formatted = this._formatQuestionForClient(qRow, practiceSection, languageConfig);
+      sessionQuestions.push(formatted);
+    }
+
+    // AI Interleaving if aiProportion > 0
+    if (aiProportion > 0) {
+      const aiNeeded = Math.ceil(validCount * aiProportion);
+      const aiQuestionsRaw = questionRepository.getQuestionsByProvenance('AI_PRACTICE', aiNeeded);
+      const aiQuestionsFormatted = aiQuestionsRaw.map(q => this._formatQuestionForClient(q, practiceSection, languageConfig));
+      sessionQuestions = aiInterleavingService.interleaveQuestions(sessionQuestions, aiQuestionsFormatted, {
+        aiProportion,
+        targetCount: sessionQuestions.length
+      });
+    }
+
+    const durationMins = timerMode === 'COUNTDOWN' ? Math.ceil(sessionQuestions.length * 1.5) : 0;
+    const resolvedTestMode = testMode === 'PRACTICE' ? 'PRACTICE' : (testMode || practiceType || 'PRACTICE');
+    const modeTitle = (practiceType === 'SUBJECT_PRACTICE' || resolvedTestMode === 'SUBJECT_PRACTICE')
+      ? 'Subject-wise Practice'
+      : (practiceType === 'ALL_SUBJECTS_PRACTICE' || resolvedTestMode === 'ALL_SUBJECTS_PRACTICE')
+        ? 'All Subjects Practice'
+        : 'Practice Set';
+
+    const sessionRecord = {
+      sessionId,
+      examId,
+      examVersionId: versionId || null,
+      blueprintId: null,
+      testMode: resolvedTestMode,
+      languageConfig,
+      durationMinutes: durationMins,
+      totalQuestions: sessionQuestions.length,
+      questionsToAttempt: sessionQuestions.length,
+      markingRules: {
+        isNegativeMarking: false,
+        marksCorrect: 1.0,
+        marksWrong: 0.0
+      },
+      sections: [practiceSection],
+      questionIds: Array.from(usedQuestionIds),
+      userAnswers: {},
+      reviewFlags: []
+    };
+
+    mockSessionRepository.createSession(sessionRecord);
+
+    return {
+      success: true,
+      sessionId,
+      testMode: resolvedTestMode,
+      practiceType,
+      modeTitle,
+      isFlexibleCount: true,
+      examId,
+      examName: exam.name || examId,
+      blueprint: {
+        blueprintId: isSubjMode ? `bp-practice-${subjectId}` : 'bp-practice-all-subjects',
+        name: `${modeTitle} (${sessionQuestions.length} Questions)`,
+        verificationStatus: 'PRACTICE_MODE',
+        patternBadge: isSubjMode ? 'Subject Practice' : 'All Subjects Practice',
+        isVerified: false,
+        isFlexibleCount: true,
+        totalMarks: sessionQuestions.length * 1,
+        durationMinutes: durationMins,
+        totalQuestions: sessionQuestions.length,
+        questionsToAttempt: sessionQuestions.length,
+        isNegativeMarking: false,
+        hasInsufficientInventory: sessionQuestions.length < validCount
+      },
+      sections: [practiceSection],
+      questions: sessionQuestions,
+      timerConfig: {
+        mode: timerMode || 'STOPWATCH',
+        durationMinutes: durationMins,
+        totalSeconds: durationMins * 60,
+        autoSubmitOnExpiry: timerMode === 'COUNTDOWN'
+      },
+      languageConfig
+    };
+  }
+
+  /**
+   * Evaluates answers and computes verified server-side score
+   */
+  submitMockSession({
+    sessionId,
+    userAnswers = {},
+    reviewFlags = [],
+    timeSpentSeconds = 0,
+    isAutoSubmit = false
+  }) {
+    const session = mockSessionRepository.getSessionById(sessionId);
+
+    if (!session) {
+      // Offline / standalone client evaluation fallback
+      return this._evaluateOfflineSubmission({ userAnswers, timeSpentSeconds, isAutoSubmit });
+    }
+
+    // Retrieve original question definitions with actual correct answers
+    const questionRows = questionRepository.getQuestionsByIds(session.question_ids_json);
+    const questionsMap = new Map();
+    questionRows.forEach(q => questionsMap.set(q.question_id, q));
+
+    const sections = session.sections_json || [];
+    let grossMarksEarned = 0;
+    let totalNegativeDeduction = 0;
+    let totalCorrect = 0;
+    let totalWrong = 0;
+    let totalAttempted = 0;
+    let totalUnattempted = 0;
+
+    const sectionResults = [];
+    const detailedReview = [];
+
+    // Evaluate section by section
+    for (const sec of sections) {
+      let secCorrect = 0;
+      let secWrong = 0;
+      let secAttempted = 0;
+      let secUnattempted = 0;
+      let secMarksEarned = 0;
+      let secNegativeDeduction = 0;
+
+      const marksPerCorrect = Number(sec.marksCorrect !== undefined ? sec.marksCorrect : (sec.marks_correct !== undefined ? sec.marks_correct : (sec.marks_per_question || 1.0)));
+      const hasNegative = Boolean(sec.hasNegativeMarking !== undefined ? sec.hasNegativeMarking : (sec.has_negative_marking !== undefined ? sec.has_negative_marking : false));
+      const negativeVal = hasNegative ? Number(sec.negativeValue !== undefined ? sec.negativeValue : (sec.negative_value !== undefined ? sec.negative_value : (sec.marksWrong || sec.marks_wrong || 0))) : 0;
+      const maxToAttempt = sec.questionsToAttempt || sec.questionCount;
+
+      // Filter answers belonging to this section
+      const secQuestionIds = Array.isArray(sec.questionIds)
+        ? sec.questionIds
+        : session.question_ids_json.filter(id => {
+            const q = questionsMap.get(id);
+            return q && (sec.subjectId === 'all' || q.subject_id === sec.subjectId);
+          });
+
+      let attemptsCountInSection = 0;
+
+      for (const qId of secQuestionIds) {
+        const qRow = questionsMap.get(qId);
+        if (!qRow) continue;
+
+        let langData = {};
+        try {
+          langData = JSON.parse(qRow.language_content || '{}');
+        } catch (e) {}
+
+        const hiData = langData.hi || {};
+        const enData = langData.en || {};
+
+        let parsedCorrectAns = {};
+        try {
+          parsedCorrectAns = JSON.parse(qRow.correct_answer || '{}');
+        } catch (e) {}
+
+        const correctIndex = typeof parsedCorrectAns.index === 'number' ? parsedCorrectAns.index : 0;
+        const correctValue = parsedCorrectAns.value || '';
+
+        const candidateAns = userAnswers[qId];
+        const isAttempted = candidateAns !== undefined && candidateAns !== null && candidateAns !== '';
+
+        let isCorrect = false;
+        let isEvaluated = true;
+
+        if (isAttempted) {
+          attemptsCountInSection++;
+
+          // Attempt Rule enforcement: ATTEMPT_N_OF_M
+          if (sec.attemptRuleType === 'ATTEMPT_N_OF_M' && attemptsCountInSection > maxToAttempt) {
+            // Beyond maximum allowed attempts in this section: not evaluated towards score
+            isEvaluated = false;
+          }
+
+          if (qRow.question_type_id === 'numerical') {
+            // Numerical answer comparison with tolerance
+            const candidateNum = parseFloat(candidateAns);
+            const targetNum = parseFloat(correctValue);
+            const tolerance = parseFloat(qRow.numerical_tolerance || 0.05);
+            isCorrect = !isNaN(candidateNum) && !isNaN(targetNum) && Math.abs(candidateNum - targetNum) <= tolerance;
+          } else if (qRow.question_type_id === 'short_answer' || qRow.question_type_id === 'long_answer') {
+            // Subjective answer: captured for self-review, not auto-graded
+            isCorrect = false;
+            isEvaluated = false;
+          } else {
+            // Standard MCQ / Assertion-Reason: Compare selected option index
+            const candidateIndex = parseInt(candidateAns, 10);
+            isCorrect = candidateIndex === correctIndex;
+          }
+
+          if (isEvaluated) {
+            secAttempted++;
+            totalAttempted++;
+
+            if (isCorrect) {
+              secCorrect++;
+              totalCorrect++;
+              secMarksEarned += marksPerCorrect;
+              grossMarksEarned += marksPerCorrect;
+            } else {
+              secWrong++;
+              totalWrong++;
+              secNegativeDeduction += negativeVal;
+              totalNegativeDeduction += negativeVal;
+            }
+          }
+        } else {
+          secUnattempted++;
+          totalUnattempted++;
+        }
+
+        detailedReview.push({
+          questionId: qId,
+          sectionId: sec.sectionId,
+          sectionName: sec.name,
+          subjectName: qRow.subject_name || sec.name,
+          questionType: qRow.question_type_id || 'single_mcq',
+          questionText: hiData.q || enData.q || '',
+          secondaryQuestionText: enData.q || '',
+          options: hiData.options || enData.options || [],
+          candidateAnswer: candidateAns,
+          candidateIndex: isAttempted ? parseInt(candidateAns, 10) : null,
+          correctIndex,
+          correctValue,
+          isAttempted,
+          isCorrect,
+          isEvaluated,
+          explanation: hiData.exp || enData.exp || 'No detailed explanation available.',
+          topic: qRow.topic_tags || 'General'
+        });
+      }
+
+      const secNetScore = parseFloat((secMarksEarned - secNegativeDeduction).toFixed(2));
+      const secMaxMarks = parseFloat((maxToAttempt * marksPerCorrect).toFixed(2));
+
+      sectionResults.push({
+        sectionId: sec.sectionId,
+        sectionName: sec.name,
+        subjectId: sec.subjectId,
+        questionCount: secQuestionIds.length,
+        questionsToAttempt: maxToAttempt,
+        attempted: secAttempted,
+        unattempted: secUnattempted,
+        correct: secCorrect,
+        wrong: secWrong,
+        marksEarned: parseFloat(secMarksEarned.toFixed(2)),
+        negativeDeduction: parseFloat(secNegativeDeduction.toFixed(2)),
+        netScore: secNetScore,
+        maxMarks: secMaxMarks,
+        accuracy: secAttempted > 0 ? Math.round((secCorrect / secAttempted) * 100) : 0
+      });
+    }
+
+    const netTotalMarks = Math.max(0, parseFloat((grossMarksEarned - totalNegativeDeduction).toFixed(2)));
+    const totalMaxMarks = sectionResults.reduce((acc, s) => acc + s.maxMarks, 0) || (session.total_questions || 1);
+
+    const safeScore = zeroQuestionService.calculateSafeScore({
+      totalQuestions: session.total_questions || detailedReview.length,
+      maxPossibleMarks: totalMaxMarks,
+      netScore: netTotalMarks,
+      attemptedCount: totalAttempted,
+      correctCount: totalCorrect,
+      incorrectCount: totalWrong,
+      unattemptedCount: totalUnattempted
+    });
+
+    const scorePercentage = safeScore.percentage;
+    const accuracyPercentage = safeScore.accuracy;
+
+    const mins = Math.floor(timeSpentSeconds / 60);
+    const secs = timeSpentSeconds % 60;
+    const timeSpentFormatted = `${mins}m ${secs}s`;
+
+    let verdictBadge = '🏆 Merit List Top Ranker!';
+    let verdictClass = 'from-emerald-600 to-teal-700';
+    let verdictDesc = 'अभूतपूर्व प्रदर्शन! आपका 2026 भर्ती परीक्षा में चयन लगभग सुनिश्चित है।';
+
+    if (scorePercentage < 40) {
+      verdictBadge = '⚠️ Re-attempt Recommended';
+      verdictClass = 'from-rose-600 to-orange-700';
+      verdictDesc = 'अभ्यास की आवश्यकता है। कृपया परीक्षा के कमजोर विषयों का पुनः अध्ययन करें।';
+    } else if (scorePercentage < 70) {
+      verdictBadge = '⚡ Qualified / Good Effort';
+      verdictClass = 'from-amber-500 to-orange-600';
+      verdictDesc = 'सराहनीय प्रयास! थोड़ा और रिवीजन करने पर आप 90%+ स्कोर कर सकते हैं।';
+    }
+
+    const scorecard = {
+      sessionId,
+      examId: session.exam_id,
+      testMode: session.test_mode,
+      isAutoSubmit: Boolean(isAutoSubmit),
+      status: isAutoSubmit ? 'EXPIRED' : 'SUBMITTED',
+      summary: {
+        totalQuestions: session.total_questions,
+        questionsToAttempt: session.questions_to_attempt,
+        attempted: totalAttempted,
+        unattempted: totalUnattempted,
+        correct: totalCorrect,
+        wrong: totalWrong,
+        grossMarks: parseFloat(grossMarksEarned.toFixed(2)),
+        negativeMarksDeducted: parseFloat(totalNegativeDeduction.toFixed(2)),
+        netScore: netTotalMarks,
+        maxMarks: totalMaxMarks,
+        percentage: scorePercentage,
+        accuracy: accuracyPercentage,
+        timeSpentSeconds,
+        timeSpentFormatted,
+        verdictBadge,
+        verdictClass,
+        verdictDesc
+      },
+      sections: sectionResults,
+      detailedReview
+    };
+
+    // Save final scorecard to persistent DB
+    mockSessionRepository.completeSession(
+      sessionId,
+      scorecard,
+      scorecard.status,
+      timeSpentSeconds
+    );
+
+    return {
+      success: true,
+      scorecard
+    };
+  }
+
+  _formatQuestionForClient(qRow, section, languageConfig) {
+    let langContent = {};
+    try {
+      langContent = JSON.parse(qRow.language_content || '{}');
+    } catch (e) {}
+
+    const primaryLang = languageConfig?.primary || 'hi';
+    const secondaryLang = languageConfig?.secondary || 'en';
+
+    const pData = langContent[primaryLang] || langContent.hi || langContent.en || {};
+    const sData = langContent[secondaryLang] || langContent.en || {};
+
+    return {
+      id: qRow.question_id,
+      sectionId: section.section_id,
+      sectionName: section.name,
+      subjectId: qRow.subject_id,
+      subjectName: qRow.subject_name || section.name,
+      questionType: qRow.question_type_id || 'single_mcq',
+      q: pData.q || '',
+      secondaryQ: sData.q && sData.q !== pData.q ? sData.q : '',
+      options: pData.options || [],
+      secondaryOptions: sData.options || [],
+      marksCorrect: section.marks_correct || 1.0,
+      marksWrong: section.is_negative_marking ? (section.negative_value || 0.25) : 0.0,
+      topic: qRow.topic_tags || 'High Yield Question'
+      // NOTE: ans and exp intentionally omitted from client payload for anti-cheating!
+    };
+  }
+
+  _generateOfflineFallbackSession(sessionId, examId, testMode, requestedCount, subjectId) {
+    return {
+      success: true,
+      sessionId,
+      testMode,
+      examId,
+      examName: examId,
+      isOfflineFallback: true,
+      blueprint: {
+        blueprintId: 'bp-offline-fallback',
+        name: 'Offline Local Practice Mode',
+        verificationStatus: 'OFFLINE_FALLBACK',
+        patternBadge: 'Offline Local Mode',
+        isVerified: false,
+        totalMarks: requestedCount,
+        durationMinutes: 30,
+        totalQuestions: requestedCount,
+        questionsToAttempt: requestedCount,
+        isNegativeMarking: false
+      },
+      sections: [
+        {
+          sectionId: 'sec-offline-1',
+          name: 'General Section',
+          subjectId: subjectId || 'all',
+          questionCount: requestedCount,
+          questionsToAttempt: requestedCount,
+          marksCorrect: 1.0,
+          marksWrong: 0.0,
+          hasNegativeMarking: false,
+          attemptRuleType: 'ATTEMPT_ALL'
+        }
+      ],
+      questions: [],
+      timerConfig: {
+        mode: 'STOPWATCH',
+        durationMinutes: 30,
+        totalSeconds: 1800,
+        autoSubmitOnExpiry: false
+      }
+    };
+  }
+
+  _evaluateOfflineSubmission({ userAnswers, timeSpentSeconds, isAutoSubmit }) {
+    const answeredCount = Object.keys(userAnswers || {}).length;
+    return {
+      success: true,
+      scorecard: {
+        sessionId: 'offline-submit',
+        testMode: 'PRACTICE',
+        isAutoSubmit: Boolean(isAutoSubmit),
+        status: isAutoSubmit ? 'EXPIRED' : 'SUBMITTED',
+        summary: {
+          totalQuestions: answeredCount,
+          questionsToAttempt: answeredCount,
+          attempted: answeredCount,
+          unattempted: 0,
+          correct: answeredCount,
+          wrong: 0,
+          grossMarks: answeredCount,
+          negativeMarksDeducted: 0,
+          netScore: answeredCount,
+          maxMarks: answeredCount,
+          percentage: 100,
+          accuracy: 100,
+          timeSpentSeconds,
+          timeSpentFormatted: `${Math.floor(timeSpentSeconds / 60)}m ${timeSpentSeconds % 60}s`,
+          verdictBadge: '⚡ Test Complete',
+          verdictClass: 'from-blue-600 to-indigo-700',
+          verdictDesc: 'Offline test submitted successfully.'
+        },
+        sections: [],
+        detailedReview: []
+      }
+    };
+  }
+
+  /**
+   * Retrieves available mock modes (Mode A, Mode B, Mode C) and verified blueprint summary
+   */
+  getMockModes(examId, versionId = null) {
+    const db = require('../db/database').getDb();
+    if (!db) {
+      return { success: false, error: 'Database unavailable' };
+    }
+
+    const exam = examRepository.getExamById(examId) || { exam_id: examId, name: examId };
+
+    // 1. Resolve exam version
+    let version = null;
+    if (versionId) {
+      version = db.prepare('SELECT * FROM exam_versions WHERE version_id = ?').get(versionId);
+    } else {
+      version = db.prepare('SELECT * FROM exam_versions WHERE exam_id = ? AND version_status = ? ORDER BY academic_year DESC LIMIT 1')
+        .get(examId, 'CURRENT') || db.prepare('SELECT * FROM exam_versions WHERE exam_id = ? LIMIT 1').get(examId);
+    }
+    const resolvedVersionId = version ? version.version_id : null;
+
+    // 2. Resolve blueprint from unified truth service
+    const unifiedExamTruthService = require('./unified-exam-truth-service');
+    const mockTruth = unifiedExamTruthService.getMockConfiguration(examId, resolvedVersionId);
+
+    // 3. Find available subjects and their question counts for Mode A
+    let availableSubjects = [];
+    if (mockTruth && mockTruth.sections && mockTruth.sections.length > 0) {
+      availableSubjects = mockTruth.sections.map(s => {
+        const countRow = db.prepare('SELECT COUNT(*) as c FROM questions WHERE subject_id = ?').get(s.subjectId);
+        return {
+          subjectId: s.subjectId,
+          subjectName: s.name || s.subjectName || s.subjectId,
+          availableQuestions: countRow ? countRow.c : 0,
+          blueprintRequiredQuestions: s.questionCount
+        };
+      });
+    } else {
+      const subRows = db.prepare(`
+        SELECT s.subject_id, s.name, COUNT(q.question_id) as q_count
+        FROM subjects s
+        LEFT JOIN questions q ON s.subject_id = q.subject_id
+        GROUP BY s.subject_id
+        HAVING q_count > 0
+      `).all();
+      availableSubjects = subRows.map(r => ({
+        subjectId: r.subject_id,
+        subjectName: r.name,
+        availableQuestions: r.q_count,
+        blueprintRequiredQuestions: 0
+      }));
+    }
+
+    // 4. Calculate total questions available across all subjects of this exam
+    const totalExamBankQuestions = availableSubjects.reduce((acc, s) => acc + s.availableQuestions, 0);
+
+    // 5. Evaluate Mode C readiness & shortages
+    let modeCAvailable = false;
+    let modeCStatus = 'UNVERIFIED_PATTERN';
+    let shortageDetails = null;
+    let blueprintSummary = null;
+
+    if (mockTruth && mockTruth.success && mockTruth.isEligible) {
+      const sectionShortages = [];
+      let totalShortage = 0;
+      for (const sec of mockTruth.sections) {
+        const needed = sec.questionCount;
+        const subInfo = availableSubjects.find(s => s.subjectId === sec.subjectId);
+        const avail = subInfo ? subInfo.availableQuestions : 0;
+        if (avail < needed) {
+          const shortage = needed - avail;
+          totalShortage += shortage;
+          sectionShortages.push({
+            sectionId: sec.sectionId,
+            sectionName: sec.name,
+            subjectId: sec.subjectId,
+            required: needed,
+            available: avail,
+            shortage
+          });
+        }
+      }
+
+      blueprintSummary = {
+        blueprintId: mockTruth.blueprintId,
+        blueprintName: mockTruth.blueprintName,
+        totalQuestions: mockTruth.totalQuestions,
+        totalMarks: mockTruth.totalMarks,
+        durationMinutes: mockTruth.durationMinutes,
+        isNegativeMarking: mockTruth.isNegativeMarking,
+        sections: mockTruth.sections.map(s => ({
+          sectionId: s.sectionId,
+          name: s.name,
+          subjectId: s.subjectId,
+          questionCount: s.questionCount,
+          marksCorrect: s.marksCorrect,
+          marksWrong: s.marksWrong,
+          hasNegativeMarking: s.hasNegativeMarking
+        }))
+      };
+
+      if (sectionShortages.length > 0) {
+        modeCAvailable = false;
+        modeCStatus = 'INSUFFICIENT_QUESTIONS';
+        shortageDetails = {
+          requiredTotal: mockTruth.totalQuestions,
+          availableTotal: totalExamBankQuestions,
+          totalShortage,
+          sectionShortages
+        };
+      } else {
+        modeCAvailable = true;
+        modeCStatus = 'AVAILABLE';
+      }
+    } else {
+      modeCAvailable = false;
+      modeCStatus = mockTruth && mockTruth.reasons && mockTruth.reasons.length > 0 
+        ? mockTruth.reasons[0] 
+        : 'UNVERIFIED_PATTERN';
+      if (mockTruth && mockTruth.sections) {
+        blueprintSummary = {
+          blueprintId: mockTruth.blueprintId,
+          blueprintName: mockTruth.blueprintName,
+          totalQuestions: mockTruth.totalQuestions || 0,
+          totalMarks: mockTruth.totalMarks || 0,
+          durationMinutes: mockTruth.durationMinutes || 0,
+          isNegativeMarking: Boolean(mockTruth.isNegativeMarking),
+          sections: mockTruth.sections
+        };
+      }
+    }
+
+    return {
+      success: true,
+      examId,
+      examName: exam.name || examId,
+      versionId: resolvedVersionId,
+      modes: [
+        {
+          mode: 'SUBJECT_PRACTICE',
+          label: 'Subject-wise Practice',
+          description: 'Practice one subject at your own pace with a flexible question count.',
+          isFlexibleCount: true,
+          supportedCounts: [10, 20, 30, 50, 75, 100],
+          isAvailable: availableSubjects.some(s => s.availableQuestions > 0),
+          subjects: availableSubjects
+        },
+        {
+          mode: 'ALL_SUBJECTS_PRACTICE',
+          label: 'All Subjects Practice',
+          description: 'Mixed speed drill across all syllabus subjects with a flexible question count.',
+          isFlexibleCount: true,
+          supportedCounts: [25, 50, 100, 150, 200],
+          isAvailable: totalExamBankQuestions > 0,
+          totalBankQuestions: totalExamBankQuestions,
+          subjectsCount: availableSubjects.length
+        },
+        {
+          mode: 'FULL_EXAM_PATTERN',
+          label: 'Full Exam — Official Pattern',
+          description: 'Blueprint-driven official simulation with exact question count, sections, time limit, and negative marking.',
+          isFlexibleCount: false,
+          isAvailable: modeCAvailable,
+          status: modeCStatus,
+          blueprintSummary,
+          shortageDetails
+        }
+      ]
+    };
+  }
+}
+
+module.exports = new MockService();

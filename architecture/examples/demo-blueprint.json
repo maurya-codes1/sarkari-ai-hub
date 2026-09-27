@@ -1,0 +1,81 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates all blueprint capabilities without hardcoded generic assumptions",
+  "blueprintId": "bp-demo-exam-2026-tier1",
+  "examVersionId": "ver-demo-exam-2026",
+  "stageId": "stage-tier1",
+  "paperId": "paper-1",
+  "name": "Demo Examination 2026 (Tier-1 Simulation Blueprint)",
+  "totalMarks": 120,
+  "durationMinutes": 120,
+  "totalQuestions": 100,
+  "questionsToAttempt": 90,
+  "answerFormat": "HYBRID",
+  "supportsNumericalInput": true,
+  "supportsSubjectiveAnswer": false,
+  "supportsEssay": false,
+  "supportsCaseStudy": true,
+  "supportsPassageBased": true,
+  "supportsAssertionReason": true,
+  "supportsMatching": true,
+  "sections": [
+    {
+      "sectionId": "sec-demo-1",
+      "subjectId": "subj-general-ability",
+      "name": "Section A: General Intelligence & Core Reasoning",
+      "sectionOrder": 1,
+      "questionCount": 50,
+      "questionsToAttempt": 50,
+      "totalMarks": 50,
+      "marksPerQuestion": 1.0,
+      "durationMinutes": 60,
+      "allowedQuestionTypes": ["single_mcq", "assertion_reason", "match_following"],
+      "markingRule": {
+        "ruleId": "rule-sec-a",
+        "marksCorrect": 1.0,
+        "marksWrong": -0.25,
+        "marksUnattempted": 0.0,
+        "hasNegativeMarking": true,
+        "negativeValue": 0.25,
+        "allowsPartialMarking": false
+      },
+      "attemptRule": {
+        "ruleType": "ATTEMPT_ALL",
+        "totalProvided": 50,
+        "maxToAttempt": 50,
+        "minToAttempt": 0
+      },
+      "instructions": "All 50 questions in Section A are compulsory. Negative marking of 0.25 marks applies."
+    },
+    {
+      "sectionId": "sec-demo-2",
+      "subjectId": "subj-advanced-science-math",
+      "name": "Section B: Applied Science & Quantitative Problem Solving",
+      "sectionOrder": 2,
+      "questionCount": 50,
+      "questionsToAttempt": 40,
+      "totalMarks": 70,
+      "marksPerQuestion": 1.75,
+      "durationMinutes": 60,
+      "allowedQuestionTypes": ["single_mcq", "numerical", "case_study"],
+      "markingRule": {
+        "ruleId": "rule-sec-b",
+        "marksCorrect": 1.75,
+        "marksWrong": -0.5,
+        "marksUnattempted": 0.0,
+        "hasNegativeMarking": true,
+        "negativeValue": 0.5,
+        "allowsPartialMarking": false
+      },
+      "attemptRule": {
+        "ruleType": "ATTEMPT_N_OF_M",
+        "totalProvided": 50,
+        "maxToAttempt": 40,
+        "minToAttempt": 0
+      },
+      "instructions": "Candidates must attempt any 40 questions out of 50. If more than 40 questions are attempted, only the first 40 evaluated."
+    }
+  ],
+  "officialSourceId": "src-demo-circular-2026-01",
+  "verificationStatus": "VERIFIED",
+  "version": 1
+}

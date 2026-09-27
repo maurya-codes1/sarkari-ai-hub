@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/syllabus.schema.json",
+  "title": "SyllabusSpecification",
+  "description": "Hierarchical syllabus structure with chapters, topics, priority tiers, and source citations.",
+  "type": "object",
+  "required": [
+    "syllabusId",
+    "examVersionId",
+    "subjectId",
+    "title",
+    "effectiveYear",
+    "verificationStatus",
+    "chapters"
+  ],
+  "properties": {
+    "syllabusId": { "type": "string" },
+    "examVersionId": { "type": "string" },
+    "subjectId": { "type": "string" },
+    "title": { "type": "string" },
+    "officialSourceId": { "type": ["string", "null"] },
+    "effectiveYear": { "type": "string" },
+    "verificationStatus": {
+      "type": "string",
+      "enum": ["VERIFIED", "NEEDS_REVIEW", "CONFLICT", "OUTDATED", "UNAVAILABLE"]
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapterId", "name", "orderIndex", "topics"],
+        "properties": {
+          "chapterId": { "type": "string" },
+          "name": { "type": "string" },
+          "orderIndex": { "type": "integer" },
+          "weightagePercent": { "type": "number" },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["topicId", "name", "orderIndex", "importanceTier"],
+              "properties": {
+                "topicId": { "type": "string" },
+                "name": { "type": "string" },
+                "orderIndex": { "type": "integer" },
+                "importanceTier": {
+                  "type": "string",
+                  "enum": ["HIGH", "MEDIUM", "LOW"]
+                },
+                "sourceReference": { "type": "string" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

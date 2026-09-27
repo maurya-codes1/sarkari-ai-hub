@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/mock-config.schema.json",
+  "title": "MockTestConfigurationSpecification",
+  "description": "Configuration distinguishing between official-count Full Mocks and user-configurable Practice Sets.",
+  "type": "object",
+  "required": [
+    "configId",
+    "name",
+    "testMode",
+    "isBlueprintDriven",
+    "configuredQuestionCount",
+    "durationMinutes"
+  ],
+  "properties": {
+    "configId": { "type": "string" },
+    "name": { "type": "string" },
+    "testMode": {
+      "type": "string",
+      "enum": [
+        "FULL_EXAM_MOCK",
+        "SUBJECT_MOCK",
+        "CHAPTER_TEST",
+        "TOPIC_TEST",
+        "PREVIOUS_YEAR_TEST",
+        "REVISION_TEST",
+        "WEAK_TOPIC_TEST",
+        "CUSTOM_PRACTICE"
+      ]
+    },
+    "blueprintId": { "type": ["string", "null"] },
+    "subjectId": { "type": ["string", "null"] },
+    "chapterId": { "type": ["string", "null"] },
+    "topicId": { "type": ["string", "null"] },
+    "isBlueprintDriven": { "type": "boolean" },
+    "configuredQuestionCount": { "type": "integer", "minimum": 1 },
+    "durationMinutes": { "type": "integer", "minimum": 1 },
+    "allowsPause": { "type": "boolean", "default": false },
+    "shuffleQuestions": { "type": "boolean", "default": true },
+    "shuffleOptions": { "type": "boolean", "default": true },
+    "instantSolutionMode": { "type": "boolean", "default": false }
+  }
+}

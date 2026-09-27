@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Backups (Large historical DB dumps)
+backend/backups/
+
+# Logs & Binaries
+*.log
+cloudflared.exe
+bore.log
+cloudflared.log
+
+# Temporary / Scratch
+temp-check.js
+.DS_Store
+Thumbs.db
+*.zip
+SarkariAI-Hub-Production.zip

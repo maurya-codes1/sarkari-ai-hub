@@ -1,0 +1,506 @@
+[
+  {
+    "lineNum": 19,
+    "status": "ENOTFOUND",
+    "url": "https://results.cbse.nic.in",
+    "lineText": "resultUrl: \"https://results.cbse.nic.in\","
+  },
+  {
+    "lineNum": 76,
+    "status": 403,
+    "url": "https://cisce.org",
+    "lineText": "officialUrl: \"https://cisce.org\","
+  },
+  {
+    "lineNum": 77,
+    "status": 403,
+    "url": "https://cisce.org",
+    "lineText": "applyUrl: \"https://cisce.org\","
+  },
+  {
+    "lineNum": 78,
+    "status": 403,
+    "url": "https://cisce.org",
+    "lineText": "pdfUrl: \"https://cisce.org/notice-board\","
+  },
+  {
+    "lineNum": 78,
+    "status": 403,
+    "url": "https://cisce.org/notice-board",
+    "lineText": "pdfUrl: \"https://cisce.org/notice-board\","
+  },
+  {
+    "lineNum": 79,
+    "status": 403,
+    "url": "https://results.cisce.org",
+    "lineText": "resultUrl: \"https://results.cisce.org\","
+  },
+  {
+    "lineNum": 80,
+    "status": 403,
+    "url": "https://cisce.org",
+    "lineText": "resultServer2: \"https://cisce.org\","
+  },
+  {
+    "lineNum": 133,
+    "status": "TIMEOUT",
+    "url": "https://upresults.nic.in",
+    "lineText": "resultUrl: \"https://upresults.nic.in\","
+  },
+  {
+    "lineNum": 134,
+    "status": 404,
+    "url": "https://upmsp.edu.in/Results.html",
+    "lineText": "resultServer2: \"https://upmsp.edu.in/Results.html\","
+  },
+  {
+    "lineNum": 186,
+    "status": "TIMEOUT",
+    "url": "http://biharboardonline.bihar.gov.in",
+    "lineText": "officialUrl: \"http://biharboardonline.bihar.gov.in\","
+  },
+  {
+    "lineNum": 187,
+    "status": "TIMEOUT",
+    "url": "http://biharboardonline.bihar.gov.in",
+    "lineText": "applyUrl: \"http://biharboardonline.bihar.gov.in\","
+  },
+  {
+    "lineNum": 188,
+    "status": "TIMEOUT",
+    "url": "http://biharboardonline.bihar.gov.in",
+    "lineText": "pdfUrl: \"http://biharboardonline.bihar.gov.in\","
+  },
+  {
+    "lineNum": 189,
+    "status": "ENOTFOUND",
+    "url": "http://results.biharboardonline.com",
+    "lineText": "resultUrl: \"http://results.biharboardonline.com\","
+  },
+  {
+    "lineNum": 242,
+    "status": "ENOTFOUND",
+    "url": "https://mahresult.nic.in",
+    "lineText": "resultUrl: \"https://mahresult.nic.in\","
+  },
+  {
+    "lineNum": 243,
+    "status": "TIMEOUT",
+    "url": "https://hscresult.mkcl.org",
+    "lineText": "resultServer2: \"https://hscresult.mkcl.org\","
+  },
+  {
+    "lineNum": 296,
+    "status": "ENOTFOUND",
+    "url": "https://rajresults.nic.in",
+    "lineText": "resultUrl: \"https://rajresults.nic.in\","
+  },
+  {
+    "lineNum": 349,
+    "status": "ENOTFOUND",
+    "url": "https://mpresults.nic.in",
+    "lineText": "resultUrl: \"https://mpresults.nic.in\","
+  },
+  {
+    "lineNum": 398,
+    "status": "TIMEOUT",
+    "url": "https://wbbse.wb.gov.in",
+    "lineText": "officialUrl: \"https://wbbse.wb.gov.in\","
+  },
+  {
+    "lineNum": 399,
+    "status": "TIMEOUT",
+    "url": "https://wbchse.wb.gov.in",
+    "lineText": "applyUrl: \"https://wbchse.wb.gov.in\","
+  },
+  {
+    "lineNum": 400,
+    "status": "TIMEOUT",
+    "url": "https://wbbse.wb.gov.in",
+    "lineText": "pdfUrl: \"https://wbbse.wb.gov.in\","
+  },
+  {
+    "lineNum": 401,
+    "status": "TIMEOUT",
+    "url": "https://wbresults.nic.in",
+    "lineText": "resultUrl: \"https://wbresults.nic.in\","
+  },
+  {
+    "lineNum": 402,
+    "status": "TIMEOUT",
+    "url": "https://wbbse.wb.gov.in",
+    "lineText": "resultServer2: \"https://wbbse.wb.gov.in\","
+  },
+  {
+    "lineNum": 453,
+    "status": "TIMEOUT",
+    "url": "https://tnresults.nic.in",
+    "lineText": "resultUrl: \"https://tnresults.nic.in\","
+  },
+  {
+    "lineNum": 505,
+    "status": "TIMEOUT",
+    "url": "https://karresults.nic.in",
+    "lineText": "resultUrl: \"https://karresults.nic.in\","
+  },
+  {
+    "lineNum": 706,
+    "status": 403,
+    "url": "https://www.pseb.ac.in",
+    "lineText": "officialUrl: \"https://www.pseb.ac.in\","
+  },
+  {
+    "lineNum": 707,
+    "status": 403,
+    "url": "https://www.pseb.ac.in",
+    "lineText": "applyUrl: \"https://www.pseb.ac.in\","
+  },
+  {
+    "lineNum": 708,
+    "status": 403,
+    "url": "https://www.pseb.ac.in",
+    "lineText": "pdfUrl: \"https://www.pseb.ac.in\","
+  },
+  {
+    "lineNum": 710,
+    "status": 403,
+    "url": "https://www.pseb.ac.in",
+    "lineText": "resultServer2: \"https://www.pseb.ac.in\","
+  },
+  {
+    "lineNum": 759,
+    "status": 404,
+    "url": "https://nios.ac.in/notifications.aspx",
+    "lineText": "pdfUrl: \"https://nios.ac.in/notifications.aspx\","
+  },
+  {
+    "lineNum": 863,
+    "status": "TIMEOUT",
+    "url": "https://orissaresults.nic.in",
+    "lineText": "resultUrl: \"https://orissaresults.nic.in\","
+  },
+  {
+    "lineNum": 911,
+    "status": "TIMEOUT",
+    "url": "https://ubse.uk.gov.in",
+    "lineText": "officialUrl: \"https://ubse.uk.gov.in\","
+  },
+  {
+    "lineNum": 912,
+    "status": "TIMEOUT",
+    "url": "https://ubse.uk.gov.in",
+    "lineText": "applyUrl: \"https://ubse.uk.gov.in\","
+  },
+  {
+    "lineNum": 913,
+    "status": "TIMEOUT",
+    "url": "https://ubse.uk.gov.in",
+    "lineText": "pdfUrl: \"https://ubse.uk.gov.in\","
+  },
+  {
+    "lineNum": 914,
+    "status": "ENOTFOUND",
+    "url": "https://uaresults.nic.in",
+    "lineText": "resultUrl: \"https://uaresults.nic.in\","
+  },
+  {
+    "lineNum": 915,
+    "status": "TIMEOUT",
+    "url": "https://ubse.uk.gov.in",
+    "lineText": "resultServer2: \"https://ubse.uk.gov.in\","
+  },
+  {
+    "lineNum": 963,
+    "status": "ENOTFOUND",
+    "url": "https://sebaresults.in",
+    "lineText": "resultUrl: \"https://sebaresults.in\","
+  },
+  {
+    "lineNum": 1011,
+    "status": "ENOTFOUND",
+    "url": "https://tsbie.cgg.gov.in",
+    "lineText": "officialUrl: \"https://tsbie.cgg.gov.in\","
+  },
+  {
+    "lineNum": 1013,
+    "status": "ENOTFOUND",
+    "url": "https://tsbie.cgg.gov.in",
+    "lineText": "pdfUrl: \"https://tsbie.cgg.gov.in\","
+  },
+  {
+    "lineNum": 1015,
+    "status": "ENOTFOUND",
+    "url": "https://examresults.ap.nic.in",
+    "lineText": "resultServer2: \"https://examresults.ap.nic.in\","
+  },
+  {
+    "lineNum": 1725,
+    "status": "ECONNRESET",
+    "url": "https://joinindiannavy.gov.in",
+    "lineText": "officialUrl: \"https://joinindiannavy.gov.in\","
+  },
+  {
+    "lineNum": 1726,
+    "status": 503,
+    "url": "https://agniveernavy.cdac.in",
+    "lineText": "applyUrl: \"https://agniveernavy.cdac.in\","
+  },
+  {
+    "lineNum": 1727,
+    "status": "ECONNRESET",
+    "url": "https://joinindiannavy.gov.in",
+    "lineText": "pdfUrl: \"https://joinindiannavy.gov.in\","
+  },
+  {
+    "lineNum": 1728,
+    "status": 503,
+    "url": "https://agniveernavy.cdac.in",
+    "lineText": "resultUrl: \"https://agniveernavy.cdac.in\","
+  },
+  {
+    "lineNum": 1729,
+    "status": "ECONNRESET",
+    "url": "https://joinindiannavy.gov.in",
+    "lineText": "resultServer2: \"https://joinindiannavy.gov.in\","
+  },
+  {
+    "lineNum": 1783,
+    "status": "TIMEOUT",
+    "url": "https://ibpsonline.ibps.in",
+    "lineText": "applyUrl: \"https://ibpsonline.ibps.in\","
+  },
+  {
+    "lineNum": 1785,
+    "status": "TIMEOUT",
+    "url": "https://ibpsonline.ibps.in",
+    "lineText": "resultUrl: \"https://ibpsonline.ibps.in\","
+  },
+  {
+    "lineNum": 1842,
+    "status": "TIMEOUT",
+    "url": "https://ccp123.onlinereg.co.in",
+    "lineText": "resultServer2: \"https://ccp123.onlinereg.co.in\","
+  },
+  {
+    "lineNum": 1904,
+    "status": "TIMEOUT",
+    "url": "https://csbc.bih.nic.in",
+    "lineText": "officialUrl: \"https://csbc.bih.nic.in\","
+  },
+  {
+    "lineNum": 1905,
+    "status": "TIMEOUT",
+    "url": "https://csbc.bih.nic.in",
+    "lineText": "applyUrl: \"https://csbc.bih.nic.in\","
+  },
+  {
+    "lineNum": 1906,
+    "status": "TIMEOUT",
+    "url": "https://csbc.bih.nic.in",
+    "lineText": "pdfUrl: \"https://csbc.bih.nic.in\","
+  },
+  {
+    "lineNum": 1907,
+    "status": "TIMEOUT",
+    "url": "https://csbc.bih.nic.in",
+    "lineText": "resultUrl: \"https://csbc.bih.nic.in\","
+  },
+  {
+    "lineNum": 1908,
+    "status": "TIMEOUT",
+    "url": "https://bpssc.bih.nic.in",
+    "lineText": "resultServer2: \"https://bpssc.bih.nic.in\","
+  },
+  {
+    "lineNum": 2083,
+    "status": 404,
+    "url": "https://esb.mp.gov.in/results/result.htm",
+    "lineText": "resultUrl: \"https://esb.mp.gov.in/results/result.htm\","
+  },
+  {
+    "lineNum": 2137,
+    "status": 404,
+    "url": "https://hssc.gov.in/all-results",
+    "lineText": "resultUrl: \"https://hssc.gov.in/all-results\","
+  },
+  {
+    "lineNum": 2188,
+    "status": "EPROTO",
+    "url": "https://prb.wb.gov.in",
+    "lineText": "officialUrl: \"https://prb.wb.gov.in\","
+  },
+  {
+    "lineNum": 2189,
+    "status": "EPROTO",
+    "url": "https://prb.wb.gov.in",
+    "lineText": "applyUrl: \"https://prb.wb.gov.in\","
+  },
+  {
+    "lineNum": 2190,
+    "status": "EPROTO",
+    "url": "https://prb.wb.gov.in",
+    "lineText": "pdfUrl: \"https://prb.wb.gov.in\","
+  },
+  {
+    "lineNum": 2191,
+    "status": "EPROTO",
+    "url": "https://prb.wb.gov.in",
+    "lineText": "resultUrl: \"https://prb.wb.gov.in\","
+  },
+  {
+    "lineNum": 2192,
+    "status": "EPROTO",
+    "url": "https://wbpolice.gov.in",
+    "lineText": "resultServer2: \"https://wbpolice.gov.in\","
+  },
+  {
+    "lineNum": 2243,
+    "status": 403,
+    "url": "https://policerecruitment2024.mahait.org",
+    "lineText": "officialUrl: \"https://policerecruitment2024.mahait.org\","
+  },
+  {
+    "lineNum": 2244,
+    "status": 403,
+    "url": "https://policerecruitment2024.mahait.org",
+    "lineText": "applyUrl: \"https://policerecruitment2024.mahait.org\","
+  },
+  {
+    "lineNum": 2246,
+    "status": 403,
+    "url": "https://policerecruitment2024.mahait.org",
+    "lineText": "resultUrl: \"https://policerecruitment2024.mahait.org\","
+  },
+  {
+    "lineNum": 2302,
+    "status": "TIMEOUT",
+    "url": "https://neet.ntaonline.in",
+    "lineText": "applyUrl: \"https://neet.ntaonline.in\","
+  },
+  {
+    "lineNum": 2304,
+    "status": "ENOTFOUND",
+    "url": "https://ntaresults.nic.in",
+    "lineText": "resultUrl: \"https://ntaresults.nic.in\","
+  },
+  {
+    "lineNum": 2305,
+    "status": "TIMEOUT",
+    "url": "https://neet.ntaonline.in",
+    "lineText": "resultServer2: \"https://neet.ntaonline.in\","
+  },
+  {
+    "lineNum": 2356,
+    "status": 502,
+    "url": "https://jeemain.nta.ac.in",
+    "lineText": "officialUrl: \"https://jeemain.nta.ac.in\","
+  },
+  {
+    "lineNum": 2357,
+    "status": "ENOTFOUND",
+    "url": "https://jeemain.ntaonline.in",
+    "lineText": "applyUrl: \"https://jeemain.ntaonline.in\","
+  },
+  {
+    "lineNum": 2358,
+    "status": 502,
+    "url": "https://jeemain.nta.ac.in",
+    "lineText": "pdfUrl: \"https://jeemain.nta.ac.in/information-bulletin\","
+  },
+  {
+    "lineNum": 2358,
+    "status": 502,
+    "url": "https://jeemain.nta.ac.in/information-bulletin",
+    "lineText": "pdfUrl: \"https://jeemain.nta.ac.in/information-bulletin\","
+  },
+  {
+    "lineNum": 2359,
+    "status": "ENOTFOUND",
+    "url": "https://ntaresults.nic.in",
+    "lineText": "resultUrl: \"https://ntaresults.nic.in\","
+  },
+  {
+    "lineNum": 2360,
+    "status": 502,
+    "url": "https://jeemain.nta.ac.in",
+    "lineText": "resultServer2: \"https://jeemain.nta.ac.in\","
+  },
+  {
+    "lineNum": 2413,
+    "status": "TIMEOUT",
+    "url": "https://josaa.nic.in",
+    "lineText": "resultServer2: \"https://josaa.nic.in\","
+  },
+  {
+    "lineNum": 2460,
+    "status": "ENOTFOUND",
+    "url": "https://cuetug.ntaonline.in",
+    "lineText": "officialUrl: \"https://cuetug.ntaonline.in\","
+  },
+  {
+    "lineNum": 2461,
+    "status": "ENOTFOUND",
+    "url": "https://cuetug.ntaonline.in",
+    "lineText": "applyUrl: \"https://cuetug.ntaonline.in\","
+  },
+  {
+    "lineNum": 2462,
+    "status": 404,
+    "url": "https://exams.nta.ac.in/CUET-UG",
+    "lineText": "pdfUrl: \"https://exams.nta.ac.in/CUET-UG\","
+  },
+  {
+    "lineNum": 2463,
+    "status": "ENOTFOUND",
+    "url": "https://ntaresults.nic.in",
+    "lineText": "resultUrl: \"https://ntaresults.nic.in\","
+  },
+  {
+    "lineNum": 2464,
+    "status": "ENOTFOUND",
+    "url": "https://cuetug.ntaonline.in",
+    "lineText": "resultServer2: \"https://cuetug.ntaonline.in\","
+  },
+  {
+    "lineNum": 2672,
+    "status": "TIMEOUT",
+    "url": "https://www.bpsc.bih.nic.in",
+    "lineText": "officialUrl: \"https://www.bpsc.bih.nic.in\","
+  },
+  {
+    "lineNum": 2674,
+    "status": "TIMEOUT",
+    "url": "https://www.bpsc.bih.nic.in",
+    "lineText": "pdfUrl: \"https://www.bpsc.bih.nic.in\","
+  },
+  {
+    "lineNum": 2675,
+    "status": "TIMEOUT",
+    "url": "https://www.bpsc.bih.nic.in",
+    "lineText": "resultUrl: \"https://www.bpsc.bih.nic.in\","
+  },
+  {
+    "lineNum": 2775,
+    "status": "TIMEOUT",
+    "url": "https://ugcnet.ntaonline.in",
+    "lineText": "applyUrl: \"https://ugcnet.ntaonline.in\","
+  },
+  {
+    "lineNum": 2776,
+    "status": 404,
+    "url": "https://ugcnet.nta.ac.in/information-bulletin",
+    "lineText": "pdfUrl: \"https://ugcnet.nta.ac.in/information-bulletin\","
+  },
+  {
+    "lineNum": 2777,
+    "status": "ENOTFOUND",
+    "url": "https://ntaresults.nic.in",
+    "lineText": "resultUrl: \"https://ntaresults.nic.in\","
+  },
+  {
+    "lineNum": 2778,
+    "status": "TIMEOUT",
+    "url": "https://ugcnet.ntaonline.in",
+    "lineText": "resultServer2: \"https://ugcnet.ntaonline.in\","
+  }
+]

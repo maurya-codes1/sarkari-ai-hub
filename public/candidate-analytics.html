@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidate Preparation Analytics & Honest Progress — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">Phase 13 Candidate Intelligence</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/adaptive-practice.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-saffron-300 border border-slate-700 transition">🧠 Adaptive Practice</a>
+        <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📅 Study Planner</a>
+        <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition">🗺️ Exam Coverage</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Header Banner -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold mb-2">
+          <span>🛡️ Honest Denominators Only</span>
+          <span>•</span>
+          <span>Zero Fabricated Metrics</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Candidate Preparation Analytics & Diagnostic Radar</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Real-time learning diagnostics, Leitner retention status, and negative marking penalty analysis.</p>
+      </div>
+
+      <!-- Exam and User Switcher -->
+      <div class="flex items-center gap-3">
+        <select id="examSelect" class="bg-slate-950 border border-slate-700 rounded-xl px-4 py-2 text-xs font-bold text-slate-200 focus:outline-none focus:border-saffron-500">
+          <option value="ssc-cgl">SSC CGL Tier-1</option>
+          <option value="upsc-cse">UPSC CSE Prelims GS1</option>
+          <option value="rrb-ntpc">RRB NTPC</option>
+          <option value="ctet-exam">CTET</option>
+          <option value="up-police-constable">UP Police Constable</option>
+        </select>
+        <button id="refreshBtn" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-300 transition">
+          🔄 Refresh
+        </button>
+      </div>
+    </div>
+
+    <!-- Integrity Disclaimer Banner -->
+    <div class="bg-amber-500/10 border border-amber-500/30 p-4 rounded-2xl flex items-start space-x-3 text-amber-300 text-xs leading-relaxed">
+      <span class="text-lg">⚖️</span>
+      <div>
+        <strong class="font-bold">Honest Progress Transparency:</strong>
+        Denominators represent verified syllabus topics and authentic eligible questions available in the platform. SarkariAI Hub will never show artificial 100% preparation merely because a candidate finished a local sample set, and makes no guarantee of examination qualification or final selection.
+      </div>
+    </div>
+
+    <!-- 4 Honest Denominator Metric Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <!-- 1. PYQ Coverage -->
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 space-y-2">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Verified PYQ Coverage</span>
+          <span class="text-emerald-400 font-bold" id="pyqRatio">0 / 0</span>
+        </div>
+        <div class="text-2xl font-black text-white" id="pyqPct">0.0%</div>
+        <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+          <div id="pyqBar" class="bg-emerald-500 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+        </div>
+        <div class="text-[11px] text-slate-400">Authentic past official questions solved</div>
+      </div>
+
+      <!-- 2. Question Bank Coverage -->
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 space-y-2">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Question Bank Coverage</span>
+          <span class="text-cyan-400 font-bold" id="bankRatio">0 / 0</span>
+        </div>
+        <div class="text-2xl font-black text-white" id="bankPct">0.0%</div>
+        <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+          <div id="bankBar" class="bg-cyan-500 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+        </div>
+        <div class="text-[11px] text-slate-400">Unique eligible questions attempted</div>
+      </div>
+
+      <!-- 3. Overall Accuracy Rate -->
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 space-y-2">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Overall Accuracy Rate</span>
+          <span class="text-amber-400 font-bold" id="accRatio">0 / 0</span>
+        </div>
+        <div class="text-2xl font-black text-white" id="accPct">0.0%</div>
+        <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+          <div id="accBar" class="bg-amber-500 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+        </div>
+        <div class="text-[11px] text-slate-400">Correct answers / Total attempts</div>
+      </div>
+
+      <!-- 4. Weighted Preparation Level -->
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 space-y-2">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Preparation Level</span>
+          <span class="text-purple-400 font-bold" id="streakLabel">Streak: 1 Day</span>
+        </div>
+        <div class="text-2xl font-black text-white" id="prepLevelPct">0.0%</div>
+        <div class="w-full bg-slate-950 rounded-full h-2 overflow-hidden border border-slate-800">
+          <div id="prepLevelBar" class="bg-gradient-to-r from-saffron-500 to-purple-500 h-full rounded-full transition-all duration-500" style="width: 0%"></div>
+        </div>
+        <div class="text-[11px] text-slate-400">40% PYQ + 30% Bank + 30% Accuracy</div>
+      </div>
+    </div>
+
+    <!-- Leitner 5-Box Spaced Revision Backlog -->
+    <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h2 class="text-lg font-bold text-white">Scientific Spaced Revision Backlog (Leitner 5 Boxes)</h2>
+          <p class="text-xs text-slate-400">Questions scheduled for spaced interval recall to prevent forgetting.</p>
+        </div>
+        <a href="/adaptive-practice.html" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white transition">
+          🚀 Practice Due Revision
+        </a>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-2">
+        <div class="bg-slate-950 p-4 rounded-2xl border border-rose-500/20 text-center">
+          <div class="text-xs text-rose-400 font-bold">Box 1 (Daily)</div>
+          <div class="text-xl font-black text-white mt-1" id="box1Count">0</div>
+          <div class="text-[10px] text-slate-400 mt-1">Errors & New Items</div>
+        </div>
+
+        <div class="bg-slate-950 p-4 rounded-2xl border border-amber-500/20 text-center">
+          <div class="text-xs text-amber-400 font-bold">Box 2 (3 Days)</div>
+          <div class="text-xl font-black text-white mt-1" id="box2Count">0</div>
+          <div class="text-[10px] text-slate-400 mt-1">Consolidation</div>
+        </div>
+
+        <div class="bg-slate-950 p-4 rounded-2xl border border-blue-500/20 text-center">
+          <div class="text-xs text-blue-400 font-bold">Box 3 (7 Days)</div>
+          <div class="text-xl font-black text-white mt-1" id="box3Count">0</div>
+          <div class="text-[10px] text-slate-400 mt-1">Intermediate Recall</div>
+        </div>
+
+        <div class="bg-slate-950 p-4 rounded-2xl border border-emerald-500/20 text-center">
+          <div class="text-xs text-emerald-400 font-bold">Box 4 (14 Days)</div>
+          <div class="text-xl font-black text-white mt-1" id="box4Count">0</div>
+          <div class="text-[10px] text-slate-400 mt-1">Long-term Retention</div>
+        </div>
+
+        <div class="bg-slate-950 p-4 rounded-2xl border border-purple-500/20 text-center">
+          <div class="text-xs text-purple-400 font-bold">Box 5 (Mastered)</div>
+          <div class="text-xl font-black text-white mt-1" id="box5Count">0</div>
+          <div class="text-[10px] text-slate-400 mt-1">Permanent Mastery</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Subject -> Chapter -> Topic Hierarchical Weakness Radar -->
+    <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+      <div>
+        <h2 class="text-lg font-bold text-white">Subject & Topic Diagnostic Radar (Recovery Signals)</h2>
+        <p class="text-xs text-slate-400">Real-time weakness detection. Weakness is treated as an actionable signal with recovery tracking.</p>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs">
+          <thead class="text-slate-400 bg-slate-950 uppercase border-b border-slate-800">
+            <tr>
+              <th class="py-3 px-4">Subject / Topic</th>
+              <th class="py-3 px-4">Attempts</th>
+              <th class="py-3 px-4">Accuracy</th>
+              <th class="py-3 px-4">Recent Trend</th>
+              <th class="py-3 px-4">Weakness Status</th>
+              <th class="py-3 px-4 text-right">Action</th>
+            </tr>
+          </thead>
+          <tbody id="weaknessTableBody" class="divide-y divide-slate-800 text-slate-300">
+            <tr>
+              <td colspan="6" class="py-6 text-center text-slate-500">Loading candidate performance radar...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Mock Performance & Negative Marking Intelligence -->
+    <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 space-y-4">
+      <div>
+        <h2 class="text-lg font-bold text-white">Mock Test Performance Intelligence & Negative Marking Impact</h2>
+        <p class="text-xs text-slate-400">Private post-mock analytics highlighting exact marks lost to negative penalties.</p>
+      </div>
+
+      <div id="mockHistoryContainer" class="space-y-3">
+        <div class="text-center py-6 text-slate-500 text-xs">No mock sessions completed yet. Practice full mocks in the Mock Console to generate diagnostic reports.</div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let currentUserId = 'candidate-demo';
+
+    async function loadAnalytics() {
+      const examId = document.getElementById('examSelect').value;
+
+      try {
+        const res = await fetch(`/api/v3/candidate/profile/${currentUserId}/${examId}`);
+        const data = await res.json();
+
+        if (data.success && data.profile) {
+          const prof = data.profile;
+          const denom = prof.honestDenominators;
+
+          // 1. PYQ Coverage
+          document.getElementById('pyqRatio').innerText = denom.pyqCoverage.ratioLabel;
+          document.getElementById('pyqPct').innerText = `${denom.pyqCoverage.percentage}%`;
+          document.getElementById('pyqBar').style.width = `${Math.min(100, denom.pyqCoverage.percentage)}%`;
+
+          // 2. Bank Coverage
+          document.getElementById('bankRatio').innerText = denom.bankCoverage.ratioLabel;
+          document.getElementById('bankPct').innerText = `${denom.bankCoverage.percentage}%`;
+          document.getElementById('bankBar').style.width = `${Math.min(100, denom.bankCoverage.percentage)}%`;
+
+          // 3. Overall Accuracy
+          document.getElementById('accRatio').innerText = `${denom.overallAccuracy.correct} / ${denom.overallAccuracy.total}`;
+          document.getElementById('accPct').innerText = `${denom.overallAccuracy.percentage}%`;
+          document.getElementById('accBar').style.width = `${Math.min(100, denom.overallAccuracy.percentage)}%`;
+
+          // 4. Prep Level
+          document.getElementById('streakLabel').innerText = `Streak: ${prof.studyStreakDays} Day${prof.studyStreakDays > 1 ? 's' : ''}`;
+          document.getElementById('prepLevelPct').innerText = `${denom.overallPreparationPct}%`;
+          document.getElementById('prepLevelBar').style.width = `${Math.min(100, denom.overallPreparationPct)}%`;
+
+          // 5. Spaced Revision Boxes
+          if (prof.revisionSummary && prof.revisionSummary.boxDistribution) {
+            const b = prof.revisionSummary.boxDistribution;
+            document.getElementById('box1Count').innerText = b.box1 || 0;
+            document.getElementById('box2Count').innerText = b.box2 || 0;
+            document.getElementById('box3Count').innerText = b.box3 || 0;
+            document.getElementById('box4Count').innerText = b.box4 || 0;
+            document.getElementById('box5Count').innerText = b.box5_mastered || 0;
+          }
+
+          // 6. Hierarchical Weakness Radar Table
+          renderWeaknessRadar(prof.subjectsProgress);
+
+          // 7. Mock History
+          renderMockHistory(prof.recentMocks);
+        }
+      } catch (err) {
+        console.error('Failed to load candidate analytics:', err);
+      }
+    }
+
+    function renderWeaknessRadar(subjects) {
+      const tbody = document.getElementById('weaknessTableBody');
+      if (!subjects || subjects.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="py-6 text-center text-slate-500">No practice attempts recorded yet. Start practice to activate diagnostic radar.</td></tr>';
+        return;
+      }
+
+      let rows = '';
+      subjects.forEach(sub => {
+        sub.chapters.forEach(chap => {
+          chap.topics.forEach(top => {
+            let statusBadge = '<span class="px-2 py-0.5 rounded bg-slate-800 text-slate-300 font-semibold">NEUTRAL</span>';
+            if (top.status === 'CRITICAL_WEAKNESS') {
+              statusBadge = '<span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-bold border border-rose-500/40">CRITICAL WEAKNESS</span>';
+            } else if (top.status === 'MODERATE_WEAKNESS') {
+              statusBadge = '<span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-bold border border-amber-500/40">MODERATE WEAKNESS</span>';
+            } else if (top.status === 'RECOVERING') {
+              statusBadge = '<span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-bold border border-cyan-500/40">RECOVERING ✨</span>';
+            } else if (top.status === 'STRONG') {
+              statusBadge = '<span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold border border-emerald-500/40">MASTERED 🏆</span>';
+            }
+
+            rows += `
+              <tr class="hover:bg-slate-900/60 transition">
+                <td class="py-3 px-4 font-medium text-white">${sub.subject_id} → ${top.topic_id}</td>
+                <td class="py-3 px-4 text-slate-400">${top.attempts}</td>
+                <td class="py-3 px-4 font-bold ${top.accuracy_pct < 50 ? 'text-rose-400' : 'text-emerald-400'}">${top.accuracy_pct}%</td>
+                <td class="py-3 px-4 text-cyan-400 font-bold">${top.recovery_signal}</td>
+                <td class="py-3 px-4">${statusBadge}</td>
+                <td class="py-3 px-4 text-right">
+                  <a href="/adaptive-practice.html" class="px-2.5 py-1 rounded-lg bg-saffron-500/20 border border-saffron-500/40 text-saffron-300 hover:bg-saffron-500 hover:text-white transition font-bold">
+                    Target Drill
+                  </a>
+                </td>
+              </tr>
+            `;
+          });
+        });
+      });
+
+      tbody.innerHTML = rows || '<tr><td colspan="6" class="py-6 text-center text-slate-500">No topics analyzed yet.</td></tr>';
+    }
+
+    function renderMockHistory(mocks) {
+      const container = document.getElementById('mockHistoryContainer');
+      if (!mocks || mocks.length === 0) {
+        container.innerHTML = '<div class="text-center py-6 text-slate-500 text-xs">No mock sessions completed yet. Practice full mocks in the Mock Console to generate diagnostic reports.</div>';
+        return;
+      }
+
+      container.innerHTML = mocks.map(m => `
+        <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div>
+            <div class="flex items-center space-x-2">
+              <span class="text-xs font-bold text-white">Mock Session: ${m.mock_record_id}</span>
+              <span class="text-[10px] text-slate-500">${m.completed_at}</span>
+            </div>
+            <div class="text-xs text-slate-400 mt-1">
+              Score: <strong class="text-white">${m.total_score} / ${m.max_possible_score}</strong> • Accuracy: <strong class="text-amber-400">${m.accuracy_pct}%</strong> • Attempts: ${m.attempted_count}
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-3">
+            ${m.negative_marking_deduction > 0
+              ? `<span class="px-2.5 py-1 rounded-lg bg-rose-500/10 border border-rose-500/30 text-rose-400 text-xs font-bold">-${m.negative_marking_deduction} Negative Penalty</span>`
+              : `<span class="px-2.5 py-1 rounded-lg bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold">0 Penalty Marks</span>`
+            }
+          </div>
+        </div>
+      `).join('');
+    }
+
+    document.getElementById('examSelect').addEventListener('change', loadAnalytics);
+    document.getElementById('refreshBtn').addEventListener('click', loadAnalytics);
+    window.addEventListener('DOMContentLoaded', loadAnalytics);
+  </script>
+</body>
+</html>

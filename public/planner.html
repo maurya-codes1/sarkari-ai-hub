@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalized Study Planner & Spaced Revision — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">AI Study Planner & Leitner Revision</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition">🗺️ Coverage Matrix</a>
+        <a href="/review-queue.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📋 Review Queue</a>
+        <a href="/calendar.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition">📅 Calendar</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Header Banner -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold mb-2">
+          <span>🎯 Pedagogically Structured Timelines</span>
+          <span>•</span>
+          <span>Scientific Leitner 5-Box Spaced Repetition</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Candidate Preparation Planner & Spaced Revision</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Generate multi-phase preparation schedules grounded in official syllabi and master tricky questions through interval retrieval.</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div class="bg-slate-800/80 border border-slate-700 rounded-2xl px-4 py-2.5 text-center">
+          <div class="text-[10px] uppercase font-bold text-slate-400">Candidate ID</div>
+          <div class="text-sm font-black text-amber-400 font-mono" id="currentUserDisplay">candidate-01</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid Layout: Plan Generator & Plan View -->
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Col 1: Plan Generator Form -->
+      <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-6">
+        <h2 class="text-lg font-black text-white flex items-center space-x-2">
+          <span>⚙️</span>
+          <span>Configure Preparation Plan</span>
+        </h2>
+
+        <form id="planForm" onsubmit="handleGeneratePlan(event)" class="space-y-4">
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Select Target Examination</label>
+            <select id="examSelect" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white font-medium focus:border-saffron-500 outline-none">
+              <option value="upsc-cse">UPSC Civil Services Examination (CSE Prelims)</option>
+              <option value="ssc-cgl">SSC Combined Graduate Level (CGL Tier-1)</option>
+              <option value="rrb-ntpc">RRB Non-Technical Popular Categories (NTPC)</option>
+              <option value="ctet">Central Teacher Eligibility Test (CTET)</option>
+              <option value="upp-constable">UP Police Constable Examination</option>
+              <option value="cbse-board">CBSE Class 10 Board Examinations</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Target Exam Date</label>
+            <input type="date" id="targetDateInput" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white font-medium focus:border-saffron-500 outline-none">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Daily Study Commitment (Hours)</label>
+            <div class="grid grid-cols-4 gap-2">
+              <button type="button" onclick="setDailyHours(2)" class="hour-btn px-2 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-white text-center">2h</button>
+              <button type="button" onclick="setDailyHours(3)" class="hour-btn px-2 py-2 rounded-xl bg-saffron-500 border border-saffron-400 text-xs font-bold text-white text-center">3h</button>
+              <button type="button" onclick="setDailyHours(4)" class="hour-btn px-2 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-white text-center">4h</button>
+              <button type="button" onclick="setDailyHours(6)" class="hour-btn px-2 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-white text-center">6h</button>
+            </div>
+            <input type="hidden" id="dailyHours" value="3">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-2">Strategy Model</label>
+            <select id="strategySelect" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2.5 text-sm text-white font-medium focus:border-saffron-500 outline-none">
+              <option value="BALANCED_COMPREHENSIVE">Balanced Comprehensive (Concept + Practice + Simulation)</option>
+              <option value="CRASH_COURSE_REVISION">Fast-Track Intensive (High-Yield Topics Only)</option>
+              <option value="FOUNDATION_FIRST">Foundation-First (Deep Subject Coverage)</option>
+            </select>
+          </div>
+
+          <button type="submit" class="w-full py-3 rounded-2xl bg-gradient-to-r from-saffron-500 to-orange-600 hover:from-saffron-600 hover:to-orange-700 text-white font-bold text-sm shadow-lg shadow-orange-500/20 transition transform active:scale-95">
+            🚀 Generate Milestone Plan
+          </button>
+        </form>
+
+        <!-- Leitner Spaced Repetition Summary Box -->
+        <div class="pt-4 border-t border-slate-800 space-y-4">
+          <div class="flex items-center justify-between">
+            <h3 class="text-sm font-bold text-white flex items-center space-x-1.5">
+              <span>🧠</span>
+              <span>Spaced Revision Retention</span>
+            </h3>
+            <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Leitner 5-Box</span>
+          </div>
+
+          <div class="grid grid-cols-5 gap-1.5 text-center" id="leitnerBoxRow">
+            <div class="p-2 rounded-xl bg-slate-800/80 border border-slate-700">
+              <div class="text-[10px] font-bold text-slate-400">Box 1</div>
+              <div class="text-sm font-black text-rose-400" id="box1Count">0</div>
+              <div class="text-[8px] text-slate-500">1 Day</div>
+            </div>
+            <div class="p-2 rounded-xl bg-slate-800/80 border border-slate-700">
+              <div class="text-[10px] font-bold text-slate-400">Box 2</div>
+              <div class="text-sm font-black text-amber-400" id="box2Count">0</div>
+              <div class="text-[8px] text-slate-500">3 Days</div>
+            </div>
+            <div class="p-2 rounded-xl bg-slate-800/80 border border-slate-700">
+              <div class="text-[10px] font-bold text-slate-400">Box 3</div>
+              <div class="text-sm font-black text-yellow-400" id="box3Count">0</div>
+              <div class="text-[8px] text-slate-500">7 Days</div>
+            </div>
+            <div class="p-2 rounded-xl bg-slate-800/80 border border-slate-700">
+              <div class="text-[10px] font-bold text-slate-400">Box 4</div>
+              <div class="text-sm font-black text-cyan-400" id="box4Count">0</div>
+              <div class="text-[8px] text-slate-500">14 Days</div>
+            </div>
+            <div class="p-2 rounded-xl bg-slate-800/80 border border-slate-700">
+              <div class="text-[10px] font-bold text-slate-400">Box 5</div>
+              <div class="text-sm font-black text-emerald-400" id="box5Count">0</div>
+              <div class="text-[8px] text-slate-500">30 Days</div>
+            </div>
+          </div>
+
+          <button onclick="loadDueQuestions()" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-amber-300 transition flex items-center justify-center space-x-2">
+            <span>⚡ Start Spaced Revision Drill</span>
+            <span id="dueBadge" class="px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-[10px]">0 Due</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Col 2 & 3: Active Preparation Plan View & Flashcard Area -->
+      <div class="lg:col-span-2 space-y-6">
+        <!-- Active Plan Header Card -->
+        <div id="planContainer" class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-6">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <div class="flex items-center space-x-2">
+                <span id="planExamBadge" class="px-3 py-1 rounded-full text-xs font-black uppercase bg-saffron-500/10 text-saffron-400 border border-saffron-500/30">UPSC CSE</span>
+                <span id="planStatusBadge" class="px-2.5 py-0.5 rounded-full text-[10px] font-bold uppercase bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">ACTIVE</span>
+              </div>
+              <h2 id="planExamTitle" class="text-xl sm:text-2xl font-black text-white mt-1.5">UPSC Civil Services Examination (IAS, IPS, IFS)</h2>
+              <p class="text-xs text-slate-400 mt-0.5">Target Exam: <span id="planTargetDate" class="text-amber-300 font-bold">2026-05-24</span> • Daily Target: <span id="planDailyHours" class="text-cyan-300 font-bold">3.0 Hours</span></p>
+            </div>
+
+            <div class="bg-slate-800/80 border border-slate-700 p-4 rounded-2xl text-center min-w-[130px]">
+              <div class="text-[10px] uppercase font-bold text-slate-400">Total Progress</div>
+              <div class="text-2xl font-black text-emerald-400 mt-0.5" id="planProgressPercent">0%</div>
+              <div class="text-[10px] text-slate-400" id="planTopicsRatio">0 / 25 Topics</div>
+            </div>
+          </div>
+
+          <!-- Milestones List -->
+          <div class="space-y-4">
+            <h3 class="text-sm font-bold text-slate-300 uppercase tracking-wider flex items-center space-x-2">
+              <span>🚩</span>
+              <span>4-Phase Pedagogical Milestones</span>
+            </h3>
+
+            <div id="milestonesList" class="space-y-3">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Flashcard Drill Interactive Drawer -->
+        <div id="flashcardContainer" class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-4 hidden">
+          <div class="flex items-center justify-between">
+            <h3 class="text-base font-black text-white flex items-center space-x-2">
+              <span>⚡</span>
+              <span>Active Spaced Revision Drill</span>
+            </h3>
+            <button onclick="closeDrill()" class="text-xs font-bold text-slate-400 hover:text-white">✕ Close Drill</button>
+          </div>
+
+          <div id="flashcardCard" class="bg-slate-950 border border-slate-800 rounded-2xl p-6 space-y-4">
+            <div class="flex items-center justify-between text-xs">
+              <span id="cardSubject" class="px-2.5 py-1 rounded-lg bg-blue-500/10 text-blue-400 border border-blue-500/30 font-bold">Polity</span>
+              <span id="cardProvenance" class="px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 font-mono text-[10px] font-bold">OFFICIAL_PYQ</span>
+            </div>
+
+            <div id="cardStem" class="text-sm sm:text-base font-medium text-slate-100 leading-relaxed">
+              Loading question...
+            </div>
+
+            <div id="cardOptions" class="space-y-2">
+              <!-- Options rendered here -->
+            </div>
+
+            <div id="cardAnswerBox" class="p-4 rounded-xl bg-slate-900 border border-slate-800 text-xs space-y-2 hidden">
+              <div class="font-bold text-emerald-400" id="cardCorrectText">Correct Answer: A</div>
+              <div class="text-slate-300" id="cardExplanationText">Explanation details...</div>
+            </div>
+
+            <div class="flex items-center justify-between pt-2">
+              <button id="showAnswerBtn" onclick="toggleAnswer()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">
+                💡 Reveal Answer
+              </button>
+
+              <div id="outcomeBtns" class="flex items-center space-x-2 hidden">
+                <button onclick="submitAttempt(false)" class="px-3 py-2 rounded-xl bg-rose-500/20 hover:bg-rose-500/30 text-rose-300 border border-rose-500/40 text-xs font-bold transition">
+                  ❌ Incorrect / Needs Review
+                </button>
+                <button onclick="submitAttempt(true)" class="px-3 py-2 rounded-xl bg-emerald-500/20 hover:bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 text-xs font-bold transition">
+                  ✅ Correct / Remembered
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const USER_ID = 'candidate-01';
+    let currentPlan = null;
+    let dueCards = [];
+    let currentCardIndex = 0;
+
+    function setDailyHours(hours) {
+      document.getElementById('dailyHours').value = hours;
+      document.querySelectorAll('.hour-btn').forEach(btn => {
+        btn.classList.remove('bg-saffron-500', 'border-saffron-400');
+        btn.classList.add('bg-slate-800', 'border-slate-700');
+      });
+      event.target.classList.remove('bg-slate-800', 'border-slate-700');
+      event.target.classList.add('bg-saffron-500', 'border-saffron-400');
+    }
+
+    async function loadPlan(examId = 'upsc-cse') {
+      try {
+        const res = await fetch(`/api/v2/preparation/plan/${USER_ID}/${examId}`);
+        const data = await res.json();
+        if (data.success && data.plan) {
+          currentPlan = data.plan;
+          renderPlan(currentPlan);
+        } else {
+          // If no plan, auto generate default
+          await autoCreateDefaultPlan(examId);
+        }
+      } catch (e) {
+        console.error('Failed to load plan', e);
+      }
+    }
+
+    async function autoCreateDefaultPlan(examId) {
+      const res = await fetch('/api/v2/preparation/plan/generate', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: USER_ID,
+          examId,
+          targetExamDate: '2026-05-24',
+          dailyHours: 3.0,
+          strategyType: 'BALANCED_COMPREHENSIVE'
+        })
+      });
+      const data = await res.json();
+      if (data.success) {
+        currentPlan = data.plan;
+        renderPlan(currentPlan);
+      }
+    }
+
+    function renderPlan(plan) {
+      document.getElementById('planExamBadge').innerText = plan.examId;
+      document.getElementById('planStatusBadge').innerText = plan.status;
+      document.getElementById('planTargetDate').innerText = plan.targetExamDate;
+      document.getElementById('planDailyHours').innerText = `${plan.dailyStudyHours} Hours`;
+
+      const completed = plan.milestones.filter(m => m.completed).length;
+      const pct = Math.round((completed / plan.milestones.length) * 100);
+      document.getElementById('planProgressPercent').innerText = `${pct}%`;
+      document.getElementById('planTopicsRatio').innerText = `${plan.completedTopicsCount || 0} / ${plan.totalTopicsCount || 25} Topics`;
+
+      const list = document.getElementById('milestonesList');
+      list.innerHTML = plan.milestones.map((m, idx) => `
+        <div class="p-4 rounded-2xl border ${m.completed ? 'bg-emerald-950/20 border-emerald-500/30' : 'bg-slate-950/50 border-slate-800'} flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div class="space-y-1">
+            <div class="flex items-center space-x-2">
+              <span class="text-xs font-black ${m.completed ? 'text-emerald-400' : 'text-saffron-400'}">${m.title}</span>
+              ${m.completed ? '<span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 font-bold">COMPLETED</span>' : ''}
+            </div>
+            <p class="text-xs text-slate-400">${m.description}</p>
+            <div class="text-[10px] text-slate-500 font-mono">Duration: ${m.durationDays} Days • Target: ~${m.targetHours} Hours</div>
+          </div>
+
+          <div>
+            ${m.completed ? `
+              <span class="text-xs font-bold text-emerald-400 flex items-center space-x-1">
+                <span>✓ Done</span>
+              </span>
+            ` : `
+              <button onclick="completeMilestone('${m.milestoneId}')" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-emerald-600 hover:text-white border border-slate-700 text-xs font-bold text-slate-300 transition">
+                Mark Completed
+              </button>
+            `}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    async function completeMilestone(milestoneId) {
+      if (!currentPlan) return;
+      try {
+        const res = await fetch('/api/v2/preparation/plan/milestone', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            planId: currentPlan.planId,
+            milestoneId
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          loadPlan(currentPlan.examId);
+        }
+      } catch (e) {
+        alert('Failed to update milestone');
+      }
+    }
+
+    async function handleGeneratePlan(e) {
+      e.preventDefault();
+      const examId = document.getElementById('examSelect').value;
+      const targetExamDate = document.getElementById('targetDateInput').value;
+      const dailyHours = parseFloat(document.getElementById('dailyHours').value);
+      const strategyType = document.getElementById('strategySelect').value;
+
+      try {
+        const res = await fetch('/api/v2/preparation/plan/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: USER_ID,
+            examId,
+            targetExamDate: targetExamDate || undefined,
+            dailyHours,
+            strategyType
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          currentPlan = data.plan;
+          renderPlan(currentPlan);
+          loadRevisionMetrics(examId);
+        } else {
+          alert(`Error: ${data.error}`);
+        }
+      } catch (err) {
+        alert('Network error generating plan');
+      }
+    }
+
+    async function loadRevisionMetrics(examId = 'upsc-cse') {
+      try {
+        const res = await fetch(`/api/v2/revision/metrics/${USER_ID}?examId=${examId}`);
+        const data = await res.json();
+        if (data.success && data.metrics) {
+          const m = data.metrics;
+          document.getElementById('box1Count').innerText = m.levelDistribution[1] || 0;
+          document.getElementById('box2Count').innerText = m.levelDistribution[2] || 0;
+          document.getElementById('box3Count').innerText = m.levelDistribution[3] || 0;
+          document.getElementById('box4Count').innerText = m.levelDistribution[4] || 0;
+          document.getElementById('box5Count').innerText = m.levelDistribution[5] || 0;
+          document.getElementById('dueBadge').innerText = `${m.dueCards} Due`;
+        }
+      } catch (e) {}
+    }
+
+    async function loadDueQuestions() {
+      try {
+        const examId = currentPlan ? currentPlan.examId : 'upsc-cse';
+        const res = await fetch(`/api/v2/revision/due/${USER_ID}?examId=${examId}&limit=10`);
+        const data = await res.json();
+        if (data.success && data.cards && data.cards.length > 0) {
+          dueCards = data.cards;
+          currentCardIndex = 0;
+          document.getElementById('flashcardContainer').classList.remove('hidden');
+          renderCurrentCard();
+        } else {
+          alert('No revision cards are due right now! Great job staying on top of your intervals.');
+        }
+      } catch (e) {
+        alert('Failed to load due cards');
+      }
+    }
+
+    function renderCurrentCard() {
+      if (currentCardIndex >= dueCards.length) {
+        document.getElementById('flashcardContainer').classList.add('hidden');
+        alert('You have completed all due spaced revision cards for this session!');
+        loadRevisionMetrics(currentPlan ? currentPlan.examId : 'upsc-cse');
+        return;
+      }
+
+      const card = dueCards[currentCardIndex];
+      document.getElementById('cardSubject').innerText = card.subjectName;
+      document.getElementById('cardProvenance').innerText = card.provenance || 'OFFICIAL_PYQ';
+      document.getElementById('cardStem').innerText = card.questionText;
+
+      const optsDiv = document.getElementById('cardOptions');
+      optsDiv.innerHTML = card.options.map(opt => `
+        <div class="px-3 py-2 rounded-xl bg-slate-900 border border-slate-800 text-xs text-slate-300 font-mono">
+          ${opt}
+        </div>
+      `).join('');
+
+      document.getElementById('cardCorrectText').innerText = `Correct Answer: ${card.correctAnswer || 'Noted'}`;
+      document.getElementById('cardExplanationText').innerText = card.explanation || 'Verified Official Scheme.';
+
+      document.getElementById('cardAnswerBox').classList.add('hidden');
+      document.getElementById('outcomeBtns').classList.add('hidden');
+      document.getElementById('showAnswerBtn').classList.remove('hidden');
+    }
+
+    function toggleAnswer() {
+      document.getElementById('cardAnswerBox').classList.remove('hidden');
+      document.getElementById('outcomeBtns').classList.remove('hidden');
+      document.getElementById('showAnswerBtn').classList.add('hidden');
+    }
+
+    async function submitAttempt(isCorrect) {
+      const card = dueCards[currentCardIndex];
+      try {
+        await fetch('/api/v2/revision/attempt', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: USER_ID,
+            questionId: card.questionId,
+            examId: card.examId,
+            isCorrect
+          })
+        });
+        currentCardIndex++;
+        renderCurrentCard();
+      } catch (e) {
+        alert('Failed to record attempt');
+      }
+    }
+
+    function closeDrill() {
+      document.getElementById('flashcardContainer').classList.add('hidden');
+    }
+
+    // Initialize on load
+    window.addEventListener('DOMContentLoaded', () => {
+      // Set default target date to 60 days from now
+      const d = new Date();
+      d.setDate(d.getDate() + 60);
+      document.getElementById('targetDateInput').value = d.toISOString().split('T')[0];
+
+      loadPlan('upsc-cse');
+      loadRevisionMetrics('upsc-cse');
+    });
+  </script>
+</body>
+</html>

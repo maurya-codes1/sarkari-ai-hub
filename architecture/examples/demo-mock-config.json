@@ -1,0 +1,17 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates blueprint-driven full mock vs configurable practice modes",
+  "configId": "mock-cfg-demo-full-2026",
+  "name": "Demo Examination 2026 Full Official CBT Mock Test",
+  "testMode": "FULL_EXAM_MOCK",
+  "blueprintId": "bp-demo-exam-2026-tier1",
+  "subjectId": null,
+  "chapterId": null,
+  "topicId": null,
+  "isBlueprintDriven": true,
+  "configuredQuestionCount": 100,
+  "durationMinutes": 120,
+  "allowsPause": false,
+  "shuffleQuestions": true,
+  "shuffleOptions": true,
+  "instantSolutionMode": false
+}

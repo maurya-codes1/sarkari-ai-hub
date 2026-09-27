@@ -1,0 +1,3671 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-27T11:18:02.014Z",
+    "reportTitle": "SarkariAI Hub — Phase 10.1 Complete Test Manifest",
+    "totalUniqueTests": 357,
+    "totalPassed": 357,
+    "totalFailed": 0,
+    "totalSkipped": 0,
+    "duplicateIdsCount": 0,
+    "duplicateIds": [],
+    "missingIdsCount": 0,
+    "phaseWiseTotals": {
+      "Phase 4": {
+        "file": "backend/test/test-phase4-mock.js",
+        "total": 15,
+        "passed": 15,
+        "failed": 0,
+        "suiteDurationMs": 181
+      },
+      "Phase 5": {
+        "file": "backend/test/test-phase5-content.js",
+        "total": 20,
+        "passed": 20,
+        "failed": 0,
+        "suiteDurationMs": 106
+      },
+      "Phase 5.1": {
+        "file": "backend/test/test-phase5.1-revalidation.js",
+        "total": 26,
+        "passed": 26,
+        "failed": 0,
+        "suiteDurationMs": 157
+      },
+      "Phase 6": {
+        "file": "backend/test/test-phase6-verification.js",
+        "total": 38,
+        "passed": 38,
+        "failed": 0,
+        "suiteDurationMs": 113
+      },
+      "Phase 6 Addendum": {
+        "file": "backend/test/test-phase6-addendum.js",
+        "total": 15,
+        "passed": 15,
+        "failed": 0,
+        "suiteDurationMs": 116
+      },
+      "Phase 6 Mock Modes": {
+        "file": "backend/test/test-phase6-mock-modes.js",
+        "total": 17,
+        "passed": 17,
+        "failed": 0,
+        "suiteDurationMs": 165
+      },
+      "Phase 6 Final Addendum": {
+        "file": "backend/test/test-phase6-final-addendum.js",
+        "total": 29,
+        "passed": 29,
+        "failed": 0,
+        "suiteDurationMs": 620
+      },
+      "Phase 7": {
+        "file": "backend/test/test-phase7-pyq.js",
+        "total": 60,
+        "passed": 60,
+        "failed": 0,
+        "suiteDurationMs": 136
+      },
+      "Phase 8": {
+        "file": "backend/test/test-phase8-pdf.js",
+        "total": 60,
+        "passed": 60,
+        "failed": 0,
+        "suiteDurationMs": 457
+      },
+      "Phase 9": {
+        "file": "backend/test/test-phase9-expansion.js",
+        "total": 27,
+        "passed": 27,
+        "failed": 0,
+        "suiteDurationMs": 244
+      },
+      "Phase 10": {
+        "file": "backend/test/test-phase10-corpus.js",
+        "total": 19,
+        "passed": 19,
+        "failed": 0,
+        "suiteDurationMs": 166
+      },
+      "Phase 10.1": {
+        "file": "backend/test/test-phase10.1-expansion.js",
+        "total": 31,
+        "passed": 31,
+        "failed": 0,
+        "suiteDurationMs": 159
+      }
+    }
+  },
+  "tests": [
+    {
+      "testId": "TST-PHASE4-001",
+      "phase": "Phase 4",
+      "testName": "CASE 1: Full mock with one section",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-002",
+      "phase": "Phase 4",
+      "testName": "CASE 2: Full mock with multiple sections (SSC CGL 4 Sections)",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-003",
+      "phase": "Phase 4",
+      "testName": "CASE 3: QuestionsToAttempt < totalQuestions (NEET UG Section B Choice)",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-004",
+      "phase": "Phase 4",
+      "testName": "CASE 4: Negative marking deduction calculation",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-005",
+      "phase": "Phase 4",
+      "testName": "CASE 5: No negative marking (CBSE Board scheme)",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-006",
+      "phase": "Phase 4",
+      "testName": "CASE 6: Bilingual question dual-medium rendering",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-007",
+      "phase": "Phase 4",
+      "testName": "CASE 7: Monolingual language subject (General English)",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-008",
+      "phase": "Phase 4",
+      "testName": "CASE 8: Question language independent from UI language",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-009",
+      "phase": "Phase 4",
+      "testName": "CASE 9: Different option language configuration",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-010",
+      "phase": "Phase 4",
+      "testName": "CASE 10: Auto-submit on countdown timer expiration",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-011",
+      "phase": "Phase 4",
+      "testName": "CASE 11: Strict zero duplicate question ID prevention within single mock",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-012",
+      "phase": "Phase 4",
+      "testName": "CASE 12: Insufficient question inventory handling without repetition",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-013",
+      "phase": "Phase 4",
+      "testName": "CASE 13: Legacy blueprint pending verification notice (No fake official claim)",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-014",
+      "phase": "Phase 4",
+      "testName": "CASE 14: Database unavailable graceful fallback",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE4-015",
+      "phase": "Phase 4",
+      "testName": "CASE 15: Practice mode configurable quantities and stopwatch timer",
+      "file": "backend/test/test-phase4-mock.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.574Z",
+      "durationMs": 7,
+      "category": "Mock Engine"
+    },
+    {
+      "testId": "TST-PHASE5-001",
+      "phase": "Phase 5",
+      "testName": "TEST 1: Exact duplicate rejection via content fingerprint",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-002",
+      "phase": "Phase 5",
+      "testName": "TEST 2: Semantic duplicate detection on paraphrased stem",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-003",
+      "phase": "Phase 5",
+      "testName": "TEST 3: Historical 10-year corpus comparison & match detection",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-004",
+      "phase": "Phase 5",
+      "testName": "TEST 4: Unique question acceptance with clean novelty pass",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-005",
+      "phase": "Phase 5",
+      "testName": "TEST 5: Wrong-answer rejection (out-of-bounds MCQ & deterministic math mismatch)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-006",
+      "phase": "Phase 5",
+      "testName": "TEST 6: Ambiguous and placeholder question rejection",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-007",
+      "phase": "Phase 5",
+      "testName": "TEST 7: Invalid-option rejection (duplicate options & empty options)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-008",
+      "phase": "Phase 5",
+      "testName": "TEST 8: Syllabus mismatch rejection (non-existent subject ID)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-009",
+      "phase": "Phase 5",
+      "testName": "TEST 9: Blueprint mismatch rejection (non-existent blueprint ID)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-010",
+      "phase": "Phase 5",
+      "testName": "TEST 10: Language mismatch rejection (unsupported language code)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-011",
+      "phase": "Phase 5",
+      "testName": "TEST 11: AI practice provenance strict enforcement (AI_PRACTICE & AI_ESTIMATED_DIFFICULTY)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-012",
+      "phase": "Phase 5",
+      "testName": "TEST 12: Previous Year Question (PYQ) provenance & source attribution",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-013",
+      "phase": "Phase 5",
+      "testName": "TEST 13: Notes engine provenance (AI_NOTE vs HUMAN_CURATED) & depth tiers",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-014",
+      "phase": "Phase 5",
+      "testName": "TEST 14: Non-destructive Question Versioning (increments version and preserves past versions)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-015",
+      "phase": "Phase 5",
+      "testName": "TEST 15: Global question uniqueness across banks via fingerprint register",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-016",
+      "phase": "Phase 5",
+      "testName": "TEST 16: Phase 4 Mock Engine integration with Phase 5 question bank",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-017",
+      "phase": "Phase 5",
+      "testName": "TEST 17: Database persistence verification for notes, syllabi, and historical corpus",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-018",
+      "phase": "Phase 5",
+      "testName": "TEST 18: Generation job state machine and transient failure recovery",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-019",
+      "phase": "Phase 5",
+      "testName": "TEST 19: Generation retry limit exhaustion (transitions to REJECTED after max retries)",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE5-020",
+      "phase": "Phase 5",
+      "testName": "TEST 20: Generation rate limiting and cost control enforcement",
+      "file": "backend/test/test-phase5-content.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.680Z",
+      "durationMs": 4,
+      "category": "Content Intelligence"
+    },
+    {
+      "testId": "TST-PHASE51-001",
+      "phase": "Phase 5.1",
+      "testName": "TEST 1: Legacy Classification (all 872 questions categorized)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-002",
+      "phase": "Phase 5.1",
+      "testName": "TEST 2: Mismatched & Specialized Subject Separation (NEEDS_REVIEW isolation)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-003",
+      "phase": "Phase 5.1",
+      "testName": "TEST 3: Practice Mode 100% Inclusivity (872/872 practice eligible)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-004",
+      "phase": "Phase 5.1",
+      "testName": "TEST 4: Zero Fake Promotion (0/872 full_exam_eligible without official verification)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-005",
+      "phase": "Phase 5.1",
+      "testName": "TEST 5: Question Remapping Proposals table and structure",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-006",
+      "phase": "Phase 5.1",
+      "testName": "TEST 6: AI Interleaving Proportion (honors requested proportion and total count)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-007",
+      "phase": "Phase 5.1",
+      "testName": "TEST 7: AI Interleaving Zero Proportion (Full Exam Simulation Default)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-008",
+      "phase": "Phase 5.1",
+      "testName": "TEST 8: Natural Stride & Contiguous Block Prevention (no consecutive AI questions)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-009",
+      "phase": "Phase 5.1",
+      "testName": "TEST 9: Zero Duplicate IDs during Interleaving",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-010",
+      "phase": "Phase 5.1",
+      "testName": "TEST 10: Passage Group Clustering Protection (passage-based items kept together)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-011",
+      "phase": "Phase 5.1",
+      "testName": "TEST 11: Section Boundary Isolation (interleaving contained per section)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-012",
+      "phase": "Phase 5.1",
+      "testName": "TEST 12: AI Question Provenance Integrity (retains AI_PRACTICE provenance)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-013",
+      "phase": "Phase 5.1",
+      "testName": "TEST 13: Zero-Question Full Exam Safety (safe error with FULL_EXAM_UNAVAILABLE)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-014",
+      "phase": "Phase 5.1",
+      "testName": "TEST 14: Zero-Question Practice Mode Safety (returns 200 contract with NO_ELIGIBLE_QUESTIONS)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-015",
+      "phase": "Phase 5.1",
+      "testName": "TEST 15: Partial Inventory Shortage Handling (delivers available items without duplicate looping)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-016",
+      "phase": "Phase 5.1",
+      "testName": "TEST 16: Zero-Question Score Safety (avoids NaN, Infinity, and division by zero)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-017",
+      "phase": "Phase 5.1",
+      "testName": "TEST 17: Zero-Question Audit Logging (records events into database)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-018",
+      "phase": "Phase 5.1",
+      "testName": "TEST 18: Audit Log Retrieval API & Service",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-019",
+      "phase": "Phase 5.1",
+      "testName": "TEST 19: Revalidation Report API Consistency",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-020",
+      "phase": "Phase 5.1",
+      "testName": "TEST 20: Single Question Revalidation Fields in Repository",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-021",
+      "phase": "Phase 5.1",
+      "testName": "TEST 21: Database Index Verification (Phase 5.1 indexes exist)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-022",
+      "phase": "Phase 5.1",
+      "testName": "TEST 22: Passage Group Schema & Query Support",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-023",
+      "phase": "Phase 5.1",
+      "testName": "TEST 23: Database Foreign Key Integrity (PRAGMA foreign_key_check)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-024",
+      "phase": "Phase 5.1",
+      "testName": "TEST 24: Database Schema Integrity (PRAGMA integrity_check)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-025",
+      "phase": "Phase 5.1",
+      "testName": "TEST 25: Phase 4 Mock Engine Compatibility (Session creation & scoring)",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE51-026",
+      "phase": "Phase 5.1",
+      "testName": "TEST 26: Phase 5 Content Intelligence Compatibility",
+      "file": "backend/test/test-phase5.1-revalidation.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.837Z",
+      "durationMs": 4,
+      "category": "Revalidation"
+    },
+    {
+      "testId": "TST-PHASE6-001",
+      "phase": "Phase 6",
+      "testName": "TEST 1: Backup existence and secret-free integrity",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-002",
+      "phase": "Phase 6",
+      "testName": "TEST 2: Existing Phase 5.1 baseline preserved (872 Qs, 726 practice, 146 review)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-003",
+      "phase": "Phase 6",
+      "testName": "TEST 3: Official source hierarchy (8 explicit trust levels)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-004",
+      "phase": "Phase 6",
+      "testName": "TEST 4: Source verification states recorded in official_sources",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-005",
+      "phase": "Phase 6",
+      "testName": "TEST 5: Field-level source evidence (exact traceability to document and section)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-006",
+      "phase": "Phase 6",
+      "testName": "TEST 6: Exam version separation (distinct version entities per exam)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-007",
+      "phase": "Phase 6",
+      "testName": "TEST 7: Historical vs current version separation",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-008",
+      "phase": "Phase 6",
+      "testName": "TEST 8: Blueprint verification (bp-verified-ssc-cgl evaluates to VERIFIED)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-009",
+      "phase": "Phase 6",
+      "testName": "TEST 9: Marking-rule verification (preserves exact negative marking evidence)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-010",
+      "phase": "Phase 6",
+      "testName": "TEST 10: Language verification (independent exam medium vs UI locales)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-011",
+      "phase": "Phase 6",
+      "testName": "TEST 11: Syllabus verification (structured chapters and topics mapped)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-012",
+      "phase": "Phase 6",
+      "testName": "TEST 12: Source conflict detection",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-013",
+      "phase": "Phase 6",
+      "testName": "TEST 13: Conflict blocks Full Exam (unresolved conflict sets isEligible = false)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-014",
+      "phase": "Phase 6",
+      "testName": "TEST 14: Missing language blocks Full Exam",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-015",
+      "phase": "Phase 6",
+      "testName": "TEST 15: Missing blueprint blocks Full Exam",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-016",
+      "phase": "Phase 6",
+      "testName": "TEST 16: Insufficient question bank blocks Full Exam",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-017",
+      "phase": "Phase 6",
+      "testName": "TEST 17: Zero eligible questions blocks Full Exam (safe failure, no crash)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-018",
+      "phase": "Phase 6",
+      "testName": "TEST 18: Correctly mapped questions count (isolated by subject/sections)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-019",
+      "phase": "Phase 6",
+      "testName": "TEST 19: Incorrectly mapped questions excluded from exam eligibility",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-020",
+      "phase": "Phase 6",
+      "testName": "TEST 20: Practice-only questions do not auto-promote",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-021",
+      "phase": "Phase 6",
+      "testName": "TEST 21: AI questions do not become official/PYQ",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-022",
+      "phase": "Phase 6",
+      "testName": "TEST 22: Historical source remains valid for historical version",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-023",
+      "phase": "Phase 6",
+      "testName": "TEST 23: Superseded source handling",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-024",
+      "phase": "Phase 6",
+      "testName": "TEST 24: Official Change Detection (non-destructive change logging)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-025",
+      "phase": "Phase 6",
+      "testName": "TEST 25: Machine-readable audit logging (records verification events)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-026",
+      "phase": "Phase 6",
+      "testName": "TEST 26: API success-with-zero-results contract",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-027",
+      "phase": "Phase 6",
+      "testName": "TEST 27: API NOT_READY state",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-028",
+      "phase": "Phase 6",
+      "testName": "TEST 28: API conflict state representation",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-029",
+      "phase": "Phase 6",
+      "testName": "TEST 29: No NaN in readiness and scoring calculations",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-030",
+      "phase": "Phase 6",
+      "testName": "TEST 30: No Infinity in scoring calculations",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-031",
+      "phase": "Phase 6",
+      "testName": "TEST 31: No -0.00 score or accuracy representation",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-032",
+      "phase": "Phase 6",
+      "testName": "TEST 32: Existing Phase 4 tests regression (15/15 pass)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-033",
+      "phase": "Phase 6",
+      "testName": "TEST 33: Existing Phase 5 content intelligence regression",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-034",
+      "phase": "Phase 6",
+      "testName": "TEST 34: Existing Phase 5.1 revalidation tests regression",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-035",
+      "phase": "Phase 6",
+      "testName": "TEST 35: DB foreign keys clean (PRAGMA foreign_key_check = 0)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-036",
+      "phase": "Phase 6",
+      "testName": "TEST 36: No duplicate records across exams, orgs, and blueprints",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-037",
+      "phase": "Phase 6",
+      "testName": "TEST 37: No orphan records in sections or documents",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6-038",
+      "phase": "Phase 6",
+      "testName": "TEST 38: Database reconciliation remains correct (52 exams, 872 Qs baseline, 14 langs)",
+      "file": "backend/test/test-phase6-verification.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:17:59.951Z",
+      "durationMs": 2,
+      "category": "Source Intelligence & Gate"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-001",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST A: Official exam = Hindi + English -> All consumers receive Hindi + English",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-002",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST B: Official exam = Tamil -> No Hindi fallback occurs",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-003",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST C: Official exam = Telugu + English -> Matches verified setup",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-004",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST D: Exam language changes in new version -> Old version unchanged",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-005",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST E: Unsupported language requested -> System flags rather than substituting",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-006",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST F: Exam blueprint changes -> Mock/PDF reads new, historical stays tied to old",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-007",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST G: UI language = Hinglish, Paper language = Hindi + English -> Kept separate",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-008",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 8: Downstream Consumer: Exam Details uses verified configuration",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-009",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 9: Downstream Consumer: Notes engine rejects unsupported languages",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-010",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 10: Downstream Consumer: Question validation rejects subject outside blueprint",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-011",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 11: Downstream Consumer: Mock test engine pulls directly from verified config",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-012",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 12: Downstream Consumer: AI Question generator receives verified config & stamps AI_PRACTICE",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-013",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 13: Downstream Consumer: Future PDF Contract defines OMR / Layout / Sections",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-014",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 14: Unverified Exam Content Readiness returns safe explicit states",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6ADDENDUM-015",
+      "phase": "Phase 6 Addendum",
+      "testName": "TEST 15: Cross-exam question reuse blocked when version patterns differ",
+      "file": "backend/test/test-phase6-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.067Z",
+      "durationMs": 4,
+      "category": "Addendum Source Intelligence"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-001",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 1: Mode A (Subject-wise Practice) launches with flexible question count",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-002",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 2: Mode A respects subject selection and excludes other subjects",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-003",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 3: Mode A allows counts larger than blueprint section count if inventory permits",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-004",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 4: Mode B (All Subjects Practice) mixes questions across syllabus subjects",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-005",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 5: Mode B allows flexible count (e.g. 50, 100) not restricted by blueprint total",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-006",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 6: Mode C (Full Exam) rejects arbitrary question count override and enforces blueprint total",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-007",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 7: Mode C enforces exact section question counts matching blueprint",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-008",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 8: Mode C blocks session creation if question inventory is insufficient (No silent fallback)",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-009",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 9: Mode C shortage error includes section-by-section breakdown (required, available, shortage)",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-010",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 10: Mode C enforces zero duplicate questions across the entire session",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-011",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 11: Mode C never invents questions or pulls from wrong subjects to fill gaps",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-012",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 12: Large question bank correctly fuels Mode A/B beyond blueprint size",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-013",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 13: getMockModes(examId) returns all 3 modes with accurate availability and metadata",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-014",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 14: Marking rules in Mode C match verified blueprint (marks_correct, marks_wrong, negative marking)",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-015",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 15: Timer configuration in Mode C matches verified blueprint duration",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-016",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 16: Practice modes (A & B) remain available even when Full Exam (Mode C) is unavailable/insufficient",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6MOCKMODES-017",
+      "phase": "Phase 6 Mock Modes",
+      "testName": "TEST 17: Multi-version support: Mock modes correctly resolve version-specific blueprints",
+      "file": "backend/test/test-phase6-mock-modes.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.232Z",
+      "durationMs": 6,
+      "category": "Mock Modes"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-001",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 1: Content dependency creation with explicit entity references",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-002",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 2: Blueprint change detection (identifies changes and impact level)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-003",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 3: Automatic stale state propagation to dependent content",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-004",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 4: Critical change impact categorization for negative marking changes",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-005",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 5: Exam snapshot creation produces complete immutable configuration",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-006",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 6: Historical snapshot preservation (new snapshot does not mutate previous snapshot)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-007",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 7: Historical mock traceability binds completed mock session to immutable snapshot",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-008",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 8: Language consistency validation across Question, Options, and Instructions",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-009",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 9: Decouples UI language (Hinglish hi-Latn) from official Paper medium (hi,en)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-010",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 10: Notes configuration is strictly governed by verified syllabus and exam version",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-011",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 11: Question bank dependencies tracked and evaluated per blueprint section",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-012",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 12: Full Exam state marks REVALIDATION_REQUIRED or BLOCKED upon critical change",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-013",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 13: Question shortage after pattern change halts mode C with detailed shortages",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-014",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 14: Engine strictly prevents duplicate questions across session",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-015",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 15: No unrelated question substitution into selected subject",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-016",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 16: No language substitution (rejects content in wrong language rather than substituting)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-017",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 17: Current vs historical version separation in version repository and snapshots",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-018",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 18: Source change audit logs all modifications in official_change_detections",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-019",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 19: recalculateAllReadiness returns comprehensive multi-component status",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-020",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 20: validateQuestionAnswerKeyConsistency validates MCQ bounds & numerical solutions",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-021",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 21: Subject-wise Practice works independently with custom counts without blueprint lock",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-022",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 22: All Subjects Practice works independently with mixed subjects without blueprint lock",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-023",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 23: Full Exam Pattern enforces exact blueprint distribution, duration, and marks",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-024",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 24: Zero-question protection intact (clamps invalid counts to safe minimums)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-025",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 25: Duplicate protection intact across 60-question practice set",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-026",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 26: Phase 4 Mock Engine test suite regression check (15/15)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-027",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 27: Phase 5 Content Intelligence test suite regression check (20/20)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-028",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 28: Phase 5.1 Revalidation test suite regression check (26/26)",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE6FINALADDENDUM-029",
+      "phase": "Phase 6 Final Addendum",
+      "testName": "TEST 29: Strips internal generation technical metadata from student view",
+      "file": "backend/test/test-phase6-final-addendum.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.852Z",
+      "durationMs": 16,
+      "category": "Final Source Addendum"
+    },
+    {
+      "testId": "TST-PHASE7-001",
+      "phase": "Phase 7",
+      "testName": "TEST 1: question_papers table schema & indexes exist",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-002",
+      "phase": "Phase 7",
+      "testName": "TEST 2: paper_questions table schema & indexes exist",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-003",
+      "phase": "Phase 7",
+      "testName": "TEST 3: official_answer_keys table schema & indexes exist",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-004",
+      "phase": "Phase 7",
+      "testName": "TEST 4: ingestion_batches table schema & indexes exist",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-005",
+      "phase": "Phase 7",
+      "testName": "TEST 5: questions table Phase 7 columns exist",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-006",
+      "phase": "Phase 7",
+      "testName": "TEST 6: Register paper with complete metadata and SHA256 document hash",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-007",
+      "phase": "Phase 7",
+      "testName": "TEST 7: Deduplication of paper registration via SHA256 document hash",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-008",
+      "phase": "Phase 7",
+      "testName": "TEST 8: Filter question papers by examId, academicYear, stage, shift",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-009",
+      "phase": "Phase 7",
+      "testName": "TEST 9: Text normalization - removes OCR line breaks inside sentences",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-010",
+      "phase": "Phase 7",
+      "testName": "TEST 10: Text normalization - preserves genuine paragraph breaks",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-011",
+      "phase": "Phase 7",
+      "testName": "TEST 11: Text normalization - preserves mathematical and chemical notation",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-012",
+      "phase": "Phase 7",
+      "testName": "TEST 12: Text normalization - strips page headers and footers",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-013",
+      "phase": "Phase 7",
+      "testName": "TEST 13: Text normalization - collapses excessive whitespace",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-014",
+      "phase": "Phase 7",
+      "testName": "TEST 14: Completeness validation - detects count shortage (extracted < expected)",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-015",
+      "phase": "Phase 7",
+      "testName": "TEST 15: Completeness validation - detects sequence gaps",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-016",
+      "phase": "Phase 7",
+      "testName": "TEST 16: Completeness validation - detects duplicate question numbers",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-017",
+      "phase": "Phase 7",
+      "testName": "TEST 17: Completeness validation - detects missing options in MCQs",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-018",
+      "phase": "Phase 7",
+      "testName": "TEST 18: Completeness validation - detects incomplete bilingual text",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-019",
+      "phase": "Phase 7",
+      "testName": "TEST 19: Completeness validation - marks VERIFIED_COMPLETE when zero defects",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-020",
+      "phase": "Phase 7",
+      "testName": "TEST 20: Completeness validation - partial paper marked PARTIAL, never VERIFIED_COMPLETE",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-021",
+      "phase": "Phase 7",
+      "testName": "TEST 21: Question ingestion - creates question record with source_type = OFFICIAL_PYQ",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-022",
+      "phase": "Phase 7",
+      "testName": "TEST 22: Question ingestion - creates question_versions with bilingual JSON content",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-023",
+      "phase": "Phase 7",
+      "testName": "TEST 23: Question ingestion - links paper_questions with section order and question number",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-024",
+      "phase": "Phase 7",
+      "testName": "TEST 24: Question ingestion - sets provenance to OFFICIAL_PYQ",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-025",
+      "phase": "Phase 7",
+      "testName": "TEST 25: Official answer key - ingests PROVISIONAL_KEY",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-026",
+      "phase": "Phase 7",
+      "testName": "TEST 26: Official answer key - ingests FINAL_KEY and supersedes provisional",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-027",
+      "phase": "Phase 7",
+      "testName": "TEST 27: Official answer key - ingests REVISED_KEY with audit trail",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-028",
+      "phase": "Phase 7",
+      "testName": "TEST 28: Official answer key - ingests CORRIGENDUM_KEY with authority reference",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-029",
+      "phase": "Phase 7",
+      "testName": "TEST 29: Dropped question handling - sets answer_state = DROPPED",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-030",
+      "phase": "Phase 7",
+      "testName": "TEST 30: Dropped question handling - sets full_exam_eligible = 0",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-031",
+      "phase": "Phase 7",
+      "testName": "TEST 31: Dropped question handling - records reason in notes and paper_questions",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-032",
+      "phase": "Phase 7",
+      "testName": "TEST 32: Multiple accepted answers - records accepted_answers_json",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-033",
+      "phase": "Phase 7",
+      "testName": "TEST 33: Multiple accepted answers - sets answer_state = MULTIPLE_ANSWERS_ACCEPTED",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-034",
+      "phase": "Phase 7",
+      "testName": "TEST 34: Scoring with multiple accepted answers - awards marks for either accepted option",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-035",
+      "phase": "Phase 7",
+      "testName": "TEST 35: Scoring with dropped question - excluded from negative marking penalty",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-036",
+      "phase": "Phase 7",
+      "testName": "TEST 36: Question asset handling - flags ASSET_REQUIRED if diagram referenced",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-037",
+      "phase": "Phase 7",
+      "testName": "TEST 37: Question asset handling - ASSET_VERIFIED when asset file exists",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-038",
+      "phase": "Phase 7",
+      "testName": "TEST 38: Question asset handling - unverified asset blocks full_exam_eligible",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-039",
+      "phase": "Phase 7",
+      "testName": "TEST 39: Language isolation - Tamil Nadu SSLC questions in pure Tamil (ta)",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-040",
+      "phase": "Phase 7",
+      "testName": "TEST 40: Language isolation - No silent English or Hindi substitution for Tamil question",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-041",
+      "phase": "Phase 7",
+      "testName": "TEST 41: Language isolation - Hindi-English bilingual questions preserve both languages",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-042",
+      "phase": "Phase 7",
+      "testName": "TEST 42: Section inventory calculation - reports required, available, eligible, shortage per section",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-043",
+      "phase": "Phase 7",
+      "testName": "TEST 43: Section inventory sufficiency - returns isSufficient = true when all sections have 0 shortage",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-044",
+      "phase": "Phase 7",
+      "testName": "TEST 44: Section inventory sufficiency - returns isSufficient = false when any section has shortage",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-045",
+      "phase": "Phase 7",
+      "testName": "TEST 45: Language inventory calculation - computes compatible question count for exam medium",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-046",
+      "phase": "Phase 7",
+      "testName": "TEST 46: Question type inventory calculation - groups count by MCQ, short answer, long answer, case study",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-047",
+      "phase": "Phase 7",
+      "testName": "TEST 47: Historical corpus - 10-year tracking returns verified academic years without inventing missing years",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-048",
+      "phase": "Phase 7",
+      "testName": "TEST 48: Historical corpus - returns PARTIAL_CORPUS or FULL_10_YEAR accurately",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-049",
+      "phase": "Phase 7",
+      "testName": "TEST 49: Full Exam Dry-Run - SSC CGL simulation passes with exact 100 questions",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-050",
+      "phase": "Phase 7",
+      "testName": "TEST 50: Full Exam Dry-Run - verifies exact section distribution (25 each)",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-051",
+      "phase": "Phase 7",
+      "testName": "TEST 51: Full Exam Dry-Run - verifies timer configuration (60 minutes)",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-052",
+      "phase": "Phase 7",
+      "testName": "TEST 52: Full Exam Dry-Run - verifies negative marking (0.5 deduction)",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-053",
+      "phase": "Phase 7",
+      "testName": "TEST 53: Full Exam Dry-Run - enforces zero duplicate questions across simulation",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-054",
+      "phase": "Phase 7",
+      "testName": "TEST 54: Full Exam Dry-Run - prevents cross-exam question substitution",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-055",
+      "phase": "Phase 7",
+      "testName": "TEST 55: Full Exam Dry-Run - prevents cross-subject question substitution",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-056",
+      "phase": "Phase 7",
+      "testName": "TEST 56: Full Exam Dry-Run - NEET UG simulation returns FAIL with section shortages",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-057",
+      "phase": "Phase 7",
+      "testName": "TEST 57: Automatic Full Exam Unlock - SSC CGL derives FULL_EXAM_READY",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-058",
+      "phase": "Phase 7",
+      "testName": "TEST 58: Automatic Full Exam Unlock - NEET UG derives FULL_EXAM_BLOCKED (safe blocking preserved)",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-059",
+      "phase": "Phase 7",
+      "testName": "TEST 59: Batch management - transaction commit on success",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE7-060",
+      "phase": "Phase 7",
+      "testName": "TEST 60: Batch management - rollback transaction on failure without orphaned records",
+      "file": "backend/test/test-phase7-pyq.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:00.988Z",
+      "durationMs": 2,
+      "category": "Official PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE8-001",
+      "phase": "Phase 8",
+      "testName": "Test 1: Table pdf_documents exists with all required columns and constraints",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-002",
+      "phase": "Phase 8",
+      "testName": "Test 2: Table pdf_generation_jobs exists with job lifecycle columns",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-003",
+      "phase": "Phase 8",
+      "testName": "Test 3: Table pdf_validation_results exists with QA metric columns",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-004",
+      "phase": "Phase 8",
+      "testName": "Test 4: Table pdf_template_versions exists and tracks template evolution",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-005",
+      "phase": "Phase 8",
+      "testName": "Test 5: Table pdf_templates seeded with exactly 10 default templates with 0 FK violations",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-006",
+      "phase": "Phase 8",
+      "testName": "Test 6: checkPdfReadiness returns READY for SSC CGL Tier 1 Full Exam",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-007",
+      "phase": "Phase 8",
+      "testName": "Test 7: checkPdfReadiness returns BLOCKED for NEET UG with insufficient questions",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-008",
+      "phase": "Phase 8",
+      "testName": "Test 8: generatePdf for NEET UG FULL_EXAM_PAPER is safely blocked with 403",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-009",
+      "phase": "Phase 8",
+      "testName": "Test 9: generatePdf for blocked exam records no corrupt or orphan file",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-010",
+      "phase": "Phase 8",
+      "testName": "Test 10: checkPdfReadiness permits SUBJECT_PRACTICE_PAPER even when full exam is blocked",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-011",
+      "phase": "Phase 8",
+      "testName": "Test 11: checkPdfReadiness with unknown exam returns EXAM_NOT_FOUND",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-012",
+      "phase": "Phase 8",
+      "testName": "Test 12: COMBINED_EXAM_PACKAGE enforces identical FULL_EXAM_READY gate as FULL_EXAM_PAPER",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-013",
+      "phase": "Phase 8",
+      "testName": "Test 13: Generate Type A: FULL_EXAM_PAPER (SSC CGL 2026)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-014",
+      "phase": "Phase 8",
+      "testName": "Test 14: Generate Type B: SUBJECT_PRACTICE_PAPER (SSC CGL Reasoning)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-015",
+      "phase": "Phase 8",
+      "testName": "Test 15: Generate Type C: ALL_SUBJECTS_PRACTICE_PAPER (SSC CGL)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-016",
+      "phase": "Phase 8",
+      "testName": "Test 16: Generate Type D: PYQ_PAPER (SSC CGL 2024 Shift 1)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-017",
+      "phase": "Phase 8",
+      "testName": "Test 17: Generate Type E: NOTES (SSC CGL Super Booster Notes)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-018",
+      "phase": "Phase 8",
+      "testName": "Test 18: Generate Type F: ANSWER_KEY (SSC CGL 2024 Official Key)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-019",
+      "phase": "Phase 8",
+      "testName": "Test 19: Generate Type G: SOLUTIONS (SSC CGL Step-by-Step Solutions)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-020",
+      "phase": "Phase 8",
+      "testName": "Test 20: Generate Type H: BOARD_QUESTION_PAPER (CBSE Class 10 Science)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-021",
+      "phase": "Phase 8",
+      "testName": "Test 21: Generate Type I: OMR_SHEET (Standalone Vector A4 Sheet)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-022",
+      "phase": "Phase 8",
+      "testName": "Test 22: Generate Type J: COMBINED_EXAM_PACKAGE (Full Booklet + OMR Sheet)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-023",
+      "phase": "Phase 8",
+      "testName": "Test 23: OMR Engine produces exactly 400 answer bubbles (100 Qs x 4 options)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-024",
+      "phase": "Phase 8",
+      "testName": "Test 24: OMR bubble coordinates are bounded inside standard A4 dimensions (595.28 x 841.89)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-025",
+      "phase": "Phase 8",
+      "testName": "Test 25: 10-Digit Roll Number Matrix has 10 columns x 10 rows (100 candidate bubbles)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-026",
+      "phase": "Phase 8",
+      "testName": "Test 26: Set Code area contains 4 option bubbles [A, B, C, D]",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-027",
+      "phase": "Phase 8",
+      "testName": "Test 27: 4 Corner scan-alignment timing marks are defined with solid offsets",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-028",
+      "phase": "Phase 8",
+      "testName": "Test 28: OMR Header includes exam barcode placeholder and instruction block",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-029",
+      "phase": "Phase 8",
+      "testName": "Test 29: OMR Sheet generates deterministic SHA-256 and passes OMR QA",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-030",
+      "phase": "Phase 8",
+      "testName": "Test 30: Combined package attaches exact OMR geometry page at the end of booklet",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-031",
+      "phase": "Phase 8",
+      "testName": "Test 31: Font registry maps scripts to valid Windows system fonts or fallbacks",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-032",
+      "phase": "Phase 8",
+      "testName": "Test 32: Devanagari script resolves Nirmala font or valid Hindi font",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-033",
+      "phase": "Phase 8",
+      "testName": "Test 33: Southern Indian scripts (Tamil, Telugu, Kannada, Malayalam) resolve valid fonts",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-034",
+      "phase": "Phase 8",
+      "testName": "Test 34: Eastern & Western scripts (Bengali, Gujarati, Odia, Gurmukhi) resolve valid fonts",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-035",
+      "phase": "Phase 8",
+      "testName": "Test 35: Latin / English typography resolves Arial / Segoe font with complete coverage",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-036",
+      "phase": "Phase 8",
+      "testName": "Test 36: Mathematical / Scientific symbols font covers Greek, sub/superscript, and radicals",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-037",
+      "phase": "Phase 8",
+      "testName": "Test 37: testAllIndicGlyphs executes font QA with 12/12 script pass rate (100%)",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-038",
+      "phase": "Phase 8",
+      "testName": "Test 38: Font registry caches resolved font configurations avoiding repeated disk probing",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-039",
+      "phase": "Phase 8",
+      "testName": "Test 39: Full exam paper validation confirms exact 100 questions in paper",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-040",
+      "phase": "Phase 8",
+      "testName": "Test 40: Full exam paper respects 4 verified blueprint sections with 25 Qs each",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-041",
+      "phase": "Phase 8",
+      "testName": "Test 41: Full exam paper instructions explicitly specify 60 min duration and 0.5 negative deduction",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-042",
+      "phase": "Phase 8",
+      "testName": "Test 42: Zero duplicate question IDs in generated full exam question collection",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-043",
+      "phase": "Phase 8",
+      "testName": "Test 43: Full exam questions contain non-empty question text and 4 choices",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-044",
+      "phase": "Phase 8",
+      "testName": "Test 44: Subject practice paper validation passes with practice watermark flag",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-045",
+      "phase": "Phase 8",
+      "testName": "Test 45: Official answer key handles dropped question Q23 with full marks awarded",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-046",
+      "phase": "Phase 8",
+      "testName": "Test 46: Official answer key handles multiple valid answers for Q42 per corrigendum",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-047",
+      "phase": "Phase 8",
+      "testName": "Test 47: Solutions document separates pedagogical rationale from raw answer key tables",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-048",
+      "phase": "Phase 8",
+      "testName": "Test 48: PYQ paper preserves official shift, set, and year metadata",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-049",
+      "phase": "Phase 8",
+      "testName": "Test 49: Answer key template contains corrigendum notice at top of key section",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-050",
+      "phase": "Phase 8",
+      "testName": "Test 50: Question papers with revised keys do not disrupt question sequence numbers 1-100",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-051",
+      "phase": "Phase 8",
+      "testName": "Test 51: markPdfsStale flags documents as stale on blueprint or question invalidation",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-052",
+      "phase": "Phase 8",
+      "testName": "Test 52: getPdfMetadata sanitizes user-facing output and strips file_path",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-053",
+      "phase": "Phase 8",
+      "testName": "Test 53: Every generated PDF has SHA-256 checksum matching file contents on disk",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-054",
+      "phase": "Phase 8",
+      "testName": "Test 54: generateVisualPagePreview generates valid vector SVG document",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-055",
+      "phase": "Phase 8",
+      "testName": "Test 55: getDashboardMetrics aggregates real-time counts across all generated PDFs",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-056",
+      "phase": "Phase 8",
+      "testName": "Test 56: Phase 4 Mock Engine remains fully operational",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-057",
+      "phase": "Phase 8",
+      "testName": "Test 57: Phase 5 Content Intelligence & Duplicate Protection remain intact",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-058",
+      "phase": "Phase 8",
+      "testName": "Test 58: Phase 6 Blueprint Repository & Versioning Gate remain intact",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-059",
+      "phase": "Phase 8",
+      "testName": "Test 59: Phase 7 PYQ Ingestion, Corrigendum Engine & Dry-Run remain intact",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE8-060",
+      "phase": "Phase 8",
+      "testName": "Test 60: Question corpus baseline preserved: At least 1037 total questions intact",
+      "file": "backend/test/test-phase8-pdf.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.445Z",
+      "durationMs": 5,
+      "category": "PDF Generation Engine"
+    },
+    {
+      "testId": "TST-PHASE9-001",
+      "phase": "Phase 9",
+      "testName": "Lists 22 nationwide registered exams across 12 categories",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-002",
+      "phase": "Phase 9",
+      "testName": "Retrieves single registry entry with authority and portal details",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-003",
+      "phase": "Phase 9",
+      "testName": "Rejects nationwide exam registration with invalid category or malformed URL",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-004",
+      "phase": "Phase 9",
+      "testName": "Registers a discovered nationwide exam with official gazette and authority",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-005",
+      "phase": "Phase 9",
+      "testName": "validateNoGenericExamRules verifies independent blueprint and rejects generic assumptions",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-006",
+      "phase": "Phase 9",
+      "testName": "15-stage workflow definitions and question types are properly registered",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-007",
+      "phase": "Phase 9",
+      "testName": "SHA-256 fingerprinting normalizes Indic Unicode scripts deterministically",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-008",
+      "phase": "Phase 9",
+      "testName": "Registers source document version with cryptographic change detection",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-009",
+      "phase": "Phase 9",
+      "testName": "Resumable batch processing: creates job, pauses with checkpoint, and resumes",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-010",
+      "phase": "Phase 9",
+      "testName": "Batch ingestion inserts verified questions and rejects exact duplicates",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-011",
+      "phase": "Phase 9",
+      "testName": "Propagates official corrigendum (dropped questions, multi-answer keys)",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-012",
+      "phase": "Phase 9",
+      "testName": "Identifies real coverage gaps in syllabus chapters and topics",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-013",
+      "phase": "Phase 9",
+      "testName": "10-Point Quality Gate: Approves valid, mathematically and factually sound practice question",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-014",
+      "phase": "Phase 9",
+      "testName": "10-Point Quality Gate: Rejects question with mathematical calculation mismatch",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-015",
+      "phase": "Phase 9",
+      "testName": "10-Point Quality Gate: Rejects question with hallucinated factual claim",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-016",
+      "phase": "Phase 9",
+      "testName": "SAFETY INVARIANT: Rejects AI Practice question if full_exam_eligible = 1",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-017",
+      "phase": "Phase 9",
+      "testName": "Processes AI Practice queue item, stores strictly as Tier 5, with full_exam_eligible = 0",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-018",
+      "phase": "Phase 9",
+      "testName": "FULL EXAM SHORTAGE INVARIANT: AI practice questions do NOT unblock a FULL_EXAM_BLOCKED exam",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-019",
+      "phase": "Phase 9",
+      "testName": "Computes exam coverage matrix with honest coverage statuses",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-020",
+      "phase": "Phase 9",
+      "testName": "Refreshes chapter-level coverage gap metrics in coverage_gap_metrics table",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-021",
+      "phase": "Phase 9",
+      "testName": "Multilingual matrix tracks 12 Indic languages and isolates Hinglish to UI convenience",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-022",
+      "phase": "Phase 9",
+      "testName": "EXPLAIN QUERY PLAN confirms all high-frequency queries utilize composite indexes",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-023",
+      "phase": "Phase 9",
+      "testName": "Indexed search benchmark achieves sub-50ms SLA (p95 < 50ms)",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-024",
+      "phase": "Phase 9",
+      "testName": "Batch insert simulation achieves > 10,000 QPS with complete transactional rollback",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-025",
+      "phase": "Phase 9",
+      "testName": "Scale feasibility assessment report generates valid projections for 10k to 500k scale",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-026",
+      "phase": "Phase 9",
+      "testName": "SQLite PRAGMA integrity_check returns ok",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE9-027",
+      "phase": "Phase 9",
+      "testName": "SQLite PRAGMA foreign_key_check returns 0 violations",
+      "file": "backend/test/test-phase9-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.689Z",
+      "durationMs": 5,
+      "category": "Nationwide Expansion"
+    },
+    {
+      "testId": "TST-PHASE10-001",
+      "phase": "Phase 10",
+      "testName": "Synchronizes and tracks authentic multi-year corpus for SSC CGL (2022-2024)",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-002",
+      "phase": "Phase 10",
+      "testName": "Synchronizes and tracks authentic multi-year corpus for UPSC CSE Prelims",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-003",
+      "phase": "Phase 10",
+      "testName": "Honest status representation: never claims 10 years when verified depth is 3",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-004",
+      "phase": "Phase 10",
+      "testName": "Section 51 Q-A: 7 occurrences -> VERY_HIGH recurrence, retained, current eligible",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-005",
+      "phase": "Phase 10",
+      "testName": "Section 51 Q-B: 3 occurrences -> MEDIUM recurrence, retained, current eligible",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-006",
+      "phase": "Phase 10",
+      "testName": "Section 51 Q-C: 1 occurrence, syllabus YES -> RARE recurrence, RETAINED, current eligible",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-007",
+      "phase": "Phase 10",
+      "testName": "Section 51 Q-D: 1 occurrence, syllabus NO -> OUTDATED, retained in archive, excluded from mock",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-008",
+      "phase": "Phase 10",
+      "testName": "Concept repetition vs Question repetition distinction",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-009",
+      "phase": "Phase 10",
+      "testName": "Level 1: Exact Hash Duplicate is detected and blocked",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-010",
+      "phase": "Phase 10",
+      "testName": "Level 2: Near Duplicate (>85% similarity) is detected and blocked",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-011",
+      "phase": "Phase 10",
+      "testName": "Section 52: Same concept different question (Capital vs River) is APPROVED, not blocked",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-012",
+      "phase": "Phase 10",
+      "testName": "Section 53: Detects topic coverage gap in syllabus chapters",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-013",
+      "phase": "Phase 10",
+      "testName": "Generates targeted AI practice questions ONLY for identified gap topic",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-014",
+      "phase": "Phase 10",
+      "testName": "SAFETY INVARIANT: AI practice questions NEVER unblock a FULL_EXAM_BLOCKED exam",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-015",
+      "phase": "Phase 10",
+      "testName": "Generates balanced practice set guaranteeing rare-but-relevant question inclusion",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-016",
+      "phase": "Phase 10",
+      "testName": "Zero duplicate question IDs in generated practice test",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-017",
+      "phase": "Phase 10",
+      "testName": "Corpora summary catalogues 10 nationwide exams across 5 batches",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-018",
+      "phase": "Phase 10",
+      "testName": "SQLite PRAGMA integrity_check returns ok",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE10-019",
+      "phase": "Phase 10",
+      "testName": "SQLite PRAGMA foreign_key_check returns 0 violations",
+      "file": "backend/test/test-phase10-corpus.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:01.855Z",
+      "durationMs": 4,
+      "category": "Historical PYQ Corpus"
+    },
+    {
+      "testId": "TST-PHASE101-001",
+      "phase": "Phase 10.1",
+      "testName": "Accurately indexes exactly 36 States and Union Territories (28 States + 8 UTs)",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-002",
+      "phase": "Phase 10.1",
+      "testName": "State authorities resolution includes Main School Board, PSC, Police, and Teacher bodies",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-003",
+      "phase": "Phase 10.1",
+      "testName": "Bihar state authority links accurately to BSEB and BPSC",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-004",
+      "phase": "Phase 10.1",
+      "testName": "Non-existent state ID returns null safely",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-005",
+      "phase": "Phase 10.1",
+      "testName": "Category Hierarchy enforces multi-exam breakdown across 14 major categories",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-006",
+      "phase": "Phase 10.1",
+      "testName": "SSC decomposes into independent verified exams (CGL, CHSL, MTS, GD, CPO)",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-007",
+      "phase": "Phase 10.1",
+      "testName": "Railways decomposes into independent exams (NTPC, Group D, ALP, JE, RPF)",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-008",
+      "phase": "Phase 10.1",
+      "testName": "Banking decomposes into distinct PO, Clerk, SO, and Officer exams",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-009",
+      "phase": "Phase 10.1",
+      "testName": "State Police decomposes into state-specific individual examinations",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-010",
+      "phase": "Phase 10.1",
+      "testName": "Single exam lookup retrieves stage-by-stage multi-tier architecture",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-011",
+      "phase": "Phase 10.1",
+      "testName": "Class 9 and 11 are designated as Internal Evaluation / Academic Support (NOT Public Boards)",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-012",
+      "phase": "Phase 10.1",
+      "testName": "Class 10 and 12 are designated as Public Centralized Board Examinations",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-013",
+      "phase": "Phase 10.1",
+      "testName": "School board profile loads complete classes (9, 10, 11, 12) with rules and dependencies",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-014",
+      "phase": "Phase 10.1",
+      "testName": "PSEB 9->10 strictly enforces Mandatory Punjabi Language requirement",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-015",
+      "phase": "Phase 10.1",
+      "testName": "UPMSP 9->10 strictly enforces Mandatory Hindi Language requirement",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-016",
+      "phase": "Phase 10.1",
+      "testName": "BSEB 9->10 strictly enforces Mandatory Sent-Up (Pre-board) qualifying exam",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-017",
+      "phase": "Phase 10.1",
+      "testName": "CBSE 9->10 enforces Minimum 75% Attendance and LOC Registration continuity",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-018",
+      "phase": "Phase 10.1",
+      "testName": "11->12 Progression strictly enforces stream continuity (prohibiting unapproved stream change)",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-019",
+      "phase": "Phase 10.1",
+      "testName": "Punjab state context does NOT contain Bihar or CBSE specific progression rules",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-020",
+      "phase": "Phase 10.1",
+      "testName": "Cross-state isolation verification between Punjab and Bihar passes cleanly",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-021",
+      "phase": "Phase 10.1",
+      "testName": "Cross-state isolation verification between Andhra Pradesh and Telangana passes cleanly",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-022",
+      "phase": "Phase 10.1",
+      "testName": "Fetches source-grounded registration schedules with fee structure and portal URLs",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-023",
+      "phase": "Phase 10.1",
+      "testName": "Eligibility Engine accurately evaluates age criteria and category relaxations (OBC +3, SC/ST +5)",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-024",
+      "phase": "Phase 10.1",
+      "testName": "Eligibility Engine enforces attempt limits for UPSC Civil Services",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-025",
+      "phase": "Phase 10.1",
+      "testName": "Global Search finds states, boards, exams, and classes matching keyword \"Police\"",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-026",
+      "phase": "Phase 10.1",
+      "testName": "Global Search handles empty query gracefully",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-027",
+      "phase": "Phase 10.1",
+      "testName": "Global Search finds Bihar state, BSEB board, and BPSC exams matching \"Bihar\"",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-028",
+      "phase": "Phase 10.1",
+      "testName": "Languages database table has 24 expanded UI languages",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-029",
+      "phase": "Phase 10.1",
+      "testName": "Public i18n client dictionary has full key parity across all 24 languages",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-030",
+      "phase": "Phase 10.1",
+      "testName": "SQLite PRAGMA integrity_check returns ok",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    },
+    {
+      "testId": "TST-PHASE101-031",
+      "phase": "Phase 10.1",
+      "testName": "SQLite PRAGMA foreign_key_check returns 0 violations",
+      "file": "backend/test/test-phase10.1-expansion.js",
+      "result": "PASSED",
+      "executionTimestamp": "2026-09-27T11:18:02.014Z",
+      "durationMs": 3,
+      "category": "Nationwide Inventory & Progression"
+    }
+  ]
+}

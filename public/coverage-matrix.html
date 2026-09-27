@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nationwide Coverage Matrix & Real-World Benchmarks — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">Nationwide Coverage Matrix & Benchmarks</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-orange-300 border border-slate-700 transition">📅 Study Planner</a>
+        <a href="/review-queue.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📋 Review Queue</a>
+        <a href="/calendar.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition">📅 Calendar</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Header Banner -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold mb-2">
+          <span>🇮🇳 Real-World Nationwide Expansion</span>
+          <span>•</span>
+          <span>Zero Fabricated Coverage (Absolute No-Dummy Rule)</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Nationwide Content Coverage & Readiness Matrix</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Transparent status tracking across 49 national/state exams, 31 school education boards, and subject domains.</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <button onclick="recalculateBenchmarks()" class="px-4 py-2.5 rounded-2xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-cyan-300 transition flex items-center space-x-2">
+          <span>🔄 Recalculate Benchmarks</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Summary Statistics Grid -->
+    <div class="grid grid-cols-2 sm:grid-cols-5 gap-4">
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-slate-400">Total Exams Tracked</div>
+        <div class="text-2xl font-black text-white mt-1" id="statTotalExams">49</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">14 Decomposed Categories</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-emerald-400">Full Exam Ready</div>
+        <div class="text-2xl font-black text-emerald-400 mt-1" id="statReadyExams">2</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">SSC CGL & UPSC CSE</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-amber-400">Partially Covered</div>
+        <div class="text-2xl font-black text-amber-400 mt-1" id="statPartialExams">6</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">Authentic PYQs present</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-rose-400">Full Exam Blocked</div>
+        <div class="text-2xl font-black text-rose-400 mt-1" id="statBlockedExams">47</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">Protected by safety gates</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-cyan-400">School Boards</div>
+        <div class="text-2xl font-black text-cyan-400 mt-1" id="statBoards">31</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">3 National + 28 State</div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="flex items-center space-x-2 border-b border-slate-800 pb-3">
+      <button onclick="switchTab('exams')" id="tabExams" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-saffron-500 text-white shadow-md transition">
+        🏛️ Nationwide Exams (49)
+      </button>
+      <button onclick="switchTab('boards')" id="tabBoards" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-900 text-slate-400 hover:text-white border border-slate-800 transition">
+        🎓 School Boards (31)
+      </button>
+      <button onclick="switchTab('subjects')" id="tabSubjects" class="tab-btn px-4 py-2 rounded-xl text-xs font-bold bg-slate-900 text-slate-400 hover:text-white border border-slate-800 transition">
+        📚 Subject Distribution
+      </button>
+    </div>
+
+    <!-- TAB 1: Nationwide Exams Content -->
+    <div id="contentExams" class="space-y-6">
+      <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-6">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div class="flex items-center space-x-2">
+            <span class="text-base font-black text-white">49-Exam Nationwide Matrix</span>
+            <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 font-mono" id="examCountBadge">49 items</span>
+          </div>
+
+          <div class="flex flex-wrap items-center gap-2">
+            <input type="text" id="examSearchInput" oninput="filterExamTable()" placeholder="Search exam name or authority..." class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-1.5 text-xs outline-none w-48 sm:w-64">
+            
+            <select id="examStatusFilter" onchange="filterExamTable()" class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-1.5 text-xs font-bold outline-none">
+              <option value="ALL">All Readiness Tiers</option>
+              <option value="FULL_EXAM_READY">Full Exam Ready (2)</option>
+              <option value="PARTIALLY_COVERED">Partially Covered (6)</option>
+              <option value="NOT_COVERED">Blocked / Awaiting Source (41)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-800 text-slate-400 uppercase tracking-wider text-[10px]">
+                <th class="py-3 px-4">Exam ID & Title</th>
+                <th class="py-3 px-4">Category / Authority</th>
+                <th class="py-3 px-4">Readiness Status</th>
+                <th class="py-3 px-4 text-center">Verified PYQs</th>
+                <th class="py-3 px-4 text-center">Official Samples</th>
+                <th class="py-3 px-4">Safety Gate Reason / Status Explanation</th>
+              </tr>
+            </thead>
+            <tbody id="examTbody" class="divide-y divide-slate-800/60 font-medium">
+              <tr>
+                <td colspan="6" class="py-8 text-center text-slate-500">Loading nationwide exams matrix...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: School Boards Content -->
+    <div id="contentBoards" class="space-y-6 hidden">
+      <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-6">
+        <div class="flex items-center justify-between">
+          <span class="text-base font-black text-white">31 School Education Boards Matrix</span>
+          <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 font-mono">3 National + 28 State</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-800 text-slate-400 uppercase tracking-wider text-[10px]">
+                <th class="py-3 px-4">Board Code & Name</th>
+                <th class="py-3 px-4">Type / State</th>
+                <th class="py-3 px-4">Coverage Status</th>
+                <th class="py-3 px-4 text-center">Verified PYQs</th>
+                <th class="py-3 px-4 text-center">Official Samples</th>
+                <th class="py-3 px-4">Safety Gate Status</th>
+              </tr>
+            </thead>
+            <tbody id="boardTbody" class="divide-y divide-slate-800/60 font-medium">
+              <tr>
+                <td colspan="6" class="py-8 text-center text-slate-500">Loading boards matrix...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: Subject Distribution Content -->
+    <div id="contentSubjects" class="space-y-6 hidden">
+      <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-6">
+        <div class="flex items-center justify-between">
+          <span class="text-base font-black text-white">Question Bank Distribution by Subject Domain</span>
+          <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 font-mono">Across All 1,282 Questions</span>
+        </div>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs border-collapse">
+            <thead>
+              <tr class="border-b border-slate-800 text-slate-400 uppercase tracking-wider text-[10px]">
+                <th class="py-3 px-4">Subject Name</th>
+                <th class="py-3 px-4 text-center">Total Questions</th>
+                <th class="py-3 px-4 text-center">Verified PYQs (Tier 2)</th>
+                <th class="py-3 px-4 text-center">Official Samples (Tier 3)</th>
+                <th class="py-3 px-4 text-center">Legacy Preserved (Tier 4)</th>
+                <th class="py-3 px-4 text-center">Full Exam Eligible</th>
+              </tr>
+            </thead>
+            <tbody id="subjectTbody" class="divide-y divide-slate-800/60 font-medium">
+              <tr>
+                <td colspan="6" class="py-8 text-center text-slate-500">Loading subject distribution...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let allExams = [];
+    let allBoards = [];
+    let allSubjects = [];
+
+    function switchTab(tab) {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('bg-saffron-500', 'text-white', 'shadow-md');
+        btn.classList.add('bg-slate-900', 'text-slate-400', 'border', 'border-slate-800');
+      });
+
+      document.getElementById('contentExams').classList.add('hidden');
+      document.getElementById('contentBoards').classList.add('hidden');
+      document.getElementById('contentSubjects').classList.add('hidden');
+
+      if (tab === 'exams') {
+        document.getElementById('tabExams').classList.add('bg-saffron-500', 'text-white', 'shadow-md');
+        document.getElementById('tabExams').classList.remove('bg-slate-900', 'text-slate-400', 'border', 'border-slate-800');
+        document.getElementById('contentExams').classList.remove('hidden');
+      } else if (tab === 'boards') {
+        document.getElementById('tabBoards').classList.add('bg-saffron-500', 'text-white', 'shadow-md');
+        document.getElementById('tabBoards').classList.remove('bg-slate-900', 'text-slate-400', 'border', 'border-slate-800');
+        document.getElementById('contentBoards').classList.remove('hidden');
+        if (allBoards.length === 0) loadBoards();
+      } else if (tab === 'subjects') {
+        document.getElementById('tabSubjects').classList.add('bg-saffron-500', 'text-white', 'shadow-md');
+        document.getElementById('tabSubjects').classList.remove('bg-slate-900', 'text-slate-400', 'border', 'border-slate-800');
+        document.getElementById('contentSubjects').classList.remove('hidden');
+        if (allSubjects.length === 0) loadSubjects();
+      }
+    }
+
+    async function loadExams() {
+      try {
+        const res = await fetch('/api/v2/coverage/matrix');
+        const data = await res.json();
+        if (data.success && data.matrix) {
+          allExams = data.matrix.exams;
+          document.getElementById('statTotalExams').innerText = data.matrix.totalExams;
+          document.getElementById('statReadyExams').innerText = data.matrix.readyCount;
+          document.getElementById('statPartialExams').innerText = data.matrix.partiallyCoveredCount;
+          document.getElementById('statBlockedExams').innerText = data.matrix.notCoveredCount;
+          renderExams(allExams);
+        }
+      } catch (e) {
+        console.error('Failed to load exams', e);
+      }
+    }
+
+    function renderExams(exams) {
+      document.getElementById('examCountBadge').innerText = `${exams.length} items`;
+      const tbody = document.getElementById('examTbody');
+
+      if (exams.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="py-8 text-center text-slate-500">No exams match the search or filter.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = exams.map(e => {
+        let tierBadge = 'bg-rose-500/10 text-rose-400 border-rose-500/30';
+        let tierLabel = 'FULL_EXAM_BLOCKED';
+
+        if (e.isFullExamReady) {
+          tierBadge = 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30';
+          tierLabel = 'READY_FOR_FULL_EXAM';
+        } else if (e.coverageTier === 'PARTIALLY_COVERED') {
+          tierBadge = 'bg-amber-500/10 text-amber-400 border-amber-500/30';
+          tierLabel = 'PARTIALLY_COVERED';
+        }
+
+        return `
+          <tr class="hover:bg-slate-850/50 transition">
+            <td class="py-3 px-4">
+              <div class="font-bold text-white text-xs">${e.examNameEn}</div>
+              <div class="font-mono text-[10px] text-slate-400">${e.examId}</div>
+            </td>
+            <td class="py-3 px-4">
+              <div class="text-xs text-slate-300 font-bold">${e.category}</div>
+              <div class="text-[10px] text-slate-400">${e.authorityName || 'Statutory Authority'}</div>
+            </td>
+            <td class="py-3 px-4">
+              <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${tierBadge}">${tierLabel}</span>
+            </td>
+            <td class="py-3 px-4 text-center font-mono font-bold ${e.verifiedPyqCount > 0 ? 'text-emerald-400' : 'text-slate-600'}">
+              ${e.verifiedPyqCount}
+            </td>
+            <td class="py-3 px-4 text-center font-mono font-bold ${e.officialSampleCount > 0 ? 'text-amber-400' : 'text-slate-600'}">
+              ${e.officialSampleCount}
+            </td>
+            <td class="py-3 px-4 text-slate-400 text-[11px] max-w-sm">
+              ${e.statusExplanation}
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function filterExamTable() {
+      const q = document.getElementById('examSearchInput').value.toLowerCase().trim();
+      const status = document.getElementById('examStatusFilter').value;
+
+      const filtered = allExams.filter(e => {
+        const matchesQuery = !q || e.examNameEn.toLowerCase().includes(q) || e.examId.toLowerCase().includes(q) || (e.authorityName && e.authorityName.toLowerCase().includes(q));
+        const matchesStatus = status === 'ALL' || e.coverageTier === status;
+        return matchesQuery && matchesStatus;
+      });
+
+      renderExams(filtered);
+    }
+
+    async function loadBoards() {
+      try {
+        const res = await fetch('/api/v2/coverage/boards');
+        const data = await res.json();
+        if (data.success && data.boards) {
+          allBoards = data.boards.boards;
+          document.getElementById('statBoards').innerText = data.boards.totalBoards;
+          renderBoards(allBoards);
+        }
+      } catch (e) {
+        console.error('Failed to load boards', e);
+      }
+    }
+
+    function renderBoards(boards) {
+      const tbody = document.getElementById('boardTbody');
+      tbody.innerHTML = boards.map(b => `
+        <tr class="hover:bg-slate-850/50 transition">
+          <td class="py-3 px-4">
+            <div class="font-bold text-white text-xs">${b.name}</div>
+            <div class="font-mono text-[10px] text-slate-400">${b.boardId} (${b.code || 'N/A'})</div>
+          </td>
+          <td class="py-3 px-4">
+            <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-800 text-slate-300 border border-slate-700">${b.boardType}</span>
+            <div class="text-[10px] text-slate-500 mt-0.5">${b.stateId || 'National'}</div>
+          </td>
+          <td class="py-3 px-4">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${b.coverageStatus === 'PARTIALLY_COVERED' ? 'bg-amber-500/10 text-amber-400 border-amber-500/30' : 'bg-slate-800 text-slate-400 border-slate-700'}">
+              ${b.coverageStatus}
+            </span>
+          </td>
+          <td class="py-3 px-4 text-center font-mono font-bold ${b.verifiedPyqCount > 0 ? 'text-emerald-400' : 'text-slate-600'}">
+            ${b.verifiedPyqCount}
+          </td>
+          <td class="py-3 px-4 text-center font-mono font-bold ${b.officialSampleCount > 0 ? 'text-amber-400' : 'text-slate-600'}">
+            ${b.officialSampleCount}
+          </td>
+          <td class="py-3 px-4 text-slate-400 text-[11px]">
+            ${b.reason}
+          </td>
+        </tr>
+      `).join('');
+    }
+
+    async function loadSubjects() {
+      try {
+        const res = await fetch('/api/v2/coverage/subjects');
+        const data = await res.json();
+        if (data.success && data.subjects) {
+          allSubjects = data.subjects;
+          renderSubjects(allSubjects);
+        }
+      } catch (e) {
+        console.error('Failed to load subjects', e);
+      }
+    }
+
+    function renderSubjects(subjects) {
+      const tbody = document.getElementById('subjectTbody');
+      tbody.innerHTML = subjects.map(s => `
+        <tr class="hover:bg-slate-850/50 transition">
+          <td class="py-3 px-4">
+            <div class="font-bold text-white text-xs">${s.name}</div>
+            <div class="font-mono text-[10px] text-slate-400">${s.subjectId}</div>
+          </td>
+          <td class="py-3 px-4 text-center font-mono font-black text-white">${s.totalQuestions}</td>
+          <td class="py-3 px-4 text-center font-mono font-bold ${s.verifiedPyqs > 0 ? 'text-emerald-400' : 'text-slate-600'}">${s.verifiedPyqs}</td>
+          <td class="py-3 px-4 text-center font-mono font-bold ${s.officialSamples > 0 ? 'text-amber-400' : 'text-slate-600'}">${s.officialSamples}</td>
+          <td class="py-3 px-4 text-center font-mono text-slate-400">${s.legacyPreserved}</td>
+          <td class="py-3 px-4 text-center font-mono font-bold ${s.fullExamEligible > 0 ? 'text-cyan-400' : 'text-slate-600'}">${s.fullExamEligible}</td>
+        </tr>
+      `).join('');
+    }
+
+    async function recalculateBenchmarks() {
+      try {
+        const res = await fetch('/api/v2/coverage/benchmarks');
+        const data = await res.json();
+        if (data.success) {
+          alert('Nationwide benchmarks recalculated and persisted successfully!');
+          loadExams();
+        }
+      } catch (e) {
+        alert('Failed to recalculate benchmarks');
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadExams();
+    });
+  </script>
+</body>
+</html>

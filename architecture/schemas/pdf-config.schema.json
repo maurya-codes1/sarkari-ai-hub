@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/pdf-config.schema.json",
+  "title": "PdfConfigurationSpecification",
+  "description": "Rules for blueprint-driven full exam mock papers, OMR sheets, study notes, and revision sheets.",
+  "type": "object",
+  "required": [
+    "templateId",
+    "name",
+    "pdfType",
+    "pageFormat",
+    "orientation",
+    "layoutMode"
+  ],
+  "properties": {
+    "templateId": { "type": "string" },
+    "name": { "type": "string" },
+    "pdfType": {
+      "type": "string",
+      "enum": [
+        "FULL_EXAM_MOCK_PAPER",
+        "OMR_BUBBLE_SHEET",
+        "NOTES_PDF",
+        "REVISION_PDF",
+        "QUESTION_BANK_PDF",
+        "PREVIOUS_YEAR_PAPER_PDF",
+        "SOLUTION_KEY_PDF"
+      ]
+    },
+    "blueprintId": { "type": ["string", "null"] },
+    "pageFormat": { "type": "string", "default": "A4" },
+    "orientation": { "type": "string", "enum": ["portrait", "landscape"] },
+    "layoutMode": {
+      "type": "string",
+      "enum": ["SINGLE_COLUMN", "TWO_COLUMN_BILINGUAL", "OMR_GRID"]
+    },
+    "embeddedFonts": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

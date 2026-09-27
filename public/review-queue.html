@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Review Queue & Quality Gate Console — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">Content Review & Quality Console</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-orange-300 border border-slate-700 transition">📅 Study Planner</a>
+        <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition">🗺️ Coverage Matrix</a>
+        <a href="/admin-ops.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition">⚙️ Ops Monitor</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Header Banner -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold mb-2">
+          <span>🛡️ Editorial Integrity Pipeline</span>
+          <span>•</span>
+          <span>Mandatory Anomaly Gating</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Content Review Queue & Quality Gate</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Audit flagged questions, detected option discrepancies, answer key corrigenda, and duplicate stem anomalies before publication.</p>
+      </div>
+
+      <!-- Quick Flag Modal Trigger -->
+      <button onclick="document.getElementById('flagModal').classList.remove('hidden')" class="px-4 py-2.5 rounded-2xl bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-bold text-amber-300 transition flex items-center space-x-2">
+        <span>🚩 Flag a Question</span>
+      </button>
+    </div>
+
+    <!-- Telemetry Cards -->
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-slate-400">Total In Queue</div>
+        <div class="text-2xl font-black text-white mt-1" id="totalCount">0</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">Recorded items</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-rose-400">Critical Priority</div>
+        <div class="text-2xl font-black text-rose-400 mt-1" id="criticalCount">0</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">Require immediate review</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-amber-400">Open Status</div>
+        <div class="text-2xl font-black text-amber-400 mt-1" id="openCount">0</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">Pending resolution</div>
+      </div>
+      <div class="bg-slate-900/80 border border-slate-800 p-5 rounded-3xl">
+        <div class="text-[10px] uppercase font-bold text-emerald-400">Resolved / Audited</div>
+        <div class="text-2xl font-black text-emerald-400 mt-1" id="resolvedCount">0</div>
+        <div class="text-[10px] text-slate-500 mt-0.5">Editorial trail preserved</div>
+      </div>
+    </div>
+
+    <!-- Review Queue Table -->
+    <div class="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-lg space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center space-x-2">
+          <span class="text-base font-black text-white">Editorial Review Queue</span>
+          <span class="text-xs px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-400 font-mono" id="queueBadge">0 items</span>
+        </div>
+
+        <div class="flex items-center gap-3">
+          <select id="statusFilter" onchange="loadQueue()" class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-1.5 text-xs font-bold outline-none">
+            <option value="ALL">All Statuses</option>
+            <option value="OPEN" selected>Open Only</option>
+            <option value="RESOLVED">Resolved Only</option>
+            <option value="REJECTED">Rejected Only</option>
+          </select>
+
+          <select id="priorityFilter" onchange="loadQueue()" class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-1.5 text-xs font-bold outline-none">
+            <option value="">All Priorities</option>
+            <option value="CRITICAL">Critical</option>
+            <option value="HIGH">High</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="LOW">Low</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border-collapse">
+          <thead>
+            <tr class="border-b border-slate-800 text-slate-400 uppercase tracking-wider text-[10px]">
+              <th class="py-3 px-4">Item ID</th>
+              <th class="py-3 px-4">Exam / Entity</th>
+              <th class="py-3 px-4">Priority</th>
+              <th class="py-3 px-4">Reason & Discrepancy</th>
+              <th class="py-3 px-4">Status</th>
+              <th class="py-3 px-4 text-right">Action</th>
+            </tr>
+          </thead>
+          <tbody id="queueTbody" class="divide-y divide-slate-800/60 font-medium">
+            <tr>
+              <td colspan="6" class="py-8 text-center text-slate-500">Loading review queue...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Flag Question Modal -->
+  <div id="flagModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4 hidden">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-lg w-full p-6 space-y-4 shadow-2xl">
+      <div class="flex items-center justify-between">
+        <h3 class="text-base font-black text-white flex items-center space-x-2">
+          <span>🚩</span>
+          <span>Flag Question for Editorial Review</span>
+        </h3>
+        <button onclick="document.getElementById('flagModal').classList.add('hidden')" class="text-xs text-slate-400 hover:text-white">✕</button>
+      </div>
+
+      <form onsubmit="handleFlagSubmit(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Question ID</label>
+          <input type="text" id="flagQuestionId" required placeholder="e.g. q-upsc-2024-gs1-001" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white font-mono outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Target Exam ID</label>
+          <input type="text" id="flagExamId" placeholder="e.g. upsc-cse" value="upsc-cse" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white font-mono outline-none">
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Issue Category</label>
+          <select id="flagIssueType" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white outline-none">
+            <option value="ANSWER_KEY_DISCREPANCY">Answer Key Discrepancy / Official Corrigendum</option>
+            <option value="TYPO_OR_TRANSLATION_ERROR">Typographical or Bilingual Translation Error</option>
+            <option value="MISSING_STEM_OR_OPTIONS">Missing / Incomplete Stem or Options</option>
+            <option value="PROVENANCE_MISCLASSIFICATION">Suspected Provenance Misclassification</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Priority</label>
+          <select id="flagPriority" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-xs text-white outline-none">
+            <option value="HIGH">High (Misleading answer or key error)</option>
+            <option value="MEDIUM" selected>Medium (Formatting or minor typo)</option>
+            <option value="CRITICAL">Critical (Statutory syllabus violation)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">Detailed Discrepancy Notes</label>
+          <textarea id="flagNotes" rows="3" required placeholder="Explain exact discrepancy citing official notification or answer key page..." class="w-full bg-slate-800 border border-slate-700 rounded-xl p-3 text-xs text-white outline-none"></textarea>
+        </div>
+
+        <div class="flex items-center justify-end space-x-3 pt-2">
+          <button type="button" onclick="document.getElementById('flagModal').classList.add('hidden')" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-300">Cancel</button>
+          <button type="submit" class="px-4 py-2 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md">Submit Flag</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    async function loadQueue() {
+      const status = document.getElementById('statusFilter').value;
+      const priority = document.getElementById('priorityFilter').value;
+
+      try {
+        let url = `/api/v2/content/review-queue?status=${status}`;
+        if (priority) url += `&priority=${priority}`;
+
+        const res = await fetch(url);
+        const data = await res.json();
+
+        if (data.success) {
+          renderQueue(data.queue);
+        }
+      } catch (e) {
+        console.error('Failed to load queue', e);
+      }
+    }
+
+    function renderQueue(items) {
+      document.getElementById('totalCount').innerText = items.length;
+      document.getElementById('queueBadge').innerText = `${items.length} items`;
+
+      const critical = items.filter(i => i.priority === 'CRITICAL').length;
+      const open = items.filter(i => i.status === 'OPEN').length;
+      const resolved = items.filter(i => i.status === 'RESOLVED').length;
+
+      document.getElementById('criticalCount').innerText = critical;
+      document.getElementById('openCount').innerText = open;
+      document.getElementById('resolvedCount').innerText = resolved;
+
+      const tbody = document.getElementById('queueTbody');
+      if (items.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="py-8 text-center text-slate-500">No review queue items match the selected filter.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = items.map(item => {
+        let prioColor = 'bg-slate-800 text-slate-400 border-slate-700';
+        if (item.priority === 'CRITICAL') prioColor = 'bg-rose-500/10 text-rose-400 border-rose-500/30';
+        else if (item.priority === 'HIGH') prioColor = 'bg-orange-500/10 text-orange-400 border-orange-500/30';
+        else if (item.priority === 'MEDIUM') prioColor = 'bg-amber-500/10 text-amber-400 border-amber-500/30';
+
+        let statusColor = 'bg-amber-500/10 text-amber-400 border-amber-500/30';
+        if (item.status === 'RESOLVED') statusColor = 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30';
+        else if (item.status === 'REJECTED') statusColor = 'bg-slate-800 text-slate-400 border-slate-700';
+
+        return `
+          <tr class="hover:bg-slate-850/50 transition">
+            <td class="py-3 px-4 font-mono text-[11px] text-slate-300">${item.queue_item_id}</td>
+            <td class="py-3 px-4">
+              <div class="font-bold text-white">${item.exam_id}</div>
+              <div class="font-mono text-[10px] text-slate-400">${item.entity_id}</div>
+            </td>
+            <td class="py-3 px-4">
+              <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${prioColor}">${item.priority}</span>
+            </td>
+            <td class="py-3 px-4 max-w-xs">
+              <div class="font-bold text-slate-200 text-xs">${item.review_reason}</div>
+              <div class="text-[11px] text-slate-400 truncate">${item.detected_discrepancy || 'No details'}</div>
+            </td>
+            <td class="py-3 px-4">
+              <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${statusColor}">${item.status}</span>
+            </td>
+            <td class="py-3 px-4 text-right">
+              ${item.status === 'OPEN' ? `
+                <div class="inline-flex items-center space-x-1">
+                  <button onclick="resolveItem('${item.queue_item_id}', 'APPROVE')" class="px-2.5 py-1 rounded-lg bg-emerald-600/20 hover:bg-emerald-600 hover:text-white text-emerald-300 text-[10px] font-bold border border-emerald-500/30 transition">
+                    Approve
+                  </button>
+                  <button onclick="resolveItem('${item.queue_item_id}', 'REJECT')" class="px-2.5 py-1 rounded-lg bg-rose-600/20 hover:bg-rose-600 hover:text-white text-rose-300 text-[10px] font-bold border border-rose-500/30 transition">
+                    Reject
+                  </button>
+                </div>
+              ` : `
+                <span class="text-[10px] text-slate-500 font-mono">${item.status}</span>
+              `}
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    async function resolveItem(itemId, action) {
+      const notes = prompt(`Enter resolution notes for [${action}]:`, 'Verified against official master notice.');
+      if (!notes) return;
+
+      try {
+        const res = await fetch(`/api/v2/content/review-queue/${itemId}/resolve`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            action,
+            resolutionNotes: notes,
+            reviewerId: 'EDITORIAL_ADMIN'
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          loadQueue();
+        } else {
+          alert('Failed to resolve item');
+        }
+      } catch (e) {
+        alert('Network error');
+      }
+    }
+
+    async function handleFlagSubmit(e) {
+      e.preventDefault();
+      const questionId = document.getElementById('flagQuestionId').value;
+      const examId = document.getElementById('flagExamId').value;
+      const issueType = document.getElementById('flagIssueType').value;
+      const priority = document.getElementById('flagPriority').value;
+      const notes = document.getElementById('flagNotes').value;
+
+      try {
+        const res = await fetch('/api/v2/content/flag', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            questionId,
+            examId,
+            issueType,
+            priority,
+            detectedDiscrepancy: notes
+          })
+        });
+        const data = await res.json();
+        if (data.success) {
+          document.getElementById('flagModal').classList.add('hidden');
+          alert('Question flagged successfully!');
+          loadQueue();
+        }
+      } catch (err) {
+        alert('Network error');
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadQueue();
+    });
+  </script>
+</body>
+</html>

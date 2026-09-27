@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/exam-blueprint.schema.json",
+  "title": "UniversalExamBlueprint",
+  "description": "Standardized specification representing the real examination paper structure for Indian boards and competitive examinations.",
+  "type": "object",
+  "required": [
+    "blueprintId",
+    "examVersionId",
+    "name",
+    "totalMarks",
+    "durationMinutes",
+    "totalQuestions",
+    "questionsToAttempt",
+    "sections",
+    "officialSourceId",
+    "verificationStatus"
+  ],
+  "properties": {
+    "blueprintId": { "type": "string" },
+    "examVersionId": { "type": "string" },
+    "stageId": { "type": "string" },
+    "paperId": { "type": "string" },
+    "name": { "type": "string" },
+    "totalMarks": { "type": "number", "minimum": 0 },
+    "durationMinutes": { "type": "integer", "minimum": 1 },
+    "totalQuestions": { "type": "integer", "minimum": 1 },
+    "questionsToAttempt": { "type": "integer", "minimum": 1 },
+    "answerFormat": {
+      "type": "string",
+      "enum": ["CBT_ONLY", "OMR_ONLY", "PEN_PAPER_DESCRIPTIVE", "HYBRID"]
+    },
+    "supportsNumericalInput": { "type": "boolean", "default": false },
+    "supportsSubjectiveAnswer": { "type": "boolean", "default": false },
+    "supportsEssay": { "type": "boolean", "default": false },
+    "supportsCaseStudy": { "type": "boolean", "default": false },
+    "supportsPassageBased": { "type": "boolean", "default": false },
+    "supportsAssertionReason": { "type": "boolean", "default": false },
+    "supportsMatching": { "type": "boolean", "default": false },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/BlueprintSection"
+      }
+    },
+    "officialSourceId": { "type": "string" },
+    "verificationStatus": {
+      "type": "string",
+      "enum": ["VERIFIED", "NEEDS_REVIEW", "CONFLICT", "OUTDATED", "UNAVAILABLE"]
+    },
+    "version": { "type": "integer", "default": 1 }
+  },
+  "$defs": {
+    "BlueprintSection": {
+      "type": "object",
+      "required": [
+        "sectionId",
+        "name",
+        "sectionOrder",
+        "questionCount",
+        "questionsToAttempt",
+        "totalMarks",
+        "marksPerQuestion",
+        "allowedQuestionTypes",
+        "markingRule"
+      ],
+      "properties": {
+        "sectionId": { "type": "string" },
+        "subjectId": { "type": "string" },
+        "name": { "type": "string" },
+        "sectionOrder": { "type": "integer", "minimum": 1 },
+        "questionCount": { "type": "integer", "minimum": 1 },
+        "questionsToAttempt": { "type": "integer", "minimum": 1 },
+        "totalMarks": { "type": "number", "minimum": 0 },
+        "marksPerQuestion": { "type": "number", "minimum": 0 },
+        "durationMinutes": { "type": ["integer", "null"] },
+        "allowedQuestionTypes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "markingRule": {
+          "type": "object",
+          "required": ["marksCorrect", "marksWrong", "hasNegativeMarking"],
+          "properties": {
+            "marksCorrect": { "type": "number" },
+            "marksWrong": { "type": "number" },
+            "marksUnattempted": { "type": "number", "default": 0 },
+            "hasNegativeMarking": { "type": "boolean" },
+            "negativeValue": { "type": "number", "default": 0 },
+            "allowsPartialMarking": { "type": "boolean", "default": false }
+          }
+        },
+        "attemptRule": {
+          "type": "object",
+          "required": ["ruleType", "totalProvided", "maxToAttempt"],
+          "properties": {
+            "ruleType": {
+              "type": "string",
+              "enum": ["ATTEMPT_ALL", "ATTEMPT_ANY_N", "ATTEMPT_N_OF_M", "SECTION_MANDATORY", "OPTIONAL_CHOICE"]
+            },
+            "totalProvided": { "type": "integer" },
+            "maxToAttempt": { "type": "integer" },
+            "minToAttempt": { "type": "integer", "default": 0 }
+          }
+        },
+        "instructions": { "type": "string" }
+      }
+    }
+  }
+}

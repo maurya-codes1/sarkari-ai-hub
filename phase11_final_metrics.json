@@ -1,0 +1,59 @@
+{
+  "timestamp": "2026-09-27T14:23:47.133Z",
+  "phase": "PHASE_11",
+  "systemStatus": "PHASE_11_COMPLETE_AND_FROZEN",
+  "phase12Status": "NOT_STARTED",
+  "sourceTruthPrinciple": "OFFICIAL_SOURCE_FIRST",
+  "databaseFile": "backend/db/sarkari_core.db",
+  "databaseTablesCount": 80,
+  "monitoredSources": {
+    "total": 52,
+    "healthy": 52,
+    "degraded": 0,
+    "unavailable": 0,
+    "averageLatencyMs": 49
+  },
+  "questionCorpus": {
+    "totalPreserved": 1064,
+    "verifiedOfficialPyq": 153,
+    "verifiedOfficialSample": 39,
+    "legacyPreservedBaseline": 872,
+    "fullExamEligible": 150,
+    "practiceEligible": 1064
+  },
+  "calendarIntelligence": {
+    "totalEvents": 196,
+    "examsCovered": 49,
+    "officialEvents": 148,
+    "provisionalEvents": 48
+  },
+  "corrigendaAudit": {
+    "totalRegistered": 7,
+    "historicalValuesPreserved": true
+  },
+  "notificationSystem": {
+    "deduplicationEnforced": true,
+    "userPreferencesEnforced": true,
+    "noFalseAlertsRule": true
+  },
+  "aiPipelineSafeguards": {
+    "pipelineSteps": 10,
+    "provenanceEnforced": "AI_PRACTICE",
+    "unblockFullExamPermitted": false
+  },
+  "fullExamGate": {
+    "readyCount": 1,
+    "readyExam": "SSC Combined Graduate Level (Tier-1)",
+    "blockedCount": 48,
+    "safetyInvariant": "100% AUTHENTIC PYQ QUOTA ENFORCED"
+  },
+  "automatedTests": {
+    "totalTests": 403,
+    "passedTests": 403,
+    "failedTests": 0,
+    "suitesCount": 14
+  },
+  "finalFrozenBackup": "C:\\Users\\guddu\\.gemini\\antigravity\\scratch\\sarkari-ai-portal\\backend\\backups\\phase11-final-frozen\\phase11_final_frozen.db",
+  "finalFrozenBackupSha256": "45e10340bbe351226037c8fd50cc4a6aff090b20ca9d365e516862d6b6efda45",
+  "finalFrozenBackupSizeBytes": 47206400
+}

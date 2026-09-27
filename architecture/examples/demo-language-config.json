@@ -1,0 +1,22 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates language separation across question, option, instruction, and medium",
+  "configId": "lang-cfg-demo-2026",
+  "examVersionId": "ver-demo-exam-2026",
+  "paperId": "paper-1",
+  "subjectId": null,
+  "paperMedium": "Bilingual",
+  "questionLanguages": ["hi", "en"],
+  "optionLanguages": ["hi", "en"],
+  "instructionLanguages": ["hi", "en"],
+  "isBilingual": true,
+  "isMultilingual": false,
+  "translationPairs": [
+    {
+      "primary": "hi",
+      "secondary": "en"
+    }
+  ],
+  "languageSelectionRequired": true,
+  "languageSelectionType": "PerTest",
+  "languageSpecificRules": "Candidate selects default display script upon login. In case of any linguistic ambiguity in the Hindi translation, the English text shall prevail as per official clause 14.2."
+}

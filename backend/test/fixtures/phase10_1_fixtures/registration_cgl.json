@@ -1,0 +1,43 @@
+{
+  "registrationId": "reg-ssc-cgl-2024",
+  "entityType": "EXAM",
+  "entityId": "ssc-cgl",
+  "academicYear": "2024-25",
+  "sessionName": "Combined Graduate Level Examination, 2024",
+  "timeline": {
+    "notificationDate": "2024-06-24",
+    "registrationStartDate": "2024-06-24",
+    "registrationEndDate": "2024-07-27",
+    "correctionWindowStart": "2024-08-10",
+    "correctionWindowEnd": "2024-08-11",
+    "admitCardDate": "2024-09-01",
+    "examStartDate": "2024-09-09",
+    "examEndDate": "2024-09-26",
+    "resultDate": "2024-12-05"
+  },
+  "currentStatus": {
+    "isRegistrationOpen": false,
+    "isCorrectionOpen": false,
+    "daysRemaining": 0
+  },
+  "fees": {
+    "generalInr": 100,
+    "reservedInr": 0
+  },
+  "fee_structure": {
+    "GEN": 100,
+    "UR": 100,
+    "OBC": 100,
+    "EWS": 100,
+    "SC": 0,
+    "ST": 0,
+    "FEMALE": 0,
+    "PWD": 0
+  },
+  "portals": {
+    "officialPortalUrl": "https://ssc.gov.in",
+    "officialNotificationUrl": "https://ssc.gov.in/api/attachment/notice_cgl_2024.pdf"
+  },
+  "portal_url": "https://ssc.gov.in",
+  "verificationStatus": "VERIFIED"
+}

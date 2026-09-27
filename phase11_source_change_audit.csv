@@ -1,0 +1,1 @@
+event_id,source_id,affected_exam_id,change_level,change_category,field_name,old_value,new_value,is_meaningful,is_critical,detected_at

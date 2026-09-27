@@ -1,0 +1,33 @@
+{
+  "eligibilityId": "elig-ssc-cgl",
+  "entityType": "EXAM",
+  "entityId": "ssc-cgl",
+  "ageCriteria": {
+    "minAge": 18,
+    "maxAge": 32,
+    "ageRelaxations": {
+      "OBC": 3,
+      "SC": 5,
+      "ST": 5,
+      "PwBD": 10,
+      "ExServicemen": 3
+    }
+  },
+  "educationQualification": {
+    "en": "Bachelor's Degree in any discipline from a recognized University or equivalent institute.",
+    "hi": "किसी मान्यता प्राप्त विश्वविद्यालय से किसी भी विषय में स्नातक डिग्री।",
+    "subjectRequirements": [
+      "Mathematics or Economics required only for JSO post"
+    ],
+    "streamRequirements": []
+  },
+  "attemptRules": {
+    "maxAttempts": "UNLIMITED"
+  },
+  "citizenshipAndDomicile": {
+    "nationality": "INDIAN",
+    "domicileRequirement": "Open to all Indian Citizens"
+  },
+  "physicalStandards": null,
+  "verificationStatus": "VERIFIED"
+}

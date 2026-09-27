@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/exam-language-config.schema.json",
+  "title": "ExamLanguageConfiguration",
+  "description": "Language rules separating UI language, question language, option language, instruction language, and paper medium.",
+  "type": "object",
+  "required": [
+    "configId",
+    "examVersionId",
+    "paperMedium",
+    "questionLanguages",
+    "optionLanguages",
+    "instructionLanguages"
+  ],
+  "properties": {
+    "configId": { "type": "string" },
+    "examVersionId": { "type": "string" },
+    "paperId": { "type": "string" },
+    "subjectId": { "type": "string" },
+    "paperMedium": {
+      "type": "string",
+      "enum": ["Bilingual", "Monolingual", "MultilingualChoice"]
+    },
+    "questionLanguages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "optionLanguages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "instructionLanguages": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "isBilingual": { "type": "boolean", "default": false },
+    "isMultilingual": { "type": "boolean", "default": false },
+    "translationPairs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["primary", "secondary"],
+        "properties": {
+          "primary": { "type": "string" },
+          "secondary": { "type": "string" }
+        }
+      }
+    },
+    "languageSelectionRequired": { "type": "boolean", "default": false },
+    "languageSelectionType": {
+      "type": "string",
+      "enum": ["PerTest", "PerQuestion", "FixedBySubject"]
+    },
+    "languageSpecificRules": { "type": "string" }
+  }
+}

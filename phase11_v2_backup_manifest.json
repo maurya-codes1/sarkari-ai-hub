@@ -1,0 +1,14 @@
+{
+  "backup_name": "phase11_final_frozen_v2.db",
+  "backup_path": "C:\\Users\\guddu\\.gemini\\antigravity\\scratch\\sarkari-ai-portal\\backend\\backups\\phase11-final-frozen-v2\\phase11_final_frozen_v2.db",
+  "timestamp": "2026-09-27T14:43:25.175Z",
+  "file_size_bytes": 49168384,
+  "sha256": "e6390ae8ad5abb07d451acdd57843cfd06858b9995bd59b47b91d284de661fe4",
+  "sqlite_integrity": "ok",
+  "fk_violations": 0,
+  "table_count": 80,
+  "question_count": 1064,
+  "calendar_event_count": 196,
+  "active_locale_count": 24,
+  "test_count": 415
+}

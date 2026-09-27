@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "phase": 12,
+    "phaseStatus": "FROZEN",
+    "databaseFile": "sarkari_core_phase12_frozen.db",
+    "sha256": "5c1d2f9526ce15b2c5235b93e1c71bf094cffd6b5619c63c45a75542cd32f726",
+    "sizeBytes": 55455744,
+    "timestamp": "2026-09-27T15:29:12.541Z",
+    "schema": {
+      "totalTables": 85,
+      "integrityCheck": "ok",
+      "foreignKeyViolations": 0
+    },
+    "questionCorpus": {
+      "totalQuestions": 1282,
+      "verifiedOfficialPyqs": 351,
+      "verifiedOfficialSamples": 59,
+      "legacyPreserved": 872,
+      "fullExamEligible": 250
+    },
+    "fullExamReadiness": {
+      "readyExamsCount": 2,
+      "readyExams": [
+        "ssc-cgl",
+        "upsc-cse"
+      ],
+      "blockedExamsCount": 47,
+      "totalInventoryExams": 49
+    },
+    "schoolBoards": {
+      "totalBoards": 31,
+      "nationalBoards": 3,
+      "stateBoards": 28
+    }
+  },
+  "examCoverage": {
+    "totalExams": 49,
+    "readyCount": 2,
+    "partiallyCoveredCount": 6,
+    "notCoveredCount": 41,
+    "totalVerifiedPyqs": 325,
+    "totalOfficialSamples": 0
+  },
+  "boardCoverage": {
+    "totalBoards": 31,
+    "coveredBoardsCount": 1
+  },
+  "benchmarksSummary": [
+    {
+      "category": "PROVENANCE_FILTERED",
+      "iterations": 200,
+      "p50": 0.04,
+      "p95": 0.068,
+      "p99": 0.424,
+      "passedSLA": true
+    },
+    {
+      "category": "SUBJECT_JOIN_SEARCH",
+      "iterations": 200,
+      "p50": 0.04,
+      "p95": 0.067,
+      "p99": 0.113,
+      "passedSLA": true
+    },
+    {
+      "category": "MULTI_TOKEN_INVENTORY_SEARCH",
+      "iterations": 200,
+      "p50": 0.023,
+      "p95": 0.046,
+      "p99": 0.118,
+      "passedSLA": true
+    },
+    {
+      "category": "FULL_EXAM_GATE_QUERY",
+      "iterations": 200,
+      "p50": 0.046,
+      "p95": 0.067,
+      "p99": 0.113,
+      "passedSLA": true
+    }
+  ]
+}

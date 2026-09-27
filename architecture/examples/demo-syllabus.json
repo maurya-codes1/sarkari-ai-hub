@@ -1,0 +1,49 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates hierarchical syllabus with chapters, topics, priority tiers, and sources",
+  "syllabusId": "syl-demo-2026-science",
+  "examVersionId": "ver-demo-exam-2026",
+  "subjectId": "subj-advanced-science-math",
+  "title": "Demo Examination 2026 Applied Science & Quantitative Syllabus",
+  "officialSourceId": "src-demo-circular-2026-01",
+  "effectiveYear": "2026",
+  "verificationStatus": "VERIFIED",
+  "chapters": [
+    {
+      "chapterId": "chap-demo-mechanics",
+      "name": "Mechanics & Laws of Motion",
+      "orderIndex": 1,
+      "weightagePercent": 15.0,
+      "topics": [
+        {
+          "topicId": "top-demo-newton-laws",
+          "name": "Newton's Laws and Momentum Conservation",
+          "orderIndex": 1,
+          "importanceTier": "HIGH",
+          "sourceReference": "Demo Exam Official Brochure Appendix B, Item 3.1"
+        },
+        {
+          "topicId": "top-demo-gravitation",
+          "name": "Universal Gravitation and Orbital Velocity",
+          "orderIndex": 2,
+          "importanceTier": "MEDIUM",
+          "sourceReference": "Demo Exam Official Brochure Appendix B, Item 3.2"
+        }
+      ]
+    },
+    {
+      "chapterId": "chap-demo-arithmetic",
+      "name": "Quantitative Systems & Rate Analysis",
+      "orderIndex": 2,
+      "weightagePercent": 20.0,
+      "topics": [
+        {
+          "topicId": "top-demo-ratios",
+          "name": "Compounded Ratios & Proportion Applications",
+          "orderIndex": 1,
+          "importanceTier": "HIGH",
+          "sourceReference": "Demo Exam Official Brochure Appendix B, Item 4.1"
+        }
+      ]
+    }
+  ]
+}

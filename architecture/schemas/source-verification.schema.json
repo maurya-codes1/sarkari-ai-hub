@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sarkariaihub.in/schemas/source-verification.schema.json",
+  "title": "SourceVerificationSpecification",
+  "description": "Traceability schema linking data records to authoritative official publications and audit trails.",
+  "type": "object",
+  "required": [
+    "sourceId",
+    "organizationId",
+    "documentTitle",
+    "documentType",
+    "sourceUrl",
+    "applicableYear",
+    "verificationStatus"
+  ],
+  "properties": {
+    "sourceId": { "type": "string" },
+    "organizationId": { "type": "string" },
+    "documentTitle": { "type": "string" },
+    "documentType": {
+      "type": "string",
+      "enum": [
+        "OfficialNotification",
+        "InformationBrochure",
+        "SyllabusCircular",
+        "ModelPaper",
+        "OfficialAnswerKey",
+        "Corrigendum"
+      ]
+    },
+    "sourceUrl": { "type": "string", "format": "uri" },
+    "publicationDate": { "type": ["string", "null"] },
+    "effectiveDate": { "type": ["string", "null"] },
+    "applicableYear": { "type": "string" },
+    "sourceHash": { "type": ["string", "null"] },
+    "retrievedAt": { "type": "string" },
+    "verifiedAt": { "type": ["string", "null"] },
+    "verificationStatus": {
+      "type": "string",
+      "enum": ["VERIFIED", "NEEDS_REVIEW", "CONFLICT", "OUTDATED", "UNAVAILABLE"]
+    },
+    "verificationNotes": { "type": "string" }
+  }
+}

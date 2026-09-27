@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unified National Exam Calendar — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">National Exam Calendar</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/dashboard.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📊 Candidate Dashboard</a>
+        <a href="/admin-ops.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition">⚙️ Ops Monitor</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold mb-2">
+          <span>📅 Official Schedules & Deadlines</span>
+          <span>•</span>
+          <span>Zero Fabricated Dates</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Unified National Examination Calendar</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Aggregated official schedules across SSC, UPSC, Railways, Banking, State PSCs, Police & School Boards.</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="flex flex-wrap items-center gap-2">
+        <select id="filterType" onchange="filterEvents()" class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs font-bold outline-none">
+          <option value="">All Event Types</option>
+          <option value="APPLICATION_START">Application Opens</option>
+          <option value="APPLICATION_END">Application Deadlines</option>
+          <option value="EXAM_DATE">Exam Dates</option>
+          <option value="NOTIFICATION">Notifications</option>
+        </select>
+        <select id="filterStatus" onchange="filterEvents()" class="bg-slate-800 border border-slate-700 text-white rounded-xl px-3 py-2 text-xs font-bold outline-none">
+          <option value="">All Statuses</option>
+          <option value="OFFICIAL">Official Gazette</option>
+          <option value="PROVISIONAL">Tentative / Provisional</option>
+          <option value="ESTIMATED">Estimated</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Calendar Table Container -->
+    <div class="bg-slate-900 rounded-3xl border border-slate-800 overflow-hidden shadow-xl">
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-slate-800 bg-slate-850/60 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+              <th class="p-4">Date</th>
+              <th class="p-4">Event Type</th>
+              <th class="p-4">Examination / Post</th>
+              <th class="p-4">Status & Trust</th>
+              <th class="p-4">Official Reference</th>
+              <th class="p-4 text-right">Action</th>
+            </tr>
+          </thead>
+          <tbody id="eventsTableBody" class="divide-y divide-slate-800 text-xs">
+            <tr>
+              <td colspan="6" class="p-8 text-center text-slate-500">Loading verified national exam calendar...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let allEvents = [];
+
+    async function loadCalendar() {
+      try {
+        const res = await fetch('/api/v1/calendar/events');
+        const json = await res.json();
+        if (json.success) {
+          allEvents = json.events;
+          renderEvents(allEvents);
+        }
+      } catch (e) {
+        console.error('Failed to load calendar:', e);
+      }
+    }
+
+    function renderEvents(events) {
+      const tbody = document.getElementById('eventsTableBody');
+      if (events.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="6" class="p-8 text-center text-slate-500">No events found matching your filters.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = events.map(e => {
+        let badgeColor = 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30';
+        if (e.event_status === 'PROVISIONAL') badgeColor = 'bg-amber-500/20 text-amber-400 border-amber-500/30';
+        else if (e.event_status === 'ESTIMATED') badgeColor = 'bg-cyan-500/20 text-cyan-400 border-cyan-500/30';
+        else if (e.event_status === 'HISTORICAL') badgeColor = 'bg-slate-700 text-slate-300 border-slate-600';
+
+        return `
+          <tr class="hover:bg-slate-850/40 transition">
+            <td class="p-4 font-mono font-bold text-amber-300 whitespace-nowrap">${e.event_date}</td>
+            <td class="p-4 font-bold text-white whitespace-nowrap">${formatEventType(e.event_type)}</td>
+            <td class="p-4 text-slate-200">
+              <div class="font-bold">${e.event_title}</div>
+              <div class="text-[10px] text-slate-500 uppercase">${e.exam_id}</div>
+            </td>
+            <td class="p-4 whitespace-nowrap">
+              <span class="text-[10px] font-bold px-2 py-0.5 rounded-full border ${badgeColor}">${e.event_status}</span>
+            </td>
+            <td class="p-4 text-[11px] text-slate-400 max-w-xs truncate">${e.notification_ref || 'Official Annual Calendar'}</td>
+            <td class="p-4 text-right whitespace-nowrap">
+              <a href="${e.source_url || '#'}" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-[11px] font-bold text-slate-300 border border-slate-700 transition">View Source ↗</a>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function formatEventType(type) {
+      const map = {
+        'NOTIFICATION': '📢 Notification',
+        'APPLICATION_START': '🟢 Reg. Open',
+        'APPLICATION_END': '🔴 Reg. Close',
+        'EXAM_DATE': '📝 Exam Date',
+        'ADMIT_CARD': '🎟️ Admit Card',
+        'ANSWER_KEY': '🔑 Answer Key',
+        'RESULT': '🏆 Result'
+      };
+      return map[type] || type;
+    }
+
+    function filterEvents() {
+      const type = document.getElementById('filterType').value;
+      const status = document.getElementById('filterStatus').value;
+
+      let filtered = allEvents;
+      if (type) filtered = filtered.filter(e => e.event_type === type);
+      if (status) filtered = filtered.filter(e => e.event_status === status);
+
+      renderEvents(filtered);
+    }
+
+    document.addEventListener('DOMContentLoaded', loadCalendar);
+  </script>
+</body>
+</html>

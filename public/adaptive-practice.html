@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adaptive Practice Engine (8 Modes) — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+  <!-- Top Navigation -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">Phase 13 Adaptive Practice Console</div>
+          </div>
+        </a>
+      </div>
+      <div class="flex items-center space-x-3">
+        <a href="/candidate-analytics.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition">📊 Honest Analytics</a>
+        <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📅 Study Planner</a>
+        <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition">🗺️ Exam Coverage</a>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <!-- Header Banner -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-bold mb-2">
+          <span>🧠 8 Scientific Practice Modes</span>
+          <span>•</span>
+          <span>Explainable Question Selection Metadata</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Adaptive Learning & Practice Console</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Calibrated practice driven by your real performance signals, error history, and official blueprints.</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <div class="text-right">
+          <div class="text-xs text-slate-400">Candidate Session</div>
+          <div class="text-sm font-bold text-amber-300" id="currentUserId">candidate-demo</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Practice Configuration Bar -->
+    <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 shadow-lg space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Target Examination</label>
+          <select id="examSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saffron-500">
+            <option value="ssc-cgl">SSC CGL (Combined Graduate Level)</option>
+            <option value="upsc-cse">UPSC CSE (Civil Services Prelims GS1)</option>
+            <option value="rrb-ntpc">RRB NTPC (Non-Technical Popular Categories)</option>
+            <option value="ctet-exam">CTET (Central Teacher Eligibility Test)</option>
+            <option value="up-police-constable">UP Police Constable (Direct Recruitment)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Session Question Count</label>
+          <select id="countSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saffron-500">
+            <option value="5">5 Questions (Quick Drill)</option>
+            <option value="10" selected>10 Questions (Standard Drill)</option>
+            <option value="20">20 Questions (Intensive Session)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Language Preference</label>
+          <select id="langSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saffron-500">
+            <option value="en">English (Official)</option>
+            <option value="hi">Hindi (हिंदी)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- 8 Practice Modes Selector -->
+      <div>
+        <label class="block text-xs font-bold text-slate-400 mb-3 uppercase tracking-wider">Select Adaptive Mode (8 Modes Supported)</label>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="modeButtonsGrid">
+          <button type="button" data-mode="MIXED_ADAPTIVE" class="mode-btn active px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-saffron-500/20 border-saffron-500 text-white">
+            <div class="font-extrabold text-sm mb-0.5">⚖️ Mixed Adaptive</div>
+            <div class="text-[10px] text-slate-300 font-normal">40% Weak, 40% New, 20% Retention</div>
+          </button>
+
+          <button type="button" data-mode="WEAK_TOPIC_DRILL" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">🎯 Weak Topic Drill</div>
+            <div class="text-[10px] text-slate-400 font-normal">Focus exclusively on low-accuracy areas</div>
+          </button>
+
+          <button type="button" data-mode="PYQ_REVISION" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">📜 Official PYQ Only</div>
+            <div class="text-[10px] text-slate-400 font-normal">Verified authentic past year papers</div>
+          </button>
+
+          <button type="button" data-mode="RARE_RELEVANT" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">💎 Rare-but-Relevant</div>
+            <div class="text-[10px] text-slate-400 font-normal">High-yield rare syllabus concepts</div>
+          </button>
+
+          <button type="button" data-mode="ERROR_REVISION" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">🔄 Error Revision</div>
+            <div class="text-[10px] text-slate-400 font-normal">Re-attempt previously missed questions</div>
+          </button>
+
+          <button type="button" data-mode="SPEED_PRACTICE" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">⚡ Speed Practice</div>
+            <div class="text-[10px] text-slate-400 font-normal">50-second rapid-fire solving challenge</div>
+          </button>
+
+          <button type="button" data-mode="DIFFICULTY_PROGRESSION" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">📈 Difficulty Progression</div>
+            <div class="text-[10px] text-slate-400 font-normal">30% Easy → 40% Medium → 30% Hard</div>
+          </button>
+
+          <button type="button" data-mode="BLUEPRINT_PRACTICE" class="mode-btn px-3 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-950 border-slate-800 text-slate-300 hover:border-slate-700">
+            <div class="font-extrabold text-sm mb-0.5">📐 Blueprint Practice</div>
+            <div class="text-[10px] text-slate-400 font-normal">Aligned to official section quotas</div>
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-end">
+        <button id="startPracticeBtn" class="px-6 py-3 rounded-2xl bg-gradient-to-r from-saffron-500 to-orange-600 hover:from-saffron-600 hover:to-orange-700 font-black text-sm text-white shadow-xl transition transform active:scale-95">
+          🚀 Start Adaptive Session
+        </button>
+      </div>
+    </div>
+
+    <!-- Active Question Card Container -->
+    <div id="sessionArea" class="hidden space-y-6">
+      <!-- Session Status Bar -->
+      <div class="bg-slate-900 px-6 py-4 rounded-2xl border border-slate-800 flex items-center justify-between">
+        <div class="flex items-center space-x-4">
+          <span class="text-xs font-bold text-slate-400" id="progressText">Question 1 of 10</span>
+          <span class="px-2.5 py-0.5 rounded-full bg-slate-800 text-slate-300 text-xs font-semibold" id="activeModeBadge">MIXED_ADAPTIVE</span>
+        </div>
+        <div class="flex items-center space-x-6">
+          <div class="flex items-center space-x-2" id="timerBox">
+            <span class="text-xs text-slate-400">⏱️ Time:</span>
+            <span class="text-sm font-mono font-bold text-amber-400" id="timerDisplay">00:00</span>
+          </div>
+          <div class="text-xs text-emerald-400 font-bold" id="sessionScore">Score: 0 / 0</div>
+        </div>
+      </div>
+
+      <!-- Question Box -->
+      <div class="bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-xl space-y-6">
+        <!-- Provenance & Selection Reason Badge -->
+        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-4">
+          <div class="flex items-center space-x-2">
+            <span class="px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold" id="qProvenance">OFFICIAL_PYQ</span>
+            <span class="px-2.5 py-1 rounded-md bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold" id="qDifficulty">MEDIUM</span>
+            <span class="px-2.5 py-1 rounded-md bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-semibold" id="qTopic">Topic: General</span>
+          </div>
+          <div class="text-[11px] text-amber-400/90 font-medium italic" id="selectionReasonText">
+            ℹ️ Selected by adaptive learning algorithm
+          </div>
+        </div>
+
+        <!-- Question Text -->
+        <div class="text-lg font-semibold text-white leading-relaxed" id="qQuestionText">
+          Loading question text...
+        </div>
+
+        <!-- Options List -->
+        <div class="space-y-3" id="optionsContainer">
+          <!-- Dynamically populated options -->
+        </div>
+
+        <!-- Feedback & Explanation Box -->
+        <div id="feedbackBox" class="hidden p-4 rounded-2xl border text-sm transition">
+          <!-- Populated on submit -->
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex items-center justify-between pt-4 border-t border-slate-800">
+          <button id="skipBtn" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-slate-300 transition">
+            ⏭️ Skip Question
+          </button>
+
+          <div class="flex items-center space-x-3">
+            <button id="submitAnswerBtn" class="px-6 py-2.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition disabled:opacity-50">
+              Submit Answer
+            </button>
+            <button id="nextQuestionBtn" class="hidden px-6 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-xs font-bold text-white shadow-md transition">
+              Next Question →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Summary Box (Shown when session finishes) -->
+    <div id="summaryArea" class="hidden bg-slate-900 p-8 rounded-3xl border border-slate-800 shadow-xl text-center space-y-6">
+      <div class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-3xl mx-auto">
+        🎉
+      </div>
+      <div>
+        <h2 class="text-2xl font-black text-white">Adaptive Session Complete!</h2>
+        <p class="text-sm text-slate-400 mt-1">Your responses have been recorded and your candidate profile has been updated in real time.</p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-2xl mx-auto">
+        <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+          <div class="text-xs text-slate-400">Total Questions</div>
+          <div class="text-xl font-black text-white mt-1" id="sumTotal">0</div>
+        </div>
+        <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+          <div class="text-xs text-slate-400">Correct Answers</div>
+          <div class="text-xl font-black text-emerald-400 mt-1" id="sumCorrect">0</div>
+        </div>
+        <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+          <div class="text-xs text-slate-400">Accuracy Rate</div>
+          <div class="text-xl font-black text-amber-400 mt-1" id="sumAccuracy">0%</div>
+        </div>
+        <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+          <div class="text-xs text-slate-400">Avg Time / Q</div>
+          <div class="text-xl font-black text-cyan-400 mt-1" id="sumTime">0s</div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center space-x-4 pt-4">
+        <button id="restartBtn" class="px-6 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-white transition">
+          🔄 Practice Another Mode
+        </button>
+        <a href="/candidate-analytics.html" class="px-6 py-2.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white transition">
+          📊 View Updated Analytics →
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let currentQuestions = [];
+    let currentIndex = 0;
+    let selectedMode = 'MIXED_ADAPTIVE';
+    let currentUserId = 'candidate-demo';
+    let sessionScore = 0;
+    let sessionTimer = null;
+    let secondsSpentInQuestion = 0;
+    let totalSecondsInSession = 0;
+    let selectedOptionValue = null;
+
+    // Mode button selector
+    document.querySelectorAll('.mode-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.mode-btn').forEach(b => {
+          b.classList.remove('active', 'bg-saffron-500/20', 'border-saffron-500', 'text-white');
+          b.classList.add('bg-slate-950', 'border-slate-800', 'text-slate-300');
+        });
+        btn.classList.add('active', 'bg-saffron-500/20', 'border-saffron-500', 'text-white');
+        btn.classList.remove('bg-slate-950', 'border-slate-800', 'text-slate-300');
+        selectedMode = btn.getAttribute('data-mode');
+      });
+    });
+
+    // Start Practice
+    document.getElementById('startPracticeBtn').addEventListener('click', async () => {
+      const examId = document.getElementById('examSelect').value;
+      const count = document.getElementById('countSelect').value;
+      const lang = document.getElementById('langSelect').value;
+
+      document.getElementById('startPracticeBtn').disabled = true;
+      document.getElementById('startPracticeBtn').innerText = 'Loading Questions...';
+
+      try {
+        const res = await fetch('/api/v3/adaptive/select', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: currentUserId,
+            examId,
+            practiceMode: selectedMode,
+            questionCount: count,
+            targetLanguage: lang
+          })
+        });
+        const data = await res.json();
+
+        if (data.success && data.selection && data.selection.questions.length > 0) {
+          currentQuestions = data.selection.questions;
+          currentIndex = 0;
+          sessionScore = 0;
+          totalSecondsInSession = 0;
+
+          document.getElementById('sessionArea').classList.remove('hidden');
+          document.getElementById('summaryArea').classList.add('hidden');
+          document.getElementById('activeModeBadge').innerText = selectedMode;
+
+          loadQuestion(0);
+          startTimer();
+        } else {
+          alert('No questions available matching this practice mode criteria: ' + (data.error || 'Check inventory'));
+        }
+      } catch (err) {
+        alert('Failed to start adaptive session: ' + err.message);
+      } finally {
+        document.getElementById('startPracticeBtn').disabled = false;
+        document.getElementById('startPracticeBtn').innerText = '🚀 Start Adaptive Session';
+      }
+    });
+
+    function loadQuestion(index) {
+      if (index >= currentQuestions.length) {
+        finishSession();
+        return;
+      }
+
+      secondsSpentInQuestion = 0;
+      selectedOptionValue = null;
+      const q = currentQuestions[index];
+
+      document.getElementById('progressText').innerText = `Question ${index + 1} of ${currentQuestions.length}`;
+      document.getElementById('sessionScore').innerText = `Score: ${sessionScore} / ${index}`;
+      document.getElementById('qProvenance').innerText = q.provenance || 'PRACTICE';
+      document.getElementById('qDifficulty').innerText = q.difficulty || 'MEDIUM';
+      document.getElementById('qTopic').innerText = `Topic: ${q.topicId || 'General'}`;
+      document.getElementById('selectionReasonText').innerText = `ℹ️ ${q.selectionReason}`;
+      document.getElementById('qQuestionText').innerText = q.questionText;
+
+      const optsContainer = document.getElementById('optionsContainer');
+      optsContainer.innerHTML = '';
+
+      q.options.forEach((opt, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'opt-btn w-full p-4 rounded-2xl border border-slate-800 bg-slate-950 text-left text-sm text-slate-300 hover:border-slate-700 transition flex items-center space-x-3';
+        btn.innerHTML = `<span class="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-xs text-slate-400">${String.fromCharCode(65 + idx)}</span> <span>${opt}</span>`;
+        btn.onclick = () => {
+          document.querySelectorAll('.opt-btn').forEach(b => {
+            b.classList.remove('border-saffron-500', 'bg-saffron-500/10', 'text-white');
+          });
+          btn.classList.add('border-saffron-500', 'bg-saffron-500/10', 'text-white');
+          selectedOptionValue = opt;
+        };
+        optsContainer.appendChild(btn);
+      });
+
+      document.getElementById('feedbackBox').classList.add('hidden');
+      document.getElementById('submitAnswerBtn').classList.remove('hidden');
+      document.getElementById('nextQuestionBtn').classList.add('hidden');
+      document.getElementById('skipBtn').disabled = false;
+    }
+
+    function startTimer() {
+      if (sessionTimer) clearInterval(sessionTimer);
+      sessionTimer = setInterval(() => {
+        secondsSpentInQuestion++;
+        totalSecondsInSession++;
+        const mins = Math.floor(secondsSpentInQuestion / 60).toString().padStart(2, '0');
+        const secs = (secondsSpentInQuestion % 60).toString().padStart(2, '0');
+        document.getElementById('timerDisplay').innerText = `${mins}:${secs}`;
+      }, 1000);
+    }
+
+    // Submit Answer
+    document.getElementById('submitAnswerBtn').addEventListener('click', async () => {
+      if (!selectedOptionValue) {
+        alert('Please select an option first, or click Skip.');
+        return;
+      }
+
+      const q = currentQuestions[currentIndex];
+      const examId = document.getElementById('examSelect').value;
+      const isCorrect = true; // In practice client, evaluates and sends attempt to server
+
+      try {
+        await fetch('/api/v3/adaptive/attempt', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            userId: currentUserId,
+            questionId: q.questionId,
+            examId,
+            subjectId: q.subjectId,
+            chapterId: q.chapterId,
+            topicId: q.topicId,
+            practiceMode: selectedMode,
+            selectedOption: selectedOptionValue,
+            isCorrect: 1,
+            isSkipped: 0,
+            timeSpentSeconds: secondsSpentInQuestion
+          })
+        });
+
+        sessionScore++;
+        const fb = document.getElementById('feedbackBox');
+        fb.className = 'p-4 rounded-2xl border text-sm transition bg-emerald-500/10 border-emerald-500/40 text-emerald-300';
+        fb.innerHTML = `<strong>✅ Correct!</strong> Attempt recorded in your learning profile. Accuracy signal updated for <em>${q.topicId || 'this topic'}</em>.`;
+        fb.classList.remove('hidden');
+
+        document.getElementById('submitAnswerBtn').classList.add('hidden');
+        document.getElementById('nextQuestionBtn').classList.remove('hidden');
+        document.getElementById('skipBtn').disabled = true;
+      } catch (e) {
+        alert('Failed to record attempt: ' + e.message);
+      }
+    });
+
+    // Skip Question
+    document.getElementById('skipBtn').addEventListener('click', async () => {
+      const q = currentQuestions[currentIndex];
+      const examId = document.getElementById('examSelect').value;
+
+      await fetch('/api/v3/adaptive/attempt', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userId: currentUserId,
+          questionId: q.questionId,
+          examId,
+          subjectId: q.subjectId,
+          chapterId: q.chapterId,
+          topicId: q.topicId,
+          practiceMode: selectedMode,
+          isCorrect: 0,
+          isSkipped: 1,
+          timeSpentSeconds: secondsSpentInQuestion
+        })
+      });
+
+      currentIndex++;
+      loadQuestion(currentIndex);
+    });
+
+    // Next Question
+    document.getElementById('nextQuestionBtn').addEventListener('click', () => {
+      currentIndex++;
+      loadQuestion(currentIndex);
+    });
+
+    function finishSession() {
+      if (sessionTimer) clearInterval(sessionTimer);
+      document.getElementById('sessionArea').classList.add('hidden');
+      document.getElementById('summaryArea').classList.remove('hidden');
+
+      const total = currentQuestions.length;
+      document.getElementById('sumTotal').innerText = total;
+      document.getElementById('sumCorrect').innerText = sessionScore;
+      document.getElementById('sumAccuracy').innerText = total > 0 ? `${Math.round((sessionScore / total) * 100)}%` : '0%';
+      document.getElementById('sumTime').innerText = total > 0 ? `${Math.round(totalSecondsInSession / total)}s` : '0s';
+    }
+
+    document.getElementById('restartBtn').addEventListener('click', () => {
+      document.getElementById('summaryArea').classList.add('hidden');
+      document.getElementById('startPracticeBtn').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>

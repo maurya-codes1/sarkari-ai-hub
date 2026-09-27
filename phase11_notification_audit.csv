@@ -1,0 +1,5 @@
+notification_id,user_id,notification_type,title,affected_exam_id,severity,effective_date,deduplication_key,channel,is_read,created_at
+"notif-1790518964461-553","user-test-dedup-1790518964460","EXAM_DATE_CHANGED","SSC CGL Tier-1 Exam Date Announced","ssc-cgl","IMPORTANT","2026-09-15","user-test-dedup-1790518964460:EXAM_DATE_CHANGED:ssc-cgl:notif-cgl-exam-date","IN_APP",0,"2026-09-27 14:22:44"
+"notif-1790518894154-2320","user-test-dedup-1790518894152","EXAM_DATE_CHANGED","SSC CGL Tier-1 Exam Date Announced","ssc-cgl","IMPORTANT","2026-09-15","user-test-dedup-1790518894152:EXAM_DATE_CHANGED:ssc-cgl:notif-cgl-exam-date","IN_APP",0,"2026-09-27 14:21:34"
+"notif-1790518825106-1012","user-test-dedup-1790518825105","EXAM_DATE_CHANGED","SSC CGL Tier-1 Exam Date Announced","ssc-cgl","IMPORTANT","2026-09-15","user-test-dedup-1790518825105:EXAM_DATE_CHANGED:ssc-cgl:notif-cgl-exam-date","IN_APP",0,"2026-09-27 14:20:25"
+"notif-1790518426189-259","user-test-dedup-1","EXAM_DATE_CHANGED","SSC CGL Tier-1 Exam Date Announced","ssc-cgl","IMPORTANT","2026-09-15","user-test-dedup-1:EXAM_DATE_CHANGED:ssc-cgl:notif-cgl-exam-date","IN_APP",0,"2026-09-27 14:13:46"

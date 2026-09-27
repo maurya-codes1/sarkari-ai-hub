@@ -1,0 +1,16 @@
+{
+  "__comment": "SAFE FICTIONAL DEMONSTRATION ONLY - Demonstrates authoritative source audit trail and document hashing",
+  "sourceId": "src-demo-circular-2026-01",
+  "organizationId": "org-national-testing-demo",
+  "documentTitle": "Demo Examination 2026 Official Gazette Notification & Scheme of Examination",
+  "documentType": "OfficialNotification",
+  "sourceUrl": "https://example.gov.in/demo/notifications/circular-2026-01.pdf",
+  "publicationDate": "2026-01-15",
+  "effectiveDate": "2026-02-01",
+  "applicableYear": "2026",
+  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "retrievedAt": "2026-01-16T10:30:00Z",
+  "verifiedAt": "2026-01-16T14:15:00Z",
+  "verificationStatus": "VERIFIED",
+  "verificationNotes": "Directly confirmed against official gazette publication. Blueprint Section A and Section B rules verified."
+}

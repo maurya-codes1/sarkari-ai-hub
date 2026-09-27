@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "query": "RRB NTPC",
+  "totalMatches": 1,
+  "results": {
+    "states": [],
+    "boards": [],
+    "exams": [
+      {
+        "type": "EXAM",
+        "id": "rrb-ntpc",
+        "title": "RRB NTPC (Graduate & Undergraduate Posts)",
+        "subtitle": "RAILWAY • Railway Recruitment Boards (NATIONAL)",
+        "url": "/exam/rrb-ntpc",
+        "badge": "PRACTICE_READY"
+      }
+    ],
+    "boardClasses": [],
+    "registrations": [],
+    "subjects": []
+  }
+}
