@@ -1,8 +1,20 @@
 # robots.txt for SarkariAI Hub
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
 User-agent: *
 Allow: /
-Disallow: /api/
 Disallow: /scratch/
 
 # Sitemap location
-Sitemap: http://localhost:5000/sitemap.xml
+Sitemap: https://sarkari-ai-hub-1.onrender.com/sitemap.xml
+
