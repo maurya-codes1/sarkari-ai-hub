@@ -483,157 +483,355 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// ================= UNIVERSAL CENTERED BILINGUAL APP MODAL ENGINE =================
+// ================= UNIVERSAL CENTERED MULTILINGUAL APP MODAL ENGINE (24 LANGUAGES) =================
 const MODAL_I18N = {
   exit_quiz: {
     icon: '🚪',
     title: {
-      en: 'Exit Test',
+      en: 'Exit Test?',
       hi: 'क्विज़ छोड़ें?',
       'hi-latn': 'Quiz Chhodein?',
-      bn: 'কুইজ ছাড়বেন?',
       ta: 'தேர்விலிருந்து வெளியேறவா?',
       te: 'క్విజ్ నుండి నిష్క్రమించాలా?',
       mr: 'चाचणी सोडायची का?',
+      bn: 'কুইজ ছাড়বেন?',
       gu: 'ટેસ્ટ છોડવો છે?',
       kn: 'ರಸಪ್ರಶ್ನೆ ಬಿಡಬೇಕೆ?',
       ml: 'ടെസ്റ്റിൽ നിന്ന് പുറത്തുകടക്കണോ?',
       pa: 'ਕੁਇਜ਼ ਛੱਡਣੀ ਹੈ?',
       ur: 'کوئز چھوڑیں؟',
       or: 'ପରୀକ୍ଷା ଛାଡିବେ କି?',
-      sa: 'प्रश्नोत्तरीं त्यजतु वा?'
+      sa: 'प्रश्नोत्तरीं त्यजतु वा?',
+      as: 'পৰীক্ষা এৰিবনে?',
+      mai: 'क्विज़ छोड़ू?',
+      bho: 'क्विज़ छोड़ीं?',
+      ne: 'परीक्षा छोड्ने?',
+      kok: 'चांचणी सोडची?',
+      sd: 'امتحان ڇڏيندؤ؟',
+      doi: 'क्विज़ छोड़नी?',
+      ks: 'امتحان ترٛاوِوا؟',
+      sat: 'ᱵᱤᱰᱟᱹᱣ ᱵᱟᱹᱜᱤᱭᱟ?',
+      brx: 'आनजाद गारगोन नामा?'
     },
     message_main: {
       en: 'Are you sure you want to exit the test?',
       hi: 'क्या आप सच में टेस्ट छोड़ना चाहते हैं?',
       'hi-latn': 'Kya aap sach me test chhodna chahte hain?',
-      bn: 'আপনি কি সত্যিই পরীক্ষা ছাড়তে চান?',
       ta: 'நீங்கள் நிச்சயமாக தேர்விலிருந்து வெளியேற விரும்புகிறீர்களா?',
       te: 'మీరు నిజంగా పరీక్ష నుండి నిష్క్రమించాలనుకుంటున్నారా?',
       mr: 'तुम्हाला नक्की चाचणी सोडायची आहे का?',
+      bn: 'আপনি কি সত্যিই পরীক্ষা ছাড়তে চান?',
       gu: 'શું તમે ખરેખર ટેસ્ટ છોડવા માંગો છો?',
       kn: 'ನೀವು ಖಚಿತವಾಗಿ ಪರೀಕ್ಷೆಯಿಂದ ನಿರ್ಗಮಿಸಲು ಬಯಸುವಿರಾ?',
       ml: 'നിങ്ങൾക്ക് തീർച്ചയായും ടെസ്റ്റിൽ നിന്ന് പുറത്തുകടക്കണമെന്നുണ്ടോ?',
       pa: 'ਕੀ ਤੁਸੀਂ ਸੱਚਮੁੱਚ ਟੈਸਟ ਛੱਡਣਾ ਚਾਹੁੰਦੇ ਹੋ?',
       ur: 'کیا آپ واقعی ٹیسٹ چھوڑنا چاہتے ہیں؟',
       or: 'ଆପଣ ପ୍ରକୃତରେ ପରୀକ୍ଷା ଛାଡିବାକୁ ଚାହୁଁଛନ୍ତି କି?',
-      sa: 'किं भवान् वस्तुतः परीक्षां त्यक्तुम् इच्छति?'
+      sa: 'किं भवान् वस्तुतः परीक्षां त्यक्तुम् इच्छति?',
+      as: 'আপুনি নিশ্চিতভাৱে পৰীক্ষা এৰিব বিচাৰেনে?',
+      mai: 'की अहाँ सच में टेस्ट छोड़ऽ चाहैत छी?',
+      bho: 'का रउवा सच में टेस्ट छोड़ल चाहत बानी?',
+      ne: 'के तपाईं साँच्चै परीक्षा छोड्न चाहनुहुन्छ?',
+      kok: 'तुमी खरेंच चांचणी सोडूंक सोदतात?',
+      sd: 'ڇا توھان واقعي امتحان ڇڏڻ چାھيو ٿا؟',
+      doi: 'केह् तुस सचमुच टेस्ट छोड़ना चांह्दे ओ?',
+      ks: 'کیا تۄہہ چھِوا پۄز پٲٹھؠ امتحان ترٛاوُن یژھان؟',
+      sat: 'ᱪᱮᱫ ᱟᱢ ᱥᱟᱹᱨᱤ ᱜᱮ ᱵᱤᱰᱟᱹᱣ ᱵᱟᱹᱜᱤ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ?',
+      brx: 'नोंथाङा थारैनो आनजादखौ गारनो सानो नामा?'
     },
     message_sub: {
-      en: 'Your current progress will be reset.',
+      en: 'Your current test progress will be reset.',
       hi: 'आपकी वर्तमान प्रगति रिसेट हो जाएगी।',
       'hi-latn': 'Aapki current progress reset ho jayegi.',
-      bn: 'আপনার বর্তমান অগ্রগতি রিসেট হয়ে যাবে।',
       ta: 'உங்கள் தற்போதைய முன்னேற்றம் மீட்டமைக்கப்படும்.',
       te: 'మీ ప్రస్తుత పురోగతి రీసెట్ చేయబడుతుంది.',
       mr: 'तुमची चालू प्रगती रीसेट केली जाईल.',
+      bn: 'আপনার বর্তমান অগ্রগতি রিসেট হয়ে যাবে।',
       gu: 'તમારી વર્તમાન પ્રગતિ રીસેટ થઈ જશે.',
       kn: 'ನಿಮ್ಮ ಪ್ರಸ್ತುತ ಪ್ರಗತಿ ಮರುಹೊಂದಿಸಲಾಗುವುದು.',
       ml: 'നിങ്ങളുടെ നിലവിലെ പുരോഗതി പുനഃസജ്ജമാക്കും.',
       pa: 'ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਤਰੱਕੀ ਰੀਸੈਟ ਹੋ ਜਾਵੇਗੀ।',
       ur: 'آپ کی موجودہ پیشرفت دوبارہ ترتیب دی جائے گی۔',
       or: 'ଆପଣଙ୍କର ବର୍ତ୍ତମାନର ଅଗ୍ରଗତି ପୁନଃସେଟ୍ ହୋଇଯିବ।',
-      sa: 'भवतः वर्तमाना प्रगतिः पुनः स्थापिता भविष्यति।'
+      sa: 'भवतः वर्तमाना प्रगतिः पुनः स्थापिता भविष्यति।',
+      as: 'আপোনাৰ বর্তমান অগ্রগতি ৰিছেট হ’ব।',
+      mai: 'अहाँक वर्तमान प्रगति रिसेट भऽ जायत।',
+      bho: 'रउवा अब तक के प्रगति रिसेट हो जाई।',
+      ne: 'तपाईंको हालको प्रगति रिसेट हुनेछ।',
+      kok: 'तुमची चालू प्रगती रिसेट जातली।',
+      sd: 'توھان جي موجوده ترقي ٻيھر ترتيب ٿيندي.',
+      doi: 'तुंदी मौजूदा प्रगति रीसेट होई जाग।',
+      ks: 'تُہنٛز موجودٕ ترقی گژھِ ری سیٹ۔',
+      sat: 'ᱟᱢᱟᱜ ᱱᱤᱛᱚᱜᱟᱜ ᱞᱟᱦᱟᱱᱛᱤ ᱫᱚᱦᱲᱟ ᱥᱟᱡᱟᱣᱜ-ᱟ।',
+      brx: 'नोंथांनि दासिमनि जौगानाया रीसेट जागोन।'
     },
     cancelText: {
-      en: 'Cancel',
+      en: 'Resume Test',
       hi: 'वापस टेस्ट दें',
       'hi-latn': 'Wapas Test Dein',
-      bn: 'পরীক্ষায় ফিরে যান',
       ta: 'தேர்வுக்குத் திரும்பு',
       te: 'పరీక్షకు తిరిగి వెళ్ళు',
       mr: 'चाचणीवर परत जा',
+      bn: 'পরীক্ষায় ফিরে যান',
       gu: 'ટેસ્ટ પર પાછા જાઓ',
       kn: 'ಪರೀಕ್ಷೆಗೆ ಹಿಂತಿರುಗಿ',
-      ml: 'പരീക്ഷയിലേക്ക് ಮടങ്ങുക',
+      ml: 'പരീക്ഷയിലേക്ക് മടങ്ങുക',
       pa: 'ਟੈਸਟ ਤੇ ਵਾਪਸ ਜਾਓ',
       ur: 'ٹیسٹ پر واپس جائیں',
       or: 'ପରୀକ୍ଷାକୁ ଫେରନ୍ତୁ',
-      sa: 'परीक्षां प्रति आगच्छतु'
+      sa: 'परीक्षां प्रति आगच्छतु',
+      as: 'পৰীক্ষালৈ উভতি যাওক',
+      mai: 'वापस टेस्ट दिअ',
+      bho: 'टेस्ट पर वापस जाईं',
+      ne: 'परीक्षामा फर्कनुहोस्',
+      kok: 'चांचणीचेर परत वचात',
+      sd: 'امتحان تي واپس وڃو',
+      doi: 'टेस्ट पर परत जाओ',
+      ks: 'امتحانَس پؠٹھ واپس گژھِو',
+      sat: 'ᱵᱤᱰᱟᱹᱣ ᱛᱮ ᱨᱩᱣᱟᱹᱲ ᱢᱮ',
+      brx: 'आनजादाव फैफिन'
     },
     confirmText: {
-      en: 'Exit',
+      en: 'Exit Test',
       hi: 'हाँ, टेस्ट छोड़ें',
       'hi-latn': 'Haan, Test Chhodein',
-      bn: 'হ্যাঁ, পরীক্ষা ছাড়ুন',
       ta: 'ஆம், வெளியேறு',
       te: 'అవును, నిష్క్రమించు',
       mr: 'होय, चाचणी सोडा',
+      bn: 'হ্যাঁ, পরীক্ষা ছাড়ুন',
       gu: 'હા, ટેસ્ટ છોડો',
       kn: 'ಹೌದು, ನಿರ್ಗಮಿಸಿ',
       ml: 'അതെ, പുറത്തുകടക്കുക',
       pa: 'ਹਾਂ, ਟੈਸਟ ਛੱਡੋ',
-      ur: 'ہاں، ٹیسਟ چھوڑیں',
+      ur: 'ہاں، ٹیسٹ چھوڑیں',
       or: 'ହଁ, ପରୀକ୍ଷା ଛାଡନ୍ତୁ',
-      sa: 'आम्, त्यजतु'
+      sa: 'आम्, त्यजतु',
+      as: 'হয়, পৰীক্ষা এৰক',
+      mai: 'हँ, टेस्ट छोड़ू',
+      bho: 'हाँ, टेस्ट छोड़ीं',
+      ne: 'हो, परीक्षा छोड्नुहोस्',
+      kok: 'हय, चांचणी सोड़ात',
+      sd: 'ها، امتحان ڇڏيو',
+      doi: 'हाँ, टेस्ट छोड़ो',
+      ks: 'آ، امتحان ترٛاوِو',
+      sat: 'ᱦᱮᱸ, ᱵᱤᱰᱟᱹᱣ ᱵᱟᱹᱜᱤ ᱢᱮ',
+      brx: 'औ, आनजाद गार'
+    }
+  },
+
+  submit_quiz: {
+    icon: '🏁',
+    title: {
+      en: 'Submit Test?',
+      hi: 'टेस्ट सबमिट करें?',
+      'hi-latn': 'Test Submit Karein?',
+      ta: 'தேர்வை சமர்ப்பிக்கவா?',
+      te: 'పరీక్షను సమర్పించాలా?',
+      mr: 'चाचणी सबमिट करायची का?',
+      bn: 'টেস্ট জমা দেবেন?',
+      gu: 'ટેસ્ટ સબમિટ કરવો છે?',
+      kn: 'ಪರೀಕ್ಷೆಯನ್ನು ಸಲ್ಲಿಸಬೇಕೆ?',
+      ml: 'ടെസ്റ്റ് സമർപ്പിക്കണോ?',
+      pa: 'ਟੈਸਟ ਸਬਮਿਟ ਕਰਨਾ ਹੈ?',
+      ur: 'ٹیسٹ جمع کرائیں؟',
+      or: 'ପରୀକ୍ଷା ଦାଖଲ କରିବେ କି?',
+      sa: 'परीक्षां समर्पयतु वा?',
+      as: 'পৰীক্ষা জমা দিবনে?',
+      mai: 'टेस्ट सबमिट करू?',
+      bho: 'टेस्ट सबमिट करीं?',
+      ne: 'परीक्षा सबमिट गर्ने?',
+      kok: 'चांचणी सबमिट करची?',
+      sd: 'امتحان جمع ڪرائيندؤ؟',
+      doi: 'टेस्ट सबमिट करना?',
+      ks: 'امتحان جَمَہ کَرِوا؟',
+      sat: 'ᱵᱤᱰᱟᱹᱣ ᱮᱢᱟ?',
+      brx: 'आनजाद जाहाथाय होगोन नामा?'
+    },
+    message_main: {
+      en: 'Are you sure you want to finish and submit your test now?',
+      hi: 'क्या आप अभी टेस्ट समाप्त कर सबमिट करना चाहते हैं?',
+      'hi-latn': 'Kya aap abhi test samapt kar submit karna chahte hain?',
+      ta: 'இப்போது தேர்வை முடித்து சமர்ப்பிக்க விரும்புகிறீர்களா?',
+      te: 'మీరు ఇప్పుడు పరీక్షను ముగించి సమర్పించాలనుకుంటున్నారా?',
+      mr: 'तुम्हाला आता चाचणी संपवून सबमिट करायची आहे का?',
+      bn: 'আপনি কি এখন পরীক্ষা শেষ করে জমা দিতে চান?',
+      gu: 'શું તમે અત્યારે ટેસ્ટ સમાપ્ત કરીને સબમિટ કરવા માંગો છો?',
+      kn: 'ನೀವು ಈಗ ಪರೀಕ್ಷೆಯನ್ನು ಮುಗಿಸಿ ಸಲ್ಲಿಸಲು ಬಯಸುವಿರಾ?',
+      ml: 'ഇപ്പോൾ പരീക്ഷ പൂർത്തിയാക്കി സമർപ്പിക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടോ?',
+      pa: 'ਕੀ ਤੁਸੀਂ ਹੁਣ ਟੈਸਟ ਖਤਮ ਕਰਕੇ ਸਬਮਿਟ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?',
+      ur: 'کیا آپ ابھی ٹیسٹ ختم کرکے جمع کرانا چاہتے ہیں؟',
+      or: 'ଆପଣ ଏବେ ପରୀକ୍ଷା ସମାପ୍ତ କରି ଦାଖଲ କରିବାକୁ ଚାହାଁନ୍ତି କି?',
+      sa: 'किं भवान् इदानीं परीक्षां समाप्य समर्पयितुम् इच्छति?',
+      as: 'আপুনি এতিয়া পৰীক্ষা সমাপ্ত কৰি জমা দিব বিচাৰেনে?',
+      mai: 'की अहाँ एखन टेस्ट समाप्त कऽ सबमिट करऽ चाहैत छी?',
+      bho: 'का रउवा अभी टेस्ट खतम करके सबमिट कइल चाहत बानी?',
+      ne: 'के तपाईं अहिले परीक्षा समाप्त गरेर सबमिट गर्न चाहनुहुन्छ?',
+      kok: 'तुमी आतां चांचणी सोंपोवन सबमिट करूंक सोदतात?',
+      sd: 'ڇا توھان ھاڻي امتحان ختم ڪري جمع ڪرائڻ چاھيو ٿا؟',
+      doi: 'केह् तुस हुण टेस्ट खत्म करी सबमिट करना चांह्दे ओ?',
+      ks: 'کیا تۄہہ چھِوا وؠنکؠس امتحان ختم کٔرِتھ جَمَہ کَرُن یژھان؟',
+      sat: 'ᱪᱮᱫ ᱟᱢ ᱱᱤᱛᱚᱜ ᱵᱤᱰᱟᱹᱣ ᱢᱩᱪᱟᱹᱫ ᱠᱟᱛᱮ ᱮᱢ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ?',
+      brx: 'नोंथाङा दा आनजादखौ फोजोबनानै जाहाथाय होनो सानो नामा?'
+    },
+    cancelText: {
+      en: 'Review Questions',
+      hi: 'रिव्यू जारी रखें',
+      'hi-latn': 'Review Jari Rakhein',
+      ta: 'மீள்பார்வை தொடர்க',
+      te: 'సమీక్ష కొనసాగించండి',
+      mr: 'पुनरावलोकन चालू ठेवा',
+      bn: 'পর্যালোচনা চালিয়ে যান',
+      gu: 'સમીક્ષા ચાલુ રાખો',
+      kn: 'ಪರಿಶೀಲನೆ ಮುಂದುವರಿಸಿ',
+      ml: 'അവലോകനം തുടരുക',
+      pa: 'ਸਮੀਖਿਆ ਜਾਰੀ ਰੱਖੋ',
+      ur: 'نظرثانی جاری رکھیں',
+      or: 'ସମୀକ୍ଷା ଜାରି ରଖନ୍ତୁ',
+      sa: 'पुनरावलोकनं निरन्तरं कुरुत',
+      as: 'পুনৰীক্ষণ অব্যাহত ৰাখক',
+      mai: 'रिव्यू जारी राखू',
+      bho: 'रिव्यू जारी रखीं',
+      ne: 'समीक्षा जारी राख्नुहोस्',
+      kok: 'तपासणी चालू दवरात',
+      sd: 'جائزو جاري رکو',
+      doi: 'समीक्षा जारी रक्खो',
+      ks: 'جائزٕ جٲری تھٲوِو',
+      sat: 'ᱫᱩᱦᱲᱟᱹ ᱧᱮᱞ ᱪᱟᱞᱟᱣ ᱢᱮ',
+      brx: 'नायफिननाय सालाय'
+    },
+    confirmText: {
+      en: 'Submit Now',
+      hi: 'हाँ, सबमिट करें',
+      'hi-latn': 'Haan, Submit Karein',
+      ta: 'ஆம், சமர்ப்பிக்கவும்',
+      te: 'అవును, సమర్పించండి',
+      mr: 'होय, सबमिट करा',
+      bn: 'হ্যাঁ, জমা দিন',
+      gu: 'હા, સબમિટ કરો',
+      kn: 'ಹೌದು, ಸಲ್ಲಿಸಿ',
+      ml: 'അതെ, സമർപ്പിക്കുക',
+      pa: 'ਹਾਂ, ਸਬਮਿਟ ਕਰੋ',
+      ur: 'ہاں، جمع کرائیں',
+      or: 'ହଁ, ଦାଖଲ କରନ୍ତୁ',
+      sa: 'आम्, समर्पयतु',
+      as: 'হয়, জমা দিয়ক',
+      mai: 'हँ, सबमिट करू',
+      bho: 'हाँ, सबमिट करीं',
+      ne: 'हो, सबमिट गर्नुहोस्',
+      kok: 'हय, सबमिट करात',
+      sd: 'ها، جمع ڪريو',
+      doi: 'हाँ, सबमिट करो',
+      ks: 'آ، جَمَہ کٔرِو',
+      sat: 'ᱦᱮᱸ, ᱮᱢ ᱢᱮ',
+      brx: 'औ, जाहाथाय हो'
     }
   },
 
   clear_vault: {
     icon: '🗑️',
     title: {
-      en: 'Clear Vault',
+      en: 'Clear Vault?',
       hi: 'तिजोरी खाली करें?',
       'hi-latn': 'Tijori Khali Karein?',
-      bn: 'ভল্ট খালি করবেন?',
       ta: 'பெட்டகத்தை அழிக்கவா?',
       te: 'వాల్ట్‌ను ఖాళీ చేయాలా?',
       mr: 'तिजोरी रिकामी करायची?',
+      bn: 'ভল্ট খালি করবেন?',
       gu: 'તિજોરી ખાલી કરવી છે?',
       kn: 'ವಾಲ್ಟ್ ತೆರವುಗೊಳಿಸಬೇಕೆ?',
       ml: 'വോൾട്ട് മായ്‌ക്കണോ?',
       pa: 'ਤਿਜੋਰੀ ਖਾਲੀ ਕਰਨੀ ਹੈ?',
       ur: 'والٹ خالی کریں؟',
       or: 'ଭଲ୍ଟ ଖାଲି କରିବେ କି?',
-      sa: 'कोषं रिक्तं करोतु वा?'
+      sa: 'कोषं रिक्तं करोतु वा?',
+      as: 'ভল্ট খালী কৰিবনে?',
+      mai: 'तिजोरी खाली करू?',
+      bho: 'तिजोरी खाली करीं?',
+      ne: 'भल्ट खाली गर्ने?',
+      kok: 'वॉल्ट रितो करचो?',
+      sd: 'والٽ خالي ڪندؤ؟',
+      doi: 'तिजोरी खाली करनी?',
+      ks: 'والٹ خٲلی کَرِوا؟',
+      sat: 'ᱵᱷᱚᱞᱴ ᱠᱷᱟᱹᱞᱤᱭᱟ?',
+      brx: 'भल्टखौ लांदां खालामगोन नामा?'
     },
     message_main: {
       en: 'Are you sure you want to remove all saved bookmarks?',
       hi: 'क्या आप अपनी रिवीजन तिजोरी के सभी बुकमार्क हटाना चाहते हैं?',
       'hi-latn': 'Kya aap apni revision tijori ke sabhi bookmarks hatana chahte hain?',
-      bn: 'আপনি কি আপনার রিভিশন ভল্টের সমস্ত বুকমার্ক মুছে ফেলতে চান?',
       ta: 'உங்கள் திருத்தப் பெட்டகத்தின் அனைத்து புக்மார்க்குகளையும் அகற்ற விரும்புகிறீர்களா?',
       te: 'మీరు మీ రివిజన్ వాల్ట్ నుండి అన్ని బుక్‌మార్క్‌లను తీసివేయాలనుకుంటున్నారా?',
       mr: 'तुम्हाला तुमच्या उजळणी तिजोरीतील सर्व बुकमार्क काढून टाकायचे आहेत का?',
+      bn: 'আপনি কি আপনার রিভিশন ভল্টের সমস্ত বুকমার্ক মুছে ফেলতে চান?',
       gu: 'શું તમે તમારી રિવિઝન તિજોરીમાંથી તમામ બુકમાર્ક્સ દૂર કરવા માંગો છો?',
       kn: 'ನಿಮ್ಮ ಪರಿಷ್ಕರಣೆ ವಾಲ್ಟ್‌ನ ಎಲ್ಲಾ ಬುಕ್‌ಮಾರ್ಕ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?',
       ml: 'നിങ്ങളുടെ റിവിഷൻ വോൾട്ടിൽ നിന്നുള്ള എല്ലാ ബുക്ക്മാർക്കുകളും നീക്കംചെയ്യണമെന്ന് ഉറപ്പാണോ?',
       pa: 'ਕੀ ਤੁਸੀਂ ਆਪਣੀ ਰੀਵਿਜ਼ਨ ਤਿਜੋਰੀ ਤੋਂ ਸਾਰੇ ਬੁੱਕਮਾਰਕ ਹਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ?',
       ur: 'کیا آپ اپنے ریویژن والٹ سے تمام بُک مارکس کو ہٹانا چاہتے ہیں؟',
       or: 'ଆପଣ ନିଜ ରିଭିଜନ୍ ଭଲ୍ଟରୁ ସମସ୍ତ ବୁକମାର୍କ ହଟାଇବାକୁ ଚାହୁଁଛନ୍ତି କି?',
-      sa: 'किं भवान् स्वस्य पुनरावृत्तिकोषात् सर्वान् बुकमार्कान् निष्कासयितुम् इच्छति?'
+      sa: 'किं भवान् स्वस्य पुनरावृत्तिकोषात् सर्वान् बुकमार्कान् निष्कासयितुम् इच्छति?',
+      as: 'আপুনি আপোনাৰ ৰিভিজন ভল্টৰ সকলো বুকমাৰ্ক মচিব বিচাৰেনে?',
+      mai: 'की अहाँ अपन रिवीजन तिजोरीक सभटा बुकमार्क हटाबऽ चाहैत छी?',
+      bho: 'का रउवा आपन रिवीजन तिजोरी के सभ बुकमार्क हटावल चाहत बानी?',
+      ne: 'के तपाईं आफ्नो रिभिजन भल्टका सबै बुकमार्कहरू हटाउन चाहनुहुन्छ?',
+      kok: 'तुमी तुमच्या रिव्हिजन वॉल्टांतले सगळे बुकमार्क काडूंक सोदतात?',
+      sd: 'ڇا توھان پنھنجي رِويزن والٽ مان سمورا بڪ مارڪ ھٽائڻ چାھيو ٿا؟',
+      doi: 'केह् तुस अपनी रिवीजन तिजोरी दे सारे बुकमार्क हटाना चांह्दे ओ?',
+      ks: 'کیا تۄہہ چھِوا پنٛنہِ رِوِجَن والٹ منٛزٕ سٲری بَک مارک کَڈُن یژھان؟',
+      sat: 'ᱪᱮᱫ ᱟᱢ ᱟᱢᱟᱜ ᱫᱩᱦᱲᱟᱹ ᱵᱷᱚᱞᱴ ᱠᱷᱚᱱ ᱡᱚᱛᱚ ᱵᱩᱠᱢᱟᱨᱠ ᱚᱪᱚᱜ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ?',
+      brx: 'नोंथाङा नोंथांनि फिननाय भल्टनिफ्राय गासै बुकमार्कखौ बोखारनो सानो नामा?'
     },
     cancelText: {
       en: 'Cancel',
       hi: 'रद्द करें',
       'hi-latn': 'Cancel Karein',
-      bn: 'বাতিল করুন',
       ta: 'ரத்து செய்',
       te: 'రద్దు చేయి',
       mr: 'रद्द करा',
+      bn: 'বাতিল করুন',
       gu: 'રદ કરો',
       kn: 'ರದ್ದುಮಾಡಿ',
       ml: 'റദ്ദാക്കുക',
       pa: 'ਰੱਦ ਕਰੋ',
       ur: 'منسوخ کریں',
       or: 'ବାତିଲ୍ କରନ୍ତୁ',
-      sa: 'निरस्यतु'
+      sa: 'निरस्यतु',
+      as: 'বাতিল কৰক',
+      mai: 'रद्द करू',
+      bho: 'रद्द करीं',
+      ne: 'रद्द गर्नुहोस्',
+      kok: 'रद्द करात',
+      sd: 'رد ڪريو',
+      doi: 'रद्द करो',
+      ks: 'مَنسوٗخ کٔرِو',
+      sat: 'ᱵᱟᱹᱛᱤᱞ ᱢᱮ',
+      brx: 'दानगार'
     },
     confirmText: {
       en: 'Delete All',
       hi: 'हाँ, सभी हटाएं',
       'hi-latn': 'Haan, Sabhi Hatayein',
-      bn: 'হ্যাঁ, সব মুছুন',
       ta: 'ஆம், அனைத்தையும் நீக்கு',
       te: 'అవును, అన్నీ తొలగించు',
       mr: 'होय, सर्व काढा',
+      bn: 'হ্যাঁ, সব মুছুন',
       gu: 'હા, બધું કાઢી નાખો',
       kn: 'ಹೌದು, ಎಲ್ಲವನ್ನೂ ಅಳಿಸಿ',
       ml: 'അതെ, എല്ലാം ഇല്ലാതാക്കുക',
       pa: 'ਹਾਂ, ਸਭ ਹਟਾਓ',
       ur: 'ہاں، سب کو ہٹائیں',
       or: 'ହଁ, ସବୁ ହଟାନ୍ତୁ',
-      sa: 'आम्, सर्वं निष्कासयतु'
+      sa: 'आम्, सर्वं निष्कासयतु',
+      as: 'হয়, সকলো মচক',
+      mai: 'हँ, सभटा हटाउ',
+      bho: 'हाँ, सभ हटाईं',
+      ne: 'हो, सबै मेटाउनुहोस्',
+      kok: 'हय, सगळे काडात',
+      sd: 'ها، سڀ ھٽايو',
+      doi: 'हाँ, सारे हटाओ',
+      ks: 'آ، سٲری کَڈِو',
+      sat: 'ᱦᱮᱸ, ᱡᱚᱛᱚ ᱚᱪᱚᱜ ᱢᱮ',
+      brx: 'औ, गासैखौबो बोखार'
     }
   },
 
@@ -643,65 +841,105 @@ const MODAL_I18N = {
       en: 'Confirmation',
       hi: 'पुष्टि करें',
       'hi-latn': 'Confirmation',
-      bn: 'নিশ্চিতকরণ',
       ta: 'உறுதிப்படுத்தல்',
       te: 'ధృవీకరణ',
       mr: 'पुष्टीकरण',
+      bn: 'নিশ্চিতকরণ',
       gu: 'ખાતરી કરો',
       kn: 'ದೃಢೀಕರಣ',
-      ml: 'സ്ഥിರീകരണം',
+      ml: 'സ്ഥിരീകരണം',
       pa: 'ਪੁਸ਼ਟੀਕਰਨ',
       ur: 'تصدیق کریں',
       or: 'ନିଶ୍ଚିତକରଣ',
-      sa: 'पुष्टीकरणम्'
+      sa: 'पुष्टीकरणम्',
+      as: 'নিশ্চিতকৰণ',
+      mai: 'पुष्टि करू',
+      bho: 'पुष्टि करीं',
+      ne: 'पुष्टि गर्नुहोस्',
+      kok: 'खात्री करात',
+      sd: 'تصديق ڪريو',
+      doi: 'पुष्टि करो',
+      ks: 'تَصدیٖق کٔرِو',
+      sat: 'ᱯᱩᱥᱴᱟᱹᱣ',
+      brx: 'रोखा खालाम'
     },
     message_main: {
       en: 'Are you sure you want to proceed?',
       hi: 'क्या आप आगे बढ़ना चाहते हैं?',
       'hi-latn': 'Kya aap aage badhna chahte hain?',
-      bn: 'আপনি কি এগিয়ে যেতে চান?',
       ta: 'நீங்கள் தொடர விரும்புகிறீர்களா?',
       te: 'మీరు కొనసాగించాలనుకుంటున్నారా?',
       mr: 'तुम्हाला पुढे जायचे आहे का?',
+      bn: 'আপনি কি এগিয়ে যেতে চান?',
       gu: 'શું તમે આગળ વધવા માંગો છો?',
       kn: 'ನೀವು ಮುಂದುವರಿಯಲು ಬಯಸುವಿರಾ?',
       ml: 'നിങ്ങൾക്ക് മുന്നോട്ട് പോകണമെന്നുണ്ടോ?',
       pa: 'ਕੀ ਤੁਸੀਂ ਅੱਗੇ ਵਧਣਾ ਚਾਹੁੰਦੇ ਹੋ?',
       ur: 'کیا آپ آگے بڑھنا چاہتے ہیں؟',
       or: 'ଆପଣ ଆଗକୁ ବଢ଼ିବାକୁ ଚାହୁଁଛନ୍ତି କି?',
-      sa: 'किं भवान् अग्रे गन्तुम् इच्छति?'
+      sa: 'किं भवान् अग्रे गन्तुम् इच्छति?',
+      as: 'আপুনি আগবাঢ়িব বিচাৰেনে?',
+      mai: 'की अहाँ आगाँ बढ़ऽ चाहैत छी?',
+      bho: 'का रउवा आगे बढ़ल चाहत बानी?',
+      ne: 'के तपाईं अगाडि बढ्न चाहनुहुन्छ?',
+      kok: 'तुमी फुडें वचूंक सोदतात?',
+      sd: 'ڇا توھان اڳتي وڌڻ چﺎھيو ٿا؟',
+      doi: 'केह् तुस अग्गे बद्हना चांह्दे ओ?',
+      ks: 'کیا تۄہہ چھِوا برٛونٛہہ پَکُن یژھان؟',
+      sat: 'ᱪᱮᱫ ᱟᱢ ᱞᱟᱦᱟᱜ ᱥᱟᱱᱟᱭᱮᱫ ᱢᱮᱭᱟ?',
+      brx: 'नोंथाङा सिगां लांनो सानो नामा?'
     },
     cancelText: {
       en: 'Cancel',
       hi: 'रद्द करें',
       'hi-latn': 'Cancel Karein',
-      bn: 'বাতিল করুন',
       ta: 'ரத்து செய்',
       te: 'రద్దు చేయి',
       mr: 'रद्द करा',
+      bn: 'বাতিল করুন',
       gu: 'રદ કરો',
       kn: 'ರದ್ದುಮಾಡಿ',
       ml: 'റദ്ദാക്കുക',
       pa: 'ਰੱਦ ਕਰੋ',
       ur: 'منسوخ کریں',
       or: 'ବାତିଲ୍ କରନ୍ତୁ',
-      sa: 'निरस्यतु'
+      sa: 'निरस्यतु',
+      as: 'বাতিল কৰক',
+      mai: 'रद्द करू',
+      bho: 'रद्द करीं',
+      ne: 'रद्द गर्नुहोस्',
+      kok: 'रद्द करात',
+      sd: 'رد ڪريو',
+      doi: 'रद्द करो',
+      ks: 'مَنسوٗخ کٔرِو',
+      sat: 'ᱵᱟᱹᱛᱤᱞ ᱢᱮ',
+      brx: 'दानगार'
     },
     confirmText: {
       en: 'Confirm',
       hi: 'हाँ, पुष्टि करें',
       'hi-latn': 'Haan, Confirm Karein',
-      bn: 'হ্যাঁ, নিশ্চিত করুন',
       ta: 'ஆம், உறுதிப்படுத்து',
       te: 'అవును, నిర్ధారించు',
       mr: 'होय, पुष्टी करा',
+      bn: 'হ্যাঁ, নিশ্চিত করুন',
       gu: 'હા, ખાતરી કરો',
       kn: 'ಹೌದು, ದೃಢೀಕರಿಸಿ',
       ml: 'അതെ, സ്ഥിരീകരിക്കുക',
       pa: 'ਹਾਂ, ਪੁਸ਼ਟੀ ਕਰੋ',
       ur: 'ہاں، تصدیق کریں',
       or: 'ହଁ, ନିଶ୍ଚିତ କରନ୍ତୁ',
-      sa: 'आम्, पुष्टिकुरु'
+      sa: 'आम्, पुष्टिकुरु',
+      as: 'হয়, নিশ্চিত কৰক',
+      mai: 'हँ, पुष्टि करू',
+      bho: 'हाँ, पुष्टि करीं',
+      ne: 'हो, पुष्टि गर्नुहोस्',
+      kok: 'हय, खात्री करात',
+      sd: 'ها، تصديق ڪريو',
+      doi: 'हाँ, पुष्टि करो',
+      ks: 'آ، تَصدیٖق کٔرِو',
+      sat: 'ᱦᱮᱸ, ᱯᱩᱥᱴᱟᱹᱣ ᱢᱮ',
+      brx: 'औ, रोखा खालाम'
     }
   },
 
@@ -711,33 +949,53 @@ const MODAL_I18N = {
       en: 'Notice',
       hi: 'सूचना',
       'hi-latn': 'Soochana',
-      bn: 'বিজ্ঞপ্তি',
       ta: 'அறிவிப்பு',
       te: 'గమనిక',
       mr: 'सूचना',
+      bn: 'বিজ্ঞপ্তি',
       gu: 'સૂચના',
       kn: 'ಸೂಚನೆ',
       ml: 'അറിയിപ്പ്',
       pa: 'ਸੂਚਨਾ',
       ur: 'اطلاع',
       or: 'ସୂଚନା',
-      sa: 'सूचना'
+      sa: 'सूचना',
+      as: 'জাননী',
+      mai: 'सूचना',
+      bho: 'सूचना',
+      ne: 'सूचना',
+      kok: 'सूचना',
+      sd: 'اطلاع',
+      doi: 'सूचना',
+      ks: 'اِطِلاع',
+      sat: 'ᱵᱟᱰᱟᱭ ᱦᱚᱪᱚ',
+      brx: 'मिथिहोनाय'
     },
     okText: {
       en: 'OK',
       hi: 'ठीक है',
       'hi-latn': 'Theek Hai',
-      bn: 'ঠিক আছে',
       ta: 'சரி',
       te: 'సరే',
       mr: 'ठीक आहे',
+      bn: 'ঠিক আছে',
       gu: 'બરાબર',
       kn: 'ಸರಿ',
       ml: 'ശരി',
       pa: 'ਠੀਕ ਹੈ',
       ur: 'ٹھیک ہے',
       or: 'ଠିକ୍ ଅଛି',
-      sa: 'साधु'
+      sa: 'साधु',
+      as: 'ঠিক আছে',
+      mai: 'ठीक अछि',
+      bho: 'ठीक बा',
+      ne: 'हुन्छ',
+      kok: 'बरें',
+      sd: 'ٺيڪ آھي',
+      doi: 'ठीक ऐ',
+      ks: 'ٹھیک چھُ',
+      sat: 'ᱴᱷᱤᱠ ᱜᱮᱭᱟ',
+      brx: 'मोजां'
     }
   }
 };
@@ -750,20 +1008,18 @@ function getActiveModalLang() {
   }
 }
 
-function formatBilingualModalPair(lang, textMapEntry, icon = '') {
+// Pure localized text retriever - NEVER forces bilingual bracketed text
+function getLocalizedModalText(lang, textMapEntry, icon = '') {
   if (!textMapEntry) return '';
   const prefix = icon ? `${icon} ` : '';
-  const enVal = textMapEntry.en || '';
-  const hiVal = textMapEntry.hi || '';
+  if (typeof textMapEntry === 'string') return `${prefix}${textMapEntry}`;
+  const text = textMapEntry[lang] || textMapEntry['en'] || textMapEntry['hi'] || Object.values(textMapEntry)[0] || '';
+  return `${prefix}${text}`;
+}
 
-  if (lang === 'en') {
-    // English active: Primary is English, Secondary in brackets is Hindi
-    return hiVal ? `${prefix}${enVal} (${hiVal})` : `${prefix}${enVal}`;
-  } else {
-    // Non-English active: Primary is active language, Secondary in brackets is ALWAYS English
-    const primary = textMapEntry[lang] || hiVal || enVal;
-    return enVal ? `${prefix}${primary} (${enVal})` : `${prefix}${primary}`;
-  }
+// Backward-compatible alias
+function formatBilingualModalPair(lang, textMapEntry, icon = '') {
+  return getLocalizedModalText(lang, textMapEntry, icon);
 }
 
 function getOrCreateAppModal() {
@@ -782,6 +1038,11 @@ function getOrCreateAppModal() {
         <div id="appModalBtnContainer" class="pt-2 flex items-center justify-center gap-2.5"></div>
       </div>
     `;
+    modal.onclick = (e) => {
+      if (e.target === modal) {
+        closeAppModal();
+      }
+    };
     document.body.appendChild(modal);
   }
   return modal;
@@ -792,11 +1053,11 @@ function showAppAlert(message, title = null, icon = '💡') {
   const template = MODAL_I18N.generic_alert;
 
   let finalTitle = title;
-  if (!finalTitle || finalTitle === 'सूचना (Notice)' || finalTitle === 'Notice' || finalTitle === 'सूचना') {
-    finalTitle = formatBilingualModalPair(lang, template.title, icon);
+  if (!finalTitle || finalTitle === 'Notice' || finalTitle === 'सूचना' || finalTitle.includes('Notice') || finalTitle.includes('सूचना')) {
+    finalTitle = getLocalizedModalText(lang, template.title, icon);
   }
 
-  const finalOk = formatBilingualModalPair(lang, template.okText);
+  const finalOk = getLocalizedModalText(lang, template.okText);
 
   const modal = getOrCreateAppModal();
   const box = document.getElementById('appCenteredModalBox');
@@ -834,8 +1095,10 @@ function showAppConfirm(config = {}) {
   const titleRaw = (config.title || '').toLowerCase();
   const msgRaw = (config.message || '').toLowerCase();
   if (!type) {
-    if (titleRaw.includes('exit test') || titleRaw.includes('क्विज़ छोड़ें') || msgRaw.includes('exit the test') || msgRaw.includes('टेस्ट छोड़ना')) {
+    if (titleRaw.includes('exit') || titleRaw.includes('छोड़ें') || msgRaw.includes('exit the test') || msgRaw.includes('टेस्ट छोड़ना')) {
       type = 'exit_quiz';
+    } else if (titleRaw.includes('submit') || titleRaw.includes('सबमिट') || msgRaw.includes('submit') || msgRaw.includes('सबमिट')) {
+      type = 'submit_quiz';
     } else if (titleRaw.includes('clear vault') || titleRaw.includes('तिजोरी खाली') || msgRaw.includes('bookmark') || msgRaw.includes('बुकमार्क')) {
       type = 'clear_vault';
     } else {
@@ -849,30 +1112,30 @@ function showAppConfirm(config = {}) {
   // Title:
   let finalTitle = config.title;
   if (!finalTitle || finalTitle.includes('पुष्टि करें') || finalTitle.includes('Confirmation') || finalTitle.includes('Exit Test') || finalTitle.includes('Clear Vault') || finalTitle.includes('क्विज़ छोड़ें') || finalTitle.includes('तिजोरी')) {
-    finalTitle = formatBilingualModalPair(lang, template.title, icon);
+    finalTitle = getLocalizedModalText(lang, template.title, icon);
   }
 
   // Message:
   let finalMessage = config.message;
-  if (!finalMessage || finalMessage.includes('क्या आप सच में') || finalMessage.includes('Are you sure you want to exit') || finalMessage.includes('रिवीजन तिजोरी') || finalMessage.includes('remove all saved bookmarks') || finalMessage.includes('क्या आप जारी रखना चाहते हैं')) {
-    const mainP = formatBilingualModalPair(lang, template.message_main);
-    const subP = template.message_sub ? formatBilingualModalPair(lang, template.message_sub) : '';
+  if (!finalMessage) {
+    const mainP = getLocalizedModalText(lang, template.message_main);
+    const subP = template.message_sub ? getLocalizedModalText(lang, template.message_sub) : '';
     finalMessage = subP ? `${mainP}\n\n${subP}` : mainP;
   }
 
   // Cancel text:
   let finalCancel = config.cancelText;
-  if (!finalCancel || finalCancel.includes('Cancel') || finalCancel.includes('वापस') || finalCancel.includes('रद्द')) {
-    finalCancel = formatBilingualModalPair(lang, template.cancelText);
+  if (!finalCancel) {
+    finalCancel = getLocalizedModalText(lang, template.cancelText);
   }
 
   // Confirm text:
   let finalConfirm = config.confirmText;
-  if (!finalConfirm || finalConfirm.includes('Exit') || finalConfirm.includes('हाँ') || finalConfirm.includes('Confirm') || finalConfirm.includes('Delete All')) {
-    finalConfirm = formatBilingualModalPair(lang, template.confirmText);
+  if (!finalConfirm) {
+    finalConfirm = getLocalizedModalText(lang, template.confirmText);
   }
 
-  const confirmClass = config.confirmClass || (type === 'exit_quiz' || type === 'clear_vault' ? 'bg-rose-600 hover:bg-rose-700 text-white' : 'bg-slate-900 dark:bg-slate-800 hover:bg-slate-800 text-white');
+  const confirmClass = config.confirmClass || (type === 'exit_quiz' || type === 'clear_vault' ? 'bg-rose-600 hover:bg-rose-700 text-white' : (type === 'submit_quiz' ? 'bg-emerald-600 hover:bg-emerald-700 text-white' : 'bg-slate-900 dark:bg-slate-800 hover:bg-slate-800 text-white'));
 
   const modal = getOrCreateAppModal();
   const box = document.getElementById('appCenteredModalBox');
@@ -928,6 +1191,21 @@ function closeAppModal() {
     }, 150);
   }
 }
+
+// Global modal exposure & interceptor
+if (typeof window !== 'undefined') {
+  window.showAppAlert = showAppAlert;
+  window.showAppConfirm = showAppConfirm;
+  window.closeAppModal = closeAppModal;
+  window.getLocalizedModalText = getLocalizedModalText;
+  try {
+    const _nativeAlert = window.alert;
+    window.alert = function(msg) {
+      showAppAlert(String(msg || ''));
+    };
+  } catch (e) {}
+}
+
 
 // ==========================================
 // LEGAL PAGES & COMPLIANCE MODAL CONTROLLER

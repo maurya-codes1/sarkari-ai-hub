@@ -28,38 +28,62 @@ let activeQuiz = window.activeQuiz = {
   isRunning: false
 };
 
-// Global Voice Question Reader controller & Sweet Natural Indian Voices (सुरीली आवाज)
-let quizVoiceGender = 'female';
-try {
-  quizVoiceGender = localStorage.getItem('sarkari_quiz_voice_gender') || 'female';
-} catch (e) {}
+// Global Dual Voice Engine (Dedicated Male and Female Sound Buttons)
+let activeSpeakingGender = null;
 
-function updateQuizVoiceUI() {
-  const btn = document.getElementById('quizVoiceToggleBtn');
-  const icon = document.getElementById('quizVoiceIcon');
-  const label = document.getElementById('quizVoiceLabel');
-  if (!btn) return;
-  if (quizVoiceGender === 'male') {
-    if (icon) icon.textContent = '👨';
-    if (label) label.textContent = 'मधुर आवाज (पुरुष)';
-    btn.title = 'Switch to Sweet Female Voice (सुरीली महिला आवाज चुनें)';
-  } else {
-    if (icon) icon.textContent = '👩';
-    if (label) label.textContent = 'सुरीली आवाज (महिला)';
-    btn.title = 'Switch to Sweet Male Voice (मधुर पुरुष आवाज चुनें)';
+function updateQuizVoiceButtons() {
+  const maleBtn = document.getElementById('quizMaleVoiceBtn');
+  const femaleBtn = document.getElementById('quizFemaleVoiceBtn');
+  const maleIcon = document.getElementById('quizMaleVoiceIcon');
+  const femaleIcon = document.getElementById('quizFemaleVoiceIcon');
+  const maleLabel = document.getElementById('quizMaleVoiceLabel');
+  const femaleLabel = document.getElementById('quizFemaleVoiceLabel');
+
+  const maleText = typeof getTranslation === 'function' ? getTranslation('quiz_male_sound_btn') : 'Male Voice';
+  const femaleText = typeof getTranslation === 'function' ? getTranslation('quiz_female_sound_btn') : 'Female Voice';
+  const stopText = typeof getTranslation === 'function' ? getTranslation('quiz_stop_voice_btn') : 'Stop Voice';
+
+  if (maleBtn) {
+    if (activeQuiz && activeQuiz.isSpeaking && activeSpeakingGender === 'male') {
+      maleBtn.className = "text-xs font-black text-white bg-sky-600 hover:bg-sky-700 border border-sky-500 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-md active:scale-95 speech-pulse ring-2 ring-sky-300";
+      if (maleIcon) maleIcon.textContent = '⏹️';
+      if (maleLabel) maleLabel.textContent = stopText;
+      maleBtn.title = stopText;
+    } else {
+      maleBtn.className = "text-xs font-bold text-sky-800 dark:text-sky-300 hover:text-white hover:bg-sky-600 bg-sky-50 dark:bg-slate-800 dark:border-sky-800 border border-sky-300 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95";
+      if (maleIcon) maleIcon.textContent = '👨';
+      if (maleLabel) maleLabel.textContent = maleText;
+      maleBtn.title = maleText;
+    }
+  }
+
+  if (femaleBtn) {
+    if (activeQuiz && activeQuiz.isSpeaking && activeSpeakingGender === 'female') {
+      femaleBtn.className = "text-xs font-black text-white bg-pink-600 hover:bg-pink-700 border border-pink-500 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-md active:scale-95 speech-pulse ring-2 ring-pink-300";
+      if (femaleIcon) femaleIcon.textContent = '⏹️';
+      if (femaleLabel) femaleLabel.textContent = stopText;
+      femaleBtn.title = stopText;
+    } else {
+      femaleBtn.className = "text-xs font-bold text-pink-700 dark:text-pink-300 hover:text-white hover:bg-pink-600 bg-pink-50 dark:bg-slate-800 dark:border-pink-800 border border-pink-300 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95";
+      if (femaleIcon) femaleIcon.textContent = '👩';
+      if (femaleLabel) femaleLabel.textContent = femaleText;
+      femaleBtn.title = femaleText;
+    }
   }
 }
 
-function toggleQuizVoiceGender() {
-  quizVoiceGender = quizVoiceGender === 'female' ? 'male' : 'female';
-  try {
-    localStorage.setItem('sarkari_quiz_voice_gender', quizVoiceGender);
-  } catch (e) {}
-  updateQuizVoiceUI();
-  if (activeQuiz && activeQuiz.isSpeaking) {
-    stopSpeaking();
-    setTimeout(toggleSpeakActiveQuestion, 150);
+// Backward-compatible alias
+function updateQuizVoiceUI() {
+  updateQuizVoiceButtons();
+}
+
+function stopSpeaking() {
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    try { window.speechSynthesis.cancel(); } catch (e) {}
   }
+  if (activeQuiz) activeQuiz.isSpeaking = false;
+  activeSpeakingGender = null;
+  updateQuizVoiceButtons();
 }
 
 function getSweetVoice(langCode = 'hi-IN', gender = 'female') {
@@ -68,32 +92,32 @@ function getSweetVoice(langCode = 'hi-IN', gender = 'female') {
   if (voices.length === 0) return null;
 
   const isFemale = gender === 'female';
-  const isHindi = langCode.toLowerCase().startsWith('hi');
+  const prefix = (langCode || 'hi').substring(0, 2).toLowerCase();
 
-  if (isHindi) {
-    const hiVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith('hi'));
-    if (hiVoices.length > 0) {
-      const femaleHiNames = ['swara', 'kalpana', 'google हिन्दी', 'google hindi', 'kavya', 'female'];
-      const maleHiNames = ['madhur', 'hemant', 'google hindi male', 'male'];
-      const prefNames = isFemale ? femaleHiNames : maleHiNames;
-      for (const name of prefNames) {
-        const found = hiVoices.find(v => v.name.toLowerCase().includes(name));
-        if (found) return found;
-      }
-      return hiVoices[0];
-    }
-  }
-
-  const inEngVoices = voices.filter(v => v.lang && (v.lang.toLowerCase().includes('in') || v.lang.toLowerCase().startsWith('en')));
-  if (inEngVoices.length > 0) {
-    const femaleEngNames = ['neerja', 'swara', 'zira', 'natasha', 'samantha', 'victoria', 'female'];
-    const maleEngNames = ['prabhat', 'madhur', 'ravi', 'david', 'george', 'male'];
-    const prefNames = isFemale ? femaleEngNames : maleEngNames;
+  // 1. Try matching the exact requested language
+  const langVoices = voices.filter(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+  if (langVoices.length > 0) {
+    const femaleNames = ['female', 'swara', 'kalpana', 'kavya', 'neerja', 'zira', 'samantha', 'victoria', 'aarohi', 'pallavi', 'shruti', 'dhwani', 'tanishaa', 'sapna', 'sobhana', 'gul'];
+    const maleNames = ['male', 'madhur', 'hemant', 'prabhat', 'david', 'george', 'ravi', 'manohar', 'valluvar', 'mohan', 'niranjan', 'bashkar', 'gagan', 'midhun', 'salman'];
+    const prefNames = isFemale ? femaleNames : maleNames;
     for (const name of prefNames) {
-      const found = inEngVoices.find(v => v.name.toLowerCase().includes(name));
+      const found = langVoices.find(v => (v.name || '').toLowerCase().includes(name));
       if (found) return found;
     }
-    return inEngVoices[0];
+    return langVoices[0];
+  }
+
+  // 2. Fallback to Indian English or Hindi
+  const inVoices = voices.filter(v => v.lang && (v.lang.toLowerCase().includes('in') || v.lang.toLowerCase().startsWith('en') || v.lang.toLowerCase().startsWith('hi')));
+  if (inVoices.length > 0) {
+    const femaleNames = ['female', 'neerja', 'swara', 'zira', 'samantha', 'victoria'];
+    const maleNames = ['male', 'prabhat', 'madhur', 'ravi', 'david', 'george'];
+    const prefNames = isFemale ? femaleNames : maleNames;
+    for (const name of prefNames) {
+      const found = inVoices.find(v => (v.name || '').toLowerCase().includes(name));
+      if (found) return found;
+    }
+    return inVoices[0];
   }
 
   return voices[0] || null;
@@ -101,83 +125,93 @@ function getSweetVoice(langCode = 'hi-IN', gender = 'female') {
 
 if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
   window.speechSynthesis.onvoiceschanged = function() {
-    updateQuizVoiceUI();
+    updateQuizVoiceButtons();
   };
 }
 
-function stopSpeaking() {
-  if ('speechSynthesis' in window) {
-    try { window.speechSynthesis.cancel(); } catch (e) {}
-  }
-  const speechBtn = document.getElementById('quizSpeechBtn');
-  if (speechBtn) {
-    speechBtn.classList.remove('speech-pulse');
-    const label = typeof getTranslation === 'function' ? getTranslation('quiz_listen_btn') : 'Listen';
-    speechBtn.innerHTML = `<span>🔊</span> <span class="hidden sm:inline">${label}</span>`;
-  }
-  if (activeQuiz) activeQuiz.isSpeaking = false;
-}
-
-function toggleSpeakActiveQuestion() {
+function speakActiveQuestionGender(gender = 'female') {
   if (!('speechSynthesis' in window)) {
-    alert('आपके डिवाइस या ब्राउज़र में टेक्स्ट-टू-स्पीच (Voice Reader) सपोर्ट उपलब्ध नहीं है।');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('Your browser does not support text-to-speech voice output.');
+    } else {
+      alert('Text-to-speech voice output is not supported on this browser.');
+    }
     return;
   }
 
-  if (activeQuiz.isSpeaking) {
+  // If already speaking the clicked gender, clicking again pauses/stops it
+  if (activeQuiz.isSpeaking && activeSpeakingGender === gender) {
     stopSpeaking();
     return;
   }
 
+  // Otherwise stop previous voice and start new gender voice
   stopSpeaking();
   const q = activeQuiz.questions[activeQuiz.currentIndex];
   if (!q) return;
 
-  const isFemale = quizVoiceGender === 'female';
-  const speechSegments = [];
-
-  const rawQ = q.q || '';
-  const secQ = q.secondaryQ || '';
-
-  if (rawQ) {
-    speechSegments.push({
-      text: `प्रश्न ${activeQuiz.currentIndex + 1}: ${rawQ.replace(/\n\[English:.*\]/g, '')}`,
-      lang: /[\u0900-\u097F]/.test(rawQ) ? 'hi-IN' : 'en-IN'
-    });
-  }
-
-  if (secQ) {
-    speechSegments.push({
-      text: `In English: ${secQ}`,
-      lang: 'en-IN'
-    });
-  }
-
-  if (Array.isArray(q.options)) {
-    q.options.forEach((opt, idx) => {
-      const letter = String.fromCharCode(65 + idx);
-      const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
-      speechSegments.push({
-        text: `विकल्प ${letter}: ${cleanOpt}.`,
-        lang: /[\u0900-\u097F]/.test(cleanOpt) ? 'hi-IN' : 'en-IN'
-      });
-    });
-  }
-
-  const speechBtn = document.getElementById('quizSpeechBtn');
-  if (speechBtn) {
-    speechBtn.classList.add('speech-pulse');
-    speechBtn.innerHTML = '<span>⏹️</span> <span class="hidden sm:inline">Stop Voice</span>';
-  }
   activeQuiz.isSpeaking = true;
+  activeSpeakingGender = gender;
+  updateQuizVoiceButtons();
+
+  const isFemale = gender === 'female';
+  const currLang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
+  const isEn = currLang === 'en';
+
+  const speechSegments = [];
+  const qNum = activeQuiz.currentIndex + 1;
+
+  if (isEn) {
+    const textQ = q.secondaryQ || q.q || '';
+    if (textQ) {
+      speechSegments.push({
+        text: `Question ${qNum}: ${textQ.replace(/\n\[English:.*\]/g, '')}`,
+        lang: 'en-IN'
+      });
+    }
+    if (Array.isArray(q.options)) {
+      q.options.forEach((opt, idx) => {
+        const letter = String.fromCharCode(65 + idx);
+        const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        speechSegments.push({
+          text: `Option ${letter}: ${cleanOpt}.`,
+          lang: 'en-IN'
+        });
+      });
+    }
+  } else {
+    const rawQ = q.q || '';
+    if (rawQ) {
+      speechSegments.push({
+        text: `प्रश्न ${qNum}: ${rawQ.replace(/\n\[English:.*\]/g, '')}`,
+        lang: /[ऀ-ॿ]/.test(rawQ) ? 'hi-IN' : 'en-IN'
+      });
+    }
+    if (q.secondaryQ && q.secondaryQ !== rawQ) {
+      speechSegments.push({
+        text: `In English: ${q.secondaryQ}`,
+        lang: 'en-IN'
+      });
+    }
+    if (Array.isArray(q.options)) {
+      q.options.forEach((opt, idx) => {
+        const letter = String.fromCharCode(65 + idx);
+        const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        speechSegments.push({
+          text: `विकल्प ${letter}: ${cleanOpt}.`,
+          lang: /[ऀ-ॿ]/.test(cleanOpt) ? 'hi-IN' : 'en-IN'
+        });
+      });
+    }
+  }
 
   speechSegments.forEach((seg, idx) => {
     const utt = new SpeechSynthesisUtterance(seg.text);
     utt.lang = seg.lang;
-    const voice = getSweetVoice(seg.lang, quizVoiceGender);
+    const voice = getSweetVoice(seg.lang, gender);
     if (voice) utt.voice = voice;
-    utt.rate = 0.93;
-    utt.pitch = isFemale ? 1.06 : 0.95;
+    utt.rate = isFemale ? 0.94 : 0.92;
+    utt.pitch = isFemale ? 1.15 : 0.85;
 
     if (idx === speechSegments.length - 1) {
       utt.onend = stopSpeaking;
@@ -186,6 +220,11 @@ function toggleSpeakActiveQuestion() {
     window.speechSynthesis.speak(utt);
   });
 }
+
+function toggleSpeakActiveQuestion() {
+  speakActiveQuestionGender(activeSpeakingGender || 'female');
+}
+
 
 // ----------------------------------------------------
 // Mode Switcher: 3 Distinct Mock Modes
@@ -1262,7 +1301,11 @@ function renderActiveQuestion() {
   activeQuiz.visited[activeQuiz.currentIndex] = true;
 
   // Header & Progress
-  document.getElementById('quizQuestionCounter').textContent = `Question ${currentNum} of ${total}`;
+  const currLang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
+  const counterEl = document.getElementById('quizQuestionCounter');
+  if (counterEl) {
+    counterEl.textContent = currLang === 'en' ? `Question ${currentNum} of ${total}` : `प्रश्न ${currentNum} / ${total}`;
+  }
   const pct = Math.round((currentNum / total) * 100);
   document.getElementById('quizProgressBar').style.width = `${pct}%`;
 
@@ -1394,13 +1437,19 @@ function renderActiveQuestion() {
   const prevBtn = document.getElementById('quizPrevBtn');
   const nextBtn = document.getElementById('quizNextBtn');
 
-  if (prevBtn) prevBtn.disabled = activeQuiz.currentIndex === 0;
+  if (prevBtn) {
+    prevBtn.disabled = activeQuiz.currentIndex === 0;
+    const prevText = typeof getTranslation === 'function' ? getTranslation('quiz_prev_btn') : '← Previous';
+    prevBtn.innerHTML = `<span>${prevText}</span>`;
+  }
   if (nextBtn) {
     if (activeQuiz.currentIndex === total - 1) {
-      nextBtn.innerHTML = `<span>🏁 Finish & Submit Test</span>`;
+      const finishText = typeof getTranslation === 'function' ? getTranslation('quiz_finish_btn') : 'Finish Test & See Scorecard';
+      nextBtn.innerHTML = `<span>${finishText}</span>`;
       nextBtn.onclick = () => submitQuiz(false);
     } else {
-      nextBtn.innerHTML = `<span>Next Question →</span>`;
+      const nextText = typeof getTranslation === 'function' ? getTranslation('quiz_next_btn') : 'Next Question →';
+      nextBtn.innerHTML = `<span>${nextText}</span>`;
       nextBtn.onclick = nextQuizQuestion;
     }
   }
@@ -1410,6 +1459,7 @@ function renderActiveQuestion() {
   renderSectionTabs();
   renderQuestionPalette();
   updateBookmarkButtonDisplay();
+  updateQuizVoiceButtons();
 }
 
 function handleOptionSelection(optionIndex) {
@@ -1428,7 +1478,11 @@ function handleOptionSelection(optionIndex) {
     });
 
     if (!activeQuiz.userAnswers.hasOwnProperty(qKey) && attemptedInSection >= currentSec.questionsToAttempt) {
-      alert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`);
+      if (typeof showAppAlert === 'function') {
+    showAppAlert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`, 'Section Limit', '⚠️');
+  } else {
+    alert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`);
+  }
       return;
     }
   }
@@ -1512,7 +1566,13 @@ function saveSubjectiveAnswer() {
   }
   renderQuestionPalette();
   saveActiveQuizState();
-  alert('उत्तर सुरक्षित कर लिया गया है।');
+  const langSave = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
+  const savedMsg = langSave === 'en' ? 'Your response has been saved.' : 'उत्तर सुरक्षित कर लिया गया है।';
+  if (typeof showAppAlert === 'function') {
+    showAppAlert(savedMsg, 'Save Response', '✅');
+  } else {
+    alert(savedMsg);
+  }
 }
 
 function nextQuizQuestion() {
@@ -1624,7 +1684,7 @@ async function submitQuiz(isAutoSubmit = false) {
   }
   activeQuiz.isRunning = false;
 
-  // If manual submission, confirm first
+  // If manual submission, ask confirmation via Centered App Modal (NO top browser popup)
   if (!isAutoSubmit) {
     let answered = 0;
     activeQuiz.questions.forEach((q, idx) => {
@@ -1633,8 +1693,14 @@ async function submitQuiz(isAutoSubmit = false) {
     const total = activeQuiz.questions.length;
     const unanswered = total - answered;
 
-    if (!confirm(`क्या आप टेस्ट सबमिट करना चाहते हैं?\n\nकुल प्रश्न: ${total}\nहल किए: ${answered}\nछोड़े गए: ${unanswered}`)) {
-      // Resume timer if cancelled
+    const currLang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
+    const isEn = currLang === 'en';
+
+    const statsDetail = isEn
+      ? `Total Questions: ${total}\nAnswered: ${answered}\nUnanswered: ${unanswered}`
+      : `कुल प्रश्न: ${total}\nहल किए: ${answered}\nछोड़े गए: ${unanswered}`;
+
+    const resumeTimer = () => {
       if (activeQuiz.timerMode === 'COUNTDOWN') {
         activeQuiz.timerInterval = setInterval(() => {
           activeQuiz.secondsRemaining--;
@@ -1647,9 +1713,32 @@ async function submitQuiz(isAutoSubmit = false) {
         }, 1000);
       }
       activeQuiz.isRunning = true;
+    };
+
+    if (typeof showAppConfirm === 'function') {
+      showAppConfirm({
+        type: 'submit_quiz',
+        message: statsDetail,
+        onConfirm: async () => {
+          await finalizeQuizSubmission(false);
+        },
+        onCancel: () => {
+          resumeTimer();
+        }
+      });
       return;
+    } else {
+      if (!confirm(`Submit Test?\n\n${statsDetail}`)) {
+        resumeTimer();
+        return;
+      }
     }
   }
+
+  await finalizeQuizSubmission(isAutoSubmit);
+}
+
+async function finalizeQuizSubmission(isAutoSubmit = false) {
 
   try { sessionStorage.removeItem('sarkari_active_quiz'); } catch (e) {}
 
@@ -1837,7 +1926,15 @@ function resetQuiz() {
 }
 
 function exitQuizTest() {
-  if (confirm('क्या आप सच में टेस्ट छोड़ना चाहते हैं?')) {
+  stopSpeaking();
+  if (typeof showAppConfirm === 'function') {
+    showAppConfirm({
+      type: 'exit_quiz',
+      onConfirm: () => {
+        resetQuiz();
+      }
+    });
+  } else if (confirm('Are you sure you want to exit the test?')) {
     resetQuiz();
   }
 }
@@ -1968,19 +2065,38 @@ function updateBookmarkButtonDisplay() {
   const btn = document.getElementById('quizBookmarkBtn');
   if (!btn) return;
   const isBm = isCurrentQuestionBookmarked();
+  const star = document.getElementById('quizBookmarkStar');
+  const label = document.getElementById('quizBookmarkLabel');
+  const bmKey = isBm ? 'quiz_bookmarked_btn' : 'quiz_bookmark_btn';
+  const text = typeof getTranslation === 'function' ? getTranslation(bmKey) : (isBm ? 'Bookmarked' : 'Bookmark');
+
   if (isBm) {
-    btn.className = "text-xs font-black text-amber-900 bg-amber-300 border-2 border-amber-500 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
-    btn.innerHTML = '<span>★</span> <span class="hidden sm:inline">Bookmarked (सेव्ड)</span>';
+    btn.className = "text-xs font-black text-amber-900 bg-amber-300 border-2 border-amber-500 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm active:scale-95";
+    if (star) star.textContent = '★';
+    if (label) label.textContent = text.replace(/^[★☆]\s*/, '');
+    else btn.innerHTML = `<span>★</span> <span class="hidden sm:inline">${text.replace(/^[★☆]\s*/, '')}</span>`;
+    btn.title = text;
   } else {
-    btn.className = "text-xs font-bold text-slate-700 hover:text-amber-800 hover:bg-amber-100 bg-slate-100 border border-slate-300 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
-    btn.innerHTML = '<span>☆</span> <span class="hidden sm:inline">Bookmark (कठिन प्रश्न)</span>';
+    btn.className = "text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-amber-800 dark:hover:text-amber-300 hover:bg-amber-100 dark:hover:bg-slate-700 bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm active:scale-95";
+    if (star) star.textContent = '☆';
+    if (label) label.textContent = text.replace(/^[★☆]\s*/, '');
+    else btn.innerHTML = `<span>☆</span> <span class="hidden sm:inline">${text.replace(/^[★☆]\s*/, '')}</span>`;
+    btn.title = text;
   }
 }
 
 function startRevisionQuiz() {
   const bookmarks = getBookmarkedQuestions();
   if (!bookmarks || bookmarks.length === 0) {
-    alert('आपकी रिवीजन तिजोरी अभी खाली है!\n\nकठिन प्रश्नों पर Bookmark बटन दबाकर सेव करें।');
+    const langRev = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
+    const msg = langRev === 'en'
+      ? 'Your Revision Vault is currently empty!\n\nClick the Bookmark button (☆) on any difficult questions during your mock tests to save them here for revision.'
+      : 'आपकी रिवीजन तिजोरी अभी खाली है!\n\nकठिन प्रश्नों पर दिए गए Bookmark (☆) बटन पर क्लिक करके उन्हें यहाँ सेव करें।';
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(msg, 'Revision Vault', '⭐');
+    } else {
+      alert(msg);
+    }
     return;
   }
   activeQuiz.mode = 'PRACTICE';
@@ -2014,29 +2130,41 @@ function renderRevisionVault() {
   const container = document.getElementById('revisionVaultContainer');
   if (!container) return;
   const bookmarks = getBookmarkedQuestions();
+  const lang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
+  const isEn = lang === 'en';
 
   if (bookmarks.length === 0) {
+    const emptyTitle = isEn ? 'Your Revision Vault is Empty' : 'आपकी रिवीजन तिजोरी अभी खाली है';
+    const emptySub = isEn
+      ? 'Click the Bookmark button (☆) on any difficult questions during your mock tests to save them here for revision.'
+      : 'कठिन प्रश्नों के ऊपर दिए गए Bookmark (☆) बटन पर क्लिक करके उन्हें यहाँ सेव करें।';
+    const mockBtn = isEn ? '🎯 Go to Live Mock Test' : '🎯 लाइव मॉक टेस्ट पर जाएं';
+
     container.innerHTML = `
       <div class="bg-white rounded-3xl p-8 sm:p-12 text-center border-2 border-dashed border-amber-300 shadow-sm space-y-4">
         <div class="w-16 h-16 mx-auto rounded-3xl bg-amber-100 flex items-center justify-center text-3xl">⭐</div>
-        <h3 class="text-lg font-black text-slate-900">Your Revision Vault is Empty (तिजोरी खाली है)</h3>
-        <p class="text-xs sm:text-sm text-slate-500 max-w-md mx-auto">कठिन प्रश्नों के ऊपर दिए गए Bookmark बटन पर क्लिक करके उन्हें यहाँ सेव करें।</p>
+        <h3 class="text-lg font-black text-slate-900">${emptyTitle}</h3>
+        <p class="text-xs sm:text-sm text-slate-500 max-w-md mx-auto">${emptySub}</p>
         <a href="#tool/quiz" class="inline-flex items-center space-x-2 bg-gradient-to-r from-rose-600 to-orange-600 text-white font-black text-xs px-6 py-3 rounded-2xl shadow-md">
-          <span>🎯 Go to Live Mock Test</span>
+          <span>${mockBtn}</span>
         </a>
       </div>
     `;
     return;
   }
 
+  const headerTitle = isEn ? `Revision Vault (${bookmarks.length} Saved Questions)` : `रिवीजन वॉल्ट (${bookmarks.length} सेव किए गए प्रश्न)`;
+  const headerSub = isEn ? 'Practice these saved tough questions repeatedly until mastered.' : 'इन कठिन प्रश्नों का बार-बार अभ्यास करें जब तक पूरी तरह कंठस्थ न हो जाएं।';
+  const startBtn = isEn ? '🚀 Start Revision Test' : '🚀 रिवीजन टेस्ट शुरू करें';
+
   container.innerHTML = `
     <div class="bg-gradient-to-br from-amber-900 to-slate-900 text-white rounded-3xl p-6 shadow-xl border border-amber-600/40 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
       <div>
-        <h2 class="text-2xl font-black">Revision Vault (${bookmarks.length} Saved Questions)</h2>
-        <p class="text-xs text-amber-200 mt-1">इन कठिन प्रश्नों का बार-बार अभ्यास करें।</p>
+        <h2 class="text-2xl font-black">${headerTitle}</h2>
+        <p class="text-xs text-amber-200 mt-1">${headerSub}</p>
       </div>
       <button onclick="startRevisionQuiz()" class="bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-black text-xs px-5 py-3 rounded-2xl shadow-lg cursor-pointer">
-        🚀 Start Revision Test
+        ${startBtn}
       </button>
     </div>
   `;
@@ -2092,6 +2220,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 window.addEventListener('languageChanged', () => {
+  updateQuizVoiceButtons();
+  updateBookmarkButtonDisplay();
   updateBlueprintSummaryDisplay();
   updateDependentDropdowns();
   if (typeof activeQuiz !== 'undefined' && activeQuiz && activeQuiz.isRunning) {
@@ -2101,3 +2231,6 @@ window.addEventListener('languageChanged', () => {
   }
 });
 
+
+window.speakActiveQuestionGender = speakActiveQuestionGender;
+window.updateQuizVoiceButtons = updateQuizVoiceButtons;

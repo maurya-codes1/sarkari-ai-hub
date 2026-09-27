@@ -1414,22 +1414,24 @@
             </span>
           </div>
 
-          <!-- Question Action Tools: Speech + Sweet Voice Toggle + Bookmark -->
-          <div class="flex items-center space-x-2">
-            <button id="quizSpeechBtn" type="button" onclick="toggleSpeakActiveQuestion()" class="text-xs font-bold text-indigo-700 hover:text-white hover:bg-indigo-600 bg-indigo-50 dark:bg-slate-800 dark:text-indigo-300 dark:border-indigo-800 border border-indigo-200 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm active:scale-95" title="Listen question and options in audio (आवाज में प्रश्न सुनें)">
-              <span>🔊</span>
-              <span class="hidden sm:inline" data-i18n="quiz_listen_btn">Listen</span>
+          <!-- Question Action Tools: Dual Separate Voice Buttons (Male & Female) + Bookmark -->
+          <div class="flex items-center space-x-1.5 sm:space-x-2">
+            <!-- Male Voice Button -->
+            <button id="quizMaleVoiceBtn" type="button" onclick="speakActiveQuestionGender('male')" class="text-xs font-bold text-sky-800 dark:text-sky-300 hover:text-white hover:bg-sky-600 bg-sky-50 dark:bg-slate-800 dark:border-sky-800 border border-sky-300 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95" title="Male Voice">
+              <span id="quizMaleVoiceIcon">👨</span>
+              <span id="quizMaleVoiceLabel" class="hidden sm:inline" data-i18n="quiz_male_sound_btn">Male Voice</span>
             </button>
 
-            <!-- Sweet Voice Selector: Toggle Female (सुरीली आवाज) / Male (मधुर आवाज) -->
-            <button id="quizVoiceToggleBtn" type="button" onclick="toggleQuizVoiceGender()" class="text-xs font-bold text-pink-700 dark:text-pink-300 hover:bg-pink-100 dark:hover:bg-slate-700 bg-pink-50 dark:bg-slate-800 border border-pink-200 dark:border-slate-700 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95" title="Toggle Male / Female Sweet Voice (आवाज बदलें: महिला / पुरुष)">
-              <span id="quizVoiceIcon">👩</span>
-              <span id="quizVoiceLabel" class="hidden sm:inline">सुरीली आवाज</span>
+            <!-- Female Voice Button -->
+            <button id="quizFemaleVoiceBtn" type="button" onclick="speakActiveQuestionGender('female')" class="text-xs font-bold text-pink-700 dark:text-pink-300 hover:text-white hover:bg-pink-600 bg-pink-50 dark:bg-slate-800 dark:border-pink-800 border border-pink-300 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95" title="Female Voice">
+              <span id="quizFemaleVoiceIcon">👩</span>
+              <span id="quizFemaleVoiceLabel" class="hidden sm:inline" data-i18n="quiz_female_sound_btn">Female Voice</span>
             </button>
 
-            <button id="quizBookmarkBtn" type="button" onclick="toggleBookmarkCurrentQuestion()" class="text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-amber-800 dark:hover:text-amber-300 hover:bg-amber-100 dark:hover:bg-slate-700 bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm active:scale-95" title="Bookmark difficult question for revision (कठिन प्रश्न सेव करें)">
-              <span>☆</span>
-              <span class="hidden sm:inline" data-i18n="quiz_bookmark_btn">Bookmark</span>
+            <!-- Bookmark Button -->
+            <button id="quizBookmarkBtn" type="button" onclick="toggleBookmarkCurrentQuestion()" class="text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-amber-800 dark:hover:text-amber-300 hover:bg-amber-100 dark:hover:bg-slate-700 bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm active:scale-95" title="Bookmark">
+              <span id="quizBookmarkStar">☆</span>
+              <span id="quizBookmarkLabel" class="hidden sm:inline" data-i18n="quiz_bookmark_btn">Bookmark</span>
             </button>
           </div>
 
@@ -1439,9 +1441,9 @@
             <div id="quizLiveTimer" class="font-mono text-xs font-black text-slate-800 bg-amber-100/80 px-3 py-1.5 rounded-xl border border-amber-300">
               ⏱️ 00:00
             </div>
-            <button type="button" onclick="exitQuizTest()" class="text-xs font-bold text-rose-700 hover:text-white hover:bg-rose-600 border border-rose-300 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm">
+            <button id="quizExitBtn" type="button" onclick="exitQuizTest()" class="text-xs font-bold text-rose-700 hover:text-white hover:bg-rose-600 border border-rose-300 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm">
               <span>🚪</span>
-              <span data-i18n="quiz_exit_btn">Exit (क्विज़ छोड़ें)</span>
+              <span data-i18n="quiz_exit_btn">Exit Test</span>
             </button>
           </div>
         </div>
@@ -1558,7 +1560,7 @@
           </button>
           <button type="button" onclick="exitQuizTest()" class="w-full sm:w-auto bg-slate-100 hover:bg-rose-50 text-rose-700 hover:text-rose-800 border border-slate-300 hover:border-rose-300 font-bold text-xs py-3 px-5 rounded-2xl transition flex items-center justify-center space-x-1.5 cursor-pointer active:scale-95">
             <span>🚪</span>
-            <span data-i18n="quiz_exit_btn">Exit Test (क्विज़ छोड़ें)</span>
+            <span data-i18n="quiz_exit_btn">Exit Test</span>
           </button>
         </div>
 

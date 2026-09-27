@@ -1,5 +1,7 @@
-// Comprehensive Multilingual i18n Translation Dictionary
-// 24 Official Indian Languages (22 Eighth Schedule + English + Bhojpuri)
+/**
+ * Universal Multilingual Translation Dictionary (24 Indian Languages + English & Hinglish)
+ * Full Coverage for Government Exams, Study Tools, Document Verification, and Live CBT Engine
+ */
 
 const I18N_DATA = {
   "en": {
@@ -172,7 +174,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 All-Subject Pack ₹19",
     "quiz_listen_btn": "🔊 Listen",
     "quiz_bookmark_btn": "☆ Bookmark",
-    "quiz_exit_btn": "Exit Test (क्विज़ छोड़ें)",
+    "quiz_exit_btn": "Exit Test",
     "quiz_prev_btn": "← Previous",
     "quiz_next_btn": "Next Question →",
     "quiz_finish_btn": "🏁 Finish Test & See Scorecard",
@@ -412,7 +414,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 Adaptive Practice Engine (8 Modes)",
     "nav_analytics": "📊 Honest Candidate Analytics",
     "nav_planner_leitner": "⏰ Study Planner & Leitner Revision",
-    "nav_matrix": "🗺️ Nationwide Coverage Matrix"
+    "nav_matrix": "🗺️ Nationwide Coverage Matrix",
+    "quiz_male_sound_btn": "Male Voice",
+    "quiz_female_sound_btn": "Female Voice",
+    "quiz_stop_voice_btn": "Stop Voice",
+    "quiz_bookmarked_btn": "★ Bookmarked"
   },
   "hi": {
     "brand_title": "सरकारी AI हब",
@@ -583,8 +589,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभी विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "क्विज़ छोड़ें",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "🏁 टेस्ट सबमिट करें व स्कोरकार्ड देखें",
@@ -824,7 +830,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूली अभ्यास इंजन (8 मोड)",
     "nav_analytics": "📊 निष्पक्ष उम्मीदवार विश्लेषिकी",
     "nav_planner_leitner": "⏰ अध्ययन योजना एवं लीटनर पुनरीक्षण",
-    "nav_matrix": "🗺️ राष्ट्रव्यापी कवरेज मैट्रिक्स"
+    "nav_matrix": "🗺️ राष्ट्रव्यापी कवरेज मैट्रिक्स",
+    "quiz_male_sound_btn": "पुरुष आवाज़",
+    "quiz_female_sound_btn": "महिला आवाज़",
+    "quiz_stop_voice_btn": "आवाज़ रोकें",
+    "quiz_bookmarked_btn": "★ सेव्ड"
   },
   "hi-latn": {
     "brand_title": "SarkariAI Hub",
@@ -995,8 +1005,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 Subject PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 All-Subject Pack ₹19",
     "quiz_listen_btn": "🔊 Awaaz me sunein",
-    "quiz_bookmark_btn": "☆ Bookmark karein",
-    "quiz_exit_btn": "Quiz Chhodein (Exit Test)",
+    "quiz_bookmark_btn": "☆ Bookmark",
+    "quiz_exit_btn": "Quiz Chhodein",
     "quiz_prev_btn": "← Pichhla Sawal",
     "quiz_next_btn": "Agla Sawal →",
     "quiz_finish_btn": "🏁 Finish Test & Scorecard Dekhein",
@@ -1236,7 +1246,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 Adaptive Practice Engine (8 Modes)",
     "nav_analytics": "📊 Honest Candidate Analytics",
     "nav_planner_leitner": "⏰ Study Planner aur Leitner Revision",
-    "nav_matrix": "🗺️ Nationwide Coverage Matrix"
+    "nav_matrix": "🗺️ Nationwide Coverage Matrix",
+    "quiz_male_sound_btn": "Male Voice",
+    "quiz_female_sound_btn": "Female Voice",
+    "quiz_stop_voice_btn": "Voice Rokein",
+    "quiz_bookmarked_btn": "★ Bookmarked"
   },
   "ta": {
     "brand_title": "சர்க்காரி AI ஹப்",
@@ -1408,7 +1422,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 அனைத்து பாடங்கள் ₹19",
     "quiz_listen_btn": "🔊 கேட்கவும்",
     "quiz_bookmark_btn": "☆ புக்மார்க்",
-    "quiz_exit_btn": "வெளியேறு (Exit Test)",
+    "quiz_exit_btn": "வெளியேறு",
     "quiz_prev_btn": "← முந்தையது",
     "quiz_next_btn": "அடுத்த வினா →",
     "quiz_finish_btn": "🏁 தேர்வை முடித்து மதிப்பெண் அட்டையைக் காண்க",
@@ -1648,7 +1662,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 தகவமைப்பு பயிற்சி இயந்திரம் (8 முறைகள்)",
     "nav_analytics": "📊 நேர்மையான வேட்பாளர் பகுப்பாய்வு",
     "nav_planner_leitner": "⏰ படிப்பு திட்டமிடுபவர் & லைட்னர் திருத்தம்",
-    "nav_matrix": "🗺️ நாடு தழுவிய கவரேஜ் மேட்ரிக்ஸ்"
+    "nav_matrix": "🗺️ நாடு தழுவிய கவரேஜ் மேட்ரிக்ஸ்",
+    "quiz_male_sound_btn": "ஆண் குரல்",
+    "quiz_female_sound_btn": "பெண் குரல்",
+    "quiz_stop_voice_btn": "குரலை நிறுத்து",
+    "quiz_bookmarked_btn": "★ சேமிக்கப்பட்டது"
   },
   "te": {
     "brand_title": "సర్కారీ AI హబ్",
@@ -1820,7 +1838,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 అన్ని సబ్జెక్టుల ప్యాక్ ₹19",
     "quiz_listen_btn": "🔊 వినండి",
     "quiz_bookmark_btn": "☆ బుక్‌మార్క్",
-    "quiz_exit_btn": "నిష్క్రమించు (Exit Test)",
+    "quiz_exit_btn": "నిష్క్రమించు",
     "quiz_prev_btn": "← మునుపటిది",
     "quiz_next_btn": "తదుపరి ప్రశ్న →",
     "quiz_finish_btn": "🏁 పరీక్షను పూర్తి చేసి స్కోర్‌కార్డ్ చూడండి",
@@ -2060,7 +2078,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 అడాప్టివ్ ప్రాక్టీస్ ఇంజిన్ (8 మోడ్‌లు)",
     "nav_analytics": "📊 నిజాయితీగల అభ్యర్థి విశ్లేషణలు",
     "nav_planner_leitner": "⏰ అధ్యయన ప్రణాళిక & లైట్నర్ రివిజన్",
-    "nav_matrix": "🗺️ దేశవ్యాప్త కవరేజ్ మాతృక"
+    "nav_matrix": "🗺️ దేశవ్యాప్త కవరేజ్ మాతృక",
+    "quiz_male_sound_btn": "పురుష స్వరం",
+    "quiz_female_sound_btn": "స్త్రీ స్వరం",
+    "quiz_stop_voice_btn": "స్వరం ఆపు",
+    "quiz_bookmarked_btn": "★ సేవ్ చేయబడింది"
   },
   "mr": {
     "brand_title": "सरकारी AI हब",
@@ -2232,7 +2254,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 सर्व विषयांचे पॅक ₹१९",
     "quiz_listen_btn": "🔊 ऐका",
     "quiz_bookmark_btn": "☆ बुकमार्क",
-    "quiz_exit_btn": "चाचणी सोडा (Exit Test)",
+    "quiz_exit_btn": "चाचणी सोडा",
     "quiz_prev_btn": "← मागील प्रश्न",
     "quiz_next_btn": "पुढील प्रश्न →",
     "quiz_finish_btn": "🏁 टेस्ट पूर्ण करा व निकाल पहा",
@@ -2472,7 +2494,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूलन सराव इंजिन (8 पद्धती)",
     "nav_analytics": "📊 प्रामाणिक उमेदवार विश्लेषण",
     "nav_planner_leitner": "⏰ अभ्यास नियोजक व लाइट्नर पुनरावृत्ती",
-    "nav_matrix": "🗺️ देशव्यापी कव्हरेज मॅट्रिक्स"
+    "nav_matrix": "🗺️ देशव्यापी कव्हरेज मॅट्रिक्स",
+    "quiz_male_sound_btn": "पुरुष आवाज",
+    "quiz_female_sound_btn": "महिला आवाज",
+    "quiz_stop_voice_btn": "आवाज थांबवा",
+    "quiz_bookmarked_btn": "★ सेव्ह केले"
   },
   "bn": {
     "brand_title": "সরকারি AI হাব",
@@ -2644,7 +2670,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 সমস্ত বিষয়ের প্যাক ₹১৯",
     "quiz_listen_btn": "🔊 শুনুন",
     "quiz_bookmark_btn": "☆ বুকমার্ক",
-    "quiz_exit_btn": "কুইজ ছাড়ুন (Exit Test)",
+    "quiz_exit_btn": "কুইজ ত্যাগ করুন",
     "quiz_prev_btn": "← পূর্ববর্তী",
     "quiz_next_btn": "পরবর্তী প্রশ্ন →",
     "quiz_finish_btn": "🏁 পরীক্ষা জমা দিন ও স্কোরকার্ড দেখুন",
@@ -2884,7 +2910,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 অভিযোজিত অনুশীলন ইঞ্জিন (৮টি মোড)",
     "nav_analytics": "📊 সৎ প্রার্থী বিশ্লেষণ",
     "nav_planner_leitner": "⏰ অধ্যয়ন পরিকল্পনাকারী ও লাইটনার পুনরাবৃত্তি",
-    "nav_matrix": "🗺️ দেশব্যাপী কভারেজ ম্যাট্রিক্স"
+    "nav_matrix": "🗺️ দেশব্যাপী কভারেজ ম্যাট্রিক্স",
+    "quiz_male_sound_btn": "পুরুষ কণ্ঠ",
+    "quiz_female_sound_btn": "মহিলা কণ্ঠ",
+    "quiz_stop_voice_btn": "কণ্ঠ থামান",
+    "quiz_bookmarked_btn": "★ সংরক্ষিত"
   },
   "gu": {
     "brand_title": "સરકારી AI હબ",
@@ -3056,7 +3086,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 તમામ વિષયોનું પેક ₹૧૯",
     "quiz_listen_btn": "🔊 સાંભળો",
     "quiz_bookmark_btn": "☆ બુકમાર્ક",
-    "quiz_exit_btn": "ટેસ્ટ છોડો (Exit Test)",
+    "quiz_exit_btn": "ટેસ્ટ છોડો",
     "quiz_prev_btn": "← પાછળનો પ્રશ્ન",
     "quiz_next_btn": "આગળનો પ્રશ્ન →",
     "quiz_finish_btn": "🏁 ટેસ્ટ સબમિટ કરો અને સ્કોરકાર્ડ જુઓ",
@@ -3296,7 +3326,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 અનુકૂલિત પ્રેક્ટિસ એન્જિન (8 મોડ્સ)",
     "nav_analytics": "📊 પ્રમાણિક ઉમેદવાર વિશ્લેષણ",
     "nav_planner_leitner": "⏰ અભ્યાસ આયોજક અને લાઇટનર રિવિઝન",
-    "nav_matrix": "🗺️ રાષ્ટ્રવ્યાપી કવરેજ મેટ્રિક્સ"
+    "nav_matrix": "🗺️ રાષ્ટ્રવ્યાપી કવરેજ મેટ્રિક્સ",
+    "quiz_male_sound_btn": "પુરુષ અવાજ",
+    "quiz_female_sound_btn": "મહિલા અવાજ",
+    "quiz_stop_voice_btn": "અવાજ રોકો",
+    "quiz_bookmarked_btn": "★ સાચવેલ"
   },
   "kn": {
     "brand_title": "ಸರ್ಕಾರಿ AI ಹಬ್",
@@ -3468,7 +3502,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 ಎಲ್ಲಾ ವಿಷಯಗಳ ಪ್ಯಾಕ್ ₹19",
     "quiz_listen_btn": "🔊 ಆಲಿಸಿ",
     "quiz_bookmark_btn": "☆ ಬುಕ್‌ಮಾರ್ಕ್",
-    "quiz_exit_btn": "ನಿರ್ಗಮಿಸಿ (Exit Test)",
+    "quiz_exit_btn": "ನಿರ್ಗಮಿಸಿ",
     "quiz_prev_btn": "← ಹಿಂದಿನದು",
     "quiz_next_btn": "ಮುಂದಿನ ಪ್ರಶ್ನೆ →",
     "quiz_finish_btn": "🏁 ಪರೀಕ್ಷೆ ಮುಗಿಸಿ ಸ್ಕೋರ್‌ಕಾರ್ಡ್ ನೋಡಿ",
@@ -3708,7 +3742,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 ಹೊಂದಾಣಿಕೆಯ ಅಭ್ಯಾಸ ಎಂಜಿನ್ (8 ವಿಧಾನಗಳು)",
     "nav_analytics": "📊 ಪ್ರಾಮಾಣಿಕ ಅಭ್ಯರ್ಥಿ ವಿಶ್ಲೇಷಣೆ",
     "nav_planner_leitner": "⏰ ಅಧ್ಯಯನ ಯೋಜಕ ಮತ್ತು ಲೈಟ್ನರ್ ಪುನರಾವರ್ತನೆ",
-    "nav_matrix": "🗺️ ದೇಶವ್ಯಾಪಿ ವ್ಯಾಪ್ತಿ ಮ್ಯಾಟ್ರಿಕ್ಸ್"
+    "nav_matrix": "🗺️ ದೇಶವ್ಯಾಪಿ ವ್ಯಾಪ್ತಿ ಮ್ಯಾಟ್ರಿಕ್ಸ್",
+    "quiz_male_sound_btn": "ಪುರುಷ ಧ್ವನಿ",
+    "quiz_female_sound_btn": "ಮಹಿಳಾ ಧ್ವನಿ",
+    "quiz_stop_voice_btn": "ಧ್ವನಿ ನಿಲ್ಲಿಸಿ",
+    "quiz_bookmarked_btn": "★ ಉಳಿಸಲಾಗಿದೆ"
   },
   "ml": {
     "brand_title": "സർക്കാരി AI ഹബ്",
@@ -3880,7 +3918,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 എല്ലാ വിഷയങ്ങളും ₹19",
     "quiz_listen_btn": "🔊 കേൾക്കുക",
     "quiz_bookmark_btn": "☆ ബുക്ക്മാർക്ക്",
-    "quiz_exit_btn": "പുറത്തുകടക്കുക (Exit Test)",
+    "quiz_exit_btn": "പുറത്തുകടക്കുക",
     "quiz_prev_btn": "← മുമ്പത്തേത്",
     "quiz_next_btn": "അടുത്ത ചോദ്യം →",
     "quiz_finish_btn": "🏁 ടെസ്റ്റ് സമർപ്പിച്ച് സ്കോർകാർഡ് കാണുക",
@@ -4120,7 +4158,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 അഡാപ്റ്റീവ് പ്രാക്ടീസ് എഞ്ചിൻ (8 മോഡുകൾ)",
     "nav_analytics": "📊 സത്യസന്ധമായ സ്ഥാനാർത്ഥി വിശകലനം",
     "nav_planner_leitner": "⏰ പഠന പ്ലാനറും ലൈറ്റ്നർ റിവിഷനും",
-    "nav_matrix": "🗺️ രാജ്യവ്യാപക കവറേജ് മാട്രിക്സ്"
+    "nav_matrix": "🗺️ രാജ്യവ്യാപക കവറേജ് മാട്രിക്സ്",
+    "quiz_male_sound_btn": "പുരുഷ ശബ്ദം",
+    "quiz_female_sound_btn": "സ്ത്രീ ശബ്ദം",
+    "quiz_stop_voice_btn": "ശബ്ദം നിർത്തുക",
+    "quiz_bookmarked_btn": "★ സൂക്ഷിച്ചു"
   },
   "pa": {
     "brand_title": "ਸਰਕਾਰੀ AI ਹੱਬ",
@@ -4292,7 +4334,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 ਸਾਰੇ ਵਿਸ਼ਿਆਂ ਦਾ ਪੈਕ ₹19",
     "quiz_listen_btn": "🔊 ਸੁਣੋ",
     "quiz_bookmark_btn": "☆ ਬੁੱਕਮਾਰਕ",
-    "quiz_exit_btn": "ਟੈਸਟ ਛੱਡੋ (Exit Test)",
+    "quiz_exit_btn": "ਟੈਸਟ ਛੱਡੋ",
     "quiz_prev_btn": "← ਪਿਛਲਾ",
     "quiz_next_btn": "ਅਗਲਾ ਸਵਾਲ →",
     "quiz_finish_btn": "🏁 ਟੈਸਟ ਖ਼ਤਮ ਕਰੋ ਅਤੇ ਸਕੋਰਕਾਰਡ ਦੇਖੋ",
@@ -4532,7 +4574,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 ਅਨੁਕੂਲ ਅਭਿਆਸ ਇੰਜਣ (8 ਮੋਡ)",
     "nav_analytics": "📊 ਇਮਾਨਦਾਰ ਉਮੀਦਵਾਰ ਵਿਸ਼ਲੇਸ਼ਣ",
     "nav_planner_leitner": "⏰ ਅਧਿਐਨ ਯੋਜਨਾਕਾਰ ਅਤੇ ਲਾਈਟਨਰ ਦੁਹਰਾਈ",
-    "nav_matrix": "🗺️ ਦੇਸ਼ ਵਿਆਪੀ ਕਵਰੇਜ ਮੈਟ੍ਰਿਕਸ"
+    "nav_matrix": "🗺️ ਦੇਸ਼ ਵਿਆਪੀ ਕਵਰੇਜ ਮੈਟ੍ਰਿਕਸ",
+    "quiz_male_sound_btn": "ਪੁਰਸ਼ ਆਵਾਜ਼",
+    "quiz_female_sound_btn": "ਔਰਤ ਆਵਾਜ਼",
+    "quiz_stop_voice_btn": "ਆਵਾਜ਼ ਰੋਕੋ",
+    "quiz_bookmarked_btn": "★ ਸੰਭਾਲਿਆ"
   },
   "ur": {
     "brand_title": "سرکاری AI ہب",
@@ -4703,8 +4749,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 ایک مضمون PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 تمام مضامین کا پیک ₹19",
     "quiz_listen_btn": "🔊 سنیں",
-    "quiz_bookmark_btn": "☆ بک مارک",
-    "quiz_exit_btn": "ٹیسٹ چھوڑیں (Exit Test)",
+    "quiz_bookmark_btn": "☆ بُک مارک",
+    "quiz_exit_btn": "ٹیسٹ چھوڑیں",
     "quiz_prev_btn": "← پچھلا سوال",
     "quiz_next_btn": "اگلا سوال →",
     "quiz_finish_btn": "🏁 ٹیسٹ مکمل کریں اور اسکور کارڈ دیکھیں",
@@ -4944,7 +4990,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 انکولی مشق انجن (8 طریقے)",
     "nav_analytics": "📊 شفاف امیدوار تجزیات",
     "nav_planner_leitner": "⏰ اسٹڈی پلانر اور لیٹنر نظرثانی",
-    "nav_matrix": "🗺️ ملک گیر کوریج میٹرکس"
+    "nav_matrix": "🗺️ ملک گیر کوریج میٹرکس",
+    "quiz_male_sound_btn": "مردانہ آواز",
+    "quiz_female_sound_btn": "زنانی آواز",
+    "quiz_stop_voice_btn": "آواز روکیں",
+    "quiz_bookmarked_btn": "★ محفوظ شدہ"
   },
   "or": {
     "brand_title": "ସରକାରୀ AI ହବ୍",
@@ -5116,7 +5166,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 ସମସ୍ତ ବିଷୟ ପ୍ୟାକ୍ ₹୧୯",
     "quiz_listen_btn": "🔊 ଶୁଣନ୍ତୁ",
     "quiz_bookmark_btn": "☆ ବୁକ୍‌ମାର୍କ",
-    "quiz_exit_btn": "ପରୀକ୍ଷା ଛାଡନ୍ତୁ (Exit Test)",
+    "quiz_exit_btn": "ପରୀକ୍ଷା ଛାଡନ୍ତୁ",
     "quiz_prev_btn": "← ପୂର୍ବ ପ୍ରଶ୍ନ",
     "quiz_next_btn": "ପରବର୍ତ୍ତୀ ପ୍ରଶ୍ନ →",
     "quiz_finish_btn": "🏁 ଟେଷ୍ଟ ଶେଷ କରି ସ୍କୋରକାର୍ଡ ଦେଖନ୍ତୁ",
@@ -5356,7 +5406,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 ଅନୁକୂଳ ଅଭ୍ୟାସ ଇଞ୍ଜିନ୍ (୮ଟି ମୋଡ୍)",
     "nav_analytics": "📊 ନିରପେକ୍ଷ ପ୍ରାର୍ଥୀ ବିଶ୍ଳେଷଣ",
     "nav_planner_leitner": "⏰ ଅଧ୍ୟୟନ ଯୋଜନା ଓ ଲାଇଟନର ପୁନରାବୃତ୍ତି",
-    "nav_matrix": "🗺️ ସାରା ଦେଶର କଭରେଜ୍ ମ୍ୟାଟ୍ରିକ୍ସ"
+    "nav_matrix": "🗺️ ସାରା ଦେଶର କଭରେଜ୍ ମ୍ୟାଟ୍ରିକ୍ସ",
+    "quiz_male_sound_btn": "ପୁରୁଷ ସ୍ୱର",
+    "quiz_female_sound_btn": "ମହିଳା ସ୍ୱର",
+    "quiz_stop_voice_btn": "ସ୍ୱର ବନ୍ଦ କରନ୍ତୁ",
+    "quiz_bookmarked_btn": "★ ସଂରକ୍ଷିତ"
   },
   "sa": {
     "brand_title": "सरकारी AI केन्द्रम्",
@@ -5528,7 +5582,7 @@ const I18N_DATA = {
     "quiz_bundle_pdf_btn": "📦 सर्वविषय सङ्ग्रहः ₹19",
     "quiz_listen_btn": "🔊 शृण्वन्तु",
     "quiz_bookmark_btn": "☆ चिह्नयतु",
-    "quiz_exit_btn": "प्रश्नोत्तरीं त्यजतु (Exit Test)",
+    "quiz_exit_btn": "प्रश्नोत्तरीं त्यजतु",
     "quiz_prev_btn": "← पूर्व प्रश्नः",
     "quiz_next_btn": "अग्रिम प्रश्नः →",
     "quiz_finish_btn": "🏁 परीक्षां समाप्य फलपत्रं पश्यतु",
@@ -5768,7 +5822,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूल अभ्यास यन्त्रम् (८ प्रकाराः)",
     "nav_analytics": "📊 यथार्थ अभ्यर्थी विश्लेषणम्",
     "nav_planner_leitner": "⏰ अध्ययन योजना एवं लीटनर आवृत्ति",
-    "nav_matrix": "🗺️ राष्ट्रव्यापी व्याप्ति व्यूहः"
+    "nav_matrix": "🗺️ राष्ट्रव्यापी व्याप्ति व्यूहः",
+    "quiz_male_sound_btn": "पुंस्वरः",
+    "quiz_female_sound_btn": "स्त्रीस्वरः",
+    "quiz_stop_voice_btn": "स्वरं स्थगयतु",
+    "quiz_bookmarked_btn": "★ रक्षितम्"
   },
   "as": {
     "brand_title": "सरकारी AI हब",
@@ -5939,8 +5997,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 সকলো विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ বুকমাৰ্ক",
+    "quiz_exit_btn": "পৰীক্ষা এৰক",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "মক টেষ্ট জমা কৰক",
@@ -6180,7 +6238,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 অভিযোজিত অভ্যাস ইঞ্জিন (৮টা মোড)",
     "nav_analytics": "📊 নিৰপেক্ষ প্ৰাৰ্থী বিশ্লেষণ",
     "nav_planner_leitner": "⏰ অধ্যয়ন পৰিকল্পনাকাৰী আৰু লাইটনাৰ পুনৰীক্ষণ",
-    "nav_matrix": "🗺️ সমগ্ৰ দেশৰ কভাৰেজ মেট্ৰিক্স"
+    "nav_matrix": "🗺️ সমগ্ৰ দেশৰ কভাৰেজ মেট্ৰিক্স",
+    "quiz_male_sound_btn": "পুৰুষৰ কণ্ঠ",
+    "quiz_female_sound_btn": "মহিলাৰ কণ্ঠ",
+    "quiz_stop_voice_btn": "কণ্ঠ বন্ধ কৰক",
+    "quiz_bookmarked_btn": "★ সংৰক্ষিত"
   },
   "mai": {
     "brand_title": "सरकारी AI हब",
@@ -6351,8 +6413,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभ विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "क्विज़ छोड़ू",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "मॉक टेस्ट पूर्ण कऽ सबमिट करू",
@@ -6592,7 +6654,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूली अभ्यास इंजन (8 मोड)",
     "nav_analytics": "📊 निष्पक्ष उम्मीदवार विश्लेषिकी",
     "nav_planner_leitner": "⏰ अध्ययन योजना आ लीटनर दोहराव",
-    "nav_matrix": "🗺️ राष्ट्रव्यापी कवरेज मैट्रिक्स"
+    "nav_matrix": "🗺️ राष्ट्रव्यापी कवरेज मैट्रिक्स",
+    "quiz_male_sound_btn": "पुरुष स्वर",
+    "quiz_female_sound_btn": "महिला स्वर",
+    "quiz_stop_voice_btn": "आवाज रोकू",
+    "quiz_bookmarked_btn": "★ सहेजायल"
   },
   "bho": {
     "brand_title": "सरकारी AI हब",
@@ -6763,8 +6829,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभे विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनीं",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "क्विज़ छोड़ीं",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "मॉक टेस्ट पूरा कइके सबमिट करीं",
@@ -7004,7 +7070,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूली अभ्यास इंजन (8 गो मोड)",
     "nav_analytics": "📊 निष्पक्ष उम्मीदवार विश्लेषिकी",
     "nav_planner_leitner": "⏰ पढ़ाई के योजना आ लीटनर रिवीजन",
-    "nav_matrix": "🗺️ पूरा देश के कवरेज मैट्रिक्स"
+    "nav_matrix": "🗺️ पूरा देश के कवरेज मैट्रिक्स",
+    "quiz_male_sound_btn": "पुरुष आवाज",
+    "quiz_female_sound_btn": "महिला आवाज",
+    "quiz_stop_voice_btn": "आवाज रोकीं",
+    "quiz_bookmarked_btn": "★ सहेजल"
   },
   "ne": {
     "brand_title": "सरकारी AI हब",
@@ -7175,8 +7245,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सबै विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "परीक्षा छोड्नुहोस्",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "मॉक टेस्ट समाप्त गर्नुहोस्",
@@ -7416,7 +7486,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूली अभ्यास इन्जिन (८ मोड)",
     "nav_analytics": "📊 निष्पक्ष उम्मेदवार विश्लेषण",
     "nav_planner_leitner": "⏰ अध्ययन योजना र लाइट्नर संशोधन",
-    "nav_matrix": "🗺️ राष्ट्रव्यापी कभरेज म्याट्रिक्स"
+    "nav_matrix": "🗺️ राष्ट्रव्यापी कभरेज म्याट्रिक्स",
+    "quiz_male_sound_btn": "पुरुष आवाज",
+    "quiz_female_sound_btn": "महिला आवाज",
+    "quiz_stop_voice_btn": "आवाज रोक्नुहोस्",
+    "quiz_bookmarked_btn": "★ सुरक्षित"
   },
   "kok": {
     "brand_title": "सरकारी AI हब",
@@ -7587,8 +7661,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सगळे विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "चांचणी सोड़ात",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "मॉक टेस्ट पूर्ण करात",
@@ -7828,7 +7902,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकुल सराव इंजिन (8 प्रकार)",
     "nav_analytics": "📊 प्रामाणीक उमेदवार विश्लेषण",
     "nav_planner_leitner": "⏰ अभ्यास येवजणकार आनी लाइट्नर उजळणी",
-    "nav_matrix": "🗺️ देशभराची कव्हरेज मॅट्रिक्स"
+    "nav_matrix": "🗺️ देशभराची कव्हरेज मॅट्रिक्स",
+    "quiz_male_sound_btn": "दादल्याचो आवाज",
+    "quiz_female_sound_btn": "बायलेचो आवाज",
+    "quiz_stop_voice_btn": "आवाज थांबयात",
+    "quiz_bookmarked_btn": "★ साठयिल्लें"
   },
   "sd": {
     "brand_title": "सरकारी AI हब",
@@ -7999,8 +8077,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभी विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ بڪ مارڪ",
+    "quiz_exit_btn": "امتحان ڇڏيو",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "🏁 टेस्ट सबमिट करें व स्कोरकार्ड ڏسو",
@@ -8240,7 +8318,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 ايڊاپٽيو مشق انجن (8 طريقا)",
     "nav_analytics": "📊 صاف اميدوار تجزيو",
     "nav_planner_leitner": "⏰ پڙهائي پلانر ۽ ليٽنر نظرثاني",
-    "nav_matrix": "🗺️ ملڪ گير ڪوريج ميٽرڪس"
+    "nav_matrix": "🗺️ ملڪ گير ڪوريج ميٽرڪس",
+    "quiz_male_sound_btn": "مردانو آواز",
+    "quiz_female_sound_btn": "عورت آواز",
+    "quiz_stop_voice_btn": "آواز بند ڪريو",
+    "quiz_bookmarked_btn": "★ محفوظ ڪيل"
   },
   "doi": {
     "brand_title": "सरकारी AI हब",
@@ -8411,8 +8493,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सब्भै विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "क्विज़ छोड़ो",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "मॉक टेस्ट जमा करो",
@@ -8652,7 +8734,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनुकूली अभ्यास इंजन (8 तरीके)",
     "nav_analytics": "📊 निष्पक्ष उम्मीदवार विश्लेषिकी",
     "nav_planner_leitner": "⏰ पढ़ाई दी योजना ते लीटनर दोहराई",
-    "nav_matrix": "🗺️ देशव्यापी कवरेज मैट्रिक्स"
+    "nav_matrix": "🗺️ देशव्यापी कवरेज मैट्रिक्स",
+    "quiz_male_sound_btn": "मर्दानी आवाज",
+    "quiz_female_sound_btn": "जनानी आवाज",
+    "quiz_stop_voice_btn": "आवाज रोको",
+    "quiz_bookmarked_btn": "★ महफूज"
   },
   "ks": {
     "brand_title": "सरकारी AI हब",
@@ -8823,8 +8909,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभी विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ بَک مارک",
+    "quiz_exit_btn": "امتحان ترٛاوِو",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "🏁 टेस्ट सबमिट करें व स्कोरकार्ड देखें",
@@ -9064,7 +9150,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 انکولی مشق انجن (8 طریقے)",
     "nav_analytics": "📊 شفاف امیدوار تجزیہ",
     "nav_planner_leitner": "⏰ مطالعہ پلانر تہٕ نظرثانی",
-    "nav_matrix": "🗺️ ملک گیر کوریج میٹرکس"
+    "nav_matrix": "🗺️ ملک گیر کوریج میٹرکس",
+    "quiz_male_sound_btn": "مرد آواز",
+    "quiz_female_sound_btn": "زنانہ آواز",
+    "quiz_stop_voice_btn": "آواز رُکٲوِو",
+    "quiz_bookmarked_btn": "★ مَحفوٗظ"
   },
   "sat": {
     "brand_title": "सरकारी AI हब",
@@ -9235,8 +9325,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभी विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ ᱵᱩᱠᱢᱟᱨᱠ",
+    "quiz_exit_btn": "ᱵᱤᱰᱟᱹᱣ ᱵᱟᱹᱜᱤ",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "🏁 टेस्ट सबमिट करें व स्कोरकार्ड ᱧᱮᱞ ᱢᱮ",
@@ -9476,7 +9566,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 ᱟᱹᱰᱟᱹᱯᱴᱤᱵᱷ ᱯᱨᱟᱠᱴᱤᱥ ᱤᱧᱡᱤᱱ (8 ᱰᱟᱦᱟᱨ)",
     "nav_analytics": "📊 ᱥᱟᱹᱨᱤ ᱩᱢᱮᱫᱽᱣᱟᱨ ᱟᱱᱟᱞᱤᱴᱤᱠᱥ",
     "nav_planner_leitner": "⏰ ᱯᱟᱲᱦᱟᱣ ᱯᱞᱟᱱᱟᱨ ᱟᱨ ᱨᱩᱣᱟᱹᱲ",
-    "nav_matrix": "🗺️ ᱫᱤᱥᱚᱢ ᱡᱟᱠᱟᱛ ᱠᱟᱵᱷᱟᱨᱮᱡᱽ ᱢᱮᱴᱨᱤᱠᱥ"
+    "nav_matrix": "🗺️ ᱫᱤᱥᱚᱢ ᱡᱟᱠᱟᱛ ᱠᱟᱵᱷᱟᱨᱮᱡᱽ ᱢᱮᱴᱨᱤᱠᱥ",
+    "quiz_male_sound_btn": "ᱠᱚᱲᱟ ᱟᱲᱟᱝ",
+    "quiz_female_sound_btn": "ᱠᱩᱲᱤ ᱟᱲᱟᱝ",
+    "quiz_stop_voice_btn": "ᱟᱲᱟᱝ ᱛᱷᱩᱠᱩᱢ",
+    "quiz_bookmarked_btn": "★ ᱥᱟᱸᱪᱟᱣ"
   },
   "brx": {
     "brand_title": "सरकारी AI हब",
@@ -9647,8 +9741,8 @@ const I18N_DATA = {
     "quiz_single_pdf_btn": "📄 1 विषय की PDF ₹9",
     "quiz_bundle_pdf_btn": "📦 सभी विषयों का पैक ₹19",
     "quiz_listen_btn": "🔊 आवाज में सुनें",
-    "quiz_bookmark_btn": "☆ बुकमार्क करें",
-    "quiz_exit_btn": "क्विज़ छोड़ें (Exit Test)",
+    "quiz_bookmark_btn": "☆ बुकमार्क",
+    "quiz_exit_btn": "आनजाद गार",
     "quiz_prev_btn": "← पिछला प्रश्न",
     "quiz_next_btn": "अगला प्रश्न →",
     "quiz_finish_btn": "🏁 टेस्ट सबमिट करें व स्कोरकार्ड नाय",
@@ -9888,7 +9982,11 @@ const I18N_DATA = {
     "nav_adaptive": "🧠 अनजायनाय सोलोंथाइ इन्जिन (8 रोखोम)",
     "nav_analytics": "📊 सैथो बिजिरथाय",
     "nav_planner_leitner": "⏰ फरायनाय थांखि आरो फिन फरायनाय",
-    "nav_matrix": "🗺️ मुलुगनां कवरेज मेट्रिक्स"
+    "nav_matrix": "🗺️ मुलुगनां कवरेज मेट्रिक्स",
+    "quiz_male_sound_btn": "हौवा राव",
+    "quiz_female_sound_btn": "हिनजाव राव",
+    "quiz_stop_voice_btn": "राव दोनथ",
+    "quiz_bookmarked_btn": "★ दोनथुमबाय"
   }
 };
 
