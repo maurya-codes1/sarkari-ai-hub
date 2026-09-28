@@ -854,9 +854,56 @@ class PdfGenerationService {
 
   /**
    * Renders Subject-Wise & All Subjects Practice Worksheets (B & C)
+   * Enforces All-Subject Bundle Reconciliation (Representative Subset Allocation)
+   * and preserves Full Large Subject Inventories for single subjects.
    */
   async renderPracticePaperPdf(examId, versionId, docType, questionCount, subjectId, outputPath, db) {
-    const count = questionCount || (docType === this.DOCUMENT_TYPES.SUBJECT_PRACTICE_PAPER ? 50 : 100);
+    const isAllSubjects = docType === this.DOCUMENT_TYPES.ALL_SUBJECTS_PRACTICE_PAPER;
+    const { getCompleteSubjectInventory } = require('../../services/subject-inventory-loader');
+    const { reconcileAllSubjectBundle, computeBundleSubjectAllocation, selectRepresentativeSubset } = require('../../services/content-allocation-policy');
+
+    let questionsToRender = [];
+    if (isAllSubjects) {
+      // Gather sections across subjects
+      const subjectsInExam = db.prepare(`
+        SELECT DISTINCT s.subject_id, s.name
+        FROM questions q
+        JOIN subjects s ON q.subject_id = s.subject_id
+        WHERE q.exam_version_id = ? OR q.exam_version_id IS NULL
+        LIMIT 6
+      `).all(versionId);
+
+      const sections = (subjectsInExam.length > 0 ? subjectsInExam : [
+        { subject_id: 'subj-gk', name: 'General Knowledge' },
+        { subject_id: 'subj-math', name: 'Mathematics' },
+        { subject_id: 'subj-reasoning', name: 'Reasoning' }
+      ]).map(s => {
+        const rawQs = getCompleteSubjectInventory(s.subject_id.replace(/^subj-/, ''));
+        return {
+          subjectId: s.subject_id,
+          subjectName: s.name,
+          questions: rawQs
+        };
+      }).filter(s => s.questions.length > 0);
+
+      const bundle = reconcileAllSubjectBundle(sections, { examId });
+      let allQs = bundle.bundledQuestions;
+      if (questionCount && questionCount > 0 && questionCount < allQs.length) {
+        allQs = allQs.slice(0, questionCount);
+      }
+      questionsToRender = allQs;
+    } else {
+      // Single Subject: preserve full inventory unless questionCount is explicitly passed
+      const resolvedSub = (subjectId || 'math').replace(/^subj-/, '');
+      const rawQs = getCompleteSubjectInventory(resolvedSub);
+      if (questionCount && questionCount > 0 && questionCount < rawQs.length) {
+        questionsToRender = selectRepresentativeSubset(rawQs, questionCount);
+      } else {
+        questionsToRender = rawQs;
+      }
+    }
+
+    const count = questionsToRender.length > 0 ? questionsToRender.length : (questionCount || (isAllSubjects ? 100 : 50));
 
     return new Promise((resolve, reject) => {
       try {
@@ -871,13 +918,48 @@ class PdfGenerationService {
         doc.fontSize(14).font('Helvetica-Bold').fillColor('#1a365d')
           .text(`${exam.name.toUpperCase()} — ${docType.replace(/_/g, ' ')}`, { align: 'center' });
         doc.fontSize(9).font('Helvetica-Bold').fillColor('#c53030')
-          .text('PRACTICE MATERIAL &bull; FLEXIBLE QUESTION COUNT', { align: 'center' });
+          .text('PRACTICE MATERIAL • VERIFIED QUESTION BANK', { align: 'center' });
         doc.moveDown(1.5);
 
         doc.fontSize(9.5).font('Helvetica').fillColor('#2d3748')
-          .text(`Selected Practice Set: ${count} Questions &bull; Subject: ${subjectId || 'All Subjects Mixed'}`);
+          .text(`Total Questions: ${count} • Mode: ${isAllSubjects ? 'All Subjects Representative Bundle' : 'Single Subject Comprehensive Practice'}`);
         doc.moveDown(1);
 
+        // Render Questions
+        let currentNum = 1;
+        let lastSection = '';
+        for (const item of questionsToRender) {
+          if (doc.y > 680) doc.addPage();
+
+          if (item.sectionName && item.sectionName !== lastSection) {
+            lastSection = item.sectionName;
+            doc.rect(40, doc.y, 515, 20).fillAndStroke('#edf2f7', '#cbd5e0');
+            doc.fontSize(9.5).font('Helvetica-Bold').fillColor('#1a365d')
+              .text(`SECTION: ${item.sectionName.toUpperCase()}`, 48, doc.y + 5);
+            doc.moveDown(1.2);
+          }
+
+          const qPrompt = (item.q || 'Practice Question').split('\n')[0];
+          doc.fontSize(9.5).font('Helvetica-Bold').fillColor('#1a365d')
+            .text(`Q.${currentNum}.`, 40, doc.y, { continued: true })
+            .font('Helvetica').fillColor('#2d3748')
+            .text(`  ${qPrompt}`);
+
+          const opts = Array.isArray(item.options) ? item.options : ['A)', 'B)', 'C)', 'D)'];
+          const optY = doc.y;
+          for (let o = 0; o < Math.min(opts.length, 4); o++) {
+            const col = o % 2;
+            const row = Math.floor(o / 2);
+            const optX = col === 0 ? 55 : 300;
+            const currentOptY = optY + (row * 14);
+            doc.fontSize(8.5).font('Helvetica').fillColor('#4a5568')
+              .text(opts[o], optX, currentOptY);
+          }
+          doc.y = optY + 30;
+          currentNum++;
+        }
+
+        const pages = doc.bufferedPageRange();
         doc.end();
 
         writeStream.on('finish', () => {
@@ -886,7 +968,7 @@ class PdfGenerationService {
           resolve({
             success: true,
             totalQuestions: count,
-            pageCount: 1,
+            pageCount: pages.count,
             checksum,
             buffer
           });

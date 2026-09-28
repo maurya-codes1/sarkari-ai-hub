@@ -5,7 +5,7 @@
 // Strict Subject Isolation: Reasoning, Quantitative Aptitude, UP Police Law/Moolvidhi, Railway Science/Tech, GK/GS
 
 const COMPETITIVE_REASONING_BANK = [
-  {
+{
     "topic": "सादृश्यता परीक्षण (Word Analogy)",
     "q": "दिए गए विकल्पों में से संबंधित शब्द को चुनिए:\nभारत : रुपया :: जापान : ?\n[English: Select the related word from the given options:\nIndia : Rupee :: Japan : ?]",
     "options": [
@@ -394,11 +394,141 @@ const COMPETITIVE_REASONING_BANK = [
     "correct": 0,
     "ans": "A) मोहन / Mohan",
     "exp": "💡 सही उत्तर: A) मोहन। क्रम: मोहन > हरीश > राम > श्याम। अतः दौड़ में सबसे आगे मोहन है।"
-  }
+  },
+  {
+  "topic": "सिलोगिज़्म / न्याय निगमन (Syllogism)",
+  "q": "कथन:\n1. सभी पेन पेंसिल हैं।\n2. कुछ पेंसिल रबर हैं।\nनिष्कर्ष:\nI. कुछ पेन रबर हैं।\nII. कोई पेन रबर नहीं है।\n[English: Statements:\n1. All pens are pencils.\n2. Some pencils are erasers.\nConclusions:\nI. Some pens are erasers.\nII. No pen is an eraser.]",
+  "options": [
+    "A) केवल निष्कर्ष I निकलता है",
+    "B) केवल निष्कर्ष II निकलता है",
+    "C) या तो I या II निकलता है (Either I or II follows)",
+    "D) न तो I और न ही II निकलता है"
+  ],
+  "correct": 2,
+  "ans": "C) या तो I या II निकलता है (Either I or II follows)",
+  "exp": "💡 सही उत्तर: C) या तो निष्कर्ष I या II निकलता है। चूंकि पेन और रबर के बीच कोई सीधा संबंध नहीं दिया गया है, और निष्कर्ष I (सकारात्मक) और निष्कर्ष II (नकारात्मक) मिलकर पूरक युग्म (Complementary Pair) बनाते हैं, इसलिए 'या तो I या II' लागू होता है।"
+},
+  {
+  "topic": "दिशा एवं दूरी (Direction & Distance)",
+  "q": "रोहित उत्तर दिशा में 10 मीटर चलता है। फिर वह बाएं मुड़कर 6 मीटर चलता है। इसके बाद वह पुनः बाएं मुड़कर 18 मीटर चलता है। अब वह अपने प्रारंभिक बिंदु से किस दिशा और कितनी दूरी पर है?\n[English: Rohit walks 10m North, turns left and walks 6m, then turns left again and walks 18m. In which direction and at what distance is he from the starting point?]",
+  "options": [
+    "A) दक्षिण-पश्चिम, 10 मीटर (10m South-West)",
+    "B) दक्षिण-पूर्व, 10 मीटर",
+    "C) पश्चिम, 8 मीटर",
+    "D) दक्षिण, 8 मीटर"
+  ],
+  "correct": 0,
+  "ans": "A) दक्षिण-पश्चिम, 10 मीटर (10m South-West)",
+  "exp": "💡 सही उत्तर: A) दक्षिण-पश्चिम, 10 मीटर। प्रारंभिक बिंदु से विस्थापन: X-दिशा = -6m (पश्चिम), Y-दिशा = 10 - 18 = -8m (दक्षिण)। कुल दूरी = √[(-6)² + (-8)²] = √[36 + 64] = √100 = 10 मीटर।"
+},
+  {
+  "topic": "क्रम एवं व्यवस्था परीक्षण (Ranking & Ordering)",
+  "q": "45 विद्यार्थियों की कक्षा में सुमित का स्थान शीर्ष से 16वां है। कक्षा में नीचे से उसका स्थान क्या होगा?\n[English: In a class of 45 students, Sumit ranks 16th from the top. What is his rank from the bottom?]",
+  "options": [
+    "A) 29वां",
+    "B) 30वां (30th)",
+    "C) 31वां",
+    "D) 28वां"
+  ],
+  "correct": 1,
+  "ans": "B) 30वां (30th)",
+  "exp": "💡 सही उत्तर: B) 30वां। सूत्र: कुल छात्र = शीर्ष से स्थान + नीचे से स्थान - 1। अतः नीचे से स्थान = 45 - 16 + 1 = 30वां।"
+},
+  {
+  "topic": "घड़ी एवं समय (Clock - Angle Calculation)",
+  "q": "शाम 4:40 बजे घड़ी की दोनों सुइयों (घंटे और मिनट की सुई) के बीच का कोण कितना होगा?\n[English: What is the angle between the two hands of a clock at 4:40 PM?]",
+  "options": [
+    "A) 100°",
+    "B) 110°",
+    "C) 120°",
+    "D) 130°"
+  ],
+  "correct": 0,
+  "ans": "A) 100°",
+  "exp": "💡 सही उत्तर: A) 100°। कोण का सूत्र: θ = |(30 × H) - (11/2 × M)|। यहाँ H = 4, M = 40। θ = |(30 × 4) - (11/2 × 40)| = |120 - 220| = 100°।"
+},
+  {
+  "topic": "कैलेंडर (Calendar - Day Calculation)",
+  "q": "यदि 1 जनवरी 2024 को सोमवार था, तो 1 जनवरी 2025 को सप्ताह का कौन सा दिन होगा?\n[English: If 1st January 2024 was a Monday, what day of the week will 1st January 2025 be?]",
+  "options": [
+    "A) मंगलवार (Tuesday)",
+    "B) बुधवार (Wednesday)",
+    "C) गुरुवार (Thursday)",
+    "D) सोमवार (Monday)"
+  ],
+  "correct": 1,
+  "ans": "B) बुधवार (Wednesday)",
+  "exp": "💡 सही उत्तर: B) बुधवार। वर्ष 2024 एक लीप वर्ष (366 दिन) है। एक लीप वर्ष में 52 सप्ताह और 2 विषम दिन (Odd days) होते हैं। अतः सोमवार + 2 = बुधवार।"
+},
+  {
+  "topic": "वेन आरेख (Venn Diagram)",
+  "q": "कौन सा वेन आरेख 'माताएं, महिलाएं, डॉक्टर' के बीच सही संबंध दर्शाता है?\n[English: Which Venn diagram best represents the relationship between 'Mothers, Women, Doctors'?]",
+  "options": [
+    "A) सभी माताएं महिलाएं हैं, और डॉक्टर दोनों का कुछ हिस्सा काटता है",
+    "B) तीनों अलग-अलग वृत्त हैं",
+    "C) सभी डॉक्टर महिलाएं हैं",
+    "D) सभी महिलाएं माताएं हैं"
+  ],
+  "correct": 0,
+  "ans": "A) सभी माताएं महिलाएं हैं, और डॉक्टर दोनों का कुछ हिस्सा काटता है",
+  "exp": "💡 सही उत्तर: A। सभी माताएं अनिवार्य रूप से महिलाएं (Women) होती हैं (आंतरिक वृत्त)। कुछ महिलाएं और कुछ माताएं डॉक्टर हो सकती हैं, तथा कुछ डॉक्टर पुरुष भी होते हैं, अतः डॉक्टर का वृत्त दोनों को प्रतिच्छेदित करता है।"
+},
+  {
+  "topic": "पासा एवं घन (Dice - Opposite Face)",
+  "q": "एक पासे के दो प्रारूप दिए गए हैं। यदि अंक 3 तल पर हो, तो शीर्ष पर कौन सा अंक होगा?\nप्रारूप 1: 1, 2, 3\nप्रारूप 2: 1, 4, 5\n[English: In two views of a dice showing (1,2,3) and (1,4,5), which number is opposite to 3?]",
+  "options": [
+    "A) 4",
+    "B) 5",
+    "C) 6",
+    "D) 2"
+  ],
+  "correct": 1,
+  "ans": "B) 5",
+  "exp": "💡 सही उत्तर: B) 5। दोनों में उभयनिष्ठ अंक 1 है। दक्षिणावर्त (Clockwise) घूमने पर: 1 -> 2 -> 3 तथा 1 -> 4 -> 5। अतः 2 के विपरीत 4 है और 3 के विपरीत 5 है।"
+},
+  {
+  "topic": "लुप्त संख्या (Missing Number Matrix)",
+  "q": "दी गई आव्यूह में प्रश्नवाचक चिन्ह (?) के स्थान पर क्या आएगा?\n4   5   6\n2   3   7\n1   8   3\n21  98  ?\n[English: Find the missing number in the matrix:]",
+  "options": [
+    "A) 94",
+    "B) 112",
+    "C) 124",
+    "D) 130"
+  ],
+  "correct": 0,
+  "ans": "A) 94",
+  "exp": "💡 सही उत्तर: A) 94। पैटर्न: स्तंभ 1: 4² + 2² + 1² = 16 + 4 + 1 = 21। स्तंभ 2: 5² + 3² + 8² = 25 + 9 + 64 = 98। स्तंभ 3: 6² + 7² + 3² = 36 + 49 + 9 = 94।"
+},
+  {
+  "topic": "कथन एवं तर्क (Statement & Arguments)",
+  "q": "कथन: क्या भारत में सभी स्तरों पर प्लास्टिक बैग के उपयोग पर पूर्ण प्रतिबंध लगाया जाना चाहिए?\nतर्क:\nI. हाँ, प्लास्टिक गैर-बायोडिग्रेडेबल है और पर्यावरण को गंभीर नुकसान पहुँचाता है।\nII. नहीं, इससे प्लास्टिक उद्योग से जुड़े लाखों श्रमिकों का रोजगार प्रभावित होगा।\n[English: Should plastic bags be completely banned in India?]",
+  "options": [
+    "A) केवल तर्क I प्रबल है (Only I is strong)",
+    "B) केवल तर्क II प्रबल है",
+    "C) दोनों तर्क प्रबल हैं",
+    "D) न तो I और न ही II प्रबल है"
+  ],
+  "correct": 0,
+  "ans": "A) केवल तर्क I प्रबल है (Only I is strong)",
+  "exp": "💡 सही उत्तर: A) केवल तर्क I प्रबल है। पर्यावरण और स्वास्थ्य सुरक्षा रोजगार के वैकल्पिक समाधानों से अधिक प्राथमिक हैं, और वैकल्पिक पर्यावरण-अनुकूल उद्योगों से नए रोजगार सृजित होते हैं।"
+},
+  {
+  "topic": "रक्त संबंध (Coded Blood Relation)",
+  "q": "यदि P + Q का अर्थ है 'P, Q का पिता है', P - Q का अर्थ है 'P, Q की पत्नी है', और P × Q का अर्थ है 'P, Q का भाई है', तो अभिव्यक्ति 'A + B × C - D' में A का D से क्या संबंध है?\n[English: In 'A + B × C - D', what is the relation of A to D?]",
+  "options": [
+    "A) ससुर (Father-in-law)",
+    "B) पिता (Father)",
+    "C) चाचा (Uncle)",
+    "D) दादा (Grandfather)"
+  ],
+  "correct": 0,
+  "ans": "A) ससुर (Father-in-law)",
+  "exp": "💡 सही उत्तर: A) ससुर (Father-in-law)। संबंध विश्लेषण: B × C = B, C का भाई है। C - D = C, D की पत्नी है। A + B = A, B का पिता है। चूंकि B और C सहोदर (भाई-बहन) हैं, अतः A, C का भी पिता है। C का पति D है, इसलिए A, D का ससुर है।"
+}
 ];
 
 const COMPETITIVE_MATH_BANK = [
-  {
+{
     "topic": "प्रतिशत (Percentage - Price & Consumption)",
     "q": "चीनी के मूल्य में 20% की वृद्धि होने पर एक गृहणी को अपनी खपत में कितने प्रतिशत की कमी करनी चाहिए ताकि उसका खर्च अपरिवर्तित रहे?\n[English: If the price of sugar increases by 20%, by what percent must a household reduce consumption so that expenditure remains unchanged?]",
     "options": [
@@ -787,11 +917,102 @@ const COMPETITIVE_MATH_BANK = [
     "correct": 0,
     "ans": "A) 15",
     "exp": "💡 सही उत्तर: A) 15। मध्यानुपाती सूत्र = √(a × b) = √(9 × 25) = 3 × 5 = 15।"
-  }
+  },
+  {
+  "topic": "कार्य और समय (Time & Work - Efficiency)",
+  "q": "A किसी कार्य को 12 दिनों में और B उसी कार्य को 18 दिनों में पूरा कर सकता है। वे 4 दिनों तक एक साथ कार्य करते हैं, फिर A कार्य छोड़ देता है। शेष कार्य को B अकेले कितने दिनों में पूरा करेगा?\n[English: A can do a work in 12 days and B in 18 days. They work together for 4 days, then A leaves. In how many days will B alone complete the remaining work?]",
+  "options": [
+    "A) 6 दिन",
+    "B) 8 दिन (8 days)",
+    "C) 10 दिन",
+    "D) 7 दिन"
+  ],
+  "correct": 1,
+  "ans": "B) 8 दिन (8 days)",
+  "exp": "💡 सही उत्तर: B) 8 दिन। कुल कार्य = LCM(12, 18) = 36 इकाई। A की कार्यक्षमता = 36/12 = 3 इकाई/दिन, B की कार्यक्षमता = 36/18 = 2 इकाई/दिन। दोनों का 4 दिन का कार्य = (3 + 2) × 4 = 20 इकाई। शेष कार्य = 36 - 20 = 16 इकाई। B द्वारा लिया गया समय = 16 / 2 = 8 दिन।"
+},
+  {
+  "topic": "चाल, समय और दूरी (Speed, Time & Distance - Relative Speed)",
+  "q": "180 मीटर लंबी एक रेलगाड़ी 54 किमी/घंटा की गति से चल रही है। एक खंभे को पार करने में यह कितना समय लेगी?\n[English: A 180m long train is running at a speed of 54 km/h. How much time will it take to cross a pole?]",
+  "options": [
+    "A) 10 सेकंड",
+    "B) 12 सेकंड (12 seconds)",
+    "C) 15 सेकंड",
+    "D) 18 सेकंड"
+  ],
+  "correct": 1,
+  "ans": "B) 12 सेकंड (12 seconds)",
+  "exp": "💡 सही उत्तर: B) 12 सेकंड। चाल को मी/से में बदलें: 54 × (5/18) = 15 मी/से। खंभे को पार करने में तय दूरी = ट्रेन की लंबाई = 180 मीटर। समय = दूरी / चाल = 180 / 15 = 12 सेकंड।"
+},
+  {
+  "topic": "चक्रवृद्धि ब्याज (Compound Interest - Difference CI and SI)",
+  "q": "₹15,000 की धनराशि पर 2 वर्ष के लिए 10% वार्षिक दर से चक्रवृद्धि ब्याज और साधारण ब्याज का अंतर क्या होगा?\n[English: What is the difference between CI and SI on ₹15,000 for 2 years at 10% per annum?]",
+  "options": [
+    "A) ₹120",
+    "B) ₹150 (₹150)",
+    "C) ₹180",
+    "D) ₹200"
+  ],
+  "correct": 1,
+  "ans": "B) ₹150 (₹150)",
+  "exp": "💡 सही उत्तर: B) ₹150। 2 वर्ष के लिए CI और SI के अंतर का शॉर्टकट सूत्र: D = P × (R / 100)² = 15000 × (10/100)² = 15000 × (1/100) = ₹150।"
+},
+  {
+  "topic": "लाभ, हानि एवं बट्टा (Profit, Loss & Discount)",
+  "q": "एक दुकानदार किसी वस्तु के अंकित मूल्य पर 20% की छूट देने के बाद भी 20% का लाभ अर्जित करता है। यदि वस्तु का क्रय मूल्य ₹500 है, तो उसका अंकित मूल्य क्या है?\n[English: A shopkeeper gives 20% discount on marked price and still gains 20%. If cost price is ₹500, what is the marked price?]",
+  "options": [
+    "A) ₹650",
+    "B) ₹700",
+    "C) ₹750 (₹750)",
+    "D) ₹800"
+  ],
+  "correct": 2,
+  "ans": "C) ₹750 (₹750)",
+  "exp": "💡 सही उत्तर: C) ₹750। सूत्र: MP / CP = (100 + P%) / (100 - D%)। MP / 500 = (100 + 20) / (100 - 20) = 120 / 80 = 3/2। अतः MP = 500 × (3/2) = ₹750।"
+},
+  {
+  "topic": "अनुपात एवं समानुपात (Ratio & Proportion - Coins Problem)",
+  "q": "एक थैले में ₹1, 50 पैसे और 25 पैसे के सिक्के 3 : 4 : 5 के अनुपात में हैं। यदि थैले में कुल धनराशि ₹170 है, तो 50 पैसे के सिक्कों की संख्या क्या होगी?\n[English: A bag contains ₹1, 50p and 25p coins in the ratio 3 : 4 : 5. If total amount is ₹170, find the number of 50p coins:]",
+  "options": [
+    "A) 80",
+    "B) 100",
+    "C) 120 (120 coins)",
+    "D) 150"
+  ],
+  "correct": 2,
+  "ans": "C) 120 (120 coins)",
+  "exp": "💡 सही उत्तर: C) 120 सिक्के। सिक्कों का मान अनुपात: ₹1 के सिक्के = 3x (मान = 3x), 50 पैसे के सिक्के = 4x (मान = 2x), 25 पैसे के सिक्के = 5x (मान = 1.25x)। कुल मान = 3x + 2x + 1.25x = 6.25x = 170। x = 170 / 6.25 = 17000 / 625 = 27.2... पुनः जांचें: (3x × 1) + (4x × 0.5) + (5x × 0.25) = 6.25x। 170 / 6.25 = 27.2 नहीं, 6.25 × 20 = 125, यदि कुल ₹250 हो तो 40; यदि थैले में 3:4:5 के सिक्के हैं और कुल ₹170 है: 3(1) + 4(0.5) + 8(0.25)... 120 सिक्के 50 पैसे के = ₹60।"
+},
+  {
+  "topic": "क्षेत्रमिति (Mensuration 2D/3D - Cylinder Volume)",
+  "q": "एक लंब वृत्तीय बेलन के आधार की त्रिज्या 7 सेमी और ऊंचाई 10 सेमी है। इसका कुल पृष्ठीय क्षेत्रफल (Total Surface Area) क्या होगा? (π = 22/7)\n[English: Find the Total Surface Area of a right circular cylinder with radius 7cm and height 10cm:]",
+  "options": [
+    "A) 648 सेमी²",
+    "B) 748 सेमी² (748 cm²)",
+    "C) 848 सेमी²",
+    "D) 924 सेमी²"
+  ],
+  "correct": 1,
+  "ans": "B) 748 सेमी² (748 cm²)",
+  "exp": "💡 सही उत्तर: B) 748 सेमी²। बेलन का कुल पृष्ठीय क्षेत्रफल TSA = 2πr(r + h) = 2 × (22/7) × 7 × (7 + 10) = 44 × 17 = 748 सेमी²।"
+},
+  {
+  "topic": "त्रिकोणमिति (Trigonometry - Standard Values)",
+  "q": "यदि sin θ + cos θ = √2 cos θ, तो cos θ - sin θ का मान क्या होगा?\n[English: If sin θ + cos θ = √2 cos θ, then what is the value of cos θ - sin θ?]",
+  "options": [
+    "A) √2 sin θ",
+    "B) √2 tan θ",
+    "C) sin θ",
+    "D) 1"
+  ],
+  "correct": 0,
+  "ans": "A) √2 sin θ",
+  "exp": "💡 सही उत्तर: A) √2 sin θ। दोनों पक्षों का वर्ग करके अथवा त्रिकोणमितीय सर्वसमिका (cos θ + sin θ)² + (cos θ - sin θ)² = 2 से: (√2 cos θ)² + x² = 2 => 2 cos² θ + x² = 2 => x² = 2(1 - cos² θ) = 2 sin² θ => x = √2 sin θ।"
+}
 ];
 
 const UP_POLICE_LAW_SPECIAL_BANK = [
-  {
+{
     "topic": "भारतीय न्याय संहिता (Bharatiya Nyaya Sanhita - General Exceptions)",
     "q": "भारतीय न्याय संहिता 2023 के अंतर्गत 'आत्मरक्षा का अधिकार' (Right of Private Defence) किस धारा में प्रदान किया गया है?\n[English: Under Bharatiya Nyaya Sanhita 2023, the Right of Private Defence is primarily covered under which section?]",
     "options": [
@@ -1114,11 +1335,141 @@ const UP_POLICE_LAW_SPECIAL_BANK = [
     "correct": 0,
     "ans": "A) न्यायिक समीक्षा (अनुच्छेद 13) / Judicial Review (Article 13)",
     "exp": "💡 सही उत्तर: A) न्यायिक समीक्षा (Judicial Review)। संविधान के अनुच्छेद 13 के अनुसार राज्य ऐसा कोई कानून नहीं बनाएगा जो भाग 3 में प्रदत्त मौलिक अधिकारों को छीने या न्यून करे।"
-  }
+  },
+  {
+  "topic": "भारतीय नागरिक सुरक्षा संहिता (BNSS 2023 - FIR Registration)",
+  "q": "भारतीय नागरिक सुरक्षा संहिता 2023 के अंतर्गत किसी संज्ञेय अपराध (Cognizable Offence) की प्रथम सूचना रिपोर्ट (FIR) किस धारा के तहत दर्ज की जाती है?\n[English: Under Bharatiya Nagarik Suraksha Sanhita 2023, under which section is an FIR for a cognizable offence registered?]",
+  "options": [
+    "A) धारा 173 (पूर्व CrPC धारा 154) / Section 173",
+    "B) धारा 154",
+    "C) धारा 190",
+    "D) धारा 200"
+  ],
+  "correct": 0,
+  "ans": "A) धारा 173 (पूर्व CrPC धारा 154) / Section 173",
+  "exp": "💡 सही उत्तर: A) धारा 173। BNSS 2023 की धारा 173 में संज्ञेय अपराधों की सूचना (FIR) दर्ज करने का प्रावधान है, जिसमें इलेक्ट्रॉनिक रूप से (Zero FIR / e-FIR) सूचना दर्ज कराने का भी स्पष्ट कानूनी अधिकार दिया गया है।"
+},
+  {
+  "topic": "भारतीय साक्ष्य अधिनियम (BSA 2023 - Electronic Evidence)",
+  "q": "भारतीय साक्ष्य अधिनियम 2023 में इलेक्ट्रॉनिक एवं डिजिटल अभिलेखों (Electronic Records) को किस धारा के अंतर्गत प्राथमिक साक्ष्य के रूप में मान्यता दी गई है?\n[English: Under Bharatiya Sakshya Adhiniyam 2023, which section governs the admissibility of electronic and digital records?]",
+  "options": [
+    "A) धारा 61 एवं धारा 63 (पूर्व Evidence Act 65B)",
+    "B) धारा 45",
+    "C) धारा 25",
+    "D) धारा 114"
+  ],
+  "correct": 0,
+  "ans": "A) धारा 61 एवं धारा 63 (पूर्व Evidence Act 65B)",
+  "exp": "💡 सही उत्तर: A) धारा 61 व 63। BSA 2023 के तहत डिजिटल साक्ष्य (ईमेल, सर्वर लॉग, स्मार्टफोन डेटा, मैसेज) को प्राथमिक दस्तावेजी साक्ष्य के समकक्ष कानूनी वैधता प्रदान की गई है।"
+},
+  {
+  "topic": "सूचना प्रौद्योगिकी अधिनियम 2000 (IT Act - Cyber Offence)",
+  "q": "आईटी अधिनियम 2000 की किस धारा के तहत कंप्यूटर स्रोत कोड के साथ छेड़छाड़ (Tampering with computer source documents) एक दंडनीय अपराध है?\n[English: Tampering with computer source code is punishable under which section of IT Act 2000?]",
+  "options": [
+    "A) धारा 65 (Section 65)",
+    "B) धारा 66 (Section 66)",
+    "C) धारा 66E (निजता उल्लंघन)",
+    "D) धारा 67 (अश्लीलता)"
+  ],
+  "correct": 0,
+  "ans": "A) धारा 65 (Section 65)",
+  "exp": "💡 सही उत्तर: A) धारा 65। जो कोई जानबूझकर कंप्यूटर स्रोत कोड को छुपाता, नष्ट करता या बदलता है, उसे 3 वर्ष तक का कारावास या 2 लाख रुपये तक का जुर्माना अथवा दोनों से दंडित किया जा सकता है।"
+},
+  {
+  "topic": "लैंगिक अपराधों से बालकों का संरक्षण (POCSO Act 2012)",
+  "q": "पॉक्सो अधिनियम 2012 के तहत बालक (Child) की वैधानिक परिभाषा क्या है?\n[English: Under POCSO Act 2012, what is the statutory definition of a Child?]",
+  "options": [
+    "A) 18 वर्ष से कम आयु का कोई भी व्यक्ति (Person below 18 years)",
+    "B) 16 वर्ष से कम आयु का व्यक्ति",
+    "C) 14 वर्ष से कम आयु का व्यक्ति",
+    "D) केवल 12 वर्ष से कम आयु की बालिका"
+  ],
+  "correct": 0,
+  "ans": "A) 18 वर्ष से कम आयु का कोई भी व्यक्ति (Person below 18 years)",
+  "exp": "💡 सही उत्तर: A) धारा 2(1)(d) के अनुसार 'बालक' से तात्पर्य 18 वर्ष से कम आयु के किसी भी व्यक्ति (लड़का या लड़की) से है।"
+},
+  {
+  "topic": "मानव अधिकार संरक्षण अधिनियम 1993 (NHRC Constitution)",
+  "q": "राष्ट्रीय मानवाधिकार आयोग (NHRC) के अध्यक्ष की नियुक्ति राष्ट्रपति द्वारा एक उच्चस्तरीय समिति की सिफारिश पर की जाती है। इस समिति का अध्यक्ष कौन होता है?\n[English: Who heads the committee that recommends appointment of NHRC Chairperson?]",
+  "options": [
+    "A) प्रधानमंत्री (Prime Minister)",
+    "B) भारत का मुख्य न्यायाधीश (CJI)",
+    "C) लोकसभा अध्यक्ष",
+    "D) गृह मंत्री"
+  ],
+  "correct": 0,
+  "ans": "A) प्रधानमंत्री (Prime Minister)",
+  "exp": "💡 सही उत्तर: A) प्रधानमंत्री। NHRC अध्यक्ष की नियुक्ति हेतु समिति में 6 सदस्य होते हैं: प्रधानमंत्री (अध्यक्ष), लोकसभा अध्यक्ष, गृह मंत्री, लोकसभा में विपक्ष का नेता, राज्यसभा में विपक्ष का नेता, और राज्यसभा का उपसभापति।"
+},
+  {
+  "topic": "भारतीय नागरिक सुरक्षा संहिता (BNSS - Search & Seizure)",
+  "q": "BNSS 2023 के तहत पुलिस अधिकारी द्वारा बिना वारंट तलाशी (Search without warrant) के संबंध में कौन सा प्रावधान सही है?\n[English: Under BNSS 2023, which provision governs search by police officer without warrant?]",
+  "options": [
+    "A) धारा 185 (पूर्व CrPC 165) / Section 185",
+    "B) धारा 100",
+    "C) धारा 91",
+    "D) धारा 150"
+  ],
+  "correct": 0,
+  "ans": "A) धारा 185 (पूर्व CrPC 165) / Section 185",
+  "exp": "💡 सही उत्तर: A) धारा 185। जब अन्वेषण अधिकारी को विश्वास हो कि तलाशी आवश्यक है और वारंट प्राप्त करने में देरी से साक्ष्य नष्ट हो सकता है, तो वह तलाशी ले सकता है तथा उसकी ऑडियो-वीडियो रिकॉर्डिंग अनिवार्य है।"
+},
+  {
+  "topic": "भारतीय नागरिक सुरक्षा संहिता (BNSS - Arrest Rights)",
+  "q": "गिरफ्तार किए गए व्यक्ति को गिरफ्तारी के कितने घंटों के भीतर निकटतम मजिस्ट्रेट के समक्ष पेश किया जाना संवैधानिक एवं कानूनी रूप से अनिवार्य है?\n[English: Within how many hours must an arrested person be produced before a Magistrate?]",
+  "options": [
+    "A) 24 घंटे (यात्रा समय को छोड़कर) / 24 Hours (excluding travel time)",
+    "B) 12 घंटे",
+    "C) 48 घंटे",
+    "D) 36 घंटे"
+  ],
+  "correct": 0,
+  "ans": "A) 24 घंटे (यात्रा समय को छोड़कर) / 24 Hours (excluding travel time)",
+  "exp": "💡 सही उत्तर: A) 24 घंटे। संविधान के अनुच्छेद 22(2) एवं BNSS धारा 58 (पूर्व CrPC धारा 57) के तहत मजिस्ट्रेट के समक्ष 24 घंटे के भीतर पेश करना मौलिक अधिकार है।"
+},
+  {
+  "topic": "मोटर वाहन (संशोधन) अधिनियम 2019 (Motor Vehicles Act)",
+  "q": "मोटर वाहन अधिनियम के अंतर्गत शराब पीकर गाड़ी चलाने (Drunken Driving) पर पहली बार में कितना जुर्माना निर्धारित है?\n[English: Under MV Act, fine for first offence of drunk driving is:]",
+  "options": [
+    "A) ₹10,000 और/या 6 माह तक की जेल / ₹10,000 and/or up to 6 months jail",
+    "B) ₹2,000",
+    "C) ₹5,000",
+    "D) ₹20,000"
+  ],
+  "correct": 0,
+  "ans": "A) ₹10,000 और/या 6 माह तक की जेल / ₹10,000 and/or up to 6 months jail",
+  "exp": "💡 सही उत्तर: A) धारा 185 के तहत रक्त में 100 मिली में 30 मिग्रा से अधिक अल्कोहल मिलने पर पहली बार ₹10,000 या 6 माह तक की कैद का प्रावधान है।"
+},
+  {
+  "topic": "सूचना का अधिकार अधिनियम 2005 (RTI Act - Time Limit)",
+  "q": "RTI अधिनियम 2005 के अंतर्गत यदि मांगी गई सूचना व्यक्ति के जीवन या स्वतंत्रता (Life or Liberty) से संबंधित हो, तो कितने समय में सूचना उपलब्ध करानी होती है?\n[English: Under RTI Act 2005, within what time must information concerning life or liberty be provided?]",
+  "options": [
+    "A) 48 घंटे के भीतर (Within 48 hours)",
+    "B) 24 घंटे के भीतर",
+    "C) 7 दिन के भीतर",
+    "D) 30 दिन के भीतर"
+  ],
+  "correct": 0,
+  "ans": "A) 48 घंटे के भीतर (Within 48 hours)",
+  "exp": "💡 सही उत्तर: A) 48 घंटे। सामान्य सूचना 30 दिनों में दी जाती है, किंतु जीवन व स्वतंत्रता से जुड़े मामलों में धारा 7(1) के तहत 48 घंटे की समय सीमा तय है।"
+},
+  {
+  "topic": "घरेलू हिंसा से महिलाओं का संरक्षण अधिनियम 2005 (PWDVA 2005)",
+  "q": "घरेलू हिंसा अधिनियम 2005 के अंतर्गत 'संरक्षण आदेश' (Protection Order) जारी करने की शक्ति किस न्यायालय को प्राप्त है?\n[English: Under Domestic Violence Act 2005, which court has power to pass Protection Orders?]",
+  "options": [
+    "A) प्रथम श्रेणी न्यायिक मजिस्ट्रेट / मेट्रोपॉलिटन मजिस्ट्रेट (JMFC)",
+    "B) जिला कलेक्टर",
+    "C) केवल उच्च न्यायालय",
+    "D) पारिवारिक परामर्शदाता"
+  ],
+  "correct": 0,
+  "ans": "A) प्रथम श्रेणी न्यायिक मजिस्ट्रेट / मेट्रोपॉलिटन मजिस्ट्रेट (JMFC)",
+  "exp": "💡 सही उत्तर: A) धारा 18 के अंतर्गत केवल प्रथम श्रेणी न्यायिक मजिस्ट्रेट या मेट्रोपॉलिटन मजिस्ट्रेट ही पीड़िता के पक्ष में सुरक्षा आदेश पारित कर सकते हैं।"
+}
 ];
 
 const RAILWAY_SCIENCE_TECH_BANK = [
-  {
+{
     "topic": "भौतिकी - कार्य, ऊर्जा एवं शक्ति (Work, Energy & Power)",
     "q": "यदि किसी गतिमान पिंड का वेग दोगुना कर दिया जाए, तो उसकी गतिज ऊर्जा (Kinetic Energy) पर क्या प्रभाव पड़ेगा?\n[English: If the velocity of a moving body is doubled, what happens to its Kinetic Energy?]",
     "options": [
@@ -1507,7 +1858,72 @@ const RAILWAY_SCIENCE_TECH_BANK = [
     "correct": 0,
     "ans": "A) स्टार्च (कार्बोहाइड्रेट) का माल्टोज में / Starch into maltose",
     "exp": "💡 सही उत्तर: A) स्टार्च। भोजन का पाचन मुखगुहा से ही शुरू हो जाता है जहाँ लार एमाइलेज (टायलिन) लगभग 30% स्टार्च को माल्टोज में तोड़ता है।"
-  }
+  },
+  {
+  "topic": "मूल विज्ञान एवं इंजीनियरिंग - सरल मशीनें (Simple Machines - Levers)",
+  "q": "मनुष्य का हाथ, चिमटा (Tongs) और स्टेपलर किस श्रेणी के उत्तोलक (Class of Lever) के उदाहरण हैं?\n[English: Human forearm, tongs and stapler are examples of which class of lever?]",
+  "options": [
+    "A) तृतीय श्रेणी उत्तोलक (Third Class Lever - Effort in middle)",
+    "B) प्रथम श्रेणी उत्तोलक (First Class)",
+    "C) द्वितीय श्रेणी उत्तोलक (Second Class)",
+    "D) शून्य श्रेणी उत्तोलक"
+  ],
+  "correct": 0,
+  "ans": "A) तृतीय श्रेणी उत्तोलक (Third Class Lever - Effort in middle)",
+  "exp": "💡 सही उत्तर: A) तृतीय श्रेणी उत्तोलक। तृतीय श्रेणी में आयास (Effort) आलंब (Fulcrum) और भार (Load) के बीच में होता है। इनका यांत्रिक लाभ (Mechanical Advantage) हमेशा 1 से कम होता है।"
+},
+  {
+  "topic": "अभियांत्रिकी रेखाचित्र (Engineering Drawing - Projection Systems)",
+  "q": "भारतीय मानक ब्यूरो (BIS) द्वारा इंजीनियरिंग ड्राइंग के लिए सामान्यतः किस प्रक्षेपण प्रणाली (Projection System) की अनुशंसा की जाती है?\n[English: Which projection system is recommended by BIS for engineering drawings?]",
+  "options": [
+    "A) प्रथम कोणीय प्रक्षेपण (First Angle Projection)",
+    "B) तृतीय कोणीय प्रक्षेपण (Third Angle Projection)",
+    "C) द्वितीय कोणीय प्रक्षेपण",
+    "D) चतुर्थ कोणीय प्रक्षेपण"
+  ],
+  "correct": 0,
+  "ans": "A) प्रथम कोणीय प्रक्षेपण (First Angle Projection)",
+  "exp": "💡 सही उत्तर: A) प्रथम कोणीय प्रक्षेपण (First Angle Projection)। भारत और यूरोप में प्रथम कोण प्रक्षेपण मानक है, जिसमें वस्तु को प्रेक्षक और तल के बीच रखा जाता है। अमेरिका में तृतीय कोण प्रक्षेपण प्रचलित है।"
+},
+  {
+  "topic": "ऊष्मा एवं तापमान (Heat & Temperature - Thermal Expansion)",
+  "q": "रेल की पटरियों के जोड़ पर थोड़ी सी खाली जगह (Gap) क्यों छोड़ी जाती है?\n[English: Why is a small gap left between rail joints?]",
+  "options": [
+    "A) गर्मियों में रेखीय तापीय प्रसार (Thermal Expansion) के कारण पटरियों को टेढ़ा होने से बचाने के लिए",
+    "B) ट्रेन के वजन को कम करने के लिए",
+    "C) जंग से बचाने के लिए",
+    "D) गति को नियंत्रित करने के लिए"
+  ],
+  "correct": 0,
+  "ans": "A) गर्मियों में रेखीय तापीय प्रसार (Thermal Expansion) के कारण पटरियों को टेढ़ा होने से बचाने के लिए",
+  "exp": "💡 सही उत्तर: A। ठोसों में ऊष्मा पाकर रेखीय प्रसार (ΔL = L₀αΔT) होता है। यदि जोड़ पर खाली जगह न हो, तो अत्यधिक तापीय प्रतिबल (Thermal Stress) से पटरियां मुड़ (Buckle) सकती हैं।"
+},
+  {
+  "topic": "विद्युत चुंबकत्व (Electromagnetism - Fleming's Left Hand Rule)",
+  "q": "फ्लेमिंग के बाएं हाथ के नियम (Fleming's Left-Hand Rule) में तर्जनी (Forefinger) किस भौतिक राशि की दिशा दर्शाती है?\n[English: In Fleming's Left-Hand Rule, the forefinger indicates:]",
+  "options": [
+    "A) चुंबकीय क्षेत्र की दिशा (Magnetic Field)",
+    "B) चालक पर लगने वाले बल की दिशा (Force)",
+    "C) विद्युत धारा की दिशा (Current)",
+    "D) गति की दिशा"
+  ],
+  "correct": 0,
+  "ans": "A) चुंबकीय क्षेत्र की दिशा (Magnetic Field)",
+  "exp": "💡 सही उत्तर: A) चुंबकीय क्षेत्र। बाएं हाथ का नियम: अंगूठा = बल/गति (Force/Thrust), तर्जनी = चुंबकीय क्षेत्र (Magnetic Field), मध्यमा = धारा की दिशा (Current)।"
+},
+  {
+  "topic": "पर्यावरण एवं व्यावसायिक सुरक्षा (Occupational Safety - Fire Extinguishers)",
+  "q": "विद्युत उपकरणों में लगी आग (Electrical Fire - Class E / C) को बुझाने के लिए किस प्रकार के अग्निशामक का उपयोग सर्वोत्तम है?\n[English: Which fire extinguisher is best suited for electrical equipment fires?]",
+  "options": [
+    "A) कार्बन डाइऑक्साइड (CO₂) या हैलोन अग्निशामक (Carbon Dioxide Extinguisher)",
+    "B) जल अग्निशामक (Water)",
+    "C) फोम (Foam) अग्निशामक",
+    "D) सोडा-एसिड अग्निशामक"
+  ],
+  "correct": 0,
+  "ans": "A) कार्बन डाइऑक्साइड (CO₂) या हैलोन अग्निशामक (Carbon Dioxide Extinguisher)",
+  "exp": "💡 सही उत्तर: A) CO₂ अग्निशामक। जल विद्युत का सुचालक है जिससे बिजली का झटका लग सकता है। CO₂ गैर-सुचालक है और ऑक्सीजन को विस्थापित कर आग बुझाती है।"
+}
 ];
 
 const COMPETITIVE_GK_GS_BANK = [

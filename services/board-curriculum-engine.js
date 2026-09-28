@@ -44,6 +44,9 @@ try {
   } catch (e2) {}
 }
 
+const { getCompleteSubjectInventory } = require('./subject-inventory-loader');
+const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
+
 const BOARD_REGISTRY = {
   cbse: {
     id: "cbse",
@@ -1177,131 +1180,86 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
   else if (normSubject.includes("social") || normSubject.includes("सामाजिक") || normSubject.includes("sst")) normSubject = "social";
   else if (normSubject.includes("sanskrit") || normSubject.includes("संस्कृत")) normSubject = "sanskrit";
 
-  // 1. Gather all candidate blueprints from Curated + Academic + High Yield Master Vault
-  const hyVault = HIGH_YIELD_BANKS || {};
-  let hyBank = null;
+  // Authentic Question Inventory Retrieval & Allocation
+  let mcqs = [];
+  const isAllBundle = normSubject === 'all' || normSubject.includes('सभी') || normSubject.includes('bundle');
 
-  const c12 = CLASS12_BANKS || {};
-
-  if (is12th) {
-    if (normSubject === 'physics' || normSubject.includes('physic')) hyBank = c12.CLASS12_PHYSICS_BANK;
-    else if (normSubject === 'chemistry' || normSubject.includes('chem')) hyBank = c12.CLASS12_CHEMISTRY_BANK;
-    else if (normSubject === 'biology' || normSubject.includes('bio')) hyBank = c12.CLASS12_BIOLOGY_BANK;
-    else if (normSubject === 'math' || normSubject.includes('math')) hyBank = c12.CLASS12_MATH_BANK || hyVault.HIGH_YIELD_MATH_BANK;
-    else if (normSubject === 'accountancy' || normSubject.includes('account')) hyBank = c12.CLASS12_ACCOUNTANCY_BANK;
-    else if (normSubject === 'business' || normSubject.includes('business') || normSubject.includes('bst')) hyBank = c12.CLASS12_BUSINESS_BANK;
-    else if (normSubject === 'economics' || normSubject.includes('econom') || normSubject.includes('eco')) hyBank = c12.CLASS12_ECONOMICS_BANK;
-    else if (normSubject === 'history' || normSubject.includes('histor')) hyBank = c12.CLASS12_HISTORY_BANK;
-    else if (normSubject === 'polity' || normSubject.includes('polit') || normSubject.includes('polity')) hyBank = c12.CLASS12_POLITY_BANK;
-    else if (normSubject === 'geography' || normSubject.includes('geograph')) hyBank = c12.CLASS12_GEOGRAPHY_BANK;
-    else if (normSubject === 'hindi') hyBank = hyVault.HIGH_YIELD_HINDI_BANK;
-    else if (normSubject === 'english') hyBank = hyVault.HIGH_YIELD_ENGLISH_BANK;
-    else if (normSubject === 'all') {
-      hyBank = [
-        ...(c12.CLASS12_PHYSICS_BANK || []),
-        ...(c12.CLASS12_CHEMISTRY_BANK || []),
-        ...(c12.CLASS12_ACCOUNTANCY_BANK || []),
-        ...(c12.CLASS12_BUSINESS_BANK || []),
-        ...(c12.CLASS12_ECONOMICS_BANK || []),
-        ...(c12.CLASS12_HISTORY_BANK || []),
-        ...(c12.CLASS12_POLITY_BANK || []),
-        ...(hyVault.HIGH_YIELD_HINDI_BANK || []),
-        ...(hyVault.HIGH_YIELD_ENGLISH_BANK || [])
+  if (isAllBundle) {
+    let boardSubjects = [];
+    if (is12th) {
+      boardSubjects = [
+        { id: 'physics', name: 'Physics / भौतिक विज्ञान' },
+        { id: 'chemistry', name: 'Chemistry / रसायन विज्ञान' },
+        { id: 'math', name: 'Mathematics / गणित' },
+        { id: 'biology', name: 'Biology / जीव विज्ञान' },
+        { id: 'accountancy', name: 'Accountancy / लेखाशास्त्र' },
+        { id: 'business', name: 'Business Studies / व्यावसायिक अध्ययन' },
+        { id: 'economics', name: 'Economics / अर्थशास्त्र' },
+        { id: 'history', name: 'History / इतिहास' },
+        { id: 'polity', name: 'Political Science / राजनीति विज्ञान' },
+        { id: 'hindi', name: 'Hindi / हिन्दी' },
+        { id: 'english', name: 'English / अंग्रेजी' }
+      ];
+    } else {
+      boardSubjects = [
+        { id: 'science', name: 'Science / विज्ञान' },
+        { id: 'math', name: 'Mathematics / गणित' },
+        { id: 'social', name: 'Social Science / सामाजिक विज्ञान' },
+        { id: 'hindi', name: 'Hindi / हिन्दी' },
+        { id: 'english', name: 'English / अंग्रेजी' },
+        { id: 'sanskrit', name: 'Sanskrit / संस्कृत' }
       ];
     }
+
+    const subjectSections = boardSubjects.map(sub => {
+      const qPool = getCompleteSubjectInventory(sub.id, { is12th, examName: `${b.name} Class ${targetClass}` });
+      return {
+        subjectId: sub.id,
+        subjectName: sub.name,
+        questions: qPool
+      };
+    }).filter(sec => sec.questions.length > 0);
+
+    const reconciled = reconcileAllSubjectBundle(subjectSections, { examId: `${boardId}-${targetClass}` });
+    mcqs = reconciled.bundledQuestions.map((item, idx) => ({
+      ...item,
+      num: idx + 1,
+      id: `${boardId}-${targetClass}-bundle-${idx + 1}`
+    }));
   } else {
-    // Class 10th
-    if (normSubject === 'hindi') hyBank = hyVault.HIGH_YIELD_HINDI_BANK;
-    else if (normSubject === 'math') hyBank = hyVault.HIGH_YIELD_MATH_BANK;
-    else if (normSubject === 'science') hyBank = hyVault.HIGH_YIELD_SCIENCE_BANK;
-    else if (normSubject === 'social') hyBank = hyVault.HIGH_YIELD_SOCIAL_BANK;
-    else if (normSubject === 'english') hyBank = hyVault.HIGH_YIELD_ENGLISH_BANK;
-    else if (normSubject === 'sanskrit') hyBank = hyVault.HIGH_YIELD_SANSKRIT_BANK;
-    else if (normSubject === 'all') {
-      hyBank = [
-        ...(hyVault.HIGH_YIELD_HINDI_BANK || []),
-        ...(hyVault.HIGH_YIELD_MATH_BANK || []),
-        ...(hyVault.HIGH_YIELD_SCIENCE_BANK || []),
-        ...(hyVault.HIGH_YIELD_SOCIAL_BANK || []),
-        ...(hyVault.HIGH_YIELD_ENGLISH_BANK || []),
-        ...(hyVault.HIGH_YIELD_SANSKRIT_BANK || [])
-      ];
-    }
+    // Single Subject Guide: Preserves FULL legitimate subject inventory without artificial clamp
+    const questions = getCompleteSubjectInventory(normSubject, { is12th, examName: `${b.name} Class ${targetClass}` });
+    mcqs = questions.map((item, idx) => ({
+      ...item,
+      num: idx + 1,
+      id: `${boardId}-${targetClass}-${normSubject}-mcq-${idx + 1}`
+    }));
   }
 
-  // 2. Compile Exactly 200 Distinct High-Yield MCQs (2020-2025 PYQs + 2026 Model Paper)
-  const mcqs = [];
-  if (hyBank && hyBank.length > 0) {
-    for (let i = 1; i <= 200; i++) {
-      const item = hyBank[(i - 1) % hyBank.length];
-      const cycle = Math.floor((i - 1) / hyBank.length);
-      let qText = `${i}. ${item.q}`;
-      if (cycle > 0) {
-        const year = 2026 - (cycle % 6);
-        const setLetter = String.fromCharCode(65 + (cycle % 4));
-        qText += `\n[${b.name} PYQ ${year} • Set ${setLetter} Official Model]`;
-      } else {
-        qText += `\n[${b.name} Class ${targetClass} 2026 Board Final Model]`;
-      }
-
-      mcqs.push({
-        id: `${boardId}-${targetClass}-${normSubject}-mcq-${i}`,
-        num: i,
-        q: qText,
-        options: item.options || ["A)", "B)", "C)", "D)"],
-        correct: item.correct !== undefined ? item.correct : 0,
-        ans: item.ans || (item.options ? item.options[0] : "A) Correct"),
-        explanation: item.exp || item.explanation || "💡 Board Model Answer with complete conceptual justification.",
-        topic: item.topic || `${normSubject.toUpperCase()} Core Concept`
-      });
-    }
-  } else {
-    // Fallback for Class 12th streams or unmapped subjects using curated blueprints
+  // Fallback to curated blueprints if inventory has zero questions
+  if (mcqs.length === 0) {
     const allCuratedList = Object.values(CURATED_BOARD_BLUEPRINTS);
     const academicList = Object.values(ACADEMIC_BLUEPRINTS);
     const fullPool = [...academicList, ...allCuratedList];
+    let candidates = fullPool.filter(bp => (bp.class === targetClass) && (normSubject === 'all' || bp.subject === normSubject));
+    if (candidates.length === 0) candidates = fullPool.slice(0, 25);
 
-    let candidates = fullPool.filter(bp => {
-      const classMatch = bp.class === targetClass || (is12th ? bp.class === '12th' : bp.class === '10th');
-      if (!classMatch) return false;
-      if (normSubject === 'all') return true;
-      return bp.subject === normSubject;
-    });
-
-    if (candidates.length === 0) candidates = fullPool.filter(bp => bp.subject === normSubject);
-    if (candidates.length === 0) candidates = fullPool.filter(bp => bp.class === targetClass);
-    if (candidates.length === 0) candidates = academicList;
-
-    for (let i = 1; i <= 200; i++) {
-      const baseIdx = (i - 1) % candidates.length;
-      const bp = candidates[baseIdx];
+    for (let i = 1; i <= Math.min(candidates.length, 25); i++) {
+      const bp = candidates[i - 1];
       const localized = (bp.loc && (bp.loc[langMode] || bp.loc["english"] || bp.loc["bilingual-hindi"])) || {
         q: `High-Yield Examination Question #${i} for ${normSubject.toUpperCase()}`,
         options: ["A) Option A", "B) Option B", "C) Option C", "D) Option D"],
         ans: "C) Option C",
         exp: "💡 Board Exam Model Question Solution."
       };
-
-      let qText = `${i}. ${localized.q}`;
-      const round = Math.floor((i - 1) / candidates.length);
-      if (round > 0) {
-        const year = 2026 - (round % 6);
-        const setLetter = String.fromCharCode(65 + (round % 4));
-        qText += `\n[${b.name} PYQ ${year} • Set ${setLetter} Model]`;
-      } else if (localized.sub && langMode !== "english") {
-        qText += `\n[${localized.sub}]`;
-      } else {
-        qText += `\n[${b.name} Final Board Model - High Yield]`;
-      }
-
       mcqs.push({
         id: `${boardId}-${targetClass}-${normSubject}-mcq-${i}`,
         num: i,
-        q: qText,
+        q: `${i}. ${localized.q}`,
         options: localized.options || ["A)", "B)", "C)", "D)"],
-        correct: (bp.correct !== undefined) ? bp.correct : 2,
-        ans: localized.ans || (localized.options ? localized.options[2] : "C) Correct"),
-        explanation: localized.exp || "💡 Board Model Answer with complete conceptual justification.",
+        correct: 2,
+        ans: localized.ans || "C) Correct",
+        explanation: localized.exp || "💡 Board Model Answer.",
         topic: bp.topic || `${normSubject.toUpperCase()} Core Concept`
       });
     }
@@ -1426,9 +1384,9 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     langMode: langMode,
     langTitle: b.langTitle,
     title: `${b.name} Class ${targetClass} - ${normSubject.toUpperCase()} Master Guide (2026 Edition)`,
-    badge: `🎓 100% ${b.name} Board Exam Aligned`,
-    pages: "48 Pages Master PDF Guide",
-    summary: `${b.name} के 10 वर्षों के हल सहित मॉडल पेपर, 200 वस्तुनिष्ठ बहुविकल्पीय प्रश्न (MCQs), 50 लघु उत्तरीय (2M), 25 दीर्घ उत्तरीय (5M) व फॉर्मूला बैंक।`,
+    badge: `🎓 100% ${b.name} Board Exam Aligned (${mcqs.length} Questions)`,
+    pages: `${Math.max(16, Math.ceil(mcqs.length / 4))} Pages Master PDF Guide`,
+    summary: `${b.name} के प्रामाणिक हल सहित मॉडल पेपर, ${mcqs.length} वस्तुनिष्ठ बहुविकल्पीय प्रश्न (MCQs), ${shortSubjectives.length} लघु उत्तरीय (2M), ${longSubjectives.length} दीर्घ उत्तरीय (5M) व फॉर्मूला बैंक।`,
     objectives: mcqs,
     subjectives: [...shortSubjectives, ...longSubjectives],
     hallOfFame: hallOfFame,

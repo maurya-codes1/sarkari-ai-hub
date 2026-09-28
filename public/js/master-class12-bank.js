@@ -1902,7 +1902,7 @@ const CLASS12_MATH_BANK = [
 ];
 
 const CLASS12_ACCOUNTANCY_BANK = [
-  {
+{
     "topic": "साझेदारी फर्म का लेखांकन - आधारभूत सिद्धांत (Partnership Accounting - Fundamentals)",
     "q": "साझेदारी संलेख (Partnership Deed) के अभाव में साझेदारों के ऋण (Loan by Partner) पर किस दर से ब्याज देय होता है?\n[English: In the absence of a partnership deed, at what rate is interest payable on a partner's loan?]",
     "options": [
@@ -2057,11 +2057,102 @@ const CLASS12_ACCOUNTANCY_BANK = [
     "correct": 0,
     "ans": "A) नया अनुपात - पुराना अनुपात / New Ratio - Old Ratio",
     "exp": "💡 सही उत्तर: A) अधिलाभ अनुपात = नया अनुपात - पुराना अनुपात (Gaining Ratio = New Ratio - Old Ratio)। जाने वाले साझेदार के लाभ का हिस्सा शेष साझेदारों को मिलता है।"
-  }
+  },
+  {
+  "topic": "साझेदारी - ख्याति का मूल्यांकन (Partnership - Valuation of Goodwill)",
+  "q": "पूंजीकरण विधि (Capitalisation Method) द्वारा ख्याति की गणना किस सूत्र से की जाती है?\n[English: Goodwill by Capitalisation of Average Profit method is calculated as:]",
+  "options": [
+    "A) व्यवसाय का पूंजीकृत मूल्य - शुद्ध संपत्तियां (Capitalised Value - Net Assets)",
+    "B) औसत लाभ × क्रय वर्ष",
+    "C) अधि लाभ × क्रय वर्ष",
+    "D) सामान्य लाभ - वास्तविक लाभ"
+  ],
+  "correct": 0,
+  "ans": "A) व्यवसाय का पूंजीकृत मूल्य - शुद्ध संपत्तियां (Capitalised Value - Net Assets)",
+  "exp": "💡 सही उत्तर: A। पूंजीकृत मूल्य विधि में: ख्याति = (औसत लाभ × 100 / सामान्य प्रत्याय दर) - शुद्ध संपत्तियां (विनियोजित पूंजी)।"
+},
+  {
+  "topic": "अंश पूंजी - बकाया याचना (Share Capital - Calls in Arrears)",
+  "q": "कंपनी अधिनियम 2013 की सारणी F (Table F) के अनुसार बकाया याचना (Calls in Arrears) पर कंपनी अधिकतम कितने प्रतिशत वार्षिक ब्याज ले सकती है?\n[English: As per Table F of Companies Act 2013, maximum interest rate on Calls in Arrears is:]",
+  "options": [
+    "A) 10% वार्षिक (10% p.a.)",
+    "B) 12% वार्षिक",
+    "C) 6% वार्षिक",
+    "D) 5% वार्षिक"
+  ],
+  "correct": 0,
+  "ans": "A) 10% वार्षिक (10% p.a.)",
+  "exp": "💡 सही उत्तर: A) 10% वार्षिक। सारणी F के अनुसार बकाया मांग पर ब्याज 10% वार्षिक तथा अग्रिम मांग (Calls in Advance) पर 12% वार्षिक ब्याज दिया जाता है।"
+},
+  {
+  "topic": "वित्तीय विवरणों का विश्लेषण - रोकड़ प्रवाह (Cash Flow Statement)",
+  "q": "लेखांकन मानक-3 (AS-3 / Ind AS 7) के अनुसार लाभांश का भुगतान (Payment of Dividend) किस प्रकार की क्रिया के अंतर्गत आता है?\n[English: Under AS-3, Payment of Dividend is classified under which activity?]",
+  "options": [
+    "A) वित्तीय क्रियाकलाप (Financing Activity)",
+    "B) परिचालन क्रियाकलाप (Operating Activity)",
+    "C) निवेश क्रियाकलाप (Investing Activity)",
+    "D) गैर-रोकड़ मद"
+  ],
+  "correct": 0,
+  "ans": "A) वित्तीय क्रियाकलाप (Financing Activity)",
+  "exp": "💡 सही उत्तर: A) वित्तीय क्रियाकलाप (Financing Activity)। लाभांश का भुगतान कंपनी की अंश पूंजी पर किया जाता है, अतः यह पूंजी संरचना से संबंधित होने के कारण वित्तीय क्रिया है।"
+},
+  {
+  "topic": "लेखांकन अनुपात (Accounting Ratios - Current Ratio)",
+  "q": "यदि किसी कंपनी का चालू अनुपात (Current Ratio) 2:1 है और उसने ₹20,000 के लेनदारों का भुगतान नकद किया, तो चालू अनुपात पर क्या प्रभाव पड़ेगा?\n[English: If Current Ratio is 2:1 and ₹20,000 creditors are paid in cash, the ratio will:]",
+  "options": [
+    "A) बढ़ेगा (Will improve/increase)",
+    "B) घटेगा (Will decline)",
+    "C) अपरिवर्तित रहेगा",
+    "D) शून्य हो जाएगा"
+  ],
+  "correct": 0,
+  "ans": "A) बढ़ेगा (Will improve/increase)",
+  "exp": "💡 सही उत्तर: A) बढ़ेगा। जब चालू संपत्ति और चालू दायित्व दोनों समान राशि से घटते हैं और प्रारंभिक अनुपात 1 से अधिक हो (2:1), तो नया अनुपात हमेशा बढ़ता है (जैसे: 200/100 -> (200-20)/(100-20) = 180/80 = 2.25:1)।"
+},
+  {
+  "topic": "ऋणपत्रों का मोचन (Redemption of Debentures)",
+  "q": "ऋणपत्र शोधन संचय (Debenture Redemption Reserve - DRR) का निर्माण किस खाते के लाभ से किया जाता है?\n[English: Debenture Redemption Reserve (DRR) is created out of which profits?]",
+  "options": [
+    "A) लाभ एवं हानि विवरण के आधिक्य से (Surplus in Statement of P&L)",
+    "B) पूंजी संचय से",
+    "C) प्रतिभूति प्रीमियम से",
+    "D) सामान्य संचय के पुनर्मूल्यांकन से"
+  ],
+  "correct": 0,
+  "ans": "A) लाभ एवं हानि विवरण के आधिक्य से (Surplus in Statement of P&L)",
+  "exp": "💡 सही उत्तर: A) लाभ एवं हानि विवरण का अधिशेष। कंपनी अधिनियम की धारा 71(4) के अनुसार DRR लाभांश वितरण हेतु उपलब्ध स्वतंत्र लाभों से बनाया जाता है।"
+},
+  {
+  "topic": "साझेदारी फर्म का विघटन (Dissolution of Partnership Firm - Realisation Account)",
+  "q": "साझेदारी फर्म के विघटन पर वसूली खाता (Realisation Account) किस प्रकृति का खाता है?\n[English: Realisation Account prepared on dissolution of firm is of which nature?]",
+  "options": [
+    "A) नाममात्र खाता (Nominal Account)",
+    "B) व्यक्तिगत खाता (Personal Account)",
+    "C) वास्तविक खाता (Real Account)",
+    "D) प्रतिनिधि खाता"
+  ],
+  "correct": 0,
+  "ans": "A) नाममात्र खाता (Nominal Account)",
+  "exp": "💡 सही उत्तर: A) नाममात्र खाता। वसूली खाता संपत्तियों की बिक्री से प्राप्त राशि और दायित्वों के भुगतान के बाद लाभ या हानि ज्ञात करने के लिए बनाया जाता है।"
+},
+  {
+  "topic": "कंपनी लेखांकन - प्रतिभूति प्रीमियम (Securities Premium - Section 52)",
+  "q": "कंपनी अधिनियम 2013 की धारा 52(2) के अनुसार प्रतिभूति प्रीमियम खाते की राशि का उपयोग निम्नलिखित में से किसके लिए नहीं किया जा सकता?\n[English: Under Section 52(2) of Companies Act 2013, Securities Premium CANNOT be used for:]",
+  "options": [
+    "A) लाभांश वितरण हेतु (Distribution of Dividend)",
+    "B) पूर्णप्रदत्त बोनस अंश जारी करने हेतु",
+    "C) प्रारंभिक व्ययों को अपलिखित करने हेतु",
+    "D) अंशों की पुनःखरीद (Buy-back of shares) हेतु"
+  ],
+  "correct": 0,
+  "ans": "A) लाभांश वितरण हेतु (Distribution of Dividend)",
+  "exp": "💡 सही उत्तर: A) लाभांश वितरण। धारा 52(2) के तहत प्रतिभूति प्रीमियम का उपयोग केवल बोनस शेयर, प्रारंभिक व्यय अपलेखन, प्रीमियम मोचन, और बायबैक के लिए ही किया जा सकता है।"
+}
 ];
 
 const CLASS12_BUSINESS_BANK = [
-  {
+{
     "topic": "प्रबंध के सिद्धांत (Principles of Management - Henry Fayol)",
     "q": "प्रबंध के 14 सिद्धांतों (14 Principles of Management) का प्रतिपादन किसने किया था?\n[English: Who propounded the famous 14 Principles of Management?]",
     "options": [
@@ -2216,11 +2307,89 @@ const CLASS12_BUSINESS_BANK = [
     "correct": 0,
     "ans": "A) एक अधिकारी द्वारा प्रभावी रूप से नियंत्रित किए जा सकने वाले अधीनस्थों की संख्या / Number of subordinates effectively managed by a superior",
     "exp": "💡 सही उत्तर: A) एक वरिष्ठ अधिकारी के अधीन कार्य करने वाले अधीनस्थों की वह संख्या जिनका वह कुशलतापूर्वक पर्यवेक्षण कर सके।"
-  }
+  },
+  {
+  "topic": "प्रबंध के सिद्धांत (Principles of Management - Fayol)",
+  "q": "हेनरी फेयोल द्वारा प्रतिपादित 'आदेश की एकता' (Unity of Command) का क्या अर्थ है?\n[English: What is meant by Fayol's 'Unity of Command'?]",
+  "options": [
+    "A) एक कर्मचारी को केवल एक ही उच्चाधिकारी से आदेश मिलना चाहिए (Only one superior)",
+    "B) एक योजना के लिए एक ही अध्यक्ष होना चाहिए",
+    "C) सभी कर्मचारियों का वेतन समान होना चाहिए",
+    "D) संगठन में अनुशासन अनिवार्य है"
+  ],
+  "correct": 0,
+  "ans": "A) एक कर्मचारी को केवल एक ही उच्चाधिकारी से आदेश मिलना चाहिए (Only one superior)",
+  "exp": "💡 सही उत्तर: A। फेयोल के अनुसार आदेश की एकता का सिद्धांत यह सुनिश्चित करता है कि एक कर्मचारी केवल एक ही अधिकारी के प्रति उत्तरदायी हो, जिससे भ्रम और संघर्ष से बचा जा सके।"
+},
+  {
+  "topic": "वित्तीय प्रबंध - पूंजी संरचना (Capital Structure - Trading on Equity)",
+  "q": "क्षमता पर व्यापार (Trading on Equity) का लाभ कंपनी के समता अंशधारकों को कब प्राप्त होता है?\n[English: When do equity shareholders benefit from 'Trading on Equity'?]",
+  "options": [
+    "A) जब विनियोजित पूंजी पर प्रत्याय (ROIC) ऋण की ब्याज दर से अधिक हो (ROIC > Cost of Debt)",
+    "B) जब ब्याज दर ROIC से अधिक हो",
+    "C) जब कर की दर शून्य हो",
+    "D) जब कंपनी ऋण नहीं लेती"
+  ],
+  "correct": 0,
+  "ans": "A) जब विनियोजित पूंजी पर प्रत्याय (ROIC) ऋण की ब्याज दर से अधिक हो (ROIC > Cost of Debt)",
+  "exp": "💡 सही उत्तर: A। जब कुल पूंजी पर अर्जित लाभ की दर (ROIC) स्थिर ब्याज वाली ऋण पूंजी की लागत से अधिक होती है, तो प्रति अंश आय (EPS) में वृद्धि होती है।"
+},
+  {
+  "topic": "विपणन प्रबंध (Marketing Management - Marketing Mix)",
+  "q": "विपणन मिश्रण (Marketing Mix) के 4Ps में कौन सा घटक सम्मिलित नहीं है?\n[English: Which of the following is NOT one of the 4Ps of Marketing Mix?]",
+  "options": [
+    "A) नीति (Policy)",
+    "B) उत्पाद (Product)",
+    "C) मूल्य (Price)",
+    "D) स्थान / संवर्धन (Place / Promotion)"
+  ],
+  "correct": 0,
+  "ans": "A) नीति (Policy)",
+  "exp": "💡 सही उत्तर: A) नीति (Policy)। ई. जेरोम मैकार्थी द्वारा प्रतिपादित 4Ps हैं: उत्पाद (Product), मूल्य (Price), स्थान (Place), और संवर्धन (Promotion)।"
+},
+  {
+  "topic": "उपभोक्ता संरक्षण अधिनियम 2019 (Consumer Protection Act 2019)",
+  "q": "उपभोक्ता संरक्षण अधिनियम 2019 के अंतर्गत 'जिला उपभोक्ता विवाद निवारण आयोग' (District Commission) की आर्थिक अधिकारिता (Pecuniary Jurisdiction) क्या है?\n[English: What is the pecuniary jurisdiction of District Commission under CPA 2019?]",
+  "options": [
+    "A) ₹50 लाख तक (Up to ₹50 Lakhs / संशोधित नियमों के तहत)",
+    "B) ₹1 करोड़ तक",
+    "C) ₹10 करोड़ तक",
+    "D) ₹20 लाख तक"
+  ],
+  "correct": 0,
+  "ans": "A) ₹50 लाख तक (Up to ₹50 Lakhs / संशोधित नियमों के तहत)",
+  "exp": "💡 सही उत्तर: A) उपभोक्ता संरक्षण (उपभोक्ता आयोगों की आर्थिक अधिकारिता) नियम 2021 के अनुसार जिला आयोग का क्षेत्राधिकार 50 लाख रुपये तक के दावों के लिए है।"
+},
+  {
+  "topic": "नियोजन एवं संगठन (Planning & Organizing - Delegation of Authority)",
+  "q": "अधिकार अंतरण (Delegation of Authority) के तीन मौलिक तत्व कौन से हैं?\n[English: What are the three essential elements of Delegation of Authority?]",
+  "options": [
+    "A) अधिकार, उत्तरदायित्व और जवाबदेही (Authority, Responsibility & Accountability)",
+    "B) योजना, संगठन और नियंत्रण",
+    "C) शक्ति, धन और श्रम",
+    "D) आदेश, पद और वेतन"
+  ],
+  "correct": 0,
+  "ans": "A) अधिकार, उत्तरदायित्व और जवाबदेही (Authority, Responsibility & Accountability)",
+  "exp": "💡 सही उत्तर: A। अधिकार (निर्णय लेने की शक्ति), उत्तरदायित्व (कार्य पूरा करने का कर्तव्य) और जवाबदेही (परिणाम के प्रति उत्तरदायित्व, जिसे कभी अंतरित नहीं किया जा सकता)।"
+},
+  {
+  "topic": "वित्तीय बाजार (Financial Markets - Money Market Instruments)",
+  "q": "भारतीय रिजर्व बैंक द्वारा अल्पकालिक नकदी प्रबंधन के लिए जारी किए जाने वाले ट्रेजरी बिल (Treasury Bills / T-Bills) की न्यूनतम राशि कितनी होती है?\n[English: What is the minimum denomination of Treasury Bills in India?]",
+  "options": [
+    "A) ₹25,000 और उसके गुणज में (₹25,000 and multiples)",
+    "B) ₹10,000",
+    "C) ₹50,000",
+    "D) ₹1,00,000"
+  ],
+  "correct": 0,
+  "ans": "A) ₹25,000 और उसके गुणज में (₹25,000 and multiples)",
+  "exp": "💡 सही उत्तर: A) ₹25,000। टी-बिल्स 91 दिन, 182 दिन और 364 दिन की परिपक्वता अवधि के लिए बट्टे (Discount) पर जारी किए जाते हैं और सममूल्य (Face Value) पर भुनाए जाते हैं।"
+}
 ];
 
 const CLASS12_ECONOMICS_BANK = [
-  {
+{
     "topic": "व्यष्टि अर्थशास्त्र - मांग का नियम (Microeconomics - Law of Demand)",
     "q": "सामान्य वस्तुओं (Normal Goods) के संदर्भ में मांग का नियम वस्तु की कीमत और उसकी मांग मात्रा के बीच कैसा संबंध दर्शाता है?\n[English: For normal goods, what type of relationship does the Law of Demand show between price and quantity demanded?]",
     "options": [
@@ -2375,7 +2544,59 @@ const CLASS12_ECONOMICS_BANK = [
     "correct": 0,
     "ans": "A) 5",
     "exp": "💡 सही उत्तर: A) 5। गुणक सूत्र: k = 1 / (1 - MPC) = 1 / (1 - 0.8) = 1 / 0.2 = 5।"
-  }
+  },
+  {
+  "topic": "राष्ट्रीय आय का लेखांकन (National Income - GDP Deflator)",
+  "q": "सकल घरेलू उत्पाद अवस्फीतिकारक (GDP Deflator) का सही सूत्र क्या है?\n[English: What is the correct formula for GDP Deflator?]",
+  "options": [
+    "A) (नाममात्र GDP / वास्तविक GDP) × 100 [ (Nominal GDP / Real GDP) × 100 ]",
+    "B) (वास्तविक GDP / नाममात्र GDP) × 100",
+    "C) GDP - शुद्ध अप्रत्यक्ष कर",
+    "D) GNP - मूल्यह्रास"
+  ],
+  "correct": 0,
+  "ans": "A) (नाममात्र GDP / वास्तविक GDP) × 100 [ (Nominal GDP / Real GDP) × 100 ]",
+  "exp": "💡 सही उत्तर: A। GDP डिफ्लेटर चालू कीमतों पर GDP (Nominal) तथा स्थिर कीमतों पर GDP (Real) का अनुपात होता है, जो अर्थव्यवस्था में समग्र मुद्रास्फीति (मूल्य स्तर) को मापता है।"
+},
+  {
+  "topic": "मुद्रा एवं बैंकिंग (Money & Banking - Credit Creation)",
+  "q": "यदि केंद्रीय बैंक नकद आरक्षित अनुपात (Cash Reserve Ratio - CRR) को 4% से बढ़ाकर 5% कर दे, तो वाणिज्यिक बैंकों की साख सृजन क्षमता पर क्या प्रभाव पड़ेगा?\n[English: If the Central Bank increases CRR from 4% to 5%, commercial banks' credit creation capacity will:]",
+  "options": [
+    "A) घटेगी (Will decrease)",
+    "B) बढ़ेगी (Will increase)",
+    "C) अपरिवर्तित रहेगी",
+    "D) दोगुनी हो जाएगी"
+  ],
+  "correct": 0,
+  "ans": "A) घटेगी (Will decrease)",
+  "exp": "💡 सही उत्तर: A) घटेगी। साख गुणक = 1 / LRR। CRR बढ़ने से बैंकों को RBI के पास अधिक नकदी रखनी पड़ती है, जिससे उधार देने योग्य कोष कम हो जाता है।"
+},
+  {
+  "topic": "व्यष्टि अर्थशास्त्र - मांग की लोच (Microeconomics - Elasticity of Demand)",
+  "q": "जब किसी वस्तु की कीमत में परिवर्तन होने पर भी उस पर किया जाने वाला कुल व्यय (Total Outlay) स्थिर रहता है, तो मांग की कीमत लोच (Ed) का मान क्या होगा?\n[English: When total expenditure remains unchanged with a change in price, price elasticity of demand (Ed) is:]",
+  "options": [
+    "A) इकाई के बराबर (|Ed| = 1, Unitary Elastic)",
+    "B) इकाई से अधिक (|Ed| > 1)",
+    "C) शून्य (|Ed| = 0)",
+    "D) अनंत (|Ed| = ∞)"
+  ],
+  "correct": 0,
+  "ans": "A) इकाई के बराबर (|Ed| = 1, Unitary Elastic)",
+  "exp": "💡 सही उत्तर: A) इकाई के बराबर (|Ed| = 1)। मार्शल की कुल व्यय विधि के अनुसार यदि कीमत बढ़ने या घटने पर कुल व्यय अपरिवर्तित रहे, तो मांग की लोच इकाई के बराबर होती है।"
+},
+  {
+  "topic": "सरकारी बजट (Government Budget - Fiscal Deficit)",
+  "q": "राजकोषीय घाटा (Fiscal Deficit) किसके बराबर होता है?\n[English: Fiscal Deficit is equal to:]",
+  "options": [
+    "A) कुल व्यय - (कुल प्राप्तियां - उधार) [Total Exp - (Total Receipts excluding borrowings)]",
+    "B) राजस्व व्यय - राजस्व प्राप्तियां",
+    "C) राजकोषीय घाटा - ब्याज भुगतान",
+    "D) बजटीय घाटा + मूल्यह्रास"
+  ],
+  "correct": 0,
+  "ans": "A) कुल व्यय - (कुल प्राप्तियां - उधार) [Total Exp - (Total Receipts excluding borrowings)]",
+  "exp": "💡 सही उत्तर: A। राजकोषीय घाटा सरकार की कुल उधार आवश्यकताओं (Total Borrowings) को दर्शाता है। प्राथमिक घाटा = राजकोषीय घाटा - ब्याज भुगतान।"
+}
 ];
 
 const CLASS12_HISTORY_BANK = [

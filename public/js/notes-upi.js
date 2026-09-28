@@ -7029,11 +7029,12 @@ async function verifyAndDownloadPdf() {
         let lastSubject = '';
         return objectives.map((item, idx) => {
           let chapterHdr = '';
-          if (item.subjectName && item.subjectName !== lastSubject) {
-            lastSubject = item.subjectName;
+          const secTitle = item.sectionName || item.subjectName;
+          if (secTitle && secTitle !== lastSubject) {
+            lastSubject = secTitle;
             chapterHdr = `
               <div class="pdf-section-hdr" style="background: #0284c7; color: white; padding: 6px 12px; font-weight: 800; font-size: 12px; border-radius: 6px; margin: 14px 0 8px 0;">
-                📖 अध्याय: ${item.subjectName}
+                📖 अनुभाग / Subject: ${secTitle}
               </div>
             `;
           }
@@ -7336,25 +7337,42 @@ function openNotesReaderModal(noteData) {
         </div>
 
         <div id="notesReaderMcqList" class="space-y-3">
-          ${objectives.map((item, idx) => `
-            <div class="note-reader-item p-3.5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
-              <div class="font-bold text-xs sm:text-sm text-slate-900 leading-snug whitespace-pre-line">${item.q}</div>
-              ${item.options && item.options.length ? `
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-xs text-slate-700 pt-1">
-                  ${item.options.map(opt => `<div class="p-1.5 bg-slate-50 rounded-lg border border-slate-200">${opt}</div>`).join('')}
+          ${(() => {
+            let lastSec = '';
+            return objectives.map((item, idx) => {
+              const secTitle = item.sectionName || item.subjectName;
+              let secBadge = '';
+              if (secTitle && secTitle !== lastSec) {
+                lastSec = secTitle;
+                secBadge = `
+                  <div class="font-bold text-xs text-blue-900 bg-blue-50 border border-blue-200 px-3 py-1.5 rounded-xl mt-4 mb-2 flex items-center space-x-2">
+                    <span>📖 अनुभाग / Subject:</span>
+                    <span class="font-extrabold">${secTitle}</span>
+                  </div>
+                `;
+              }
+              return `
+                ${secBadge}
+                <div class="note-reader-item p-3.5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
+                  <div class="font-bold text-xs sm:text-sm text-slate-900 leading-snug whitespace-pre-line">${item.q}</div>
+                  ${item.options && item.options.length ? `
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-xs text-slate-700 pt-1">
+                      ${item.options.map(opt => `<div class="p-1.5 bg-slate-50 rounded-lg border border-slate-200">${opt}</div>`).join('')}
+                    </div>
+                  ` : ''}
+                  <div class="p-2 bg-emerald-50 border border-emerald-200 text-emerald-800 font-bold text-xs rounded-xl flex items-center space-x-1.5">
+                    <span>✓ सही उत्तर:</span>
+                    <span>${item.ans || item.a}</span>
+                  </div>
+                  ${item.explanation ? `
+                    <div class="p-2 bg-slate-50 border-l-4 border-slate-400 text-slate-600 text-[11px] rounded-r-xl">
+                      ${item.explanation}
+                    </div>
+                  ` : ''}
                 </div>
-              ` : ''}
-              <div class="p-2 bg-emerald-50 border border-emerald-200 text-emerald-800 font-bold text-xs rounded-xl flex items-center space-x-1.5">
-                <span>✓ सही उत्तर:</span>
-                <span>${item.ans || item.a}</span>
-              </div>
-              ${item.explanation ? `
-                <div class="p-2 bg-slate-50 border-l-4 border-slate-400 text-slate-600 text-[11px] rounded-r-xl">
-                  ${item.explanation}
-                </div>
-              ` : ''}
-            </div>
-          `).join('')}
+              `;
+            }).join('');
+          })()}
         </div>
 
         <!-- Section 2: Subjectives -->

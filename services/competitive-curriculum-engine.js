@@ -30,6 +30,9 @@ try {
   } catch (e2) {}
 }
 
+const { getCompleteSubjectInventory } = require('./subject-inventory-loader');
+const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
+
 const COMPETITIVE_EXAMS_REGISTRY = {
   // 1. CENTRAL & DEFENCE EXAMS
   "ssc-gd": {
@@ -439,9 +442,8 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
   const langMode = meta.langMode;
   const isStatePolice = meta.category === "police";
 
-  // Quantity quota: exactly 250 to 300 MCQs
-  const targetMcqCount = 250;
-  const mcqs = [];
+  // Quantity quota: high-yield questions
+  let mcqs = [];
 
   // Core templates pool across subjects
   const coreTemplates = [
@@ -522,79 +524,60 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     }
   ];
 
-  // Synthesize 250 high-yield questions using Authentic Master Bank where applicable
+  // Authentic Question Inventory Retrieval & Allocation
   const normSub = (subjectId || 'all').toLowerCase();
-  let hyBank = null;
-  const hy = HIGH_YIELD_BANKS || {};
-  const cb = COMP_BANKS || {};
+  const isAllBundle = normSub === 'all' || normSub.includes('सभी') || normSub.includes('bundle');
 
-  if (normSub === 'reasoning' || normSub.includes('reason') || normSub.includes('तर्क') || normSub.includes('तार्किक')) {
-    hyBank = cb.COMPETITIVE_REASONING_BANK;
-  } else if (normSub === 'math' || normSub.includes('math') || normSub.includes('quant') || normSub.includes('गणित')) {
-    hyBank = cb.COMPETITIVE_MATH_BANK || hy.HIGH_YIELD_MATH_BANK;
-  } else if (normSub === 'law' || normSub.includes('law') || normSub.includes('मूलविधि') || normSub.includes('संविधान')) {
-    hyBank = cb.UP_POLICE_LAW_SPECIAL_BANK;
-  } else if (normSub === 'tech' || normSub.includes('tech') || normSub.includes('science') || normSub.includes('विज्ञान')) {
-    hyBank = cb.RAILWAY_SCIENCE_TECH_BANK || hy.HIGH_YIELD_SCIENCE_BANK;
-  } else if (normSub === 'gk' || normSub === 'gs' || normSub.includes('gk') || normSub.includes('general') || normSub.includes('up-gk')) {
-    hyBank = [...(cb.COMPETITIVE_GK_GS_BANK || []), ...(cb.UP_POLICE_LAW_SPECIAL_BANK || []), ...(hy.HIGH_YIELD_SOCIAL_BANK || [])];
-  } else if (normSub === 'hindi' || normSub.includes('hindi')) {
-    hyBank = hy.HIGH_YIELD_HINDI_BANK;
-  } else if (normSub === 'english' || normSub.includes('english')) {
-    hyBank = hy.HIGH_YIELD_ENGLISH_BANK;
-  } else if (normSub === 'all') {
-    if (examId === 'up-police' || examId.includes('police')) {
-      hyBank = [
-        ...(cb.UP_POLICE_LAW_SPECIAL_BANK || []),
-        ...(cb.COMPETITIVE_GK_GS_BANK || []),
-        ...(hy.HIGH_YIELD_HINDI_BANK || []),
-        ...(cb.COMPETITIVE_MATH_BANK || hy.HIGH_YIELD_MATH_BANK || []),
-        ...(cb.COMPETITIVE_REASONING_BANK || [])
-      ];
-    } else if (examId.includes('railway')) {
-      hyBank = [
-        ...(cb.RAILWAY_SCIENCE_TECH_BANK || hy.HIGH_YIELD_SCIENCE_BANK || []),
-        ...(cb.COMPETITIVE_MATH_BANK || hy.HIGH_YIELD_MATH_BANK || []),
-        ...(cb.COMPETITIVE_REASONING_BANK || []),
-        ...(cb.COMPETITIVE_GK_GS_BANK || [])
-      ];
-    } else {
-      hyBank = [
-        ...(cb.COMPETITIVE_REASONING_BANK || []),
-        ...(cb.COMPETITIVE_MATH_BANK || hy.HIGH_YIELD_MATH_BANK || []),
-        ...(cb.COMPETITIVE_GK_GS_BANK || []),
-        ...(hy.HIGH_YIELD_HINDI_BANK || []),
-        ...(hy.HIGH_YIELD_ENGLISH_BANK || [])
-      ];
-    }
+  if (isAllBundle) {
+    // -------------------------------------------------------------
+    // ALL-SUBJECT / MIXED BUNDLE RECONCILIATION
+    // Configurable Allocation Policy:
+    // ~100 eligible -> ~65 questions (60-70)
+    // ~200 eligible -> ~144 questions (140-150)
+    // ~250 eligible -> ~190 questions (180-200)
+    // 300+ eligible -> 75% (70-80%)
+    // Every subject represented strongly with zero duplication
+    // -------------------------------------------------------------
+    const examSubjects = (meta.subjects || []).filter(s => s.id !== 'all');
+    const sectionsToBuild = (examSubjects.length > 0 ? examSubjects : [
+      { id: 'gk', name: 'General Knowledge & General Awareness' },
+      { id: 'math', name: 'Elementary Mathematics' },
+      { id: 'reasoning', name: 'General Intelligence & Reasoning' },
+      { id: 'hindi', name: 'General Hindi / English' }
+    ]);
+
+    const subjectSections = sectionsToBuild.map(sub => {
+      const qPool = getCompleteSubjectInventory(sub.id, { examName: meta.name });
+      return {
+        subjectId: sub.id,
+        subjectName: sub.name.replace(/^[^\w\s\u0900-\u097F]+/, '').trim(),
+        questions: qPool
+      };
+    });
+
+    const reconciled = reconcileAllSubjectBundle(subjectSections, { examId });
+    mcqs = reconciled.bundledQuestions.map((item, idx) => ({
+      ...item,
+      num: idx + 1,
+      id: `${examId}-bundle-${idx + 1}`
+    }));
+  } else {
+    // -------------------------------------------------------------
+    // SINGLE SUBJECT STUDY GUIDE
+    // Preserves FULL legitimate subject inventory without artificial clamp
+    // If 150, 200, 250 questions exist, ALL are included
+    // -------------------------------------------------------------
+    const questions = getCompleteSubjectInventory(normSub, { examName: meta.name });
+    mcqs = questions.map((item, idx) => ({
+      ...item,
+      num: idx + 1,
+      id: `${examId}-${subjectId}-${idx + 1}`
+    }));
   }
 
-  if (hyBank && hyBank.length > 0) {
-    for (let i = 1; i <= targetMcqCount; i++) {
-      const item = hyBank[(i - 1) % hyBank.length];
-      const cycle = Math.floor((i - 1) / hyBank.length);
-      let qText = `${i}. ${item.q}`;
-      if (cycle > 0) {
-        const year = 2026 - (cycle % 6);
-        const setLetter = String.fromCharCode(65 + (cycle % 4));
-        qText += `\n[${meta.name} TCS/NTA Model ${year} • Set ${setLetter}]`;
-      } else {
-        qText += `\n[${meta.name} High-Yield Practice PYQ]`;
-      }
-
-      mcqs.push({
-        num: i,
-        id: `${examId}-${subjectId}-${i}`,
-        q: qText,
-        options: item.options || ["A)", "B)", "C)", "D)"],
-        correct: item.correct !== undefined ? item.correct : 0,
-        ans: item.ans || (item.options ? item.options[0] : "A) Correct"),
-        explanation: item.exp || item.explanation || "💡 Authentic TCS/NTA exam solution.",
-        topic: `${item.topic} • ${meta.name}`
-      });
-    }
-  } else {
-    for (let i = 1; i <= targetMcqCount; i++) {
+  // Fallback to core templates only if both inventory and DB have zero questions
+  if (mcqs.length === 0) {
+    for (let i = 1; i <= 25; i++) {
       const tmpl = coreTemplates[(i - 1) % coreTemplates.length];
       let qText = "";
       let opts = [];
@@ -609,7 +592,7 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
         opts = tmpl.opts_bn;
         expText = tmpl.exp_bn;
       } else if (langMode === "english") {
-        qText = `${i}. ${tmpl.q_en}\n[${meta.name} High-Yield Practice PYQ]`;
+        qText = `${i}. ${tmpl.q_en}`;
         opts = tmpl.opts_en;
         expText = tmpl.exp_hi;
       } else {
@@ -696,12 +679,12 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
   ];
 
   return {
-    title: `${meta.name} - Master Practice Guide & 250+ High-Yield Questions (2026 Edition)`,
+    title: `${meta.name} - Master Practice Guide & ${mcqs.length} High-Yield Questions (2026 Edition)`,
     exam: meta.name,
     category: meta.category,
-    pages: "56 Pages Master Practice PDF",
-    badge: `🔥 TCS/NTA Pattern • 250 Questions`,
-    summary: `${meta.name} के 10 वर्षों के हल सहित मॉडल पेपर्स, 250 उच्च-प्राथमिकता वस्तुनिष्ठ बहुविकल्पीय प्रश्न (MCQs) विस्तृत व्याख्या सहित, मुख्य परीक्षा मॉडल उत्तर व फॉर्मूला बैंक।`,
+    pages: `${Math.max(16, Math.ceil(mcqs.length / 4))} Pages Master Practice PDF`,
+    badge: `🔥 Verified Content • ${mcqs.length} Questions`,
+    summary: `${meta.name} के प्रामाणिक हल सहित मॉडल पेपर्स, ${mcqs.length} उच्च-प्राथमिकता वस्तुनिष्ठ बहुविकल्पीय प्रश्न (MCQs) विस्तृत व्याख्या सहित, मुख्य परीक्षा मॉडल उत्तर व फॉर्मूला बैंक।`,
     objectives: mcqs,
     subjectives: subjectives,
     hallOfFame: hallOfFame,
