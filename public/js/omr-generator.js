@@ -610,12 +610,44 @@ function triggerOmrSheetGenerator(fromQuiz = false) {
   });
 }
 
+// Check if an exam supports physical/offline OMR format
+function isExamOmrSupported(examId) {
+  if (!examId) return false;
+  const id = examId.toLowerCase().trim();
+  // State Boards (10th and 12th board exams have physical OMR objective sheets)
+  if (id.includes('board') || id.includes('bseb') || id.includes('upmsp') || id.includes('cbse') || id.includes('icse') || id.includes('class-')) return true;
+  // National offline pen-and-paper exams
+  if (id.includes('neet')) return true;
+  // State police bharti exams that use pen-and-paper OMR
+  if (id.includes('police') && (id.includes('up') || id.includes('bihar') || id.includes('mp') || id.includes('rajasthan') || id.includes('haryana'))) return true;
+  // State and central teacher eligibility tests (OMR based)
+  if (id.includes('tet') || id.includes('ctet') || id.includes('uptet') || id.includes('reet') || id.includes('bpsc')) return true;
+  return false;
+}
+
 // Expose globally
-window.generateOmrSheetHtml = generateOmrSheetHtml;
-window.openPrintableOmrWindow = openPrintableOmrWindow;
-window.downloadOmrDirectPdf = downloadOmrDirectPdf;
-window.openOmrGeneratorModal = openOmrGeneratorModal;
-window.closeOmrGeneratorModal = closeOmrGeneratorModal;
-window.executeOmrAction = executeOmrAction;
-window.onOmrExamChange = onOmrExamChange;
-window.triggerOmrSheetGenerator = triggerOmrSheetGenerator;
+if (typeof window !== 'undefined') {
+  window.generateOmrSheetHtml = generateOmrSheetHtml;
+  window.openPrintableOmrWindow = openPrintableOmrWindow;
+  window.downloadOmrDirectPdf = downloadOmrDirectPdf;
+  window.openOmrGeneratorModal = openOmrGeneratorModal;
+  window.closeOmrGeneratorModal = closeOmrGeneratorModal;
+  window.executeOmrAction = executeOmrAction;
+  window.onOmrExamChange = onOmrExamChange;
+  window.triggerOmrSheetGenerator = triggerOmrSheetGenerator;
+  window.isExamOmrSupported = isExamOmrSupported;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    generateOmrSheetHtml,
+    openPrintableOmrWindow,
+    downloadOmrDirectPdf,
+    openOmrGeneratorModal,
+    closeOmrGeneratorModal,
+    executeOmrAction,
+    onOmrExamChange,
+    triggerOmrSheetGenerator,
+    isExamOmrSupported
+  };
+}

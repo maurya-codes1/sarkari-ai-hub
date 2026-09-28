@@ -369,6 +369,7 @@ function switchQuizMode(mode) {
   const bpCard = document.getElementById('quizBlueprintSummaryCard');
   const pracCard = document.getElementById('quizPracticeControlsContainer');
   const subjSelectContainer = document.getElementById('quizSubjectSelect')?.parentElement;
+  const badgeEl = document.getElementById('quizReadyCountBadge');
 
   const activeClass = "px-4 py-2 rounded-xl text-xs font-black transition cursor-pointer bg-white dark:bg-slate-700 text-rose-700 dark:text-rose-300 shadow-sm";
   const inactiveClass = "px-4 py-2 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-slate-900 transition cursor-pointer";
@@ -380,15 +381,30 @@ function switchQuizMode(mode) {
   if (mode === 'FULL_EXAM_PATTERN' || mode === 'FULL_EXAM') {
     if (bpCard) bpCard.classList.remove('hidden');
     if (pracCard) pracCard.classList.add('hidden');
+    if (badgeEl) {
+      badgeEl.className = "inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700";
+      badgeEl.setAttribute('data-i18n', 'quiz_badge_blueprint');
+      badgeEl.textContent = typeof getTranslation === 'function' ? (getTranslation('quiz_badge_blueprint') || 'Official Blueprint Active') : 'Official Blueprint Active';
+    }
     updateBlueprintSummaryDisplay();
   } else if (mode === 'SUBJECT_PRACTICE') {
     if (bpCard) bpCard.classList.add('hidden');
     if (pracCard) pracCard.classList.remove('hidden');
     if (subjSelectContainer) subjSelectContainer.classList.remove('hidden');
+    if (badgeEl) {
+      badgeEl.className = "inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-black bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300 border border-amber-300 dark:border-amber-700";
+      badgeEl.setAttribute('data-i18n', 'quiz_badge_practice');
+      badgeEl.textContent = typeof getTranslation === 'function' ? (getTranslation('quiz_badge_practice') || 'Practice Mode Active') : 'Practice Mode Active';
+    }
   } else if (mode === 'ALL_SUBJECTS_PRACTICE') {
     if (bpCard) bpCard.classList.add('hidden');
     if (pracCard) pracCard.classList.remove('hidden');
     if (subjSelectContainer) subjSelectContainer.classList.add('hidden');
+    if (badgeEl) {
+      badgeEl.className = "inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-black bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300 border border-amber-300 dark:border-amber-700";
+      badgeEl.setAttribute('data-i18n', 'quiz_badge_practice');
+      badgeEl.textContent = typeof getTranslation === 'function' ? (getTranslation('quiz_badge_practice') || 'Practice Mode Active') : 'Practice Mode Active';
+    }
   }
 }
 
@@ -1275,6 +1291,9 @@ function updateBoardSubjects() {
     subjectSelect.innerHTML = subjects.map(s => `
       <option value="${s.id}">${s.name}</option>
     `).join('');
+    if (subjects.length > 0) {
+      subjectSelect.value = subjects[0].id;
+    }
   }
 }
 
@@ -1292,9 +1311,16 @@ function updateDependentDropdowns() {
   if (examObj.isBoard) {
     if (boardContainer) boardContainer.classList.remove('hidden');
     if (boardSelect && examObj.boards) {
+      const currentBoard = boardSelect.value;
+      const isValidBoard = examObj.boards.some(b => b.id === currentBoard);
       boardSelect.innerHTML = examObj.boards.map(b => `
         <option value="${b.id}">${b.name}</option>
       `).join('');
+      if (isValidBoard) {
+        boardSelect.value = currentBoard;
+      } else if (examObj.boards.length > 0) {
+        boardSelect.value = examObj.boards[0].id;
+      }
       updateBoardSubjects();
     }
   } else {
@@ -1303,6 +1329,9 @@ function updateDependentDropdowns() {
       subjectSelect.innerHTML = examObj.subjects.map(s => `
         <option value="${s.id}">${s.name}</option>
       `).join('');
+      if (examObj.subjects.length > 0) {
+        subjectSelect.value = examObj.subjects[0].id;
+      }
     }
   }
 
@@ -1324,9 +1353,21 @@ async function startNewQuiz() {
   const subjectId = subjectSelect ? subjectSelect.value : 'all';
   const boardId = boardSelect ? boardSelect.value : '';
   const testMode = activeQuiz.mode || 'FULL_EXAM_PATTERN';
-  const requestedCount = sizeSelect ? parseInt(sizeSelect.value, 10) : 30;
-  const difficulty = diffSelect ? diffSelect.value : 'MIXED';
-  const timerMode = timerSelect ? timerSelect.value : 'COUNTDOWN';
+  const isFullExamMode = (testMode === 'FULL_EXAM_PATTERN' || testMode === 'FULL_EXAM');
+  const bp = resolveLocalBlueprint(examId);
+
+  // In FULL_EXAM mode, NEVER use practice sizeSelect or custom timer!
+  // Lock strictly to the verified official blueprint!
+  const requestedCount = isFullExamMode
+    ? (bp.total_questions || bp.totalQuestions || 80)
+    : (sizeSelect ? parseInt(sizeSelect.value, 10) : 30);
+  const difficulty = isFullExamMode ? 'MIXED' : (diffSelect ? diffSelect.value : 'MIXED');
+  const timerMode = isFullExamMode ? 'COUNTDOWN' : (timerSelect ? timerSelect.value : 'COUNTDOWN');
+
+  // Exam Safety: Hide floating chatbot widget while taking the exam
+  document.body.classList.add('in-quiz');
+  const chatBubble = document.getElementById('floatingChatbotWidget');
+  if (chatBubble) chatBubble.classList.add('hidden');
 
   let sessionData = null;
 
@@ -1338,7 +1379,7 @@ async function startNewQuiz() {
         examId,
         testMode,
         requestedCount,
-        subjectId,
+        subjectId: isFullExamMode ? 'all' : subjectId,
         difficulty,
         timerMode
       })
@@ -1353,6 +1394,8 @@ async function startNewQuiz() {
         } else {
           alert(unavailMsg);
         }
+        document.body.classList.remove('in-quiz');
+        if (chatBubble) chatBubble.classList.remove('hidden');
         return;
       }
       if (data.success && Array.isArray(data.questions) && data.questions.length > 0) {
@@ -1375,6 +1418,8 @@ async function startNewQuiz() {
     } else {
       alert(loadingMsg);
     }
+    document.body.classList.remove('in-quiz');
+    if (chatBubble) chatBubble.classList.remove('hidden');
     return;
   }
 
@@ -1395,14 +1440,14 @@ async function startNewQuiz() {
   activeQuiz.visited = { 0: true };
   activeQuiz.isRunning = true;
 
-  const bp = activeQuiz.blueprint;
-  activeQuiz.hasNegativeMarking = Boolean(bp.isNegativeMarking !== undefined ? bp.isNegativeMarking : (bp.is_negative_marking !== undefined ? bp.is_negative_marking : false));
+  const activeBp = activeQuiz.blueprint;
+  activeQuiz.hasNegativeMarking = Boolean(activeBp.isNegativeMarking !== undefined ? activeBp.isNegativeMarking : (activeBp.is_negative_marking !== undefined ? activeBp.is_negative_marking : false));
   activeQuiz.negativeMarkingRate = activeQuiz.hasNegativeMarking
-    ? Number(bp.negativeValue !== undefined ? bp.negativeValue : (bp.negative_value !== undefined ? bp.negative_value : (bp.sections && bp.sections[0] ? (bp.sections[0].negativeValue || bp.sections[0].marksWrong || 0.25) : 0.25)))
+    ? Number(activeBp.negativeValue !== undefined ? activeBp.negativeValue : (activeBp.negative_value !== undefined ? activeBp.negative_value : (activeBp.sections && activeBp.sections[0] ? (activeBp.sections[0].negativeValue || activeBp.sections[0].marksWrong || 0.25) : 0.25)))
     : 0.0;
 
   // Setup timer
-  const timerConfig = sessionData.timerConfig || { mode: 'COUNTDOWN', durationMinutes: bp.durationMinutes || bp.duration_minutes || 60, totalSeconds: (bp.durationMinutes || bp.duration_minutes || 60) * 60 };
+  const timerConfig = sessionData.timerConfig || { mode: 'COUNTDOWN', durationMinutes: activeBp.durationMinutes || activeBp.duration_minutes || 60, totalSeconds: (activeBp.durationMinutes || activeBp.duration_minutes || 60) * 60 };
   activeQuiz.timerMode = timerConfig.mode || 'COUNTDOWN';
   activeQuiz.totalSeconds = timerConfig.totalSeconds || 3600;
   activeQuiz.secondsRemaining = activeQuiz.totalSeconds;
@@ -1441,45 +1486,116 @@ async function startNewQuiz() {
 }
 
 function generateLocalSessionFallback(examId, subjectId, requestedCount, boardId, testMode) {
+  const localBp = resolveLocalBlueprint(examId);
+  const isFullExam = (testMode === 'FULL_EXAM_PATTERN' || testMode === 'FULL_EXAM');
+  const countToUse = isFullExam
+    ? (localBp.total_questions || localBp.totalQuestions || 80)
+    : (requestedCount || 30);
+
   let localQuestions = [];
   if (typeof getFilteredQuestions === 'function') {
-    localQuestions = getFilteredQuestions(examId, subjectId, requestedCount, boardId);
+    localQuestions = getFilteredQuestions(examId, isFullExam ? 'all' : subjectId, countToUse, boardId);
   }
 
-  const localBp = resolveLocalBlueprint(examId);
   const isNeg = Boolean(localBp.is_negative_marking);
   const negVal = isNeg ? (localBp.negative_value !== undefined ? localBp.negative_value : 0.25) : 0.0;
   const marksCorr = (localBp.sections && localBp.sections[0] && localBp.sections[0].marks_correct) || (localBp.total_marks && localBp.total_questions ? (localBp.total_marks / localBp.total_questions) : 1.0);
 
-  const defaultSection = {
-    sectionId: 'sec-local-1',
-    name: localBp.name || 'General Assessment Section',
-    questionCount: localQuestions.length,
-    questionsToAttempt: localQuestions.length,
-    marksCorrect: marksCorr,
-    marksWrong: negVal,
-    hasNegativeMarking: isNeg,
-    attemptRuleType: 'ATTEMPT_ALL'
-  };
+  let sections = [];
+  let partitionedQuestions = [];
+
+  if (isFullExam && Array.isArray(localBp.sections) && localBp.sections.length > 0) {
+    let qOffset = 0;
+    sections = localBp.sections.map((sec, sIdx) => {
+      const secCount = sec.question_count || sec.questionCount || Math.ceil(localQuestions.length / localBp.sections.length);
+      const secAttempt = sec.questions_to_attempt !== undefined ? sec.questions_to_attempt : (sec.questionsToAttempt !== undefined ? sec.questionsToAttempt : secCount);
+      const secMarks = sec.marks_correct !== undefined ? sec.marks_correct : marksCorr;
+      const secNeg = sec.negative_value !== undefined ? sec.negative_value : (sec.marks_wrong !== undefined ? sec.marks_wrong : negVal);
+      const secId = `sec-local-${sIdx + 1}`;
+
+      const secQuestions = localQuestions.slice(qOffset, qOffset + secCount);
+      secQuestions.forEach((q, idx) => {
+        partitionedQuestions.push({
+          id: q.id || `q-local-${sIdx}-${idx}`,
+          sectionId: secId,
+          sectionName: sec.name,
+          questionType: q.questionType || 'single_mcq',
+          q: q.q,
+          secondaryQ: q.secondaryQ || '',
+          options: q.options || [],
+          correct: q.correct !== undefined ? q.correct : q.ans,
+          explanation: q.explanation || '',
+          marksCorrect: secMarks,
+          marksWrong: secNeg
+        });
+      });
+      qOffset += secCount;
+
+      return {
+        sectionId: secId,
+        name: sec.name,
+        questionCount: secCount,
+        questionsToAttempt: secAttempt,
+        marksCorrect: secMarks,
+        marksWrong: secNeg,
+        hasNegativeMarking: isNeg,
+        attemptRuleType: secAttempt < secCount ? 'ATTEMPT_N_OF_M' : 'ATTEMPT_ALL'
+      };
+    });
+
+    if (partitionedQuestions.length < localQuestions.length && sections.length > 0) {
+      const lastSec = sections[sections.length - 1];
+      for (let i = partitionedQuestions.length; i < localQuestions.length; i++) {
+        const q = localQuestions[i];
+        partitionedQuestions.push({
+          id: q.id || `q-local-rem-${i}`,
+          sectionId: lastSec.sectionId,
+          sectionName: lastSec.name,
+          questionType: q.questionType || 'single_mcq',
+          q: q.q,
+          secondaryQ: q.secondaryQ || '',
+          options: q.options || [],
+          correct: q.correct !== undefined ? q.correct : q.ans,
+          explanation: q.explanation || '',
+          marksCorrect: lastSec.marksCorrect,
+          marksWrong: lastSec.marksWrong
+        });
+      }
+      lastSec.questionCount = partitionedQuestions.filter(q => q.sectionId === lastSec.sectionId).length;
+    }
+  } else {
+    const defaultSection = {
+      sectionId: 'sec-local-1',
+      name: 'Practice Drill',
+      questionCount: localQuestions.length,
+      questionsToAttempt: localQuestions.length,
+      marksCorrect: marksCorr,
+      marksWrong: isNeg ? negVal : 0.0,
+      hasNegativeMarking: isNeg,
+      attemptRuleType: 'ATTEMPT_ALL'
+    };
+    sections = [defaultSection];
+    partitionedQuestions = localQuestions.map((q, idx) => ({
+      id: q.id || `q-local-${idx}`,
+      sectionId: 'sec-local-1',
+      sectionName: defaultSection.name,
+      questionType: q.questionType || 'single_mcq',
+      q: q.q,
+      secondaryQ: q.secondaryQ || '',
+      options: q.options || [],
+      correct: q.correct !== undefined ? q.correct : q.ans,
+      explanation: q.explanation || '',
+      marksCorrect: marksCorr,
+      marksWrong: isNeg ? negVal : 0.0
+    }));
+  }
 
   return {
     sessionId: `local-${Date.now()}`,
     testMode,
     blueprint: localBp,
-    sections: [defaultSection],
-    questions: localQuestions.map((q, idx) => ({
-      id: q.id || `q-local-${idx}`,
-      sectionId: 'sec-local-1',
-      sectionName: localBp.name || 'General Assessment Section',
-      questionType: 'single_mcq',
-      q: q.q,
-      secondaryQ: '',
-      options: q.options || [],
-      correct: q.correct !== undefined ? q.correct : q.ans,
-      explanation: q.explanation || '',
-      marksCorrect: marksCorr,
-      marksWrong: negVal
-    })),
+    sections,
+    questions: partitionedQuestions,
     timerConfig: {
       mode: 'COUNTDOWN',
       durationMinutes: localBp.duration_minutes || 60,
@@ -1622,12 +1738,17 @@ function renderActiveQuestion() {
 
   if (currentSec) {
     if (secTitle) secTitle.textContent = currentSec.name;
-    if (secInstr) secInstr.textContent = currentSec.instructions || `Each question: +${currentSec.marksCorrect || 1} mark.`;
+    if (secInstr) {
+      const eachQText = typeof getTranslation === 'function' ? (getTranslation('quiz_each_question') || 'Each question') : 'Each question';
+      secInstr.textContent = currentSec.instructions || `${eachQText}: +${currentSec.marksCorrect || 1} mark.`;
+    }
     if (secBadge) {
       if (currentSec.attemptRuleType === 'ATTEMPT_N_OF_M') {
-        secBadge.textContent = `Attempt any ${currentSec.questionsToAttempt} of ${currentSec.questionCount} Qs`;
+        const attemptNText = typeof getTranslation === 'function' ? (getTranslation('quiz_attempt_n_of_m') || 'Attempt any {n} of {m} Qs') : 'Attempt any {n} of {m} Qs';
+        secBadge.textContent = attemptNText.replace('{n}', currentSec.questionsToAttempt).replace('{m}', currentSec.questionCount);
       } else {
-        secBadge.textContent = "Attempt All Questions";
+        const attemptAllText = typeof getTranslation === 'function' ? (getTranslation('quiz_attempt_all') || 'Attempt All Questions') : 'Attempt All Questions';
+        secBadge.textContent = attemptAllText;
       }
     }
   }
@@ -1637,12 +1758,13 @@ function renderActiveQuestion() {
   if (qElem) {
     const primaryText = q.q || '';
     const secondaryText = q.secondaryQ || '';
+    const dualLabel = typeof getTranslation === 'function' ? (getTranslation('quiz_in_english_dual') || 'In English / Dual Medium:') : 'In English / Dual Medium:';
 
     if (secondaryText && secondaryText !== primaryText) {
       qElem.innerHTML = `
         <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${primaryText}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
-          <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">In English / Dual Medium:</span>
+          <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">${dualLabel}</span>
           <div>${secondaryText}</div>
         </div>
       `;
@@ -1653,7 +1775,7 @@ function renderActiveQuestion() {
       qElem.innerHTML = `
         <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${hindiPart}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
-          <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">In English / Dual Medium:</span>
+          <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">${dualLabel}</span>
           <div>${engPart}</div>
         </div>
       `;
@@ -1993,12 +2115,15 @@ function updateLiveScoreStats() {
 
   const statElem = document.getElementById('quizLiveStats');
   if (statElem) {
+    const answeredText = typeof getTranslation === 'function' ? (getTranslation('quiz_palette_answered') || 'Answered') : 'Answered';
+    const reviewText = typeof getTranslation === 'function' ? (getTranslation('quiz_palette_review') || 'Review') : 'Review';
+    const leftText = typeof getTranslation === 'function' ? (getTranslation('quiz_palette_unanswered') || 'Left') : 'Left';
     statElem.innerHTML = `
-      <span class="text-emerald-700 dark:text-emerald-400 font-bold">🟢 ${answered} Answered</span>
+      <span class="text-emerald-700 dark:text-emerald-400 font-bold">🟢 ${answered} ${answeredText}</span>
       <span class="text-slate-300">|</span>
-      <span class="text-purple-700 dark:text-purple-400 font-bold">🟣 ${reviewCount} Review</span>
+      <span class="text-purple-700 dark:text-purple-400 font-bold">🟣 ${reviewCount} ${reviewText}</span>
       <span class="text-slate-300">|</span>
-      <span class="text-slate-500 font-medium">⏳ ${remaining} Left</span>
+      <span class="text-slate-500 font-medium">⏳ ${remaining} ${leftText}</span>
     `;
   }
 }
@@ -2273,6 +2398,10 @@ function displayScorecardUI(scorecard, isAutoSubmit) {
     }
   }
 
+  document.body.classList.remove('in-quiz');
+  const chatBubbleScorecard = document.getElementById('floatingChatbotWidget');
+  if (chatBubbleScorecard) chatBubbleScorecard.classList.remove('hidden');
+
   document.getElementById('quizActiveArena')?.classList.add('hidden');
   document.getElementById('quizScorecardModal')?.classList.remove('hidden');
   window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -2289,6 +2418,11 @@ function resetQuiz() {
   }
   activeQuiz.isRunning = false;
   try { sessionStorage.removeItem('sarkari_active_quiz'); } catch (e) {}
+
+  document.body.classList.remove('in-quiz');
+  const chatBubbleReset = document.getElementById('floatingChatbotWidget');
+  if (chatBubbleReset) chatBubbleReset.classList.remove('hidden');
+
   document.getElementById('quizScorecardModal')?.classList.add('hidden');
   document.getElementById('quizActiveArena')?.classList.add('hidden');
   document.getElementById('quizSetupCard')?.classList.remove('hidden');

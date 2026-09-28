@@ -171,7 +171,7 @@
           <!-- 14-Language Switcher Dropdown (Vibrant Gold Border) -->
           <div class="relative flex items-center bg-slate-900 border-2 border-amber-400/80 rounded-2xl px-2.5 sm:px-3 py-1.5 shadow-md">
             <span class="text-xs sm:text-sm mr-1">🌐</span>
-            <select id="langSelectDropdown" class="bg-transparent text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-1">
+            <select id="langSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-transparent text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-1">
               <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
               <option value="en" class="text-slate-900 bg-white font-bold">English</option>
               <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
@@ -218,7 +218,7 @@
           <span>🌐</span>
           <span data-i18n="nav_lang_select">Language:</span>
         </span>
-        <select id="mobileLangSelectDropdown" class="bg-slate-900 text-xs font-bold text-amber-300 border border-slate-700 rounded-lg px-2.5 py-1 focus:outline-none cursor-pointer">
+        <select id="mobileLangSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-slate-900 text-xs font-bold text-amber-300 border border-slate-700 rounded-lg px-2.5 py-1 focus:outline-none cursor-pointer">
           <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
           <option value="en" class="text-slate-900 bg-white font-bold">English</option>
           <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
@@ -1196,7 +1196,7 @@
           <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="card_quiz_title">
             All-India Live Mock Test & Quiz Lab
           </h2>
-          <p class="text-xs sm:text-sm text-rose-200 font-medium leading-relaxed" data-i18n="quiz_hero_desc">परीक्षा में शत-प्रतिशत सफलता हेतु पिछले 5-10 वर्षों के चुनिंदा प्रश्नों की लाइव टेस्ट सीरीज। गलत उत्तर पर तुरंत लाल और सही पर हरा निशान तथा विस्तृत व्याख्या मिलेगी।</p>
+          <p class="text-xs sm:text-sm text-rose-200 font-medium leading-relaxed" data-i18n="quiz_hero_desc">परीक्षा में सफलता हेतु विगत वर्षों के महत्वपूर्ण प्रश्नों की लाइव टेस्ट सीरीज। गलत उत्तर पर तुरंत लाल और सही पर हरा निशान तथा विस्तृत व्याख्या मिलेगी।</p>
         </div>
       </div>
 
@@ -1878,22 +1878,22 @@
           </p>
         </div>
 
-        <!-- Smart 10-Year PYQ & Formula Sheet Compiler Box (Protected Paywall & Student-Trusted) -->
+        <!-- Smart PYQ & Formula Sheet Compiler Box (Protected Paywall & Student-Trusted) -->
         <div class="bg-white/95 rounded-3xl p-6 sm:p-8 border-2 border-amber-400 shadow-xl space-y-4">
           <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-amber-100 pb-4">
             <div>
               <div class="inline-flex items-center space-x-1.5 px-3 py-1 rounded-full text-[11px] font-black bg-gradient-to-r from-amber-600 to-orange-600 text-white shadow-sm">
-                <span>📚 10-Year PYQ & Formula Sheet Compiler</span>
+                <span>📚 High-Yield Practice & PYQ Repository</span>
               </div>
               <h3 class="text-lg sm:text-xl font-black text-slate-900 mt-1" data-i18n="notes_compiler_title">
-                किसी भी Exam के 10-Year Repeated प्रश्न & फॉर्मूला PDF तैयार करें
+                विगत वर्षों के महत्वपूर्ण प्रश्न (PYQ) एवं संपूर्ण फॉर्मूला शीट PDF तैयार करें
               </h3>
               <p class="text-xs text-slate-600 font-medium" data-i18n="notes_compiler_sub">
-                TCS & NTA पैटर्न पर आधारित। पिछले 5-10 वर्षों के सबसे ज्यादा रिपीट होने वाले Questions, Subject-wise शॉर्टकट और 80/20 फॉर्मूला शीट एक क्लिक में तैयार करें।
+                TCS व आधिकारिक पाठ्यक्रम पर आधारित। विगत वर्षों के महत्वपूर्ण प्रश्न, विषयवार शॉर्टकट एवं उपयोगी फॉर्मूला शीट एक क्लिक में तैयार करें।
               </p>
             </div>
             <div class="text-xs font-bold text-emerald-800 bg-emerald-50 px-3 py-2 rounded-xl border border-emerald-300 shrink-0">
-              ✓ 100% Exam Pattern Aligned
+              ✓ Syllabus Aligned Practice
             </div>
           </div>
 
@@ -1951,7 +1951,7 @@
               <button id="triggerAiNotesBtn" onclick="generateAiExamNotes()" class="flex-grow bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white font-black text-xs py-3.5 px-3 rounded-xl shadow-lg transition flex items-center justify-center space-x-1 cursor-pointer">
                 <span data-i18n="notes_compile_btn">⚡ Compile Notes (PDF बनाएं)</span>
               </button>
-              <button type="button" onclick="triggerOmrSheetGenerator()" class="bg-indigo-900 hover:bg-indigo-800 text-white font-black text-xs p-3.5 rounded-xl shadow-md transition shrink-0 cursor-pointer" title="Print Blank Vector OMR Sheet">
+              <button id="aiNoteOmrBtn" type="button" onclick="triggerOmrSheetGenerator()" class="bg-indigo-900 hover:bg-indigo-800 text-white font-black text-xs p-3.5 rounded-xl shadow-md transition shrink-0 cursor-pointer" title="Print Blank OMR Sheet">
                 📄 OMR
               </button>
             </div>
@@ -1975,7 +1975,7 @@
             <div class="p-4 bg-gradient-to-r from-amber-100/90 to-orange-100/90 border-2 border-amber-300 rounded-2xl flex flex-col sm:flex-row sm:items-center justify-between gap-3">
               <div>
                 <div class="flex items-center space-x-1.5 text-xs font-black text-slate-900">
-                  <span>🔒 150+ PYQs, 10-Year Hall of Fame & Full Formula Sheet Locked</span>
+                  <span>🔒 महत्वपूर्ण PYQs, High-Yield प्रश्न एवं संपूर्ण फॉर्मूला शीट</span>
                 </div>
                 <div class="text-[11px] text-slate-600 mt-0.5">सैंपल प्रिव्यू ऊपर दिखाया गया है। सम्पूर्ण 24 पेज की मास्टर PDF डाउनलोड करने हेतु ₹9 का सुरक्षित भुगतान करें।</div>
               </div>
@@ -1984,7 +1984,7 @@
                   <span>📖 Read Full Notes On-Screen (स्क्रीन पर पढ़ें)</span>
                 </button>
                 <button onclick="payAndDownloadGeneratedNote()" class="bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white font-black text-xs px-4 py-3 rounded-xl shadow-lg transition flex items-center space-x-1.5 cursor-pointer">
-                  <span>⚡ Download Vector PDF (₹9 UPI)</span>
+                  <span>⚡ Download Complete PDF (₹9 UPI)</span>
                 </button>
                 <button onclick="scrollToNotesCatalog()" class="bg-white hover:bg-slate-100 text-slate-800 border border-slate-300 font-bold text-xs px-3 py-3 rounded-xl shadow-sm transition cursor-pointer">
                   <span>👇 Catalog</span>
@@ -1996,7 +1996,7 @@
         </div>
 
         <div class="flex items-center justify-between pt-4">
-          <h3 class="text-lg font-black text-slate-900">🔥 Ready-Made Notes Catalog (Auto-Selling)</h3>
+          <h3 class="text-lg font-black text-slate-900">🔥 Ready-Made Notes & Practice Guides</h3>
           <span class="text-xs font-bold text-slate-500">Instant PhonePe / GPay Download</span>
         </div>
 
@@ -3418,7 +3418,7 @@
   </div>
 
   <!-- FLOATING SARKARI AI MITRA CHATBOT WIDGET -->
-  <div class="fixed bottom-6 right-6 z-50">
+  <div id="floatingChatbotWidget" class="fixed bottom-6 right-6 z-50">
     <!-- Chat Window Popover -->
     <div id="sarkariChatWindow" class="hidden w-[90vw] sm:w-96 max-h-[75vh] h-[500px] bg-white rounded-3xl shadow-2xl border-2 border-blue-900 overflow-hidden mb-3 flex flex-col">
       <!-- Chat Header -->

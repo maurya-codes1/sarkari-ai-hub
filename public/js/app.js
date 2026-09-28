@@ -460,6 +460,10 @@ document.addEventListener('DOMContentLoaded', () => {
     mobileLangSelect.addEventListener('change', (e) => setLanguage(e.target.value));
   }
 
+  window.addEventListener('languageChanged', () => {
+    if (typeof renderDirectoryCards === 'function') renderDirectoryCards();
+  });
+
   // Outside click / touch listener to dismiss mobile menu drawer
   const handleOutsideMenuClick = (e) => {
     const drawer = document.getElementById('mobileNavDrawer');

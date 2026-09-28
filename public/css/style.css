@@ -240,6 +240,24 @@ dialog {
   }
 }
 
+/* Exam & Modal Safety: Prevent floating chatbot from covering CBT controls, options, or palette */
+body.in-quiz #floatingChatbotWidget,
+body:has(#quizActiveArena:not(.hidden)) #floatingChatbotWidget,
+body:has(#notesReaderModal) #floatingChatbotWidget,
+body:has(#upiPaymentDialog[open]) #floatingChatbotWidget,
+body:has(#omrGeneratorModal:not(.hidden)) #floatingChatbotWidget {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+@media (max-width: 768px) {
+  #floatingChatbotWidget {
+    bottom: 5.5rem;
+    right: 1rem;
+    z-index: 40;
+  }
+}
+
 /* Custom Scrollbars */
 ::-webkit-scrollbar {
   width: 9px;

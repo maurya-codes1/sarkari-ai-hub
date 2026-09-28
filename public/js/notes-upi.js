@@ -2465,47 +2465,47 @@ const MASTER_SHORTCUTS = [
 ];
 const MASTER_HALL_OF_FAME = [
   {
-    "q": "★ 10-Year Repeated: 'सत्यमेव जयते' भारत का राष्ट्रीय आदर्श वाक्य किस उपनिषद से लिया गया है?",
+    "q": "★ High-Yield PYQ: 'सत्यमेव जयते' भारत का राष्ट्रीय आदर्श वाक्य किस उपनिषद से लिया गया है?",
     "a": "उत्तर: मुण्डकोपनिषद से। (सारनाथ स्थित अशोक स्तंभ के नीचे देवनागरी में अंकित है)"
   },
   {
-    "q": "★ 10-Year Repeated: संविधान सभा की प्रारूप समिति (Drafting Committee) के अध्यक्ष कौन थे?",
+    "q": "★ High-Yield PYQ: संविधान सभा की प्रारूप समिति (Drafting Committee) के अध्यक्ष कौन थे?",
     "a": "उत्तर: डॉ. भीमराव अंबेडकर। (29 अगस्त 1947 को गठन, कुल 7 सदस्य थे)"
   },
   {
-    "q": "★ 10-Year Repeated: ध्वनि की चाल सर्वाधिक किस माध्यम में होती है?",
+    "q": "★ High-Yield PYQ: ध्वनि की चाल सर्वाधिक किस माध्यम में होती है?",
     "a": "उत्तर: ठोस (स्टील/लोहे में लगभग 5,960 मी/से, जल में 1482 मी/से, वायु में 343 मी/से, निर्वात में शून्य)"
   },
   {
-    "q": "★ 10-Year Repeated: विटामिन बी-12 (Cyanocobalamin) में कौन सी धातु पाई जाती है?",
+    "q": "★ High-Yield PYQ: विटामिन बी-12 (Cyanocobalamin) में कौन सी धातु पाई जाती है?",
     "a": "उत्तर: कोबाल्ट (Cobalt धातु - लाल रक्त कोशिकाओं RBC निर्माण एवं तंत्रिका तंत्र हेतु अनिवार्य)"
   },
   {
-    "q": "★ 10-Year Repeated: ओजोन परत वायुमंडल के किस मंडल में पाई जाती है?",
+    "q": "★ High-Yield PYQ: ओजोन परत वायुमंडल के किस मंडल में पाई जाती है?",
     "a": "उत्तर: समतापमंडल (Stratosphere) - सूर्य की पराबैंगनी किरणों से रक्षा करती है, ओजोन दिवस 16 सितम्बर"
   },
   {
-    "q": "★ 10-Year Repeated: 1917 का चंपारण सत्याग्रह किससे संबंधित था?",
+    "q": "★ High-Yield PYQ: 1917 का चंपारण सत्याग्रह किससे संबंधित था?",
     "a": "उत्तर: तिनकठिया प्रथा (नील की खेती के विरोध में, गांधीजी का भारत में पहला सफल सत्याग्रह)"
   },
   {
-    "q": "★ 10-Year Repeated: भारत में ₹1 के करेंसी नोट पर किसके हस्ताक्षर होते हैं?",
+    "q": "★ High-Yield PYQ: भारत में ₹1 के करेंसी नोट पर किसके हस्ताक्षर होते हैं?",
     "a": "उत्तर: वित्त सचिव (Finance Secretary, भारत सरकार)। अन्य सभी नोटों पर RBI गवर्नर के हस्ताक्षर होते हैं"
   },
   {
-    "q": "★ 10-Year Repeated: प्रकाश वर्ष (Light Year) किसकी भौतिक इकाई है?",
+    "q": "★ High-Yield PYQ: प्रकाश वर्ष (Light Year) किसकी भौतिक इकाई है?",
     "a": "उत्तर: खगोलीय दूरी (Astronomical Distance) मापने की इकाई (1 प्रकाश वर्ष = 9.46 × 10¹⁵ मीटर)"
   },
   {
-    "q": "★ 10-Year Repeated: मानव शरीर की सबसे बड़ी एवं सबसे छोटी हड्डी कौन सी है?",
+    "q": "★ High-Yield PYQ: मानव शरीर की सबसे बड़ी एवं सबसे छोटी हड्डी कौन सी है?",
     "a": "उत्तर: सबसे बड़ी हड्डी 'फीमर' (जांघ की हड्डी) तथा सबसे छोटी हड्डी 'स्टेप्स' (मध्य कान की हड्डी) है"
   },
   {
-    "q": "★ 10-Year Repeated: चिपको आंदोलन का मुख्य उद्देश्य किसका संरक्षण था?",
+    "q": "★ High-Yield PYQ: चिपको आंदोलन का मुख्य उद्देश्य किसका संरक्षण था?",
     "a": "उत्तर: वन एवं वृक्षों का संरक्षण (उत्तराखंड के चमोली में सुंदरलाल बहुगुणा व गौरा देवी के नेतृत्व में)"
   },
   {
-    "q": "★ 10-Year Repeated: भारतीय राष्ट्रीय कांग्रेस के प्रथम मुस्लिम अध्यक्ष कौन थे?",
+    "q": "★ High-Yield PYQ: भारतीय राष्ट्रीय कांग्रेस के प्रथम मुस्लिम अध्यक्ष कौन थे?",
     "a": "उत्तर: बदरुद्दीन तैयबजी (1887 के मद्रास अधिवेशन में)"
   }
 ];
@@ -6761,6 +6761,7 @@ function updateNotesBoardSubjects() {
     subjectSelect.innerHTML = subjects.map(s => `
       <option value="${s.id}">${s.name}</option>
     `).join('');
+    if (subjects.length > 0) subjectSelect.value = subjects[0].id;
   }
 }
 
@@ -6769,11 +6770,22 @@ function updateNotesDependentDropdowns() {
   const subjectSelect = document.getElementById('aiNoteSubjectSelect');
   const boardContainer = document.getElementById('aiNoteBoardContainer');
   const boardSelect = document.getElementById('aiNoteBoardSelect');
+  const omrBtn = document.getElementById('aiNoteOmrBtn');
 
   if (!examSelect || !subjectSelect || typeof EXAMS_CONFIG === 'undefined') return;
 
   const selectedExamId = examSelect.value;
   const examObj = EXAMS_CONFIG.find(e => e.id === selectedExamId) || EXAMS_CONFIG[0];
+
+  // Dynamic OMR Button Visibility (Visible only when exam supports physical OMR)
+  if (omrBtn) {
+    const isSupported = (typeof isExamOmrSupported === 'function') ? isExamOmrSupported(selectedExamId) : false;
+    if (isSupported) {
+      omrBtn.classList.remove('hidden');
+    } else {
+      omrBtn.classList.add('hidden');
+    }
+  }
 
   // Dynamic Board Container Toggle (for Class 10th & Class 12th)
   if (examObj.isBoard) {
@@ -6787,9 +6799,14 @@ function updateNotesDependentDropdowns() {
   } else {
     if (boardContainer) boardContainer.classList.add('hidden');
     // Populate Subject List dynamically based on chosen Exam
-    subjectSelect.innerHTML = examObj.subjects.map(s => `
-      <option value="${s.id || s.name}">${s.name}</option>
-    `).join('');
+    if (Array.isArray(examObj.subjects)) {
+      subjectSelect.innerHTML = examObj.subjects.map(s => `
+        <option value="${s.id || s.name}">${s.name}</option>
+      `).join('');
+      if (examObj.subjects.length > 0) {
+        subjectSelect.value = examObj.subjects[0].id || examObj.subjects[0].name;
+      }
+    }
   }
 }
 
@@ -7076,10 +7093,10 @@ async function verifyAndDownloadPdf() {
       </div>
     ` : ''}
 
-    <!-- SECTION 3: 10-Year Hall of Fame (Most Repeated Questions) -->
+    <!-- SECTION 3: High-Yield Hall of Fame (Most Repeated Questions) -->
     <div style="margin-bottom: 22px;">
       <div class="pdf-section-hdr" style="background: #ea580c; color: white; padding: 8px 14px; font-weight: 800; font-size: 13px; border-radius: 8px; margin-bottom: 10px; margin-top: 14px;">
-        भाग 3: 10-Year Hall of Fame (विगत 8-10 वर्षों में 5+ बार लगातार पूछे गए रामबाण प्रश्न)
+        भाग 3: विगत वर्षों के सर्वाधिक पूछे गए महत्वपूर्ण प्रश्न (High-Yield Hall of Fame)
       </div>
       ${hallOfFame.map(item => `
         <div class="pdf-avoid-break" style="margin-bottom: 8px; padding: 8px 12px; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 6px;">
@@ -7234,10 +7251,10 @@ function openPrintWindow(htmlContent, title = 'SarkariAI Hub - Official Study No
     <body>
       <div class="no-print">
         <div class="action-bar">
-          <div style="font-weight: 800; font-size: 14px;">🇮🇳 SarkariAI Hub • Vector PDF Print Console</div>
+          <div style="font-weight: 800; font-size: 14px;">🇮🇳 SarkariAI Hub • Study Notes & Formula Sheet</div>
           <div style="display: flex; gap: 8px;">
             <button onclick="window.print()" class="action-btn">
-              🖨️ Save as Vector PDF / Print (Ctrl + P)
+              🖨️ Download / Print PDF
             </button>
             <button onclick="window.close()" style="background: #334155; color: white; border: none; padding: 8px 14px; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 12px;">
               ✕ Close
