@@ -1203,6 +1203,12 @@ if (typeof window !== 'undefined') {
     window.alert = function(msg) {
       showAppAlert(String(msg || ''));
     };
+    const _nativeConfirm = window.confirm;
+    window.confirm = function(msg) {
+      console.warn('Native window.confirm intercepted; showing in-app alert dialog to avoid blocking modal:', msg);
+      showAppAlert(String(msg || ''), 'Confirm Action', '❓');
+      return false;
+    };
   } catch (e) {}
 }
 

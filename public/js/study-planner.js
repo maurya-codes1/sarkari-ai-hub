@@ -294,7 +294,12 @@ function handleSlotToggle(slotIdx, totalSlots) {
   }
 
   if (pct === 100) {
-    alert("🎉 बधाई! आपने आज का संपूर्ण अध्ययन लक्ष्य 100% पूरा कर लिया है! इसी निरंतरता से आपकी सफलता सुनिश्चित है। 🏆");
+    const congratsMsg = "🎉 बधाई! आपने आज का संपूर्ण अध्ययन लक्ष्य 100% पूरा कर लिया है! इसी निरंतरता से आपकी सफलता सुनिश्चित है। 🏆";
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(congratsMsg, 'Goal Completed', '🎉');
+    } else {
+      alert(congratsMsg);
+    }
   }
 }
 
@@ -328,7 +333,12 @@ function printStudyRoutine() {
 
   const printWindow = window.open('', '_blank', 'width=800,height=750');
   if (!printWindow) {
-    alert('कृपया पॉपअप विंडो को अनुमति दें (Please allow popups to print study routine).');
+    const popStudy = 'कृपया पॉपअप विंडो को अनुमति दें (Please allow popups to print study routine).';
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(popStudy, 'Popup Notice', '🖨️');
+    } else {
+      alert(popStudy);
+    }
     return;
   }
 

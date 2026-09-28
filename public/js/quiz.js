@@ -25,8 +25,113 @@ let activeQuiz = window.activeQuiz = {
   secondsRemaining: 3600,
   secondsElapsed: 0,
   timerInterval: null,
-  isRunning: false
+  isRunning: false,
+  instantFeedback: false
 };
+
+// ----------------------------------------------------
+// Normalized Correct Index Helper
+// Resolves 0, 1, 2, 3 from 'A'/'B'/'C'/'D', '0'/'1', ans strings, etc.
+// ----------------------------------------------------
+function getNormalizedCorrectIndex(q) {
+  if (!q) return null;
+
+  // 1. Direct numeric 'correct' or 'ans' or 'correct_option_index'
+  const numericCandidates = [q.correct, q.ans, q.correct_option_index, q.correctOptionIndex, q.correctOption, q.correctAnswer, q.correct_answer];
+  for (const c of numericCandidates) {
+    if (typeof c === 'number' && c >= 0 && c <= 10) return c;
+  }
+
+  // 2. Object formats e.g. { index: 1 } or { option: 'B' }
+  const objCandidates = [q.correctAnswer, q.correct_answer, q.correct];
+  for (const obj of objCandidates) {
+    if (obj && typeof obj === 'object') {
+      if (typeof obj.index === 'number') return obj.index;
+      if (typeof obj.option === 'number') return obj.option;
+      if (typeof obj.option === 'string') {
+        const t = obj.option.trim().toUpperCase();
+        if (/^[A-D]$/.test(t)) return t.charCodeAt(0) - 65;
+        if (/^[0-9]+$/.test(t)) return parseInt(t, 10);
+      }
+    }
+    // Stringified JSON
+    if (typeof obj === 'string' && (obj.startsWith('{') || obj.startsWith('['))) {
+      try {
+        const parsed = JSON.parse(obj);
+        if (typeof parsed.index === 'number') return parsed.index;
+        if (typeof parsed.option === 'number') return parsed.option;
+        if (typeof parsed.option === 'string') {
+          const t = parsed.option.trim().toUpperCase();
+          if (/^[A-D]$/.test(t)) return t.charCodeAt(0) - 65;
+          if (/^[0-9]+$/.test(t)) return parseInt(t, 10);
+        }
+      } catch (e) {}
+    }
+  }
+
+  // 3. String representations e.g. '0', '1', 'A', 'B', 'A)', 'B)'
+  const strCandidates = [q.correct, q.ans, q.correct_option, q.correctOption, q.correctAnswer, q.correct_answer];
+  for (const s of strCandidates) {
+    if (typeof s === 'string') {
+      const trimmed = s.trim();
+      if (/^[0-9]+$/.test(trimmed)) {
+        const n = parseInt(trimmed, 10);
+        if (n >= 0 && n <= 10) return n;
+      }
+      if (/^[a-dA-D]$/.test(trimmed)) {
+        return trimmed.toUpperCase().charCodeAt(0) - 65;
+      }
+      if (/^[A-D]\)/i.test(trimmed)) {
+        return trimmed.toUpperCase().charCodeAt(0) - 65;
+      }
+      // If s matches one of the option strings exactly or partially
+      if (Array.isArray(q.options) && trimmed.length > 0) {
+        const matchIdx = q.options.findIndex(opt => {
+          const cleanOpt = opt.replace(/^[A-D]\)\s*/, '').trim();
+          return opt.trim() === trimmed || cleanOpt === trimmed || trimmed.includes(cleanOpt) || cleanOpt.includes(trimmed);
+        });
+        if (matchIdx !== -1) return matchIdx;
+      }
+    }
+  }
+
+  return null;
+}
+
+// Pleasant Web Audio tone feedback (Zero external asset dependencies)
+function playQuizFeedbackSound(isCorrect) {
+  try {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (!AudioCtx) return;
+    const ctx = new AudioCtx();
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+
+    if (isCorrect) {
+      // Pleasant high double chime (587Hz -> 880Hz)
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(587.33, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(880, ctx.currentTime + 0.12);
+      gain.gain.setValueAtTime(0.12, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.35);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.35);
+    } else {
+      // Soft gentle low buzz (220Hz -> 170Hz)
+      osc.type = 'triangle';
+      osc.frequency.setValueAtTime(220, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(170, ctx.currentTime + 0.15);
+      gain.gain.setValueAtTime(0.15, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.28);
+      osc.start(ctx.currentTime);
+      osc.stop(ctx.currentTime + 0.28);
+    }
+  } catch (e) {
+    // Ignore audio context errors silently
+  }
+}
 
 // Global Dual Voice Engine (Dedicated Male and Female Sound Buttons)
 let activeSpeakingGender = null;
@@ -132,7 +237,7 @@ if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
 function speakActiveQuestionGender(gender = 'female') {
   if (!('speechSynthesis' in window)) {
     if (typeof showAppAlert === 'function') {
-      showAppAlert('Your browser does not support text-to-speech voice output.');
+      showAppAlert('Your browser does not support text-to-speech voice output.', 'Voice Support', '🔊');
     } else {
       alert('Text-to-speech voice output is not supported on this browser.');
     }
@@ -162,17 +267,28 @@ function speakActiveQuestionGender(gender = 'female') {
   const qNum = activeQuiz.currentIndex + 1;
 
   if (isEn) {
-    const textQ = q.secondaryQ || q.q || '';
+    let textQ = q.secondaryQ || '';
+    if (!textQ && q.q) {
+      const match = q.q.match(/\[English:\s*([^\]]+)\]/i);
+      if (match) {
+        textQ = match[1].trim();
+      } else {
+        textQ = q.q.replace(/\n\[English:.*\]/g, '').trim();
+      }
+    }
     if (textQ) {
       speechSegments.push({
-        text: `Question ${qNum}: ${textQ.replace(/\n\[English:.*\]/g, '')}`,
+        text: `Question ${qNum}: ${textQ}`,
         lang: 'en-IN'
       });
     }
     if (Array.isArray(q.options)) {
       q.options.forEach((opt, idx) => {
         const letter = String.fromCharCode(65 + idx);
-        const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        let cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        if (cleanOpt.includes(' / ')) {
+          cleanOpt = cleanOpt.split(' / ')[1].trim();
+        }
         speechSegments.push({
           text: `Option ${letter}: ${cleanOpt}.`,
           lang: 'en-IN'
@@ -180,26 +296,39 @@ function speakActiveQuestionGender(gender = 'female') {
       });
     }
   } else {
-    const rawQ = q.q || '';
+    // Hindi or active portal Indian language
+    let rawQ = q.q || '';
+    if (rawQ.includes('\n[English:')) {
+      rawQ = rawQ.split('\n[English:')[0].trim();
+    }
+    const qPrefix = typeof getTranslation === 'function' ? (getTranslation('quiz_question_label') || 'प्रश्न') : 'प्रश्न';
+    const optPrefix = typeof getTranslation === 'function' ? (getTranslation('quiz_option_label') || 'विकल्प') : 'विकल्प';
+
+    const bcpMap = {
+      'hi': 'hi-IN', 'ta': 'ta-IN', 'te': 'te-IN', 'mr': 'mr-IN',
+      'bn': 'bn-IN', 'gu': 'gu-IN', 'kn': 'kn-IN', 'ml': 'ml-IN',
+      'pa': 'pa-IN', 'ur': 'ur-PK', 'or': 'or-IN', 'as': 'as-IN',
+      'ne': 'ne-NP'
+    };
+    const bcpLang = bcpMap[currLang] || (/[ऀ-ॿ]/.test(rawQ) ? 'hi-IN' : 'en-IN');
+
     if (rawQ) {
       speechSegments.push({
-        text: `प्रश्न ${qNum}: ${rawQ.replace(/\n\[English:.*\]/g, '')}`,
-        lang: /[ऀ-ॿ]/.test(rawQ) ? 'hi-IN' : 'en-IN'
+        text: `${qPrefix} ${qNum}: ${rawQ}`,
+        lang: bcpLang
       });
     }
-    if (q.secondaryQ && q.secondaryQ !== rawQ) {
-      speechSegments.push({
-        text: `In English: ${q.secondaryQ}`,
-        lang: 'en-IN'
-      });
-    }
+
     if (Array.isArray(q.options)) {
       q.options.forEach((opt, idx) => {
         const letter = String.fromCharCode(65 + idx);
-        const cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        let cleanOpt = opt.replace(/^[A-D]\)\s*/, '');
+        if (cleanOpt.includes(' / ')) {
+          cleanOpt = cleanOpt.split(' / ')[0].trim();
+        }
         speechSegments.push({
-          text: `विकल्प ${letter}: ${cleanOpt}.`,
-          lang: /[ऀ-ॿ]/.test(cleanOpt) ? 'hi-IN' : 'en-IN'
+          text: `${optPrefix} ${letter}: ${cleanOpt}.`,
+          lang: bcpLang
         });
       });
     }
@@ -811,21 +940,177 @@ const OFFICIAL_EXAM_BLUEPRINTS = {
   }
 };
 
+const EXAM_BLUEPRINT_ALIASES = {
+  // Police
+  'bihar-police-constable': 'bihar-police',
+  'bihar-police': 'bihar-police',
+  'up-police-constable': 'up-police',
+  'up-police': 'up-police',
+  'delhi-police': 'delhi-police',
+  'rajasthan-police': 'rajasthan-police',
+  'mp-police': 'mp-police',
+  'haryana-police': 'haryana-police',
+  'wb-police': 'wb-police',
+  'maharashtra-police': 'maharashtra-police',
+
+  // Railways
+  'rrb-alp': 'railway-alp',
+  'railway-alp': 'railway-alp',
+  'rrb-group-d': 'railway-group-d',
+  'rrb-ntpc': 'railway-group-d',
+  'rrb-technician': 'railway-alp',
+  'railway-group-d': 'railway-group-d',
+
+  // SSC
+  'ssc-gd': 'ssc-gd',
+  'ssc-cgl': 'ssc-cgl',
+  'ssc-chsl': 'ssc-cgl',
+  'ssc-mts': 'ssc-mts',
+
+  // Defence
+  'agniveer-army': 'army-agniveer',
+  'army-agniveer': 'army-agniveer',
+  'agniveer-airforce': 'iaf-agniveer',
+  'iaf-agniveer': 'iaf-agniveer',
+  'agniveer-navy': 'navy-agniveer',
+  'navy-agniveer': 'navy-agniveer',
+  'upsc-cse': 'upsc-cse',
+  'upsc-nda': 'upsc-nda',
+
+  // Banking
+  'banking': 'banking',
+  'ibps-po-clerk': 'banking',
+
+  // Entrance
+  'nta-neet': 'nta-neet',
+  'nta-jee': 'nta-jee',
+  'nta-jee-main': 'nta-jee',
+  'nta-jee-adv': 'nta-jee',
+  'nta-cuet': 'nta-cuet',
+  'nta-cuet-ug': 'nta-cuet',
+  'clat-law': 'clat-law',
+
+  // Teaching
+  'ctet': 'ctet',
+  'ctet-exam': 'ctet',
+  'up-tet': 'up-tet',
+  'uptet-supertet': 'up-tet',
+  'bpsc-tre': 'bpsc-tre',
+  'reet': 'reet',
+  'reet-rajasthan': 'reet',
+  'ugc-net': 'ugc-net',
+
+  // Boards
+  'board-10th': 'board-10th',
+  'cbse-board': 'board-10th',
+  'icse-cisce': 'board-10th',
+  'upmsp-board': 'board-10th',
+  'bseb-bihar': 'board-10th',
+  'maharashtra-board': 'board-10th',
+  'rbse-rajasthan': 'board-10th',
+  'mpbse-board': 'board-10th',
+  'wbbse-wb': 'board-10th',
+  'tndge-tamilnadu': 'board-10th',
+  'kseab-karnataka': 'board-10th',
+  'gseb-gujarat': 'board-10th',
+  'bseh-haryana': 'board-10th',
+  'jac-jharkhand': 'board-10th',
+  'pseb-punjab': 'board-10th',
+  'nios-board': 'board-10th',
+  'cgbse-chhattisgarh': 'board-10th',
+  'chse-bse-odisha': 'board-10th',
+  'ubse-uttarakhand': 'board-10th',
+  'seba-ahsec-assam': 'board-10th',
+  'tsbie-bieap': 'board-10th',
+  'board-12th-science': 'board-12th-science',
+  'board-12th-commerce': 'board-12th-commerce',
+  'board-12th-arts': 'board-12th-arts',
+  'all-india-mix': 'all-india-mix'
+};
+
 function resolveLocalBlueprint(examId) {
-  if (OFFICIAL_EXAM_BLUEPRINTS[examId]) {
-    return OFFICIAL_EXAM_BLUEPRINTS[examId];
+  const normId = (examId || '').toLowerCase().trim();
+  if (EXAM_BLUEPRINT_ALIASES[normId] && OFFICIAL_EXAM_BLUEPRINTS[EXAM_BLUEPRINT_ALIASES[normId]]) {
+    return OFFICIAL_EXAM_BLUEPRINTS[EXAM_BLUEPRINT_ALIASES[normId]];
   }
-  if (examId.includes('board') || examId.includes('10th') || examId.includes('12th')) {
-    return OFFICIAL_EXAM_BLUEPRINTS['board-10th'];
+  if (OFFICIAL_EXAM_BLUEPRINTS[normId]) {
+    return OFFICIAL_EXAM_BLUEPRINTS[normId];
   }
-  if (examId.includes('police')) {
+  // Explicit priority prefix checks
+  if (normId.includes('bihar-police') || normId.includes('csbc')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['bihar-police'];
+  }
+  if (normId.includes('mp-police')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['mp-police'];
+  }
+  if (normId.includes('haryana-police')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['haryana-police'];
+  }
+  if (normId.includes('maharashtra-police')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['maharashtra-police'];
+  }
+  if (normId.includes('delhi-police')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['delhi-police'];
+  }
+  if (normId.includes('rajasthan-police')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['rajasthan-police'];
+  }
+  if (normId.includes('wb-police') || normId.includes('kolkata-police')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['wb-police'];
+  }
+  if (normId.includes('up-police') || normId.includes('police')) {
     return OFFICIAL_EXAM_BLUEPRINTS['up-police'];
   }
-  if (examId.includes('rrb') || examId.includes('railway')) {
+  if (normId.includes('ntpc') || normId.includes('group-d')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['railway-group-d'];
+  }
+  if (normId.includes('alp') || normId.includes('technician') || normId.includes('railway') || normId.includes('rrb')) {
     return OFFICIAL_EXAM_BLUEPRINTS['railway-alp'];
   }
-  if (examId.includes('ssc')) {
+  if (normId.includes('mts') || normId.includes('havaldar')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['ssc-mts'];
+  }
+  if (normId.includes('cgl') || normId.includes('chsl')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['ssc-cgl'];
+  }
+  if (normId.includes('ssc') || normId.includes('gd')) {
     return OFFICIAL_EXAM_BLUEPRINTS['ssc-gd'];
+  }
+  if (normId.includes('neet')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['nta-neet'];
+  }
+  if (normId.includes('jee')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['nta-jee'];
+  }
+  if (normId.includes('cuet')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['nta-cuet'];
+  }
+  if (normId.includes('ctet')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['ctet'];
+  }
+  if (normId.includes('tet')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['up-tet'];
+  }
+  if (normId.includes('tre') || normId.includes('bpsc')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['bpsc-tre'];
+  }
+  if (normId.includes('reet')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['reet'];
+  }
+  if (normId.includes('ugc') || normId.includes('net')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['ugc-net'];
+  }
+  if (normId.includes('12th-science') || normId.includes('12-science')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['board-12th-science'];
+  }
+  if (normId.includes('12th-commerce') || normId.includes('12-commerce')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['board-12th-commerce'];
+  }
+  if (normId.includes('12th-arts') || normId.includes('12-arts')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['board-12th-arts'];
+  }
+  if (normId.includes('board') || normId.includes('10th') || normId.includes('12th') || normId.includes('matric') || normId.includes('inter')) {
+    return OFFICIAL_EXAM_BLUEPRINTS['board-10th'];
   }
   return OFFICIAL_EXAM_BLUEPRINTS['all-india-mix'];
 }
@@ -1062,7 +1347,12 @@ async function startNewQuiz() {
     if (res.ok) {
       const data = await res.json();
       if (!data.success && data.status === 'FULL_EXAM_UNAVAILABLE') {
-        alert(`⚠️ ${data.message || 'Full Exam pattern simulation is currently unavailable.'}\n\nPlease practice in Subject-wise Practice or All Subjects Practice mode!`);
+        const unavailMsg = `${data.message || 'Full Exam pattern simulation is currently unavailable.'}\n\nPlease practice in Subject-wise Practice or All Subjects Practice mode!`;
+        if (typeof showAppAlert === 'function') {
+          showAppAlert(unavailMsg, 'Pattern Notice', '⚠️');
+        } else {
+          alert(unavailMsg);
+        }
         return;
       }
       if (data.success && Array.isArray(data.questions) && data.questions.length > 0) {
@@ -1079,12 +1369,18 @@ async function startNewQuiz() {
   }
 
   if (!sessionData.questions || sessionData.questions.length === 0) {
-    alert('इस विषय के लिए प्रश्न लोड हो रहे हैं। कृपया दूसरा विकल्प चुनें।');
+    const loadingMsg = 'इस विषय के लिए प्रश्न लोड हो रहे हैं। कृपया दूसरा विकल्प चुनें।';
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(loadingMsg, 'Notice', 'ℹ️');
+    } else {
+      alert(loadingMsg);
+    }
     return;
   }
 
   // Populate active quiz state
   activeQuiz.mode = testMode;
+  activeQuiz.instantFeedback = (testMode === 'SUBJECT_PRACTICE' || testMode === 'ALL_SUBJECTS_PRACTICE' || testMode === 'PRACTICE');
   activeQuiz.sessionId = sessionData.sessionId;
   activeQuiz.exam = examId;
   activeQuiz.board = boardId;
@@ -1394,16 +1690,42 @@ function renderActiveQuestion() {
     if (subContainer) subContainer.classList.add('hidden');
     if (optContainer) {
       optContainer.classList.remove('hidden');
+      const isPracticeMode = (activeQuiz.mode !== 'FULL_EXAM_PATTERN' && activeQuiz.mode !== 'FULL_EXAM') || activeQuiz.instantFeedback === true;
+      const correctIdx = getNormalizedCorrectIndex(q);
+
       optContainer.innerHTML = (q.options || []).map((opt, optIndex) => {
         let styleClasses = "bg-white dark:bg-slate-800 hover:bg-slate-50 dark:hover:bg-slate-750 border-2 border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 cursor-pointer shadow-sm";
         let icon = `<span class="w-7 h-7 rounded-xl bg-slate-100 dark:bg-slate-700 flex items-center justify-center font-black text-slate-700 dark:text-slate-200 text-xs shrink-0">${String.fromCharCode(65 + optIndex)}</span>`;
+        let disabledAttr = "";
 
         if (isAnswered) {
-          if (optIndex === selectedAnswer) {
-            styleClasses = "bg-rose-600 dark:bg-rose-600 text-white border-2 border-rose-700 dark:border-rose-500 shadow-md font-bold ring-2 ring-rose-400";
-            icon = `<span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center font-black text-white text-xs shrink-0">✓</span>`;
+          if (isPracticeMode && correctIdx !== null) {
+            disabledAttr = "disabled";
+            if (optIndex === selectedAnswer) {
+              if (selectedAnswer === correctIdx) {
+                // Correct answer selected -> Emerald Green
+                styleClasses = "bg-emerald-600 dark:bg-emerald-600 text-white border-2 border-emerald-700 dark:border-emerald-500 shadow-md font-bold ring-2 ring-emerald-400 cursor-default";
+                icon = `<span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center font-black text-white text-xs shrink-0">✓</span>`;
+              } else {
+                // Wrong answer selected -> Crimson Red
+                styleClasses = "bg-rose-600 dark:bg-rose-600 text-white border-2 border-rose-700 dark:border-rose-500 shadow-md font-bold ring-2 ring-rose-400 cursor-default";
+                icon = `<span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center font-black text-white text-xs shrink-0">✕</span>`;
+              }
+            } else if (optIndex === correctIdx) {
+              // The real correct answer revealed in Green when user picked wrong
+              styleClasses = "bg-emerald-50 dark:bg-emerald-950/70 text-emerald-900 dark:text-emerald-200 border-2 border-emerald-500 dark:border-emerald-400 shadow-md font-bold ring-2 ring-emerald-300 cursor-default";
+              icon = `<span class="w-7 h-7 rounded-xl bg-emerald-600 text-white flex items-center justify-center font-black text-xs shrink-0">✓</span>`;
+            } else {
+              styleClasses = "bg-slate-50 dark:bg-slate-850 text-slate-400 dark:text-slate-500 border border-slate-200 dark:border-slate-800 opacity-60 cursor-default";
+            }
           } else {
-            styleClasses = "bg-slate-50 dark:bg-slate-850 text-slate-500 border border-slate-200 dark:border-slate-800 opacity-75";
+            // CBT mode selection (standard CBT blue highlight - NEVER red!)
+            if (optIndex === selectedAnswer) {
+              styleClasses = "bg-blue-600 dark:bg-blue-600 text-white border-2 border-blue-700 dark:border-blue-500 shadow-md font-bold ring-2 ring-blue-400";
+              icon = `<span class="w-7 h-7 rounded-xl bg-white/20 flex items-center justify-center font-black text-white text-xs shrink-0">✓</span>`;
+            } else {
+              styleClasses = "bg-slate-50 dark:bg-slate-850 text-slate-500 border border-slate-200 dark:border-slate-800 opacity-75";
+            }
           }
         }
 
@@ -1419,19 +1741,49 @@ function renderActiveQuestion() {
         return `
           <button 
             type="button" 
+            ${disabledAttr}
             onclick="handleOptionSelection(${optIndex})"
             class="w-full text-left p-4 rounded-2xl transition duration-150 flex items-center space-x-3 active:scale-98 ${styleClasses}">
             ${icon}
-            <span class="text-sm font-semibold leading-snug">${optDisplay}</span>
+            <span class="text-sm font-semibold leading-snug flex-1">${optDisplay}</span>
           </button>
         `;
       }).join('');
     }
   }
 
-  // Explanation Card (Hidden during CBT mock for integrity)
+  // Explanation Card (reveals immediately in practice mode when answered)
   const expCard = document.getElementById('quizExplanationCard');
-  if (expCard) expCard.classList.add('hidden');
+  const expText = document.getElementById('quizExplanationText');
+  const isPracticeMode = (activeQuiz.mode !== 'FULL_EXAM_PATTERN' && activeQuiz.mode !== 'FULL_EXAM') || activeQuiz.instantFeedback === true;
+  const correctIdx = getNormalizedCorrectIndex(q);
+
+  if (expCard && expText) {
+    if (isAnswered && isPracticeMode && correctIdx !== null) {
+      expCard.classList.remove('hidden');
+      const isCorrect = selectedAnswer === correctIdx;
+      const correctLetter = String.fromCharCode(65 + correctIdx);
+      const marksVal = q.marksCorrect || 1;
+
+      const badgeHtml = isCorrect
+        ? `<div class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-emerald-100 dark:bg-emerald-900/60 text-emerald-800 dark:text-emerald-200 font-black text-xs mb-2 border border-emerald-300 dark:border-emerald-700">
+             <span>✅</span>
+             <span>सही उत्तर! (+${marksVal} अंक) / Correct Answer!</span>
+           </div>`
+        : `<div class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl bg-rose-100 dark:bg-rose-900/60 text-rose-800 dark:text-rose-200 font-black text-xs mb-2 border border-rose-300 dark:border-rose-700">
+             <span>❌</span>
+             <span>गलत उत्तर! (0 अंक) — सही विकल्प [${correctLetter}] है / Incorrect. Correct Option: [${correctLetter}]</span>
+           </div>`;
+
+      const expBody = q.explanation || q.exp || (q.ans ? `💡 सही उत्तर: ${q.ans}` : 'Detailed conceptual breakdown verified against official syllabus.');
+      expText.innerHTML = `
+        ${badgeHtml}
+        <div class="text-slate-800 dark:text-slate-200 leading-relaxed font-medium pt-1">${expBody}</div>
+      `;
+    } else {
+      expCard.classList.add('hidden');
+    }
+  }
 
   // Navigation Buttons
   const prevBtn = document.getElementById('quizPrevBtn');
@@ -1467,6 +1819,12 @@ function handleOptionSelection(optionIndex) {
   if (!q) return;
   const qKey = q.id || activeQuiz.currentIndex;
 
+  // In Practice Mode: if already answered, question is LOCKED!
+  const isPracticeMode = (activeQuiz.mode !== 'FULL_EXAM_PATTERN' && activeQuiz.mode !== 'FULL_EXAM') || activeQuiz.instantFeedback === true;
+  if (isPracticeMode && activeQuiz.userAnswers.hasOwnProperty(qKey)) {
+    return; // Prevent repeated tapping! User must click 'Clear Response' to retry.
+  }
+
   // Enforce ATTEMPT_N_OF_M limit check
   const currentSec = activeQuiz.sections.find(s => s.sectionId === q.sectionId);
   if (currentSec && currentSec.attemptRuleType === 'ATTEMPT_N_OF_M') {
@@ -1479,15 +1837,24 @@ function handleOptionSelection(optionIndex) {
 
     if (!activeQuiz.userAnswers.hasOwnProperty(qKey) && attemptedInSection >= currentSec.questionsToAttempt) {
       if (typeof showAppAlert === 'function') {
-    showAppAlert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`, 'Section Limit', '⚠️');
-  } else {
-    alert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`);
-  }
+        showAppAlert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`, 'Section Limit', '⚠️');
+      } else {
+        alert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`);
+      }
       return;
     }
   }
 
   activeQuiz.userAnswers[qKey] = optionIndex;
+
+  // Play audio cue in practice mode
+  if (isPracticeMode) {
+    const correctIdx = getNormalizedCorrectIndex(q);
+    if (correctIdx !== null) {
+      playQuizFeedbackSound(optionIndex === correctIdx);
+    }
+  }
+
   renderActiveQuestion();
   renderQuestionPalette();
   saveActiveQuizState();
@@ -1528,12 +1895,14 @@ function updateMarkReviewButtonDisplay() {
   const q = activeQuiz.questions[activeQuiz.currentIndex];
   const qKey = q?.id || activeQuiz.currentIndex;
 
+  const markText = typeof getTranslation === 'function' ? getTranslation('quiz_mark_review') : '🟣 Mark for Review';
+
   if (activeQuiz.reviewFlags[qKey]) {
     btn.className = "text-xs font-black text-white bg-purple-600 hover:bg-purple-700 border border-purple-700 px-4 py-3 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
     btn.innerHTML = '<span>🟣 Marked for Review</span>';
   } else {
     btn.className = "text-xs font-bold text-purple-700 bg-purple-50 hover:bg-purple-100 border border-purple-200 px-4 py-3 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm";
-    btn.innerHTML = '<span>☆ Mark for Review</span>';
+    btn.innerHTML = `<span>${markText}</span>`;
   }
 }
 
@@ -1728,10 +2097,8 @@ async function submitQuiz(isAutoSubmit = false) {
       });
       return;
     } else {
-      if (!confirm(`Submit Test?\n\n${statsDetail}`)) {
-        resumeTimer();
-        return;
-      }
+      finalizeQuizSubmission(false);
+      return;
     }
   }
 
@@ -1786,7 +2153,8 @@ function evaluateLocalScorecardFallback(isAutoSubmit) {
   activeQuiz.questions.forEach((q, idx) => {
     const qKey = q.id || idx;
     if (activeQuiz.userAnswers.hasOwnProperty(qKey)) {
-      if (activeQuiz.userAnswers[qKey] === q.correct) correct++;
+      const correctIdx = getNormalizedCorrectIndex(q);
+      if (correctIdx !== null && activeQuiz.userAnswers[qKey] === correctIdx) correct++;
       else wrong++;
     }
   });
@@ -1934,7 +2302,7 @@ function exitQuizTest() {
         resetQuiz();
       }
     });
-  } else if (confirm('Are you sure you want to exit the test?')) {
+  } else {
     resetQuiz();
   }
 }
@@ -2187,6 +2555,8 @@ function triggerQuizPdfPurchase(isAllSubject = false) {
   const price = isAllSubject ? 19 : 9;
   if (typeof openUpiPaymentModal === 'function') {
     openUpiPaymentModal(`quiz-${Date.now()}`, { price });
+  } else if (typeof showAppAlert === 'function') {
+    showAppAlert(`₹${price} UPI भुगतान गेटवे लोड हो रहा है...`, 'UPI Payment', '💳');
   } else {
     alert(`₹${price} UPI भुगतान गेटवे लोड हो रहा है...`);
   }

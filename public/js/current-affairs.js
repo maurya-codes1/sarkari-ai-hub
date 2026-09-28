@@ -464,7 +464,11 @@ function copyCACapsuleNotes() {
       }, 2500);
     }
   }).catch(err => {
-    alert("Clipboard copy failed. Please select text manually.");
+    if (typeof showAppAlert === 'function') {
+      showAppAlert("Clipboard copy failed. Please select text manually.", 'Copy Notice', '📋');
+    } else {
+      alert("Clipboard copy failed. Please select text manually.");
+    }
   });
 }
 

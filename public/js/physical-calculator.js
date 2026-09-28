@@ -464,7 +464,11 @@ function calculatePhysicalEligibility(isSilent = false) {
 
   if (isNaN(userHeight) || userHeight <= 0) {
     if (!isSilent) {
-      alert('कृपया अपनी सटीक ऊंचाई (Height in Centimeters) दर्ज करें।');
+      if (typeof showAppAlert === 'function') {
+        showAppAlert('कृपया अपनी सटीक ऊंचाई (Height in Centimeters) दर्ज करें।', 'Height Required', '📏');
+      } else {
+        alert('कृपया अपनी सटीक ऊंचाई (Height in Centimeters) दर्ज करें।');
+      }
     }
     return;
   }

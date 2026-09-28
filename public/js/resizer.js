@@ -303,7 +303,11 @@ function handlePresetChange() {
 
 function loadFile(file) {
   if (!file.type.match('image.*')) {
-    alert('Please upload a valid image file (JPG, PNG, WEBP).');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('Please upload a valid image file (JPG, PNG, WEBP).', 'Invalid File', '📸');
+    } else {
+      alert('Please upload a valid image file (JPG, PNG, WEBP).');
+    }
     return;
   }
 

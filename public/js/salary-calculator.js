@@ -501,7 +501,12 @@ function printPaySlip() {
 
   const printWindow = window.open('', '_blank', 'width=800,height=750');
   if (!printWindow) {
-    alert('कृपया पॉपअप विंडो को अनुमति दें (Please allow popups to print pay slip).');
+    const popMsg = 'कृपया पॉपअप विंडो को अनुमति दें (Please allow popups to print pay slip).';
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(popMsg, 'Popup Notice', '🖨️');
+    } else {
+      alert(popMsg);
+    }
     return;
   }
 

@@ -7149,7 +7149,11 @@ async function verifyAndDownloadPdf() {
 function openPrintWindow(htmlContent, title = 'SarkariAI Hub - Official Study Notes') {
   const win = window.open('', '_blank', 'width=900,height=950');
   if (!win) {
-    alert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि आपकी PDF खुल सके।');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि आपकी PDF खुल सके।', 'Popup Blocked', '🖨️');
+    } else {
+      alert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि आपकी PDF खुल सके।');
+    }
     return;
   }
   win.document.write(`
@@ -7500,7 +7504,11 @@ async function generateAiExamNotes() {
 
   } catch (err) {
     console.error('Error generating notes:', err);
-    alert('Notes generate karne me samasya aayi. Dobara prayas karein.');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('नोट्स तैयार करने में समस्या आई। कृपया दोबारा प्रयास करें।', 'Notes Error', '⚠️');
+    } else {
+      alert('Notes generate karne me samasya aayi. Dobara prayas karein.');
+    }
   } finally {
     if (btn) {
       btn.innerHTML = `<span>⚡ Notes संकलित करें (Compile)</span>`;

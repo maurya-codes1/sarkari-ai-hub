@@ -432,7 +432,7 @@ class MockService {
 
     for (const qRow of questionsFromDb) {
       usedQuestionIds.add(qRow.question_id);
-      const formatted = this._formatQuestionForClient(qRow, practiceSection, languageConfig);
+      const formatted = this._formatQuestionForClient(qRow, practiceSection, languageConfig, true);
       sessionQuestions.push(formatted);
     }
 
@@ -440,7 +440,7 @@ class MockService {
     if (aiProportion > 0) {
       const aiNeeded = Math.ceil(validCount * aiProportion);
       const aiQuestionsRaw = questionRepository.getQuestionsByProvenance('AI_PRACTICE', aiNeeded);
-      const aiQuestionsFormatted = aiQuestionsRaw.map(q => this._formatQuestionForClient(q, practiceSection, languageConfig));
+      const aiQuestionsFormatted = aiQuestionsRaw.map(q => this._formatQuestionForClient(q, practiceSection, languageConfig, true));
       sessionQuestions = aiInterleavingService.interleaveQuestions(sessionQuestions, aiQuestionsFormatted, {
         aiProportion,
         targetCount: sessionQuestions.length
@@ -761,7 +761,7 @@ class MockService {
     };
   }
 
-  _formatQuestionForClient(qRow, section, languageConfig) {
+  _formatQuestionForClient(qRow, section, languageConfig, isPractice = false) {
     let langContent = {};
     try {
       langContent = JSON.parse(qRow.language_content || '{}');
@@ -773,7 +773,7 @@ class MockService {
     const pData = langContent[primaryLang] || langContent.hi || langContent.en || {};
     const sData = langContent[secondaryLang] || langContent.en || {};
 
-    return {
+    const clientQ = {
       id: qRow.question_id,
       sectionId: section.section_id,
       sectionName: section.name,
@@ -787,8 +787,21 @@ class MockService {
       marksCorrect: section.marks_correct || 1.0,
       marksWrong: section.is_negative_marking ? (section.negative_value || 0.25) : 0.0,
       topic: qRow.topic_tags || 'High Yield Question'
-      // NOTE: ans and exp intentionally omitted from client payload for anti-cheating!
     };
+
+    // For practice sessions, include correct answer and explanation for immediate feedback
+    const isPracticeSession = isPractice || (section.section_id && section.section_id.startsWith('sec-practice'));
+    if (isPracticeSession) {
+      let parsedCorrectAns = {};
+      try {
+        parsedCorrectAns = JSON.parse(qRow.correct_answer || '{}');
+      } catch (e) {}
+      clientQ.correct = parsedCorrectAns.index !== undefined ? parsedCorrectAns.index : (parsedCorrectAns.option !== undefined ? parsedCorrectAns.option : 0);
+      clientQ.explanation = pData.explanation || pData.exp || sData.explanation || (parsedCorrectAns.explanation || '');
+      clientQ.ans = parsedCorrectAns.text || (clientQ.options[clientQ.correct] || '');
+    }
+
+    return clientQ;
   }
 
   _generateOfflineFallbackSession(sessionId, examId, testMode, requestedCount, subjectId) {

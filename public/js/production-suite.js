@@ -17,12 +17,20 @@ function initJobAlertBell() {
 
 function toggleJobAlerts() {
   if (!('Notification' in window)) {
-    alert('🔔 आपके ब्राउज़र में पुश नोटिफिकेशन समर्थित नहीं है।');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('आपके ब्राउज़र में पुश नोटिफिकेशन समर्थित नहीं है।', 'Push Notifications', '🔔');
+    } else {
+      alert('🔔 आपके ब्राउज़र में पुश नोटिफिकेशन समर्थित नहीं है।');
+    }
     return;
   }
 
   if (Notification.permission === 'granted') {
-    alert('✅ जॉब अलर्ट पहले से सक्रिय हैं! नई सरकारी भर्ती आते ही आपको नोटिफिकेशन मिलेगा।');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('जॉब अलर्ट पहले से सक्रिय हैं! नई सरकारी भर्ती आते ही आपको नोटिफिकेशन मिलेगा।', 'Job Alerts Active', '✅');
+    } else {
+      alert('✅ जॉब अलर्ट पहले से सक्रिय हैं! नई सरकारी भर्ती आते ही आपको नोटिफिकेशन मिलेगा।');
+    }
     localStorage.setItem('sarkari_job_alerts', 'granted');
     const dot = document.getElementById('bellActiveDot');
     if (dot) dot.classList.remove('hidden');
@@ -45,7 +53,11 @@ function toggleJobAlerts() {
 
       showPortalToast('🔔 जॉब अलर्ट्स सफलतापूर्वक ऑन हो गए हैं!');
     } else {
-      alert('सूचना: आपने नोटिफिकेशन अस्वीकार कर दिया है। भविष्य में अपडेट पाने हेतु ब्राउज़र सेटिंग्स में अनुमति दें।');
+      if (typeof showAppAlert === 'function') {
+        showAppAlert('सूचना: आपने नोटिफिकेशन अस्वीकार कर दिया है। भविष्य में अपडेट पाने हेतु ब्राउज़र सेटिंग्स में अनुमति दें।', 'Notification Settings', 'ℹ️');
+      } else {
+        alert('सूचना: आपने नोटिफिकेशन अस्वीकार कर दिया है। भविष्य में अपडेट पाने हेतु ब्राउज़र सेटिंग्स में अनुमति दें।');
+      }
     }
   });
 }
@@ -138,7 +150,11 @@ function updateBookmarkIcons() {
 function showSavedExamsTab() {
   const saved = getSavedExams();
   if (saved.length === 0) {
-    alert('⭐ आपके पास अभी कोई सेव की गई भर्ती नहीं है! किसी भी भर्ती पर स्टार (☆) दबाकर उसे सेव करें।');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('आपके पास अभी कोई सेव की गई भर्ती नहीं है! किसी भी भर्ती पर स्टार (☆) दबाकर उसे सेव करें।', 'Saved Exams', '⭐');
+    } else {
+      alert('⭐ आपके पास अभी कोई सेव की गई भर्ती नहीं है! किसी भी भर्ती पर स्टार (☆) दबाकर उसे सेव करें।');
+    }
     return;
   }
   window.location.hash = '#directory';

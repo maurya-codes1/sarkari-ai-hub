@@ -276,7 +276,11 @@ function analyzeCutoffScore(isSilent = false) {
 
   if (isNaN(userScore) || userScore <= 0) {
     if (!isSilent) {
-      alert('कृपया अपने मॉक टेस्ट के वास्तविक अंक (Marks) दर्ज करें।');
+      if (typeof showAppAlert === 'function') {
+        showAppAlert('कृपया अपने मॉक टेस्ट के वास्तविक अंक (Marks) दर्ज करें।', 'Marks Required', '📊');
+      } else {
+        alert('कृपया अपने मॉक टेस्ट के वास्तविक अंक (Marks) दर्ज करें।');
+      }
     }
     return;
   }

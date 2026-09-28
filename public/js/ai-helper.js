@@ -149,7 +149,12 @@ async function handleAnalyzeNotification() {
 
   const text = inputArea?.value?.trim();
   if (!text || text.length < 15) {
-    alert('कृपया किसी भी सरकारी भर्ती या बोर्ड परीक्षा का सर्कुलर टेक्स्ट यहाँ पेस्ट करें या ऊपर दिए गए सैम्पल बटन्स पर क्लिक करें।');
+    const aiNotice = 'कृपया किसी भी सरकारी भर्ती या बोर्ड परीक्षा का सर्कुलर टेक्स्ट यहाँ पेस्ट करें या ऊपर दिए गए सैम्पल बटन्स पर क्लिक करें।';
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(aiNotice, 'Notification Text Required', '📑');
+    } else {
+      alert(aiNotice);
+    }
     return;
   }
 

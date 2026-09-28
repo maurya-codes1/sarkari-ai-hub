@@ -202,7 +202,7 @@
           <!-- WhatsApp Quick Share Button (Desktop) -->
           <button type="button" onclick="shareOnWhatsApp()" class="hidden md:flex items-center space-x-1 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white rounded-2xl text-xs font-black shadow-md transition cursor-pointer" title="Share SarkariAI Hub with Friends on WhatsApp">
             <span class="text-sm">📲</span>
-            <span class="hidden lg:inline text-[11px]">Share</span>
+            <span class="hidden lg:inline text-[11px]" data-i18n="nav_share_btn">Share</span>
           </button>
         </div>
 
@@ -247,11 +247,11 @@
       <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
         <button type="button" onclick="closeMobileMenu(); shareOnWhatsApp();" class="p-3 rounded-xl bg-emerald-700 hover:bg-emerald-600 text-white font-bold text-xs flex items-center justify-center space-x-1.5 cursor-pointer shadow-md">
           <span>📲</span>
-          <span>WhatsApp Share</span>
+          <span data-i18n="nav_whatsapp_btn">WhatsApp Share</span>
         </button>
         <button type="button" onclick="installPwaApp()" class="p-3 rounded-xl bg-gradient-to-r from-saffron-500 to-amber-500 hover:from-saffron-600 text-slate-950 font-black text-xs flex items-center justify-center space-x-1.5 cursor-pointer shadow-md">
           <span>📱</span>
-          <span>Install App</span>
+          <span data-i18n="nav_install_app_btn">Install App</span>
         </button>
       </div>
     </div>
@@ -268,12 +268,12 @@
     </div>
     <div class="ticker-wrap w-full pl-3 text-xs font-bold">
       <div class="ticker-content space-x-8">
-        <span>🔥 <a href="#exam/ssc-gd" class="underline hover:text-yellow-200">SSC GD Constable 2026 Online Application Active • Last Date 14 Oct (Click for Details)</a></span>
-        <span>📢 <a href="#exam/up-police-constable" class="underline hover:text-yellow-200">UP Police Constable 60,244 Re-Exam City Slip Out (Click for Direct Links)</a></span>
-        <span>🎓 <a href="#exam/cbse-board" class="underline hover:text-yellow-200">CBSE Class 10th & 12th Re-Evaluation & Scrutiny Portal Open (Server 1 & 2)</a></span>
-        <span>⚡ <a href="#exam/rrb-alp" class="underline hover:text-yellow-200">Railway RRB ALP 18,799 Vacancies • Application Status Check</a></span>
-        <span>🩺 <a href="#exam/nta-neet" class="underline hover:text-yellow-200">NTA NEET UG 2026 Counseling & State Merit Allotment Live</a></span>
-        <span>👮 <a href="#exam/bihar-police-constable" class="underline hover:text-yellow-200">Bihar Police CSBC Constable 21,391 Posts Exam Dates Out</a></span>
+        <span>🔥 <a href="#exam/ssc-gd" class="underline hover:text-yellow-200" data-i18n="ticker_item_1">SSC GD Constable 2026 Online Application Active • Last Date 14 Oct (Click for Details)</a></span>
+        <span>📢 <a href="#exam/up-police-constable" class="underline hover:text-yellow-200" data-i18n="ticker_item_2">UP Police Constable 60,244 Re-Exam City Slip Out (Click for Direct Links)</a></span>
+        <span>🎓 <a href="#exam/cbse-board" class="underline hover:text-yellow-200" data-i18n="ticker_item_3">CBSE Class 10th & 12th Re-Evaluation & Scrutiny Portal Open (Server 1 & 2)</a></span>
+        <span>⚡ <a href="#exam/rrb-alp" class="underline hover:text-yellow-200" data-i18n="ticker_item_4">Railway RRB ALP 18,799 Vacancies • Application Status Check</a></span>
+        <span>🩺 <a href="#exam/nta-neet" class="underline hover:text-yellow-200" data-i18n="ticker_item_5">NTA NEET UG 2026 Counseling & State Merit Allotment Live</a></span>
+        <span>👮 <a href="#exam/bihar-police-constable" class="underline hover:text-yellow-200" data-i18n="ticker_item_6">Bihar Police CSBC Constable 21,391 Posts Exam Dates Out</a></span>
       </div>
     </div>
   </div>
@@ -592,36 +592,36 @@
               <div class="divide-y divide-slate-100">
                 <a href="#exam/cbse-board" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-amber-50 transition group" data-qual="10th 12th boards">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">CBSE Class 10th & 12th Board</div>
-                    <div class="text-[11px] text-slate-500">Re-Evaluation, Scrutiny & Marks Verification</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="board_card_cbse_title">CBSE Class 10th & 12th Board</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="board_card_cbse_desc">Re-Evaluation, Scrutiny & Marks Verification</div>
                   </div>
                   <span class="text-saffron-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/upmsp-board" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-amber-50 transition group" data-qual="10th 12th boards">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">UP Board High School & Inter (UPMSP)</div>
-                    <div class="text-[11px] text-slate-500">55 Lakh Students • Scrutiny Portal Active</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="board_card_upmsp_title">UP Board High School & Inter (UPMSP)</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="board_card_upmsp_desc">55 Lakh Students • Scrutiny Portal Active</div>
                   </div>
                   <span class="text-saffron-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/bseb-bihar" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-amber-50 transition group" data-qual="10th 12th boards">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">Bihar Board BSEB Matric & Inter</div>
-                    <div class="text-[11px] text-slate-500">Annual Board Result & Compartment Form</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="board_card_bseb_title">Bihar Board BSEB Matric & Inter</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="board_card_bseb_desc">Annual Board Result & Compartment Form</div>
                   </div>
                   <span class="text-saffron-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/maharashtra-board" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-amber-50 transition group" data-qual="10th 12th boards">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">Maharashtra State Board (SSC & HSC)</div>
-                    <div class="text-[11px] text-slate-500">Direct Result Verification Portal</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="board_card_msbshse_title">Maharashtra State Board (SSC & HSC)</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="board_card_msbshse_desc">Direct Result Verification Portal</div>
                   </div>
                   <span class="text-saffron-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/rbse-rajasthan" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-amber-50 transition group" data-qual="10th 12th boards">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">Rajasthan Board RBSE 10th/12th</div>
-                    <div class="text-[11px] text-slate-500">Official Marksheet & Time Table</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="board_card_rbse_title">Rajasthan Board RBSE 10th/12th</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="board_card_rbse_desc">Official Marksheet & Time Table</div>
                   </div>
                   <span class="text-saffron-600 font-black text-sm">→</span>
                 </a>
@@ -643,40 +643,40 @@
                 <a href="#exam/ssc-gd" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-blue-50 transition group" data-qual="10th police central answerkey">
                   <div>
                     <div class="font-black text-slate-900 text-xs group-hover:text-blue-700 flex items-center">
-                      <span>SSC GD Constable 2026</span>
-                      <span class="ml-1.5 px-2 py-0.2 bg-rose-100 text-rose-700 rounded text-[10px] font-bold">Active</span>
+                      <span data-i18n="exam_card_ssc_gd_title">SSC GD Constable 2026</span>
+                      <span class="ml-1.5 px-2 py-0.2 bg-rose-100 text-rose-700 rounded text-[10px] font-bold" data-i18n="exam_card_ssc_gd_badge">Active</span>
                     </div>
-                    <div class="text-[11px] text-slate-500">39,481 Posts (BSF, CISF, CRPF, SSB)</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_ssc_gd_desc">39,481 Posts (BSF, CISF, CRPF, SSB)</div>
                   </div>
                   <span class="text-blue-700 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/rrb-alp" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-blue-50 transition group" data-qual="10th technical central answerkey">
                   <div>
                     <div class="font-black text-slate-900 text-xs group-hover:text-blue-700 flex items-center">
-                      <span>Railway RRB Assistant Loco Pilot (ALP)</span>
+                      <span data-i18n="exam_card_rrb_alp_title">Railway RRB Assistant Loco Pilot (ALP)</span>
                     </div>
-                    <div class="text-[11px] text-slate-500">18,799 Posts • Application Status Live</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_rrb_alp_desc">18,799 Posts • Application Status Live</div>
                   </div>
                   <span class="text-blue-700 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/rrb-group-d" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-blue-50 transition group" data-qual="10th technical central">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">Railway RRB Group D Trackman</div>
-                    <div class="text-[11px] text-slate-500">10th / ITI Qualification Details</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_rrb_groupd_title">Railway RRB Group D Trackman</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_rrb_groupd_desc">10th / ITI Qualification Details</div>
                   </div>
                   <span class="text-blue-700 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/ssc-cgl" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-blue-50 transition group" data-qual="graduate central">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">SSC CGL Graduate Level 2026</div>
-                    <div class="text-[11px] text-slate-500">Inspector, Assistant Section Officer</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_ssc_cgl_title">SSC CGL Graduate Level 2026</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_ssc_cgl_desc">Inspector, Assistant Section Officer</div>
                   </div>
                   <span class="text-blue-700 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/upsc-cse" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-blue-50 transition group" data-qual="graduate central">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">UPSC Civil Services (IAS / IPS / IFS)</div>
-                    <div class="text-[11px] text-slate-500">Name & DOOP Photo Stamping Rules</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_upsc_title">UPSC Civil Services (IAS / IPS / IFS)</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_upsc_desc">Name & DOOP Photo Stamping Rules</div>
                   </div>
                   <span class="text-blue-700 font-black text-sm">→</span>
                 </a>
@@ -698,38 +698,38 @@
                 <a href="#exam/up-police-constable" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-rose-50 transition group" data-qual="12th police answerkey">
                   <div>
                     <div class="font-black text-slate-900 text-xs group-hover:text-blue-700 flex items-center">
-                      <span>UP Police 60,244 Constable Bharti</span>
+                      <span data-i18n="exam_card_up_police_title">UP Police 60,244 Constable Bharti</span>
                       <span class="ml-1.5 px-2 py-0.2 bg-rose-100 text-rose-700 rounded text-[10px] font-bold">Hot</span>
                     </div>
-                    <div class="text-[11px] text-slate-500">City Slip & Re-Exam Guidelines</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_up_police_desc">City Slip & Re-Exam Guidelines</div>
                   </div>
                   <span class="text-rose-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/bihar-police-constable" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-rose-50 transition group" data-qual="12th police">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">Bihar Police CSBC Constable 21,391</div>
-                    <div class="text-[11px] text-slate-500">Exam Center & Physical PET Rules</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_bihar_police_title">Bihar Police CSBC Constable 21,391</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_bihar_police_desc">Exam Center & Physical PET Rules</div>
                   </div>
                   <span class="text-rose-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/delhi-police" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-rose-50 transition group" data-qual="12th police">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">Delhi Police Executive Constable</div>
-                    <div class="text-[11px] text-slate-500">Driving License & Height Criteria</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_delhi_police_title">Delhi Police Executive Constable</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_delhi_police_desc">Driving License & Height Criteria</div>
                   </div>
                   <span class="text-rose-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/nta-neet" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-rose-50 transition group" data-qual="12th entrance answerkey">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">NTA NEET UG Medical Entrance</div>
-                    <div class="text-[11px] text-slate-500">Postcard Photo & Rank List Download</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_neet_title" data-i18n="anskey_card4_title">NTA NEET UG Medical Entrance</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_neet_desc">Postcard Photo & Rank List Download</div>
                   </div>
                   <span class="text-rose-600 font-black text-sm">→</span>
                 </a>
                 <a href="#exam/nta-jee-main" class="home-exam-card-item p-4 flex items-center justify-between hover:bg-rose-50 transition group" data-qual="12th technical entrance">
                   <div>
-                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700">NTA JEE Main & Advanced Engineering</div>
-                    <div class="text-[11px] text-slate-500">Session 1 & 2 Registration Rules</div>
+                    <div class="font-black text-slate-900 text-xs group-hover:text-blue-700" data-i18n="exam_card_jee_title">NTA JEE Main & Advanced Engineering</div>
+                    <div class="text-[11px] text-slate-500" data-i18n="exam_card_jee_desc">Session 1 & 2 Registration Rules</div>
                   </div>
                   <span class="text-rose-600 font-black text-sm">→</span>
                 </a>
@@ -780,20 +780,16 @@
           <div onclick="navigateToExam('ssc-gd')" class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-amber-400 active:scale-[0.98] transition duration-200 cursor-pointer flex flex-col justify-between group">
             <div>
               <div class="flex items-center justify-between mb-2">
-                <span class="px-2.5 py-0.5 rounded-md bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300 text-[10px] font-black uppercase">
-                  ⚡ Active Objection
-                </span>
-                <span class="text-[11px] text-slate-500 font-bold">SSC Portal</span>
+                <span class="px-2.5 py-0.5 rounded-md bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-300 text-[10px] font-black uppercase" data-i18n="anskey_card1_badge">⚡ Active Objection</span>
+                <span class="text-[11px] text-slate-500 font-bold" data-i18n="anskey_card1_org">SSC Portal</span>
               </div>
-              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-amber-600 transition">SSC GD Constable 2025</h4>
-              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Computer Based Examination (CBE) Tentative Answer Key & Candidate Response Sheet.</p>
+              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-amber-600 transition" data-i18n="anskey_card1_title">SSC GD Constable 2025</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="anskey_card1_desc">Computer Based Examination (CBE) Tentative Answer Key & Candidate Response Sheet.</p>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between gap-2">
-              <div class="text-[11px] font-bold text-slate-600 dark:text-slate-300">₹100 / challenge</div>
+              <div class="text-[11px] font-bold text-slate-600 dark:text-slate-300" data-i18n="anskey_card1_fee">₹100 / challenge</div>
               <div class="flex items-center gap-1.5">
-                <button type="button" onclick="event.stopPropagation(); navigateToExam('ssc-gd');" class="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95">
-                  View Key →
-                </button>
+                <button type="button" onclick="event.stopPropagation(); navigateToExam('ssc-gd');" class="px-3 py-1.5 bg-amber-500 hover:bg-amber-600 text-slate-950 font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95" data-i18n="anskey_card1_btn">View Key →</button>
                 <a href="https://ssc.gov.in" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation(); openOutboundGateway('https://ssc.gov.in', 'SSC GD Constable - Official Portal'); return false;" class="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer" title="Direct Official Website">
                   ↗
                 </a>
@@ -805,20 +801,16 @@
           <div onclick="navigateToExam('up-police-constable')" class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-blue-400 active:scale-[0.98] transition duration-200 cursor-pointer flex flex-col justify-between group">
             <div>
               <div class="flex items-center justify-between mb-2">
-                <span class="px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 text-[10px] font-black uppercase">
-                  ✓ Final Key Released
-                </span>
-                <span class="text-[11px] text-slate-500 font-bold">UPPRPB</span>
+                <span class="px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 text-[10px] font-black uppercase" data-i18n="anskey_card2_badge">✓ Final Key Released</span>
+                <span class="text-[11px] text-slate-500 font-bold" data-i18n="anskey_card2_org">UPPRPB</span>
               </div>
-              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-blue-600 transition">UP Police Constable 60,244 Post</h4>
-              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Shift-wise Revised Final Answer Key & Cancelled Question Full Mark Benefit Notice.</p>
+              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-blue-600 transition" data-i18n="anskey_card2_title">UP Police Constable 60,244 Post</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="anskey_card2_desc">Shift-wise Revised Final Answer Key & Cancelled Question Full Mark Benefit Notice.</p>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between gap-2">
-              <div class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400">All Shifts Final PDF</div>
+              <div class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400" data-i18n="anskey_card2_fee">All Shifts Final PDF</div>
               <div class="flex items-center gap-1.5">
-                <button type="button" onclick="event.stopPropagation(); navigateToExam('up-police-constable');" class="px-3 py-1.5 bg-blue-900 hover:bg-blue-800 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95">
-                  Download PDF →
-                </button>
+                <button type="button" onclick="event.stopPropagation(); navigateToExam('up-police-constable');" class="px-3 py-1.5 bg-blue-900 hover:bg-blue-800 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95" data-i18n="anskey_card2_btn">Download PDF →</button>
                 <a href="https://uppbpb.gov.in" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation(); openOutboundGateway('https://uppbpb.gov.in', 'UP Police - Official Portal'); return false;" class="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer" title="Direct Official Website">
                   ↗
                 </a>
@@ -830,20 +822,16 @@
           <div onclick="navigateToExam('rrb-alp')" class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-indigo-400 active:scale-[0.98] transition duration-200 cursor-pointer flex flex-col justify-between group">
             <div>
               <div class="flex items-center justify-between mb-2">
-                <span class="px-2.5 py-0.5 rounded-md bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300 text-[10px] font-black uppercase">
-                  📊 Response Sheet
-                </span>
-                <span class="text-[11px] text-slate-500 font-bold">RRB Apply</span>
+                <span class="px-2.5 py-0.5 rounded-md bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-300 text-[10px] font-black uppercase" data-i18n="anskey_card3_badge">📊 Response Sheet</span>
+                <span class="text-[11px] text-slate-500 font-bold" data-i18n="anskey_card3_org">RRB Apply</span>
               </div>
-              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-indigo-600 transition">RRB ALP (CEN 01/2024) CBT-1</h4>
-              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">CBT Stage 1 Question Paper, Official Key & Representation Against Questions link.</p>
+              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-indigo-600 transition" data-i18n="anskey_card3_title">RRB ALP (CEN 01/2024) CBT-1</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="anskey_card3_desc">CBT Stage 1 Question Paper, Official Key & Representation Against Questions link.</p>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between gap-2">
-              <div class="text-[11px] font-bold text-slate-600 dark:text-slate-300">₹50 (Refundable)</div>
+              <div class="text-[11px] font-bold text-slate-600 dark:text-slate-300" data-i18n="anskey_card3_fee">₹50 (Refundable)</div>
               <div class="flex items-center gap-1.5">
-                <button type="button" onclick="event.stopPropagation(); navigateToExam('rrb-alp');" class="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95">
-                  Check Key →
-                </button>
+                <button type="button" onclick="event.stopPropagation(); navigateToExam('rrb-alp');" class="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95" data-i18n="anskey_card3_btn">Check Key →</button>
                 <a href="https://rrbapply.gov.in" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation(); openOutboundGateway('https://rrbapply.gov.in', 'Railway RRB ALP - Official Portal'); return false;" class="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer" title="Direct Official Website">
                   ↗
                 </a>
@@ -855,20 +843,16 @@
           <div onclick="navigateToExam('nta-neet')" class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-rose-400 active:scale-[0.98] transition duration-200 cursor-pointer flex flex-col justify-between group">
             <div>
               <div class="flex items-center justify-between mb-2">
-                <span class="px-2.5 py-0.5 rounded-md bg-rose-100 text-rose-800 dark:bg-rose-900/50 dark:text-rose-300 text-[10px] font-black uppercase">
-                  📜 OMR Scanned Copy
-                </span>
-                <span class="text-[11px] text-slate-500 font-bold">NTA NEET</span>
+                <span class="px-2.5 py-0.5 rounded-md bg-rose-100 text-rose-800 dark:bg-rose-900/50 dark:text-rose-300 text-[10px] font-black uppercase" data-i18n="anskey_card4_badge">📜 OMR Scanned Copy</span>
+                <span class="text-[11px] text-slate-500 font-bold" data-i18n="anskey_card4_org">NTA NEET</span>
               </div>
               <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-rose-600 transition">NTA NEET UG Medical Entrance</h4>
-              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Scanned OMR Answer Sheet, Recorded Responses & Provisional Answer Key Challenge.</p>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="anskey_card4_desc">Scanned OMR Answer Sheet, Recorded Responses & Provisional Answer Key Challenge.</p>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between gap-2">
-              <div class="text-[11px] font-bold text-slate-600 dark:text-slate-300">₹200 / challenge</div>
+              <div class="text-[11px] font-bold text-slate-600 dark:text-slate-300" data-i18n="anskey_card4_fee">₹200 / challenge</div>
               <div class="flex items-center gap-1.5">
-                <button type="button" onclick="event.stopPropagation(); navigateToExam('nta-neet');" class="px-3 py-1.5 bg-rose-600 hover:bg-rose-700 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95">
-                  OMR Challenge →
-                </button>
+                <button type="button" onclick="event.stopPropagation(); navigateToExam('nta-neet');" class="px-3 py-1.5 bg-rose-600 hover:bg-rose-700 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95" data-i18n="anskey_card4_btn">OMR Challenge →</button>
                 <a href="https://exams.nta.ac.in/NEET/" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation(); openOutboundGateway('https://exams.nta.ac.in/NEET/', 'NTA NEET UG - Official Portal'); return false;" class="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer" title="Direct Official Website">
                   ↗
                 </a>
@@ -880,20 +864,16 @@
           <div onclick="navigateToExam('ctet-exam')" class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-purple-400 active:scale-[0.98] transition duration-200 cursor-pointer flex flex-col justify-between group">
             <div>
               <div class="flex items-center justify-between mb-2">
-                <span class="px-2.5 py-0.5 rounded-md bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-300 text-[10px] font-black uppercase">
-                  📝 Key & Carbon Copy
-                </span>
-                <span class="text-[11px] text-slate-500 font-bold">CBSE CTET</span>
+                <span class="px-2.5 py-0.5 rounded-md bg-purple-100 text-purple-800 dark:bg-purple-900/50 dark:text-purple-300 text-[10px] font-black uppercase" data-i18n="anskey_card5_badge">📝 Key & Carbon Copy</span>
+                <span class="text-[11px] text-slate-500 font-bold" data-i18n="anskey_card5_org">CBSE CTET</span>
               </div>
-              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-purple-600 transition">Central Teacher Eligibility Test</h4>
-              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Paper 1 & Paper 2 Question Papers with Marked Answers & Challenge Submission window.</p>
+              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-purple-600 transition" data-i18n="anskey_card5_title">Central Teacher Eligibility Test</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="anskey_card5_desc">Paper 1 & Paper 2 Question Papers with Marked Answers & Challenge Submission window.</p>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between gap-2">
-              <div class="text-[11px] font-bold text-purple-700 dark:text-purple-400">Paper 1 & 2 Sets</div>
+              <div class="text-[11px] font-bold text-purple-700 dark:text-purple-400" data-i18n="anskey_card5_fee">Paper 1 & 2 Sets</div>
               <div class="flex items-center gap-1.5">
-                <button type="button" onclick="event.stopPropagation(); navigateToExam('ctet-exam');" class="px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95">
-                  Check CTET →
-                </button>
+                <button type="button" onclick="event.stopPropagation(); navigateToExam('ctet-exam');" class="px-3 py-1.5 bg-purple-600 hover:bg-purple-700 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95" data-i18n="anskey_card5_btn">Check CTET →</button>
                 <a href="https://ctet.nic.in" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation(); openOutboundGateway('https://ctet.nic.in', 'CBSE CTET - Official Portal'); return false;" class="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer" title="Direct Official Website">
                   ↗
                 </a>
@@ -905,20 +885,16 @@
           <div onclick="navigateToExam('bpsc-tre')" class="bg-white dark:bg-slate-800 p-4 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-sm hover:shadow-xl hover:border-slate-400 active:scale-[0.98] transition duration-200 cursor-pointer flex flex-col justify-between group">
             <div>
               <div class="flex items-center justify-between mb-2">
-                <span class="px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 text-[10px] font-black uppercase">
-                  ⚡ Revised Series A-D
-                </span>
-                <span class="text-[11px] text-slate-500 font-bold">State PSCs</span>
+                <span class="px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 text-[10px] font-black uppercase" data-i18n="anskey_card6_badge">⚡ Revised Series A-D</span>
+                <span class="text-[11px] text-slate-500 font-bold" data-i18n="anskey_card6_org">State PSCs</span>
               </div>
-              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-emerald-600 transition">BPSC 70th CCE / State PSC Prelims</h4>
-              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1">Official Master Question Booklet & Provisional Answer Key Series A, B, C, D Objection Portal.</p>
+              <h4 class="font-black text-sm text-slate-900 dark:text-white group-hover:text-emerald-600 transition" data-i18n="anskey_card6_title">BPSC 70th CCE / State PSC Prelims</h4>
+              <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="anskey_card6_desc">Official Master Question Booklet & Provisional Answer Key Series A, B, C, D Objection Portal.</p>
             </div>
             <div class="mt-3 pt-3 border-t border-slate-100 dark:border-slate-700 flex items-center justify-between gap-2">
-              <div class="text-[11px] font-bold text-emerald-700 dark:text-emerald-400">Official Portal Link</div>
+              <div class="text-[11px] font-bold text-emerald-700 dark:text-emerald-400" data-i18n="anskey_card6_fee">Official Portal Link</div>
               <div class="flex items-center gap-1.5">
-                <button type="button" onclick="event.stopPropagation(); navigateToExam('bpsc-tre');" class="px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95">
-                  Open Portal →
-                </button>
+                <button type="button" onclick="event.stopPropagation(); navigateToExam('bpsc-tre');" class="px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-white font-black text-xs rounded-xl shadow-xs transition cursor-pointer active:scale-95" data-i18n="anskey_card6_btn">Open Portal →</button>
                 <a href="https://bpsc.bih.nic.in" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation(); openOutboundGateway('https://bpsc.bih.nic.in', 'BPSC - Official Portal'); return false;" class="p-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-white rounded-xl text-xs font-bold transition cursor-pointer" title="Direct Official Website">
                   ↗
                 </a>
@@ -933,9 +909,7 @@
             <span class="text-base">💡</span>
             <span data-i18n="anskey_notice"><strong>महत्वपूर्ण सूचना:</strong> आपत्ति दर्ज कराने हेतु संबंधित आयोग की आधिकारिक वेबसाइट पर लॉगिन आईडी एवं जन्मतिथि दर्ज करें। शुल्क वापसी केवल वैध आपत्तियों पर लागू होती है।</span>
           </div>
-          <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-blue-900 dark:text-blue-300 font-black hover:underline shrink-0 ml-2">
-            Top ↑
-          </button>
+          <button onclick="window.scrollTo({top:0, behavior:'smooth'})" class="text-blue-900 dark:text-blue-300 font-black hover:underline shrink-0 ml-2" data-i18n="btn_top_scroll">Top ↑</button>
         </div>
       </div>
 
@@ -1014,9 +988,7 @@
 
         <!-- Header -->
         <div class="max-w-3xl">
-          <span class="inline-flex items-center px-3.5 py-1 rounded-full text-xs font-black bg-amber-600 text-white mb-2 shadow-sm">
-            ⚡ 100% Free • Works Offline In Browser • Zero Blur
-          </span>
+          <span class="inline-flex items-center px-3.5 py-1 rounded-full text-xs font-black bg-amber-600 text-white mb-2 shadow-sm" data-i18n="resizer_sub_badge">⚡ 100% Free • Works Offline In Browser • Zero Blur</span>
           <h2 class="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight" data-i18n="resizer_title">
             Universal Photo & Signature Resizer Lab
           </h2>
@@ -1147,10 +1119,10 @@
 
           <div class="flex items-center space-x-2 md:justify-end">
             <button type="button" onclick="setHeadSafetyOffset()" class="bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white text-xs font-black px-3.5 py-2.5 rounded-xl shadow transition cursor-pointer flex items-center space-x-1" data-i18n="resizer_hair_fix_btn">
-              <span>✨ ऑटो बाल सुरक्षा (Fix Hair)</span>
+              <span data-i18n="resizer_btn_hair_fix">✨ ऑटो बाल सुरक्षा (Fix Hair)</span>
             </button>
             <button type="button" onclick="resetPhotoFraming()" class="bg-white hover:bg-slate-100 text-slate-700 text-xs font-bold px-3 py-2.5 rounded-xl border border-slate-300 shadow-sm transition cursor-pointer" data-i18n="resizer_reset_btn">
-              <span>🔄 रीसेट (Reset)</span>
+              <span data-i18n="resizer_btn_reset">🔄 रीसेट (Reset)</span>
             </button>
           </div>
         </div>
@@ -1168,7 +1140,7 @@
           <div class="bg-white/90 border-2 border-amber-400 rounded-3xl p-5 text-center flex flex-col items-center justify-center min-h-[300px] shadow-sm">
             <span class="text-xs font-black text-amber-700 uppercase tracking-wider mb-3" data-i18n="preview_processed">Processed Preview</span>
             <img id="processedPreviewImg" alt="Processed Preview" class="max-h-64 rounded-xl shadow-md hidden object-contain border border-amber-300">
-            <div id="processedFileMeta" class="text-xs text-slate-600 mt-3 font-bold">Ready to process</div>
+            <div id="processedFileMeta" class="text-xs text-slate-600 mt-3 font-bold" data-i18n="resizer_ready_badge">Ready to process</div>
           </div>
         </div>
 
@@ -1182,14 +1154,12 @@
       <div class="bg-gradient-to-r from-rose-900 via-red-900 to-rose-950 text-white rounded-3xl p-6 sm:p-10 shadow-2xl relative overflow-hidden border border-rose-800">
         <div class="relative z-10 space-y-3 max-w-3xl">
           <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full text-xs font-black bg-rose-500/30 border border-rose-400/40 text-rose-200">
-            <span>🎯 2026 TCS & NTA Pattern • Real-Time Answer Reveal</span>
+            <span data-i18n="quiz_hero_badge">🎯 2026 TCS & NTA Pattern • Real-Time Answer Reveal</span>
           </div>
           <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="card_quiz_title">
             All-India Live Mock Test & Quiz Lab
           </h2>
-          <p class="text-xs sm:text-sm text-rose-200 font-medium leading-relaxed">
-            परीक्षा में शत-प्रतिशत सफलता हेतु पिछले 5-10 वर्षों के चुनिंदा प्रश्नों की लाइव टेस्ट सीरीज। गलत उत्तर पर तुरंत लाल और सही पर हरा निशान तथा विस्तृत व्याख्या मिलेगी।
-          </p>
+          <p class="text-xs sm:text-sm text-rose-200 font-medium leading-relaxed" data-i18n="quiz_hero_desc">परीक्षा में शत-प्रतिशत सफलता हेतु पिछले 5-10 वर्षों के चुनिंदा प्रश्नों की लाइव टेस्ट सीरीज। गलत उत्तर पर तुरंत लाल और सही पर हरा निशान तथा विस्तृत व्याख्या मिलेगी।</p>
         </div>
       </div>
 
@@ -1198,19 +1168,11 @@
         <!-- Mode Switcher: Full Exam Mock vs Practice Set -->
         <div class="border-b border-slate-100 dark:border-slate-800 pb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div class="flex items-center space-x-2 bg-slate-100 dark:bg-slate-800 p-1.5 rounded-2xl w-fit flex-wrap gap-1">
-            <button type="button" id="quizModeSubjectBtn" onclick="switchQuizMode('SUBJECT_PRACTICE')" class="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-slate-900 transition cursor-pointer">
-              📖 Subject-wise Practice
-            </button>
-            <button type="button" id="quizModeAllSubjectsBtn" onclick="switchQuizMode('ALL_SUBJECTS_PRACTICE')" class="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-slate-900 transition cursor-pointer">
-              ⚡ All Subjects Practice
-            </button>
-            <button type="button" id="quizModeFullExamBtn" onclick="switchQuizMode('FULL_EXAM_PATTERN')" class="px-4 py-2 rounded-xl text-xs font-black transition cursor-pointer bg-white dark:bg-slate-700 text-rose-700 dark:text-rose-300 shadow-sm">
-              🎯 Full Exam — Official Pattern
-            </button>
+            <button type="button" id="quizModeSubjectBtn" onclick="switchQuizMode('SUBJECT_PRACTICE')" class="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-slate-900 transition cursor-pointer" data-i18n="quiz_mode_subject">📖 Subject-wise Practice</button>
+            <button type="button" id="quizModeAllSubjectsBtn" onclick="switchQuizMode('ALL_SUBJECTS_PRACTICE')" class="px-4 py-2 rounded-xl text-xs font-bold text-slate-600 dark:text-slate-300 hover:text-slate-900 transition cursor-pointer" data-i18n="quiz_mode_all_subjects">⚡ All Subjects Practice</button>
+            <button type="button" id="quizModeFullExamBtn" onclick="switchQuizMode('FULL_EXAM_PATTERN')" class="px-4 py-2 rounded-xl text-xs font-black transition cursor-pointer bg-white dark:bg-slate-700 text-rose-700 dark:text-rose-300 shadow-sm" data-i18n="quiz_mode_full_exam">🎯 Full Exam — Official Pattern</button>
           </div>
-          <span id="quizReadyCountBadge" class="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700">
-            Official Blueprint Active
-          </span>
+          <span id="quizReadyCountBadge" class="inline-flex items-center px-3.5 py-1.5 rounded-full text-xs font-black bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-300 border border-emerald-300 dark:border-emerald-700" data-i18n="quiz_badge_blueprint">Official Blueprint Active</span>
         </div>
 
         <!-- Common Selectors: Target Exam & Board -->
@@ -1419,17 +1381,17 @@
             <!-- Male Voice Button -->
             <button id="quizMaleVoiceBtn" type="button" onclick="speakActiveQuestionGender('male')" class="text-xs font-bold text-sky-800 dark:text-sky-300 hover:text-white hover:bg-sky-600 bg-sky-50 dark:bg-slate-800 dark:border-sky-800 border border-sky-300 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95" title="Male Voice">
               <span id="quizMaleVoiceIcon">👨</span>
-              <span id="quizMaleVoiceLabel" class="hidden sm:inline" data-i18n="quiz_male_sound_btn">Male Voice</span>
+              <span id="quizMaleVoiceLabel" class="inline font-bold text-[11px] sm:text-xs" data-i18n="quiz_male_sound_btn">Male Voice</span>
             </button>
 
             <!-- Female Voice Button -->
             <button id="quizFemaleVoiceBtn" type="button" onclick="speakActiveQuestionGender('female')" class="text-xs font-bold text-pink-700 dark:text-pink-300 hover:text-white hover:bg-pink-600 bg-pink-50 dark:bg-slate-800 dark:border-pink-800 border border-pink-300 px-2.5 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 shadow-sm active:scale-95" title="Female Voice">
               <span id="quizFemaleVoiceIcon">👩</span>
-              <span id="quizFemaleVoiceLabel" class="hidden sm:inline" data-i18n="quiz_female_sound_btn">Female Voice</span>
+              <span id="quizFemaleVoiceLabel" class="inline font-bold text-[11px] sm:text-xs" data-i18n="quiz_female_sound_btn">Female Voice</span>
             </button>
 
             <!-- Bookmark Button -->
-            <button id="quizBookmarkBtn" type="button" onclick="toggleBookmarkCurrentQuestion()" class="text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-amber-800 dark:hover:text-amber-300 hover:bg-amber-100 dark:hover:bg-slate-700 bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1.5 shadow-sm active:scale-95" title="Bookmark">
+            <button id="quizBookmarkBtn" type="button" onclick="toggleBookmarkCurrentQuestion()" class="text-xs font-bold text-slate-700 dark:text-slate-200 hover:text-amber-800 dark:hover:text-amber-300 hover:bg-amber-100 dark:hover:bg-slate-700 bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 px-2.5 sm:px-3 py-1.5 rounded-xl transition cursor-pointer flex items-center space-x-1 sm:space-x-1.5 shadow-sm active:scale-95" title="Bookmark">
               <span id="quizBookmarkStar">☆</span>
               <span id="quizBookmarkLabel" class="hidden sm:inline" data-i18n="quiz_bookmark_btn">Bookmark</span>
             </button>
@@ -1503,7 +1465,7 @@
                 <span data-i18n="quiz_prev_btn">← Previous</span>
               </button>
               <button id="quizClearResponseBtn" type="button" onclick="clearCurrentQuestionResponse()" class="text-xs font-bold text-slate-600 hover:text-rose-600 bg-slate-100 hover:bg-rose-50 border border-slate-200 px-3.5 py-3 rounded-xl transition cursor-pointer" title="Clear selected option">
-                ✕ Clear Response
+                <span data-i18n="quiz_clear_response">✕ Clear Response</span>
               </button>
             </div>
             <div class="flex items-center space-x-2">
@@ -1814,7 +1776,7 @@
           </div>
 
           <div>
-            <label class="block text-xs font-black text-slate-800 uppercase tracking-wider mb-1" data-i18n="exam_target_label">Target Exam:</label>
+            <label class="block text-xs font-black text-slate-800 uppercase tracking-wider mb-1" data-i18n="exam_target_label" data-i18n="rank_label_target_exam">Target Exam:</label>
             <select id="ageTargetExamSelect" class="w-full bg-emerald-50/50 border border-emerald-300 rounded-xl p-3 text-xs font-black text-slate-900">
               <!-- Populated by age-calculator.js -->
             </select>
@@ -2566,14 +2528,12 @@
       <!-- Top Banner -->
       <div class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl border border-indigo-800/50 space-y-4">
         <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-xs font-black text-indigo-300">
-          <span>📰 2025-2026 Daily High-Yield Exam Booster & Speed Quiz</span>
+          <span data-i18n="ca_booster_badge">📰 2025-2026 Daily High-Yield Exam Booster & Speed Quiz</span>
         </div>
         <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="card_ca_title">
           Daily Current Affairs & Static GK Booster
         </h2>
-        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed">
-          SSC, रेलवे NTPC, राज्य पुलिस एवं BPSC/UPPSC परीक्षाओं हेतु दैनिक 10-प्रश्नों का रैपिड क्विज, द्विभाषी विस्तृत व्याख्या और मासिक वन-लाइनर रिवीजन कैप्सूल।
-        </p>
+        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed" data-i18n="ca_booster_desc">SSC, रेलवे NTPC, राज्य पुलिस एवं BPSC/UPPSC परीक्षाओं हेतु दैनिक 10-प्रश्नों का रैपिड क्विज, द्विभाषी विस्तृत व्याख्या और मासिक वन-लाइनर रिवीजन कैप्सूल।</p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -2583,7 +2543,7 @@
           <div class="flex items-center justify-between border-b border-slate-100 pb-3">
             <h3 class="text-base sm:text-lg font-black text-slate-900 flex items-center gap-2">
               <span>🎯</span>
-              <span>दैनिक रैपिड टेस्ट (Daily 10-MCQ Rapid Quiz)</span>
+              <span data-i18n="ca_tab_rapid_quiz">दैनिक रैपिड टेस्ट (Daily 10-MCQ Rapid Quiz)</span>
             </h3>
             <span id="caQuizProgressText" class="text-xs font-mono font-bold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-lg border border-indigo-100">
               प्रश्न 1 / 10
@@ -2607,11 +2567,9 @@
             <div class="flex items-center justify-between border-b border-slate-100 pb-3">
               <h3 class="text-sm font-black text-slate-900 flex items-center gap-1.5">
                 <span>📚</span>
-                <span>मासिक कैप्सूल (Monthly Capsule)</span>
+                <span data-i18n="ca_tab_capsule">मासिक कैप्सूल (Monthly Capsule)</span>
               </h3>
-              <button type="button" id="caCopyCapsuleBtn" class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 transition cursor-pointer">
-                📋 कॉपी नोट्स
-              </button>
+              <button type="button" id="caCopyCapsuleBtn" class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 transition cursor-pointer" data-i18n="ca_btn_copy_notes">📋 कॉपी नोट्स</button>
             </div>
 
             <div id="caMonthlyCapsuleContainer" class="space-y-3 max-h-[600px] overflow-y-auto pr-1">
@@ -2629,14 +2587,12 @@
       <!-- Top Banner -->
       <div class="bg-gradient-to-br from-slate-900 via-cyan-950 to-slate-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl border border-cyan-800/50 space-y-4">
         <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-cyan-500/20 border border-cyan-400/40 text-xs font-black text-cyan-300">
-          <span>📜 DoPT Annexure Rules & Certificate Validity Guard</span>
+          <span data-i18n="dopt_badge">📜 DoPT Annexure Rules & Certificate Validity Guard</span>
         </div>
         <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="card_dv_title">
           Document Verification (DV) & Crucial Date Guard
         </h2>
-        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed">
-          OBC-NCL, EWS, SC/ST प्रमाण पत्र की क्रूशियल डेट वैधता जांचें, अधिकृत हस्ताक्षरकर्ता प्राधिकारियों (DM/SDO/तहसीलदार) की मान्यता देखें और अपनी भर्ती परीक्षा हेतु व्यक्तिगत DV चेकलिस्ट तैयार करें।
-        </p>
+        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed" data-i18n="dopt_desc">OBC-NCL, EWS, SC/ST प्रमाण पत्र की क्रूशियल डेट वैधता जांचें, अधिकृत हस्ताक्षरकर्ता प्राधिकारियों (DM/SDO/तहसीलदार) की मान्यता देखें और अपनी भर्ती परीक्षा हेतु व्यक्तिगत DV चेकलिस्ट तैयार करें।</p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -2688,7 +2644,7 @@
                   <span>📋</span>
                   <span data-i18n="dv_checklist_title">दस्तावेज सत्यापन चेकलिस्ट (Pre-DV Checklist)</span>
                 </h3>
-                <p class="text-xs text-slate-500">अपनी परीक्षा चुनकर आवश्यक मूल दस्तावेजों की सूची टिक करें</p>
+                <p class="text-xs text-slate-500" data-i18n="dopt_checklist_title">अपनी परीक्षा चुनकर आवश्यक मूल दस्तावेजों की सूची टिक करें</p>
               </div>
 
               <div class="flex items-center gap-2">
@@ -2724,7 +2680,7 @@
                 <span>🏛️</span>
                 <span data-i18n="dv_authority_title">सक्षम प्राधिकारी वैधता मैट्रिक्स (Competent Authority Hierarchy)</span>
               </h4>
-              <p class="text-[11px] text-slate-500">DoPT दिशा-निर्देशों के अनुसार कौन सा अधिकारी प्रमाण पत्र जारी करने हेतु मान्य है</p>
+              <p class="text-[11px] text-slate-500" data-i18n="dopt_auth_guide_title">DoPT दिशा-निर्देशों के अनुसार कौन सा अधिकारी प्रमाण पत्र जारी करने हेतु मान्य है</p>
             </div>
             <div id="dvAuthorityMatrixContainer" class="grid grid-cols-1 gap-2.5">
               <!-- Dynamically populated by document-checker.js -->
@@ -2742,14 +2698,12 @@
       <!-- Top Banner -->
       <div class="bg-gradient-to-br from-slate-900 via-pink-950 to-slate-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl border border-pink-800/50 space-y-4">
         <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-pink-500/20 border border-pink-400/40 text-xs font-black text-pink-300">
-          <span>⏰ 50:10 Pomodoro Method & Cognitive Peak Scheduling</span>
+          <span data-i18n="study_badge">⏰ 50:10 Pomodoro Method & Cognitive Peak Scheduling</span>
         </div>
         <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="card_planner_title">
           Smart Daily Study Timetable & Routine Generator
         </h2>
-        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed">
-          अपनी दिनचर्या के अनुसार (फुल-टाइम, वर्किंग या वीकेंड मैराथन) वैज्ञानिक समय-सारणी तैयार करें। गणित, रीजनिंग, GS, भाषा और मॉक टेस्ट के संतुलित स्लॉट्स को टिक करें और अपनी दैनिक उत्पादकता 100% सुनिश्चित करें।
-        </p>
+        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed" data-i18n="study_desc">अपनी दिनचर्या के अनुसार (फुल-टाइम, वर्किंग या वीकेंड मैराथन) वैज्ञानिक समय-सारणी तैयार करें। गणित, रीजनिंग, GS, भाषा और मॉक टेस्ट के संतुलित स्लॉट्स को टिक करें और अपनी दैनिक उत्पादकता 100% सुनिश्चित करें।</p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -2804,7 +2758,7 @@
       <!-- TAB: RANK & SHIFT NORMALIZATION PREDICTOR (RankIQ Style) -->
     <section id="tab-rank" class="tab-section hidden space-y-6">
       <div class="bg-gradient-to-r from-blue-950 via-indigo-900 to-slate-900 text-white p-6 sm:p-10 rounded-3xl shadow-xl border border-slate-800 space-y-3">
-        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-amber-500 text-slate-950">
+        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-amber-500 text-slate-950" data-i18n="rank_badge">
           ⚡ RankIQ Pattern • AI Multi-Shift Engine
         </div>
         <h2 class="text-2xl sm:text-3xl font-black text-white" data-i18n="rank_title">
@@ -2859,7 +2813,7 @@
 
             <div class="grid grid-cols-2 gap-2">
               <div>
-                <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">आरक्षण श्रेणी (Category):</label>
+                <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1" data-i18n="rank_label_category" data-i18n="waiver_label_cat">आरक्षण श्रेणी (Category):</label>
                 <select id="rankCategorySelect" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl p-3 font-semibold text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 cursor-pointer">
                   <option value="UR">अनारक्षित (General / UR)</option>
                   <option value="OBC">अन्य पिछड़ा वर्ग (OBC)</option>
@@ -2869,7 +2823,7 @@
                 </select>
               </div>
               <div>
-                <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">शिफ्ट कठिनता स्तर:</label>
+                <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1" data-i18n="rank_label_shift_diff">शिफ्ट कठिनता स्तर:</label>
                 <select id="rankShiftDiffSelect" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl p-3 font-semibold text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500 cursor-pointer">
                   <option value="moderate">मध्यम (Moderate Shift)</option>
                   <option value="tough">कठिन (Tough / Hard Shift)</option>
@@ -2879,23 +2833,23 @@
             </div>
 
             <div>
-              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">कुल प्रश्न संख्या (Total Questions):</label>
+              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1" data-i18n="rank_label_total_q">कुल प्रश्न संख्या (Total Questions):</label>
               <input type="number" id="rankTotalQInput" value="80" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl p-3 font-semibold text-slate-900 dark:text-white focus:ring-2 focus:ring-indigo-500">
             </div>
 
             <div class="grid grid-cols-2 gap-2">
               <div>
-                <label class="block font-bold text-emerald-700 dark:text-emerald-400 mb-1">सही प्रश्न (Correct Qs):</label>
+                <label class="block font-bold text-emerald-700 dark:text-emerald-400 mb-1" data-i18n="rank_label_correct_q">सही प्रश्न (Correct Qs):</label>
                 <input type="number" id="rankCorrectInput" value="62" min="0" class="w-full bg-emerald-50/50 dark:bg-slate-800 border border-emerald-300 dark:border-emerald-700 rounded-xl p-3 font-bold text-slate-900 dark:text-white focus:ring-2 focus:ring-emerald-500">
               </div>
               <div>
-                <label class="block font-bold text-rose-700 dark:text-rose-400 mb-1">गलत प्रश्न (Wrong Qs):</label>
+                <label class="block font-bold text-rose-700 dark:text-rose-400 mb-1" data-i18n="rank_label_wrong_q">गलत प्रश्न (Wrong Qs):</label>
                 <input type="number" id="rankWrongInput" value="8" min="0" class="w-full bg-rose-50/50 dark:bg-slate-800 border border-rose-300 dark:border-rose-700 rounded-xl p-3 font-bold text-slate-900 dark:text-white focus:ring-2 focus:ring-rose-500">
               </div>
             </div>
 
             <button type="button" onclick="calculateRankAndNormalization()" class="w-full bg-gradient-to-r from-blue-900 to-indigo-800 hover:from-blue-800 hover:to-indigo-700 text-white font-black py-3.5 px-4 rounded-xl shadow-md transition flex items-center justify-center space-x-2 cursor-pointer mt-4">
-              <span>📊 रैंक व नॉर्मलाइजेशन कैलकुलेट करें</span>
+              <span data-i18n="rank_btn_calculate">📊 रैंक व नॉर्मलाइजेशन कैलकुलेट करें</span>
             </button>
           </div>
         </div>
@@ -2905,7 +2859,7 @@
           <div id="rankPredictorResult" class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-xl space-y-4">
             <div class="text-center py-12 text-slate-400 space-y-2">
               <span class="text-4xl">🎯</span>
-              <p class="text-xs font-bold">बाएं फॉर्म में अपने सही और गलत प्रश्नों की संख्या दर्ज करके 'रैंक व नॉर्मलाइजेशन' बटन दबाएं।</p>
+              <p class="text-xs font-bold" data-i18n="rank_guide_text">बाएं फॉर्म में अपने सही और गलत प्रश्नों की संख्या दर्ज करके 'रैंक व नॉर्मलाइजेशन' बटन दबाएं।</p>
             </div>
           </div>
         </div>
@@ -2915,9 +2869,7 @@
     <!-- TAB: EXAM DAY HALL BAG CHECKLIST -->
     <section id="tab-kit" class="tab-section hidden space-y-6">
       <div class="bg-gradient-to-r from-emerald-950 via-teal-900 to-slate-900 text-white p-6 sm:p-10 rounded-3xl shadow-xl border border-slate-800 space-y-3">
-        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-emerald-400 text-slate-950">
-          🎒 Exam Center Safe Pass
-        </div>
+        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-emerald-400 text-slate-950" data-i18n="safepass_badge">🎒 Exam Center Safe Pass</div>
         <h2 class="text-2xl sm:text-3xl font-black text-white" data-i18n="kit_title">
           एग्जाम हॉल बैग एवं दस्तावेज पैकिंग चेकलिस्ट
         </h2>
@@ -2930,11 +2882,9 @@
         <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
           <div class="flex items-center space-x-2">
             <span class="text-2xl">📋</span>
-            <span class="font-black text-slate-900 dark:text-white text-base">अनिवार्य वस्तुओं की पैकिंग सूची</span>
+            <span class="font-black text-slate-900 dark:text-white text-base" data-i18n="safepass_packing_title">अनिवार्य वस्तुओं की पैकिंग सूची</span>
           </div>
-          <button onclick="resetExamKit()" class="text-xs font-bold text-rose-600 dark:text-rose-400 hover:underline cursor-pointer">
-            रीसेट करें (Reset)
-          </button>
+          <button onclick="resetExamKit()" class="text-xs font-bold text-rose-600 dark:text-rose-400 hover:underline cursor-pointer" data-i18n="safepass_btn_reset">रीसेट करें (Reset)</button>
         </div>
 
         <div id="examKitItemsContainer"></div>
@@ -2944,9 +2894,7 @@
     <!-- TAB: GOVERNMENT EXAM FEE EXEMPTION FINDER -->
     <section id="tab-waiver" class="tab-section hidden space-y-6">
       <div class="bg-gradient-to-r from-amber-950 via-orange-950 to-slate-900 text-white p-6 sm:p-10 rounded-3xl shadow-xl border border-slate-800 space-y-3">
-        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-amber-400 text-slate-950">
-          💰 100% Free Application Checker
-        </div>
+        <div class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-amber-400 text-slate-950" data-i18n="waiver_badge">💰 100% Free Application Checker</div>
         <h2 class="text-2xl sm:text-3xl font-black text-white" data-i18n="waiver_title">
           सरकारी भर्ती फीस छूट (Fee Exemption) फाइंडर
         </h2>
@@ -2957,13 +2905,11 @@
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
         <div class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xl space-y-4">
-          <h3 class="font-black text-sm text-slate-900 dark:text-white border-b border-slate-100 dark:border-slate-800 pb-2">
-            👤 अपनी प्रोफाइल चुनें
-          </h3>
+          <h3 class="font-black text-sm text-slate-900 dark:text-white border-b border-slate-100 dark:border-slate-800 pb-2" data-i18n="waiver_form_title">👤 अपनी प्रोफाइल चुनें</h3>
 
           <div class="space-y-3 text-xs">
             <div>
-              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">जेंडर (Gender):</label>
+              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1" data-i18n="waiver_label_gender">जेंडर (Gender):</label>
               <select id="waiverGenderSelect" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl p-3 font-semibold text-slate-900 dark:text-white">
                 <option value="female">महिला (Female - 100% SSC/UPSC Free)</option>
                 <option value="male">पुरुष (Male)</option>
@@ -2983,7 +2929,7 @@
             </div>
 
             <div>
-              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">दिव्यांगता स्थिति (PwD Status):</label>
+              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1" data-i18n="waiver_label_pwd">दिव्यांगता स्थिति (PwD Status):</label>
               <select id="waiverPwdSelect" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl p-3 font-semibold text-slate-900 dark:text-white">
                 <option value="no">दिव्यांग नहीं (No PwD)</option>
                 <option value="yes">हाँ, दिव्यांग (40%+ Disability - Free)</option>
@@ -2991,16 +2937,14 @@
             </div>
 
             <div>
-              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1">BPL / EBC प्रमाणपत्र धारक:</label>
+              <label class="block font-bold text-slate-700 dark:text-slate-300 mb-1" data-i18n="waiver_label_bpl">BPL / EBC प्रमाणपत्र धारक:</label>
               <select id="waiverEbcSelect" class="w-full bg-slate-50 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl p-3 font-semibold text-slate-900 dark:text-white">
                 <option value="no">नहीं (No)</option>
                 <option value="yes">हाँ, BPL / ₹50,000 से कम आय</option>
               </select>
             </div>
 
-            <button type="button" onclick="checkFeeWaiver()" class="w-full bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white font-black py-3 px-4 rounded-xl shadow-md transition cursor-pointer">
-              💰 फीस छूट जांचें (Check Waiver)
-            </button>
+            <button type="button" onclick="checkFeeWaiver()" class="w-full bg-gradient-to-r from-amber-600 to-orange-600 hover:from-amber-700 hover:to-orange-700 text-white font-black py-3 px-4 rounded-xl shadow-md transition cursor-pointer" data-i18n="waiver_btn_check">💰 फीस छूट जांचें (Check Waiver)</button>
           </div>
         </div>
 
@@ -3008,7 +2952,7 @@
           <div id="waiverResultContainer" class="bg-white dark:bg-slate-900 p-6 rounded-3xl border border-slate-200 dark:border-slate-800 shadow-xl space-y-4">
             <div class="text-center py-12 text-slate-400 space-y-2">
               <span class="text-4xl">💰</span>
-              <p class="text-xs font-bold">बाएं फॉर्म में अपनी प्रोफाइल चुनकर 'फीस छूट जांचें' बटन दबाएं।</p>
+              <p class="text-xs font-bold" data-i18n="waiver_guide_text">बाएं फॉर्म में अपनी प्रोफाइल चुनकर 'फीस छूट जांचें' बटन दबाएं।</p>
             </div>
           </div>
         </div>
@@ -3074,8 +3018,8 @@
         <div class="flex items-center space-x-2.5">
           <span class="text-2xl">⚖️</span>
           <div>
-            <h3 class="text-base sm:text-lg font-black tracking-tight text-white">SarkariAI Hub • Legal & Compliance Center</h3>
-            <p class="text-[11px] text-amber-300 font-medium">गोपनीयता नीति, नियम, संपर्क एवं विज्ञापन अनुपालन</p>
+            <h3 class="text-base sm:text-lg font-black tracking-tight text-white" data-i18n="legal_title">SarkariAI Hub • Legal & Compliance Center</h3>
+            <p class="text-[11px] text-amber-300 font-medium" data-i18n="legal_sub">गोपनीयता नीति, नियम, संपर्क एवं विज्ञापन अनुपालन</p>
           </div>
         </div>
         <button type="button" onclick="closeLegalModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center text-white font-bold text-lg cursor-pointer transition">
@@ -3085,18 +3029,10 @@
 
       <!-- Navigation Tabs -->
       <div class="flex border-b border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/60 p-2 gap-1.5 overflow-x-auto text-xs font-bold shrink-0">
-        <button type="button" id="legalTabBtn-privacy" onclick="switchLegalTab('privacy')" class="px-3.5 py-2 rounded-xl bg-saffron-500 text-white shadow-sm transition whitespace-nowrap cursor-pointer">
-          🛡️ Privacy Policy (गोपनीयता नीति)
-        </button>
-        <button type="button" id="legalTabBtn-terms" onclick="switchLegalTab('terms')" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition whitespace-nowrap cursor-pointer">
-          📜 Terms of Service (नियम व शर्तें)
-        </button>
-        <button type="button" id="legalTabBtn-contact" onclick="switchLegalTab('contact')" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition whitespace-nowrap cursor-pointer">
-          📬 Contact Us (संपर्क करें)
-        </button>
-        <button type="button" id="legalTabBtn-adsense" onclick="switchLegalTab('adsense')" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition whitespace-nowrap cursor-pointer">
-          📢 AdSense Policy (विज्ञापन नीति)
-        </button>
+        <button type="button" id="legalTabBtn-privacy" onclick="switchLegalTab('privacy')" class="px-3.5 py-2 rounded-xl bg-saffron-500 text-white shadow-sm transition whitespace-nowrap cursor-pointer" data-i18n="legal_tab_privacy">🛡️ Privacy Policy (गोपनीयता नीति)</button>
+        <button type="button" id="legalTabBtn-terms" onclick="switchLegalTab('terms')" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition whitespace-nowrap cursor-pointer" data-i18n="legal_tab_terms">📜 Terms of Service (नियम व शर्तें)</button>
+        <button type="button" id="legalTabBtn-contact" onclick="switchLegalTab('contact')" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition whitespace-nowrap cursor-pointer" data-i18n="legal_tab_contact">📬 Contact Us (संपर्क करें)</button>
+        <button type="button" id="legalTabBtn-adsense" onclick="switchLegalTab('adsense')" class="px-3.5 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 transition whitespace-nowrap cursor-pointer" data-i18n="legal_tab_adsense">📢 AdSense Policy (विज्ञापन नीति)</button>
       </div>
 
       <!-- Modal Body (Scrollable) -->
@@ -3196,9 +3132,7 @@
 
       <!-- Modal Footer -->
       <div class="p-3.5 sm:p-4 bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 flex justify-end">
-        <button type="button" onclick="closeLegalModal()" class="px-5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs shadow-md transition cursor-pointer">
-          बंद करें (Close)
-        </button>
+        <button type="button" onclick="closeLegalModal()" class="px-5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs shadow-md transition cursor-pointer" data-i18n="legal_btn_close">बंद करें (Close)</button>
       </div>
 
     </div>
@@ -3271,19 +3205,19 @@
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-[11px] text-rose-900 dark:text-rose-200 font-medium">
               <li class="flex items-center space-x-1.5">
                 <span class="font-black text-rose-600">✕</span>
-                <span>मोबाइल फोन, ईयरफोन, ब्लूटूथ, पेजर या कोई इलेक्ट्रॉनिक गैजेट</span>
+                <span data-i18n="safepass_item_1">मोबाइल फोन, ईयरफोन, ब्लूटूथ, पेजर या कोई इलेक्ट्रॉनिक गैजेट</span>
               </li>
               <li class="flex items-center space-x-1.5">
                 <span class="font-black text-rose-600">✕</span>
-                <span>स्मार्टवॉच, डिजिटल कलाई घड़ी या कैलकुलेटर</span>
+                <span data-i18n="safepass_item_2">स्मार्टवॉच, डिजिटल कलाई घड़ी या कैलकुलेटर</span>
               </li>
               <li class="flex items-center space-x-1.5">
                 <span class="font-black text-rose-600">✕</span>
-                <span>बड़ा धातु बकल वाला बेल्ट, धातु के आभूषण व ताबीज</span>
+                <span data-i18n="safepass_item_3">बड़ा धातु बकल वाला बेल्ट, धातु के आभूषण व ताबीज</span>
               </li>
               <li class="flex items-center space-x-1.5">
                 <span class="font-black text-rose-600">✕</span>
-                <span>पर्स, वॉलेट, पाउच, ज्यामिति बॉक्स या सादा कागज</span>
+                <span data-i18n="safepass_item_4">पर्स, वॉलेट, पाउच, ज्यामिति बॉक्स या सादा कागज</span>
               </li>
             </ul>
           </div>
@@ -3571,6 +3505,7 @@
 
   <!-- Application Scripts -->
   <script src="/js/i18n.js"></script>
+  <script src="/js/app.js"></script>
   <script src="/js/exams-data.js"></script>
   <script src="/js/resizer.js"></script>
   <script src="/js/age-calculator.js"></script>
@@ -3593,7 +3528,6 @@
   <script src="/js/document-checker.js"></script>
   <script src="/js/study-planner.js"></script>
   <script src="/js/production-suite.js"></script>
-  <script src="/js/app.js"></script>
   <script src="/js/interactive-features.js"></script>
   <script src="/js/router.js"></script>
 

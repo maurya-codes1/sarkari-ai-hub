@@ -250,7 +250,11 @@ function openPrintableOmrWindow(config = {}) {
   const html = generateOmrSheetHtml(config);
   const win = window.open('', '_blank', 'width=900,height=950');
   if (!win) {
-    alert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि OMR शीट खुल सके।');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि OMR शीट खुल सके।', 'Popup Blocked', '🖨️');
+    } else {
+      alert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि OMR शीट खुल सके।');
+    }
     return;
   }
 

@@ -876,7 +876,11 @@ function copyShareExamLink(examId) {
   const siteUrl = window.location.origin + '/#exam/' + (examId || '');
   if (navigator.clipboard && navigator.clipboard.writeText) {
     navigator.clipboard.writeText(siteUrl).then(() => {
-      alert('✅ लिंक कॉपी हो गया! अब व्हाट्सएप या टेलीग्राम ग्रुप में पेस्ट करें।');
+      if (typeof showAppAlert === 'function') {
+        showAppAlert('✅ लिंक कॉपी हो गया! अब व्हाट्सएप या टेलीग्राम ग्रुप में पेस्ट करें।', 'Link Copied', '🔗');
+      } else {
+        alert('✅ लिंक कॉपी हो गया! अब व्हाट्सएप या टेलीग्राम ग्रुप में पेस्ट करें।');
+      }
     }).catch(() => {
       prompt('लिंक कॉपी करें:', siteUrl);
     });
@@ -1019,7 +1023,11 @@ function calculateRankAndNormalization() {
   const wrongCount = parseInt(document.getElementById('rankWrongInput')?.value, 10) || 0;
 
   if (correctCount + wrongCount > totalQuestions) {
-    alert('गलती: सही और गलत प्रश्नों का योग कुल प्रश्नों से अधिक नहीं हो सकता!');
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('गलती: सही और गलत प्रश्नों का योग कुल प्रश्नों से अधिक नहीं हो सकता!', 'Input Notice', '⚠️');
+    } else {
+      alert('गलती: सही और गलत प्रश्नों का योग कुल प्रश्नों से अधिक नहीं हो सकता!');
+    }
     return;
   }
 
@@ -1330,7 +1338,12 @@ function installPWA() {
       window.deferredPwaPrompt = null;
     });
   } else {
-    alert('📲 ऐप इंस्टॉल करने के लिए अपने मोबाइल ब्राउज़र के मेनू (तीन बिंदु ⋮) पर क्लिक करके "Add to Home Screen" चुनें।');
+    const pwaMsg = '📲 ऐप इंस्टॉल करने के लिए अपने मोबाइल ब्राउज़र के मेनू (तीन बिंदु ⋮) पर क्लिक करके "Add to Home Screen" चुनें।';
+    if (typeof showAppAlert === 'function') {
+      showAppAlert(pwaMsg, 'Install App', '📲');
+    } else {
+      alert(pwaMsg);
+    }
   }
 }
 

@@ -62,7 +62,11 @@ function calculateSarkariAge(isSilent = false) {
 
   if (!dobVal || !cutoffVal) {
     if (!isSilent) {
-      alert('Please enter both your Date of Birth and the Notification Cutoff Date.');
+      if (typeof showAppAlert === 'function') {
+        showAppAlert('Please enter both your Date of Birth and the Notification Cutoff Date.', 'Date Required', '🎂');
+      } else {
+        alert('Please enter both your Date of Birth and the Notification Cutoff Date.');
+      }
     }
     return;
   }
@@ -72,7 +76,11 @@ function calculateSarkariAge(isSilent = false) {
 
   if (dob >= cutoff) {
     if (!isSilent) {
-      alert('Date of Birth must be before the Cutoff Date!');
+      if (typeof showAppAlert === 'function') {
+        showAppAlert('Date of Birth must be before the Cutoff Date!', 'Invalid Date', '⚠️');
+      } else {
+        alert('Date of Birth must be before the Cutoff Date!');
+      }
     }
     return;
   }
