@@ -1,0 +1,521 @@
+exam_id,component_id,exam_name,stage,paper,year,paper_count,question_count,answer_key_available,source_verified,coverage_status
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+agniveer-airforce,comp-agniveer-airforce-tier1,Indian Air Force Agniveer Vayu (Science & Other than Science),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+agniveer-army,comp-agniveer-army-tier1,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+agniveer-navy,comp-agniveer-navy-tier1,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+bihar-police-constable,comp-bihar-police-constable-tier1,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+bpsc-tre,comp-bpsc-tre-tier1,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+bseb-bihar,comp-bseb-bihar-tier1,Bihar Board BSEB (Matric 10th & Inter 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+bseh-haryana,comp-bseh-haryana-tier1,Haryana Board (BSEH Bhiwani 10th & 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),PRELIMS,CBSE Class 10 Science Board Exam 2023 Set 1,2023,1,1,NO,YES,VERIFIED
+cbse-board,comp-cbse-board-tier1,CBSE Board (Class 10th & 12th),BOARD,CBSE Class 10 Science Official Sample Question Paper 2024-25,2024,2,59,YES,YES,VERIFIED
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+cgbse-chhattisgarh,comp-cgbse-chhattisgarh-tier1,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+chse-bse-odisha,comp-chse-bse-odisha-tier1,Odisha Board (BSE Matric 10th & CHSE +2 Council),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+clat-law,comp-clat-law-tier1,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+ctet-exam,comp-ctet-exam-tier1,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),PAPER_1,CTET Jan 2024 Paper 1 Child Development and Pedagogy,2024,1,30,YES,YES,VERIFIED
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+delhi-police,comp-delhi-police-tier1,Delhi Police Executive Constable & Head Constable,Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+gseb-gujarat,comp-gseb-gujarat-tier1,Gujarat Board (GSEB SSC 10th & HSC 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+haryana-police,comp-haryana-police-tier1,"Haryana Police Constable (HSSC 6,000 Posts)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),PRELIMS,IBPS PO Prelims 2023 Shift 1,2023,1,2,NO,YES,VERIFIED
+ibps-po-clerk,comp-ibps-po-clerk-tier1,IBPS & SBI Banking (Probationary Officer & Clerk),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+icse-cisce,comp-icse-cisce-tier1,ICSE & ISC Board (Class 10th & 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+jac-jharkhand,comp-jac-jharkhand-tier1,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+kseab-karnataka,comp-kseab-karnataka-tier1,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+maharashtra-board,comp-maharashtra-board-tier1,Maharashtra State Board (SSC 10th & HSC 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+maharashtra-police,comp-maharashtra-police-tier1,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+mp-police,comp-mp-police-tier1,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+mpbse-board,comp-mpbse-board-tier1,MP Board (MPBSE 10th & 12th Bhopal),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+nios-board,comp-nios-board-tier1,NIOS Board (National Institute of Open Schooling),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+nta-cuet-ug,comp-nta-cuet-ug-tier1,NTA CUET UG (Common University Entrance Test for Undergrad),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+nta-jee-adv,comp-nta-jee-adv-tier1,JEE Advanced (Indian Institutes of Technology - IITs Entrance),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+nta-jee-main,comp-nta-jee-main-tier1,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),PRELIMS,NEET UG 2023 Question Paper Code F1,2023,1,2,NO,YES,VERIFIED
+nta-neet,comp-nta-neet-tier1,NEET UG (National Eligibility cum Entrance Test - Medical),Main,Paper 1,2024,1,0,NO,YES,VERIFIED
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+pseb-punjab,comp-pseb-punjab-tier1,Punjab Board (PSEB Mohali 10th & 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+rajasthan-police,comp-rajasthan-police-tier1,"Rajasthan Police Constable Bharti (3,578 Posts)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+rbse-rajasthan,comp-rbse-rajasthan-tier1,Rajasthan Board (RBSE 10th & 12th Ajmer),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+reet-rajasthan,comp-reet-rajasthan-tier1,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+rrb-alp,comp-rrb-alp-tier1,Railway RRB Assistant Loco Pilot (ALP 2026),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+rrb-group-d,comp-rrb-group-d-tier1,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",PRELIMS,RRB NTPC CBT-1 2022 Shift 1,2022,1,2,NO,YES,VERIFIED
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+rrb-ntpc,comp-rrb-ntpc-tier1,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",CBT_1,RRB NTPC CBT-1 Official Shift 1 General Awareness,2024,1,30,YES,YES,VERIFIED
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+rrb-technician,comp-rrb-technician-tier1,Railway RRB Technician Grade I & Grade III,Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+seba-ahsec-assam,comp-seba-ahsec-assam-tier1,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",PRELIMS,SSC CGL 2022 Tier 1 Shift 1,2022,1,4,NO,YES,VERIFIED
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",PRELIMS,SSC CGL 2023 Tier 1 Shift 1,2023,1,4,NO,YES,VERIFIED
+ssc-cgl,comp-ssc-cgl-tier1,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",Tier 1,Paper 1,2024,1,101,YES,YES,VERIFIED
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+ssc-chsl,comp-ssc-chsl-tier1,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+ssc-gd,comp-ssc-gd-tier1,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+ssc-mts,comp-ssc-mts-tier1,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+tndge-tamilnadu,comp-tndge-tamilnadu-tier1,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Annual,Tamil,2024,1,25,NO,YES,VERIFIED
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+tsbie-bieap,comp-tsbie-bieap-tier1,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+ubse-uttarakhand,comp-ubse-uttarakhand-tier1,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+ugc-net,comp-ugc-net-tier1,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+up-police-constable,comp-up-police-constable-tier1,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",PRELIMS,UP Police Constable Examination 2024 Shift 1,2024,2,40,YES,YES,VERIFIED
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+upmsp-board,comp-upmsp-board-tier1,UP Board (High School & Intermediate 10th/12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",PRELIMS,UPSC CSE Prelims 2021 GS Paper 1,2021,1,3,NO,YES,VERIFIED
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",PRELIMS,UPSC CSE Prelims 2022 GS Paper 1,2022,1,3,NO,YES,VERIFIED
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",PRELIMS,UPSC CSE Prelims 2023 GS Paper 1,2023,1,3,NO,YES,VERIFIED
+upsc-cse,comp-upsc-cse-tier1,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",PRELIMS,UPSC CSE Prelims 2024 GS Paper 1,2024,1,100,YES,YES,VERIFIED
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),PRELIMS,UPSC NDA 2023 General Ability Test,2023,1,1,NO,YES,VERIFIED
+upsc-nda,comp-upsc-nda-tier1,UPSC NDA & NA (National Defence Academy & Naval Academy),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+uptet-supertet,comp-uptet-supertet-tier1,UP TET & Super TET (UP Primary & Upper Primary Bharti),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+wb-police,comp-wb-police-tier1,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",Tier-1,Paper 1,2024,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2015,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2016,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2017,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2018,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2019,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2020,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2021,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2022,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2023,0,0,NO,NO,MISSING
+wbbse-wb,comp-wbbse-wb-tier1,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Tier-1,Paper 1,2024,0,0,NO,NO,MISSING

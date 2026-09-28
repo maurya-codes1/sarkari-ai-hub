@@ -1,0 +1,47 @@
+================================================================================
+SARKARIAI HUB — PHASE 7 PYQ INGESTION VALIDATION REPORT
+================================================================================
+Timestamp: 2026-09-28T23:25:26.586Z
+Database: backend/db/sarkari_core.db
+
+[INVARIANT CHECKS]
+- Question Count Invariant: 1,282 questions (PASS)
+- Root Exam Count: 52 exams (PASS)
+- SQLite Integrity Check: ok (PASS)
+- Foreign Key Violations: 0 (PASS)
+
+[CORPUS METRICS]
+- Total Questions: 1,282
+- Provenance OFFICIAL_PYQ: 351 questions (100% verified)
+- Provenance OFFICIAL_SAMPLE: 59 questions (100% verified)
+- Provenance HUMAN_CURATED: 872 questions (100% verified)
+- Question Papers Registered: 20 papers
+- Official Answer Keys Registered: 112 keys
+- Source Documents Registered: 9 documents
+
+[10-YEAR HISTORICAL WINDOW (2015-2024) COVERAGE]
+- 10_YEAR_VERIFIED: 0 exams
+- PARTIAL_10_YEAR: 10 exams
+- INSUFFICIENT_HISTORY: 42 exams
+- Total Exams Audited: 52 exams (100%)
+
+[FULL EXAM READINESS]
+- READY Components: 2 (comp-ssc-cgl-tier1, comp-upsc-cse-prelims-gs1)
+- PARTIALLY_READY Components: 15
+- BLOCKED Components: 307
+- Total Granular Components: 324
+
+[DELIVERABLES GENERATED]
+1. pyq-source-artifact-registry.csv (61 records)
+2. pyq-ingestion-audit-log.csv (9 records)
+3. pyq-year-coverage-report.csv (520 records)
+4. pyq-exam-coverage-report.csv (52 records)
+5. pyq-conflicts.csv (4 records)
+6. pyq-duplicate-review.csv (6 records)
+7. pyq-answer-key-registry.csv (112 records)
+8. pyq-component-mapping.csv (1282 records)
+9. pyq-ingestion-summary.md
+10. pyq-ingestion-validation-report.txt
+
+ALL PHASE 7 GOVERNANCE & PROVENANCE CONSTRAINTS SATISFIED.
+================================================================================

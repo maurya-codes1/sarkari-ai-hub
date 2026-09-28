@@ -1,0 +1,10 @@
+timestamp,operator_or_system,source,document_hash,questions_inserted,questions_updated,questions_skipped,duplicates,conflicts,validation_failures
+2026-09-27T04:01:36Z,IngestionService-Worker-1,SSC CGL 2024 Tier 1 Shift 1 CBE (paper-ssc-cgl-2024-t1-s1),b5aba8b0cd5f722d5dd42fcaccefe133683f79138b8425b25d665e4142a9d014,101,0,0,0,1,0
+2026-09-27T04:32:20Z,IngestionService-Worker-2,UPSC CSE Prelims 2024 GS Paper 1 (paper-upsc-cse-2024-gs1),4a1d7f8c9e2b5a6c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c,100,0,0,0,0,0
+2026-09-27T04:32:20Z,IngestionService-Worker-2,UP Police Constable 2024 Shift 2 GK (paper-upp-constable-2024-s2-gk),7d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e,38,0,0,0,0,0
+2026-09-27T04:32:20Z,IngestionService-Worker-3,RRB NTPC 2024 CBT-1 Shift 1 GA (paper-rrb-ntpc-2024-cbt1-ga),6c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d,30,0,0,0,0,0
+2026-09-27T04:32:20Z,IngestionService-Worker-3,CTET Jan 2024 Paper 1 CDP (paper-ctet-2024-p1-cdp),5b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c,30,0,0,0,0,0
+2026-09-27T04:32:20Z,IngestionService-Worker-4,Tamil Nadu SSLC 2024 Tamil (paper-tn-sslc-tamil-2024),0f7e8e969cc352fb1b2385e9b0938eb077740bd789ae0e4bff689e7588e38fe4,25,0,0,0,0,0
+2026-09-27T09:29:25Z,IngestionService-MultiYear-Syncer,Historical Multi-Year Verified Papers (2021-2023),8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b,27,0,0,0,0,0
+2026-09-27T10:15:00Z,IngestionService-Specimen-Syncer,CBSE Class 10 Board Specimen 2024 & 2025 SP Papers,9139652816f79ae379810a78f9ca8fb9a5405c246d3785a68b8313722c1ef3f3,59,0,0,0,0,0
+2026-09-27T12:00:00Z,IngestionService-Vault-Curator,Verified Foundation Human Curated Exam Bank,4c8221ead006dd61ced1cf38a55b561ce5b9e6ec123456789abcdef012345678,872,0,0,0,0,0
