@@ -1,0 +1,42 @@
+================================================================================
+SARKARIAI HUB — PHASE 8 VALIDATION REPORT
+================================================================================
+Timestamp: 2026-09-28T23:36:37.875Z
+Database: backend/db/sarkari_core.db
+
+[INVARIANT CHECKS]
+- SQLite Question Count: 1,282 (PASS - Invariant Preserved)
+- SQLite Root Exam Count: 52 (PASS - Invariant Preserved)
+- SQLite Integrity Check: ok (PASS)
+- SQLite Foreign Key Violations: 0 (PASS)
+
+[READINESS AUDIT SUMMARY]
+- READY Components: 2 (comp-ssc-cgl-tier1, comp-upsc-cse-prelims-gs1)
+- PARTIALLY_READY Components: 15 (Audited in phase8-partially-ready-component-audit.csv)
+- BLOCKED Components: 307 (Safely gated by FullExamGateService)
+- Total Granular Blueprint Components: 324 (100% Accounted For)
+
+[10-YEAR HISTORICAL WINDOW (2015-2024) COVERAGE]
+- 10_YEAR_VERIFIED: 0 exams (Zero false claims enforced)
+- PARTIAL_10_YEAR: 10 exams (1 to 4 verified historical years)
+- INSUFFICIENT_HISTORY: 42 exams (0 verified historical question papers)
+- Total Root Exams Audited: 52 exams (100%)
+
+[DELIVERABLES GENERATED]
+1. phase8-baseline-inventory.json
+2. phase8-baseline-inventory.md
+3. phase8-partially-ready-component-audit.csv (15 records)
+4. phase8-component-priority.csv (15 records)
+5. phase8-source-component-matrix.csv (61 records)
+6. phase8-question-ingestion-report.csv (1,282 records)
+7. phase8-component-coverage-report.csv (324 records)
+8. phase8-full-exam-readiness-report.csv (324 records)
+9. phase8-conflicts.csv (4 records)
+10. phase8-duplicate-review.csv (6 records)
+11. phase8-year-coverage-report.csv (520 records)
+12. phase8-ingestion-audit-log.csv (4 records)
+13. phase8-release-summary.md
+14. phase8-validation-report.txt
+
+ALL PHASE 8 GOVERNANCE & PROVENANCE CONSTRAINTS STRICTLY SATISFIED.
+================================================================================

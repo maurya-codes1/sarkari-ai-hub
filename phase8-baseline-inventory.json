@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-09-28T23:34:49.944Z",
+  "phase": "PHASE_8_BASELINE",
+  "audit": {
+    "totalQuestions": 1282,
+    "officialPYQCount": 351,
+    "officialSampleCount": 59,
+    "humanCuratedCount": 872,
+    "aiPracticeCount": 0,
+    "fullyMappedCount": 1246,
+    "partiallyMappedCount": 36,
+    "rootExamCount": 52,
+    "granularComponentCount": 324,
+    "readyComponentsCount": 2,
+    "partiallyReadyComponentsCount": 15,
+    "blockedComponentsCount": 307,
+    "tenYearStatusCounts": {
+      "10_YEAR_VERIFIED": 0,
+      "PARTIAL_10_YEAR": 10,
+      "INSUFFICIENT_HISTORY": 42
+    },
+    "officialSourceCount": 61,
+    "officialAnswerKeyCount": 112,
+    "databaseIntegrity": "ok",
+    "foreignKeyViolations": 0
+  }
+}
