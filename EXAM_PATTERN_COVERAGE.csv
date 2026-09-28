@@ -1,53 +1,53 @@
 exam_id,exam_name,category,coverage_status,verification_status,official_source_present,blueprint_status,last_verified_date,notes
-bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-cbse-board,CBSE Board (Class 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-icse-cisce,ICSE & ISC Board (Class 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-nios-board,NIOS Board (National Institute of Open Schooling),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-upmsp-board,UP Board (High School & Intermediate 10th/12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-agniveer-airforce,Indian Air Force Agniveer Vayu (Science & Other than Science),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-agniveer-army,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-agniveer-navy,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ibps-po-clerk,IBPS & SBI Banking (Probationary Officer & Clerk),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-rrb-alp,Railway RRB Assistant Loco Pilot (ALP 2026),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-rrb-group-d,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-rrb-ntpc,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-rrb-technician,Railway RRB Technician Grade I & Grade III,central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ssc-cgl,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",central,Covered,VERIFIED,YES,READY,2026-09-28,Ground truth verified from official notification/specimen
-ssc-chsl,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ssc-gd,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ssc-mts,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-upsc-cse,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",central,Covered,VERIFIED,YES,READY,2026-09-28,Ground truth verified from official notification/specimen
-upsc-nda,UPSC NDA & NA (National Defence Academy & Naval Academy),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-clat-law,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-nta-cuet-ug,NTA CUET UG (Common University Entrance Test for Undergrad),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-nta-jee-adv,JEE Advanced (Indian Institutes of Technology - IITs Entrance),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-nta-jee-main,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-nta-neet,NEET UG (National Eligibility cum Entrance Test - Medical),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-bihar-police-constable,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-delhi-police,Delhi Police Executive Constable & Head Constable,police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-haryana-police,"Haryana Police Constable (HSSC 6,000 Posts)",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-maharashtra-police,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-mp-police,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-rajasthan-police,"Rajasthan Police Constable Bharti (3,578 Posts)",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-up-police-constable,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-wb-police,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-bpsc-tre,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ctet-exam,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-reet-rajasthan,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-ugc-net,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
-uptet-supertet,UP TET & Super TET (UP Primary & Upper Primary Bharti),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Ground truth verified from official notification/specimen
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Bihar School Examination Board, Patna"
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Board of School Education Haryana, Bhiwani"
+cbse-board,CBSE Board (Class 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Central Board of Secondary Education
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),boards,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Chhattisgarh Board of Secondary Education, Raipur"
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from BSE Odisha Cuttack & CHSE Odisha Bhubaneswar
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Gujarat Secondary & Higher Secondary Education Board
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Council for the Indian School Certificate Examinations
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Jharkhand Academic Council, Ranchi"
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Karnataka School Examination and Assessment Board, Bengaluru"
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Maharashtra State Board of Secondary & Higher Secondary Education, Pune"
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Board of Secondary Education Madhya Pradesh, Bhopal"
+nios-board,NIOS Board (National Institute of Open Schooling),boards,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from National Institute of Open Schooling, Noida"
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Punjab School Education Board, Mohali"
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Board of Secondary Education Rajasthan, Ajmer"
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),boards,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Assam State School Education Board, Guwahati"
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Directorate of Government Examinations Tamil Nadu
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from TSBIE Hyderabad & BIEAP Vijayawada
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),boards,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Uttarakhand Board of School Education, Ramnagar"
+upmsp-board,UP Board (High School & Intermediate 10th/12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from UP Madhyamik Shiksha Parishad, Prayagraj"
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),boards,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from WBBSE & WBCHSE, Kolkata"
+agniveer-airforce,Indian Air Force Agniveer Vayu (Science & Other than Science),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Indian Air Force CASB
+agniveer-army,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Join Indian Army
+agniveer-navy,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Indian Navy Recruitment Directorate
+ibps-po-clerk,IBPS & SBI Banking (Probationary Officer & Clerk),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Institute of Banking Personnel Selection
+rrb-alp,Railway RRB Assistant Loco Pilot (ALP 2026),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Railway Recruitment Boards
+rrb-group-d,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Ministry of Railways / RRB
+rrb-ntpc,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Railway Recruitment Boards
+rrb-technician,Railway RRB Technician Grade I & Grade III,central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Railway Recruitment Boards
+ssc-cgl,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",central,Covered,VERIFIED,YES,READY,2026-09-28,Audited from Staff Selection Commission
+ssc-chsl,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Staff Selection Commission
+ssc-gd,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Staff Selection Commission
+ssc-mts,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Staff Selection Commission
+upsc-cse,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",central,Covered,VERIFIED,YES,READY,2026-09-28,Audited from Union Public Service Commission
+upsc-nda,UPSC NDA & NA (National Defence Academy & Naval Academy),central,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Union Public Service Commission
+clat-law,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Consortium of National Law Universities
+nta-cuet-ug,NTA CUET UG (Common University Entrance Test for Undergrad),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from National Testing Agency
+nta-jee-adv,JEE Advanced (Indian Institutes of Technology - IITs Entrance),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Joint Admission Board / IIT
+nta-jee-main,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from National Testing Agency
+nta-neet,NEET UG (National Eligibility cum Entrance Test - Medical),entrance,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from National Testing Agency / NMC
+bihar-police-constable,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Central Selection Board of Constable
+delhi-police,Delhi Police Executive Constable & Head Constable,police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Staff Selection Commission / Delhi Police
+haryana-police,"Haryana Police Constable (HSSC 6,000 Posts)",police,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Haryana Staff Selection Commission, Panchkula"
+maharashtra-police,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",police,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Director General of Police, Maharashtra State"
+mp-police,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",police,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from MP Employees Selection Board, Bhopal"
+rajasthan-police,"Rajasthan Police Constable Bharti (3,578 Posts)",police,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Office of DGP Rajasthan, Jaipur"
+up-police-constable,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",police,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from UP Police Recruitment Board, Lucknow"
+wb-police,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",police,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from West Bengal Police Recruitment Board, Kolkata"
+bpsc-tre,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Bihar Public Service Commission, Patna"
+ctet-exam,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from Central Board of Secondary Education
+reet-rajasthan,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),teaching,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from Board of Secondary Education Rajasthan, Ajmer"
+ugc-net,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),teaching,Covered,VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,Audited from National Testing Agency / UGC
+uptet-supertet,UP TET & Super TET (UP Primary & Upper Primary Bharti),teaching,Covered,PARTIALLY_VERIFIED,YES,PATTERN_VERIFIED_CORPUS_PENDING,2026-09-28,"Audited from UP Education Service Selection Commission, Prayagraj"

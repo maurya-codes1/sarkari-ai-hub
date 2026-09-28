@@ -1,0 +1,3276 @@
+{
+  "version": "2026.1.0",
+  "schema": "sarkariai-hierarchical-exam-blueprint-v1",
+  "generated_at": "2026-09-29T03:00:00Z",
+  "total_exams": 52,
+  "organizations": {
+    "BSEB Patna": {
+      "organization_id": "org-bihar-school-examination-board-patna",
+      "name": "BSEB Patna",
+      "official_website": "https://biharboardonline.com",
+      "boards": {
+        "bseb-bihar": {
+          "board_id": "bseb-bihar",
+          "name": "bseb-bihar",
+          "exams": {
+            "bseb-bihar": {
+              "exam_id": "bseb-bihar",
+              "name": "Bihar Board BSEB (Matric 10th & Inter 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-bseb-bihar-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Secondary / Senior Secondary Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Matric & Inter Subject Papers",
+                        "delivery_medium": "OMR Sheet (50%) + Descriptive Booklet (50%)",
+                        "total_questions": 138,
+                        "questions_to_attempt": 69,
+                        "total_marks": 100,
+                        "duration_minutes": 195,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "100% Option Doubling: 100 MCQs (attempt 50), 30 Short (attempt 15), 8 Long (attempt 4)",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Section A (Objective on OMR) & Section B (Subjective)",
+                            "question_types": [
+                              "Objective MCQs (1M on OMR with 100% choice), Short Answer (2M), Long Answer (5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "BSEH Bhiwani": {
+      "organization_id": "org-board-of-school-education-haryana-bhiwan",
+      "name": "BSEH Bhiwani",
+      "official_website": "https://bseh.org.in",
+      "boards": {
+        "bseh-haryana": {
+          "board_id": "bseh-haryana",
+          "name": "bseh-haryana",
+          "exams": {
+            "bseh-haryana": {
+              "exam_id": "bseh-haryana",
+              "name": "Haryana Board (BSEH Bhiwani 10th & 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-bseh-haryana-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Secondary & Sr. Secondary Exam",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Subject-wise Question Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + Internal (20M)",
+                        "total_questions": 35,
+                        "questions_to_attempt": 35,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choices in all essay-type 5-mark questions",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections (Section A",
+                            "question_types": [
+                              "Objective (1M including MCQs and one-word), Very Short (2M), Short (3M), Long / Essay (5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "Objective (1M including MCQs and one-word), Very Short (2M), Short (3M), Long / Essay (5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "Objective (1M including MCQs and one-word), Very Short (2M), Short (3M), Long / Essay (5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D)",
+                            "question_types": [
+                              "Objective (1M including MCQs and one-word), Very Short (2M), Short (3M), Long / Essay (5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Central Board of Secondary Education": {
+      "organization_id": "org-central-board-of-secondary-education",
+      "name": "Central Board of Secondary Education",
+      "official_website": "https://www.cbse.gov.in",
+      "boards": {
+        "cbse-board": {
+          "board_id": "cbse-board",
+          "name": "cbse-board",
+          "exams": {
+            "cbse-board": {
+              "exam_id": "cbse-board",
+              "name": "CBSE Board (Class 10th & 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-cbse-board-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Subject-wise Question Papers",
+                        "delivery_medium": "Pen & Paper Theory + Internal Assessment (80/20 or 70/30)",
+                        "total_questions": 39,
+                        "questions_to_attempt": 39,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choices in 33% of questions across sections",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) for Science/Math/Social",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "5 Sections (Section A",
+                            "question_types": [
+                              "MCQ (1M), Assertion-Reason (1M), Short Answer (2M/3M), Long Answer (5M), Case Study / Source Based (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "MCQ (1M), Assertion-Reason (1M), Short Answer (2M/3M), Long Answer (5M), Case Study / Source Based (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "MCQ (1M), Assertion-Reason (1M), Short Answer (2M/3M), Long Answer (5M), Case Study / Source Based (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D",
+                            "question_types": [
+                              "MCQ (1M), Assertion-Reason (1M), Short Answer (2M/3M), Long Answer (5M), Case Study / Source Based (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 5,
+                            "section_name": "E)",
+                            "question_types": [
+                              "MCQ (1M), Assertion-Reason (1M), Short Answer (2M/3M), Long Answer (5M), Case Study / Source Based (4M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "CGBSE Raipur": {
+      "organization_id": "org-chhattisgarh-board-of-secondary-educatio",
+      "name": "CGBSE Raipur",
+      "official_website": "https://cgbse.nic.in",
+      "boards": {
+        "cgbse-chhattisgarh": {
+          "board_id": "cgbse-chhattisgarh",
+          "name": "cgbse-chhattisgarh",
+          "exams": {
+            "cgbse-chhattisgarh": {
+              "exam_id": "cgbse-chhattisgarh",
+              "name": "Chhattisgarh Board (CGBSE Raipur 10th & 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-cgbse-chhattisgarh-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "High School & Higher Secondary Papers",
+                        "delivery_medium": "Pen & Paper Theory (75M) + Project/Practical (25M) = 100M",
+                        "total_questions": 18,
+                        "questions_to_attempt": 18,
+                        "total_marks": 75,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choice in 4, 5, 6-mark questions",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Q1 (Objective 15M) & Q2-Q18 (Subjective)",
+                            "question_types": [
+                              "Objective (1M), Very Short (2M), Short (3M/4M), Long (5M/6M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "BSE & CHSE Odisha": {
+      "organization_id": "org-board-of-secondary-education-odisha-coun",
+      "name": "BSE & CHSE Odisha",
+      "official_website": "https://bseodisha.ac.in",
+      "boards": {
+        "chse-bse-odisha": {
+          "board_id": "chse-bse-odisha",
+          "name": "chse-bse-odisha",
+          "exams": {
+            "chse-bse-odisha": {
+              "exam_id": "chse-bse-odisha",
+              "name": "Odisha Board (BSE Matric 10th & CHSE +2 Council)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-chse-bse-odisha-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "HSC & +2 Papers",
+                        "delivery_medium": "OMR Sheet (50M) + Answer Booklet (50M) = 100M",
+                        "total_questions": 50,
+                        "questions_to_attempt": 50,
+                        "total_marks": 100,
+                        "duration_minutes": 150,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choice in Part II",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Odia & English)",
+                          "question_language": "Odia & English",
+                          "option_language": "Odia & English",
+                          "instruction_language": "Odia & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Part I (50 MCQs OMR) & Part II (Subjective 50M)",
+                            "question_types": [
+                              "MCQ on OMR (50M in Class 10), Short Answer (2M/3M), Long (5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "GSEB Gandhinagar": {
+      "organization_id": "org-gujarat-secondary-and-higher-secondary-e",
+      "name": "GSEB Gandhinagar",
+      "official_website": "https://www.gseb.org",
+      "boards": {
+        "gseb-gujarat": {
+          "board_id": "gseb-gujarat",
+          "name": "gseb-gujarat",
+          "exams": {
+            "gseb-gujarat": {
+              "exam_id": "gseb-gujarat",
+              "name": "Gujarat Board (GSEB SSC 10th & HSC 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-gseb-gujarat-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "SSC & HSC Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + Internal (20M) = 100M",
+                        "total_questions": 54,
+                        "questions_to_attempt": 44,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "General choice options in Sections B, C, D",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Gujarati & English)",
+                          "question_language": "Gujarati & English",
+                          "option_language": "Gujarati & English",
+                          "instruction_language": "Gujarati & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Sections A",
+                            "question_types": [
+                              "Objective (1M), Short (2M), Brief (3M), Long (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "Objective (1M), Short (2M), Brief (3M), Long (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "Objective (1M), Short (2M), Brief (3M), Long (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D",
+                            "question_types": [
+                              "Objective (1M), Short (2M), Brief (3M), Long (4M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "CISCE": {
+      "organization_id": "org-council-for-the-indian-school-certificat",
+      "name": "CISCE",
+      "official_website": "https://cisce.org",
+      "boards": {
+        "icse-cisce": {
+          "board_id": "icse-cisce",
+          "name": "icse-cisce",
+          "exams": {
+            "icse-cisce": {
+              "exam_id": "icse-cisce",
+              "name": "ICSE & ISC Board (Class 10th & 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-icse-cisce-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual ICSE / ISC Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Subject-wise Question Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + Internal Assessment (20M)",
+                        "total_questions": 11,
+                        "questions_to_attempt": 8,
+                        "total_marks": 80,
+                        "duration_minutes": 150,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "Section B: Attempt 4 out of 7 questions (10 marks each)",
+                        "language_configuration": {
+                          "paper_language": "English Medium (except Indian languages)",
+                          "question_language": "English",
+                          "option_language": "English",
+                          "instruction_language": "English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Section A (40M Compulsory) & Section B (40M Choice)",
+                            "question_types": [
+                              "MCQ, Short Answer, Structured Multi-part, Practical/Project"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "JAC Ranchi": {
+      "organization_id": "org-jharkhand-academic-council-ranchi",
+      "name": "JAC Ranchi",
+      "official_website": "https://jac.jharkhand.gov.in",
+      "boards": {
+        "jac-jharkhand": {
+          "board_id": "jac-jharkhand",
+          "name": "jac-jharkhand",
+          "exams": {
+            "jac-jharkhand": {
+              "exam_id": "jac-jharkhand",
+              "name": "Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-jac-jharkhand-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Secondary & Inter Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Matric & Inter Subject Papers",
+                        "delivery_medium": "OMR Sheet (30M) + Subjective Booklet (50M) + Internal (20M) = 100M",
+                        "total_questions": 48,
+                        "questions_to_attempt": 42,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Choices in subjective questions per section",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Part 1 (30 MCQs OMR) & Part 2 (Subjective 50M)",
+                            "question_types": [
+                              "Objective MCQs (30M on OMR), Very Short (2M), Short (3M), Long (5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "KSEAB Bengaluru": {
+      "organization_id": "org-karnataka-school-examination-and-assessm",
+      "name": "KSEAB Bengaluru",
+      "official_website": "https://kseab.karnataka.gov.in",
+      "boards": {
+        "kseab-karnataka": {
+          "board_id": "kseab-karnataka",
+          "name": "kseab-karnataka",
+          "exams": {
+            "kseab-karnataka": {
+              "exam_id": "kseab-karnataka",
+              "name": "Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-kseab-karnataka-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "SSLC & 2nd PUC Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + Internal (20M) = 100M",
+                        "total_questions": 38,
+                        "questions_to_attempt": 38,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choice provided in Parts C and D",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Kannada & English)",
+                          "question_language": "Kannada & English",
+                          "option_language": "Kannada & English",
+                          "instruction_language": "Kannada & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Parts A",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "MSBSHSE Pune": {
+      "organization_id": "org-maharashtra-state-board-of-secondary-hig",
+      "name": "MSBSHSE Pune",
+      "official_website": "https://mahahsscboard.in",
+      "boards": {
+        "maharashtra-board": {
+          "board_id": "maharashtra-board",
+          "name": "maharashtra-board",
+          "exams": {
+            "maharashtra-board": {
+              "exam_id": "maharashtra-board",
+              "name": "Maharashtra State Board (SSC 10th & HSC 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-maharashtra-board-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "SSC & HSC Activity Sheets",
+                        "delivery_medium": "Pen & Paper Activity Sheet (80M) + Internal (20M) = 100M",
+                        "total_questions": 5,
+                        "questions_to_attempt": 5,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Sub-question choices in Q2, Q3, Q4, Q5",
+                        "language_configuration": {
+                          "paper_language": "Multilingual (Marathi, English, Hindi, Urdu, Gujarati, Kannada, Sindhi, Telugu)",
+                          "question_language": "Multilingual",
+                          "option_language": "Multilingual",
+                          "instruction_language": "Marathi & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Questions 1 to 5 Activity Format",
+                            "question_types": [
+                              "Objective Activity (1M), Activity Short (2M/3M), Descriptive (4M/5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "MPBSE Bhopal": {
+      "organization_id": "org-madhya-pradesh-board-of-secondary-educat",
+      "name": "MPBSE Bhopal",
+      "official_website": "https://mpbse.nic.in",
+      "boards": {
+        "mpbse-board": {
+          "board_id": "mpbse-board",
+          "name": "mpbse-board",
+          "exams": {
+            "mpbse-board": {
+              "exam_id": "mpbse-board",
+              "name": "MP Board (MPBSE 10th & 12th Bhopal)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-mpbse-board-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "High School & Higher Secondary Papers",
+                        "delivery_medium": "Pen & Paper Theory (75M) + Project/Practical (25M) = 100M",
+                        "total_questions": 23,
+                        "questions_to_attempt": 23,
+                        "total_marks": 75,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "100% alternative internal choice in all subjective questions Q6-Q23",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Q1-Q5 Objective & Q6-Q23 Subjective",
+                            "question_types": [
+                              "Objective (1M: 30 sub-parts), Very Short (2M), Short (3M), Long (4M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "NIOS Noida": {
+      "organization_id": "org-national-institute-of-open-schooling-min",
+      "name": "NIOS Noida",
+      "official_website": "https://nios.ac.in",
+      "boards": {
+        "nios-board": {
+          "board_id": "nios-board",
+          "name": "nios-board",
+          "exams": {
+            "nios-board": {
+              "exam_id": "nios-board",
+              "name": "NIOS Board (National Institute of Open Schooling)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-nios-board-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Public & On-Demand Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Secondary & Sr. Secondary Subject Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + TMA Assignments (20M) = 100M",
+                        "total_questions": 36,
+                        "questions_to_attempt": 36,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choice provided in 4-mark and 6-mark questions",
+                        "language_configuration": {
+                          "paper_language": "Multilingual (English, Hindi, Urdu, Marathi, Telugu, Gujarati, Odia, etc.)",
+                          "question_language": "Multilingual",
+                          "option_language": "Multilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Sections A and B",
+                            "question_types": [
+                              "MCQ (1M), Very Short (2M), Short (3M/4M), Long (6M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "PSEB Mohali": {
+      "organization_id": "org-punjab-school-education-board-sas-nagar-",
+      "name": "PSEB Mohali",
+      "official_website": "https://www.pseb.ac.in",
+      "boards": {
+        "pseb-punjab": {
+          "board_id": "pseb-punjab",
+          "name": "pseb-punjab",
+          "exams": {
+            "pseb-punjab": {
+              "exam_id": "pseb-punjab",
+              "name": "Punjab Board (PSEB Mohali 10th & 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-pseb-punjab-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Subject-wise Question Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + INA Internal Assessment (20M) = 100M",
+                        "total_questions": 18,
+                        "questions_to_attempt": 18,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choices in 4-mark and 6-mark questions per subject structure",
+                        "language_configuration": {
+                          "paper_language": "Trilingual / Bilingual (Punjabi, English & Hindi)",
+                          "question_language": "Punjabi, English & Hindi",
+                          "option_language": "Punjabi, English & Hindi",
+                          "instruction_language": "Punjabi & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Part A (Q1: 20 subparts x 1M = 20M)",
+                            "question_types": [
+                              "Objective (1M: MCQs, True/False, Fill in blanks), Short Answer (2M), Medium Short (4M), Long Essay (6M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "Part B (Q2-Q8: 7x2M = 14M)",
+                            "question_types": [
+                              "Objective (1M: MCQs, True/False, Fill in blanks), Short Answer (2M), Medium Short (4M), Long Essay (6M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "Part C (Q9-Q15: 7x4M = 28M)",
+                            "question_types": [
+                              "Objective (1M: MCQs, True/False, Fill in blanks), Short Answer (2M), Medium Short (4M), Long Essay (6M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "Part D (Q16-Q18: 3x6M = 18M)",
+                            "question_types": [
+                              "Objective (1M: MCQs, True/False, Fill in blanks), Short Answer (2M), Medium Short (4M), Long Essay (6M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "RBSE Ajmer": {
+      "organization_id": "org-board-of-secondary-education-rajasthan-a",
+      "name": "RBSE Ajmer",
+      "official_website": "https://rajeduboard.rajasthan.gov.in",
+      "boards": {
+        "rbse-rajasthan": {
+          "board_id": "rbse-rajasthan",
+          "name": "rbse-rajasthan",
+          "exams": {
+            "rbse-rajasthan": {
+              "exam_id": "rbse-rajasthan",
+              "name": "Rajasthan Board (RBSE 10th & 12th Ajmer)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-rbse-rajasthan-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Subject-wise Model Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + Sessional (20M) = 100M",
+                        "total_questions": 30,
+                        "questions_to_attempt": 30,
+                        "total_marks": 80,
+                        "duration_minutes": 195,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choice provided in Section C and Section D",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Section A",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (1.5M/2M), Long (3M), Essay (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (1.5M/2M), Long (3M), Essay (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (1.5M/2M), Long (3M), Essay (4M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D",
+                            "question_types": [
+                              "Multiple Choice (1M), Fill blanks (1M), Very Short (1M), Short (1.5M/2M), Long (3M), Essay (4M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "ASSEB Guwahati": {
+      "organization_id": "org-assam-state-school-education-board-asseb",
+      "name": "ASSEB Guwahati",
+      "official_website": "https://sebaonline.org",
+      "boards": {
+        "seba-ahsec-assam": {
+          "board_id": "seba-ahsec-assam",
+          "name": "seba-ahsec-assam",
+          "exams": {
+            "seba-ahsec-assam": {
+              "exam_id": "seba-ahsec-assam",
+              "name": "Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-seba-ahsec-assam-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "HSLC & HS Subject Papers",
+                        "delivery_medium": "OMR (50%) + Answer Booklet (50%) + Internal (10M) = 100M",
+                        "total_questions": 45,
+                        "questions_to_attempt": 45,
+                        "total_marks": 90,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choices in Section B",
+                        "language_configuration": {
+                          "paper_language": "Multilingual (Assamese, English, Bengali, Bodo, Hindi)",
+                          "question_language": "Multilingual",
+                          "option_language": "Multilingual",
+                          "instruction_language": "Assamese & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Section A (45 MCQs on OMR) & Section B (Descriptive 45M)",
+                            "question_types": [
+                              "Objective MCQs (45M on OMR in HSLC), Short Answer (2M/3M), Long (5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "TNDGE Chennai": {
+      "organization_id": "org-directorate-of-government-examinations-c",
+      "name": "TNDGE Chennai",
+      "official_website": "https://dge.tn.gov.in",
+      "boards": {
+        "tndge-tamilnadu": {
+          "board_id": "tndge-tamilnadu",
+          "name": "tndge-tamilnadu",
+          "exams": {
+            "tndge-tamilnadu": {
+              "exam_id": "tndge-tamilnadu",
+              "name": "Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-tndge-tamilnadu-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Public Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "SSLC & HSE Public Exam Papers",
+                        "delivery_medium": "Pen & Paper Theory (100M or 70M + 20M Practical + 10M Internal)",
+                        "total_questions": 44,
+                        "questions_to_attempt": 33,
+                        "total_marks": 100,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "Choice rules in Part II & III; Either/Or in Part IV",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Tamil & English)",
+                          "question_language": "Tamil & English",
+                          "option_language": "Tamil & English",
+                          "instruction_language": "Tamil & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Parts I",
+                            "question_types": [
+                              "MCQ (1M), Short Answer (2M), Brief Answer (5M), Practical / Map (8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "II",
+                            "question_types": [
+                              "MCQ (1M), Short Answer (2M), Brief Answer (5M), Practical / Map (8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "III",
+                            "question_types": [
+                              "MCQ (1M), Short Answer (2M), Brief Answer (5M), Practical / Map (8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "IV",
+                            "question_types": [
+                              "MCQ (1M), Short Answer (2M), Brief Answer (5M), Practical / Map (8M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "TSBIE & BIEAP": {
+      "organization_id": "org-telangana-state-board-of-intermediate-ed",
+      "name": "TSBIE & BIEAP",
+      "official_website": "https://bse.telangana.gov.in",
+      "boards": {
+        "tsbie-bieap": {
+          "board_id": "tsbie-bieap",
+          "name": "tsbie-bieap",
+          "exams": {
+            "tsbie-bieap": {
+              "exam_id": "tsbie-bieap",
+              "name": "Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-tsbie-bieap-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Intermediate Public Examination (IPE)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "1st & 2nd Year Papers",
+                        "delivery_medium": "Pen & Paper Theory (75M Math; 60M Science + 30M practical)",
+                        "total_questions": 24,
+                        "questions_to_attempt": 20,
+                        "total_marks": 75,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "Section B (attempt 5 of 7) & Section C (attempt 5 of 7)",
+                        "language_configuration": {
+                          "paper_language": "Trilingual / Bilingual (Telugu, English & Urdu)",
+                          "question_language": "Telugu & English",
+                          "option_language": "Telugu & English",
+                          "instruction_language": "Telugu & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Section A (10 VSAQ)",
+                            "question_types": [
+                              "Very Short (2M), Short (4M), Long (7M/8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "Section B (5 of 7)",
+                            "question_types": [
+                              "Very Short (2M), Short (4M), Long (7M/8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "Section C (5 of 7)",
+                            "question_types": [
+                              "Very Short (2M), Short (4M), Long (7M/8M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "UBSE Ramnagar": {
+      "organization_id": "org-uttarakhand-board-of-school-education-ra",
+      "name": "UBSE Ramnagar",
+      "official_website": "https://ubse.uk.gov.in",
+      "boards": {
+        "ubse-uttarakhand": {
+          "board_id": "ubse-uttarakhand",
+          "name": "ubse-uttarakhand",
+          "exams": {
+            "ubse-uttarakhand": {
+              "exam_id": "ubse-uttarakhand",
+              "name": "Uttarakhand Board (UBSE Ramnagar 10th & 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-ubse-uttarakhand-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "High School & Intermediate Papers",
+                        "delivery_medium": "Pen & Paper Theory (80M) + Internal (20M) = 100M",
+                        "total_questions": 30,
+                        "questions_to_attempt": 30,
+                        "total_marks": 80,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choices in long-answer questions",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Sections A",
+                            "question_types": [
+                              "Multiple Choice (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "Multiple Choice (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "Multiple Choice (1M), Very Short (1M), Short (2M/3M), Long (4M/5M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "UPMSP Prayagraj": {
+      "organization_id": "org-uttar-pradesh-madhyamik-shiksha-parishad",
+      "name": "UPMSP Prayagraj",
+      "official_website": "https://upmsp.edu.in",
+      "boards": {
+        "upmsp-board": {
+          "board_id": "upmsp-board",
+          "name": "upmsp-board",
+          "exams": {
+            "upmsp-board": {
+              "exam_id": "upmsp-board",
+              "name": "UP Board (High School & Intermediate 10th/12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-upmsp-board-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Board Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "High School & Intermediate Subject Papers",
+                        "delivery_medium": "OMR Sheet (20M) + Answer Booklet (50M) + Internal (30M) = 100M",
+                        "total_questions": 26,
+                        "questions_to_attempt": 26,
+                        "total_marks": 70,
+                        "duration_minutes": 195,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Internal choices in 4-mark and 6-mark descriptive questions",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Khand A (20 MCQs on OMR) & Khand B (50M Subjective)",
+                            "question_types": [
+                              "OMR MCQs (20M in Class 10), Very Short Answer, Short Answer, Long Answer (Descriptive 50M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "WBBSE & WBCHSE Kolkata": {
+      "organization_id": "org-west-bengal-board-of-secondary-education",
+      "name": "WBBSE & WBCHSE Kolkata",
+      "official_website": "https://wbbse.wb.gov.in",
+      "boards": {
+        "wbbse-wb": {
+          "board_id": "wbbse-wb",
+          "name": "wbbse-wb",
+          "exams": {
+            "wbbse-wb": {
+              "exam_id": "wbbse-wb",
+              "name": "West Bengal Board (Madhyamik 10th & WBCHSE 12th)",
+              "category": "boards",
+              "current_version": {
+                "version_id": "ver-wbbse-wb-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Annual Madhyamik / HS Exam",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Madhyamik & HS Papers",
+                        "delivery_medium": "Pen & Paper Theory (90M) + Internal (10M) = 100M",
+                        "total_questions": 35,
+                        "questions_to_attempt": 35,
+                        "total_marks": 90,
+                        "duration_minutes": 195,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Specified internal choices in Groups C and D",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Bengali & English)",
+                          "question_language": "Bengali & English",
+                          "option_language": "Bengali & English",
+                          "instruction_language": "Bengali & English",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Groups A",
+                            "question_types": [
+                              "MCQ (1M), Very Short (1M), Short (2M), Explanatory (4M), Essay (8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "MCQ (1M), Very Short (1M), Short (2M), Explanatory (4M), Essay (8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "MCQ (1M), Very Short (1M), Short (2M), Explanatory (4M), Essay (8M)"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D",
+                            "question_types": [
+                              "MCQ (1M), Very Short (1M), Short (2M), Explanatory (4M), Essay (8M)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Indian Air Force (CASB)": {
+      "organization_id": "org-indian-air-force-central-airmen-selectio",
+      "name": "Indian Air Force (CASB)",
+      "official_website": "https://agnipathvayu.cdac.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "agniveer-airforce": {
+              "exam_id": "agniveer-airforce",
+              "name": "Indian Air Force Agniveer Vayu (Science & Other than Science)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-agniveer-airforce-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Phase-I Online Test",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Science Subjects Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 70,
+                        "questions_to_attempt": 70,
+                        "total_marks": 70,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "SECTIONAL_MINIMUM",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) except English",
+                          "question_language": "Bilingual except English",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Indian Army (Recruiting Directorate)": {
+      "organization_id": "org-join-indian-army-directorate-general-of-",
+      "name": "Indian Army (Recruiting Directorate)",
+      "official_website": "https://joinindianarmy.nic.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "agniveer-army": {
+              "exam_id": "agniveer-army",
+              "name": "Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-agniveer-army-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Common Entrance Examination (CEE Online)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "CEE Written Test",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 50,
+                        "questions_to_attempt": 50,
+                        "total_marks": 100,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.50 marks per wrong answer (1/4th)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Indian Navy (Naval Headquarters)": {
+      "organization_id": "org-indian-navy-naval-headquarters",
+      "name": "Indian Navy (Naval Headquarters)",
+      "official_website": "https://joinindiannavy.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "agniveer-navy": {
+              "exam_id": "agniveer-navy",
+              "name": "Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-agniveer-navy-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Stage-I INET Online Exam",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "INET Written Exam",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "SECTIONAL_MINIMUM",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual except English",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Institute of Banking Personnel Selection (IBPS)": {
+      "organization_id": "org-institute-of-banking-personnel-selection",
+      "name": "Institute of Banking Personnel Selection (IBPS)",
+      "official_website": "https://www.ibps.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "ibps-po-clerk": {
+              "exam_id": "ibps-po-clerk",
+              "name": "IBPS & SBI Banking (Probationary Officer & Clerk)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-ibps-po-clerk-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Preliminary Examination (Online Objective)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Common Preliminary Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "SECTIONAL_MINIMUM",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) + Regional for Clerk",
+                          "question_language": "Bilingual except English",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Sections with 20-min Sectional Timer",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Railway Recruitment Boards (RRB)": {
+      "organization_id": "org-railway-recruitment-boards-ministry-of-r",
+      "name": "Railway Recruitment Boards (RRB)",
+      "official_website": "https://www.rrbapply.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "rrb-alp": {
+              "exam_id": "rrb-alp",
+              "name": "Railway RRB Assistant Loco Pilot (ALP 2026)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-rrb-alp-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "1st Stage Computer Based Test (CBT-1)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Common CBT-1 Screening Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 75,
+                        "questions_to_attempt": 75,
+                        "total_marks": 75,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "1/3rd (0.33 marks) per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "15 Languages (English, Hindi, + 13 Regional)",
+                          "question_language": "15 Languages",
+                          "option_language": "15 Languages",
+                          "instruction_language": "15 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "rrb-ntpc": {
+              "exam_id": "rrb-ntpc",
+              "name": "Railway RRB NTPC (Station Master, Goods Guard, Clerk)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-rrb-ntpc-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "1st Stage CBT (CBT-1)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Common CBT-1 Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 90,
+                        "negative_marking_penalty": "1/3rd (0.33 marks) per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "15 Languages",
+                          "question_language": "15 Languages",
+                          "option_language": "15 Languages",
+                          "instruction_language": "15 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "rrb-technician": {
+              "exam_id": "rrb-technician",
+              "name": "Railway RRB Technician Grade I & Grade III",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-rrb-technician-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Computer Based Test (CBT)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Grade-III Written CBT",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 90,
+                        "negative_marking_penalty": "1/3rd (0.33 marks) per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "15 Languages",
+                          "question_language": "15 Languages",
+                          "option_language": "15 Languages",
+                          "instruction_language": "15 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Railway Recruitment Cells / RRB": {
+      "organization_id": "org-railway-recruitment-cell-rrb",
+      "name": "Railway Recruitment Cells / RRB",
+      "official_website": "https://www.rrbapply.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "rrb-group-d": {
+              "exam_id": "rrb-group-d",
+              "name": "Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-rrb-group-d-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Computer Based Test (CBT)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Single Stage CBT",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 90,
+                        "negative_marking_penalty": "1/3rd (0.33 marks) per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "15 Languages",
+                          "question_language": "15 Languages",
+                          "option_language": "15 Languages",
+                          "instruction_language": "15 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Staff Selection Commission (SSC)": {
+      "organization_id": "org-staff-selection-commission-ssc",
+      "name": "Staff Selection Commission (SSC)",
+      "official_website": "https://ssc.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "ssc-cgl": {
+              "exam_id": "ssc-cgl",
+              "name": "SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-ssc-cgl-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "READY",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Tier-I (CBT)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Tier-I Combined Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 200,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.50 marks per wrong answer (1/4th)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual except English",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections (A",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "B",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "C",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          },
+                          {
+                            "section_index": 4,
+                            "section_name": "D)",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "ssc-chsl": {
+              "exam_id": "ssc-chsl",
+              "name": "SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-ssc-chsl-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Tier-I (CBE)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Tier-I Combined Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 200,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.50 marks per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual except English",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Parts",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "ssc-gd": {
+              "exam_id": "ssc-gd",
+              "name": "SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-ssc-gd-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Computer Based Examination (CBE)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "GD Constable Written Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 80,
+                        "questions_to_attempt": 80,
+                        "total_marks": 160,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "Choice between English or Hindi in Part D",
+                        "language_configuration": {
+                          "paper_language": "15 Languages (English, Hindi + 13 Regional Languages)",
+                          "question_language": "15 Languages",
+                          "option_language": "15 Languages",
+                          "instruction_language": "15 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Parts",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "ssc-mts": {
+              "exam_id": "ssc-mts",
+              "name": "SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-ssc-mts-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Session-I & Session-II (CBE)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "MTS Unified Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 90,
+                        "questions_to_attempt": 90,
+                        "total_marks": 270,
+                        "duration_minutes": 90,
+                        "negative_marking_penalty": "Session-I: ZERO; Session-II: 1.0 mark per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Multilingual (English, Hindi + 13 Regional Languages)",
+                          "question_language": "Multilingual except English",
+                          "option_language": "Multilingual",
+                          "instruction_language": "Multilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "2 Distinct Sessions",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Union Public Service Commission (UPSC)": {
+      "organization_id": "org-union-public-service-commission-upsc",
+      "name": "Union Public Service Commission (UPSC)",
+      "official_website": "https://upsc.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "upsc-cse": {
+              "exam_id": "upsc-cse",
+              "name": "UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-upsc-cse-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "READY",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Preliminary Examination (Stage 1)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "General Studies Paper-I (GS 1)",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 200,
+                        "duration_minutes": 120,
+                        "negative_marking_penalty": "1/3rd of allotted mark (0.66 marks)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual (Hindi & English)",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Single Unified Paper",
+                            "question_types": [
+                              "Single Correct MCQ, Statement Based, Matching"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "upsc-nda": {
+              "exam_id": "upsc-nda",
+              "name": "UPSC NDA & NA (National Defence Academy & Naval Academy)",
+              "category": "central",
+              "current_version": {
+                "version_id": "ver-upsc-nda-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Written Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Paper-I Mathematics & Paper-II GAT",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 270,
+                        "questions_to_attempt": 270,
+                        "total_marks": 900,
+                        "duration_minutes": 300,
+                        "negative_marking_penalty": "Paper-I: 0.833 marks; Paper-II: 1.33 marks (1/3rd penalty)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) except English Section",
+                          "question_language": "Bilingual except English",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "2 Distinct Papers",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Consortium of National Law Universities": {
+      "organization_id": "org-consortium-of-national-law-universities-",
+      "name": "Consortium of National Law Universities",
+      "official_website": "https://consortiumofnlus.ac.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "clat-law": {
+              "exam_id": "clat-law",
+              "name": "CLAT (Common Law Admission Test for NLUs - BA LLB & LLM)",
+              "category": "entrance",
+              "current_version": {
+                "version_id": "ver-clat-law-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Single Unified Exam",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "CLAT UG Common Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 120,
+                        "questions_to_attempt": 120,
+                        "total_marks": 120,
+                        "duration_minutes": 120,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "English Only",
+                          "question_language": "English Only",
+                          "option_language": "English Only",
+                          "instruction_language": "English Only",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "5 Subject Areas",
+                            "question_types": [
+                              "Passage-based Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "National Testing Agency (NTA)": {
+      "organization_id": "org-national-testing-agency-nta",
+      "name": "National Testing Agency (NTA)",
+      "official_website": "https://exams.nta.ac.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "nta-cuet-ug": {
+              "exam_id": "nta-cuet-ug",
+              "name": "NTA CUET UG (Common University Entrance Test for Undergrad)",
+              "category": "entrance",
+              "current_version": {
+                "version_id": "ver-nta-cuet-ug-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Subject-wise Test Shifts",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Domain & General Test Papers",
+                        "delivery_medium": "Hybrid (OMR Pen & Paper + CBT)",
+                        "total_questions": 50,
+                        "questions_to_attempt": 40,
+                        "total_marks": 200,
+                        "duration_minutes": 45,
+                        "negative_marking_penalty": "1 mark deducted per wrong answer (-1) (+5 correct)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "Attempt 40 out of 50 questions (or 50 out of 60 for General Test)",
+                        "language_configuration": {
+                          "paper_language": "13 Languages for Domain & General Test",
+                          "question_language": "13 Languages",
+                          "option_language": "13 Languages",
+                          "instruction_language": "13 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Sections I",
+                            "question_types": [
+                              "Single Correct MCQ, Match Following, Case-based"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "II",
+                            "question_types": [
+                              "Single Correct MCQ, Match Following, Case-based"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "III",
+                            "question_types": [
+                              "Single Correct MCQ, Match Following, Case-based"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "nta-jee-main": {
+              "exam_id": "nta-jee-main",
+              "name": "JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",
+              "category": "entrance",
+              "current_version": {
+                "version_id": "ver-nta-jee-main-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Paper 1 (B.E./B.Tech)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Engineering Entrance Paper 1",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 75,
+                        "questions_to_attempt": 75,
+                        "total_marks": 300,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "-1 mark per incorrect response for both MCQ & NVQ (+4 correct)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None (Section B choice discontinued in revised 2025-2026 format)",
+                        "language_configuration": {
+                          "paper_language": "13 Languages",
+                          "question_language": "13 Languages",
+                          "option_language": "13 Languages",
+                          "instruction_language": "13 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "6 Sections",
+                            "question_types": [
+                              "Single Correct MCQ, Numerical Value Question (NVQ)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "nta-neet": {
+              "exam_id": "nta-neet",
+              "name": "NEET UG (National Eligibility cum Entrance Test - Medical)",
+              "category": "entrance",
+              "current_version": {
+                "version_id": "ver-nta-neet-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Single Unified Exam",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "NEET (UG) Question Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 200,
+                        "questions_to_attempt": 180,
+                        "total_marks": 720,
+                        "duration_minutes": 200,
+                        "negative_marking_penalty": "1 mark deducted per incorrect answer (-1) (+4 correct)",
+                        "attempt_rule": "ATTEMPT_N_OF_M",
+                        "internal_choice_rule": "Section B: Attempt ANY 10 out of 15 questions per subject",
+                        "language_configuration": {
+                          "paper_language": "13 Languages (English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu)",
+                          "question_language": "13 Languages",
+                          "option_language": "13 Languages",
+                          "instruction_language": "13 Languages",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "8 Sub-sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Joint Admission Board (IITs)": {
+      "organization_id": "org-organizing-iit-on-behalf-of-jab-joint-ad",
+      "name": "Joint Admission Board (IITs)",
+      "official_website": "https://jeeadv.ac.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "nta-jee-adv": {
+              "exam_id": "nta-jee-adv",
+              "name": "JEE Advanced (Indian Institutes of Technology - IITs Entrance)",
+              "category": "entrance",
+              "current_version": {
+                "version_id": "ver-nta-jee-adv-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Two Mandatory Compulsory Papers (Paper 1 & Paper 2)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Paper 1 & Paper 2",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 108,
+                        "questions_to_attempt": 108,
+                        "total_marks": 360,
+                        "duration_minutes": 360,
+                        "negative_marking_penalty": "Variable per question type (-1 or -2 for wrong; partial marking)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "None (Both papers compulsory)",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Sections per paper",
+                            "question_types": [
+                              "Single Correct MCQ, Multi-Correct (Partial Marking), Numerical, Integer, Matrix Match"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Central Selection Board of Constable (CSBC) Bihar": {
+      "organization_id": "org-central-selection-board-of-constable-csb",
+      "name": "Central Selection Board of Constable (CSBC) Bihar",
+      "official_website": "https://csbc.bih.nic.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "bihar-police-constable": {
+              "exam_id": "bihar-police-constable",
+              "name": "Bihar Police Constable (CSBC 21,391 Posts) & Daroga",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-bihar-police-constable-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "OMR Written Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Sipahi Written Exam",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 120,
+                        "negative_marking_penalty": "NONE (0 marks deducted for wrong answers)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual except Languages",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Unified Question Paper",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Staff Selection Commission (on behalf of Delhi Police)": {
+      "organization_id": "org-staff-selection-commission-ssc-on-behalf",
+      "name": "Staff Selection Commission (on behalf of Delhi Police)",
+      "official_website": "https://delhipolice.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "delhi-police": {
+              "exam_id": "delhi-police",
+              "name": "Delhi Police Executive Constable & Head Constable",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-delhi-police-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Computer Based Examination (CBE)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Constable CBE Paper",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 90,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Parts",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Haryana Staff Selection Commission (HSSC)": {
+      "organization_id": "org-haryana-staff-selection-commission-hssc-",
+      "name": "Haryana Staff Selection Commission (HSSC)",
+      "official_website": "https://hssc.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "haryana-police": {
+              "exam_id": "haryana-police",
+              "name": "Haryana Police Constable (HSSC 6,000 Posts)",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-haryana-police-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Knowledge Test (OMR Written)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Knowledge Test OMR Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 94.5,
+                        "duration_minutes": 105,
+                        "negative_marking_penalty": "No penalty for wrong answer; but 0.945 marks deducted if 5th unattempted bubble is omitted",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "Unified Paper",
+                            "question_types": [
+                              "Single Correct MCQ (5 Options including Unattempted Option E)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Maharashtra Police / Home Department": {
+      "organization_id": "org-maharashtra-state-police-recruitment-boa",
+      "name": "Maharashtra Police / Home Department",
+      "official_website": "https://policerecruitment2024.mahait.org",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "maharashtra-police": {
+              "exam_id": "maharashtra-police",
+              "name": "Maharashtra Police Constable Bharti (Police Shipai 17,471)",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-maharashtra-police-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Written Examination (Post-PET)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Police Shipai Written Test",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 90,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Marathi",
+                          "question_language": "Marathi",
+                          "option_language": "Marathi",
+                          "instruction_language": "Marathi",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Madhya Pradesh Employees Selection Board (MPESB)": {
+      "organization_id": "org-madhya-pradesh-employees-selection-board",
+      "name": "Madhya Pradesh Employees Selection Board (MPESB)",
+      "official_website": "https://esb.mp.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "mp-police": {
+              "exam_id": "mp-police",
+              "name": "MP Police Constable (ESB 7,411 Posts) & Sub Inspector",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-mp-police-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Online Written Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Police Constable Written Test",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 120,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Rajasthan Police Recruitment Board, Jaipur": {
+      "organization_id": "org-rajasthan-police-recruitment-board-jaipu",
+      "name": "Rajasthan Police Recruitment Board, Jaipur",
+      "official_website": "https://police.rajasthan.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "rajasthan-police": {
+              "exam_id": "rajasthan-police",
+              "name": "Rajasthan Police Constable Bharti (3,578 Posts)",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-rajasthan-police-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "CBT / Written Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Constable Written Exam",
+                        "delivery_medium": "CBT / OMR",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 150,
+                        "duration_minutes": 120,
+                        "negative_marking_penalty": "0.25 marks per wrong answer",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Parts",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "UP Police Recruitment & Promotion Board (UPPRPB)": {
+      "organization_id": "org-uttar-pradesh-police-recruitment-promoti",
+      "name": "UP Police Recruitment & Promotion Board (UPPRPB)",
+      "official_website": "https://uppbpb.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "up-police-constable": {
+              "exam_id": "up-police-constable",
+              "name": "UP Police Constable & Sub Inspector (SI) 60,244 Bharti",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-up-police-constable-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "OMR Written Examination",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Constable Written Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 300,
+                        "duration_minutes": 120,
+                        "negative_marking_penalty": "0.50 marks per wrong answer (1/4th of 2 marks)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) except General Hindi",
+                          "question_language": "Bilingual except General Hindi",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "4 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "West Bengal Police Recruitment Board (WBPRB)": {
+      "organization_id": "org-west-bengal-police-recruitment-board-wbp",
+      "name": "West Bengal Police Recruitment Board (WBPRB)",
+      "official_website": "https://prb.wb.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "wb-police": {
+              "exam_id": "wb-police",
+              "name": "West Bengal Police (WBP Constable 11,749 & Kolkata Police)",
+              "category": "police",
+              "current_version": {
+                "version_id": "ver-wb-police-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Preliminary Written Test",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Preliminary Screening Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 100,
+                        "questions_to_attempt": 100,
+                        "total_marks": 100,
+                        "duration_minutes": 60,
+                        "negative_marking_penalty": "0.25 marks per wrong answer (1/4th)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Bengali & Nepali)",
+                          "question_language": "Bilingual (Bengali & Nepali)",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Bihar Public Service Commission (BPSC)": {
+      "organization_id": "org-bihar-public-service-commission-bpsc-pat",
+      "name": "Bihar Public Service Commission (BPSC)",
+      "official_website": "https://www.bpsc.bih.nic.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "bpsc-tre": {
+              "exam_id": "bpsc-tre",
+              "name": "Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination)",
+              "category": "teaching",
+              "current_version": {
+                "version_id": "ver-bpsc-tre-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Written Examination (Objective)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Integrated Single Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 150,
+                        "duration_minutes": 150,
+                        "negative_marking_penalty": "NONE (0 marks deducted as per official BPSC resolution)",
+                        "attempt_rule": "SECTIONAL_MINIMUM",
+                        "internal_choice_rule": "Part I Language Selection (Hindi / Urdu / Bangla)",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual except Language part",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "3 Parts (Part-I",
+                            "question_types": [
+                              "Single Correct MCQ (5 Options A, B, C, D, E)"
+                            ]
+                          },
+                          {
+                            "section_index": 2,
+                            "section_name": "Part-II",
+                            "question_types": [
+                              "Single Correct MCQ (5 Options A, B, C, D, E)"
+                            ]
+                          },
+                          {
+                            "section_index": 3,
+                            "section_name": "Part-III)",
+                            "question_types": [
+                              "Single Correct MCQ (5 Options A, B, C, D, E)"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Central Board of Secondary Education (CBSE)": {
+      "organization_id": "org-central-board-of-secondary-education-cbs",
+      "name": "Central Board of Secondary Education (CBSE)",
+      "official_website": "https://ctet.nic.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "ctet-exam": {
+              "exam_id": "ctet-exam",
+              "name": "CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2)",
+              "category": "teaching",
+              "current_version": {
+                "version_id": "ver-ctet-exam-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Written Examination (OMR)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Paper-I / Paper-II",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 150,
+                        "duration_minutes": 150,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Paper-II choice: Math & Science OR Social Studies",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) + 20 Languages",
+                          "question_language": "Bilingual except Languages",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "5 Sections (Paper-I) / 4 Sections (Paper-II)",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Board of Secondary Education Rajasthan (RBSE)": {
+      "organization_id": "org-board-of-secondary-education-rajasthan-r",
+      "name": "Board of Secondary Education Rajasthan (RBSE)",
+      "official_website": "https://rajeduboard.rajasthan.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "reet-rajasthan": {
+              "exam_id": "reet-rajasthan",
+              "name": "REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2)",
+              "category": "teaching",
+              "current_version": {
+                "version_id": "ver-reet-rajasthan-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Eligibility Examination (OMR)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Level-1 / Level-2 Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 150,
+                        "duration_minutes": 150,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Language choices + Science/Math vs Social Studies choice",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) + Regional languages",
+                          "question_language": "Bilingual except Languages",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "5 Parts",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "National Testing Agency (on behalf of UGC)": {
+      "organization_id": "org-national-testing-agency-nta-on-behalf-of",
+      "name": "National Testing Agency (on behalf of UGC)",
+      "official_website": "https://ugcnet.nta.ac.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "ugc-net": {
+              "exam_id": "ugc-net",
+              "name": "UGC NET / CSIR NET (Assistant Professor & JRF Fellowship)",
+              "category": "teaching",
+              "current_version": {
+                "version_id": "ver-ugc-net-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Computer Based Test (Single Shift 3 Hours)",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "Paper 1 & Paper 2 Combined",
+                        "delivery_medium": "Computer Based Test (CBT)",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 300,
+                        "duration_minutes": 180,
+                        "negative_marking_penalty": "NONE (0 marks deducted for wrong answers)",
+                        "attempt_rule": "ATTEMPT_ALL",
+                        "internal_choice_rule": "None",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English) except Language Subjects",
+                          "question_language": "Bilingual except Languages",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "2 Papers without break",
+                            "question_types": [
+                              "Single Correct MCQ, Match List, Statement Based"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "UP Education Service Selection Commission (UPESSC)": {
+      "organization_id": "org-uttar-pradesh-education-service-selectio",
+      "name": "UP Education Service Selection Commission (UPESSC)",
+      "official_website": "https://updeled.gov.in",
+      "boards": {
+        "direct_authority": {
+          "board_id": "direct_authority",
+          "name": "N/A",
+          "exams": {
+            "uptet-supertet": {
+              "exam_id": "uptet-supertet",
+              "name": "UP TET & Super TET (UP Primary & Upper Primary Bharti)",
+              "category": "teaching",
+              "current_version": {
+                "version_id": "ver-uptet-supertet-2026",
+                "academic_year": "2025-2026",
+                "verification_status": "PARTIALLY_VERIFIED",
+                "readiness_state": "PATTERN_VERIFIED_CORPUS_PENDING",
+                "stages": [
+                  {
+                    "stage_id": "stage-1",
+                    "stage_name": "Eligibility / Assistant Teacher Written Exam",
+                    "papers": [
+                      {
+                        "paper_id": "paper-1",
+                        "paper_name": "UPTET / Super TET Paper",
+                        "delivery_medium": "OMR Physical Examination",
+                        "total_questions": 150,
+                        "questions_to_attempt": 150,
+                        "total_marks": 150,
+                        "duration_minutes": 150,
+                        "negative_marking_penalty": "NONE (0 penalty)",
+                        "attempt_rule": "CONDITIONAL_CHOICE",
+                        "internal_choice_rule": "Language II Choice (English / Urdu / Sanskrit)",
+                        "language_configuration": {
+                          "paper_language": "Bilingual (Hindi & English)",
+                          "question_language": "Bilingual except Languages",
+                          "option_language": "Bilingual",
+                          "instruction_language": "Bilingual",
+                          "independent_ui_locale": true
+                        },
+                        "sections": [
+                          {
+                            "section_index": 1,
+                            "section_name": "5 Sections",
+                            "question_types": [
+                              "Single Correct MCQ"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

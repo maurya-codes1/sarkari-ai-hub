@@ -1,0 +1,60 @@
+Exam_Or_Board_Id,Exam_Name,Class_Level,Subject_Name,Section_Name,Internal_Choice_Type,Total_Choices_Given,Mandatory_To_Attempt,Choice_Mechanism,Verification_Status
+cbse-board,CBSE,Class 10,Science (086),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,39,36,Internal choice in 33% questions,VERIFIED
+cbse-board,CBSE,Class 10,Mathematics Standard (041),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,38,35,"Internal choice in Sec B, C, D, E",VERIFIED
+cbse-board,CBSE,Class 10,Social Science (087),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,37,33,"Internal choice in Sec C, D, E",VERIFIED
+cbse-board,CBSE,Class 10,English Language & Lit (184),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,11,31,Choice in Writing & Literature,VERIFIED
+cbse-board,CBSE,Class 10,Hindi Course A (002),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,17,48,Internal choices in Writing,VERIFIED
+cbse-board,CBSE,Class 12,Physics (042),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,33,31,"Internal choice in 1 SA-I, 2 SA-II, all LA",VERIFIED
+cbse-board,CBSE,Class 12,Chemistry (043),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,33,31,"Internal choice in Sec B, C, D, E",VERIFIED
+cbse-board,CBSE,Class 12,Mathematics (041),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,38,35,"Internal choice in 2 of 2M, 3 of 3M, 2 of 5M",VERIFIED
+cbse-board,CBSE,Class 12,Biology (044),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,33,31,"Internal choice in 1 of 2M, 1 of 3M, all 5M",VERIFIED
+cbse-board,CBSE,Class 12,Accountancy (055),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,34,34,Part A & B with internal choices,VERIFIED
+cbse-board,CBSE,Class 12,Business Studies (054),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,34,34,"Internal choice in 3M, 4M, 6M",VERIFIED
+cbse-board,CBSE,Class 12,Economics (030),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,34,34,Sec A (Macro) & Sec B (Indian Eco),VERIFIED
+icse-cisce,CISCE,Class 10 (ICSE),Mathematics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,11,24,Sec A Compulsory (40M); Sec B attempt 4 of 7 (40M),VERIFIED
+icse-cisce,CISCE,Class 10 (ICSE),Physics (Science Paper 1),Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,9,25,Sec I Compulsory (40M); Sec II attempt 4 of 6 (40M),VERIFIED
+icse-cisce,CISCE,Class 12 (ISC),Physics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,18,24,"Internal choices in Sec B, C, D",VERIFIED
+icse-cisce,CISCE,Class 12 (ISC),Mathematics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,19,24,Sec A Compulsory (65M) + Sec B or C (15M),VERIFIED
+upmsp-board,UPMSP,Class 10,Mathematics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,26,28,Khand A: 20 MCQs OMR; Khand B: 50M descriptive,VERIFIED
+upmsp-board,UPMSP,Class 10,Science,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,26,29,Khand A: 20 MCQs OMR; Khand B: Physics/Chem/Bio,VERIFIED
+upmsp-board,UPMSP,Class 12,Physics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,29,24,Internal choices in all 5-mark questions,VERIFIED
+bseb-bihar,BSEB,Class 10,Mathematics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,138,138,"Attempt 50 of 100 MCQs, 15 of 30 SA, 4 of 8 LA",VERIFIED
+bseb-bihar,BSEB,Class 10,Science,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,110,110,"Attempt 40 of 80 MCQs, 12 of 24 SA, 3 of 6 LA",VERIFIED
+bseb-bihar,BSEB,Class 12,Physics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,96,96,"Attempt 35 of 70 MCQs, 10 of 20 SA, 3 of 6 LA",VERIFIED
+pseb-punjab,PSEB,Class 12,Mathematics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,18,37,"Q1 (20 obj), Q2-8 (7x2M), Q9-15 (7x4M choice), Q16-18 (3x6M 100% choice)",VERIFIED
+pseb-punjab,PSEB,Class 12,Economics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,20,34,Micro & Macro economics distinct section structure,VERIFIED
+bseh-haryana,BSEH,Class 10,Science,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,30,30,Internal choice in all essay questions,VERIFIED
+bseh-haryana,BSEH,Class 12,Chemistry,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,35,35,Internal choices in Sec C and D,VERIFIED
+tndge-tamilnadu,TNDGE,Class 10,Mathematics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,44,42,"Part II (attempt 10 of 14), Part III (attempt 10 of 14), Part IV (Either/Or)",VERIFIED
+tndge-tamilnadu,TNDGE,Class 12,Physics,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,38,29,Part II & III choice; Part IV Either/Or 5x5M,VERIFIED
+tsbie-bieap,TSBIE / BIEAP,Inter 2nd Yr,Mathematics 2A,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,24,24,"Sec A (10 VSAQ compulsory), Sec B (5 of 7), Sec C (5 of 7)",VERIFIED
+tsbie-bieap,TSBIE / BIEAP,Inter 2nd Yr,Physics 2nd Year,Descriptive Sections,INTERNAL_OR_SECTIONAL_CHOICE,21,21,"Sec A (10 VSAQ compulsory), Sec B (6 of 8), Sec C (2 of 3)",VERIFIED
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),Class 10 (Matric) & Class 12 (Intermediate),Official Paper,Specific Section,ATTEMPT_N_OF_M,138,69,"100% Option Doubling: 100 MCQs (attempt 50), 30 Short (attempt 15), 8 Long (attempt 4)",VERIFIED
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,35,35,Internal choices in all essay-type 5-mark questions,VERIFIED
+cbse-board,CBSE Board (Class 10th & 12th),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,39,39,Internal choices in 33% of questions across sections,VERIFIED
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,18,18,"Internal choice in 4, 5, 6-mark questions",PARTIALLY_VERIFIED
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),Class 10 (HSC) & Class 12 (+2),Official Paper,Specific Section,CONDITIONAL_CHOICE,50,50,Internal choice in Part II,VERIFIED
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),Class 10 (SSC) & Class 12 (HSC),Official Paper,Specific Section,ATTEMPT_N_OF_M,54,44,"General choice options in Sections B, C, D",VERIFIED
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),Class 10 (ICSE) & Class 12 (ISC),Official Paper,Specific Section,ATTEMPT_N_OF_M,11,8,Section B: Attempt 4 out of 7 questions (10 marks each),VERIFIED
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,48,42,Choices in subjective questions per section,VERIFIED
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),Class 10 (SSLC) & Class 12 (2nd PUC),Official Paper,Specific Section,CONDITIONAL_CHOICE,38,38,Internal choice provided in Parts C and D,VERIFIED
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),Class 10 (SSC) & Class 12 (HSC),Official Paper,Specific Section,CONDITIONAL_CHOICE,5,5,"Sub-question choices in Q2, Q3, Q4, Q5",VERIFIED
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,23,23,100% alternative internal choice in all subjective questions Q6-Q23,VERIFIED
+nios-board,NIOS Board (National Institute of Open Schooling),Secondary (10th) & Sr. Secondary (12th),Official Paper,Specific Section,CONDITIONAL_CHOICE,36,36,Internal choice provided in 4-mark and 6-mark questions,PARTIALLY_VERIFIED
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),Class 10 (Matric) & Class 12 (Senior Secondary),Official Paper,Specific Section,CONDITIONAL_CHOICE,18,18,Internal choices in 4-mark and 6-mark questions per subject structure,VERIFIED
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,30,30,Internal choice provided in Section C and Section D,VERIFIED
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),Class 10 (HSLC) & Class 12 (HS),Official Paper,Specific Section,CONDITIONAL_CHOICE,45,45,Internal choices in Section B,PARTIALLY_VERIFIED
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10 (SSLC) & Class 12 (HSE),Official Paper,Specific Section,ATTEMPT_N_OF_M,44,33,Choice rules in Part II & III; Either/Or in Part IV,VERIFIED
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),Inter 1st & 2nd Year,Official Paper,Specific Section,ATTEMPT_N_OF_M,24,20,Section B (attempt 5 of 7) & Section C (attempt 5 of 7),VERIFIED
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),Class 10 & Class 12,Official Paper,Specific Section,CONDITIONAL_CHOICE,30,30,Internal choices in long-answer questions,PARTIALLY_VERIFIED
+upmsp-board,UP Board (High School & Intermediate 10th/12th),Class 10 (High School) & Class 12 (Intermediate),Official Paper,Specific Section,CONDITIONAL_CHOICE,26,26,Internal choices in 4-mark and 6-mark descriptive questions,VERIFIED
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),Class 10 (Madhyamik) & Class 12 (HS),Official Paper,Specific Section,CONDITIONAL_CHOICE,35,35,Specified internal choices in Groups C and D,VERIFIED
+ssc-gd,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",Matriculation (10th),Official Paper,Specific Section,ATTEMPT_ALL,80,80,Choice between English or Hindi in Part D,VERIFIED
+nta-cuet-ug,NTA CUET UG (Common University Entrance Test for Undergrad),10+2 Any Stream,Official Paper,Specific Section,ATTEMPT_N_OF_M,50,40,Attempt 40 out of 50 questions (or 50 out of 60 for General Test),VERIFIED
+nta-jee-adv,JEE Advanced (Indian Institutes of Technology - IITs Entrance),10+2 Passed JEE Main Qualified,Official Paper,Specific Section,CONDITIONAL_CHOICE,108,108,None (Both papers compulsory),VERIFIED
+nta-jee-main,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",10+2 (PCM),Official Paper,Specific Section,ATTEMPT_ALL,75,75,None (Section B choice discontinued in revised 2025-2026 format),VERIFIED
+nta-neet,NEET UG (National Eligibility cum Entrance Test - Medical),10+2 (PCB),Official Paper,Specific Section,ATTEMPT_N_OF_M,200,180,Section B: Attempt ANY 10 out of 15 questions per subject,VERIFIED
+bpsc-tre,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),Primary to Senior Secondary,Official Paper,Specific Section,SECTIONAL_MINIMUM,150,150,Part I Language Selection (Hindi / Urdu / Bangla),VERIFIED
+ctet-exam,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),D.El.Ed / B.Ed,Official Paper,Specific Section,CONDITIONAL_CHOICE,150,150,Paper-II choice: Math & Science OR Social Studies,VERIFIED
+reet-rajasthan,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),D.El.Ed / B.Ed,Official Paper,Specific Section,CONDITIONAL_CHOICE,150,150,Language choices + Science/Math vs Social Studies choice,PARTIALLY_VERIFIED
+uptet-supertet,UP TET & Super TET (UP Primary & Upper Primary Bharti),D.El.Ed / B.Ed,Official Paper,Specific Section,CONDITIONAL_CHOICE,150,150,Language II Choice (English / Urdu / Sanskrit),PARTIALLY_VERIFIED

@@ -1,0 +1,31 @@
+Board_Or_Exam_Id,Authority_Name,Class_Level,Subject_Stream,Theory_Marks,Practical_Marks,Project_Marks,Internal_Assessment_Marks,Total_Marks,Assessment_Authority,Official_Regulation,Verification_Status
+cbse-board,CBSE,Class 10,Science (086),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 10,Mathematics Standard (041),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 10,Social Science (087),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 10,English Language & Lit (184),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 10,Hindi Course A (002),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Physics (042),70,30,0,0,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Chemistry (043),70,30,0,0,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Mathematics (041),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Biology (044),70,30,0,0,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Accountancy (055),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Business Studies (054),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+cbse-board,CBSE,Class 12,Economics (030),80,0,0,20,100,School Internal / External Board Examiner,CBSE SQP 2025-26,VERIFIED
+icse-cisce,CISCE,Class 10 (ICSE),Mathematics,80,0,0,20,100,School Internal / External Board Examiner,ICSE Specimen 2026,VERIFIED
+icse-cisce,CISCE,Class 10 (ICSE),Physics (Science Paper 1),80,0,0,20,100,School Internal / External Board Examiner,ICSE Specimen 2026,VERIFIED
+icse-cisce,CISCE,Class 12 (ISC),Physics,70,30,0,0,100,School Internal / External Board Examiner,ISC Specimen 2026,VERIFIED
+icse-cisce,CISCE,Class 12 (ISC),Mathematics,80,0,0,20,100,School Internal / External Board Examiner,ISC Specimen 2026,VERIFIED
+upmsp-board,UPMSP,Class 10,Mathematics,70,0,0,30,100,School Internal / External Board Examiner,UPMSP Model 2025-26,VERIFIED
+upmsp-board,UPMSP,Class 10,Science,70,0,0,30,100,School Internal / External Board Examiner,UPMSP Model 2025-26,VERIFIED
+upmsp-board,UPMSP,Class 12,Physics,70,30,0,0,100,School Internal / External Board Examiner,UPMSP Model 2025-26,VERIFIED
+bseb-bihar,BSEB,Class 10,Mathematics,100,0,0,0,100,School Internal / External Board Examiner,BSEB Model 2025-26,VERIFIED
+bseb-bihar,BSEB,Class 10,Science,80,20,0,0,100,School Internal / External Board Examiner,BSEB Model 2025-26,VERIFIED
+bseb-bihar,BSEB,Class 12,Physics,70,30,0,0,100,School Internal / External Board Examiner,BSEB Model 2025-26,VERIFIED
+pseb-punjab,PSEB,Class 12,Mathematics,80,0,0,20,100,School Internal / External Board Examiner,PSEB Structure 2025-26,VERIFIED
+pseb-punjab,PSEB,Class 12,Economics,80,0,0,20,100,School Internal / External Board Examiner,PSEB Structure 2025-26,VERIFIED
+bseh-haryana,BSEH,Class 10,Science,80,0,0,20,100,School Internal / External Board Examiner,BSEH QPD 2025-26,VERIFIED
+bseh-haryana,BSEH,Class 12,Chemistry,70,30,0,0,100,School Internal / External Board Examiner,BSEH QPD 2025-26,VERIFIED
+tndge-tamilnadu,TNDGE,Class 10,Mathematics,100,0,0,0,100,School Internal / External Board Examiner,TNDGE Blueprint 2025-26,VERIFIED
+tndge-tamilnadu,TNDGE,Class 12,Physics,70,20,0,10,100,School Internal / External Board Examiner,TNDGE HSE Blueprint 2025-26,VERIFIED
+tsbie-bieap,TSBIE / BIEAP,Inter 2nd Yr,Mathematics 2A,75,0,0,0,75,School Internal / External Board Examiner,TSBIE / BIEAP IPE Model 2025-26,VERIFIED
+tsbie-bieap,TSBIE / BIEAP,Inter 2nd Yr,Physics 2nd Year,60,30,0,0,90,School Internal / External Board Examiner,TSBIE / BIEAP IPE Model 2025-26,VERIFIED

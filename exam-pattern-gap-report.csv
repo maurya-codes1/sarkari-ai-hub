@@ -1,0 +1,53 @@
+exam_id,exam_name,current_pattern_status,missing_fields,stale_fields,conflicting_fields,source_gap,language_gap,marking_gap,attempt_gap,paper_gap,subject_gap,version_gap,recommended_action,priority
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+cbse-board,CBSE Board (Class 10th & 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+nios-board,NIOS Board (National Institute of Open Schooling),PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+upmsp-board,UP Board (High School & Intermediate 10th/12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+agniveer-airforce,Indian Air Force Agniveer Vayu (Science & Other than Science),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+agniveer-army,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+agniveer-navy,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ibps-po-clerk,IBPS & SBI Banking (Probationary Officer & Clerk),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+rrb-alp,Railway RRB Assistant Loco Pilot (ALP 2026),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+rrb-group-d,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+rrb-ntpc,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+rrb-technician,Railway RRB Technician Grade I & Grade III,VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ssc-cgl,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ssc-chsl,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ssc-gd,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ssc-mts,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+upsc-cse,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+upsc-nda,UPSC NDA & NA (National Defence Academy & Naval Academy),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+clat-law,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+nta-cuet-ug,NTA CUET UG (Common University Entrance Test for Undergrad),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+nta-jee-adv,JEE Advanced (Indian Institutes of Technology - IITs Entrance),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+nta-jee-main,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+nta-neet,NEET UG (National Eligibility cum Entrance Test - Medical),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+bihar-police-constable,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+delhi-police,Delhi Police Executive Constable & Head Constable,VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+haryana-police,"Haryana Police Constable (HSSC 6,000 Posts)",PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+maharashtra-police,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+mp-police,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+rajasthan-police,"Rajasthan Police Constable Bharti (3,578 Posts)",PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+up-police-constable,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+wb-police,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+bpsc-tre,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+ctet-exam,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+reet-rajasthan,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM
+ugc-net,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),VERIFIED,None,None,None,None,None,None,None,None,None,None,Maintain verified ground truth,LOW
+uptet-supertet,UP TET & Super TET (UP Primary & Upper Primary Bharti),PARTIALLY_VERIFIED,Draft 2026 Subject Blueprints Pending,None,None,None,None,None,None,None,Detailed Chapter Sub-breakdown Pending,None,Monitor official state portal for 2026 model release,MEDIUM

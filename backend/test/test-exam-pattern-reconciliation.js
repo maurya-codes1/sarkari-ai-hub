@@ -150,7 +150,10 @@ console.log(`  📊 Coverage Breakdown: Covered: ${coverageCount} | Verified: ${
 runTest('All 52 core exams have an explicit verification status', () => {
   const total = verifiedCount + partiallyVerifiedCount + underReviewCount + notVerifiedCount;
   assert.strictEqual(total, 52, `Expected 52 verification statuses, got ${total}`);
-  assert(verifiedCount >= 45, `Expected high verified ground-truth count, got ${verifiedCount}`);
+  assert.strictEqual(verifiedCount, 41, `Expected 41 VERIFIED exams, got ${verifiedCount}`);
+  assert.strictEqual(partiallyVerifiedCount, 11, `Expected 11 PARTIALLY_VERIFIED exams, got ${partiallyVerifiedCount}`);
+  assert.strictEqual(underReviewCount, 0, `Expected 0 UNDER_REVIEW exams, got ${underReviewCount}`);
+  assert.strictEqual(notVerifiedCount, 0, `Expected 0 NOT_VERIFIED exams, got ${notVerifiedCount}`);
 });
 
 // -------------------------------------------------------------
@@ -213,6 +216,22 @@ runTest('attempt-rule-registry.csv correctly captures attempt behaviors', () => 
   assert.strictEqual(neet.Questions_To_Attempt, '180');
 });
 
+runTest('internal-choice-registry.csv captures choice provisions for boards and entrance exams', () => {
+  const icData = parseCsv('internal-choice-registry.csv');
+  assert(icData.rows.length >= 50, `Expected >= 50 internal choice entries, got ${icData.rows.length}`);
+  const cbse = icData.rows.find(r => r.Exam_Or_Board_Id === 'cbse-board');
+  assert(cbse && cbse.Choice_Mechanism.length > 0, 'CBSE internal choice mechanism must be recorded');
+});
+
+runTest('practical-assessment-registry.csv documents theory, practical and internal assessment distribution', () => {
+  const paData = parseCsv('practical-assessment-registry.csv');
+  assert(paData.rows.length >= 20);
+  const sci = paData.rows.find(r => r.Class_Level === 'Class 10' && r.Subject_Stream.includes('Science'));
+  assert(sci, 'Science practical assessment must exist');
+  assert.strictEqual(sci.Theory_Marks, '80');
+  assert.strictEqual(sci.Internal_Assessment_Marks, '20');
+});
+
 runTest('pdf-document-policy.csv captures all 11 PDF document types', () => {
   const pData = parseCsv('pdf-document-policy.csv');
   assert.strictEqual(pData.rows.length, 11);
@@ -244,6 +263,43 @@ runTest('source-verification.csv tracks 52 official sources with verified status
   }
 });
 
+runTest('source-conflict-registry.csv documents key resolved official conflicts', () => {
+  const scData = parseCsv('source-conflict-registry.csv');
+  assert(scData.rows.length >= 3, 'Must document at least 3 critical official conflicts');
+  const jee = scData.rows.find(r => r.Exam_Id === 'nta-jee-main');
+  assert(jee && jee.Resolution_Rationale.includes('terminated the COVID-era'));
+  const sscGd = scData.rows.find(r => r.Exam_Id === 'ssc-gd');
+  assert(sscGd && sscGd.Resolved_Truth_Value.includes('0.25'));
+});
+
+runTest('exam-blueprints.json is hierarchical and covers all 52 exams down to sections', () => {
+  assert(fs.existsSync('exam-blueprints.json'));
+  const raw = fs.readFileSync('exam-blueprints.json', 'utf8');
+  const bp = JSON.parse(raw);
+  assert.strictEqual(bp.total_exams, 52);
+  let examCount = 0;
+  for (const org of Object.values(bp.organizations)) {
+    for (const board of Object.values(org.boards)) {
+      for (const ex of Object.values(board.exams)) {
+        examCount++;
+        assert(ex.current_version.stages.length > 0, `Exam ${ex.exam_id} must have stages`);
+      }
+    }
+  }
+  assert.strictEqual(examCount, 52, `Hierarchical blueprints must contain 52 exams, found ${examCount}`);
+});
+
+runTest('Governance artifacts (gap report, change log, missing data, version history) exist', () => {
+  const gap = parseCsv('exam-pattern-gap-report.csv');
+  assert(gap.rows.length >= 10);
+  const cl = parseCsv('exam-pattern-change-log.csv');
+  assert(cl.rows.length >= 3);
+  const md = parseCsv('exam-pattern-missing-data.csv');
+  assert(md.rows.length >= 2);
+  const vh = parseCsv('exam-pattern-version-history.csv');
+  assert.strictEqual(vh.rows.length, 52);
+});
+
 runTest('SQLite database question count invariant is preserved at exactly 1,282 rows', () => {
   const count = db.prepare('SELECT COUNT(*) as cnt FROM questions').get().cnt;
   assert.strictEqual(count, 1282, `Database questions must remain exactly 1,282, got ${count}`);
@@ -261,12 +317,15 @@ runTest('PRAGMA integrity_check and foreign_key_check pass with zero errors', ()
 // -------------------------------------------------------------
 console.log('\n--- PART 6: HANDBOOK ARTIFACTS VALIDATION ---');
 
-runTest('exam-pattern-handbook.md contains all 30 mandatory chapters', () => {
+runTest('exam-pattern-handbook.md contains all 30 mandatory chapters and references all 52 exams', () => {
   assert(fs.existsSync('exam-pattern-handbook.md'));
   const mdContent = fs.readFileSync('exam-pattern-handbook.md', 'utf8');
   assert(mdContent.length > 15000, `Markdown handbook must be substantial (>15KB), got ${mdContent.length}`);
   for (let ch = 1; ch <= 30; ch++) {
     assert(mdContent.includes(`CHAPTER ${ch}:`), `Handbook must include Chapter ${ch}`);
+  }
+  for (const ex of dbExams) {
+    assert(mdContent.includes(ex.exam_id) || mdContent.includes(ex.name), `Handbook must cover ${ex.exam_id}`);
   }
 });
 
@@ -274,6 +333,36 @@ runTest('exam-pattern-handbook.pdf exists and is non-empty (>5KB)', () => {
   assert(fs.existsSync('exam-pattern-handbook.pdf'));
   const stat = fs.statSync('exam-pattern-handbook.pdf');
   assert(stat.size > 5000, `PDF size must be > 5KB, got ${stat.size} bytes`);
+});
+
+runTest('All 21 deliverables exist on disk with valid size', () => {
+  const deliverables = [
+    'COMPLETE_EXAM_INVENTORY.csv',
+    'EXAM_PATTERN_COVERAGE.csv',
+    'exam-pattern-registry.csv',
+    'board-pattern-registry.csv',
+    'exam-language-registry.csv',
+    'question-type-registry.csv',
+    'marking-rule-registry.csv',
+    'attempt-rule-registry.csv',
+    'internal-choice-registry.csv',
+    'practical-assessment-registry.csv',
+    'pdf-document-policy.csv',
+    'question-reconciliation.csv',
+    'source-verification.csv',
+    'source-conflict-registry.csv',
+    'exam-blueprints.json',
+    'exam-pattern-gap-report.csv',
+    'exam-pattern-change-log.csv',
+    'exam-pattern-missing-data.csv',
+    'exam-pattern-version-history.csv',
+    'exam-pattern-handbook.pdf',
+    'exam-pattern-validation-report.txt'
+  ];
+  for (const f of deliverables) {
+    assert(fs.existsSync(f), `Deliverable ${f} must exist`);
+    assert(fs.statSync(f).size > 100, `Deliverable ${f} must be non-trivial`);
+  }
 });
 
 // -------------------------------------------------------------

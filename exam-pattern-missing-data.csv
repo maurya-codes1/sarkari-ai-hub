@@ -1,0 +1,3 @@
+exam_id,exam_name,category,missing_element_type,description,impact_on_full_exam,resolution_strategy
+haryana-police,Haryana Police Constable,police,5TH_BUBBLE_PENALTY_VERIFICATION,Verification of exact unattempted question deduction algorithm across CBT vs Physical OMR shifts,Blocks Full Exam generation,Await HSSC 2026 recruitment final notification
+wb-police,West Bengal Police,police,NEPALI_MEDIUM_QUESTION_BANK,Syllabus has Nepali medium option but question corpus currently lacks certified Nepali translations,Blocks Nepali Medium Full Exam,Incorporate official WBPRB Nepali specimen papers
