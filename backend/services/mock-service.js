@@ -724,7 +724,9 @@ class MockService {
       testMode: session.test_mode,
       isAutoSubmit: Boolean(isAutoSubmit),
       status: isAutoSubmit ? 'EXPIRED' : 'SUBMITTED',
+      statusMessage: isAutoSubmit ? 'TIME EXPIRED — AUTO SUBMITTED' : 'SUBMITTED',
       summary: {
+        statusMessage: isAutoSubmit ? 'TIME EXPIRED — AUTO SUBMITTED' : 'SUBMITTED',
         totalQuestions: session.total_questions,
         questionsToAttempt: session.questions_to_attempt,
         attempted: totalAttempted,
@@ -767,6 +769,7 @@ class MockService {
       langContent = JSON.parse(qRow.language_content || '{}');
     } catch (e) {}
 
+    const sec = section || {};
     const primaryLang = languageConfig?.primary || 'hi';
     const secondaryLang = languageConfig?.secondary || 'en';
 
@@ -775,22 +778,22 @@ class MockService {
 
     const clientQ = {
       id: qRow.question_id,
-      sectionId: section.section_id,
-      sectionName: section.name,
+      sectionId: sec.section_id || sec.sectionId || 'sec-default',
+      sectionName: sec.name || 'Default Section',
       subjectId: qRow.subject_id,
-      subjectName: qRow.subject_name || section.name,
+      subjectName: qRow.subject_name || sec.name || 'General',
       questionType: qRow.question_type_id || 'single_mcq',
       q: pData.q || '',
       secondaryQ: sData.q && sData.q !== pData.q ? sData.q : '',
       options: pData.options || [],
       secondaryOptions: sData.options || [],
-      marksCorrect: section.marks_correct || 1.0,
-      marksWrong: section.is_negative_marking ? (section.negative_value || 0.25) : 0.0,
+      marksCorrect: sec.marks_correct !== undefined ? sec.marks_correct : (sec.marksCorrect !== undefined ? sec.marksCorrect : 1.0),
+      marksWrong: sec.is_negative_marking || sec.hasNegativeMarking ? (sec.negative_value || sec.negativeValue || 0.25) : 0.0,
       topic: qRow.topic_tags || 'High Yield Question'
     };
 
     // For practice sessions, include correct answer and explanation for immediate feedback
-    const isPracticeSession = isPractice || (section.section_id && section.section_id.startsWith('sec-practice'));
+    const isPracticeSession = isPractice || (sec.section_id && String(sec.section_id).startsWith('sec-practice'));
     if (isPracticeSession) {
       let parsedCorrectAns = {};
       try {
@@ -1063,6 +1066,87 @@ class MockService {
           shortageDetails
         }
       ]
+    };
+  }
+
+  /**
+   * Resumes and restores an in-progress Mock Test Session
+   * Preserves exam, version, component, sections, user answers, review flags, elapsed time.
+   */
+  restoreSession(sessionId) {
+    if (!sessionId) {
+      return { success: false, reason: 'SESSION_ID_REQUIRED', message: 'Session ID is required.' };
+    }
+
+    const session = mockSessionRepository.getSessionById(sessionId);
+    if (!session) {
+      return { success: false, reason: 'SESSION_NOT_FOUND', message: `Mock session '${sessionId}' not found.` };
+    }
+
+    if (session.status !== 'IN_PROGRESS') {
+      return {
+        success: false,
+        reason: 'SESSION_ALREADY_COMPLETED',
+        status: session.status,
+        message: 'This mock test session has already been completed or expired.',
+        scorecard: session.score_details || null
+      };
+    }
+
+    // Verify blueprint integrity
+    const blueprint = blueprintRepository.getBlueprintById(session.blueprint_id);
+    if (!blueprint) {
+      return {
+        success: false,
+        reason: 'BLUEPRINT_NOT_FOUND',
+        message: 'Session blueprint could not be verified.'
+      };
+    }
+
+    // Fetch session questions without exposing correct answer key
+    const questionRows = questionRepository.getQuestionsByIds(session.question_ids_json || []);
+    const questionsMap = new Map();
+    questionRows.forEach(q => questionsMap.set(q.question_id, q));
+
+    const restoredQuestions = [];
+    for (const qId of session.question_ids_json || []) {
+      const qRow = questionsMap.get(qId);
+      if (qRow) {
+        restoredQuestions.push(this._formatQuestionForClient(qRow, null, session.language_config));
+      }
+    }
+
+    const timeSpentSeconds = session.time_spent_seconds || 0;
+    const durationMinutes = session.duration_minutes || 60;
+    const totalDurationSeconds = durationMinutes * 60;
+    const timeRemainingSeconds = Math.max(0, totalDurationSeconds - timeSpentSeconds);
+
+    return {
+      success: true,
+      sessionId: session.session_id,
+      examId: session.exam_id,
+      examVersionId: session.exam_version_id,
+      blueprintId: session.blueprint_id,
+      testMode: session.test_mode,
+      status: session.status,
+      durationMinutes,
+      totalQuestions: session.total_questions,
+      questionsToAttempt: session.questions_to_attempt,
+      timeSpentSeconds,
+      timeRemainingSeconds,
+      sections: session.sections_json || [],
+      questions: restoredQuestions,
+      userAnswers: session.user_answers_json || {},
+      reviewFlags: session.review_flags_json || [],
+      languageConfig: session.language_config || { primary: 'hi', secondary: 'en' },
+      timerConfig: {
+        mode: 'COUNTDOWN',
+        durationMinutes,
+        totalSeconds: totalDurationSeconds,
+        remainingSeconds: timeRemainingSeconds,
+        autoSubmitOnExpiry: true
+      },
+      startedAt: session.started_at
     };
   }
 }
