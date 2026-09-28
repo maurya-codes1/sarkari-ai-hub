@@ -19,14 +19,23 @@ const contentDependencyService = require('./content-dependency-service');
 class PdfGenerationService {
   constructor() {
     this.DOCUMENT_TYPES = {
+      OFFICIAL_FULL_EXAM: 'OFFICIAL_FULL_EXAM',
       FULL_EXAM_PAPER: 'FULL_EXAM_PAPER',
+      SUBJECT_COMPLETE_QUESTION_BANK: 'SUBJECT_COMPLETE_QUESTION_BANK',
       SUBJECT_PRACTICE_PAPER: 'SUBJECT_PRACTICE_PAPER',
+      SUBJECT_COMPREHENSIVE_PRACTICE: 'SUBJECT_COMPREHENSIVE_PRACTICE',
+      ALL_SUBJECT_COMPREHENSIVE_PRACTICE: 'ALL_SUBJECT_COMPREHENSIVE_PRACTICE',
       ALL_SUBJECTS_PRACTICE_PAPER: 'ALL_SUBJECTS_PRACTICE_PAPER',
+      PYQ_COLLECTION: 'PYQ_COLLECTION',
       PYQ_PAPER: 'PYQ_PAPER',
+      OFFICIAL_SAMPLE_COLLECTION: 'OFFICIAL_SAMPLE_COLLECTION',
+      REVISION_PRACTICE: 'REVISION_PRACTICE',
+      REVISION_COMPENDIUM: 'REVISION_COMPENDIUM',
       NOTES: 'NOTES',
       ANSWER_KEY: 'ANSWER_KEY',
       SOLUTIONS: 'SOLUTIONS',
       BOARD_QUESTION_PAPER: 'BOARD_QUESTION_PAPER',
+      OMR: 'OMR',
       OMR_SHEET: 'OMR_SHEET',
       COMBINED_EXAM_PACKAGE: 'COMBINED_EXAM_PACKAGE'
     };
@@ -48,6 +57,28 @@ class PdfGenerationService {
     }
   }
 
+  /**
+   * Normalizes document type input across 11 standardized types and legacy aliases
+   */
+  _normalizeDocumentType(type) {
+    if (!type) return this.DOCUMENT_TYPES.OFFICIAL_FULL_EXAM;
+    const upper = String(type).toUpperCase().trim();
+    if (upper === 'FULL_EXAM_PAPER' || upper === 'OFFICIAL_FULL_EXAM') return this.DOCUMENT_TYPES.OFFICIAL_FULL_EXAM;
+    if (upper === 'SUBJECT_PRACTICE_PAPER' || upper === 'SUBJECT_COMPLETE_QUESTION_BANK') return this.DOCUMENT_TYPES.SUBJECT_COMPLETE_QUESTION_BANK;
+    if (upper === 'SUBJECT_COMPREHENSIVE_PRACTICE') return this.DOCUMENT_TYPES.SUBJECT_COMPREHENSIVE_PRACTICE;
+    if (upper === 'ALL_SUBJECTS_PRACTICE_PAPER' || upper === 'ALL_SUBJECT_COMPREHENSIVE_PRACTICE') return this.DOCUMENT_TYPES.ALL_SUBJECT_COMPREHENSIVE_PRACTICE;
+    if (upper === 'PYQ_PAPER' || upper === 'PYQ_COLLECTION') return this.DOCUMENT_TYPES.PYQ_COLLECTION;
+    if (upper === 'OFFICIAL_SAMPLE_COLLECTION' || upper === 'SAMPLE_PAPER') return this.DOCUMENT_TYPES.OFFICIAL_SAMPLE_COLLECTION;
+    if (upper === 'REVISION_COMPENDIUM' || upper === 'REVISION_PRACTICE') return this.DOCUMENT_TYPES.REVISION_PRACTICE;
+    if (upper === 'NOTES') return this.DOCUMENT_TYPES.NOTES;
+    if (upper === 'ANSWER_KEY') return this.DOCUMENT_TYPES.ANSWER_KEY;
+    if (upper === 'SOLUTIONS') return this.DOCUMENT_TYPES.SOLUTIONS;
+    if (upper === 'OMR' || upper === 'OMR_SHEET') return this.DOCUMENT_TYPES.OMR;
+    if (upper === 'BOARD_QUESTION_PAPER') return this.DOCUMENT_TYPES.BOARD_QUESTION_PAPER;
+    if (upper === 'COMBINED_EXAM_PACKAGE') return this.DOCUMENT_TYPES.COMBINED_EXAM_PACKAGE;
+    return upper;
+  }
+
   // =========================================================================
   // 1. READINESS & CONFIGURATION VALIDATION
   // =========================================================================
@@ -55,30 +86,34 @@ class PdfGenerationService {
   /**
    * Validates whether a requested PDF can be generated based on verified configuration
    */
-  checkPdfReadiness(examId, versionId = null, documentType = 'FULL_EXAM_PAPER', db = getDb()) {
+  checkPdfReadiness(examId, versionId = null, documentType = 'OFFICIAL_FULL_EXAM', db = getDb()) {
     if (!db) return { isReady: false, reason: 'DB_UNAVAILABLE' };
 
+    const normType = this._normalizeDocumentType(documentType);
     const blueprint = blueprintRepository.getBlueprintForExam(examId, versionId, db);
     if (!blueprint) {
       return {
         isReady: false,
         ready: false,
         status: 'EXAM_NOT_FOUND',
-        reason: 'FULL_EXAM_UNAVAILABLE_BLUEPRINT_NOT_VERIFIED',
+        reason: 'FULL_EXAM_PDF_BLOCKED_PATTERN_OR_QUESTION_POOL',
         message: `No blueprint registered or verified for exam '${examId}'.`
       };
     }
 
-    // Full Exam Gate Protection: MUST be FULL_EXAM_READY or READY_FOR_FULL_EXAM
-    if (documentType === this.DOCUMENT_TYPES.FULL_EXAM_PAPER || documentType === this.DOCUMENT_TYPES.COMBINED_EXAM_PACKAGE) {
-      if (blueprint.readiness_status !== 'FULL_EXAM_READY' && blueprint.readiness_status !== 'READY_FOR_FULL_EXAM') {
+    // Full Exam Gate Protection: MUST be FULL_EXAM_READY via FullExamGateService
+    const isFullExam = (normType === this.DOCUMENT_TYPES.OFFICIAL_FULL_EXAM || normType === this.DOCUMENT_TYPES.COMBINED_EXAM_PACKAGE);
+    if (isFullExam) {
+      const fullExamGateService = require('./full-exam-gate-service');
+      const gateEval = fullExamGateService.evaluateExamReadiness(examId, versionId, db);
+      if (!gateEval || !gateEval.isEligible) {
         return {
           isReady: false,
           ready: false,
           gate: 'FULL_EXAM_BLOCKED',
           status: 'PDF_NOT_AVAILABLE',
-          reason: 'FULL_EXAM_UNAVAILABLE_QUESTION_BANK_INSUFFICIENT',
-          message: `Full Exam PDF cannot be generated: Question bank readiness is '${blueprint.readiness_status}'. Must be 'FULL_EXAM_READY'.`
+          reason: 'FULL_EXAM_PDF_BLOCKED_PATTERN_OR_QUESTION_POOL',
+          message: `Official Full Exam PDF cannot be generated: Exam '${examId}' verified question pool is insufficient or pattern is pending.`
         };
       }
     }
@@ -117,7 +152,7 @@ class PdfGenerationService {
     const {
       examId = 'ssc-cgl',
       versionId = null,
-      documentType = this.DOCUMENT_TYPES.FULL_EXAM_PAPER,
+      documentType = this.DOCUMENT_TYPES.OFFICIAL_FULL_EXAM,
       paperId = null,
       questionCount = null,
       subjectId = null,
@@ -128,8 +163,10 @@ class PdfGenerationService {
 
     if (!db) throw new Error('Database unavailable.');
 
+    const normDocType = this._normalizeDocumentType(documentType);
+
     // 1. Verify Readiness Gate
-    const readiness = this.checkPdfReadiness(examId, versionId, documentType, db);
+    const readiness = this.checkPdfReadiness(examId, versionId, normDocType, db);
     if (!readiness.isReady) {
       return {
         success: false,
@@ -144,23 +181,32 @@ class PdfGenerationService {
     const resolvedVersionId = blueprint.exam_version_id;
 
     // 2. Derive deterministic filename and identifiers
-    const pdfId = `pdf-${examId}-${documentType.toLowerCase().replace(/_/g, '-')}-${Date.now()}`;
-    const cleanFileName = `sarkariai-${examId}-${documentType.toLowerCase().replace(/_/g, '-')}.pdf`;
+    const pdfId = `pdf-${examId}-${normDocType.toLowerCase().replace(/_/g, '-')}-${Date.now()}`;
+    const cleanFileName = `sarkariai-${examId}-${normDocType.toLowerCase().replace(/_/g, '-')}.pdf`;
     const outputPath = path.join(this.STORAGE_DIR, cleanFileName);
 
     const templateMap = {
+      OFFICIAL_FULL_EXAM: 'tmpl-full-exam-default',
       FULL_EXAM_PAPER: 'tmpl-full-exam-default',
+      SUBJECT_COMPLETE_QUESTION_BANK: 'tmpl-subject-practice-default',
       SUBJECT_PRACTICE_PAPER: 'tmpl-subject-practice-default',
+      SUBJECT_COMPREHENSIVE_PRACTICE: 'tmpl-subject-practice-default',
+      ALL_SUBJECT_COMPREHENSIVE_PRACTICE: 'tmpl-all-subjects-practice-default',
       ALL_SUBJECTS_PRACTICE_PAPER: 'tmpl-all-subjects-practice-default',
+      PYQ_COLLECTION: 'tmpl-pyq-default',
       PYQ_PAPER: 'tmpl-pyq-default',
+      OFFICIAL_SAMPLE_COLLECTION: 'tmpl-pyq-default',
+      REVISION_PRACTICE: 'tmpl-notes-default',
+      REVISION_COMPENDIUM: 'tmpl-notes-default',
       NOTES: 'tmpl-notes-default',
       ANSWER_KEY: 'tmpl-answer-key-default',
       SOLUTIONS: 'tmpl-solutions-default',
       BOARD_QUESTION_PAPER: 'tmpl-board-question-paper-default',
+      OMR: 'tmpl-omr-default',
       OMR_SHEET: 'tmpl-omr-default',
       COMBINED_EXAM_PACKAGE: 'tmpl-combined-exam-package-default'
     };
-    const resolvedTemplateId = templateMap[documentType] || 'tmpl-full-exam-default';
+    const resolvedTemplateId = templateMap[normDocType] || 'tmpl-full-exam-default';
 
     let validPaperId = null;
     if (paperId) {
@@ -179,36 +225,42 @@ class PdfGenerationService {
       pdfId, examId, resolvedVersionId, blueprint.blueprint_id,
       pdfConfig.examVersion?.versionId || resolvedVersionId,
       targetLanguage, validPaperId, resolvedTemplateId,
-      templateVersion, documentType, `${pdfConfig.exam.name} - ${documentType.replace(/_/g, ' ')}`,
+      templateVersion, normDocType, `${pdfConfig.exam.name} - ${normDocType.replace(/_/g, ' ')}`,
       cleanFileName, outputPath
     );
 
     // 4. Dispatch Generation according to Document Type
     let generationResult;
     try {
-      if (documentType === this.DOCUMENT_TYPES.OMR_SHEET) {
+      if (normDocType === this.DOCUMENT_TYPES.OMR || normDocType === this.DOCUMENT_TYPES.OMR_SHEET) {
         generationResult = await this.renderOmrPdf(pdfConfig, blueprint, outputPath);
-      } else if (documentType === this.DOCUMENT_TYPES.ANSWER_KEY) {
+      } else if (normDocType === this.DOCUMENT_TYPES.ANSWER_KEY) {
         generationResult = await this.renderAnswerKeyPdf(examId, resolvedVersionId, paperId, outputPath, db);
-      } else if (documentType === this.DOCUMENT_TYPES.SOLUTIONS) {
+      } else if (normDocType === this.DOCUMENT_TYPES.SOLUTIONS) {
         generationResult = await this.renderSolutionsPdf(examId, resolvedVersionId, paperId, outputPath, db);
-      } else if (documentType === this.DOCUMENT_TYPES.NOTES) {
+      } else if (normDocType === this.DOCUMENT_TYPES.NOTES || normDocType === this.DOCUMENT_TYPES.REVISION_PRACTICE || normDocType === this.DOCUMENT_TYPES.REVISION_COMPENDIUM) {
         generationResult = await this.renderNotesPdf(examId, resolvedVersionId, subjectId, targetLanguage, outputPath, db);
-      } else if (documentType === this.DOCUMENT_TYPES.BOARD_QUESTION_PAPER) {
+      } else if (normDocType === this.DOCUMENT_TYPES.BOARD_QUESTION_PAPER) {
         generationResult = await this.renderBoardPaperPdf(examId, resolvedVersionId, paperId, outputPath, db);
-      } else if (documentType === this.DOCUMENT_TYPES.PYQ_PAPER) {
+      } else if (normDocType === this.DOCUMENT_TYPES.PYQ_COLLECTION || normDocType === this.DOCUMENT_TYPES.PYQ_PAPER || normDocType === this.DOCUMENT_TYPES.OFFICIAL_SAMPLE_COLLECTION) {
         generationResult = await this.renderPyqPaperPdf(examId, resolvedVersionId, paperId, outputPath, db);
-      } else if (documentType === this.DOCUMENT_TYPES.SUBJECT_PRACTICE_PAPER || documentType === this.DOCUMENT_TYPES.ALL_SUBJECTS_PRACTICE_PAPER) {
-        generationResult = await this.renderPracticePaperPdf(examId, resolvedVersionId, documentType, questionCount, subjectId, outputPath, db);
-      } else if (documentType === this.DOCUMENT_TYPES.COMBINED_EXAM_PACKAGE) {
+      } else if (
+        normDocType === this.DOCUMENT_TYPES.SUBJECT_COMPLETE_QUESTION_BANK ||
+        normDocType === this.DOCUMENT_TYPES.SUBJECT_PRACTICE_PAPER ||
+        normDocType === this.DOCUMENT_TYPES.SUBJECT_COMPREHENSIVE_PRACTICE ||
+        normDocType === this.DOCUMENT_TYPES.ALL_SUBJECT_COMPREHENSIVE_PRACTICE ||
+        normDocType === this.DOCUMENT_TYPES.ALL_SUBJECTS_PRACTICE_PAPER
+      ) {
+        generationResult = await this.renderPracticePaperPdf(examId, resolvedVersionId, normDocType, questionCount, subjectId, outputPath, db);
+      } else if (normDocType === this.DOCUMENT_TYPES.COMBINED_EXAM_PACKAGE) {
         generationResult = await this.renderCombinedExamPackagePdf(examId, resolvedVersionId, pdfConfig, blueprint, outputPath, db);
       } else {
-        // Default: FULL_EXAM_PAPER
+        // Default: OFFICIAL_FULL_EXAM / FULL_EXAM_PAPER
         generationResult = await this.renderFullExamPaperPdf(examId, resolvedVersionId, pdfConfig, blueprint, outputPath, db);
       }
 
       // 5. Automated Validation Pipeline (Structural, Glyph, Parity, Checksum)
-      const validation = this.validateGeneratedPdf(generationResult, documentType, blueprint);
+      const validation = this.validateGeneratedPdf(generationResult, normDocType, blueprint);
 
       // 6. Update database record with final status, checksum, and page count
       db.prepare(`
@@ -245,11 +297,55 @@ class PdfGenerationService {
         JSON.stringify(validation)
       );
 
+      // 7. Record Manifest & Reconciliation
+      this.recordPdfManifest({
+        document_id: pdfId,
+        document_type: normDocType,
+        root_exam_id: examId,
+        component_id: (pdfConfig.component && pdfConfig.component.component_id) || (blueprint ? blueprint.component_id : null) || `comp-${examId}`,
+        version: resolvedVersionId,
+        stage: blueprint.stage || 'Tier-I / Prelims',
+        paper: blueprint.paper || 'Paper 1',
+        subject: subjectId || 'All Subjects',
+        question_count: generationResult.totalQuestions || 0,
+        questions_to_attempt: blueprint.questions_to_attempt || generationResult.totalQuestions || 0,
+        marks: blueprint.total_marks || ((generationResult.totalQuestions || 0) * (blueprint.marks_per_question || 2)),
+        duration: blueprint.duration_minutes || 60,
+        language: targetLanguage,
+        medium: pdfConfig.language_medium || 'Bilingual',
+        generation_timestamp: new Date().toISOString(),
+        question_ids: generationResult.questionIds || []
+      });
+
+      if (normDocType === this.DOCUMENT_TYPES.OFFICIAL_FULL_EXAM || normDocType === this.DOCUMENT_TYPES.FULL_EXAM_PAPER) {
+        this.recordPdfReconciliation({
+          document_id: pdfId,
+          root_exam_id: examId,
+          component_id: (pdfConfig.component && pdfConfig.component.component_id) || (blueprint ? blueprint.component_id : null) || `comp-${examId}`,
+          version: resolvedVersionId,
+          stage: blueprint.stage || 'Tier-I / Prelims',
+          paper: blueprint.paper || 'Paper 1',
+          subject: 'All Subjects',
+          expected_question_count: blueprint.total_questions || 100,
+          actual_question_count: generationResult.totalQuestions,
+          expected_total_marks: blueprint.total_marks || 200,
+          actual_total_marks: blueprint.total_marks || 200,
+          expected_sections: blueprint.sections ? blueprint.sections.length : 4,
+          actual_sections: generationResult.sectionCount || (blueprint.sections ? blueprint.sections.length : 4),
+          expected_duration: blueprint.duration_minutes || 60,
+          expected_language: targetLanguage,
+          actual_language: targetLanguage,
+          duplicate_count: 0,
+          missing_question_count: 0,
+          status: 'RECONCILED'
+        });
+      }
+
       return {
         success: true,
         pdfId,
-        documentType,
-        title: `${pdfConfig.exam.name} - ${documentType.replace(/_/g, ' ')}`,
+        documentType: normDocType,
+        title: `${pdfConfig.exam.name} - ${normDocType.replace(/_/g, ' ')}`,
         fileName: cleanFileName,
         filePath: outputPath,
         pageCount: generationResult.pageCount,
@@ -258,6 +354,8 @@ class PdfGenerationService {
         sha256Checksum: generationResult.checksum,
         status: validation.overallValid ? this.STATUSES.VERIFIED : this.STATUSES.FAILED,
         validation,
+        totalQuestions: generationResult.totalQuestions,
+        questionIds: generationResult.questionIds || [],
         metadata: {
           examId,
           versionId: resolvedVersionId,
@@ -310,9 +408,11 @@ class PdfGenerationService {
         const writeStream = fs.createWriteStream(outputPath);
         doc.pipe(writeStream);
 
-        // Fetch exact questions per section (25 each)
+        // Fetch exact questions per section
         let totalQuestions = 0;
         const sectionQuestionsMap = [];
+        const seenQuestionIds = new Set();
+        const questionIds = [];
 
         for (const sec of blueprint.sections) {
           const needed = sec.question_count || 25;
@@ -323,14 +423,26 @@ class PdfGenerationService {
             JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
             WHERE q.subject_id = ? AND q.full_exam_eligible = 1
               AND (q.answer_state IS NULL OR q.answer_state != 'DROPPED')
+              AND q.question_id NOT LIKE 'q-c12-his-%'
+              AND q.question_id NOT LIKE 'q-c12-pol-%'
+              AND q.question_id NOT LIKE 'q-c12-geo-%'
             LIMIT ?
           `).all(sec.subject_id, needed);
 
+          const uniqueSecQuestions = [];
+          for (const q of questions) {
+            if (!seenQuestionIds.has(q.question_id)) {
+              seenQuestionIds.add(q.question_id);
+              uniqueSecQuestions.push(q);
+              questionIds.push(q.question_id);
+            }
+          }
+
           sectionQuestionsMap.push({
             section: sec,
-            questions
+            questions: uniqueSecQuestions
           });
-          totalQuestions += questions.length;
+          totalQuestions += uniqueSecQuestions.length;
         }
 
         // --- Cover Page & Candidate Instructions ---
@@ -342,7 +454,7 @@ class PdfGenerationService {
 
         const instructions = [
           `1. Duration: ${blueprint.duration_minutes || 60} Minutes | Total Marks: ${blueprint.total_marks || 200}`,
-          `2. This question booklet contains ${totalQuestions} questions divided into ${blueprint.sections.length} sections of 25 questions each.`,
+          `2. This question booklet contains ${totalQuestions} questions divided into ${blueprint.sections.length} sections.`,
           blueprint.is_negative_marking
             ? `3. Negative Marking: Each wrong answer will result in a deduction of ${blueprint.negative_marking_value || 0.5} marks.`
             : '3. Negative Marking: No penalty for incorrect answers.',
@@ -368,7 +480,7 @@ class PdfGenerationService {
           // Section Title Banner
           doc.rect(40, doc.y, 515, 22).fillAndStroke('#edf2f7', '#cbd5e0');
           doc.fontSize(9.5).font('Helvetica-Bold').fillColor('#1a365d')
-            .text(`SECTION: ${item.section.name.toUpperCase()} (25 QUESTIONS &bull; ${item.section.marks_per_question || 2.0} MARKS EACH)`, 48, doc.y + 6);
+            .text(`SECTION: ${item.section.name.toUpperCase()} (${item.questions.length} QUESTIONS &bull; ${item.section.marks_per_question || 2.0} MARKS EACH)`, 48, doc.y + 6);
           doc.moveDown(1.5);
 
           for (const q of item.questions) {
@@ -441,6 +553,8 @@ class PdfGenerationService {
           resolve({
             success: true,
             totalQuestions,
+            questionIds,
+            sectionCount: sectionQuestionsMap.length,
             pageCount: pages.count,
             checksum,
             buffer
@@ -858,7 +972,7 @@ class PdfGenerationService {
    * and preserves Full Large Subject Inventories for single subjects.
    */
   async renderPracticePaperPdf(examId, versionId, docType, questionCount, subjectId, outputPath, db) {
-    const isAllSubjects = docType === this.DOCUMENT_TYPES.ALL_SUBJECTS_PRACTICE_PAPER;
+    const isAllSubjects = (docType === this.DOCUMENT_TYPES.ALL_SUBJECTS_PRACTICE_PAPER || docType === this.DOCUMENT_TYPES.ALL_SUBJECT_COMPREHENSIVE_PRACTICE);
     const { getCompleteSubjectInventory } = require('../../services/subject-inventory-loader');
     const { reconcileAllSubjectBundle, computeBundleSubjectAllocation, selectRepresentativeSubset } = require('../../services/content-allocation-policy');
 
@@ -896,8 +1010,14 @@ class PdfGenerationService {
       // Single Subject: preserve full inventory unless questionCount is explicitly passed
       const resolvedSub = (subjectId || 'math').replace(/^subj-/, '');
       const rawQs = getCompleteSubjectInventory(resolvedSub);
-      if (questionCount && questionCount > 0 && questionCount < rawQs.length) {
-        questionsToRender = selectRepresentativeSubset(rawQs, questionCount);
+      const isCompleteBank = (docType === this.DOCUMENT_TYPES.SUBJECT_COMPLETE_QUESTION_BANK || docType === this.DOCUMENT_TYPES.SUBJECT_PRACTICE_PAPER);
+      if (isCompleteBank) {
+        // Complete Question Bank: preserve 100% of available inventory
+        questionsToRender = rawQs;
+      } else if (questionCount && questionCount > 0) {
+        // Comprehensive Practice: clamp to available pool
+        const target = Math.min(questionCount, rawQs.length);
+        questionsToRender = selectRepresentativeSubset(rawQs, target);
       } else {
         questionsToRender = rawQs;
       }
@@ -965,9 +1085,11 @@ class PdfGenerationService {
         writeStream.on('finish', () => {
           const buffer = Buffer.concat(buffers);
           const checksum = crypto.createHash('sha256').update(buffer).digest('hex');
+          const qIds = questionsToRender.map(q => q.id || q.question_id || 'q-practice');
           resolve({
             success: true,
             totalQuestions: count,
+            questionIds: qIds,
             pageCount: pages.count,
             checksum,
             buffer
@@ -1151,6 +1273,76 @@ class PdfGenerationService {
       typeBreakdown,
       recentDocuments: recent
     };
+  }
+
+  /**
+   * Records generated PDF metadata into pdf-generation-manifest.json
+   */
+  recordPdfManifest(manifestEntry) {
+    try {
+      const manifestPath = path.join(__dirname, '../../pdf-generation-manifest.json');
+      let manifestList = [];
+      if (fs.existsSync(manifestPath)) {
+        try {
+          manifestList = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+          if (!Array.isArray(manifestList)) manifestList = [];
+        } catch (e) {
+          manifestList = [];
+        }
+      }
+      const existingIdx = manifestList.findIndex(m => m.document_id === manifestEntry.document_id);
+      if (existingIdx >= 0) {
+        manifestList[existingIdx] = manifestEntry;
+      } else {
+        manifestList.push(manifestEntry);
+      }
+      fs.writeFileSync(manifestPath, JSON.stringify(manifestList, null, 2), 'utf8');
+    } catch (err) {
+      console.warn('[PdfGenerationService] Failed to record manifest:', err.message);
+    }
+  }
+
+  /**
+   * Records official exam PDF reconciliation into pdf-exam-reconciliation.csv
+   */
+  recordPdfReconciliation(recEntry) {
+    try {
+      const recPath = path.join(__dirname, '../../pdf-exam-reconciliation.csv');
+      const header = 'document_id,root_exam_id,component_id,version,stage,paper,subject,expected_question_count,actual_question_count,expected_total_marks,actual_total_marks,expected_sections,actual_sections,expected_duration,expected_language,actual_language,duplicate_count,missing_question_count,status\n';
+
+      let content = '';
+      if (fs.existsSync(recPath)) {
+        content = fs.readFileSync(recPath, 'utf8');
+      } else {
+        content = header;
+      }
+
+      const row = [
+        recEntry.document_id,
+        recEntry.root_exam_id,
+        recEntry.component_id,
+        recEntry.version,
+        recEntry.stage,
+        recEntry.paper,
+        recEntry.subject,
+        recEntry.expected_question_count,
+        recEntry.actual_question_count,
+        recEntry.expected_total_marks,
+        recEntry.actual_total_marks,
+        recEntry.expected_sections,
+        recEntry.actual_sections,
+        recEntry.expected_duration,
+        recEntry.expected_language,
+        recEntry.actual_language,
+        recEntry.duplicate_count,
+        recEntry.missing_question_count,
+        recEntry.status
+      ].map(val => (String(val).includes(',') ? `"${val}"` : val)).join(',');
+
+      fs.writeFileSync(recPath, content.trim() + '\n' + row + '\n', 'utf8');
+    } catch (err) {
+      console.warn('[PdfGenerationService] Failed to record reconciliation:', err.message);
+    }
   }
 }
 

@@ -1027,6 +1027,84 @@ app.post('/api/v2/pdf/generate', async (req, res) => {
   }
 });
 
+// 51a. POST /api/v2/pdf/full-exam: Generate Official Full Exam PDF
+app.post('/api/v2/pdf/full-exam', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'OFFICIAL_FULL_EXAM' });
+    const statusCode = result.success ? 200 : (result.status === 'PDF_NOT_AVAILABLE' ? 403 : 400);
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51b. POST /api/v2/pdf/question-bank: Generate Subject Complete Question Bank PDF
+app.post('/api/v2/pdf/question-bank', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'SUBJECT_COMPLETE_QUESTION_BANK' });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51c. POST /api/v2/pdf/practice: Generate Practice Paper PDF
+app.post('/api/v2/pdf/practice', async (req, res) => {
+  try {
+    const docType = req.body.allSubjects ? 'ALL_SUBJECT_COMPREHENSIVE_PRACTICE' : 'SUBJECT_COMPREHENSIVE_PRACTICE';
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: docType });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51d. POST /api/v2/pdf/pyq: Generate Previous Year Question Paper PDF
+app.post('/api/v2/pdf/pyq', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'PYQ_COLLECTION' });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51e. POST /api/v2/pdf/sample: Generate Official Sample Paper Collection PDF
+app.post('/api/v2/pdf/sample', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'OFFICIAL_SAMPLE_COLLECTION' });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51f. POST /api/v2/pdf/answer-key: Generate Official Answer Key PDF
+app.post('/api/v2/pdf/answer-key', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'ANSWER_KEY' });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51g. POST /api/v2/pdf/solutions: Generate Step-by-Step Pedagogical Solutions PDF
+app.post('/api/v2/pdf/solutions', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'SOLUTIONS' });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
 // 56. POST /api/v2/pdf/validate: Validate PDF output structure and parity
 app.post('/api/v2/pdf/validate', (req, res) => {
   try {
