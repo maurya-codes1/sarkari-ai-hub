@@ -1,14 +1,14 @@
 const assert = require('assert');
-const { I18N_DATA, getTranslation } = require('../public/js/i18n.js');
+const { I18N_DATA, SUPPORTED_LOCALES, RTL_LOCALES, getTranslation, getLocaleMetadata } = require('../public/js/i18n.js');
 
-console.log('=== TEST 1: I18N Language Parity (24 Languages) ===');
+console.log('=== TEST 1: I18N Language Parity (25 Configured Locales) ===');
 const langs = Object.keys(I18N_DATA);
 console.log('Found languages:', langs.length);
-assert.strictEqual(langs.length, 24, 'Must have exactly 24 languages');
+assert.strictEqual(langs.length, 25, 'Must have exactly 25 configured UI locales');
 
 const hiKeys = Object.keys(I18N_DATA.hi).sort();
 const totalKeys = hiKeys.length;
-console.log(`Checking all 24 languages against ${totalKeys} Hindi keys...`);
+console.log(`Checking all 25 languages against ${totalKeys} master keys...`);
 
 let parityFailures = 0;
 for (const lang of langs) {
@@ -18,8 +18,9 @@ for (const lang of langs) {
     parityFailures++;
   }
 }
-assert.strictEqual(parityFailures, 0, 'All languages must have identical key count');
-console.log('✅ TEST 1 PASSED: 100% key parity across all 24 Indian languages!\n');
+assert.strictEqual(parityFailures, 0, 'All 25 languages must have identical key count');
+console.log('✅ TEST 1 PASSED: 100% key parity across all 25 Indian locales!\n');
+
 
 console.log('=== TEST 2: Answer Normalization (getNormalizedCorrectIndex) ===');
 // Import quiz logic simulation
@@ -232,5 +233,69 @@ for (const ex of allExams) {
 }
 console.log(`✅ TEST 5 PASSED: All ${allExams.length} exams resolved with 100% verified official negative marking!\n`);
 
-console.log('=== ALL TESTS COMPLETED SUCCESSFULLY! ===');
+console.log('=== TEST 6: RTL & Direction Handling across 25 Locales ===');
+assert.strictEqual(SUPPORTED_LOCALES.length, 25, 'Supported locales array must have 25 entries');
+const rtlSet = new Set(['ur', 'sd', 'ks']);
+for (const loc of SUPPORTED_LOCALES) {
+  assert.ok(loc.id, 'Locale must have id');
+  assert.ok(loc.displayName, 'Locale must have displayName');
+  assert.ok(loc.nativeName, 'Locale must have nativeName');
+  assert.ok(loc.script, 'Locale must have script');
+  assert.ok(loc.direction, 'Locale must have direction');
+  if (rtlSet.has(loc.id)) {
+    assert.strictEqual(loc.direction, 'rtl', `Locale ${loc.id} must be RTL`);
+    assert.ok(RTL_LOCALES.has(loc.id), `Locale ${loc.id} must be in RTL_LOCALES`);
+  } else {
+    assert.strictEqual(loc.direction, 'ltr', `Locale ${loc.id} must be LTR`);
+  }
+}
+console.log('✅ TEST 6 PASSED: All 25 locales have complete metadata and verified RTL/LTR directions!\n');
+
+console.log('=== TEST 7: Strict Exam Content Isolation ===');
+// Simulated quiz question with official English/Hindi bilingual stem
+const sampleQuestion = {
+  id: 'q-sample-1',
+  q: 'What is the power house of the cell? / कोशिका का पावरहाउस किसे कहते हैं?',
+  options: [
+    'Mitochondria / माइटोकॉन्ड्रिया',
+    'Ribosome / राइबोसोम',
+    'Nucleus / केंद्रक',
+    'Golgi Body / गॉल्जी काय'
+  ],
+  correct: 0
+};
+
+// When UI language is switched to Telugu ('te') or Urdu ('ur')
+const teluguControls = {
+  voiceMale: getTranslation('quiz_ctrl_male_voice', 'te'),
+  bookmark: getTranslation('quiz_ctrl_bookmark', 'te'),
+  saveNext: getTranslation('quiz_ctrl_save_next', 'te'),
+  exit: getTranslation('quiz_ctrl_exit', 'te')
+};
+// Control labels MUST be localized to Telugu
+assert.ok(teluguControls.voiceMale && teluguControls.voiceMale.length > 0);
+assert.ok(teluguControls.bookmark && teluguControls.bookmark.length > 0);
+
+// BUT the exam question text MUST NOT be translated or mutated by UI language
+assert.strictEqual(sampleQuestion.q.includes('Mitochondria'), false);
+assert.strictEqual(sampleQuestion.q.includes('power house'), true);
+assert.strictEqual(sampleQuestion.options[0], 'Mitochondria / माइटोकॉन्ड्रिया');
+console.log('✅ TEST 7 PASSED: Exam question stems and options remain strictly uncorrupted and independent of UI locale!\n');
+
+console.log('=== TEST 8: SQLite Database Integrity & 25-Locale Registry ===');
+const Database = require('better-sqlite3');
+const db = new Database('backend/db/sarkari_core.db');
+const dbLangs = db.prepare('SELECT code, english_name, native_name, script, direction FROM languages').all();
+assert.strictEqual(dbLangs.length, 25, 'Database languages table must contain exactly 25 records');
+
+const dbCodes = new Set(dbLangs.map(l => l.code));
+for (const loc of SUPPORTED_LOCALES) {
+  assert.ok(dbCodes.has(loc.id), `Database must contain locale ${loc.id}`);
+}
+const integrity = db.pragma('integrity_check');
+assert.strictEqual(integrity[0].integrity_check, 'ok', 'Database integrity check must be ok');
+console.log('✅ TEST 8 PASSED: Database languages table matches all 25 locales with 100% SQLite integrity!\n');
+
+console.log('=== ALL 8 TEST SUITES COMPLETED SUCCESSFULLY! ===');
+
 

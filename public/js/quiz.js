@@ -1600,7 +1600,9 @@ function renderActiveQuestion() {
   const currLang = typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : (localStorage.getItem('sarkariai_lang') || 'hi');
   const counterEl = document.getElementById('quizQuestionCounter');
   if (counterEl) {
-    counterEl.textContent = currLang === 'en' ? `Question ${currentNum} of ${total}` : `प्रश्न ${currentNum} / ${total}`;
+    const qWord = typeof getTranslation === 'function' ? (getTranslation('quiz_question_label') || 'Question') : 'Question';
+    const ofWord = currLang === 'en' ? 'of' : '/';
+    counterEl.textContent = `${qWord} ${currentNum} ${ofWord} ${total}`;
   }
   const pct = Math.round((currentNum / total) * 100);
   document.getElementById('quizProgressBar').style.width = `${pct}%`;

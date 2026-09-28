@@ -36,10 +36,41 @@
         </a>
       </div>
       <div class="flex items-center space-x-3">
-        <a href="/adaptive-practice.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-saffron-300 border border-slate-700 transition">🧠 Adaptive Practice</a>
-        <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition">📅 Study Planner</a>
-        <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition">🗺️ Exam Coverage</a>
-        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+        <a href="/adaptive-practice.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-saffron-300 border border-slate-700 transition" data-i18n="nav_adaptive">🧠 Adaptive Practice</a>
+        <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition" data-i18n="nav_planner_leitner">📅 Study Planner</a>
+        <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition" data-i18n="nav_matrix">🗺️ Exam Coverage</a>
+        <!-- Global 25-Language Switcher Dropdown -->
+        <div class="relative flex items-center bg-slate-900 border-2 border-amber-400/80 rounded-2xl px-2.5 sm:px-3 py-1.5 shadow-md">
+          <span class="text-xs sm:text-sm mr-1">🌐</span>
+          <select id="langSelectDropdown" class="bg-transparent text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-1">
+            <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
+            <option value="en" class="text-slate-900 bg-white font-bold">English</option>
+            <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
+            <option value="ta" class="text-slate-900 bg-white font-bold">தமிழ் (Tamil)</option>
+            <option value="te" class="text-slate-900 bg-white font-bold">తెలుగు (Telugu)</option>
+            <option value="mr" class="text-slate-900 bg-white font-bold">मराठी (Marathi)</option>
+            <option value="bn" class="text-slate-900 bg-white font-bold">বাংলা (Bengali)</option>
+            <option value="gu" class="text-slate-900 bg-white font-bold">ગુજરાતી (Gujarati)</option>
+            <option value="kn" class="text-slate-900 bg-white font-bold">ಕನ್ನಡ (Kannada)</option>
+            <option value="ml" class="text-slate-900 bg-white font-bold">മലയാളം (Malayalam)</option>
+            <option value="pa" class="text-slate-900 bg-white font-bold">ਪੰਜਾਬੀ (Punjabi)</option>
+            <option value="ur" class="text-slate-900 bg-white font-bold">اردو (Urdu)</option>
+            <option value="or" class="text-slate-900 bg-white font-bold">ଓଡ଼ିଆ (Odia)</option>
+            <option value="sa" class="text-slate-900 bg-white font-bold">संस्कृतम् (Sanskrit)</option>
+            <option value="as" class="text-slate-900 bg-white font-bold">অসমীয়া (Assamese)</option>
+            <option value="mai" class="text-slate-900 bg-white font-bold">मैथिली (Maithili)</option>
+            <option value="bho" class="text-slate-900 bg-white font-bold">भोजपुरी (Bhojpuri)</option>
+            <option value="ne" class="text-slate-900 bg-white font-bold">नेपाली (Nepali)</option>
+            <option value="kok" class="text-slate-900 bg-white font-bold">कोंकणी (Konkani)</option>
+            <option value="sd" class="text-slate-900 bg-white font-bold">سنڌي / सिंधी (Sindhi)</option>
+            <option value="doi" class="text-slate-900 bg-white font-bold">डोगरी (Dogri)</option>
+            <option value="ks" class="text-slate-900 bg-white font-bold">کٲشُر / कश्मीरी (Kashmiri)</option>
+            <option value="sat" class="text-slate-900 bg-white font-bold">ᱥᱟᱱᱛᱟᱲᱤ (Santali)</option>
+            <option value="brx" class="text-slate-900 bg-white font-bold">बर' (Bodo)</option>
+            <option value="mni" class="text-slate-900 bg-white font-bold">মৈতৈলোন্ / ꯃꯤꯇꯩꯂꯣꯟ (Manipuri)</option>
+          </select>
+        </div>
+        <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition" data-i18n="nav_home">← Portal Home</a>
       </div>
     </div>
   </header>

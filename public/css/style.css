@@ -1,5 +1,5 @@
 /* Modern, Vibrant & High-Contrast Styles for SarkariAI Hub */
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;600;700;800&family=Noto+Sans+Tamil:wght@400;600;700&family=Noto+Sans+Telugu:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;600;700&family=Noto+Sans+Gurmukhi:wght@400;600;700&family=Noto+Sans+Gujarati:wght@400;600;700&family=Noto+Sans+Kannada:wght@400;600;700&family=Noto+Sans+Malayalam:wght@400;600;700&family=Noto+Sans+Oriya:wght@400;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&family=Noto+Sans+Meetei+Mayek:wght@400;600;700&family=Noto+Sans+Ol+Chiki:wght@400;600;700&display=swap');
 
 :root {
   --saffron-400: #fb923c;
@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', system-ui, -apple-system, sans-serif;
+  font-family: 'Plus Jakarta Sans', 'Noto Sans Devanagari', 'Noto Sans Tamil', 'Noto Sans Telugu', 'Noto Sans Bengali', 'Noto Sans Gurmukhi', 'Noto Sans Gujarati', 'Noto Sans Kannada', 'Noto Sans Malayalam', 'Noto Sans Oriya', 'Noto Naskh Arabic', 'Noto Sans Meetei Mayek', 'Noto Sans Ol Chiki', system-ui, -apple-system, sans-serif;
   background-color: #f1f5f9;
   color: #0f172a;
   -webkit-font-smoothing: antialiased;
@@ -415,3 +415,33 @@ button:active, .btn-saffron:active, a.cursor-pointer:active {
     border: 1px solid #ddd !important;
   }
 }
+
+/* ========================================================
+   RTL Layout Support (Urdu, Sindhi, Kashmiri UI)
+   ======================================================== */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .space-x-1 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-1\.5 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-2 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-3 > :not([hidden]) ~ :not([hidden]),
+[dir="rtl"] .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 1;
+}
+
+/* CRITICAL EXAM ISOLATION: Official exam content remains strictly LTR */
+[dir="rtl"] #quizQuestionContainer,
+[dir="rtl"] .exam-paper-container,
+[dir="rtl"] .question-stem,
+[dir="rtl"] .question-options-list,
+[dir="rtl"] #quizExplanationArea,
+[dir="rtl"] pre,
+[dir="rtl"] code,
+[dir="rtl"] .math-tex,
+[dir="rtl"] .cbt-palette-grid {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
