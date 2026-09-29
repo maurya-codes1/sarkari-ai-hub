@@ -1,0 +1,4 @@
+trigger_event,affected_entity,staleness_policy,resolution_action
+Blueprint Pattern Change,Mock Sessions,INVALIDATE_CACHE,Regenerate session with updated pattern
+Blueprint Pattern Change,PDF Blueprints,INVALIDATE_CACHE,Regenerate PDF templates with new sections
+Syllabus Topic Deletion,Chapter Practice,FLAG_STALE,Quarantine affected practice items

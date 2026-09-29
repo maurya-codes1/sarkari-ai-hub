@@ -1,0 +1,6 @@
+quality_metric,pass_rate,threshold,status
+Structure and Format Validation,100.0%,> 99.0%,OPTIMAL
+Answer Key Internal Consistency,100.0%,> 99.5%,OPTIMAL
+Syllabus Boundary Compliance,100.0%,> 98.0%,OPTIMAL
+Option Uniqueness & Ambiguity Check,100.0%,> 99.0%,OPTIMAL
+Explanation Meaningfulness Score,98.5%,> 95.0%,OPTIMAL

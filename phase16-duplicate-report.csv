@@ -1,0 +1,4 @@
+check_type,detected_count,resolution_action,status
+Identical Hash Duplicate within Session,0,BLOCKED_BY_GENERATION_GATE,ZERO_DUPLICATES
+Semantic Duplicate across Pools,0,QUARANTINED_OR_FLAGGED,VERIFIED_CLEAN
+Historical Year Repeated Questions,3,PRESERVED_AUTHENTIC_REPEAT,PRESERVED

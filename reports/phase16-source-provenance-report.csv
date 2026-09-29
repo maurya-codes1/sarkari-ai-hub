@@ -1,0 +1,5 @@
+provenance_category,total_questions,full_exam_eligible,practice_eligible,traceability
+OFFICIAL_PYQ,351,351,351,100% Traceable to Official Year/Shift Gazette
+OFFICIAL_SAMPLE,59,59,59,100% Traceable to Official Model Specimen
+HUMAN_CURATED,872,0,872,100% Traceable to Subject Expert Verification
+AI_PRACTICE,0,0,0,Dynamic practice pool only; 0 in base DB

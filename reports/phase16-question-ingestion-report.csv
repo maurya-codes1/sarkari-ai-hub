@@ -1,0 +1,6 @@
+metric_name,count,invariant_check,notes
+TOTAL_BASE_QUESTIONS,1282,PASSED,1282 questions preserved strictly without deletion
+OFFICIAL_PYQ_COUNT,351,PASSED,Authentic historical papers with answer keys
+OFFICIAL_SAMPLE_COUNT,59,PASSED,Official model and specimen question papers
+HUMAN_CURATED_COUNT,872,PASSED,Subject matter expert curated practice drills
+AI_PRACTICE_COUNT,0,PASSED,Isolated in dynamic practice pool; excluded from base DB

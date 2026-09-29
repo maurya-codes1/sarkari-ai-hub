@@ -1,0 +1,5 @@
+test_scenario,ui_locale,exam_id,expected_paper_lang,resolved_paper_lang,compliance_status
+Tamil DGE Paper in Hindi UI,hi,tndge-tamilnadu,ta,ta,PASSED_EXAM_BLUEPRINT_AUTHORITY
+Punjabi PSEB Paper in English UI,en,pseb-punjab,pa,pa,PASSED_EXAM_BLUEPRINT_AUTHORITY
+SSC CGL Paper in English UI,en,ssc-cgl,en,en,PASSED_EXAM_BLUEPRINT_AUTHORITY
+UPSC Prelims Paper in Bengali UI,bn,upsc-cse,en,en,PASSED_EXAM_BLUEPRINT_AUTHORITY

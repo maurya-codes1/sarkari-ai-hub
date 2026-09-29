@@ -1,0 +1,6 @@
+priority_rank,component_id,exam_name,category,current_tier,gap_priority_reason
+1,comp-ssc-gd-cbe,SSC GD Constable,SSC,PATTERN_PRACTICE_READY,High student volume; missing 50 official PYQs for Full Exam
+2,comp-rrb-alp-cbt1,RRB ALP CBT-1,RAILWAY,PATTERN_PRACTICE_READY,High technical exam demand; requires 45 more official PYQs
+3,comp-rrb-ntpc-cbt1,RRB NTPC CBT-1,RAILWAY,PATTERN_PRACTICE_READY,High nationwide applicants; requires 60 more official PYQs
+4,comp-ctet-paper1-primary,CTET Paper 1,TEACHER,PATTERN_PRACTICE_READY,Central teacher eligibility demand
+5,comp-up-police-constable,UP Police Constable,POLICE,PATTERN_PRACTICE_READY,State police high applicant pool

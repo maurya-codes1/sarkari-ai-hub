@@ -1,0 +1,10 @@
+blueprint_id,section_name,required_count,allocated_count,balance_status
+bp-ssc-cgl-tier1,General Intelligence and Reasoning,25,25,BALANCED
+bp-ssc-cgl-tier1,General Awareness,25,25,BALANCED
+bp-ssc-cgl-tier1,Quantitative Aptitude,25,25,BALANCED
+bp-ssc-cgl-tier1,English Comprehension,25,25,BALANCED
+bp-upsc-prelims-gs1,General Studies Paper 1,100,100,BALANCED
+bp-ssc-gd-cbe,General Intelligence & Reasoning,20,20,BALANCED
+bp-ssc-gd-cbe,General Knowledge and General Awareness,20,20,BALANCED
+bp-ssc-gd-cbe,Elementary Mathematics,20,20,BALANCED
+bp-ssc-gd-cbe,English / Hindi,20,20,BALANCED

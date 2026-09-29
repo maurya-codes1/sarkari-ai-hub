@@ -1,0 +1,5 @@
+module_pair,selection_service,consistency_status,divergence_detected
+Mock Engine vs PDF Engine,CanonicalQuestionSelectionService,100% CANONICAL_CONSISTENCY,NONE
+Full Exam Mock vs Full Exam PDF,CanonicalQuestionSelectionService,100% CANONICAL_CONSISTENCY,NONE
+Practice Mock vs Practice PDF,CanonicalQuestionSelectionService,100% CANONICAL_CONSISTENCY,NONE
+Subject QB vs Subject PDF,CanonicalQuestionSelectionService,100% CANONICAL_CONSISTENCY,NONE

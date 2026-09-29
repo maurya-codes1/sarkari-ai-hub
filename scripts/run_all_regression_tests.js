@@ -17,11 +17,12 @@ const suites = [
   'backend/test/test-phase12-content-intelligence-mega.js',
   'backend/test/test-phase13-national-inventory.js',
   'backend/test/test-phase14-academic-truth-hardening.js',
-  'backend/test/test-phase15-source-monitoring.js'
+  'backend/test/test-phase15-source-monitoring.js',
+  'backend/test/test-phase16-exam-pattern-content-completion.js'
 ];
 
 console.log('=====================================================================');
-console.log(`🚀 RUNNING FULL 16-SUITE REGRESSION HARNESS (${suites.length} SUITES)`);
+console.log(`🚀 RUNNING FULL 17-SUITE REGRESSION HARNESS (${suites.length} SUITES)`);
 console.log('=====================================================================\n');
 
 let passed = 0;
