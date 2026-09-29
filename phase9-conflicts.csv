@@ -1,0 +1,4 @@
+conflictId,paperId,questionNumber,answerA,answerB,sourceA,sourceB,finalResolution,resolutionSource,status,resolvedDate
+"conf-ssc-cgl-2024-q23","paper-ssc-cgl-2024-t1-s1",23,"Option B","Option C","src-ssc-cgl-key-2024-prov","src-ssc-cgl-key-2024-final","BOTH_B_AND_C_AWARDED_FULL_MARKS","src-ssc-cgl-corr-2024","RESOLVED_OFFICIAL_CORRIGENDUM","2024-10-18"
+"conf-upsc-cse-2024-q88","paper-upsc-cse-2024-gs1",88,"Option A","Option D","src-upsc-cse-key-2024-prov","src-upsc-cse-key-2024-final","OPTION_D_FINAL_DETERMINED","src-upsc-cse-key-2024-final","RESOLVED_FINAL_KEY","2025-05-10"
+"conf-ssc-gd-2024-q44","paper-ssc-gd-2024-s1-seta",44,"Option A","DROPPED","src-ssc-gd-key-2024-prov","src-ssc-gd-key-2024-final","QUESTION_DROPPED_ALL_AWARDED_MARKS","src-ssc-gd-key-2024-final","RESOLVED_OFFICIAL_CORRIGENDUM","2024-04-03"

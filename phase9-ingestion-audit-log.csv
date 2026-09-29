@@ -1,0 +1,5 @@
+batchId,timestamp,operation,targetComponent,sourceArtifactId,paperId,questionsProcessed,successCount,rejectedCount,duplicateCount,status,integrityCheckStatus
+"batch-p9-001","2026-09-29T05:54:10Z","REGISTER_SOURCE_AND_PAPER","comp-ssc-gd","src-ssc-gd-qp-2024-s1","paper-ssc-gd-2024-s1-seta",30,30,0,0,"SUCCESS","OK"
+"batch-p9-002","2026-09-29T05:54:20Z","REGISTER_SOURCE_AND_PAPER","comp-rrb-alp","src-rrb-alp-qp-2024-cbt1-s1","paper-rrb-alp-2024-cbt1-s1",30,30,0,0,"SUCCESS","OK"
+"batch-p9-003","2026-09-29T05:54:30Z","REGISTER_SOURCE_AND_PAPER","comp-rrb-ntpc-cbt1","src-rrb-ntpc-qp-2024-cbt1-s1","paper-rrb-ntpc-2024-cbt1-s1",32,32,0,0,"SUCCESS","OK"
+"batch-p9-004","2026-09-29T05:54:40Z","READINESS_RECALCULATION","all-324-components","all-sources","all-papers",1282,1282,0,0,"SUCCESS","OK"

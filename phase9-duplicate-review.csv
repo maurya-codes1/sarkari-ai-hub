@@ -1,0 +1,4 @@
+reviewId,sourceQuestionId,matchedQuestionId,similarityType,similarityScore,examId,historicalYear1,historicalYear2,decision,resolutionNotes
+"dup-rev-001","q-ssc-cgl-2024-t1-q15","q-ssc-cgl-2022-t1-q42","HISTORICAL_REPEAT",1,"ssc-cgl","2024","2022","PRESERVED_HISTORICAL_REPEAT","Authentic historical repeat appearing in 2022 Shift 1 and 2024 Shift 1."
+"dup-rev-002","q-upsc-cse-2024-gs1-q31","q-upsc-cse-2017-gs1-q12","HISTORICAL_REPEAT",0.96,"upsc-cse","2024","2017","PRESERVED_HISTORICAL_REPEAT","Standard constitutional concept re-tested across examination years."
+"dup-rev-003","q-rrb-alp-2024-s1-q11","q-rrb-alp-2018-cbt1-q08","HISTORICAL_REPEAT",1,"rrb-alp","2024","2018","PRESERVED_HISTORICAL_REPEAT","Authentic physics mechanics concept question repeated across cycles."

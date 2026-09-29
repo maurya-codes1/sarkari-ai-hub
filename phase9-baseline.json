@@ -1,0 +1,102 @@
+{
+  "phase": "PHASE_9",
+  "timestamp": "2026-09-29T05:54:00.000Z",
+  "database": {
+    "total_questions": 1282,
+    "provenance_distribution": {
+      "OFFICIAL_PYQ": 351,
+      "OFFICIAL_SAMPLE": 59,
+      "HUMAN_CURATED": 872,
+      "AI_PRACTICE": 0,
+      "DERIVED_CONTENT": 0
+    },
+    "mapping_status": {
+      "FULLY_MAPPED": 1246,
+      "PARTIALLY_MAPPED": 36,
+      "NEEDS_REVIEW": 0,
+      "UNRESOLVED": 0
+    },
+    "eligibility": {
+      "FULL_EXAM_ELIGIBLE": 200,
+      "PRACTICE_ONLY": 1082,
+      "TOTAL_PRACTICE_AVAILABLE": 1282
+    },
+    "integrity": {
+      "integrity_check": "ok",
+      "foreign_key_violations": 0
+    }
+  },
+  "exam_registry": {
+    "total_root_exams": 52,
+    "total_granular_components": 324,
+    "readiness_summary": {
+      "READY": 2,
+      "PARTIALLY_READY": 15,
+      "BLOCKED": 307
+    },
+    "ready_components": [
+      "comp-ssc-cgl",
+      "comp-upsc-cse"
+    ]
+  },
+  "target_components_baseline": {
+    "comp-ssc-gd": {
+      "exam_id": "ssc-gd",
+      "name": "SSC Constable (GD) Examination",
+      "stage": "Tier-I CBT",
+      "blueprint_required": 80,
+      "active_verified_pool": 30,
+      "shortfall": 50,
+      "readiness_status": "PARTIALLY_READY",
+      "sections_required": [
+        { "name": "Part A: General Intelligence and Reasoning", "required_count": 20, "available_count": 8, "shortfall": 12 },
+        { "name": "Part B: General Knowledge and General Awareness", "required_count": 20, "available_count": 8, "shortfall": 12 },
+        { "name": "Part C: Elementary Mathematics", "required_count": 20, "available_count": 7, "shortfall": 13 },
+        { "name": "Part D: English / Hindi", "required_count": 20, "available_count": 7, "shortfall": 13 }
+      ],
+      "blockers": [
+        "Insufficient verified questions across all 4 mandatory sections (50 question shortfall)"
+      ]
+    },
+    "comp-rrb-alp": {
+      "exam_id": "rrb-alp",
+      "name": "RRB Assistant Loco Pilot (ALP) CBT-1",
+      "stage": "First Stage CBT (CBT-1)",
+      "blueprint_required": 75,
+      "active_verified_pool": 30,
+      "shortfall": 45,
+      "readiness_status": "PARTIALLY_READY",
+      "sections_required": [
+        { "name": "Mathematics", "required_count": 20, "available_count": 8, "shortfall": 12 },
+        { "name": "General Intelligence & Reasoning", "required_count": 25, "available_count": 10, "shortfall": 15 },
+        { "name": "General Science", "required_count": 20, "available_count": 8, "shortfall": 12 },
+        { "name": "General Awareness on Current Affairs", "required_count": 10, "available_count": 4, "shortfall": 6 }
+      ],
+      "blockers": [
+        "Basic Science & Engineering and General Science verified pool shortfall"
+      ]
+    },
+    "comp-rrb-ntpc-cbt1": {
+      "exam_id": "rrb-ntpc",
+      "name": "RRB NTPC CBT-1 (Graduate & Undergraduate)",
+      "stage": "Stage 1 CBT",
+      "blueprint_required": 100,
+      "active_verified_pool": 30,
+      "shortfall": 70,
+      "readiness_status": "PARTIALLY_READY",
+      "sections_required": [
+        { "name": "General Awareness", "required_count": 40, "available_count": 12, "shortfall": 28 },
+        { "name": "Mathematics", "required_count": 30, "available_count": 9, "shortfall": 21 },
+        { "name": "General Intelligence & Reasoning", "required_count": 30, "available_count": 9, "shortfall": 21 }
+      ],
+      "blockers": [
+        "General Awareness verified pool shortfall (28 question shortfall in GA alone)"
+      ]
+    }
+  },
+  "ten_year_coverage_baseline": {
+    "10_YEAR_VERIFIED": 0,
+    "PARTIAL_10_YEAR": 10,
+    "INSUFFICIENT_HISTORY": 42
+  }
+}
