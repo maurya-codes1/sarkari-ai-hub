@@ -1,0 +1,16 @@
+locale_code,language_name,script_family,direction,font_family,glyph_coverage_pct,shaping_engine_status,browser_qa_status,pdf_qa_status,production_readiness
+as,Assamese,Bengali-Assamese,LTR,"Noto Sans Bengali",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+bn,Bengali,Bengali,LTR,"Noto Sans Bengali",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+en,English,Latin,LTR,"Roboto",100,NATIVE,PASSED,PASSED,PRODUCTION_READY
+gu,Gujarati,Gujarati,LTR,"Noto Sans Gujarati",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+hi,Hindi,Devanagari,LTR,"Noto Sans Devanagari",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+kn,Kannada,Kannada,LTR,"Noto Sans Kannada",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+ks,Kashmiri,Perso-Arabic / Devanagari,RTL,"Noto Nastaliq / Devanagari",88,PARTIAL,PARTIAL,PARTIAL,PARTIAL
+ml,Malayalam,Malayalam,LTR,"Noto Sans Malayalam",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+mr,Marathi,Devanagari,LTR,"Noto Sans Devanagari",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+or,Odia,Odia,LTR,"Noto Sans Odia",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+pa,Punjabi,Gurmukhi,LTR,"Noto Sans Gurmukhi",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+sd,Sindhi,Arabic-Sindhi,RTL,"Noto Sans Arabic",85,PARTIAL,PARTIAL,PARTIAL,PARTIAL
+ta,Tamil,Tamil,LTR,"Noto Sans Tamil",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+te,Telugu,Telugu,LTR,"Noto Sans Telugu",100,SUPPORTED,PASSED,PASSED,PRODUCTION_READY
+ur,Urdu,Perso-Arabic,RTL,"Noto Nastaliq Urdu",92,PARTIAL,PASSED,PARTIAL,PARTIAL

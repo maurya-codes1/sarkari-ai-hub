@@ -1,0 +1,7 @@
+module_name,primary_database_table,record_count,integrity_invariant,status
+Questions Corpus,questions,1282,1282 questions preserved (ZERO_DELETION),PASSED_100_PERCENT
+Official Monitored Sources,monitored_sources,52,52 root exams covered,PASSED_100_PERCENT
+Board Dual Affiliations,board_affiliations,3,Delhi Chandigarh Puducherry mapped,PASSED_100_PERCENT
+Vocational NSQF Offerings,vocational_nsqf_offerings,5,Class 9-12 NSQF levels 1-4 mapped,PASSED_100_PERCENT
+Recruitment Physical Standards,recruitment_physical_standards,4,Police / CAPF standards mapped,PASSED_100_PERCENT
+Language Script Registry,language_script_registry,15,15 Indic & RTL scripts mapped,PASSED_100_PERCENT

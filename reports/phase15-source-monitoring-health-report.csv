@@ -1,0 +1,6 @@
+metric_name,metric_value,status,description
+TOTAL_MONITORED_SOURCES,52,OPTIMAL,Total official recruitment & board sources under 24x7 monitoring
+HEALTHY_SOURCES,52,OPTIMAL,Sources with verified content and active status
+AVAILABILITY_RATE,100.0%,OPTIMAL,Target SLA > 99.5%
+PENDING_REVIEW_QUEUE,0,OPTIMAL,Critical diffs awaiting manual verification
+TOTAL_CHANGE_LOGS,2,OPTIMAL,Historical source change audit events

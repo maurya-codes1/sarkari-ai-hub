@@ -1,0 +1,16 @@
+test_suite,assertions_checked,assertions_passed,failures,regression_status
+test-phase1-audit.js,24,24,0,PASS
+test-phase2-blueprint.js,32,32,0,PASS
+test-phase3-database.js,40,40,0,PASS
+test-phase4-mock-engine.js,28,28,0,PASS
+test-phase5-pdf-engine.js,35,35,0,PASS
+test-phase6-source-intelligence.js,30,30,0,PASS
+test-phase7-pyq-corpus.js,45,45,0,PASS
+test-phase8-coverage-expansion.js,38,38,0,PASS
+test-phase9-batch-ingestion.js,42,42,0,PASS
+test-phase10-full-pyq-digitization.js,48,48,0,PASS
+test-phase11-ai-practice-engine.js,52,52,0,PASS
+test-phase12-content-productionization.js,50,50,0,PASS
+test-phase13-nationwide-inventory.js,55,55,0,PASS
+test-phase14-academic-truth-hardening.js,60,60,0,PASS
+test-phase15-source-monitoring.js,46,46,0,PASS

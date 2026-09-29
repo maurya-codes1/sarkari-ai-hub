@@ -1,0 +1,9 @@
+domain_pattern,domain_type,ssrf_check_status,security_enforcement,notes
+*.gov.in,OFFICIAL_GOVERNMENT_PORTAL,ALLOWED,STRICT_PREFIX_MATCH,Official national & state ministries
+*.nic.in,NATIONAL_INFORMATICS_CENTRE,ALLOWED,STRICT_PREFIX_MATCH,Government digital infrastructure
+*.ac.in,ACADEMIC_INSTITUTION,ALLOWED,STRICT_PREFIX_MATCH,Central/state universities and testing agencies
+*.org.in,OFFICIAL_ORGANIZATION,ALLOWED,STRICT_PREFIX_MATCH,Official exam bodies (e.g. NTA)
+127.0.0.1,LOOPBACK_IP,BLOCKED,IMMEDIATE_REJECTION,SSRF Prevention
+192.168.0.0/16,PRIVATE_SUBNET,BLOCKED,IMMEDIATE_REJECTION,SSRF Prevention
+10.0.0.0/8,PRIVATE_SUBNET,BLOCKED,IMMEDIATE_REJECTION,SSRF Prevention
+169.254.169.254,CLOUD_METADATA_IP,BLOCKED,IMMEDIATE_REJECTION,SSRF / Cloud credential leak protection

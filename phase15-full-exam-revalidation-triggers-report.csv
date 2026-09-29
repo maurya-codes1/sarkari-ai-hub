@@ -1,0 +1,5 @@
+trigger_event,affected_module,severity,mitigation_protocol,gate_action,status
+BLUEPRINT_PATTERN_CHANGE,full_exam_gate_service,CRITICAL,Set component status to NEEDS_REVALIDATION; block Full Exam until pool verified,GATE_LOCKED,AUTOMATED_SAFEGUARD
+NEGATIVE_MARKING_UPDATE,mock_engine,HIGH,Recalculate scoring rules; invalidate cached mock sessions,CACHE_FLUSHED,AUTOMATED_SAFEGUARD
+DURATION_SHIFT_CHANGE,mock_intelligence,MEDIUM,Update timer constraints across test runner,CONFIG_UPDATED,AUTOMATED_SAFEGUARD
+ELIGIBILITY_AGE_CORRIGENDUM,registration_eligibility,HIGH,Recalculate candidate matching profiles,REVALIDATION_TRIGGERED,AUTOMATED_SAFEGUARD

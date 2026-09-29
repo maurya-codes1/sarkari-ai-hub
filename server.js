@@ -36,6 +36,11 @@ app.use('/api/v2', phase12Routes);
 const phase13Routes = require('./backend/routes/phase13-routes');
 app.use('/api/v3', phase13Routes);
 
+// Phase 15 Official Source Monitoring, Dual-Affiliation, NSQF & Physical Standards REST APIs
+const phase15Routes = require('./backend/routes/phase15-routes');
+app.use('/api/v4', phase15Routes);
+app.use('/api/v2', phase15Routes);
+
 // Lightweight in-memory rate limiter to protect server and AI quota from DoS/spam
 function createRateLimiter({ windowMs = 60000, max = 50, message = 'Too many requests, please try again later.' }) {
   const clientMap = new Map();

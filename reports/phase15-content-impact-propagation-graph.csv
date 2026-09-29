@@ -1,0 +1,9 @@
+impact_id,source_id,source_change_id,dependent_type,dependent_id,impact_level,action_required,status,created_at
+imp_1790663853673_9255,src-reet-rajasthan-portal,change_src-reet-rajasthan-portal_1790663853670,EXAM_BLUEPRINT,reet-rajasthan,CRITICAL,REVALIDATE_FULL_EXAM_GATE,DETECTED,2026-09-29 06:37:33
+imp_1790663853673_4288,src-reet-rajasthan-portal,change_src-reet-rajasthan-portal_1790663853670,MOCK_TEST_CACHE,reet-rajasthan,HIGH,INVALIDATE_CACHE,DETECTED,2026-09-29 06:37:33
+imp_1790663853673_5017,src-reet-rajasthan-portal,change_src-reet-rajasthan-portal_1790663853670,PDF_BLUEPRINT,reet-rajasthan,HIGH,REGENERATE_PDF_BLUEPRINT,DETECTED,2026-09-29 06:37:33
+imp_1790663853674_3335,src-reet-rajasthan-portal,change_src-reet-rajasthan-portal_1790663853670,SEARCH_INDEX,reet-rajasthan,MEDIUM,UPDATE_SEARCH_INDEX,DETECTED,2026-09-29 06:37:33
+imp_1790663828054_5905,src-bpsc-tre-portal,change_src-bpsc-tre-portal_1790663828051,EXAM_BLUEPRINT,bpsc-tre,CRITICAL,REVALIDATE_FULL_EXAM_GATE,DETECTED,2026-09-29 06:37:08
+imp_1790663828054_6760,src-bpsc-tre-portal,change_src-bpsc-tre-portal_1790663828051,MOCK_TEST_CACHE,bpsc-tre,HIGH,INVALIDATE_CACHE,DETECTED,2026-09-29 06:37:08
+imp_1790663828054_1794,src-bpsc-tre-portal,change_src-bpsc-tre-portal_1790663828051,PDF_BLUEPRINT,bpsc-tre,HIGH,REGENERATE_PDF_BLUEPRINT,DETECTED,2026-09-29 06:37:08
+imp_1790663828054_537,src-bpsc-tre-portal,change_src-bpsc-tre-portal_1790663828051,SEARCH_INDEX,bpsc-tre,MEDIUM,UPDATE_SEARCH_INDEX,DETECTED,2026-09-29 06:37:08

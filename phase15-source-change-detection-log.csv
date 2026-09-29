@@ -1,0 +1,3 @@
+change_id,source_id,change_type,severity,old_hash,new_hash,change_summary,requires_verification,verification_status,detected_at
+change_src-reet-rajasthan-portal_1790663853670,src-reet-rajasthan-portal,EXAM_PATTERN_CHANGE,CRITICAL,120194776d8092a7cd1673a2e46a02e9d0866c4a5cedf646df0d32b643431160,e7eee9a4faa3666b6edf9fd9fd9b4bfee716efbbb906f520c1c8e40d20a3c5b1,"Tier 1 question distribution updated by official notice",1,APPROVED,2026-09-29 06:37:33
+change_src-bpsc-tre-portal_1790663828051,src-bpsc-tre-portal,EXAM_PATTERN_CHANGE,CRITICAL,50e0d7fc9f95f5290f467d3b1060d4fe8e6b90b02ee808d96538c0a841f8b330,e7eee9a4faa3666b6edf9fd9fd9b4bfee716efbbb906f520c1c8e40d20a3c5b1,"Tier 1 question distribution updated by official notice",1,APPROVED,2026-09-29 06:37:08

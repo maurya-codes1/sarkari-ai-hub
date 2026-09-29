@@ -1,0 +1,5 @@
+content_vault,impact_trigger,action_taken,staleness_indicator,automated_review_queue
+master-notes-vault,Syllabus Topic Deletion,Quarantine affected chapter notes,FLAGGED_STALE,ENQUEUED_FOR_AUTHOR_REVIEW
+master-notes-vault,Syllabus Topic Addition,Generate syllabus gap ticket,GAP_IDENTIFIED,ASSIGNED_CONTENT_EXPANSION
+spaced-revision-service,Weightage Distribution Change,Recalculate topic priority weights in flashcards,PRIORITY_REINDEXED,AUTOMATIC_UPDATE
+master-subjective-vault,Evaluation Scheme Change,Update rubric and marking criteria,RUBRIC_UPDATED,AUTOMATIC_UPDATE

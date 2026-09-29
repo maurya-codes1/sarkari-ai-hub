@@ -1,0 +1,4 @@
+affiliation_id,institution_name,state_id,primary_board_id,secondary_board_id,affiliation_type,authority_order_ref,verification_status
+affil-ch-pseb-cbse,"Chandigarh UT Government Model Schools",in-ch,cbse-board,pseb-punjab,PRIMARY,Chandigarh Administration Education Dept Order 2020/45,VERIFIED
+affil-delhi-dbse-cbse,"Delhi Schools of Specialized Excellence (SoSE)",in-dl,cbse-board,cbse-board,DUAL,Directorate of Education, GNCTD Notification No. 1658-1665,VERIFIED
+affil-py-tndge-cbse,"Puducherry Government Secondary Schools",in-py,tndge-tamilnadu,cbse-board,TRANSITIONAL,Puducherry Directorate of School Education G.O. Ms No. 34,VERIFIED

@@ -1,0 +1,8 @@
+ut_id,ut_name,primary_school_board,secondary_or_open_board,governance_model,language_medium,notes
+in-dl,NCT of Delhi,cbse-board,dbse-delhi,DUAL_AFFILIATION_MODEL,Hindi / English / Urdu / Punjabi,DBSE recognized for Delhi government schools of excellence; CBSE across private and general gov schools
+in-ch,Chandigarh (UT),cbse-board,pseb-punjab,DUAL_AFFILIATION_MODEL,English / Punjabi / Hindi,Schools follow CBSE and Punjab School Education Board curricula
+in-py,Puducherry (UT),tndge-tamilnadu,cbse-board,REGIONAL_AFFILIATION_MODEL,Tamil / French / English / Telugu / Malayalam,Puducherry & Karaikal follow TNDGE; Mahe follows Kerala; Yanam follows AP
+in-la,Ladakh (UT),cbse-board,jkbose-board,TRANSITIONAL_AFFILIATION,English / Hindi / Urdu / Bhoti,Government schools transitioned from JKBOSE to CBSE
+in-an,Andaman and Nicobar Islands,cbse-board,nios-board,CENTRAL_AFFILIATION_MODEL,English / Hindi / Bengali / Tamil / Telugu,All senior secondary schools affiliated with CBSE
+in-ld,Lakshadweep (UT),kerala-board,cbse-board,REGIONAL_AFFILIATION_MODEL,Malayalam / English,State board curriculum mapped to Kerala Department of Education
+in-dn,Dadra and Nagar Haveli and Daman and Diu,gseb-gujarat,maharashtra-board,REGIONAL_AFFILIATION_MODEL,Gujarati / Marathi / English / Hindi,Daman & DNH follow GSEB/CBSE; Diu follows GSEB

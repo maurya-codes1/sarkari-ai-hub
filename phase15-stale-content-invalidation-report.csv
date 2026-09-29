@@ -1,0 +1,5 @@
+stale_id,entity_type,entity_id,stale_reason,source_trigger_id,status,marked_at,resolved_at
+stale_1790663853674_5169,EXAM_PATTERN,reet-rajasthan,"Official exam pattern changed: Tier 1 question distribution updated by official notice",change_src-reet-rajasthan-portal_1790663853670,RESOLVED,2026-09-29 06:37:33,2026-09-29 06:37:33
+stale_1790663853674_810,MOCK_CONFIG,reet-rajasthan,"Mock configuration invalidated by source change",change_src-reet-rajasthan-portal_1790663853670,STALE,2026-09-29 06:37:33,N/A
+stale_1790663828054_1593,EXAM_PATTERN,bpsc-tre,"Official exam pattern changed: Tier 1 question distribution updated by official notice",change_src-bpsc-tre-portal_1790663828051,RESOLVED,2026-09-29 06:37:08,2026-09-29 06:37:08
+stale_1790663828054_9555,MOCK_CONFIG,bpsc-tre,"Mock configuration invalidated by source change",change_src-bpsc-tre-portal_1790663828051,STALE,2026-09-29 06:37:08,N/A

@@ -1,0 +1,4 @@
+lang_code,script_name,direction,complex_shaping,font_engine,harfbuzz_compliant,pdf_bidi_rendering,status
+ur,Nastaliq/Naskh,RTL,YES,Noto Sans Arabic / Noto Nastaliq Urdu,COMPLIANT,ISOLATED_RTL_SUPPORT,VERIFIED_SAFE
+ks,Perso-Arabic,RTL,YES,Noto Sans Arabic,COMPLIANT,ISOLATED_RTL_SUPPORT,VERIFIED_SAFE
+sd,Perso-Arabic,RTL,YES,Noto Sans Arabic,COMPLIANT,ISOLATED_RTL_SUPPORT,VERIFIED_SAFE

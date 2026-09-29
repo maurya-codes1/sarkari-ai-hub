@@ -1,0 +1,5 @@
+standard_id,exam_id,post_name_en,gender,category,min_height_cm,min_chest_unexpanded_cm,min_chest_expanded_cm,endurance_running_distance_m,endurance_running_time_sec,long_jump_m,high_jump_m
+phys-delhi-police-male,delhi-police,"Constable (Executive) Male in Delhi Police",MALE,GEN/OBC/SC,170,81,85,1600,360,4.26,1.14
+phys-ssc-gd-female-gen,ssc-gd,"Constable (GD) in CAPFs, SSF, Rifleman in Assam Rifles",FEMALE,GEN/OBC/SC,157,N/A,N/A,1600,510,N/A,N/A
+phys-ssc-gd-male-gen,ssc-gd,"Constable (GD) in CAPFs, SSF, Rifleman in Assam Rifles",MALE,GEN/OBC/SC,170,80,85,5000,1440,N/A,N/A
+phys-up-police-male,up-police-constable,"UP Police Civil Police Constable",MALE,GEN/OBC/SC,168,79,84,4800,1500,N/A,N/A

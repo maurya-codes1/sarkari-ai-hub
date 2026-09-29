@@ -1,0 +1,4 @@
+gazette_id,authority,gazette_ref,date_issued,subject_matter,change_type,checksum_sha256,superseded_status
+gaz_cbse_2026_01,CBSE,CBSE/COORD/2026/01,2026-08-15,Attendance Condonation Medical Criteria Update,MINOR_POLICY,a1b2c3d4e5f60718293a4b5c6d7e8f90,ACTIVE_GOVERNING
+gaz_uppbpb_2026_03,UPPBPB,UPPBPB/REC/2026/03,2026-07-20,Constable Physical Efficiency Test Relaxations for Hills,PHYSICAL_STANDARDS,b2c3d4e5f6a708192a3b4c5d6e7f8a91,ACTIVE_GOVERNING
+gaz_ssc_2026_09,SSC,F.No.3/1/2026-P&P-I,2026-09-01,SSC GD Examination Centers & Shift Timing Corrigendum,TIMELINE_CORRIGENDUM,c3d4e5f6a7b8091a2b3c4d5e6f7a8b92,ACTIVE_GOVERNING

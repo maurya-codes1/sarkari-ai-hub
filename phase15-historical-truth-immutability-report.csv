@@ -1,0 +1,5 @@
+table_name,immutability_guarantee,historical_versioning_mechanism,superseded_records_preserved,audit_status
+source_change_logs,STRICT_APPEND_ONLY,Timestamped change ID with old/new hash pairs,YES,VERIFIED_IMMUTABLE
+exam_versions,VERSION_INCREMENT_ONLY,version_status marked ARCHIVED on new release,YES,VERIFIED_IMMUTABLE
+question_versions,VERSION_INCREMENT_ONLY,Full audit trail of question edits preserved,YES,VERIFIED_IMMUTABLE
+content_impact_graph,APPEND_AND_RESOLVE,Action state machine with resolution logs,YES,VERIFIED_IMMUTABLE

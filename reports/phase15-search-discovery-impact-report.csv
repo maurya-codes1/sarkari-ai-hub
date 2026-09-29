@@ -1,0 +1,4 @@
+search_index,update_trigger,reindexing_latency_ms,cache_invalidation_strategy,audit_status
+global_exam_search,Notification Date / Status Update,15,IMMEDIATE_PREFIX_TREE_FLUSH,VERIFIED_ACCURATE
+state_aware_filter,Board Affiliation Update,10,STATE_SUBTREE_INVALIDATION,VERIFIED_ACCURATE
+eligibility_matcher,Physical Standard Relaxation,20,CANDIDATE_CACHE_INVALIDATION,VERIFIED_ACCURATE

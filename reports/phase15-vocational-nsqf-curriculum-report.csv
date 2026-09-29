@@ -1,0 +1,6 @@
+vocational_id,board_id,class_id,subject_name_en,nsqf_level,qualification_code,skill_sector,job_role,theory_marks,practical_marks,internal_marks
+voc-cbse-10-it,cbse-board,class-10,"Information Technology (Code 402)",2,IT-402,"IT-ITeS","Domestic IT Helpdesk Attendant",50,50,0
+voc-cbse-10-ai,cbse-board,class-10,"Artificial Intelligence (Code 417)",2,AI-417,"IT-ITeS / Emerging Tech","AI Associate",50,50,0
+voc-pseb-10-retail,pseb-punjab,class-10,"Retail Operations (NSQF)",2,RET-101,"Retail","Store Operations Assistant",40,60,0
+voc-upmsp-10-agriculture,upmsp-board,class-10,"Agriculture Science & Technology",2,AGR-10,"Agriculture","Junior Agriculture Technician",70,30,0
+voc-cbse-12-it,cbse-board,class-12,"Information Technology (Code 802)",4,IT-802,"IT-ITeS","Database & Java Programmer",60,40,0
