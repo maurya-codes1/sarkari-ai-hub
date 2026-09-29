@@ -1,0 +1,4 @@
+queue_id,entity_type,entity_id,subject_id,flag_reason,submission_timestamp,assigned_reviewer,status
+rev-q-001,QUESTION,ai-q-004,subj-reasoning,Missing choice formatting,2026-09-29T06:12:00Z,reviewer-ai-qa,REJECTED
+rev-q-002,QUESTION,ai-q-008,subj-polity,High PYQ semantic similarity,2026-09-29T06:14:00Z,reviewer-ai-qa,REJECTED
+rev-q-003,NOTE,note-polity-legacy-99,subj-polity,Staleness trigger on amendment,2026-09-29T06:18:00Z,reviewer-content,PENDING_UPDATE

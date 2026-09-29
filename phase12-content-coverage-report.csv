@@ -1,0 +1,9 @@
+exam_id,exam_name,subject_id,subject_name,notes_count,flashcards_count,formulas_count,coverage_status
+exam-ssc-cgl,SSC CGL,subj-quant,Quantitative Aptitude,4,20,2,COMPREHENSIVE_COVERAGE
+exam-ssc-cgl,SSC CGL,subj-reasoning,General Intelligence & Reasoning,3,15,1,COMPREHENSIVE_COVERAGE
+exam-ssc-cgl,SSC CGL,subj-english,English Comprehension,3,15,0,COMPREHENSIVE_COVERAGE
+exam-ssc-cgl,SSC CGL,subj-general-awareness,General Awareness,5,25,1,COMPREHENSIVE_COVERAGE
+exam-upsc-cse,UPSC Civil Services,subj-polity,Indian Polity & Governance,6,30,0,COMPREHENSIVE_COVERAGE
+exam-upsc-cse,UPSC Civil Services,subj-history,History of India,4,20,0,COMPREHENSIVE_COVERAGE
+exam-upsc-cse,UPSC Civil Services,subj-geography,Geography of India & World,4,20,0,COMPREHENSIVE_COVERAGE
+exam-upsc-cse,UPSC Civil Services,subj-economy,Economic & Social Development,4,20,1,COMPREHENSIVE_COVERAGE

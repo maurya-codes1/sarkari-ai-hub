@@ -1,0 +1,6 @@
+entity_id,content_type,subject_id,syllabus_chapter,official_source_citation,grounding_confidence
+note-polity-001,NOTE,subj-polity,ch-polity-fr,Constitution of India Part III Official Text,0.98
+note-quant-001,NOTE,subj-quant,ch-quant-arith,NCERT Mathematics Class 8-10 Syllabus,0.99
+fc-polity-101,FLASHCARD,subj-polity,ch-polity-fr,Ministry of Law and Justice Statutory Text,0.97
+rev-polity-001,REVISION,subj-polity,ch-polity-fr,UPSC CSE Official Syllabus 2026,0.99
+ai-q-001,AI_QUESTION,subj-quant,ch-quant-arith,SSC CGL Tier 1 Quantitative Syllabus,0.96

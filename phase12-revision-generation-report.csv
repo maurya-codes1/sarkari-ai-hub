@@ -1,0 +1,6 @@
+compendium_id,subject_id,chapter_id,one_liners_count,mistakes_count,mnemonics_count,provenance,quality_status
+rev-polity-001,subj-polity,ch-polity-fr,25,8,5,AI_NOTES,VERIFIED
+rev-quant-001,subj-quant,ch-quant-arith,30,10,4,AI_NOTES,VERIFIED
+rev-history-001,subj-history,ch-hist-mod,28,6,7,AI_NOTES,VERIFIED
+rev-science-001,subj-science,ch-sci-bio,22,5,6,AI_NOTES,VERIFIED
+rev-geography-001,subj-geography,ch-geo-ind,20,7,8,AI_NOTES,VERIFIED

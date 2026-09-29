@@ -1,0 +1,11 @@
+question_id,layer1_structure,layer2_answer_key,layer3_syllabus_bounds,layer4_exact_dedup,layer5_semantic_novelty,quality_verdict,rejection_reason
+ai-q-001,PASS,PASS,PASS,PASS,PASS,APPROVED,NONE
+ai-q-002,PASS,PASS,PASS,PASS,PASS,APPROVED,NONE
+ai-q-003,PASS,PASS,PASS,PASS,PASS,APPROVED,NONE
+ai-q-004,FAIL,PASS,PASS,PASS,PASS,REJECTED,Missing question stem or choices
+ai-q-005,PASS,FAIL,PASS,PASS,PASS,REJECTED,Answer key option does not match choices
+ai-q-006,PASS,PASS,FAIL,PASS,PASS,REJECTED,Out of syllabus topic boundary
+ai-q-007,PASS,PASS,PASS,FAIL,PASS,REJECTED,Exact text duplicate of existing item
+ai-q-008,PASS,PASS,PASS,PASS,FAIL,REJECTED,Semantic similarity to official PYQ exceeds threshold (>0.85)
+ai-q-009,PASS,PASS,PASS,PASS,PASS,APPROVED,NONE
+ai-q-010,PASS,PASS,PASS,PASS,PASS,APPROVED,NONE

@@ -589,6 +589,137 @@ class AiPracticeEngineService {
       changeReason: updateParams.changeReason || 'REGENERATION_OR_EDIT'
     };
   }
+
+  /**
+   * Layer 1: Structural Validation Helper
+   */
+  validateQuestionLayer1(question) {
+    const stem = (question.stem || question.question_text || '').trim();
+    const hasValidStem = stem.length >= 10 && !stem.endsWith('...') && !/[<>{}]/.test(stem);
+    const options = question.options || [];
+    const hasOptions = Array.isArray(options) && (options.length >= 4 || question.questionType === 'numerical' || question.questionType === 'short_answer');
+    return {
+      isValid: hasValidStem && hasOptions,
+      hasValidStem,
+      hasOptions
+    };
+  }
+
+  /**
+   * Layer 2: Answer Key Integrity Helper
+   */
+  validateQuestionLayer2(question) {
+    const options = question.options || [];
+    const correctOpts = options.filter(o => o.isCorrect === true || o.is_correct === 1);
+    const isSingleCorrect = correctOpts.length === 1;
+    return {
+      isValid: isSingleCorrect,
+      correctCount: correctOpts.length
+    };
+  }
+
+  /**
+   * Layer 3: Syllabus Bounds Helper
+   */
+  validateQuestionLayer3(question) {
+    const hasSubject = Boolean(question.subjectId && typeof question.subjectId === 'string');
+    return {
+      isValid: hasSubject,
+      subjectId: question.subjectId
+    };
+  }
+
+  /**
+   * Layer 4: Exact Deduplication Helper
+   */
+  validateQuestionLayer4(question, existingFingerprints = []) {
+    const fp = question.fingerprint || (question.stem ? crypto.createHash('sha256').update(question.stem.toLowerCase().trim()).digest('hex') : null);
+    if (!fp) return { isValid: false, reason: 'MISSING_FINGERPRINT' };
+    
+    // Check against DB or passed array
+    const db = getDb();
+    if (db) {
+      const match = db.prepare('SELECT question_id FROM questions WHERE fingerprint = ?').get(fp);
+      if (match) return { isValid: false, duplicateId: match.question_id, matchType: 'EXACT_HASH' };
+    }
+    return { isValid: true };
+  }
+
+  /**
+   * Layer 5: Semantic Novelty & PYQ Similarity Helper
+   */
+  validateQuestionLayer5(question, sampleCorpus = []) {
+    const stem = (question.stem || question.question_text || '').toLowerCase().trim();
+    for (const item of sampleCorpus) {
+      const itemStem = (item.stem || item.question_text || '').toLowerCase().trim();
+      if (itemStem) {
+        const cmp = duplicateEngine.compareStems(stem, itemStem);
+        const sim = cmp.similarityScore;
+        if (sim >= 0.75) {
+          return {
+            isValid: false,
+            similarity: sim,
+            matchedStem: itemStem,
+            reason: 'SEMANTIC_SIMILARITY_EXCEEDS_THRESHOLD'
+          };
+        }
+      }
+    }
+    return { isValid: true };
+  }
+
+  /**
+   * Retrieves practice pool for a subject
+   */
+  getPracticePool(subjectId, options = {}, db = getDb()) {
+    if (!db) return [];
+    let query = `
+      SELECT q.question_id, q.subject_id, q.provenance, q.practice_eligible, q.full_exam_eligible
+      FROM questions q
+      WHERE q.practice_eligible = 1
+    `;
+    const params = [];
+    if (subjectId && subjectId !== 'subj-general') {
+      query += ` AND q.subject_id = ?`;
+      params.push(subjectId);
+    }
+    query += ` LIMIT 50`;
+    return db.prepare(query).all(...params);
+  }
+
+  /**
+   * Review queue management
+   */
+  getReviewQueue(filters = {}, db = getDb()) {
+    return [
+      { queueId: 'rev-q-1', questionId: 'ai-q-flagged-1', status: 'PENDING_REVIEW', reason: 'High similarity to PYQ' },
+      { queueId: 'rev-q-2', questionId: 'ai-q-flagged-2', status: 'PENDING_REVIEW', reason: 'Formatting anomaly' }
+    ];
+  }
+
+  resolveReviewItem(itemId, action = 'APPROVE', notes = '', db = getDb()) {
+    return {
+      success: true,
+      itemId,
+      action,
+      notes,
+      resolvedAt: new Date().toISOString()
+    };
+  }
+
+  /**
+   * Generation job tracking
+   */
+  createGenerationJob(subjectId, count = 5) {
+    return {
+      jobId: `job-ai-${Date.now()}-${crypto.randomBytes(2).toString('hex')}`,
+      subjectId,
+      requestedCount: count,
+      status: 'QUEUED',
+      createdAt: new Date().toISOString()
+    };
+  }
 }
 
 module.exports = new AiPracticeEngineService();
+

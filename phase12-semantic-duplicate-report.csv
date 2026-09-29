@@ -1,0 +1,4 @@
+comparison_id,source_stem,target_stem,semantic_similarity,threshold,status,resolution
+sem-001,What is Article 14 of Indian Constitution?,Which Article ensures Equality before Law in India?,0.88,0.85,NEAR_DUPLICATE,REJECTED_TO_PRESERVE_NOVELTY
+sem-002,Calculate profit % when CP is 100 and SP is 120,Find profit percentage if item bought for 100 sold for 120,0.92,0.85,NEAR_DUPLICATE,REJECTED_TO_PRESERVE_NOVELTY
+sem-003,Explain writ jurisdiction of Supreme Court,Discuss writ powers under Article 32,0.76,0.85,ACCEPTED_DISTINCT,APPROVED

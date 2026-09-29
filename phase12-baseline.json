@@ -1,0 +1,41 @@
+{
+  "phase": "Phase 12: Source-Grounded AI Practice Productionization + Notes & Revision Content Intelligence",
+  "generatedAt": "2026-09-29T01:18:44.179Z",
+  "baselineCorpus": {
+    "totalQuestions": 1282,
+    "provenanceBreakdown": {
+      "HUMAN_CURATED": 872,
+      "OFFICIAL_PYQ": 351,
+      "OFFICIAL_SAMPLE": 59,
+      "AI_PRACTICE": 0
+    },
+    "fullExamEligibleQuestions": 250,
+    "practiceAvailableQuestions": 1282
+  },
+  "examStructure": {
+    "rootExams": 52,
+    "granularComponents": 324,
+    "readiness": {
+      "READY": 2,
+      "PARTIALLY_READY": 15,
+      "BLOCKED": 307
+    }
+  },
+  "syllabusInventory": {
+    "subjects": 23,
+    "chapters": 120,
+    "topics": 161,
+    "blueprints": 29
+  },
+  "workstreams": {
+    "workstreamA": "AI Practice Productionization (5-Layer Gate, Novelty Control, Job Queue, Practice Enrichment)",
+    "workstreamB": "Notes & Revision Intelligence (16 Note Types, Flashcards, Formula Sheets, Staleness Tracking, Multilingual Safety)"
+  },
+  "invariantsEnforced": {
+    "zeroQuestionDeletions": true,
+    "strictProvenanceSeparation": true,
+    "fullExamSafetyPreserved": true,
+    "zeroAIPracticeInFullExam": true,
+    "zeroAIPracticeInFullExamPDF": true
+  }
+}

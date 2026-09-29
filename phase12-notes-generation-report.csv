@@ -1,0 +1,9 @@
+note_id,subject_id,chapter_id,note_type,depth,language_id,provenance,verification_status,word_count,created_at
+note-polity-001,subj-polity,ch-polity-fr,FULL_NOTES,DETAILED,hi,AI_NOTES,VERIFIED,1250,2026-09-29T06:00:00Z
+note-polity-002,subj-polity,ch-polity-fr,QUICK_NOTES,SHORT,hi,AI_NOTES,VERIFIED,420,2026-09-29T06:05:00Z
+note-quant-001,subj-quant,ch-quant-arith,FORMULA_SHEET,MEDIUM,en,AI_NOTES,VERIFIED,580,2026-09-29T06:10:00Z
+note-quant-002,subj-quant,ch-quant-arith,FLASHCARD,SHORT,en,AI_NOTES,VERIFIED,310,2026-09-29T06:15:00Z
+note-hist-001,subj-history,ch-hist-mod,ONE_LINE_REVISION,SHORT,hi,AI_NOTES,VERIFIED,650,2026-09-29T06:20:00Z
+note-sci-001,subj-science,ch-sci-bio,CHAPTER_SUMMARY,MEDIUM,en,AI_NOTES,VERIFIED,890,2026-09-29T06:25:00Z
+note-reas-001,subj-reasoning,ch-reas-logic,COMMON_MISTAKES,SHORT,hi,AI_NOTES,VERIFIED,480,2026-09-29T06:30:00Z
+note-econ-001,subj-economy,ch-econ-macro,HIGH_YIELD_POINTS,MEDIUM,en,AI_NOTES,VERIFIED,720,2026-09-29T06:35:00Z

@@ -1,0 +1,6 @@
+job_id,job_type,target_subject,items_requested,items_succeeded,items_failed,latency_ms,status
+job-12-001,AI_PRACTICE_GENERATION,subj-quant,25,25,0,840,COMPLETED
+job-12-002,AI_PRACTICE_GENERATION,subj-polity,20,20,0,720,COMPLETED
+job-12-003,FLASHCARD_BATCH_GENERATION,subj-history,20,20,0,510,COMPLETED
+job-12-004,FORMULA_SHEET_COMPILATION,subj-quant,5,5,0,320,COMPLETED
+job-12-005,REVISION_COMPENDIUM_BUILD,subj-science,10,10,0,450,COMPLETED

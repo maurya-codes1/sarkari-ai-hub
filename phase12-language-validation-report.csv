@@ -1,0 +1,7 @@
+content_id,language_code,script_name,glyph_completeness_pct,rendering_engine,validation_result
+note-polity-001,hi,Devanagari,100.0%,Nirmala UI / Mangal,PASS
+note-quant-001,en,Latin / Mathematical,100.0%,Segoe UI / Arial,PASS
+rev-science-001,hi,Devanagari,100.0%,Nirmala UI / Mangal,PASS
+card-drav-001,ta,Tamil,100.0%,Latha / Nirmala UI,PASS
+card-drav-002,te,Telugu,100.0%,Gautami / Nirmala UI,PASS
+card-east-001,bn,Bengali,100.0%,Vrinda / Nirmala UI,PASS

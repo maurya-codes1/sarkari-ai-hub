@@ -1,0 +1,6 @@
+job_id,concept,subject_id,difficulty,target_count,generated_count,validated_count,published_count,provenance,full_exam_eligible
+job-gen-001,Percentage & Profit Calculation,subj-quant,MEDIUM,25,25,25,25,AI_PRACTICE,0
+job-gen-002,Fundamental Rights & Articles,subj-polity,MEDIUM,20,20,20,20,AI_PRACTICE,0
+job-gen-003,Cell Biology & Genetics,subj-science,EASY,15,15,15,15,AI_PRACTICE,0
+job-gen-004,Logical Reasoning & Syllogisms,subj-reasoning,HARD,20,20,20,20,AI_PRACTICE,0
+job-gen-005,Ancient Indian History & Dynasties,subj-history,MEDIUM,20,20,20,20,AI_PRACTICE,0

@@ -1,5 +1,6 @@
 // backend/routes/phase12-routes.js
 // Phase 12: Nationwide Content Expansion & Advanced Preparation Platform REST APIs
+// Includes Structured Notes, Revision Engine, Flashcards, Formula Sheets, Content Quality & Coverage Analytics.
 
 const express = require('express');
 const router = express.Router();
@@ -8,10 +9,93 @@ const preparationPlanService = require('../services/preparation-plan-service');
 const spacedRevisionService = require('../services/spaced-revision-service');
 const bulkIngestionService = require('../services/bulk-ingestion-service');
 const coverageAnalyticsService = require('../services/coverage-analytics-service');
+const notesEngine = require('../services/notes-engine');
 const { getDb } = require('../db/database');
 
 // -------------------------------------------------------------
-// 1. PERSONALIZED PREPARATION PLANS & MILESTONES
+// 1. STRUCTURED NOTES & REVISION CONTENT (WORKSTREAM B)
+// -------------------------------------------------------------
+router.get('/notes', (req, res) => {
+  try {
+    const notes = notesEngine.getNotes(req.query);
+    res.json({ success: true, count: notes.length, notes });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/notes/metrics', (req, res) => {
+  try {
+    const metrics = notesEngine.getContentQualityMetrics();
+    res.json({ success: true, metrics });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/notes/:noteId', (req, res) => {
+  try {
+    const note = notesEngine.getNoteById(req.params.noteId);
+    if (!note) {
+      return res.status(404).json({ success: false, error: 'Note not found' });
+    }
+    res.json({ success: true, note });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/notes', (req, res) => {
+  try {
+    const result = notesEngine.createNote(req.body);
+    res.json({ success: true, result });
+  } catch (err) {
+    res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/notes/:noteId/stale', (req, res) => {
+  try {
+    const { reason } = req.body || {};
+    const result = notesEngine.markStale(req.params.noteId, reason);
+    res.json({ success: true, result });
+  } catch (err) {
+    res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/revision/flashcards', (req, res) => {
+  try {
+    const { subjectId = 'subj-general', chapterId, count = 5 } = req.query;
+    const cards = notesEngine.generateFlashcards(subjectId, chapterId, parseInt(count, 10));
+    res.json({ success: true, count: cards.length, cards });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/revision/formula-sheet', (req, res) => {
+  try {
+    const { subjectId = 'subj-general', chapterId } = req.query;
+    const sheet = notesEngine.generateFormulaSheet(subjectId, chapterId);
+    res.json({ success: true, sheet });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/revision/compendium', (req, res) => {
+  try {
+    const { subjectId = 'subj-general', chapterId } = req.query;
+    const compendium = notesEngine.generateRevisionCompendium(subjectId, chapterId);
+    res.json({ success: true, compendium });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+// -------------------------------------------------------------
+// 2. PERSONALIZED PREPARATION PLANS & MILESTONES
 // -------------------------------------------------------------
 router.post('/preparation/plan/generate', (req, res) => {
   try {
@@ -59,7 +143,7 @@ router.get('/preparation/plans/:userId', (req, res) => {
 });
 
 // -------------------------------------------------------------
-// 2. SPACED REPETITION & RETENTION SCHEDULING
+// 3. SPACED REPETITION & RETENTION SCHEDULING
 // -------------------------------------------------------------
 router.post('/revision/attempt', (req, res) => {
   try {
@@ -93,7 +177,7 @@ router.get('/revision/metrics/:userId', (req, res) => {
 });
 
 // -------------------------------------------------------------
-// 3. CONTENT INGESTION PIPELINE & REVIEW QUEUE
+// 4. CONTENT INGESTION PIPELINE & REVIEW QUEUE
 // -------------------------------------------------------------
 router.post('/content/ingest', (req, res) => {
   try {
@@ -138,7 +222,7 @@ router.post('/content/flag', (req, res) => {
 });
 
 // -------------------------------------------------------------
-// 4. NATIONWIDE COVERAGE ANALYTICS & BENCHMARKS
+// 5. NATIONWIDE COVERAGE ANALYTICS & BENCHMARKS
 // -------------------------------------------------------------
 router.get('/coverage/matrix', (req, res) => {
   try {
@@ -186,7 +270,7 @@ router.get('/coverage/benchmarks/stored', (req, res) => {
 });
 
 // -------------------------------------------------------------
-// 5. SEARCH & SCALABILITY LATENCY LOGGING
+// 6. SEARCH & SCALABILITY LATENCY LOGGING
 // -------------------------------------------------------------
 router.post('/search/benchmark', (req, res) => {
   try {

@@ -1,0 +1,7 @@
+exam_id,component_id,subject_id,official_questions,human_questions,ai_practice_questions,total_practice_pool
+exam-ssc-cgl,comp-ssc-cgl-tier1,subj-quant,25,0,25,50
+exam-ssc-cgl,comp-ssc-cgl-tier1,subj-reasoning,25,0,20,45
+exam-ssc-cgl,comp-ssc-cgl-tier1,subj-english,25,0,20,45
+exam-ssc-cgl,comp-ssc-cgl-tier1,subj-general-awareness,25,0,25,50
+exam-upsc-cse,comp-upsc-cse-prelims-gs,subj-polity,20,0,20,40
+exam-upsc-cse,comp-upsc-cse-prelims-gs,subj-history,20,0,20,40

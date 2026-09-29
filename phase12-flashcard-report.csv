@@ -1,0 +1,6 @@
+card_id,subject_id,chapter_id,topic_id,front_preview,back_preview,interval_days,ease_factor,provenance
+fc-polity-101,subj-polity,ch-polity-fr,top-art14,What does Article 14 guarantee?,Equality before law and equal protection of the laws,1,2.5,AI_NOTES
+fc-polity-102,subj-polity,ch-polity-fr,top-art21,What is the scope of Article 21?,Protection of life and personal liberty,3,2.6,AI_NOTES
+fc-quant-101,subj-quant,ch-quant-arith,top-pct,Formula for percentage change,[(New - Old) / Old] * 100,1,2.5,AI_NOTES
+fc-quant-102,subj-quant,ch-quant-arith,top-prof,How is Markup Percentage calculated?,[(Marked Price - CP) / CP] * 100,2,2.4,AI_NOTES
+fc-hist-101,subj-history,ch-hist-mod,top-inc,In which year was the INC founded?,1885 in Bombay under W.C. Bonnerjee,6,2.7,AI_NOTES

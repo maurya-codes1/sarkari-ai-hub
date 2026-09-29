@@ -1,0 +1,7 @@
+content_category,provenance_tier,item_count,percentage_of_corpus,full_exam_allowed,practice_allowed,official_claim_permitted
+Questions,OFFICIAL_PYQ,351,27.38%,YES,YES,YES
+Questions,OFFICIAL_SAMPLE,59,4.60%,YES,YES,YES
+Questions,HUMAN_CURATED,872,68.02%,NO (unless verified),YES,NO
+Questions,AI_PRACTICE,100 (Generated in Phase 11/12),N/A (Segregated),NO (STRICTLY FORBIDDEN),YES,NO
+Notes & Revision,HUMAN_CURATED,4,33.3%,NO,YES,NO
+Notes & Revision,AI_NOTES,8,66.7%,NO,YES,NO (AI Disclaimer Required)

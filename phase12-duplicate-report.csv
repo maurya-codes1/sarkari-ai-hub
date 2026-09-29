@@ -1,0 +1,4 @@
+check_id,entity_type,item_id,comparison_item_id,match_type,similarity_score,action_taken
+dup-chk-001,QUESTION,ai-q-007,q-existing-104,EXACT_HASH,1.00,REJECTED_AT_LAYER_4
+dup-chk-002,NOTE,note-test-dup,note-polity-001,EXACT_CONTENT,0.99,MERGED_AND_DEDUPLICATED
+dup-chk-003,FLASHCARD,fc-dup-01,fc-polity-101,SEMANTIC_MATCH,0.94,PRUNED_FROM_SET

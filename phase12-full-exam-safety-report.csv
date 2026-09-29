@@ -1,0 +1,325 @@
+component_id,exam_name,readiness_status,verified_pyq_pool,ai_practice_count,full_exam_uses_ai,safety_barrier_active
+"comp-upsc-cse-prelims-gs1","UPSC CSE Preliminary GS Paper 1","Civil Services Preliminary GS 1",0,0,FALSE,ACTIVE
+"comp-upsc-cse-prelims-csat","UPSC CSE Preliminary CSAT Paper 2","Civil Services Preliminary CSAT",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-essay","UPSC CSE Mains Essay","Civil Services Mains Essay Paper",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-gs1","UPSC CSE Mains GS Paper 1","Civil Services Mains GS 1",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-gs2","UPSC CSE Mains GS Paper 2","Civil Services Mains GS 2",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-gs3","UPSC CSE Mains GS Paper 3","Civil Services Mains GS 3",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-gs4","UPSC CSE Mains GS Paper 4","Civil Services Mains GS 4",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-opt1","UPSC CSE Mains Optional Paper 1","Civil Services Mains Optional 1",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-opt2","UPSC CSE Mains Optional Paper 2","Civil Services Mains Optional 2",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-lang","UPSC CSE Mains Indian Language Paper A","Civil Services Mains Compulsory Indian Language",0,0,FALSE,ACTIVE
+"comp-upsc-cse-mains-eng","UPSC CSE Mains English Paper B","Civil Services Mains Compulsory English",0,0,FALSE,ACTIVE
+"comp-upsc-nda-math","UPSC NDA Paper 1 Mathematics","NDA & NA Mathematics",0,0,FALSE,ACTIVE
+"comp-upsc-nda-gat","UPSC NDA Paper 2 General Ability Test","NDA & NA General Ability Test",0,0,FALSE,ACTIVE
+"comp-ssc-cgl-tier1","SSC CGL Tier-1 CBE","Combined Graduate Level Tier-1",0,0,FALSE,ACTIVE
+"comp-ssc-cgl-tier2-p1","SSC CGL Tier-2 Paper-1","Combined Graduate Level Tier-2 Paper 1",0,0,FALSE,ACTIVE
+"comp-ssc-chsl-tier1","SSC CHSL Tier-1 CBE","Combined Higher Secondary Tier-1",0,0,FALSE,ACTIVE
+"comp-ssc-chsl-tier2-p1","SSC CHSL Tier-2","Combined Higher Secondary Tier-2",0,0,FALSE,ACTIVE
+"comp-ssc-mts-session1","SSC MTS Session-I","Multi-Tasking Staff Session 1",0,0,FALSE,ACTIVE
+"comp-ssc-mts-session2","SSC MTS Session-II","Multi-Tasking Staff Session 2",0,0,FALSE,ACTIVE
+"comp-ssc-gd-cbe","SSC GD Constable Unified CBE","Constables GD Computer Based Examination",0,0,FALSE,ACTIVE
+"comp-rrb-alp-cbt1","RRB ALP CBT-1 Screening","Assistant Loco Pilot CBT-1",0,0,FALSE,ACTIVE
+"comp-rrb-alp-cbt2-parta","RRB ALP CBT-2 Part A","Assistant Loco Pilot CBT-2 Part A Merit",0,0,FALSE,ACTIVE
+"comp-rrb-alp-cbt2-partb","RRB ALP CBT-2 Part B Trade","Assistant Loco Pilot CBT-2 Part B Qualifying",0,0,FALSE,ACTIVE
+"comp-rrb-ntpc-cbt1","RRB NTPC CBT-1 Screening","NTPC First Stage CBT",0,0,FALSE,ACTIVE
+"comp-rrb-ntpc-cbt2","RRB NTPC CBT-2 Merit","NTPC Second Stage CBT",0,0,FALSE,ACTIVE
+"comp-rrb-group-d-cbt","RRB Group D Single Stage CBT","RRC Level-1 Computer Based Test",0,0,FALSE,ACTIVE
+"comp-rrb-tech-grade1","RRB Technician Grade-I Signal","Technician Grade-I Signal CBT",0,0,FALSE,ACTIVE
+"comp-rrb-tech-grade3","RRB Technician Grade-III","Technician Grade-III CBT",0,0,FALSE,ACTIVE
+"comp-ibps-po-prelims","IBPS PO Preliminary Exam","IBPS CRP PO/MT Preliminary",0,0,FALSE,ACTIVE
+"comp-ibps-po-mains","IBPS PO Main Exam","IBPS CRP PO/MT Main Examination",0,0,FALSE,ACTIVE
+"comp-ibps-clerk-prelims","IBPS Clerk Preliminary Exam","IBPS CRP Clerical Preliminary",0,0,FALSE,ACTIVE
+"comp-ibps-clerk-mains","IBPS Clerk Main Exam","IBPS CRP Clerical Main Examination",0,0,FALSE,ACTIVE
+"comp-sbi-po-prelims","SBI PO Preliminary Exam","State Bank of India PO Preliminary",0,0,FALSE,ACTIVE
+"comp-sbi-po-mains","SBI PO Main Exam","State Bank of India PO Main",0,0,FALSE,ACTIVE
+"comp-sbi-clerk-prelims","SBI Clerk / JA Preliminary Exam","SBI Junior Associates Preliminary",0,0,FALSE,ACTIVE
+"comp-sbi-clerk-mains","SBI Clerk / JA Main Exam","SBI Junior Associates Main",0,0,FALSE,ACTIVE
+"comp-agniveer-army-gd","Indian Army Agniveer GD CEE","Army Agniveer General Duty Online CEE",0,0,FALSE,ACTIVE
+"comp-agniveer-army-tech","Indian Army Agniveer Technical CEE","Army Agniveer Technical Online CEE",0,0,FALSE,ACTIVE
+"comp-agniveer-army-clerk","Indian Army Agniveer Clerk/SKT CEE","Army Agniveer Clerk & Store Keeper Technical",0,0,FALSE,ACTIVE
+"comp-agniveer-army-tradesman","Indian Army Agniveer Tradesman CEE","Army Agniveer Tradesman Online CEE",0,0,FALSE,ACTIVE
+"comp-agniveer-navy-ssr","Indian Navy Agniveer SSR INET","Senior Secondary Recruit Computer Examination",0,0,FALSE,ACTIVE
+"comp-agniveer-navy-mr","Indian Navy Agniveer MR INET","Matric Recruit Computer Examination",0,0,FALSE,ACTIVE
+"comp-agniveer-airforce-sci","IAF Agniveer Vayu Science Subjects","Agniveer Vayu Science Phase-1",0,0,FALSE,ACTIVE
+"comp-agniveer-airforce-other","IAF Agniveer Vayu Other than Science","Agniveer Vayu Non-Science Phase-1",0,0,FALSE,ACTIVE
+"comp-agniveer-airforce-both","IAF Agniveer Vayu Both Science & Other","Agniveer Vayu Composite Phase-1",0,0,FALSE,ACTIVE
+"comp-up-police-constable-written","UP Police Constable Written Exam","UP Police Civil Constable & PAC Written",0,0,FALSE,ACTIVE
+"comp-up-police-si-written","UP Police Sub Inspector Written Exam","UP Police Sub Inspector (Daroga) Written",0,0,FALSE,ACTIVE
+"comp-bihar-police-sipahi-written","Bihar Police Sipahi Written Exam","CSBC Bihar Police Constable Written",0,0,FALSE,ACTIVE
+"comp-bihar-police-si-prelims","Bihar Police SI Daroga Prelims","BPSSC Police Sub Inspector Preliminary",0,0,FALSE,ACTIVE
+"comp-bihar-police-si-mains","Bihar Police SI Daroga Mains","BPSSC Police Sub Inspector Main Examination",0,0,FALSE,ACTIVE
+"comp-delhi-police-constable-cbe","Delhi Police Executive Constable CBE","Constable (Executive) in Delhi Police Exam",0,0,FALSE,ACTIVE
+"comp-delhi-police-hc-cbe","Delhi Police Head Constable CBE","Head Constable (Ministerial) Examination",0,0,FALSE,ACTIVE
+"comp-haryana-police-constable-kt","Haryana Police Constable Knowledge Test","Haryana Police Constable Knowledge Test",0,0,FALSE,ACTIVE
+"comp-maharashtra-police-shipai","Maharashtra Police Shipai Written Exam","Maharashtra Police Shipai Written Test",0,0,FALSE,ACTIVE
+"comp-mp-police-constable-cbt","MP Police Constable Online Test","MP Police Constable Recruitment Test",0,0,FALSE,ACTIVE
+"comp-mp-police-si-written","MP Police Sub Inspector Written Test","MP Police Sub Inspector Recruitment Test",0,0,FALSE,ACTIVE
+"comp-rajasthan-police-constable-cbt","Rajasthan Police Constable Written CBT","Rajasthan Police Constable Written Exam",0,0,FALSE,ACTIVE
+"comp-wb-police-constable-prelims","WB Police Constable Preliminary Written","West Bengal Police Constable Prelims",0,0,FALSE,ACTIVE
+"comp-wb-police-si-prelims","WB Police Sub Inspector Preliminary Exam","West Bengal Police SI Preliminary Test",0,0,FALSE,ACTIVE
+"comp-ctet-paper1-primary","CTET Paper-I Primary Stage","Central Teacher Eligibility Test Paper 1",0,0,FALSE,ACTIVE
+"comp-ctet-paper2-math-sci","CTET Paper-II Elementary Math & Science","Central Teacher Eligibility Test Paper 2 (Math/Sci)",0,0,FALSE,ACTIVE
+"comp-ctet-paper2-soc","CTET Paper-II Elementary Social Studies","Central Teacher Eligibility Test Paper 2 (Social)",0,0,FALSE,ACTIVE
+"comp-bpsc-tre-primary","BPSC TRE Primary Teacher (Class 1-5)","School Teacher Recruitment Examination PRT",0,0,FALSE,ACTIVE
+"comp-bpsc-tre-middle","BPSC TRE Middle School Teacher (Class 6-8)","School Teacher Recruitment Examination TGT",0,0,FALSE,ACTIVE
+"comp-bpsc-tre-secondary","BPSC TRE Secondary Teacher (Class 9-10 & 11-12)","School Teacher Recruitment Examination PGT",0,0,FALSE,ACTIVE
+"comp-reet-level1","REET Level-1 Primary Examination","Rajasthan Teacher Eligibility Level 1",0,0,FALSE,ACTIVE
+"comp-reet-level2","REET Level-2 Upper Primary Examination","Rajasthan Teacher Eligibility Level 2",0,0,FALSE,ACTIVE
+"comp-ugc-net-paper1","UGC NET Paper-1 Teaching & Research","UGC NET Paper 1 General Aptitude",0,0,FALSE,ACTIVE
+"comp-ugc-net-paper2","UGC NET Paper-2 Subject Domain","UGC NET Paper 2 Subject Specific",0,0,FALSE,ACTIVE
+"comp-csir-net","Joint CSIR-UGC NET Examination","CSIR UGC NET Science JRF & Assistant Professor",0,0,FALSE,ACTIVE
+"comp-uptet-paper1","UPTET Paper-I Primary Stage","Uttar Pradesh Teacher Eligibility Test Paper 1",0,0,FALSE,ACTIVE
+"comp-uptet-paper2","UPTET Paper-II Upper Primary Stage","Uttar Pradesh Teacher Eligibility Test Paper 2",0,0,FALSE,ACTIVE
+"comp-supertet","UP Super TET Assistant Teacher Exam","UP Assistant Teacher Recruitment Examination",0,0,FALSE,ACTIVE
+"comp-jee-main-paper1","JEE Main Paper-1 (B.E. / B.Tech)","Joint Entrance Examination Main Paper 1",0,0,FALSE,ACTIVE
+"comp-jee-main-paper2a","JEE Main Paper-2A (B.Arch)","Joint Entrance Examination Main Paper 2A",0,0,FALSE,ACTIVE
+"comp-jee-main-paper2b","JEE Main Paper-2B (B.Planning)","Joint Entrance Examination Main Paper 2B",0,0,FALSE,ACTIVE
+"comp-jee-adv-paper1","JEE Advanced Paper-1","Joint Entrance Examination Advanced Paper 1",0,0,FALSE,ACTIVE
+"comp-jee-adv-paper2","JEE Advanced Paper-2","Joint Entrance Examination Advanced Paper 2",0,0,FALSE,ACTIVE
+"comp-neet-ug-unified","NEET UG Unified Examination","National Eligibility cum Entrance Test (UG)",0,0,FALSE,ACTIVE
+"comp-clat-ug","CLAT Undergraduate (BA LLB)","Common Law Admission Test UG",0,0,FALSE,ACTIVE
+"comp-clat-pg","CLAT Postgraduate (LLM)","Common Law Admission Test PG",0,0,FALSE,ACTIVE
+"comp-cuet-ug-languages","CUET UG Section IA & IB Languages","CUET UG Language Tests",0,0,FALSE,ACTIVE
+"comp-cuet-ug-domain","CUET UG Section II Domain Subjects","CUET UG Domain Specific Subjects",0,0,FALSE,ACTIVE
+"comp-cuet-ug-general","CUET UG Section III General Test","CUET UG General Aptitude Test",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls10-math","CBSE Class 10 Mathematics","Central Board of Secondary Education Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls10-science","CBSE Class 10 Science & Technology","Central Board of Secondary Education Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls10-social","CBSE Class 10 Social Science","Central Board of Secondary Education Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls10-english","CBSE Class 10 English Language & Literature","Central Board of Secondary Education Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls10-regionallang","CBSE Class 10 Hindi / Regional First Language","Central Board of Secondary Education Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-sci-physics","CBSE Class 12 Physics","Central Board of Secondary Education Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-sci-chemistry","CBSE Class 12 Chemistry","Central Board of Secondary Education Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-sci-math","CBSE Class 12 Higher Mathematics","Central Board of Secondary Education Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-sci-biology","CBSE Class 12 Biology (Botany & Zoology)","Central Board of Secondary Education Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-com-accountancy","CBSE Class 12 Accountancy","Central Board of Secondary Education Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-com-business","CBSE Class 12 Business Studies","Central Board of Secondary Education Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-cbse-board-cls12-com-economics","CBSE Class 12 Economics","Central Board of Secondary Education Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls10-math","CISCE Class 10 Mathematics","Council for the Indian School Certificate Examinations Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls10-science","CISCE Class 10 Science & Technology","Council for the Indian School Certificate Examinations Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls10-social","CISCE Class 10 Social Science","Council for the Indian School Certificate Examinations Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls10-english","CISCE Class 10 English Language & Literature","Council for the Indian School Certificate Examinations Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls10-regionallang","CISCE Class 10 Hindi / Regional First Language","Council for the Indian School Certificate Examinations Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-sci-physics","CISCE Class 12 Physics","Council for the Indian School Certificate Examinations Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-sci-chemistry","CISCE Class 12 Chemistry","Council for the Indian School Certificate Examinations Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-sci-math","CISCE Class 12 Higher Mathematics","Council for the Indian School Certificate Examinations Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-sci-biology","CISCE Class 12 Biology (Botany & Zoology)","Council for the Indian School Certificate Examinations Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-com-accountancy","CISCE Class 12 Accountancy","Council for the Indian School Certificate Examinations Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-com-business","CISCE Class 12 Business Studies","Council for the Indian School Certificate Examinations Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-icse-cisce-cls12-com-economics","CISCE Class 12 Economics","Council for the Indian School Certificate Examinations Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls10-math","UPMSP Class 10 Mathematics","UP Madhyamik Shiksha Parishad Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls10-science","UPMSP Class 10 Science & Technology","UP Madhyamik Shiksha Parishad Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls10-social","UPMSP Class 10 Social Science","UP Madhyamik Shiksha Parishad Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls10-english","UPMSP Class 10 English Language & Literature","UP Madhyamik Shiksha Parishad Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls10-regionallang","UPMSP Class 10 Hindi / Regional First Language","UP Madhyamik Shiksha Parishad Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-sci-physics","UPMSP Class 12 Physics","UP Madhyamik Shiksha Parishad Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-sci-chemistry","UPMSP Class 12 Chemistry","UP Madhyamik Shiksha Parishad Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-sci-math","UPMSP Class 12 Higher Mathematics","UP Madhyamik Shiksha Parishad Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-sci-biology","UPMSP Class 12 Biology (Botany & Zoology)","UP Madhyamik Shiksha Parishad Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-com-accountancy","UPMSP Class 12 Accountancy","UP Madhyamik Shiksha Parishad Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-com-business","UPMSP Class 12 Business Studies","UP Madhyamik Shiksha Parishad Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-upmsp-board-cls12-com-economics","UPMSP Class 12 Economics","UP Madhyamik Shiksha Parishad Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls10-math","BSEB Class 10 Mathematics","Bihar School Examination Board Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls10-science","BSEB Class 10 Science & Technology","Bihar School Examination Board Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls10-social","BSEB Class 10 Social Science","Bihar School Examination Board Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls10-english","BSEB Class 10 English Language & Literature","Bihar School Examination Board Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls10-regionallang","BSEB Class 10 Hindi / Regional First Language","Bihar School Examination Board Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-sci-physics","BSEB Class 12 Physics","Bihar School Examination Board Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-sci-chemistry","BSEB Class 12 Chemistry","Bihar School Examination Board Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-sci-math","BSEB Class 12 Higher Mathematics","Bihar School Examination Board Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-sci-biology","BSEB Class 12 Biology (Botany & Zoology)","Bihar School Examination Board Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-com-accountancy","BSEB Class 12 Accountancy","Bihar School Examination Board Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-com-business","BSEB Class 12 Business Studies","Bihar School Examination Board Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-bseb-bihar-cls12-com-economics","BSEB Class 12 Economics","Bihar School Examination Board Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls10-math","PSEB Class 10 Mathematics","Punjab School Education Board Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls10-science","PSEB Class 10 Science & Technology","Punjab School Education Board Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls10-social","PSEB Class 10 Social Science","Punjab School Education Board Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls10-english","PSEB Class 10 English Language & Literature","Punjab School Education Board Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls10-regionallang","PSEB Class 10 Hindi / Regional First Language","Punjab School Education Board Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-sci-physics","PSEB Class 12 Physics","Punjab School Education Board Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-sci-chemistry","PSEB Class 12 Chemistry","Punjab School Education Board Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-sci-math","PSEB Class 12 Higher Mathematics","Punjab School Education Board Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-sci-biology","PSEB Class 12 Biology (Botany & Zoology)","Punjab School Education Board Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-com-accountancy","PSEB Class 12 Accountancy","Punjab School Education Board Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-com-business","PSEB Class 12 Business Studies","Punjab School Education Board Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-pseb-punjab-cls12-com-economics","PSEB Class 12 Economics","Punjab School Education Board Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls10-math","RBSE Class 10 Mathematics","Board of Secondary Education Rajasthan Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls10-science","RBSE Class 10 Science & Technology","Board of Secondary Education Rajasthan Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls10-social","RBSE Class 10 Social Science","Board of Secondary Education Rajasthan Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls10-english","RBSE Class 10 English Language & Literature","Board of Secondary Education Rajasthan Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls10-regionallang","RBSE Class 10 Hindi / Regional First Language","Board of Secondary Education Rajasthan Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-sci-physics","RBSE Class 12 Physics","Board of Secondary Education Rajasthan Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-sci-chemistry","RBSE Class 12 Chemistry","Board of Secondary Education Rajasthan Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-sci-math","RBSE Class 12 Higher Mathematics","Board of Secondary Education Rajasthan Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-sci-biology","RBSE Class 12 Biology (Botany & Zoology)","Board of Secondary Education Rajasthan Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-com-accountancy","RBSE Class 12 Accountancy","Board of Secondary Education Rajasthan Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-com-business","RBSE Class 12 Business Studies","Board of Secondary Education Rajasthan Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-rbse-rajasthan-cls12-com-economics","RBSE Class 12 Economics","Board of Secondary Education Rajasthan Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls10-math","MPBSE Class 10 Mathematics","Board of Secondary Education Madhya Pradesh Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls10-science","MPBSE Class 10 Science & Technology","Board of Secondary Education Madhya Pradesh Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls10-social","MPBSE Class 10 Social Science","Board of Secondary Education Madhya Pradesh Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls10-english","MPBSE Class 10 English Language & Literature","Board of Secondary Education Madhya Pradesh Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls10-regionallang","MPBSE Class 10 Hindi / Regional First Language","Board of Secondary Education Madhya Pradesh Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-sci-physics","MPBSE Class 12 Physics","Board of Secondary Education Madhya Pradesh Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-sci-chemistry","MPBSE Class 12 Chemistry","Board of Secondary Education Madhya Pradesh Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-sci-math","MPBSE Class 12 Higher Mathematics","Board of Secondary Education Madhya Pradesh Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-sci-biology","MPBSE Class 12 Biology (Botany & Zoology)","Board of Secondary Education Madhya Pradesh Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-com-accountancy","MPBSE Class 12 Accountancy","Board of Secondary Education Madhya Pradesh Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-com-business","MPBSE Class 12 Business Studies","Board of Secondary Education Madhya Pradesh Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-mpbse-board-cls12-com-economics","MPBSE Class 12 Economics","Board of Secondary Education Madhya Pradesh Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls10-math","WBBSE / WBCHSE Class 10 Mathematics","WBBSE & WBCHSE Kolkata Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls10-science","WBBSE / WBCHSE Class 10 Science & Technology","WBBSE & WBCHSE Kolkata Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls10-social","WBBSE / WBCHSE Class 10 Social Science","WBBSE & WBCHSE Kolkata Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls10-english","WBBSE / WBCHSE Class 10 English Language & Literature","WBBSE & WBCHSE Kolkata Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls10-regionallang","WBBSE / WBCHSE Class 10 Hindi / Regional First Language","WBBSE & WBCHSE Kolkata Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-sci-physics","WBBSE / WBCHSE Class 12 Physics","WBBSE & WBCHSE Kolkata Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-sci-chemistry","WBBSE / WBCHSE Class 12 Chemistry","WBBSE & WBCHSE Kolkata Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-sci-math","WBBSE / WBCHSE Class 12 Higher Mathematics","WBBSE & WBCHSE Kolkata Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-sci-biology","WBBSE / WBCHSE Class 12 Biology (Botany & Zoology)","WBBSE & WBCHSE Kolkata Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-com-accountancy","WBBSE / WBCHSE Class 12 Accountancy","WBBSE & WBCHSE Kolkata Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-com-business","WBBSE / WBCHSE Class 12 Business Studies","WBBSE & WBCHSE Kolkata Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-wbbse-wb-cls12-com-economics","WBBSE / WBCHSE Class 12 Economics","WBBSE & WBCHSE Kolkata Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls10-math","TNDGE Class 10 Mathematics","Directorate of Government Examinations Tamil Nadu Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls10-science","TNDGE Class 10 Science & Technology","Directorate of Government Examinations Tamil Nadu Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls10-social","TNDGE Class 10 Social Science","Directorate of Government Examinations Tamil Nadu Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls10-english","TNDGE Class 10 English Language & Literature","Directorate of Government Examinations Tamil Nadu Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls10-regionallang","TNDGE Class 10 Hindi / Regional First Language","Directorate of Government Examinations Tamil Nadu Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-sci-physics","TNDGE Class 12 Physics","Directorate of Government Examinations Tamil Nadu Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-sci-chemistry","TNDGE Class 12 Chemistry","Directorate of Government Examinations Tamil Nadu Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-sci-math","TNDGE Class 12 Higher Mathematics","Directorate of Government Examinations Tamil Nadu Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-sci-biology","TNDGE Class 12 Biology (Botany & Zoology)","Directorate of Government Examinations Tamil Nadu Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-com-accountancy","TNDGE Class 12 Accountancy","Directorate of Government Examinations Tamil Nadu Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-com-business","TNDGE Class 12 Business Studies","Directorate of Government Examinations Tamil Nadu Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-tndge-tamilnadu-cls12-com-economics","TNDGE Class 12 Economics","Directorate of Government Examinations Tamil Nadu Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls10-math","KSEAB Class 10 Mathematics","Karnataka School Examination and Assessment Board Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls10-science","KSEAB Class 10 Science & Technology","Karnataka School Examination and Assessment Board Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls10-social","KSEAB Class 10 Social Science","Karnataka School Examination and Assessment Board Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls10-english","KSEAB Class 10 English Language & Literature","Karnataka School Examination and Assessment Board Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls10-regionallang","KSEAB Class 10 Hindi / Regional First Language","Karnataka School Examination and Assessment Board Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-sci-physics","KSEAB Class 12 Physics","Karnataka School Examination and Assessment Board Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-sci-chemistry","KSEAB Class 12 Chemistry","Karnataka School Examination and Assessment Board Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-sci-math","KSEAB Class 12 Higher Mathematics","Karnataka School Examination and Assessment Board Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-sci-biology","KSEAB Class 12 Biology (Botany & Zoology)","Karnataka School Examination and Assessment Board Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-com-accountancy","KSEAB Class 12 Accountancy","Karnataka School Examination and Assessment Board Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-com-business","KSEAB Class 12 Business Studies","Karnataka School Examination and Assessment Board Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-kseab-karnataka-cls12-com-economics","KSEAB Class 12 Economics","Karnataka School Examination and Assessment Board Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls10-math","GSEB Class 10 Mathematics","Gujarat Secondary & Higher Secondary Education Board Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls10-science","GSEB Class 10 Science & Technology","Gujarat Secondary & Higher Secondary Education Board Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls10-social","GSEB Class 10 Social Science","Gujarat Secondary & Higher Secondary Education Board Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls10-english","GSEB Class 10 English Language & Literature","Gujarat Secondary & Higher Secondary Education Board Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls10-regionallang","GSEB Class 10 Hindi / Regional First Language","Gujarat Secondary & Higher Secondary Education Board Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-sci-physics","GSEB Class 12 Physics","Gujarat Secondary & Higher Secondary Education Board Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-sci-chemistry","GSEB Class 12 Chemistry","Gujarat Secondary & Higher Secondary Education Board Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-sci-math","GSEB Class 12 Higher Mathematics","Gujarat Secondary & Higher Secondary Education Board Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-sci-biology","GSEB Class 12 Biology (Botany & Zoology)","Gujarat Secondary & Higher Secondary Education Board Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-com-accountancy","GSEB Class 12 Accountancy","Gujarat Secondary & Higher Secondary Education Board Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-com-business","GSEB Class 12 Business Studies","Gujarat Secondary & Higher Secondary Education Board Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-gseb-gujarat-cls12-com-economics","GSEB Class 12 Economics","Gujarat Secondary & Higher Secondary Education Board Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls10-math","BSEH Class 10 Mathematics","Board of School Education Haryana Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls10-science","BSEH Class 10 Science & Technology","Board of School Education Haryana Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls10-social","BSEH Class 10 Social Science","Board of School Education Haryana Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls10-english","BSEH Class 10 English Language & Literature","Board of School Education Haryana Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls10-regionallang","BSEH Class 10 Hindi / Regional First Language","Board of School Education Haryana Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-sci-physics","BSEH Class 12 Physics","Board of School Education Haryana Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-sci-chemistry","BSEH Class 12 Chemistry","Board of School Education Haryana Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-sci-math","BSEH Class 12 Higher Mathematics","Board of School Education Haryana Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-sci-biology","BSEH Class 12 Biology (Botany & Zoology)","Board of School Education Haryana Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-com-accountancy","BSEH Class 12 Accountancy","Board of School Education Haryana Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-com-business","BSEH Class 12 Business Studies","Board of School Education Haryana Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-bseh-haryana-cls12-com-economics","BSEH Class 12 Economics","Board of School Education Haryana Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls10-math","JAC Class 10 Mathematics","Jharkhand Academic Council Ranchi Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls10-science","JAC Class 10 Science & Technology","Jharkhand Academic Council Ranchi Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls10-social","JAC Class 10 Social Science","Jharkhand Academic Council Ranchi Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls10-english","JAC Class 10 English Language & Literature","Jharkhand Academic Council Ranchi Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls10-regionallang","JAC Class 10 Hindi / Regional First Language","Jharkhand Academic Council Ranchi Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-sci-physics","JAC Class 12 Physics","Jharkhand Academic Council Ranchi Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-sci-chemistry","JAC Class 12 Chemistry","Jharkhand Academic Council Ranchi Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-sci-math","JAC Class 12 Higher Mathematics","Jharkhand Academic Council Ranchi Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-sci-biology","JAC Class 12 Biology (Botany & Zoology)","Jharkhand Academic Council Ranchi Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-com-accountancy","JAC Class 12 Accountancy","Jharkhand Academic Council Ranchi Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-com-business","JAC Class 12 Business Studies","Jharkhand Academic Council Ranchi Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-jac-jharkhand-cls12-com-economics","JAC Class 12 Economics","Jharkhand Academic Council Ranchi Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls10-math","CGBSE Class 10 Mathematics","Chhattisgarh Board of Secondary Education Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls10-science","CGBSE Class 10 Science & Technology","Chhattisgarh Board of Secondary Education Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls10-social","CGBSE Class 10 Social Science","Chhattisgarh Board of Secondary Education Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls10-english","CGBSE Class 10 English Language & Literature","Chhattisgarh Board of Secondary Education Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls10-regionallang","CGBSE Class 10 Hindi / Regional First Language","Chhattisgarh Board of Secondary Education Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-sci-physics","CGBSE Class 12 Physics","Chhattisgarh Board of Secondary Education Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-sci-chemistry","CGBSE Class 12 Chemistry","Chhattisgarh Board of Secondary Education Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-sci-math","CGBSE Class 12 Higher Mathematics","Chhattisgarh Board of Secondary Education Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-sci-biology","CGBSE Class 12 Biology (Botany & Zoology)","Chhattisgarh Board of Secondary Education Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-com-accountancy","CGBSE Class 12 Accountancy","Chhattisgarh Board of Secondary Education Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-com-business","CGBSE Class 12 Business Studies","Chhattisgarh Board of Secondary Education Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-cgbse-chhattisgarh-cls12-com-economics","CGBSE Class 12 Economics","Chhattisgarh Board of Secondary Education Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls10-math","BSE / CHSE Odisha Class 10 Mathematics","BSE Odisha & CHSE Odisha Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls10-science","BSE / CHSE Odisha Class 10 Science & Technology","BSE Odisha & CHSE Odisha Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls10-social","BSE / CHSE Odisha Class 10 Social Science","BSE Odisha & CHSE Odisha Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls10-english","BSE / CHSE Odisha Class 10 English Language & Literature","BSE Odisha & CHSE Odisha Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls10-regionallang","BSE / CHSE Odisha Class 10 Hindi / Regional First Language","BSE Odisha & CHSE Odisha Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-sci-physics","BSE / CHSE Odisha Class 12 Physics","BSE Odisha & CHSE Odisha Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-sci-chemistry","BSE / CHSE Odisha Class 12 Chemistry","BSE Odisha & CHSE Odisha Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-sci-math","BSE / CHSE Odisha Class 12 Higher Mathematics","BSE Odisha & CHSE Odisha Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-sci-biology","BSE / CHSE Odisha Class 12 Biology (Botany & Zoology)","BSE Odisha & CHSE Odisha Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-com-accountancy","BSE / CHSE Odisha Class 12 Accountancy","BSE Odisha & CHSE Odisha Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-com-business","BSE / CHSE Odisha Class 12 Business Studies","BSE Odisha & CHSE Odisha Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-chse-bse-odisha-cls12-com-economics","BSE / CHSE Odisha Class 12 Economics","BSE Odisha & CHSE Odisha Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls10-math","UBSE Class 10 Mathematics","Uttarakhand Board of School Education Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls10-science","UBSE Class 10 Science & Technology","Uttarakhand Board of School Education Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls10-social","UBSE Class 10 Social Science","Uttarakhand Board of School Education Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls10-english","UBSE Class 10 English Language & Literature","Uttarakhand Board of School Education Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls10-regionallang","UBSE Class 10 Hindi / Regional First Language","Uttarakhand Board of School Education Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-sci-physics","UBSE Class 12 Physics","Uttarakhand Board of School Education Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-sci-chemistry","UBSE Class 12 Chemistry","Uttarakhand Board of School Education Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-sci-math","UBSE Class 12 Higher Mathematics","Uttarakhand Board of School Education Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-sci-biology","UBSE Class 12 Biology (Botany & Zoology)","Uttarakhand Board of School Education Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-com-accountancy","UBSE Class 12 Accountancy","Uttarakhand Board of School Education Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-com-business","UBSE Class 12 Business Studies","Uttarakhand Board of School Education Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-ubse-uttarakhand-cls12-com-economics","UBSE Class 12 Economics","Uttarakhand Board of School Education Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls10-math","ASSEB Class 10 Mathematics","Assam State School Education Board Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls10-science","ASSEB Class 10 Science & Technology","Assam State School Education Board Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls10-social","ASSEB Class 10 Social Science","Assam State School Education Board Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls10-english","ASSEB Class 10 English Language & Literature","Assam State School Education Board Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls10-regionallang","ASSEB Class 10 Hindi / Regional First Language","Assam State School Education Board Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-sci-physics","ASSEB Class 12 Physics","Assam State School Education Board Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-sci-chemistry","ASSEB Class 12 Chemistry","Assam State School Education Board Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-sci-math","ASSEB Class 12 Higher Mathematics","Assam State School Education Board Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-sci-biology","ASSEB Class 12 Biology (Botany & Zoology)","Assam State School Education Board Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-com-accountancy","ASSEB Class 12 Accountancy","Assam State School Education Board Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-com-business","ASSEB Class 12 Business Studies","Assam State School Education Board Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-seba-ahsec-assam-cls12-com-economics","ASSEB Class 12 Economics","Assam State School Education Board Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls10-math","TSBIE / BIEAP Class 10 Mathematics","TSBIE Hyderabad & BIEAP Vijayawada Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls10-science","TSBIE / BIEAP Class 10 Science & Technology","TSBIE Hyderabad & BIEAP Vijayawada Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls10-social","TSBIE / BIEAP Class 10 Social Science","TSBIE Hyderabad & BIEAP Vijayawada Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls10-english","TSBIE / BIEAP Class 10 English Language & Literature","TSBIE Hyderabad & BIEAP Vijayawada Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls10-regionallang","TSBIE / BIEAP Class 10 Hindi / Regional First Language","TSBIE Hyderabad & BIEAP Vijayawada Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-sci-physics","TSBIE / BIEAP Class 12 Physics","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-sci-chemistry","TSBIE / BIEAP Class 12 Chemistry","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-sci-math","TSBIE / BIEAP Class 12 Higher Mathematics","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-sci-biology","TSBIE / BIEAP Class 12 Biology (Botany & Zoology)","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-com-accountancy","TSBIE / BIEAP Class 12 Accountancy","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-com-business","TSBIE / BIEAP Class 12 Business Studies","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-tsbie-bieap-cls12-com-economics","TSBIE / BIEAP Class 12 Economics","TSBIE Hyderabad & BIEAP Vijayawada Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-nios-board-cls10-math","NIOS Class 10 Mathematics","National Institute of Open Schooling Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-nios-board-cls10-science","NIOS Class 10 Science & Technology","National Institute of Open Schooling Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-nios-board-cls10-social","NIOS Class 10 Social Science","National Institute of Open Schooling Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-nios-board-cls10-english","NIOS Class 10 English Language & Literature","National Institute of Open Schooling Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-nios-board-cls10-regionallang","NIOS Class 10 Hindi / Regional First Language","National Institute of Open Schooling Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-sci-physics","NIOS Class 12 Physics","National Institute of Open Schooling Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-sci-chemistry","NIOS Class 12 Chemistry","National Institute of Open Schooling Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-sci-math","NIOS Class 12 Higher Mathematics","National Institute of Open Schooling Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-sci-biology","NIOS Class 12 Biology (Botany & Zoology)","National Institute of Open Schooling Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-com-accountancy","NIOS Class 12 Accountancy","National Institute of Open Schooling Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-com-business","NIOS Class 12 Business Studies","National Institute of Open Schooling Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-nios-board-cls12-com-economics","NIOS Class 12 Economics","National Institute of Open Schooling Class 12 Economics",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls10-math","MSBSHSE Class 10 Mathematics","Maharashtra State Board of Secondary & Higher Secondary Class 10 Mathematics",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls10-science","MSBSHSE Class 10 Science & Technology","Maharashtra State Board of Secondary & Higher Secondary Class 10 Science & Technology",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls10-social","MSBSHSE Class 10 Social Science","Maharashtra State Board of Secondary & Higher Secondary Class 10 Social Science",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls10-english","MSBSHSE Class 10 English Language & Literature","Maharashtra State Board of Secondary & Higher Secondary Class 10 English Language & Literature",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls10-regionallang","MSBSHSE Class 10 Hindi / Regional First Language","Maharashtra State Board of Secondary & Higher Secondary Class 10 Hindi / Regional First Language",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-sci-physics","MSBSHSE Class 12 Physics","Maharashtra State Board of Secondary & Higher Secondary Class 12 Physics",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-sci-chemistry","MSBSHSE Class 12 Chemistry","Maharashtra State Board of Secondary & Higher Secondary Class 12 Chemistry",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-sci-math","MSBSHSE Class 12 Higher Mathematics","Maharashtra State Board of Secondary & Higher Secondary Class 12 Higher Mathematics",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-sci-biology","MSBSHSE Class 12 Biology (Botany & Zoology)","Maharashtra State Board of Secondary & Higher Secondary Class 12 Biology (Botany & Zoology)",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-com-accountancy","MSBSHSE Class 12 Accountancy","Maharashtra State Board of Secondary & Higher Secondary Class 12 Accountancy",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-com-business","MSBSHSE Class 12 Business Studies","Maharashtra State Board of Secondary & Higher Secondary Class 12 Business Studies",0,0,FALSE,ACTIVE
+"comp-maharashtra-board-cls12-com-economics","MSBSHSE Class 12 Economics","Maharashtra State Board of Secondary & Higher Secondary Class 12 Economics",0,0,FALSE,ACTIVE
