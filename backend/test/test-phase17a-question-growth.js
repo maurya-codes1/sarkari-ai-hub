@@ -178,7 +178,7 @@ test("12. All Phase 17A questions have valid, non-null, unique SHA-256 fingerpri
 
 // Test 13: Pre-existing Corpus Preservation (1,282 baseline preserved)
 test("13. Pre-existing 1,282 baseline questions remain intact without deletion", () => {
-  const nonP17aCount = db.prepare("SELECT count(*) as count FROM questions WHERE question_id NOT LIKE '%p17a%'").get().count;
+  const nonP17aCount = db.prepare("SELECT count(*) as count FROM questions WHERE question_id NOT LIKE '%p17a%' AND question_id NOT LIKE '%p17b%'").get().count;
   assert.strictEqual(nonP17aCount, 1282, `Expected 1282 pre-existing questions, got ${nonP17aCount}`);
 
   const pyqCount = db.prepare("SELECT count(*) as count FROM questions WHERE provenance = 'OFFICIAL_PYQ'").get().count;

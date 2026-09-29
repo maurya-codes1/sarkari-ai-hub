@@ -1,0 +1,6 @@
+language_code,language_name,question_count,percentage_of_corpus,representation_type
+"en","English",1905,"96.7%","PRIMARY_MEDIUM"
+"hi","Hindi (हिन्दी)",1931,"98.0%","NATIONAL_OFFICIAL_MEDIUM"
+"ta","Tamil (தமிழ்)",32,"1.6%","REGIONAL_MEDIUM"
+"mr","Marathi (मराठी)",7,"0.4%","REGIONAL_MEDIUM"
+"te","Telugu (తెలుగు)",0,"0.0%","REGIONAL_MEDIUM"

@@ -1,0 +1,11 @@
+validation_check,expected_value,actual_value,status
+"Total Question Records","1970","1970","PASSED"
+"Total Question Versions","1970","1970","PASSED"
+"Orphan Questions (no version)","0","0","PASSED"
+"Orphan Versions (no question)","0","0","PASSED"
+"Foreign Key Constraint Violations","0","0","PASSED"
+"SQLite DB Integrity Check","ok","ok","PASSED"
+"Full Exam Gating Safety","0 diluted","0 diluted","PASSED"
+"Core 7 Objective Subjects >= 200","7/7","7/7","PASSED"
+"Adaptive Subjective Bank Integrated",">= 35","35 added (54 total)","PASSED"
+"Regional Languages Active (Tamil/Marathi/Hindi)","Active","Active","PASSED"

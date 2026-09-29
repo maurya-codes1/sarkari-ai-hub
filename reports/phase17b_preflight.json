@@ -1,0 +1,395 @@
+{
+  "timestamp": "2026-09-29T07:51:58.211Z",
+  "phase": "PHASE_17B",
+  "preflightMetrics": {
+    "totalQuestions": 1457,
+    "totalVersions": 1457,
+    "provenanceBreakdown": {
+      "HUMAN_CURATED": 1047,
+      "OFFICIAL_PYQ": 351,
+      "OFFICIAL_SAMPLE": 59
+    },
+    "languageAvailability": {
+      "englishVersions": 1392,
+      "hindiVersions": 1432,
+      "tamilVersions": 25,
+      "teluguVersions": 0,
+      "marathiVersions": 0
+    },
+    "subjectBreakdown": [
+      {
+        "subject_id": "subj-science",
+        "subject_name": "General Science",
+        "count": 188
+      },
+      {
+        "subject_id": "subj-math",
+        "subject_name": "Mathematics & Elementary Math",
+        "count": 185
+      },
+      {
+        "subject_id": "subj-gk",
+        "subject_name": "General Knowledge & General Awareness",
+        "count": 175
+      },
+      {
+        "subject_id": "subj-social",
+        "subject_name": "Social Science & Studies",
+        "count": 124
+      },
+      {
+        "subject_id": "subj-english",
+        "subject_name": "General English",
+        "count": 118
+      },
+      {
+        "subject_id": "subj-hindi",
+        "subject_name": "सामान्य हिन्दी (General Hindi)",
+        "count": 103
+      },
+      {
+        "subject_id": "subj-reasoning",
+        "subject_name": "General Intelligence & Logical Reasoning",
+        "count": 94
+      },
+      {
+        "subject_id": "subj-sanskrit",
+        "subject_name": "संस्कृत (Sanskrit)",
+        "count": 85
+      },
+      {
+        "subject_id": "subj-math12",
+        "subject_name": "Higher Mathematics (Class 12)",
+        "count": 70
+      },
+      {
+        "subject_id": "subj-biology",
+        "subject_name": "Biology (Botany & Zoology)",
+        "count": 36
+      },
+      {
+        "subject_id": "subj-chemistry",
+        "subject_name": "Chemistry (Class 11-12)",
+        "count": 35
+      },
+      {
+        "subject_id": "subj-physics",
+        "subject_name": "Physics (Class 11-12)",
+        "count": 31
+      },
+      {
+        "subject_id": "subj-railway-sci",
+        "subject_name": "Railway Science, Tech & Basic Physics",
+        "count": 30
+      },
+      {
+        "subject_id": "subj-history",
+        "subject_name": "History (Ancient, Medieval, Modern)",
+        "count": 29
+      },
+      {
+        "subject_id": "subj-economics",
+        "subject_name": "Economics",
+        "count": 27
+      },
+      {
+        "subject_id": "subj-polity",
+        "subject_name": "Political Science & Indian Constitution",
+        "count": 27
+      },
+      {
+        "subject_id": "subj-geography",
+        "subject_name": "Geography (Indian & World)",
+        "count": 26
+      },
+      {
+        "subject_id": "subj-law",
+        "subject_name": "Special Police Law & IPC/CrPC Basics",
+        "count": 25
+      },
+      {
+        "subject_id": "subj-tamil",
+        "subject_name": "பொதுத் தமிழ் (General Tamil)",
+        "count": 25
+      },
+      {
+        "subject_id": "subj-accountancy",
+        "subject_name": "Accountancy",
+        "count": 12
+      },
+      {
+        "subject_id": "subj-business",
+        "subject_name": "Business Studies",
+        "count": 12
+      }
+    ],
+    "readinessSummary": {
+      "totalComponentsTracked": 324,
+      "fullExamReadyComponents": 13,
+      "patternPracticeReadyComponents": 45,
+      "contentPendingComponents": 266,
+      "patternPendingComponents": 0
+    },
+    "humanitiesPartiallyMapped": {
+      "count": 36,
+      "questions": [
+        {
+          "question_id": "q-c12-geo-0001",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0002",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0003",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0004",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0005",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0006",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0007",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0008",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0009",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0010",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0011",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-geo-0012",
+          "subject_id": "subj-geography",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0001",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0002",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0003",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0004",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0005",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0006",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0007",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0008",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0009",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0010",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0011",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-his-0012",
+          "subject_id": "subj-history",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0001",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0002",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0003",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0004",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0005",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0006",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0007",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0008",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0009",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0010",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0011",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        },
+        {
+          "question_id": "q-c12-pol-0012",
+          "subject_id": "subj-polity",
+          "difficulty": "MEDIUM",
+          "marks": 1,
+          "duplicate_status": "UNIQUE"
+        }
+      ]
+    },
+    "databaseIntegrity": {
+      "integrityCheck": "ok",
+      "foreignKeyViolations": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+metric,pre_phase17b,phase17b_added,post_phase17b,target_status
+"Total Questions",1457,513,1970,"GROWTH_ACHIEVED"
+"Total Question Versions",1457,513,1970,"SYNCHRONIZED"
+"Single MCQ (Objective)",1393,478,1916,"EXPANDED"
+"Subjective Questions (Short/Long/Case)",19,35,54,"ADAPTIVE_BANK_ACTIVE"
+"Official PYQ Questions",351,0,351,"PRESERVED_100_PCT"
+"Official Sample Questions",59,0,59,"PRESERVED_100_PCT"
+"Human Curated Practice",1047,513,1560,"EXPANDED_200_PLUS"
+"Full Exam Eligible (Zero Dilution)",250,0,250,"STRICT_GATING_PRESERVED"
+"Practice Eligible",1457,513,1970,"100_PCT_ELIGIBLE"
+"DB Integrity Check","ok","-","ok","PASSED"
+"DB Foreign Key Violations",0,0,0,"PASSED"
