@@ -1,0 +1,6 @@
+metric,count,percentage,scope,safety_gate,audit_notes
+Generated Candidates,100,100.0%,AI Practice Engine,Quality Gate L1-L5,Evaluated in test and practice batches
+Validated Candidates,95,95.0%,Practice Pool,Validated,Approved for topic and subject drills
+Rejected Candidates,5,5.0%,Quarantine/Rejected,Rejected,Blocked for formatting or similarity issues
+Published in Base Corpus,0,0.0%,Persistent Official DB,Segregated,Zero contamination of base official corpus
+Full Exam Allowed,0,0.0%,Full Exam Simulation,STRICTLY_BLOCKED,Zero AI Practice questions allowed in Full Exam

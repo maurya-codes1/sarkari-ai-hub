@@ -1,0 +1,41 @@
+{
+  "phase": "Phase 13: Nationwide Exam Inventory + State/UT Boards + Academic Hierarchy + Registration + Search Engine",
+  "generatedAt": "2026-09-29T01:37:38.687Z",
+  "baselineCorpus": {
+    "totalQuestions": 1282,
+    "provenanceBreakdown": {
+      "HUMAN_CURATED": 872,
+      "OFFICIAL_PYQ": 351,
+      "OFFICIAL_SAMPLE": 59,
+      "AI_PRACTICE": 0
+    },
+    "fullExamEligibleTotalRows": 250,
+    "activeReadyComponentFullExamQuestions": 200
+  },
+  "administrativeStructure": {
+    "statesAndUnionTerritories": 36,
+    "schoolBoards": 31,
+    "classes": 4,
+    "streams": 7,
+    "boardAcademicOfferings": 24,
+    "academicDependencies": 12
+  },
+  "examInventory": {
+    "rootExams": 52,
+    "examVersions": 64,
+    "nationwideActiveExams": 49,
+    "registrationRecords": 8,
+    "eligibilityRecords": 7
+  },
+  "syllabusInventory": {
+    "subjects": 23,
+    "chapters": 120,
+    "topics": 161,
+    "notes": 17
+  },
+  "reconciliationSummary": {
+    "fullExamReconciliationResolved": "200 active ready component questions (100 SSC CGL 2026 + 100 UPSC CSE 2026) vs 250 total question-level rows in DB",
+    "aiPracticeSegregation": "Strictly segregated in practice pool with full_exam_eligible = 0",
+    "provenanceIntegrity": "100% verified across all historical and current entities"
+  }
+}

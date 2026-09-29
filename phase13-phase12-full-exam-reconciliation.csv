@@ -1,0 +1,7 @@
+questionId,rootExamId,componentId,provenance,version,section,fullExamEligibleBefore,fullExamEligibleCurrent,eligibilityReason,source,discrepancyStatus
+q-ssc-cgl-001..100,ssc-cgl,comp-ssc-cgl-tier1,OFFICIAL_PYQ,ver-ssc-cgl-2026,General Intelligence/Quant/English/GA,100,100,100% verified official blueprint component,SSC CGL 2024/2026 Notification,ACTIVE_READY_FULL_EXAM
+q-upsc-cse-001..100,upsc-cse,comp-upsc-cse-prelims-gs1,OFFICIAL_PYQ,ver-upsc-cse-2026,General Studies Paper 1,100,100,100% verified official blueprint component,UPSC CSE 2024/2026 Notification,ACTIVE_READY_FULL_EXAM
+q-tndge-001..025,tndge-tamilnadu,comp-tndge-sslc-tamil,OFFICIAL_PYQ,ver-tndge-tamilnadu-2026,General Tamil,25,25,Board component in progress (25 of 100 verified),TNDGE SSLC Official Papers,PARTIALLY_READY_GATED
+q-hist-upsc-2021..2023,upsc-cse,comp-upsc-cse-historical,OFFICIAL_PYQ,ver-upsc-cse-2021/22/23,GS Paper 1,9,9,Historical paper corpus question,UPSC Official Archive,HISTORICAL_GATED
+q-hist-ssc-2022..2023,ssc-cgl,comp-ssc-cgl-historical,OFFICIAL_PYQ,ver-ssc-cgl-2022/23,Tier 1,6,6,Historical paper corpus question,SSC Official Archive,HISTORICAL_GATED
+q-hist-rrb-ibps-neet-up-cbse,rrb/ibps/neet/up/cbse,comp-various-historical,OFFICIAL_PYQ/SAMPLE,various-versions,Various,10,10,Historical sample/PYQ question,Official Exam Portals,HISTORICAL_GATED

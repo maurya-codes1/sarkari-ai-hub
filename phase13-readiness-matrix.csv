@@ -1,0 +1,6 @@
+exam_id,exam_name,source,identity,blueprint,syllabus,language,eligibility,registration,historical,practice,full_exam,status,blockingReason
+ssc-cgl,SSC Combined Graduate Level,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,AVAILABLE,READY,READY,READY,NONE
+upsc-cse,UPSC Civil Services Examination,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,AVAILABLE,READY,READY,READY,NONE
+rrb-ntpc,RRB Non-Technical Popular Categories,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,AVAILABLE,READY,BLOCKED,PARTIALLY_READY,Question pool incomplete for full simulation
+nta-neet,NEET UG Medical Entrance,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,AVAILABLE,READY,BLOCKED,PARTIALLY_READY,Question pool incomplete for full simulation
+pseb-class10,PSEB Class 10 Matriculation,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,VERIFIED,AVAILABLE,READY,BLOCKED,PARTIALLY_READY,Board component question collection in progress

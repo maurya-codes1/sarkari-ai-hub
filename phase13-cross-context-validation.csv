@@ -1,0 +1,8 @@
+context_a,context_b,boundary_type,leakage_detected,isolation_mechanism,status
+Punjab (in-pb),Haryana (in-hr),State/UT Authority,FALSE,State Master Filter & Foreign Key Bounds,PASS
+Bihar BSEB,Punjab PSEB,School Board,FALSE,Board ID Explicit Partitioning,PASS
+UP Board,Bihar Board,Academic Rules,FALSE,Academic Dependency Board Scoping,PASS
+Andhra Pradesh (in-ap),Telangana (in-tg),State/UT Independence,FALSE,Independent State Code & Authority Mapping,PASS
+Class 9 (Internal),Class 10 (Board),Exam Designation,FALSE,is_public_board_exam Boolean Flag,PASS
+Class 11 (Stream),Class 12 (Board),Stream Progression,FALSE,Academic Dependency Continuity Validation,PASS
+SSC GD Marking,RRB NTPC Marking,Exam Pattern,FALSE,Exam-specific Blueprint Isolation,PASS

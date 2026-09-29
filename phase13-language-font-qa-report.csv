@@ -1,0 +1,13 @@
+locale,language,script,direction,fontFamily,glyphCoverage,fallbackFont,menuRendering,formRendering,questionRendering,notesRendering,PDFRendering,RTLValidation,mobileValidation,status
+en,English,Latin,LTR,Segoe UI / Arial,100.0%,Helvetica,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+hi,Hindi,Devanagari,LTR,Nirmala UI / Mangal,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+ta,Tamil,Tamil,LTR,Latha / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+te,Telugu,Telugu,LTR,Gautami / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+mr,Marathi,Devanagari,LTR,Nirmala UI / Mangal,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+bn,Bengali,Bengali,LTR,Vrinda / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+gu,Gujarati,Gujarati,LTR,Shruti / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+kn,Kannada,Kannada,LTR,Tunga / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+ml,Malayalam,Malayalam,LTR,Kartika / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+or,Odia,Odia,LTR,Kalinga / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+pa,Punjabi,Gurmukhi,LTR,Raavi / Nirmala UI,100.0%,Arial Unicode MS,PASS,PASS,PASS,PASS,PASS,NOT_APPLICABLE,PASS,VERIFIED
+ur,Urdu,Arabic/Nastaliq,RTL,Segoe UI / Arial,98.5%,Tahoma,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PARTIALLY_VERIFIED

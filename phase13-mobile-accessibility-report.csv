@@ -1,0 +1,10 @@
+component,touch_target_min_48px,horizontal_overflow,keyboard_navigable,screen_reader_labels,mobile_status
+State Selector Modal,PASS,NONE,PASS,PASS,VERIFIED
+Board Landing Card,PASS,NONE,PASS,PASS,VERIFIED
+Class 9-12 Selector,PASS,NONE,PASS,PASS,VERIFIED
+Stream Selection Pills,PASS,NONE,PASS,PASS,VERIFIED
+Subject Question Bank Hub,PASS,NONE,PASS,PASS,VERIFIED
+Registration Schedule Timeline,PASS,NONE,PASS,PASS,VERIFIED
+Eligibility Rules Accordion,PASS,NONE,PASS,PASS,VERIFIED
+Global Search Input & Results,PASS,NONE,PASS,PASS,VERIFIED
+Notes & Flashcard Carousel,PASS,NONE,PASS,PASS,VERIFIED

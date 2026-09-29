@@ -1,0 +1,13 @@
+locale_code,language_name,script,keys_translated,missing_keys,font_resolved,status
+en,English,Latin,100%,0,Segoe UI / Arial,VERIFIED
+hi,Hindi,Devanagari,100%,0,Nirmala UI / Mangal,VERIFIED
+ta,Tamil,Tamil,100%,0,Latha / Nirmala UI,VERIFIED
+te,Telugu,Telugu,100%,0,Gautami / Nirmala UI,VERIFIED
+mr,Marathi,Devanagari,100%,0,Nirmala UI / Mangal,VERIFIED
+bn,Bengali,Bengali,100%,0,Vrinda / Nirmala UI,VERIFIED
+gu,Gujarati,Gujarati,100%,0,Shruti / Nirmala UI,VERIFIED
+kn,Kannada,Kannada,100%,0,Tunga / Nirmala UI,VERIFIED
+ml,Malayalam,Malayalam,100%,0,Kartika / Nirmala UI,VERIFIED
+or,Odia,Odia,100%,0,Kalinga / Nirmala UI,VERIFIED
+pa,Punjabi,Gurmukhi,100%,0,Raavi / Nirmala UI,VERIFIED
+ur,Urdu,Arabic/Nastaliq,98.5%,15,Segoe UI / Arial,PARTIALLY_VERIFIED

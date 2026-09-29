@@ -1,0 +1,7 @@
+test_file,owning_phase,creation_milestone,primary_scope,permanence_status,overlap_analysis,production_regression_dependency
+test-phase16-pdf-allocation-enrichment.js,Phase 16 (Pre-Hardening),PDF Allocation Milestone,Multi-subject practice PDF rendering & question allocation,PERMANENT_REGRESSION_SUITE,Distinct from test-pdf-engine-governance.js,CRITICAL_PDF_DEPENDENCY
+test-phase12-content-intelligence-mega.js,Phase 12,Content Intelligence,AI Practice + Notes + Revision + Flashcards,PERMANENT_REGRESSION_SUITE,None,CORE_CONTENT_INTELLIGENCE_DEPENDENCY
+test-ai-practice-question-engine.js,Phase 11,AI Practice Engine,5-Layer Quality Gate & Provenance Isolation,PERMANENT_REGRESSION_SUITE,None,CORE_AI_PRACTICE_DEPENDENCY
+test-phase10-pyq-digitization.js,Phase 10,PYQ Digitization,Full paper multi-shift historical question ingestion,PERMANENT_REGRESSION_SUITE,None,CORE_PYQ_DEPENDENCY
+test-blueprint-driven-mock-engine.js,Phase 4,Mock Engine,Blueprint-driven official simulation & timers,PERMANENT_REGRESSION_SUITE,None,CORE_MOCK_DEPENDENCY
+test-pdf-engine-governance.js,Phase 5,PDF Engine,10 document types & OMR geometry,PERMANENT_REGRESSION_SUITE,None,CORE_PDF_DEPENDENCY

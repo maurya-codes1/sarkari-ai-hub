@@ -133,15 +133,22 @@ class SchoolBoardAcademicService {
 
     return {
       boardId: board.board_id,
+      board_id: board.board_id,
       name: board.name,
       shortName: board.short_name,
+      short_name: board.short_name,
       jurisdiction: board.jurisdiction,
       boardType: board.board_type,
+      board_type: board.board_type,
       officialWebsite: board.official_website,
+      official_website: board.official_website,
       resultPortal: board.official_result_url,
+      official_result_url: board.official_result_url,
       verificationStatus: board.verification_status,
+      verification_status: board.verification_status,
       classes: formattedClasses,
       classesOffered: formattedClasses,
+      offerings: formattedClasses,
       dependencies: formattedDependencies
     };
   }

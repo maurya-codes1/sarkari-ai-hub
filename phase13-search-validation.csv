@@ -1,0 +1,8 @@
+query,expected_category,expected_state,expected_board,expected_class,match_count,top_result_id,top_result_title,isolation_preserved,status
+PSEB Class 10 Science,SCHOOL_BOARDS,in-pb,pseb-punjab,cls-10,1,offering-pseb-cls-10,PSEB Class 10 Matriculation,TRUE,PASS
+BSEB Class 12 Physics,SCHOOL_BOARDS,in-br,bseb-bihar,cls-12,1,offering-bseb-cls-12,BSEB Class 12 Intermediate,TRUE,PASS
+UP Board Class 10,SCHOOL_BOARDS,in-up,upmsp-board,cls-10,1,offering-upmsp-cls-10,UP Board High School,TRUE,PASS
+SSC GD,SSC,NATIONAL,N/A,N/A,1,inv-ssc-gd,SSC GD Constable,TRUE,PASS
+RRB NTPC,RAILWAY,NATIONAL,N/A,N/A,1,inv-rrb-ntpc,RRB NTPC Graduate & Under Graduate,TRUE,PASS
+PPSC PCS,STATE_PSC,in-pb,N/A,N/A,1,inv-ppsc-cce,PPSC Punjab Civil Services (PCS),TRUE,PASS
+CTET,TEACHING,NATIONAL,cbse-board,N/A,1,inv-ctet,Central Teacher Eligibility Test (CTET),TRUE,PASS

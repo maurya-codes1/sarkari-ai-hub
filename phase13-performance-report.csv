@@ -1,0 +1,9 @@
+query_category,query_description,iterations,avg_latency_ms,p95_latency_ms,sla_target_ms,sla_status
+STATE_LOOKUP,State authorities by official code (PB/BR/UP),50,0.12,0.25,15.0,PASS
+BOARD_LOOKUP,Board profile with class offerings by board_id,50,0.28,0.55,15.0,PASS
+EXAM_LOOKUP,Active nationwide exams by category (SSC/UPSC),50,0.22,0.48,15.0,PASS
+SEARCH,Global multi-token search (PSEB Class 10 Science),50,0.85,1.60,15.0,PASS
+REGISTRATION,Registration schedule & fee lookup,50,0.18,0.38,15.0,PASS
+ELIGIBILITY,Eligibility criteria & age relaxation lookup,50,0.16,0.34,15.0,PASS
+NOTES_FETCH,Structured notes by subject and type,50,0.45,0.92,15.0,PASS
+MOCK_INIT,Mock test session creation with blueprint,50,1.15,2.40,15.0,PASS

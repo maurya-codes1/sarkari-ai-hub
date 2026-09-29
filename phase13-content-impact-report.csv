@@ -1,0 +1,4 @@
+trigger_type,entity_modified,impacted_modules,affected_notes,affected_practice,affected_mocks,affected_pdfs,status
+SYLLABUS_UPDATE,ch-polity-fr,Notes & Practice,note-polity-001,q_ai_001,mock-ssc-cgl,pdf-ssc-cgl-notes,FLAGGED_FOR_STALENESS_REVIEW
+CORRIGENDUM_ISSUED,corr-ssc-2024,Answer Keys & PDFs,NONE,NONE,mock-ssc-cgl,pdf-ssc-cgl-key,AUTOMATICALLY_APPLIED_TO_KEYS
+REGISTRATION_EXTENDED,reg-ssc-cgl-2026,Registration Timeline,NONE,NONE,NONE,NONE,METADATA_VERSIONED_AND_LOGGED
