@@ -1,0 +1,7 @@
+root_exam_id,root_exam_name,category,stage_id,stage_name,component_count,verified_component_ids,readiness_tier
+ssc-cgl,SSC Combined Graduate Level,SSC,stage-tier1,Tier 1 Computer Based Exam,1,comp-ssc-cgl-tier1,FULL_EXAM_READY
+ssc-cgl,SSC Combined Graduate Level,SSC,stage-tier2,Tier 2 Computer Based Exam,2,comp-ssc-cgl-tier2-p1;comp-ssc-cgl-tier2-p2,PRACTICE_READY
+upsc-cse,UPSC Civil Services Examination,UPSC,stage-prelims,Civil Services Prelims,2,comp-upsc-prelims-gs1;comp-upsc-prelims-csat,FULL_EXAM_READY
+rrb-ntpc,RRB Non-Technical Popular Categories,RAILWAY,stage-cbt1,CBT Stage 1,1,comp-rrb-ntpc-cbt1,PRACTICE_READY
+ssc-gd,SSC General Duty Constable,SSC,stage-cbe,Computer Based Examination,1,comp-ssc-gd-cbe,PRACTICE_READY
+rrb-alp,RRB Assistant Loco Pilot,RAILWAY,stage-cbt1,CBT Stage 1,1,comp-rrb-alp-cbt1,PRACTICE_READY

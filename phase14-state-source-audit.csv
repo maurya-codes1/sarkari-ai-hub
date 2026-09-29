@@ -1,0 +1,37 @@
+state_id,official_code,name_en,name_hi,type,capital,education_portal,psc_portal,police_portal,teacher_portal,entrance_portal,verification_status
+in-an,AN,Andaman and Nicobar Islands,अण्डमान और निकोबार द्वीपसमूह,UT,Port Blair,https://education.andaman.gov.in,https://ssc.nic.in,https://police.andaman.gov.in,https://ctet.nic.in,https://andaman.gov.in,SOURCE_VERIFIED
+in-ap,AP,Andhra Pradesh,आन्ध्र प्रदेश,STATE,Amaravati,https://schooledu.ap.gov.in,https://psc.ap.gov.in,https://slprb.ap.gov.in,https://aptet.apcfss.in,https://sche.ap.gov.in,SOURCE_VERIFIED
+in-ar,AR,Arunachal Pradesh,अरुणाचल प्रदेश,STATE,Itanagar,https://education.arunachal.gov.in,https://appsc.gov.in,https://arunpol.nic.in,https://education.arunachal.gov.in,https://apdhte.nic.in,SOURCE_VERIFIED
+in-as,AS,Assam,असम,STATE,Dispur,https://education.assam.gov.in,https://apsc.nic.in,https://slprbassam.in,https://ssa.assam.gov.in,https://astu.ac.in,SOURCE_VERIFIED
+in-br,BR,Bihar,बिहार,STATE,Patna,https://state.bihar.gov.in/educationbihar,https://bpsc.bih.nic.in,https://csbc.bih.nic.in,https://secondary.biharboardonline.com,https://bceceboard.bihar.gov.in,SOURCE_VERIFIED
+in-cg,CG,Chhattisgarh,छत्तीसगढ़,STATE,Raipur,https://eduportal.cg.nic.in,https://psc.cg.gov.in,https://cgpolice.gov.in,https://vyapam.cgstate.gov.in,https://vyapam.cgstate.gov.in,SOURCE_VERIFIED
+in-ch,CH,Chandigarh,चण्डीगढ़,UT,Chandigarh,https://chdeducation.gov.in,https://chandigarh.gov.in,https://chandigarhpolice.gov.in,https://ctet.nic.in,https://jacchd.admissions.nic.in,SOURCE_VERIFIED
+in-dh,DH,Dadra & Nagar Haveli and Daman & Diu,दादरा और नगर हवेली एवं दमन और दीव,UT,Daman,https://daman.nic.in,https://daman.nic.in,https://ddpolice.gov.in,https://ctet.nic.in,https://daman.nic.in,SOURCE_VERIFIED
+in-dl,DL,Delhi (NCT),दिल्ली (राष्ट्रीय राजधानी क्षेत्र),UT,New Delhi,https://edudel.nic.in,https://dsssb.delhi.gov.in,https://delhipolice.gov.in,https://dsssb.delhi.gov.in,https://jacdelhi.admissions.nic.in,SOURCE_VERIFIED
+in-ga,GA,Goa,गोवा,STATE,Panaji,https://education.goa.gov.in,https://gpsc.goa.gov.in,https://citizen.goapolice.gov.in,https://scert.goa.gov.in,https://dte.goa.gov.in,SOURCE_VERIFIED
+in-gj,GJ,Gujarat,गुजरात,STATE,Gandhinagar,https://gujarat.gov.in,https://gpsc.gujarat.gov.in,https://police.gujarat.gov.in,https://sebexam.org,https://acpc.gujarat.gov.in,SOURCE_VERIFIED
+in-hp,HP,Himachal Pradesh,हिमाचल प्रदेश,STATE,Shimla,https://education.hp.gov.in,https://hppsc.hp.gov.in,https://citizenportal.hppolice.gov.in,https://hpbose.org,https://himtu.ac.in,SOURCE_VERIFIED
+in-hr,HR,Haryana,हरियाणा,STATE,Chandigarh,https://schooleducationharyana.gov.in,https://hpsc.gov.in,https://hssc.gov.in,https://bseh.org.in,https://hstes.org.in,SOURCE_VERIFIED
+in-jh,JH,Jharkhand,झारखण्ड,STATE,Ranchi,https://jharkhand.gov.in,https://jpsc.gov.in,https://jssc.nic.in,https://jac.jharkhand.gov.in,https://jceceb.jharkhand.gov.in,SOURCE_VERIFIED
+in-jk,JK,Jammu and Kashmir,जम्मू और कश्मीर,UT,Srinagar / Jammu,https://jkeducation.gov.in,https://jkpsc.nic.in,https://jkpolice.gov.in,https://jkssb.nic.in,https://jkbopee.gov.in,SOURCE_VERIFIED
+in-ka,KA,Karnataka,कर्नाटक,STATE,Bengaluru,https://schooleducation.karnataka.gov.in,https://kpsc.kar.nic.in,https://ksp.karnataka.gov.in,https://sts.karnataka.gov.in,https://cetonline.karnataka.gov.in,SOURCE_VERIFIED
+in-kl,KL,Kerala,केरल,STATE,Thiruvananthapuram,https://education.kerala.gov.in,https://keralapsc.gov.in,https://keralapolice.gov.in,https://ktet.kerala.gov.in,https://cee.kerala.gov.in,SOURCE_VERIFIED
+in-la,LA,Ladakh,लद्दाख,UT,Leh,https://ladakh.gov.in,https://ssc.nic.in,https://police.ladakh.gov.in,https://ctet.nic.in,https://ladakh.gov.in,SOURCE_VERIFIED
+in-ld,LD,Lakshadweep,लक्षद्वीप,UT,Kavaratti,https://lakshadweep.gov.in,https://lakshadweep.gov.in,https://lakshadweep.gov.in,https://ctet.nic.in,https://lakshadweep.gov.in,SOURCE_VERIFIED
+in-mh,MH,Maharashtra,महाराष्ट्र,STATE,Mumbai,https://education.maharashtra.gov.in,https://mpsc.gov.in,https://mahapolice.gov.in,https://mahatet.in,https://cetcell.mahacet.org,SOURCE_VERIFIED
+in-ml,ML,Meghalaya,मेघालय,STATE,Shillong,https://megeducation.gov.in,https://mpsc.nic.in,https://megpolice.gov.in,https://dert.megeducation.gov.in,https://nehu.ac.in,SOURCE_VERIFIED
+in-mn,MN,Manipur,मणिपुर,STATE,Imphal,https://manipureducation.gov.in,https://mpscmanipur.gov.in,https://manipurpolice.gov.in,https://bsem.nic.in,https://highereducationmanipur.gov.in,SOURCE_VERIFIED
+in-mp,MP,Madhya Pradesh,मध्य प्रदेश,STATE,Bhopal,https://sedn.mp.gov.in,https://mppsc.mp.gov.in,https://esb.mp.gov.in,https://esb.mp.gov.in,https://dte.mponline.gov.in,SOURCE_VERIFIED
+in-mz,MZ,Mizoram,मिज़ोरम,STATE,Aizawl,https://schooleducation.mizoram.gov.in,https://mpsc.mizoram.gov.in,https://police.mizoram.gov.in,https://mbse.edu.in,https://dhte.mizoram.gov.in,SOURCE_VERIFIED
+in-nl,NL,Nagaland,नागालैण्ड,STATE,Kohima,https://education.nagaland.gov.in,https://npsc.nagaland.gov.in,https://police.nagaland.gov.in,https://nbsenl.edu.in,https://dtenagaland.org.in,SOURCE_VERIFIED
+in-od,OD,Odisha,ओडिशा,STATE,Bhubaneswar,https://sme.odisha.gov.in,https://opsc.gov.in,https://odishapolice.gov.in,https://bseodisha.ac.in,https://ojee.nic.in,SOURCE_VERIFIED
+in-pb,PB,Punjab,पंजाब,STATE,Chandigarh,https://ssapunjab.org,https://ppsc.gov.in,https://punjabpolice.gov.in,https://pstet.pseb.ac.in,https://punjabteched.com,SOURCE_VERIFIED
+in-py,PY,Puducherry,पुदुच्चेरी,UT,Puducherry,https://schooledn.py.gov.in,https://recruitment.py.gov.in,https://police.py.gov.in,https://schooledn.py.gov.in,https://centacpuducherry.in,SOURCE_VERIFIED
+in-rj,RJ,Rajasthan,राजस्थान,STATE,Jaipur,https://education.rajasthan.gov.in,https://rpsc.rajasthan.gov.in,https://police.rajasthan.gov.in,https://rajeduboard.rajasthan.gov.in,https://reap2024.com,SOURCE_VERIFIED
+in-sk,SK,Sikkim,सिक्किम,STATE,Gangtok,https://sikkimhrdd.org,https://spsc.sikkim.gov.in,https://sikkimpolice.nic.in,https://sikkimhrdd.org,https://sikkimhrdd.org,SOURCE_VERIFIED
+in-tg,TG,Telangana,तेलंगाना,STATE,Hyderabad,https://schooledu.telangana.gov.in,https://websitenew.tspsc.gov.in,https://tslprb.in,https://tstet.cgg.gov.in,https://tsche.ac.in,SOURCE_VERIFIED
+in-tn,TN,Tamil Nadu,तमिलनाडु,STATE,Chennai,https://tnschools.gov.in,https://tnpsc.gov.in,https://tnusrb.tn.gov.in,https://trb.tn.gov.in,https://tneaonline.org,SOURCE_VERIFIED
+in-tr,TR,Tripura,त्रिपुरा,STATE,Agartala,https://schooleducation.tripura.gov.in,https://tpsc.tripura.gov.in,https://tripurapolice.gov.in,https://trb.tripura.gov.in,https://tbjee.nic.in,SOURCE_VERIFIED
+in-uk,UK,Uttarakhand,उत्तराखण्ड,STATE,Dehradun,https://schooleducation.uk.gov.in,https://psc.uk.gov.in,https://sssc.uk.gov.in,https://ubse.uk.gov.in,https://uktech.ac.in,SOURCE_VERIFIED
+in-up,UP,Uttar Pradesh,उत्तर प्रदेश,STATE,Lucknow,https://upmsp.edu.in,https://uppsc.up.nic.in,https://uppbpb.gov.in,https://updeled.gov.in,https://uptac.admissions.nic.in,SOURCE_VERIFIED
+in-wb,WB,West Bengal,पश्चिम बंगाल,STATE,Kolkata,https://wbsed.gov.in,https://psc.wb.gov.in,https://prb.wb.gov.in,https://wbbpe.org,https://wbjeeb.nic.in,SOURCE_VERIFIED

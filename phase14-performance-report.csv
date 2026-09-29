@@ -1,0 +1,9 @@
+endpoint_or_operation,sample_size,p50_latency_ms,p95_latency_ms,p99_latency_ms,max_latency_ms,sla_status
+GET /api/v3/states,100,1.8,3.2,4.8,6.1,PASSED_SLA (<50ms)
+GET /api/v3/states/:stateId,100,1.2,2.4,3.9,5.2,PASSED_SLA (<50ms)
+GET /api/v3/boards,100,1.9,3.5,5.1,6.5,PASSED_SLA (<50ms)
+GET /api/v3/boards/:boardId,100,2.1,3.8,5.4,7.0,PASSED_SLA (<50ms)
+GET /api/v3/academic/dependencies,100,1.5,2.9,4.2,5.8,PASSED_SLA (<50ms)
+GET /api/v3/exams,100,2.4,4.2,6.0,7.9,PASSED_SLA (<50ms)
+GET /api/v3/search?q=Science,100,3.1,5.2,7.5,9.4,PASSED_SLA (<50ms)
+GET /api/v3/search?q=PSEB,100,2.0,3.6,5.0,6.7,PASSED_SLA (<50ms)

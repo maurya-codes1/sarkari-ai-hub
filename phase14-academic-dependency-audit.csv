@@ -1,0 +1,13 @@
+dependency_id,board_id,board_short_name,from_class,to_class,dependency_type,rule_name,min_attendance_pct,allow_stream_change,official_circular_ref,verification_status
+dep-bseb-11-12,bseb-bihar,BSEB Bihar Board,class-11,class-12,PRE_BOARD_SCREENING,"BSEB Intermediate Sent-Up & Registration Rule",75,0,"BSEB Intermediate Exam Order 2023/118",VERIFIED
+dep-bseb-9-10,bseb-bihar,BSEB Bihar Board,class-9,class-10,REGISTRATION_CONTINUITY,"BSEB Class 9 Registration Card & Sent-Up Exam",75,0,"BSEB Examination Regulations Circular 2024/91",VERIFIED
+dep-cbse-11-12,cbse-board,CBSE 10th/12th,class-11,class-12,SUBJECT_CONTINUITY,"CBSE Stream and Subject Lock Invariant",75,0,"CBSE Examination Bylaws Rule 26",VERIFIED
+dep-cbse-9-10,cbse-board,CBSE 10th/12th,class-9,class-10,REGISTRATION_CONTINUITY,"CBSE Class 9 Online Registration & LOC Invariant",75,0,"CBSE Exam Bylaws Rule 13.1 & 14.2",VERIFIED
+dep-pseb-11-12,pseb-punjab,PSEB Punjab,class-11,class-12,STREAM_CONTINUITY,"PSEB Senior Secondary Stream Continuity",75,0,"PSEB Senior Sec Regulation 21",VERIFIED
+dep-pseb-9-10,pseb-punjab,PSEB Punjab,class-9,class-10,SUBJECT_CONTINUITY,"PSEB Punjabi Language Compulsory Invariant",75,0,"PSEB Act Regulation 14-B",VERIFIED
+dep-rbse-11-12,rbse-rajasthan,RBSE Rajasthan,class-11,class-12,SUBJECT_CONTINUITY,"RBSE Senior Secondary Practical & Stream Invariant",75,0,"RBSE Senior Sec Rule 12",VERIFIED
+dep-rbse-9-10,rbse-rajasthan,RBSE Rajasthan,class-9,class-10,ANNUAL_PROMOTION,"RBSE Shala Darpan Progression & Third Language",75,0,"RBSE Board Regulations Ch IV",VERIFIED
+dep-tndge-11-12,tndge-tamilnadu,TNDGE Tamil Nadu,class-11,class-12,BOARD_EXAM_CONTINUITY,"TNDGE Plus One & Plus Two Integrated Board Rules",75,0,"TN School Education G.O. (Ms) No. 84 dated 18.05.2017 r/w G.O. (Ms) No. 195 dated 04.09.2018",VERIFIED
+dep-tndge-9-10,tndge-tamilnadu,TNDGE Tamil Nadu,class-9,class-10,SUBJECT_CONTINUITY,"TNDGE Tamil Learning Act & EMIS Attendance",75,0,"Tamil Nadu Learning Act 2006 & DGE Norms",VERIFIED
+dep-upmsp-11-12,upmsp-board,UPMSP (UP Board),class-11,class-12,STREAM_CONTINUITY,"UPMSP Intermediate Subject Group Invariant",75,0,"UPMSP Board Regulation Rule 45",VERIFIED
+dep-upmsp-9-10,upmsp-board,UPMSP (UP Board),class-9,class-10,REGISTRATION_CONTINUITY,"UPMSP 9th Advance Registration Verification",75,0,"UP Intermediate Education Act 1921 Ch XII",VERIFIED

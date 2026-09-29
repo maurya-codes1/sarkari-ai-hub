@@ -1,0 +1,50 @@
+inventory_id,exam_id,category,sub_category,exam_name_en,authority_name,authority_code,exam_scope,official_website_url,current_stage_count,blueprint_status,readiness_state
+inv-ibps-clerk,ibps-clerk,BANKING,Clerical Cadre,"IBPS Clerk (Customer Support & Sales)",Institute of Banking Personnel Selection,IBPS,NATIONAL,https://ibps.in,2,VERIFIED,PRACTICE_READY
+inv-ibps-po,ibps-po-clerk,BANKING,Probationary Officers,"IBPS Probationary Officer (PO / MT)",Institute of Banking Personnel Selection,IBPS,NATIONAL,https://ibps.in,3,VERIFIED,PRACTICE_READY
+inv-rbi-grade-b,rbi-grade-b,BANKING,Regulatory Central Bank,"RBI Grade B Officer (General / DEPR / DSIM)",Reserve Bank of India Services Board,RBI,NATIONAL,https://opportunities.rbi.org.in,3,VERIFIED,PRACTICE_READY
+inv-sbi-clerk,sbi-clerk,BANKING,Clerical Cadre,"SBI Junior Associates (Customer Support & Sales)",State Bank of India,SBI,NATIONAL,https://sbi.co.in/careers,2,VERIFIED,PRACTICE_READY
+inv-sbi-po,sbi-po,BANKING,Probationary Officers,"SBI Probationary Officer (PO)",State Bank of India,SBI,NATIONAL,https://sbi.co.in/careers,3,VERIFIED,PRACTICE_READY
+inv-afcat,afcat,DEFENCE,Air Force Officer,"AFCAT (Air Force Common Admission Test)",Indian Air Force,IAF,NATIONAL,https://afcat.cdac.in,2,VERIFIED,PRACTICE_READY
+inv-agniveer-army,agniveer-army,DEFENCE,Armed Forces Enlisted,"Indian Army Agniveer (General Duty, Tech, Clerk, Tradesman)",Indian Army,ARMY,NATIONAL,https://joinindianarmy.nic.in,2,VERIFIED,PRACTICE_READY
+inv-nta-jee-main,nta-jee-main,ENGINEERING,National Engineering Entrance,"JEE Main (Joint Entrance Examination Main)",National Testing Agency,NTA,NATIONAL,https://jeemain.nta.nic.in,1,VERIFIED,FULL_EXAM_BLOCKED
+inv-clat-ug,clat-law,LAW,National Law Entrance,"CLAT UG (Common Law Admission Test for NLUs)",Consortium of National Law Universities,NLUs,NATIONAL,https://consortiumofnlus.ac.in,1,VERIFIED,PRACTICE_READY
+inv-nta-neet,nta-neet,MEDICAL,National Medical Entrance,"NEET UG (National Eligibility cum Entrance Test Undergraduate)",National Testing Agency,NTA,NATIONAL,https://neet.nta.nic.in,1,VERIFIED,PRACTICE_READY
+inv-bihar-police-constable,bihar-police-constable,POLICE,State Police Constable,"Bihar Police Constable (CSBC Sipahi Bharti)",Central Selection Board of Constable,CSBC,STATE,https://csbc.bih.nic.in,2,VERIFIED,PRACTICE_READY
+inv-delhi-police-constable,delhi-police,POLICE,Central / UT Police,"Delhi Police Constable (Executive - Male & Female)",Staff Selection Commission / Delhi Police,DP-SSC,STATE,https://delhipolice.gov.in,2,VERIFIED,PRACTICE_READY
+inv-punjab-police-constable,punjab-police-constable,POLICE,State Police Constable,"Punjab Police Constable (District & Armed Cadres)",Punjab Police Recruitment Board,PPRB,STATE,https://punjabpolice.gov.in,2,VERIFIED,PRACTICE_READY
+inv-rajasthan-police-constable,rajasthan-police-constable,POLICE,State Police Constable,"Rajasthan Police Constable (General & Driver)",Rajasthan Police Headquarters,RAJ-POLICE,STATE,https://police.rajasthan.gov.in,2,VERIFIED,PRACTICE_READY
+inv-up-police-constable,up-police-constable,POLICE,State Police Constable,"Uttar Pradesh Police Constable (Civil Police & PAC)",Uttar Pradesh Police Recruitment & Promotion Board,UPPRPB,STATE,https://uppbpb.gov.in,2,VERIFIED,PRACTICE_READY
+inv-up-police-si,up-police-si,POLICE,State Police SI,"Uttar Pradesh Police Sub-Inspector (Civil Police)",Uttar Pradesh Police Recruitment & Promotion Board,UPPRPB,STATE,https://uppbpb.gov.in,2,VERIFIED,PRACTICE_READY
+inv-rpf-constable,rpf-constable,RAILWAY,Railway Protection Force,"RPF Constable (Executive)",Ministry of Railways / RPF,RPF,NATIONAL,https://rpf.indianrailways.gov.in,2,VERIFIED,PRACTICE_READY
+inv-rpf-si,rpf-si,RAILWAY,Railway Protection Force,"RPF Sub-Inspector (SI)",Ministry of Railways / RPF,RPF,NATIONAL,https://rpf.indianrailways.gov.in,2,VERIFIED,PRACTICE_READY
+inv-rrb-alp,rrb-alp,RAILWAY,Loco Pilot,"RRB Assistant Loco Pilot (ALP)",Railway Recruitment Boards,RRB,NATIONAL,https://indianrailways.gov.in,3,VERIFIED,PRACTICE_READY
+inv-rrb-group-d,rrb-group-d,RAILWAY,Level 1 Posts,"RRB Group D (RRC Level-1 Track Maintainer & Assistant)",Railway Recruitment Cells,RRC,NATIONAL,https://indianrailways.gov.in,2,VERIFIED,PRACTICE_READY
+inv-rrb-ntpc,rrb-ntpc,RAILWAY,Non-Technical Popular Categories,"RRB NTPC (Graduate & Undergraduate Posts)",Railway Recruitment Boards,RRB,NATIONAL,https://indianrailways.gov.in,2,VERIFIED,PRACTICE_READY
+inv-rrb-technician,rrb-technician,RAILWAY,Technical Trades,"RRB Technician Grade-I Signal & Grade-III",Railway Recruitment Boards,RRB,NATIONAL,https://indianrailways.gov.in,1,VERIFIED,PRACTICE_READY
+inv-ssc-cpo,ssc-cpo,SSC,Police SI,"SSC Central Police Organization (Sub-Inspector in Delhi Police & CAPFs)",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-ssc-cgl,ssc-cgl,SSC,Graduate Level,"SSC Combined Graduate Level (CGL)",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,2,VERIFIED,FULL_EXAM_READY
+inv-ssc-chsl,ssc-chsl,SSC,Higher Secondary Level,"SSC Combined Higher Secondary Level (CHSL)",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,2,VERIFIED,PRACTICE_READY
+inv-ssc-gd,ssc-gd,SSC,Constable Recruitment,"SSC General Duty Constable (CAPFs, SSF, Assam Rifles)",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,2,VERIFIED,PRACTICE_READY
+inv-ssc-je,ssc-je,SSC,Technical Engineering,"SSC Junior Engineer (Civil, Mechanical, Electrical)",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,2,VERIFIED,PRACTICE_READY
+inv-ssc-mts,ssc-mts,SSC,Matriculation Level,"SSC Multi-Tasking Staff & Havaldar (MTS)",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,1,VERIFIED,PRACTICE_READY
+inv-ssc-steno,ssc-steno,SSC,Secretarial / Clerical,"SSC Stenographer Grade C & D",Staff Selection Commission,SSC,NATIONAL,https://ssc.gov.in,2,VERIFIED,PRACTICE_READY
+inv-psc-appsc-grp1,appsc-grp1,STATE_PSC,Group 1 Services,"Andhra Pradesh PSC Group 1 Services Examination",Andhra Pradesh Public Service Commission,APPSC,STATE,https://psc.ap.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-bpsc-cce,bpsc-tre,STATE_PSC,Combined Competitive Exam,"BPSC Combined Competitive Examination (CCE)",Bihar Public Service Commission,BPSC,STATE,https://bpsc.bih.nic.in,3,VERIFIED,PRACTICE_READY
+inv-psc-hpsc-hcs,hpsc-hcs,STATE_PSC,Civil Services,"Haryana Civil Services (Executive Branch) Examination (HCS)",Haryana Public Service Commission,HPSC,STATE,https://hpsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-kerala-kas,kerala-kas,STATE_PSC,Administrative Service,"Kerala Administrative Service Examination (KAS)",Kerala Public Service Commission,Kerala-PSC,STATE,https://keralapsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-mppsc-sse,mppsc-sse,STATE_PSC,State Service Examination,"MPPSC State Service Examination (SSE)",Madhya Pradesh Public Service Commission,MPPSC,STATE,https://mppsc.mp.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-mpsc-cs,mpsc-cs,STATE_PSC,Civil Services,"MPSC Maharashtra Civil Services Gazetted Examination",Maharashtra Public Service Commission,MPSC,STATE,https://mpsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-opsc-ocs,opsc-ocs,STATE_PSC,Civil Services,"Odisha Civil Services Examination (OCS)",Odisha Public Service Commission,OPSC,STATE,https://opsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-ppsc-pcs,ppsc-pcs,STATE_PSC,Civil Services,"Punjab State Civil Services Combined Competitive Exam (PPSC PCS)",Punjab Public Service Commission,PPSC,STATE,https://ppsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-rpsc-ras,rpsc-ras,STATE_PSC,Administrative Services,"RPSC Rajasthan State & Subordinate Services (RAS / RTS)",Rajasthan Public Service Commission,RPSC,STATE,https://rpsc.rajasthan.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-tnpsc-grp1,tnpsc-grp1,STATE_PSC,Combined Civil Services,"TNPSC Combined Civil Services Examination - I (Group 1 Services)",Tamil Nadu Public Service Commission,TNPSC,STATE,https://tnpsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-tgpsc-grp1,tgpsc-grp1,STATE_PSC,Group 1 Services,"Telangana PSC Group 1 Services Examination (TGPSC)",Telangana Public Service Commission,TGPSC,STATE,https://websitenew.tspsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-psc-uppsc-pcs,uppsc-pcs,STATE_PSC,Provincial Civil Services,"UPPSC Combined State / Upper Subordinate Exam (PCS)",Uttar Pradesh Public Service Commission,UPPSC,STATE,https://uppsc.up.nic.in,3,VERIFIED,PRACTICE_READY
+inv-psc-wbpsc-wbcs,wbpsc-wbcs,STATE_PSC,Civil Services,"West Bengal Civil Service (Executive) Examination (WBCS)",Public Service Commission, West Bengal,WBPSC,STATE,https://psc.wb.gov.in,3,VERIFIED,PRACTICE_READY
+inv-ctet,ctet-exam,TEACHING,Teacher Eligibility,"CTET (Central Teacher Eligibility Test - Paper 1 & 2)",Central Board of Secondary Education,CBSE-CTET,NATIONAL,https://ctet.nic.in,1,VERIFIED,PRACTICE_READY
+inv-reet,reet-exam,TEACHING,State Teacher Eligibility,"REET (Rajasthan Eligibility Examination for Teachers)",Board of Secondary Education Rajasthan,RBSE-REET,STATE,https://rajeduboard.rajasthan.gov.in,1,VERIFIED,PRACTICE_READY
+inv-uptet,uptet,TEACHING,State Teacher Eligibility,"Uttar Pradesh Teacher Eligibility Test (UPTET)",UP Examination Regulatory Authority,UP-ERA,STATE,https://updeled.gov.in,1,VERIFIED,PRACTICE_READY
+inv-upsc-capf,upsc-capf,UPSC,Paramilitary AC,"UPSC Central Armed Police Forces (Assistant Commandants)",Union Public Service Commission,UPSC,NATIONAL,https://upsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-upsc-cse,upsc-cse,UPSC,Civil Services,"UPSC Civil Services Examination (CSE - IAS/IPS/IFS)",Union Public Service Commission,UPSC,NATIONAL,https://upsc.gov.in,3,VERIFIED,PRACTICE_READY
+inv-upsc-cds,upsc-cds,UPSC,Combined Defence,"UPSC Combined Defence Services Examination (CDS)",Union Public Service Commission,UPSC,NATIONAL,https://upsc.gov.in,2,VERIFIED,PRACTICE_READY
+inv-upsc-nda,upsc-nda,UPSC,Defence Academy,"UPSC National Defence Academy & Naval Academy (NDA/NA)",Union Public Service Commission,UPSC,NATIONAL,https://upsc.gov.in,2,VERIFIED,PRACTICE_READY

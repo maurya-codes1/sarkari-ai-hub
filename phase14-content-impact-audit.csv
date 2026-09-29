@@ -1,0 +1,7 @@
+module_name,pre_phase14_state,post_phase14_state,truth_hardening_impact,verification_status
+Notes Engine,Generic subject notes,4-Tier scoped notes (State->Board->Class->Subject),16 Canonical note types support board syllabi,VERIFIED_SAFE
+AI Practice Engine,Practice drills with provenance,Strictly segregated AI drills (full_exam_eligible=0),Zero AI contamination in Full Exam,VERIFIED_SAFE
+Mock Test Engine,Gated blueprint full exams,Authoritative blueprint execution (200 Ready in active pool),Practice mode supports multi-provenance,VERIFIED_SAFE
+PDF Generation Engine,11 Official & Practice templates,Strict exclusion of AI content in Official papers,Practice PDFs clearly labeled,VERIFIED_SAFE
+Registration Engine,Static dates,Sourced timeline and fee structures,Historical dates labeled HISTORICAL,VERIFIED_SAFE
+Eligibility Engine,Static criteria,Sourced age and educational rules,Missing criteria returns NO_DATA_AVAILABLE,VERIFIED_SAFE

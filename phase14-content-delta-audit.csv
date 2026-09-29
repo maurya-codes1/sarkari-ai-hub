@@ -1,0 +1,24 @@
+note_id,subject_id,note_type,title,provenance,content_byte_length,metadata_aligned,staleness_status,verification_status
+note-cgl-gk-const-01,subj-gk,ChapterNotes,"भारतीय संविधान: महत्वपूर्ण अनुच्छेद, भाग एवं अनुसूचियां (Master Guide)",HUMAN_CURATED,996,YES,UP_TO_DATE,VERIFIED
+note-math-formula-01,subj-math,FormulaSheet,"क्षेत्रमिति एवं ज्यामिति: सभी 2D व 3D आवश्यक सूत्र (Formula Vault)",HUMAN_CURATED,411,YES,UP_TO_DATE,VERIFIED
+note-science-10-quick-01,subj-science,QuickRevision,"Class 10 Science: रासायनिक अभिक्रियाएं एवं समीकरण (Quick Revision)",HUMAN_CURATED,811,YES,UP_TO_DATE,VERIFIED
+note-ai-gen-practice-sample,subj-science,ConceptNotes,"AI Practice Note: परावर्तन एवं अपवर्तन के नियम तथा किरण आरेख विश्लेषण",AI_NOTE,491,YES,UP_TO_DATE,VERIFIED
+note-1790645121466-99b21a,subj-polity,QUICK_NOTES,"Polity Rapid Revision",AI_NOTES,142,YES,UP_TO_DATE,VERIFIED
+note-1790645154190-dab03c,subj-polity,QUICK_NOTES,"Polity Rapid Revision",AI_NOTES,142,YES,UP_TO_DATE,VERIFIED
+note-1790645154201-13e59c,subj-polity,TOPIC_NOTES,"Staleness Test Note",AI_NOTES,15,YES,UP_TO_DATE,STALE
+note-1790645154202-73cbae,subj-polity,TOPIC_NOTES,"भारतीय संविधान: मौलिक अधिकार",AI_NOTES,118,YES,UP_TO_DATE,VERIFIED
+note-1790645154202-34a68b,subj-math,TOPIC_NOTES,"Mathematical Formulas: Speed, Distance & Time",AI_NOTES,80,YES,UP_TO_DATE,VERIFIED
+note-1790645154202-375355,subj-tamil,TOPIC_NOTES,"General Knowledge Flashcard (Tamil)",AI_NOTES,94,YES,UP_TO_DATE,VERIFIED
+note-1790645154203-78d9b6,subj-polity,TOPIC_NOTES,"API Test Note",HUMAN_CURATED,32,YES,UP_TO_DATE,VERIFIED
+note-1790645168288-afb3d3,subj-polity,QUICK_NOTES,"Polity Rapid Revision",AI_NOTES,142,YES,UP_TO_DATE,VERIFIED
+note-1790645168297-efbf95,subj-polity,TOPIC_NOTES,"Staleness Test Note",AI_NOTES,15,YES,UP_TO_DATE,STALE
+note-1790645168298-9b1a98,subj-polity,TOPIC_NOTES,"भारतीय संविधान: मौलिक अधिकार",AI_NOTES,118,YES,UP_TO_DATE,VERIFIED
+note-1790645168298-31af2e,subj-math,TOPIC_NOTES,"Mathematical Formulas: Speed, Distance & Time",AI_NOTES,80,YES,UP_TO_DATE,VERIFIED
+note-1790645168298-b1cb0c,subj-tamil,TOPIC_NOTES,"General Knowledge Flashcard (Tamil)",AI_NOTES,94,YES,UP_TO_DATE,VERIFIED
+note-1790645168299-c00614,subj-polity,TOPIC_NOTES,"API Test Note",HUMAN_CURATED,32,YES,UP_TO_DATE,VERIFIED
+note-1790646627115-a5ab42,subj-polity,QUICK_NOTES,"Polity Rapid Revision",AI_NOTES,142,YES,UP_TO_DATE,VERIFIED
+note-1790646627127-4de900,subj-polity,TOPIC_NOTES,"Staleness Test Note",AI_NOTES,15,YES,UP_TO_DATE,STALE
+note-1790646627128-7ca30f,subj-polity,TOPIC_NOTES,"भारतीय संविधान: मौलिक अधिकार",AI_NOTES,118,YES,UP_TO_DATE,VERIFIED
+note-1790646627128-53fba3,subj-math,TOPIC_NOTES,"Mathematical Formulas: Speed, Distance & Time",AI_NOTES,80,YES,UP_TO_DATE,VERIFIED
+note-1790646627128-5e60b0,subj-tamil,TOPIC_NOTES,"General Knowledge Flashcard (Tamil)",AI_NOTES,94,YES,UP_TO_DATE,VERIFIED
+note-1790646627129-0a134b,subj-polity,TOPIC_NOTES,"API Test Note",HUMAN_CURATED,32,YES,UP_TO_DATE,VERIFIED

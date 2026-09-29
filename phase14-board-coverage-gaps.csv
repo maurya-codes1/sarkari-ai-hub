@@ -1,0 +1,8 @@
+state_id,official_code,state_name,primary_school_board,secondary_or_open_board,coverage_type,status,notes
+in-dl,DL,Delhi,cbse-board,nios-board,CENTRAL_AFFILIATION,VERIFIED_COMPLETE,Delhi state schools affiliated primarily with CBSE; DBSE emerging
+in-ch,CH,Chandigarh,cbse-board,pseb-punjab,DUAL_AFFILIATION,VERIFIED_COMPLETE,Chandigarh schools follow CBSE and Punjab board patterns
+in-py,PY,Puducherry,tndge-tamilnadu,cbse-board,REGIONAL_AFFILIATION,VERIFIED_COMPLETE,Puducherry regions follow Tamil Nadu (TNDGE), Kerala, and Andhra board patterns
+in-la,LA,Ladakh,jkbose-board,cbse-board,TERRITORIAL_AFFILIATION,VERIFIED_COMPLETE,Ladakh schools transitioning from JKBOSE to CBSE affiliation
+in-an,AN,Andaman & Nicobar Islands,cbse-board,nios-board,CENTRAL_AFFILIATION,VERIFIED_COMPLETE,All government secondary schools affiliated with CBSE
+in-dn,DN,Dadra and Nagar Haveli and Daman and Diu,gseb-gujarat,maharashtra-board,REGIONAL_AFFILIATION,VERIFIED_COMPLETE,Schools follow Gujarat GSEB and Maharashtra MSBSHSE patterns
+in-ld,LD,Lakshadweep,kerala-board,cbse-board,REGIONAL_AFFILIATION,VERIFIED_COMPLETE,Schools follow Kerala General Education Department curriculum and CBSE

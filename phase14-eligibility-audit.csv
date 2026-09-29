@@ -1,0 +1,8 @@
+eligibility_id,entity_id,min_age,max_age,education_qualification_en,nationality_requirement,verification_status
+elig-bseb-10,bseb-cls10-2025,14,null,"Must have completed Class 9 advance registration and cleared Sent-up screening test.",INDIAN,VERIFIED
+elig-cbse-10,cbse-cls10-2025,14,null,"Must have pursued a regular course of study in Class 9 and 10 in a CBSE affiliated school.",INDIAN,VERIFIED
+elig-pseb-10,pseb-cls10-2025,14,null,"Must have passed Class 9 from PSEB or equivalent recognized board with Punjabi compulsory.",INDIAN,VERIFIED
+elig-rrb-ntpc,rrb-ntpc,18,36,"Graduation Degree for Level 5 & 6 posts; 12th (+2 Stage) pass for Level 2 & 3 posts.",INDIAN,VERIFIED
+elig-ssc-cgl,ssc-cgl,18,32,"Bachelor's Degree in any discipline from a recognized University or equivalent institute.",INDIAN,VERIFIED
+elig-upp-constable,up-police-constable,18,25,"10+2 (Intermediate) pass from UP Board or recognized equivalent State/Central Board.",INDIAN,VERIFIED
+elig-upsc-cse,upsc-cse,21,32,"Graduate Degree in any stream from a Central/State recognized University or institution.",INDIAN,VERIFIED

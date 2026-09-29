@@ -1,0 +1,9 @@
+category,metric_value,provenance_tag,full_exam_eligible,practice_eligible,isolation_status,verification_notes
+AI_GENERATED_BASE_DB,0,AI_PRACTICE,0,1,STRICTLY_SEGREGATED,Base SQLite database contains exactly 0 AI generated questions
+AI_PRACTICE_SAMPLE_POOL,25,AI_PRACTICE,0,1,PRACTICE_DRILLS_ONLY,Verified 5-layer quality gate; strictly excluded from Full Exam
+AI_REVIEW_QUEUE_PENDING,0,AI_PRACTICE,0,0,ISOLATED,Flagged questions quarantined prior to candidate exposure
+AI_REJECTED_DISCARDED,0,AI_PRACTICE,0,0,REJECTED,Questions failing ambiguity or syllabus checks discarded
+OFFICIAL_PYQ_INVENTORY,351,OFFICIAL_PYQ,1,1,SOURCE_GROUNDED,Authentic historical question corpus with official answer key linking
+OFFICIAL_SAMPLE_INVENTORY,59,OFFICIAL_SAMPLE,1,1,SOURCE_GROUNDED,Official sample papers and model question banks
+HUMAN_CURATED_INVENTORY,872,HUMAN_CURATED,1,1,VERIFIED,Subject-matter expert curated and verified questions
+TOTAL_BASE_QUESTIONS,1282,MIXED,250,1282,100% INTACT,Zero question deletion invariant strictly maintained

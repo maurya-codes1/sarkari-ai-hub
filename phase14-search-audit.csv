@@ -1,0 +1,7 @@
+query_token,intent_type,total_matches,top_match_entity,top_match_type,context_disambiguation,response_time_ms,status
+Science,AMBIGUOUS_MULTI_ENTITY,15,General Science (Universal),SUBJECT,State / Board / Class contextual breakdown,3.2,PASSED
+Physics,SUBJECT_QUERY,8,Physics Class 11/12 (Science Stream),SUBJECT,Board-specific syllabus mapping,2.8,PASSED
+Class 10,ACADEMIC_LEVEL,12,Class 10 Matriculation,CLASS_HIERARCHY,All recognized boards with Class 10 public exams,4.1,PASSED
+Police,RECRUITMENT_CATEGORY,6,UP Police Constable,EXAM,State-wise police recruitment breakdown,3.5,PASSED
+SSC,ECOSYSTEM_CATEGORY,7,SSC Combined Graduate Level (CGL),ECOSYSTEM,Decomposed into CGL CHSL MTS GD CPO JE,3.9,PASSED
+PSEB Class 10,SPECIFIC_BOARD_CLASS,5,PSEB Class 10 Matriculation,BOARD_OFFERING,Direct Punjab Board Class 10 subjects and rules,2.1,PASSED

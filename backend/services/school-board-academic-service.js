@@ -210,12 +210,34 @@ class SchoolBoardAcademicService {
     const errors = [];
     const warnings = [];
 
-    // 1. Attendance Check
-    const candidateAttendance = Number(candidateProfile.attendancePct) || 0;
-    const minAttendance = (dep && dep.min_attendance_pct) ? dep.min_attendance_pct : 75;
+    if (!dep) {
+      return {
+        isEligible: true,
+        boardId: resolvedBoardId,
+        ruleName: 'NONE',
+        dependencyStatus: 'NOT_APPLICABLE',
+        circularRef: null,
+        errors: [],
+        violations: [],
+        warnings: ['No formal board-specific dependency rule registered for this transition.'],
+        dependencyDetails: null
+      };
+    }
 
-    if (candidateProfile.attendancePct !== undefined && candidateAttendance < minAttendance) {
-      errors.push(`Minimum 75% attendance required (candidate has ${candidateAttendance}%). Attendance is below the mandatory minimum.`);
+    // 1. Attendance Check (only if board has specified min_attendance_pct)
+    const candidateAttendance = Number(candidateProfile.attendancePct) || 0;
+    const minAttendance = dep.min_attendance_pct;
+
+    if (candidateProfile.attendancePct !== undefined && minAttendance) {
+      if (candidateAttendance < minAttendance) {
+        if (candidateProfile.medicalExemption && candidateAttendance >= 60 && resolvedBoardId === 'cbse-board') {
+          warnings.push(`Attendance (${candidateAttendance}%) is condoned under CBSE Bylaws Rule 14 on medical exemption.`);
+        } else if (candidateProfile.condonationFeePaid && candidateAttendance >= 65 && resolvedBoardId === 'tndge-tamilnadu') {
+          warnings.push(`Attendance (${candidateAttendance}%) condoned with DGE condonation fee.`);
+        } else {
+          errors.push(`Minimum ${minAttendance}% attendance required by ${dep.rule_name} (candidate has ${candidateAttendance}%).`);
+        }
+      }
     }
 
     // 2. Class 9 -> 10 Progression
@@ -264,8 +286,12 @@ class SchoolBoardAcademicService {
          candidateProfile.streamInClass11 !== candidateProfile.streamRequestedClass12)
       );
 
-      if (isStreamChangeAttempted && !candidateProfile.formalBoardApproval) {
-        errors.push('Stream change between Class 11 and 12 is strictly prohibited without prior formal board approval.');
+      if (isStreamChangeAttempted) {
+        if (candidateProfile.formalBoardApproval) {
+          warnings.push('Stream change permitted under special board approval.');
+        } else {
+          errors.push('Stream change between Class 11 and 12 is strictly prohibited without prior formal board approval.');
+        }
       }
 
       if (candidateProfile.practicalRecordCompleted === false || candidateProfile.hasPracticalBacklog) {
@@ -276,18 +302,18 @@ class SchoolBoardAcademicService {
     return {
       isEligible: errors.length === 0,
       boardId: resolvedBoardId,
-      ruleName: dep ? dep.rule_name : 'STANDARD_ACADEMIC_PROGRESSION',
-      circularRef: dep ? dep.official_circular_ref : null,
+      ruleName: dep.rule_name,
+      circularRef: dep.official_circular_ref,
       errors,
       violations: errors,
       warnings,
-      dependencyDetails: dep ? {
+      dependencyDetails: {
         dependencyType: dep.dependency_type,
         minAttendanceRequired: dep.min_attendance_pct,
         allowStreamChange: Boolean(dep.allow_stream_change),
         ruleDescriptionEn: dep.rule_description_en,
         ruleDescriptionHi: dep.rule_description_hi
-      } : null
+      }
     };
   }
 }

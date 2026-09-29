@@ -1,0 +1,32 @@
+board_id,short_name,name,jurisdiction,board_type,official_website,result_url,verification_status
+bseap-board,BSEAP,"Board of Secondary Education Andhra Pradesh",STATE,STATE_BOARD,https://bse.ap.gov.in,https://results.bse.ap.gov.in,VERIFIED
+bseb-bihar,BSEB Bihar Board,"Bihar Board BSEB (Matric 10th & Inter 12th)",State,State,https://biharboardonline.com,http://secondary.biharboardonline.com,VERIFIED
+bseh-haryana,BSEH Haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",State,State,https://bseh.org.in,https://bseh.org.in/all-results,VERIFIED
+bsem-board,BSEM,"Board of Secondary Education Manipur",STATE,STATE_BOARD,https://bsem.nic.in,https://manresults.nic.in,VERIFIED
+bsetg-board,BSETG,"Directorate of Government Examinations Telangana",STATE,STATE_BOARD,https://bse.telangana.gov.in,https://results.cgg.gov.in,VERIFIED
+cbse-board,CBSE 10th/12th,"CBSE Board (Class 10th & 12th)",National,National,https://www.cbse.gov.in,https://cbseresults.nic.in,VERIFIED
+cgbse-chhattisgarh,CGBSE Chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",State,State,https://cgbse.nic.in,https://results.cg.nic.in,VERIFIED
+chse-bse-odisha,BSE & CHSE Odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",State,State,https://bseodisha.ac.in,https://orissaresults.nic.in,VERIFIED
+gbshse-board,GBSHSE,"Goa Board of Secondary and Higher Secondary Education",STATE,STATE_BOARD,https://gbshse.in,https://results.gbshsegoa.net,VERIFIED
+gseb-gujarat,GSEB Gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",State,State,https://www.gseb.org,https://www.gseb.org,VERIFIED
+hpbose-board,HPBOSE,"Himachal Pradesh Board of School Education",STATE,STATE_BOARD,https://hpbose.org,https://hpbose.org/Result.aspx,VERIFIED
+icse-cisce,CISCE (ICSE / ISC),"ICSE & ISC Board (Class 10th & 12th)",National,National,https://cisce.org,https://results.cisce.org,VERIFIED
+jac-jharkhand,JAC Jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",State,State,https://jac.jharkhand.gov.in,https://jacresults.com,VERIFIED
+jkbose-board,JKBOSE,"Jammu & Kashmir Board of School Education",STATE,STATE_BOARD,https://jkbose.nic.in,https://jkbose.nic.in/results,VERIFIED
+kerala-board,DHSE Kerala,"Kerala Directorate of General Education & Pareeksha Bhavan",STATE,STATE_BOARD,https://pareekshabhavan.kerala.gov.in,https://keralaresults.nic.in,VERIFIED
+kseab-karnataka,KSEAB Karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",State,State,https://kseab.karnataka.gov.in,https://karresults.nic.in,VERIFIED
+maharashtra-board,MSBSHSE Maharashtra,"Maharashtra State Board (SSC 10th & HSC 12th)",State,State,https://mahahsscboard.in,https://mahahsscboard.in,VERIFIED
+mbose-board,MBOSE,"Meghalaya Board of School Education",STATE,STATE_BOARD,https://www.mbose.in,https://megresults.nic.in,VERIFIED
+mbse-board,MBSE,"Mizoram Board of School Education",STATE,STATE_BOARD,https://www.mbse.edu.in,https://results.mbse.edu.in,VERIFIED
+mpbse-board,MPBSE Madhya Pradesh,"MP Board (MPBSE 10th & 12th Bhopal)",State,State,https://mpbse.nic.in,https://mpbse.nic.in,VERIFIED
+nbse-board,NBSE,"Nagaland Board of School Education",STATE,STATE_BOARD,https://nbsenl.edu.in,https://results.nbsenl.edu.in,VERIFIED
+nios-board,NIOS Open School,"NIOS Board (National Institute of Open Schooling)",National,OpenSchool,https://nios.ac.in,https://results.nios.ac.in,VERIFIED
+pseb-punjab,PSEB Punjab,"Punjab Board (PSEB Mohali 10th & 12th)",State,State,https://www.pseb.ac.in,https://punjab.indiaresults.com,VERIFIED
+rbse-rajasthan,RBSE Rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",State,State,https://rajeduboard.rajasthan.gov.in,https://rajeduboard.rajasthan.gov.in,VERIFIED
+seba-ahsec-assam,SEBA & AHSEC Assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",State,State,https://sebaonline.org,https://site.sebaonline.org,VERIFIED
+tbse-board,TBSE,"Tripura Board of Secondary Education",STATE,STATE_BOARD,https://tbse.tripura.gov.in,https://tripuraresults.nic.in,VERIFIED
+tndge-tamilnadu,TNDGE Tamil Nadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",State,State,https://dge.tn.gov.in,https://tnresults.nic.in,VERIFIED
+tsbie-bieap,TSBIE & BIEAP (TS/AP),"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",State,State,https://bse.telangana.gov.in,https://results.cgg.gov.in,VERIFIED
+ubse-uttarakhand,UBSE Uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",State,State,https://ubse.uk.gov.in,https://ubse.uk.gov.in,VERIFIED
+upmsp-board,UPMSP (UP Board),"UP Board (High School & Intermediate 10th/12th)",State,State,https://upmsp.edu.in,https://upresults.nic.in,VERIFIED
+wbbse-wb,WBBSE & WBCHSE Bengal,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",State,State,https://wbbse.wb.gov.in,https://wbresults.nic.in,VERIFIED

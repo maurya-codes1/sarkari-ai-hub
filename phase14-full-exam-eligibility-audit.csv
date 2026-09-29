@@ -1,0 +1,251 @@
+question_id,exam_id,exam_version_id,subject_id,provenance,full_exam_eligible,practice_eligible,component_readiness,gate_status,source_authority
+q-cbse-10-sci-2023-q1,cbse-board,ver-cbse-board-2023,subj-science,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ibps-po-2023-pre-q1,ibps-po-clerk,ver-ibps-po-clerk-2023,subj-math,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ibps-po-2023-pre-q2,ibps-po-clerk,ver-ibps-po-clerk-2023,subj-reasoning,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-nta-neet-2023-q1,nta-neet,ver-nta-neet-2023,subj-biology,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-nta-neet-2023-q2,nta-neet,ver-nta-neet-2023,subj-physics,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-rrb-ntpc-2022-cbt1-q1,rrb-ntpc,ver-rrb-ntpc-2022,subj-science,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-rrb-ntpc-2022-cbt1-q2,rrb-ntpc,ver-rrb-ntpc-2022,subj-math,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-2022-t1-s1-q1,ssc-cgl,ver-ssc-cgl-2022,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-2022-t1-s1-q2,ssc-cgl,ver-ssc-cgl-2022,subj-math,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-2022-t1-s1-q3,ssc-cgl,ver-ssc-cgl-2022,subj-reasoning,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-2023-t1-s1-q1,ssc-cgl,ver-ssc-cgl-2023,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-2023-t1-s1-q2,ssc-cgl,ver-ssc-cgl-2023,subj-math,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-2023-t1-s1-q3,ssc-cgl,ver-ssc-cgl-2023,subj-reasoning,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q1,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q10,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q100,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q101,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q11,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q12,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q13,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q14,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q15,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q16,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q17,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q18,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q19,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q2,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q20,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q21,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q22,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q24,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q25,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q26,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q27,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q28,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q29,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q3,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q30,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q31,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q32,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q33,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q34,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q35,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q36,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q37,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q38,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q39,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q4,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q40,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q41,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q42,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q43,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q44,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q45,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q46,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q47,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q48,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q49,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q5,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q50,ssc-cgl,ver-ssc-cgl-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q51,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q52,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q53,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q54,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q55,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q56,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q57,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q58,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q59,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q6,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q60,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q61,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q62,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q63,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q64,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q65,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q66,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q67,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q68,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q69,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q7,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q70,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q71,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q72,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q73,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q74,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q75,ssc-cgl,ver-ssc-cgl-2026,subj-math,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q76,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q77,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q78,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q79,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q8,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q80,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q81,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q82,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q83,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q84,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q85,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q86,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q87,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q88,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q89,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q9,ssc-cgl,ver-ssc-cgl-2026,subj-reasoning,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q90,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q91,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q92,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q93,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q94,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q95,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q96,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q97,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q98,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-ssc-cgl-undefined-Tier 1-Shift 1-q99,ssc-cgl,ver-ssc-cgl-2026,subj-english,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q1,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q10,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q11,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q12,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q13,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q14,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q15,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q16,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q17,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q18,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q19,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q2,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q20,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q21,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q22,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q23,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q24,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q25,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q3,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q4,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q5,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q6,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q7,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q8,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-tndge-tamilnadu-undefined-Annual-Morning-q9,tndge-tamilnadu,ver-tndge-tamilnadu-2026,subj-tamil,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upp-2024-s1-q1,up-police-constable,ver-up-police-constable-2024,subj-hindi,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upp-2024-s1-q2,up-police-constable,ver-up-police-constable-2024,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2021-gs1-q1,upsc-cse,ver-upsc-cse-2021,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2021-gs1-q2,upsc-cse,ver-upsc-cse-2021,subj-history,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2021-gs1-q3,upsc-cse,ver-upsc-cse-2021,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2022-gs1-q1,upsc-cse,ver-upsc-cse-2022,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2022-gs1-q2,upsc-cse,ver-upsc-cse-2022,subj-history,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2022-gs1-q3,upsc-cse,ver-upsc-cse-2022,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2023-gs1-q1,upsc-cse,ver-upsc-cse-2023,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2023-gs1-q2,upsc-cse,ver-upsc-cse-2023,subj-history,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2023-gs1-q3,upsc-cse,ver-upsc-cse-2023,subj-gk,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q001,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q002,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q003,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q004,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q005,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q006,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q007,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q008,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q009,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q010,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q011,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q012,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q013,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q014,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q015,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q016,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q017,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q018,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q019,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q020,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q021,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q022,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q023,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q024,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q025,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q026,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q027,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q028,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q029,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q030,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q031,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q032,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q033,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q034,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q035,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q036,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q037,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q038,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q039,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q040,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q041,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q042,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q043,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q044,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q045,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q046,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q047,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q048,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q049,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q050,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q051,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q052,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q053,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q054,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q055,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q056,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q057,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q058,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q059,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q060,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q061,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q062,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q063,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q064,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q065,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q066,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q067,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q068,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q069,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q070,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q071,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q072,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q073,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q074,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q075,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q076,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q077,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q078,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q079,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q080,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q081,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q082,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q083,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q084,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q085,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q086,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q087,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q088,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q089,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q090,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q091,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q092,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q093,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q094,upsc-cse,ver-upsc-cse-2026,subj-geography,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q095,upsc-cse,ver-upsc-cse-2026,subj-history,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q096,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q097,upsc-cse,ver-upsc-cse-2026,subj-science,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q098,upsc-cse,ver-upsc-cse-2026,subj-gk,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q099,upsc-cse,ver-upsc-cse-2026,subj-polity,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-cse-2024-gs1-q100,upsc-cse,ver-upsc-cse-2026,subj-economics,OFFICIAL_PYQ,1,1,READY,ACTIVE_FULL_EXAM_ELIGIBLE,Staff Selection Commission / UPSC
+q-upsc-nda-2023-gat-q1,upsc-nda,ver-upsc-nda-2023,subj-science,OFFICIAL_PYQ,1,1,PARTIALLY_READY,GATED_PENDING_POOL_COMPLETION,Staff Selection Commission / UPSC

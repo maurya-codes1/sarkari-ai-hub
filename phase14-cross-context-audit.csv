@@ -1,0 +1,9 @@
+test_context_pair,isolation_boundary,leakage_detected,fallback_correct,status,verification_evidence
+Punjab (in-pb) vs Haryana (in-hr),State Administration & Boards,NO,YES,VERIFIED_ISOLATED,PSEB Mohali exclusively returned for Punjab; BSEH Bhiwani for Haryana
+Bihar (in-br) vs Uttar Pradesh (in-up),State Administration & Boards,NO,YES,VERIFIED_ISOLATED,BSEB Patna exclusively returned for Bihar; UPMSP Prayagraj for UP
+Andhra Pradesh (in-ap) vs Telangana (in-tg),State Administration & Boards,NO,YES,VERIFIED_ISOLATED,BSEAP & APPSC for Andhra; BSETG & TGPSC for Telangana
+CBSE (cbse-board) vs PSEB (pseb-punjab),National vs State Jurisdiction,NO,YES,VERIFIED_ISOLATED,CBSE national rules do not overwrite state board language requirements
+Class 9 vs Class 10,Academic Evaluation vs Public Exam,NO,YES,VERIFIED_ISOLATED,Class 9 strictly internal continuous evaluation; Class 10 centralized public board exam
+Class 11 vs Class 12,Stream Specialization vs Terminal Board,NO,YES,VERIFIED_ISOLATED,Class 11 stream continuity strictly checked before Class 12 practicals
+SSC GD vs RRB NTPC,Recruitment Body Isolation,NO,YES,VERIFIED_ISOLATED,SSC GD marking (+2/-0.5) decoupled from RRB NTPC (+1/-0.33)
+UPSC CSE vs State PSCs,All-India vs State Recruitment,NO,YES,VERIFIED_ISOLATED,Civil Services Prelims GS/CSAT decoupled from State PSC prelims rules

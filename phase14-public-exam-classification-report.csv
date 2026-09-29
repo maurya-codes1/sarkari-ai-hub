@@ -1,0 +1,25 @@
+board_id,board_short_name,class_id,numeric_level,is_public_board_exam,assessment_type,curriculum_source_url,verification_status,effective_year
+bseb-bihar,BSEB Bihar Board,class-10,10,1,PUBLIC_BOARD_EXAM,https://secondary.biharboardonline.com,VERIFIED,2024-25
+bseb-bihar,BSEB Bihar Board,class-11,11,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://ofssbihar.org,VERIFIED,2024-25
+bseb-bihar,BSEB Bihar Board,class-12,12,1,PUBLIC_BOARD_EXAM,https://biharboardonline.bihar.gov.in,VERIFIED,2024-25
+bseb-bihar,BSEB Bihar Board,class-9,9,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://secondary.biharboardonline.com,VERIFIED,2024-25
+cbse-board,CBSE 10th/12th,class-10,10,1,PUBLIC_BOARD_EXAM,https://cbseacademic.nic.in,VERIFIED,2024-25
+cbse-board,CBSE 10th/12th,class-11,11,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://cbseacademic.nic.in,VERIFIED,2024-25
+cbse-board,CBSE 10th/12th,class-12,12,1,PUBLIC_BOARD_EXAM,https://cbseacademic.nic.in,VERIFIED,2024-25
+cbse-board,CBSE 10th/12th,class-9,9,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://cbseacademic.nic.in,VERIFIED,2024-25
+maharashtra-board,MSBSHSE Maharashtra,class-10,10,1,PUBLIC_BOARD_EXAM,https://mahahsscboard.in,VERIFIED,2024-25
+maharashtra-board,MSBSHSE Maharashtra,class-12,12,1,PUBLIC_BOARD_EXAM,https://mahahsscboard.in,VERIFIED,2024-25
+pseb-punjab,PSEB Punjab,class-10,10,1,PUBLIC_BOARD_EXAM,https://www.pseb.ac.in,VERIFIED,2024-25
+pseb-punjab,PSEB Punjab,class-11,11,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://www.pseb.ac.in,VERIFIED,2024-25
+pseb-punjab,PSEB Punjab,class-12,12,1,PUBLIC_BOARD_EXAM,https://www.pseb.ac.in,VERIFIED,2024-25
+pseb-punjab,PSEB Punjab,class-9,9,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://www.pseb.ac.in,VERIFIED,2024-25
+rbse-rajasthan,RBSE Rajasthan,class-10,10,1,PUBLIC_BOARD_EXAM,https://rajeduboard.rajasthan.gov.in,VERIFIED,2024-25
+rbse-rajasthan,RBSE Rajasthan,class-11,11,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://rajeduboard.rajasthan.gov.in,VERIFIED,2024-25
+rbse-rajasthan,RBSE Rajasthan,class-12,12,1,PUBLIC_BOARD_EXAM,https://rajeduboard.rajasthan.gov.in,VERIFIED,2024-25
+rbse-rajasthan,RBSE Rajasthan,class-9,9,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://rajeduboard.rajasthan.gov.in,VERIFIED,2024-25
+tndge-tamilnadu,TNDGE Tamil Nadu,class-10,10,1,PUBLIC_BOARD_EXAM,https://dge.tn.gov.in,VERIFIED,2024-25
+tndge-tamilnadu,TNDGE Tamil Nadu,class-12,12,1,PUBLIC_BOARD_EXAM,https://dge.tn.gov.in,VERIFIED,2024-25
+upmsp-board,UPMSP (UP Board),class-10,10,1,PUBLIC_BOARD_EXAM,https://upmsp.edu.in,VERIFIED,2024-25
+upmsp-board,UPMSP (UP Board),class-11,11,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://upmsp.edu.in,VERIFIED,2024-25
+upmsp-board,UPMSP (UP Board),class-12,12,1,PUBLIC_BOARD_EXAM,https://upmsp.edu.in,VERIFIED,2024-25
+upmsp-board,UPMSP (UP Board),class-9,9,0,INTERNAL_ASSESSMENT_ACADEMIC_SUPPORT,https://upmsp.edu.in,VERIFIED,2024-25
