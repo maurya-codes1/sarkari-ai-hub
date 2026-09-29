@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-09-29T07:21:03.522Z",
+  "phase": "PHASE_17A",
+  "sprint": "Actual Question Bank Growth Sprint",
+  "preSprintBaseline": {
+    "totalQuestions": 1282,
+    "provenance": {
+      "OFFICIAL_PYQ": 351,
+      "OFFICIAL_SAMPLE": 59,
+      "HUMAN_CURATED": 872,
+      "AI_PRACTICE": 0
+    },
+    "fullyMappedCount": 1246,
+    "partiallyMappedCount": 36
+  },
+  "postSprintActual": {
+    "totalQuestions": 1457,
+    "totalVersions": 1457,
+    "netGrowth": 175,
+    "provenance": {
+      "HUMAN_CURATED": 1047,
+      "OFFICIAL_PYQ": 351,
+      "OFFICIAL_SAMPLE": 59
+    },
+    "fullExamEligibleCount": 250,
+    "practiceEligibleCount": 1457,
+    "fullyMappedCount": 1421,
+    "partiallyMappedCount": 36
+  },
+  "priorityComponents": [
+    {
+      "id": "ssc-gd",
+      "versionId": "ver-ssc-gd-2026",
+      "name": "SSC GD Constable",
+      "targetBp": 80,
+      "totalQuestions": 25,
+      "pyqQuestions": 0,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 80
+    },
+    {
+      "id": "rrb-alp",
+      "versionId": "ver-rrb-alp-2026",
+      "name": "RRB ALP & Technician CBT-1",
+      "targetBp": 75,
+      "totalQuestions": 25,
+      "pyqQuestions": 0,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 75
+    },
+    {
+      "id": "rrb-ntpc",
+      "versionId": "ver-rrb-ntpc-2026",
+      "name": "RRB NTPC CBT-1",
+      "targetBp": 100,
+      "totalQuestions": 55,
+      "pyqQuestions": 30,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 70
+    },
+    {
+      "id": "ctet-exam",
+      "versionId": "ver-ctet-exam-2026",
+      "name": "CTET Paper 1",
+      "targetBp": 150,
+      "totalQuestions": 55,
+      "pyqQuestions": 30,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 120
+    },
+    {
+      "id": "ibps-po-clerk",
+      "versionId": "ver-ibps-po-clerk-2026",
+      "name": "IBPS PO Prelims",
+      "targetBp": 100,
+      "totalQuestions": 25,
+      "pyqQuestions": 0,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 100
+    },
+    {
+      "id": "upsc-nda",
+      "versionId": "ver-upsc-nda-2026",
+      "name": "UPSC NDA Mathematics (Paper 1)",
+      "targetBp": 120,
+      "totalQuestions": 25,
+      "pyqQuestions": 0,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 120
+    },
+    {
+      "id": "up-police-constable",
+      "versionId": "ver-up-police-constable-2026",
+      "name": "UP Police Constable",
+      "targetBp": 150,
+      "totalQuestions": 63,
+      "pyqQuestions": 38,
+      "humanQuestions": 25,
+      "p17aAdded": 25,
+      "readiness": "PATTERN_PRACTICE_READY",
+      "gapToFullExam": 112
+    }
+  ]
+}

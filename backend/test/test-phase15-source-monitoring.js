@@ -215,7 +215,7 @@ check('Assertion AS: Job Processed', processedJobs.length > 0 && processedJobs[0
 // -------------------------------------------------------------
 console.log('\n--- Test Case 17: Zero Question Deletion Invariant ---');
 const qCount = db.prepare('SELECT COUNT(*) as count FROM questions').get().count;
-check('Assertion AT: Zero Question Deletion Invariant', qCount === 1282, `Total questions count is strictly ${qCount} (expected 1282)`);
+check('Assertion AT: Zero Question Deletion Invariant', qCount >= 1282, `Total questions count is ${qCount} (>= 1282)`);
 
 console.log(`\n🎉 Phase 15 Test Suite Completed Successfully!`);
 console.log(`Total Assertions Passed: ${passedAssertions} / 46`);

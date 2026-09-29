@@ -1,0 +1,8 @@
+component_id,component_name,exam_id,current_question_count,official_pyq_count,human_curated_count,blueprint_requirement,readiness_state,gap_to_full_exam
+"ver-ssc-gd-2026","SSC GD Constable","ssc-gd",25,0,25,80,"PATTERN_PRACTICE_READY",80
+"ver-rrb-alp-2026","RRB ALP & Technician CBT-1","rrb-alp",25,0,25,75,"PATTERN_PRACTICE_READY",75
+"ver-rrb-ntpc-2026","RRB NTPC CBT-1","rrb-ntpc",55,30,25,100,"PATTERN_PRACTICE_READY",70
+"ver-ctet-exam-2026","CTET Paper 1","ctet-exam",55,30,25,150,"PATTERN_PRACTICE_READY",120
+"ver-ibps-po-clerk-2026","IBPS PO Prelims","ibps-po-clerk",25,0,25,100,"PATTERN_PRACTICE_READY",100
+"ver-upsc-nda-2026","UPSC NDA Mathematics (Paper 1)","upsc-nda",25,0,25,120,"PATTERN_PRACTICE_READY",120
+"ver-up-police-constable-2026","UP Police Constable","up-police-constable",63,38,25,150,"PATTERN_PRACTICE_READY",112

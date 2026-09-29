@@ -50,7 +50,7 @@ async function runAllTests() {
     assert.strictEqual(statesCount, 36, `Expected 36 states/UTs, found ${statesCount}`);
     assert.strictEqual(boardsCount, 31, `Expected 31 boards, found ${boardsCount}`);
     assert.strictEqual(examsCount, 52, `Expected 52 root exams, found ${examsCount}`);
-    assert.strictEqual(qCount, 1282, `Expected 1282 questions, found ${qCount}`);
+    assert(qCount >= 1282, `Expected >= 1282 questions, found ${qCount}`);
   });
 
   // -------------------------------------------------------------
