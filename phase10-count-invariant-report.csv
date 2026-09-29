@@ -1,0 +1,9 @@
+checkId,metricName,baselineValue,currentValue,expectedRelationship,status,notes
+"chk-inv-001","Total Database Questions",1282,1282,"cur >= base","PASSED","Zero deletion invariant preserved"
+"chk-inv-002","OFFICIAL_PYQ Count",351,351,"cur >= base","PASSED","Provenance strictly preserved"
+"chk-inv-003","OFFICIAL_SAMPLE Count",59,59,"cur >= base","PASSED","Sample questions intact"
+"chk-inv-004","HUMAN_CURATED Count",872,872,"cur >= base","PASSED","Curated bank intact"
+"chk-inv-005","AI_PRACTICE Count",0,0,"cur == 0","PASSED","Zero synthetic questions invariant"
+"chk-inv-006","Root Exams Count",52,52,"cur == 52","PASSED","All 52 root exams preserved"
+"chk-inv-007","Granular Components Count",324,324,"cur == 324","PASSED","All 324 components preserved"
+"chk-inv-008","Practice Eligible Count",1282,1282,"cur == totalQuestions","PASSED","100% practice availability invariant"

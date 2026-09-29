@@ -1,0 +1,6 @@
+answerKeyId,artifactId,paperId,questionNumber,officialAnswer,keyType,corrigendumRef,verificationStatus,conflictStatus,notes
+"key-ssc-gd-2024-s1-q1","src-ssc-gd-key-2024-final","paper-ssc-gd-2024-s1-seta",1,"B","FINAL_KEY","","VERIFIED","NONE","Verified from SSC final response key"
+"key-ssc-gd-2024-s1-q2","src-ssc-gd-key-2024-final","paper-ssc-gd-2024-s1-seta",2,"C","FINAL_KEY","","VERIFIED","NONE","Verified from SSC final response key"
+"key-rrb-alp-2024-cbt1-q1","src-rrb-alp-key-2024-final","paper-rrb-alp-2024-cbt1-s1",1,"A","FINAL_KEY","","VERIFIED","NONE","RRB master final answer key"
+"key-rrb-ntpc-2024-cbt1-q1","src-rrb-ntpc-key-2024-final","paper-rrb-ntpc-2024-cbt1-s1",1,"D","FINAL_KEY","","VERIFIED","NONE","RRB final validated key"
+"key-ssc-cgl-2024-t1-q23","src-ssc-cgl-corr-2024","paper-ssc-cgl-2024-t1-s1",23,"B,C","CORRIGENDUM_KEY","src-ssc-cgl-corr-2024","VERIFIED","RESOLVED_OFFICIAL_CORRIGENDUM","Both options B and C accepted per SSC Corrigendum"
