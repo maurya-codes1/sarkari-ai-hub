@@ -1,0 +1,6 @@
+provenanceTier,questionCount,percentageShare,fullExamEligibleCount,practiceEligibleCount,status,notes
+"OFFICIAL_PYQ",351,"27.38%",200,351,"VERIFIED","Authentic past examination questions"
+"OFFICIAL_SAMPLE",59,"4.60%",0,59,"VERIFIED","Official model/sample papers"
+"HUMAN_CURATED",872,"68.02%",0,872,"VERIFIED","Syllabus-aligned human-curated questions"
+"AI_PRACTICE",0,"0.00%",0,0,"ISOLATED_PRACTICE_ONLY","AI practice questions strictly isolated from official corpus"
+"DERIVED_CONTENT",0,"0.00%",0,0,"ISOLATED","Concept/revision derivative content"

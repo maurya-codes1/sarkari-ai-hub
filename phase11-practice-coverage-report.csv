@@ -1,0 +1,7 @@
+rootExam,component,subject,verifiedPYQCount,sampleCount,humanCuratedCount,AIPracticeCount,totalPracticeEligible,chapterCoverage,topicCoverage,questionTypeCoverage,difficultyCoverage,languageCoverage
+"ssc-cgl","comp-ssc-cgl","All 4 Sections",100,0,0,0,100,"100%","100%","single_mcq","EASY,MEDIUM,HARD","hi,en"
+"upsc-cse","comp-upsc-cse","General Studies Paper 1",100,0,0,0,100,"100%","100%","single_mcq","MEDIUM,HARD","hi,en"
+"ssc-gd","comp-ssc-gd","Reasoning, GK, Math, Hindi",30,0,0,10,40,"75%","65%","single_mcq","EASY,MEDIUM,HARD","hi,en"
+"rrb-alp","comp-rrb-alp","Maths, Reasoning, Science, GA",30,0,0,10,40,"70%","60%","single_mcq,numerical","EASY,MEDIUM,HARD","hi,en"
+"rrb-ntpc","comp-rrb-ntpc-cbt1","GA, Maths, Reasoning",32,0,0,5,37,"65%","55%","single_mcq,assertion_reason","EASY,MEDIUM,HARD","hi,en"
+"cbse-board","comp-cbse-10-sci","Class 10 Science",24,5,0,5,34,"85%","80%","single_mcq,short_answer","EASY,MEDIUM","en,hi"

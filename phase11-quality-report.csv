@@ -1,0 +1,13 @@
+metric,value,passStatus,details
+"Total AI Questions Generated",25,"PASSED","Generated across target component syllabus topics"
+"Questions Validated (Layer 1-5)",25,"PASSED","Passed structural, answer, syllabus, duplicate, isolation checks"
+"Questions Rejected",0,"PASSED","Zero malformed or defective questions committed"
+"Needs Review Items",0,"PASSED","No unresolved ambiguities"
+"Published Practice Items",25,"PASSED","Published to practice mode with full_exam_eligible = 0"
+"Exact Duplicate Detections",0,"PASSED","SHA256 fingerprint deduplication verified"
+"Semantic Duplicate Detections",0,"PASSED","Lexical similarity threshold < 0.85 enforced"
+"PYQ Near-Duplicate Protections",0,"PASSED","Strict zero-leakage gate against official PYQ corpus"
+"Answer Validation Failures",0,"PASSED","Deterministic arithmetic and single MCQ key verified"
+"Syllabus Boundary Failures",0,"PASSED","All items strictly verified within registered syllabus"
+"Language Isolation Failures",0,"PASSED","Question content language preserved independently of UI locale"
+"Component Isolation Failures",0,"PASSED","No cross-component contamination"

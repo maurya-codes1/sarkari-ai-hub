@@ -288,8 +288,10 @@ router.put('/notifications/preferences', (req, res) => {
 });
 
 // -------------------------------------------------------------
-// 8. AI PRACTICE QUESTION QUALITY PIPELINE
+// 8. AI PRACTICE QUESTION QUALITY PIPELINE & GENERATION
 // -------------------------------------------------------------
+const aiPracticeEngineService = require('../services/ai-practice-engine-service');
+
 router.post('/ai/validate', (req, res) => {
   try {
     const { question, examId } = req.body;
@@ -306,6 +308,78 @@ router.post('/ai/queue', (req, res) => {
     res.json({ success: true, result });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/practice/questions/generate', async (req, res) => {
+  try {
+    const result = await aiPracticeEngineService.generatePracticeBatch(req.body);
+    res.json({ success: true, result });
+  } catch (err) {
+    res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/practice/questions/validate', (req, res) => {
+  try {
+    const result = aiPracticeEngineService.validateCandidate(req.body);
+    res.json({ success: true, result });
+  } catch (err) {
+    res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/practice/questions/commit', (req, res) => {
+  try {
+    const result = aiPracticeEngineService.commitPracticeQuestion(req.body);
+    res.json({ success: true, result });
+  } catch (err) {
+    res.status(400).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/practice/questions', (req, res) => {
+  try {
+    const questionRepository = require('../db/repositories/question-repository');
+    const { subjectId, difficulty, count = 20, provenance = 'AI_PRACTICE' } = req.query;
+    const questions = questionRepository.getQuestionsByProvenance(provenance, parseInt(count, 10));
+    res.json({ success: true, count: questions.length, questions });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/practice/questions/:id', (req, res) => {
+  try {
+    const questionRepository = require('../db/repositories/question-repository');
+    const questions = questionRepository.getQuestionsByIds([req.params.id]);
+    if (questions.length === 0) return res.status(404).json({ success: false, error: 'Question not found' });
+    res.json({ success: true, question: questions[0] });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/practice/questions/:id/review', (req, res) => {
+  try {
+    const { action, reviewerNotes } = req.body;
+    const db = require('../db/database').getDb();
+    const q = db.prepare('SELECT question_id FROM questions WHERE question_id = ?').get(req.params.id);
+    if (!q) return res.status(404).json({ success: false, error: 'Question not found' });
+    db.prepare("UPDATE questions SET quality_state = ?, updated_at = CURRENT_TIMESTAMP WHERE question_id = ?")
+      .run(action === 'APPROVE' ? 'APPROVED' : (action === 'REJECT' ? 'REJECTED' : 'NEEDS_REVIEW'), req.params.id);
+    res.json({ success: true, questionId: req.params.id, reviewStatus: action });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.post('/practice/questions/:id/regenerate', (req, res) => {
+  try {
+    const result = aiPracticeEngineService.updatePracticeQuestion(req.params.id, req.body);
+    res.json({ success: true, result });
+  } catch (err) {
+    res.status(400).json({ success: false, error: err.message });
   }
 });
 
