@@ -45,6 +45,9 @@ class ExamLanguageResolver {
       } else if (compLower.includes('pseb') || compLower.includes('punjab')) {
         officialLangs = ['pa', 'en', 'hi'];
         defaultLang = 'pa';
+      } else if (compLower.includes('tsbie') || compLower.includes('bieap') || compLower.includes('telugu')) {
+        officialLangs = ['te', 'en'];
+        defaultLang = 'te';
       } else if (compLower.includes('bseb') || compLower.includes('upmsp') || compLower.includes('mppsc') || compLower.includes('bpsc')) {
         officialLangs = ['hi', 'en'];
         defaultLang = 'hi';
@@ -52,7 +55,7 @@ class ExamLanguageResolver {
         officialLangs = ['en', 'hi', 'bn', 'gu', 'kn', 'ml', 'mr', 'or', 'pa', 'ta', 'te', 'ur', 'as'];
         defaultLang = 'en';
         isBilingual = true;
-      } else if (compLower.includes('upsc-cse') || compLower.includes('upsc-nda')) {
+      } else if (compLower.includes('upsc-cse') || compLower.includes('upsc-nda') || compLower.includes('ssc-cgl')) {
         officialLangs = ['en', 'hi'];
         defaultLang = 'en';
         isBilingual = true;
@@ -72,6 +75,30 @@ class ExamLanguageResolver {
       } else if (subjLower.includes('tamil') || subjLower === 'subj-tamil') {
         officialLangs = ['ta'];
         defaultLang = 'ta';
+      } else if (subjLower.includes('telugu') || subjLower === 'subj-telugu') {
+        officialLangs = ['te'];
+        defaultLang = 'te';
+      } else if (subjLower.includes('bengali') || subjLower === 'subj-bengali') {
+        officialLangs = ['bn'];
+        defaultLang = 'bn';
+      } else if (subjLower.includes('marathi') || subjLower === 'subj-marathi') {
+        officialLangs = ['mr'];
+        defaultLang = 'mr';
+      } else if (subjLower.includes('gujarati') || subjLower === 'subj-gujarati') {
+        officialLangs = ['gu'];
+        defaultLang = 'gu';
+      } else if (subjLower.includes('kannada') || subjLower === 'subj-kannada') {
+        officialLangs = ['kn'];
+        defaultLang = 'kn';
+      } else if (subjLower.includes('malayalam') || subjLower === 'subj-malayalam') {
+        officialLangs = ['ml'];
+        defaultLang = 'ml';
+      } else if (subjLower.includes('odia') || subjLower === 'subj-odia') {
+        officialLangs = ['or'];
+        defaultLang = 'or';
+      } else if (subjLower.includes('sanskrit') || subjLower === 'subj-sanskrit') {
+        officialLangs = ['sa'];
+        defaultLang = 'sa';
       } else if (subjLower.includes('urdu') || subjLower === 'subj-urdu') {
         officialLangs = ['ur'];
         defaultLang = 'ur';

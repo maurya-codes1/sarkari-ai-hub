@@ -34,6 +34,15 @@ function getDb(options = {}) {
       fs.mkdirSync(dbDir, { recursive: true });
     }
 
+    if (!fs.existsSync(DB_PATH) || fs.statSync(DB_PATH).size < 1000) {
+      try {
+        const { unpackDatabase } = require('../../scripts/unpack_database');
+        unpackDatabase(true);
+      } catch (err) {
+        console.warn('[Database] Auto-unpack failed or not available:', err.message);
+      }
+    }
+
     dbInstance = new Database(DB_PATH, {
       fileMustExist: options.fileMustExist || false,
       timeout: 5000,

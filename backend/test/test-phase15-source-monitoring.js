@@ -86,14 +86,18 @@ sourceMonitoringService.checkSource(targetSourceId, { simulateFailure: false });
 // TEST CASE 7: Content Change Detection
 // -------------------------------------------------------------
 console.log('\n--- Test Case 7: Content Change Detection ---');
+const originalSourceHash = db.prepare('SELECT hash FROM monitored_sources WHERE source_id = ?').get(targetSourceId).hash;
 const changeCheck = sourceMonitoringService.checkSource(targetSourceId, {
-  newContent: 'Brand new updated notification content 2026-09-29 v2.0',
+  newContent: 'Brand new updated notification content v2.0 ' + Date.now(),
   changeType: 'EXAM_PATTERN_CHANGE',
   diffSummary: 'Tier 1 question distribution updated by official notice'
 });
 check('Assertion R: Change Detected Flag', changeCheck.hasChanged === true, 'Change detected flag is true');
 check('Assertion S: Change Record Created', changeCheck.changeRecord !== null, 'Change record created');
 check('Assertion T: Review Item Enqueued', changeCheck.reviewItem !== null && changeCheck.reviewItem.reviewStatus === 'PENDING', 'Review item enqueued with PENDING');
+
+// Restore original hash to preserve pristine baseline
+db.prepare('UPDATE monitored_sources SET hash = ? WHERE source_id = ?').run(originalSourceHash, targetSourceId);
 
 // -------------------------------------------------------------
 // TEST CASE 8: Change Classification

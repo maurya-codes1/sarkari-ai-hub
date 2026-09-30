@@ -1,0 +1,249 @@
+board,class,subject,language,subjectiveType,count,modelAnswerCount,keyPointsCount,markingGuidanceCount,qualityStatus
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",en,short_answer;long_answer;case_study,19,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",hi,short_answer;long_answer;case_study,19,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,7,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,7,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,6667,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,6667,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",en,short_answer;long_answer;case_study,257,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",ta,short_answer;long_answer;case_study,257,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,57,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",mr,short_answer;long_answer;case_study,57,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 12","subj-math12",en,short_answer;long_answer;case_study,733,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 12","subj-math12",hi,short_answer;long_answer;case_study,733,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",hi,short_answer;long_answer;case_study,450,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",en,short_answer;long_answer;case_study,450,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",en,short_answer;long_answer;case_study,200,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",hi,short_answer;long_answer;case_study,200,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 12","subj-business",en,short_answer;long_answer;case_study,400,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 12","subj-business",hi,short_answer;long_answer;case_study,400,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",te,short_answer;long_answer;case_study,250,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",en,short_answer;long_answer;case_study,250,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",pa,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",pa,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",pa,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",pa,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",bn,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",bn,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",bn,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",bn,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",gu,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",gu,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",gu,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",gu,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",kn,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",kn,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",kn,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",kn,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",ml,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",ml,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",ml,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",ml,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",or,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",or,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",or,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",or,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",as,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",as,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",as,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",as,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",mr,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",mr,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",mr,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",ta,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",ta,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",en,short_answer;long_answer;case_study,70,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",ta,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",te,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",te,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",te,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",te,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",te,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",te,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",te,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",te,short_answer;long_answer;case_study,30,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",en,short_answer;long_answer;case_study,30,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",te,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-science",te,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-math",te,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-social",te,short_answer;long_answer;case_study,30,0,0,0,PARTIAL_MODEL_ANSWER
+"Directorate of Government Examinations Telangana","Class 10","subj-social",en,short_answer;long_answer;case_study,30,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",hi,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",hi,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",hi,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",en,short_answer;long_answer;case_study,50,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-science",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-math",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Himachal Pradesh Board of School Education","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",ur,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",ur,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",ur,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",ur,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",mr,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",mr,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",mr,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",mr,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Manipur","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Manipur","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Manipur","Class 10","subj-social",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Board of Secondary Education Manipur","Class 10","subj-english",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Meghalaya Board of School Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Meghalaya Board of School Education","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Meghalaya Board of School Education","Class 10","subj-social",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Meghalaya Board of School Education","Class 10","subj-english",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Mizoram Board of School Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Mizoram Board of School Education","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Mizoram Board of School Education","Class 10","subj-social",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Mizoram Board of School Education","Class 10","subj-english",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Nagaland Board of School Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Nagaland Board of School Education","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Nagaland Board of School Education","Class 10","subj-social",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Nagaland Board of School Education","Class 10","subj-english",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-bengali",bn,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-bengali",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-science",bn,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-math",bn,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-math",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-social",bn,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"Tripura Board of Secondary Education","Class 10","subj-social",en,short_answer;long_answer;case_study,20,0,0,0,PARTIAL_MODEL_ANSWER
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",en,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",hi,short_answer;long_answer;case_study,60,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",en,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",hi,short_answer;long_answer;case_study,40,0,0,0,PARTIAL_MODEL_ANSWER

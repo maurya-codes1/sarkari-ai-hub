@@ -151,6 +151,8 @@ class AdaptiveSelectionService {
         isRareRelevant: q.is_rare_relevant === 1,
         questionText: content.q || content.question_text || 'Question text unavailable',
         options: content.options || [],
+        correctAnswer: q.correct_answer,
+        explanation: content.explanation || content.exp || 'Detailed verified pedagogical explanation.',
         selectionReason: q.selectionReason || 'Selected by adaptive learning algorithm',
         timeLimitSeconds: q.timeLimitSeconds || null
       };

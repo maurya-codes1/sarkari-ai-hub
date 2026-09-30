@@ -15,6 +15,7 @@ const pyqIngestionService = require('./pyq-ingestion-service');
 const pdfFontRegistry = require('./pdf-font-registry');
 const pdfOmrGenerator = require('./pdf-omr-generator');
 const contentDependencyService = require('./content-dependency-service');
+const crossSurfaceLearningService = require('./cross-surface-learning-service');
 
 class PdfGenerationService {
   constructor() {
@@ -262,6 +263,34 @@ class PdfGenerationService {
       // 5. Automated Validation Pipeline (Structural, Glyph, Parity, Checksum)
       const validation = this.validateGeneratedPdf(generationResult, normDocType, blueprint);
 
+      // Phase 17L: Cross-Surface Telemetry & Single-Asset Uniqueness Validation
+      if (generationResult && Array.isArray(generationResult.questionIds) && generationResult.questionIds.length > 0) {
+        const uniquenessCheck = crossSurfaceLearningService.validateAssetUniqueness(generationResult.questionIds, 'PDF');
+        if (!uniquenessCheck.valid) {
+          validation.structuralPass = false;
+          validation.overallValid = false;
+          if (!validation.details) validation.details = {};
+          validation.details.duplicateErrors = uniquenessCheck.duplicates;
+        }
+        try {
+          crossSurfaceLearningService.recordUsage(
+            'PDF',
+            pdfId,
+            generationResult.questionIds,
+            {
+              examId,
+              versionId: resolvedVersionId,
+              subjectId,
+              language: targetLanguage,
+              userId: options.userId || null
+            },
+            db
+          );
+        } catch (recErr) {
+          console.warn('[PdfGenerationService] Failed to record cross-surface usage:', recErr.message);
+        }
+      }
+
       // 6. Update database record with final status, checksum, and page count
       db.prepare(`
         UPDATE pdf_documents
@@ -379,6 +408,42 @@ class PdfGenerationService {
         status: 'PDF_GENERATION_FAILED',
         error: err.message
       };
+    }
+  }
+
+  /**
+   * Helper to retrieve question IDs included in a generated PDF document (Phase 17L)
+   */
+  getPdfQuestionIds(pdfId, db = getDb()) {
+    if (!db || !pdfId) return [];
+    try {
+      // 1. First check cross_surface_question_usage table
+      const rows = db.prepare(`
+        SELECT question_id
+        FROM cross_surface_question_usage
+        WHERE asset_type = 'PDF' AND asset_id = ?
+        ORDER BY used_at ASC
+      `).all(pdfId);
+      if (rows && rows.length > 0) {
+        return rows.map(r => r.question_id);
+      }
+
+      // 2. Fallback: inspect pdf_metadata table
+      const metaRow = db.prepare(`
+        SELECT metadata_json
+        FROM pdf_metadata
+        WHERE pdf_id = ?
+      `).get(pdfId);
+      if (metaRow && metaRow.metadata_json) {
+        const meta = JSON.parse(metaRow.metadata_json);
+        if (Array.isArray(meta.question_ids)) {
+          return meta.question_ids;
+        }
+      }
+      return [];
+    } catch (e) {
+      console.warn('[PdfGenerationService] Error fetching question IDs for PDF:', e.message);
+      return [];
     }
   }
 

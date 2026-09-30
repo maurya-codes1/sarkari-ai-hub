@@ -8303,22 +8303,58 @@ function getCompetitiveLocalizedQuestions(examId = "ssc-gd", subjectId = "all", 
 
   const normSub = (subjectId || 'all').toLowerCase();
 
-  // 1. Strict Subject-Wise High-Yield Integration for Competitive Exams
+  // 1. Strict Subject-Wise High-Yield Integration for Competitive Exams & School Boards
   let specificBank = null;
-  let cleanSub = normSub;
+  let cleanSub = normSub.replace(/^subj-/, '');
 
   if (normSub === 'reasoning' || normSub.includes('reason') || normSub.includes('तर्क') || normSub.includes('तार्किक') || normSub.includes('बुद्धिलब्धि') || normSub.includes('अभिरुचि')) {
     specificBank = vault.reasoning;
     cleanSub = 'reasoning';
+  } else if (normSub === 'physics' || normSub.includes('physics') || normSub.includes('भौतिक')) {
+    specificBank = vault.physics;
+    cleanSub = 'physics';
+  } else if (normSub === 'chemistry' || normSub.includes('chemistry') || normSub.includes('रसायन')) {
+    specificBank = vault.chemistry;
+    cleanSub = 'chemistry';
+  } else if (normSub === 'biology' || normSub.includes('biology') || normSub.includes('जीव विज्ञान') || normSub.includes('वनस्पति') || normSub.includes('जंतु')) {
+    specificBank = vault.biology;
+    cleanSub = 'biology';
+  } else if (normSub === 'math12' || normSub.includes('math12') || normSub.includes('higher-math') || normSub.includes('उच्च गणित')) {
+    specificBank = vault.math12;
+    cleanSub = 'math12';
+  } else if (normSub === 'accountancy' || normSub.includes('account') || normSub.includes('लेखा')) {
+    specificBank = vault.accountancy;
+    cleanSub = 'accountancy';
+  } else if (normSub === 'business' || normSub.includes('business') || normSub.includes('व्यवसाय')) {
+    specificBank = vault.business;
+    cleanSub = 'business';
+  } else if (normSub === 'economics' || normSub === 'economy' || normSub.includes('econom') || normSub.includes('अर्थशास्त्र')) {
+    specificBank = vault.economics;
+    cleanSub = 'economics';
+  } else if (normSub === 'history' || normSub.includes('history') || normSub.includes('इतिहास')) {
+    specificBank = vault.history;
+    cleanSub = 'history';
+  } else if (normSub === 'polity' || normSub.includes('polity') || normSub.includes('राजनीति')) {
+    specificBank = vault.polity;
+    cleanSub = 'polity';
+  } else if (normSub === 'geography' || normSub.includes('geograph') || normSub.includes('भूगोल')) {
+    specificBank = vault.geography;
+    cleanSub = 'geography';
   } else if (normSub === 'math' || normSub.includes('math') || normSub.includes('गणित') || normSub.includes('quant') || normSub.includes('संख्यात्मक')) {
     specificBank = (vault.compMath && vault.compMath.length > 0) ? vault.compMath : vault.math;
     cleanSub = 'math';
-  } else if (normSub === 'law' || normSub.includes('law') || normSub.includes('मूलविधि') || normSub.includes('संविधान') || normSub.includes('विधि') || normSub.includes('mool') || normSub.includes('police-law')) {
+  } else if (normSub === 'law' || normSub.includes('मूलविधि') || normSub.includes('विधि') || normSub.includes('mool') || normSub.includes('police-law')) {
     specificBank = vault.compLaw;
     cleanSub = 'law';
-  } else if (normSub === 'tech' || normSub.includes('tech') || normSub.includes('science') || normSub.includes('विज्ञान') || normSub.includes('भौतिक')) {
+  } else if (normSub === 'tech' || normSub === 'railway-sci' || normSub.includes('railway-sci') || normSub.includes('tech')) {
     specificBank = (vault.compTech && vault.compTech.length > 0) ? vault.compTech : vault.science;
     cleanSub = 'science';
+  } else if (normSub === 'science' || normSub.includes('science') || normSub.includes('विज्ञान')) {
+    specificBank = vault.science;
+    cleanSub = 'science';
+  } else if (normSub === 'social' || normSub.includes('social') || normSub.includes('सामाजिक')) {
+    specificBank = vault.social;
+    cleanSub = 'social';
   } else if (normSub === 'gk' || normSub === 'gs' || normSub.includes('gk') || normSub.includes('general') || normSub.includes('सामान्य ज्ञान') || normSub.includes('up-gk') || normSub.includes('affairs')) {
     specificBank = [...(vault.compGk || []), ...(vault.compLaw || []), ...(vault.social || [])];
     cleanSub = 'gk';
@@ -8328,6 +8364,9 @@ function getCompetitiveLocalizedQuestions(examId = "ssc-gd", subjectId = "all", 
   } else if (normSub === 'english' || normSub.includes('english') || normSub.includes('अंग्रेजी')) {
     specificBank = vault.english;
     cleanSub = 'english';
+  } else if (normSub === 'sanskrit' || normSub.includes('sanskrit') || normSub.includes('संस्कृत')) {
+    specificBank = vault.sanskrit;
+    cleanSub = 'sanskrit';
   }
 
   if (specificBank && specificBank.length > 0) {
@@ -8432,18 +8471,22 @@ function getCompetitiveLocalizedQuestions(examId = "ssc-gd", subjectId = "all", 
   }
 
   // 2. Filter blueprints matching subject and exam tags
+  const cleanSubTag = (subjectId || 'all').replace(/^subj-/, '').toLowerCase();
   let candidates = COMPETITIVE_BLUEPRINTS.filter(bp => {
-    const subMatch = (subjectId === "all") || bp.subjectTags.includes(subjectId);
+    const subMatch = (cleanSubTag === "all") || bp.subjectTags.some(t => t.toLowerCase() === cleanSubTag || `subj-${t.toLowerCase()}` === subjectId.toLowerCase());
     const examMatch = (examId === "all-india-mix") || bp.examTags.includes(examId) || bp.examTags.includes(examObj.category) || bp.examTags.includes("all");
     return subMatch && examMatch;
   });
 
-  if (candidates.length === 0) {
+  if (candidates.length === 0 && cleanSubTag !== "all") {
+    // Search for blueprints matching subject across any exam
     candidates = COMPETITIVE_BLUEPRINTS.filter(bp => {
-      return (subjectId === "all") || bp.subjectTags.includes(subjectId);
+      return bp.subjectTags.some(t => t.toLowerCase() === cleanSubTag || `subj-${t.toLowerCase()}` === subjectId.toLowerCase());
     });
   }
-  if (candidates.length === 0) {
+
+  // Only fall back to all blueprints if exam was 'all' subjects
+  if (candidates.length === 0 && cleanSubTag === "all") {
     candidates = COMPETITIVE_BLUEPRINTS;
   }
 

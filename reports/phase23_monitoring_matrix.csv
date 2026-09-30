@@ -1,0 +1,53 @@
+source_id,authority,source_type,portal_url,http_status,availability_status,freshness_status,last_checked_at,failure_count,retry_count,latency_ms,trust_level
+src-agniveer-airforce-portal,Indian Air Force (Central Airmen Selection Board - CASB),PRIMARY_OFFICIAL,https://agnipathvayu.cdac.in,200,PARSE_FAILED,FRESH,2026-09-30 06:40:05,3,3,45,3
+src-agniveer-army-portal,Join Indian Army (Directorate General of Recruiting),PRIMARY_OFFICIAL,https://joinindianarmy.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,59,3
+src-agniveer-navy-portal,Indian Navy (Naval Headquarters),PRIMARY_OFFICIAL,https://joinindiannavy.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,59,3
+src-bihar-police-constable-portal,"Central Selection Board of Constable (CSBC), Patna",PRIMARY_OFFICIAL,https://csbc.bih.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,43,3
+src-bpsc-tre-portal,"Bihar Public Service Commission (BPSC), Patna",PRIMARY_OFFICIAL,https://www.bpsc.bih.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,3
+src-bseb-bihar-portal,"Bihar School Examination Board, Patna",PRIMARY_OFFICIAL,https://biharboardonline.com,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,56,3
+src-bseh-haryana-portal,"Board of School Education Haryana, Bhiwani",PRIMARY_OFFICIAL,https://bseh.org.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,58,3
+src-cbse-board-portal,Central Board of Secondary Education,PRIMARY_OFFICIAL,https://www.cbse.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,56,3
+src-cgbse-chhattisgarh-portal,"Chhattisgarh Board of Secondary Education, Raipur",PRIMARY_OFFICIAL,https://cgbse.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,39,3
+src-chse-bse-odisha-portal,Board of Secondary Education Odisha & Council of Higher Secondary Education,PRIMARY_OFFICIAL,https://bseodisha.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,36,3
+src-clat-law-portal,Consortium of National Law Universities (Consortium of NLUs),PRIMARY_OFFICIAL,https://consortiumofnlus.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,3
+src-ctet-exam-portal,Central Board of Secondary Education (CBSE),PRIMARY_OFFICIAL,https://ctet.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,55,3
+src-delhi-police-portal,Staff Selection Commission (SSC) on behalf of Delhi Police,PRIMARY_OFFICIAL,https://delhipolice.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,58,2
+src-gseb-gujarat-portal,"Gujarat Secondary and Higher Secondary Education Board, Gandhinagar",PRIMARY_OFFICIAL,https://www.gseb.org,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,58,3
+src-haryana-police-portal,"Haryana Staff Selection Commission (HSSC), Panchkula",PRIMARY_OFFICIAL,https://hssc.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,35,2
+src-ibps-po-clerk-portal,Institute of Banking Personnel Selection & State Bank of India,PRIMARY_OFFICIAL,https://www.ibps.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,59,3
+src-icse-cisce-portal,Council for the Indian School Certificate Examinations,PRIMARY_OFFICIAL,https://cisce.org,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,56,3
+src-jac-jharkhand-portal,"Jharkhand Academic Council, Ranchi",PRIMARY_OFFICIAL,https://jac.jharkhand.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,59,3
+src-kseab-karnataka-portal,"Karnataka School Examination and Assessment Board, Bengaluru",PRIMARY_OFFICIAL,https://kseab.karnataka.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,36,3
+src-maharashtra-board-portal,"Maharashtra State Board of Secondary & Higher Secondary Education, Pune",PRIMARY_OFFICIAL,https://mahahsscboard.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,38,3
+src-maharashtra-police-portal,Maharashtra State Police Recruitment Board,PRIMARY_OFFICIAL,https://policerecruitment2024.mahait.org,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,39,3
+src-mp-police-portal,"Madhya Pradesh Employees Selection Board (MPESB), Bhopal",PRIMARY_OFFICIAL,https://esb.mp.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,55,3
+src-mpbse-board-portal,"Madhya Pradesh Board of Secondary Education, Bhopal",PRIMARY_OFFICIAL,https://mpbse.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-nios-board-portal,National Institute of Open Schooling (Ministry of Education),PRIMARY_OFFICIAL,https://nios.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,56,3
+src-nta-cuet-ug-portal,National Testing Agency (NTA),PRIMARY_OFFICIAL,https://exams.nta.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-nta-jee-adv-portal,Organizing IIT on behalf of JAB (Joint Admission Board),PRIMARY_OFFICIAL,https://jeeadv.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-nta-jee-main-portal,National Testing Agency (NTA),PRIMARY_OFFICIAL,https://jeemain.nta.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,58,3
+src-nta-neet-portal,National Testing Agency (NTA),PRIMARY_OFFICIAL,https://neet.nta.nic.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,3
+src-pseb-punjab-portal,"Punjab School Education Board, SAS Nagar (Mohali)",PRIMARY_OFFICIAL,https://www.pseb.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-rajasthan-police-portal,"Rajasthan Police Recruitment Board, Jaipur",PRIMARY_OFFICIAL,https://police.rajasthan.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,37,3
+src-rbse-rajasthan-portal,"Board of Secondary Education Rajasthan, Ajmer",PRIMARY_OFFICIAL,https://rajeduboard.rajasthan.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,35,3
+src-reet-rajasthan-portal,"Board of Secondary Education Rajasthan (RBSE), Ajmer",PRIMARY_OFFICIAL,https://rajeduboard.rajasthan.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,35,3
+src-rrb-alp-portal,Railway Recruitment Boards (Ministry of Railways),PRIMARY_OFFICIAL,https://www.rrbapply.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,53,3
+src-rrb-group-d-portal,Railway Recruitment Cell / RRB,PRIMARY_OFFICIAL,https://www.rrbapply.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-rrb-ntpc-portal,Railway Recruitment Boards (RRB),PRIMARY_OFFICIAL,https://www.rrbapply.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,3
+src-rrb-technician-portal,Railway Recruitment Boards (RRB),PRIMARY_OFFICIAL,https://www.rrbapply.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,35,3
+src-seba-ahsec-assam-portal,Assam State School Education Board (ASSEB - SEBA / AHSEC),PRIMARY_OFFICIAL,https://sebaonline.org,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,37,3
+src-ssc-cgl-portal,Staff Selection Commission (SSC),PRIMARY_OFFICIAL,https://ssc.gov.in,200,HEALTHY,FRESH,2026-09-27 16:30:06,0,0,45,2
+src-ssc-chsl-portal,Staff Selection Commission (SSC),PRIMARY_OFFICIAL,https://ssc.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,2
+src-ssc-gd-portal,Staff Selection Commission (SSC),PRIMARY_OFFICIAL,https://ssc.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,52,2
+src-ssc-mts-portal,Staff Selection Commission (SSC),PRIMARY_OFFICIAL,https://ssc.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,53,2
+src-tndge-tamilnadu-portal,"Directorate of Government Examinations, Chennai",PRIMARY_OFFICIAL,https://dge.tn.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,36,3
+src-tsbie-bieap-portal,Telangana State Board of Intermediate Education & Andhra Pradesh BIE,PRIMARY_OFFICIAL,https://bse.telangana.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-ubse-uttarakhand-portal,"Uttarakhand Board of School Education, Ramnagar (Nainital)",PRIMARY_OFFICIAL,https://ubse.uk.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,37,3
+src-ugc-net-portal,National Testing Agency (NTA) on behalf of UGC,PRIMARY_OFFICIAL,https://ugcnet.nta.ac.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,53,3
+src-up-police-constable-portal,Uttar Pradesh Police Recruitment & Promotion Board (UPPRPB),PRIMARY_OFFICIAL,https://uppbpb.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,40,3
+src-upmsp-board-portal,"Uttar Pradesh Madhyamik Shiksha Parishad, Prayagraj",PRIMARY_OFFICIAL,https://upmsp.edu.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,57,3
+src-upsc-cse-portal,Union Public Service Commission (UPSC),PRIMARY_OFFICIAL,https://upsc.gov.in,200,HEALTHY,FRESH,2026-09-27 16:30:06,0,0,45,2
+src-upsc-nda-portal,Union Public Service Commission (UPSC),PRIMARY_OFFICIAL,https://upsc.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,2
+src-uptet-supertet-portal,"Uttar Pradesh Education Service Selection Commission (UPESSC), Prayagraj",PRIMARY_OFFICIAL,https://updeled.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,35,2
+src-wb-police-portal,"West Bengal Police Recruitment Board (WBPRB), Araksha Bhawan",PRIMARY_OFFICIAL,https://prb.wb.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,55,3
+src-wbbse-wb-portal,West Bengal Board of Secondary Education & Higher Secondary Council,PRIMARY_OFFICIAL,https://wbbse.wb.gov.in,200,HEALTHY,FRESH,2026-09-27 14:06:26,0,0,54,3

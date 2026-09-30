@@ -1,0 +1,325 @@
+exam,component,version,stage,paper,patternStatus,contentStatus,questionCount,objectiveCount,subjectiveCount,languages,subjects,chapters,topics,fullExamEligibleCount,practiceEligibleCount
+"upsc-cse","comp-upsc-cse-prelims-gs1","ver-upsc-cse-2026","Preliminary","Paper-I General Studies","VERIFIED","DEEP_CONTENT_EXCELLENT",20173,9575,10598,"en;hi","subj-economics;subj-geography;subj-gk;subj-history;subj-polity;subj-science;subj-sociology",0,0,109,20173
+"upsc-cse","comp-upsc-cse-prelims-csat","ver-upsc-cse-2026","Preliminary","Paper-II CSAT (Qualifying 33%)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-essay","ver-upsc-cse-2026","Mains","Paper-I Essay","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-gs1","ver-upsc-cse-2026","Mains","Paper-II General Studies I","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-gs2","ver-upsc-cse-2026","Mains","Paper-III General Studies II","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-gs3","ver-upsc-cse-2026","Mains","Paper-IV General Studies III","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-gs4","ver-upsc-cse-2026","Mains","Paper-V General Studies IV","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-opt1","ver-upsc-cse-2026","Mains","Paper-VI Optional Paper 1","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-opt2","ver-upsc-cse-2026","Mains","Paper-VII Optional Paper 2","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-lang","ver-upsc-cse-2026","Mains","Paper-A Indian Language (Qualifying 25%)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-cse","comp-upsc-cse-mains-eng","ver-upsc-cse-2026","Mains","Paper-B English (Qualifying 25%)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upsc-nda","comp-upsc-nda-math","ver-upsc-nda-2026","Written Examination","Paper-I Mathematics","VERIFIED","CONTENT_IN_PROGRESS",26,26,0,"en;hi","subj-math12;subj-science",0,0,1,26
+"upsc-nda","comp-upsc-nda-gat","ver-upsc-nda-2026","Written Examination","Paper-II General Ability Test","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ssc-cgl","comp-ssc-cgl-tier1","ver-ssc-cgl-2026","Tier-1","Tier-1 CBE Screening","VERIFIED","DEEP_CONTENT_EXCELLENT",21221,21221,0,"en;hi","subj-english;subj-gk;subj-math;subj-reasoning",0,0,106,21221
+"ssc-cgl","comp-ssc-cgl-tier2-p1","ver-ssc-cgl-2026","Tier-2","Paper-1 Session-I & II","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ssc-chsl","comp-ssc-chsl-tier1","ver-ssc-chsl-2026","Tier-1","Tier-1 CBE Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ssc-chsl","comp-ssc-chsl-tier2-p1","ver-ssc-chsl-2026","Tier-2","Tier-2 Objective & Skill Test","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ssc-mts","comp-ssc-mts-session1","ver-ssc-mts-2026","Session-I","Session-I Numerical & Reasoning","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ssc-mts","comp-ssc-mts-session2","ver-ssc-mts-2026","Session-II","Session-II GA & English","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ssc-gd","comp-ssc-gd-cbe","ver-ssc-gd-2026","Stage-I","Single Unified CBE Paper","VERIFIED","CONTENT_IN_PROGRESS",25,25,0,"en;hi","subj-gk;subj-hindi;subj-math;subj-reasoning",19,19,0,25
+"rrb-alp","comp-rrb-alp-cbt1","ver-rrb-alp-2026","CBT-1","First Stage CBT Screening","VERIFIED","DEEP_CONTENT_EXCELLENT",1025,1025,0,"en;hi","subj-gk;subj-math;subj-railway-sci;subj-reasoning;subj-science",18,18,0,1025
+"rrb-alp","comp-rrb-alp-cbt2-parta","ver-rrb-alp-2026","CBT-2","Second Stage CBT Part A","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rrb-alp","comp-rrb-alp-cbt2-partb","ver-rrb-alp-2026","CBT-2","Second Stage CBT Part B (Qualifying 35%)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rrb-ntpc","comp-rrb-ntpc-cbt1","ver-rrb-ntpc-2026","CBT-1","First Stage Common Screening CBT","VERIFIED","CONTENT_IN_PROGRESS",57,57,0,"en;hi","subj-gk;subj-math;subj-reasoning;subj-science",0,0,2,57
+"rrb-ntpc","comp-rrb-ntpc-cbt2","ver-rrb-ntpc-2026","CBT-2","Second Stage Level-wise CBT","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rrb-group-d","comp-rrb-group-d-cbt","ver-rrb-group-d-2026","Single Stage","Computer Based Test","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rrb-technician","comp-rrb-tech-grade1","ver-rrb-technician-2026","Single Stage CBT","Grade-I Signal Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rrb-technician","comp-rrb-tech-grade3","ver-rrb-technician-2026","Single Stage CBT","Grade-III Common Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-ibps-po-prelims","ver-ibps-po-clerk-2026","Preliminary","IBPS PO Prelims CBT","VERIFIED","DEEP_CONTENT_EXCELLENT",11638,11638,0,"en;hi","subj-english;subj-math;subj-reasoning",0,0,2,11638
+"ibps-po-clerk","comp-ibps-po-mains","ver-ibps-po-clerk-2026","Main","IBPS PO Mains + Descriptive","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-ibps-clerk-prelims","ver-ibps-po-clerk-2026","Preliminary","IBPS Clerk Prelims CBT","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-ibps-clerk-mains","ver-ibps-po-clerk-2026","Main","IBPS Clerk Mains CBT","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-sbi-po-prelims","ver-ibps-po-clerk-2026","Preliminary","SBI PO Prelims CBT","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-sbi-po-mains","ver-ibps-po-clerk-2026","Main","SBI PO Mains + Descriptive","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-sbi-clerk-prelims","ver-ibps-po-clerk-2026","Preliminary","SBI JA Prelims CBT","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ibps-po-clerk","comp-sbi-clerk-mains","ver-ibps-po-clerk-2026","Main","SBI JA Mains CBT","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-army","comp-agniveer-army-gd","ver-agniveer-army-2026","Stage-I CEE","General Duty Common Entrance Exam","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-army","comp-agniveer-army-tech","ver-agniveer-army-2026","Stage-I CEE","Technical Common Entrance Exam","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-army","comp-agniveer-army-clerk","ver-agniveer-army-2026","Stage-I CEE","Clerk/SKT CEE (Part I & II)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-army","comp-agniveer-army-tradesman","ver-agniveer-army-2026","Stage-I CEE","Tradesman Common Entrance Exam","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-navy","comp-agniveer-navy-ssr","ver-agniveer-navy-2026","Stage-I INET","SSR Online Examination","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-navy","comp-agniveer-navy-mr","ver-agniveer-navy-2026","Stage-I INET","MR Online Examination","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-airforce","comp-agniveer-airforce-sci","ver-agniveer-airforce-2026","Phase-I Online Test","Science Subjects Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-airforce","comp-agniveer-airforce-other","ver-agniveer-airforce-2026","Phase-I Online Test","Other than Science Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"agniveer-airforce","comp-agniveer-airforce-both","ver-agniveer-airforce-2026","Phase-I Online Test","Science and Other than Science Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"up-police-constable","comp-up-police-constable-written","ver-up-police-constable-2026","Written Exam","Constable OMR Written Paper","VERIFIED","DEEP_CONTENT_EXCELLENT",10667,10167,500,"en;hi","subj-gk;subj-hindi;subj-law;subj-math;subj-reasoning",4,4,2,10667
+"up-police-constable","comp-up-police-si-written","ver-up-police-constable-2026","Written Exam","Sub Inspector Online Written Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bihar-police-constable","comp-bihar-police-sipahi-written","ver-bihar-police-constable-2026","Written Exam","Sipahi Written OMR Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bihar-police-constable","comp-bihar-police-si-prelims","ver-bihar-police-constable-2026","Preliminary","SI Preliminary Written Test","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bihar-police-constable","comp-bihar-police-si-mains","ver-bihar-police-constable-2026","Mains","SI Mains Paper 1 & Paper 2","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"delhi-police","comp-delhi-police-constable-cbe","ver-delhi-police-2026","Computer Based Exam","Executive Constable CBE Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"delhi-police","comp-delhi-police-hc-cbe","ver-delhi-police-2026","Computer Based Exam","Head Constable CBE Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"haryana-police","comp-haryana-police-constable-kt","ver-haryana-police-2026","Knowledge Test","Knowledge Test OMR Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-police","comp-maharashtra-police-shipai","ver-maharashtra-police-2026","Written Exam","Police Shipai Written Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mp-police","comp-mp-police-constable-cbt","ver-mp-police-2026","Written Exam","Constable GD Online Test","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mp-police","comp-mp-police-si-written","ver-mp-police-2026","Written Exam","Sub Inspector Paper 1 & 2","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rajasthan-police","comp-rajasthan-police-constable-cbt","ver-rajasthan-police-2026","Written CBT","Constable Written Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wb-police","comp-wb-police-constable-prelims","ver-wb-police-2026","Preliminary Test","Preliminary Screening Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wb-police","comp-wb-police-si-prelims","ver-wb-police-2026","Preliminary Test","SI Preliminary Screening Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ctet-exam","comp-ctet-paper1-primary","ver-ctet-exam-2026","Single Shift","Paper-I (Classes I-V)","VERIFIED","CONTENT_IN_PROGRESS",55,55,0,"en;hi","subj-hindi;subj-math;subj-science;subj-social",0,0,0,55
+"ctet-exam","comp-ctet-paper2-math-sci","ver-ctet-exam-2026","Single Shift","Paper-II (Classes VI-VIII)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ctet-exam","comp-ctet-paper2-soc","ver-ctet-exam-2026","Single Shift","Paper-II (Classes VI-VIII)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bpsc-tre","comp-bpsc-tre-primary","ver-bpsc-tre-2026","Written Examination","Primary Integrated Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bpsc-tre","comp-bpsc-tre-middle","ver-bpsc-tre-2026","Written Examination","Middle School Integrated Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bpsc-tre","comp-bpsc-tre-secondary","ver-bpsc-tre-2026","Written Examination","Secondary Integrated Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"reet-rajasthan","comp-reet-level1","ver-reet-rajasthan-2026","Eligibility Exam","Level-1 (Classes 1-5) OMR Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"reet-rajasthan","comp-reet-level2","ver-reet-rajasthan-2026","Eligibility Exam","Level-2 (Classes 6-8) OMR Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ugc-net","comp-ugc-net-paper1","ver-ugc-net-2026","Single 3-Hr Shift","Paper-I Teaching & Research Aptitude","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ugc-net","comp-ugc-net-paper2","ver-ugc-net-2026","Single 3-Hr Shift","Paper-II Subject Domain","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ugc-net","comp-csir-net","ver-ugc-net-2026","Single 3-Hr Shift","Composite Paper Part A, B, C","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"uptet-supertet","comp-uptet-paper1","ver-uptet-supertet-2026","Eligibility Exam","Paper-I (Classes 1-5)","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"uptet-supertet","comp-uptet-paper2","ver-uptet-supertet-2026","Eligibility Exam","Paper-II (Classes 6-8)","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"uptet-supertet","comp-supertet","ver-uptet-supertet-2026","Recruitment Exam","Assistant Teacher Written Test","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-jee-main","comp-jee-main-paper1","ver-nta-jee-main-2026","Session-I / II","Paper-1 B.E./B.Tech CBT","VERIFIED","DEEP_CONTENT_EXCELLENT",2200,1467,733,"en;hi","subj-physics",0,0,0,2200
+"nta-jee-main","comp-jee-main-paper2a","ver-nta-jee-main-2026","Session-I / II","Paper-2A B.Arch","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-jee-main","comp-jee-main-paper2b","ver-nta-jee-main-2026","Session-I / II","Paper-2B B.Planning","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-jee-adv","comp-jee-adv-paper1","ver-nta-jee-adv-2026","Single Day Shift 1","Paper 1 (Morning 9-12)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-jee-adv","comp-jee-adv-paper2","ver-nta-jee-adv-2026","Single Day Shift 2","Paper 2 (Afternoon 2:30-5:30)","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-neet","comp-neet-ug-unified","ver-nta-neet-2026","Single Unified Exam","NEET UG Question Paper (Pen & Paper)","VERIFIED","DEEP_CONTENT_EXCELLENT",4402,2569,1833,"en;hi","subj-biology;subj-chemistry;subj-physics",0,0,2,4402
+"clat-law","comp-clat-ug","ver-clat-law-2026","Single Unified Exam","CLAT UG Common Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"clat-law","comp-clat-pg","ver-clat-law-2026","Single Unified Exam","CLAT PG Common Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-cuet-ug","comp-cuet-ug-languages","ver-nta-cuet-ug-2026","Shift Test","Section IA & IB Language Papers","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-cuet-ug","comp-cuet-ug-domain","ver-nta-cuet-ug-2026","Shift Test","Section II Domain Papers","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nta-cuet-ug","comp-cuet-ug-general","ver-nta-cuet-ug-2026","Shift Test","Section III General Test Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls10-math","ver-cbse-board-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","DEEP_CONTENT_EXCELLENT",14689,13480,1209,"en;hi","subj-math12;subj-sanskrit;subj-science",0,0,1,14689
+"cbse-board","comp-cbse-board-cls10-science","ver-cbse-board-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls10-social","ver-cbse-board-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","DEEP_CONTENT_EXCELLENT",10081,3414,6667,"en;hi","subj-social",0,0,0,10081
+"cbse-board","comp-cbse-board-cls10-english","ver-cbse-board-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls10-regionallang","ver-cbse-board-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls12-sci-physics","ver-cbse-board-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls12-sci-chemistry","ver-cbse-board-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls12-sci-math","ver-cbse-board-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls12-sci-biology","ver-cbse-board-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cbse-board","comp-cbse-board-cls12-com-accountancy","ver-cbse-board-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","OBJECTIVE_200_PLUS",600,400,200,"en;hi","subj-accountancy",0,0,0,600
+"cbse-board","comp-cbse-board-cls12-com-business","ver-cbse-board-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","OBJECTIVE_200_PLUS",600,200,400,"en;hi","subj-business",0,0,0,600
+"cbse-board","comp-cbse-board-cls12-com-economics","ver-cbse-board-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls10-math","ver-icse-cisce-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls10-science","ver-icse-cisce-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls10-social","ver-icse-cisce-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls10-english","ver-icse-cisce-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls10-regionallang","ver-icse-cisce-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-sci-physics","ver-icse-cisce-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-sci-chemistry","ver-icse-cisce-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-sci-math","ver-icse-cisce-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-sci-biology","ver-icse-cisce-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-com-accountancy","ver-icse-cisce-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-com-business","ver-icse-cisce-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"icse-cisce","comp-icse-cisce-cls12-com-economics","ver-icse-cisce-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls10-math","ver-upmsp-board-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls10-science","ver-upmsp-board-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls10-social","ver-upmsp-board-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls10-english","ver-upmsp-board-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls10-regionallang","ver-upmsp-board-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-sci-physics","ver-upmsp-board-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-sci-chemistry","ver-upmsp-board-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-sci-math","ver-upmsp-board-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-sci-biology","ver-upmsp-board-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-com-accountancy","ver-upmsp-board-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-com-business","ver-upmsp-board-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"upmsp-board","comp-upmsp-board-cls12-com-economics","ver-upmsp-board-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls10-math","ver-bseb-bihar-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls10-science","ver-bseb-bihar-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls10-social","ver-bseb-bihar-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls10-english","ver-bseb-bihar-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls10-regionallang","ver-bseb-bihar-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-sci-physics","ver-bseb-bihar-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-sci-chemistry","ver-bseb-bihar-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-sci-math","ver-bseb-bihar-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-sci-biology","ver-bseb-bihar-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-com-accountancy","ver-bseb-bihar-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-com-business","ver-bseb-bihar-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseb-bihar","comp-bseb-bihar-cls12-com-economics","ver-bseb-bihar-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls10-math","ver-pseb-punjab-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls10-science","ver-pseb-punjab-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls10-social","ver-pseb-punjab-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls10-english","ver-pseb-punjab-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls10-regionallang","ver-pseb-punjab-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-sci-physics","ver-pseb-punjab-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-sci-chemistry","ver-pseb-punjab-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-sci-math","ver-pseb-punjab-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-sci-biology","ver-pseb-punjab-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-com-accountancy","ver-pseb-punjab-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-com-business","ver-pseb-punjab-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"pseb-punjab","comp-pseb-punjab-cls12-com-economics","ver-pseb-punjab-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls10-math","ver-rbse-rajasthan-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls10-science","ver-rbse-rajasthan-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls10-social","ver-rbse-rajasthan-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls10-english","ver-rbse-rajasthan-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls10-regionallang","ver-rbse-rajasthan-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-sci-physics","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-sci-chemistry","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-sci-math","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-sci-biology","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-com-accountancy","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-com-business","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"rbse-rajasthan","comp-rbse-rajasthan-cls12-com-economics","ver-rbse-rajasthan-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls10-math","ver-mpbse-board-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls10-science","ver-mpbse-board-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls10-social","ver-mpbse-board-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls10-english","ver-mpbse-board-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls10-regionallang","ver-mpbse-board-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-sci-physics","ver-mpbse-board-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-sci-chemistry","ver-mpbse-board-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-sci-math","ver-mpbse-board-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-sci-biology","ver-mpbse-board-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-com-accountancy","ver-mpbse-board-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-com-business","ver-mpbse-board-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"mpbse-board","comp-mpbse-board-cls12-com-economics","ver-mpbse-board-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls10-math","ver-wbbse-wb-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls10-science","ver-wbbse-wb-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls10-social","ver-wbbse-wb-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls10-english","ver-wbbse-wb-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls10-regionallang","ver-wbbse-wb-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-sci-physics","ver-wbbse-wb-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-sci-chemistry","ver-wbbse-wb-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-sci-math","ver-wbbse-wb-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-sci-biology","ver-wbbse-wb-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-com-accountancy","ver-wbbse-wb-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-com-business","ver-wbbse-wb-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"wbbse-wb","comp-wbbse-wb-cls12-com-economics","ver-wbbse-wb-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls10-math","ver-tndge-tamilnadu-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","OBJECTIVE_200_PLUS",532,275,257,"en;ta","subj-tamil",0,0,25,532
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls10-science","ver-tndge-tamilnadu-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls10-social","ver-tndge-tamilnadu-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls10-english","ver-tndge-tamilnadu-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls10-regionallang","ver-tndge-tamilnadu-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-sci-physics","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-sci-chemistry","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-sci-math","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-sci-biology","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-com-accountancy","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-com-business","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tndge-tamilnadu","comp-tndge-tamilnadu-cls12-com-economics","ver-tndge-tamilnadu-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls10-math","ver-kseab-karnataka-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls10-science","ver-kseab-karnataka-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls10-social","ver-kseab-karnataka-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls10-english","ver-kseab-karnataka-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls10-regionallang","ver-kseab-karnataka-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-sci-physics","ver-kseab-karnataka-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-sci-chemistry","ver-kseab-karnataka-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-sci-math","ver-kseab-karnataka-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-sci-biology","ver-kseab-karnataka-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-com-accountancy","ver-kseab-karnataka-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-com-business","ver-kseab-karnataka-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"kseab-karnataka","comp-kseab-karnataka-cls12-com-economics","ver-kseab-karnataka-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls10-math","ver-gseb-gujarat-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls10-science","ver-gseb-gujarat-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls10-social","ver-gseb-gujarat-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls10-english","ver-gseb-gujarat-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls10-regionallang","ver-gseb-gujarat-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-sci-physics","ver-gseb-gujarat-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-sci-chemistry","ver-gseb-gujarat-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-sci-math","ver-gseb-gujarat-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-sci-biology","ver-gseb-gujarat-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-com-accountancy","ver-gseb-gujarat-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-com-business","ver-gseb-gujarat-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"gseb-gujarat","comp-gseb-gujarat-cls12-com-economics","ver-gseb-gujarat-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls10-math","ver-bseh-haryana-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls10-science","ver-bseh-haryana-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls10-social","ver-bseh-haryana-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls10-english","ver-bseh-haryana-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls10-regionallang","ver-bseh-haryana-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-sci-physics","ver-bseh-haryana-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-sci-chemistry","ver-bseh-haryana-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-sci-math","ver-bseh-haryana-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-sci-biology","ver-bseh-haryana-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-com-accountancy","ver-bseh-haryana-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-com-business","ver-bseh-haryana-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"bseh-haryana","comp-bseh-haryana-cls12-com-economics","ver-bseh-haryana-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls10-math","ver-jac-jharkhand-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls10-science","ver-jac-jharkhand-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls10-social","ver-jac-jharkhand-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls10-english","ver-jac-jharkhand-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls10-regionallang","ver-jac-jharkhand-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-sci-physics","ver-jac-jharkhand-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-sci-chemistry","ver-jac-jharkhand-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-sci-math","ver-jac-jharkhand-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-sci-biology","ver-jac-jharkhand-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-com-accountancy","ver-jac-jharkhand-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-com-business","ver-jac-jharkhand-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"jac-jharkhand","comp-jac-jharkhand-cls12-com-economics","ver-jac-jharkhand-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls10-math","ver-cgbse-chhattisgarh-2026","Class 10 Annual Exam","Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls10-science","ver-cgbse-chhattisgarh-2026","Class 10 Annual Exam","Science & Technology Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls10-social","ver-cgbse-chhattisgarh-2026","Class 10 Annual Exam","Social Science Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls10-english","ver-cgbse-chhattisgarh-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls10-regionallang","ver-cgbse-chhattisgarh-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-sci-physics","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Physics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-sci-chemistry","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Chemistry Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-sci-math","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-sci-biology","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-com-accountancy","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Accountancy Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-com-business","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Business Studies Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"cgbse-chhattisgarh","comp-cgbse-chhattisgarh-cls12-com-economics","ver-cgbse-chhattisgarh-2026","Class 12 Annual Exam","Economics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls10-math","ver-chse-bse-odisha-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls10-science","ver-chse-bse-odisha-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls10-social","ver-chse-bse-odisha-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls10-english","ver-chse-bse-odisha-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls10-regionallang","ver-chse-bse-odisha-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-sci-physics","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-sci-chemistry","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-sci-math","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-sci-biology","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-com-accountancy","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-com-business","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"chse-bse-odisha","comp-chse-bse-odisha-cls12-com-economics","ver-chse-bse-odisha-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls10-math","ver-ubse-uttarakhand-2026","Class 10 Annual Exam","Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls10-science","ver-ubse-uttarakhand-2026","Class 10 Annual Exam","Science & Technology Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls10-social","ver-ubse-uttarakhand-2026","Class 10 Annual Exam","Social Science Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls10-english","ver-ubse-uttarakhand-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls10-regionallang","ver-ubse-uttarakhand-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-sci-physics","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Physics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-sci-chemistry","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Chemistry Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-sci-math","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-sci-biology","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-com-accountancy","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Accountancy Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-com-business","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Business Studies Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"ubse-uttarakhand","comp-ubse-uttarakhand-cls12-com-economics","ver-ubse-uttarakhand-2026","Class 12 Annual Exam","Economics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls10-math","ver-seba-ahsec-assam-2026","Class 10 Annual Exam","Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls10-science","ver-seba-ahsec-assam-2026","Class 10 Annual Exam","Science & Technology Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls10-social","ver-seba-ahsec-assam-2026","Class 10 Annual Exam","Social Science Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls10-english","ver-seba-ahsec-assam-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls10-regionallang","ver-seba-ahsec-assam-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-sci-physics","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Physics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-sci-chemistry","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Chemistry Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-sci-math","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-sci-biology","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-com-accountancy","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Accountancy Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-com-business","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Business Studies Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"seba-ahsec-assam","comp-seba-ahsec-assam-cls12-com-economics","ver-seba-ahsec-assam-2026","Class 12 Annual Exam","Economics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls10-math","ver-tsbie-bieap-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","OBJECTIVE_200_PLUS",500,250,250,"en;te","subj-telugu",0,0,0,500
+"tsbie-bieap","comp-tsbie-bieap-cls10-science","ver-tsbie-bieap-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls10-social","ver-tsbie-bieap-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls10-english","ver-tsbie-bieap-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls10-regionallang","ver-tsbie-bieap-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-sci-physics","ver-tsbie-bieap-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-sci-chemistry","ver-tsbie-bieap-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-sci-math","ver-tsbie-bieap-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-sci-biology","ver-tsbie-bieap-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-com-accountancy","ver-tsbie-bieap-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-com-business","ver-tsbie-bieap-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"tsbie-bieap","comp-tsbie-bieap-cls12-com-economics","ver-tsbie-bieap-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls10-math","ver-nios-board-2026","Class 10 Annual Exam","Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls10-science","ver-nios-board-2026","Class 10 Annual Exam","Science & Technology Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls10-social","ver-nios-board-2026","Class 10 Annual Exam","Social Science Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls10-english","ver-nios-board-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls10-regionallang","ver-nios-board-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-sci-physics","ver-nios-board-2026","Class 12 Annual Exam","Physics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-sci-chemistry","ver-nios-board-2026","Class 12 Annual Exam","Chemistry Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-sci-math","ver-nios-board-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-sci-biology","ver-nios-board-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-com-accountancy","ver-nios-board-2026","Class 12 Annual Exam","Accountancy Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-com-business","ver-nios-board-2026","Class 12 Annual Exam","Business Studies Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"nios-board","comp-nios-board-cls12-com-economics","ver-nios-board-2026","Class 12 Annual Exam","Economics Theory Paper","PARTIALLY_VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls10-math","ver-maharashtra-board-2026","Class 10 Annual Exam","Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls10-science","ver-maharashtra-board-2026","Class 10 Annual Exam","Science & Technology Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls10-social","ver-maharashtra-board-2026","Class 10 Annual Exam","Social Science Theory Paper","VERIFIED","CONTENT_IN_PROGRESS",7,0,7,"en;mr","subj-social",0,0,0,7
+"maharashtra-board","comp-maharashtra-board-cls10-english","ver-maharashtra-board-2026","Class 10 Annual Exam","English Language & Literature Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls10-regionallang","ver-maharashtra-board-2026","Class 10 Annual Exam","Hindi / Regional First Language Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-sci-physics","ver-maharashtra-board-2026","Class 12 Annual Exam","Physics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-sci-chemistry","ver-maharashtra-board-2026","Class 12 Annual Exam","Chemistry Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-sci-math","ver-maharashtra-board-2026","Class 12 Annual Exam","Higher Mathematics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-sci-biology","ver-maharashtra-board-2026","Class 12 Annual Exam","Biology (Botany & Zoology) Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-com-accountancy","ver-maharashtra-board-2026","Class 12 Annual Exam","Accountancy Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-com-business","ver-maharashtra-board-2026","Class 12 Annual Exam","Business Studies Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0
+"maharashtra-board","comp-maharashtra-board-cls12-com-economics","ver-maharashtra-board-2026","Class 12 Annual Exam","Economics Theory Paper","VERIFIED","CONTENT_PENDING",0,0,0,"none","none",0,0,0,0

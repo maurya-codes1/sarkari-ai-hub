@@ -1,0 +1,30 @@
+blueprint_id,exam_id,version_id,name,total_questions,duration_minutes,total_marks,is_negative_marking,penalty_value,readiness_status,full_exam_eligible
+"bp-legacy-ssc-cgl","ssc-cgl","ver-ssc-cgl-2026","Legacy Simulation Blueprint (ssc-cgl)",80,60,100,1,"0.25 to 0.50 marks","FULL_EXAM_READY",1
+"bp-verified-ssc-cgl","ssc-cgl","ver-ssc-cgl-2026","SSC CGL Tier-1 Official Pattern (4 Sections)",100,60,200,1,"0.25 to 0.50 marks","READY_FOR_FULL_EXAM",1
+"bp-verified-upsc-cse-prelims","upsc-cse","ver-upsc-cse-2026","UPSC Civil Services Preliminary Examination GS Paper 1 Pattern",100,120,200,1,"0.25 to 0.50 marks","READY_FOR_FULL_EXAM",1
+"bp-legacy-board-accountancy","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (accountancy)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-biology","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (biology)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-business","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (business)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-chemistry","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (chemistry)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-economics","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (economics)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-english","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (english)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-geography","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (geography)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-hindi","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (hindi)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-history","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (history)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-math","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (math)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-physics","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (physics)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-polity","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (polity)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-science","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (science)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-social","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (social)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-board-sociology","bseb-bihar","ver-bseb-bihar-2026","Legacy Board Blueprint (sociology)",50,60,50,0,"None","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-nta-neet","nta-neet","ver-nta-neet-2026","Legacy Simulation Blueprint (nta-neet)",80,60,100,1,"0.25 to 0.50 marks","FULL_EXAM_BLOCKED",0
+"bp-legacy-rrb-alp","rrb-alp","ver-rrb-alp-2026","Legacy Simulation Blueprint (rrb-alp)",80,60,100,1,"0.25 to 0.50 marks","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-ssc-gd","ssc-gd","ver-ssc-gd-2026","Legacy Simulation Blueprint (ssc-gd)",80,60,100,1,"0.25 to 0.50 marks","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-legacy-up-police-constable","up-police-constable","ver-up-police-constable-2026","Legacy Simulation Blueprint (up-police-constable)",80,60,100,1,"0.25 to 0.50 marks","FULL_EXAM_UNAVAILABLE_PATTERN_PENDING",0
+"bp-verified-cbse-10-science","cbse-board","ver-cbse-board-2026","CBSE Class 10 Science Blueprint (Objective & Structured)",39,180,80,0,"None","FULL_EXAM_UNAVAILABLE_NO_TRUSTED_QUESTIONS",0
+"bp-verified-neet-ug","nta-neet","ver-nta-neet-2026","NEET UG Official Multi-Section Pattern (Section A & B Choice)",200,200,720,1,"0.25 to 0.50 marks","FULL_EXAM_UNAVAILABLE_SYLLABUS_NOT_VERIFIED",0
+"bp-verified-rrb-alp","rrb-alp","ver-rrb-alp-2026","RRB ALP CBT-1 Official Pattern (4 Sections)",75,60,75,1,"0.25 to 0.50 marks","FULL_EXAM_UNAVAILABLE_NO_TRUSTED_QUESTIONS",0
+"bp-verified-ssc-cgl-2025","ssc-cgl","ver-ssc-cgl-2025","SSC CGL 2024-2025 Tier-1 Historical Pattern",100,60,200,1,"0.25 to 0.50 marks","REVALIDATION_REQUIRED",0
+"bp-verified-ssc-gd","ssc-gd","ver-ssc-gd-2026","SSC GD Constable Official Pattern (4 Sections)",80,60,160,1,"0.25 to 0.50 marks","FULL_EXAM_UNAVAILABLE_NO_TRUSTED_QUESTIONS",0
+"bp-verified-tndge-tamilnadu","tndge-tamilnadu","ver-tndge-tamilnadu-2026","TNDGE SSLC Tamil Nadu Verified Pattern",100,150,100,0,"None","FULL_EXAM_UNAVAILABLE_QUESTION_BANK_INSUFFICIENT",0
+"bp-verified-tsbie-bieap","tsbie-bieap","ver-tsbie-bieap-2026","TSBIE / BIEAP Intermediate Board Verified Pattern",100,180,100,0,"None","FULL_EXAM_UNAVAILABLE_NO_TRUSTED_QUESTIONS",0

@@ -339,7 +339,7 @@ async function runAllTests() {
   assert(c2.warnings.some(w => w.includes('condoned with DGE condonation fee')), 'Case 2: TN DGE condonation rule');
 
   // Case 3: Board without dependency record returns NOT_APPLICABLE
-  const c3 = schoolBoardAcademicService.evaluateProgressionEligibility('gbshse-board', 'class-9', 'class-10', {});
+  const c3 = schoolBoardAcademicService.evaluateProgressionEligibility('unregistered-board', 'class-9', 'class-10', {});
   assert.strictEqual(c3.dependencyStatus, 'NOT_APPLICABLE', 'Case 3: Unregistered board returns NOT_APPLICABLE');
 
   // Case 4: Class 11 stream change allowed conditionally with board approval

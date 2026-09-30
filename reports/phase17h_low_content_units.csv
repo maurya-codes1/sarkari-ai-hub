@@ -1,0 +1,39 @@
+state,board,class,stream,subject,officialLanguage,questionCount,objectiveCount,subjectiveCount,bucket,status
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Annual Board Exam",general,"subj-science",en,39,20,19,UNDER_50,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Annual Board Exam",general,"subj-science",hi,39,20,19,UNDER_50,REQUIRES_GROWTH
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Annual",general,"subj-tamil",ta,25,25,0,UNDER_50,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","BOARD",general,"subj-science",en,20,20,0,UNDER_50,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","BOARD",general,"subj-science",hi,20,20,0,UNDER_50,REQUIRES_GROWTH
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social",te,150,120,30,100_TO_199,REQUIRES_GROWTH
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social",en,150,120,30,100_TO_199,REQUIRES_GROWTH
+"Telangana","Directorate of Government Examinations Telangana","Class 10",general,"subj-social",te,150,120,30,100_TO_199,REQUIRES_GROWTH
+"Telangana","Directorate of Government Examinations Telangana","Class 10",general,"subj-social",en,150,120,30,100_TO_199,REQUIRES_GROWTH
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu",hi,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu",hi,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu",ur,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10",general,"subj-english",ur,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10",general,"subj-science",ur,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10",general,"subj-math",ur,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi",mr,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science",mr,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math",mr,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english",mr,20,0,20,UNDER_50,REQUIRES_GROWTH
+"Manipur","Board of Secondary Education Manipur","Class 10",general,"subj-social",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Manipur","Board of Secondary Education Manipur","Class 10",general,"subj-english",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Meghalaya","Meghalaya Board of School Education","Class 10",general,"subj-social",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Meghalaya","Meghalaya Board of School Education","Class 10",general,"subj-english",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Mizoram","Mizoram Board of School Education","Class 10",general,"subj-social",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Mizoram","Mizoram Board of School Education","Class 10",general,"subj-english",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Nagaland","Nagaland Board of School Education","Class 10",general,"subj-social",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Nagaland","Nagaland Board of School Education","Class 10",general,"subj-english",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Tripura","Tripura Board of Secondary Education","Class 10",general,"subj-math",bn,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Tripura","Tripura Board of Secondary Education","Class 10",general,"subj-math",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Tripura","Tripura Board of Secondary Education","Class 10",general,"subj-social",bn,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Tripura","Tripura Board of Secondary Education","Class 10",general,"subj-social",en,100,80,20,100_TO_199,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science",hi,60,0,60,50_TO_99,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math",hi,60,0,60,50_TO_99,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics",hi,40,0,40,UNDER_50,REQUIRES_GROWTH
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry",hi,40,0,40,UNDER_50,REQUIRES_GROWTH

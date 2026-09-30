@@ -1,0 +1,249 @@
+board,class,stream,subject,language,currentSubjective,targetSubjective,shortAnswerCount,longAnswerCount,caseStudyCount,modelAnswerCount,markingGuidanceCount,depthStatus
+"CBSE Board (Class 10th & 12th)","Annual Board Exam",general,"subj-science",en,19,50,13,3,3,0,0,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Annual Board Exam",general,"subj-science",hi,19,50,13,3,3,0,0,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-science",hi,7,50,7,0,0,7,7,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-science",en,7,50,7,0,0,7,7,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-social",en,6667,50,3334,0,3333,6667,6667,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-social",hi,6667,50,3334,0,3333,6667,6667,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-tamil",en,257,50,257,0,0,257,257,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-tamil",ta,257,50,257,0,0,257,257,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social",en,57,50,24,25,8,57,57,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social",mr,57,50,24,25,8,57,57,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-math12",en,733,50,0,733,0,733,733,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-math12",hi,733,50,0,733,0,733,733,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-sanskrit",hi,450,50,450,0,0,450,450,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-sanskrit",en,450,50,450,0,0,450,450,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-accountancy",en,200,50,200,0,0,200,200,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-accountancy",hi,200,50,200,0,0,200,200,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-business",en,400,50,200,0,200,400,400,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-business",hi,400,50,200,0,200,400,400,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-telugu",te,250,50,250,0,0,250,250,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-telugu",en,250,50,250,0,0,250,250,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi",pa,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science",pa,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math",pa,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social",pa,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali",bn,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science",bn,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math",bn,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social",bn,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati",gu,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science",gu,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math",gu,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social",gu,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada",kn,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science",kn,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math",kn,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social",kn,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam",ml,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science",ml,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math",ml,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social",ml,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia",or,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science",or,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math",or,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social",or,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese",as,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science",as,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math",as,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social",as,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi",mr,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science",mr,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math",mr,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science",ta,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math",ta,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math",en,70,50,23,35,12,70,70,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social",ta,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12",te,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics",te,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry",te,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics",te,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu",te,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science",te,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math",te,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social",te,30,50,10,15,5,30,30,TOKEN_SHORTAGE
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social",en,30,50,10,15,5,30,30,TOKEN_SHORTAGE
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu",te,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science",te,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math",te,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social",te,30,50,10,15,5,30,30,TOKEN_SHORTAGE
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social",en,30,50,10,15,5,30,30,TOKEN_SHORTAGE
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu",hi,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu",hi,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social",hi,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social",en,50,50,17,25,8,50,50,DEPTH_SATISFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu",ur,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english",ur,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science",ur,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math",ur,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi",mr,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science",mr,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math",mr,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english",mr,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Board of Secondary Education Manipur","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Manipur","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Board of Secondary Education Manipur","Class 10",general,"subj-social",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Board of Secondary Education Manipur","Class 10",general,"subj-english",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Meghalaya Board of School Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Meghalaya Board of School Education","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Meghalaya Board of School Education","Class 10",general,"subj-social",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Meghalaya Board of School Education","Class 10",general,"subj-english",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Mizoram Board of School Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Mizoram Board of School Education","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Mizoram Board of School Education","Class 10",general,"subj-social",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Mizoram Board of School Education","Class 10",general,"subj-english",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Nagaland Board of School Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Nagaland Board of School Education","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Nagaland Board of School Education","Class 10",general,"subj-social",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Nagaland Board of School Education","Class 10",general,"subj-english",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali",bn,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-science",bn,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-math",bn,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-math",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-social",bn,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"Tripura Board of Secondary Education","Class 10",general,"subj-social",en,20,50,7,10,3,20,20,TOKEN_SHORTAGE
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math",en,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math",hi,60,50,20,30,10,60,60,DEPTH_SATISFIED
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry",en,40,50,13,20,7,40,40,TOKEN_SHORTAGE
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry",hi,40,50,13,20,7,40,40,TOKEN_SHORTAGE

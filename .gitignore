@@ -2,8 +2,12 @@
 node_modules/
 package-lock.json
 
-# Backups (Large historical DB dumps)
+# Backups and raw master DB (deployed via chunked gzip parts)
 backend/backups/
+backend/db/sarkari_core.db
+backend/db/sarkari_core_*.db
+!backend/db/sarkari_core.db.gz.*
+!backend/db/sarkari_core.sha256
 
 # Logs & Binaries
 *.log

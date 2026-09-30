@@ -379,14 +379,16 @@
       q.options.forEach((opt, idx) => {
         const btn = document.createElement('button');
         btn.type = 'button';
-        btn.className = 'opt-btn w-full p-4 rounded-2xl border border-slate-800 bg-slate-950 text-left text-sm text-slate-300 hover:border-slate-700 transition flex items-center space-x-3';
-        btn.innerHTML = `<span class="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-xs text-slate-400">${String.fromCharCode(65 + idx)}</span> <span>${opt}</span>`;
+        btn.className = 'opt-btn w-full p-4 rounded-2xl border border-slate-800 bg-slate-950 text-left text-sm text-slate-300 hover:border-slate-700 transition flex items-center space-x-3 cursor-pointer';
+        btn.innerHTML = `<span class="w-7 h-7 rounded-lg bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-xs text-slate-400 shrink-0">${String.fromCharCode(65 + idx)}</span> <span class="flex-1">${opt}</span>`;
         btn.onclick = () => {
+          if (btn.disabled) return;
           document.querySelectorAll('.opt-btn').forEach(b => {
             b.classList.remove('border-saffron-500', 'bg-saffron-500/10', 'text-white');
           });
           btn.classList.add('border-saffron-500', 'bg-saffron-500/10', 'text-white');
           selectedOptionValue = opt;
+          selectedOptionIndex = idx;
         };
         optsContainer.appendChild(btn);
       });
@@ -408,16 +410,52 @@
       }, 1000);
     }
 
-    // Submit Answer
+    // Submit Answer & Immediate Pedagogical Feedback
     document.getElementById('submitAnswerBtn').addEventListener('click', async () => {
-      if (!selectedOptionValue) {
+      if (!selectedOptionValue && selectedOptionIndex === undefined) {
         alert('Please select an option first, or click Skip.');
         return;
       }
 
       const q = currentQuestions[currentIndex];
       const examId = document.getElementById('examSelect').value;
-      const isCorrect = true; // In practice client, evaluates and sends attempt to server
+
+      // Determine correct index from q.correctAnswer
+      let correctIdx = 0;
+      if (q.correctAnswer !== undefined && q.correctAnswer !== null) {
+        if (typeof q.correctAnswer === 'number') {
+          correctIdx = q.correctAnswer;
+        } else if (typeof q.correctAnswer === 'string') {
+          const ca = q.correctAnswer.trim().toUpperCase();
+          if (ca.length === 1 && ca >= 'A' && ca <= 'D') {
+            correctIdx = ca.charCodeAt(0) - 65;
+          } else if (!isNaN(parseInt(ca, 10))) {
+            correctIdx = parseInt(ca, 10);
+          } else {
+            // Find option matching string
+            const foundIdx = q.options.findIndex(o => o.toLowerCase().includes(ca.toLowerCase()));
+            if (foundIdx !== -1) correctIdx = foundIdx;
+          }
+        }
+      }
+
+      const isCorrect = (selectedOptionIndex === correctIdx);
+
+      // Lock buttons immediately
+      const optButtons = document.querySelectorAll('.opt-btn');
+      optButtons.forEach((b, bIdx) => {
+        b.disabled = true;
+        b.style.pointerEvents = 'none';
+        if (bIdx === correctIdx) {
+          b.className = 'opt-btn w-full p-4 rounded-2xl border-2 border-emerald-500 bg-emerald-950/70 text-left text-sm text-emerald-200 transition flex items-center space-x-3 font-bold shadow-md';
+        } else if (bIdx === selectedOptionIndex && !isCorrect) {
+          b.className = 'opt-btn w-full p-4 rounded-2xl border-2 border-rose-500 bg-rose-950/70 text-left text-sm text-rose-200 transition flex items-center space-x-3 font-bold shadow-md';
+        } else {
+          b.className = 'opt-btn w-full p-4 rounded-2xl border border-slate-900 bg-slate-950 text-left text-sm text-slate-500 opacity-60 flex items-center space-x-3';
+        }
+      });
+
+      if (isCorrect) sessionScore++;
 
       try {
         await fetch('/api/v3/adaptive/attempt', {
@@ -432,23 +470,39 @@
             topicId: q.topicId,
             practiceMode: selectedMode,
             selectedOption: selectedOptionValue,
-            isCorrect: 1,
+            isCorrect: isCorrect ? 1 : 0,
             isSkipped: 0,
             timeSpentSeconds: secondsSpentInQuestion
           })
         });
 
-        sessionScore++;
+        const correctLetter = String.fromCharCode(65 + correctIdx);
         const fb = document.getElementById('feedbackBox');
-        fb.className = 'p-4 rounded-2xl border text-sm transition bg-emerald-500/10 border-emerald-500/40 text-emerald-300';
-        fb.innerHTML = `<strong>✅ Correct!</strong> Attempt recorded in your learning profile. Accuracy signal updated for <em>${q.topicId || 'this topic'}</em>.`;
+        if (isCorrect) {
+          fb.className = 'p-5 rounded-2xl border text-sm transition bg-emerald-500/10 border-emerald-500/40 text-emerald-300 space-y-2';
+          fb.innerHTML = `
+            <div class="font-black text-base flex items-center space-x-2 text-emerald-400">
+              <span>✅ Correct Answer! (+1 Mark)</span>
+            </div>
+            <div class="text-xs text-slate-300 leading-relaxed font-normal">${q.explanation || 'Verified canonical answer.'}</div>
+          `;
+        } else {
+          fb.className = 'p-5 rounded-2xl border text-sm transition bg-rose-500/10 border-rose-500/40 text-rose-300 space-y-2';
+          fb.innerHTML = `
+            <div class="font-black text-base flex items-center space-x-2 text-rose-400">
+              <span>❌ Incorrect Response (0 Marks)</span>
+            </div>
+            <div class="text-xs font-bold text-amber-300">Correct Option: [${correctLetter}] ${q.options[correctIdx] || ''}</div>
+            <div class="text-xs text-slate-300 leading-relaxed font-normal mt-1">${q.explanation || 'Verified canonical answer.'}</div>
+          `;
+        }
         fb.classList.remove('hidden');
 
         document.getElementById('submitAnswerBtn').classList.add('hidden');
         document.getElementById('nextQuestionBtn').classList.remove('hidden');
         document.getElementById('skipBtn').disabled = true;
       } catch (e) {
-        alert('Failed to record attempt: ' + e.message);
+        console.warn('Attempt record notice:', e.message);
       }
     });
 

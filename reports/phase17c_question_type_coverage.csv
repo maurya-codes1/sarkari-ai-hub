@@ -1,0 +1,7 @@
+"question_type_id","question_count","percentage_of_corpus","format_category"
+"assertion_reason","5750","5.79%","OBJECTIVE_STRUCTURED"
+"case_study","4036","4.06%","SUBJECTIVE_DESCRIPTIVE"
+"long_answer","1917","1.93%","SUBJECTIVE_DESCRIPTIVE"
+"numerical","8652","8.71%","OBJECTIVE_STRUCTURED"
+"short_answer","16701","16.81%","SUBJECTIVE_DESCRIPTIVE"
+"single_mcq","62314","62.71%","OBJECTIVE_STRUCTURED"

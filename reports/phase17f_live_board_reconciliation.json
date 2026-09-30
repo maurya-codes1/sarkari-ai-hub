@@ -1,0 +1,36 @@
+{
+  "auditTimestamp": "2026-09-29T12:56:16.310Z",
+  "phase": "PHASE_17F",
+  "databaseBoardCount": 31,
+  "activeUIBoardCount": 20,
+  "verifiedOfficialBoardCount": 31,
+  "contentBearingBoardCount": 4,
+  "zeroContentBoardCount": 27,
+  "totalBoardQuestionsInCorpus": 27009,
+  "totalNonBoardQuestionsInCorpus": 72361,
+  "totalCorpusQuestions": 99370,
+  "boardDiscrepancyReconciliation": {
+    "legacy20Boards": "Phase 10-12 foundation set (Central CBSE/ICSE/NIOS + 17 primary state boards) active in UI frontend (public/js/exams-data.js) and 240 components registry.",
+    "expanded31Boards": "Phase 13/14 nationwide expansion added 11 state/UT boards (HPBOSE, JKBOSE, Kerala DGE, Goa GBSHSE, Manipur BSEM, Meghalaya MBOSE, Mizoram MBSE, Nagaland NBSE, Tripura TBSE, BSEAP, BSETG) to SQLite boards table for complete constitutional State/UT coverage.",
+    "contentBearingBoards": {
+      "cbse-board": 25970,
+      "tndge-tamilnadu": 532,
+      "tsbie-bieap": 500,
+      "maharashtra-board": 7
+    },
+    "zeroContentBoardsCount": 27
+  },
+  "regionalLanguageAudit": {
+    "english": 99345,
+    "hindi": 98331,
+    "tamil": 532,
+    "telugu": 500,
+    "marathi": 7,
+    "monolingualTamilPyq": 25,
+    "architectureOnlyLanguagesCount": 17
+  },
+  "readinessTarget": {
+    "minimumObjectivePerUnit": 200,
+    "minimumSubjectivePerUnit": 50
+  }
+}

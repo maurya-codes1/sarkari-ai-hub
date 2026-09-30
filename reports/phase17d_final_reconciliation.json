@@ -1,0 +1,42 @@
+{
+  "reconciliationTimestamp": "2026-09-29T09:36:21.659Z",
+  "phase": "PHASE_17D",
+  "preAuditCorpus": 99370,
+  "postAuditCorpus": 99370,
+  "netAdded": 0,
+  "quarantined": 0,
+  "repaired": 90,
+  "breakdown": {
+    "totalQuestions": 99370,
+    "totalVersions": 99370,
+    "objective": 76716,
+    "subjective": 22654,
+    "modelAnswers": 22654,
+    "keyPoints": 22654,
+    "markingGuidance": 22654,
+    "officialPyq": 351,
+    "officialSample": 59,
+    "humanCurated": 98960,
+    "fullExamEligible": 250,
+    "practiceEligible": 99370
+  },
+  "languageResolution": {
+    "english": 99345,
+    "hindi": 98331,
+    "tamil": 532,
+    "telugu": 500,
+    "marathi": 7,
+    "bilingual_en_hi": 98331,
+    "regional_monolingual": 25,
+    "reconciliationSum": 99370
+  },
+  "componentAudit": {
+    "totalRegistryComponents": 324,
+    "activeContentBearingComponents": 18,
+    "explanation": "324 components represent the full nationwide hierarchy across central, state boards, and recruitment authorities. 153 was historically the verified official PYQ count from Phase 11. Currently 86 components have direct version/exam-tied practice content, with the remaining components strictly preserved for future expansion."
+  },
+  "databaseIntegrity": {
+    "integrityCheck": "ok",
+    "foreignKeyCheckViolations": 0
+  }
+}

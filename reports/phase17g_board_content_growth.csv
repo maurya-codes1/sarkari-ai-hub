@@ -1,0 +1,32 @@
+boardId,boardName,prePhase17gCount,postPhase17gCount,netGrowth,objectiveCount,subjectiveCount,contentBearingStatus,readiness
+bseap-board,"Board of Secondary Education Andhra Pradesh",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+bsem-board,"Board of Secondary Education Manipur",0,600,600,480,120,CONTENT_BEARING,PRACTICE_READY
+bsetg-board,"Directorate of Government Examinations Telangana",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+cbse-board,"CBSE Board (Class 10th & 12th)",25970,26970,1000,18294,8676,CONTENT_BEARING,PRACTICE_READY
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",0,700,700,560,140,CONTENT_BEARING,PRACTICE_READY
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+hpbose-board,"Himachal Pradesh Board of School Education",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",0,1000,1000,800,200,CONTENT_BEARING,PRACTICE_READY
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+jkbose-board,"Jammu & Kashmir Board of School Education",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",7,1207,1200,960,247,CONTENT_BEARING,PRACTICE_READY
+mbose-board,"Meghalaya Board of School Education",0,600,600,480,120,CONTENT_BEARING,PRACTICE_READY
+mbse-board,"Mizoram Board of School Education",0,600,600,480,120,CONTENT_BEARING,PRACTICE_READY
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",0,1000,1000,800,200,CONTENT_BEARING,PRACTICE_READY
+nbse-board,"Nagaland Board of School Education",0,600,600,480,120,CONTENT_BEARING,PRACTICE_READY
+nios-board,"NIOS Board (National Institute of Open Schooling)",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",0,1000,1000,800,200,CONTENT_BEARING,PRACTICE_READY
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+tbse-board,"Tripura Board of Secondary Education",0,600,600,480,120,CONTENT_BEARING,PRACTICE_READY
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",532,1532,1000,1075,457,CONTENT_BEARING,PRACTICE_READY
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",500,1500,1000,1050,450,CONTENT_BEARING,PRACTICE_READY
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",0,800,800,640,160,CONTENT_BEARING,PRACTICE_READY
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",0,1200,1200,960,240,CONTENT_BEARING,PRACTICE_READY

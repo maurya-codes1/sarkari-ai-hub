@@ -1,0 +1,214 @@
+board,class,stream,subject,language,totalCount,objectiveCount,subjectiveCount,depthTier,status
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-science",hi,11530,11523,7,1000_PLUS,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-science",en,11530,11523,7,1000_PLUS,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-social",en,10081,3414,6667,1000_PLUS,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-social",hi,10081,3414,6667,1000_PLUS,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-tamil",en,507,250,257,500_999,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-tamil",ta,507,250,257,500_999,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social",en,257,200,57,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social",mr,257,200,57,200_499,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-math12",en,2200,1467,733,1000_PLUS,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-math12",hi,2200,1467,733,1000_PLUS,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-sanskrit",hi,900,450,450,500_999,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 10",general,"subj-sanskrit",en,900,450,450,500_999,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-accountancy",en,600,400,200,500_999,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-accountancy",hi,600,400,200,500_999,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-business",en,600,200,400,500_999,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 12",Specialized,"subj-business",hi,600,200,400,500_999,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-telugu",te,500,250,250,500_999,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-telugu",en,500,250,250,500_999,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi",pa,350,280,70,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi",en,350,280,70,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science",pa,300,240,60,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math",pa,300,240,60,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social",pa,250,200,50,200_499,DEPTH_VERIFIED
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali",bn,350,280,70,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali",en,350,280,70,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science",bn,300,240,60,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math",bn,300,240,60,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social",bn,250,200,50,200_499,DEPTH_VERIFIED
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati",gu,350,280,70,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati",en,350,280,70,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science",gu,300,240,60,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math",gu,300,240,60,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social",gu,250,200,50,200_499,DEPTH_VERIFIED
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada",kn,350,280,70,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada",en,350,280,70,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science",kn,300,240,60,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math",kn,300,240,60,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social",kn,250,200,50,200_499,DEPTH_VERIFIED
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam",ml,350,280,70,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam",en,350,280,70,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science",ml,300,240,60,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math",ml,300,240,60,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social",ml,250,200,50,200_499,DEPTH_VERIFIED
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia",or,350,280,70,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia",en,350,280,70,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science",or,300,240,60,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math",or,300,240,60,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social",or,250,200,50,200_499,DEPTH_VERIFIED
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese",as,350,280,70,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese",en,350,280,70,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science",as,300,240,60,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math",as,300,240,60,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social",as,250,200,50,200_499,DEPTH_VERIFIED
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi",mr,350,280,70,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi",en,350,280,70,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science",mr,300,240,60,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math",mr,300,240,60,200_499,DEPTH_VERIFIED
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science",ta,350,280,70,200_499,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science",en,350,280,70,200_499,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math",ta,350,280,70,200_499,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math",en,350,280,70,200_499,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social",ta,300,240,60,200_499,DEPTH_VERIFIED
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social",en,300,240,60,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12",te,300,240,60,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12",en,300,240,60,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics",te,250,200,50,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics",en,250,200,50,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry",te,250,200,50,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry",en,250,200,50,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics",te,200,160,40,200_499,DEPTH_VERIFIED
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics",en,200,160,40,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu",te,250,200,50,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu",en,250,200,50,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science",te,200,160,40,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math",te,200,160,40,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu",te,250,200,50,200_499,DEPTH_VERIFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu",en,250,200,50,200_499,DEPTH_VERIFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science",te,200,160,40,200_499,DEPTH_VERIFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math",te,200,160,40,200_499,DEPTH_VERIFIED
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",hi,300,240,60,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",en,300,240,60,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science",hi,300,240,60,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math",hi,300,240,60,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi",hi,300,240,60,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi",en,300,240,60,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science",hi,300,240,60,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math",hi,300,240,60,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi",hi,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi",en,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science",hi,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science",en,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math",hi,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math",en,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social",hi,250,200,50,200_499,DEPTH_VERIFIED
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi",hi,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi",en,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science",hi,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science",en,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math",hi,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math",en,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social",hi,250,200,50,200_499,DEPTH_VERIFIED
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social",en,250,200,50,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi",en,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi",en,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi",en,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi",en,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi",en,200,160,40,200_499,DEPTH_VERIFIED
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Manipur","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Board of Secondary Education Manipur","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Meghalaya Board of School Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Meghalaya Board of School Education","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Mizoram Board of School Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Mizoram Board of School Education","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Nagaland Board of School Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"Nagaland Board of School Education","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali",bn,200,160,40,200_499,DEPTH_VERIFIED
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali",en,200,160,40,200_499,DEPTH_VERIFIED
+"Tripura Board of Secondary Education","Class 10",general,"subj-science",bn,200,160,40,200_499,DEPTH_VERIFIED
+"Tripura Board of Secondary Education","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english",en,200,160,40,200_499,DEPTH_VERIFIED
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi",hi,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi",en,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science",hi,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science",en,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math",hi,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math",en,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social",hi,200,160,40,200_499,DEPTH_VERIFIED
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social",en,200,160,40,200_499,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science",en,300,240,60,200_499,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math",en,300,240,60,200_499,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics",en,200,160,40,200_499,DEPTH_VERIFIED
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry",en,200,160,40,200_499,DEPTH_VERIFIED

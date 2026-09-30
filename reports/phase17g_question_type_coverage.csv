@@ -1,0 +1,7 @@
+questionTypeId,category,boardCount,competitiveCount,totalCorpusCount
+assertion_reason,Objective,9561,0,9561
+case_study,Subjective,4509,500,5009
+long_answer,Subjective,3626,1181,4807
+numerical,Objective,934,7718,8652
+short_answer,Subjective,6385,12233,18618
+single_mcq,Objective,30394,50357,81623

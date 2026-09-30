@@ -1,0 +1,252 @@
+boardId,boardName,stage,subjectId,subjectName,language,count
+cbse-board,"CBSE Board (Class 10th & 12th)",Annual Board Exam,subj-science,"General Science",en,39
+cbse-board,"CBSE Board (Class 10th & 12th)",Annual Board Exam,subj-science,"General Science",hi,39
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Annual,subj-tamil,"பொதுத் தமிழ் (General Tamil)",ta,25
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-science,"General Science",hi,11530
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-science,"General Science",en,11530
+cbse-board,"CBSE Board (Class 10th & 12th)",BOARD,subj-science,"General Science",en,20
+cbse-board,"CBSE Board (Class 10th & 12th)",BOARD,subj-science,"General Science",hi,20
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-social,"Social Science & Studies",en,10081
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-social,"Social Science & Studies",hi,10081
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-tamil,"பொதுத் தமிழ் (General Tamil)",en,507
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-tamil,"பொதுத் தமிழ் (General Tamil)",ta,507
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-social,"Social Science & Studies",en,257
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-social,"Social Science & Studies",mr,257
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-math12,"Higher Mathematics (Class 12)",en,2200
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-math12,"Higher Mathematics (Class 12)",hi,2200
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-sanskrit,"संस्कृत (Sanskrit)",hi,900
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-sanskrit,"संस्कृत (Sanskrit)",en,900
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-accountancy,"Accountancy",en,600
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-accountancy,"Accountancy",hi,600
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-business,"Business Studies",en,600
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-business,"Business Studies",hi,600
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",te,500
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",en,500
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-punjabi,"ਪੰਜਾਬੀ (General Punjabi)",pa,350
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-punjabi,"ਪੰਜਾਬੀ (General Punjabi)",en,350
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-science,"General Science",pa,300
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-science,"General Science",en,300
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",pa,300
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-social,"Social Science & Studies",pa,250
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-social,"Social Science & Studies",en,250
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-bengali,"বাংলা (General Bengali)",bn,350
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-bengali,"বাংলা (General Bengali)",en,350
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-science,"General Science",bn,300
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-science,"General Science",en,300
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-math,"Mathematics & Elementary Math",bn,300
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-social,"Social Science & Studies",bn,250
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-social,"Social Science & Studies",en,250
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-gujarati,"ગુજરાતી (General Gujarati)",gu,350
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-gujarati,"ગુજરાતી (General Gujarati)",en,350
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-science,"General Science",gu,300
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-science,"General Science",en,300
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-math,"Mathematics & Elementary Math",gu,300
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-social,"Social Science & Studies",gu,250
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-social,"Social Science & Studies",en,250
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-kannada,"ಕನ್ನಡ (General Kannada)",kn,350
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-kannada,"ಕನ್ನಡ (General Kannada)",en,350
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-science,"General Science",kn,300
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-science,"General Science",en,300
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-math,"Mathematics & Elementary Math",kn,300
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-social,"Social Science & Studies",kn,250
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-social,"Social Science & Studies",en,250
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-malayalam,"മലയാളം (General Malayalam)",ml,350
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-malayalam,"മലയാളം (General Malayalam)",en,350
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-science,"General Science",ml,300
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-science,"General Science",en,300
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-math,"Mathematics & Elementary Math",ml,300
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-social,"Social Science & Studies",ml,250
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-social,"Social Science & Studies",en,250
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-odia,"ଓଡ଼ିଆ (General Odia)",or,350
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-odia,"ଓଡ଼ିଆ (General Odia)",en,350
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-science,"General Science",or,300
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-science,"General Science",en,300
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-math,"Mathematics & Elementary Math",or,300
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-social,"Social Science & Studies",or,250
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-social,"Social Science & Studies",en,250
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-assamese,"অসমীয়া (General Assamese)",as,350
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-assamese,"অসমীয়া (General Assamese)",en,350
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-science,"General Science",as,300
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-science,"General Science",en,300
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-math,"Mathematics & Elementary Math",as,300
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-social,"Social Science & Studies",as,250
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-social,"Social Science & Studies",en,250
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-marathi,"मराठी (General Marathi)",mr,350
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-marathi,"मराठी (General Marathi)",en,350
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-science,"General Science",mr,300
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-science,"General Science",en,300
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-math,"Mathematics & Elementary Math",mr,300
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-science,"General Science",ta,350
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-science,"General Science",en,350
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-math,"Mathematics & Elementary Math",ta,350
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-math,"Mathematics & Elementary Math",en,350
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-social,"Social Science & Studies",ta,300
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-social,"Social Science & Studies",en,300
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-math12,"Higher Mathematics (Class 12)",te,300
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-math12,"Higher Mathematics (Class 12)",en,300
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-physics,"Physics (Class 11-12)",te,250
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-physics,"Physics (Class 11-12)",en,250
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-chemistry,"Chemistry (Class 11-12)",te,250
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-chemistry,"Chemistry (Class 11-12)",en,250
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-economics,"Economics",te,200
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-economics,"Economics",en,200
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",te,250
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",en,250
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-science,"General Science",te,200
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-science,"General Science",en,200
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-math,"Mathematics & Elementary Math",te,200
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-social,"Social Science & Studies",te,150
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-social,"Social Science & Studies",en,150
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",te,250
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",en,250
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-science,"General Science",te,200
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-science,"General Science",en,200
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-math,"Mathematics & Elementary Math",te,200
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-social,"Social Science & Studies",te,150
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-social,"Social Science & Studies",en,150
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,300
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,300
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-science,"General Science",hi,300
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-science,"General Science",en,300
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-math,"Mathematics & Elementary Math",hi,300
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-social,"Social Science & Studies",hi,200
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-social,"Social Science & Studies",en,200
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-urdu,"اردو (General Urdu)",hi,100
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-urdu,"اردو (General Urdu)",en,100
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,300
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,300
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-science,"General Science",hi,300
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-science,"General Science",en,300
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-math,"Mathematics & Elementary Math",hi,300
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-social,"Social Science & Studies",hi,200
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-social,"Social Science & Studies",en,200
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-urdu,"اردو (General Urdu)",hi,100
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-urdu,"اردو (General Urdu)",en,100
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-science,"General Science",hi,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-science,"General Science",en,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-math,"Mathematics & Elementary Math",hi,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-math,"Mathematics & Elementary Math",en,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-social,"Social Science & Studies",hi,250
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-social,"Social Science & Studies",en,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-science,"General Science",hi,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-science,"General Science",en,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-math,"Mathematics & Elementary Math",hi,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-math,"Mathematics & Elementary Math",en,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-social,"Social Science & Studies",hi,250
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-social,"Social Science & Studies",en,250
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-science,"General Science",hi,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-science,"General Science",en,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",hi,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-social,"Social Science & Studies",hi,200
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-social,"Social Science & Studies",en,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-science,"General Science",hi,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-science,"General Science",en,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-math,"Mathematics & Elementary Math",hi,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-social,"Social Science & Studies",hi,200
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-social,"Social Science & Studies",en,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-science,"General Science",hi,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-science,"General Science",en,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",hi,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-social,"Social Science & Studies",hi,200
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-social,"Social Science & Studies",en,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-science,"General Science",hi,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-science,"General Science",en,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",hi,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-social,"Social Science & Studies",hi,200
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-social,"Social Science & Studies",en,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-science,"General Science",hi,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-science,"General Science",en,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",hi,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-social,"Social Science & Studies",hi,200
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-social,"Social Science & Studies",en,200
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-urdu,"اردو (General Urdu)",en,200
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-urdu,"اردو (General Urdu)",ur,40
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-english,"General English",en,200
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-english,"General English",ur,40
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-science,"General Science",en,200
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-science,"General Science",ur,40
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",ur,40
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-marathi,"मराठी (General Marathi)",en,200
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-marathi,"मराठी (General Marathi)",mr,40
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-science,"General Science",en,200
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-science,"General Science",mr,40
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-math,"Mathematics & Elementary Math",mr,40
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-english,"General English",en,100
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-english,"General English",mr,20
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-science,"General Science",en,200
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-social,"Social Science & Studies",en,100
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-english,"General English",en,100
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-science,"General Science",en,200
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-social,"Social Science & Studies",en,100
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-english,"General English",en,100
+mbse-board,"Mizoram Board of School Education",Class 10,subj-science,"General Science",en,200
+mbse-board,"Mizoram Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+mbse-board,"Mizoram Board of School Education",Class 10,subj-social,"Social Science & Studies",en,100
+mbse-board,"Mizoram Board of School Education",Class 10,subj-english,"General English",en,100
+nbse-board,"Nagaland Board of School Education",Class 10,subj-science,"General Science",en,200
+nbse-board,"Nagaland Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+nbse-board,"Nagaland Board of School Education",Class 10,subj-social,"Social Science & Studies",en,100
+nbse-board,"Nagaland Board of School Education",Class 10,subj-english,"General English",en,100
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-bengali,"বাংলা (General Bengali)",bn,200
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-bengali,"বাংলা (General Bengali)",en,200
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-science,"General Science",bn,200
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-science,"General Science",en,200
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-math,"Mathematics & Elementary Math",bn,100
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-math,"Mathematics & Elementary Math",en,100
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-social,"Social Science & Studies",bn,100
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-social,"Social Science & Studies",en,100
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-science,"General Science",en,300
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",en,300
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-english,"General English",en,200
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-social,"Social Science & Studies",en,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",hi,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",en,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-science,"General Science",hi,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-science,"General Science",en,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-math,"Mathematics & Elementary Math",hi,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-math,"Mathematics & Elementary Math",en,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-social,"Social Science & Studies",hi,200
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-social,"Social Science & Studies",en,200
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 9,subj-science,"General Science",en,300
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 9,subj-science,"General Science",hi,60
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 9,subj-math,"Mathematics & Elementary Math",en,300
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 9,subj-math,"Mathematics & Elementary Math",hi,60
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 11,subj-physics,"Physics (Class 11-12)",en,200
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 11,subj-physics,"Physics (Class 11-12)",hi,40
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 11,subj-chemistry,"Chemistry (Class 11-12)",en,200
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 11,subj-chemistry,"Chemistry (Class 11-12)",hi,40

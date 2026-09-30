@@ -1,0 +1,32 @@
+boardId,boardName,totalSubjective,withPracticeModelAnswer,withKeyPoints,withMarkingGuidance,compliancePercentage
+bseap-board,"Board of Secondary Education Andhra Pradesh",160,160,160,160,100.0%
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",240,240,240,240,100.0%
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",160,160,160,160,100.0%
+bsem-board,"Board of Secondary Education Manipur",120,120,120,120,100.0%
+bsetg-board,"Directorate of Government Examinations Telangana",160,160,160,160,100.0%
+cbse-board,"CBSE Board (Class 10th & 12th)",8676,8676,8676,8676,100.0%
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",160,160,160,160,100.0%
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",240,240,240,240,100.0%
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",140,140,140,140,100.0%
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",240,240,240,240,100.0%
+hpbose-board,"Himachal Pradesh Board of School Education",160,160,160,160,100.0%
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",200,200,200,200,100.0%
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",160,160,160,160,100.0%
+jkbose-board,"Jammu & Kashmir Board of School Education",160,160,160,160,100.0%
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",240,240,240,240,100.0%
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",240,240,240,240,100.0%
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",247,247,247,247,100.0%
+mbose-board,"Meghalaya Board of School Education",120,120,120,120,100.0%
+mbse-board,"Mizoram Board of School Education",120,120,120,120,100.0%
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",200,200,200,200,100.0%
+nbse-board,"Nagaland Board of School Education",120,120,120,120,100.0%
+nios-board,"NIOS Board (National Institute of Open Schooling)",160,160,160,160,100.0%
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",240,240,240,240,100.0%
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",200,200,200,200,100.0%
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",240,240,240,240,100.0%
+tbse-board,"Tripura Board of Secondary Education",120,120,120,120,100.0%
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",457,457,457,457,100.0%
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",450,450,450,450,100.0%
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",160,160,160,160,100.0%
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",240,240,240,240,100.0%
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",240,240,240,240,100.0%

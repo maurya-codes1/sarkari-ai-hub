@@ -1,0 +1,137 @@
+boardId,boardName,stage,subjectId,subjectName,totalQuestions,objectiveCount,subjectiveCount,floor200Status
+cbse-board,"CBSE Board (Class 10th & 12th)",Annual Board Exam,subj-science,"General Science",39,20,19,APPROACHING
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Annual,subj-tamil,"பொதுத் தமிழ் (General Tamil)",25,25,0,APPROACHING
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-science,"General Science",11530,11523,7,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",BOARD,subj-science,"General Science",20,20,0,APPROACHING
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-social,"Social Science & Studies",10081,3414,6667,MET (200+)
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-tamil,"பொதுத் தமிழ் (General Tamil)",507,250,257,MET (200+)
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-social,"Social Science & Studies",257,200,57,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-math12,"Higher Mathematics (Class 12)",2200,1467,733,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-sanskrit,"संस्कृत (Sanskrit)",900,450,450,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-accountancy,"Accountancy",600,400,200,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 10,subj-business,"Business Studies",600,200,400,MET (200+)
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",500,250,250,MET (200+)
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-punjabi,"ਪੰਜਾਬੀ (General Punjabi)",350,280,70,MET (200+)
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+pseb-punjab,"Punjab Board (PSEB Mohali 10th & 12th)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-bengali,"বাংলা (General Bengali)",350,280,70,MET (200+)
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+wbbse-wb,"West Bengal Board (Madhyamik 10th & WBCHSE 12th)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-gujarati,"ગુજરાતી (General Gujarati)",350,280,70,MET (200+)
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+gseb-gujarat,"Gujarat Board (GSEB SSC 10th & HSC 12th)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-kannada,"ಕನ್ನಡ (General Kannada)",350,280,70,MET (200+)
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+kseab-karnataka,"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-malayalam,"മലയാളം (General Malayalam)",350,280,70,MET (200+)
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+kerala-board,"Kerala Directorate of General Education & Pareeksha Bhavan",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-odia,"ଓଡ଼ିଆ (General Odia)",350,280,70,MET (200+)
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+chse-bse-odisha,"Odisha Board (BSE Matric 10th & CHSE +2 Council)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-assamese,"অসমীয়া (General Assamese)",350,280,70,MET (200+)
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+seba-ahsec-assam,"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-marathi,"मराठी (General Marathi)",350,280,70,MET (200+)
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+maharashtra-board,"Maharashtra State Board (SSC 10th & HSC 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-science,"General Science",350,280,70,MET (200+)
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-math,"Mathematics & Elementary Math",350,280,70,MET (200+)
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",Class 10,subj-social,"Social Science & Studies",300,240,60,MET (200+)
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-math12,"Higher Mathematics (Class 12)",300,240,60,MET (200+)
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-physics,"Physics (Class 11-12)",250,200,50,MET (200+)
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-chemistry,"Chemistry (Class 11-12)",250,200,50,MET (200+)
+tsbie-bieap,"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",Class 12,subj-economics,"Economics",200,160,40,APPROACHING
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",250,200,50,MET (200+)
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+bseap-board,"Board of Secondary Education Andhra Pradesh",Class 10,subj-social,"Social Science & Studies",150,120,30,APPROACHING
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-telugu,"సాధారణ తెలుగు (General Telugu)",250,200,50,MET (200+)
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+bsetg-board,"Directorate of Government Examinations Telangana",Class 10,subj-social,"Social Science & Studies",150,120,30,APPROACHING
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",300,240,60,MET (200+)
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+bseb-bihar,"Bihar Board BSEB (Matric 10th & Inter 12th)",Class 10,subj-urdu,"اردو (General Urdu)",100,80,20,APPROACHING
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",300,240,60,MET (200+)
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+upmsp-board,"UP Board (High School & Intermediate 10th/12th)",Class 10,subj-urdu,"اردو (General Urdu)",100,80,20,APPROACHING
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",250,200,50,MET (200+)
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-science,"General Science",250,200,50,MET (200+)
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-math,"Mathematics & Elementary Math",250,200,50,MET (200+)
+rbse-rajasthan,"Rajasthan Board (RBSE 10th & 12th Ajmer)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",250,200,50,MET (200+)
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-science,"General Science",250,200,50,MET (200+)
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-math,"Mathematics & Elementary Math",250,200,50,MET (200+)
+mpbse-board,"MP Board (MPBSE 10th & 12th Bhopal)",Class 10,subj-social,"Social Science & Studies",250,200,50,MET (200+)
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",200,160,40,APPROACHING
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+bseh-haryana,"Haryana Board (BSEH Bhiwani 10th & 12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",200,160,40,APPROACHING
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+jac-jharkhand,"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",200,160,40,APPROACHING
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+cgbse-chhattisgarh,"Chhattisgarh Board (CGBSE Raipur 10th & 12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",200,160,40,APPROACHING
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+ubse-uttarakhand,"Uttarakhand Board (UBSE Ramnagar 10th & 12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",200,160,40,APPROACHING
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+hpbose-board,"Himachal Pradesh Board of School Education",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-urdu,"اردو (General Urdu)",200,160,40,APPROACHING
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-english,"General English",200,160,40,APPROACHING
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+jkbose-board,"Jammu & Kashmir Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-marathi,"मराठी (General Marathi)",200,160,40,APPROACHING
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+gbshse-board,"Goa Board of Secondary and Higher Secondary Education",Class 10,subj-english,"General English",100,80,20,APPROACHING
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-social,"Social Science & Studies",100,80,20,APPROACHING
+bsem-board,"Board of Secondary Education Manipur",Class 10,subj-english,"General English",100,80,20,APPROACHING
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-social,"Social Science & Studies",100,80,20,APPROACHING
+mbose-board,"Meghalaya Board of School Education",Class 10,subj-english,"General English",100,80,20,APPROACHING
+mbse-board,"Mizoram Board of School Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+mbse-board,"Mizoram Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+mbse-board,"Mizoram Board of School Education",Class 10,subj-social,"Social Science & Studies",100,80,20,APPROACHING
+mbse-board,"Mizoram Board of School Education",Class 10,subj-english,"General English",100,80,20,APPROACHING
+nbse-board,"Nagaland Board of School Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+nbse-board,"Nagaland Board of School Education",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+nbse-board,"Nagaland Board of School Education",Class 10,subj-social,"Social Science & Studies",100,80,20,APPROACHING
+nbse-board,"Nagaland Board of School Education",Class 10,subj-english,"General English",100,80,20,APPROACHING
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-bengali,"বাংলা (General Bengali)",200,160,40,APPROACHING
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-math,"Mathematics & Elementary Math",100,80,20,APPROACHING
+tbse-board,"Tripura Board of Secondary Education",Class 10,subj-social,"Social Science & Studies",100,80,20,APPROACHING
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-science,"General Science",300,240,60,MET (200+)
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-english,"General English",200,160,40,APPROACHING
+icse-cisce,"ICSE & ISC Board (Class 10th & 12th)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-hindi,"सामान्य हिन्दी (General Hindi)",200,160,40,APPROACHING
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-science,"General Science",200,160,40,APPROACHING
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-math,"Mathematics & Elementary Math",200,160,40,APPROACHING
+nios-board,"NIOS Board (National Institute of Open Schooling)",Class 10,subj-social,"Social Science & Studies",200,160,40,APPROACHING
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 9,subj-science,"General Science",300,240,60,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 9,subj-math,"Mathematics & Elementary Math",300,240,60,MET (200+)
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 11,subj-physics,"Physics (Class 11-12)",200,160,40,APPROACHING
+cbse-board,"CBSE Board (Class 10th & 12th)",Class 11,subj-chemistry,"Chemistry (Class 11-12)",200,160,40,APPROACHING

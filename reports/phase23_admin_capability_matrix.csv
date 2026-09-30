@@ -1,0 +1,12 @@
+role_name,permission_key,capability_description,access_level,audit_logged
+READ_ONLY_MONITOR,view_sources,Inspect monitored source registry and health status,READ_ONLY,NO
+READ_ONLY_MONITOR,view_metrics,View observability health and latency dashboards,READ_ONLY,NO
+READ_ONLY_MONITOR,view_logs,Inspect historical change logs and verification audit entries,READ_ONLY,NO
+VERIFIER,verify_queue,Approve pending items in the source review queue,WRITE_CONTROLLED,YES
+VERIFIER,reject_queue,Reject invalid or unverified candidate extractions,WRITE_CONTROLLED,YES
+EDITOR,edit_content,"Update editorial annotations, study notes, and syllabus taxonomy",WRITE_RESTRICTED,YES
+SOURCE_MANAGER,manage_sources,Register new official portal URLs and configure check schedules,ADMIN_OPERATIONS,YES
+SOURCE_MANAGER,trigger_checks,Manually trigger background check of official source portals,ADMIN_OPERATIONS,YES
+SYSTEM_ADMIN,admin_override,Execute auditable administrative override on verified fields,SUPER_ADMIN,MANDATORY_LOGGED
+SYSTEM_ADMIN,rollback_version,Roll back to verified historical source version upon corrigendum,SUPER_ADMIN,MANDATORY_LOGGED
+SYSTEM_ADMIN,invalidate_full_exam,Manually invalidate full exam gate when blueprint changes,SUPER_ADMIN,MANDATORY_LOGGED

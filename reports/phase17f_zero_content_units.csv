@@ -1,0 +1,775 @@
+state,board,class,stream,subject,officialLanguage,shortage,gapType,sourceAvailable
+Andhra Pradesh,bseap-board,Class 10,General,Mathematics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,Science & Technology,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,Social Science,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,English Language & Literature,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,First Language (Regional/Hindi),te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Physics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Chemistry,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Higher Mathematics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Biology,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Commerce,Accountancy,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Commerce,Business Studies,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Commerce,Economics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Andhra Pradesh,bseap-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Mathematics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Science & Technology,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,Social Science,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,English Language & Literature,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 10,General,First Language (Regional/Hindi),ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Physics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Chemistry,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Higher Mathematics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Science,Biology,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Accountancy,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Business Studies,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Bihar,bseb-bihar,Class 12,Commerce,Economics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Haryana,bseh-haryana,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,Mathematics,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,Science & Technology,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,Social Science,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,English Language & Literature,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,First Language (Regional/Hindi),mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Physics,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Chemistry,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Higher Mathematics,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Biology,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Commerce,Accountancy,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Commerce,Business Studies,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Commerce,Economics,mni,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Manipur,bsem-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,Mathematics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,Science & Technology,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,Social Science,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,English Language & Literature,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,First Language (Regional/Hindi),te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Physics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Chemistry,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Higher Mathematics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Biology,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Commerce,Accountancy,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Commerce,Business Studies,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Commerce,Economics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Telangana,bsetg-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,Mathematics,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,Science & Technology,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,Social Science,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,English Language & Literature,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,First Language (Regional/Hindi),or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Physics,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Chemistry,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Higher Mathematics,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Biology,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Commerce,Accountancy,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Commerce,Business Studies,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Commerce,Economics,or,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Odisha,chse-bse-odisha,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Mathematics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Mathematics,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Science & Technology,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Science & Technology,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Social Science,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,Social Science,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,English Language & Literature,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,English Language & Literature,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,First Language (Regional/Hindi),mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 10,General,First Language (Regional/Hindi),kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Physics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Physics,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Chemistry,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Chemistry,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Higher Mathematics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Higher Mathematics,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Biology,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Science,Biology,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Accountancy,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Accountancy,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Business Studies,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Business Studies,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Economics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Goa,gbshse-board,Class 12,Commerce,Economics,kok,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Mathematics,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Science & Technology,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Social Science,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,English Language & Literature,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,First Language (Regional/Hindi),gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Physics,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Chemistry,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Higher Mathematics,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Biology,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Accountancy,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Business Studies,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Economics,gu,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Himachal Pradesh,hpbose-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,icse-cisce,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Jharkhand,jac-jharkhand,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Mathematics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Science & Technology,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Social Science,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,English Language & Literature,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,First Language (Regional/Hindi),ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Physics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Chemistry,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Higher Mathematics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Biology,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Accountancy,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Business Studies,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Economics,ur,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,Mathematics,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,Science & Technology,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,Social Science,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,English Language & Literature,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,First Language (Regional/Hindi),ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Physics,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Chemistry,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Higher Mathematics,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Biology,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Commerce,Accountancy,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Commerce,Business Studies,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Commerce,Economics,ml,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Kerala; Lakshadweep",kerala-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,Mathematics,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,Science & Technology,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,Social Science,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,English Language & Literature,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,First Language (Regional/Hindi),kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Physics,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Chemistry,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Higher Mathematics,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Biology,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Commerce,Accountancy,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Commerce,Business Studies,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Commerce,Economics,kn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Karnataka,kseab-karnataka,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Mathematics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Science & Technology,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,English Language & Literature,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,First Language (Regional/Hindi),mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Physics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Chemistry,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Higher Mathematics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Biology,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Accountancy,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Business Studies,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Economics,mr,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Maharashtra,maharashtra-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Meghalaya,mbose-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Mizoram,mbse-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Madhya Pradesh,mpbse-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Nagaland,nbse-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+National,nios-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Mathematics,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Science & Technology,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Social Science,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,English Language & Literature,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,First Language (Regional/Hindi),pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Physics,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Chemistry,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Higher Mathematics,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Biology,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Accountancy,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Business Studies,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Economics,pa,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Punjab,pseb-punjab,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Rajasthan,rbse-rajasthan,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Mathematics,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Mathematics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Science & Technology,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Science & Technology,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Social Science,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,Social Science,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,English Language & Literature,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,English Language & Literature,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,First Language (Regional/Hindi),as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 10,General,First Language (Regional/Hindi),bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Physics,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Physics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Chemistry,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Chemistry,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Higher Mathematics,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Higher Mathematics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Biology,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Science,Biology,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Accountancy,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Accountancy,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Business Studies,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Business Studies,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Economics,as,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Assam,seba-ahsec-assam,Class 12,Commerce,Economics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,Mathematics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,Science & Technology,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,Social Science,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,English Language & Literature,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,First Language (Regional/Hindi),bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Physics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Chemistry,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Higher Mathematics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Biology,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Commerce,Accountancy,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Commerce,Business Studies,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Commerce,Economics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Tripura,tbse-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,Mathematics,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,Science & Technology,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,Social Science,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,English Language & Literature,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Physics,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Chemistry,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Higher Mathematics,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Biology,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Commerce,Accountancy,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Commerce,Business Studies,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Commerce,Economics,ta,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,Mathematics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,Science & Technology,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,Social Science,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,English Language & Literature,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Physics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Chemistry,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Higher Mathematics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Biology,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Commerce,Accountancy,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Commerce,Business Studies,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Commerce,Economics,te,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+State Level,tsbie-bieap,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttarakhand,ubse-uttarakhand,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+Uttar Pradesh,upmsp-board,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Mathematics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Science & Technology,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Science & Technology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Science & Technology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Social Science,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Social Science,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,Social Science,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,English Language & Literature,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,English Language & Literature,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,English Language & Literature,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,First Language (Regional/Hindi),bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,First Language (Regional/Hindi),en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 10,General,First Language (Regional/Hindi),hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Physics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Physics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Physics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Chemistry,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Chemistry,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Chemistry,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Higher Mathematics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Higher Mathematics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Higher Mathematics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Biology,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Biology,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Science,Biology,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Accountancy,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Accountancy,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Accountancy,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Business Studies,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Business Studies,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Business Studies,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Economics,bn,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Economics,en,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING
+West Bengal,wbbse-wb,Class 12,Commerce,Economics,hi,250,ZERO_INGESTION_PENDING_OFFICIAL_PAPERS,PORTAL_ACTIVE_PAPER_PENDING

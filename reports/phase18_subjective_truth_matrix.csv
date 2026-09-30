@@ -1,0 +1,4 @@
+question_type_id,total_questions,with_model_answer,with_key_points,with_marking_guidance,coverage_pct
+"short_answer",21720,21720,21720,21720,"100%"
+"long_answer",7909,7909,7909,7909,"100%"
+"case_study",7945,7945,7945,7945,"100%"

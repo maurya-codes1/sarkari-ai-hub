@@ -1,0 +1,11 @@
+exam_id,exam_name,primary_medium,official_supported_languages,ui_independent,translation_substitution_prohibited
+"ssc-cgl","SSC CGL","Bilingual (English / Hindi)","["en", "hi"]",YES,STRICTLY_PROHIBITED
+"upsc-cse","UPSC CSE Prelims","Bilingual (English / Hindi)","["en", "hi"]",YES,STRICTLY_PROHIBITED
+"rrb-ntpc","RRB NTPC","Multilingual (15 Regional Languages)","["en", "hi", "ta", "te", "bn", "mr", "gu", "kn", "ml", "pa", "or", "as", "ur"]",YES,STRICTLY_PROHIBITED
+"up-police-constable","UP Police Constable","Hindi & English","["hi", "en"]",YES,STRICTLY_PROHIBITED
+"ctet-exam","CTET Paper 1 & 2","Bilingual + 20 Regional Languages for Paper Section","["en", "hi"]",YES,STRICTLY_PROHIBITED
+"ibps-po-clerk","IBPS PO / Clerk","Bilingual (English / Hindi / Regional for Clerk)","["en", "hi"]",YES,STRICTLY_PROHIBITED
+"nta-neet","NEET UG","13 Languages (English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu)","["en", "hi", "ta", "te", "bn", "mr", "gu", "kn", "ml", "pa", "or", "as", "ur"]",YES,STRICTLY_PROHIBITED
+"nta-jee-main","JEE Main","13 Languages","["en", "hi", "ta", "te", "bn", "mr", "gu", "kn", "ml", "pa", "or", "as", "ur"]",YES,STRICTLY_PROHIBITED
+"upsc-nda","UPSC NDA & NA","Bilingual (English / Hindi)","["en", "hi"]",YES,STRICTLY_PROHIBITED
+"ssc-gd","SSC GD Constable","13 Regional Languages + English & Hindi","["en", "hi", "ta", "te", "bn", "mr", "gu", "kn", "ml", "pa", "or", "as", "ur"]",YES,STRICTLY_PROHIBITED

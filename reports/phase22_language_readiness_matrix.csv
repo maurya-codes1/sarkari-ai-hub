@@ -1,0 +1,26 @@
+language_code,language_name_native,language_name_english,script_family,direction,constitutional_status,db_ui_active,total_keys_in_dict,distinct_translated_keys,english_fallback_keys,translation_completeness_pct,font_family,readiness_classification
+en,English,English,Latin,LTR,ASSOCIATE_OFFICIAL_UNION,YES,562,562,0,100.0%,"Plus Jakarta Sans, Roboto, sans-serif",FULL_PRODUCTION_READY
+hi,हिन्दी,Hindi,Devanagari,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,557,5,99.1%,"Noto Sans Devanagari, sans-serif",FULL_PRODUCTION_READY
+hi-latn,Hinglish,Hinglish,Latin,LTR,UI_CONVENIENCE_HYBRID,YES,562,130,432,23.1%,"Plus Jakarta Sans, sans-serif",PARTIAL_SHELL_FALLBACK_HEAVY
+ta,தமிழ்,Tamil,Tamil,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,559,3,99.5%,"Noto Sans Tamil, sans-serif",PRODUCTION_READY
+te,తెలుగు,Telugu,Telugu,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,558,4,99.3%,"Noto Sans Telugu, sans-serif",PRODUCTION_READY
+mr,मराठी,Marathi,Devanagari,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,557,5,99.1%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+bn,বাংলা,Bengali,Bengali,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,558,4,99.3%,"Noto Sans Bengali, sans-serif",PRODUCTION_READY
+gu,ગુજરાતી,Gujarati,Gujarati,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,558,4,99.3%,"Noto Sans Gujarati, sans-serif",PRODUCTION_READY
+kn,ಕನ್ನಡ,Kannada,Kannada,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,557,5,99.1%,"Noto Sans Kannada, sans-serif",PRODUCTION_READY
+ml,മലയാളം,Malayalam,Malayalam,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,560,2,99.6%,"Noto Sans Malayalam, sans-serif",PRODUCTION_READY
+pa,ਪੰਜਾਬੀ,Punjabi,Gurmukhi,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,557,5,99.1%,"Noto Sans Gurmukhi, sans-serif",PRODUCTION_READY
+ur,اردو,Urdu,Perso-Arabic,RTL,EIGHTH_SCHEDULE_OFFICIAL,YES,562,520,42,92.5%,"Noto Nastaliq Urdu, Noto Naskh Arabic, serif",PRODUCTION_READY
+or,ଓଡ଼ିଆ,Odia,Odia,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,559,3,99.5%,"Noto Sans Oriya, Noto Sans Odia, sans-serif",PRODUCTION_READY
+sa,संस्कृतम्,Sanskrit,Devanagari,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,560,2,99.6%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+as,অসমীয়া,Assamese,Bengali-Assamese,LTR,EIGHTH_SCHEDULE_CLASSICAL,YES,562,560,2,99.6%,"Noto Sans Bengali, sans-serif",PRODUCTION_READY
+mai,मैथिली,Maithili,Devanagari,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,562,0,100.0%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+bho,भोजपुरी,Bhojpuri,Devanagari,LTR,MAJOR_NON_SCHEDULED_REGIONAL,YES,562,562,0,100.0%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+ne,नेपाली,Nepali,Devanagari,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,556,6,98.9%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+kok,कोंकणी,Konkani,Devanagari,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,562,0,100.0%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+sd,سنڌي,Sindhi,Arabic,RTL,EIGHTH_SCHEDULE_OFFICIAL,YES,562,519,43,92.3%,"Noto Sans Arabic, Noto Naskh Arabic, serif",PRODUCTION_READY
+doi,डोगरी,Dogri,Devanagari,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,562,0,100.0%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+ks,کٲشُر,Kashmiri,Perso-Arabic,RTL,EIGHTH_SCHEDULE_OFFICIAL,YES,562,520,42,92.5%,"Noto Nastaliq Urdu, Noto Naskh Arabic, serif",PRODUCTION_READY
+sat,ᱥᱟᱱᱛᱟᱲᱤ,Santali,Ol Chiki,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,433,129,77.0%,"Noto Sans Ol Chiki, sans-serif",PARTIALLY_TRANSLATED_FALLBACK_ACTIVE
+brx,बर',Bodo,Devanagari,LTR,EIGHTH_SCHEDULE_OFFICIAL,YES,562,558,4,99.3%,"Noto Sans Devanagari, sans-serif",PRODUCTION_READY
+mni,মৈতৈলোন্,Manipuri,Bengali/Meetei,LTR,EIGHTH_SCHEDULE_OFFICIAL,NO (Reserved),562,561,1,99.8%,"Noto Sans Meetei Mayek, Noto Sans Bengali, sans-serif",RESERVED_PREVIEW_READY

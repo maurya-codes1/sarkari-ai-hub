@@ -1,0 +1,65 @@
+version_id,exam_id,board_id,exam_name,academic_year,version_status,is_current
+"ver-agniveer-airforce-2026","agniveer-airforce","","Indian Air Force Agniveer Vayu (Science & Other than Science)","null","CURRENT",1
+"ver-agniveer-army-2026","agniveer-army","","Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)","null","CURRENT",1
+"ver-agniveer-navy-2026","agniveer-navy","","Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026)","null","CURRENT",1
+"ver-bihar-police-constable-2026","bihar-police-constable","","Bihar Police Constable (CSBC 21,391 Posts) & Daroga","null","CURRENT",1
+"ver-bpsc-tre-2026","bpsc-tre","","Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination)","null","CURRENT",1
+"ver-bseb-bihar-2026","bseb-bihar","bseb-bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","2025-2026","CURRENT",1
+"ver-bseh-haryana-2026","bseh-haryana","bseh-haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","2025-2026","CURRENT",1
+"ver-cbse-board-2026","cbse-board","cbse-board","CBSE Board (Class 10th & 12th)","2025-2026","CURRENT",1
+"ver-cbse-board-2023","cbse-board","cbse-board","CBSE Board (Class 10th & 12th)","2023-2024","HISTORICAL",0
+"ver-cgbse-chhattisgarh-2026","cgbse-chhattisgarh","cgbse-chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","2025-2026","CURRENT",1
+"ver-chse-bse-odisha-2026","chse-bse-odisha","chse-bse-odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","2025-2026","CURRENT",1
+"ver-clat-law-2026","clat-law","","CLAT (Common Law Admission Test for NLUs - BA LLB & LLM)","null","CURRENT",1
+"ver-ctet-exam-2026","ctet-exam","","CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2)","null","CURRENT",1
+"ver-delhi-police-2026","delhi-police","","Delhi Police Executive Constable & Head Constable","null","CURRENT",1
+"ver-gseb-gujarat-2026","gseb-gujarat","gseb-gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","2025-2026","CURRENT",1
+"ver-haryana-police-2026","haryana-police","","Haryana Police Constable (HSSC 6,000 Posts)","null","CURRENT",1
+"ver-ibps-po-clerk-2023","ibps-po-clerk","","IBPS & SBI Banking (Probationary Officer & Clerk)","2023-2024","HISTORICAL",0
+"ver-ibps-po-clerk-2026","ibps-po-clerk","","IBPS & SBI Banking (Probationary Officer & Clerk)","null","CURRENT",1
+"ver-icse-cisce-2026","icse-cisce","icse-cisce","ICSE & ISC Board (Class 10th & 12th)","2025-2026","CURRENT",1
+"ver-jac-jharkhand-2026","jac-jharkhand","jac-jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","2025-2026","CURRENT",1
+"ver-kseab-karnataka-2026","kseab-karnataka","kseab-karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","2025-2026","CURRENT",1
+"ver-maharashtra-board-2026","maharashtra-board","maharashtra-board","Maharashtra State Board (SSC 10th & HSC 12th)","2025-2026","CURRENT",1
+"ver-maharashtra-police-2026","maharashtra-police","","Maharashtra Police Constable Bharti (Police Shipai 17,471)","null","CURRENT",1
+"ver-mp-police-2026","mp-police","","MP Police Constable (ESB 7,411 Posts) & Sub Inspector","null","CURRENT",1
+"ver-mpbse-board-2026","mpbse-board","mpbse-board","MP Board (MPBSE 10th & 12th Bhopal)","2025-2026","CURRENT",1
+"ver-nios-board-2026","nios-board","nios-board","NIOS Board (National Institute of Open Schooling)","2025-2026","CURRENT",1
+"ver-nta-cuet-ug-2026","nta-cuet-ug","","NTA CUET UG (Common University Entrance Test for Undergrad)","null","CURRENT",1
+"ver-nta-jee-adv-2026","nta-jee-adv","","JEE Advanced (Indian Institutes of Technology - IITs Entrance)","null","CURRENT",1
+"ver-nta-jee-main-2026","nta-jee-main","","JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)","null","CURRENT",1
+"ver-nta-neet-2023","nta-neet","","NEET UG (National Eligibility cum Entrance Test - Medical)","2023-2024","HISTORICAL",0
+"ver-nta-neet-2026","nta-neet","","NEET UG (National Eligibility cum Entrance Test - Medical)","null","CURRENT",1
+"ver-pseb-punjab-2026","pseb-punjab","pseb-punjab","Punjab Board (PSEB Mohali 10th & 12th)","2025-2026","CURRENT",1
+"ver-rajasthan-police-2026","rajasthan-police","","Rajasthan Police Constable Bharti (3,578 Posts)","null","CURRENT",1
+"ver-rbse-rajasthan-2026","rbse-rajasthan","rbse-rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","2025-2026","CURRENT",1
+"ver-reet-rajasthan-2026","reet-rajasthan","","REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2)","null","CURRENT",1
+"ver-rrb-alp-2026","rrb-alp","","Railway RRB Assistant Loco Pilot (ALP 2026)","null","CURRENT",1
+"ver-rrb-group-d-2026","rrb-group-d","","Railway RRB Group D (RRC Level-1 Trackman, Pointsman)","null","CURRENT",1
+"ver-rrb-ntpc-2022","rrb-ntpc","","Railway RRB NTPC (Station Master, Goods Guard, Clerk)","2022-2023","HISTORICAL",0
+"ver-rrb-ntpc-2026","rrb-ntpc","","Railway RRB NTPC (Station Master, Goods Guard, Clerk)","null","CURRENT",1
+"ver-rrb-technician-2026","rrb-technician","","Railway RRB Technician Grade I & Grade III","null","CURRENT",1
+"ver-seba-ahsec-assam-2026","seba-ahsec-assam","seba-ahsec-assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","2025-2026","CURRENT",1
+"ver-ssc-cgl-2025","ssc-cgl","","SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)","2024-2025","HISTORICAL_SUPERSEDED",0
+"ver-ssc-cgl-2023","ssc-cgl","","SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)","2023-2024","HISTORICAL",0
+"ver-ssc-cgl-2022","ssc-cgl","","SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)","2022-2023","HISTORICAL",0
+"ver-ssc-cgl-2026","ssc-cgl","","SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)","null","CURRENT",1
+"ver-ssc-chsl-2026","ssc-chsl","","SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)","null","CURRENT",1
+"ver-ssc-gd-2026","ssc-gd","","SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)","null","CURRENT",1
+"ver-ssc-mts-2026","ssc-mts","","SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff)","null","CURRENT",1
+"ver-tndge-tamilnadu-2026","tndge-tamilnadu","tndge-tamilnadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","2025-2026","CURRENT",1
+"ver-tsbie-bieap-2026","tsbie-bieap","tsbie-bieap","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","2025-2026","CURRENT",1
+"ver-ubse-uttarakhand-2026","ubse-uttarakhand","ubse-uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","2025-2026","CURRENT",1
+"ver-ugc-net-2026","ugc-net","","UGC NET / CSIR NET (Assistant Professor & JRF Fellowship)","null","CURRENT",1
+"ver-up-police-constable-2024","up-police-constable","","UP Police Constable & Sub Inspector (SI) 60,244 Bharti","2024-2025","HISTORICAL",0
+"ver-up-police-constable-2026","up-police-constable","","UP Police Constable & Sub Inspector (SI) 60,244 Bharti","null","CURRENT",1
+"ver-upmsp-board-2026","upmsp-board","upmsp-board","UP Board (High School & Intermediate 10th/12th)","2025-2026","CURRENT",1
+"ver-upsc-cse-2023","upsc-cse","","UPSC Civil Services Examination (IAS, IPS, IFS, IRS)","2023-2024","HISTORICAL",0
+"ver-upsc-cse-2022","upsc-cse","","UPSC Civil Services Examination (IAS, IPS, IFS, IRS)","2022-2023","HISTORICAL",0
+"ver-upsc-cse-2021","upsc-cse","","UPSC Civil Services Examination (IAS, IPS, IFS, IRS)","2021-2022","HISTORICAL",0
+"ver-upsc-cse-2026","upsc-cse","","UPSC Civil Services Examination (IAS, IPS, IFS, IRS)","null","CURRENT",1
+"ver-upsc-nda-2023","upsc-nda","","UPSC NDA & NA (National Defence Academy & Naval Academy)","2023-2024","HISTORICAL",0
+"ver-upsc-nda-2026","upsc-nda","","UPSC NDA & NA (National Defence Academy & Naval Academy)","null","CURRENT",1
+"ver-uptet-supertet-2026","uptet-supertet","","UP TET & Super TET (UP Primary & Upper Primary Bharti)","null","CURRENT",1
+"ver-wb-police-2026","wb-police","","West Bengal Police (WBP Constable 11,749 & Kolkata Police)","null","CURRENT",1
+"ver-wbbse-wb-2026","wbbse-wb","wbbse-wb","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","2025-2026","CURRENT",1

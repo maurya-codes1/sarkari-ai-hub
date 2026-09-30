@@ -1,0 +1,4 @@
+pdf_mode,selection_mechanism,max_payload_limit,single_asset_uniqueness_enforced,cross_pdf_overlap_permitted,status
+"SUBJECT_PRACTICE_BOOKLET","Context-Aware Filtered Allocation",100,"STRICT (0 Duplicate)","YES (Shared Verified Pool)","OPERATIONAL"
+"ALL_SUBJECT_COMPREHENSIVE","Proportional Multi-Subject Bundle",100,"STRICT (0 Duplicate)","YES (Shared Verified Pool)","OPERATIONAL"
+"OFFICIAL_FULL_EXAM_PAPER","Blueprint Gated Eligible Selection",100,"STRICT (0 Duplicate)","YES (Iff full_exam_eligible=1)","OPERATIONAL"

@@ -1,0 +1,156 @@
+board_id,board_name,subject_id,subject_name,objective_count,subjective_count,total_count,objective_floor_met,subjective_depth_met,gap_status
+bseap-board,Board of Secondary Education Andhra Pradesh,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+bseap-board,Board of Secondary Education Andhra Pradesh,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+bseap-board,Board of Secondary Education Andhra Pradesh,subj-social,SOCIAL,120,30,150,NO,NO,LOW_CONTENT
+bseap-board,Board of Secondary Education Andhra Pradesh,subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+bseap-board,Board of Secondary Education Andhra Pradesh,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),subj-hindi,HINDI,240,60,300,YES,YES,COMPLETE
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),subj-hindi,HINDI,160,40,200,NO,NO,LOW_CONTENT
+bsem-board,Board of Secondary Education Manipur,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+bsem-board,Board of Secondary Education Manipur,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+bsem-board,Board of Secondary Education Manipur,subj-social,SOCIAL,80,20,100,NO,NO,LOW_CONTENT
+bsem-board,Board of Secondary Education Manipur,subj-english,ENGLISH,80,20,100,NO,NO,LOW_CONTENT
+bsem-board,Board of Secondary Education Manipur,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+bsetg-board,Directorate of Government Examinations Telangana,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+bsetg-board,Directorate of Government Examinations Telangana,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+bsetg-board,Directorate of Government Examinations Telangana,subj-social,SOCIAL,120,30,150,NO,NO,LOW_CONTENT
+bsetg-board,Directorate of Government Examinations Telangana,subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+bsetg-board,Directorate of Government Examinations Telangana,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+cbse-board,CBSE Board (Class 10th & 12th),subj-science,SCIENCE,0,0,0,NO,NO,EMPTY
+cbse-board,CBSE Board (Class 10th & 12th),subj-math,MATH,0,0,0,NO,NO,EMPTY
+cbse-board,CBSE Board (Class 10th & 12th),subj-social,SOCIAL,0,0,0,NO,NO,EMPTY
+cbse-board,CBSE Board (Class 10th & 12th),subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+cbse-board,CBSE Board (Class 10th & 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),subj-hindi,HINDI,160,40,200,NO,NO,LOW_CONTENT
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,subj-social,SOCIAL,0,0,0,NO,NO,EMPTY
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,subj-english,ENGLISH,280,70,350,YES,YES,COMPLETE
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+hpbose-board,Himachal Pradesh Board of School Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+hpbose-board,Himachal Pradesh Board of School Education,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+hpbose-board,Himachal Pradesh Board of School Education,subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+hpbose-board,Himachal Pradesh Board of School Education,subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+hpbose-board,Himachal Pradesh Board of School Education,subj-hindi,HINDI,160,40,200,NO,NO,LOW_CONTENT
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),subj-english,ENGLISH,160,40,200,NO,NO,LOW_CONTENT
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),subj-hindi,HINDI,160,40,200,NO,NO,LOW_CONTENT
+jkbose-board,Jammu & Kashmir Board of School Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+jkbose-board,Jammu & Kashmir Board of School Education,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+jkbose-board,Jammu & Kashmir Board of School Education,subj-social,SOCIAL,0,0,0,NO,NO,EMPTY
+jkbose-board,Jammu & Kashmir Board of School Education,subj-english,ENGLISH,160,40,200,NO,NO,LOW_CONTENT
+jkbose-board,Jammu & Kashmir Board of School Education,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,subj-math,MATH,240,60,300,YES,YES,COMPLETE
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+mbose-board,Meghalaya Board of School Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+mbose-board,Meghalaya Board of School Education,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+mbose-board,Meghalaya Board of School Education,subj-social,SOCIAL,80,20,100,NO,NO,LOW_CONTENT
+mbose-board,Meghalaya Board of School Education,subj-english,ENGLISH,80,20,100,NO,NO,LOW_CONTENT
+mbose-board,Meghalaya Board of School Education,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+mbse-board,Mizoram Board of School Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+mbse-board,Mizoram Board of School Education,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+mbse-board,Mizoram Board of School Education,subj-social,SOCIAL,80,20,100,NO,NO,LOW_CONTENT
+mbse-board,Mizoram Board of School Education,subj-english,ENGLISH,80,20,100,NO,NO,LOW_CONTENT
+mbse-board,Mizoram Board of School Education,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),subj-science,SCIENCE,200,50,250,YES,YES,COMPLETE
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),subj-math,MATH,200,50,250,YES,YES,COMPLETE
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),subj-hindi,HINDI,200,50,250,YES,YES,COMPLETE
+nbse-board,Nagaland Board of School Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+nbse-board,Nagaland Board of School Education,subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+nbse-board,Nagaland Board of School Education,subj-social,SOCIAL,80,20,100,NO,NO,LOW_CONTENT
+nbse-board,Nagaland Board of School Education,subj-english,ENGLISH,80,20,100,NO,NO,LOW_CONTENT
+nbse-board,Nagaland Board of School Education,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+nios-board,NIOS Board (National Institute of Open Schooling),subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+nios-board,NIOS Board (National Institute of Open Schooling),subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+nios-board,NIOS Board (National Institute of Open Schooling),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+nios-board,NIOS Board (National Institute of Open Schooling),subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+nios-board,NIOS Board (National Institute of Open Schooling),subj-hindi,HINDI,160,40,200,NO,NO,LOW_CONTENT
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),subj-science,SCIENCE,200,50,250,YES,YES,COMPLETE
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),subj-math,MATH,200,50,250,YES,YES,COMPLETE
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),subj-hindi,HINDI,200,50,250,YES,YES,COMPLETE
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+tbse-board,Tripura Board of Secondary Education,subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+tbse-board,Tripura Board of Secondary Education,subj-math,MATH,80,20,100,NO,NO,LOW_CONTENT
+tbse-board,Tripura Board of Secondary Education,subj-social,SOCIAL,80,20,100,NO,NO,LOW_CONTENT
+tbse-board,Tripura Board of Secondary Education,subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+tbse-board,Tripura Board of Secondary Education,subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",subj-science,SCIENCE,280,70,350,YES,YES,COMPLETE
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",subj-math,MATH,280,70,350,YES,YES,COMPLETE
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",subj-social,SOCIAL,240,60,300,YES,YES,COMPLETE
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),subj-science,SCIENCE,0,0,0,NO,NO,EMPTY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),subj-math,MATH,0,0,0,NO,NO,EMPTY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),subj-social,SOCIAL,0,0,0,NO,NO,EMPTY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),subj-english,ENGLISH,0,0,0,NO,NO,EMPTY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),subj-science,SCIENCE,160,40,200,NO,NO,LOW_CONTENT
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),subj-math,MATH,160,40,200,NO,NO,LOW_CONTENT
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),subj-hindi,HINDI,160,40,200,NO,NO,LOW_CONTENT
+upmsp-board,UP Board (High School & Intermediate 10th/12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+upmsp-board,UP Board (High School & Intermediate 10th/12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+upmsp-board,UP Board (High School & Intermediate 10th/12th),subj-social,SOCIAL,160,40,200,NO,NO,LOW_CONTENT
+upmsp-board,UP Board (High School & Intermediate 10th/12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+upmsp-board,UP Board (High School & Intermediate 10th/12th),subj-hindi,HINDI,240,60,300,YES,YES,COMPLETE
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),subj-science,SCIENCE,240,60,300,YES,YES,COMPLETE
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),subj-math,MATH,240,60,300,YES,YES,COMPLETE
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),subj-social,SOCIAL,200,50,250,YES,YES,COMPLETE
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),subj-english,ENGLISH,200,50,250,YES,YES,COMPLETE
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),subj-hindi,HINDI,0,0,0,NO,NO,EMPTY

@@ -1,0 +1,46 @@
+stage,subject_id,total_subjective_q,model_answer_count,key_points_compliance_pct,marking_guidance_compliance_pct,status
+General/Competitive,subj-gk,6750,6750,100.0%,100.0%,VERIFIED
+General/Competitive,subj-social,6674,6674,100.0%,100.0%,VERIFIED
+General/Competitive,subj-biology,1100,1100,100.0%,100.0%,VERIFIED
+General/Competitive,subj-polity,1007,1007,100.0%,100.0%,VERIFIED
+General/Competitive,subj-history,1000,1000,100.0%,100.0%,VERIFIED
+General/Competitive,subj-economics,757,757,100.0%,100.0%,VERIFIED
+General/Competitive,subj-geography,750,750,100.0%,100.0%,VERIFIED
+General/Competitive,subj-physics,733,733,100.0%,100.0%,VERIFIED
+General/Competitive,subj-math12,733,733,100.0%,100.0%,VERIFIED
+General/Competitive,subj-chemistry,733,733,100.0%,100.0%,VERIFIED
+General/Competitive,subj-law,500,500,100.0%,100.0%,VERIFIED
+General/Competitive,subj-sanskrit,450,450,100.0%,100.0%,VERIFIED
+General/Competitive,subj-business,400,400,100.0%,100.0%,VERIFIED
+General/Competitive,subj-sociology,334,334,100.0%,100.0%,VERIFIED
+General/Competitive,subj-tamil,257,257,100.0%,100.0%,VERIFIED
+General/Competitive,subj-telugu,250,250,100.0%,100.0%,VERIFIED
+General/Competitive,subj-accountancy,200,200,100.0%,100.0%,VERIFIED
+General/Competitive,subj-science,7,7,100.0%,100.0%,VERIFIED
+Annual Board Exam,subj-science,19,19,100.0%,100.0%,VERIFIED
+Class 10,subj-science,1430,1430,100.0%,100.0%,VERIFIED
+Class 10,subj-math,1410,1410,100.0%,100.0%,VERIFIED
+Class 10,subj-social,1080,1080,100.0%,100.0%,VERIFIED
+Class 10,subj-english,980,980,100.0%,100.0%,VERIFIED
+Class 10,subj-hindi,460,460,100.0%,100.0%,VERIFIED
+Class 10,subj-urdu,180,180,100.0%,100.0%,VERIFIED
+Class 10,subj-marathi,110,110,100.0%,100.0%,VERIFIED
+Class 10,subj-bengali,110,110,100.0%,100.0%,VERIFIED
+Class 10,subj-telugu,100,100,100.0%,100.0%,VERIFIED
+Class 10,subj-punjabi,70,70,100.0%,100.0%,VERIFIED
+Class 10,subj-odia,70,70,100.0%,100.0%,VERIFIED
+Class 10,subj-malayalam,70,70,100.0%,100.0%,VERIFIED
+Class 10,subj-kannada,70,70,100.0%,100.0%,VERIFIED
+Class 10,subj-gujarati,70,70,100.0%,100.0%,VERIFIED
+Class 10,subj-assamese,70,70,100.0%,100.0%,VERIFIED
+Class 11,subj-physics,250,250,100.0%,100.0%,VERIFIED
+Class 11,subj-chemistry,250,250,100.0%,100.0%,VERIFIED
+Class 12,subj-math12,1410,1410,100.0%,100.0%,VERIFIED
+Class 12,subj-physics,1400,1400,100.0%,100.0%,VERIFIED
+Class 12,subj-chemistry,1400,1400,100.0%,100.0%,VERIFIED
+Class 12,subj-biology,1350,1350,100.0%,100.0%,VERIFIED
+Class 12,subj-business,400,400,100.0%,100.0%,VERIFIED
+Class 12,subj-accountancy,400,400,100.0%,100.0%,VERIFIED
+Class 12,subj-economics,40,40,100.0%,100.0%,VERIFIED
+Class 9,subj-science,270,270,100.0%,100.0%,VERIFIED
+Class 9,subj-math,270,270,100.0%,100.0%,VERIFIED

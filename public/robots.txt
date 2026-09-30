@@ -14,6 +14,9 @@ Allow: /
 User-agent: *
 Allow: /
 Disallow: /scratch/
+Disallow: /admin-ops.html
+Disallow: /review-queue.html
+Disallow: /api/
 
 # Sitemap location
 Sitemap: https://sarkari-ai-hub-1.onrender.com/sitemap.xml

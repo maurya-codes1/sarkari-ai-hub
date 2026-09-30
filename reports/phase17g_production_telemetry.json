@@ -1,0 +1,435 @@
+{
+  "timestamp": "2026-09-29T13:50:52.252Z",
+  "preCount": 99370,
+  "postCount": 128270,
+  "netAdded": 28900,
+  "preBoardQ": 27009,
+  "postBoardQ": 55909,
+  "netBoardAdded": 28900,
+  "totalObjective": 23120,
+  "totalSubjective": 5780,
+  "totalModelAnswers": 5780,
+  "boardProductionStats": {
+    "pseb-punjab": {
+      "boardId": "pseb-punjab",
+      "name": "Punjab Board (PSEB Mohali 10th & 12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-punjabi": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "wbbse-wb": {
+      "boardId": "wbbse-wb",
+      "name": "West Bengal Board (Madhyamik 10th & WBCHSE 12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-bengali": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "gseb-gujarat": {
+      "boardId": "gseb-gujarat",
+      "name": "Gujarat Board (GSEB SSC 10th & HSC 12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-gujarati": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "kseab-karnataka": {
+      "boardId": "kseab-karnataka",
+      "name": "Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-kannada": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "kerala-board": {
+      "boardId": "kerala-board",
+      "name": "Kerala Directorate of General Education & Pareeksha Bhavan",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-malayalam": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "chse-bse-odisha": {
+      "boardId": "chse-bse-odisha",
+      "name": "Odisha Board (BSE Matric 10th & CHSE +2 Council)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-odia": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "seba-ahsec-assam": {
+      "boardId": "seba-ahsec-assam",
+      "name": "Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-assamese": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "maharashtra-board": {
+      "boardId": "maharashtra-board",
+      "name": "Maharashtra State Board (SSC 10th & HSC 12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-marathi": 350,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 250
+      }
+    },
+    "tndge-tamilnadu": {
+      "boardId": "tndge-tamilnadu",
+      "name": "Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",
+      "added": 1000,
+      "objective": 800,
+      "subjective": 200,
+      "subjects": {
+        "subj-science": 350,
+        "subj-math": 350,
+        "subj-social": 300
+      }
+    },
+    "tsbie-bieap": {
+      "boardId": "tsbie-bieap",
+      "name": "Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",
+      "added": 1000,
+      "objective": 800,
+      "subjective": 200,
+      "subjects": {
+        "subj-math12": 300,
+        "subj-physics": 250,
+        "subj-chemistry": 250,
+        "subj-economics": 200
+      }
+    },
+    "bseap-board": {
+      "boardId": "bseap-board",
+      "name": "Board of Secondary Education Andhra Pradesh",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-telugu": 250,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 150
+      }
+    },
+    "bsetg-board": {
+      "boardId": "bsetg-board",
+      "name": "Directorate of Government Examinations Telangana",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-telugu": 250,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 150
+      }
+    },
+    "bseb-bihar": {
+      "boardId": "bseb-bihar",
+      "name": "Bihar Board BSEB (Matric 10th & Inter 12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-hindi": 300,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 200,
+        "subj-urdu": 100
+      }
+    },
+    "upmsp-board": {
+      "boardId": "upmsp-board",
+      "name": "UP Board (High School & Intermediate 10th/12th)",
+      "added": 1200,
+      "objective": 960,
+      "subjective": 240,
+      "subjects": {
+        "subj-hindi": 300,
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-social": 200,
+        "subj-urdu": 100
+      }
+    },
+    "rbse-rajasthan": {
+      "boardId": "rbse-rajasthan",
+      "name": "Rajasthan Board (RBSE 10th & 12th Ajmer)",
+      "added": 1000,
+      "objective": 800,
+      "subjective": 200,
+      "subjects": {
+        "subj-hindi": 250,
+        "subj-science": 250,
+        "subj-math": 250,
+        "subj-social": 250
+      }
+    },
+    "mpbse-board": {
+      "boardId": "mpbse-board",
+      "name": "MP Board (MPBSE 10th & 12th Bhopal)",
+      "added": 1000,
+      "objective": 800,
+      "subjective": 200,
+      "subjects": {
+        "subj-hindi": 250,
+        "subj-science": 250,
+        "subj-math": 250,
+        "subj-social": 250
+      }
+    },
+    "bseh-haryana": {
+      "boardId": "bseh-haryana",
+      "name": "Haryana Board (BSEH Bhiwani 10th & 12th)",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-hindi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 200
+      }
+    },
+    "jac-jharkhand": {
+      "boardId": "jac-jharkhand",
+      "name": "Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-hindi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 200
+      }
+    },
+    "cgbse-chhattisgarh": {
+      "boardId": "cgbse-chhattisgarh",
+      "name": "Chhattisgarh Board (CGBSE Raipur 10th & 12th)",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-hindi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 200
+      }
+    },
+    "ubse-uttarakhand": {
+      "boardId": "ubse-uttarakhand",
+      "name": "Uttarakhand Board (UBSE Ramnagar 10th & 12th)",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-hindi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 200
+      }
+    },
+    "hpbose-board": {
+      "boardId": "hpbose-board",
+      "name": "Himachal Pradesh Board of School Education",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-hindi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 200
+      }
+    },
+    "jkbose-board": {
+      "boardId": "jkbose-board",
+      "name": "Jammu & Kashmir Board of School Education",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-urdu": 200,
+        "subj-english": 200,
+        "subj-science": 200,
+        "subj-math": 200
+      }
+    },
+    "gbshse-board": {
+      "boardId": "gbshse-board",
+      "name": "Goa Board of Secondary and Higher Secondary Education",
+      "added": 700,
+      "objective": 560,
+      "subjective": 140,
+      "subjects": {
+        "subj-marathi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-english": 100
+      }
+    },
+    "bsem-board": {
+      "boardId": "bsem-board",
+      "name": "Board of Secondary Education Manipur",
+      "added": 600,
+      "objective": 480,
+      "subjective": 120,
+      "subjects": {
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 100,
+        "subj-english": 100
+      }
+    },
+    "mbose-board": {
+      "boardId": "mbose-board",
+      "name": "Meghalaya Board of School Education",
+      "added": 600,
+      "objective": 480,
+      "subjective": 120,
+      "subjects": {
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 100,
+        "subj-english": 100
+      }
+    },
+    "mbse-board": {
+      "boardId": "mbse-board",
+      "name": "Mizoram Board of School Education",
+      "added": 600,
+      "objective": 480,
+      "subjective": 120,
+      "subjects": {
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 100,
+        "subj-english": 100
+      }
+    },
+    "nbse-board": {
+      "boardId": "nbse-board",
+      "name": "Nagaland Board of School Education",
+      "added": 600,
+      "objective": 480,
+      "subjective": 120,
+      "subjects": {
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 100,
+        "subj-english": 100
+      }
+    },
+    "tbse-board": {
+      "boardId": "tbse-board",
+      "name": "Tripura Board of Secondary Education",
+      "added": 600,
+      "objective": 480,
+      "subjective": 120,
+      "subjects": {
+        "subj-bengali": 200,
+        "subj-science": 200,
+        "subj-math": 100,
+        "subj-social": 100
+      }
+    },
+    "icse-cisce": {
+      "boardId": "icse-cisce",
+      "name": "ICSE & ISC Board (Class 10th & 12th)",
+      "added": 1000,
+      "objective": 800,
+      "subjective": 200,
+      "subjects": {
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-english": 200,
+        "subj-social": 200
+      }
+    },
+    "nios-board": {
+      "boardId": "nios-board",
+      "name": "NIOS Board (National Institute of Open Schooling)",
+      "added": 800,
+      "objective": 640,
+      "subjective": 160,
+      "subjects": {
+        "subj-hindi": 200,
+        "subj-science": 200,
+        "subj-math": 200,
+        "subj-social": 200
+      }
+    },
+    "cbse-board": {
+      "boardId": "cbse-board",
+      "name": "CBSE Board (Class 10th & 12th)",
+      "added": 1000,
+      "objective": 800,
+      "subjective": 200,
+      "subjects": {
+        "subj-science": 300,
+        "subj-math": 300,
+        "subj-physics": 200,
+        "subj-chemistry": 200
+      }
+    }
+  },
+  "languageProductionStats": {
+    "pa": 1200,
+    "en": 28900,
+    "bn": 1800,
+    "gu": 1200,
+    "kn": 1200,
+    "ml": 1200,
+    "or": 1200,
+    "as": 1200,
+    "mr": 1340,
+    "ta": 1000,
+    "te": 2600,
+    "hi": 9400,
+    "ur": 160
+  },
+  "integrityCheck": "ok",
+  "fkViolations": 0
+}

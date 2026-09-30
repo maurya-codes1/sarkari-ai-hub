@@ -1,0 +1,57 @@
+{
+  "audit_timestamp": "2026-09-29T14:40:40.728Z",
+  "phase": "PHASE_17H",
+  "audit_type": "READ_ONLY_POST_17G_BOARD_CONTENT_TRUTH_AUDIT",
+  "database_metrics": {
+    "total_questions": 128270,
+    "board_questions": 55909,
+    "competitive_questions": 72361,
+    "total_boards": 31,
+    "content_bearing_boards": 31,
+    "zero_content_boards": 0,
+    "total_academic_offerings": 124,
+    "classes_covered": [
+      "Class 9",
+      "Class 10",
+      "Class 11",
+      "Class 12"
+    ],
+    "streams_supported": [
+      "general",
+      "science-pcm",
+      "science-pcb",
+      "commerce",
+      "humanities"
+    ],
+    "distinct_board_subjects": 23,
+    "distinct_languages": [
+      "en",
+      "hi",
+      "te",
+      "bn",
+      "ta",
+      "mr",
+      "pa",
+      "gu",
+      "kn",
+      "ml",
+      "or",
+      "as",
+      "ur"
+    ],
+    "total_objective": 41139,
+    "total_subjective": 14770,
+    "total_subjective_model_answers": 0,
+    "total_full_exam_eligible": 250,
+    "board_full_exam_eligible": 26,
+    "phase17g_net_additions": 28900,
+    "sqlite_integrity_check": "ok",
+    "foreign_key_violations": 0
+  },
+  "class_distribution": {
+    "class_9": 600,
+    "class_10": 50489,
+    "class_11": 400,
+    "class_12": 4400
+  }
+}

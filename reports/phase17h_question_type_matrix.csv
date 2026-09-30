@@ -1,0 +1,653 @@
+board,class,subject,question_type,count,category,percentage
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",single_mcq,20,OBJECTIVE,51.3%
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",short_answer,13,SUBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",long_answer,3,SUBJECTIVE,7.7%
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",case_study,3,SUBJECTIVE,7.7%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Annual","subj-tamil",single_mcq,25,OBJECTIVE,100.0%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",single_mcq,5773,OBJECTIVE,50.1%
+"CBSE Board (Class 10th & 12th)","BOARD","subj-science",single_mcq,20,OBJECTIVE,100.0%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-social",single_mcq,3414,OBJECTIVE,33.9%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",short_answer,7,SUBJECTIVE,0.1%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",short_answer,257,SUBJECTIVE,50.7%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",short_answer,24,SUBJECTIVE,9.3%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",assertion_reason,5750,OBJECTIVE,49.9%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-social",short_answer,3334,SUBJECTIVE,33.1%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-social",case_study,3333,SUBJECTIVE,33.1%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-math12",numerical,734,OBJECTIVE,33.4%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-math12",long_answer,733,SUBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-math12",single_mcq,733,OBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",short_answer,450,SUBJECTIVE,50.0%
+"CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",single_mcq,450,OBJECTIVE,50.0%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",numerical,200,OBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",short_answer,200,SUBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",single_mcq,200,OBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-business",short_answer,200,SUBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-business",case_study,200,SUBJECTIVE,33.3%
+"CBSE Board (Class 10th & 12th)","Class 12","subj-business",single_mcq,200,OBJECTIVE,33.3%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",single_mcq,250,OBJECTIVE,49.3%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",short_answer,250,SUBJECTIVE,50.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",single_mcq,250,OBJECTIVE,50.0%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",single_mcq,233,OBJECTIVE,66.6%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",short_answer,23,SUBJECTIVE,6.6%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",assertion_reason,47,OBJECTIVE,13.4%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",long_answer,35,SUBJECTIVE,10.0%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",case_study,12,SUBJECTIVE,3.4%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",single_mcq,233,OBJECTIVE,66.6%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",short_answer,23,SUBJECTIVE,6.6%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",assertion_reason,47,OBJECTIVE,13.4%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",long_answer,35,SUBJECTIVE,10.0%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",case_study,12,SUBJECTIVE,3.4%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",single_mcq,233,OBJECTIVE,66.6%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",short_answer,23,SUBJECTIVE,6.6%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",assertion_reason,47,OBJECTIVE,13.4%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",long_answer,35,SUBJECTIVE,10.0%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",case_study,12,SUBJECTIVE,3.4%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",single_mcq,233,OBJECTIVE,66.6%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",short_answer,23,SUBJECTIVE,6.6%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",assertion_reason,47,OBJECTIVE,13.4%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",long_answer,35,SUBJECTIVE,10.0%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",case_study,12,SUBJECTIVE,3.4%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",single_mcq,233,OBJECTIVE,66.6%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",short_answer,23,SUBJECTIVE,6.6%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",assertion_reason,47,OBJECTIVE,13.4%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",long_answer,35,SUBJECTIVE,10.0%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",case_study,12,SUBJECTIVE,3.4%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",single_mcq,233,OBJECTIVE,66.6%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",short_answer,23,SUBJECTIVE,6.6%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",assertion_reason,47,OBJECTIVE,13.4%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",long_answer,35,SUBJECTIVE,10.0%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",case_study,12,SUBJECTIVE,3.4%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",single_mcq,233,OBJECTIVE,66.6%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",short_answer,23,SUBJECTIVE,6.6%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",assertion_reason,47,OBJECTIVE,13.4%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",long_answer,35,SUBJECTIVE,10.0%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",case_study,12,SUBJECTIVE,3.4%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",single_mcq,233,OBJECTIVE,66.6%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",short_answer,23,SUBJECTIVE,6.6%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",assertion_reason,47,OBJECTIVE,13.4%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",long_answer,35,SUBJECTIVE,10.0%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",case_study,12,SUBJECTIVE,3.4%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",single_mcq,167,OBJECTIVE,65.0%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,12.8%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",long_answer,25,SUBJECTIVE,9.7%
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.1%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",single_mcq,233,OBJECTIVE,66.6%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",short_answer,23,SUBJECTIVE,6.6%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",assertion_reason,47,OBJECTIVE,13.4%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",long_answer,35,SUBJECTIVE,10.0%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",case_study,12,SUBJECTIVE,3.4%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",single_mcq,233,OBJECTIVE,66.6%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",short_answer,23,SUBJECTIVE,6.6%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",assertion_reason,47,OBJECTIVE,13.4%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",long_answer,35,SUBJECTIVE,10.0%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",case_study,12,SUBJECTIVE,3.4%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",single_mcq,200,OBJECTIVE,66.7%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",short_answer,20,SUBJECTIVE,6.7%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",assertion_reason,40,OBJECTIVE,13.3%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",long_answer,30,SUBJECTIVE,10.0%
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",case_study,10,SUBJECTIVE,3.3%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",single_mcq,200,OBJECTIVE,66.7%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",short_answer,20,SUBJECTIVE,6.7%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",assertion_reason,40,OBJECTIVE,13.3%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",long_answer,30,SUBJECTIVE,10.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",case_study,10,SUBJECTIVE,3.3%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",single_mcq,167,OBJECTIVE,66.8%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",short_answer,17,SUBJECTIVE,6.8%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",assertion_reason,33,OBJECTIVE,13.2%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",long_answer,25,SUBJECTIVE,10.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",case_study,8,SUBJECTIVE,3.2%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",single_mcq,167,OBJECTIVE,66.8%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",short_answer,17,SUBJECTIVE,6.8%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",assertion_reason,33,OBJECTIVE,13.2%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",long_answer,25,SUBJECTIVE,10.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",case_study,8,SUBJECTIVE,3.2%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",single_mcq,134,OBJECTIVE,67.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",short_answer,13,SUBJECTIVE,6.5%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",assertion_reason,26,OBJECTIVE,13.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",long_answer,20,SUBJECTIVE,10.0%
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",case_study,7,SUBJECTIVE,3.5%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",single_mcq,167,OBJECTIVE,66.8%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",short_answer,17,SUBJECTIVE,6.8%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",assertion_reason,33,OBJECTIVE,13.2%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",long_answer,25,SUBJECTIVE,10.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",case_study,8,SUBJECTIVE,3.2%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",single_mcq,100,OBJECTIVE,66.7%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",short_answer,10,SUBJECTIVE,6.7%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",assertion_reason,20,OBJECTIVE,13.3%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",long_answer,15,SUBJECTIVE,10.0%
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",case_study,5,SUBJECTIVE,3.3%
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",single_mcq,167,OBJECTIVE,66.8%
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",short_answer,17,SUBJECTIVE,6.8%
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",assertion_reason,33,OBJECTIVE,13.2%
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",long_answer,25,SUBJECTIVE,10.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",case_study,8,SUBJECTIVE,3.2%
+"Directorate of Government Examinations Telangana","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Directorate of Government Examinations Telangana","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Directorate of Government Examinations Telangana","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Directorate of Government Examinations Telangana","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Directorate of Government Examinations Telangana","Class 10","subj-social",single_mcq,100,OBJECTIVE,66.7%
+"Directorate of Government Examinations Telangana","Class 10","subj-social",short_answer,10,SUBJECTIVE,6.7%
+"Directorate of Government Examinations Telangana","Class 10","subj-social",assertion_reason,20,OBJECTIVE,13.3%
+"Directorate of Government Examinations Telangana","Class 10","subj-social",long_answer,15,SUBJECTIVE,10.0%
+"Directorate of Government Examinations Telangana","Class 10","subj-social",case_study,5,SUBJECTIVE,3.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",single_mcq,200,OBJECTIVE,66.7%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",short_answer,20,SUBJECTIVE,6.7%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",assertion_reason,40,OBJECTIVE,13.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",long_answer,30,SUBJECTIVE,10.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",case_study,10,SUBJECTIVE,3.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",single_mcq,67,OBJECTIVE,67.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",short_answer,7,SUBJECTIVE,7.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",assertion_reason,13,OBJECTIVE,13.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",long_answer,10,SUBJECTIVE,10.0%
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",case_study,3,SUBJECTIVE,3.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",single_mcq,200,OBJECTIVE,66.7%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",short_answer,20,SUBJECTIVE,6.7%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",assertion_reason,40,OBJECTIVE,13.3%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",long_answer,30,SUBJECTIVE,10.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",case_study,10,SUBJECTIVE,3.3%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",single_mcq,67,OBJECTIVE,67.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",short_answer,7,SUBJECTIVE,7.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",assertion_reason,13,OBJECTIVE,13.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",long_answer,10,SUBJECTIVE,10.0%
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",case_study,3,SUBJECTIVE,3.0%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",single_mcq,167,OBJECTIVE,66.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",short_answer,17,SUBJECTIVE,6.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",assertion_reason,33,OBJECTIVE,13.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",long_answer,25,SUBJECTIVE,10.0%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",case_study,8,SUBJECTIVE,3.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",single_mcq,167,OBJECTIVE,66.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",short_answer,17,SUBJECTIVE,6.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",assertion_reason,33,OBJECTIVE,13.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",long_answer,25,SUBJECTIVE,10.0%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",case_study,8,SUBJECTIVE,3.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",single_mcq,167,OBJECTIVE,66.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",short_answer,17,SUBJECTIVE,6.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",assertion_reason,33,OBJECTIVE,13.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",long_answer,25,SUBJECTIVE,10.0%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",case_study,8,SUBJECTIVE,3.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",single_mcq,167,OBJECTIVE,66.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",short_answer,17,SUBJECTIVE,6.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",assertion_reason,33,OBJECTIVE,13.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",long_answer,25,SUBJECTIVE,10.0%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",case_study,8,SUBJECTIVE,3.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",single_mcq,167,OBJECTIVE,66.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",short_answer,17,SUBJECTIVE,6.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",assertion_reason,33,OBJECTIVE,13.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",long_answer,25,SUBJECTIVE,10.0%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",case_study,8,SUBJECTIVE,3.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",single_mcq,167,OBJECTIVE,66.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",short_answer,17,SUBJECTIVE,6.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",assertion_reason,33,OBJECTIVE,13.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",long_answer,25,SUBJECTIVE,10.0%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",case_study,8,SUBJECTIVE,3.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",single_mcq,167,OBJECTIVE,66.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",short_answer,17,SUBJECTIVE,6.8%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",assertion_reason,33,OBJECTIVE,13.2%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",long_answer,25,SUBJECTIVE,10.0%
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",case_study,8,SUBJECTIVE,3.2%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",single_mcq,134,OBJECTIVE,67.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",short_answer,13,SUBJECTIVE,6.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",assertion_reason,26,OBJECTIVE,13.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",long_answer,20,SUBJECTIVE,10.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",case_study,7,SUBJECTIVE,3.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",single_mcq,134,OBJECTIVE,67.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",short_answer,13,SUBJECTIVE,6.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",assertion_reason,26,OBJECTIVE,13.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",long_answer,20,SUBJECTIVE,10.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",case_study,7,SUBJECTIVE,3.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",single_mcq,134,OBJECTIVE,67.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",short_answer,13,SUBJECTIVE,6.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",assertion_reason,26,OBJECTIVE,13.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",long_answer,20,SUBJECTIVE,10.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",case_study,7,SUBJECTIVE,3.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",single_mcq,134,OBJECTIVE,67.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",short_answer,13,SUBJECTIVE,6.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",assertion_reason,26,OBJECTIVE,13.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",long_answer,20,SUBJECTIVE,10.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",case_study,7,SUBJECTIVE,3.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",single_mcq,134,OBJECTIVE,67.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",short_answer,13,SUBJECTIVE,6.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",assertion_reason,26,OBJECTIVE,13.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",long_answer,20,SUBJECTIVE,10.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",case_study,7,SUBJECTIVE,3.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"Himachal Pradesh Board of School Education","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"Himachal Pradesh Board of School Education","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",single_mcq,134,OBJECTIVE,67.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",short_answer,13,SUBJECTIVE,6.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",assertion_reason,26,OBJECTIVE,13.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",long_answer,20,SUBJECTIVE,10.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",case_study,7,SUBJECTIVE,3.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",single_mcq,134,OBJECTIVE,67.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",short_answer,13,SUBJECTIVE,6.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",assertion_reason,26,OBJECTIVE,13.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",long_answer,20,SUBJECTIVE,10.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",case_study,7,SUBJECTIVE,3.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",single_mcq,134,OBJECTIVE,67.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",short_answer,13,SUBJECTIVE,6.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",assertion_reason,26,OBJECTIVE,13.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",long_answer,20,SUBJECTIVE,10.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",case_study,7,SUBJECTIVE,3.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",single_mcq,67,OBJECTIVE,67.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",short_answer,7,SUBJECTIVE,7.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",assertion_reason,13,OBJECTIVE,13.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",long_answer,10,SUBJECTIVE,10.0%
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",case_study,3,SUBJECTIVE,3.0%
+"Board of Secondary Education Manipur","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Board of Secondary Education Manipur","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Board of Secondary Education Manipur","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Board of Secondary Education Manipur","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Board of Secondary Education Manipur","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Board of Secondary Education Manipur","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Board of Secondary Education Manipur","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Board of Secondary Education Manipur","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Board of Secondary Education Manipur","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Board of Secondary Education Manipur","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Board of Secondary Education Manipur","Class 10","subj-social",single_mcq,67,OBJECTIVE,67.0%
+"Board of Secondary Education Manipur","Class 10","subj-social",short_answer,7,SUBJECTIVE,7.0%
+"Board of Secondary Education Manipur","Class 10","subj-social",assertion_reason,13,OBJECTIVE,13.0%
+"Board of Secondary Education Manipur","Class 10","subj-social",long_answer,10,SUBJECTIVE,10.0%
+"Board of Secondary Education Manipur","Class 10","subj-social",case_study,3,SUBJECTIVE,3.0%
+"Board of Secondary Education Manipur","Class 10","subj-english",single_mcq,67,OBJECTIVE,67.0%
+"Board of Secondary Education Manipur","Class 10","subj-english",short_answer,7,SUBJECTIVE,7.0%
+"Board of Secondary Education Manipur","Class 10","subj-english",assertion_reason,13,OBJECTIVE,13.0%
+"Board of Secondary Education Manipur","Class 10","subj-english",long_answer,10,SUBJECTIVE,10.0%
+"Board of Secondary Education Manipur","Class 10","subj-english",case_study,3,SUBJECTIVE,3.0%
+"Meghalaya Board of School Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Meghalaya Board of School Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Meghalaya Board of School Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Meghalaya Board of School Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Meghalaya Board of School Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Meghalaya Board of School Education","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Meghalaya Board of School Education","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Meghalaya Board of School Education","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Meghalaya Board of School Education","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Meghalaya Board of School Education","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Meghalaya Board of School Education","Class 10","subj-social",single_mcq,67,OBJECTIVE,67.0%
+"Meghalaya Board of School Education","Class 10","subj-social",short_answer,7,SUBJECTIVE,7.0%
+"Meghalaya Board of School Education","Class 10","subj-social",assertion_reason,13,OBJECTIVE,13.0%
+"Meghalaya Board of School Education","Class 10","subj-social",long_answer,10,SUBJECTIVE,10.0%
+"Meghalaya Board of School Education","Class 10","subj-social",case_study,3,SUBJECTIVE,3.0%
+"Meghalaya Board of School Education","Class 10","subj-english",single_mcq,67,OBJECTIVE,67.0%
+"Meghalaya Board of School Education","Class 10","subj-english",short_answer,7,SUBJECTIVE,7.0%
+"Meghalaya Board of School Education","Class 10","subj-english",assertion_reason,13,OBJECTIVE,13.0%
+"Meghalaya Board of School Education","Class 10","subj-english",long_answer,10,SUBJECTIVE,10.0%
+"Meghalaya Board of School Education","Class 10","subj-english",case_study,3,SUBJECTIVE,3.0%
+"Mizoram Board of School Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Mizoram Board of School Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Mizoram Board of School Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Mizoram Board of School Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Mizoram Board of School Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Mizoram Board of School Education","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Mizoram Board of School Education","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Mizoram Board of School Education","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Mizoram Board of School Education","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Mizoram Board of School Education","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Mizoram Board of School Education","Class 10","subj-social",single_mcq,67,OBJECTIVE,67.0%
+"Mizoram Board of School Education","Class 10","subj-social",short_answer,7,SUBJECTIVE,7.0%
+"Mizoram Board of School Education","Class 10","subj-social",assertion_reason,13,OBJECTIVE,13.0%
+"Mizoram Board of School Education","Class 10","subj-social",long_answer,10,SUBJECTIVE,10.0%
+"Mizoram Board of School Education","Class 10","subj-social",case_study,3,SUBJECTIVE,3.0%
+"Mizoram Board of School Education","Class 10","subj-english",single_mcq,67,OBJECTIVE,67.0%
+"Mizoram Board of School Education","Class 10","subj-english",short_answer,7,SUBJECTIVE,7.0%
+"Mizoram Board of School Education","Class 10","subj-english",assertion_reason,13,OBJECTIVE,13.0%
+"Mizoram Board of School Education","Class 10","subj-english",long_answer,10,SUBJECTIVE,10.0%
+"Mizoram Board of School Education","Class 10","subj-english",case_study,3,SUBJECTIVE,3.0%
+"Nagaland Board of School Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Nagaland Board of School Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Nagaland Board of School Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Nagaland Board of School Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Nagaland Board of School Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Nagaland Board of School Education","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"Nagaland Board of School Education","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"Nagaland Board of School Education","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"Nagaland Board of School Education","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"Nagaland Board of School Education","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"Nagaland Board of School Education","Class 10","subj-social",single_mcq,67,OBJECTIVE,67.0%
+"Nagaland Board of School Education","Class 10","subj-social",short_answer,7,SUBJECTIVE,7.0%
+"Nagaland Board of School Education","Class 10","subj-social",assertion_reason,13,OBJECTIVE,13.0%
+"Nagaland Board of School Education","Class 10","subj-social",long_answer,10,SUBJECTIVE,10.0%
+"Nagaland Board of School Education","Class 10","subj-social",case_study,3,SUBJECTIVE,3.0%
+"Nagaland Board of School Education","Class 10","subj-english",single_mcq,67,OBJECTIVE,67.0%
+"Nagaland Board of School Education","Class 10","subj-english",short_answer,7,SUBJECTIVE,7.0%
+"Nagaland Board of School Education","Class 10","subj-english",assertion_reason,13,OBJECTIVE,13.0%
+"Nagaland Board of School Education","Class 10","subj-english",long_answer,10,SUBJECTIVE,10.0%
+"Nagaland Board of School Education","Class 10","subj-english",case_study,3,SUBJECTIVE,3.0%
+"Tripura Board of Secondary Education","Class 10","subj-bengali",single_mcq,134,OBJECTIVE,67.0%
+"Tripura Board of Secondary Education","Class 10","subj-bengali",short_answer,13,SUBJECTIVE,6.5%
+"Tripura Board of Secondary Education","Class 10","subj-bengali",assertion_reason,26,OBJECTIVE,13.0%
+"Tripura Board of Secondary Education","Class 10","subj-bengali",long_answer,20,SUBJECTIVE,10.0%
+"Tripura Board of Secondary Education","Class 10","subj-bengali",case_study,7,SUBJECTIVE,3.5%
+"Tripura Board of Secondary Education","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"Tripura Board of Secondary Education","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"Tripura Board of Secondary Education","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"Tripura Board of Secondary Education","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"Tripura Board of Secondary Education","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"Tripura Board of Secondary Education","Class 10","subj-math",single_mcq,67,OBJECTIVE,67.0%
+"Tripura Board of Secondary Education","Class 10","subj-math",short_answer,7,SUBJECTIVE,7.0%
+"Tripura Board of Secondary Education","Class 10","subj-math",assertion_reason,13,OBJECTIVE,13.0%
+"Tripura Board of Secondary Education","Class 10","subj-math",long_answer,10,SUBJECTIVE,10.0%
+"Tripura Board of Secondary Education","Class 10","subj-math",case_study,3,SUBJECTIVE,3.0%
+"Tripura Board of Secondary Education","Class 10","subj-social",single_mcq,67,OBJECTIVE,67.0%
+"Tripura Board of Secondary Education","Class 10","subj-social",short_answer,7,SUBJECTIVE,7.0%
+"Tripura Board of Secondary Education","Class 10","subj-social",assertion_reason,13,OBJECTIVE,13.0%
+"Tripura Board of Secondary Education","Class 10","subj-social",long_answer,10,SUBJECTIVE,10.0%
+"Tripura Board of Secondary Education","Class 10","subj-social",case_study,3,SUBJECTIVE,3.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",case_study,10,SUBJECTIVE,3.3%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",case_study,10,SUBJECTIVE,3.3%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",single_mcq,134,OBJECTIVE,67.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",short_answer,13,SUBJECTIVE,6.5%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",assertion_reason,26,OBJECTIVE,13.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",long_answer,20,SUBJECTIVE,10.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",case_study,7,SUBJECTIVE,3.5%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",single_mcq,134,OBJECTIVE,67.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",short_answer,13,SUBJECTIVE,6.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",assertion_reason,26,OBJECTIVE,13.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",long_answer,20,SUBJECTIVE,10.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",case_study,7,SUBJECTIVE,3.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",single_mcq,134,OBJECTIVE,67.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",short_answer,13,SUBJECTIVE,6.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",assertion_reason,26,OBJECTIVE,13.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",long_answer,20,SUBJECTIVE,10.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",case_study,7,SUBJECTIVE,3.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",single_mcq,134,OBJECTIVE,67.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",short_answer,13,SUBJECTIVE,6.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",assertion_reason,26,OBJECTIVE,13.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",long_answer,20,SUBJECTIVE,10.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",case_study,7,SUBJECTIVE,3.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",single_mcq,134,OBJECTIVE,67.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",short_answer,13,SUBJECTIVE,6.5%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",assertion_reason,26,OBJECTIVE,13.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",long_answer,20,SUBJECTIVE,10.0%
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",case_study,7,SUBJECTIVE,3.5%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",single_mcq,200,OBJECTIVE,66.7%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",short_answer,20,SUBJECTIVE,6.7%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",assertion_reason,40,OBJECTIVE,13.3%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",long_answer,30,SUBJECTIVE,10.0%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",case_study,10,SUBJECTIVE,3.3%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",single_mcq,200,OBJECTIVE,66.7%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",short_answer,20,SUBJECTIVE,6.7%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",assertion_reason,40,OBJECTIVE,13.3%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",long_answer,30,SUBJECTIVE,10.0%
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",case_study,10,SUBJECTIVE,3.3%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",single_mcq,134,OBJECTIVE,67.0%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",short_answer,13,SUBJECTIVE,6.5%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",assertion_reason,26,OBJECTIVE,13.0%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",long_answer,20,SUBJECTIVE,10.0%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",case_study,7,SUBJECTIVE,3.5%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",single_mcq,134,OBJECTIVE,67.0%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",short_answer,13,SUBJECTIVE,6.5%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",assertion_reason,26,OBJECTIVE,13.0%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",long_answer,20,SUBJECTIVE,10.0%
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",case_study,7,SUBJECTIVE,3.5%

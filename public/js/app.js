@@ -445,6 +445,37 @@ async function sendChatMessage(promptText = null) {
   }
 }
 
+// Global Board Practice Launcher
+function launchBoardPractice(examId, boardId, subjectId) {
+  window.location.hash = '#tool/quiz';
+  setTimeout(() => {
+    const examSelect = document.getElementById('quizExamSelect');
+    const boardSelect = document.getElementById('quizBoardSelect');
+    const subjectSelect = document.getElementById('quizSubjectSelect');
+    if (examSelect && examId) {
+      examSelect.value = examId;
+      if (typeof updateDependentDropdowns === 'function') updateDependentDropdowns();
+    }
+    if (boardSelect && boardId) {
+      boardSelect.value = boardId;
+      if (typeof updateBoardSubjects === 'function') updateBoardSubjects();
+    }
+    if (subjectSelect && subjectId) {
+      subjectSelect.value = subjectId;
+    }
+    if (typeof switchQuizMode === 'function') {
+      switchQuizMode('SUBJECT_PRACTICE');
+    }
+    const quizSetup = document.getElementById('quizSetupCard');
+    if (quizSetup) {
+      quizSetup.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, 150);
+}
+if (typeof window !== 'undefined') {
+  window.launchBoardPractice = launchBoardPractice;
+}
+
 // Global DOM init
 document.addEventListener('DOMContentLoaded', () => {
   initDirectory();

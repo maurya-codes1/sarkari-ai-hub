@@ -1,0 +1,32 @@
+board_id,board_name,jurisdiction,has_public_board_exam,annual_exam_scope,supported_subjects,question_count,progression_rules_active,workflow_status
+bseap-board,Board of Secondary Education Andhra Pradesh,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+bsem-board,Board of Secondary Education Manipur,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+bsetg-board,Directorate of Government Examinations Telangana,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+cbse-board,CBSE Board (Class 10th & 12th),National,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",600,YES,PRACTICE_READY
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+hpbose-board,Himachal Pradesh Board of School Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),National,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+jkbose-board,Jammu & Kashmir Board of School Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+mbose-board,Meghalaya Board of School Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+mbse-board,Mizoram Board of School Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+nbse-board,Nagaland Board of School Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+nios-board,NIOS Board (National Institute of Open Schooling),National,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+tbse-board,Tripura Board of Secondary Education,STATE,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",0,YES,PROGRESSION_READY
+upmsp-board,UP Board (High School & Intermediate 10th/12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),State,NO (School-based),Internal Annual Examination (School-level),"General Science, Mathematics",130,YES,PRACTICE_READY

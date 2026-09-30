@@ -1352,8 +1352,12 @@ async function startNewQuiz() {
   const examId = examSelect ? examSelect.value : 'ssc-gd';
   const subjectId = subjectSelect ? subjectSelect.value : 'all';
   const boardId = boardSelect ? boardSelect.value : '';
-  const testMode = activeQuiz.mode || 'FULL_EXAM_PATTERN';
-  const isFullExamMode = (testMode === 'FULL_EXAM_PATTERN' || testMode === 'FULL_EXAM');
+  const isSpecificSubject = subjectId && subjectId !== 'all';
+  let effectiveMode = activeQuiz.mode || 'FULL_EXAM_PATTERN';
+  if (isSpecificSubject) {
+    effectiveMode = 'SUBJECT_PRACTICE';
+  }
+  const isFullExamMode = !isSpecificSubject && (effectiveMode === 'FULL_EXAM_PATTERN' || effectiveMode === 'FULL_EXAM');
   const bp = resolveLocalBlueprint(examId);
 
   // In FULL_EXAM mode, NEVER use practice sizeSelect or custom timer!
@@ -1377,7 +1381,7 @@ async function startNewQuiz() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         examId,
-        testMode,
+        testMode: effectiveMode,
         requestedCount,
         subjectId: isFullExamMode ? 'all' : subjectId,
         difficulty,
@@ -1408,7 +1412,7 @@ async function startNewQuiz() {
 
   // Fallback to local question generation if offline or API unavailable
   if (!sessionData) {
-    sessionData = generateLocalSessionFallback(examId, subjectId, requestedCount, boardId, testMode);
+    sessionData = generateLocalSessionFallback(examId, subjectId, requestedCount, boardId, effectiveMode);
   }
 
   if (!sessionData.questions || sessionData.questions.length === 0) {
@@ -1424,8 +1428,8 @@ async function startNewQuiz() {
   }
 
   // Populate active quiz state
-  activeQuiz.mode = testMode;
-  activeQuiz.instantFeedback = (testMode === 'SUBJECT_PRACTICE' || testMode === 'ALL_SUBJECTS_PRACTICE' || testMode === 'PRACTICE');
+  activeQuiz.mode = effectiveMode;
+  activeQuiz.instantFeedback = (effectiveMode === 'SUBJECT_PRACTICE' || effectiveMode === 'ALL_SUBJECTS_PRACTICE' || effectiveMode === 'PRACTICE' || isSpecificSubject);
   activeQuiz.sessionId = sessionData.sessionId;
   activeQuiz.exam = examId;
   activeQuiz.board = boardId;
@@ -1436,6 +1440,7 @@ async function startNewQuiz() {
   activeQuiz.currentIndex = 0;
   activeQuiz.currentSectionIndex = 0;
   activeQuiz.userAnswers = {};
+  activeQuiz.lockedQuestions = {};
   activeQuiz.reviewFlags = {};
   activeQuiz.visited = { 0: true };
   activeQuiz.isRunning = true;
@@ -1943,10 +1948,10 @@ function handleOptionSelection(optionIndex) {
   if (!q) return;
   const qKey = q.id || activeQuiz.currentIndex;
 
-  // In Practice Mode: if already answered, question is LOCKED!
+  // In Practice Mode: if already answered or locked, question is STRICTLY LOCKED!
   const isPracticeMode = (activeQuiz.mode !== 'FULL_EXAM_PATTERN' && activeQuiz.mode !== 'FULL_EXAM') || activeQuiz.instantFeedback === true;
-  if (isPracticeMode && activeQuiz.userAnswers.hasOwnProperty(qKey)) {
-    return; // Prevent repeated tapping! User must click 'Clear Response' to retry.
+  if (isPracticeMode && (activeQuiz.userAnswers.hasOwnProperty(qKey) || (activeQuiz.lockedQuestions && activeQuiz.lockedQuestions[qKey]))) {
+    return; // Prevent repeated tapping / multi-click bug!
   }
 
   // Enforce ATTEMPT_N_OF_M limit check
@@ -1966,6 +1971,20 @@ function handleOptionSelection(optionIndex) {
         alert(`इस सेक्शन में आप अधिकतम ${currentSec.questionsToAttempt} प्रश्न ही हल कर सकते हैं। अन्य प्रश्न हल करने हेतु पूर्व का कोई उत्तर 'Clear Response' करें।`);
       }
       return;
+    }
+  }
+
+  // Immediately lock all buttons in DOM before re-render to eliminate click race conditions
+  if (isPracticeMode) {
+    if (!activeQuiz.lockedQuestions) activeQuiz.lockedQuestions = {};
+    activeQuiz.lockedQuestions[qKey] = true;
+    const optContainer = document.getElementById('quizOptionsContainer');
+    if (optContainer) {
+      const btns = optContainer.querySelectorAll('button');
+      btns.forEach(b => {
+        b.disabled = true;
+        b.style.pointerEvents = 'none';
+      });
     }
   }
 
@@ -1991,6 +2010,9 @@ function clearCurrentQuestionResponse() {
 
   if (activeQuiz.userAnswers.hasOwnProperty(qKey)) {
     delete activeQuiz.userAnswers[qKey];
+  }
+  if (activeQuiz.lockedQuestions && activeQuiz.lockedQuestions.hasOwnProperty(qKey)) {
+    delete activeQuiz.lockedQuestions[qKey];
   }
   renderActiveQuestion();
   renderQuestionPalette();

@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-09-29T19:52:39.603Z",
+  "phase": "PHASE_18",
+  "metrics": {
+    "totalQuestions": 172210,
+    "totalVersions": 172210,
+    "schoolBoardQuestions": 99849,
+    "competitiveQuestions": 72361,
+    "fullExamEligible": 250,
+    "objectiveCount": 134636,
+    "subjectiveCount": 37574,
+    "pyqCount": 351,
+    "sampleCount": 20,
+    "humanCuratedCount": 171800,
+    "docCount": 39
+  },
+  "blueprints": {
+    "total": 29,
+    "verified": 9,
+    "readyForFullExam": 2
+  },
+  "hashes": {
+    "prePhase18Sha256": "c8765ce44693cd17d85620d95bacda0a7d1def5043987034105862470dc5977b",
+    "postPhase18Sha256": "b80d14763e89ce44e564741b4db424eabf18827553ef11bd59fc7572a14e7a33"
+  },
+  "integrity": {
+    "integrityCheck": "ok",
+    "foreignKeyViolations": 0
+  }
+}

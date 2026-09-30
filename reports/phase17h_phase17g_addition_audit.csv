@@ -1,0 +1,626 @@
+board,class,stream,subject,language,questionType,provenance,chapter,topic,count
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi","pa+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi","pa+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi","pa+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi","pa+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-punjabi","pa+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science","pa+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science","pa+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science","pa+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science","pa+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-science","pa+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math","pa+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math","pa+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math","pa+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math","pa+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-math","pa+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social","pa+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social","pa+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social","pa+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social","pa+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-social","pa+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-bengali","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-science","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-math","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-social","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati","gu+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati","gu+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati","gu+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati","gu+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-gujarati","gu+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science","gu+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science","gu+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science","gu+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science","gu+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-science","gu+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math","gu+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math","gu+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math","gu+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math","gu+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-math","gu+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social","gu+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social","gu+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social","gu+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social","gu+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-social","gu+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada","kn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada","kn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada","kn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada","kn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-kannada","kn+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science","kn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science","kn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science","kn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science","kn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-science","kn+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math","kn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math","kn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math","kn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math","kn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-math","kn+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social","kn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social","kn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social","kn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social","kn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-social","kn+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam","ml+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam","ml+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam","ml+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam","ml+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-malayalam","ml+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science","ml+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science","ml+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science","ml+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science","ml+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-science","ml+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math","ml+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math","ml+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math","ml+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math","ml+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-math","ml+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social","ml+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social","ml+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social","ml+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social","ml+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-social","ml+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia","or+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia","or+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia","or+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia","or+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-odia","or+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science","or+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science","or+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science","or+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science","or+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-science","or+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math","or+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math","or+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math","or+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math","or+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-math","or+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social","or+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social","or+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social","or+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social","or+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-social","or+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese","as+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese","as+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese","as+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese","as+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-assamese","as+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science","as+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science","as+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science","as+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science","as+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-science","as+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math","as+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math","as+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math","as+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math","as+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-math","as+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social","as+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social","as+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social","as+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social","as+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-social","as+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi","mr+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi","mr+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi","mr+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi","mr+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-marathi","mr+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science","mr+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science","mr+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science","mr+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science","mr+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-science","mr+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math","mr+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math","mr+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math","mr+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math","mr+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-math","mr+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social","mr+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social","mr+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social","mr+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social","mr+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-social","mr+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science","ta+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science","ta+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science","ta+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science","ta+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-science","ta+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math","ta+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",233
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math","ta+en",short_answer,HUMAN_CURATED,"ch-core","top-core",23
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math","ta+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",47
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math","ta+en",long_answer,HUMAN_CURATED,"ch-core","top-core",35
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-math","ta+en",case_study,HUMAN_CURATED,"ch-core","top-core",12
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social","ta+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social","ta+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social","ta+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social","ta+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-social","ta+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-math12","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-physics","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-chemistry","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Specialized,"subj-economics","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-telugu","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-science","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-math","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",100
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",20
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",15
+"Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-social","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",5
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-telugu","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-science","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-math","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social","te+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",100
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social","te+en",short_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social","te+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",20
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social","te+en",long_answer,HUMAN_CURATED,"ch-core","top-core",15
+"Directorate of Government Examinations Telangana","Class 10",general,"subj-social","te+en",case_study,HUMAN_CURATED,"ch-core","top-core",5
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-urdu","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-urdu","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",167
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",17
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",33
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",25
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",8
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Himachal Pradesh Board of School Education","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu","en+ur",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu","en+ur",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-urdu","en+ur",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english","en+ur",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english","en+ur",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-english","en+ur",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science","en+ur",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science","en+ur",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-science","en+ur",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math","en+ur",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math","en+ur",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Jammu & Kashmir Board of School Education","Class 10",general,"subj-math","en+ur",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi","en+mr",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi","en+mr",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-marathi","en+mr",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science","en+mr",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science","en+mr",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-science","en+mr",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math","en+mr",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math","en+mr",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-math","en+mr",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english","en+mr",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english","en+mr",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-english","en+mr",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Board of Secondary Education Manipur","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Board of Secondary Education Manipur","Class 10",general,"subj-science","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Board of Secondary Education Manipur","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Board of Secondary Education Manipur","Class 10",general,"subj-science","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Board of Secondary Education Manipur","Class 10",general,"subj-science","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Manipur","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Board of Secondary Education Manipur","Class 10",general,"subj-math","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Board of Secondary Education Manipur","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Board of Secondary Education Manipur","Class 10",general,"subj-math","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Board of Secondary Education Manipur","Class 10",general,"subj-math","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Manipur","Class 10",general,"subj-social","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Board of Secondary Education Manipur","Class 10",general,"subj-social","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Manipur","Class 10",general,"subj-social","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Board of Secondary Education Manipur","Class 10",general,"subj-social","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Board of Secondary Education Manipur","Class 10",general,"subj-social","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Board of Secondary Education Manipur","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Board of Secondary Education Manipur","Class 10",general,"subj-english","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Board of Secondary Education Manipur","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Board of Secondary Education Manipur","Class 10",general,"subj-english","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Board of Secondary Education Manipur","Class 10",general,"subj-english","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Meghalaya Board of School Education","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Meghalaya Board of School Education","Class 10",general,"subj-science","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Meghalaya Board of School Education","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Meghalaya Board of School Education","Class 10",general,"subj-science","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Meghalaya Board of School Education","Class 10",general,"subj-science","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Meghalaya Board of School Education","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Meghalaya Board of School Education","Class 10",general,"subj-math","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Meghalaya Board of School Education","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Meghalaya Board of School Education","Class 10",general,"subj-math","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Meghalaya Board of School Education","Class 10",general,"subj-math","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Meghalaya Board of School Education","Class 10",general,"subj-social","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Meghalaya Board of School Education","Class 10",general,"subj-social","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Meghalaya Board of School Education","Class 10",general,"subj-social","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Meghalaya Board of School Education","Class 10",general,"subj-social","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Meghalaya Board of School Education","Class 10",general,"subj-social","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Meghalaya Board of School Education","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Meghalaya Board of School Education","Class 10",general,"subj-english","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Meghalaya Board of School Education","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Meghalaya Board of School Education","Class 10",general,"subj-english","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Meghalaya Board of School Education","Class 10",general,"subj-english","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Mizoram Board of School Education","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Mizoram Board of School Education","Class 10",general,"subj-science","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Mizoram Board of School Education","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Mizoram Board of School Education","Class 10",general,"subj-science","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Mizoram Board of School Education","Class 10",general,"subj-science","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Mizoram Board of School Education","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Mizoram Board of School Education","Class 10",general,"subj-math","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Mizoram Board of School Education","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Mizoram Board of School Education","Class 10",general,"subj-math","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Mizoram Board of School Education","Class 10",general,"subj-math","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Mizoram Board of School Education","Class 10",general,"subj-social","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Mizoram Board of School Education","Class 10",general,"subj-social","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Mizoram Board of School Education","Class 10",general,"subj-social","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Mizoram Board of School Education","Class 10",general,"subj-social","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Mizoram Board of School Education","Class 10",general,"subj-social","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Mizoram Board of School Education","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Mizoram Board of School Education","Class 10",general,"subj-english","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Mizoram Board of School Education","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Mizoram Board of School Education","Class 10",general,"subj-english","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Mizoram Board of School Education","Class 10",general,"subj-english","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Nagaland Board of School Education","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Nagaland Board of School Education","Class 10",general,"subj-science","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Nagaland Board of School Education","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Nagaland Board of School Education","Class 10",general,"subj-science","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Nagaland Board of School Education","Class 10",general,"subj-science","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Nagaland Board of School Education","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Nagaland Board of School Education","Class 10",general,"subj-math","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Nagaland Board of School Education","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Nagaland Board of School Education","Class 10",general,"subj-math","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Nagaland Board of School Education","Class 10",general,"subj-math","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Nagaland Board of School Education","Class 10",general,"subj-social","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Nagaland Board of School Education","Class 10",general,"subj-social","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Nagaland Board of School Education","Class 10",general,"subj-social","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Nagaland Board of School Education","Class 10",general,"subj-social","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Nagaland Board of School Education","Class 10",general,"subj-social","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Nagaland Board of School Education","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Nagaland Board of School Education","Class 10",general,"subj-english","en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Nagaland Board of School Education","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Nagaland Board of School Education","Class 10",general,"subj-english","en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Nagaland Board of School Education","Class 10",general,"subj-english","en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Tripura Board of Secondary Education","Class 10",general,"subj-bengali","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Tripura Board of Secondary Education","Class 10",general,"subj-science","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"Tripura Board of Secondary Education","Class 10",general,"subj-science","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"Tripura Board of Secondary Education","Class 10",general,"subj-science","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"Tripura Board of Secondary Education","Class 10",general,"subj-science","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"Tripura Board of Secondary Education","Class 10",general,"subj-science","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"Tripura Board of Secondary Education","Class 10",general,"subj-math","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Tripura Board of Secondary Education","Class 10",general,"subj-math","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Tripura Board of Secondary Education","Class 10",general,"subj-math","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Tripura Board of Secondary Education","Class 10",general,"subj-math","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Tripura Board of Secondary Education","Class 10",general,"subj-math","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"Tripura Board of Secondary Education","Class 10",general,"subj-social","bn+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",67
+"Tripura Board of Secondary Education","Class 10",general,"subj-social","bn+en",short_answer,HUMAN_CURATED,"ch-core","top-core",7
+"Tripura Board of Secondary Education","Class 10",general,"subj-social","bn+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",13
+"Tripura Board of Secondary Education","Class 10",general,"subj-social","bn+en",long_answer,HUMAN_CURATED,"ch-core","top-core",10
+"Tripura Board of Secondary Education","Class 10",general,"subj-social","bn+en",case_study,HUMAN_CURATED,"ch-core","top-core",3
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science","en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science","en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-science","en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math","en",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math","en",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-math","en",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-english","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social","en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social","en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"ICSE & ISC Board (Class 10th & 12th)","Class 10",general,"subj-social","en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-hindi","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-science","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-math","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social","hi+en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social","hi+en",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social","hi+en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social","hi+en",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-social","hi+en",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science","en+hi",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science","en+hi",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-science","en+hi",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",200
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math","en+hi",short_answer,HUMAN_CURATED,"ch-core","top-core",20
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",40
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math","en+hi",long_answer,HUMAN_CURATED,"ch-core","top-core",30
+"CBSE Board (Class 10th & 12th)","Class 9",general,"subj-math","en+hi",case_study,HUMAN_CURATED,"ch-core","top-core",10
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics","en+hi",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics","en+hi",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-physics","en+hi",case_study,HUMAN_CURATED,"ch-core","top-core",7
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry","en",single_mcq,HUMAN_CURATED,"ch-core","top-core",134
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry","en+hi",short_answer,HUMAN_CURATED,"ch-core","top-core",13
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry","en",assertion_reason,HUMAN_CURATED,"ch-core","top-core",26
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry","en+hi",long_answer,HUMAN_CURATED,"ch-core","top-core",20
+"CBSE Board (Class 10th & 12th)","Class 11",Specialized,"subj-chemistry","en+hi",case_study,HUMAN_CURATED,"ch-core","top-core",7

@@ -1,0 +1,3 @@
+exam_id,stage,paper_id,version_id,previous_status,new_status,source,blueprint_id,eligible_count,required_count,shortage,language_verification,test_status,pdf_reconciliation,verification_timestamp
+"ssc-cgl","Tier 1","paper-ssc-cgl-2024-t1-s1","ver-ssc-cgl-2026","FULL_EXAM_READY","FULL_EXAM_READY (Preserved)","Staff Selection Commission Official Portal","bp-verified-ssc-cgl",106,100,0,"VERIFIED (Bilingual en/hi)","PASSED (37/37)","RECONCILED","2026-09-30 02:50:00"
+"upsc-cse","Prelims GS-1","paper-upsc-cse-2024-gs1","ver-upsc-cse-2026","FULL_EXAM_READY","FULL_EXAM_READY (Preserved)","Union Public Service Commission Official Portal","bp-verified-upsc-cse-prelims",109,100,0,"VERIFIED (Bilingual en/hi)","PASSED (37/37)","RECONCILED","2026-09-30 02:50:00"

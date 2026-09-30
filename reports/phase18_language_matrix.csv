@@ -1,0 +1,10 @@
+config_id,exam_id,exam_name,question_languages,option_languages,instruction_languages,is_bilingual,paper_medium
+"lang-cfg-cbse-board","cbse-board","CBSE Board (Class 10th & 12th)","["en","hi"]","["en","hi"]","["en","hi"]",1,"en,hi"
+"lang-cfg-nta-neet","nta-neet","NEET UG (National Eligibility cum Entrance Test - Medical)","["en","hi"]","["en","hi"]","["en","hi"]",1,"en,hi"
+"lang-cfg-rrb-alp","rrb-alp","Railway RRB Assistant Loco Pilot (ALP 2026)","["hi","en"]","["hi","en"]","["hi","en"]",1,"hi,en"
+"lang-cfg-ssc-cgl","ssc-cgl","SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)","["hi","en"]","["hi","en"]","["hi","en"]",1,"hi,en"
+"lang-cfg-ssc-cgl-2025","ssc-cgl","SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)","["hi","en"]","["hi","en"]","["hi","en"]",1,"hi,en"
+"lang-cfg-ssc-gd","ssc-gd","SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)","["hi","en"]","["hi","en"]","["hi","en"]",1,"hi,en"
+"lang-cfg-tndge-tamilnadu","tndge-tamilnadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","["ta"]","["ta"]","["ta"]",0,"ta"
+"lang-cfg-tsbie-bieap","tsbie-bieap","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","["te","en"]","["te","en"]","["te","en"]",1,"te,en"
+"lang-cfg-upsc-cse","upsc-cse","UPSC Civil Services Examination (IAS, IPS, IFS, IRS)","["en","hi"]","["en","hi"]","["en","hi"]",1,"hi,en"

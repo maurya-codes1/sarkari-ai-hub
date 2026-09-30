@@ -2,6 +2,7 @@
 // Modular repository for Questions, Versions, and Subjects.
 
 const { getDb, checkDbAvailable } = require('../database');
+const { normalizeSubjectId } = require('../../utils/subject-utils');
 
 class QuestionRepository {
   constructor(db = null) {
@@ -18,6 +19,7 @@ class QuestionRepository {
 
   getQuestionsBySubject(subjectId, limit = 50, offset = 0) {
     if (!this.isAvailable()) return null;
+    const normSub = normalizeSubjectId(subjectId);
     const stmt = this.db.prepare(`
       SELECT q.*, v.language_content, v.correct_answer, s.name as subject_name
       FROM questions q
@@ -27,7 +29,7 @@ class QuestionRepository {
       ORDER BY q.question_id ASC
       LIMIT ? OFFSET ?
     `);
-    return stmt.all(subjectId, limit, offset);
+    return stmt.all(normSub, limit, offset);
   }
 
   getRandomQuestions(subjectId = null, limit = 30) {
@@ -41,7 +43,7 @@ class QuestionRepository {
     const params = [];
     if (subjectId && subjectId !== 'all') {
       query += ` WHERE q.subject_id = ?`;
-      params.push(subjectId);
+      params.push(normalizeSubjectId(subjectId));
     }
     query += ` ORDER BY RANDOM() LIMIT ?`;
     params.push(limit);
@@ -49,7 +51,7 @@ class QuestionRepository {
     return this.db.prepare(query).all(...params);
   }
 
-  getQuestionsForSection(subjectId, count = 25, excludeIds = [], questionTypes = null) {
+  getQuestionsForSection(subjectId, count = 25, excludeIds = [], questionTypes = null, onlyFullExamEligible = false) {
     if (!this.isAvailable()) return [];
 
     let query = `
@@ -63,7 +65,11 @@ class QuestionRepository {
 
     if (subjectId && subjectId !== 'all') {
       query += ` AND q.subject_id = ?`;
-      params.push(subjectId);
+      params.push(normalizeSubjectId(subjectId));
+    }
+
+    if (onlyFullExamEligible) {
+      query += ` AND q.full_exam_eligible = 1`;
     }
 
     if (Array.isArray(excludeIds) && excludeIds.length > 0) {
@@ -97,12 +103,13 @@ class QuestionRepository {
     const params = [];
 
     if (Array.isArray(subjectIds) && subjectIds.length > 0) {
-      const placeholders = subjectIds.map(() => '?').join(',');
+      const normIds = subjectIds.map(s => normalizeSubjectId(s)).filter(Boolean);
+      const placeholders = normIds.map(() => '?').join(',');
       query += ` AND q.subject_id IN (${placeholders})`;
-      params.push(...subjectIds);
+      params.push(...normIds);
     } else if (subjectId && subjectId !== 'all') {
       query += ` AND q.subject_id = ?`;
-      params.push(subjectId);
+      params.push(normalizeSubjectId(subjectId));
     }
 
     if (difficulty && difficulty !== 'MIXED') {

@@ -1,0 +1,11 @@
+PDF_type,exam,board,class,subject,paper,language,count,sections,numbering,marks,scripts,duplicate_status,provenance,status,severity
+"FULL_EXAM_PAPER","ssc-cgl","SSC","Graduate","All Subjects","Tier-1 Official","Bilingual","100","4","1-100","200.0","Latin/Devanagari","NO_DUPLICATES","OFFICIAL_PYQ_CURATED","PASS","NONE"
+"SUBJECT_PRACTICE_PAPER","ssc-cgl","SSC","Graduate","Quantitative Aptitude","Practice Sheet 1","English","25","1","1-25","50.0","Latin","NO_DUPLICATES","CURATED_PRACTICE","PASS","NONE"
+"ALL_SUBJECTS_PRACTICE_PAPER","ssc-cgl","SSC","Graduate","Mixed Core","Comprehensive Practice","Bilingual","30","4","1-30","60.0","Latin/Devanagari","NO_DUPLICATES","CURATED_PRACTICE","PASS","NONE"
+"PYQ_PAPER","ssc-cgl","SSC","Graduate","General Awareness","2024 Shift 1","Bilingual","25","1","1-25","50.0","Latin/Devanagari","NO_DUPLICATES","OFFICIAL_PYQ","PASS","NONE"
+"NOTES","ssc-cgl","SSC","Graduate","General Science","Revision Booster","English","10","1","N/A","N/A","Latin","NO_DUPLICATES","CURATED_NOTES","PASS","NONE"
+"ANSWER_KEY","ssc-cgl","SSC","Graduate","All Subjects","Tier-1 Key","Tabular","100","4","1-100","200.0","Latin","NO_DUPLICATES","OFFICIAL_KEY","PASS","NONE"
+"SOLUTIONS","ssc-cgl","SSC","Graduate","Quantitative Aptitude","Step-by-Step Solutions","English","25","1","1-25","50.0","Latin","NO_DUPLICATES","PEDAGOGICAL_SOLUTIONS","PASS","NONE"
+"BOARD_QUESTION_PAPER","cbse-board","CBSE","Class 10","Science","Standard Board Pattern","Bilingual","39","5","1-39","80.0","Latin/Devanagari","NO_DUPLICATES","BOARD_CURATED","PASS","NONE"
+"OMR_SHEET","ssc-cgl","SSC","Graduate","All Subjects","Machine-Readable OMR Grid","English","100","4","1-100","N/A","Latin","NO_DUPLICATES","OMR_TEMPLATE","PASS","NONE"
+"COMBINED_EXAM_PACKAGE","ssc-cgl","SSC","Graduate","All Subjects","Full Booklet + Attached OMR","Bilingual","100","4","1-100","200.0","Latin/Devanagari","NO_DUPLICATES","COMBINED_BUNDLE","PASS","NONE"

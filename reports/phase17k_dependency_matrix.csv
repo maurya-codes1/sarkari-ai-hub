@@ -1,0 +1,75 @@
+dependency_id,board_id,from_class_id,to_class_id,dependency_type,rule_name,is_mandatory,min_attendance_pct,allow_stream_change,verification_status
+dep-bseap-board-11-12,bseap-board,class-11,class-12,SUBJECT_CONTINUITY,BSEAP Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-bseap-board-9-10,bseap-board,class-9,class-10,REGISTRATION_CONTINUITY,BSEAP Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-bseb-11-12,bseb-bihar,class-11,class-12,PRE_BOARD_SCREENING,BSEB Intermediate Sent-Up & Registration Rule,YES,75,NO,VERIFIED
+dep-bseb-9-10,bseb-bihar,class-9,class-10,REGISTRATION_CONTINUITY,BSEB Class 9 Registration Card & Sent-Up Exam,YES,75,NO,VERIFIED
+dep-bseb-bihar-11-12,bseb-bihar,class-11,class-12,SUBJECT_CONTINUITY,BSEB Bihar Board Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-bseb-bihar-9-10,bseb-bihar,class-9,class-10,REGISTRATION_CONTINUITY,BSEB Bihar Board Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-bseh-haryana-11-12,bseh-haryana,class-11,class-12,SUBJECT_CONTINUITY,BSEH Haryana Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-bseh-haryana-9-10,bseh-haryana,class-9,class-10,REGISTRATION_CONTINUITY,BSEH Haryana Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-bsem-board-11-12,bsem-board,class-11,class-12,SUBJECT_CONTINUITY,BSEM Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-bsem-board-9-10,bsem-board,class-9,class-10,REGISTRATION_CONTINUITY,BSEM Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-bsetg-board-11-12,bsetg-board,class-11,class-12,SUBJECT_CONTINUITY,BSETG Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-bsetg-board-9-10,bsetg-board,class-9,class-10,REGISTRATION_CONTINUITY,BSETG Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-cbse-11-12,cbse-board,class-11,class-12,SUBJECT_CONTINUITY,CBSE Stream and Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-cbse-9-10,cbse-board,class-9,class-10,REGISTRATION_CONTINUITY,CBSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-cbse-board-11-12,cbse-board,class-11,class-12,SUBJECT_CONTINUITY,CBSE 10th/12th Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-cbse-board-9-10,cbse-board,class-9,class-10,REGISTRATION_CONTINUITY,CBSE 10th/12th Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-cgbse-chhattisgarh-11-12,cgbse-chhattisgarh,class-11,class-12,SUBJECT_CONTINUITY,CGBSE Chhattisgarh Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-cgbse-chhattisgarh-9-10,cgbse-chhattisgarh,class-9,class-10,REGISTRATION_CONTINUITY,CGBSE Chhattisgarh Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-chse-bse-odisha-11-12,chse-bse-odisha,class-11,class-12,SUBJECT_CONTINUITY,BSE & CHSE Odisha Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-chse-bse-odisha-9-10,chse-bse-odisha,class-9,class-10,REGISTRATION_CONTINUITY,BSE & CHSE Odisha Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-gbshse-board-11-12,gbshse-board,class-11,class-12,SUBJECT_CONTINUITY,GBSHSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-gbshse-board-9-10,gbshse-board,class-9,class-10,REGISTRATION_CONTINUITY,GBSHSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-gseb-gujarat-11-12,gseb-gujarat,class-11,class-12,SUBJECT_CONTINUITY,GSEB Gujarat Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-gseb-gujarat-9-10,gseb-gujarat,class-9,class-10,REGISTRATION_CONTINUITY,GSEB Gujarat Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-hpbose-board-11-12,hpbose-board,class-11,class-12,SUBJECT_CONTINUITY,HPBOSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-hpbose-board-9-10,hpbose-board,class-9,class-10,REGISTRATION_CONTINUITY,HPBOSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-icse-cisce-11-12,icse-cisce,class-11,class-12,SUBJECT_CONTINUITY,CISCE (ICSE / ISC) Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-icse-cisce-9-10,icse-cisce,class-9,class-10,REGISTRATION_CONTINUITY,CISCE (ICSE / ISC) Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-jac-jharkhand-11-12,jac-jharkhand,class-11,class-12,SUBJECT_CONTINUITY,JAC Jharkhand Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-jac-jharkhand-9-10,jac-jharkhand,class-9,class-10,REGISTRATION_CONTINUITY,JAC Jharkhand Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-jkbose-board-11-12,jkbose-board,class-11,class-12,SUBJECT_CONTINUITY,JKBOSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-jkbose-board-9-10,jkbose-board,class-9,class-10,REGISTRATION_CONTINUITY,JKBOSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-kerala-board-11-12,kerala-board,class-11,class-12,SUBJECT_CONTINUITY,DHSE Kerala Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-kerala-board-9-10,kerala-board,class-9,class-10,REGISTRATION_CONTINUITY,DHSE Kerala Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-kseab-karnataka-11-12,kseab-karnataka,class-11,class-12,SUBJECT_CONTINUITY,KSEAB Karnataka Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-kseab-karnataka-9-10,kseab-karnataka,class-9,class-10,REGISTRATION_CONTINUITY,KSEAB Karnataka Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-maharashtra-board-11-12,maharashtra-board,class-11,class-12,SUBJECT_CONTINUITY,MSBSHSE Maharashtra Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-maharashtra-board-9-10,maharashtra-board,class-9,class-10,REGISTRATION_CONTINUITY,MSBSHSE Maharashtra Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-mbose-board-11-12,mbose-board,class-11,class-12,SUBJECT_CONTINUITY,MBOSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-mbose-board-9-10,mbose-board,class-9,class-10,REGISTRATION_CONTINUITY,MBOSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-mbse-board-11-12,mbse-board,class-11,class-12,SUBJECT_CONTINUITY,MBSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-mbse-board-9-10,mbse-board,class-9,class-10,REGISTRATION_CONTINUITY,MBSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-mpbse-board-11-12,mpbse-board,class-11,class-12,SUBJECT_CONTINUITY,MPBSE Madhya Pradesh Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-mpbse-board-9-10,mpbse-board,class-9,class-10,REGISTRATION_CONTINUITY,MPBSE Madhya Pradesh Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-nbse-board-11-12,nbse-board,class-11,class-12,SUBJECT_CONTINUITY,NBSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-nbse-board-9-10,nbse-board,class-9,class-10,REGISTRATION_CONTINUITY,NBSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-nios-board-11-12,nios-board,class-11,class-12,SUBJECT_CONTINUITY,NIOS Open School Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-nios-board-9-10,nios-board,class-9,class-10,REGISTRATION_CONTINUITY,NIOS Open School Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-pseb-11-12,pseb-punjab,class-11,class-12,STREAM_CONTINUITY,PSEB Senior Secondary Stream Continuity,YES,75,NO,VERIFIED
+dep-pseb-9-10,pseb-punjab,class-9,class-10,SUBJECT_CONTINUITY,PSEB Punjabi Language Compulsory Invariant,YES,75,NO,VERIFIED
+dep-pseb-punjab-11-12,pseb-punjab,class-11,class-12,SUBJECT_CONTINUITY,PSEB Punjab Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-pseb-punjab-9-10,pseb-punjab,class-9,class-10,REGISTRATION_CONTINUITY,PSEB Punjab Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-rbse-11-12,rbse-rajasthan,class-11,class-12,SUBJECT_CONTINUITY,RBSE Senior Secondary Practical & Stream Invariant,YES,75,NO,VERIFIED
+dep-rbse-9-10,rbse-rajasthan,class-9,class-10,ANNUAL_PROMOTION,RBSE Shala Darpan Progression & Third Language,YES,75,NO,VERIFIED
+dep-rbse-rajasthan-11-12,rbse-rajasthan,class-11,class-12,SUBJECT_CONTINUITY,RBSE Rajasthan Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-rbse-rajasthan-9-10,rbse-rajasthan,class-9,class-10,REGISTRATION_CONTINUITY,RBSE Rajasthan Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-seba-ahsec-assam-11-12,seba-ahsec-assam,class-11,class-12,SUBJECT_CONTINUITY,SEBA & AHSEC Assam Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-seba-ahsec-assam-9-10,seba-ahsec-assam,class-9,class-10,REGISTRATION_CONTINUITY,SEBA & AHSEC Assam Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-tbse-board-11-12,tbse-board,class-11,class-12,SUBJECT_CONTINUITY,TBSE Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-tbse-board-9-10,tbse-board,class-9,class-10,REGISTRATION_CONTINUITY,TBSE Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-tndge-11-12,tndge-tamilnadu,class-11,class-12,BOARD_EXAM_CONTINUITY,TNDGE Plus One & Plus Two Integrated Board Rules,YES,75,NO,VERIFIED
+dep-tndge-9-10,tndge-tamilnadu,class-9,class-10,SUBJECT_CONTINUITY,TNDGE Tamil Learning Act & EMIS Attendance,YES,75,NO,VERIFIED
+dep-tndge-tamilnadu-11-12,tndge-tamilnadu,class-11,class-12,SUBJECT_CONTINUITY,TNDGE Tamil Nadu Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-tndge-tamilnadu-9-10,tndge-tamilnadu,class-9,class-10,REGISTRATION_CONTINUITY,TNDGE Tamil Nadu Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-tsbie-bieap-11-12,tsbie-bieap,class-11,class-12,SUBJECT_CONTINUITY,TSBIE & BIEAP (TS/AP) Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-tsbie-bieap-9-10,tsbie-bieap,class-9,class-10,REGISTRATION_CONTINUITY,TSBIE & BIEAP (TS/AP) Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-ubse-uttarakhand-11-12,ubse-uttarakhand,class-11,class-12,SUBJECT_CONTINUITY,UBSE Uttarakhand Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-ubse-uttarakhand-9-10,ubse-uttarakhand,class-9,class-10,REGISTRATION_CONTINUITY,UBSE Uttarakhand Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-upmsp-11-12,upmsp-board,class-11,class-12,STREAM_CONTINUITY,UPMSP Intermediate Subject Group Invariant,YES,75,NO,VERIFIED
+dep-upmsp-9-10,upmsp-board,class-9,class-10,REGISTRATION_CONTINUITY,UPMSP 9th Advance Registration Verification,YES,75,NO,VERIFIED
+dep-upmsp-board-11-12,upmsp-board,class-11,class-12,SUBJECT_CONTINUITY,UPMSP (UP Board) Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-upmsp-board-9-10,upmsp-board,class-9,class-10,REGISTRATION_CONTINUITY,UPMSP (UP Board) Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED
+dep-wbbse-wb-11-12,wbbse-wb,class-11,class-12,SUBJECT_CONTINUITY,WBBSE & WBCHSE Bengal Stream Specialization & Subject Lock Invariant,YES,75,NO,VERIFIED
+dep-wbbse-wb-9-10,wbbse-wb,class-9,class-10,REGISTRATION_CONTINUITY,WBBSE & WBCHSE Bengal Class 9 Online Registration & LOC Invariant,YES,75,NO,VERIFIED

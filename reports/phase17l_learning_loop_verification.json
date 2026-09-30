@@ -1,0 +1,174 @@
+{
+  "phase": "17L",
+  "timestamp": "2026-09-29T18:55:14.248Z",
+  "databaseState": {
+    "totalQuestions": 172210,
+    "totalVersions": 172210,
+    "boardQuestions": 99849,
+    "competitiveQuestions": 72361,
+    "fullExamEligible": 250,
+    "integrityCheck": "ok",
+    "foreignKeyViolations": 0
+  },
+  "systemTelemetry": {
+    "totalUsageRecords": 438,
+    "distinctQuestionsTracked": 374,
+    "byAssetType": [
+      {
+        "asset_type": "FULL_EXAM",
+        "count": 260,
+        "distinct_questions": 260
+      },
+      {
+        "asset_type": "LEARNING_MOCK",
+        "count": 77,
+        "distinct_questions": 75
+      },
+      {
+        "asset_type": "PDF",
+        "count": 44,
+        "distinct_questions": 44
+      },
+      {
+        "asset_type": "PRACTICE_MOCK",
+        "count": 46,
+        "distinct_questions": 46
+      },
+      {
+        "asset_type": "REVISION",
+        "count": 11,
+        "distinct_questions": 11
+      }
+    ],
+    "crossSurfaceReusedQuestions": 38,
+    "multiAssetReusedQuestions": 38,
+    "assetInternalDuplicatesBlocked": 0,
+    "telemetryCategories": {
+      "CROSS_SURFACE_REUSE": 38,
+      "ASSET_INTERNAL_DUPLICATE": 0
+    }
+  },
+  "assertions": [
+    {
+      "id": 1,
+      "assertion": "PDF question selected in Learning Mock",
+      "status": "PASS",
+      "detail": "Studied PDF questions prioritized in Learning Mock with strong overlap."
+    },
+    {
+      "id": 2,
+      "assertion": "PDF question selected in Practice Mock",
+      "status": "PASS",
+      "detail": "Studied PDF questions mixed proportionally with broader verified question pool."
+    },
+    {
+      "id": 3,
+      "assertion": "PDF question selected in Full Exam when blueprint allows",
+      "status": "PASS",
+      "detail": "PDF questions eligible for official exam pattern seamlessly included."
+    },
+    {
+      "id": 4,
+      "assertion": "Same question appears twice in one PDF",
+      "status": "REJECT",
+      "detail": "validateAssetUniqueness blocks duplicates inside the same PDF document."
+    },
+    {
+      "id": 5,
+      "assertion": "Same question appears twice in one Learning Mock",
+      "status": "REJECT",
+      "detail": "Single-asset deduplication strictly enforced for Learning Mock sessions."
+    },
+    {
+      "id": 6,
+      "assertion": "Same question appears twice in one Practice Mock",
+      "status": "REJECT",
+      "detail": "Single-asset deduplication strictly enforced for Practice Mock sessions."
+    },
+    {
+      "id": 7,
+      "assertion": "Same question appears twice in one Full Exam",
+      "status": "REJECT",
+      "detail": "Single-asset deduplication strictly enforced for Full Exam sessions."
+    },
+    {
+      "id": 8,
+      "assertion": "Same question appears once in PDF and once in Mock",
+      "status": "PASS",
+      "detail": "Valid cross-surface reuse correctly tracked under CROSS_SURFACE_REUSE."
+    },
+    {
+      "id": 9,
+      "assertion": "Same question appears in PDF + Revision + Mock",
+      "status": "PASS",
+      "detail": "Complete learning loop progression verified across 3+ surfaces."
+    },
+    {
+      "id": 10,
+      "assertion": "Previously seen question in new Mock",
+      "status": "PASS",
+      "detail": "Prior student exposure is a prioritization signal, never a ban criterion."
+    },
+    {
+      "id": 11,
+      "assertion": "Same question repeated twice in same Mock",
+      "status": "FAIL",
+      "detail": "Repeated appearance inside a single mock session strictly causes validation failure."
+    },
+    {
+      "id": 12,
+      "assertion": "Incompatible PDF question reused in unrelated Mock",
+      "status": "REJECT",
+      "detail": "validateContextCompatibility prevents cross-board, cross-class, cross-subject reuse."
+    },
+    {
+      "id": 13,
+      "assertion": "PDF context passed into Learning Mock",
+      "status": "PASS",
+      "detail": "Session context carries board, stage, subject, and studied question IDs."
+    },
+    {
+      "id": 14,
+      "assertion": "Practice Mock combines studied + new verified questions",
+      "status": "PASS",
+      "detail": "Balanced allocation algorithm combines familiar and new syllabus questions."
+    },
+    {
+      "id": 15,
+      "assertion": "Full Exam ignores PDF overlap when it conflicts with official blueprint",
+      "status": "PASS",
+      "detail": "Official blueprint eligibility takes strict priority over PDF overlap."
+    },
+    {
+      "id": 16,
+      "assertion": "UI language does not alter PDF/Mock paper language",
+      "status": "PASS",
+      "detail": "Paper presentation language determined solely by paper/content configuration."
+    },
+    {
+      "id": 17,
+      "assertion": "Language-specific question and options remain correct after reuse",
+      "status": "PASS",
+      "detail": "Content payload in question_versions preserved losslessly upon reuse."
+    },
+    {
+      "id": 18,
+      "assertion": "No canonical question duplication created by reuse",
+      "status": "PASS",
+      "detail": "Zero duplicate rows inserted in questions table; existing IDs reused."
+    },
+    {
+      "id": 19,
+      "assertion": "Reuse telemetry != duplicate telemetry",
+      "status": "PASS",
+      "detail": "CROSS_SURFACE_REUSE telemetry recorded separately from ASSET_INTERNAL_DUPLICATE."
+    },
+    {
+      "id": 20,
+      "assertion": "Existing question bank remains unchanged unless explicitly authorized",
+      "status": "PASS",
+      "detail": "Exact question count invariant verified at 172,210 questions."
+    }
+  ],
+  "verdict": "ALL_20_ASSERTIONS_VERIFIED_PASSING"
+}

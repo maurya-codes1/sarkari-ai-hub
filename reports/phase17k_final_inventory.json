@@ -1,0 +1,495 @@
+{
+  "phase": "17K",
+  "title": "Final Remaining Board Academic Gap Audit & Targeted Completion",
+  "timestamp": "2026-09-29T16:59:46.630Z",
+  "checksums": {
+    "pre_production_sha256": "7d53ed717800bb0562f5daf13211ee9db5d08f26bcb7432e3bb170109f831019",
+    "post_production_sha256": "e6b85b343ab6e70e4503a3d5c7c14bb3c890671ab706fdba5fa0d2c0b6aad2f5"
+  },
+  "metrics": {
+    "total_persistent_questions": 172210,
+    "pre_phase17k_questions": 167410,
+    "phase17k_net_additions": 4800,
+    "school_board_questions": 99849,
+    "competitive_questions": 72361,
+    "full_exam_eligible_questions": 250,
+    "full_exam_dilution": 0,
+    "subjective_p17k_count": 1200,
+    "subjective_model_answer_compliance_pct": 100,
+    "fingerprint_collision_count": 0
+  },
+  "stage_distribution": [
+    {
+      "stage_name": "Competitive / Unspecified",
+      "total_q": 98987,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "Class 12",
+      "total_q": 35600,
+      "p17k_q": 3600
+    },
+    {
+      "stage_name": "Class 10",
+      "total_q": 32600,
+      "p17k_q": 1200
+    },
+    {
+      "stage_name": "Class 9",
+      "total_q": 2420,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "Class 11",
+      "total_q": 2220,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "Tier 1",
+      "total_q": 101,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "PRELIMS",
+      "total_q": 100,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "Annual Board Exam",
+      "total_q": 39,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "WRITTEN",
+      "total_q": 38,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "PAPER_1",
+      "total_q": 30,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "CBT_1",
+      "total_q": 30,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "Annual",
+      "total_q": 25,
+      "p17k_q": 0
+    },
+    {
+      "stage_name": "BOARD",
+      "total_q": 20,
+      "p17k_q": 0
+    }
+  ],
+  "question_types_distribution": [
+    {
+      "format_category": "Subjective",
+      "question_type_id": "short_answer",
+      "total_q": 21720,
+      "p17k_q": 408
+    },
+    {
+      "format_category": "Subjective",
+      "question_type_id": "case_study",
+      "total_q": 7945,
+      "p17k_q": 384
+    },
+    {
+      "format_category": "Subjective",
+      "question_type_id": "long_answer",
+      "total_q": 7909,
+      "p17k_q": 408
+    },
+    {
+      "format_category": "Objective",
+      "question_type_id": "single_mcq",
+      "total_q": 110377,
+      "p17k_q": 2688
+    },
+    {
+      "format_category": "Objective",
+      "question_type_id": "assertion_reason",
+      "total_q": 15607,
+      "p17k_q": 912
+    },
+    {
+      "format_category": "Objective",
+      "question_type_id": "numerical",
+      "total_q": 8652,
+      "p17k_q": 0
+    }
+  ],
+  "stream_distribution": [
+    {
+      "stream_category": "Commerce",
+      "boards_covered": 8,
+      "total_class12_q": 4000,
+      "p17k_q": 0
+    },
+    {
+      "stream_category": "Humanities / Arts",
+      "boards_covered": 6,
+      "total_class12_q": 3600,
+      "p17k_q": 3600
+    },
+    {
+      "stream_category": "Languages / General",
+      "boards_covered": 1,
+      "total_class12_q": 200,
+      "p17k_q": 0
+    },
+    {
+      "stream_category": "Science",
+      "boards_covered": 28,
+      "total_class12_q": 27800,
+      "p17k_q": 0
+    }
+  ],
+  "board_distribution": [
+    {
+      "b_id": "bseap-board",
+      "board_name": "Board of Secondary Education Andhra Pradesh",
+      "jurisdiction": "STATE",
+      "total_q": 1050,
+      "p17k_q": 0,
+      "class_10_q": 1050,
+      "class_12_q": 0,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "bseb-bihar",
+      "board_name": "Bihar Board BSEB (Matric 10th & Inter 12th)",
+      "jurisdiction": "State",
+      "total_q": 4060,
+      "p17k_q": 600,
+      "class_10_q": 1700,
+      "class_12_q": 2100,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "bseh-haryana",
+      "board_name": "Haryana Board (BSEH Bhiwani 10th & 12th)",
+      "jurisdiction": "State",
+      "total_q": 2510,
+      "p17k_q": 200,
+      "class_10_q": 1250,
+      "class_12_q": 1000,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "bsem-board",
+      "board_name": "Board of Secondary Education Manipur",
+      "jurisdiction": "STATE",
+      "total_q": 1600,
+      "p17k_q": 0,
+      "class_10_q": 600,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "bsetg-board",
+      "board_name": "Directorate of Government Examinations Telangana",
+      "jurisdiction": "STATE",
+      "total_q": 1050,
+      "p17k_q": 0,
+      "class_10_q": 1050,
+      "class_12_q": 0,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "cbse-board",
+      "board_name": "CBSE Board (Class 10th & 12th)",
+      "jurisdiction": "National",
+      "total_q": 26970,
+      "p17k_q": 0,
+      "class_10_q": 0,
+      "class_12_q": 0,
+      "class_9_q": 600,
+      "class_11_q": 400
+    },
+    {
+      "b_id": "cgbse-chhattisgarh",
+      "board_name": "Chhattisgarh Board (CGBSE Raipur 10th & 12th)",
+      "jurisdiction": "State",
+      "total_q": 2250,
+      "p17k_q": 200,
+      "class_10_q": 1250,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "chse-bse-odisha",
+      "board_name": "Odisha Board (BSE Matric 10th & CHSE +2 Council)",
+      "jurisdiction": "State",
+      "total_q": 2710,
+      "p17k_q": 0,
+      "class_10_q": 1450,
+      "class_12_q": 1000,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "gbshse-board",
+      "board_name": "Goa Board of Secondary and Higher Secondary Education",
+      "jurisdiction": "STATE",
+      "total_q": 2150,
+      "p17k_q": 200,
+      "class_10_q": 1150,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "gseb-gujarat",
+      "board_name": "Gujarat Board (GSEB SSC 10th & HSC 12th)",
+      "jurisdiction": "State",
+      "total_q": 3210,
+      "p17k_q": 0,
+      "class_10_q": 1450,
+      "class_12_q": 1500,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "hpbose-board",
+      "board_name": "Himachal Pradesh Board of School Education",
+      "jurisdiction": "STATE",
+      "total_q": 2250,
+      "p17k_q": 200,
+      "class_10_q": 1250,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "icse-cisce",
+      "board_name": "ICSE & ISC Board (Class 10th & 12th)",
+      "jurisdiction": "National",
+      "total_q": 2000,
+      "p17k_q": 0,
+      "class_10_q": 1000,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "jac-jharkhand",
+      "board_name": "Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",
+      "jurisdiction": "State",
+      "total_q": 2510,
+      "p17k_q": 200,
+      "class_10_q": 1250,
+      "class_12_q": 1000,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "jkbose-board",
+      "board_name": "Jammu & Kashmir Board of School Education",
+      "jurisdiction": "STATE",
+      "total_q": 1800,
+      "p17k_q": 0,
+      "class_10_q": 800,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "kerala-board",
+      "board_name": "Kerala Directorate of General Education & Pareeksha Bhavan",
+      "jurisdiction": "STATE",
+      "total_q": 2460,
+      "p17k_q": 0,
+      "class_10_q": 1200,
+      "class_12_q": 1000,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "kseab-karnataka",
+      "board_name": "Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",
+      "jurisdiction": "State",
+      "total_q": 2960,
+      "p17k_q": 0,
+      "class_10_q": 1200,
+      "class_12_q": 1500,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "maharashtra-board",
+      "board_name": "Maharashtra State Board (SSC 10th & HSC 12th)",
+      "jurisdiction": "State",
+      "total_q": 3567,
+      "p17k_q": 600,
+      "class_10_q": 1200,
+      "class_12_q": 2100,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "mbose-board",
+      "board_name": "Meghalaya Board of School Education",
+      "jurisdiction": "STATE",
+      "total_q": 1600,
+      "p17k_q": 0,
+      "class_10_q": 600,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "mbse-board",
+      "board_name": "Mizoram Board of School Education",
+      "jurisdiction": "STATE",
+      "total_q": 1600,
+      "p17k_q": 0,
+      "class_10_q": 600,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "mpbse-board",
+      "board_name": "MP Board (MPBSE 10th & 12th Bhopal)",
+      "jurisdiction": "State",
+      "total_q": 3610,
+      "p17k_q": 600,
+      "class_10_q": 1250,
+      "class_12_q": 2100,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "nbse-board",
+      "board_name": "Nagaland Board of School Education",
+      "jurisdiction": "STATE",
+      "total_q": 1600,
+      "p17k_q": 0,
+      "class_10_q": 600,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "nios-board",
+      "board_name": "NIOS Board (National Institute of Open Schooling)",
+      "jurisdiction": "National",
+      "total_q": 1800,
+      "p17k_q": 0,
+      "class_10_q": 800,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "pseb-punjab",
+      "board_name": "Punjab Board (PSEB Mohali 10th & 12th)",
+      "jurisdiction": "State",
+      "total_q": 2710,
+      "p17k_q": 0,
+      "class_10_q": 1450,
+      "class_12_q": 1000,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "rbse-rajasthan",
+      "board_name": "Rajasthan Board (RBSE 10th & 12th Ajmer)",
+      "jurisdiction": "State",
+      "total_q": 3610,
+      "p17k_q": 600,
+      "class_10_q": 1250,
+      "class_12_q": 2100,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "seba-ahsec-assam",
+      "board_name": "Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",
+      "jurisdiction": "State",
+      "total_q": 2200,
+      "p17k_q": 0,
+      "class_10_q": 1200,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "tbse-board",
+      "board_name": "Tripura Board of Secondary Education",
+      "jurisdiction": "STATE",
+      "total_q": 1600,
+      "p17k_q": 0,
+      "class_10_q": 600,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "tndge-tamilnadu",
+      "board_name": "Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",
+      "jurisdiction": "State",
+      "total_q": 2792,
+      "p17k_q": 0,
+      "class_10_q": 1000,
+      "class_12_q": 1000,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "tsbie-bieap",
+      "board_name": "Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",
+      "jurisdiction": "State",
+      "total_q": 1500,
+      "p17k_q": 0,
+      "class_10_q": 0,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "ubse-uttarakhand",
+      "board_name": "Uttarakhand Board (UBSE Ramnagar 10th & 12th)",
+      "jurisdiction": "State",
+      "total_q": 2250,
+      "p17k_q": 200,
+      "class_10_q": 1250,
+      "class_12_q": 1000,
+      "class_9_q": 0,
+      "class_11_q": 0
+    },
+    {
+      "b_id": "upmsp-board",
+      "board_name": "UP Board (High School & Intermediate 10th/12th)",
+      "jurisdiction": "State",
+      "total_q": 4060,
+      "p17k_q": 600,
+      "class_10_q": 1700,
+      "class_12_q": 2100,
+      "class_9_q": 130,
+      "class_11_q": 130
+    },
+    {
+      "b_id": "wbbse-wb",
+      "board_name": "West Bengal Board (Madhyamik 10th & WBCHSE 12th)",
+      "jurisdiction": "State",
+      "total_q": 3810,
+      "p17k_q": 600,
+      "class_10_q": 1450,
+      "class_12_q": 2100,
+      "class_9_q": 130,
+      "class_11_q": 130
+    }
+  ]
+}

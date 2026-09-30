@@ -1,0 +1,17 @@
+surface_id,surface_name,master_key_count,en_coverage_pct,hi_coverage_pct,regional_avg_coverage_pct,fallback_policy,sample_keys
+nav_header,"Navigation, Header & Brand Bar",55,100.0%,100.0%,99.2%,KEY_LEVEL_ENGLISH_FALLBACK,nav_lang_select; brand_title; brand_badge
+hero_quick,"Hero Banner, Quick Access & Announcements",20,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,hero_badge; hero_title; hero_subtitle
+resizer_tools,Photo & Signature Resizer Lab,33,100.0%,100.0%,99.4%,KEY_LEVEL_ENGLISH_FALLBACK,resizer_title; resizer_subtitle; custom_mode
+rules_ai,AI Rules Decoder & Circular Parser,10,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,ai_title; ai_subtitle; ai_input_placeholder
+age_calc,Age & Cutoff Eligibility Calculator,32,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,age_title; age_subtitle; dob_label
+salary_calc,7th CPC In-Hand Salary Calculator,6,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,salary_form_title; salary_post_label; salary_city_label
+physical_calc,Physical Standards & Endurance (PET/PST),6,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,phys_form_title; phys_height; phys_chest_unexp
+typing_test,Typing Test & Speed Evaluator,6,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,typing_font_label; typing_duration_label; typing_passage_label
+dv_checker,Document Verification (DV) Checker,7,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,dv_form_title; dv_category_label; dv_crucial_label
+exam_directory,Exam Directory & School Board Hub,124,100.0%,99.2%,98.3%,KEY_LEVEL_ENGLISH_FALLBACK,exam_target_label; directory_title; directory_subtitle
+study_planner,Study Planner & Syllabus Tracker,13,100.0%,100.0%,93.8%,KEY_LEVEL_ENGLISH_FALLBACK,planner_form_title; planner_profile_label; planner_gen_btn
+mock_cbt,Live CBT Exam Engine & Quiz Palette,53,100.0%,100.0%,99.4%,KEY_LEVEL_ENGLISH_FALLBACK,quiz_select_set_title; quiz_select_set_sub; quiz_target_exam
+pdf_omr,Official PDF Papers & OMR Sheet Generator,44,100.0%,90.9%,90.7%,KEY_LEVEL_ENGLISH_FALLBACK,omr_modal_title; omr_modal_download_btn; anskey_badge
+notes_vault,₹10 Notes Vault & UPI Checkout,16,100.0%,100.0%,100.0%,KEY_LEVEL_ENGLISH_FALLBACK,notes_title; notes_subtitle; unlock_btn
+rank_waiver,Rank Predictor & Fee Waiver Concession,37,100.0%,100.0%,84.9%,KEY_LEVEL_ENGLISH_FALLBACK,rank_title; rank_sub; waiver_title
+system_footer,"System Banners, Privacy & Footer Modals",74,100.0%,100.0%,98.0%,KEY_LEVEL_ENGLISH_FALLBACK,search_placeholder; footer_disclaimer; all_rights

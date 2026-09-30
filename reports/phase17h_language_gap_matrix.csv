@@ -1,0 +1,252 @@
+state,board,class,subject,officialLanguage,questionCount,objectiveCount,subjectiveCount,modelAnswerCount,target,shortage,status
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",en,39,20,19,0,250,211,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",hi,39,20,19,0,250,211,PARTIAL
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Annual","subj-tamil",ta,25,25,0,0,250,225,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-science",hi,11530,11523,7,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-science",en,11530,11523,7,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","BOARD","subj-science",en,20,20,0,0,250,230,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","BOARD","subj-science",hi,20,20,0,0,250,230,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-social",en,10081,3414,6667,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-social",hi,10081,3414,6667,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",en,507,250,257,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",ta,507,250,257,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",en,257,200,57,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",mr,257,200,57,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-math12",en,2200,1467,733,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-math12",hi,2200,1467,733,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",hi,900,450,450,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",en,900,450,450,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",en,600,400,200,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",hi,600,400,200,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-business",en,600,200,400,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-business",hi,600,200,400,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",te,500,250,250,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",en,500,250,250,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",pa,350,280,70,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",en,350,280,70,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",pa,300,240,60,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",pa,300,240,60,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",pa,250,200,50,0,250,0,COMPLETE
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",bn,350,280,70,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",en,350,280,70,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",bn,300,240,60,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",bn,300,240,60,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",bn,250,200,50,0,250,0,COMPLETE
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",gu,350,280,70,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",en,350,280,70,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",gu,300,240,60,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",gu,300,240,60,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",gu,250,200,50,0,250,0,COMPLETE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",kn,350,280,70,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",en,350,280,70,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",kn,300,240,60,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",kn,300,240,60,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",kn,250,200,50,0,250,0,COMPLETE
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",ml,350,280,70,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",en,350,280,70,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",ml,300,240,60,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",ml,300,240,60,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",ml,250,200,50,0,250,0,COMPLETE
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",or,350,280,70,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",en,350,280,70,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",or,300,240,60,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",or,300,240,60,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",or,250,200,50,0,250,0,COMPLETE
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",as,350,280,70,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",en,350,280,70,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",as,300,240,60,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",as,300,240,60,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",as,250,200,50,0,250,0,COMPLETE
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",mr,350,280,70,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",en,350,280,70,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",mr,300,240,60,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",mr,300,240,60,0,250,0,COMPLETE
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",ta,350,280,70,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",en,350,280,70,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",ta,350,280,70,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",en,350,280,70,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",ta,300,240,60,0,250,0,COMPLETE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",en,300,240,60,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",te,300,240,60,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",en,300,240,60,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",te,250,200,50,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",en,250,200,50,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",te,250,200,50,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",en,250,200,50,0,250,0,COMPLETE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",te,200,160,40,0,250,50,PARTIAL
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",en,200,160,40,0,250,50,PARTIAL
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",te,250,200,50,0,250,0,COMPLETE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",en,250,200,50,0,250,0,COMPLETE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-science",te,200,160,40,0,250,50,PARTIAL
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-math",te,200,160,40,0,250,50,PARTIAL
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-social",te,150,120,30,0,250,100,PARTIAL
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-social",en,150,120,30,0,250,100,PARTIAL
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-telugu",te,250,200,50,0,250,0,COMPLETE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-telugu",en,250,200,50,0,250,0,COMPLETE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-science",te,200,160,40,0,250,50,PARTIAL
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-math",te,200,160,40,0,250,50,PARTIAL
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-social",te,150,120,30,0,250,100,PARTIAL
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-social",en,150,120,30,0,250,100,PARTIAL
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",hi,300,240,60,0,250,0,COMPLETE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",en,300,240,60,0,250,0,COMPLETE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",hi,300,240,60,0,250,0,COMPLETE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",hi,300,240,60,0,250,0,COMPLETE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",hi,100,80,20,0,250,150,PARTIAL
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",en,100,80,20,0,250,150,PARTIAL
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",hi,300,240,60,0,250,0,COMPLETE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",en,300,240,60,0,250,0,COMPLETE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",hi,300,240,60,0,250,0,COMPLETE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",hi,300,240,60,0,250,0,COMPLETE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",hi,100,80,20,0,250,150,PARTIAL
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",en,100,80,20,0,250,150,PARTIAL
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",hi,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",en,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",hi,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",en,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",hi,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",en,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",hi,250,200,50,0,250,0,COMPLETE
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",hi,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",en,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",hi,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",en,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",hi,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",en,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",hi,250,200,50,0,250,0,COMPLETE
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",en,250,200,50,0,250,0,COMPLETE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",hi,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",en,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",hi,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",hi,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",hi,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",en,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",hi,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",hi,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",hi,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",en,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",hi,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",hi,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",hi,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",en,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",hi,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",hi,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-hindi",hi,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-hindi",en,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-science",hi,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-math",hi,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-urdu",en,200,160,40,0,250,50,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-urdu",ur,40,0,40,0,250,210,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-english",en,200,160,40,0,250,50,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-english",ur,40,0,40,0,250,210,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-science",ur,40,0,40,0,250,210,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-math",ur,40,0,40,0,250,210,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",en,200,160,40,0,250,50,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",mr,40,0,40,0,250,210,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",mr,40,0,40,0,250,210,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",mr,40,0,40,0,250,210,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",en,100,80,20,0,250,150,PARTIAL
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",mr,20,0,20,0,250,230,PARTIAL
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-social",en,100,80,20,0,250,150,PARTIAL
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-english",en,100,80,20,0,250,150,PARTIAL
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-social",en,100,80,20,0,250,150,PARTIAL
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-english",en,100,80,20,0,250,150,PARTIAL
+"Mizoram","Mizoram Board of School Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Mizoram","Mizoram Board of School Education","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Mizoram","Mizoram Board of School Education","Class 10","subj-social",en,100,80,20,0,250,150,PARTIAL
+"Mizoram","Mizoram Board of School Education","Class 10","subj-english",en,100,80,20,0,250,150,PARTIAL
+"Nagaland","Nagaland Board of School Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Nagaland","Nagaland Board of School Education","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"Nagaland","Nagaland Board of School Education","Class 10","subj-social",en,100,80,20,0,250,150,PARTIAL
+"Nagaland","Nagaland Board of School Education","Class 10","subj-english",en,100,80,20,0,250,150,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-bengali",bn,200,160,40,0,250,50,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-bengali",en,200,160,40,0,250,50,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-science",bn,200,160,40,0,250,50,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-math",bn,100,80,20,0,250,150,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-math",en,100,80,20,0,250,150,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-social",bn,100,80,20,0,250,150,PARTIAL
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-social",en,100,80,20,0,250,150,PARTIAL
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",en,300,240,60,0,250,0,COMPLETE
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",en,300,240,60,0,250,0,COMPLETE
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",en,200,160,40,0,250,50,PARTIAL
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",hi,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",en,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",hi,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",en,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",hi,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",en,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",hi,200,160,40,0,250,50,PARTIAL
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",en,200,160,40,0,250,50,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-science",en,300,240,60,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-science",hi,60,0,60,0,250,190,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-math",en,300,240,60,0,250,0,COMPLETE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-math",hi,60,0,60,0,250,190,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-physics",en,200,160,40,0,250,50,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-physics",hi,40,0,40,0,250,210,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",en,200,160,40,0,250,50,PARTIAL
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",hi,40,0,40,0,250,210,PARTIAL

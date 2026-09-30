@@ -1,0 +1,2 @@
+exam,component,version,subject,section,expectedType,actualType,expectedCount,actualCount,language,issue,severity,action
+"none","none","none","none","none","none","none",0,0,"none","NO_CRITICAL_PATTERN_MISMATCHES","INFO","MAINTAIN"

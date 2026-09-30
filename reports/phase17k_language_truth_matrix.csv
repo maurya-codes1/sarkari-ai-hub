@@ -1,0 +1,14 @@
+language_code,language_name,native_script,question_versions_count,board_count,sample_verified,status
+en,English,Latin,167385,31,YES,VERIFIED
+hi,Hindi,Devanagari,120291,11,YES,VERIFIED
+te,Telugu,Telugu,3100,3,YES,VERIFIED
+bn,Bengali,Bengali,4560,2,YES,VERIFIED
+ta,Tamil,Tamil,2792,1,YES,VERIFIED
+mr,Marathi,Devanagari,3107,2,YES,VERIFIED
+pa,Punjabi,Gurmukhi,2460,1,YES,VERIFIED
+gu,Gujarati,Gujarati,2960,1,YES,VERIFIED
+kn,Kannada,Kannada,2960,1,YES,VERIFIED
+ml,Malayalam,Malayalam,2460,1,YES,VERIFIED
+or,Odia,Odia,2460,1,YES,VERIFIED
+as,Assamese,Bengali-Assamese,2200,1,YES,VERIFIED
+ur,Urdu,Nastaliq / Arabic-Persian,1660,3,YES,VERIFIED

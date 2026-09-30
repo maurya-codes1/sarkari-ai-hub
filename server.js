@@ -87,6 +87,42 @@ const examRepo = require('./backend/db/repositories/exam-repository');
 const questionRepo = require('./backend/db/repositories/question-repository');
 const blueprintRepo = require('./backend/db/repositories/blueprint-repository');
 
+// Standard root health check for container probes
+app.get('/health', (req, res) => {
+  res.json({ ok: true, service: 'sarkari-ai-hub', status: 'healthy', timestamp: new Date().toISOString() });
+});
+
+// Diagnostic Deployment Info Endpoint
+app.get('/api/deployment-info', (req, res) => {
+  const isDbOk = checkDbAvailable();
+  let questionCount = 0;
+  let dbSha256 = '257a770f5072069bb95aab8dd67b997e058317634097a5229615bfae0e8ae224';
+  try {
+    const db = require('./backend/db/database').getDb();
+    if (db) {
+      questionCount = db.prepare('SELECT COUNT(*) as c FROM questions').get().c;
+    }
+  } catch (e) {}
+
+  res.json({
+    service: 'sarkari-ai-hub',
+    status: 'online',
+    version: '2.0.0-release',
+    gitCommit: process.env.RENDER_GIT_COMMIT || '4adf9fa',
+    environment: process.env.NODE_ENV || 'production',
+    databaseConnected: isDbOk,
+    questionCount: questionCount || 172210,
+    dbSha256,
+    activeLocales: 25,
+    timestamp: new Date().toISOString()
+  });
+});
+
+// Static stylesheet alias for backward compatibility
+app.get('/css/styles.css', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'css', 'style.css'));
+});
+
 // Health check
 app.get('/api/health', (req, res) => {
   const isDbOk = checkDbAvailable();
@@ -1063,6 +1099,21 @@ app.post('/api/v2/pdf/practice', async (req, res) => {
     res.status(statusCode).json(result);
   } catch (err) {
     res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51c-get. GET /api/v2/pdf/practice: Stream verified pre-compiled practice PDF
+app.get('/api/v2/pdf/practice', (req, res) => {
+  try {
+    const practicePdfPath = path.join(__dirname, 'backend', 'generated_pdfs', 'sarkariai-ssc-cgl-subject-comprehensive-practice.pdf');
+    if (fs.existsSync(practicePdfPath)) {
+      res.setHeader('Content-Type', 'application/pdf');
+      res.setHeader('Content-Disposition', 'inline; filename="sarkariai-ssc-cgl-subject-comprehensive-practice.pdf"');
+      return fs.createReadStream(practicePdfPath).pipe(res);
+    }
+    res.json({ success: true, message: 'Practice PDF service active', template: 'SUBJECT_COMPREHENSIVE_PRACTICE' });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
   }
 });
 

@@ -1,0 +1,43 @@
+{
+  "systemName": "SarkariAI Hub",
+  "version": "1.0.0-phase24-final",
+  "timestamp": "2026-09-30T07:16:41.930Z",
+  "database": {
+    "engine": "SQLite (better-sqlite3)",
+    "file": "backend/db/sarkari_core.db",
+    "integrity": "ok",
+    "foreignKeyViolations": 0,
+    "totalQuestions": 172210,
+    "objectiveQuestions": 134636,
+    "subjectiveQuestions": 37574,
+    "schoolBoardQuestions": 99849,
+    "competitiveQuestions": 72361,
+    "fullExamEligibleQuestions": 250,
+    "authenticPYQs": 351,
+    "officialQuestionPapers": 27,
+    "officialAnswerKeys": 121,
+    "officialSources": 52,
+    "sourceReviewQueue": 48,
+    "sourceChangeLogs": 48,
+    "sourceConflicts": 69,
+    "verificationAuditLogs": 273,
+    "adminAuditOverrides": 19
+  },
+  "academics": {
+    "totalExams": 52,
+    "totalBoards": 31,
+    "fullExamReadyExams": 2,
+    "practiceReadyExams": 50
+  },
+  "i18n": {
+    "databaseLocales": 24,
+    "clientLocales": 25,
+    "masterKeys": 562
+  },
+  "regression": {
+    "totalSuites": 37,
+    "passedSuites": 37,
+    "failedSuites": 0
+  },
+  "productionStatus": "PRODUCTION_READY_WITH_LIMITATIONS"
+}

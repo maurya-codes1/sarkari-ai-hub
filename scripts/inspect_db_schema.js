@@ -1,10 +1,10 @@
-// scripts/inspect_db_schema.js
 const Database = require('better-sqlite3');
-const db = new Database('./backend/db/sarkari_core.db');
+const path = require('path');
+const db = new Database(path.join(__dirname, '../backend/db/sarkari_core.db'));
 
-const tables = db.prepare("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name").all();
-console.log('=== TABLES IN SARKARI_CORE.DB ===');
-tables.forEach(t => {
-  const count = db.prepare(`SELECT count(*) as c FROM ${t.name}`).get().c;
-  console.log(`- ${t.name} (${count} rows)`);
-});
+const qIndexes = db.prepare("SELECT name, sql FROM sqlite_master WHERE type = 'index' AND tbl_name = 'questions'").all();
+const vIndexes = db.prepare("SELECT name, sql FROM sqlite_master WHERE type = 'index' AND tbl_name = 'question_versions'").all();
+console.log('Questions indexes:');
+console.table(qIndexes);
+console.log('Question Versions indexes:');
+console.table(vIndexes);

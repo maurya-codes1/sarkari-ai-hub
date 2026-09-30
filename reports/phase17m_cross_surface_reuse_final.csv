@@ -1,0 +1,5 @@
+surface_combination,lifecycle_state,pedagogical_purpose,duplicate_flag,telemetry_classification
+"PDF -> Learning Mock","STUDY -> RECALL","Validate understanding of studied PDF questions","NOT A DUPLICATE","CROSS_SURFACE_REUSE"
+"PDF -> Revision -> Practice Mock","STUDY -> CONSOLIDATE -> PRACTICE","Reinforce core formulas and broader questions","NOT A DUPLICATE","CROSS_SURFACE_REUSE"
+"PDF -> Full Exam","STUDY -> EXAM SIMULATION","Test official pattern when question is blueprint-eligible","NOT A DUPLICATE","CROSS_SURFACE_REUSE"
+"Mock Session -> Same Mock Session","INTERNAL ACCIDENTAL REPETITION","Error in generator loop","STRICT DUPLICATE (REJECTED)","ASSET_INTERNAL_DUPLICATE"

@@ -1,0 +1,26 @@
+locale_code,language_name,script,key_count,ui_support,paper_support
+en,English,Latin,562,NATIVE,NATIVE
+hi,Hindi,Devanagari,562,NATIVE,NATIVE
+bn,Bengali,Bengali,562,NATIVE,NATIVE
+te,Telugu,Telugu,562,NATIVE,NATIVE
+mr,Marathi,Devanagari,562,NATIVE,NATIVE
+ta,Tamil,Tamil,562,NATIVE,NATIVE
+ur,Urdu,Perso-Arabic (RTL),562,NATIVE,NATIVE
+gu,Gujarati,Gujarati,562,NATIVE,NATIVE
+kn,Kannada,Kannada,562,NATIVE,NATIVE
+ml,Malayalam,Malayalam,562,NATIVE,NATIVE
+or,Odia,Odia,562,NATIVE,NATIVE
+pa,Punjabi,Gurmukhi,562,NATIVE,NATIVE
+as,Assamese,Bengali-Assamese,562,NATIVE,NATIVE
+mai,Maithili,Devanagari,562,NATIVE,NATIVE
+sat,Santali,Ol Chiki,562,NATIVE,NATIVE
+ks,Kashmiri,Perso-Arabic (RTL),562,NATIVE,NATIVE
+ne,Nepali,Devanagari,562,NATIVE,NATIVE
+kok,Konkani,Devanagari,562,NATIVE,NATIVE
+sd,Sindhi,Perso-Arabic (RTL),562,NATIVE,NATIVE
+dog,Dogri,Devanagari,562,NATIVE,NATIVE
+mni,Manipuri,Bengali / Meetei Mayek,562,RESERVE_PREVIEW,RESERVE
+brx,Bodo,Devanagari,562,NATIVE,NATIVE
+sa,Sanskrit,Devanagari,562,NATIVE,NATIVE
+bho,Bhojpuri,Devanagari,562,NATIVE,NATIVE
+hinglish,Hinglish,Latin-Devanagari,562,COLLOQUIAL_FALLBACK,FALLBACK

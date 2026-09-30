@@ -1,0 +1,36 @@
+{
+  "phase": "17M",
+  "generatedAt": "2026-09-29T19:21:34.343Z",
+  "integrity": {
+    "status": "ok",
+    "foreignKeyViolations": 0,
+    "preSha256": "102c93c9aa9a91c6d11f266bd72877221ef1af9cb77b9f3139e1d6c7b286f63a",
+    "postSha256": "b2bf9d7a09521a3ceb9399430f0a4807e3eab0b6a184c7a97e6dddf67d249d80"
+  },
+  "totals": {
+    "totalQuestions": 172210,
+    "totalVersions": 172210,
+    "boardQuestions": 99849,
+    "competitiveQuestions": 72361,
+    "fullExamEligible": 250,
+    "objectiveQuestions": 134636,
+    "subjectiveQuestions": 37574,
+    "authenticPyqs": 351,
+    "class10Questions": 32600,
+    "class12Questions": 35600,
+    "class9Questions": 2420,
+    "class11Questions": 2220
+  },
+  "duplicatePrinciple": {
+    "rule": "UNIQUE WITHIN ASSET + REUSABLE ACROSS ASSETS",
+    "assetInternalDuplicates": 0,
+    "crossSurfaceReuseSupported": true
+  },
+  "mockModes": [
+    "LEARNING_MOCK",
+    "PRACTICE_MOCK",
+    "FULL_EXAM"
+  ],
+  "boardsTracked": 31,
+  "regressionSuiteCount": 30
+}

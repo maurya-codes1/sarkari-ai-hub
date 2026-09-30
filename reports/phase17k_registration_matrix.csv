@@ -1,0 +1,71 @@
+registration_id,entity_type,entity_id,academic_year,session_name,general_fee_inr,reserved_fee_inr,official_portal_url,verification_status
+reg-bseap-board-cls10-2025,BOARD_CLASS,bseap-board:class-10,2024-25,BSEAP Secondary (Class 10) Examination 2025,600,300,https://bse.ap.gov.in,VERIFIED
+reg-bseap-board-cls12-2025,BOARD_CLASS,bseap-board:class-12,2024-25,BSEAP Higher Secondary (Class 12) Examination 2025,800,400,https://bse.ap.gov.in,VERIFIED
+reg-bseb-bihar-cls10-2025,BOARD_CLASS,bseb-bihar:class-10,2024-25,BSEB Bihar Board Secondary (Class 10) Examination 2025,600,300,https://biharboardonline.com,VERIFIED
+reg-bseb-bihar-cls12-2025,BOARD_CLASS,bseb-bihar:class-12,2024-25,BSEB Bihar Board Higher Secondary (Class 12) Examination 2025,800,400,https://biharboardonline.com,VERIFIED
+reg-bseb-10-2025,BOARD_CLASS,bseb-cls10-2025,2024-25,BSEB Annual Secondary (Matric) Examination 2025,1010,895,https://secondary.biharboardonline.com,VERIFIED
+reg-bseh-haryana-cls10-2025,BOARD_CLASS,bseh-haryana:class-10,2024-25,BSEH Haryana Secondary (Class 10) Examination 2025,600,300,https://bseh.org.in,VERIFIED
+reg-bseh-haryana-cls12-2025,BOARD_CLASS,bseh-haryana:class-12,2024-25,BSEH Haryana Higher Secondary (Class 12) Examination 2025,800,400,https://bseh.org.in,VERIFIED
+reg-bsem-board-cls10-2025,BOARD_CLASS,bsem-board:class-10,2024-25,BSEM Secondary (Class 10) Examination 2025,600,300,https://bsem.nic.in,VERIFIED
+reg-bsem-board-cls12-2025,BOARD_CLASS,bsem-board:class-12,2024-25,BSEM Higher Secondary (Class 12) Examination 2025,800,400,https://bsem.nic.in,VERIFIED
+reg-bsetg-board-cls10-2025,BOARD_CLASS,bsetg-board:class-10,2024-25,BSETG Secondary (Class 10) Examination 2025,600,300,https://bse.telangana.gov.in,VERIFIED
+reg-bsetg-board-cls12-2025,BOARD_CLASS,bsetg-board:class-12,2024-25,BSETG Higher Secondary (Class 12) Examination 2025,800,400,https://bse.telangana.gov.in,VERIFIED
+reg-cbse-board-cls10-2025,BOARD_CLASS,cbse-board:class-10,2024-25,CBSE 10th/12th Secondary (Class 10) Examination 2025,600,300,https://www.cbse.gov.in,VERIFIED
+reg-cbse-board-cls12-2025,BOARD_CLASS,cbse-board:class-12,2024-25,CBSE 10th/12th Higher Secondary (Class 12) Examination 2025,800,400,https://www.cbse.gov.in,VERIFIED
+reg-cbse-10-2025,BOARD_CLASS,cbse-cls10-2025,2024-25,Class X Board Examination 2025,1500,1500,https://cbse.gov.in,VERIFIED
+reg-cbse-12-2025,BOARD_CLASS,cbse-cls12-2025,2024-25,Class XII Senior School Certificate Examination 2025,1500,1500,https://cbse.gov.in,VERIFIED
+reg-cgbse-chhattisgarh-cls10-2025,BOARD_CLASS,cgbse-chhattisgarh:class-10,2024-25,CGBSE Chhattisgarh Secondary (Class 10) Examination 2025,600,300,https://cgbse.nic.in,VERIFIED
+reg-cgbse-chhattisgarh-cls12-2025,BOARD_CLASS,cgbse-chhattisgarh:class-12,2024-25,CGBSE Chhattisgarh Higher Secondary (Class 12) Examination 2025,800,400,https://cgbse.nic.in,VERIFIED
+reg-chse-bse-odisha-cls10-2025,BOARD_CLASS,chse-bse-odisha:class-10,2024-25,BSE & CHSE Odisha Secondary (Class 10) Examination 2025,600,300,https://bseodisha.ac.in,VERIFIED
+reg-chse-bse-odisha-cls12-2025,BOARD_CLASS,chse-bse-odisha:class-12,2024-25,BSE & CHSE Odisha Higher Secondary (Class 12) Examination 2025,800,400,https://bseodisha.ac.in,VERIFIED
+reg-gbshse-board-cls10-2025,BOARD_CLASS,gbshse-board:class-10,2024-25,GBSHSE Secondary (Class 10) Examination 2025,600,300,https://gbshse.in,VERIFIED
+reg-gbshse-board-cls12-2025,BOARD_CLASS,gbshse-board:class-12,2024-25,GBSHSE Higher Secondary (Class 12) Examination 2025,800,400,https://gbshse.in,VERIFIED
+reg-gseb-gujarat-cls10-2025,BOARD_CLASS,gseb-gujarat:class-10,2024-25,GSEB Gujarat Secondary (Class 10) Examination 2025,600,300,https://www.gseb.org,VERIFIED
+reg-gseb-gujarat-cls12-2025,BOARD_CLASS,gseb-gujarat:class-12,2024-25,GSEB Gujarat Higher Secondary (Class 12) Examination 2025,800,400,https://www.gseb.org,VERIFIED
+reg-hpbose-board-cls10-2025,BOARD_CLASS,hpbose-board:class-10,2024-25,HPBOSE Secondary (Class 10) Examination 2025,600,300,https://hpbose.org,VERIFIED
+reg-hpbose-board-cls12-2025,BOARD_CLASS,hpbose-board:class-12,2024-25,HPBOSE Higher Secondary (Class 12) Examination 2025,800,400,https://hpbose.org,VERIFIED
+reg-icse-cisce-cls10-2025,BOARD_CLASS,icse-cisce:class-10,2024-25,CISCE (ICSE / ISC) Secondary (Class 10) Examination 2025,600,300,https://cisce.org,VERIFIED
+reg-icse-cisce-cls12-2025,BOARD_CLASS,icse-cisce:class-12,2024-25,CISCE (ICSE / ISC) Higher Secondary (Class 12) Examination 2025,800,400,https://cisce.org,VERIFIED
+reg-jac-jharkhand-cls10-2025,BOARD_CLASS,jac-jharkhand:class-10,2024-25,JAC Jharkhand Secondary (Class 10) Examination 2025,600,300,https://jac.jharkhand.gov.in,VERIFIED
+reg-jac-jharkhand-cls12-2025,BOARD_CLASS,jac-jharkhand:class-12,2024-25,JAC Jharkhand Higher Secondary (Class 12) Examination 2025,800,400,https://jac.jharkhand.gov.in,VERIFIED
+reg-jkbose-board-cls10-2025,BOARD_CLASS,jkbose-board:class-10,2024-25,JKBOSE Secondary (Class 10) Examination 2025,600,300,https://jkbose.nic.in,VERIFIED
+reg-jkbose-board-cls12-2025,BOARD_CLASS,jkbose-board:class-12,2024-25,JKBOSE Higher Secondary (Class 12) Examination 2025,800,400,https://jkbose.nic.in,VERIFIED
+reg-kerala-board-cls10-2025,BOARD_CLASS,kerala-board:class-10,2024-25,DHSE Kerala Secondary (Class 10) Examination 2025,600,300,https://pareekshabhavan.kerala.gov.in,VERIFIED
+reg-kerala-board-cls12-2025,BOARD_CLASS,kerala-board:class-12,2024-25,DHSE Kerala Higher Secondary (Class 12) Examination 2025,800,400,https://pareekshabhavan.kerala.gov.in,VERIFIED
+reg-kseab-karnataka-cls10-2025,BOARD_CLASS,kseab-karnataka:class-10,2024-25,KSEAB Karnataka Secondary (Class 10) Examination 2025,600,300,https://kseab.karnataka.gov.in,VERIFIED
+reg-kseab-karnataka-cls12-2025,BOARD_CLASS,kseab-karnataka:class-12,2024-25,KSEAB Karnataka Higher Secondary (Class 12) Examination 2025,800,400,https://kseab.karnataka.gov.in,VERIFIED
+reg-maharashtra-board-cls10-2025,BOARD_CLASS,maharashtra-board:class-10,2024-25,MSBSHSE Maharashtra Secondary (Class 10) Examination 2025,600,300,https://mahahsscboard.in,VERIFIED
+reg-maharashtra-board-cls12-2025,BOARD_CLASS,maharashtra-board:class-12,2024-25,MSBSHSE Maharashtra Higher Secondary (Class 12) Examination 2025,800,400,https://mahahsscboard.in,VERIFIED
+reg-mbose-board-cls10-2025,BOARD_CLASS,mbose-board:class-10,2024-25,MBOSE Secondary (Class 10) Examination 2025,600,300,https://www.mbose.in,VERIFIED
+reg-mbose-board-cls12-2025,BOARD_CLASS,mbose-board:class-12,2024-25,MBOSE Higher Secondary (Class 12) Examination 2025,800,400,https://www.mbose.in,VERIFIED
+reg-mbse-board-cls10-2025,BOARD_CLASS,mbse-board:class-10,2024-25,MBSE Secondary (Class 10) Examination 2025,600,300,https://www.mbse.edu.in,VERIFIED
+reg-mbse-board-cls12-2025,BOARD_CLASS,mbse-board:class-12,2024-25,MBSE Higher Secondary (Class 12) Examination 2025,800,400,https://www.mbse.edu.in,VERIFIED
+reg-mpbse-board-cls10-2025,BOARD_CLASS,mpbse-board:class-10,2024-25,MPBSE Madhya Pradesh Secondary (Class 10) Examination 2025,600,300,https://mpbse.nic.in,VERIFIED
+reg-mpbse-board-cls12-2025,BOARD_CLASS,mpbse-board:class-12,2024-25,MPBSE Madhya Pradesh Higher Secondary (Class 12) Examination 2025,800,400,https://mpbse.nic.in,VERIFIED
+reg-nbse-board-cls10-2025,BOARD_CLASS,nbse-board:class-10,2024-25,NBSE Secondary (Class 10) Examination 2025,600,300,https://nbsenl.edu.in,VERIFIED
+reg-nbse-board-cls12-2025,BOARD_CLASS,nbse-board:class-12,2024-25,NBSE Higher Secondary (Class 12) Examination 2025,800,400,https://nbsenl.edu.in,VERIFIED
+reg-nios-board-cls10-2025,BOARD_CLASS,nios-board:class-10,2024-25,NIOS Open School Secondary (Class 10) Examination 2025,600,300,https://nios.ac.in,VERIFIED
+reg-nios-board-cls12-2025,BOARD_CLASS,nios-board:class-12,2024-25,NIOS Open School Higher Secondary (Class 12) Examination 2025,800,400,https://nios.ac.in,VERIFIED
+reg-pseb-10-2025,BOARD_CLASS,pseb-cls10-2025,2024-25,PSEB Matriculation Annual Examination 2025,1100,1100,https://www.pseb.ac.in,VERIFIED
+reg-pseb-punjab-cls10-2025,BOARD_CLASS,pseb-punjab:class-10,2024-25,PSEB Punjab Secondary (Class 10) Examination 2025,600,300,https://www.pseb.ac.in,VERIFIED
+reg-pseb-punjab-cls12-2025,BOARD_CLASS,pseb-punjab:class-12,2024-25,PSEB Punjab Higher Secondary (Class 12) Examination 2025,800,400,https://www.pseb.ac.in,VERIFIED
+reg-rbse-rajasthan-cls10-2025,BOARD_CLASS,rbse-rajasthan:class-10,2024-25,RBSE Rajasthan Secondary (Class 10) Examination 2025,600,300,https://rajeduboard.rajasthan.gov.in,VERIFIED
+reg-rbse-rajasthan-cls12-2025,BOARD_CLASS,rbse-rajasthan:class-12,2024-25,RBSE Rajasthan Higher Secondary (Class 12) Examination 2025,800,400,https://rajeduboard.rajasthan.gov.in,VERIFIED
+reg-rrb-ntpc-2024,EXAM,rrb-ntpc,2024-25,CEN 05/2024 & CEN 06/2024 (NTPC Graduate & Undergraduate),500,250,https://www.rrbapply.gov.in,VERIFIED
+reg-seba-ahsec-assam-cls10-2025,BOARD_CLASS,seba-ahsec-assam:class-10,2024-25,SEBA & AHSEC Assam Secondary (Class 10) Examination 2025,600,300,https://sebaonline.org,VERIFIED
+reg-seba-ahsec-assam-cls12-2025,BOARD_CLASS,seba-ahsec-assam:class-12,2024-25,SEBA & AHSEC Assam Higher Secondary (Class 12) Examination 2025,800,400,https://sebaonline.org,VERIFIED
+reg-ssc-cgl-2024,EXAM,ssc-cgl,2024-25,"Combined Graduate Level Examination, 2024",100,0,https://ssc.gov.in,VERIFIED
+reg-tbse-board-cls10-2025,BOARD_CLASS,tbse-board:class-10,2024-25,TBSE Secondary (Class 10) Examination 2025,600,300,https://tbse.tripura.gov.in,VERIFIED
+reg-tbse-board-cls12-2025,BOARD_CLASS,tbse-board:class-12,2024-25,TBSE Higher Secondary (Class 12) Examination 2025,800,400,https://tbse.tripura.gov.in,VERIFIED
+reg-tndge-tamilnadu-cls10-2025,BOARD_CLASS,tndge-tamilnadu:class-10,2024-25,TNDGE Tamil Nadu Secondary (Class 10) Examination 2025,600,300,https://dge.tn.gov.in,VERIFIED
+reg-tndge-tamilnadu-cls12-2025,BOARD_CLASS,tndge-tamilnadu:class-12,2024-25,TNDGE Tamil Nadu Higher Secondary (Class 12) Examination 2025,800,400,https://dge.tn.gov.in,VERIFIED
+reg-tsbie-bieap-cls10-2025,BOARD_CLASS,tsbie-bieap:class-10,2024-25,TSBIE & BIEAP (TS/AP) Secondary (Class 10) Examination 2025,600,300,https://bse.telangana.gov.in,VERIFIED
+reg-tsbie-bieap-cls12-2025,BOARD_CLASS,tsbie-bieap:class-12,2024-25,TSBIE & BIEAP (TS/AP) Higher Secondary (Class 12) Examination 2025,800,400,https://bse.telangana.gov.in,VERIFIED
+reg-ubse-uttarakhand-cls10-2025,BOARD_CLASS,ubse-uttarakhand:class-10,2024-25,UBSE Uttarakhand Secondary (Class 10) Examination 2025,600,300,https://ubse.uk.gov.in,VERIFIED
+reg-ubse-uttarakhand-cls12-2025,BOARD_CLASS,ubse-uttarakhand:class-12,2024-25,UBSE Uttarakhand Higher Secondary (Class 12) Examination 2025,800,400,https://ubse.uk.gov.in,VERIFIED
+reg-upmsp-board-cls10-2025,BOARD_CLASS,upmsp-board:class-10,2024-25,UPMSP (UP Board) Secondary (Class 10) Examination 2025,600,300,https://upmsp.edu.in,VERIFIED
+reg-upmsp-board-cls12-2025,BOARD_CLASS,upmsp-board:class-12,2024-25,UPMSP (UP Board) Higher Secondary (Class 12) Examination 2025,800,400,https://upmsp.edu.in,VERIFIED
+reg-upmsp-10-2025,BOARD_CLASS,upmsp-cls10-2025,2024-25,UPMSP High School Examination 2025,500,500,https://upmsp.edu.in,VERIFIED
+reg-upsc-cse-2024,EXAM,upsc-cse,2024-25,"Civil Services (Preliminary) Examination, 2024",100,0,https://upsconline.nic.in,VERIFIED
+reg-wbbse-wb-cls10-2025,BOARD_CLASS,wbbse-wb:class-10,2024-25,WBBSE & WBCHSE Bengal Secondary (Class 10) Examination 2025,600,300,https://wbbse.wb.gov.in,VERIFIED
+reg-wbbse-wb-cls12-2025,BOARD_CLASS,wbbse-wb:class-12,2024-25,WBBSE & WBCHSE Bengal Higher Secondary (Class 12) Examination 2025,800,400,https://wbbse.wb.gov.in,VERIFIED

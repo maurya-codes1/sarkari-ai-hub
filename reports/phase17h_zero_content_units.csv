@@ -1,0 +1,578 @@
+state,board,class,stream,subject,officialLanguage,questionCount,status
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Manipur","Board of Secondary Education Manipur","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Telangana","Directorate of Government Examinations Telangana","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Meghalaya","Meghalaya Board of School Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Mizoram","Mizoram Board of School Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Nagaland","Nagaland Board of School Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"National","NIOS Board (National Institute of Open Schooling)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Tripura","Tripura Board of Secondary Education","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9",general,"subj-science",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9",general,"subj-math",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9",general,"subj-social",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10",general,"subj-english",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-physics",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-chemistry",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-biology",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-math12",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-accountancy",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-business",en,0,ZERO_CONTENT_PENDING_PRODUCTION
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12",Science/Commerce,"subj-economics",en,0,ZERO_CONTENT_PENDING_PRODUCTION

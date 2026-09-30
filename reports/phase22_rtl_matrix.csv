@@ -1,0 +1,6 @@
+locale_code,language_name,script_family,direction,html_dir_attribute,nav_alignment,timer_alignment,palette_alignment,exam_question_direction,exam_option_direction,formula_direction,isolation_policy,verification_status
+ur,Urdu,Perso-Arabic (Nastaliq),RTL,rtl,Right-aligned,Right-anchored,Mirrored grid,LTR (Isolated),LTR (Isolated),LTR (Isolated),STRICT_EXAM_LTR_ISOLATION,VERIFIED
+ks,Kashmiri,Perso-Arabic,RTL,rtl,Right-aligned,Right-anchored,Mirrored grid,LTR (Isolated),LTR (Isolated),LTR (Isolated),STRICT_EXAM_LTR_ISOLATION,VERIFIED
+sd,Sindhi,Arabic-Sindhi,RTL,rtl,Right-aligned,Right-anchored,Mirrored grid,LTR (Isolated),LTR (Isolated),LTR (Isolated),STRICT_EXAM_LTR_ISOLATION,VERIFIED
+hi,Hindi (Control),Devanagari,LTR,ltr,Left-aligned,Left-anchored,Standard grid,LTR,LTR,LTR,STANDARD_LTR,VERIFIED
+en,English (Control),Latin,LTR,ltr,Left-aligned,Left-anchored,Standard grid,LTR,LTR,LTR,STANDARD_LTR,VERIFIED

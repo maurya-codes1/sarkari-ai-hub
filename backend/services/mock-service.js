@@ -17,6 +17,8 @@ const examRepository = require('../db/repositories/exam-repository');
 const zeroQuestionService = require('./zero-question-service');
 const aiInterleavingService = require('./ai-interleaving-service');
 const contentDependencyService = require('./content-dependency-service');
+const crossSurfaceLearningService = require('./cross-surface-learning-service');
+const { normalizeSubjectId } = require('../utils/subject-utils');
 
 class MockService {
   /**
@@ -27,7 +29,7 @@ class MockService {
       examId = 'ssc-gd',
       versionId = null,
       examVersionId = null,
-      testMode = 'FULL_EXAM', // 'SUBJECT_PRACTICE' | 'ALL_SUBJECTS_PRACTICE' | 'FULL_EXAM' | 'FULL_EXAM_PATTERN' | 'PRACTICE'
+      testMode = 'FULL_EXAM', // 'LEARNING_MOCK' | 'REVISION_MOCK' | 'PRACTICE_MOCK' | 'FULL_EXAM' | 'FULL_EXAM_PATTERN' | 'PRACTICE' | 'SUBJECT_PRACTICE' | 'ALL_SUBJECTS_PRACTICE'
       requestedCount,
       questionCount,
       count,
@@ -38,7 +40,14 @@ class MockService {
       timerMode = 'COUNTDOWN',
       aiProportion = 0.0,
       strictVerification = false,
-      exactCountRequired = false
+      exactCountRequired = false,
+      pdfId = null,
+      pdfContext = null,
+      studiedQuestionIds = [],
+      boardId = null,
+      stage = null,
+      stream = null,
+      userId = null
     } = options;
 
     const effectiveCount = requestedCount || questionCount || count || size || 30;
@@ -46,14 +55,27 @@ class MockService {
     const isDbReady = mockSessionRepository.isAvailable();
     const sessionId = `mock-${Date.now()}-${Math.random().toString(36).substr(2, 7)}`;
 
+    // Resolve Learning Loop context
+    const resolvedPdfId = pdfId || (pdfContext && pdfContext.pdfId) || null;
+    const resolvedStudiedIds = Array.isArray(studiedQuestionIds) && studiedQuestionIds.length > 0
+      ? studiedQuestionIds
+      : ((pdfContext && Array.isArray(pdfContext.questionIds)) ? pdfContext.questionIds : []);
+    const resolvedBoardId = boardId || (pdfContext && pdfContext.boardId) || null;
+    const resolvedStage = stage || (pdfContext && (pdfContext.classStage || pdfContext.stage)) || null;
+    const resolvedStream = stream || (pdfContext && pdfContext.stream) || null;
+
     if (!isDbReady) {
       return this._generateOfflineFallbackSession(sessionId, examId, testMode, effectiveCount, subjectId);
     }
 
     const exam = examRepository.getExamById(examId) || { exam_id: examId, name: examId };
 
-    const isFullExam = ['FULL_EXAM', 'FULL_EXAM_PATTERN'].includes(testMode);
-    const isSubjectPractice = testMode === 'SUBJECT_PRACTICE' || (!isFullExam && subjectId && subjectId !== 'all');
+    const normSubjectId = normalizeSubjectId(subjectId);
+    const isSpecificSubject = normSubjectId && normSubjectId !== 'all';
+    const isLearningMock = ['LEARNING_MOCK', 'REVISION_MOCK', 'LEARNING_REVISION_MOCK'].includes(testMode);
+    const isPracticeMock = testMode === 'PRACTICE_MOCK';
+    const isFullExam = ['FULL_EXAM', 'FULL_EXAM_PATTERN'].includes(testMode) && !isSpecificSubject;
+    const isSubjectPractice = testMode === 'SUBJECT_PRACTICE' || (!isFullExam && !isLearningMock && !isPracticeMock && isSpecificSubject);
 
     if (isFullExam) {
       return this._createFullExamSession({
@@ -65,22 +87,31 @@ class MockService {
         languageConfig,
         strictVerification: Boolean(strictVerification),
         exactCountRequired: exactCountRequired || testMode === 'FULL_EXAM_PATTERN',
-        aiProportion
+        aiProportion,
+        studiedQuestionIds: resolvedStudiedIds,
+        pdfId: resolvedPdfId
       });
     } else {
+      const resolvedMode = isLearningMock ? testMode : (isPracticeMock ? testMode : (isSubjectPractice ? 'SUBJECT_PRACTICE' : testMode));
       return this._createPracticeSession({
         sessionId,
         exam,
         examId,
         versionId: targetVersionId,
         requestedCount: effectiveCount,
-        subjectId: isSubjectPractice ? subjectId : 'all',
-        practiceType: isSubjectPractice ? 'SUBJECT_PRACTICE' : 'ALL_SUBJECTS_PRACTICE',
-        testMode,
+        subjectId: isSpecificSubject ? normSubjectId : (normSubjectId || 'all'),
+        practiceType: isSubjectPractice ? 'SUBJECT_PRACTICE' : (isLearningMock ? testMode : 'ALL_SUBJECTS_PRACTICE'),
+        testMode: resolvedMode,
         difficulty,
         languageConfig,
         timerMode,
-        aiProportion
+        aiProportion,
+        pdfId: resolvedPdfId,
+        studiedQuestionIds: resolvedStudiedIds,
+        boardId: resolvedBoardId,
+        stage: resolvedStage,
+        stream: resolvedStream,
+        userId
       });
     }
   }
@@ -88,7 +119,7 @@ class MockService {
   /**
    * Generates a Full Exam Mock derived from the verified blueprint
    */
-  _createFullExamSession({ sessionId, exam, examId, versionId = null, testMode = 'FULL_EXAM', languageConfig, strictVerification = false, exactCountRequired = false }) {
+  _createFullExamSession({ sessionId, exam, examId, versionId = null, testMode = 'FULL_EXAM', languageConfig, strictVerification = false, exactCountRequired = false, studiedQuestionIds = [], pdfId = null }) {
     const unifiedExamTruthService = require('./unified-exam-truth-service');
     const verifiedMockConfig = unifiedExamTruthService.getMockConfiguration(examId, versionId);
 
@@ -190,12 +221,13 @@ class MockService {
       const neededCount = section.question_count || 20;
       totalQuestionsToAttempt += (section.questions_to_attempt || neededCount);
 
-      // Strict Zero Duplicate Question selection
+      // Strict Zero Duplicate Question selection (and official full_exam_eligible gating in FULL_EXAM_PATTERN mode)
       const questionsFromDb = questionRepository.getQuestionsForSection(
         section.subject_id,
         neededCount,
         Array.from(usedQuestionIds),
-        section.allowed_question_types
+        section.allowed_question_types,
+        testMode === 'FULL_EXAM_PATTERN'
       );
 
       if (questionsFromDb.length < neededCount) {
@@ -310,6 +342,24 @@ class MockService {
       reviewFlags: []
     };
 
+    // Single-Asset Uniqueness Validation (Section 7D, 7T)
+    const uniqueness = crossSurfaceLearningService.validateAssetUniqueness(sessionQuestions.map(q => q.id), 'FULL_EXAM');
+    if (!uniqueness.valid) {
+      return {
+        success: false,
+        status: 'ASSET_INTERNAL_DUPLICATE_ERROR',
+        reason: 'ASSET_INTERNAL_DUPLICATE',
+        message: uniqueness.error
+      };
+    }
+
+    // Record Cross-Surface Usage Telemetry (Section 7I)
+    crossSurfaceLearningService.recordUsage('FULL_EXAM', sessionId, sessionQuestions.map(q => q.id), {
+      examId,
+      versionId,
+      language: languageConfig ? (languageConfig.primary || 'hi') : 'hi'
+    });
+
     mockSessionRepository.createSession(sessionRecord);
 
     return {
@@ -362,7 +412,13 @@ class MockService {
     difficulty,
     languageConfig,
     timerMode,
-    aiProportion = 0.0
+    aiProportion = 0.0,
+    pdfId = null,
+    studiedQuestionIds = [],
+    boardId = null,
+    stage = null,
+    stream = null,
+    userId = null
   }) {
     // Validate requested quantity (10, 20, 30, 50, 75, 100, 200, 250, custom)
     const validCount = Math.max(5, Math.min(250, parseInt(requestedCount, 10) || 30));
@@ -387,14 +443,55 @@ class MockService {
       }
     }
 
-    // Strict zero duplicate selection
-    const questionsFromDb = questionRepository.getPracticeQuestions({
-      subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : null,
-      subjectIds: (practiceType === 'ALL_SUBJECTS_PRACTICE' && subjectIds && subjectIds.length > 0) ? subjectIds : null,
-      difficulty,
-      count: validCount,
-      excludeIds: []
-    });
+    let questionsFromDb = [];
+    let studiedReuseCount = 0;
+    let freshVerifiedCount = 0;
+
+    const isLearningMock = practiceType === 'LEARNING_MOCK' || testMode === 'LEARNING_MOCK' || testMode === 'REVISION_MOCK';
+    const isPracticeMock = testMode === 'PRACTICE_MOCK';
+
+    if (isLearningMock) {
+      // Mode A: Learning / Revision Mock Question Selection (Priority: PDF -> Revision -> Verified Context)
+      const selection = crossSurfaceLearningService.selectQuestionsForLearningMock({
+        examId,
+        boardId,
+        stage,
+        stream,
+        subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : (subjectId !== 'all' ? subjectId : null),
+        language: languageConfig ? (languageConfig.primary || 'en') : 'en',
+        pdfId,
+        userId,
+        studiedQuestionIds
+      }, validCount);
+      questionsFromDb = selection.questions;
+      studiedReuseCount = selection.studiedReuseCount;
+      freshVerifiedCount = selection.freshVerifiedCount;
+    } else if (isPracticeMock) {
+      // Mode B: Practice Mock Question Selection (Balanced Mix: Studied PDF/Revision + Broader Verified Pool)
+      const selection = crossSurfaceLearningService.selectQuestionsForPracticeMock({
+        examId,
+        boardId,
+        stage,
+        stream,
+        subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : (subjectId !== 'all' ? subjectId : null),
+        language: languageConfig ? (languageConfig.primary || 'en') : 'en',
+        pdfId,
+        userId,
+        studiedQuestionIds
+      }, validCount);
+      questionsFromDb = selection.questions;
+      studiedReuseCount = selection.studiedReuseCount;
+      freshVerifiedCount = selection.broaderPoolCount;
+    } else {
+      // Standard practice selection
+      questionsFromDb = questionRepository.getPracticeQuestions({
+        subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : null,
+        subjectIds: (practiceType === 'ALL_SUBJECTS_PRACTICE' && subjectIds && subjectIds.length > 0) ? subjectIds : null,
+        difficulty,
+        count: validCount,
+        excludeIds: []
+      });
+    }
 
     // Zero-question handling for practice mode
     if (questionsFromDb.length === 0) {
@@ -449,11 +546,42 @@ class MockService {
 
     const durationMins = timerMode === 'COUNTDOWN' ? Math.ceil(sessionQuestions.length * 1.5) : 0;
     const resolvedTestMode = testMode === 'PRACTICE' ? 'PRACTICE' : (testMode || practiceType || 'PRACTICE');
-    const modeTitle = (practiceType === 'SUBJECT_PRACTICE' || resolvedTestMode === 'SUBJECT_PRACTICE')
-      ? 'Subject-wise Practice'
-      : (practiceType === 'ALL_SUBJECTS_PRACTICE' || resolvedTestMode === 'ALL_SUBJECTS_PRACTICE')
-        ? 'All Subjects Practice'
-        : 'Practice Set';
+    const modeTitle = (practiceType === 'LEARNING_MOCK' || resolvedTestMode === 'LEARNING_MOCK')
+      ? 'Learning & Revision Mock'
+      : (practiceType === 'PRACTICE_MOCK' || resolvedTestMode === 'PRACTICE_MOCK')
+        ? 'Practice Mock'
+        : (practiceType === 'SUBJECT_PRACTICE' || resolvedTestMode === 'SUBJECT_PRACTICE')
+          ? 'Subject-wise Practice'
+          : (practiceType === 'ALL_SUBJECTS_PRACTICE' || resolvedTestMode === 'ALL_SUBJECTS_PRACTICE')
+            ? 'All Subjects Practice'
+            : 'Practice Set';
+
+    // Single-Asset Uniqueness Validation (Section 7D, 7T)
+    const uniqueness = crossSurfaceLearningService.validateAssetUniqueness(sessionQuestions.map(q => q.id), resolvedTestMode);
+    if (!uniqueness.valid) {
+      return {
+        success: false,
+        status: 'ASSET_INTERNAL_DUPLICATE_ERROR',
+        reason: 'ASSET_INTERNAL_DUPLICATE',
+        message: uniqueness.error
+      };
+    }
+
+    // Record Cross-Surface Usage Telemetry (Section 7I)
+    crossSurfaceLearningService.recordUsage(
+      (practiceType === 'LEARNING_MOCK' || resolvedTestMode === 'LEARNING_MOCK') ? 'LEARNING_MOCK' : 'PRACTICE_MOCK',
+      sessionId,
+      sessionQuestions.map(q => q.id),
+      {
+        examId,
+        boardId,
+        stage,
+        stream,
+        subjectId,
+        language: languageConfig ? (languageConfig.primary || 'hi') : 'hi',
+        pdfId
+      }
+    );
 
     const sessionRecord = {
       sessionId,
@@ -487,11 +615,13 @@ class MockService {
       isFlexibleCount: true,
       examId,
       examName: exam.name || examId,
+      studiedReuseCount: studiedReuseCount || 0,
+      freshVerifiedCount: freshVerifiedCount || sessionQuestions.length,
       blueprint: {
         blueprintId: isSubjMode ? `bp-practice-${subjectId}` : 'bp-practice-all-subjects',
         name: `${modeTitle} (${sessionQuestions.length} Questions)`,
         verificationStatus: 'PRACTICE_MODE',
-        patternBadge: isSubjMode ? 'Subject Practice' : 'All Subjects Practice',
+        patternBadge: isSubjMode ? 'Subject Practice' : (isLearningMock ? 'Learning & Revision' : (isPracticeMock ? 'Practice Mock' : 'All Subjects Practice')),
         isVerified: false,
         isFlexibleCount: true,
         totalMarks: sessionQuestions.length * 1,
@@ -1036,6 +1166,24 @@ class MockService {
       examName: exam.name || examId,
       versionId: resolvedVersionId,
       modes: [
+        {
+          mode: 'LEARNING_MOCK',
+          label: 'Learning & Revision Mock',
+          description: 'Test recall of trusted questions recently studied in PDF guides and Revision sets with strong overlap.',
+          isFlexibleCount: true,
+          supportedCounts: [10, 20, 30, 50],
+          isAvailable: totalExamBankQuestions > 0,
+          subjects: availableSubjects
+        },
+        {
+          mode: 'PRACTICE_MOCK',
+          label: 'Practice Mock',
+          description: 'Balanced practice mixing familiar studied questions with a broader pool of verified syllabus questions.',
+          isFlexibleCount: true,
+          supportedCounts: [15, 25, 50, 75, 100],
+          isAvailable: totalExamBankQuestions > 0,
+          subjects: availableSubjects
+        },
         {
           mode: 'SUBJECT_PRACTICE',
           label: 'Subject-wise Practice',

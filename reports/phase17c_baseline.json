@@ -1,0 +1,183 @@
+{
+  "timestamp": "2026-09-29T08:21:24.729Z",
+  "phase": "PHASE_17C",
+  "totalQuestions": 1970,
+  "totalQuestionVersions": 1970,
+  "provenance": {
+    "officialPyq": 351,
+    "officialSample": 59,
+    "humanCurated": 1560,
+    "aiPractice": 0
+  },
+  "questionTypes": {
+    "objectiveCount": 1916,
+    "subjectiveCount": 54,
+    "modelAnswerCount": 35,
+    "details": {
+      "case_study": 3,
+      "long_answer": 17,
+      "short_answer": 34,
+      "single_mcq": 1916
+    }
+  },
+  "languages": {
+    "en": 1905,
+    "hi": 1931,
+    "ta": 32,
+    "mr": 7,
+    "te": 0,
+    "pa": 0,
+    "gu": 0,
+    "bn": 0,
+    "kn": 0,
+    "ml": 0,
+    "or": 0
+  },
+  "hierarchy": {
+    "examComponentCount": 23,
+    "totalSubjectsInCorpus": 21,
+    "chapterCount": 41,
+    "topicCount": 41
+  },
+  "subjects": [
+    {
+      "subject_id": "subj-gk",
+      "name": "General Knowledge & General Awareness",
+      "count": 225
+    },
+    {
+      "subject_id": "subj-science",
+      "name": "General Science",
+      "count": 217
+    },
+    {
+      "subject_id": "subj-social",
+      "name": "Social Science & Studies",
+      "count": 212
+    },
+    {
+      "subject_id": "subj-math",
+      "name": "Mathematics & Elementary Math",
+      "count": 210
+    },
+    {
+      "subject_id": "subj-english",
+      "name": "General English",
+      "count": 205
+    },
+    {
+      "subject_id": "subj-hindi",
+      "name": "सामान्य हिन्दी (General Hindi)",
+      "count": 205
+    },
+    {
+      "subject_id": "subj-reasoning",
+      "name": "General Intelligence & Logical Reasoning",
+      "count": 205
+    },
+    {
+      "subject_id": "subj-sanskrit",
+      "name": "संस्कृत (Sanskrit)",
+      "count": 85
+    },
+    {
+      "subject_id": "subj-math12",
+      "name": "Higher Mathematics (Class 12)",
+      "count": 70
+    },
+    {
+      "subject_id": "subj-biology",
+      "name": "Biology (Botany & Zoology)",
+      "count": 36
+    },
+    {
+      "subject_id": "subj-chemistry",
+      "name": "Chemistry (Class 11-12)",
+      "count": 35
+    },
+    {
+      "subject_id": "subj-economics",
+      "name": "Economics",
+      "count": 34
+    },
+    {
+      "subject_id": "subj-polity",
+      "name": "Political Science & Indian Constitution",
+      "count": 34
+    },
+    {
+      "subject_id": "subj-tamil",
+      "name": "பொதுத் தமிழ் (General Tamil)",
+      "count": 32
+    },
+    {
+      "subject_id": "subj-physics",
+      "name": "Physics (Class 11-12)",
+      "count": 31
+    },
+    {
+      "subject_id": "subj-railway-sci",
+      "name": "Railway Science, Tech & Basic Physics",
+      "count": 30
+    },
+    {
+      "subject_id": "subj-history",
+      "name": "History (Ancient, Medieval, Modern)",
+      "count": 29
+    },
+    {
+      "subject_id": "subj-geography",
+      "name": "Geography (Indian & World)",
+      "count": 26
+    },
+    {
+      "subject_id": "subj-law",
+      "name": "Special Police Law & IPC/CrPC Basics",
+      "count": 25
+    },
+    {
+      "subject_id": "subj-accountancy",
+      "name": "Accountancy",
+      "count": 12
+    },
+    {
+      "subject_id": "subj-business",
+      "name": "Business Studies",
+      "count": 12
+    },
+    {
+      "subject_id": "subj-sociology",
+      "name": "Subject sociology",
+      "count": 0
+    },
+    {
+      "subject_id": "subj-telugu",
+      "name": "సాధారణ తెలుగు (General Telugu)",
+      "count": 0
+    }
+  ],
+  "eligibility": {
+    "fullExamEligible": 250,
+    "practiceEligible": 1970
+  },
+  "patternLock": {
+    "patternVerified": 28,
+    "patternPartiallyVerified": 85,
+    "patternPending": 211,
+    "totalComponents": 324
+  },
+  "integrity": {
+    "dbIntegrity": "ok",
+    "foreignKeyErrors": 0,
+    "orphanQuestions": 0,
+    "orphanVersions": 0,
+    "duplicateFingerprints": 23
+  },
+  "reconciliations": {
+    "fullExamPhase17Avs17B": "Both exactly 250 (0 dilution)",
+    "humanitiesRetained": "123 retained in practice pool",
+    "prePhase17bCount": 1457,
+    "postPhase17bCount": 1970,
+    "phase17bNetGrowth": 513
+  }
+}

@@ -1,0 +1,1161 @@
+state,board,class,stream,subject,language,syllabusStatus,chapterCount,currentObjective,currentSubjective,currentPYQ,targetObjective,targetSubjective,objectiveShortage,subjectiveShortage,productionPriority,readinessStatus
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-telugu",te,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-telugu",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-science",te,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-math",te,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-social",te,SYLLABUS_VERIFIED,14,120,30,0,200,50,80,20,PRIORITY_1,PARTIAL_ACTIVE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,120,30,0,200,50,80,20,PRIORITY_1,PARTIAL_ACTIVE
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-english",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-physics",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-chemistry",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-math12",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-biology",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","commerce","subj-accountancy",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","commerce","subj-business",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","commerce","subj-economics",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","humanities","subj-history",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","humanities","subj-polity",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","humanities","subj-geography",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9","general","subj-science",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9","general","subj-math",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9","general","subj-social",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11","science-pcm","subj-physics",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11","science-pcm","subj-chemistry",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-hindi",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-science",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-math",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-social",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-english",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-physics",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-chemistry",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-math12",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-biology",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","commerce","subj-accountancy",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","commerce","subj-business",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","commerce","subj-economics",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","humanities","subj-history",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","humanities","subj-polity",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","humanities","subj-geography",mni,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 9","general","subj-science",mni,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 9","general","subj-math",mni,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 9","general","subj-social",mni,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 11","science-pcm","subj-physics",mni,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 11","science-pcm","subj-chemistry",mni,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Manipur","Board of Secondary Education Manipur","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-telugu",te,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-telugu",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-science",te,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-math",te,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-social",te,SYLLABUS_VERIFIED,14,120,30,0,200,50,80,20,PRIORITY_1,PARTIAL_ACTIVE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,120,30,0,200,50,80,20,PRIORITY_1,PARTIAL_ACTIVE
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-english",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-physics",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-chemistry",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-math12",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-biology",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","commerce","subj-accountancy",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","commerce","subj-business",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","commerce","subj-economics",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","humanities","subj-history",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","humanities","subj-polity",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","humanities","subj-geography",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 9","general","subj-science",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 9","general","subj-math",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 9","general","subj-social",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 11","science-pcm","subj-physics",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 11","science-pcm","subj-chemistry",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Telangana","Directorate of Government Examinations Telangana","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,11523,7,1,200,50,0,43,PRIORITY_1,PARTIAL_ACTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,3414,6667,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,1467,733,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,400,200,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,200,400,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,50,15,0,0,PRIORITY_3,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,50,15,0,0,PRIORITY_3,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,160,40,0,50,15,0,0,PRIORITY_3,PRODUCTION_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,160,40,0,50,15,0,0,PRIORITY_3,PRODUCTION_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-odia",or,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-odia",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-science",or,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-math",or,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-social",or,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-english",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-physics",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-chemistry",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-math12",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-biology",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","commerce","subj-accountancy",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","commerce","subj-business",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","commerce","subj-economics",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","humanities","subj-history",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","humanities","subj-polity",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","humanities","subj-geography",or,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9","general","subj-science",or,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9","general","subj-math",or,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9","general","subj-social",or,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11","science-pcm","subj-physics",or,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11","science-pcm","subj-chemistry",or,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-hindi",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-science",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-math",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-social",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-english",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-physics",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-chemistry",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-math12",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-biology",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","commerce","subj-accountancy",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","commerce","subj-business",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","commerce","subj-economics",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","humanities","subj-history",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","humanities","subj-polity",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","humanities","subj-geography",kok,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9","general","subj-science",kok,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9","general","subj-math",kok,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9","general","subj-social",kok,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11","science-pcm","subj-physics",kok,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11","science-pcm","subj-chemistry",kok,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-gujarati",gu,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-gujarati",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-science",gu,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-math",gu,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-social",gu,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-english",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-physics",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-chemistry",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-math12",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-biology",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","commerce","subj-accountancy",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","commerce","subj-business",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","commerce","subj-economics",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","humanities","subj-history",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","humanities","subj-polity",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","humanities","subj-geography",gu,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9","general","subj-science",gu,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9","general","subj-math",gu,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9","general","subj-social",gu,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11","science-pcm","subj-physics",gu,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11","science-pcm","subj-chemistry",gu,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-urdu",ur,SYLLABUS_VERIFIED,14,0,40,0,200,50,200,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-urdu",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-science",ur,SYLLABUS_VERIFIED,14,0,40,0,200,50,200,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-math",ur,SYLLABUS_VERIFIED,14,0,40,0,200,50,200,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-social",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-english",ur,SYLLABUS_VERIFIED,14,0,40,0,200,50,200,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-physics",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-chemistry",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-math12",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-biology",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","commerce","subj-accountancy",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","commerce","subj-business",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","commerce","subj-economics",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","humanities","subj-history",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","humanities","subj-polity",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","humanities","subj-geography",ur,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9","general","subj-science",ur,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9","general","subj-math",ur,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9","general","subj-social",ur,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11","science-pcm","subj-physics",ur,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11","science-pcm","subj-chemistry",ur,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-malayalam",ml,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-malayalam",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-science",ml,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-math",ml,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-social",ml,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-english",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-physics",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-chemistry",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-math12",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-biology",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","commerce","subj-accountancy",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","commerce","subj-business",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","commerce","subj-economics",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","humanities","subj-history",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","humanities","subj-polity",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","humanities","subj-geography",ml,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9","general","subj-science",ml,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9","general","subj-math",ml,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9","general","subj-social",ml,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11","science-pcm","subj-physics",ml,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11","science-pcm","subj-chemistry",ml,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-kannada",kn,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-kannada",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-science",kn,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-math",kn,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-social",kn,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-english",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-physics",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-chemistry",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-math12",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-biology",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","commerce","subj-accountancy",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","commerce","subj-business",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","commerce","subj-economics",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","humanities","subj-history",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","humanities","subj-polity",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","humanities","subj-geography",kn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9","general","subj-science",kn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9","general","subj-math",kn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9","general","subj-social",kn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11","science-pcm","subj-physics",kn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11","science-pcm","subj-chemistry",kn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-marathi",mr,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-marathi",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-science",mr,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-math",mr,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-social",mr,SYLLABUS_VERIFIED,14,200,57,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,57,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-english",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-physics",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-chemistry",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-math12",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-biology",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","commerce","subj-accountancy",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","commerce","subj-business",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","commerce","subj-economics",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","humanities","subj-history",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","humanities","subj-polity",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","humanities","subj-geography",mr,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9","general","subj-science",mr,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9","general","subj-math",mr,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9","general","subj-social",mr,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11","science-pcm","subj-physics",mr,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11","science-pcm","subj-chemistry",mr,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Meghalaya","Meghalaya Board of School Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Meghalaya","Meghalaya Board of School Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Meghalaya","Meghalaya Board of School Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Meghalaya","Meghalaya Board of School Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Meghalaya","Meghalaya Board of School Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Mizoram","Mizoram Board of School Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Mizoram","Mizoram Board of School Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Mizoram","Mizoram Board of School Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Mizoram","Mizoram Board of School Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Mizoram","Mizoram Board of School Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Nagaland","Nagaland Board of School Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Nagaland","Nagaland Board of School Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Nagaland","Nagaland Board of School Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Nagaland","Nagaland Board of School Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Nagaland","Nagaland Board of School Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"National","NIOS Board (National Institute of Open Schooling)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-punjabi",pa,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-punjabi",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-science",pa,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-math",pa,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-social",pa,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-english",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-physics",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-chemistry",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-math12",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-biology",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","commerce","subj-accountancy",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","commerce","subj-business",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","commerce","subj-economics",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","humanities","subj-history",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","humanities","subj-polity",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","humanities","subj-geography",pa,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9","general","subj-science",pa,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9","general","subj-math",pa,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9","general","subj-social",pa,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11","science-pcm","subj-physics",pa,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11","science-pcm","subj-chemistry",pa,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-assamese",as,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-assamese",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-science",as,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-math",as,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-social",as,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-english",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-physics",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-chemistry",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-math12",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-biology",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","commerce","subj-accountancy",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","commerce","subj-business",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","commerce","subj-economics",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","humanities","subj-history",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","humanities","subj-polity",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","humanities","subj-geography",as,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9","general","subj-science",as,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9","general","subj-math",as,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9","general","subj-social",as,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11","science-pcm","subj-physics",as,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11","science-pcm","subj-chemistry",as,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-bengali",bn,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-bengali",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-science",bn,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-math",bn,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-social",bn,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,80,20,0,200,50,120,30,PRIORITY_1,PARTIAL_ACTIVE
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-english",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-physics",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-chemistry",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-math12",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-biology",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","commerce","subj-accountancy",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","commerce","subj-business",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","commerce","subj-economics",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","humanities","subj-history",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","humanities","subj-polity",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","humanities","subj-geography",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 9","general","subj-science",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 9","general","subj-math",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 9","general","subj-social",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 11","science-pcm","subj-physics",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 11","science-pcm","subj-chemistry",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Tripura","Tripura Board of Secondary Education","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-tamil",ta,SYLLABUS_VERIFIED,14,250,257,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-tamil",en,SYLLABUS_VERIFIED,14,250,257,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-science",ta,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-math",ta,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-social",ta,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-english",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-physics",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-chemistry",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-math12",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-biology",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","commerce","subj-accountancy",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","commerce","subj-business",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","commerce","subj-economics",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","humanities","subj-history",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","humanities","subj-polity",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","humanities","subj-geography",ta,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9","general","subj-science",ta,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9","general","subj-math",ta,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9","general","subj-social",ta,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11","science-pcm","subj-physics",ta,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11","science-pcm","subj-chemistry",ta,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-telugu",te,SYLLABUS_VERIFIED,14,250,250,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-telugu",en,SYLLABUS_VERIFIED,14,250,250,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-science",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-math",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-social",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-english",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-physics",te,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-chemistry",te,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-math12",te,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_2,PRODUCTION_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-biology",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","commerce","subj-accountancy",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","commerce","subj-business",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","commerce","subj-economics",te,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_2,PARTIAL_ACTIVE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_2,PARTIAL_ACTIVE
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","humanities","subj-history",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","humanities","subj-polity",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","humanities","subj-geography",te,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9","general","subj-science",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9","general","subj-math",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9","general","subj-social",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11","science-pcm","subj-physics",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11","science-pcm","subj-chemistry",te,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-hindi",hi,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-hindi",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-science",hi,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-math",hi,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-social",hi,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,160,40,0,200,50,40,10,PRIORITY_1,PARTIAL_ACTIVE
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-english",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-math12",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-biology",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","commerce","subj-accountancy",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","commerce","subj-business",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","commerce","subj-economics",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","humanities","subj-history",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","humanities","subj-polity",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","humanities","subj-geography",hi,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9","general","subj-science",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9","general","subj-math",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9","general","subj-social",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11","science-pcm","subj-physics",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11","science-pcm","subj-chemistry",hi,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-bengali",bn,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-bengali",en,SYLLABUS_VERIFIED,14,280,70,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-science",bn,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-science",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-math",bn,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-math",en,SYLLABUS_VERIFIED,14,240,60,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-social",bn,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-social",en,SYLLABUS_VERIFIED,14,200,50,0,200,50,0,0,PRIORITY_1,PRODUCTION_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-english",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","general","subj-english",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_1,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-physics",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-chemistry",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-math12",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-math12",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-biology",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","science-pcm","subj-biology",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","commerce","subj-accountancy",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","commerce","subj-accountancy",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","commerce","subj-business",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","commerce","subj-business",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","commerce","subj-economics",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","commerce","subj-economics",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","humanities","subj-history",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","humanities","subj-history",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","humanities","subj-polity",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","humanities","subj-polity",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","humanities","subj-geography",bn,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 12","humanities","subj-geography",en,SYLLABUS_VERIFIED,14,0,0,0,200,50,200,50,PRIORITY_2,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9","general","subj-science",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9","general","subj-science",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9","general","subj-math",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9","general","subj-math",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9","general","subj-social",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 9","general","subj-social",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11","science-pcm","subj-physics",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11","science-pcm","subj-physics",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11","science-pcm","subj-chemistry",bn,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 11","science-pcm","subj-chemistry",en,SYLLABUS_VERIFIED,14,0,0,0,50,15,50,15,PRIORITY_3,EMPTY_GAP

@@ -1,0 +1,5 @@
+asset_scope,duplicate_prevention_rule,enforcement_service,rejection_reason,blocked_count
+"PDF Document","Unique question_id and fingerprint per PDF","PdfGenerationService & CrossSurfaceLearningService","ASSET_INTERNAL_DUPLICATE",0
+"Learning Mock Session","Unique question_id and fingerprint per Mock","MockService & CrossSurfaceLearningService","ASSET_INTERNAL_DUPLICATE",0
+"Practice Mock Session","Unique question_id and fingerprint per Mock","MockService & CrossSurfaceLearningService","ASSET_INTERNAL_DUPLICATE",0
+"Full Exam Session","Unique question_id and fingerprint per Exam","MockService & BlueprintRepository","ASSET_INTERNAL_DUPLICATE",0

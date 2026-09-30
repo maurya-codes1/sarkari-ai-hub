@@ -1,0 +1,793 @@
+state,board,class,subject,language,questionCount,modelAnswerCount,keyPointsCount,markingGuidanceCount,target,shortage,status
+Andhra Pradesh,bseap-board,Class 10,Mathematics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,Science & Technology,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,Social Science,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,English Language & Literature,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,First Language (Regional/Hindi),te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Physics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Chemistry,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Higher Mathematics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Biology,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Accountancy,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Business Studies,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Economics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Andhra Pradesh,bseap-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Mathematics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Science & Technology,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,Social Science,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,English Language & Literature,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 10,First Language (Regional/Hindi),ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Physics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Chemistry,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Higher Mathematics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Biology,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Accountancy,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Business Studies,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Bihar,bseb-bihar,Class 12,Economics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Haryana,bseh-haryana,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,Mathematics,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,Science & Technology,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,Social Science,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,English Language & Literature,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,First Language (Regional/Hindi),mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Physics,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Chemistry,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Higher Mathematics,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Biology,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Accountancy,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Business Studies,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Economics,mni,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Manipur,bsem-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,Mathematics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,Science & Technology,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,Social Science,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,English Language & Literature,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,First Language (Regional/Hindi),te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Physics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Chemistry,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Higher Mathematics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Biology,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Accountancy,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Business Studies,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Economics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Telangana,bsetg-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,Science & Technology,en,26,26,26,26,50,24,PARTIAL_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,Science & Technology,hi,26,26,26,26,50,24,PARTIAL_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,Social Science,en,6667,6667,6667,6667,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,Social Science,hi,6667,6667,6667,6667,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,First Language (Regional/Hindi),en,450,450,450,450,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 10,First Language (Regional/Hindi),hi,450,450,450,450,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Higher Mathematics,en,733,733,733,733,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Higher Mathematics,hi,733,733,733,733,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Accountancy,en,200,200,200,200,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Accountancy,hi,200,200,200,200,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Business Studies,en,400,400,400,400,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Business Studies,hi,400,400,400,400,50,0,SUBJECTIVE_SATISFIED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim",cbse-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Chhattisgarh,cgbse-chhattisgarh,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,Mathematics,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,Science & Technology,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,Social Science,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,English Language & Literature,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,First Language (Regional/Hindi),or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Physics,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Chemistry,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Higher Mathematics,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Biology,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Accountancy,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Business Studies,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Economics,or,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Odisha,chse-bse-odisha,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Mathematics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Mathematics,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Science & Technology,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Science & Technology,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Social Science,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,Social Science,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,English Language & Literature,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,English Language & Literature,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,First Language (Regional/Hindi),mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 10,First Language (Regional/Hindi),kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Physics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Physics,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Chemistry,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Chemistry,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Higher Mathematics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Higher Mathematics,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Biology,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Biology,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Accountancy,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Accountancy,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Business Studies,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Business Studies,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Economics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Goa,gbshse-board,Class 12,Economics,kok,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Mathematics,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Science & Technology,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Social Science,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,English Language & Literature,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,First Language (Regional/Hindi),gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Physics,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Chemistry,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Higher Mathematics,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Biology,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Accountancy,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Business Studies,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Economics,gu,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat",gseb-gujarat,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Himachal Pradesh,hpbose-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,icse-cisce,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Jharkhand,jac-jharkhand,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Mathematics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Science & Technology,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Social Science,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,English Language & Literature,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,First Language (Regional/Hindi),ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Physics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Chemistry,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Higher Mathematics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Biology,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Accountancy,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Business Studies,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Economics,ur,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Jammu and Kashmir; Ladakh",jkbose-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,Mathematics,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,Science & Technology,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,Social Science,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,English Language & Literature,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,First Language (Regional/Hindi),ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Physics,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Chemistry,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Higher Mathematics,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Biology,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Accountancy,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Business Studies,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Economics,ml,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Kerala; Lakshadweep",kerala-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,Mathematics,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,Science & Technology,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,Social Science,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,English Language & Literature,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,First Language (Regional/Hindi),kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Physics,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Chemistry,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Higher Mathematics,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Biology,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Accountancy,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Business Studies,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Economics,kn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Karnataka,kseab-karnataka,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Mathematics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Science & Technology,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Social Science,mr,7,7,7,7,50,43,PARTIAL_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Social Science,en,7,7,7,7,50,43,PARTIAL_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,English Language & Literature,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,First Language (Regional/Hindi),mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Physics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Chemistry,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Higher Mathematics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Biology,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Accountancy,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Business Studies,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Economics,mr,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Maharashtra,maharashtra-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Meghalaya,mbose-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Mizoram,mbse-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Madhya Pradesh,mpbse-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Nagaland,nbse-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+National,nios-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Mathematics,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Science & Technology,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Social Science,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,English Language & Literature,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,First Language (Regional/Hindi),pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Physics,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Chemistry,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Higher Mathematics,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Biology,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Accountancy,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Business Studies,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Economics,pa,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Punjab,pseb-punjab,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Rajasthan,rbse-rajasthan,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Mathematics,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Mathematics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Science & Technology,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Science & Technology,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Social Science,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,Social Science,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,English Language & Literature,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,English Language & Literature,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,First Language (Regional/Hindi),as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 10,First Language (Regional/Hindi),bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Physics,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Physics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Chemistry,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Chemistry,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Higher Mathematics,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Higher Mathematics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Biology,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Biology,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Accountancy,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Accountancy,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Business Studies,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Business Studies,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Economics,as,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Assam,seba-ahsec-assam,Class 12,Economics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,Mathematics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,Science & Technology,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,Social Science,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,English Language & Literature,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,First Language (Regional/Hindi),bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Physics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Chemistry,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Higher Mathematics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Biology,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Accountancy,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Business Studies,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Economics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Tripura,tbse-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,Mathematics,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,Science & Technology,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,Social Science,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,English Language & Literature,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,First Language (Regional/Hindi),ta,257,257,257,257,50,0,SUBJECTIVE_SATISFIED
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 10,First Language (Regional/Hindi),en,257,257,257,257,50,0,SUBJECTIVE_SATISFIED
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Physics,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Chemistry,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Higher Mathematics,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Biology,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Accountancy,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Business Studies,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Economics,ta,0,0,0,0,50,50,ZERO_SUBJECTIVE
+"Puducherry; Tamil Nadu",tndge-tamilnadu,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,Mathematics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,Science & Technology,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,Social Science,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,English Language & Literature,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 10,First Language (Regional/Hindi),te,250,250,250,250,50,0,SUBJECTIVE_SATISFIED
+State Level,tsbie-bieap,Class 10,First Language (Regional/Hindi),en,250,250,250,250,50,0,SUBJECTIVE_SATISFIED
+State Level,tsbie-bieap,Class 12,Physics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Chemistry,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Higher Mathematics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Biology,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Accountancy,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Business Studies,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Economics,te,0,0,0,0,50,50,ZERO_SUBJECTIVE
+State Level,tsbie-bieap,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttarakhand,ubse-uttarakhand,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+Uttar Pradesh,upmsp-board,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Mathematics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Science & Technology,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Science & Technology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Science & Technology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Social Science,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Social Science,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,Social Science,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,English Language & Literature,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,English Language & Literature,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,English Language & Literature,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,First Language (Regional/Hindi),bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,First Language (Regional/Hindi),en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 10,First Language (Regional/Hindi),hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Physics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Physics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Physics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Chemistry,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Chemistry,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Chemistry,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Higher Mathematics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Higher Mathematics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Higher Mathematics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Biology,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Biology,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Biology,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Accountancy,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Accountancy,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Accountancy,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Business Studies,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Business Studies,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Business Studies,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Economics,bn,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Economics,en,0,0,0,0,50,50,ZERO_SUBJECTIVE
+West Bengal,wbbse-wb,Class 12,Economics,hi,0,0,0,0,50,50,ZERO_SUBJECTIVE

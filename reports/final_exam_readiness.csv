@@ -1,0 +1,53 @@
+exam_id,name,category,readiness_state,eligible_questions,full_exam_allowed
+agniveer-airforce,Indian Air Force Agniveer Vayu (Science & Other than Science),central,PRACTICE_READY,0,NO_BLOCKED
+agniveer-army,"Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",central,PRACTICE_READY,0,NO_BLOCKED
+agniveer-navy,Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026),central,PRACTICE_READY,0,NO_BLOCKED
+bihar-police-constable,"Bihar Police Constable (CSBC 21,391 Posts) & Daroga",police,PRACTICE_READY,0,NO_BLOCKED
+bpsc-tre,Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination),teaching,PRACTICE_READY,0,NO_BLOCKED
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+cbse-board,CBSE Board (Class 10th & 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),boards,PRACTICE_READY,0,NO_BLOCKED
+clat-law,CLAT (Common Law Admission Test for NLUs - BA LLB & LLM),entrance,PRACTICE_READY,0,NO_BLOCKED
+ctet-exam,CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2),teaching,PRACTICE_READY,0,NO_BLOCKED
+delhi-police,Delhi Police Executive Constable & Head Constable,police,PRACTICE_READY,0,NO_BLOCKED
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+haryana-police,"Haryana Police Constable (HSSC 6,000 Posts)",police,PRACTICE_READY,0,NO_BLOCKED
+ibps-po-clerk,IBPS & SBI Banking (Probationary Officer & Clerk),central,PRACTICE_READY,0,NO_BLOCKED
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),boards,PRACTICE_READY,0,NO_BLOCKED
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+maharashtra-police,"Maharashtra Police Constable Bharti (Police Shipai 17,471)",police,PRACTICE_READY,0,NO_BLOCKED
+mp-police,"MP Police Constable (ESB 7,411 Posts) & Sub Inspector",police,PRACTICE_READY,0,NO_BLOCKED
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),boards,PRACTICE_READY,0,NO_BLOCKED
+nios-board,NIOS Board (National Institute of Open Schooling),boards,PRACTICE_READY,0,NO_BLOCKED
+nta-cuet-ug,NTA CUET UG (Common University Entrance Test for Undergrad),entrance,PRACTICE_READY,0,NO_BLOCKED
+nta-jee-adv,JEE Advanced (Indian Institutes of Technology - IITs Entrance),entrance,PRACTICE_READY,0,NO_BLOCKED
+nta-jee-main,"JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",entrance,PRACTICE_READY,0,NO_BLOCKED
+nta-neet,NEET UG (National Eligibility cum Entrance Test - Medical),entrance,PRACTICE_READY,0,NO_BLOCKED
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+rajasthan-police,"Rajasthan Police Constable Bharti (3,578 Posts)",police,PRACTICE_READY,0,NO_BLOCKED
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),boards,PRACTICE_READY,0,NO_BLOCKED
+reet-rajasthan,REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2),teaching,PRACTICE_READY,0,NO_BLOCKED
+rrb-alp,Railway RRB Assistant Loco Pilot (ALP 2026),central,PRACTICE_READY,0,NO_BLOCKED
+rrb-group-d,"Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",central,PRACTICE_READY,0,NO_BLOCKED
+rrb-ntpc,"Railway RRB NTPC (Station Master, Goods Guard, Clerk)",central,PRACTICE_READY,0,NO_BLOCKED
+rrb-technician,Railway RRB Technician Grade I & Grade III,central,PRACTICE_READY,0,NO_BLOCKED
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+ssc-cgl,"SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",central,FULL_EXAM_READY,106,YES
+ssc-chsl,"SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",central,PRACTICE_READY,0,NO_BLOCKED
+ssc-gd,"SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",central,PRACTICE_READY,0,NO_BLOCKED
+ssc-mts,SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff),central,PRACTICE_READY,0,NO_BLOCKED
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",boards,PRACTICE_READY,0,NO_BLOCKED
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),boards,PRACTICE_READY,0,NO_BLOCKED
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),boards,PRACTICE_READY,0,NO_BLOCKED
+ugc-net,UGC NET / CSIR NET (Assistant Professor & JRF Fellowship),teaching,PRACTICE_READY,0,NO_BLOCKED
+up-police-constable,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti",police,PRACTICE_READY,0,NO_BLOCKED
+upmsp-board,UP Board (High School & Intermediate 10th/12th),boards,PRACTICE_READY,0,NO_BLOCKED
+upsc-cse,"UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",central,FULL_EXAM_READY,109,YES
+upsc-nda,UPSC NDA & NA (National Defence Academy & Naval Academy),central,PRACTICE_READY,0,NO_BLOCKED
+uptet-supertet,UP TET & Super TET (UP Primary & Upper Primary Bharti),teaching,PRACTICE_READY,0,NO_BLOCKED
+wb-police,"West Bengal Police (WBP Constable 11,749 & Kolkata Police)",police,PRACTICE_READY,0,NO_BLOCKED
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),boards,PRACTICE_READY,0,NO_BLOCKED

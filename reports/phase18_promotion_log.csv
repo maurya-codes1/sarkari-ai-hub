@@ -1,0 +1,3 @@
+component_id,name,promotion_type,promoted_at,verified_by,status
+"bp-verified-ssc-cgl","SSC CGL Tier-1 Official Pattern","FULL_EXAM_PROMOTION","2026-09-30 01:20:00","OFFICIAL_EXAM_GATE","VERIFIED"
+"bp-verified-upsc-cse-prelims","UPSC Civil Services Prelims GS Paper 1","FULL_EXAM_PROMOTION","2026-09-30 01:20:00","OFFICIAL_EXAM_GATE","VERIFIED"

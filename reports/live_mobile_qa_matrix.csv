@@ -1,0 +1,12 @@
+route,viewport,device_browser,overflow,navigation,interactions,language,Mock,PDF,accessibility,status,severity
+"/","320px","iPhone SE 1st gen","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/","360px","Moto G / Galaxy A","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/","375px","iPhone 13 mini","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/","390px","iPhone 14 / 15","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/","414px","iPhone Pro Max","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/adaptive-practice.html","320px","iPhone SE 1st gen","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/adaptive-practice.html","375px","iPhone 13 mini","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/candidate-analytics.html","375px","iPhone 13 mini","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/coverage-matrix.html","375px","iPhone 13 mini","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/planner.html","375px","iPhone 13 mini","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"
+"/ai-audit.html","375px","iPhone 13 mini","NONE","PASS","PASS","PASS","PASS","PASS","PASS","PASS","NONE"

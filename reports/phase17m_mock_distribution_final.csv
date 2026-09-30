@@ -1,0 +1,4 @@
+mock_mode,target_pedagogy,studied_question_priority,fresh_verified_pool_mix,single_asset_duplicate_rule,status
+"MODE_A_LEARNING_MOCK","Direct Recall of Studied PDF/Revision","70% - 100% of Studied Set","Refill with Compatible Verified Qs","REJECT DUPLICATES","OPERATIONAL"
+"MODE_B_PRACTICE_MOCK","Broad Subject Mastery & Stamina","25% - 50% Studied Mix","Broader Verified Syllabus Pool","REJECT DUPLICATES","OPERATIONAL"
+"MODE_C_FULL_EXAM","Official Blueprint Simulation","Conditional on Blueprint Eligibility","Strict full_exam_eligible=1 Pool","REJECT DUPLICATES","OPERATIONAL"

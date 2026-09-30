@@ -1,0 +1,181 @@
+exam,component,version,subject,officialLanguages,questionLanguages,optionLanguages,answerLanguages,modelAnswerLanguages,questionCount,objectiveCount,subjectiveCount,status,coverageGap
+general,comp-general-practice,N/A,subj-hindi,en+hi,hi,hi,hi,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-hindi,en+hi,en,en,en,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-math,en+hi,hi,hi,hi,N/A,115,115,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (115/200)
+general,comp-general-practice,N/A,subj-math,en+hi,en,en,en,N/A,115,115,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (115/200)
+general,comp-general-practice,N/A,subj-science,en+hi,hi,hi,hi,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-science,en+hi,en,en,en,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-social,en+hi,hi,hi,hi,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-social,en+hi,en,en,en,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-english,en+hi,hi,hi,hi,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-english,en+hi,en,en,en,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-sanskrit,en+hi,hi,hi,hi,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-sanskrit,en+hi,en,en,en,N/A,85,85,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (85/200)
+general,comp-general-practice,N/A,subj-physics,en+hi,hi,hi,hi,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-physics,en+hi,en,en,en,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-chemistry,en+hi,hi,hi,hi,N/A,35,35,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (35/200)
+general,comp-general-practice,N/A,subj-chemistry,en+hi,en,en,en,N/A,35,35,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (35/200)
+general,comp-general-practice,N/A,subj-biology,en+hi,hi,hi,hi,N/A,35,35,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (35/200)
+general,comp-general-practice,N/A,subj-biology,en+hi,en,en,en,N/A,35,35,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (35/200)
+general,comp-general-practice,N/A,subj-math12,en+hi,hi,hi,hi,N/A,45,45,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (45/200)
+general,comp-general-practice,N/A,subj-math12,en+hi,en,en,en,N/A,45,45,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (45/200)
+general,comp-general-practice,N/A,subj-accountancy,en+hi,hi,hi,hi,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-accountancy,en+hi,en,en,en,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-business,en+hi,hi,hi,hi,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-business,en+hi,en,en,en,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-economics,en+hi,hi,hi,hi,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-economics,en+hi,en,en,en,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-history,en+hi,hi,hi,hi,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-history,en+hi,en,en,en,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-polity,en+hi,hi,hi,hi,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-polity,en+hi,en,en,en,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-geography,en+hi,hi,hi,hi,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-geography,en+hi,en,en,en,N/A,12,12,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (12/200)
+general,comp-general-practice,N/A,subj-reasoning,en+hi,hi,hi,hi,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-reasoning,en+hi,en,en,en,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-law,en+hi,hi,hi,hi,N/A,25,25,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (25/200)
+general,comp-general-practice,N/A,subj-law,en+hi,en,en,en,N/A,25,25,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (25/200)
+general,comp-general-practice,N/A,subj-railway-sci,en+hi,hi,hi,hi,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-railway-sci,en+hi,en,en,en,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-gk,en+hi,hi,hi,hi,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+general,comp-general-practice,N/A,subj-gk,en+hi,en,en,en,N/A,30,30,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (30/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-reasoning,en+hi,en,en,en,N/A,26,26,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (26/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-reasoning,en+hi,hi,hi,hi,N/A,26,26,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (26/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-gk,en+hi,en,en,en,N/A,25,25,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (25/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-gk,en+hi,hi,hi,hi,N/A,25,25,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (25/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-math,en+hi,en,en,en,N/A,11550,11550,0,READY,NONE
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-math,en+hi,hi,hi,hi,N/A,11550,11550,0,READY,NONE
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-english,en+hi,en,en,en,N/A,9612,9612,0,READY,NONE
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2026,subj-english,en+hi,hi,hi,hi,N/A,9612,9612,0,READY,NONE
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2026,subj-science,en+hi,en,en,en,en,11588,11562,26,READY,NONE
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2026,subj-science,en+hi,hi,hi,hi,hi,11588,11562,26,READY,NONE
+tndge-tamilnadu,comp-tndge-tamilnadu-cls10-math,ver-tndge-tamilnadu-2026,subj-tamil,ta,ta,ta,ta,ta,532,275,257,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2023,subj-gk,en+hi,hi,hi,hi,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2023,subj-gk,en+hi,en,en,en,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2023,subj-history,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2023,subj-history,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2022,subj-gk,en+hi,hi,hi,hi,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2022,subj-gk,en+hi,en,en,en,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2022,subj-history,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2022,subj-history,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2021,subj-gk,en+hi,hi,hi,hi,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2021,subj-gk,en+hi,en,en,en,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2021,subj-history,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2021,subj-history,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2023,subj-gk,en+hi,hi,hi,hi,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2023,subj-gk,en+hi,en,en,en,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2023,subj-math,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2023,subj-math,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2023,subj-reasoning,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2023,subj-reasoning,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2022,subj-gk,en+hi,hi,hi,hi,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2022,subj-gk,en+hi,en,en,en,N/A,2,2,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (2/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2022,subj-math,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2022,subj-math,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2022,subj-reasoning,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ssc-cgl,comp-ssc-cgl-tier1,ver-ssc-cgl-2022,subj-reasoning,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2022,subj-science,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2022,subj-science,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2022,subj-math,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2022,subj-math,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2023,subj-math,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2023,subj-math,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2023,subj-reasoning,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2023,subj-reasoning,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-nda,comp-upsc-nda-math,ver-upsc-nda-2023,subj-science,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-nda,comp-upsc-nda-math,ver-upsc-nda-2023,subj-science,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2023,subj-biology,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2023,subj-biology,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2023,subj-physics,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2023,subj-physics,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2024,subj-hindi,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2024,subj-hindi,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2024,subj-gk,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2024,subj-gk,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2023,subj-science,en+hi,hi,hi,hi,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2023,subj-science,en+hi,en,en,en,N/A,1,1,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (1/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-polity,en+hi,en,en,en,en,1522,515,1007,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-polity,en+hi,hi,hi,hi,hi,1522,515,1007,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-economics,en+hi,en,en,en,en,1522,765,757,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-economics,en+hi,hi,hi,hi,hi,1522,765,757,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-geography,en+hi,en,en,en,en,1514,764,750,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-geography,en+hi,hi,hi,hi,hi,1514,764,750,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-history,en+hi,en,en,en,en,1514,514,1000,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-history,en+hi,hi,hi,hi,hi,1514,514,1000,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-science,en+hi,en,en,en,N/A,28,28,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (28/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-science,en+hi,hi,hi,hi,N/A,28,28,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (28/200)
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-gk,en+hi,en,en,en,en,13564,6814,6750,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-gk,en+hi,hi,hi,hi,hi,13564,6814,6750,READY,NONE
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-social,en+hi,en,en,en,N/A,39,39,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (39/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-social,en+hi,hi,hi,hi,N/A,39,39,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (39/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2026,subj-gk,en+hi,en,en,en,N/A,39,39,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (39/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2026,subj-gk,en+hi,hi,hi,hi,N/A,39,39,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (39/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-gk,en+hi,en,en,en,N/A,45,45,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (45/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-gk,en+hi,hi,hi,hi,N/A,45,45,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (45/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-reasoning,en+hi,en,en,en,N/A,7,7,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-reasoning,en+hi,hi,hi,hi,N/A,7,7,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-gk,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-gk,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-math,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-math,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-hindi,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ssc-gd,comp-ssc-gd-cbe,ver-ssc-gd-2026,subj-hindi,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-math,en+hi,en,en,en,N/A,7,7,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-math,en+hi,hi,hi,hi,N/A,7,7,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-reasoning,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-reasoning,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-science,en+hi,en,en,en,N/A,7,7,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-science,en+hi,hi,hi,hi,N/A,7,7,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-gk,en+hi,en,en,en,N/A,5,5,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (5/200)
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-gk,en+hi,hi,hi,hi,N/A,5,5,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (5/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2026,subj-math,en+hi,en,en,en,N/A,8,8,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (8/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2026,subj-math,en+hi,hi,hi,hi,N/A,8,8,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (8/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2026,subj-reasoning,en+hi,en,en,en,N/A,8,8,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (8/200)
+rrb-ntpc,comp-rrb-ntpc-cbt1,ver-rrb-ntpc-2026,subj-reasoning,en+hi,hi,hi,hi,N/A,8,8,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (8/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-science,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-science,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-math,en+hi,en,en,en,N/A,5,5,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (5/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-math,en+hi,hi,hi,hi,N/A,5,5,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (5/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-hindi,en+hi,en,en,en,N/A,5,5,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (5/200)
+ctet-exam,comp-ctet-paper1-primary,ver-ctet-exam-2026,subj-hindi,en+hi,hi,hi,hi,N/A,5,5,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (5/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2026,subj-math,en+hi,en,en,en,N/A,9,9,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (9/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2026,subj-math,en+hi,hi,hi,hi,N/A,9,9,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (9/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2026,subj-reasoning,en+hi,en,en,en,N/A,11619,11619,0,READY,NONE
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2026,subj-reasoning,en+hi,hi,hi,hi,N/A,11619,11619,0,READY,NONE
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2026,subj-english,en+hi,en,en,en,N/A,8,8,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (8/200)
+ibps-po-clerk,comp-ibps-po-prelims,ver-ibps-po-clerk-2026,subj-english,en+hi,hi,hi,hi,N/A,8,8,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (8/200)
+upsc-nda,comp-upsc-nda-math,ver-upsc-nda-2026,subj-math12,en+hi,en,en,en,N/A,25,25,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (25/200)
+upsc-nda,comp-upsc-nda-math,ver-upsc-nda-2026,subj-math12,en+hi,hi,hi,hi,N/A,25,25,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (25/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-hindi,en+hi,en,en,en,N/A,9608,9608,0,READY,NONE
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-hindi,en+hi,hi,hi,hi,N/A,9608,9608,0,READY,NONE
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-math,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-math,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-reasoning,en+hi,en,en,en,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-reasoning,en+hi,hi,hi,hi,N/A,6,6,0,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (6/200)
+cbse-board,comp-cbse-board-cls10-social,ver-cbse-board-2026,subj-social,en+hi,en,en,en,en,10081,3414,6667,READY,NONE
+cbse-board,comp-cbse-board-cls10-social,ver-cbse-board-2026,subj-social,en+hi,hi,hi,hi,hi,10081,3414,6667,READY,NONE
+tndge-tamilnadu,comp-tndge-tamilnadu-cls10-math,ver-tndge-tamilnadu-2026,subj-tamil,ta,en,en,en,en,507,250,257,READY,NONE
+maharashtra-board,comp-maharashtra-board-cls10-social,ver-maharashtra-board-2026,subj-social,en+hi,en,N/A,en,en,7,0,7,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+maharashtra-board,comp-maharashtra-board-cls10-social,ver-maharashtra-board-2026,subj-social,en+hi,mr,N/A,mr,mr,7,0,7,EXPANSION_NEEDED,COUNT_BELOW_200_TARGET (7/200)
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2026,subj-math12,en+hi,en,en,en,en,2200,1467,733,READY,NONE
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2026,subj-math12,en+hi,hi,hi,hi,hi,2200,1467,733,READY,NONE
+nta-jee-main,comp-jee-main-paper1,ver-nta-jee-main-2026,subj-physics,en+hi,en,en,en,en,2200,1467,733,READY,NONE
+nta-jee-main,comp-jee-main-paper1,ver-nta-jee-main-2026,subj-physics,en+hi,hi,hi,hi,hi,2200,1467,733,READY,NONE
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2026,subj-chemistry,en+hi,en,en,en,en,2200,1467,733,READY,NONE
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2026,subj-chemistry,en+hi,hi,hi,hi,hi,2200,1467,733,READY,NONE
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2026,subj-biology,en+hi,en,en,en,en,2200,1100,1100,READY,NONE
+nta-neet,comp-neet-ug-unified,ver-nta-neet-2026,subj-biology,en+hi,hi,hi,hi,hi,2200,1100,1100,READY,NONE
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-railway-sci,en+hi,en,en,en,N/A,1000,1000,0,READY,NONE
+rrb-alp,comp-rrb-alp-cbt1,ver-rrb-alp-2026,subj-railway-sci,en+hi,hi,hi,hi,N/A,1000,1000,0,READY,NONE
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-law,en+hi,en,en,en,en,1000,500,500,READY,NONE
+up-police-constable,comp-up-police-constable-written,ver-up-police-constable-2026,subj-law,en+hi,hi,hi,hi,hi,1000,500,500,READY,NONE
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2026,subj-sanskrit,en+hi,hi,hi,hi,hi,900,450,450,READY,NONE
+cbse-board,comp-cbse-board-cls10-math,ver-cbse-board-2026,subj-sanskrit,en+hi,en,en,en,en,900,450,450,READY,NONE
+cbse-board,comp-cbse-board-cls12-com-accountancy,ver-cbse-board-2026,subj-accountancy,en+hi,en,en,en,en,600,400,200,READY,NONE
+cbse-board,comp-cbse-board-cls12-com-accountancy,ver-cbse-board-2026,subj-accountancy,en+hi,hi,hi,hi,hi,600,400,200,READY,NONE
+cbse-board,comp-cbse-board-cls12-com-business,ver-cbse-board-2026,subj-business,en+hi,en,en,en,en,600,200,400,READY,NONE
+cbse-board,comp-cbse-board-cls12-com-business,ver-cbse-board-2026,subj-business,en+hi,hi,hi,hi,hi,600,200,400,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-sociology,en+hi,en,en,en,en,500,166,334,READY,NONE
+upsc-cse,comp-upsc-cse-prelims-gs1,ver-upsc-cse-2026,subj-sociology,en+hi,hi,hi,hi,hi,500,166,334,READY,NONE
+tsbie-bieap,comp-tsbie-bieap-cls10-math,ver-tsbie-bieap-2026,subj-telugu,te,te,te,te,te,500,250,250,READY,NONE
+tsbie-bieap,comp-tsbie-bieap-cls10-math,ver-tsbie-bieap-2026,subj-telugu,te,en,en,en,en,500,250,250,READY,NONE

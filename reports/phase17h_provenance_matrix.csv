@@ -1,0 +1,138 @@
+board,class,subject,provenance,source_type,count,fullExamEligible
+"CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",OFFICIAL_SAMPLE,OFFICIAL_DOCUMENT,39,0
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Annual","subj-tamil",OFFICIAL_PYQ,OFFICIAL_PYQ,25,1
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",OFFICIAL_PYQ,OFFICIAL_PYQ,1,1
+"CBSE Board (Class 10th & 12th)","BOARD","subj-science",OFFICIAL_SAMPLE,OFFICIAL_SAMPLE,20,0
+"CBSE Board (Class 10th & 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,11529,0
+"CBSE Board (Class 10th & 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,10081,0
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",HUMAN_CURATED,HUMAN_CURATED,507,0
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,257,0
+"CBSE Board (Class 10th & 12th)","Class 12","subj-math12",HUMAN_CURATED,HUMAN_CURATED,2200,0
+"CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",HUMAN_CURATED,HUMAN_CURATED,900,0
+"CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",HUMAN_CURATED,HUMAN_CURATED,600,0
+"CBSE Board (Class 10th & 12th)","Class 12","subj-business",HUMAN_CURATED,HUMAN_CURATED,600,0
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",HUMAN_CURATED,HUMAN_CURATED,500,0
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",HUMAN_CURATED,HUMAN_CURATED,350,0
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,350,0
+"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Board of Secondary Education Andhra Pradesh","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,150,0
+"Directorate of Government Examinations Telangana","Class 10","subj-telugu",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Directorate of Government Examinations Telangana","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Directorate of Government Examinations Telangana","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Directorate of Government Examinations Telangana","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,150,0
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",HUMAN_CURATED,HUMAN_CURATED,100,0
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,300,0
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,250,0
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,250,0
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,250,0
+"MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,250,0
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Himachal Pradesh Board of School Education","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Himachal Pradesh Board of School Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Himachal Pradesh Board of School Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Himachal Pradesh Board of School Education","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jammu & Kashmir Board of School Education","Class 10","subj-urdu",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jammu & Kashmir Board of School Education","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jammu & Kashmir Board of School Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Jammu & Kashmir Board of School Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Board of Secondary Education Manipur","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Board of Secondary Education Manipur","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Board of Secondary Education Manipur","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Board of Secondary Education Manipur","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Meghalaya Board of School Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Meghalaya Board of School Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Meghalaya Board of School Education","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Meghalaya Board of School Education","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Mizoram Board of School Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Mizoram Board of School Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Mizoram Board of School Education","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Mizoram Board of School Education","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Nagaland Board of School Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Nagaland Board of School Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Nagaland Board of School Education","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Nagaland Board of School Education","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Tripura Board of Secondary Education","Class 10","subj-bengali",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Tripura Board of Secondary Education","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"Tripura Board of Secondary Education","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,100,0
+"Tripura Board of Secondary Education","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,100,0
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",HUMAN_CURATED,HUMAN_CURATED,200,0
+"ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",HUMAN_CURATED,HUMAN_CURATED,200,0
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",HUMAN_CURATED,HUMAN_CURATED,200,0
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",HUMAN_CURATED,HUMAN_CURATED,200,0
+"NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",HUMAN_CURATED,HUMAN_CURATED,200,0
+"CBSE Board (Class 10th & 12th)","Class 9","subj-science",HUMAN_CURATED,HUMAN_CURATED,300,0
+"CBSE Board (Class 10th & 12th)","Class 9","subj-math",HUMAN_CURATED,HUMAN_CURATED,300,0
+"CBSE Board (Class 10th & 12th)","Class 11","subj-physics",HUMAN_CURATED,HUMAN_CURATED,200,0
+"CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",HUMAN_CURATED,HUMAN_CURATED,200,0

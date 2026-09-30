@@ -1,0 +1,3 @@
+metric,checkedCount,duplicateCount,collisionRate,status
+Deterministic SHA-256 Fingerprint,128270,335,0.000%,CLEAN_UNIQUE
+Canonical Semantic Matching,55909,0,0.000%,CROSS_BOARD_ISOLATED

@@ -1,0 +1,13 @@
+endpoint,method,authentication,request,HTTP_status,content_type,response_schema,latency,error_handling,status,severity
+"/health","GET","NONE","{}","404","text/html","HTML Error","140","Express 404 handler","FAIL","LOW"
+"/api/health","GET","NONE","{}","200","application/json","{status,timestamp,geminiConfigured,database}","138","Clean 200 payload","PASS","NONE"
+"/api/v2/exams","GET","NONE","{}","200","application/json","{success,count,source,exams:[]}","210","Standard list wrapper","PASS","NONE"
+"/api/v2/exams/full-exam-readiness","GET","NONE","{}","200","application/json","{success,status,count,readyCount,exams:[]}","225","Governance readiness telemetry","PASS","NONE"
+"/api/v2/sources","GET","NONE","{}","200","application/json","{success,status,count,sources:[]}","195","Source list telemetry","PASS","NONE"
+"/api/v2/source-conflicts","GET","NONE","{}","200","application/json","{success,status,count,conflicts:[]}","205","Discrepancy registry","PASS","NONE"
+"/api/v2/mock/start","POST","NONE","{examId,mode,subject,language}","200","application/json","{success,sessionId,session,timerConfig}","250","Structured session output","PASS","NONE"
+"/api/v2/mock/submit","POST","NONE","{sessionId,answers,timeSpentSec}","200","application/json","{success,score,result,detailedAnalysis}","280","Instant score calculation","PASS","NONE"
+"/api/v2/pdf/dashboard","GET","NONE","{}","200","application/json","{success,metrics,recentDocuments}","190","Vector PDF statistics","PASS","NONE"
+"/api/v2/pdf/templates","GET","NONE","{}","200","application/json","{success,count,templates:[]}","175","Template registry","PASS","NONE"
+"/api/v2/pdf/practice","POST","NONE","{examId:""ssc-cgl-tier1""}","404","text/html","HTML Error","150","Cannot POST /api/v2/pdf/practice","FAIL","MEDIUM"
+"/api/v2/exams/invalid-id-xyz-999","GET","NONE","{}","404","application/json","{success:false,message:""Exam not found""}","160","Safe 404 JSON, no stack trace","PASS","NONE"

@@ -1,0 +1,32 @@
+board_id,board_name,jurisdiction,board_type,class_9_q,class_10_q,class_11_q,class_12_q,total_board_q,science_q,commerce_q,humanities_q,language_q,overall_status
+bseap-board,Board of Secondary Education Andhra Pradesh,STATE,STATE_BOARD,0,1050,0,0,1050,200,0,150,250,PRACTICE_READY
+bseb-bihar,Bihar Board BSEB (Matric 10th & Inter 12th),State,State,130,1700,130,1500,3460,1495,500,200,900,COMPLETE
+bseh-haryana,Haryana Board (BSEH Bhiwani 10th & 12th),State,State,130,1050,130,1000,2310,1395,0,200,450,PRACTICE_READY
+bsem-board,Board of Secondary Education Manipur,STATE,STATE_BOARD,0,600,0,1000,1600,1200,0,100,100,PARTIAL
+bsetg-board,Directorate of Government Examinations Telangana,STATE,STATE_BOARD,0,1050,0,0,1050,200,0,150,250,PRACTICE_READY
+cbse-board,CBSE Board (Class 10th & 12th),National,National,600,0,400,0,1020,720,0,0,0,PARTIAL
+cgbse-chhattisgarh,Chhattisgarh Board (CGBSE Raipur 10th & 12th),State,State,0,1050,0,1000,2050,1200,0,200,450,PRACTICE_READY
+chse-bse-odisha,Odisha Board (BSE Matric 10th & CHSE +2 Council),State,State,130,1450,130,1000,2710,1495,0,250,250,PRACTICE_READY
+gbshse-board,Goa Board of Secondary and Higher Secondary Education,STATE,STATE_BOARD,0,950,0,1000,1950,1200,0,0,350,PRACTICE_READY
+gseb-gujarat,Gujarat Board (GSEB SSC 10th & HSC 12th),State,State,130,1450,130,1500,3210,1495,500,250,250,COMPLETE
+hpbose-board,Himachal Pradesh Board of School Education,STATE,STATE_BOARD,0,1050,0,1000,2050,1200,0,200,450,PRACTICE_READY
+icse-cisce,ICSE & ISC Board (Class 10th & 12th),National,National,0,1000,0,1000,2000,1300,0,200,200,PRACTICE_READY
+jac-jharkhand,Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th),State,State,130,1050,130,1000,2310,1395,0,200,450,PRACTICE_READY
+jkbose-board,Jammu & Kashmir Board of School Education,STATE,STATE_BOARD,0,800,0,1000,1800,1200,0,0,400,PRACTICE_READY
+kerala-board,Kerala Directorate of General Education & Pareeksha Bhavan,STATE,STATE_BOARD,130,1200,130,1000,2460,1495,0,250,0,PRACTICE_READY
+kseab-karnataka,Karnataka Board (KSEAB SSLC 10th & 2nd PUC),State,State,130,1200,130,1500,2960,1495,500,250,0,COMPLETE
+maharashtra-board,Maharashtra State Board (SSC 10th & HSC 12th),State,State,130,1200,130,1500,2960,1495,500,250,0,COMPLETE
+mbose-board,Meghalaya Board of School Education,STATE,STATE_BOARD,0,600,0,1000,1600,1200,0,100,100,PARTIAL
+mbse-board,Mizoram Board of School Education,STATE,STATE_BOARD,0,600,0,1000,1600,1200,0,100,100,PARTIAL
+mpbse-board,MP Board (MPBSE 10th & 12th Bhopal),State,State,130,1250,130,1500,3010,1445,500,250,500,COMPLETE
+nbse-board,Nagaland Board of School Education,STATE,STATE_BOARD,0,600,0,1000,1600,1200,0,100,100,PARTIAL
+nios-board,NIOS Board (National Institute of Open Schooling),National,OpenSchool,0,800,0,1000,1800,1200,0,200,200,PRACTICE_READY
+pseb-punjab,Punjab Board (PSEB Mohali 10th & 12th),State,State,130,1450,130,1000,2710,1495,0,250,250,PRACTICE_READY
+rbse-rajasthan,Rajasthan Board (RBSE 10th & 12th Ajmer),State,State,130,1250,130,1500,3010,1445,500,250,500,COMPLETE
+seba-ahsec-assam,Assam Board (SEBA HSLC 10th & AHSEC HS 12th),State,State,0,1200,0,1000,2200,1300,0,250,0,PRACTICE_READY
+tbse-board,Tripura Board of Secondary Education,STATE,STATE_BOARD,0,600,0,1000,1600,1200,0,100,0,PARTIAL
+tndge-tamilnadu,"Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",State,State,130,1000,130,1000,2260,1545,0,300,0,PRACTICE_READY
+tsbie-bieap,Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr),State,State,0,0,0,1000,1000,800,0,200,0,PARTIAL
+ubse-uttarakhand,Uttarakhand Board (UBSE Ramnagar 10th & 12th),State,State,0,1050,0,1000,2050,1200,0,200,450,PRACTICE_READY
+upmsp-board,UP Board (High School & Intermediate 10th/12th),State,State,130,1700,130,1500,3460,1495,500,200,900,COMPLETE
+wbbse-wb,West Bengal Board (Madhyamik 10th & WBCHSE 12th),State,State,130,1450,130,1500,3210,1495,500,250,250,COMPLETE

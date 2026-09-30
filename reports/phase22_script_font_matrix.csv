@@ -1,0 +1,15 @@
+script_family,primary_font,web_fallback_fonts,supported_languages,complex_text_shaping,direction,browser_qa_status,mobile_qa_status,pdf_qa_status,production_readiness
+Latin,Plus Jakarta Sans,"Inter, Roboto, system-ui, sans-serif","English (en), Hinglish (hi-latn)",Standard,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Devanagari,Noto Sans Devanagari,"Mangal, Nirmala UI, sans-serif","Hindi (hi), Marathi (mr), Sanskrit (sa), Maithili (mai), Bhojpuri (bho), Nepali (ne), Konkani (kok), Dogri (doi), Bodo (brx)",HarfBuzz OpenType Ligatures,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Tamil,Noto Sans Tamil,"Latha, Vijaya, Nirmala UI, sans-serif",Tamil (ta),HarfBuzz Tamil Vowel Modifiers,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Telugu,Noto Sans Telugu,"Gautami, Nirmala UI, sans-serif",Telugu (te),HarfBuzz Telugu Conjuncts,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Bengali-Assamese,Noto Sans Bengali,"Vrinda, Shonar Bangla, Nirmala UI, sans-serif","Bengali (bn), Assamese (as), Manipuri (mni)",HarfBuzz Bengali Conjuncts & Ra-Phala,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Gujarati,Noto Sans Gujarati,"Shruti, Nirmala UI, sans-serif",Gujarati (gu),HarfBuzz Gujarati Shirorekha-less,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Kannada,Noto Sans Kannada,"Tunga, Nirmala UI, sans-serif",Kannada (kn),HarfBuzz Kannada Vowel Signs & Ottu,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Malayalam,Noto Sans Malayalam,"Kartika, Nirmala UI, sans-serif",Malayalam (ml),HarfBuzz Malayalam Chillu & Conjuncts,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Gurmukhi,Noto Sans Gurmukhi,"Raavi, Nirmala UI, sans-serif",Punjabi (pa),HarfBuzz Gurmukhi Bindi & Tippi,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Odia,Noto Sans Oriya,"Kalinga, Nirmala UI, sans-serif",Odia (or),HarfBuzz Odia Top-matra Ligatures,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Perso-Arabic (Urdu/Kashmiri),Noto Nastaliq Urdu,"Noto Naskh Arabic, Tahoma, serif","Urdu (ur), Kashmiri (ks)",Nastaliq Slanted Cursive Cascade,RTL,PASS,PASS,PASS,PRODUCTION_READY
+Arabic-Sindhi,Noto Sans Arabic,"Noto Naskh Arabic, Tahoma, sans-serif",Sindhi (sd),Arabic 4-dot Sindhi Characters,RTL,PASS,PASS,PASS,PRODUCTION_READY
+Ol Chiki,Noto Sans Ol Chiki,"system-ui, sans-serif",Santali (sat),Non-Indic Linear Alphabet,LTR,PASS,PASS,PASS,PRODUCTION_READY
+Meetei Mayek,Noto Sans Meetei Mayek,"Noto Sans Bengali, sans-serif",Manipuri (mni),Meetei Mayek Iyek & Cheikhei,LTR,PASS,PASS,PASS,RESERVED_PREVIEW_READY

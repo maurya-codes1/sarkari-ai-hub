@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-09-29T15:41:35.362Z",
+  "phase": "PHASE_17I",
+  "total_questions": 144850,
+  "board_questions": 72489,
+  "competitive_questions": 72361,
+  "phase17i_additions": {
+    "total": 16580,
+    "objective": 13200,
+    "subjective": 3380
+  },
+  "full_exam_eligible": 250,
+  "school_board_stage_distribution": {
+    "Class 10": 29400,
+    "Annual": 25,
+    "Annual Board Exam": 39,
+    "BOARD": 20,
+    "Class 11": 1440,
+    "Class 12": 13000,
+    "Class 9": 1640
+  },
+  "academic_dependencies_count": 74,
+  "exam_registrations_count": 70,
+  "sha256_pre_phase17i": "ccc75eb47e98f8451c2ce488f16997a0e996cbaec0c2b887c73defeec9e4ef27",
+  "sha256_post_phase17i": "8cbec01a260749b82a7ec717109f93e1f0cf51608bb0595f28045e547b19e7c2"
+}

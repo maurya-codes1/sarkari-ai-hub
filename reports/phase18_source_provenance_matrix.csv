@@ -1,0 +1,5 @@
+source_type,count,full_exam_eligible_allowed,description
+"HUMAN_CURATED",171800,"PROHIBITED","Subject expert practice questions"
+"OFFICIAL_PYQ",351,"CONDITIONAL_ON_BLUEPRINT","Authentic historical examination papers"
+"OFFICIAL_DOCUMENT",39,"CONDITIONAL_ON_BLUEPRINT","Official documentation"
+"OFFICIAL_SAMPLE",20,"CONDITIONAL_ON_BLUEPRINT","Official documentation"

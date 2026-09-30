@@ -1,0 +1,252 @@
+state,board,class,subject,languageCode,languageName,questionCount,objectiveCount,subjectiveCount,modelAnswerCount,status
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",en,en,39,20,19,0,LOW_COVERAGE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Annual Board Exam","subj-science",hi,hi,39,20,19,0,LOW_COVERAGE
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Annual","subj-tamil",ta,ta,25,25,0,0,LOW_COVERAGE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-science",hi,hi,11530,11523,7,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-science",en,en,11530,11523,7,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","BOARD","subj-science",en,en,20,20,0,0,LOW_COVERAGE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","BOARD","subj-science",hi,hi,20,20,0,0,LOW_COVERAGE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-social",en,en,10081,3414,6667,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-social",hi,hi,10081,3414,6667,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",en,en,507,250,257,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-tamil",ta,ta,507,250,257,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",en,en,257,200,57,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-social",mr,mr,257,200,57,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-math12",en,en,2200,1467,733,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-math12",hi,hi,2200,1467,733,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",hi,hi,900,450,450,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 10","subj-sanskrit",en,en,900,450,450,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",en,en,600,400,200,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-accountancy",hi,hi,600,400,200,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-business",en,en,600,200,400,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 12","subj-business",hi,hi,600,200,400,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",te,te,500,250,250,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 10","subj-telugu",en,en,500,250,250,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",pa,pa,350,280,70,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-punjabi",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",pa,pa,300,240,60,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",pa,pa,300,240,60,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",pa,pa,250,200,50,0,LANGUAGE_DEPTH_READY
+"Punjab","Punjab Board (PSEB Mohali 10th & 12th)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",bn,bn,350,280,70,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-bengali",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",bn,bn,300,240,60,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",bn,bn,300,240,60,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",bn,bn,250,200,50,0,LANGUAGE_DEPTH_READY
+"West Bengal","West Bengal Board (Madhyamik 10th & WBCHSE 12th)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",gu,gu,350,280,70,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-gujarati",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",gu,gu,300,240,60,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",gu,gu,300,240,60,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",gu,gu,250,200,50,0,LANGUAGE_DEPTH_READY
+"Dadra & Nagar Haveli and Daman & Diu; Gujarat","Gujarat Board (GSEB SSC 10th & HSC 12th)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",kn,kn,350,280,70,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-kannada",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",kn,kn,300,240,60,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",kn,kn,300,240,60,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",kn,kn,250,200,50,0,LANGUAGE_DEPTH_READY
+"Karnataka","Karnataka Board (KSEAB SSLC 10th & 2nd PUC)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",ml,ml,350,280,70,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-malayalam",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",ml,ml,300,240,60,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",ml,ml,300,240,60,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",ml,ml,250,200,50,0,LANGUAGE_DEPTH_READY
+"Kerala; Lakshadweep","Kerala Directorate of General Education & Pareeksha Bhavan","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",or,or,350,280,70,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-odia",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",or,or,300,240,60,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",or,or,300,240,60,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",or,or,250,200,50,0,LANGUAGE_DEPTH_READY
+"Odisha","Odisha Board (BSE Matric 10th & CHSE +2 Council)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",as,as,350,280,70,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-assamese",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",as,as,300,240,60,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",as,as,300,240,60,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",as,as,250,200,50,0,LANGUAGE_DEPTH_READY
+"Assam","Assam Board (SEBA HSLC 10th & AHSEC HS 12th)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",mr,mr,350,280,70,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-marathi",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",mr,mr,300,240,60,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",mr,mr,300,240,60,0,LANGUAGE_DEPTH_READY
+"Maharashtra","Maharashtra State Board (SSC 10th & HSC 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",ta,ta,350,280,70,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-science",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",ta,ta,350,280,70,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-math",en,en,350,280,70,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",ta,ta,300,240,60,0,LANGUAGE_DEPTH_READY
+"Puducherry; Tamil Nadu","Tamil Nadu State Board (SSLC 10th & HSE +1, +2)","Class 10","subj-social",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",te,te,300,240,60,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-math12",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",te,te,250,200,50,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-physics",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",te,te,250,200,50,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-chemistry",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",te,te,200,160,40,0,LANGUAGE_DEPTH_READY
+"Regional","Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)","Class 12","subj-economics",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",te,te,250,200,50,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-telugu",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-science",te,te,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-math",te,te,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-social",te,te,150,120,30,0,MEDIUM_SUPPORTED
+"Andhra Pradesh","Board of Secondary Education Andhra Pradesh","Class 10","subj-social",en,en,150,120,30,0,MEDIUM_SUPPORTED
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-telugu",te,te,250,200,50,0,LANGUAGE_DEPTH_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-telugu",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-science",te,te,200,160,40,0,LANGUAGE_DEPTH_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-math",te,te,200,160,40,0,LANGUAGE_DEPTH_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-social",te,te,150,120,30,0,MEDIUM_SUPPORTED
+"Telangana","Directorate of Government Examinations Telangana","Class 10","subj-social",en,en,150,120,30,0,MEDIUM_SUPPORTED
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",hi,hi,300,240,60,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-hindi",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",hi,hi,300,240,60,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",hi,hi,300,240,60,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",hi,hi,100,80,20,0,MEDIUM_SUPPORTED
+"Bihar","Bihar Board BSEB (Matric 10th & Inter 12th)","Class 10","subj-urdu",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",hi,hi,300,240,60,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-hindi",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",hi,hi,300,240,60,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",hi,hi,300,240,60,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",hi,hi,100,80,20,0,MEDIUM_SUPPORTED
+"Uttar Pradesh","UP Board (High School & Intermediate 10th/12th)","Class 10","subj-urdu",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-hindi",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-science",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-math",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Rajasthan","Rajasthan Board (RBSE 10th & 12th Ajmer)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-hindi",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-science",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-math",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",hi,hi,250,200,50,0,LANGUAGE_DEPTH_READY
+"Madhya Pradesh","MP Board (MPBSE 10th & 12th Bhopal)","Class 10","subj-social",en,en,250,200,50,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-hindi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Haryana","Haryana Board (BSEH Bhiwani 10th & 12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-hindi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jharkhand","Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-hindi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Chhattisgarh","Chhattisgarh Board (CGBSE Raipur 10th & 12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-hindi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Uttarakhand","Uttarakhand Board (UBSE Ramnagar 10th & 12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-hindi",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-hindi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-science",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-math",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"Himachal Pradesh","Himachal Pradesh Board of School Education","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-urdu",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-urdu",ur,ur,40,0,40,0,LOW_COVERAGE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-english",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-english",ur,ur,40,0,40,0,LOW_COVERAGE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-science",ur,ur,40,0,40,0,LOW_COVERAGE
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Jammu and Kashmir; Ladakh","Jammu & Kashmir Board of School Education","Class 10","subj-math",ur,ur,40,0,40,0,LOW_COVERAGE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-marathi",mr,mr,40,0,40,0,LOW_COVERAGE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-science",mr,mr,40,0,40,0,LOW_COVERAGE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-math",mr,mr,40,0,40,0,LOW_COVERAGE
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Goa","Goa Board of Secondary and Higher Secondary Education","Class 10","subj-english",mr,mr,20,0,20,0,LOW_COVERAGE
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-social",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Manipur","Board of Secondary Education Manipur","Class 10","subj-english",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-social",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Meghalaya","Meghalaya Board of School Education","Class 10","subj-english",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Mizoram","Mizoram Board of School Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Mizoram","Mizoram Board of School Education","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Mizoram","Mizoram Board of School Education","Class 10","subj-social",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Mizoram","Mizoram Board of School Education","Class 10","subj-english",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Nagaland","Nagaland Board of School Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Nagaland","Nagaland Board of School Education","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Nagaland","Nagaland Board of School Education","Class 10","subj-social",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Nagaland","Nagaland Board of School Education","Class 10","subj-english",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-bengali",bn,bn,200,160,40,0,LANGUAGE_DEPTH_READY
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-bengali",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-science",bn,bn,200,160,40,0,LANGUAGE_DEPTH_READY
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-math",bn,bn,100,80,20,0,MEDIUM_SUPPORTED
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-math",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-social",bn,bn,100,80,20,0,MEDIUM_SUPPORTED
+"Tripura","Tripura Board of Secondary Education","Class 10","subj-social",en,en,100,80,20,0,MEDIUM_SUPPORTED
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-english",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","ICSE & ISC Board (Class 10th & 12th)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-hindi",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-science",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-math",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",hi,hi,200,160,40,0,LANGUAGE_DEPTH_READY
+"National","NIOS Board (National Institute of Open Schooling)","Class 10","subj-social",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-science",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-science",hi,hi,60,0,60,0,MEDIUM_SUPPORTED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-math",en,en,300,240,60,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 9","subj-math",hi,hi,60,0,60,0,MEDIUM_SUPPORTED
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-physics",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-physics",hi,hi,40,0,40,0,LOW_COVERAGE
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",en,en,200,160,40,0,LANGUAGE_DEPTH_READY
+"Andaman and Nicobar Islands; Arunachal Pradesh; Chandigarh; Delhi (NCT); Sikkim","CBSE Board (Class 10th & 12th)","Class 11","subj-chemistry",hi,hi,40,0,40,0,LOW_COVERAGE
