@@ -463,3 +463,12 @@ button:active, .btn-saffron:active, a.cursor-pointer:active {
   text-align: left !important;
 }
 
+/* Language Selector Select Custom Styling */
+.lang-selector-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+}
+
+

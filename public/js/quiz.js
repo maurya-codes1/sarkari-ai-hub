@@ -334,20 +334,19 @@ function speakActiveQuestionGender(gender = 'female') {
     }
   }
 
-  speechSegments.forEach((seg, idx) => {
-    const utt = new SpeechSynthesisUtterance(seg.text);
-    utt.lang = seg.lang;
-    const voice = getSweetVoice(seg.lang, gender);
-    if (voice) utt.voice = voice;
-    utt.rate = isFemale ? 0.94 : 0.92;
-    utt.pitch = isFemale ? 1.15 : 0.85;
+  if (speechSegments.length === 0) return;
 
-    if (idx === speechSegments.length - 1) {
-      utt.onend = stopSpeaking;
-      utt.onerror = stopSpeaking;
-    }
-    window.speechSynthesis.speak(utt);
-  });
+  const fullText = speechSegments.map(s => s.text).join(' ... ');
+  const primaryBcp = speechSegments[0]?.lang || (isEn ? 'en-IN' : 'hi-IN');
+  const utt = new SpeechSynthesisUtterance(fullText);
+  utt.lang = primaryBcp;
+  const voice = getSweetVoice(primaryBcp, gender);
+  if (voice) utt.voice = voice;
+  utt.rate = isFemale ? 0.95 : 0.90;
+  utt.pitch = isFemale ? 1.15 : 0.85;
+  utt.onend = stopSpeaking;
+  utt.onerror = stopSpeaking;
+  window.speechSynthesis.speak(utt);
 }
 
 function toggleSpeakActiveQuestion() {
@@ -1353,11 +1352,13 @@ async function startNewQuiz() {
   const subjectId = subjectSelect ? subjectSelect.value : 'all';
   const boardId = boardSelect ? boardSelect.value : '';
   const isSpecificSubject = subjectId && subjectId !== 'all';
+  const examObj = (typeof EXAMS_CONFIG !== 'undefined') ? EXAMS_CONFIG.find(e => e.id === examId) : null;
+  const isBoardExam = examObj ? Boolean(examObj.isBoard) : (typeof examId === 'string' && examId.startsWith('board-'));
   let effectiveMode = activeQuiz.mode || 'FULL_EXAM_PATTERN';
-  if (isSpecificSubject) {
+  if (isSpecificSubject || isBoardExam) {
     effectiveMode = 'SUBJECT_PRACTICE';
   }
-  const isFullExamMode = !isSpecificSubject && (effectiveMode === 'FULL_EXAM_PATTERN' || effectiveMode === 'FULL_EXAM');
+  const isFullExamMode = !isSpecificSubject && !isBoardExam && (effectiveMode === 'FULL_EXAM_PATTERN' || effectiveMode === 'FULL_EXAM');
   const bp = resolveLocalBlueprint(examId);
 
   // In FULL_EXAM mode, NEVER use practice sizeSelect or custom timer!
@@ -1381,6 +1382,7 @@ async function startNewQuiz() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         examId,
+        boardId,
         testMode: effectiveMode,
         requestedCount,
         subjectId: isFullExamMode ? 'all' : subjectId,
@@ -1429,7 +1431,7 @@ async function startNewQuiz() {
 
   // Populate active quiz state
   activeQuiz.mode = effectiveMode;
-  activeQuiz.instantFeedback = (effectiveMode === 'SUBJECT_PRACTICE' || effectiveMode === 'ALL_SUBJECTS_PRACTICE' || effectiveMode === 'PRACTICE' || isSpecificSubject);
+  activeQuiz.instantFeedback = (effectiveMode === 'SUBJECT_PRACTICE' || effectiveMode === 'ALL_SUBJECTS_PRACTICE' || effectiveMode === 'PRACTICE' || isSpecificSubject || isBoardExam);
   activeQuiz.sessionId = sessionData.sessionId;
   activeQuiz.exam = examId;
   activeQuiz.board = boardId;

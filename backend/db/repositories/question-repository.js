@@ -90,8 +90,23 @@ class QuestionRepository {
     return this.db.prepare(query).all(...params);
   }
 
-  getPracticeQuestions({ subjectId = null, subjectIds = null, difficulty = null, count = 30, excludeIds = [] }) {
+  getPracticeQuestions({ subjectId = null, subjectIds = null, boardId = null, stage = null, difficulty = null, count = 30, excludeIds = [] }) {
     if (!this.isAvailable()) return [];
+
+    const BOARD_MAP = {
+      'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
+      'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
+      'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
+      'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
+      'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
+      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
+      'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
+      'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
+      'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
+      'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
+    };
+
+    const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
 
     let query = `
       SELECT q.*, v.language_content, v.correct_answer, s.name as subject_name
@@ -101,6 +116,16 @@ class QuestionRepository {
       WHERE 1=1
     `;
     const params = [];
+
+    if (resolvedBoard) {
+      query += ` AND q.board_id = ?`;
+      params.push(resolvedBoard);
+    }
+
+    if (stage) {
+      query += ` AND q.stage = ?`;
+      params.push(stage);
+    }
 
     if (Array.isArray(subjectIds) && subjectIds.length > 0) {
       const normIds = subjectIds.map(s => normalizeSubjectId(s)).filter(Boolean);
@@ -128,9 +153,14 @@ class QuestionRepository {
 
     let rows = this.db.prepare(query).all(...params);
 
-    // If specific difficulty filter yielded no questions, fallback to available difficulty for subject
+    // If specific difficulty filter yielded no questions, fallback to available difficulty
     if (rows.length === 0 && difficulty && difficulty !== 'MIXED') {
-      return this.getPracticeQuestions({ subjectId, subjectIds, difficulty: 'MIXED', count, excludeIds });
+      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage, difficulty: 'MIXED', count, excludeIds });
+    }
+
+    // If board filter yielded no rows for this specific subject, fall back to general subject questions
+    if (rows.length === 0 && resolvedBoard) {
+      return this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds });
     }
 
     return rows;

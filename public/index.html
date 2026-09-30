@@ -75,29 +75,29 @@
 
   <!-- Navigation Bar (Deep Navy with Saffron/White Accents) -->
   <header class="sticky top-0 z-50 glass-nav shadow-xl">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-2.5 xs:px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16 sm:h-20">
         
         <!-- Left Side: Mobile Hamburger Menu Button (Three Lines) + Brand Logo -->
-        <div class="flex items-center space-x-2 sm:space-x-3">
+        <div class="flex items-center space-x-1.5 sm:space-x-3 shrink-0">
           <!-- Mobile Hamburger Menu Button (Three Lines) Moved to LEFT -->
-          <button id="mobileMenuBtn" onclick="toggleMobileMenu(event)" class="lg:hidden p-2 sm:p-2.5 rounded-xl bg-slate-800 text-white hover:bg-slate-700 active:bg-slate-600 border border-slate-700/80 transition flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-saffron-500 cursor-pointer" aria-label="Toggle navigation" title="Menu (मेन्यू)">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <button id="mobileMenuBtn" onclick="toggleMobileMenu(event)" class="lg:hidden p-1.5 sm:p-2.5 rounded-xl bg-slate-800 text-white hover:bg-slate-700 active:bg-slate-600 border border-slate-700/80 transition flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-saffron-500 cursor-pointer shrink-0" aria-label="Toggle navigation" title="Menu (मेन्यू)">
+            <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
 
           <!-- Brand Logo -->
-          <a href="#home" onclick="navigateToHome(event)" class="flex items-center space-x-2.5 sm:space-x-3 cursor-pointer">
-            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-2xl shadow-lg ring-2 ring-saffron-400/50 shrink-0">
+          <a href="#home" onclick="navigateToHome(event)" class="flex items-center space-x-1.5 sm:space-x-3 cursor-pointer shrink-0">
+            <div class="w-9 h-9 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl sm:text-2xl shadow-lg ring-2 ring-saffron-400/50 shrink-0">
               S
             </div>
-            <div>
-              <div class="flex items-center space-x-1.5">
-                <span class="text-xl sm:text-2xl font-black tracking-tight text-white" data-i18n="brand_title">SarkariAI Hub</span>
-                <span class="text-lg">🇮🇳</span>
+            <div class="min-w-0">
+              <div class="flex items-center space-x-1 sm:space-x-1.5">
+                <span class="text-base sm:text-xl lg:text-2xl font-black tracking-tight text-white truncate max-w-[95px] xs:max-w-[130px] sm:max-w-none" data-i18n="brand_title">SarkariAI Hub</span>
+                <span class="text-xs sm:text-lg shrink-0">🇮🇳</span>
               </div>
-              <div class="text-[10px] sm:text-xs font-bold text-saffron-400 tracking-wider uppercase" data-i18n="brand_badge">
+              <div class="hidden xs:block text-[9px] sm:text-xs font-bold text-saffron-400 tracking-wider uppercase truncate max-w-[120px] sm:max-w-none" data-i18n="brand_badge">
                 Bharat's #1 Exam & Board Portal
               </div>
             </div>
@@ -105,22 +105,22 @@
         </div>
 
         <!-- Desktop Navigation Links (Responsive with More Tools Dropdown) -->
-        <nav class="hidden lg:flex items-center space-x-1 font-bold text-xs">
-          <a href="#home" onclick="navigateToHome(event)" data-tab="home" class="nav-link px-3 py-2 rounded-xl bg-saffron-500 text-white shadow-md transition cursor-pointer" data-i18n="nav_home">Home</a>
-          <a href="#tool/quiz" data-tab="quiz" class="nav-link px-3 py-2 rounded-xl text-rose-300 hover:bg-slate-800 transition font-black" data-i18n="nav_quiz">🎯 Mock Test</a>
-          <a href="#tool/notes" data-tab="notes" class="nav-link px-3 py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition" data-i18n="nav_notes">📚 ₹10 Notes</a>
-          <a href="#tool/current-affairs" data-tab="current-affairs" class="nav-link px-3 py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition" data-i18n="nav_gk">📰 GK & CA</a>
-          <a href="#tool/resizer" data-tab="resizer" class="nav-link px-3 py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition" data-i18n="nav_tools">📸 Resizer</a>
-          <a href="#directory" data-tab="directory" class="nav-link px-3 py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition" data-i18n="nav_boards">🎓 Boards</a>
+        <nav class="hidden lg:flex items-center space-x-0.5 xl:space-x-1 font-bold text-[11px] xl:text-xs">
+          <a href="#home" onclick="navigateToHome(event)" data-tab="home" class="nav-link px-2.5 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-saffron-500 text-white shadow-md transition cursor-pointer" data-i18n="nav_home">Home</a>
+          <a href="#tool/quiz" data-tab="quiz" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-rose-300 hover:bg-slate-800 transition font-black" data-i18n="nav_quiz">🎯 Mock Test</a>
+          <a href="#tool/notes" data-tab="notes" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition" data-i18n="nav_notes">📚 ₹10 Notes</a>
+          <a href="#tool/current-affairs" data-tab="current-affairs" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition" data-i18n="nav_gk">📰 GK & CA</a>
+          <a href="#tool/resizer" data-tab="resizer" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition" data-i18n="nav_tools">📸 Resizer</a>
+          <a href="#directory" data-tab="directory" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition" data-i18n="nav_boards">🎓 Boards</a>
           
           <!-- OMR Quick Action in Desktop Nav -->
-          <button type="button" onclick="triggerOmrSheetGenerator()" class="px-2.5 py-2 rounded-xl bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-500/40 transition flex items-center space-x-1 font-bold cursor-pointer" title="Print Blank Vector OMR Sheet (50/80/100/150/200)">
+          <button type="button" onclick="triggerOmrSheetGenerator()" class="px-2 py-1.5 xl:px-2.5 xl:py-2 rounded-xl bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-500/40 transition flex items-center space-x-1 font-bold cursor-pointer" title="Print Blank Vector OMR Sheet (50/80/100/150/200)">
             <span data-i18n="nav_omr">📄 OMR Sheet</span>
           </button>
 
           <!-- More Tools Dropdown -->
           <div class="relative" id="desktopToolsDropdownContainer">
-            <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-2.5 py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition flex items-center space-x-1 font-bold cursor-pointer" aria-haspopup="true" aria-expanded="false">
+            <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-2 py-1.5 xl:px-2.5 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition flex items-center space-x-1 font-bold cursor-pointer" aria-haspopup="true" aria-expanded="false">
               <span data-i18n="nav_more_tools">🛠️ Tools</span>
               <span id="desktopToolsArrow" class="text-[9px] ml-0.5 transition-transform duration-200 inline-block">▼</span>
             </button>
@@ -148,17 +148,17 @@
         </nav>
 
         <!-- Right Side: Dark Mode Toggle, Job Alerts Bell, Auto-Sync Badge & Language Switcher -->
-        <div class="flex items-center space-x-2 sm:space-x-2.5">
+        <div class="flex items-center space-x-1.5 sm:space-x-2.5 shrink-0">
           <!-- Web Push Job Alert Notification Bell -->
-          <button id="jobAlertBellBtn" type="button" onclick="toggleJobAlerts()" class="relative p-2 sm:px-3 sm:py-1.5 rounded-2xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/50 transition flex items-center space-x-1.5 shadow-md cursor-pointer" title="Job Alerts Notifications">
-            <span class="text-base sm:text-lg">🔔</span>
+          <button id="jobAlertBellBtn" type="button" onclick="toggleJobAlerts()" class="relative p-1.5 sm:px-3 sm:py-1.5 rounded-xl sm:rounded-2xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/50 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Job Alerts Notifications">
+            <span class="text-sm sm:text-lg">🔔</span>
             <span class="hidden md:inline text-xs font-bold text-amber-300" data-i18n="nav_alerts">Job Alerts</span>
             <span id="bellActiveDot" class="hidden absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-slate-900 animate-pulse"></span>
           </button>
 
           <!-- Night Study Mode / Dark Mode Toggle Button -->
-          <button id="darkModeToggleBtn" type="button" class="dark-mode-toggle-btn p-2 sm:px-3 sm:py-1.5 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center space-x-1.5 shadow-md cursor-pointer" title="Night Study Mode">
-            <span class="text-base sm:text-lg">🌙</span>
+          <button id="darkModeToggleBtn" type="button" class="dark-mode-toggle-btn p-1.5 sm:px-3 sm:py-1.5 rounded-xl sm:rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Night Study Mode">
+            <span class="text-sm sm:text-lg">🌙</span>
             <span class="hidden md:inline text-xs font-bold text-slate-200" data-i18n="nav_night_mode">Night Mode</span>
           </button>
 
@@ -168,10 +168,10 @@
             <span data-i18n="nav_auto_sync">🤖 Auto-Sync</span>
           </div>
 
-          <!-- 14-Language Switcher Dropdown (Vibrant Gold Border) -->
-          <div class="relative flex items-center bg-slate-900 border-2 border-amber-400/80 rounded-2xl px-2.5 sm:px-3 py-1.5 shadow-md">
-            <span class="text-xs sm:text-sm mr-1">🌐</span>
-            <select id="langSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-transparent text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-1">
+          <!-- 24-Language Switcher Dropdown (With Custom Dropdown Arrow) -->
+          <div class="relative flex items-center bg-slate-900 border border-amber-400/80 sm:border-2 rounded-xl sm:rounded-2xl px-2 py-1 sm:px-2.5 sm:py-1.5 shadow-md shrink-0">
+            <span class="text-xs sm:text-sm mr-1 shrink-0">🌐</span>
+            <select id="langSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-transparent text-[11px] sm:text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-4 appearance-none">
               <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
               <option value="en" class="text-slate-900 bg-white font-bold">English</option>
               <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
@@ -198,12 +198,15 @@
               <option value="brx" class="text-slate-900 bg-white font-bold">बर' (Bodo)</option>
               <option value="mni" class="text-slate-900 bg-white font-bold">মৈতৈলোন্ / ꯃꯤꯇꯩꯂꯣꯟ (Manipuri)</option>
             </select>
+            <svg class="w-3 h-3 text-amber-400 absolute right-1.5 pointer-events-none shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+            </svg>
           </div>
 
           <!-- WhatsApp Quick Share Button (Desktop) -->
-          <button type="button" onclick="shareOnWhatsApp()" class="hidden md:flex items-center space-x-1 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white rounded-2xl text-xs font-black shadow-md transition cursor-pointer" title="Share SarkariAI Hub with Friends on WhatsApp">
+          <button type="button" onclick="shareOnWhatsApp()" class="hidden xl:flex items-center space-x-1 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white rounded-2xl text-xs font-black shadow-md transition cursor-pointer" title="Share SarkariAI Hub with Friends on WhatsApp">
             <span class="text-sm">📲</span>
-            <span class="hidden lg:inline text-[11px]" data-i18n="nav_share_btn">Share</span>
+            <span class="text-[11px]" data-i18n="nav_share_btn">Share</span>
           </button>
         </div>
 
@@ -218,33 +221,38 @@
           <span>🌐</span>
           <span data-i18n="nav_lang_select">Language:</span>
         </span>
-        <select id="mobileLangSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-slate-900 text-xs font-bold text-amber-300 border border-slate-700 rounded-lg px-2.5 py-1 focus:outline-none cursor-pointer">
-          <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
-          <option value="en" class="text-slate-900 bg-white font-bold">English</option>
-          <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
-          <option value="ta" class="text-slate-900 bg-white font-bold">தமிழ் (Tamil)</option>
-          <option value="te" class="text-slate-900 bg-white font-bold">తెలుగు (Telugu)</option>
-          <option value="mr" class="text-slate-900 bg-white font-bold">मराठी (Marathi)</option>
-          <option value="bn" class="text-slate-900 bg-white font-bold">বাংলা (Bengali)</option>
-          <option value="gu" class="text-slate-900 bg-white font-bold">ગુજરાતી (Gujarati)</option>
-          <option value="kn" class="text-slate-900 bg-white font-bold">ಕನ್ನಡ (Kannada)</option>
-          <option value="ml" class="text-slate-900 bg-white font-bold">മലയാളം (Malayalam)</option>
-          <option value="pa" class="text-slate-900 bg-white font-bold">ਪੰਜਾਬੀ (Punjabi)</option>
-          <option value="ur" class="text-slate-900 bg-white font-bold">اردو (Urdu)</option>
-          <option value="or" class="text-slate-900 bg-white font-bold">ଓଡ଼ିଆ (Odia)</option>
-          <option value="sa" class="text-slate-900 bg-white font-bold">संस्कृतम् (Sanskrit)</option>
-          <option value="as" class="text-slate-900 bg-white font-bold">অসমীয়া (Assamese)</option>
-          <option value="mai" class="text-slate-900 bg-white font-bold">मैथिली (Maithili)</option>
-          <option value="bho" class="text-slate-900 bg-white font-bold">भोजपुरी (Bhojpuri)</option>
-          <option value="ne" class="text-slate-900 bg-white font-bold">नेपाली (Nepali)</option>
-          <option value="kok" class="text-slate-900 bg-white font-bold">कोंकणी (Konkani)</option>
-          <option value="sd" class="text-slate-900 bg-white font-bold">سنڌي / सिंधी (Sindhi)</option>
-          <option value="doi" class="text-slate-900 bg-white font-bold">डोगरी (Dogri)</option>
-          <option value="ks" class="text-slate-900 bg-white font-bold">کٲشُر / कश्मीरी (Kashmiri)</option>
-          <option value="sat" class="text-slate-900 bg-white font-bold">ᱥᱟᱱᱛᱟᱲᱤ (Santali)</option>
-          <option value="brx" class="text-slate-900 bg-white font-bold">बर' (Bodo)</option>
-          <option value="mni" class="text-slate-900 bg-white font-bold">মৈতৈলোন্ / ꯃꯤꯇꯩꯂꯣꯟ (Manipuri)</option>
-        </select>
+        <div class="relative flex items-center">
+          <select id="mobileLangSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-slate-900 text-xs font-bold text-amber-300 border border-slate-700 rounded-lg pl-2.5 pr-6 py-1 focus:outline-none cursor-pointer appearance-none">
+            <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
+            <option value="en" class="text-slate-900 bg-white font-bold">English</option>
+            <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
+            <option value="ta" class="text-slate-900 bg-white font-bold">தமிழ் (Tamil)</option>
+            <option value="te" class="text-slate-900 bg-white font-bold">తెలుగు (Telugu)</option>
+            <option value="mr" class="text-slate-900 bg-white font-bold">मराठी (Marathi)</option>
+            <option value="bn" class="text-slate-900 bg-white font-bold">বাংলা (Bengali)</option>
+            <option value="gu" class="text-slate-900 bg-white font-bold">ગુજરાતી (Gujarati)</option>
+            <option value="kn" class="text-slate-900 bg-white font-bold">ಕನ್ನಡ (Kannada)</option>
+            <option value="ml" class="text-slate-900 bg-white font-bold">മലയാളം (Malayalam)</option>
+            <option value="pa" class="text-slate-900 bg-white font-bold">ਪੰਜਾਬੀ (Punjabi)</option>
+            <option value="ur" class="text-slate-900 bg-white font-bold">اردو (Urdu)</option>
+            <option value="or" class="text-slate-900 bg-white font-bold">ଓଡ଼ିଆ (Odia)</option>
+            <option value="sa" class="text-slate-900 bg-white font-bold">संस्कृतम् (Sanskrit)</option>
+            <option value="as" class="text-slate-900 bg-white font-bold">অসমীয়া (Assamese)</option>
+            <option value="mai" class="text-slate-900 bg-white font-bold">मैथिली (Maithili)</option>
+            <option value="bho" class="text-slate-900 bg-white font-bold">भोजपुरी (Bhojpuri)</option>
+            <option value="ne" class="text-slate-900 bg-white font-bold">नेपाली (Nepali)</option>
+            <option value="kok" class="text-slate-900 bg-white font-bold">कोंकणी (Konkani)</option>
+            <option value="sd" class="text-slate-900 bg-white font-bold">سنڌي / सिंधी (Sindhi)</option>
+            <option value="doi" class="text-slate-900 bg-white font-bold">डोगरी (Dogri)</option>
+            <option value="ks" class="text-slate-900 bg-white font-bold">کٲشُر / कश्मीरी (Kashmiri)</option>
+            <option value="sat" class="text-slate-900 bg-white font-bold">ᱥᱟᱱᱛᱟᱲᱤ (Santali)</option>
+            <option value="brx" class="text-slate-900 bg-white font-bold">बर' (Bodo)</option>
+            <option value="mni" class="text-slate-900 bg-white font-bold">মৈতৈলোন্ / ꯃꯤꯇꯩꯂꯣꯟ (Manipuri)</option>
+          </select>
+          <svg class="w-3 h-3 text-amber-400 absolute right-1.5 pointer-events-none shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </div>
       </div>
 
       <a href="#home" onclick="navigateToHome(event)" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-white hover:bg-slate-700 transition cursor-pointer" data-i18n="nav_home">🏠 Home</a>
@@ -530,15 +538,15 @@
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-indigo-800/60 pb-5">
           <div>
             <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-saffron-500/20 border border-saffron-500/40 text-saffron-300 text-xs font-black tracking-wide mb-2">
-              <span>🇮🇳 Bharat's Largest Free Exam Corpus</span>
+              <span data-i18n="bqb_badge_corpus">🇮🇳 Bharat's Largest Free Exam Corpus</span>
               <span>•</span>
-              <span>100% Verified Authentic Data</span>
+              <span data-i18n="bqb_badge_authentic">100% Verified Authentic Data</span>
             </div>
             <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight flex items-center gap-2">
-              <span>📚 Bharat Question Bank Explorer</span>
-              <span class="text-sm px-2.5 py-0.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold">1,72,210+ Live</span>
+              <span data-i18n="bqb_title">📚 Bharat Question Bank Explorer</span>
+              <span class="text-sm px-2.5 py-0.5 rounded-lg bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 font-bold" data-i18n="bqb_live_count">1,72,210+ Live</span>
             </h2>
-            <p class="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl leading-relaxed">
+            <p class="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl leading-relaxed" data-i18n="bqb_subtitle">
               Explore Bharat's complete multi-exam repository covering 49 National Competitive Exams and 31 State & Central Education Boards (Classes 9th to 12th).
             </p>
           </div>
@@ -547,15 +555,15 @@
           <div class="flex items-center flex-wrap gap-2.5 shrink-0">
             <a href="/adaptive-practice.html" class="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-saffron-500 to-orange-600 hover:from-saffron-600 hover:to-orange-700 text-white text-xs font-black shadow-lg transition active:scale-95 flex items-center space-x-2">
               <span>🧠</span>
-              <span>Adaptive Practice (8 Modes)</span>
+              <span data-i18n="bqb_cta_adaptive">Adaptive Practice (8 Modes)</span>
             </a>
             <a href="/coverage-matrix.html" class="px-4 py-2.5 rounded-2xl bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-500/40 text-xs font-bold transition active:scale-95 flex items-center space-x-2">
               <span>🗺️</span>
-              <span>Coverage Matrix</span>
+              <span data-i18n="bqb_cta_matrix">Coverage Matrix</span>
             </a>
             <a href="/planner.html" class="px-4 py-2.5 rounded-2xl bg-pink-900/80 hover:bg-pink-800 text-pink-200 border border-pink-500/40 text-xs font-bold transition active:scale-95 flex items-center space-x-2">
               <span>📅</span>
-              <span>Study Planner</span>
+              <span data-i18n="bqb_cta_planner">Study Planner</span>
             </a>
           </div>
         </div>
@@ -564,33 +572,33 @@
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center hover:bg-white/10 transition group">
             <div class="text-2xl sm:text-3xl font-black text-amber-400 group-hover:scale-105 transition-transform">1,72,210</div>
-            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1">Total Questions</div>
-            <div class="text-[9px] text-slate-400 mt-0.5">72.3k Comp + 99.8k Board</div>
+            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1" data-i18n="bqb_stat_total_q">Total Questions</div>
+            <div class="text-[9px] text-slate-400 mt-0.5" data-i18n="bqb_stat_total_sub">72.3k Comp + 99.8k Board</div>
           </div>
           <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center hover:bg-white/10 transition group">
             <div class="text-2xl sm:text-3xl font-black text-emerald-400 group-hover:scale-105 transition-transform">1,34,636</div>
-            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1">Practice MCQs</div>
-            <div class="text-[9px] text-emerald-300/80 mt-0.5">Instant Green/Red Solved</div>
+            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1" data-i18n="bqb_stat_mcq">Practice MCQs</div>
+            <div class="text-[9px] text-emerald-300/80 mt-0.5" data-i18n="bqb_stat_mcq_sub">Instant Green/Red Solved</div>
           </div>
           <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center hover:bg-white/10 transition group">
             <div class="text-2xl sm:text-3xl font-black text-cyan-400 group-hover:scale-105 transition-transform">37,574</div>
-            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1">Theory Questions</div>
-            <div class="text-[9px] text-cyan-300/80 mt-0.5">Class 9-12 Subjective</div>
+            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1" data-i18n="bqb_stat_theory">Theory Questions</div>
+            <div class="text-[9px] text-cyan-300/80 mt-0.5" data-i18n="bqb_stat_theory_sub">Class 9-12 Subjective</div>
           </div>
           <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center hover:bg-white/10 transition group">
             <div class="text-2xl sm:text-3xl font-black text-rose-400 group-hover:scale-105 transition-transform">49</div>
-            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1">Exam Tracks</div>
-            <div class="text-[9px] text-rose-300/80 mt-0.5">SSC, UPSC, RRB, Police</div>
+            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1" data-i18n="bqb_stat_tracks">Exam Tracks</div>
+            <div class="text-[9px] text-rose-300/80 mt-0.5" data-i18n="bqb_stat_tracks_sub">SSC, UPSC, RRB, Police</div>
           </div>
           <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center hover:bg-white/10 transition group">
             <div class="text-2xl sm:text-3xl font-black text-purple-400 group-hover:scale-105 transition-transform">31</div>
-            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1">Education Boards</div>
-            <div class="text-[9px] text-purple-300/80 mt-0.5">CBSE, ICSE & All States</div>
+            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1" data-i18n="bqb_stat_boards">Education Boards</div>
+            <div class="text-[9px] text-purple-300/80 mt-0.5" data-i18n="bqb_stat_boards_sub">CBSE, ICSE & All States</div>
           </div>
           <div class="bg-white/5 border border-white/10 rounded-2xl p-4 text-center hover:bg-white/10 transition group">
             <div class="text-2xl sm:text-3xl font-black text-orange-400 group-hover:scale-105 transition-transform">25</div>
-            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1">Indian Languages</div>
-            <div class="text-[9px] text-orange-300/80 mt-0.5">Regional UI & Papers</div>
+            <div class="text-[10px] sm:text-[11px] font-bold uppercase tracking-wider text-slate-300 mt-1" data-i18n="bqb_stat_languages">Indian Languages</div>
+            <div class="text-[9px] text-orange-300/80 mt-0.5" data-i18n="bqb_stat_languages_sub">Regional UI & Papers</div>
           </div>
         </div>
 
@@ -599,30 +607,30 @@
           <div onclick="window.location.href='/adaptive-practice.html'" class="bg-gradient-to-br from-amber-500/10 to-orange-500/20 border border-amber-500/30 rounded-2xl p-4 hover:border-amber-400 transition cursor-pointer group">
             <div class="flex items-center space-x-3 mb-2">
               <span class="text-2xl group-hover:scale-110 transition-transform">🧠</span>
-              <div class="font-black text-sm text-amber-300">Adaptive Practice</div>
+              <div class="font-black text-sm text-amber-300" data-i18n="bqb_card_adaptive_title">Adaptive Practice</div>
             </div>
-            <p class="text-xs text-slate-300 leading-snug">8 scientific modes: Weak-topic drills, PYQ revision, speed training & blueprint calibration.</p>
+            <p class="text-xs text-slate-300 leading-snug" data-i18n="bqb_card_adaptive_sub">8 scientific modes: Weak-topic drills, PYQ revision, speed training & blueprint calibration.</p>
           </div>
           <div onclick="window.location.hash='#tool/quiz'" class="bg-gradient-to-br from-rose-500/10 to-red-500/20 border border-rose-500/30 rounded-2xl p-4 hover:border-rose-400 transition cursor-pointer group">
             <div class="flex items-center space-x-3 mb-2">
               <span class="text-2xl group-hover:scale-110 transition-transform">🎯</span>
-              <div class="font-black text-sm text-rose-300">Learning Practice</div>
+              <div class="font-black text-sm text-rose-300" data-i18n="bqb_card_learning_title">Learning Practice</div>
             </div>
-            <p class="text-xs text-slate-300 leading-snug">Instant Green/Red feedback, explanation cards, option locking & authentic official blueprints.</p>
+            <p class="text-xs text-slate-300 leading-snug" data-i18n="bqb_card_learning_sub">Instant Green/Red feedback, explanation cards, option locking & authentic official blueprints.</p>
           </div>
           <div onclick="window.location.href='/coverage-matrix.html'" class="bg-gradient-to-br from-indigo-500/10 to-blue-500/20 border border-indigo-500/30 rounded-2xl p-4 hover:border-indigo-400 transition cursor-pointer group">
             <div class="flex items-center space-x-3 mb-2">
               <span class="text-2xl group-hover:scale-110 transition-transform">🗺️</span>
-              <div class="font-black text-sm text-indigo-300">National Matrix</div>
+              <div class="font-black text-sm text-indigo-300" data-i18n="bqb_card_matrix_title">National Matrix</div>
             </div>
-            <p class="text-xs text-slate-300 leading-snug">Complete syllabus and question readiness audit across all 49 exams and 31 state boards.</p>
+            <p class="text-xs text-slate-300 leading-snug" data-i18n="bqb_card_matrix_sub">Complete syllabus and question readiness audit across all 49 exams and 31 state boards.</p>
           </div>
           <div onclick="window.location.href='/planner.html'" class="bg-gradient-to-br from-pink-500/10 to-rose-500/20 border border-pink-500/30 rounded-2xl p-4 hover:border-pink-400 transition cursor-pointer group">
             <div class="flex items-center space-x-3 mb-2">
               <span class="text-2xl group-hover:scale-110 transition-transform">📅</span>
-              <div class="font-black text-sm text-pink-300">Leitner Smart Planner</div>
+              <div class="font-black text-sm text-pink-300" data-i18n="bqb_card_planner_title">Leitner Smart Planner</div>
             </div>
-            <p class="text-xs text-slate-300 leading-snug">Spaced repetition revision box, 50:10 pomodoro routine & daily target tracking.</p>
+            <p class="text-xs text-slate-300 leading-snug" data-i18n="bqb_card_planner_sub">Spaced repetition revision box, 50:10 pomodoro routine & daily target tracking.</p>
           </div>
         </div>
       </div>
@@ -632,18 +640,18 @@
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 dark:border-slate-800 pb-4">
           <div>
             <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-950/80 text-blue-800 dark:text-blue-300 text-xs font-black mb-1.5 border border-blue-300 dark:border-blue-700">
-              <span>🎓 31 State & Central Education Boards</span>
+              <span data-i18n="sb_badge_title">🎓 31 State & Central Education Boards</span>
               <span>•</span>
-              <span>Classes 9th to 12th Full Syllabus</span>
+              <span data-i18n="sb_badge_sub">Classes 9th to 12th Full Syllabus</span>
             </div>
-            <h3 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white">
+            <h3 class="text-xl sm:text-2xl font-black text-slate-900 dark:text-white" data-i18n="sb_heading">
               Direct State Board Question Banks & Practice
             </h3>
-            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
+            <p class="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5" data-i18n="sb_subheading">
               Click on your education board to start Subject-wise Practice with instant solutions, formula sheets, and verified chapter MCQs.
             </p>
           </div>
-          <a href="#tool/quiz" class="px-4 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-black text-slate-700 dark:text-slate-200 transition shrink-0">
+          <a href="#tool/quiz" class="px-4 py-2 rounded-xl bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-xs font-black text-slate-700 dark:text-slate-200 transition shrink-0" data-i18n="sb_console_btn">
             Open Test Console →
           </a>
         </div>
@@ -665,7 +673,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'upmsp', 'physics')" class="w-full py-2 rounded-xl bg-orange-600 hover:bg-orange-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice UP Board →
+              <span data-i18n="sb_btn_upmsp">Practice UP Board →</span>
             </button>
           </div>
 
@@ -684,7 +692,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'bseb', 'physics')" class="w-full py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice Bihar Board →
+              <span data-i18n="sb_btn_bseb">Practice Bihar Board →</span>
             </button>
           </div>
 
@@ -703,7 +711,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'cbse', 'physics')" class="w-full py-2 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice CBSE Board →
+              <span data-i18n="sb_btn_cbse">Practice CBSE Board →</span>
             </button>
           </div>
 
@@ -722,7 +730,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'icse', 'physics')" class="w-full py-2 rounded-xl bg-purple-600 hover:bg-purple-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice CISCE/ICSE →
+              <span data-i18n="sb_btn_icse">Practice CISCE/ICSE →</span>
             </button>
           </div>
 
@@ -740,7 +748,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'rbse', 'physics')" class="w-full py-2 rounded-xl bg-amber-600 hover:bg-amber-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice RBSE →
+              <span data-i18n="sb_btn_rbse">Practice RBSE →</span>
             </button>
           </div>
 
@@ -758,7 +766,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'mpbse', 'physics')" class="w-full py-2 rounded-xl bg-rose-600 hover:bg-rose-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice MPBSE →
+              <span data-i18n="sb_btn_mpbse">Practice MPBSE →</span>
             </button>
           </div>
 
@@ -777,7 +785,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'maharashtra', 'physics')" class="w-full py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice MSBSHSE →
+              <span data-i18n="sb_btn_msbshse">Practice MSBSHSE →</span>
             </button>
           </div>
 
@@ -796,7 +804,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'gujarat', 'physics')" class="w-full py-2 rounded-xl bg-teal-600 hover:bg-teal-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice GSEB →
+              <span data-i18n="sb_btn_gseb">Practice GSEB →</span>
             </button>
           </div>
 
@@ -815,7 +823,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'wb', 'physics')" class="w-full py-2 rounded-xl bg-cyan-600 hover:bg-cyan-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice WB Board →
+              <span data-i18n="sb_btn_wb">Practice WB Board →</span>
             </button>
           </div>
 
@@ -834,7 +842,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'tn', 'physics')" class="w-full py-2 rounded-xl bg-red-600 hover:bg-red-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice TNDGE →
+              <span data-i18n="sb_btn_tn">Practice TNDGE →</span>
             </button>
           </div>
 
@@ -853,7 +861,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'karnataka', 'physics')" class="w-full py-2 rounded-xl bg-yellow-600 hover:bg-yellow-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice KSEAB →
+              <span data-i18n="sb_btn_karnataka">Practice KSEAB →</span>
             </button>
           </div>
 
@@ -872,7 +880,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'pseb', 'physics')" class="w-full py-2 rounded-xl bg-orange-600 hover:bg-orange-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice PSEB →
+              <span data-i18n="sb_btn_pseb">Practice PSEB →</span>
             </button>
           </div>
 
@@ -890,7 +898,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'haryana', 'physics')" class="w-full py-2 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice BSEH →
+              <span data-i18n="sb_btn_bseh">Practice BSEH →</span>
             </button>
           </div>
 
@@ -908,7 +916,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'jac', 'physics')" class="w-full py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice JAC →
+              <span data-i18n="sb_btn_jac">Practice JAC →</span>
             </button>
           </div>
 
@@ -926,7 +934,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'cgbse', 'physics')" class="w-full py-2 rounded-xl bg-amber-600 hover:bg-amber-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice CGBSE →
+              <span data-i18n="sb_btn_cgbse">Practice CGBSE →</span>
             </button>
           </div>
 
@@ -945,7 +953,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'bseodisha', 'physics')" class="w-full py-2 rounded-xl bg-purple-600 hover:bg-purple-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice Odisha Board →
+              <span data-i18n="sb_btn_odisha">Practice Odisha Board →</span>
             </button>
           </div>
 
@@ -963,7 +971,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'ubse', 'physics')" class="w-full py-2 rounded-xl bg-rose-600 hover:bg-rose-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice UBSE →
+              <span data-i18n="sb_btn_ubse">Practice UBSE →</span>
             </button>
           </div>
 
@@ -982,7 +990,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'seba', 'physics')" class="w-full py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice SEBA / AHSEC →
+              <span data-i18n="sb_btn_assam">Practice SEBA / AHSEC →</span>
             </button>
           </div>
 
@@ -1001,7 +1009,7 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'bsetelangana', 'physics')" class="w-full py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice TS / AP Board →
+              <span data-i18n="sb_btn_telangana">Practice TS / AP Board →</span>
             </button>
           </div>
 
@@ -1019,14 +1027,223 @@
               </div>
             </div>
             <button type="button" onclick="launchBoardPractice('board-12th-science', 'nios', 'physics')" class="w-full py-2 rounded-xl bg-amber-600 hover:bg-amber-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
-              Practice NIOS →
+              <span data-i18n="sb_btn_nios">Practice NIOS →</span>
+            </button>
+          </div>
+
+          <!-- HPBOSE (Himachal Pradesh) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-sky-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-sky-600 dark:text-sky-400">HPBOSE धर्मशाला</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-100 dark:bg-sky-950/60 text-sky-800 dark:text-sky-300">Himachal</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">हिमाचल प्रदेश स्कूल शिक्षा बोर्ड</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">Class 10th</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">Class 12th</span>
+                <span class="px-2 py-0.5 rounded bg-sky-100 dark:bg-sky-950/50 text-sky-700 dark:text-sky-300 font-bold">NCERT / H.P.</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'hpbose', 'physics')" class="w-full py-2 rounded-xl bg-sky-600 hover:bg-sky-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_hpbose">Practice HPBOSE →</span>
+            </button>
+          </div>
+
+          <!-- JKBOSE (Jammu & Kashmir) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-cyan-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-cyan-600 dark:text-cyan-400">JKBOSE जम्मू/श्रीनगर</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-cyan-100 dark:bg-cyan-950/60 text-cyan-800 dark:text-cyan-300">J&K / Ladakh</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">जम्मू और कश्मीर स्टेट बोर्ड</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">Class 10th</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">Class 12th</span>
+                <span class="px-2 py-0.5 rounded bg-cyan-100 dark:bg-cyan-950/50 text-cyan-700 dark:text-cyan-300 font-bold">Urdu / Eng / Hindi</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'jkbose', 'physics')" class="w-full py-2 rounded-xl bg-cyan-600 hover:bg-cyan-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_jkbose">Practice JKBOSE →</span>
+            </button>
+          </div>
+
+          <!-- Kerala Board (DHSE) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-teal-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-teal-600 dark:text-teal-400">DHSE तिरुवनंतपुरम</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-teal-100 dark:bg-teal-950/60 text-teal-800 dark:text-teal-300">Kerala</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">കേരള ഡിഎച്ച്എസ്ഇ (DHSE Kerala)</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">SSLC (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSE (+1, +2)</span>
+                <span class="px-2 py-0.5 rounded bg-teal-100 dark:bg-teal-950/50 text-teal-700 dark:text-teal-300 font-bold">Malayalam & Eng</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'kerala', 'physics')" class="w-full py-2 rounded-xl bg-teal-600 hover:bg-teal-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_kerala">Practice Kerala DHSE →</span>
+            </button>
+          </div>
+
+          <!-- Goa Board (GBSHSE) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-violet-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-violet-600 dark:text-violet-400">GBSHSE पोरवोरिम</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-violet-100 dark:bg-violet-950/60 text-violet-800 dark:text-violet-300">Goa</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">गोवा माध्यमिक व उच्च माध्यमिक मंडळ</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">SSC (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSSC (12th)</span>
+                <span class="px-2 py-0.5 rounded bg-violet-100 dark:bg-violet-950/50 text-violet-700 dark:text-violet-300 font-bold">English / Konkani</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'gbshse', 'physics')" class="w-full py-2 rounded-xl bg-violet-600 hover:bg-violet-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_gbshse">Practice Goa Board →</span>
+            </button>
+          </div>
+
+          <!-- Manipur Board (BSEM) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-emerald-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-emerald-600 dark:text-emerald-400">BSEM इंफाल</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300">Manipur</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">Board of Secondary Education Manipur</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSLC (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSE (12th)</span>
+                <span class="px-2 py-0.5 rounded bg-emerald-100 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 font-bold">COHSEM Pattern</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'bsem', 'physics')" class="w-full py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_bsem">Practice Manipur BSEM →</span>
+            </button>
+          </div>
+
+          <!-- Meghalaya Board (MBOSE) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-blue-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-blue-600 dark:text-blue-400">MBOSE तुरा/शिलांग</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-100 dark:bg-blue-950/60 text-blue-800 dark:text-blue-300">Meghalaya</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">Meghalaya Board of School Education</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">SSLC (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSSLC (12th)</span>
+                <span class="px-2 py-0.5 rounded bg-blue-100 dark:bg-blue-950/50 text-blue-700 dark:text-blue-300 font-bold">English Medium</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'mbose', 'physics')" class="w-full py-2 rounded-xl bg-blue-600 hover:bg-blue-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_mbose">Practice Meghalaya MBOSE →</span>
+            </button>
+          </div>
+
+          <!-- Mizoram Board (MBSE) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-green-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-green-600 dark:text-green-400">MBSE आइजोल</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-green-100 dark:bg-green-950/60 text-green-800 dark:text-green-300">Mizoram</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">Mizoram Board of School Education</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSLC (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSSLC (12th)</span>
+                <span class="px-2 py-0.5 rounded bg-green-100 dark:bg-green-950/50 text-green-700 dark:text-green-300 font-bold">English / Mizo</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'mbse', 'physics')" class="w-full py-2 rounded-xl bg-green-600 hover:bg-green-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_mbse">Practice Mizoram MBSE →</span>
+            </button>
+          </div>
+
+          <!-- Nagaland Board (NBSE) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-amber-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-amber-600 dark:text-amber-400">NBSE कोहिमा</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-100 dark:bg-amber-950/60 text-amber-800 dark:text-amber-300">Nagaland</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">Nagaland Board of School Education</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSLC (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">HSSLC (12th)</span>
+                <span class="px-2 py-0.5 rounded bg-amber-100 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 font-bold">Analytical Exam</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'nbse', 'physics')" class="w-full py-2 rounded-xl bg-amber-600 hover:bg-amber-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_nbse">Practice Nagaland NBSE →</span>
+            </button>
+          </div>
+
+          <!-- Tripura Board (TBSE) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-rose-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-rose-600 dark:text-rose-400">TBSE अगरतला</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-rose-100 dark:bg-rose-950/60 text-rose-800 dark:text-rose-300">Tripura</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">ত্রিপুরা মধ্যশিক্ষা পর্ষদ (TBSE)</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">Madhyamik (10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">Higher Secondary</span>
+                <span class="px-2 py-0.5 rounded bg-rose-100 dark:bg-rose-950/50 text-rose-700 dark:text-rose-300 font-bold">Bengali & English</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'tbse', 'physics')" class="w-full py-2 rounded-xl bg-rose-600 hover:bg-rose-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_tbse">Practice Tripura TBSE →</span>
+            </button>
+          </div>
+
+          <!-- Andhra Pradesh Board (BSEAP) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-red-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-red-600 dark:text-red-400">BSEAP विजयवाड़ा</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-950/60 text-red-800 dark:text-red-300">Andhra Pradesh</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">ఆంధ్రప్రదేశ్ సెకండరీ బోర్డ్ (BSEAP)</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">SSC (Class 10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">BIEAP Inter</span>
+                <span class="px-2 py-0.5 rounded bg-red-100 dark:bg-red-950/50 text-red-700 dark:text-red-300 font-bold">Telugu & English</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'bseap', 'physics')" class="w-full py-2 rounded-xl bg-red-600 hover:bg-red-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_bseap">Practice Andhra BSEAP →</span>
+            </button>
+          </div>
+
+          <!-- Telangana Board (BSETG) -->
+          <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-indigo-500 transition group flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-black text-indigo-600 dark:text-indigo-400">BSETG हैदराबाद</span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-100 dark:bg-indigo-950/60 text-indigo-800 dark:text-indigo-300">Telangana</span>
+              </div>
+              <div class="text-sm font-black text-slate-900 dark:text-white mt-1">తెలంగాణ ఎగ్జామినేషన్స్ (BSETG)</div>
+              <div class="flex flex-wrap gap-1 mt-2 text-[10px]">
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">SSC (Class 10th)</span>
+                <span class="px-2 py-0.5 rounded bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300 font-bold">TSBIE Inter</span>
+                <span class="px-2 py-0.5 rounded bg-indigo-100 dark:bg-indigo-950/50 text-indigo-700 dark:text-indigo-300 font-bold">Telugu & English</span>
+              </div>
+            </div>
+            <button type="button" onclick="launchBoardPractice('board-12th-science', 'bsetg', 'physics')" class="w-full py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 active:scale-98 text-white text-xs font-black transition cursor-pointer shadow-sm">
+              <span data-i18n="sb_btn_bsetg">Practice Telangana BSETG →</span>
             </button>
           </div>
         </div>
 
         <div class="text-center pt-2">
-          <p class="text-xs text-slate-500 dark:text-slate-400">
-            Also supporting HPBOSE (Himachal), JKBOSE (J&K), Goa Board (GBSHSE), Tripura (TBSE), Mizoram (MBSE), Nagaland (NBSE), Meghalaya (MBOSE), Manipur (BSEM), Kerala (DHSE) and Delhi Board (DBSE).
+          <p class="text-xs text-slate-500 dark:text-slate-400" data-i18n="sb_additional_boards">
+            Covering all 31 Recognized National & State Secondary Education Boards across India with Authentic Native-Language & English Curriculum.
           </p>
         </div>
       </div>
@@ -1731,6 +1948,17 @@
               <option value="ubse">उत्तराखंड बोर्ड (UBSE रामनगर)</option>
               <option value="seba">असम बोर्ड (SEBA/AHSEC)</option>
               <option value="bsetelangana">तेलंगाना एवं आंध्र प्रदेश बोर्ड</option>
+              <option value="hpbose">हिमाचल प्रदेश बोर्ड (HPBOSE धर्मशाला)</option>
+              <option value="jkbose">जम्मू और कश्मीर बोर्ड (JKBOSE)</option>
+              <option value="kerala">केरल बोर्ड (DHSE Kerala तिरुवनंतपुरम)</option>
+              <option value="gbshse">गोवा बोर्ड (GBSHSE पोरवोरिम)</option>
+              <option value="bsem">मणिपुर बोर्ड (BSEM इंफाल)</option>
+              <option value="mbose">मेघालय बोर्ड (MBOSE तुरा/शिलांग)</option>
+              <option value="mbse">मिजोरम बोर्ड (MBSE आइजोल)</option>
+              <option value="nbse">नागालैंड बोर्ड (NBSE कोहिमा)</option>
+              <option value="tbse">त्रिपुरा बोर्ड (TBSE अगरतला)</option>
+              <option value="bseap">आंध्र प्रदेश बोर्ड (BSEAP विजयवाड़ा)</option>
+              <option value="bsetg">तेलंगाना बोर्ड (BSETG हैदराबाद)</option>
             </select>
           </div>
         </div>

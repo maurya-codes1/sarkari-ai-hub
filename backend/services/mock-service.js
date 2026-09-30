@@ -36,7 +36,7 @@ class MockService {
       size,
       subjectId = 'all',
       difficulty = 'MIXED',
-      languageConfig = { primary: 'hi', secondary: 'en', optionMode: 'bilingual' },
+      languageConfig: initialLanguageConfig = { primary: 'hi', secondary: 'en', optionMode: 'bilingual' },
       timerMode = 'COUNTDOWN',
       aiProportion = 0.0,
       strictVerification = false,
@@ -63,6 +63,33 @@ class MockService {
     const resolvedBoardId = boardId || (pdfContext && pdfContext.boardId) || null;
     const resolvedStage = stage || (pdfContext && (pdfContext.classStage || pdfContext.stage)) || null;
     const resolvedStream = stream || (pdfContext && pdfContext.stream) || null;
+    let languageConfig = initialLanguageConfig;
+
+    // Automatically resolve authentic native language if a regional board is selected
+    if (resolvedBoardId && (!languageConfig || languageConfig.primary === 'hi')) {
+      const bMap = {
+        'tn': 'ta', 'tndge': 'ta', 'tndge-tamilnadu': 'ta',
+        'maharashtra': 'mr', 'maharashtra-board': 'mr',
+        'wb': 'bn', 'wbbse-wb': 'bn',
+        'kerala': 'ml', 'kerala-board': 'ml',
+        'karnataka': 'kn', 'kseab-karnataka': 'kn',
+        'gujarat': 'gu', 'gseb-gujarat': 'gu',
+        'pseb': 'pa', 'pseb-punjab': 'pa',
+        'bseodisha': 'or', 'chse-bse-odisha': 'or',
+        'seba': 'as', 'seba-ahsec-assam': 'as',
+        'bsetelangana': 'te', 'tsbie-bieap': 'te', 'bseap': 'te', 'bsetg': 'te',
+        'tbse': 'bn', 'tbse-board': 'bn',
+        'jkbose': 'ur', 'jkbose-board': 'ur'
+      };
+      const nativeBoardLang = bMap[resolvedBoardId] || bMap[resolvedBoardId.replace(/-board$/, '')];
+      if (nativeBoardLang) {
+        languageConfig = {
+          primary: nativeBoardLang,
+          secondary: 'en',
+          optionMode: 'bilingual'
+        };
+      }
+    }
 
     if (!isDbReady) {
       return this._generateOfflineFallbackSession(sessionId, examId, testMode, effectiveCount, subjectId);
@@ -487,6 +514,8 @@ class MockService {
       questionsFromDb = questionRepository.getPracticeQuestions({
         subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : null,
         subjectIds: (practiceType === 'ALL_SUBJECTS_PRACTICE' && subjectIds && subjectIds.length > 0) ? subjectIds : null,
+        boardId,
+        stage,
         difficulty,
         count: validCount,
         excludeIds: []
@@ -900,8 +929,47 @@ class MockService {
     } catch (e) {}
 
     const sec = section || {};
-    const primaryLang = languageConfig?.primary || 'hi';
-    const secondaryLang = languageConfig?.secondary || 'en';
+    const availableLangs = Object.keys(langContent);
+
+    const BOARD_PRIMARY_LANG = {
+      'tndge-tamilnadu': 'ta',
+      'maharashtra-board': 'mr',
+      'wbbse-wb': 'bn',
+      'tbse-board': 'bn',
+      'kerala-board': 'ml',
+      'kseab-karnataka': 'kn',
+      'gseb-gujarat': 'gu',
+      'pseb-punjab': 'pa',
+      'chse-bse-odisha': 'or',
+      'seba-ahsec-assam': 'as',
+      'bseap-board': 'te',
+      'bsetg-board': 'te',
+      'tsbie-bieap': 'te',
+      'jkbose-board': 'ur',
+      'icse-cisce': 'en',
+      'bsem-board': 'en',
+      'mbose-board': 'en',
+      'mbse-board': 'en',
+      'nbse-board': 'en',
+      'gbshse-board': 'en'
+    };
+
+    let primaryLang = languageConfig?.primary;
+    if (!primaryLang || !langContent[primaryLang]) {
+      const boardLang = qRow.board_id ? BOARD_PRIMARY_LANG[qRow.board_id] : null;
+      if (boardLang && langContent[boardLang]) {
+        primaryLang = boardLang;
+      } else {
+        const regionalLang = availableLangs.find(k => k !== 'en');
+        if (regionalLang && langContent[regionalLang]) {
+          primaryLang = regionalLang;
+        } else {
+          primaryLang = langContent.hi ? 'hi' : 'en';
+        }
+      }
+    }
+
+    const secondaryLang = languageConfig?.secondary || (primaryLang === 'en' ? (availableLangs.find(k => k !== 'en') || 'hi') : 'en');
 
     const pData = langContent[primaryLang] || langContent.hi || langContent.en || {};
     const sData = langContent[secondaryLang] || langContent.en || {};
@@ -923,14 +991,14 @@ class MockService {
     };
 
     // For practice sessions, include correct answer and explanation for immediate feedback
-    const isPracticeSession = isPractice || (sec.section_id && String(sec.section_id).startsWith('sec-practice'));
+    const isPracticeSession = isPractice || (sec.section_id && String(sec.section_id).startsWith('sec-practice')) || (sec.attempt_rule_type === 'ATTEMPT_ALL' && !sec.has_negative_marking);
     if (isPracticeSession) {
       let parsedCorrectAns = {};
       try {
         parsedCorrectAns = JSON.parse(qRow.correct_answer || '{}');
       } catch (e) {}
       clientQ.correct = parsedCorrectAns.index !== undefined ? parsedCorrectAns.index : (parsedCorrectAns.option !== undefined ? parsedCorrectAns.option : 0);
-      clientQ.explanation = pData.explanation || pData.exp || sData.explanation || (parsedCorrectAns.explanation || '');
+      clientQ.explanation = pData.explanation || pData.exp || sData.explanation || sData.exp || (parsedCorrectAns.explanation || '');
       clientQ.ans = parsedCorrectAns.text || (clientQ.options[clientQ.correct] || '');
     }
 
