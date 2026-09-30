@@ -36,8 +36,12 @@ function getDb(options = {}) {
 
     if (!fs.existsSync(DB_PATH) || fs.statSync(DB_PATH).size < 1000) {
       try {
-        const { unpackDatabase } = require('../../scripts/unpack_database');
-        unpackDatabase(true);
+        const { execSync } = require('child_process');
+        const unpackScript = path.join(__dirname, '..', '..', 'scripts', 'unpack_database.js');
+        if (fs.existsSync(unpackScript)) {
+          console.log('[Database] Unpacking compressed database archive...');
+          execSync(`node "${unpackScript}"`, { stdio: 'inherit' });
+        }
       } catch (err) {
         console.warn('[Database] Auto-unpack failed or not available:', err.message);
       }
