@@ -53,6 +53,12 @@ function unpackDatabase(force = false) {
       resolve(true);
     });
 
+    writeStream.on('error', (err) => {
+      console.error('[Unpack] WriteStream error:', err.message);
+      try { fs.unlinkSync(tmpPath); } catch (e) {}
+      reject(err);
+    });
+
     gunzip.on('error', (err) => {
       console.error('[Unpack] Gunzip error:', err.message);
       try { fs.unlinkSync(tmpPath); } catch (e) {}
@@ -62,9 +68,17 @@ function unpackDatabase(force = false) {
     gunzip.pipe(writeStream);
 
     const s1 = fs.createReadStream(PART1_PATH);
+    s1.on('error', (err) => {
+      console.error('[Unpack] Part 1 ReadStream error:', err.message);
+      reject(err);
+    });
     s1.pipe(gunzip, { end: false });
     s1.on('end', () => {
       const s2 = fs.createReadStream(PART2_PATH);
+      s2.on('error', (err) => {
+        console.error('[Unpack] Part 2 ReadStream error:', err.message);
+        reject(err);
+      });
       s2.pipe(gunzip, { end: true });
     });
   });

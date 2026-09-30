@@ -96,7 +96,14 @@ app.get('/health', (req, res) => {
 app.get('/api/deployment-info', (req, res) => {
   const isDbOk = checkDbAvailable();
   let questionCount = 0;
-  let dbSha256 = '257a770f5072069bb95aab8dd67b997e058317634097a5229615bfae0e8ae224';
+  let dbSha256 = '5f6f304f8932d7994899e3281e9f3c84e0a48673a50c14fb057b029817896aee';
+  try {
+    const hashPath = path.join(__dirname, 'backend', 'db', 'sarkari_core.sha256');
+    if (fs.existsSync(hashPath)) {
+      dbSha256 = fs.readFileSync(hashPath, 'utf8').trim();
+    }
+  } catch (e) {}
+
   try {
     const db = require('./backend/db/database').getDb();
     if (db) {
@@ -108,7 +115,7 @@ app.get('/api/deployment-info', (req, res) => {
     service: 'sarkari-ai-hub',
     status: 'online',
     version: '2.0.0-release',
-    gitCommit: process.env.RENDER_GIT_COMMIT || '4adf9fa',
+    gitCommit: process.env.RENDER_GIT_COMMIT || '0363883',
     environment: process.env.NODE_ENV || 'production',
     databaseConnected: isDbOk,
     questionCount: questionCount || 172210,
