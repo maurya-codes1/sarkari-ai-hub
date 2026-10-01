@@ -2160,8 +2160,8 @@ Language strictly: ${language}. Return raw JSON only, no markdown wrapping.`;
   }
 });
 
-// Route: Admin Console entry point
-app.get('/admin', (req, res) => {
+// Route: Admin Console entry point (supports /admin, /admin/, /admin.html)
+app.get(['/admin', '/admin/', '/admin.html'], (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'admin.html'));
 });
 

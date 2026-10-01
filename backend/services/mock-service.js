@@ -804,8 +804,12 @@ class MockService {
           parsedCorrectAns = JSON.parse(qRow.correct_answer || '{}');
         } catch (e) {}
 
-        const correctIndex = typeof parsedCorrectAns.index === 'number' ? parsedCorrectAns.index : 0;
-        const correctValue = parsedCorrectAns.value || '';
+        const correctIndex = typeof parsedCorrectAns.index === 'number'
+          ? parsedCorrectAns.index
+          : (typeof parsedCorrectAns.correct_index === 'number'
+              ? parsedCorrectAns.correct_index
+              : (typeof parsedCorrectAns.option === 'number' ? parsedCorrectAns.option : 0));
+        const correctValue = parsedCorrectAns.value || parsedCorrectAns.correct_value || '';
 
         const candidateAns = userAnswers[qId];
         const isAttempted = candidateAns !== undefined && candidateAns !== null && candidateAns !== '';
@@ -1100,7 +1104,11 @@ class MockService {
       try {
         parsedCorrectAns = JSON.parse(qRow.correct_answer || '{}');
       } catch (e) {}
-      clientQ.correct = parsedCorrectAns.index !== undefined ? parsedCorrectAns.index : (parsedCorrectAns.option !== undefined ? parsedCorrectAns.option : 0);
+      clientQ.correct = parsedCorrectAns.index !== undefined
+        ? parsedCorrectAns.index
+        : (parsedCorrectAns.correct_index !== undefined
+            ? parsedCorrectAns.correct_index
+            : (parsedCorrectAns.option !== undefined ? parsedCorrectAns.option : 0));
       clientQ.explanation = cleanExplanationText(pData.explanation || pData.exp || sData.explanation || sData.exp || (parsedCorrectAns.explanation || ''));
       clientQ.ans = parsedCorrectAns.text || (clientQ.options[clientQ.correct] || '');
     }

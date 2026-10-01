@@ -80,8 +80,8 @@
         
         <!-- Left Side: Mobile Hamburger Menu Button (Three Lines) + Brand Logo -->
         <div class="flex items-center space-x-1.5 sm:space-x-3 shrink-0">
-          <!-- Mobile Hamburger Menu Button (Three Lines) Moved to LEFT -->
-          <button id="mobileMenuBtn" onclick="toggleMobileMenu(event)" class="lg:hidden p-1.5 sm:p-2.5 rounded-xl bg-slate-800 text-white hover:bg-slate-700 active:bg-slate-600 border border-slate-700/80 transition flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-saffron-500 cursor-pointer shrink-0" aria-label="Toggle navigation" title="Menu (मेन्यू)">
+          <!-- Mobile Hamburger Menu Button (Three Lines) Always Accessible -->
+          <button id="mobileMenuBtn" onclick="toggleMobileMenu(event)" class="p-1.5 sm:p-2.5 rounded-xl bg-slate-800 text-white hover:bg-slate-700 active:bg-slate-600 border border-slate-700/80 transition flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-saffron-500 cursor-pointer shrink-0" aria-label="Toggle navigation" title="Menu (मेन्यू)">
             <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
@@ -104,28 +104,27 @@
           </a>
         </div>
 
-        <!-- Desktop Navigation Links (Responsive with More Tools Dropdown) -->
-        <nav class="hidden lg:flex items-center space-x-0.5 xl:space-x-1 font-bold text-[11px] xl:text-xs">
-          <a href="#home" onclick="navigateToHome(event)" data-tab="home" class="nav-link px-2.5 py-1.5 xl:px-3 xl:py-2 rounded-xl bg-saffron-500 text-white shadow-md transition cursor-pointer" data-i18n="nav_home">Home</a>
-          <a href="#tool/quiz" data-tab="quiz" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-rose-300 hover:bg-slate-800 transition font-black" data-i18n="nav_quiz">🎯 Mock Test</a>
-          <a href="#tool/notes" data-tab="notes" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition" data-i18n="nav_notes">📚 ₹10 Notes</a>
-          <a href="#tool/current-affairs" data-tab="current-affairs" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition" data-i18n="nav_gk">📰 GK & CA</a>
-          <a href="#tool/resizer" data-tab="resizer" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition" data-i18n="nav_tools">📸 Resizer</a>
-          <a href="#directory" data-tab="directory" class="nav-link px-2 py-1.5 xl:px-3 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition" data-i18n="nav_boards">🎓 Boards</a>
-          
-          <!-- OMR Quick Action in Desktop Nav -->
-          <button type="button" onclick="triggerOmrSheetGenerator()" class="px-2 py-1.5 xl:px-2.5 xl:py-2 rounded-xl bg-indigo-900/60 hover:bg-indigo-800 text-indigo-200 border border-indigo-500/40 transition flex items-center space-x-1 font-bold cursor-pointer" title="Print Blank Vector OMR Sheet (50/80/100/150/200)">
-            <span data-i18n="nav_omr">📄 OMR Sheet</span>
-          </button>
+        <!-- Desktop Navigation Links (Streamlined to prevent overflow in long languages) -->
+        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-1.5 font-bold text-[11px] xl:text-xs min-w-0">
+          <a href="#home" onclick="navigateToHome(event)" data-tab="home" class="nav-link px-2 xl:px-3 py-1.5 xl:py-2 rounded-xl bg-saffron-500 text-white shadow-md transition cursor-pointer whitespace-nowrap" data-i18n="nav_home">Home</a>
+          <a href="#tool/quiz" data-tab="quiz" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-rose-300 hover:bg-slate-800 transition font-black whitespace-nowrap" data-i18n="nav_quiz">🎯 Mock Test</a>
+          <a href="#tool/notes" data-tab="notes" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition whitespace-nowrap" data-i18n="nav_notes">📚 ₹10 Notes</a>
+          <a href="#homeCurrentAffairsSection" onclick="scrollToCurrentAffairs(event)" data-tab="current-affairs" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition whitespace-nowrap" data-i18n="nav_gk">📰 GK & CA</a>
 
           <!-- More Tools Dropdown -->
           <div class="relative" id="desktopToolsDropdownContainer">
-            <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-2 py-1.5 xl:px-2.5 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition flex items-center space-x-1 font-bold cursor-pointer" aria-haspopup="true" aria-expanded="false">
+            <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition flex items-center space-x-1 font-bold cursor-pointer whitespace-nowrap" aria-haspopup="true" aria-expanded="false">
               <span data-i18n="nav_more_tools">🛠️ Tools</span>
               <span id="desktopToolsArrow" class="text-[9px] ml-0.5 transition-transform duration-200 inline-block">▼</span>
             </button>
-            <div id="desktopToolsMenu" class="absolute right-0 top-full pt-1.5 w-56 hidden z-50 animate-fadeIn">
-              <div class="bg-slate-900 border border-slate-700/80 rounded-2xl shadow-2xl p-2 space-y-1">
+            <div id="desktopToolsMenu" class="absolute right-0 top-full pt-1.5 w-60 hidden z-50 animate-fadeIn">
+              <div class="bg-slate-900 border border-slate-700/80 rounded-2xl shadow-2xl p-2 space-y-1 max-h-[80vh] overflow-y-auto">
+                <a href="#tool/resizer" data-tab="resizer" onclick="handleToolItemClick(event, 'resizer')" class="flex items-center px-3 py-2 rounded-xl text-slate-200 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_tools">📸 Photo Resizer Lab</a>
+                <a href="#directory" data-tab="directory" onclick="handleToolItemClick(event, 'directory')" class="flex items-center px-3 py-2 rounded-xl text-slate-200 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_boards">🎓 31 State & Central Boards</a>
+                <button type="button" onclick="triggerOmrSheetGenerator()" class="w-full text-left flex items-center px-3 py-2 rounded-xl text-indigo-300 hover:bg-slate-800 transition text-xs font-bold cursor-pointer">
+                  <span data-i18n="nav_omr">📄 Blank Vector OMR Sheet</span>
+                </button>
+                <a href="/admin" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold">🔐 Master Admin Console</a>
                 <a href="#tool/physical" data-tab="physical" onclick="handleToolItemClick(event, 'physical')" class="flex items-center px-3 py-2 rounded-xl text-orange-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_physical">🏃 Physical (PET/PST)</a>
                 <a href="#tool/salary" data-tab="salary" onclick="handleToolItemClick(event, 'salary')" class="flex items-center px-3 py-2 rounded-xl text-green-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_salary">💰 Salary Calculator</a>
                 <a href="#tool/documents" data-tab="documents" onclick="handleToolItemClick(event, 'documents')" class="flex items-center px-3 py-2 rounded-xl text-cyan-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_documents">📜 DV Guard</a>
@@ -147,8 +146,8 @@
           </div>
         </nav>
 
-        <!-- Right Side: Dark Mode Toggle, Job Alerts Bell, Auto-Sync Badge & Language Switcher -->
-        <div class="flex items-center space-x-1.5 sm:space-x-2.5 shrink-0">
+        <!-- Right Side: Dark Mode Toggle, Job Alerts Bell, Auto-Sync Badge & Language Switcher (Guaranteed Visible) -->
+        <div class="flex items-center space-x-1.5 sm:space-x-2.5 shrink-0 ml-auto z-20">
           <!-- Web Push Job Alert Notification Bell -->
           <button id="jobAlertBellBtn" type="button" onclick="toggleJobAlerts()" class="relative p-1.5 sm:px-3 sm:py-1.5 rounded-xl sm:rounded-2xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/50 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Job Alerts Notifications">
             <span class="text-sm sm:text-lg">🔔</span>
@@ -168,10 +167,10 @@
             <span data-i18n="nav_auto_sync">🤖 Auto-Sync</span>
           </div>
 
-          <!-- 24-Language Switcher Dropdown (With Custom Dropdown Arrow) -->
-          <div class="relative flex items-center bg-slate-900 border border-amber-400/80 sm:border-2 rounded-xl sm:rounded-2xl px-2 py-1 sm:px-2.5 sm:py-1.5 shadow-md shrink-0">
+          <!-- 24-Language Switcher Dropdown (Clamped width so it never overflows) -->
+          <div class="relative flex items-center bg-slate-900 border border-amber-400/80 sm:border-2 rounded-xl sm:rounded-2xl px-1.5 py-1 sm:px-2.5 sm:py-1.5 shadow-md shrink-0 max-w-[130px] sm:max-w-[160px]">
             <span class="text-xs sm:text-sm mr-1 shrink-0">🌐</span>
-            <select id="langSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-transparent text-[11px] sm:text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-4 appearance-none">
+            <select id="langSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-transparent text-[11px] sm:text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-4 appearance-none truncate max-w-[95px] sm:max-w-[125px]">
               <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
               <option value="en" class="text-slate-900 bg-white font-bold">English</option>
               <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
@@ -213,8 +212,8 @@
       </div>
     </div>
 
-    <!-- Mobile Navigation Drawer -->
-    <div id="mobileNavDrawer" class="hidden lg:hidden bg-slate-900/98 border-b-2 border-saffron-500 px-4 pt-3 pb-6 space-y-1.5 relative z-50 shadow-2xl">
+    <!-- Mobile Navigation Drawer (Available across all screen widths when toggled) -->
+    <div id="mobileNavDrawer" class="hidden bg-slate-900/98 border-b-2 border-saffron-500 px-4 pt-3 pb-6 space-y-1.5 relative z-50 shadow-2xl">
       <!-- Mobile Global Language Switcher -->
       <div class="flex items-center justify-between bg-slate-800/95 border border-amber-400/60 rounded-xl px-3 py-2 mb-2.5 shadow-sm">
         <span class="text-xs font-bold text-amber-300 flex items-center space-x-1.5">
@@ -258,7 +257,7 @@
       <a href="#home" onclick="navigateToHome(event)" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-white hover:bg-slate-700 transition cursor-pointer" data-i18n="nav_home">🏠 Home</a>
 
       <a href="#tool/quiz" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-rose-950/50 text-rose-300 border border-rose-800/40 hover:bg-rose-900/60 transition" data-i18n="mobile_nav_quiz">🎯 Live Mock Test (All Exams & Boards)</a>
-      <a href="#tool/current-affairs" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 hover:bg-emerald-900/60 transition" data-i18n="mobile_nav_gk">📰 Daily Current Affairs & Static GK Booster</a>
+      <a href="#homeCurrentAffairsSection" onclick="closeMobileMenu(); scrollToCurrentAffairs(event);" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-emerald-950/50 text-emerald-300 border border-emerald-800/40 hover:bg-emerald-900/60 transition" data-i18n="mobile_nav_gk">📰 Daily Current Affairs & Static GK Booster</a>
       <a href="#tool/physical" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-orange-950/50 text-orange-300 border border-orange-800/40 hover:bg-orange-900/60 transition" data-i18n="mobile_nav_physical">🏃 Physical Eligibility (PET/PST Calculator)</a>
       <a href="#tool/salary" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-green-950/50 text-green-300 border border-green-800/40 hover:bg-green-900/60 transition" data-i18n="mobile_nav_salary">💰 7th CPC In-Hand Salary & Pay-Slip</a>
       <a href="#tool/documents" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-cyan-950/50 text-cyan-300 border border-cyan-800/40 hover:bg-cyan-900/60 transition" data-i18n="mobile_nav_documents">📜 Document Verification & Crucial Date Guard</a>
@@ -277,6 +276,7 @@
       <a href="#tool/age" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-i18n="nav_age">🎂 Age Calculator</a>
       <a href="#directory" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-i18n="nav_boards">🎓 10th/12th Boards & Exams</a>
       <a href="#tool/ai" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-i18n="nav_ai">📑 Official Circular Decoder</a>
+      <a href="/admin" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-amber-950/40 text-amber-300 border border-amber-800/50 hover:bg-amber-900/60 transition">🔐 Master Admin Console (/admin)</a>
       
       <!-- Mobile Quick Actions Row: OMR + Dark Mode -->
       <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
@@ -634,6 +634,64 @@
           </div>
         </div>
       </div>
+
+      <!-- DAILY CURRENT AFFAIRS & STATIC GK BOOSTER (EMBEDDED ON HOME SCREEN) -->
+      <section id="homeCurrentAffairsSection" class="space-y-6 pt-2">
+        <!-- Top Banner -->
+        <div class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-indigo-800/50 space-y-3">
+          <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-xs font-black text-indigo-300">
+            <span data-i18n="ca_booster_badge">📰 2025-2026 Daily High-Yield Exam Booster & Speed Quiz</span>
+          </div>
+          <h3 class="text-2xl sm:text-3xl font-black text-white tracking-tight" data-i18n="card_ca_title">
+            Daily Current Affairs & Static GK Booster
+          </h3>
+          <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed" data-i18n="ca_booster_desc">SSC, रेलवे NTPC, राज्य पुलिस एवं BPSC/UPPSC परीक्षाओं हेतु दैनिक 10-प्रश्नों का रैपिड क्विज, द्विभाषी विस्तृत व्याख्या और मासिक वन-लाइनर रिवीजन कैप्सूल।</p>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          
+          <!-- Live Quiz Arena Card -->
+          <div class="lg:col-span-2 bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border border-slate-200 dark:border-slate-800 shadow-xl space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
+              <h3 class="text-base sm:text-lg font-black text-slate-900 dark:text-white flex items-center gap-2">
+                <span>🎯</span>
+                <span data-i18n="ca_tab_rapid_quiz">दैनिक रैपिड टेस्ट (Daily 10-MCQ Rapid Quiz)</span>
+              </h3>
+              <span id="caQuizProgressText" class="text-xs font-mono font-bold text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/80 px-2.5 py-1 rounded-lg border border-indigo-100 dark:border-indigo-800">
+                प्रश्न 1 / 10
+              </span>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="w-full bg-slate-100 dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+              <div id="caQuizProgressBar" class="bg-indigo-600 dark:bg-indigo-500 h-full w-1/10 transition-all duration-300"></div>
+            </div>
+
+            <!-- Quiz Interactive Question Container -->
+            <div id="caQuizCardContainer" class="caQuizCardContainer pt-2">
+              <!-- Dynamically populated by current-affairs.js -->
+            </div>
+          </div>
+
+          <!-- Monthly One-Liner High-Yield Capsule Card -->
+          <div class="lg:col-span-1 space-y-4">
+            <div class="bg-white dark:bg-slate-900 rounded-3xl p-5 border border-slate-200 dark:border-slate-800 shadow-xl space-y-4">
+              <div class="flex items-center justify-between border-b border-slate-100 dark:border-slate-800 pb-3">
+                <h3 class="text-sm font-black text-slate-900 dark:text-white flex items-center gap-1.5">
+                  <span>📚</span>
+                  <span data-i18n="ca_tab_capsule">मासिक कैप्सूल (Monthly Capsule)</span>
+                </h3>
+                <button type="button" id="caCopyCapsuleBtn" onclick="copyCACapsuleNotes()" class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-200 transition cursor-pointer" data-i18n="ca_btn_copy_notes">📋 कॉपी नोट्स</button>
+              </div>
+
+              <div id="caMonthlyCapsuleContainer" class="caMonthlyCapsuleContainer space-y-3 max-h-[600px] overflow-y-auto pr-1">
+                <!-- Dynamically populated by current-affairs.js -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
 
       <!-- 2. 31 STATE & CENTRAL EDUCATION BOARDS SHOWCASE (CLASSES 9TH, 10TH, 11TH, 12TH) -->
       <div id="stateBoardsShowcase" class="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 border-2 border-slate-200 dark:border-slate-800 shadow-xl space-y-6">
@@ -3287,62 +3345,21 @@
       </div>
     </section>
 
-    <!-- TAB: DAILY CURRENT AFFAIRS & STATIC GK BOOSTER -->
+    <!-- TAB: DAILY CURRENT AFFAIRS & STATIC GK BOOSTER (DIRECTS TO HOME SCREEN SECTION) -->
     <section id="tab-current-affairs" class="tab-section hidden space-y-6">
-      
-      <!-- Top Banner -->
-      <div class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-6 sm:p-10 text-white shadow-xl border border-indigo-800/50 space-y-4">
-        <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/40 text-xs font-black text-indigo-300">
-          <span data-i18n="ca_booster_badge">📰 2025-2026 Daily High-Yield Exam Booster & Speed Quiz</span>
-        </div>
-        <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="card_ca_title">
+      <div class="bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 rounded-3xl p-8 sm:p-12 text-center text-white shadow-xl border border-indigo-800/50 space-y-4">
+        <span class="text-4xl">📰</span>
+        <h2 class="text-2xl sm:text-3xl font-black text-white" data-i18n="card_ca_title">
           Daily Current Affairs & Static GK Booster
         </h2>
-        <p class="text-xs sm:text-sm text-slate-300 font-medium max-w-3xl leading-relaxed" data-i18n="ca_booster_desc">SSC, रेलवे NTPC, राज्य पुलिस एवं BPSC/UPPSC परीक्षाओं हेतु दैनिक 10-प्रश्नों का रैपिड क्विज, द्विभाषी विस्तृत व्याख्या और मासिक वन-लाइनर रिवीजन कैप्सूल।</p>
-      </div>
-
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        
-        <!-- Live Quiz Arena Card -->
-        <div class="lg:col-span-2 bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xl space-y-4">
-          <div class="flex items-center justify-between border-b border-slate-100 pb-3">
-            <h3 class="text-base sm:text-lg font-black text-slate-900 flex items-center gap-2">
-              <span>🎯</span>
-              <span data-i18n="ca_tab_rapid_quiz">दैनिक रैपिड टेस्ट (Daily 10-MCQ Rapid Quiz)</span>
-            </h3>
-            <span id="caQuizProgressText" class="text-xs font-mono font-bold text-indigo-700 bg-indigo-50 px-2.5 py-1 rounded-lg border border-indigo-100">
-              प्रश्न 1 / 10
-            </span>
-          </div>
-
-          <!-- Progress Bar -->
-          <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden">
-            <div id="caQuizProgressBar" class="bg-indigo-600 h-full w-1/10 transition-all duration-300"></div>
-          </div>
-
-          <!-- Quiz Interactive Question Container -->
-          <div id="caQuizCardContainer" class="pt-2">
-            <!-- Dynamically populated by current-affairs.js -->
-          </div>
+        <p class="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto" data-i18n="ca_booster_desc">
+          SSC, रेलवे NTPC, राज्य पुलिस एवं BPSC/UPPSC परीक्षाओं हेतु दैनिक 10-प्रश्नों का रैपिड क्विज एवं मासिक कैप्सूल।
+        </p>
+        <div>
+          <button type="button" onclick="navigateToHome(); setTimeout(() => { const el = document.getElementById('homeCurrentAffairsSection'); if (el) el.scrollIntoView({ behavior: 'smooth' }); }, 100);" class="px-6 py-3 rounded-2xl bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white font-bold text-sm shadow-lg transition active:scale-98 cursor-pointer">
+            View Live Daily Booster on Home ➔
+          </button>
         </div>
-
-        <!-- Monthly One-Liner High-Yield Capsule Card -->
-        <div class="lg:col-span-1 space-y-4">
-          <div class="bg-white rounded-3xl p-5 border border-slate-200 shadow-xl space-y-4">
-            <div class="flex items-center justify-between border-b border-slate-100 pb-3">
-              <h3 class="text-sm font-black text-slate-900 flex items-center gap-1.5">
-                <span>📚</span>
-                <span data-i18n="ca_tab_capsule">मासिक कैप्सूल (Monthly Capsule)</span>
-              </h3>
-              <button type="button" id="caCopyCapsuleBtn" class="text-[11px] font-bold px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 transition cursor-pointer" data-i18n="ca_btn_copy_notes">📋 कॉपी नोट्स</button>
-            </div>
-
-            <div id="caMonthlyCapsuleContainer" class="space-y-3 max-h-[600px] overflow-y-auto pr-1">
-              <!-- Dynamically populated by current-affairs.js -->
-            </div>
-          </div>
-        </div>
-
       </div>
     </section>
 
@@ -3748,11 +3765,13 @@
 
         <div class="flex flex-wrap gap-4 text-xs font-bold text-slate-300">
           <a href="#tool/quiz" class="hover:text-saffron-400 transition" data-i18n="card_quiz_title">Live Mock Quiz</a>
+          <a href="#homeCurrentAffairsSection" onclick="scrollToCurrentAffairs(event)" class="hover:text-saffron-400 text-emerald-400 transition font-bold">📰 Daily Current Affairs & GK</a>
           <a href="#tool/resizer" class="hover:text-saffron-400 transition" data-i18n="nav_tools">Photo Resizer</a>
           <a href="#tool/ai" class="hover:text-saffron-400 transition" data-i18n="ai_title">Notification & Rules Decoder</a>
           <a href="#tool/age" class="hover:text-saffron-400 transition" data-i18n="nav_age">Age Calculator</a>
           <a href="#directory" class="hover:text-saffron-400 transition" data-i18n="nav_boards">Boards & Exams</a>
           <a href="#tool/notes" class="hover:text-saffron-400 transition" data-i18n="nav_notes">₹10 Notes Vault</a>
+          <a href="/admin" class="hover:text-amber-300 text-amber-400 transition font-bold">🔐 Master Admin Console (/admin)</a>
         </div>
       </div>
 

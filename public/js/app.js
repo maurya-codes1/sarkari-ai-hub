@@ -256,6 +256,21 @@ function closeMobileMenu() {
   }
 }
 
+function scrollToCurrentAffairs(event) {
+  if (event && typeof event.preventDefault === 'function') event.preventDefault();
+  closeMobileMenu();
+  if (typeof navigateToHome === 'function') navigateToHome();
+  setTimeout(() => {
+    const el = document.getElementById('homeCurrentAffairsSection');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+    if (typeof initCurrentAffairs === 'function') {
+      initCurrentAffairs();
+    }
+  }, 100);
+}
+
 // ================= DESKTOP "OTHER TOOLS" (11 TOOLS) DROPDOWN CONTROLLER =================
 let isDesktopToolsLocked = false;
 
@@ -479,6 +494,9 @@ if (typeof window !== 'undefined') {
 // Global DOM init
 document.addEventListener('DOMContentLoaded', () => {
   initDirectory();
+  if (typeof initCurrentAffairs === 'function') {
+    initCurrentAffairs();
+  }
 
   // Language selectors sync
   const langSelect = document.getElementById('langSelectDropdown');
@@ -493,6 +511,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   window.addEventListener('languageChanged', () => {
     if (typeof renderDirectoryCards === 'function') renderDirectoryCards();
+    if (typeof renderCAQuiz === 'function') renderCAQuiz();
+    if (typeof renderMonthlyCapsule === 'function') renderMonthlyCapsule();
   });
 
   // Outside click / touch listener to dismiss mobile menu drawer

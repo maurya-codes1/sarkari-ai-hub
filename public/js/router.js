@@ -196,6 +196,22 @@ function showStandardTab(rawTabId) {
   const detailContainer = document.getElementById('dedicatedExamContainer');
   if (detailContainer) detailContainer.classList.add('hidden');
 
+  if (tabId === 'admin') {
+    window.location.href = '/admin';
+    return;
+  }
+  if (tabId === 'current-affairs' || tabId === 'gk') {
+    document.querySelectorAll('.tab-section').forEach(sec => sec.classList.add('hidden'));
+    const homeTab = document.getElementById('tab-home');
+    if (homeTab) homeTab.classList.remove('hidden');
+    if (typeof initCurrentAffairs === 'function') initCurrentAffairs();
+    setTimeout(() => {
+      const el = document.getElementById('homeCurrentAffairsSection');
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+    return;
+  }
+
   // Hide all standard tabs
   document.querySelectorAll('.tab-section').forEach(sec => sec.classList.add('hidden'));
 

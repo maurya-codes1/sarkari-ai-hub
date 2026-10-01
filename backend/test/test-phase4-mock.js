@@ -64,8 +64,10 @@ async function runPhase4Tests() {
     // Submit: Q1 correct (+2.0), Q2 wrong (-0.50)
     // To ensure Q1 is correct and Q2 is wrong, inspect real answers from DB
     const realQs = questionRepo.getQuestionsByIds([q1.id, q2.id]);
-    const q1Ans = JSON.parse(realQs.find(q => q.question_id === q1.id).correct_answer).index;
-    const q2Ans = JSON.parse(realQs.find(q => q.question_id === q2.id).correct_answer).index;
+    const q1Parsed = JSON.parse(realQs.find(q => q.question_id === q1.id).correct_answer);
+    const q2Parsed = JSON.parse(realQs.find(q => q.question_id === q2.id).correct_answer);
+    const q1Ans = q1Parsed.index !== undefined ? q1Parsed.index : q1Parsed.correct_index;
+    const q2Ans = q2Parsed.index !== undefined ? q2Parsed.index : q2Parsed.correct_index;
     const q2WrongAns = (q2Ans + 1) % 4;
 
     const sub = mockService.submitMockSession({
@@ -87,8 +89,10 @@ async function runPhase4Tests() {
     const q2 = session.questions[1];
 
     const realQs = questionRepo.getQuestionsByIds([q1.id, q2.id]);
-    const q1Ans = JSON.parse(realQs.find(q => q.question_id === q1.id).correct_answer).index;
-    const q2Ans = JSON.parse(realQs.find(q => q.question_id === q2.id).correct_answer).index;
+    const q1Parsed = JSON.parse(realQs.find(q => q.question_id === q1.id).correct_answer);
+    const q2Parsed = JSON.parse(realQs.find(q => q.question_id === q2.id).correct_answer);
+    const q1Ans = q1Parsed.index !== undefined ? q1Parsed.index : q1Parsed.correct_index;
+    const q2Ans = q2Parsed.index !== undefined ? q2Parsed.index : q2Parsed.correct_index;
     const q2WrongAns = (q2Ans + 1) % 4;
 
     const sub = mockService.submitMockSession({
