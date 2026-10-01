@@ -1,0 +1,5058 @@
+[
+  {
+    "board_id": "cbse-board",
+    "name": "CBSE Board (Class 10th & 12th)",
+    "short_name": "CBSE 10th/12th",
+    "jurisdiction": "National",
+    "totalQuestions": 26970,
+    "classBreakdown": {
+      "Class 9": 600,
+      "Class 10": 0,
+      "Class 11": 400,
+      "Class 12": 0,
+      "Other/General": 25970
+    },
+    "subjectMap": {
+      "subj-science": {
+        "total": 11889,
+        "objective": 11803,
+        "subjective": 86,
+        "langTypes": {
+          "bilingual": 11649,
+          "single": 240,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-social": {
+        "total": 10081,
+        "objective": 3414,
+        "subjective": 6667,
+        "langTypes": {
+          "bilingual": 10081,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-math12": {
+        "total": 2200,
+        "objective": 1467,
+        "subjective": 733,
+        "langTypes": {
+          "bilingual": 2200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-sanskrit": {
+        "total": 900,
+        "objective": 450,
+        "subjective": 450,
+        "langTypes": {
+          "bilingual": 900,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 600,
+        "objective": 400,
+        "subjective": 200,
+        "langTypes": {
+          "bilingual": 600,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-business": {
+        "total": 600,
+        "objective": 200,
+        "subjective": 400,
+        "langTypes": {
+          "bilingual": 600,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-math": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 60,
+          "single": 240,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-physics": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 58,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": [
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        },
+        {
+          "type": "BOARD_QUESTION_PAPER",
+          "title": "CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER",
+          "lang": "hi,en",
+          "pages": 1,
+          "questions": 25
+        }
+      ]
+    }
+  },
+  {
+    "board_id": "icse-cisce",
+    "name": "ICSE & ISC Board (Class 10th & 12th)",
+    "short_name": "CISCE (ICSE / ISC)",
+    "jurisdiction": "National",
+    "totalQuestions": 2000,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1000,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-science": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 300,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 300,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "upmsp-board",
+    "name": "UP Board (High School & Intermediate 10th/12th)",
+    "short_name": "UPMSP (UP Board)",
+    "jurisdiction": "State",
+    "totalQuestions": 4060,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1700,
+      "Class 11": 130,
+      "Class 12": 2100,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 300,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-urdu": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en",
+          "ur"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-history": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-polity": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-geography": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "bseb-bihar",
+    "name": "Bihar Board BSEB (Matric 10th & Inter 12th)",
+    "short_name": "BSEB Bihar Board",
+    "jurisdiction": "State",
+    "totalQuestions": 4060,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1700,
+      "Class 11": 130,
+      "Class 12": 2100,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 300,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-urdu": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en",
+          "ur"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-history": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-polity": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-geography": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "maharashtra-board",
+    "name": "Maharashtra State Board (SSC 10th & HSC 12th)",
+    "short_name": "MSBSHSE Maharashtra",
+    "jurisdiction": "State",
+    "totalQuestions": 3567,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1200,
+      "Class 11": 130,
+      "Class 12": 2100,
+      "Other/General": 7
+    },
+    "subjectMap": {
+      "subj-social": {
+        "total": 257,
+        "objective": 200,
+        "subjective": 57,
+        "langTypes": {
+          "bilingual": 257,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-marathi": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "mr",
+          "en"
+        ]
+      },
+      "subj-history": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-polity": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-geography": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "rbse-rajasthan",
+    "name": "Rajasthan Board (RBSE 10th & 12th Ajmer)",
+    "short_name": "RBSE Rajasthan",
+    "jurisdiction": "State",
+    "totalQuestions": 3610,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1250,
+      "Class 11": 130,
+      "Class 12": 2100,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-history": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-polity": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-geography": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "mpbse-board",
+    "name": "MP Board (MPBSE 10th & 12th Bhopal)",
+    "short_name": "MPBSE Madhya Pradesh",
+    "jurisdiction": "State",
+    "totalQuestions": 3610,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1250,
+      "Class 11": 130,
+      "Class 12": 2100,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-history": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-polity": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      },
+      "subj-geography": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "hi"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "wbbse-wb",
+    "name": "West Bengal Board (Madhyamik 10th & WBCHSE 12th)",
+    "short_name": "WBBSE & WBCHSE Bengal",
+    "jurisdiction": "State",
+    "totalQuestions": 3810,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1450,
+      "Class 11": 130,
+      "Class 12": 2100,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-bengali": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-history": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "bn"
+        ]
+      },
+      "subj-polity": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "bn"
+        ]
+      },
+      "subj-geography": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "bn"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "tndge-tamilnadu",
+    "name": "Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",
+    "short_name": "TNDGE Tamil Nadu",
+    "jurisdiction": "State",
+    "totalQuestions": 2792,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1000,
+      "Class 11": 130,
+      "Class 12": 1000,
+      "Other/General": 532
+    },
+    "subjectMap": {
+      "subj-tamil": {
+        "total": 532,
+        "objective": 275,
+        "subjective": 257,
+        "langTypes": {
+          "bilingual": 507,
+          "single": 25,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 415,
+        "objective": 330,
+        "subjective": 85,
+        "langTypes": {
+          "bilingual": 415,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 415,
+        "objective": 330,
+        "subjective": 85,
+        "langTypes": {
+          "bilingual": 415,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 300,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ta",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "kseab-karnataka",
+    "name": "Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",
+    "short_name": "KSEAB Karnataka",
+    "jurisdiction": "State",
+    "totalQuestions": 2960,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1200,
+      "Class 11": 130,
+      "Class 12": 1500,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-kannada": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "kn",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "gseb-gujarat",
+    "name": "Gujarat Board (GSEB SSC 10th & HSC 12th)",
+    "short_name": "GSEB Gujarat",
+    "jurisdiction": "State",
+    "totalQuestions": 3210,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1450,
+      "Class 11": 130,
+      "Class 12": 1500,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-gujarati": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-accountancy": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      },
+      "subj-business": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "gu",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "bseh-haryana",
+    "name": "Haryana Board (BSEH Bhiwani 10th & 12th)",
+    "short_name": "BSEH Haryana",
+    "jurisdiction": "State",
+    "totalQuestions": 2510,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1250,
+      "Class 11": 130,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 265,
+        "objective": 210,
+        "subjective": 55,
+        "langTypes": {
+          "bilingual": 265,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 265,
+        "objective": 210,
+        "subjective": 55,
+        "langTypes": {
+          "bilingual": 265,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 400,
+        "objective": 310,
+        "subjective": 90,
+        "langTypes": {
+          "bilingual": 400,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "jac-jharkhand",
+    "name": "Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",
+    "short_name": "JAC Jharkhand",
+    "jurisdiction": "State",
+    "totalQuestions": 2510,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1250,
+      "Class 11": 130,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 265,
+        "objective": 210,
+        "subjective": 55,
+        "langTypes": {
+          "bilingual": 265,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 265,
+        "objective": 210,
+        "subjective": 55,
+        "langTypes": {
+          "bilingual": 265,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 400,
+        "objective": 310,
+        "subjective": 90,
+        "langTypes": {
+          "bilingual": 400,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "pseb-punjab",
+    "name": "Punjab Board (PSEB Mohali 10th & 12th)",
+    "short_name": "PSEB Punjab",
+    "jurisdiction": "State",
+    "totalQuestions": 2710,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1450,
+      "Class 11": 130,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-punjabi": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "pa",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "nios-board",
+    "name": "NIOS Board (National Institute of Open Schooling)",
+    "short_name": "NIOS Open School",
+    "jurisdiction": "National",
+    "totalQuestions": 1800,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 800,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "cgbse-chhattisgarh",
+    "name": "Chhattisgarh Board (CGBSE Raipur 10th & 12th)",
+    "short_name": "CGBSE Chhattisgarh",
+    "jurisdiction": "State",
+    "totalQuestions": 2250,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1250,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 400,
+        "objective": 310,
+        "subjective": 90,
+        "langTypes": {
+          "bilingual": 400,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "chse-bse-odisha",
+    "name": "Odisha Board (BSE Matric 10th & CHSE +2 Council)",
+    "short_name": "BSE & CHSE Odisha",
+    "jurisdiction": "State",
+    "totalQuestions": 2710,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1450,
+      "Class 11": 130,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-odia": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "or",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "ubse-uttarakhand",
+    "name": "Uttarakhand Board (UBSE Ramnagar 10th & 12th)",
+    "short_name": "UBSE Uttarakhand",
+    "jurisdiction": "State",
+    "totalQuestions": 2250,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1250,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 400,
+        "objective": 310,
+        "subjective": 90,
+        "langTypes": {
+          "bilingual": 400,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "seba-ahsec-assam",
+    "name": "Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",
+    "short_name": "SEBA & AHSEC Assam",
+    "jurisdiction": "State",
+    "totalQuestions": 2200,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1200,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-assamese": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 300,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 300,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "as",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "tsbie-bieap",
+    "name": "Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",
+    "short_name": "TSBIE & BIEAP (TS/AP)",
+    "jurisdiction": "State",
+    "totalQuestions": 1500,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 0,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 500
+    },
+    "subjectMap": {
+      "subj-telugu": {
+        "total": 500,
+        "objective": 250,
+        "subjective": 250,
+        "langTypes": {
+          "bilingual": 500,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 300,
+        "objective": 240,
+        "subjective": 60,
+        "langTypes": {
+          "bilingual": 300,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-economics": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "hpbose-board",
+    "name": "Himachal Pradesh Board of School Education",
+    "short_name": "HPBOSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 2250,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1250,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-hindi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 400,
+        "objective": 310,
+        "subjective": 90,
+        "langTypes": {
+          "bilingual": 400,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "hi",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "jkbose-board",
+    "name": "Jammu & Kashmir Board of School Education",
+    "short_name": "JKBOSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1800,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 800,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-urdu": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "ur"
+        ]
+      },
+      "subj-english": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "ur"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "ur"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "ur"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ur",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ur",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ur",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ur",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "kerala-board",
+    "name": "Kerala Directorate of General Education & Pareeksha Bhavan",
+    "short_name": "DHSE Kerala",
+    "jurisdiction": "STATE",
+    "totalQuestions": 2460,
+    "classBreakdown": {
+      "Class 9": 130,
+      "Class 10": 1200,
+      "Class 11": 130,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-malayalam": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 350,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 365,
+        "objective": 290,
+        "subjective": 75,
+        "langTypes": {
+          "bilingual": 365,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 315,
+        "objective": 250,
+        "subjective": 65,
+        "langTypes": {
+          "bilingual": 315,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "ml",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "gbshse-board",
+    "name": "Goa Board of Secondary and Higher Secondary Education",
+    "short_name": "GBSHSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 2150,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1150,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-marathi": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 40,
+          "single": 160,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-english": {
+        "total": 350,
+        "objective": 280,
+        "subjective": 70,
+        "langTypes": {
+          "bilingual": 20,
+          "single": 330,
+          "multilingual": 0
+        },
+        "languages": [
+          "en",
+          "mr"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 200,
+        "objective": 150,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "bsem-board",
+    "name": "Board of Secondary Education Manipur",
+    "short_name": "BSEM",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1600,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 600,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "mbose-board",
+    "name": "Meghalaya Board of School Education",
+    "short_name": "MBOSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1600,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 600,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "mbse-board",
+    "name": "Mizoram Board of School Education",
+    "short_name": "MBSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1600,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 600,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "nbse-board",
+    "name": "Nagaland Board of School Education",
+    "short_name": "NBSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1600,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 600,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 200,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 100,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "tbse-board",
+    "name": "Tripura Board of Secondary Education",
+    "short_name": "TBSE",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1600,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 600,
+      "Class 11": 0,
+      "Class 12": 1000,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-bengali": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 100,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 100,
+        "objective": 80,
+        "subjective": 20,
+        "langTypes": {
+          "bilingual": 100,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-physics": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-chemistry": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-math12": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      },
+      "subj-biology": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "bn",
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "bseap-board",
+    "name": "Board of Secondary Education Andhra Pradesh",
+    "short_name": "BSEAP",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1050,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1050,
+      "Class 11": 0,
+      "Class 12": 0,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-telugu": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 150,
+        "objective": 120,
+        "subjective": 30,
+        "langTypes": {
+          "bilingual": 150,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  },
+  {
+    "board_id": "bsetg-board",
+    "name": "Directorate of Government Examinations Telangana",
+    "short_name": "BSETG",
+    "jurisdiction": "STATE",
+    "totalQuestions": 1050,
+    "classBreakdown": {
+      "Class 9": 0,
+      "Class 10": 1050,
+      "Class 11": 0,
+      "Class 12": 0,
+      "Other/General": 0
+    },
+    "subjectMap": {
+      "subj-telugu": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 250,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-science": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-math": {
+        "total": 200,
+        "objective": 160,
+        "subjective": 40,
+        "langTypes": {
+          "bilingual": 200,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-social": {
+        "total": 150,
+        "objective": 120,
+        "subjective": 30,
+        "langTypes": {
+          "bilingual": 150,
+          "single": 0,
+          "multilingual": 0
+        },
+        "languages": [
+          "te",
+          "en"
+        ]
+      },
+      "subj-english": {
+        "total": 250,
+        "objective": 200,
+        "subjective": 50,
+        "langTypes": {
+          "bilingual": 0,
+          "single": 250,
+          "multilingual": 0
+        },
+        "languages": [
+          "en"
+        ]
+      }
+    },
+    "pdfSummary": {
+      "totalPdfs": 0,
+      "subjectPdfs": [],
+      "mixedSubjectPdfs": []
+    }
+  }
+]

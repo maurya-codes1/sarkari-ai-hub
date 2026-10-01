@@ -108,12 +108,23 @@ class QuestionRepository {
 
     const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
 
+    let resolvedStage = stage;
+    if (resolvedStage) {
+      const s = String(resolvedStage).toLowerCase();
+      if (s.includes('12')) resolvedStage = 'Class 12';
+      else if (s.includes('10')) resolvedStage = 'Class 10';
+      else if (s.includes('11')) resolvedStage = 'Class 11';
+      else if (s.includes('9')) resolvedStage = 'Class 9';
+    }
+
     let query = `
       SELECT q.*, v.language_content, v.correct_answer, s.name as subject_name
       FROM questions q
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
       WHERE 1=1
+        AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+        AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
     `;
     const params = [];
 
@@ -122,9 +133,9 @@ class QuestionRepository {
       params.push(resolvedBoard);
     }
 
-    if (stage) {
+    if (resolvedStage) {
       query += ` AND q.stage = ?`;
-      params.push(stage);
+      params.push(resolvedStage);
     }
 
     if (Array.isArray(subjectIds) && subjectIds.length > 0) {
@@ -133,8 +144,13 @@ class QuestionRepository {
       query += ` AND q.subject_id IN (${placeholders})`;
       params.push(...normIds);
     } else if (subjectId && subjectId !== 'all') {
-      query += ` AND q.subject_id = ?`;
-      params.push(normalizeSubjectId(subjectId));
+      const normSub = normalizeSubjectId(subjectId);
+      if (resolvedStage === 'Class 12' && normSub === 'subj-math') {
+        query += ` AND q.subject_id IN ('subj-math', 'subj-math12')`;
+      } else {
+        query += ` AND q.subject_id = ?`;
+        params.push(normSub);
+      }
     }
 
     if (difficulty && difficulty !== 'MIXED') {
@@ -155,12 +171,19 @@ class QuestionRepository {
 
     // If specific difficulty filter yielded no questions, fallback to available difficulty
     if (rows.length === 0 && difficulty && difficulty !== 'MIXED') {
-      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage, difficulty: 'MIXED', count, excludeIds });
+      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: resolvedStage, difficulty: 'MIXED', count, excludeIds });
     }
 
-    // If board filter yielded no rows for this specific subject, fall back to general subject questions
+    // If board filter yielded no rows for this specific subject, fall back to general subject questions while PRESERVING stage
     if (rows.length === 0 && resolvedBoard) {
+      const stageRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: resolvedStage, difficulty, count, excludeIds });
+      if (stageRows && stageRows.length > 0) return stageRows;
       return this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds });
+    }
+
+    // If stage filter yielded no rows for this specific subject (e.g. GK requested under a board exam), fall back to general subject pool
+    if (rows.length === 0 && resolvedStage) {
+      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: null, difficulty, count, excludeIds });
     }
 
     return rows;

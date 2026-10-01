@@ -1,0 +1,234 @@
+
+======================================================
+BOARD: TNDGE Tamil Nadu (Tamil Nadu State Board (SSLC 10th & HSE +1, +2))
+======================================================
+Question ID: q-p17g-tndge-tamilnadu-subj-science-Class10-0001 | Subject: subj-science | Stage: Class 10
+Available Languages: [ta, en]
+
+--- [Language: TA] ---
+Q: [TNDGE Tamil Nadu Class 10 — Acids, Bases and Salts] வினா #1: Indicators & Neutralization குறித்த பின்வரும் கூற்றுகளில் எது சரியானது?
+Options:
+   A) Indicators & Neutralization தொடர்பான முதல் கூற்று சரியானது
+   B) பாடத்திட்ட விதிமுறைப்படி இரண்டாம் கூற்று சரியானது
+   C) இரு கூற்றுகளும் தவறானவை
+   D) மேற்கண்ட எதுவும் இல்லை
+
+--- [Language: EN] ---
+Q: [TNDGE Tamil Nadu Class 10 — Acids, Bases and Salts] Question #1: Which of the following statements concerning Indicators & Neutralization is correct?
+Options:
+   A) Statement regarding Indicators & Neutralization is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: MSBSHSE Maharashtra (Maharashtra State Board (SSC 10th & HSC 12th))
+======================================================
+Question ID: q-p17g-maharashtra-board-subj-marathi-Class10-0001 | Subject: subj-marathi | Stage: Class 10
+Available Languages: [mr, en]
+
+--- [Language: MR] ---
+Q: [MSBSHSE Maharashtra Class 10 — गद्य विभाग व आकलन] प्रश्न #1: लेखकाचा दृष्टिकोन या घटकाच्या संदर्भात पुढीलपैकी कोणते विधान अचूक आहे?
+Options:
+   A) लेखकाचा दृष्टिकोन संदर्भातील पहिले विधान पूर्णपणे बरोबर आहे
+   B) अधिकृत अभ्यासक्रमानुसार दुसरे विधान सत्य आहे
+   C) दोन्ही विधाने चुकीची आहेत
+   D) वरीलपैकी काहीही नाही
+
+--- [Language: EN] ---
+Q: [MSBSHSE Maharashtra Class 10 — गद्य विभाग व आकलन] Question #1: Which of the following statements concerning लेखकाचा दृष्टिकोन is correct?
+Options:
+   A) Statement regarding लेखकाचा दृष्टिकोन is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: WBBSE & WBCHSE Bengal (West Bengal Board (Madhyamik 10th & WBCHSE 12th))
+======================================================
+Question ID: q-p17g-wbbse-wb-subj-bengali-Class10-0001 | Subject: subj-bengali | Stage: Class 10
+Available Languages: [bn, en]
+
+--- [Language: BN] ---
+Q: [WBBSE & WBCHSE Bengal Class 10 — সাহিত্য সঞ্চয়ন (গদ্য ও পদ্য)] প্রশ্ন #1: কবিতার ভাবার্থ ও রসমাধুর্য-এর প্রেক্ষিতে নিম্নের কোন বিকল্পটি সঠিক?
+Options:
+   A) কবিতার ভাবার্থ ও রসমাধুর্য সম্পর্কিত প্রথম বিবৃতিটি সম্পূর্ণ সঠিক
+   B) নির্ধারিত সিলেবাসের নিয়ম অনুসারে দ্বিতীয় উক্তি সত্য
+   C) উভয় বক্তব্যই ভুল
+   D) উপরের কোনটিই নয়
+
+--- [Language: EN] ---
+Q: [WBBSE & WBCHSE Bengal Class 10 — সাহিত্য সঞ্চয়ন (গদ্য ও পদ্য)] Question #1: Which of the following statements concerning কবিতার ভাবার্থ ও রসমাধুর্য is correct?
+Options:
+   A) Statement regarding কবিতার ভাবার্থ ও রসমাধুর্য is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: DHSE Kerala (Kerala Directorate of General Education & Pareeksha Bhavan)
+======================================================
+Question ID: q-p17g-kerala-board-subj-malayalam-Class10-0001 | Subject: subj-malayalam | Stage: Class 10
+Available Languages: [ml, en]
+
+--- [Language: ML] ---
+Q: [DHSE Kerala Class 10 — സാഹിത്യ പഠനം (ഗദ്യം-പദ്യം)] ചോദ്യം #1: കവിതാസൗന്ദര്യവും ഭാവവും സംബന്ധിച്ച് താഴെ നൽകിയിട്ടുള്ളതിൽ ശരിയായ പ്രസ്താവന ഏത്?
+Options:
+   A) കവിതാസൗന്ദര്യവും ഭാവവും സംബന്ധിച്ച ഒന്നാമത്തെ പ്രസ്താവന ശരിയാണ്
+   B) പാഠ്യപദ്ധതി പ്രകാരം രണ്ടാമത്തെ പ്രസ്താവന മാത്രം ശരി
+   C) രണ്ടു പ്രസ്താവനകളും തെറ്റാണ്
+   D) ഇവയൊന്നുമല്ല
+
+--- [Language: EN] ---
+Q: [DHSE Kerala Class 10 — സാഹിത്യ പഠനം (ഗദ്യം-പദ്യം)] Question #1: Which of the following statements concerning കവിതാസൗന്ദര്യവും ഭാവവും is correct?
+Options:
+   A) Statement regarding കവിതാസൗന്ദര്യവും ഭാവവും is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: BSEAP (Board of Secondary Education Andhra Pradesh)
+======================================================
+Question ID: q-p17g-bseap-board-subj-telugu-Class10-0001 | Subject: subj-telugu | Stage: Class 10
+Available Languages: [te, en]
+
+--- [Language: TE] ---
+Q: [BSEAP Class 10 — సాహిత్య విభాగం (పద్య-గద్య)] ప్రశ్న #1: కథలు మరియు నాటక విశ్లేషణ సందర్భంలో క్రింది వాటిలో ఏది సరైనది?
+Options:
+   A) కథలు మరియు నాటక విశ్లేషణ కు సంబంధించిన మొదటి ప్రకటన పూర్తిగా సరైనది
+   B) అధికారిక సిలబస్ నియమం ప్రకారం రెండవ ప్రకటన నిజం
+   C) రెండు ప్రకటనలు తప్పు
+   D) పైవేవీ కావు
+
+--- [Language: EN] ---
+Q: [BSEAP Class 10 — సాహిత్య విభాగం (పద్య-గద్య)] Question #1: Which of the following statements concerning కథలు మరియు నాటక విశ్లేషణ is correct?
+Options:
+   A) Statement regarding కథలు మరియు నాటక విశ్లేషణ is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: JKBOSE (Jammu & Kashmir Board of School Education)
+======================================================
+Question ID: q-p17g-jkbose-board-subj-urdu-Class10-0001 | Subject: subj-urdu | Stage: Class 10
+Available Languages: [en]
+
+--- [Language: EN] ---
+Q: [JKBOSE Class 10 — نثر و نظم کا مطالعہ] Question #1: With reference to غزلیات کے اشعار کا مفہوم, which of the following statements is correct?
+Options:
+   A) The foundational proposition regarding غزلیات کے اشعار کا مفہوم is mathematically/factually valid
+   B) Only secondary empirical derivatives hold true under standard board conditions
+   C) Both theoretical statements are contradicted by standard evidence
+   D) None of the above
+
+======================================================
+BOARD: KSEAB Karnataka (Karnataka Board (KSEAB SSLC 10th & 2nd PUC))
+======================================================
+Question ID: q-p17g-kseab-karnataka-subj-kannada-Class10-0001 | Subject: subj-kannada | Stage: Class 10
+Available Languages: [kn, en]
+
+--- [Language: KN] ---
+Q: [KSEAB Karnataka Class 10 — ಸಾಹಿತ್ಯ ವಿಭಾಗ (ಗದ್ಯ-ಪದ್ಯ)] ಪ್ರಶ್ನೆ #1: ಕವಿತೆಯ ಭಾವಾರ್ಥ ಮತ್ತು ರಸಸ್ವಾದ ಪರಿಕಲ್ಪನೆಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಕೆಳಗಿನವುಗಳಲ್ಲಿ ಯಾವುದು ಸರಿಯಾಗಿದೆ?
+Options:
+   A) ಕವಿತೆಯ ಭಾವಾರ್ಥ ಮತ್ತು ರಸಸ್ವಾದ ಕುರಿತಾದ ಹೇಳಿಕೆಯು ಸಂಪೂರ್ಣ ಸರಿಯಾಗಿದೆ
+   B) ಪ್ರಾಯೋಗಿಕ ನಿಯಮದ ಪ್ರಕಾರ ಎರಡನೇ ಹೇಳಿಕೆ ಮಾತ್ರ ಸರಿ
+   C) ಎರಡೂ ಹೇಳಿಕೆಗಳು ತಪ್ಪಾಗಿವೆ
+   D) ಮೇಲಿನ ಯಾವುದೂ ಅಲ್ಲ
+
+--- [Language: EN] ---
+Q: [KSEAB Karnataka Class 10 — ಸಾಹಿತ್ಯ ವಿಭಾಗ (ಗದ್ಯ-ಪದ್ಯ)] Question #1: Which of the following statements concerning ಕವಿತೆಯ ಭಾವಾರ್ಥ ಮತ್ತು ರಸಸ್ವಾದ is correct?
+Options:
+   A) Statement regarding ಕವಿತೆಯ ಭಾವಾರ್ಥ ಮತ್ತು ರಸಸ್ವಾದ is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: GSEB Gujarat (Gujarat Board (GSEB SSC 10th & HSC 12th))
+======================================================
+Question ID: q-p17g-gseb-gujarat-subj-gujarati-Class10-0001 | Subject: subj-gujarati | Stage: Class 10
+Available Languages: [gu, en]
+
+--- [Language: GU] ---
+Q: [GSEB Gujarat Class 10 — ગદ્ય-પદ્ય વિભાગ] પ્રશ્ન #1: કાવ્યપંક્તિનો ભાવાર્થ ના સંદર્ભમાં નીચેનામાંથી કયો વિકલ્પ સાચો છે?
+Options:
+   A) કાવ્યપંક્તિનો ભાવાર્થ અંગે આપેલું વિધાન પ્રમાણભૂત અને સાચું છે
+   B) પ્રાયોગિક પુરાવા અનુસાર માત્ર ગૌણ ભાગ સાચો છે
+   C) બંને વિધાનો અસત્ય છે
+   D) આપેલ પૈકી કોઈ નહીં
+
+--- [Language: EN] ---
+Q: [GSEB Gujarat Class 10 — ગદ્ય-પદ્ય વિભાગ] Question #1: Which of the following statements concerning કાવ્યપંક્તિનો ભાવાર્થ is correct?
+Options:
+   A) Statement regarding કાવ્યપંક્તિનો ભાવાર્થ is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: PSEB Punjab (Punjab Board (PSEB Mohali 10th & 12th))
+======================================================
+Question ID: q-p17g-pseb-punjab-subj-punjabi-Class10-0001 | Subject: subj-punjabi | Stage: Class 10
+Available Languages: [pa, en]
+
+--- [Language: PA] ---
+Q: [PSEB Punjab Class 10 — ਸਾਹਿਤ ਤੇ ਕਵਿਤਾ] ਪ੍ਰਸ਼ਨ #1: ਕਹਾਣੀ ਤੇ ਇਕਾਂਗੀ ਅਧਿਐਨ ਦੇ ਸੰਦਰਭ ਵਿੱਚ ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਕਥਨ ਸਹੀ ਹੈ?
+Options:
+   A) ਕਹਾਣੀ ਤੇ ਇਕਾਂਗੀ ਅਧਿਐਨ ਦਾ ਪ੍ਰਮਾਣਿਤ ਸਿਧਾਂਤ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਹੀ ਹੈ
+   B) ਕੇਵਲ ਪ੍ਰਯੋਗਿਕ ਨਤੀਜੇ ਹੀ ਲਾਗੂ ਹੁੰਦੇ ਹਨ
+   C) ਦੋਵੇਂ ਧਾਰਨਾਵਾਂ ਤੱਥਾਂ ਦੇ ਉਲਟ ਹਨ
+   D) ਉਪਰੋਕਤ ਵਿੱਚੋਂ ਕੋਈ ਨਹੀਂ
+
+--- [Language: EN] ---
+Q: [PSEB Punjab Class 10 — ਸਾਹਿਤ ਤੇ ਕਵਿਤਾ] Question #1: Which of the following statements concerning ਕਹਾਣੀ ਤੇ ਇਕਾਂਗੀ ਅਧਿਐਨ is correct?
+Options:
+   A) Statement regarding ਕਹਾਣੀ ਤੇ ਇਕਾਂਗੀ ਅਧਿਐਨ is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: BSE & CHSE Odisha (Odisha Board (BSE Matric 10th & CHSE +2 Council))
+======================================================
+Question ID: q-p17g-chse-bse-odisha-subj-odia-Class10-0001 | Subject: subj-odia | Stage: Class 10
+Available Languages: [or, en]
+
+--- [Language: OR] ---
+Q: [BSE & CHSE Odisha Class 10 — ସାହିତ୍ୟ ସିନ୍ଧୁ (ଗଦ୍ୟ-ପଦ୍ୟ)] ପ୍ରଶ୍ନ #1: କବିତାର ଭାବସୌନ୍ଦର୍ଯ୍ୟ ଓ ରସ ର ପ୍ରସଙ୍ଗରେ ନିମ୍ନୋକ୍ତ ମଧ୍ୟରୁ କେଉଁଟି ସଠିକ୍?
+Options:
+   A) କବିତାର ଭାବସୌନ୍ଦର୍ଯ୍ୟ ଓ ରସ ସମ୍ବନ୍ଧିତ ପ୍ରଥମ କଥନଟି ସମ୍ପୂର୍ଣ୍ଣ ସତ୍ୟ
+   B) ନିର୍ଦ୍ଧାରିତ ନିୟମ ଅନୁସାରେ ଦ୍ୱିତୀୟ ବିକଳ୍ପ ସଠିକ୍
+   C) ଉଭୟ ବିବୃତି ଅସତ୍ୟ
+   D) ଉପରୋକ୍ତ କୌଣସିଟି ନୁହେଁ
+
+--- [Language: EN] ---
+Q: [BSE & CHSE Odisha Class 10 — ସାହିତ୍ୟ ସିନ୍ଧୁ (ଗଦ୍ୟ-ପଦ୍ୟ)] Question #1: Which of the following statements concerning କବିତାର ଭାବସୌନ୍ଦର୍ଯ୍ୟ ଓ ରସ is correct?
+Options:
+   A) Statement regarding କବିତାର ଭାବସୌନ୍ଦର୍ଯ୍ୟ ଓ ରସ is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above
+
+======================================================
+BOARD: SEBA & AHSEC Assam (Assam Board (SEBA HSLC 10th & AHSEC HS 12th))
+======================================================
+Question ID: q-p17g-seba-ahsec-assam-subj-assamese-Class10-0001 | Subject: subj-assamese | Stage: Class 10
+Available Languages: [as, en]
+
+--- [Language: AS] ---
+Q: [SEBA & AHSEC Assam Class 10 — সাহিত্য চয়ন (গদ্য-পদ্য)] প্ৰশ্ন #1: কবিতাৰ সৌন্দৰ্য্য আৰু তাৎপৰ্য্য ৰ পৰিপ্ৰেক্ষিতত তলৰ কোনটো বিকল্প শুদ্ধ?
+Options:
+   A) কবিতাৰ সৌন্দৰ্য্য আৰু তাৎপৰ্য্য সম্পৰ্কীয় প্ৰথম বিবৃতিটো সম্পূৰ্ণ শুদ্ধ
+   B) নিৰ্ধাৰিত পাঠ্যক্ৰম অনুসৰি দ্বিতীয় উক্তিটো শুদ্ধ
+   C) দুয়োটা উক্তিয়েই অশুদ্ধ
+   D) এটাও নহয়
+
+--- [Language: EN] ---
+Q: [SEBA & AHSEC Assam Class 10 — সাহিত্য চয়ন (গদ্য-পদ্য)] Question #1: Which of the following statements concerning কবিতাৰ সৌন্দৰ্য্য আৰু তাৎপৰ্য্য is correct?
+Options:
+   A) Statement regarding কবিতাৰ সৌন্দৰ্য্য আৰু তাৎপৰ্য্য is canonically valid and correct
+   B) Only the secondary observation holds true under standard syllabus specifications
+   C) Both statements are factually invalid
+   D) None of the above

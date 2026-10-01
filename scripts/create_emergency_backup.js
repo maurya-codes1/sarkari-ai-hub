@@ -1,75 +1,65 @@
 const fs = require('fs');
-const path = require('path');
 const crypto = require('crypto');
+const path = require('path');
 const { execSync } = require('child_process');
 
-console.log('--- CREATING EMERGENCY RECOVERY SAFETY BACKUP ---');
+console.log('=== CREATING EMERGENCY RECOVERY SAFETY BACKUP ===');
 
-const dbPath = path.resolve(__dirname, '../backend/db/sarkari_core.db');
-const backupPath = path.resolve(__dirname, '../backend/db/sarkari_core_pre_emergency_rescue.db');
-
-if (fs.existsSync(backupPath)) {
-  console.log('Emergency backup already exists, will not overwrite!');
-} else {
-  console.log(`Copying ${dbPath} to ${backupPath}...`);
-  fs.copyFileSync(dbPath, backupPath);
-  console.log('Backup copy complete.');
+const backupDir = 'backup_emergency_recovery_20261001';
+if (!fs.existsSync(backupDir)) {
+  fs.mkdirSync(backupDir, { recursive: true });
 }
 
-const dbStat = fs.statSync(dbPath);
-const backupStat = fs.statSync(backupPath);
+// 1. Git info
+const branch = execSync('git branch --show-current', { encoding: 'utf8' }).trim();
+const commit = execSync('git rev-parse HEAD', { encoding: 'utf8' }).trim();
+const gitStatus = execSync('git status --short', { encoding: 'utf8' }).trim();
 
-console.log('Calculating SHA-256 for active database...');
-const dbHash = crypto.createHash('sha256').update(fs.readFileSync(dbPath)).digest('hex');
-const backupHash = crypto.createHash('sha256').update(fs.readFileSync(backupPath)).digest('hex');
+// 2. DB info
+const dbPath = 'backend/db/sarkari_core.db';
+const dbStats = fs.statSync(dbPath);
+const dbBuf = fs.readFileSync(dbPath);
+const dbSha = crypto.createHash('sha256').update(dbBuf).digest('hex');
 
-const commit = execSync('git rev-parse HEAD').toString().trim();
-const branch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim();
-const status = execSync('git status --short').toString().trim();
+// 3. Backup active files
+fs.copyFileSync(dbPath, path.join(backupDir, 'sarkari_core.db.bak'));
+fs.copyFileSync('public/index.html', path.join(backupDir, 'index.html.bak'));
+fs.copyFileSync('public/js/quiz.js', path.join(backupDir, 'quiz.js.bak'));
+fs.copyFileSync('public/js/quiz-data.js', path.join(backupDir, 'quiz-data.js.bak'));
+fs.copyFileSync('public/js/i18n.js', path.join(backupDir, 'i18n.js.bak'));
+fs.copyFileSync('backend/services/mock-service.js', path.join(backupDir, 'mock-service.js.bak'));
 
-const prePhase24Path = path.resolve(__dirname, '../backend/db/sarkari_core_pre_phase24.db');
-const postPhase24Path = path.resolve(__dirname, '../backend/db/sarkari_core_post_phase24.db');
+console.log('Branch:', branch);
+console.log('Commit:', commit);
+console.log('DB Size:', dbStats.size, 'bytes');
+console.log('DB SHA256:', dbSha);
+console.log('Backup files copied to:', backupDir);
 
-const reportContent = `# SARKARIAI HUB — EMERGENCY PRODUCTION RESCUE BACKUP RECORD
+const report = `# EMERGENCY RECOVERY SAFETY BACKUP REPORT
 
 **Timestamp:** ${new Date().toISOString()}  
-**Phase:** EMERGENCY PRODUCTION RESCUE + PUBLIC RELEASE (TODAY RELEASE MODE)  
-
----
-
-## 1. GIT REPOSITORY STATUS
-- **Active Branch:** \`${branch}\`
-- **Active Commit:** \`${commit}\`
-- **Working Tree Summary:**
-\`\`\`
-${status}
+**Current Branch:** \`${branch}\`  
+**Current Commit:** \`${commit}\`  
+**Git Working Tree Status:**  
+\`\`\`text
+${gitStatus}
 \`\`\`
 
----
+## Database Integrity & Invariants
+- **Active Database Path:** \`${dbPath}\`
+- **Database Size:** ${dbStats.size.toLocaleString()} bytes (~${(dbStats.size / (1024 * 1024)).toFixed(2)} MB)
+- **Database SHA-256:** \`${dbSha}\`
+- **Backup Destination:** \`${backupDir}/sarkari_core.db.bak\`
 
-## 2. DATABASE BACKUP VERIFICATION
-- **Active Database File:** \`backend/db/sarkari_core.db\`
-- **Active Database Size:** \`${dbStat.size.toLocaleString()} bytes\` (${(dbStat.size / (1024*1024)).toFixed(2)} MB)
-- **Active Database SHA-256:** \`${dbHash}\`
-- **Emergency Safety Backup File:** \`backend/db/sarkari_core_pre_emergency_rescue.db\`
-- **Emergency Safety Backup Size:** \`${backupStat.size.toLocaleString()} bytes\`
-- **Emergency Safety Backup SHA-256:** \`${backupHash}\`
-- **Integrity Parity:** \`${dbHash === backupHash ? 'IDENTICAL_BIT_FOR_BIT' : 'MISMATCH'}\`
+## Preserved Code Artifacts
+- \`${backupDir}/index.html.bak\`
+- \`${backupDir}/quiz.js.bak\`
+- \`${backupDir}/quiz-data.js.bak\`
+- \`${backupDir}/i18n.js.bak\`
+- \`${backupDir}/mock-service.js.bak\`
 
----
-
-## 3. PRESERVED PREVIOUS PHASE BACKUPS
-- **Pre-Phase-24 Backup:** \`${prePhase24Path}\` (Exists: ${fs.existsSync(prePhase24Path)}, Size: ${fs.existsSync(prePhase24Path) ? fs.statSync(prePhase24Path).size.toLocaleString() : 'N/A'} bytes)
-- **Post-Phase-24 Backup:** \`${postPhase24Path}\` (Exists: ${fs.existsSync(postPhase24Path)}, Size: ${fs.existsSync(postPhase24Path) ? fs.statSync(postPhase24Path).size.toLocaleString() : 'N/A'} bytes)
-- **Previous backups preserved:** YES (Untouched and protected).
-
----
-
-## 4. DATABASE INVARIANT CHECK
-- **Total Questions:** 172,210
-- **PRAGMA integrity_check:** ok
-- **PRAGMA foreign_key_check:** 0 violations
+Safety backup created successfully before any code modifications.
 `;
 
-fs.writeFileSync(path.resolve(__dirname, '../reports/emergency_recovery_backup.md'), reportContent);
-console.log('✅ Generated reports/emergency_recovery_backup.md');
+fs.writeFileSync('reports/emergency_recovery_backup.md', report, 'utf8');
+console.log('Generated reports/emergency_recovery_backup.md');

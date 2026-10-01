@@ -49,6 +49,15 @@ function normalizeStem(text = '') {
     .trim();
 }
 
+function cleanQuestionText(text) {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  return cleaned.trim();
+}
+
 /**
  * Normalizes subject names, Hindi terms, and aliases to canonical subject codes.
  */
@@ -95,9 +104,14 @@ function fetchDbQuestionsForSubject(subjectId) {
              qv.language_content, qv.correct_answer
       FROM questions q
       JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
-      WHERE q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?
+      WHERE (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?)
+        AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+        AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
       ORDER BY q.question_id ASC
     `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`);
+
+    const LANGUAGE_SUBJECTS = new Set(['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi']);
+    const isLangSub = LANGUAGE_SUBJECTS.has(normKey) || (rSub => LANGUAGE_SUBJECTS.has(rSub.replace(/^subj-/, '')))(targetSubId);
 
     return rows.map(r => {
       let parsed = {};
@@ -105,9 +119,44 @@ function fetchDbQuestionsForSubject(subjectId) {
       const hi = parsed.hi || {};
       const en = parsed.en || {};
 
-      let qText = hi.q || en.q || '';
-      if (hi.q && en.q && hi.q !== en.q) {
-        qText = `${hi.q}\n[${en.q}]`;
+      const cleanHi = cleanQuestionText(hi.q || '');
+      const cleanEn = cleanQuestionText(en.q || '');
+
+      let qText = '';
+      let opts = [];
+
+      if (isLangSub) {
+        // Pure single language for language subjects
+        qText = cleanHi || cleanEn;
+        opts = (hi.options || en.options || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
+      } else {
+        // Bilingual for core subjects (Math, Science, History, etc.)
+        if (cleanHi && cleanEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
+          qText = `${cleanHi}\n[English: ${cleanEn}]`;
+        } else {
+          qText = cleanHi || cleanEn;
+        }
+
+        const hiOpts = hi.options || [];
+        const enOpts = en.options || [];
+        const optCount = Math.max(hiOpts.length, enOpts.length, 4);
+        opts = [];
+        for (let i = 0; i < optCount; i++) {
+          const hRaw = hiOpts[i] !== undefined && hiOpts[i] !== null ? String(hiOpts[i]) : '';
+          const eRaw = enOpts[i] !== undefined && enOpts[i] !== null ? String(enOpts[i]) : '';
+          const h = hRaw.replace(/^[A-D]\)\s*/i, '').trim();
+          const e = eRaw.replace(/^[A-D]\)\s*/i, '').trim();
+          const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
+          if (h && e && h.toLowerCase() !== e.toLowerCase()) {
+            opts.push(`${prefix} ${h} / ${e}`);
+          } else if (h) {
+            opts.push(`${prefix} ${h}`);
+          } else if (e) {
+            opts.push(`${prefix} ${e}`);
+          } else {
+            opts.push(`${prefix} Option ${i + 1}`);
+          }
+        }
       }
 
       let provLabel = 'High-Yield Practice Question';
@@ -120,10 +169,10 @@ function fetchDbQuestionsForSubject(subjectId) {
       return {
         id: r.question_id,
         q: qText,
-        options: hi.options || en.options || ['A)', 'B)', 'C)', 'D)'],
+        options: opts,
         correct: (typeof hi.correct === 'number') ? hi.correct : 0,
         ans: hi.ans || en.ans || '',
-        exp: hi.exp || en.exp || 'Authentic solution with conceptual explanation.',
+        exp: cleanQuestionText(hi.exp || en.exp || 'Authentic solution with conceptual explanation.'),
         topic: hi.topic || en.topic || `${subjectId.toUpperCase()} Core Concept`,
         provenance: r.provenance || 'HUMAN_CURATED',
         provLabel

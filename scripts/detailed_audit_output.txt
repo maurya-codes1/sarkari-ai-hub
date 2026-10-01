@@ -1,0 +1,538 @@
+=== SUBJECT AND LANGUAGE AUDIT ACROSS 31 BOARDS ===
+
+================================================================
+BOARD: CBSE Board (Class 10th & 12th) (CBSE 10th/12th) [ID: cbse-board]
+Total Questions: 26970 | Classes: 9th=600, 10th=0, 11th=400, 12th=0
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-science        : Total=11889 (Obj: 11803, Subj:  86) | Lang: Mixed (11649 Bilingual, 240 Single: en+hi)
+  - subj-social         : Total=10081 (Obj: 3414, Subj: 6667) | Lang: Bilingual (en+hi)
+  - subj-math12         : Total=2200 (Obj: 1467, Subj: 733) | Lang: Bilingual (en+hi)
+  - subj-sanskrit       : Total= 900 (Obj:  450, Subj: 450) | Lang: Bilingual (hi+en)
+  - subj-accountancy    : Total= 600 (Obj:  400, Subj: 200) | Lang: Bilingual (en+hi)
+  - subj-business       : Total= 600 (Obj:  200, Subj: 400) | Lang: Bilingual (en+hi)
+  - subj-math           : Total= 300 (Obj:  240, Subj:  60) | Lang: Mixed (60 Bilingual, 240 Single: en+hi)
+  - subj-physics        : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+hi)
+  - subj-chemistry      : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+hi)
+PDFs (58):
+  Subject-Specific PDFs: 0
+  Mixed-Subject / Comprehensive PDFs: 58
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+     * [BOARD_QUESTION_PAPER] CBSE Board (Class 10th & 12th) - BOARD QUESTION PAPER (hi,en, Qs: 25, Pages: 1)
+================================================================
+BOARD: ICSE & ISC Board (Class 10th & 12th) (CISCE (ICSE / ISC)) [ID: icse-cisce]
+Total Questions: 2000 | Classes: 9th=0, 10th=1000, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-science        : Total= 300 (Obj:  240, Subj:  60) | Lang: Single (en)
+  - subj-math           : Total= 300 (Obj:  240, Subj:  60) | Lang: Single (en)
+  - subj-english        : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-social         : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: UP Board (High School & Intermediate 10th/12th) (UPMSP (UP Board)) [ID: upmsp-board]
+Total Questions: 4060 | Classes: 9th=130, 10th=1700, 11th=130, 12th=2100
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 300 (Obj:  240, Subj:  60) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-urdu           : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (hi+en+ur)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-history        : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-polity         : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-geography      : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Bihar Board BSEB (Matric 10th & Inter 12th) (BSEB Bihar Board) [ID: bseb-bihar]
+Total Questions: 4060 | Classes: 9th=130, 10th=1700, 11th=130, 12th=2100
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 300 (Obj:  240, Subj:  60) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-urdu           : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (hi+en+ur)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-history        : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-polity         : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-geography      : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Maharashtra State Board (SSC 10th & HSC 12th) (MSBSHSE Maharashtra) [ID: maharashtra-board]
+Total Questions: 3567 | Classes: 9th=130, 10th=1200, 11th=130, 12th=2100
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-social         : Total= 257 (Obj:  200, Subj:  57) | Lang: Bilingual (en+mr)
+  - subj-marathi        : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (mr+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (mr+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (mr+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (mr+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (mr+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (mr+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (mr+en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (mr+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (mr+en)
+  - subj-history        : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+mr)
+  - subj-polity         : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+mr)
+  - subj-geography      : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+mr)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Rajasthan Board (RBSE 10th & 12th Ajmer) (RBSE Rajasthan) [ID: rbse-rajasthan]
+Total Questions: 3610 | Classes: 9th=130, 10th=1250, 11th=130, 12th=2100
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-history        : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-polity         : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-geography      : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: MP Board (MPBSE 10th & 12th Bhopal) (MPBSE Madhya Pradesh) [ID: mpbse-board]
+Total Questions: 3610 | Classes: 9th=130, 10th=1250, 11th=130, 12th=2100
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-history        : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-polity         : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+  - subj-geography      : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+hi)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: West Bengal Board (Madhyamik 10th & WBCHSE 12th) (WBBSE & WBCHSE Bengal) [ID: wbbse-wb]
+Total Questions: 3810 | Classes: 9th=130, 10th=1450, 11th=130, 12th=2100
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-bengali        : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (bn+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (bn+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (bn+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (bn+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (bn+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-history        : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+bn)
+  - subj-polity         : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+bn)
+  - subj-geography      : Total= 200 (Obj:  150, Subj:  50) | Lang: Bilingual (en+bn)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Tamil Nadu State Board (SSLC 10th & HSE +1, +2) (TNDGE Tamil Nadu) [ID: tndge-tamilnadu]
+Total Questions: 2792 | Classes: 9th=130, 10th=1000, 11th=130, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-tamil          : Total= 532 (Obj:  275, Subj: 257) | Lang: Mixed (507 Bilingual, 25 Single: ta+en)
+  - subj-science        : Total= 415 (Obj:  330, Subj:  85) | Lang: Bilingual (ta+en)
+  - subj-math           : Total= 415 (Obj:  330, Subj:  85) | Lang: Bilingual (ta+en)
+  - subj-social         : Total= 300 (Obj:  240, Subj:  60) | Lang: Bilingual (ta+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (ta+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (ta+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ta+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ta+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Karnataka Board (KSEAB SSLC 10th & 2nd PUC) (KSEAB Karnataka) [ID: kseab-karnataka]
+Total Questions: 2960 | Classes: 9th=130, 10th=1200, 11th=130, 12th=1500
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-kannada        : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (kn+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (kn+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (kn+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (kn+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (kn+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (kn+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (kn+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (kn+en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (kn+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (kn+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Gujarat Board (GSEB SSC 10th & HSC 12th) (GSEB Gujarat) [ID: gseb-gujarat]
+Total Questions: 3210 | Classes: 9th=130, 10th=1450, 11th=130, 12th=1500
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-gujarati       : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (gu+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (gu+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (gu+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (gu+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (gu+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (gu+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (gu+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (gu+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-accountancy    : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (gu+en)
+  - subj-business       : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (gu+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Haryana Board (BSEH Bhiwani 10th & 12th) (BSEH Haryana) [ID: bseh-haryana]
+Total Questions: 2510 | Classes: 9th=130, 10th=1250, 11th=130, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 265 (Obj:  210, Subj:  55) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 265 (Obj:  210, Subj:  55) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 400 (Obj:  310, Subj:  90) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th) (JAC Jharkhand) [ID: jac-jharkhand]
+Total Questions: 2510 | Classes: 9th=130, 10th=1250, 11th=130, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 265 (Obj:  210, Subj:  55) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 265 (Obj:  210, Subj:  55) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 400 (Obj:  310, Subj:  90) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Punjab Board (PSEB Mohali 10th & 12th) (PSEB Punjab) [ID: pseb-punjab]
+Total Questions: 2710 | Classes: 9th=130, 10th=1450, 11th=130, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-punjabi        : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (pa+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (pa+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (pa+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (pa+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (pa+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (pa+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (pa+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (pa+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: NIOS Board (National Institute of Open Schooling) (NIOS Open School) [ID: nios-board]
+Total Questions: 1800 | Classes: 9th=0, 10th=800, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Chhattisgarh Board (CGBSE Raipur 10th & 12th) (CGBSE Chhattisgarh) [ID: cgbse-chhattisgarh]
+Total Questions: 2250 | Classes: 9th=0, 10th=1250, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 400 (Obj:  310, Subj:  90) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Odisha Board (BSE Matric 10th & CHSE +2 Council) (BSE & CHSE Odisha) [ID: chse-bse-odisha]
+Total Questions: 2710 | Classes: 9th=130, 10th=1450, 11th=130, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-odia           : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (or+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (or+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (or+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (or+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (or+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (or+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (or+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (or+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Uttarakhand Board (UBSE Ramnagar 10th & 12th) (UBSE Uttarakhand) [ID: ubse-uttarakhand]
+Total Questions: 2250 | Classes: 9th=0, 10th=1250, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 400 (Obj:  310, Subj:  90) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Assam Board (SEBA HSLC 10th & AHSEC HS 12th) (SEBA & AHSEC Assam) [ID: seba-ahsec-assam]
+Total Questions: 2200 | Classes: 9th=0, 10th=1200, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-assamese       : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (as+en)
+  - subj-science        : Total= 300 (Obj:  240, Subj:  60) | Lang: Bilingual (as+en)
+  - subj-math           : Total= 300 (Obj:  240, Subj:  60) | Lang: Bilingual (as+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (as+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (as+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (as+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (as+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (as+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr) (TSBIE & BIEAP (TS/AP)) [ID: tsbie-bieap]
+Total Questions: 1500 | Classes: 9th=0, 10th=0, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-telugu         : Total= 500 (Obj:  250, Subj: 250) | Lang: Bilingual (te+en)
+  - subj-math12         : Total= 300 (Obj:  240, Subj:  60) | Lang: Bilingual (te+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (te+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (te+en)
+  - subj-economics      : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (te+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Himachal Pradesh Board of School Education (HPBOSE) [ID: hpbose-board]
+Total Questions: 2250 | Classes: 9th=0, 10th=1250, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-hindi          : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (hi+en)
+  - subj-social         : Total= 400 (Obj:  310, Subj:  90) | Lang: Bilingual (hi+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (hi+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Jammu & Kashmir Board of School Education (JKBOSE) [ID: jkbose-board]
+Total Questions: 1800 | Classes: 9th=0, 10th=800, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-urdu           : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+ur)
+  - subj-english        : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+ur)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+ur)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+ur)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ur+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ur+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ur+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ur+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Kerala Directorate of General Education & Pareeksha Bhavan (DHSE Kerala) [ID: kerala-board]
+Total Questions: 2460 | Classes: 9th=130, 10th=1200, 11th=130, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-malayalam      : Total= 350 (Obj:  280, Subj:  70) | Lang: Bilingual (ml+en)
+  - subj-science        : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (ml+en)
+  - subj-math           : Total= 365 (Obj:  290, Subj:  75) | Lang: Bilingual (ml+en)
+  - subj-social         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ml+en)
+  - subj-physics        : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (ml+en)
+  - subj-chemistry      : Total= 315 (Obj:  250, Subj:  65) | Lang: Bilingual (ml+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ml+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (ml+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Goa Board of Secondary and Higher Secondary Education (GBSHSE) [ID: gbshse-board]
+Total Questions: 2150 | Classes: 9th=0, 10th=1150, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-marathi        : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+mr)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+mr)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Mixed (40 Bilingual, 160 Single: en+mr)
+  - subj-english        : Total= 350 (Obj:  280, Subj:  70) | Lang: Mixed (20 Bilingual, 330 Single: en+mr)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-social         : Total= 200 (Obj:  150, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Board of Secondary Education Manipur (BSEM) [ID: bsem-board]
+Total Questions: 1600 | Classes: 9th=0, 10th=600, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-social         : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-english        : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Meghalaya Board of School Education (MBOSE) [ID: mbose-board]
+Total Questions: 1600 | Classes: 9th=0, 10th=600, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-social         : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-english        : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Mizoram Board of School Education (MBSE) [ID: mbse-board]
+Total Questions: 1600 | Classes: 9th=0, 10th=600, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-social         : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-english        : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Nagaland Board of School Education (NBSE) [ID: nbse-board]
+Total Questions: 1600 | Classes: 9th=0, 10th=600, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Single (en)
+  - subj-social         : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-english        : Total= 100 (Obj:   80, Subj:  20) | Lang: Single (en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Tripura Board of Secondary Education (TBSE) [ID: tbse-board]
+Total Questions: 1600 | Classes: 9th=0, 10th=600, 11th=0, 12th=1000
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-bengali        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (bn+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (bn+en)
+  - subj-math           : Total= 100 (Obj:   80, Subj:  20) | Lang: Bilingual (bn+en)
+  - subj-social         : Total= 100 (Obj:   80, Subj:  20) | Lang: Bilingual (bn+en)
+  - subj-physics        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-chemistry      : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-math12         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+  - subj-biology        : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (bn+en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Board of Secondary Education Andhra Pradesh (BSEAP) [ID: bseap-board]
+Total Questions: 1050 | Classes: 9th=0, 10th=1050, 11th=0, 12th=0
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-telugu         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (te+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (te+en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (te+en)
+  - subj-social         : Total= 150 (Obj:  120, Subj:  30) | Lang: Bilingual (te+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)
+================================================================
+BOARD: Directorate of Government Examinations Telangana (BSETG) [ID: bsetg-board]
+Total Questions: 1050 | Classes: 9th=0, 10th=1050, 11th=0, 12th=0
+----------------------------------------------------------------
+Subjects Breakdown:
+  - subj-telugu         : Total= 250 (Obj:  200, Subj:  50) | Lang: Bilingual (te+en)
+  - subj-science        : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (te+en)
+  - subj-math           : Total= 200 (Obj:  160, Subj:  40) | Lang: Bilingual (te+en)
+  - subj-social         : Total= 150 (Obj:  120, Subj:  30) | Lang: Bilingual (te+en)
+  - subj-english        : Total= 250 (Obj:  200, Subj:  50) | Lang: Single (en)
+PDFs: 0 (Available via dynamic live generator / on-demand PDF engine)

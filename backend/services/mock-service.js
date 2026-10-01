@@ -20,6 +20,28 @@ const contentDependencyService = require('./content-dependency-service');
 const crossSurfaceLearningService = require('./cross-surface-learning-service');
 const { normalizeSubjectId } = require('../utils/subject-utils');
 
+function cleanQuestionText(text) {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  return cleaned.trim();
+}
+
+function cleanExplanationText(text) {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
+  return cleaned.trim();
+}
+
+const LANGUAGE_SUBJECT_IDS = new Set([
+  'subj-hindi', 'subj-english', 'subj-sanskrit', 'subj-urdu', 'subj-tamil',
+  'subj-telugu', 'subj-punjabi', 'subj-bengali', 'subj-gujarati', 'subj-kannada',
+  'subj-malayalam', 'subj-odia', 'subj-assamese', 'subj-marathi'
+]);
+
 class MockService {
   /**
    * Initializes a new Mock Test Session
@@ -61,7 +83,15 @@ class MockService {
       ? studiedQuestionIds
       : ((pdfContext && Array.isArray(pdfContext.questionIds)) ? pdfContext.questionIds : []);
     const resolvedBoardId = boardId || (pdfContext && pdfContext.boardId) || null;
-    const resolvedStage = stage || (pdfContext && (pdfContext.classStage || pdfContext.stage)) || null;
+    let resolvedStage = stage || (pdfContext && (pdfContext.classStage || pdfContext.stage)) || null;
+    if (!resolvedStage && examId) {
+      const eLower = String(examId).toLowerCase();
+      if (eLower.includes('12th') || eLower.includes('class-12') || eLower.includes('c12')) {
+        resolvedStage = 'Class 12';
+      } else if (eLower.includes('10th') || eLower.includes('class-10') || eLower.includes('c10')) {
+        resolvedStage = 'Class 10';
+      }
+    }
     const resolvedStream = stream || (pdfContext && pdfContext.stream) || null;
     let languageConfig = initialLanguageConfig;
 
@@ -974,17 +1004,62 @@ class MockService {
     const pData = langContent[primaryLang] || langContent.hi || langContent.en || {};
     const sData = langContent[secondaryLang] || langContent.en || {};
 
+    const isLanguageSubject = LANGUAGE_SUBJECT_IDS.has(qRow.subject_id) ||
+      (qRow.subject_id && (
+        qRow.subject_id.includes('hindi') || qRow.subject_id.includes('english') ||
+        qRow.subject_id.includes('sanskrit') || qRow.subject_id.includes('urdu') ||
+        qRow.subject_id.includes('tamil') || qRow.subject_id.includes('telugu') ||
+        qRow.subject_id.includes('punjabi') || qRow.subject_id.includes('bengali') ||
+        qRow.subject_id.includes('gujarati') || qRow.subject_id.includes('kannada') ||
+        qRow.subject_id.includes('malayalam') || qRow.subject_id.includes('odia') ||
+        qRow.subject_id.includes('assamese') || qRow.subject_id.includes('marathi')
+      ));
+
+    const cleanPrimaryQ = cleanQuestionText(pData.q || '');
+    let cleanSecondaryQ = isLanguageSubject ? '' : cleanQuestionText(sData.q || '');
+    if (cleanSecondaryQ.toLowerCase() === cleanPrimaryQ.toLowerCase()) {
+      cleanSecondaryQ = '';
+    }
+
+    const pOpts = pData.options || [];
+    const sOpts = sData.options || [];
+    let formattedOptions = [];
+
+    if (isLanguageSubject) {
+      // Pure single language options
+      formattedOptions = pOpts.map(o => String(o).trim());
+    } else {
+      // Non-language subject: Bilingual options (Option Primary / Option Secondary)
+      const optCount = Math.max(pOpts.length, sOpts.length, 4);
+      for (let i = 0; i < optCount; i++) {
+        const pOpt = pOpts[i] !== undefined && pOpts[i] !== null ? String(pOpts[i]) : '';
+        const sOpt = sOpts[i] !== undefined && sOpts[i] !== null ? String(sOpts[i]) : '';
+        const pClean = pOpt.replace(/^[A-D]\)\s*/i, '').trim();
+        const sClean = sOpt.replace(/^[A-D]\)\s*/i, '').trim();
+        const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
+        if (pClean && sClean && pClean.toLowerCase() !== sClean.toLowerCase()) {
+          formattedOptions.push(`${prefix} ${pClean} / ${sClean}`);
+        } else if (pClean) {
+          formattedOptions.push(`${prefix} ${pClean}`);
+        } else if (sClean) {
+          formattedOptions.push(`${prefix} ${sClean}`);
+        } else {
+          formattedOptions.push(`${prefix} Option ${i + 1}`);
+        }
+      }
+    }
+
     const clientQ = {
       id: qRow.question_id,
       sectionId: sec.section_id || sec.sectionId || 'sec-default',
       sectionName: sec.name || 'Default Section',
-      subjectId: qRow.subject_id,
+      subjectId: (qRow.subject_id === 'subj-math12' && (sec.subject_id === 'subj-math' || sec.subjectId === 'subj-math' || sec.subject_id === 'math')) ? 'subj-math' : qRow.subject_id,
       subjectName: qRow.subject_name || sec.name || 'General',
       questionType: qRow.question_type_id || 'single_mcq',
-      q: pData.q || '',
-      secondaryQ: sData.q && sData.q !== pData.q ? sData.q : '',
-      options: pData.options || [],
-      secondaryOptions: sData.options || [],
+      q: cleanPrimaryQ,
+      secondaryQ: cleanSecondaryQ,
+      options: formattedOptions,
+      secondaryOptions: isLanguageSubject ? [] : sOpts,
       marksCorrect: sec.marks_correct !== undefined ? sec.marks_correct : (sec.marksCorrect !== undefined ? sec.marksCorrect : 1.0),
       marksWrong: sec.is_negative_marking || sec.hasNegativeMarking ? (sec.negative_value || sec.negativeValue || 0.25) : 0.0,
       topic: qRow.topic_tags || 'High Yield Question'
@@ -998,7 +1073,7 @@ class MockService {
         parsedCorrectAns = JSON.parse(qRow.correct_answer || '{}');
       } catch (e) {}
       clientQ.correct = parsedCorrectAns.index !== undefined ? parsedCorrectAns.index : (parsedCorrectAns.option !== undefined ? parsedCorrectAns.option : 0);
-      clientQ.explanation = pData.explanation || pData.exp || sData.explanation || sData.exp || (parsedCorrectAns.explanation || '');
+      clientQ.explanation = cleanExplanationText(pData.explanation || pData.exp || sData.explanation || sData.exp || (parsedCorrectAns.explanation || ''));
       clientQ.ans = parsedCorrectAns.text || (clientQ.options[clientQ.correct] || '');
     }
 

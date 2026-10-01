@@ -17,6 +17,15 @@ const pdfOmrGenerator = require('./pdf-omr-generator');
 const contentDependencyService = require('./content-dependency-service');
 const crossSurfaceLearningService = require('./cross-surface-learning-service');
 
+function cleanQuestionText(text) {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  return cleaned.trim();
+}
+
 class PdfGenerationService {
   constructor() {
     this.DOCUMENT_TYPES = {
@@ -559,8 +568,8 @@ class PdfGenerationService {
               langData = JSON.parse(q.language_content);
             } catch (e) {}
 
-            const enQ = langData.en ? langData.en.q : 'Question';
-            const hiQ = langData.hi ? langData.hi.q : null;
+            const enQ = cleanQuestionText(langData.en ? langData.en.q : 'Question');
+            const hiQ = langData.hi ? cleanQuestionText(langData.hi.q) : null;
             const enOpts = (langData.en && langData.en.options) || ['Option 1', 'Option 2', 'Option 3', 'Option 4'];
 
             // Render Question Header & Prompt
@@ -569,7 +578,7 @@ class PdfGenerationService {
               .font('Helvetica').fillColor('#2d3748')
               .text(`  ${enQ}`);
 
-            if (hiQ) {
+            if (hiQ && hiQ.toLowerCase() !== enQ.toLowerCase()) {
               doc.fontSize(9).font('Helvetica-Oblique').fillColor('#4a5568')
                 .text(`     [हिन्दी]: ${hiQ}`);
             }
@@ -1008,7 +1017,7 @@ class PdfGenerationService {
           doc.fontSize(9).font('Helvetica-Bold').fillColor('#1a365d')
             .text(`Q.${r.source_question_number} [${r.section_name}]: `, { continued: true })
             .font('Helvetica').fillColor('#2d3748')
-            .text(parsed.en ? parsed.en.q : (parsed.ta ? parsed.ta.q : 'Question text'));
+            .text(cleanQuestionText(parsed.en ? parsed.en.q : (parsed.ta ? parsed.ta.q : 'Question text')));
           doc.moveDown(0.5);
         }
 
@@ -1124,11 +1133,19 @@ class PdfGenerationService {
             doc.moveDown(1.2);
           }
 
-          const qPrompt = (item.q || 'Practice Question').split('\n')[0];
+          const qLines = (item.q || 'Practice Question').split('\n');
+          const cleanP = cleanQuestionText(qLines[0]);
+          const cleanS = qLines[1] ? cleanQuestionText(qLines[1].replace(/^\[English:\s*/i, '').replace(/\]\s*$/, '')) : '';
+
           doc.fontSize(9.5).font('Helvetica-Bold').fillColor('#1a365d')
             .text(`Q.${currentNum}.`, 40, doc.y, { continued: true })
             .font('Helvetica').fillColor('#2d3748')
-            .text(`  ${qPrompt}`);
+            .text(`  ${cleanP}`);
+
+          if (cleanS && cleanS.toLowerCase() !== cleanP.toLowerCase()) {
+            doc.fontSize(9).font('Helvetica-Oblique').fillColor('#4a5568')
+              .text(`     [English]: ${cleanS}`);
+          }
 
           const opts = Array.isArray(item.options) ? item.options : ['A)', 'B)', 'C)', 'D)'];
           const optY = doc.y;

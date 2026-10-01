@@ -3,8 +3,17 @@
 // Multi-section architecture, countdown timer with auto-submit, zero-duplicate guarantee,
 // separate language layers, numerical/subjective hooks, and fail-safe offline fallback.
 
+function cleanQuestionText(text) {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  return cleaned.trim();
+}
+
 let activeQuiz = window.activeQuiz = {
-  mode: 'FULL_EXAM', // 'FULL_EXAM' or 'PRACTICE'
+  mode: 'SUBJECT_PRACTICE', // 'SUBJECT_PRACTICE', 'ALL_SUBJECTS_PRACTICE', or 'FULL_EXAM_PATTERN'
   exam: 'ssc-gd',
   board: '',
   subject: 'all',
@@ -1218,7 +1227,7 @@ function initQuiz() {
   populateExamDropdown();
   setupDynamicEventListeners();
   updateDependentDropdowns();
-  updateBlueprintSummaryDisplay();
+  switchQuizMode('SUBJECT_PRACTICE');
   restoreQuizStateIfActive();
   updateQuizVoiceUI();
 }
@@ -1354,6 +1363,15 @@ async function startNewQuiz() {
   const isSpecificSubject = subjectId && subjectId !== 'all';
   const examObj = (typeof EXAMS_CONFIG !== 'undefined') ? EXAMS_CONFIG.find(e => e.id === examId) : null;
   const isBoardExam = examObj ? Boolean(examObj.isBoard) : (typeof examId === 'string' && examId.startsWith('board-'));
+  
+  let stage = null;
+  const eLower = String(examId || '').toLowerCase();
+  if (eLower.includes('12th') || eLower.includes('class-12') || eLower.includes('c12')) {
+    stage = 'Class 12';
+  } else if (eLower.includes('10th') || eLower.includes('class-10') || eLower.includes('c10')) {
+    stage = 'Class 10';
+  }
+
   let effectiveMode = activeQuiz.mode || 'FULL_EXAM_PATTERN';
   if (isSpecificSubject || isBoardExam) {
     effectiveMode = 'SUBJECT_PRACTICE';
@@ -1383,6 +1401,7 @@ async function startNewQuiz() {
       body: JSON.stringify({
         examId,
         boardId,
+        stage,
         testMode: effectiveMode,
         requestedCount,
         subjectId: isFullExamMode ? 'all' : subjectId,
@@ -1763,8 +1782,11 @@ function renderActiveQuestion() {
   // Bilingual Question Text Rendering
   const qElem = document.getElementById('quizQuestionText');
   if (qElem) {
-    const primaryText = q.q || '';
-    const secondaryText = q.secondaryQ || '';
+    const primaryText = cleanQuestionText(q.q || '');
+    let secondaryText = cleanQuestionText(q.secondaryQ || '');
+    if (secondaryText.toLowerCase() === primaryText.toLowerCase()) {
+      secondaryText = '';
+    }
     const dualLabel = typeof getTranslation === 'function' ? (getTranslation('quiz_in_english_dual') || 'In English / Dual Medium:') : 'In English / Dual Medium:';
 
     if (secondaryText && secondaryText !== primaryText) {
@@ -1777,8 +1799,8 @@ function renderActiveQuestion() {
       `;
     } else if (primaryText.includes('\n[English:')) {
       const parts = primaryText.split('\n[English:');
-      const hindiPart = parts[0].trim();
-      const engPart = parts[1].replace(/\]\s*$/, '').trim();
+      const hindiPart = cleanQuestionText(parts[0].trim());
+      const engPart = cleanQuestionText(parts[1].replace(/\]\s*$/, '').trim());
       qElem.innerHTML = `
         <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${hindiPart}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
