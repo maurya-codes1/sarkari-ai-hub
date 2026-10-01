@@ -101,12 +101,31 @@ class CrossSurfaceLearningService {
       };
     }
 
-    // 2. Board compatibility (Strict isolation: e.g. CBSE question cannot be in PSEB mock)
-    if (boardId && question.board_id && question.board_id !== boardId) {
+    // 2. Board compatibility (Strict isolation: school board questions never appear in competitive exams and vice versa)
+    if (boardId) {
+      if (question.board_id !== boardId) {
+        return {
+          compatible: false,
+          reason: 'CONTEXT_MISMATCH',
+          details: `Board mismatch: Question board '${question.board_id}' does not match target board '${boardId}'.`
+        };
+      }
+    } else {
+      if (question.board_id) {
+        return {
+          compatible: false,
+          reason: 'CONTEXT_MISMATCH',
+          details: `Exam isolation mismatch: School board question '${question.board_id}' cannot appear in competitive exam.`
+        };
+      }
+    }
+
+    // 2b. Question type compatibility (Strictly objective for mock tests)
+    if (['short_answer', 'long_answer', 'case_study', 'subjective'].includes(question.question_type_id)) {
       return {
         compatible: false,
-        reason: 'CONTEXT_MISMATCH',
-        details: `Board mismatch: Question board '${question.board_id}' does not match target board '${boardId}'.`
+        reason: 'TYPE_INELIGIBLE',
+        details: `Subjective question '${question.question_id}' is not eligible for objective mock practice.`
       };
     }
 
@@ -382,6 +401,8 @@ class CrossSurfaceLearningService {
         JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
         JOIN subjects s ON q.subject_id = s.subject_id
         WHERE 1=1
+          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+          AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
       `;
       const queryParams = [];
 
@@ -392,6 +413,9 @@ class CrossSurfaceLearningService {
       if (boardId) {
         query += ' AND q.board_id = ?';
         queryParams.push(boardId);
+      } else {
+        query += " AND (q.board_id IS NULL OR q.board_id = '')";
+        query += " AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')";
       }
       if (stage) {
         query += ' AND q.stage = ?';
@@ -403,8 +427,13 @@ class CrossSurfaceLearningService {
         queryParams.push(...excludeIds);
       }
 
-      query += ' ORDER BY RANDOM() LIMIT ?';
-      queryParams.push(needed);
+      if (examId && !boardId) {
+        query += ' ORDER BY (CASE WHEN q.paper_id LIKE ? OR q.question_id LIKE ? THEN 0 ELSE 1 END), RANDOM() LIMIT ?';
+        queryParams.push(`%${examId}%`, `%${examId}%`, needed);
+      } else {
+        query += ' ORDER BY RANDOM() LIMIT ?';
+        queryParams.push(needed);
+      }
 
       const freshRows = db.prepare(query).all(...queryParams);
       for (const q of freshRows) {
@@ -503,6 +532,8 @@ class CrossSurfaceLearningService {
         JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
         JOIN subjects s ON q.subject_id = s.subject_id
         WHERE 1=1
+          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+          AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
       `;
       const queryParams = [];
 
@@ -513,6 +544,9 @@ class CrossSurfaceLearningService {
       if (boardId) {
         query += ' AND q.board_id = ?';
         queryParams.push(boardId);
+      } else {
+        query += " AND (q.board_id IS NULL OR q.board_id = '')";
+        query += " AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')";
       }
       if (stage) {
         query += ' AND q.stage = ?';
@@ -524,8 +558,13 @@ class CrossSurfaceLearningService {
         queryParams.push(...excludeIds);
       }
 
-      query += ' ORDER BY RANDOM() LIMIT ?';
-      queryParams.push(remainingCount);
+      if (examId && !boardId) {
+        query += ' ORDER BY (CASE WHEN q.paper_id LIKE ? OR q.question_id LIKE ? THEN 0 ELSE 1 END), RANDOM() LIMIT ?';
+        queryParams.push(`%${examId}%`, `%${examId}%`, remainingCount);
+      } else {
+        query += ' ORDER BY RANDOM() LIMIT ?';
+        queryParams.push(remainingCount);
+      }
 
       const broaderRows = db.prepare(query).all(...queryParams);
       for (const q of broaderRows) {

@@ -6,9 +6,21 @@
 function cleanQuestionText(text) {
   if (!text || typeof text !== 'string') return '';
   let cleaned = text.trim();
-  cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
-  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+  // Strip leading metadata in brackets e.g. [RRB NTPC CBT-1 Exam Practice Q1] or [सामान्य विज्ञान]
+  cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
+  // Strip leading exam/board prefix like CBSE Class 10 Science: or कक्षा 10 विज्ञान:
+  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '');
+  // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
+  // Strip trailing provenance/noise in parentheses e.g. (सीबीएसई कक्षा 10 विज्ञान नमूना प्रश्न 15)? or (Question #26)
+  const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
+  const match = cleaned.match(trailingNoiseRegex);
+  if (match) {
+    const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
+    cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
+  }
   return cleaned.trim();
 }
 

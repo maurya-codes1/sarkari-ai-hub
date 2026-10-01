@@ -90,7 +90,7 @@ class QuestionRepository {
     return this.db.prepare(query).all(...params);
   }
 
-  getPracticeQuestions({ subjectId = null, subjectIds = null, boardId = null, stage = null, difficulty = null, count = 30, excludeIds = [] }) {
+  getPracticeQuestions({ subjectId = null, subjectIds = null, boardId = null, stage = null, difficulty = null, count = 30, excludeIds = [], examId = null }) {
     if (!this.isAvailable()) return [];
 
     const BOARD_MAP = {
@@ -107,8 +107,16 @@ class QuestionRepository {
     };
 
     const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
+    const isTargetingBoard = Boolean(resolvedBoard || (examId && (String(examId).includes('board') || String(examId).includes('class'))));
 
     let resolvedStage = stage;
+    if (!resolvedStage && examId && isTargetingBoard) {
+      const e = String(examId).toLowerCase();
+      if (e.includes('12')) resolvedStage = 'Class 12';
+      else if (e.includes('10')) resolvedStage = 'Class 10';
+      else if (e.includes('11')) resolvedStage = 'Class 11';
+      else if (e.includes('9')) resolvedStage = 'Class 9';
+    }
     if (resolvedStage) {
       const s = String(resolvedStage).toLowerCase();
       if (s.includes('12')) resolvedStage = 'Class 12';
@@ -131,6 +139,14 @@ class QuestionRepository {
     if (resolvedBoard) {
       query += ` AND q.board_id = ?`;
       params.push(resolvedBoard);
+    } else if (isTargetingBoard) {
+      // General board context (e.g. examId = 'board-12th-science')
+      query += ` AND (q.board_id IS NOT NULL AND q.board_id != '')`;
+    } else {
+      // Competitive exam context (SSC, RRB, UPSC, State Police, etc.):
+      // STRICT ISOLATION: School board questions must NEVER appear in competitive exams!
+      query += ` AND (q.board_id IS NULL OR q.board_id = '')`;
+      query += ` AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
     }
 
     if (resolvedStage) {
@@ -164,26 +180,31 @@ class QuestionRepository {
       params.push(...excludeIds);
     }
 
-    query += ` ORDER BY RANDOM() LIMIT ?`;
-    params.push(count);
+    if (examId && !resolvedBoard) {
+      query += ` ORDER BY (CASE WHEN q.paper_id LIKE ? OR q.question_id LIKE ? THEN 0 ELSE 1 END), RANDOM() LIMIT ?`;
+      params.push(`%${examId}%`, `%${examId}%`, count);
+    } else {
+      query += ` ORDER BY RANDOM() LIMIT ?`;
+      params.push(count);
+    }
 
     let rows = this.db.prepare(query).all(...params);
 
     // If specific difficulty filter yielded no questions, fallback to available difficulty
     if (rows.length === 0 && difficulty && difficulty !== 'MIXED') {
-      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: resolvedStage, difficulty: 'MIXED', count, excludeIds });
+      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: resolvedStage, difficulty: 'MIXED', count, excludeIds, examId });
     }
 
     // If board filter yielded no rows for this specific subject, fall back to general subject questions while PRESERVING stage
     if (rows.length === 0 && resolvedBoard) {
-      const stageRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: resolvedStage, difficulty, count, excludeIds });
+      const stageRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: resolvedBoard, stage: null, difficulty, count, excludeIds, examId });
       if (stageRows && stageRows.length > 0) return stageRows;
-      return this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds });
     }
 
-    // If stage filter yielded no rows for this specific subject (e.g. GK requested under a board exam), fall back to general subject pool
-    if (rows.length === 0 && resolvedStage) {
-      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: null, difficulty, count, excludeIds });
+    // If stage filter or examId yielded no rows for this specific subject (e.g. GK requested under a board exam), fall back to general subject pool
+    if (rows.length === 0 && isTargetingBoard) {
+      const genRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds, examId: null });
+      if (genRows && genRows.length > 0) return genRows;
     }
 
     return rows;

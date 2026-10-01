@@ -5,15 +5,24 @@
 const { getDb } = require('../db/database');
 
 function cleanQuestionText(text) {
-  if (!text) return '';
-  return String(text)
-    .replace(/^\[[^\]\r\n]{3,120}\]\s*/i, '') // strip [Board Class ... - Chapter]
-    .replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '')
-    .replace(/^(प्रश्न|सवाल|Question|Q\.|Ques|Que|Q)\s*(सं\.|संख्या|No\.?|Num|#)?\s*\d+\s*[:\-.]\s*/i, '')
-    .replace(/^#\d+[:\-.]\s*/i, '')
-    .replace(/^Q\d+[:\-.]\s*/i, '')
-    .replace(/^\(\d+\)\s*/i, '')
-    .trim();
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  // Strip leading metadata in brackets e.g. [RRB NTPC CBT-1 Exam Practice Q1] or [सामान्य विज्ञान]
+  cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
+  // Strip leading exam/board prefix like CBSE Class 10 Science: or कक्षा 10 विज्ञान:
+  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '');
+  // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
+  // Strip trailing provenance/noise in parentheses e.g. (सीबीएसई कक्षा 10 विज्ञान नमूना प्रश्न 15)? or (Question #26)
+  const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
+  const match = cleaned.match(trailingNoiseRegex);
+  if (match) {
+    const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
+    cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
+  }
+  return cleaned.trim();
 }
 
 class AdaptiveSelectionService {
@@ -65,46 +74,95 @@ class AdaptiveSelectionService {
 
     const count = Math.max(1, Math.min(100, parseInt(questionCount, 10) || 10));
 
-    // Base query for candidate questions
+    // Determine if exam is a school board
+    const isBoardExam = examId.includes('board') || examId.includes('cbse') || examId.includes('bseb') ||
+      examId.includes('upmsp') || examId.includes('icse') || examId.includes('class');
+
+    // Base query for candidate questions with strict MCQ filter
     let baseSql = `
       SELECT 
         q.question_id, q.subject_id, q.chapter_id, q.topic_id, q.difficulty,
         q.marks, q.provenance, q.question_tier, q.historical_year,
         q.recurrence_tier, q.is_rare_relevant, q.fingerprint, q.full_exam_eligible,
+        q.board_id, q.stage, q.question_type_id,
         qv.language_content, qv.correct_answer
       FROM questions q
       JOIN question_versions qv ON q.question_id = qv.question_id AND (qv.version_number = q.current_version OR qv.version_number = '1.0.0' OR qv.version_number = 1)
       WHERE q.current_eligibility = 1
-        AND (
-          q.exam_version_id LIKE ? 
-          OR q.paper_id IN (SELECT paper_id FROM question_papers WHERE exam_id = ?)
-          OR q.board_id = ? 
-          OR q.board_id LIKE ? 
-          OR q.question_id LIKE ?
-        )
+        AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+        AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
     `;
-    const baseParams = [`%${examId}%`, examId, examId, `%${examId}%`, `%${examId}%`];
+    const baseParams = [];
 
-    if (subjectId) {
+    if (isBoardExam) {
+      baseSql += ` AND (q.board_id = ? OR q.board_id LIKE ? OR q.question_id LIKE ?)`;
+      baseParams.push(examId, `%${examId}%`, `%${examId}%`);
+    } else {
+      // Competitive exam: strictly exclude school board questions
+      baseSql += ` AND (q.board_id IS NULL OR q.board_id = '') AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
+      baseSql += ` AND (
+        q.exam_version_id LIKE ? 
+        OR q.paper_id IN (SELECT paper_id FROM question_papers WHERE exam_id = ?)
+        OR q.question_id LIKE ?
+      )`;
+      baseParams.push(`%${examId}%`, examId, `%${examId}%`);
+    }
+
+    if (subjectId && subjectId !== 'all') {
       baseSql += ' AND q.subject_id = ?';
       baseParams.push(subjectId);
     }
 
     let candidates = db.prepare(baseSql).all(...baseParams);
 
-    // If no direct exam-specific questions found, check general questions if applicable
+    // Filter candidates to ensure only questions with valid options (>= 2) are admitted
+    candidates = candidates.filter(q => {
+      try {
+        const langObj = JSON.parse(q.language_content || '{}');
+        const c = langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0];
+        return c && Array.isArray(c.options) && c.options.length >= 2;
+      } catch (e) {
+        return false;
+      }
+    });
+
+    // If no direct exam-specific questions found, check broader pool with strict boundaries and MCQ filter
     if (candidates.length === 0) {
-      const fallbackSql = `
+      let fallbackSql = `
         SELECT 
           q.question_id, q.subject_id, q.chapter_id, q.topic_id, q.difficulty,
           q.marks, q.provenance, q.question_tier, q.historical_year,
           q.recurrence_tier, q.is_rare_relevant, q.fingerprint, q.full_exam_eligible,
+          q.board_id, q.stage, q.question_type_id,
           qv.language_content, qv.correct_answer
         FROM questions q
         JOIN question_versions qv ON q.question_id = qv.question_id AND (qv.version_number = q.current_version OR qv.version_number = '1.0.0' OR qv.version_number = 1)
         WHERE q.current_eligibility = 1
-      ` + (subjectId ? ' AND q.subject_id = ?' : '') + ' LIMIT 50';
-      candidates = db.prepare(fallbackSql).all(...(subjectId ? [subjectId] : []));
+          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+          AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
+      `;
+      const fallbackParams = [];
+      if (isBoardExam) {
+        fallbackSql += ` AND (q.board_id = ? OR q.board_id LIKE ?)`;
+        fallbackParams.push(examId, `%${examId}%`);
+      } else {
+        fallbackSql += ` AND (q.board_id IS NULL OR q.board_id = '') AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
+      }
+      if (subjectId && subjectId !== 'all') {
+        fallbackSql += ' AND q.subject_id = ?';
+        fallbackParams.push(subjectId);
+      }
+      fallbackSql += ' ORDER BY RANDOM() LIMIT 50';
+      const rawFallback = db.prepare(fallbackSql).all(...fallbackParams);
+      candidates = rawFallback.filter(q => {
+        try {
+          const langObj = JSON.parse(q.language_content || '{}');
+          const c = langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0];
+          return c && Array.isArray(c.options) && c.options.length >= 2;
+        } catch (e) {
+          return false;
+        }
+      });
     }
 
     let selectedQuestions = [];
@@ -363,11 +421,25 @@ class AdaptiveSelectionService {
       }
     }
 
+    // Fill remaining from candidate pool if needed to fulfill requested count
+    if (selected.length < count) {
+      const remainingCandidates = candidates.filter(q => !this._isDuplicate(q, seen));
+      this._shuffle(remainingCandidates);
+      for (const q of remainingCandidates) {
+        if (selected.length >= count) break;
+        selected.push({
+          ...q,
+          selectionReason: 'Curated exam pattern past-year practice question'
+        });
+        this._markSeen(q, seen);
+      }
+    }
+
     return {
       selectedQuestions: selected,
       criteriaExplanation: {
         mode: 'PYQ_REVISION',
-        strictProvenance: 'OFFICIAL_PYQ_ONLY',
+        strictProvenance: 'OFFICIAL_PYQ_PRIORITY',
         officialSamplesExcluded: true,
         aiGeneratedExcluded: true,
         availablePyqs: pyqOnly.length,

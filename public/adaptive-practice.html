@@ -96,156 +96,159 @@
       </div>
     </div>
 
-    <!-- Practice Configuration Bar -->
+    <!-- Practice Configuration Bar (Aligned with Live Mock Test Controls) -->
     <div class="bg-slate-900 p-6 rounded-3xl border border-slate-800 shadow-lg space-y-6">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <!-- Target Examination / Board -->
+      <div>
+        <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">🎯 Target Examination / Board (लक्षित परीक्षा / बोर्ड)</label>
+        <select id="examSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm font-semibold text-slate-200 focus:outline-none focus:border-saffron-500">
+          <optgroup label="Central & National Competitive Exams (राष्ट्रीय प्रतियोगी परीक्षाएं)">
+            <option value="ssc-cgl">SSC CGL (Combined Graduate Level)</option>
+            <option value="ssc-chsl">SSC CHSL (10+2 Combined Higher Secondary)</option>
+            <option value="ssc-mts">SSC MTS & Havaldar</option>
+            <option value="ssc-gd" selected>SSC GD Constable (CAPFs & Assam Rifles)</option>
+            <option value="ssc-cpo">SSC CPO (Sub-Inspector in Delhi Police & CAPFs)</option>
+            <option value="ssc-je">SSC Junior Engineer (JE)</option>
+            <option value="ssc-steno">SSC Stenographer Grade C & D</option>
+            <option value="rrb-ntpc">RRB NTPC (Non-Technical Popular Categories)</option>
+            <option value="rrb-alp">RRB Assistant Loco Pilot (ALP)</option>
+            <option value="rrb-group-d">RRB Group D (RRC Level-1)</option>
+            <option value="rrb-je">RRB Junior Engineer</option>
+            <option value="upsc-cse">UPSC CSE (Civil Services Prelims GS-1)</option>
+            <option value="upsc-nda">UPSC NDA & NA Examination</option>
+            <option value="upsc-cds">UPSC Combined Defence Services (CDS)</option>
+            <option value="upsc-capf">UPSC CAPF (Assistant Commandant)</option>
+            <option value="ctet-exam">CTET (Central Teacher Eligibility Test)</option>
+            <option value="ugc-net">UGC NET (Assistant Professor & JRF)</option>
+            <option value="nta-neet">NTA NEET UG (Medical Entrance)</option>
+            <option value="nta-jee-main">NTA JEE Main (Engineering Entrance)</option>
+            <option value="clat">CLAT (Common Law Admission Test)</option>
+          </optgroup>
+
+          <optgroup label="State Police & Defense Exams (पुलिस एवं रक्षा भर्ती)">
+            <option value="up-police-constable">UP Police Constable (उत्तर प्रदेश पुलिस)</option>
+            <option value="up-police-si">UP Police Sub-Inspector (SI)</option>
+            <option value="bihar-police-constable">Bihar Police Constable (CSBC)</option>
+            <option value="bihar-si">Bihar Police SI (BPSSC दारोगा)</option>
+            <option value="rajasthan-police">Rajasthan Police Constable</option>
+            <option value="mp-police-constable">MP Police Constable (ESB)</option>
+            <option value="delhi-police-constable">Delhi Police Constable (Executive)</option>
+            <option value="army-agniveer">Indian Army Agniveer (CEE)</option>
+            <option value="iaf-agniveer">Indian Air Force Agniveer Vayu</option>
+            <option value="navy-agniveer">Indian Navy Agniveer (SSR/MR)</option>
+          </optgroup>
+
+          <optgroup label="Banking & Insurance Exams (बैंकिंग एवं बीमा)">
+            <option value="ibps-po-clerk">IBPS PO / Clerk Combined</option>
+            <option value="ibps-po">IBPS Probationary Officer (PO)</option>
+            <option value="ibps-clerk">IBPS Clerk Examination</option>
+            <option value="sbi-po">State Bank of India PO</option>
+            <option value="sbi-clerk">State Bank of India Clerk (Junior Associate)</option>
+            <option value="rbi-grade-b">RBI Grade B Officer</option>
+          </optgroup>
+
+          <optgroup label="State PSC & Civil Services (राज्य लोक सेवा आयोग)">
+            <option value="uppsc-pcs">UPPSC Combined State Civil Services (PCS)</option>
+            <option value="bpsc-cce">BPSC Combined Competitive Examination</option>
+            <option value="mppsc-pre">MPPSC State Service Examination</option>
+            <option value="rpsc-ras">RPSC Rajasthan Administrative Services (RAS)</option>
+            <option value="wbpsc-wbc">West Bengal Civil Services (WBCS)</option>
+            <option value="mpsc-pre">Maharashtra Public Service Commission (MPSC)</option>
+            <option value="tnpsc-group4">TNPSC Group 4 & VAO</option>
+            <option value="appsc-group2">APPSC Group 2 Services</option>
+            <option value="tspsc-group2">Telangana TSPSC Group 2</option>
+            <option value="kpsc-kas">Karnataka Administrative Services (KAS)</option>
+            <option value="gpsc-class12">Gujarat Public Service Commission (GPSC)</option>
+            <option value="hpsc-hcs">Haryana Civil Services (HCS)</option>
+            <option value="jpsc-pre">Jharkhand Combined Civil Services (JPSC)</option>
+          </optgroup>
+
+          <optgroup label="State Teacher Eligibility Tests (शिक्षक पात्रता परीक्षा)">
+            <option value="uptet">UPTET (Uttar Pradesh Teacher Eligibility Test)</option>
+            <option value="reet">REET (Rajasthan Eligibility Examination for Teachers)</option>
+            <option value="stet-bihar">Bihar STET (Secondary Teacher Eligibility Test)</option>
+          </optgroup>
+
+          <optgroup label="School Education Boards (10th Matric & 12th Inter)">
+            <option value="cbse-board">CBSE Board (Central Board of Secondary Education 10th & 12th)</option>
+            <option value="icse-cisce">CISCE (ICSE 10th & ISC 12th)</option>
+            <option value="nios-board">NIOS (National Institute of Open Schooling)</option>
+            <option value="bseb-bihar">BSEB Bihar Board (Matric 10th & Inter 12th)</option>
+            <option value="upmsp-board">UPMSP UP Board (High School 10th & Inter 12th)</option>
+            <option value="rbse-rajasthan">RBSE Rajasthan Board (10th & 12th Ajmer)</option>
+            <option value="mpbse-board">MPBSE MP Board (10th High School & 12th HSSC)</option>
+            <option value="wbbse-wb">West Bengal Board (WBBSE Madhyamik & WBCHSE Higher Secondary)</option>
+            <option value="maharashtra-board">Maharashtra State Board (SSC 10th & HSC 12th)</option>
+            <option value="gseb-gujarat">GSEB Gujarat Board (SSC 10th & HSC 12th)</option>
+            <option value="kseab-karnataka">KSEAB Karnataka Board (SSLC 10th & 2nd PUC 12th)</option>
+            <option value="tndge-tamilnadu">Tamil Nadu State Board (SSLC 10th & HSE +2)</option>
+            <option value="kerala-board">Kerala DHSE & Pareeksha Bhavan (SSLC 10th & DHSE +2)</option>
+            <option value="chse-bse-odisha">Odisha Board (BSE Matric 10th & CHSE +2 Council)</option>
+            <option value="pseb-punjab">Punjab School Education Board (PSEB 10th & 12th)</option>
+            <option value="bseh-haryana">Haryana Board of School Education (BSEH Bhiwani 10th & 12th)</option>
+            <option value="jac-jharkhand">JAC Jharkhand Academic Council (Matric 10th & Inter 12th)</option>
+            <option value="cgbse-chhattisgarh">Chhattisgarh Board (CGBSE Raipur 10th & 12th)</option>
+            <option value="seba-ahsec-assam">Assam Board (SEBA HSLC 10th & AHSEC 12th)</option>
+            <option value="hpbose-himachal">HPBOSE Himachal Pradesh Board (10th & 12th Dharamshala)</option>
+            <option value="jkbose-jk">JKBOSE Jammu & Kashmir Board (Class 10th & 12th)</option>
+            <option value="bseap-andhra">BSEAP & BIEAP Andhra Pradesh (SSC 10th & Intermediate 12th)</option>
+            <option value="bsetg-telangana">BSETG & TSBIE Telangana (SSC 10th & Intermediate 12th)</option>
+            <option value="ubse-uttarakhand">UBSE Uttarakhand Board (High School 10th & Inter 12th Ramnagar)</option>
+            <option value="gbshse-goa">GBSHSE Goa Board (SSC 10th & HSSC 12th)</option>
+            <option value="bsem-manipur">BSEM & COHSEM Manipur (HSLC 10th & HSE 12th)</option>
+            <option value="mbose-meghalaya">MBOSE Meghalaya Board (SSLC 10th & HSSLC 12th)</option>
+            <option value="mbse-mizoram">MBSE Mizoram Board (HSLC 10th & HSSLC 12th)</option>
+            <option value="nbse-nagaland">NBSE Nagaland Board (HSLC 10th & HSSLC 12th)</option>
+            <option value="tbse-tripura">TBSE Tripura Board (Madhyamik 10th & HS 12th)</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- Practice Controls: Subject, Difficulty, Timer Mode, Question Count -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5">
         <div>
-          <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Target Examination / Board</label>
-          <select id="examSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saffron-500">
-            <optgroup label="Central & National Competitive Exams (राष्ट्रीय प्रतियोगी परीक्षाएं)">
-              <option value="ssc-cgl">SSC CGL (Combined Graduate Level)</option>
-              <option value="ssc-chsl">SSC CHSL (10+2 Combined Higher Secondary)</option>
-              <option value="ssc-mts">SSC MTS & Havaldar</option>
-              <option value="ssc-gd" selected>SSC GD Constable (CAPFs & Assam Rifles)</option>
-              <option value="ssc-cpo">SSC CPO (Sub-Inspector in Delhi Police & CAPFs)</option>
-              <option value="ssc-je">SSC Junior Engineer (JE)</option>
-              <option value="ssc-steno">SSC Stenographer Grade C & D</option>
-              <option value="rrb-ntpc">RRB NTPC (Non-Technical Popular Categories)</option>
-              <option value="rrb-alp">RRB Assistant Loco Pilot (ALP)</option>
-              <option value="rrb-group-d">RRB Group D (RRC Level-1)</option>
-              <option value="rrb-je">RRB Junior Engineer</option>
-              <option value="upsc-cse">UPSC CSE (Civil Services Prelims GS-1)</option>
-              <option value="upsc-nda">UPSC NDA & NA Examination</option>
-              <option value="upsc-cds">UPSC Combined Defence Services (CDS)</option>
-              <option value="upsc-capf">UPSC CAPF (Assistant Commandant)</option>
-              <option value="ctet-exam">CTET (Central Teacher Eligibility Test)</option>
-              <option value="ugc-net">UGC NET (Assistant Professor & JRF)</option>
-              <option value="nta-neet">NTA NEET UG (Medical Entrance)</option>
-              <option value="nta-jee-main">NTA JEE Main (Engineering Entrance)</option>
-              <option value="clat">CLAT (Common Law Admission Test)</option>
-            </optgroup>
-
-            <optgroup label="State Police & Defense Exams (पुलिस एवं रक्षा भर्ती)">
-              <option value="up-police-constable">UP Police Constable (उत्तर प्रदेश पुलिस)</option>
-              <option value="up-police-si">UP Police Sub-Inspector (SI)</option>
-              <option value="bihar-police-constable">Bihar Police Constable (CSBC)</option>
-              <option value="bihar-si">Bihar Police SI (BPSSC दारोगा)</option>
-              <option value="rajasthan-police">Rajasthan Police Constable</option>
-              <option value="mp-police-constable">MP Police Constable (ESB)</option>
-              <option value="delhi-police-constable">Delhi Police Constable (Executive)</option>
-              <option value="army-agniveer">Indian Army Agniveer (CEE)</option>
-              <option value="iaf-agniveer">Indian Air Force Agniveer Vayu</option>
-              <option value="navy-agniveer">Indian Navy Agniveer (SSR/MR)</option>
-            </optgroup>
-
-            <optgroup label="Banking & Insurance Exams (बैंकिंग एवं बीमा)">
-              <option value="ibps-po-clerk">IBPS PO / Clerk Combined</option>
-              <option value="ibps-po">IBPS Probationary Officer (PO)</option>
-              <option value="ibps-clerk">IBPS Clerk Examination</option>
-              <option value="sbi-po">State Bank of India PO</option>
-              <option value="sbi-clerk">State Bank of India Clerk (Junior Associate)</option>
-              <option value="rbi-grade-b">RBI Grade B Officer</option>
-            </optgroup>
-
-            <optgroup label="State PSC & Civil Services (राज्य लोक सेवा आयोग)">
-              <option value="uppsc-pcs">UPPSC Combined State Civil Services (PCS)</option>
-              <option value="bpsc-cce">BPSC Combined Competitive Examination</option>
-              <option value="mppsc-pre">MPPSC State Service Examination</option>
-              <option value="rpsc-ras">RPSC Rajasthan Administrative Services (RAS)</option>
-              <option value="wbpsc-wbc">West Bengal Civil Services (WBCS)</option>
-              <option value="mpsc-pre">Maharashtra Public Service Commission (MPSC)</option>
-              <option value="tnpsc-group4">TNPSC Group 4 & VAO</option>
-              <option value="appsc-group2">APPSC Group 2 Services</option>
-              <option value="tspsc-group2">Telangana TSPSC Group 2</option>
-              <option value="kpsc-kas">Karnataka Administrative Services (KAS)</option>
-              <option value="gpsc-class12">Gujarat Public Service Commission (GPSC)</option>
-              <option value="hpsc-hcs">Haryana Civil Services (HCS)</option>
-              <option value="jpsc-pre">Jharkhand Combined Civil Services (JPSC)</option>
-            </optgroup>
-
-            <optgroup label="State Teacher Eligibility Tests (शिक्षक पात्रता परीक्षा)">
-              <option value="uptet">UPTET (Uttar Pradesh Teacher Eligibility Test)</option>
-              <option value="reet">REET (Rajasthan Eligibility Examination for Teachers)</option>
-              <option value="stet-bihar">Bihar STET (Secondary Teacher Eligibility Test)</option>
-            </optgroup>
-
-            <optgroup label="School Education Boards (10th Matric & 12th Inter)">
-              <option value="cbse-board">CBSE Board (Central Board of Secondary Education 10th & 12th)</option>
-              <option value="icse-cisce">CISCE (ICSE 10th & ISC 12th)</option>
-              <option value="nios-board">NIOS (National Institute of Open Schooling)</option>
-              <option value="bseb-bihar">BSEB Bihar Board (Matric 10th & Inter 12th)</option>
-              <option value="upmsp-board">UPMSP UP Board (High School 10th & Inter 12th)</option>
-              <option value="rbse-rajasthan">RBSE Rajasthan Board (10th & 12th Ajmer)</option>
-              <option value="mpbse-board">MPBSE MP Board (10th High School & 12th HSSC)</option>
-              <option value="wbbse-wb">West Bengal Board (WBBSE Madhyamik & WBCHSE Higher Secondary)</option>
-              <option value="maharashtra-board">Maharashtra State Board (SSC 10th & HSC 12th)</option>
-              <option value="gseb-gujarat">GSEB Gujarat Board (SSC 10th & HSC 12th)</option>
-              <option value="kseab-karnataka">KSEAB Karnataka Board (SSLC 10th & 2nd PUC 12th)</option>
-              <option value="tndge-tamilnadu">Tamil Nadu State Board (SSLC 10th & HSE +2)</option>
-              <option value="kerala-board">Kerala DHSE & Pareeksha Bhavan (SSLC 10th & DHSE +2)</option>
-              <option value="chse-bse-odisha">Odisha Board (BSE Matric 10th & CHSE +2 Council)</option>
-              <option value="pseb-punjab">Punjab School Education Board (PSEB 10th & 12th)</option>
-              <option value="bseh-haryana">Haryana Board of School Education (BSEH Bhiwani 10th & 12th)</option>
-              <option value="jac-jharkhand">JAC Jharkhand Academic Council (Matric 10th & Inter 12th)</option>
-              <option value="cgbse-chhattisgarh">Chhattisgarh Board (CGBSE Raipur 10th & 12th)</option>
-              <option value="seba-ahsec-assam">Assam Board (SEBA HSLC 10th & AHSEC 12th)</option>
-              <option value="hpbose-himachal">HPBOSE Himachal Pradesh Board (10th & 12th Dharamshala)</option>
-              <option value="jkbose-jk">JKBOSE Jammu & Kashmir Board (Class 10th & 12th)</option>
-              <option value="bseap-andhra">BSEAP & BIEAP Andhra Pradesh (SSC 10th & Intermediate 12th)</option>
-              <option value="bsetg-telangana">BSETG & TSBIE Telangana (SSC 10th & Intermediate 12th)</option>
-              <option value="ubse-uttarakhand">UBSE Uttarakhand Board (High School 10th & Inter 12th Ramnagar)</option>
-              <option value="gbshse-goa">GBSHSE Goa Board (SSC 10th & HSSC 12th)</option>
-              <option value="bsem-manipur">BSEM & COHSEM Manipur (HSLC 10th & HSE 12th)</option>
-              <option value="mbose-meghalaya">MBOSE Meghalaya Board (SSLC 10th & HSSLC 12th)</option>
-              <option value="mbse-mizoram">MBSE Mizoram Board (HSLC 10th & HSSLC 12th)</option>
-              <option value="nbse-nagaland">NBSE Nagaland Board (HSLC 10th & HSSLC 12th)</option>
-              <option value="tbse-tripura">TBSE Tripura Board (Madhyamik 10th & HS 12th)</option>
-            </optgroup>
+          <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">विषय (Subject Mode):</label>
+          <select id="subjectSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs font-bold text-slate-200 focus:ring-2 focus:ring-saffron-500">
+            <option value="all" selected>All Subjects (सभी विषय)</option>
+            <option value="subj-reasoning">General Intelligence & Reasoning (तर्कशक्ति)</option>
+            <option value="subj-general-awareness">General Knowledge & Awareness (सामान्य ज्ञान एवं अध्ययन)</option>
+            <option value="subj-math">Quantitative Aptitude & Mathematics (प्रारंभिक गणित)</option>
+            <option value="subj-hindi">General Hindi (सामान्य हिंदी)</option>
+            <option value="subj-english">General English (सामान्य अंग्रेजी)</option>
+            <option value="subj-science">General Science & Tech (सामान्य विज्ञान)</option>
           </select>
         </div>
 
         <div>
-          <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Session Question Count</label>
-          <select id="countSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saffron-500">
-            <option value="5">5 Questions (Quick Drill)</option>
+          <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">कठिनाई स्तर (Difficulty):</label>
+          <select id="difficultySelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs font-bold text-slate-200 focus:ring-2 focus:ring-saffron-500">
+            <option value="MIXED" selected>Mixed (वास्तविक परीक्षा स्तर)</option>
+            <option value="EASY">Easy (सरल - बेसिक रिवीजन)</option>
+            <option value="MEDIUM">Medium (मध्यम - मानक स्तर)</option>
+            <option value="HARD">Hard (कठिन - एडवांस मेरिट प्रश्न)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">टाइमर मोड (Timer Mode):</label>
+          <select id="timerModeSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs font-bold text-slate-200 focus:ring-2 focus:ring-saffron-500">
+            <option value="COUNTDOWN" selected>Countdown (Timed Practice)</option>
+            <option value="STOPWATCH">Stopwatch (समय गिनें)</option>
+            <option value="UNLIMITED">Unlimited (स्वतंत्र अभ्यास)</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block text-xs font-bold text-slate-400 mb-1.5 uppercase tracking-wider">प्रश्न संख्या (Practice Quantity):</label>
+          <select id="countSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl p-3 text-xs font-bold text-slate-200 focus:ring-2 focus:ring-saffron-500">
+            <option value="5">5 Questions (Quick Concept Check)</option>
             <option value="10" selected>10 Questions (Standard Drill)</option>
             <option value="15">15 Questions (Focused Practice)</option>
             <option value="20">20 Questions (Intensive Session)</option>
             <option value="25">25 Questions (Section Benchmark)</option>
-            <option value="30">30 Questions (Half Mock)</option>
+            <option value="30">30 Questions (Practice Set)</option>
             <option value="50">50 Questions (Comprehensive Practice)</option>
-            <option value="100">100 Questions (Full Paper Marathon)</option>
-          </select>
-        </div>
-
-        <div>
-          <label class="block text-xs font-bold text-slate-400 mb-2 uppercase tracking-wider">Language Preference</label>
-          <select id="langSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-200 focus:outline-none focus:border-saffron-500">
-            <option value="hi" selected>हिन्दी (Hindi)</option>
-            <option value="en">English (Official)</option>
-            <option value="hi-latn">Hinglish (हिंग्लिश)</option>
-            <option value="ta">தமிழ் (Tamil)</option>
-            <option value="te">తెలుగు (Telugu)</option>
-            <option value="mr">मराठी (Marathi)</option>
-            <option value="bn">বাংলা (Bengali)</option>
-            <option value="gu">ગુજરાતી (Gujarati)</option>
-            <option value="kn">ಕನ್ನಡ (Kannada)</option>
-            <option value="ml">മലയാളം (Malayalam)</option>
-            <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
-            <option value="ur">اردو (Urdu)</option>
-            <option value="or">ଓଡ଼ିଆ (Odia)</option>
-            <option value="sa">संस्कृतम् (Sanskrit)</option>
-            <option value="as">অসমীয়া (Assamese)</option>
-            <option value="mai">मैथिली (Maithili)</option>
-            <option value="bho">भोजपुरी (Bhojpuri)</option>
-            <option value="ne">नेपाली (Nepali)</option>
-            <option value="kok">कोंकणी (Konkani)</option>
-            <option value="sd">سنڌي / सिंधी (Sindhi)</option>
-            <option value="doi">डोगरी (Dogri)</option>
-            <option value="ks">کٲشُر / कश्मीरी (Kashmiri)</option>
-            <option value="sat">ᱥᱟᱱᱛᱟᱲᱤ (Santali)</option>
-            <option value="brx">बर' (Bodo)</option>
-            <option value="mni">মৈতৈলোন্ / ꯃꯤꯇꯩꯂꯣꯟ (Manipuri)</option>
+            <option value="100">100 Questions (Master Marathon)</option>
           </select>
         </div>
       </div>
@@ -296,10 +299,17 @@
         </div>
       </div>
 
-      <div class="flex items-center justify-end">
-        <button id="startPracticeBtn" class="px-6 py-3 rounded-2xl bg-gradient-to-r from-saffron-500 to-orange-600 hover:from-saffron-600 hover:to-orange-700 font-black text-sm text-white shadow-xl transition transform active:scale-95">
-          🚀 Start Adaptive Session
+      <!-- Action Buttons Row matching Image 2 -->
+      <div class="pt-2 flex flex-col sm:flex-row items-center gap-3">
+        <button id="startPracticeBtn" class="w-full sm:w-auto bg-gradient-to-r from-rose-600 via-red-600 to-orange-600 hover:from-rose-700 hover:to-orange-700 text-white font-black text-sm px-8 py-3.5 rounded-2xl shadow-xl transition flex items-center justify-center space-x-2 cursor-pointer active:scale-95">
+          <span>🚀 Start Live Adaptive Practice (अभ्यास शुरू करें)</span>
         </button>
+        <button id="resetControlsBtn" type="button" class="w-full sm:w-auto bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs px-6 py-3.5 rounded-2xl shadow-sm transition flex items-center justify-center space-x-2 border border-slate-700 cursor-pointer">
+          <span>🔄 Reset Controls (रीसेट)</span>
+        </button>
+        <a href="/#tool/quiz" class="w-full sm:w-auto bg-slate-950 hover:bg-slate-800 text-amber-400 font-bold text-xs px-6 py-3.5 rounded-2xl shadow-sm transition flex items-center justify-center space-x-2 border border-slate-800 cursor-pointer">
+          <span>📝 Full Mock Test Mode</span>
+        </a>
       </div>
     </div>
 
@@ -408,6 +418,23 @@
   </main>
 
   <script>
+    function cleanQuestionText(text) {
+      if (!text || typeof text !== 'string') return '';
+      let cleaned = text.trim();
+      cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
+      cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '');
+      cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
+      cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+      cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
+      const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
+      const match = cleaned.match(trailingNoiseRegex);
+      if (match) {
+        const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
+        cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
+      }
+      return cleaned.trim();
+    }
+
     let currentQuestions = [];
     let currentIndex = 0;
     let selectedMode = 'MIXED_ADAPTIVE';
@@ -416,8 +443,29 @@
     let sessionTimer = null;
     let secondsSpentInQuestion = 0;
     let totalSecondsInSession = 0;
+    let remainingCountdownSeconds = 0;
+    let activeTimerMode = 'COUNTDOWN';
     let selectedOptionValue = null;
     let selectedOptionIndex = null;
+
+    // Reset Controls Handler
+    document.getElementById('resetControlsBtn').addEventListener('click', () => {
+      document.getElementById('subjectSelect').value = 'all';
+      document.getElementById('difficultySelect').value = 'MIXED';
+      document.getElementById('timerModeSelect').value = 'COUNTDOWN';
+      document.getElementById('countSelect').value = '10';
+      // Reset mode to Mixed Adaptive
+      document.querySelectorAll('.mode-btn').forEach(b => {
+        b.classList.remove('active', 'bg-saffron-500/20', 'border-saffron-500', 'text-white');
+        b.classList.add('bg-slate-950', 'border-slate-800', 'text-slate-300');
+      });
+      const defBtn = document.querySelector('.mode-btn[data-mode="MIXED_ADAPTIVE"]');
+      if (defBtn) {
+        defBtn.classList.add('active', 'bg-saffron-500/20', 'border-saffron-500', 'text-white');
+        defBtn.classList.remove('bg-slate-950', 'border-slate-800', 'text-slate-300');
+      }
+      selectedMode = 'MIXED_ADAPTIVE';
+    });
 
     // Mode button selector
     document.querySelectorAll('.mode-btn').forEach(btn => {
@@ -435,8 +483,10 @@
     // Start Practice
     document.getElementById('startPracticeBtn').addEventListener('click', async () => {
       const examId = document.getElementById('examSelect').value;
+      const subjectId = document.getElementById('subjectSelect').value;
       const count = document.getElementById('countSelect').value;
-      const lang = document.getElementById('langSelect').value;
+      activeTimerMode = document.getElementById('timerModeSelect').value;
+      const lang = localStorage.getItem('portal_language') || 'hi';
 
       document.getElementById('startPracticeBtn').disabled = true;
       document.getElementById('startPracticeBtn').innerText = 'Loading Questions...';
@@ -450,23 +500,31 @@
             examId,
             practiceMode: selectedMode,
             questionCount: count,
+            subjectId: subjectId !== 'all' ? subjectId : null,
             targetLanguage: lang
           })
         });
         const data = await res.json();
 
         if (data.success && data.selection && data.selection.questions.length > 0) {
-          currentQuestions = data.selection.questions;
+          // Strictly ensure only questions with valid options are displayed
+          currentQuestions = data.selection.questions.filter(q => q.options && q.options.length >= 2);
+          if (currentQuestions.length === 0) {
+            alert('No objective questions available matching this practice mode criteria.');
+            return;
+          }
           currentIndex = 0;
           sessionScore = 0;
           totalSecondsInSession = 0;
+          remainingCountdownSeconds = currentQuestions.length * (selectedMode === 'SPEED_PRACTICE' ? 50 : 90);
 
           document.getElementById('sessionArea').classList.remove('hidden');
           document.getElementById('summaryArea').classList.add('hidden');
-          document.getElementById('activeModeBadge').innerText = selectedMode;
+          document.getElementById('activeModeBadge').innerText = selectedMode.replace(/_/g, ' ');
 
           loadQuestion(0);
           startTimer();
+          document.getElementById('sessionArea').scrollIntoView({ behavior: 'smooth' });
         } else {
           alert('No questions available matching this practice mode criteria: ' + (data.error || 'Check inventory'));
         }
@@ -474,7 +532,7 @@
         alert('Failed to start adaptive session: ' + err.message);
       } finally {
         document.getElementById('startPracticeBtn').disabled = false;
-        document.getElementById('startPracticeBtn').innerText = '🚀 Start Adaptive Session';
+        document.getElementById('startPracticeBtn').innerText = '🚀 Start Live Adaptive Practice (अभ्यास शुरू करें)';
       }
     });
 
@@ -495,7 +553,7 @@
       document.getElementById('qDifficulty').innerText = q.difficulty || 'MEDIUM';
       document.getElementById('qTopic').innerText = `Topic: ${q.topicId || 'General'}`;
       document.getElementById('selectionReasonText').innerText = `ℹ️ ${q.selectionReason}`;
-      document.getElementById('qQuestionText').innerText = q.questionText;
+      document.getElementById('qQuestionText').innerText = cleanQuestionText(q.questionText);
 
       const optsContainer = document.getElementById('optionsContainer');
       optsContainer.innerHTML = '';
@@ -529,9 +587,25 @@
       sessionTimer = setInterval(() => {
         secondsSpentInQuestion++;
         totalSecondsInSession++;
-        const mins = Math.floor(secondsSpentInQuestion / 60).toString().padStart(2, '0');
-        const secs = (secondsSpentInQuestion % 60).toString().padStart(2, '0');
-        document.getElementById('timerDisplay').innerText = `${mins}:${secs}`;
+
+        if (activeTimerMode === 'COUNTDOWN') {
+          remainingCountdownSeconds--;
+          if (remainingCountdownSeconds <= 0) {
+            remainingCountdownSeconds = 0;
+            clearInterval(sessionTimer);
+            finishSession();
+            return;
+          }
+          const mins = Math.floor(remainingCountdownSeconds / 60).toString().padStart(2, '0');
+          const secs = (remainingCountdownSeconds % 60).toString().padStart(2, '0');
+          document.getElementById('timerDisplay').innerText = `${mins}:${secs}`;
+        } else if (activeTimerMode === 'STOPWATCH') {
+          const mins = Math.floor(totalSecondsInSession / 60).toString().padStart(2, '0');
+          const secs = (totalSecondsInSession % 60).toString().padStart(2, '0');
+          document.getElementById('timerDisplay').innerText = `${mins}:${secs}`;
+        } else {
+          document.getElementById('timerDisplay').innerText = '∞ Unlimited';
+        }
       }, 1000);
     }
 
