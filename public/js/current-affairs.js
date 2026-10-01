@@ -184,19 +184,186 @@ const MONTHLY_CAPSULE_DATA = [
 let caCurrentQuestionIndex = 0;
 let caUserAnswers = {}; // { questionId: selectedOptionIndex }
 
+
+// Universal Multilingual Support & Strict Bilingual Rule for Current Affairs & Monthly Capsule
+const CA_MULTILINGUAL_MAP = {
+  "1": {
+    "ta": {
+      "q": "இந்திய விமானப்படையின் எந்த உள்நாட்டு இலகுரக போர் விமானம் (LCA) தனது முதல் வெளிநாட்டு பயிற்சியை வெற்றிகரமாக முடித்தது?",
+      "opts": [
+        "LCA தேஜஸ் (Tejas)",
+        "HAL பிரசண்ட் (Prachand)",
+        "சுகோய் Su-30MKI",
+        "மிராஜ் 2000"
+      ],
+      "exp": "எல்சிஏ தேஜஸ் (LCA Tejas) இந்தியாவின் உள்நாட்டு 4.5 தலைமுறை போர் விமானமாகும்."
+    },
+    "te": {
+      "q": "భారత వైమానిక దళానికి చెందిన ఏ స్వదేశీ తేలికపాటి యుద్ధ విమానం (LCA) మొదటి విదేశీ విన్యాసాలను విజయవంతంగా పూర్తి చేసింది?",
+      "opts": [
+        "LCA తేజస్ (Tejas)",
+        "HAL ప్రచండ్ (Prachand)",
+        "సుఖోయ్ Su-30MKI",
+        "మిరాజ్ 2000"
+      ],
+      "exp": "LCA తేజస్ స్వదేశీ సింగిల్ ఇంజిన్ మల్టీరోల్ యుద్ధ విమానం."
+    },
+    "mr": {
+      "q": "भारतीय हवाई दलाच्या कोणत्या स्वदेशी हलक्या लढाऊ विमानाने (LCA) आपला पहिला परदेशी युद्धाभ्यास यशस्वीपणे पूर्ण केला?",
+      "opts": [
+        "एलसीए तेजस (LCA Tejas)",
+        "एचएएल प्रचंड (Prachand)",
+        "सुखोई Su-30MKI",
+        "मिराज 2000"
+      ],
+      "exp": "एलसीए तेजस हे भारताचे स्वदेशी हलके लढाऊ विमान आहे."
+    }
+  },
+  "2": {
+    "ta": {
+      "q": "இஸ்ரோவின் சூரிய ஆய்வக விண்கலமான 'ஆதித்யா-L1' எந்த லாக்ராஞ்சியன் புள்ளியில் வெற்றிகரமாக நிலைநிறுத்தப்பட்டுள்ளது?",
+      "opts": [
+        "லாக்ராஞ்சியன் புள்ளி L1",
+        "லாக்ராஞ்சியன் புள்ளி L2",
+        "லாக்ராஞ்சியன் புள்ளி L4",
+        "லாக்ராஞ்சியன் புள்ளி L5"
+      ],
+      "exp": "ஆதித்யா-L1 பூமியிலிருந்து சுமார் 15 லட்சம் கி.மீ தொலைவில் உள்ள லாக்ராஞ்சியன் புள்ளி 1 (L1) சுற்றியுள்ள ஹாலோ சுற்றுப்பாதையில் நிலைநிறுத்தப்பட்டுள்ளது."
+    },
+    "te": {
+      "q": "ఇస్రో యొక్క సౌర పరిశీలనా ఉపగ్రహం 'ఆదిత్య-L1' ఏ లాగ్రాంజ్ బిందువు వద్ద విజయవంతంగా ప్రవేశపెట్టబడింది?",
+      "opts": [
+        "లాగ్రాంజ్ పాయింట్ L1",
+        "లాగ్రాంజ్ పాయింట్ L2",
+        "లాగ్రాంజ్ పాయింట్ L4",
+        "లాగ్రాంజ్ పాయింట్ L5"
+      ],
+      "exp": "ఆదిత్య-L1 భూమికి 15 లక్షల కిలోమీటర్ల దూరంలో ఉన్న లాగ్రాంజ్ పాయింట్ 1 (L1) చుట్టూ ఉన్న కక్ష్యలో ప్రవేశపెట్టబడింది."
+    }
+  },
+  "3": {
+    "ta": {
+      "q": "'பிஎம் சூர்ய கர்: முஃப்த் பிஜ்லி யோஜனா' திட்டத்தின் கீழ் தகுதியான குடும்பங்களுக்கு மாதம் தோறும் வழங்கப்படும் இலவச சூரிய மின்சாரம் எவ்வளவு?",
+      "opts": [
+        "300 யூனிட்கள் (300 Units)",
+        "150 யூனிட்கள்",
+        "200 யூனிட்கள்",
+        "500 யூனிட்கள்"
+      ],
+      "exp": "பிரதமர் நரேந்திர மோடியால் தொடங்கப்பட்ட இத்திட்டம் ஒவ்வொரு மாதமும் 300 யூனிட் வரை இலவச சூரிய மின்சாரத்தை வழங்குகிறது."
+    },
+    "te": {
+      "q": "'పీఎం సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన' పథకం కింద అర్హత కలిగిన కుటుంబాలకు నెలకు గరిష్టంగా ఎంత ఉచిత సౌర విద్యుత్ అందించబడుతుంది?",
+      "opts": [
+        "300 యూనిట్లు (300 Units)",
+        "150 యూనిట్లు",
+        "200 యూనిట్లు",
+        "500 యూనిట్లు"
+      ],
+      "exp": "ఈ పథకం ద్వారా నెలకు 300 యూనిట్ల వరకు ఉచిత విద్యుత్ అందించబడుతుంది."
+    }
+  },
+  "4": {
+    "ta": {
+      "q": "இந்திய அரசியலமைப்பின் 124(6) வது பிரிவின் கீழ் இந்திய தலைமை நீதிபதிக்கு (CJI) பதவிப் பிரமாணம் செய்து வைப்பவர் யார்?",
+      "opts": [
+        "இந்திய குடியரசுத் தலைவர் (President of India)",
+        "துணைக் குடியரசுத் தலைவர்",
+        "பிரதமர்",
+        "மக்களவை சபாநாயகர்"
+      ],
+      "exp": "பிரிவு 124(6) ன் படி உச்சநீதிமன்ற தலைமை நீதிபதிக்கு குடியரசுத் தலைவர் பதவிப் பிரமாணம் செய்து வைக்கிறார்."
+    },
+    "te": {
+      "q": "భారత రాజ్యాంగంలోని 124(6) అధికరణ ప్రకారం భారత ప్రధాన న్యాయమూర్తి (CJI) చేత ఎవరు ప్రమాణ స్వీకారం చేయిస్తారు?",
+      "opts": [
+        "భారత రాష్ట్రపతి (President of India)",
+        "భారత ఉపరాష్ట్రపతి",
+        "ప్రధాన మంత్రి",
+        "లోక్‌సభ స్పీకర్"
+      ],
+      "exp": "రాజ్యాంగంలోని 124(6) ప్రకారం రాష్ట్రపతి ప్రధాన న్యాయమూర్తికి ప్రమాణం చేయిస్తారు."
+    }
+  },
+  "5": {
+    "ta": {
+      "q": "ஃபிடே கேண்டிடேட்ஸ் செஸ் போட்டியில் வென்று உலக சாம்பியன்ஷிப் பட்டத்திற்கு போட்டியிடும் இளைய இந்திய கிராண்ட்மாஸ்டர் யார்?",
+      "opts": [
+        "டி. குகேஷ் (D. Gukesh)",
+        "ஆர். பிரக்ஞானந்தா",
+        "விதித் குஜராத்தி",
+        "அர்ஜுன் எரிகைசி"
+      ],
+      "exp": "17 வயதான தொம்மராஜு குகேஷ் கேண்டிடேட்ஸ் செஸ் போட்டியை வென்று வரலாறு படைத்தார்."
+    },
+    "te": {
+      "q": "ఫిడే కాండిడేట్స్ చెస్ టోర్నమెంట్‌ను గెలుచుకున్న అత్యంత పిన్న వయస్కుడైన భారతీయ గ్రాండ్‌మాస్టర్ ఎవరు?",
+      "opts": [
+        "డి. గుకేశ్ (D. Gukesh)",
+        "ఆర్. ప్రజ్ఞానంద",
+        "విదిత్ గుజరాతీ",
+        "అర్జున్ ఎరిగైసి"
+      ],
+      "exp": "17 ఏళ్ల డి. గుకేశ్ కాండిడేట్స్ గెలిచి సరికొత్త రికార్డు సృష్టించాడు."
+    }
+  }
+};
+
+function getActiveLanguage() {
+  if (typeof getCurrentLanguage === 'function') return getCurrentLanguage();
+  return localStorage.getItem('sarkari_lang') || 'hi';
+}
+
+// Deterministic Daily Rotation of Current Affairs
+function getTodayCAQuestions() {
+  const now = new Date();
+  const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+  const istDate = new Date(utc + (3600000 * 5.5));
+  const startOfYear = new Date(istDate.getFullYear(), 0, 1);
+  const dayOfYear = Math.floor((istDate - startOfYear) / (24 * 60 * 60 * 1000));
+  
+  // Rotate starting question index deterministically per day
+  const offset = dayOfYear % CURRENT_AFFAIRS_QUIZ_DATA.length;
+  const reordered = [];
+  for (let i = 0; i < CURRENT_AFFAIRS_QUIZ_DATA.length; i++) {
+    const idx = (i + offset) % CURRENT_AFFAIRS_QUIZ_DATA.length;
+    reordered.push(CURRENT_AFFAIRS_QUIZ_DATA[idx]);
+  }
+  return reordered;
+}
+
 function renderCAQuiz() {
   const container = document.getElementById('caQuizCardContainer');
   const progressText = document.getElementById('caQuizProgressText');
   const progressBar = document.getElementById('caQuizProgressBar');
   if (!container) return;
 
-  const total = CURRENT_AFFAIRS_QUIZ_DATA.length;
-  const currentQ = CURRENT_AFFAIRS_QUIZ_DATA[caCurrentQuestionIndex];
+  const activeList = getTodayCAQuestions();
+  const total = activeList.length;
+  const currentQ = activeList[caCurrentQuestionIndex];
   const userAns = caUserAnswers[currentQ.id];
   const isAnswered = userAns !== undefined;
 
+  const lang = getActiveLanguage();
+  const isEnglish = (lang === 'en');
+  const multi = CA_MULTILINGUAL_MAP[currentQ.id] && CA_MULTILINGUAL_MAP[currentQ.id][lang];
+
+  // Strict Bilingual Rule:
+  // - If English: Primary = English, Secondary = Hindi with [🇮🇳 HINDI] badge
+  // - If Regional (e.g. Tamil): Primary = Regional Language, Secondary = English with [🌐 ENGLISH] badge
+  let displayPrimaryQ, displaySecondaryQ, secondaryBadge;
+  if (isEnglish) {
+    displayPrimaryQ = currentQ.qEn;
+    displaySecondaryQ = currentQ.qHi;
+    secondaryBadge = '🇮🇳 HINDI';
+  } else {
+    displayPrimaryQ = multi ? multi.q : (lang === 'hi' ? currentQ.qHi : (currentQ['q_' + lang] || currentQ.qHi));
+    displaySecondaryQ = currentQ.qEn;
+    secondaryBadge = '🌐 ENGLISH';
+  }
+
   if (progressText) {
-    progressText.innerText = `प्रश्न ${caCurrentQuestionIndex + 1} / ${total}`;
+    progressText.innerText = `${isEnglish ? 'Question' : (lang === 'ta' ? 'வினா' : (lang === 'te' ? 'ప్రశ్న' : 'प्रश्न'))} ${caCurrentQuestionIndex + 1} / ${total}`;
   }
   if (progressBar) {
     const pct = Math.round(((caCurrentQuestionIndex + 1) / total) * 100);
@@ -205,18 +372,35 @@ function renderCAQuiz() {
 
   let optionsHtml = '';
   currentQ.options.forEach((opt, idx) => {
-    let btnClass = "border-slate-200 hover:border-indigo-400 bg-white hover:bg-indigo-50/50 text-slate-800";
-    let iconBadge = `<span class="w-7 h-7 rounded-lg bg-slate-100 text-slate-700 font-bold flex items-center justify-center text-xs mr-3 border border-slate-200">${String.fromCharCode(65 + idx)}</span>`;
+    const isSelected = userAns === idx;
+    const isCorrect = opt.correct;
+    
+    // Format Option according to rule:
+    // If English: English / Hindi
+    // If Regional: Regional / English
+    let optDisplay = '';
+    const cleanEn = opt.text.split('(')[0].trim();
+    const cleanHi = opt.text.includes('(') ? opt.text.slice(opt.text.indexOf('(') + 1).replace(')', '').trim() : opt.text;
+    
+    if (isEnglish) {
+      optDisplay = cleanEn + (cleanHi ? ` / ${cleanHi}` : '');
+    } else {
+      let regOpt = (multi && multi.opts && multi.opts[idx]) ? multi.opts[idx] : cleanHi;
+      optDisplay = `${regOpt} / ${cleanEn}`;
+    }
+
+    let btnClass = "border-slate-200 hover:border-indigo-400 hover:bg-indigo-50/50 text-slate-800";
+    let icon = String.fromCharCode(65 + idx);
 
     if (isAnswered) {
-      if (opt.correct) {
-        btnClass = "border-emerald-500 bg-emerald-50 text-emerald-900 font-semibold ring-2 ring-emerald-300";
-        iconBadge = `<span class="w-7 h-7 rounded-lg bg-emerald-600 text-white font-bold flex items-center justify-center text-xs mr-3">✓</span>`;
-      } else if (userAns === idx) {
-        btnClass = "border-rose-500 bg-rose-50 text-rose-900 font-semibold ring-2 ring-rose-300";
-        iconBadge = `<span class="w-7 h-7 rounded-lg bg-rose-600 text-white font-bold flex items-center justify-center text-xs mr-3">✗</span>`;
+      if (isCorrect) {
+        btnClass = "border-emerald-500 bg-emerald-50 text-emerald-900 font-bold";
+        icon = "✓";
+      } else if (isSelected && !isCorrect) {
+        btnClass = "border-rose-500 bg-rose-50 text-rose-900 font-bold";
+        icon = "✕";
       } else {
-        btnClass = "border-slate-100 bg-slate-50/60 text-slate-400 opacity-60";
+        btnClass = "border-slate-100 opacity-60 text-slate-400";
       }
     }
 
@@ -224,23 +408,37 @@ function renderCAQuiz() {
       <button type="button" 
               onclick="handleCAAnswerSelection(${currentQ.id}, ${idx})"
               ${isAnswered ? 'disabled' : ''}
-              class="w-full text-left p-3.5 rounded-xl border transition-all duration-150 flex items-center shadow-xs text-sm ${btnClass}">
-        ${iconBadge}
-        <span class="flex-1">${opt.text}</span>
+              class="w-full text-left p-3.5 sm:p-4 rounded-2xl border-2 transition-all flex items-center justify-between text-xs sm:text-sm font-semibold ${btnClass}">
+        <div class="flex items-center space-x-3">
+          <span class="w-6 h-6 rounded-lg bg-slate-100 flex items-center justify-center text-xs font-bold shrink-0">
+            ${icon}
+          </span>
+          <span>${optDisplay}</span>
+        </div>
       </button>
     `;
   });
 
   let explanationHtml = '';
   if (isAnswered) {
-    const isCorrect = currentQ.options[userAns]?.correct;
+    const isUserCorrect = currentQ.options[userAns]?.correct;
+    const expText = isEnglish ? currentQ.explanationEn : (multi ? multi.exp : currentQ.explanationHi);
+    const expSecondary = isEnglish ? currentQ.explanationHi : currentQ.explanationEn;
+
     explanationHtml = `
-      <div class="mt-4 p-4 rounded-xl border ${isCorrect ? 'bg-emerald-50/80 border-emerald-200' : 'bg-amber-50/80 border-amber-200'} animate-fade-in text-xs leading-relaxed space-y-2">
-        <div class="flex items-center gap-2 font-bold ${isCorrect ? 'text-emerald-800' : 'text-amber-900'}">
-          <span>${isCorrect ? '🎉 सही उत्तर (Correct Answer)!' : '⚠️ सही उत्तर विकल्प देखें (Explanation):'}</span>
+      <div class="mt-4 p-4 rounded-2xl ${isUserCorrect ? 'bg-emerald-50 border border-emerald-200' : 'bg-rose-50 border border-rose-200'} space-y-2 animate-fadeIn">
+        <div class="flex items-center gap-2">
+          <span class="text-base">${isUserCorrect ? '🎉' : '💡'}</span>
+          <span class="text-xs font-bold ${isUserCorrect ? 'text-emerald-800' : 'text-rose-800'}">
+            ${isUserCorrect ? (isEnglish ? 'Correct Answer!' : 'सही उत्तर!') : (isEnglish ? 'Answer Explanation:' : 'सही उत्तर की व्याख्या:')}
+          </span>
         </div>
-        <p class="text-slate-800"><strong>हिंदी:</strong> ${currentQ.explanationHi}</p>
-        <p class="text-slate-600"><strong>English:</strong> ${currentQ.explanationEn}</p>
+        <p class="text-xs text-slate-700 leading-relaxed font-medium">
+          ${expText}
+        </p>
+        <p class="text-[11px] text-slate-500 italic border-t border-slate-200/60 pt-1.5">
+          <span class="font-bold uppercase tracking-wider text-[10px] text-blue-600 mr-1">${secondaryBadge}:</span>${expSecondary}
+        </p>
       </div>
     `;
   }
@@ -254,14 +452,15 @@ function renderCAQuiz() {
         <span class="text-xs text-slate-400 font-mono">QID: #CA-2026-${currentQ.id}</span>
       </div>
 
-      <!-- Question Text (Bilingual) -->
-      <div class="space-y-1.5">
-        <h3 class="text-base sm:text-lg font-bold text-slate-900 leading-snug">
-          ${currentQ.qHi}
+      <!-- Question Text (Strict Bilingual Formatting) -->
+      <div class="p-4 rounded-2xl bg-amber-50/80 dark:bg-slate-800 border-2 border-amber-300 dark:border-slate-700 space-y-2">
+        <h3 class="text-base sm:text-lg font-black text-slate-900 dark:text-white leading-snug">
+          ${displayPrimaryQ}
         </h3>
-        <p class="text-xs sm:text-sm text-slate-500 italic">
-          ${currentQ.qEn}
-        </p>
+        <div class="p-2.5 rounded-xl bg-blue-50/95 dark:bg-slate-950 border border-blue-200 dark:border-cyan-800 text-xs text-blue-950 dark:text-cyan-200 font-medium leading-relaxed">
+          <span class="text-[10px] font-black uppercase text-blue-700 dark:text-cyan-400 mr-1.5 bg-blue-200/70 dark:bg-cyan-950 px-1.5 py-0.5 rounded">${secondaryBadge}</span>
+          ${displaySecondaryQ}
+        </div>
       </div>
 
       <!-- Options -->
@@ -278,20 +477,20 @@ function renderCAQuiz() {
                 onclick="navigateCAQuestion(-1)"
                 ${caCurrentQuestionIndex === 0 ? 'disabled' : ''}
                 class="px-4 py-2 rounded-xl border border-slate-300 text-xs font-semibold text-slate-700 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed">
-          ← पिछला (Prev)
+          ← ${isEnglish ? 'Previous' : 'पिछला (Prev)'}
         </button>
 
         ${caCurrentQuestionIndex < total - 1 ? `
           <button type="button" 
                   onclick="navigateCAQuestion(1)"
                   class="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold shadow-xs">
-            अगला (Next) →
+            ${isEnglish ? 'Next →' : 'अगला (Next) →'}
           </button>
         ` : `
           <button type="button" 
                   onclick="finishCAQuiz()"
                   class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold shadow-md">
-            स्कोर देखें (View Score) 🎯
+            ${isEnglish ? 'View Scorecard 🎯' : 'स्कोर देखें (View Score) 🎯'}
           </button>
         `}
       </div>
@@ -406,17 +605,27 @@ function renderMonthlyCapsule() {
   const container = document.getElementById('caMonthlyCapsuleContainer');
   if (!container) return;
 
+  const lang = getActiveLanguage();
+  const isEnglish = (lang === 'en');
+
   let html = '';
   MONTHLY_CAPSULE_DATA.forEach((sec, idx) => {
     let itemsHtml = '';
     sec.points.forEach((pt, pIdx) => {
+      // If English: pt.en primary, pt.hi secondary
+      // If Regional: pt.hi (or localized) primary, pt.en secondary
+      const primaryText = isEnglish ? pt.en : pt.hi;
+      const secondaryText = isEnglish ? pt.hi : pt.en;
+      const secBadge = isEnglish ? 'HINDI' : 'ENGLISH';
+
       itemsHtml += `
         <li class="p-3 rounded-xl bg-slate-50/70 border border-slate-100 hover:border-indigo-200 hover:bg-indigo-50/30 transition-all text-xs space-y-1">
-          <div class="text-slate-800 font-medium leading-relaxed">
-            <span class="text-indigo-600 font-bold mr-1.5">•</span>${pt.hi}
+          <div class="text-slate-900 font-bold leading-relaxed">
+            <span class="text-indigo-600 font-black mr-1.5">•</span>${primaryText}
           </div>
-          <div class="text-slate-500 text-[11px] pl-3.5 italic">
-            ${pt.en}
+          <div class="text-slate-500 text-[11px] pl-3.5 italic flex items-center space-x-1.5">
+            <span class="text-[9px] font-black uppercase text-blue-700 bg-blue-100 px-1 rounded">${secBadge}</span>
+            <span>${secondaryText}</span>
           </div>
         </li>
       `;
@@ -429,7 +638,7 @@ function renderMonthlyCapsule() {
             ${sec.category}
           </h4>
           <span class="text-[10px] font-semibold px-2 py-0.5 rounded-md bg-slate-100 text-slate-600">
-            ${sec.points.length} मुख्य बिंदु
+            ${sec.points.length} ${isEnglish ? 'Key Points' : 'मुख्य बिंदु'}
           </span>
         </div>
         <ul class="space-y-2">
@@ -493,3 +702,12 @@ window.reviewCAQuiz = reviewCAQuiz;
 window.copyCACapsuleNotes = copyCACapsuleNotes;
 
 document.addEventListener('DOMContentLoaded', initCurrentAffairs);
+
+
+// Auto re-render on language switch
+if (typeof window !== 'undefined') {
+  window.addEventListener('languageChanged', () => {
+    if (typeof renderCAQuiz === 'function') renderCAQuiz();
+    if (typeof renderMonthlyCapsule === 'function') renderMonthlyCapsule();
+  });
+}

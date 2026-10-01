@@ -1669,3 +1669,25 @@ window.alert = function(msg) {
 };
 
 
+
+
+// Toggle collapsible 31 boards grid on homepage
+function toggleAllBoards() {
+  const container = document.getElementById('moreBoardsGrid');
+  const btnText = document.getElementById('toggleBoardsText');
+  const btnIcon = document.getElementById('toggleBoardsIcon');
+  if (!container) return;
+  const isHidden = container.classList.contains('hidden');
+  if (isHidden) {
+    container.classList.remove('hidden');
+    if (btnText) btnText.textContent = '▲ Hide Extra Boards (कम बोर्ड्स दिखाएं)';
+    if (btnIcon) btnIcon.textContent = '↑';
+  } else {
+    container.classList.add('hidden');
+    if (btnText) btnText.textContent = '📚 View All 31 State & Central Education Boards (सभी 31 बोर्ड्स देखें)';
+    if (btnIcon) btnIcon.textContent = '↓';
+    const section = document.getElementById('board-section');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+window.toggleAllBoards = toggleAllBoards;

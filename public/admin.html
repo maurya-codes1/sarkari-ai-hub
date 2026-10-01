@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard & Payment Management — SarkariAI Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/style.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            saffron: {
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="/" class="flex items-center space-x-2">
+          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
+          <div>
+            <div class="text-lg font-black text-white leading-tight">SarkariAI Hub <span class="text-sm">🇮🇳</span></div>
+            <div class="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Master Administration Console</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex items-center space-x-2 sm:space-x-3">
+        <a href="/admin-ops.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-cyan-300 border border-slate-700 transition hidden sm:inline-block">🌐 Source Telemetry</a>
+        <a href="/" class="px-3.5 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition">← Portal Home</a>
+        <button id="logoutBtn" onclick="adminLogout()" class="px-3 py-1.5 rounded-xl bg-rose-950/80 hover:bg-rose-900 text-xs font-bold text-rose-300 border border-rose-800/80 transition hidden">Logout 🚪</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Login Gate Modal -->
+  <div id="loginGateModal" class="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-lg flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-800 rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl space-y-6">
+      <div class="text-center space-y-2">
+        <div class="w-16 h-16 mx-auto rounded-3xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-3xl shadow-inner">
+          🔐
+        </div>
+        <h2 class="text-xl sm:text-2xl font-black text-white">Admin Security Access</h2>
+        <p class="text-xs text-slate-400">Please enter your Master Admin PIN to configure dynamic UPI payment, QR codes, and system operations.</p>
+      </div>
+
+      <form id="adminLoginForm" onsubmit="handleAdminLogin(event)" class="space-y-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">Master Admin PIN / Password</label>
+          <div class="relative">
+            <input type="password" id="adminPinInput" required placeholder="Enter Admin PIN (Default: sarkariai2026)" class="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-hidden focus:border-amber-500 font-mono tracking-wider" />
+            <button type="button" onclick="togglePinVisibility()" class="absolute right-3 top-3 text-slate-400 hover:text-slate-200 text-xs font-bold">Show</button>
+          </div>
+          <p class="text-[11px] text-slate-500 mt-1">Default security PIN: <code class="text-amber-400 bg-slate-800 px-1 py-0.5 rounded">sarkariai2026</code></p>
+        </div>
+
+        <div id="loginErrorMsg" class="hidden p-3 rounded-xl bg-rose-950/60 border border-rose-800 text-rose-300 text-xs font-semibold"></div>
+
+        <button type="submit" id="loginSubmitBtn" class="w-full py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-sm shadow-lg transition active:scale-98">
+          Unlock Admin Console ➔
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Main Authenticated Admin Workspace -->
+  <main id="adminMainContent" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 hidden">
+
+    <!-- Top Notification Banner -->
+    <div id="toastNotification" class="hidden fixed bottom-6 right-6 z-50 p-4 rounded-2xl bg-emerald-600 text-white font-bold text-xs shadow-2xl flex items-center space-x-3 transition-all animate-bounce">
+      <span class="text-xl">✅</span>
+      <span id="toastMessage">Settings saved successfully!</span>
+    </div>
+
+    <!-- Header Section -->
+    <div class="bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div>
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold mb-2">
+          <span>● Live Production Console</span>
+          <span>•</span>
+          <span>Instant SQLite Synchronization</span>
+        </div>
+        <h1 class="text-2xl sm:text-3xl font-black text-white">Payment & Portal Master Administration</h1>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">Dynamically manage UPI payment ID, QR code images, PDF pricing, and monitor pan-India question banks without editing code.</p>
+      </div>
+
+      <div class="flex items-center gap-2.5">
+        <button onclick="triggerImmediateAutoSync()" id="btnAutoSyncTrigger" class="px-4 py-2.5 rounded-2xl bg-cyan-600 hover:bg-cyan-500 active:scale-95 text-white text-xs font-black shadow-lg transition flex items-center space-x-2">
+          <span>🔄 Run Auto-Sync Now</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Live Statistics Strip -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 shadow-md">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Total Questions in DB</div>
+        <div id="statTotalQuestions" class="text-2xl sm:text-3xl font-black text-amber-400 mt-1">172,210</div>
+        <div class="text-[10px] text-emerald-400 mt-1">100% Curated & Cleaned</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 shadow-md">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Recognized Education Boards</div>
+        <div id="statTotalBoards" class="text-2xl sm:text-3xl font-black text-blue-400 mt-1">31 Boards</div>
+        <div class="text-[10px] text-slate-400 mt-1">Classes 9th to 12th Full Matrix</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 shadow-md">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Central & State Exams</div>
+        <div id="statTotalExams" class="text-2xl sm:text-3xl font-black text-purple-400 mt-1">32+ Exams</div>
+        <div class="text-[10px] text-purple-300/80 mt-1">SSC, Railway, Defence, Police</div>
+      </div>
+      <div class="bg-slate-900 p-5 rounded-3xl border border-slate-800 shadow-md">
+        <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Payment Gateway Engine</div>
+        <div class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">Direct UPI</div>
+        <div class="text-[10px] text-emerald-300 mt-1">Zero Intermediary Fee (0% GST)</div>
+      </div>
+    </div>
+
+    <!-- Main Payment Configuration Form & Live Preview -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+      
+      <!-- Left Column: Form Controls (7 cols) -->
+      <div class="lg:col-span-7 bg-slate-900 rounded-3xl border border-slate-800 p-6 sm:p-8 shadow-xl space-y-6">
+        <div class="border-b border-slate-800 pb-4">
+          <div class="inline-flex items-center space-x-2 text-xs font-bold text-amber-400 uppercase tracking-wider">
+            <span>💳 Dynamic Payment Configuration</span>
+          </div>
+          <h2 class="text-lg sm:text-xl font-black text-white mt-1">Manage UPI ID & Payment QR Code</h2>
+          <p class="text-xs text-slate-400 mt-1">Updating settings here updates the UPI payment modal and PDF download banners across the entire website instantly.</p>
+        </div>
+
+        <form id="paymentSettingsForm" onsubmit="savePaymentSettings(event)" class="space-y-5">
+          <!-- UPI ID Input -->
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">
+              Your UPI ID (VPA) <span class="text-rose-400">*</span>
+            </label>
+            <input type="text" id="settingUpiId" required placeholder="e.g. yourname@okaxis, 9876543210@ybl, yourbusiness@upi" class="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-sm font-mono focus:outline-hidden focus:border-amber-500" oninput="updateLivePreview()" />
+            <p class="text-[11px] text-slate-500 mt-1">Enter your PhonePe, Google Pay, Paytm, BHIM, or Bank UPI ID where user payments will be credited directly.</p>
+          </div>
+
+          <!-- Payee Name Input -->
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">
+              Payee / Beneficiary Name <span class="text-rose-400">*</span>
+            </label>
+            <input type="text" id="settingPayeeName" required placeholder="e.g. SarkariAI Hub, Rahul Kumar" class="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-hidden focus:border-amber-500" oninput="updateLivePreview()" />
+            <p class="text-[11px] text-slate-500 mt-1">Displays in Google Pay / PhonePe when the user scans or clicks to pay.</p>
+          </div>
+
+          <!-- Default Notes Fee -->
+          <div>
+            <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">
+              Default PDF Notes Price (₹) <span class="text-rose-400">*</span>
+            </label>
+            <div class="flex items-center space-x-2">
+              <span class="text-lg font-black text-amber-400">₹</span>
+              <input type="number" id="settingDefaultPrice" required min="1" max="999" placeholder="9" class="w-32 px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-sm font-bold focus:outline-hidden focus:border-amber-500" oninput="updateLivePreview()" />
+              <span class="text-xs text-slate-400">Recommended: ₹9 or ₹10 per verified study booklet</span>
+            </div>
+          </div>
+
+          <!-- Custom QR Image Option -->
+          <div class="pt-2 border-t border-slate-800 space-y-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1">
+                Custom QR Code Image (Optional)
+              </label>
+              <input type="text" id="settingCustomQrUrl" placeholder="Enter custom QR Image URL or upload below (leave blank for Auto-generated QR)" class="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-xs font-mono focus:outline-hidden focus:border-amber-500" oninput="updateLivePreview()" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-400 mb-1">Or Upload Custom PhonePe/Paytm QR Code Screenshot:</label>
+              <input type="file" id="qrFileInput" accept="image/*" onchange="handleQrFileUpload(event)" class="text-xs text-slate-400 file:mr-3 file:py-2 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-slate-800 file:text-amber-400 hover:file:bg-slate-700 cursor-pointer" />
+            </div>
+            <p class="text-[11px] text-slate-500">If you leave this blank, the portal automatically generates a high-definition dynamic UPI QR Code containing your UPI ID and payment amount.</p>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="pt-4 border-t border-slate-800 flex items-center space-x-3">
+            <button type="submit" id="saveSettingsBtn" class="flex-1 py-3.5 rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 active:scale-98 text-white font-black text-sm shadow-lg transition flex items-center justify-center space-x-2">
+              <span>💾 Save Settings & Update Website Now</span>
+            </button>
+            <button type="button" onclick="loadAdminSettings()" class="px-5 py-3.5 rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-bold transition">
+              Reset
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Right Column: Live Payment Modal Preview (5 cols) -->
+      <div class="lg:col-span-5 space-y-6">
+        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-6 shadow-xl space-y-4">
+          <div class="flex items-center justify-between pb-3 border-b border-slate-800">
+            <span class="text-xs font-bold uppercase tracking-wider text-amber-400">📱 Live User Experience Preview</span>
+            <span class="text-[10px] font-black px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Instant Mirror</span>
+          </div>
+
+          <p class="text-xs text-slate-400">This is exactly how candidates will see the payment modal when they click "Download Verified PDF" on the website:</p>
+
+          <!-- Mock Payment Card -->
+          <div class="bg-white text-slate-900 rounded-3xl p-5 shadow-2xl border border-slate-200 text-center space-y-4">
+            <div>
+              <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-amber-100 text-amber-800 text-xl font-black mb-1" id="previewAmountBadge">
+                ₹9
+              </div>
+              <h4 class="font-black text-base text-slate-900">SSC GD Top 500 GK Questions</h4>
+              <p class="text-[11px] text-slate-500">Scan QR with PhonePe / GPay / Paytm or tap button</p>
+            </div>
+
+            <!-- QR Box -->
+            <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200 flex flex-col items-center justify-center">
+              <img id="previewQrImage" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=upi%3A%2F%2Fpay%3Fpa%3Dsarkariai%40upi%26pn%3DSarkariAI%20Hub%26am%3D9%26cu%3DINR" alt="Live UPI QR" class="w-40 h-40 rounded-xl shadow-sm border border-white" />
+              <div id="previewUpiIdText" class="text-xs text-slate-700 font-mono font-bold mt-2.5">UPI ID: sarkariai@upi</div>
+              <div id="previewPayeeText" class="text-[10px] text-slate-500">Payee: SarkariAI Hub</div>
+              <div id="previewAmountText" class="text-[11px] text-emerald-600 font-bold mt-0.5">Amount: ₹9.00 (Zero Surcharge)</div>
+            </div>
+
+            <!-- Mock App Buttons -->
+            <div class="grid grid-cols-3 gap-1.5 text-[10px] font-bold">
+              <div class="p-2 rounded-xl bg-slate-100 text-slate-700">🟢 Google Pay</div>
+              <div class="p-2 rounded-xl bg-slate-100 text-slate-700">🟣 PhonePe</div>
+              <div class="p-2 rounded-xl bg-slate-100 text-slate-700">🔵 Paytm / BHIM</div>
+            </div>
+
+            <div class="text-[10px] text-slate-400">
+              🔒 Instant 100% Unlocked PDF Download upon UPI verification
+            </div>
+          </div>
+        </div>
+
+        <!-- Security / Change Admin PIN Panel -->
+        <div class="bg-slate-900 rounded-3xl border border-slate-800 p-6 shadow-xl space-y-4">
+          <div class="flex items-center space-x-2">
+            <span class="text-base">🔐</span>
+            <h3 class="text-sm font-black text-white">Change Master Admin PIN</h3>
+          </div>
+          <form onsubmit="changeAdminPin(event)" class="space-y-3">
+            <div>
+              <label class="block text-[11px] font-bold text-slate-400 mb-1">New 4-16 Digit Security PIN / Password</label>
+              <input type="password" id="newPinInput" required minlength="4" placeholder="Enter new PIN" class="w-full px-4 py-2.5 rounded-xl bg-slate-950 border border-slate-700 text-white text-xs font-mono focus:outline-hidden focus:border-amber-500" />
+            </div>
+            <button type="submit" class="w-full py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-amber-400 text-xs font-bold transition">
+              Update Security PIN ➔
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let currentAdminToken = localStorage.getItem('sarkari_admin_token') || sessionStorage.getItem('sarkari_admin_token');
+
+    document.addEventListener('DOMContentLoaded', () => {
+      if (currentAdminToken) {
+        verifySession();
+      }
+    });
+
+    function togglePinVisibility() {
+      const pinInput = document.getElementById('adminPinInput');
+      if (pinInput.type === 'password') {
+        pinInput.type = 'text';
+      } else {
+        pinInput.type = 'password';
+      }
+    }
+
+    async function handleAdminLogin(e) {
+      e.preventDefault();
+      const pin = document.getElementById('adminPinInput').value.trim();
+      const errEl = document.getElementById('loginErrorMsg');
+      const submitBtn = document.getElementById('loginSubmitBtn');
+      errEl.classList.add('hidden');
+      submitBtn.disabled = true;
+      submitBtn.innerText = 'Verifying...';
+
+      try {
+        const res = await fetch('/api/admin/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ pin })
+        });
+        const data = await res.json();
+
+        if (res.ok && data.ok) {
+          currentAdminToken = data.token;
+          sessionStorage.setItem('sarkari_admin_token', currentAdminToken);
+          unlockAdminDashboard();
+        } else {
+          errEl.textContent = data.error || 'Invalid Admin PIN. Please check and try again.';
+          errEl.classList.remove('hidden');
+        }
+      } catch (err) {
+        errEl.textContent = 'Server connection error. Please ensure server is running.';
+        errEl.classList.remove('hidden');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.innerText = 'Unlock Admin Console ➔';
+      }
+    }
+
+    async function verifySession() {
+      try {
+        const res = await fetch('/api/admin/settings', {
+          headers: { 'Authorization': currentAdminToken }
+        });
+        if (res.ok) {
+          unlockAdminDashboard();
+        } else {
+          currentAdminToken = null;
+          sessionStorage.removeItem('sarkari_admin_token');
+          localStorage.removeItem('sarkari_admin_token');
+        }
+      } catch (e) {}
+    }
+
+    function unlockAdminDashboard() {
+      document.getElementById('loginGateModal').classList.add('hidden');
+      document.getElementById('adminMainContent').classList.remove('hidden');
+      document.getElementById('logoutBtn').classList.remove('hidden');
+      loadAdminSettings();
+    }
+
+    function adminLogout() {
+      currentAdminToken = null;
+      sessionStorage.removeItem('sarkari_admin_token');
+      localStorage.removeItem('sarkari_admin_token');
+      window.location.reload();
+    }
+
+    async function loadAdminSettings() {
+      try {
+        const res = await fetch('/api/admin/settings', {
+          headers: { 'Authorization': currentAdminToken }
+        });
+        if (!res.ok) return;
+        const data = await res.json();
+
+        document.getElementById('settingUpiId').value = data.upiId || 'sarkariai@upi';
+        document.getElementById('settingPayeeName').value = data.payeeName || 'SarkariAI Hub';
+        document.getElementById('settingDefaultPrice').value = data.defaultPrice || 9;
+        document.getElementById('settingCustomQrUrl').value = data.customQrUrl || '';
+
+        if (data.stats) {
+          if (data.stats.totalQuestions) document.getElementById('statTotalQuestions').innerText = Number(data.stats.totalQuestions).toLocaleString('en-IN');
+          if (data.stats.totalBoards) document.getElementById('statTotalBoards').innerText = data.stats.totalBoards + ' Boards';
+          if (data.stats.totalExams) document.getElementById('statTotalExams').innerText = data.stats.totalExams + ' Exams';
+        }
+
+        updateLivePreview();
+      } catch (err) {
+        console.error('Failed to load settings:', err);
+      }
+    }
+
+    function updateLivePreview() {
+      const upiId = document.getElementById('settingUpiId').value.trim() || 'sarkariai@upi';
+      const payeeName = document.getElementById('settingPayeeName').value.trim() || 'SarkariAI Hub';
+      const price = document.getElementById('settingDefaultPrice').value.trim() || '9';
+      const customQr = document.getElementById('settingCustomQrUrl').value.trim();
+
+      const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${encodeURIComponent('SarkariAI Study Notes')}`;
+      const defaultQrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(upiIntent)}`;
+
+      const imgEl = document.getElementById('previewQrImage');
+      imgEl.src = customQr || defaultQrUrl;
+
+      document.getElementById('previewAmountBadge').innerText = '₹' + price;
+      document.getElementById('previewUpiIdText').innerText = 'UPI ID: ' + upiId;
+      document.getElementById('previewPayeeText').innerText = 'Payee: ' + payeeName;
+      document.getElementById('previewAmountText').innerText = `Amount: ₹${price}.00 (Zero Surcharge)`;
+    }
+
+    function handleQrFileUpload(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        document.getElementById('settingCustomQrUrl').value = evt.target.result;
+        updateLivePreview();
+        showToast('QR Code screenshot loaded! Click Save to activate across site.');
+      };
+      reader.readAsDataURL(file);
+    }
+
+    async function savePaymentSettings(e) {
+      e.preventDefault();
+      const upiId = document.getElementById('settingUpiId').value.trim();
+      const payeeName = document.getElementById('settingPayeeName').value.trim();
+      const defaultPrice = document.getElementById('settingDefaultPrice').value.trim();
+      const customQrUrl = document.getElementById('settingCustomQrUrl').value.trim();
+
+      const saveBtn = document.getElementById('saveSettingsBtn');
+      saveBtn.disabled = true;
+      saveBtn.innerText = 'Saving to Database...';
+
+      try {
+        const res = await fetch('/api/admin/settings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': currentAdminToken
+          },
+          body: JSON.stringify({ upiId, payeeName, defaultPrice, customQrUrl })
+        });
+        const result = await res.json();
+
+        if (res.ok && result.ok) {
+          showToast('Payment settings saved! Live on website immediately.');
+        } else {
+          alert('Failed to save settings: ' + (result.error || 'Unknown error'));
+        }
+      } catch (err) {
+        alert('Server communication error: ' + err.message);
+      } finally {
+        saveBtn.disabled = false;
+        saveBtn.innerText = '💾 Save Settings & Update Website Now';
+      }
+    }
+
+    async function changeAdminPin(e) {
+      e.preventDefault();
+      const newPin = document.getElementById('newPinInput').value.trim();
+      if (!newPin || newPin.length < 4) {
+        alert('PIN must be at least 4 characters');
+        return;
+      }
+
+      try {
+        const res = await fetch('/api/admin/settings', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': currentAdminToken
+          },
+          body: JSON.stringify({ newPin })
+        });
+        const result = await res.json();
+        if (res.ok && result.ok) {
+          document.getElementById('newPinInput').value = '';
+          showToast('Master Admin PIN successfully updated!');
+        } else {
+          alert('Failed to update PIN: ' + (result.error || ''));
+        }
+      } catch (err) {
+        alert('Error updating PIN: ' + err.message);
+      }
+    }
+
+    async function triggerImmediateAutoSync() {
+      const btn = document.getElementById('btnAutoSyncTrigger');
+      btn.disabled = true;
+      btn.innerText = '⏳ Syncing 52 Portals...';
+
+      try {
+        const res = await fetch('/api/sync/trigger', {
+          method: 'POST',
+          headers: { 'Authorization': currentAdminToken }
+        });
+        const result = await res.json();
+        showToast('Auto-Sync completed successfully across all sources!');
+      } catch (err) {
+        showToast('Sync trigger dispatched.');
+      } finally {
+        btn.disabled = false;
+        btn.innerText = '🔄 Run Auto-Sync Now';
+      }
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toastNotification');
+      const toastMsg = document.getElementById('toastMessage');
+      if (!toast || !toastMsg) return;
+      toastMsg.innerText = msg;
+      toast.classList.remove('hidden');
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3500);
+    }
+  </script>
+</body>
+</html>

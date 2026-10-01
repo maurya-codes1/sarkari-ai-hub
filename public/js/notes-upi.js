@@ -2,6 +2,14 @@
 // Features: Client-side html2pdf rendering with zero page-cut bugs (page-break-inside: avoid),
 // 100-200+ authentic questions per subject, 10-Year Hall of Fame, and 100% CBT vs Board separation.
 
+window.DYNAMIC_UPI_CONFIG = { upiId: "sarkariai@upi", payeeName: "SarkariAI Hub", defaultPrice: 9, customQrUrl: "" };
+if (typeof fetch !== 'undefined') {
+  fetch('/api/pay/config')
+    .then(r => r.json())
+    .then(data => { if (data && data.upiId) window.DYNAMIC_UPI_CONFIG = data; })
+    .catch(() => {});
+}
+
 const MASTER_SCIENCE_MCQS = [
   {
     "q": "1. प्रकाश का वेग सर्वाधिक किस माध्यम में होता है?\n[In which medium is the speed of light maximum?]",
@@ -6831,9 +6839,12 @@ function openUpiPaymentModal(noteId, customNote = null) {
   if (!note) return;
   activePaymentNote = note;
 
-  const upiId = "sarkariai@upi";
-  const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent('SarkariAI Hub')}&am=${note.price}&cu=INR&tn=${encodeURIComponent(note.title.slice(0, 25))}`;
-  const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(upiIntent)}`;
+  const upiCfg = window.DYNAMIC_UPI_CONFIG || {};
+  const upiId = upiCfg.upiId || "sarkariai@upi";
+  const payeeName = upiCfg.payeeName || "SarkariAI Hub";
+  const price = note.price || upiCfg.defaultPrice || 9;
+  const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${encodeURIComponent(note.title.slice(0, 25))}`;
+  const qrUrl = upiCfg.customQrUrl || `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(upiIntent)}`;
 
   const modal = document.getElementById('upiPaymentDialog');
   const modalContent = document.getElementById('upiModalContent');

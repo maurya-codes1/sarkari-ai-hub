@@ -769,7 +769,10 @@
               <span data-i18n="sb_btn_mpbse">Practice MPBSE →</span>
             </button>
           </div>
+        </div>
 
+        <!-- Collapsible Container for Remaining 25 State & National Boards -->
+        <div id="moreBoardsGrid" class="hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3.5 mt-3.5 transition-all duration-300">
           <!-- Maharashtra Board -->
           <div class="p-4 rounded-2xl bg-slate-50 dark:bg-slate-800/70 border border-slate-200 dark:border-slate-700/80 hover:border-indigo-500 transition group flex flex-col justify-between space-y-3">
             <div>
@@ -1241,7 +1244,18 @@
           </div>
         </div>
 
-        <div class="text-center pt-2">
+        <!-- Interactive Boards Control Bar (Mobile-Optimized) -->
+        <div class="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <button id="toggleAllBoardsBtn" type="button" onclick="toggleAllBoards()" class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-gradient-to-r from-amber-500 via-orange-500 to-amber-600 hover:from-amber-600 hover:to-orange-600 active:scale-95 text-slate-950 font-black text-xs sm:text-sm shadow-md transition flex items-center justify-center space-x-2 cursor-pointer">
+            <span id="toggleBoardsText">📚 View All 31 State & Central Education Boards (सभी 31 बोर्ड्स देखें)</span>
+            <span id="toggleBoardsIcon" class="text-base font-black transition-transform">↓</span>
+          </button>
+          <a href="#directory" onclick="switchDirectoryCategory('boards')" class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white dark:bg-slate-800 border-2 border-slate-300 dark:border-slate-700 hover:border-amber-500 dark:hover:border-amber-400 text-slate-900 dark:text-white font-black text-xs sm:text-sm shadow-xs transition flex items-center justify-center space-x-2">
+            <span>📂 Open Full Directory & Result Links</span>
+            <span>➔</span>
+          </a>
+        </div>
+<div class="text-center pt-2">
           <p class="text-xs text-slate-500 dark:text-slate-400" data-i18n="sb_additional_boards">
             Covering all 31 Recognized National & State Secondary Education Boards across India with Authentic Native-Language & English Curriculum.
           </p>
@@ -1368,7 +1382,7 @@
               </div>
             </div>
             <div class="p-3 bg-amber-50 border-t border-amber-200 text-center">
-              <a href="#directory" onclick="switchDirectoryCategory('boards')" class="text-xs font-bold text-amber-900 hover:underline" data-i18n="col_boards_footer">See All 20 State Boards (TN, Karnataka, WB, MH, RJ, MP) →</a>
+              <a href="#directory" onclick="switchDirectoryCategory('boards')" class="text-xs font-bold text-amber-900 hover:underline" data-i18n="col_boards_footer">See All 31 State & Central Education Boards (CBSE, UP, Bihar, MH, RJ, MP, South & NE) →</a>
             </div>
           </div>
 
@@ -2550,24 +2564,24 @@
 
         <div class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white p-6 sm:p-8 rounded-3xl shadow-lg">
           <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-black bg-blue-500/30 border border-blue-400/40 text-blue-200 mb-2">
-            🏛️ 60+ National & State Boards
+            🏛️ 31 Education Boards + 32+ Competitive Exams (63+ Total)
           </span>
           <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight" data-i18n="directory_title">
             All-India Board & Competitive Exam Hub
           </h2>
           <p class="text-xs sm:text-sm text-blue-200 mt-2 font-medium" data-i18n="directory_subtitle">
-            Direct result links, official portals, eligibility criteria, and instant photo presets for 60+ exams.
+            Direct result links, official portals, eligibility criteria, and instant photo presets for 31 state/central boards and 32+ competitive recruitment exams.
           </p>
         </div>
 
         <!-- Filter Category Tabs (Vibrant Buttons) -->
         <div class="flex flex-wrap items-center gap-2">
           <button data-cat="all" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-blue-900 text-white shadow-md transition" data-i18n="tab_all">All Exams</button>
-          <button data-cat="boards" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-amber-50 transition" data-i18n="tab_boards">🎓 10th & 12th Boards</button>
-          <button data-cat="central" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-blue-50 transition" data-i18n="tab_central">🏛️ Central & Defence</button>
-          <button data-cat="police" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-rose-50 transition" data-i18n="tab_police">👮 Police Bharti</button>
+          <button data-cat="boards" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-amber-50 transition" data-i18n="tab_boards">🎓 31 State & National Boards</button>
+          <button data-cat="central" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-blue-50 transition" data-i18n="tab_central">🏛️ Central & Defence (14)</button>
+          <button data-cat="police" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-rose-50 transition" data-i18n="tab_police">👮 Police Bharti (8)</button>
           <button data-cat="entrance" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-emerald-50 transition" data-i18n="tab_entrance">🩺 NEET / JEE / CUET</button>
-          <button data-cat="teaching" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-purple-50 transition" data-i18n="tab_teaching">👨‍🏫 Teaching / TET</button>
+          <button data-cat="teaching" class="category-filter-btn px-4 py-2.5 rounded-xl text-xs font-black bg-white border border-slate-300 text-slate-800 hover:bg-purple-50 transition" data-i18n="tab_teaching">👨‍🏫 Teaching / TET (5)</button>
         </div>
 
         <!-- Dynamic Grid of Colorful Cards -->
