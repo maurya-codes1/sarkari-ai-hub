@@ -25,12 +25,16 @@ function cleanQuestionText(text) {
   let cleaned = text.trim();
   // Strip leading metadata in brackets e.g. [RRB NTPC CBT-1 Exam Practice Q1] or [सामान्य विज्ञान]
   cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
-  // Strip leading exam/board prefix like CBSE Class 10 Science: or कक्षा 10 विज्ञान:
-  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '');
-  // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:
-  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
-  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  // Strip exam/board/class/subject names followed by question numbering or colon:
+  // e.g. "CBSE विज्ञान प्रश्न 13:", "CBSE Science Q13:", "UPMSP गणित प्रश्न 5 -", "Class 10 Science Q.4:", "NCERT प्रश्न 2:"
+  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u097F\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  // Strip general board/exam/class labels:
+  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
+  // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:, Q13:
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
   cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
+  cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');
   // Strip trailing provenance/noise in parentheses e.g. (सीबीएसई कक्षा 10 विज्ञान नमूना प्रश्न 15)? or (Question #26)
   const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
   const match = cleaned.match(trailingNoiseRegex);
@@ -38,6 +42,8 @@ function cleanQuestionText(text) {
     const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
     cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
   }
+  // Strip inline English tags like \n[English: ...] or [English: ...]
+  cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
   return cleaned.trim();
 }
 
@@ -94,9 +100,44 @@ class MockService {
     const resolvedStudiedIds = Array.isArray(studiedQuestionIds) && studiedQuestionIds.length > 0
       ? studiedQuestionIds
       : ((pdfContext && Array.isArray(pdfContext.questionIds)) ? pdfContext.questionIds : []);
-    const resolvedBoardId = boardId || (pdfContext && pdfContext.boardId) || null;
-    let resolvedStage = stage || (pdfContext && (pdfContext.classStage || pdfContext.stage)) || null;
-    if (!resolvedStage && examId) {
+
+    // STRICT EXAM ISOLATION:
+    // Determine whether this exam is genuinely a 10th/12th school board
+    const examObj = examRepository.getExamById(examId);
+    const isBoardExam = Boolean(
+      (examObj && (examObj.category === 'boards' || examObj.board_id)) ||
+      (typeof examId === 'string' && (
+        examId.startsWith('board-') ||
+        examId.includes('board') ||
+        examId.includes('10th') ||
+        examId.includes('12th') ||
+        examId.includes('class-') ||
+        examId.includes('cbse') ||
+        examId.includes('bseb') ||
+        examId.includes('upmsp') ||
+        examId.includes('icse') ||
+        examId.includes('tsbie') ||
+        examId.includes('bieap')
+      ))
+    );
+
+    // If NOT a school board (e.g. SSC, RRB, Police, NDA, UPSC, Banking), strictly PURGE board and stage!
+    const BOARD_MAP = {
+      'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
+      'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
+      'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
+      'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
+      'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
+      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
+      'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
+      'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
+      'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
+      'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
+    };
+    const rawBoardId = isBoardExam ? (boardId || (examObj && examObj.board_id) || (pdfContext && pdfContext.boardId) || null) : null;
+    const resolvedBoardId = rawBoardId ? (BOARD_MAP[rawBoardId] || rawBoardId) : null;
+    let resolvedStage = isBoardExam ? (stage || (pdfContext && (pdfContext.classStage || pdfContext.stage)) || null) : null;
+    if (isBoardExam && !resolvedStage && examId) {
       const eLower = String(examId).toLowerCase();
       if (eLower.includes('12th') || eLower.includes('class-12') || eLower.includes('c12')) {
         resolvedStage = 'Class 12';
@@ -104,7 +145,7 @@ class MockService {
         resolvedStage = 'Class 10';
       }
     }
-    const resolvedStream = stream || (pdfContext && pdfContext.stream) || null;
+    const resolvedStream = isBoardExam ? (stream || (pdfContext && pdfContext.stream) || null) : null;
     let languageConfig = initialLanguageConfig;
 
     // Automatically resolve authentic native language if a regional board is selected
@@ -158,7 +199,9 @@ class MockService {
         exactCountRequired: exactCountRequired || testMode === 'FULL_EXAM_PATTERN',
         aiProportion,
         studiedQuestionIds: resolvedStudiedIds,
-        pdfId: resolvedPdfId
+        pdfId: resolvedPdfId,
+        boardId: resolvedBoardId,
+        stage: resolvedStage
       });
     } else {
       const resolvedMode = isLearningMock ? testMode : (isPracticeMock ? testMode : (isSubjectPractice ? 'SUBJECT_PRACTICE' : testMode));
@@ -188,7 +231,7 @@ class MockService {
   /**
    * Generates a Full Exam Mock derived from the verified blueprint
    */
-  _createFullExamSession({ sessionId, exam, examId, versionId = null, testMode = 'FULL_EXAM', languageConfig, strictVerification = false, exactCountRequired = false, studiedQuestionIds = [], pdfId = null }) {
+  _createFullExamSession({ sessionId, exam, examId, versionId = null, testMode = 'FULL_EXAM', languageConfig, strictVerification = false, exactCountRequired = false, studiedQuestionIds = [], pdfId = null, boardId = null, stage = null }) {
     const unifiedExamTruthService = require('./unified-exam-truth-service');
     const verifiedMockConfig = unifiedExamTruthService.getMockConfiguration(examId, versionId);
 
@@ -296,7 +339,10 @@ class MockService {
         neededCount,
         Array.from(usedQuestionIds),
         section.allowed_question_types,
-        testMode === 'FULL_EXAM_PATTERN'
+        testMode === 'FULL_EXAM_PATTERN',
+        examId,
+        boardId,
+        stage
       );
 
       if (questionsFromDb.length < neededCount) {

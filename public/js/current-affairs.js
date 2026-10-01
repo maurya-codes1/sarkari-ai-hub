@@ -9,8 +9,8 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "Which indigenous light combat aircraft squadron of the Indian Air Force completed its inaugural overseas deployment in 2024-2025?",
     qHi: "भारतीय वायुसेना के किस स्वदेशी हल्के लड़ाकू विमान (LCA) स्क्वाड्रन ने अपना पहला विदेशी युद्धाभ्यास सफलता पूर्वक पूरा किया?",
     options: [
-      { text: "LCA Tejas (तेजस)", correct: true },
       { text: "HAL Prachand (प्रचंड)", correct: false },
+      { text: "LCA Tejas (तेजस)", correct: true },
       { text: "Sukhoi Su-30MKI (सुखोई-30)", correct: false },
       { text: "Mirage 2000 (मिराज-2000)", correct: false }
     ],
@@ -37,9 +37,9 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "Under the 'PM Surya Ghar: Muft Bijli Yojana', what is the maximum monthly free solar electricity provided to eligible households?",
     qHi: "'पीएम सूर्य घर: मुफ्त बिजली योजना' के तहत पात्र परिवारों को प्रति माह अधिकतम कितने यूनिट मुफ्त सौर बिजली उपलब्ध कराई जा रही है?",
     options: [
-      { text: "300 Units (300 यूनिट)", correct: true },
       { text: "150 Units (150 यूनिट)", correct: false },
       { text: "200 Units (200 यूनिट)", correct: false },
+      { text: "300 Units (300 यूनिट)", correct: true },
       { text: "500 Units (500 यूनिट)", correct: false }
     ],
     explanationEn: "Launched by PM Narendra Modi with an outlay of ₹75,000+ Crore, PM Surya Ghar Muft Bijli Yojana aims to light up 1 crore households with rooftop solar panels, providing up to 300 units of free power each month.",
@@ -65,10 +65,10 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "Who became the youngest Indian chess grandmaster to win the FIDE Candidates Tournament and challenge for the World Chess Championship title?",
     qHi: "FIDE कैंडिडेट्स शतरंज टूर्नामेंट जीतकर विश्व शतरंज चैंपियनशिप खिताब के लिए चुनौती देने वाले सबसे युवा भारतीय ग्रैंडमास्टर कौन बने?",
     options: [
-      { text: "D. Gukesh (डी. गुकेश)", correct: true },
       { text: "R. Praggnanandhaa (आर. प्रज्ञानानंद)", correct: false },
       { text: "Vidit Gujrathi (विदित गुजराती)", correct: false },
-      { text: "Arjun Erigaisi (अर्जुन एरिगैसी)", correct: false }
+      { text: "Arjun Erigaisi (अर्जुन एरिगैसी)", correct: false },
+      { text: "D. Gukesh (डी. गुकेश)", correct: true }
     ],
     explanationEn: "Dommaraju Gukesh (aged 17) won the 2024 FIDE Candidates Tournament in Toronto, becoming the youngest player in history to win the event, breaking Garry Kasparov's 40-year record.",
     explanationHi: "17 वर्षीय भारतीय ग्रैंडमास्टर डी. गुकेश ने टोरंटो में आयोजित FIDE कैंडिडेट्स टूर्नामेंट जीतकर इतिहास रचा और महान गैरी कास्पारोव का 40 साल पुराना रिकॉर्ड तोड़कर सबसे युवा चैलेंजर बने।"
@@ -79,8 +79,8 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "In 2024-2025, the Union Cabinet approved the expansion of Ayushman Bharat PM-JAY to cover all senior citizens aged:",
     qHi: "केंद्रीय मंत्रिमंडल ने आयुष्मान भारत (AB PM-JAY) योजना का दायरा बढ़ाकर किस आयु वर्ग के सभी वरिष्ठ नागरिकों को स्वास्थ्य कवर देने की मंजूरी दी?",
     options: [
-      { text: "70 Years and above (70 वर्ष और उससे अधिक)", correct: true },
       { text: "60 Years and above (60 वर्ष और उससे अधिक)", correct: false },
+      { text: "70 Years and above (70 वर्ष और उससे अधिक)", correct: true },
       { text: "65 Years and above (65 वर्ष और उससे अधिक)", correct: false },
       { text: "75 Years and above (75 वर्ष और उससे अधिक)", correct: false }
     ],
@@ -93,9 +93,9 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "Which Tiger Reserve in India recently celebrated its golden jubilee and has the highest density of wild tigers in the world?",
     qHi: "भारत का कौन सा टाइगर रिजर्व अपनी स्थापना का स्वर्ण जयंती वर्ष मना रहा है और जहां विश्व में बाघों का सर्वाधिक घनत्व दर्ज है?",
     options: [
-      { text: "Corbett Tiger Reserve, Uttarakhand (कॉर्बेट, उत्तराखंड)", correct: true },
       { text: "Kanha Tiger Reserve, MP (कान्हा, मध्य प्रदेश)", correct: false },
       { text: "Ranthambore, Rajasthan (रणथंभौर, राजस्थान)", correct: false },
+      { text: "Corbett Tiger Reserve, Uttarakhand (कॉर्बेट, उत्तराखंड)", correct: true },
       { text: "Sundarbans, West Bengal (सुंदरवन, पश्चिम बंगाल)", correct: false }
     ],
     explanationEn: "Jim Corbett National Park (established in 1936 as Hailey National Park) was the first protected area launched under Project Tiger in 1973. It continues to report the highest tiger density in India.",
@@ -121,10 +121,10 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "What is the name of India's newly inducted indigenous anti-aircraft missile defense system capable of targeting multiple airborne threats?",
     qHi: "भारत की उस स्वदेशी सतह-से-हवा में मार करने वाली मिसाइल वायु रक्षा प्रणाली का नाम क्या है जिसे हाल ही में विकसित और तैनात किया गया है?",
     options: [
-      { text: "Akash-NG / Samar (आकाश-एनजी / समर)", correct: true },
       { text: "Nag Anti-Tank (नाग)", correct: false },
       { text: "Pinaka MBRL (पिनाका)", correct: false },
-      { text: "Dhanush Artillery (धनुष)", correct: false }
+      { text: "Dhanush Artillery (धनुष)", correct: false },
+      { text: "Akash-NG / Samar (आकाश-एनजी / समर)", correct: true }
     ],
     explanationEn: "Akash-NG (New Generation) and SAMAR (Surface-to-Air Missile for Assured Retaliation) are cutting-edge Indian Air Defence systems developed by DRDO/IAF to intercept supersonic fighter jets and cruise missiles.",
     explanationHi: "आकाश-एनजी (Akash-NG) और समर (SAMAR) वायु रक्षा प्रणाली भारतीय वायुसेना और DRDO द्वारा विकसित की गई है, जो 70-80 किमी दूर से आ रहे लड़ाकू विमानों, ड्रोन और क्रूज मिसाइलों को नष्ट करने में सक्षम है।"
@@ -135,8 +135,8 @@ const CURRENT_AFFAIRS_QUIZ_DATA = [
     qEn: "Under which Article of the Constitution can the President of India declare a Financial Emergency?",
     qHi: "भारतीय संविधान के किस अनुच्छेद के तहत भारत के राष्ट्रपति 'वित्तीय आपातकाल' की घोषणा कर सकते हैं?",
     options: [
-      { text: "Article 360 (अनुच्छेद 360)", correct: true },
       { text: "Article 352 (अनुच्छेद 352)", correct: false },
+      { text: "Article 360 (अनुच्छेद 360)", correct: true },
       { text: "Article 356 (अनुच्छेद 356)", correct: false },
       { text: "Article 370 (अनुच्छेद 370)", correct: false }
     ],
@@ -334,8 +334,8 @@ const CA_MULTILINGUAL_MAP = {
     "ta": {
       "q": "இந்திய விமானப்படையின் எந்த உள்நாட்டு இலகுரக போர் விமானம் (LCA) தனது முதல் வெளிநாட்டு பயிற்சியை வெற்றிகரமாக முடித்தது?",
       "opts": [
-        "LCA தேஜஸ் (Tejas)",
         "HAL பிரசண்ட் (Prachand)",
+        "LCA தேஜஸ் (Tejas)",
         "சுகோய் Su-30MKI",
         "மிராஜ் 2000"
       ],
@@ -344,8 +344,8 @@ const CA_MULTILINGUAL_MAP = {
     "te": {
       "q": "భారత వైమానిక దళానికి చెందిన ఏ స్వదేశీ తేలికపాటి యుద్ధ విమానం (LCA) మొదటి విదేశీ విన్యాసాలను విజయవంతంగా పూర్తి చేసింది?",
       "opts": [
-        "LCA తేజస్ (Tejas)",
         "HAL ప్రచండ్ (Prachand)",
+        "LCA తేజస్ (Tejas)",
         "సుఖోయ్ Su-30MKI",
         "మిరాజ్ 2000"
       ],
@@ -354,8 +354,8 @@ const CA_MULTILINGUAL_MAP = {
     "mr": {
       "q": "भारतीय हवाई दलाच्या कोणत्या स्वदेशी हलक्या लढाऊ विमानाने (LCA) आपला पहिला परदेशी युद्धाभ्यास यशस्वीपणे पूर्ण केला?",
       "opts": [
-        "एलसीए तेजस (LCA Tejas)",
         "एचएएल प्रचंड (Prachand)",
+        "एलसीए तेजस (LCA Tejas)",
         "सुखोई Su-30MKI",
         "मिराज 2000"
       ],
@@ -366,20 +366,20 @@ const CA_MULTILINGUAL_MAP = {
     "ta": {
       "q": "இஸ்ரோவின் சூரிய ஆய்வக விண்கலமான 'ஆதித்யா-L1' எந்த லாக்ராஞ்சியன் புள்ளியில் வெற்றிகரமாக நிலைநிறுத்தப்பட்டுள்ளது?",
       "opts": [
-        "லாக்ராஞ்சியன் புள்ளி L1",
-        "லாக்ராஞ்சியன் புள்ளி L2",
-        "லாக்ராஞ்சியன் புள்ளி L4",
-        "லாக்ராஞ்சியன் புள்ளி L5"
+        "லாக்ராஞ்சியன் புள்ளி L1 (L1)",
+        "லாக்ராஞ்சியன் புள்ளி L2 (L2)",
+        "லாக்ராஞ்சியன் புள்ளி L4 (L4)",
+        "லாக்ராஞ்சியன் புள்ளி L5 (L5)"
       ],
       "exp": "ஆதித்யா-L1 பூமியிலிருந்து சுமார் 15 லட்சம் கி.மீ தொலைவில் உள்ள லாக்ராஞ்சியன் புள்ளி 1 (L1) சுற்றியுள்ள ஹாலோ சுற்றுப்பாதையில் நிலைநிறுத்தப்பட்டுள்ளது."
     },
     "te": {
       "q": "ఇస్రో యొక్క సౌర పరిశీలనా ఉపగ్రహం 'ఆదిత్య-L1' ఏ లాగ్రాంజ్ బిందువు వద్ద విజయవంతంగా ప్రవేశపెట్టబడింది?",
       "opts": [
-        "లాగ్రాంజ్ పాయింట్ L1",
-        "లాగ్రాంజ్ పాయింట్ L2",
-        "లాగ్రాంజ్ పాయింట్ L4",
-        "లాగ్రాంజ్ పాయింట్ L5"
+        "లాగ్రాంజ్ పాయింట్ L1 (L1)",
+        "లాగ్రాంజ్ పాయింట్ L2 (L2)",
+        "లాగ్రాంజ్ పాయింట్ L4 (L4)",
+        "లాగ్రాంజ్ పాయింట్ L5 (L5)"
       ],
       "exp": "ఆదిత్య-L1 భూమికి 15 లక్షల కిలోమీటర్ల దూరంలో ఉన్న లాగ్రాంజ్ పాయింట్ 1 (L1) చుట్టూ ఉన్న కక్ష్యలో ప్రవేశపెట్టబడింది."
     }
@@ -388,20 +388,20 @@ const CA_MULTILINGUAL_MAP = {
     "ta": {
       "q": "'பிஎம் சூர்ய கர்: முஃப்த் பிஜ்லி யோஜனா' திட்டத்தின் கீழ் தகுதியான குடும்பங்களுக்கு மாதம் தோறும் வழங்கப்படும் இலவச சூரிய மின்சாரம் எவ்வளவு?",
       "opts": [
+        "150 யூனிட்கள் (150 Units)",
+        "200 யூனிட்கள் (200 Units)",
         "300 யூனிட்கள் (300 Units)",
-        "150 யூனிட்கள்",
-        "200 யூனிட்கள்",
-        "500 யூனிட்கள்"
+        "500 யூனிட்கள் (500 Units)"
       ],
       "exp": "பிரதமர் நரேந்திர மோடியால் தொடங்கப்பட்ட இத்திட்டம் ஒவ்வொரு மாதமும் 300 யூனிட் வரை இலவச சூரிய மின்சாரத்தை வழங்குகிறது."
     },
     "te": {
       "q": "'పీఎం సూర్య ఘర్: ముఫ్త్ బిజ్లీ యోజన' పథకం కింద అర్హత కలిగిన కుటుంబాలకు నెలకు గరిష్టంగా ఎంత ఉచిత సౌర విద్యుత్ అందించబడుతుంది?",
       "opts": [
+        "150 యూనిట్లు (150 Units)",
+        "200 యూనిట్లు (200 Units)",
         "300 యూనిట్లు (300 Units)",
-        "150 యూనిట్లు",
-        "200 యూనిట్లు",
-        "500 యూనిట్లు"
+        "500 యూనిట్లు (500 Units)"
       ],
       "exp": "ఈ పథకం ద్వారా నెలకు 300 యూనిట్ల వరకు ఉచిత విద్యుత్ అందించబడుతుంది."
     }
@@ -411,9 +411,9 @@ const CA_MULTILINGUAL_MAP = {
       "q": "இந்திய அரசியலமைப்பின் 124(6) வது பிரிவின் கீழ் இந்திய தலைமை நீதிபதிக்கு (CJI) பதவிப் பிரமாணம் செய்து வைப்பவர் யார்?",
       "opts": [
         "இந்திய குடியரசுத் தலைவர் (President of India)",
-        "துணைக் குடியரசுத் தலைவர்",
-        "பிரதமர்",
-        "மக்களவை சபாநாயகர்"
+        "துணைக் குடியரசுத் தலைவர் (Vice President)",
+        "பிரதமர் (Prime Minister)",
+        "மக்களவை சபாநாயகர் (Speaker)"
       ],
       "exp": "பிரிவு 124(6) ன் படி உச்சநீதிமன்ற தலைமை நீதிபதிக்கு குடியரசுத் தலைவர் பதவிப் பிரமாணம் செய்து வைக்கிறார்."
     },
@@ -421,9 +421,9 @@ const CA_MULTILINGUAL_MAP = {
       "q": "భారత రాజ్యాంగంలోని 124(6) అధికరణ ప్రకారం భారత ప్రధాన న్యాయమూర్తి (CJI) చేత ఎవరు ప్రమాణ స్వీకారం చేయిస్తారు?",
       "opts": [
         "భారత రాష్ట్రపతి (President of India)",
-        "భారత ఉపరాష్ట్రపతి",
-        "ప్రధాన మంత్రి",
-        "లోక్‌సభ స్పీకర్"
+        "భారత ఉపరాష్ట్రపతి (Vice President)",
+        "ప్రధాన మంత్రి (Prime Minister)",
+        "లోక్‌సభ స్పీకర్ (Speaker)"
       ],
       "exp": "రాజ్యాంగంలోని 124(6) ప్రకారం రాష్ట్రపతి ప్రధాన న్యాయమూర్తికి ప్రమాణం చేయిస్తారు."
     }
@@ -432,22 +432,132 @@ const CA_MULTILINGUAL_MAP = {
     "ta": {
       "q": "ஃபிடே கேண்டிடேட்ஸ் செஸ் போட்டியில் வென்று உலக சாம்பியன்ஷிப் பட்டத்திற்கு போட்டியிடும் இளைய இந்திய கிராண்ட்மாஸ்டர் யார்?",
       "opts": [
-        "டி. குகேஷ் (D. Gukesh)",
-        "ஆர். பிரக்ஞானந்தா",
-        "விதித் குஜராத்தி",
-        "அர்ஜுன் எரிகைசி"
+        "ஆர். பிரக்ஞானந்தா (Praggnanandhaa)",
+        "விதித் குஜராத்தி (Vidit Gujrathi)",
+        "அர்ஜுன் எரிகைசி (Arjun Erigaisi)",
+        "டி. குகேஷ் (D. Gukesh)"
       ],
       "exp": "17 வயதான தொம்மராஜு குகேஷ் கேண்டிடேட்ஸ் செஸ் போட்டியை வென்று வரலாறு படைத்தார்."
     },
     "te": {
       "q": "ఫిడే కాండిడేట్స్ చెస్ టోర్నమెంట్‌ను గెలుచుకున్న అత్యంత పిన్న వయస్కుడైన భారతీయ గ్రాండ్‌మాస్టర్ ఎవరు?",
       "opts": [
-        "డి. గుకేశ్ (D. Gukesh)",
-        "ఆర్. ప్రజ్ఞానంద",
-        "విదిత్ గుజరాతీ",
-        "అర్జున్ ఎరిగైసి"
+        "ఆర్. ప్రజ్ఞానంద (Praggnanandhaa)",
+        "విదిత్ గుజరాతీ (Vidit Gujrathi)",
+        "అర్జున్ ఎరిగైసి (Arjun Erigaisi)",
+        "డి. గుకేశ్ (D. Gukesh)"
       ],
       "exp": "17 ఏళ్ల డి. గుకేశ్ కాండిడేట్స్ గెలిచి సరికొత్త రికార్డు సృష్టించాడు."
+    }
+  },
+  "6": {
+    "ta": {
+      "q": "ஆயுஷ்மான் பாரத் (AB PM-JAY) திட்டத்தின் கீழ் எந்த வயதுக்கு மேற்பட்ட அனைத்து மூத்த குடிமக்களுக்கும் இலவச சுகாதாரக் காப்பீடு வழங்க மத்திய அமைச்சரவை ஒப்புதல் அளித்துள்ளது?",
+      "opts": [
+        "60 வயது மற்றும் அதற்கு மேல் (60 Years)",
+        "70 வயது மற்றும் அதற்கு மேல் (70 Years)",
+        "65 வயது மற்றும் அதற்கு மேல் (65 Years)",
+        "75 வயது மற்றும் அதற்கு மேல் (75 Years)"
+      ],
+      "exp": "70 வயது அல்லது அதற்கு மேற்பட்ட அனைத்து மூத்த குடிமக்களுக்கும் ஆண்டுக்கு ₹5 லட்சம் கூடுதல் காப்பீடு கிடைக்கும்."
+    },
+    "te": {
+      "q": "ఆయుష్మాన్ భారత్ (PM-JAY) పథకం కింద ఏ వయస్సు పైబడిన సీనియర్ సిటిజన్లందరికీ వార్షిక ఆరోగ్య బీమా కవరేజ్ కల్పించాలని కేంద్ర కేబినెట్ ఆమోదించింది?",
+      "opts": [
+        "60 సంవత్సరాలు పైబడిన (60 Years)",
+        "70 సంవత్సరాలు పైబడిన (70 Years)",
+        "65 సంవత్సరాలు పైబడిన (65 Years)",
+        "75 సంవత్సరాలు పైబడిన (75 Years)"
+      ],
+      "exp": "70 ఏళ్లు పైబడిన సీనియర్ సిటిజన్లకు కుటుంబంతో సంబంధం లేకుండా ₹5 లక్షల ఉచిత ఆరోగ్య బీమా లభిస్తుంది."
+    }
+  },
+  "7": {
+    "ta": {
+      "q": "இந்தியாவின் எந்த புலிகள் காப்பகம் தனது பொன்விழாவைக் கொண்டாடியதுடன், உலகின் அதிக புலிகள் அடர்த்தி கொண்ட பகுதியாகவும் திகழ்கிறது?",
+      "opts": [
+        "கன்ஹா புலிகள் காப்பகம் (Kanha, MP)",
+        "ரந்தம்பூர் (Ranthambore, Rajasthan)",
+        "கார்பெட் புலிகள் காப்பகம் (Corbett, Uttarakhand)",
+        "சுந்தரவனம் (Sundarbans, WB)"
+      ],
+      "exp": "உத்தரகண்ட் மாநிலத்திலுள்ள ஜிம் கார்பெட் தேசிய பூங்காவில் அதிக எண்ணிக்கையிலான புலிகள் வசிக்கின்றன."
+    },
+    "te": {
+      "q": "భారతదేశంలో స్వర్ణోత్సవం జరుపుకున్న మరియు ప్రపంచంలోనే అత్యధిక పులుల సాంద్రత కలిగిన టైగర్ రిజర్వ్ ఏది?",
+      "opts": [
+        "కన్హా టైగర్ రిజర్వ్ (Kanha, MP)",
+        "రణథంబోర్ (Ranthambore, Rajasthan)",
+        "కార్బెట్ టైగర్ రిజర్వ్ (Corbett, Uttarakhand)",
+        "సుందర్‌బన్స్ (Sundarbans, WB)"
+      ],
+      "exp": "ఉత్తరాఖండ్‌లోని జిమ్ కార్బెట్ టైగర్ రిజర్వ్‌లో అత్యధిక పులుల సాంద్రత నమోదైంది."
+    }
+  },
+  "8": {
+    "ta": {
+      "q": "வங்கிகள் குறுகிய கால நிதியைப் பெறுவதற்கு ரிசர்வ் வங்கியின் பணவியல் கொள்கைக் குழு (MPC) நிர்ணயிக்கும் முக்கிய வட்டி விகிதம் எது?",
+      "opts": [
+        "ரெப்போ விகிதம் (Repo Rate)",
+        "ரிவர்ஸ் ரெப்போ விகிதம் (Reverse Repo Rate)",
+        "வங்கி விகிதம் (Bank Rate)",
+        "ரொக்கக் கையிருப்பு விகிதம் (CRR)"
+      ],
+      "exp": "ரெப்போ விகிதம் என்பது வணிக வங்கிகளுக்கு ரிசர்வ் வங்கி குறுகிய கால கடன் வழங்கும் முக்கிய விகிதமாகும்."
+    },
+    "te": {
+      "q": "వాణిజ్య బ్యాంకులు ఆర్బీఐ నుండి స్వల్పకాలిక రుణాలు పొందే కీలక విధాన వడ్డీ రేటు ఏది?",
+      "opts": [
+        "రెపో రేటు (Repo Rate)",
+        "రివర్స్ రెపో రేటు (Reverse Repo Rate)",
+        "బ్యాంక్ రేటు (Bank Rate)",
+        "నగదు నిల్వల నిష్పత్తి (CRR)"
+      ],
+      "exp": "రెపో రేటు ద్వారా ఆర్బీఐ వాణిజ్య బ్యాంకులకు స్వల్పకాలిక రుణాలు అందిస్తుంది."
+    }
+  },
+  "9": {
+    "ta": {
+      "q": "வான்வழி அச்சுறுத்தல்களை இடைமறித்து அழிக்கக்கூடிய இந்தியாவின் அதிநவீன உள்நாட்டு தரைவழி-வான் ஏவுகணை வான் பாதுகாப்பு அமைப்பு எது?",
+      "opts": [
+        "நாக் பீரங்கி எதிர்ப்பு ஏவுகணை (Nag)",
+        "பினாகா மல்டி-பேரல் ராக்கெட் (Pinaka)",
+        "தனுஷ் பீரங்கி (Dhanush)",
+        "ஆகாஷ்-என்ஜி / சமர் (Akash-NG / Samar)"
+      ],
+      "exp": "ஆகாஷ்-என்ஜி மற்றும் சமர் ஆகியவை இந்திய வான்படையின் நவீன வான் பாதுகாப்பு அமைப்புகளாகும்."
+    },
+    "te": {
+      "q": "గగనతల ముప్పులను అడ్డుకునే సామర్థ్యం కలిగిన భారతదేశపు సరికొత్త స్వదేశీ క్షిపణి వాయు రక్షణ వ్యవస్థ ఏది?",
+      "opts": [
+        "నాగ్ యాంటీ-ట్యాంక్ (Nag)",
+        "పినాకా మల్టీ-బారెల్ (Pinaka)",
+        "ధనుష్ ఆర్టిలరీ (Dhanush)",
+        "ఆకాశ్-ఎన్జీ / సమర్ (Akash-NG / Samar)"
+      ],
+      "exp": "ఆకాశ్-ఎన్జీ మరియు సమర్ వ్యవస్థలు గగనతల ముప్పుల నుండి కీలక ప్రదేశాలను రక్షిస్తాయి."
+    }
+  },
+  "10": {
+    "ta": {
+      "q": "இந்திய அரசியலமைப்பின் எந்தப் பிரிவின் கீழ் இந்தியக் குடியரசுத் தலைவர் 'நிதி அவசரநிலையை' பிரகடனப்படுத்த முடியும்?",
+      "opts": [
+        "பிரிவு 352 (Article 352)",
+        "பிரிவு 360 (Article 360)",
+        "பிரிவு 356 (Article 356)",
+        "பிரிவு 370 (Article 370)"
+      ],
+      "exp": "அரசியலமைப்பின் 360 வது பிரிவு நிதி அவசரநிலையைக் குறிக்கிறது. இந்தியாவில் இதுவரை இது அமல்படுத்தப்படவில்லை."
+    },
+    "te": {
+      "q": "రాజ్యాంగంలోని ఏ అధికరణ ప్రకారం భారత రాష్ట్రపతి 'ఆర్థిక అత్యవసర పరిస్థితిని' ప్రకటించవచ్చు?",
+      "opts": [
+        "ఆర్టికల్ 352 (Article 352)",
+        "ఆర్టికల్ 360 (Article 360)",
+        "ఆర్టికల్ 356 (Article 356)",
+        "ఆర్టికల్ 370 (Article 370)"
+      ],
+      "exp": "ఆర్టికల్ 360 ప్రకారం ఆర్థిక అత్యవసర పరిస్థితి విధించవచ్చు. ఇప్పటివరకు భారతదేశంలో ఎప్పుడూ విధించలేదు."
     }
   }
 };

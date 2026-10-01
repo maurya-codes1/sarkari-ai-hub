@@ -51,8 +51,24 @@ class QuestionRepository {
     return this.db.prepare(query).all(...params);
   }
 
-  getQuestionsForSection(subjectId, count = 25, excludeIds = [], questionTypes = null, onlyFullExamEligible = false) {
+  getQuestionsForSection(subjectId, count = 25, excludeIds = [], questionTypes = null, onlyFullExamEligible = false, examId = null, boardId = null, stage = null) {
     if (!this.isAvailable()) return [];
+
+    const BOARD_MAP = {
+      'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
+      'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
+      'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
+      'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
+      'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
+      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
+      'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
+      'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
+      'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
+      'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
+    };
+
+    const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
+    const isTargetingBoard = Boolean(resolvedBoard || (examId && (String(examId).includes('board') || String(examId).includes('class'))));
 
     let query = `
       SELECT q.*, v.language_content, v.correct_answer, s.name as subject_name
@@ -84,8 +100,29 @@ class QuestionRepository {
       params.push(...questionTypes);
     }
 
-    query += ` ORDER BY RANDOM() LIMIT ?`;
-    params.push(count);
+    if (resolvedBoard) {
+      query += ` AND q.board_id = ?`;
+      params.push(resolvedBoard);
+    } else if (isTargetingBoard) {
+      query += ` AND (q.board_id IS NOT NULL AND q.board_id != '')`;
+    } else {
+      // Competitive exam context: STRICT ISOLATION from school boards and class-specific questions
+      query += ` AND (q.board_id IS NULL OR q.board_id = '')`;
+      query += ` AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
+    }
+
+    if (stage) {
+      query += ` AND q.stage = ?`;
+      params.push(stage);
+    }
+
+    if (examId && !resolvedBoard) {
+      query += ` ORDER BY (CASE WHEN q.paper_id LIKE ? OR q.question_id LIKE ? THEN 0 ELSE 1 END), RANDOM() LIMIT ?`;
+      params.push(`%${examId}%`, `%${examId}%`, count);
+    } else {
+      query += ` ORDER BY RANDOM() LIMIT ?`;
+      params.push(count);
+    }
 
     return this.db.prepare(query).all(...params);
   }

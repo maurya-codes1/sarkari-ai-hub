@@ -11,6 +11,19 @@ const { getDb } = require('../db/database');
 const crypto = require('crypto');
 const { matchesSubject, normalizeSubjectId } = require('../utils/subject-utils');
 
+const BOARD_MAP = {
+  'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
+  'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
+  'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
+  'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
+  'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
+  'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
+  'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
+  'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
+  'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
+  'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
+};
+
 class CrossSurfaceLearningService {
   constructor() {
     this.ASSET_TYPES = {
@@ -359,8 +372,10 @@ class CrossSurfaceLearningService {
       studiedQuestionIds = []
     } = params;
 
-    const targetContext = { boardId, stage, stream, subjectId, language, testMode: 'LEARNING_MOCK' };
+    const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
+    const targetContext = { boardId: resolvedBoard, stage, stream, subjectId, language, testMode: 'LEARNING_MOCK' };
     const selectedMap = new Map();
+    const seenFingerprints = new Set();
 
     // 1. Collect candidate studied question IDs (from PDF or Revision)
     const candidateStudiedIds = new Set(studiedQuestionIds);
@@ -384,6 +399,8 @@ class CrossSurfaceLearningService {
         if (selectedMap.size >= count) break;
         const comp = this.validateContextCompatibility(q, targetContext);
         if (comp.compatible && !selectedMap.has(q.question_id)) {
+          if (q.fingerprint && seenFingerprints.has(q.fingerprint)) continue;
+          if (q.fingerprint) seenFingerprints.add(q.fingerprint);
           selectedMap.set(q.question_id, { ...q, selectionPriority: 'PRIORITY_1_STUDIED_REVISION' });
         }
       }
@@ -410,9 +427,9 @@ class CrossSurfaceLearningService {
         query += ' AND q.subject_id = ?';
         queryParams.push(subjectId);
       }
-      if (boardId) {
+      if (resolvedBoard) {
         query += ' AND q.board_id = ?';
-        queryParams.push(boardId);
+        queryParams.push(resolvedBoard);
       } else {
         query += " AND (q.board_id IS NULL OR q.board_id = '')";
         query += " AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')";
@@ -427,17 +444,21 @@ class CrossSurfaceLearningService {
         queryParams.push(...excludeIds);
       }
 
+      const fetchLimit = Math.max(needed + 50, needed * 2);
       if (examId && !boardId) {
         query += ' ORDER BY (CASE WHEN q.paper_id LIKE ? OR q.question_id LIKE ? THEN 0 ELSE 1 END), RANDOM() LIMIT ?';
-        queryParams.push(`%${examId}%`, `%${examId}%`, needed);
+        queryParams.push(`%${examId}%`, `%${examId}%`, fetchLimit);
       } else {
         query += ' ORDER BY RANDOM() LIMIT ?';
-        queryParams.push(needed);
+        queryParams.push(fetchLimit);
       }
 
       const freshRows = db.prepare(query).all(...queryParams);
       for (const q of freshRows) {
+        if (selectedMap.size >= count) break;
         if (!selectedMap.has(q.question_id)) {
+          if (q.fingerprint && seenFingerprints.has(q.fingerprint)) continue;
+          if (q.fingerprint) seenFingerprints.add(q.fingerprint);
           selectedMap.set(q.question_id, { ...q, selectionPriority: 'PRIORITY_3_VERIFIED_CONTEXT' });
         }
       }
@@ -488,8 +509,10 @@ class CrossSurfaceLearningService {
       studiedQuestionIds = []
     } = params;
 
-    const targetContext = { boardId, stage, stream, subjectId, language, testMode: 'PRACTICE_MOCK' };
+    const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
+    const targetContext = { boardId: resolvedBoard, stage, stream, subjectId, language, testMode: 'PRACTICE_MOCK' };
     const selectedMap = new Map();
+    const seenFingerprints = new Set();
 
     // 1. Determine studied question pool
     const candidateStudiedIds = new Set(studiedQuestionIds);
@@ -515,6 +538,8 @@ class CrossSurfaceLearningService {
         if (selectedMap.size >= maxStudied) break;
         const comp = this.validateContextCompatibility(q, targetContext);
         if (comp.compatible && !selectedMap.has(q.question_id)) {
+          if (q.fingerprint && seenFingerprints.has(q.fingerprint)) continue;
+          if (q.fingerprint) seenFingerprints.add(q.fingerprint);
           selectedMap.set(q.question_id, { ...q, selectionPriority: 'PRACTICE_STUDIED_REUSE' });
         }
       }
@@ -541,9 +566,9 @@ class CrossSurfaceLearningService {
         query += ' AND q.subject_id = ?';
         queryParams.push(subjectId);
       }
-      if (boardId) {
+      if (resolvedBoard) {
         query += ' AND q.board_id = ?';
-        queryParams.push(boardId);
+        queryParams.push(resolvedBoard);
       } else {
         query += " AND (q.board_id IS NULL OR q.board_id = '')";
         query += " AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')";
@@ -558,17 +583,21 @@ class CrossSurfaceLearningService {
         queryParams.push(...excludeIds);
       }
 
+      const fetchLimit = Math.max(remainingCount + 50, remainingCount * 2);
       if (examId && !boardId) {
         query += ' ORDER BY (CASE WHEN q.paper_id LIKE ? OR q.question_id LIKE ? THEN 0 ELSE 1 END), RANDOM() LIMIT ?';
-        queryParams.push(`%${examId}%`, `%${examId}%`, remainingCount);
+        queryParams.push(`%${examId}%`, `%${examId}%`, fetchLimit);
       } else {
         query += ' ORDER BY RANDOM() LIMIT ?';
-        queryParams.push(remainingCount);
+        queryParams.push(fetchLimit);
       }
 
       const broaderRows = db.prepare(query).all(...queryParams);
       for (const q of broaderRows) {
+        if (selectedMap.size >= count) break;
         if (!selectedMap.has(q.question_id)) {
+          if (q.fingerprint && seenFingerprints.has(q.fingerprint)) continue;
+          if (q.fingerprint) seenFingerprints.add(q.fingerprint);
           selectedMap.set(q.question_id, { ...q, selectionPriority: 'PRACTICE_BROADER_POOL' });
         }
       }
