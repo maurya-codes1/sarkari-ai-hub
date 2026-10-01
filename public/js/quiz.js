@@ -2423,6 +2423,112 @@ function displayScorecardUI(scorecard, isAutoSubmit) {
   const netElem = document.getElementById('scorecardNetScore');
   if (netElem) netElem.textContent = `${sum.netScore} / ${sum.maxMarks}`;
 
+  // Dynamic Scorecard Simulator / Academic Evaluation
+  const rankTitleEl = document.getElementById('scorecardRankTitle');
+  const airEl = document.getElementById('scorecardAir');
+  const rankSubEl = document.getElementById('scorecardRankSubtitle');
+  const pctTitleEl = document.getElementById('scorecardPercentileTitle');
+  const percEl = document.getElementById('scorecardPercentile');
+  const pctSubEl = document.getElementById('scorecardPercentileSubtitle');
+
+  const examStr = String(activeQuiz.exam || '').toLowerCase();
+  const boardStr = String(activeQuiz.board || '').toLowerCase();
+  const isBoard = Boolean(
+    activeQuiz.board || 
+    examStr.startsWith('board-') || 
+    examStr.includes('cbse') || 
+    examStr.includes('bseb') || 
+    examStr.includes('upmsp') || 
+    examStr.includes('icse') || 
+    examStr.includes('matric') || 
+    examStr.includes('inter') ||
+    boardStr.length > 0
+  );
+
+  const stateKeywords = ['police', 'constable', 'si', 'daroga', 'patwari', 'lekpal', 'reet', 'uptet', 'btet', 'mptet', 'uppsc', 'bpsc', 'mppsc', 'rpsc', 'wbpsc', 'tnpsc', 'appsc', 'tspsc', 'kpsc', 'gpsc', 'hpsc', 'jpsc'];
+  const isStateExam = !isBoard && stateKeywords.some(kw => examStr.includes(kw));
+
+  const pct = Number(sum.percentage) || 0;
+  const acc = Number(sum.accuracy) || 0;
+
+  if (isBoard) {
+    // 1. School Boards: Division & Grade (Never All India Rank)
+    if (rankTitleEl) rankTitleEl.textContent = '🎓 बोर्ड परीक्षा परिणाम (Division)';
+    if (airEl) {
+      if (pct >= 60) {
+        airEl.textContent = '1st Division (प्रथम श्रेणी)';
+        airEl.className = 'text-xl font-black text-emerald-400';
+      } else if (pct >= 45) {
+        airEl.textContent = '2nd Division (द्वितीय श्रेणी)';
+        airEl.className = 'text-xl font-black text-amber-400';
+      } else if (pct >= 33) {
+        airEl.textContent = '3rd Division (तृतीय श्रेणी)';
+        airEl.className = 'text-xl font-black text-blue-400';
+      } else {
+        airEl.textContent = 'Compartment (सुधार की आवश्यकता)';
+        airEl.className = 'text-base font-black text-rose-400';
+      }
+    }
+    if (rankSubEl) rankSubEl.innerHTML = 'Board Standard Passing Criteria<br>बोर्ड उत्तीर्ण मानक (33% न्यूनतम)';
+
+    if (pctTitleEl) pctTitleEl.textContent = '📊 मूल्यांकन ग्रेड (CCE Grade)';
+    if (percEl) {
+      let grade = 'Grade E';
+      let gradeColor = 'text-rose-400';
+      if (pct >= 90) { grade = 'Grade A1 (उत्कृष्ट)'; gradeColor = 'text-emerald-400'; }
+      else if (pct >= 80) { grade = 'Grade A2 (अति उत्तम)'; gradeColor = 'text-emerald-300'; }
+      else if (pct >= 70) { grade = 'Grade B1 (बहुत अच्छा)'; gradeColor = 'text-cyan-400'; }
+      else if (pct >= 60) { grade = 'Grade B2 (अच्छा)'; gradeColor = 'text-blue-400'; }
+      else if (pct >= 50) { grade = 'Grade C1 (संतोषजनक)'; gradeColor = 'text-amber-400'; }
+      else if (pct >= 33) { grade = 'Grade D (उत्तीर्ण)'; gradeColor = 'text-yellow-400'; }
+      percEl.textContent = grade;
+      percEl.className = `text-xl font-black ${gradeColor}`;
+    }
+    if (pctSubEl) pctSubEl.innerHTML = 'Continuous Evaluation<br>शैक्षणिक प्रदर्शन ब्रैकेट';
+  } else if (isStateExam) {
+    // 2. State-Level Exams: State Merit Rank & State Percentile
+    if (rankTitleEl) rankTitleEl.textContent = '🏛️ राज्य मेरिट रैंक (State Merit Rank)';
+    if (airEl) {
+      let stateRank = 15;
+      if (pct >= 95) stateRank = Math.max(1, Math.round(15 + (100 - pct) * 20));
+      else if (pct >= 80) stateRank = Math.round(120 + (95 - pct) * 60);
+      else if (pct >= 60) stateRank = Math.round(1020 + (80 - pct) * 150);
+      else stateRank = Math.round(4050 + (60 - pct) * 280);
+      airEl.textContent = `#${stateRank.toLocaleString()}`;
+      airEl.className = 'text-2xl font-black text-amber-400';
+    }
+    if (rankSubEl) rankSubEl.innerHTML = 'Out of 50,000+<br>State-Level Aspirants';
+
+    if (pctTitleEl) pctTitleEl.textContent = '📈 राज्य पर्सेंटाइल (State Percentile)';
+    if (percEl) {
+      const statePctile = Math.min(99.9, Math.max(5.0, (pct * 0.98 + (acc * 0.02))).toFixed(1));
+      percEl.textContent = `${statePctile} %ile`;
+      percEl.className = 'text-2xl font-black text-emerald-400';
+    }
+    if (pctSubEl) pctSubEl.innerHTML = `Top ${Math.max(0.1, (100 - (pct * 0.98 + (acc * 0.02)))).toFixed(1)}% State<br>Merit Bracket`;
+  } else {
+    // 3. Central & National Competitive Exams: Projected AIR & National Percentile
+    if (rankTitleEl) rankTitleEl.textContent = '🏆 Projected All-India Rank (AIR)';
+    if (airEl) {
+      let air = 45;
+      if (pct >= 95) air = Math.max(1, Math.round(45 + (100 - pct) * 50));
+      else if (pct >= 80) air = Math.round(295 + (95 - pct) * 180);
+      else if (pct >= 60) air = Math.round(2995 + (80 - pct) * 450);
+      else air = Math.round(11995 + (60 - pct) * 850);
+      airEl.textContent = `#${air.toLocaleString()}`;
+      airEl.className = 'text-2xl font-black text-amber-400';
+    }
+    if (rankSubEl) rankSubEl.innerHTML = 'Out of 2,50,000+<br>Simulated Candidates';
+
+    if (pctTitleEl) pctTitleEl.textContent = '📈 स्कोर पर्सेंटाइल (National Percentile)';
+    if (percEl) {
+      const airPctile = Math.min(99.9, Math.max(5.0, (pct * 0.99 + (acc * 0.01))).toFixed(1));
+      percEl.textContent = `${airPctile} %ile`;
+      percEl.className = 'text-2xl font-black text-emerald-400';
+    }
+    if (pctSubEl) pctSubEl.innerHTML = `Top ${Math.max(0.1, (100 - (pct * 0.99 + (acc * 0.01)))).toFixed(1)}% Nationwide<br>Merit Bracket`;
+  }
+
   // Multi-Section Breakdown Table
   const secContainer = document.getElementById('scorecardSectionBreakdownContainer');
   const secRows = document.getElementById('scorecardSectionRows');

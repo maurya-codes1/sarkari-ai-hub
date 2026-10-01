@@ -166,12 +166,17 @@ function fetchDbQuestionsForSubject(subjectId) {
         provLabel = 'Official Model Sample';
       }
 
+      let parsedCa = {};
+      try { parsedCa = JSON.parse(r.correct_answer || '{}'); } catch (e) {}
+      const correctIdx = typeof parsedCa.index === 'number' ? parsedCa.index : (typeof parsedCa.correct_index === 'number' ? parsedCa.correct_index : ((typeof hi.correct === 'number') ? hi.correct : 0));
+      const correctAnsText = parsedCa.value || parsedCa.correct_value || (Array.isArray(opts) && opts[correctIdx] ? opts[correctIdx] : (hi.ans || en.ans || ''));
+
       return {
         id: r.question_id,
         q: qText,
         options: opts,
-        correct: (typeof hi.correct === 'number') ? hi.correct : 0,
-        ans: hi.ans || en.ans || '',
+        correct: correctIdx,
+        ans: correctAnsText,
         exp: cleanQuestionText(hi.exp || en.exp || 'Authentic solution with conceptual explanation.'),
         topic: hi.topic || en.topic || `${subjectId.toUpperCase()} Core Concept`,
         provenance: r.provenance || 'HUMAN_CURATED',

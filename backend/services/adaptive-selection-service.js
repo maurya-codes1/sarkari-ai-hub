@@ -4,6 +4,18 @@
 
 const { getDb } = require('../db/database');
 
+function cleanQuestionText(text) {
+  if (!text) return '';
+  return String(text)
+    .replace(/^\[[^\]\r\n]{3,120}\]\s*/i, '') // strip [Board Class ... - Chapter]
+    .replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '')
+    .replace(/^(प्रश्न|सवाल|Question|Q\.|Ques|Que|Q)\s*(सं\.|संख्या|No\.?|Num|#)?\s*\d+\s*[:\-.]\s*/i, '')
+    .replace(/^#\d+[:\-.]\s*/i, '')
+    .replace(/^Q\d+[:\-.]\s*/i, '')
+    .replace(/^\(\d+\)\s*/i, '')
+    .trim();
+}
+
 class AdaptiveSelectionService {
   constructor() {
     this.SUPPORTED_MODES = [
@@ -51,7 +63,7 @@ class AdaptiveSelectionService {
       throw new Error(`Unsupported practice mode: ${practiceMode}. Supported: ${this.SUPPORTED_MODES.join(', ')}`);
     }
 
-    const count = Math.max(1, Math.min(50, parseInt(questionCount, 10) || 10));
+    const count = Math.max(1, Math.min(100, parseInt(questionCount, 10) || 10));
 
     // Base query for candidate questions
     let baseSql = `
@@ -63,9 +75,15 @@ class AdaptiveSelectionService {
       FROM questions q
       JOIN question_versions qv ON q.question_id = qv.question_id AND (qv.version_number = q.current_version OR qv.version_number = '1.0.0' OR qv.version_number = 1)
       WHERE q.current_eligibility = 1
-        AND (q.exam_version_id LIKE ? OR q.paper_id IN (SELECT paper_id FROM question_papers WHERE exam_id = ?))
+        AND (
+          q.exam_version_id LIKE ? 
+          OR q.paper_id IN (SELECT paper_id FROM question_papers WHERE exam_id = ?)
+          OR q.board_id = ? 
+          OR q.board_id LIKE ? 
+          OR q.question_id LIKE ?
+        )
     `;
-    const baseParams = [`%${examId}%`, examId];
+    const baseParams = [`%${examId}%`, examId, examId, `%${examId}%`, `%${examId}%`];
 
     if (subjectId) {
       baseSql += ' AND q.subject_id = ?';
@@ -127,7 +145,7 @@ class AdaptiveSelectionService {
     }
 
     // Format questions and extract localized content
-    const formatted = selectedQuestions.map(q => {
+    const formatted = selectedQuestions.map((q, qIdx) => {
       let langObj = {};
       try {
         langObj = JSON.parse(q.language_content || '{}');
@@ -135,13 +153,30 @@ class AdaptiveSelectionService {
         langObj = {};
       }
 
-      const content = langObj[targetLanguage] || langObj['en'] || langObj['hi'] || Object.values(langObj)[0] || {
+      const content = langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0] || {
         q: 'Question text unavailable',
         options: []
       };
 
+      const rawQ = content.q || content.question_text || 'Question text unavailable';
+      const cleanQ = cleanQuestionText(rawQ);
+
+      const rawOpts = content.options || [];
+      const cleanOpts = rawOpts.map((opt, oIdx) => {
+        const stripped = String(opt).replace(/^[A-D]\)\s*/i, '').trim();
+        const letter = ['A)', 'B)', 'C)', 'D)'][oIdx] || `${oIdx + 1})`;
+        return `${letter} ${stripped}`;
+      });
+
+      let parsedCa = {};
+      try { parsedCa = JSON.parse(q.correct_answer || '{}'); } catch (e) {}
+      const correctIdx = typeof parsedCa.index === 'number' ? parsedCa.index : (typeof parsedCa.correct_index === 'number' ? parsedCa.correct_index : 0);
+      const correctLetter = ['A', 'B', 'C', 'D'][correctIdx] || 'A';
+      const correctVal = cleanOpts[correctIdx] || parsedCa.value || parsedCa.correct_value || '';
+
       return {
         questionId: q.question_id,
+        serialNumber: qIdx + 1,
         subjectId: q.subject_id,
         chapterId: q.chapter_id,
         topicId: q.topic_id,
@@ -149,10 +184,12 @@ class AdaptiveSelectionService {
         provenance: q.provenance,
         historicalYear: q.historical_year,
         isRareRelevant: q.is_rare_relevant === 1,
-        questionText: content.q || content.question_text || 'Question text unavailable',
-        options: content.options || [],
-        correctAnswer: q.correct_answer,
-        explanation: content.explanation || content.exp || 'Detailed verified pedagogical explanation.',
+        questionText: cleanQ,
+        options: cleanOpts,
+        correctAnswer: correctIdx,
+        correctOptionKey: correctLetter,
+        correctOptionValue: correctVal,
+        explanation: cleanQuestionText(content.explanation || content.exp || 'Detailed verified pedagogical explanation.'),
         selectionReason: q.selectionReason || 'Selected by adaptive learning algorithm',
         timeLimitSeconds: q.timeLimitSeconds || null
       };

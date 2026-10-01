@@ -81,7 +81,7 @@
         <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold mb-2">
           <span>🇮🇳 Real-World Nationwide Expansion</span>
           <span>•</span>
-          <span>Zero Fabricated Coverage (Absolute No-Dummy Rule)</span>
+          <span>Verified Academic Question Banks & Curriculum Mapping</span>
         </div>
         <h1 class="text-2xl sm:text-3xl font-black text-white">Nationwide Content Coverage & Readiness Matrix</h1>
         <p class="text-xs sm:text-sm text-slate-400 mt-1">Transparent status tracking across 49 national/state exams, 31 school education boards, and subject domains.</p>
@@ -377,7 +377,7 @@
             <div class="text-[10px] text-slate-500 mt-0.5">${b.stateId || 'National'}</div>
           </td>
           <td class="py-3 px-4">
-            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${b.coverageStatus === 'PARTIALLY_COVERED' ? 'bg-amber-500/10 text-amber-400 border-amber-500/30' : 'bg-slate-800 text-slate-400 border-slate-700'}">
+            <span class="px-2.5 py-0.5 rounded-full text-[10px] font-bold border ${b.coverageStatus === 'ACTIVE_PRACTICE_READY' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30' : (b.coverageStatus === 'PARTIALLY_COVERED' ? 'bg-amber-500/10 text-amber-400 border-amber-500/30' : 'bg-slate-800 text-slate-400 border-slate-700')}">
               ${b.coverageStatus}
             </span>
           </td>

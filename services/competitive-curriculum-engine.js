@@ -601,13 +601,34 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
         expText = tmpl.exp_hi;
       }
 
+      const targetSlot = (i - 1) % 4; // 0=A, 1=B, 2=C, 3=D
+      const letters = ['A', 'B', 'C', 'D'];
+      let rotatedOpts = Array.isArray(opts) ? [...opts] : [];
+      let finalAns = tmpl.ans || '';
+
+      if (rotatedOpts.length >= 4) {
+        const cleanOpts = rotatedOpts.map(o => String(o).replace(/^[A-D]\)\s*/i, '').trim());
+        if (targetSlot !== 0) {
+          const tmp = cleanOpts[0];
+          cleanOpts[0] = cleanOpts[targetSlot];
+          cleanOpts[targetSlot] = tmp;
+        }
+        rotatedOpts = cleanOpts.map((o, idx) => `${letters[idx]}) ${o}`);
+        finalAns = rotatedOpts[targetSlot];
+        if (expText) {
+          expText = expText.replace(/(सही\s*उत्तर\s*[:\-]?\s*)[A-D]\)/gi, `$1${letters[targetSlot]})`);
+          expText = expText.replace(/(अचूक\s*उत्तर\s*[:\-]?\s*)[A-D]\)/gi, `$1${letters[targetSlot]})`);
+          expText = expText.replace(/(সঠিক\s*উত্তর\s*[:\-]?\s*)[A-D]\)/gi, `$1${letters[targetSlot]})`);
+        }
+      }
+
       mcqs.push({
         num: i,
         id: `${examId}-${subjectId}-${i}`,
         q: qText,
-        options: opts,
-        correct: 1,
-        ans: tmpl.ans,
+        options: rotatedOpts,
+        correct: targetSlot + 1,
+        ans: finalAns,
         explanation: expText,
         topic: `${tmpl.topic} • ${meta.name}`
       });
