@@ -73,102 +73,61 @@
     <div class="h-full w-1/3 bg-emerald-600"></div>
   </div>
 
-  <!-- Navigation Bar (Deep Navy with Saffron/White Accents) -->
-  <header class="sticky top-0 z-50 glass-nav shadow-xl">
+  <!-- Navigation Bar (Deep Navy with Saffron/White Accents - 2-Tiered Upar-Neeche Clean Layout) -->
+  <header class="sticky top-0 z-50 glass-nav shadow-xl border-b border-slate-800/80">
+    <!-- TIER 1 (UPAR): Brand Logo & Action Controls -->
     <div class="max-w-7xl mx-auto px-2.5 xs:px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16 sm:h-20">
+      <div class="flex items-center justify-between h-14 sm:h-16">
         
         <!-- Left Side: Mobile Hamburger Menu Button (Three Lines) + Brand Logo -->
         <div class="flex items-center space-x-1.5 sm:space-x-3 shrink-0">
           <!-- Mobile Hamburger Menu Button (Three Lines) Always Accessible -->
-          <button id="mobileMenuBtn" onclick="toggleMobileMenu(event)" class="p-1.5 sm:p-2.5 rounded-xl bg-slate-800 text-white hover:bg-slate-700 active:bg-slate-600 border border-slate-700/80 transition flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-saffron-500 cursor-pointer shrink-0" aria-label="Toggle navigation" title="Menu (मेन्यू)">
-            <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <button id="mobileMenuBtn" onclick="toggleMobileMenu(event)" class="p-1.5 sm:p-2 rounded-xl bg-slate-800 text-white hover:bg-slate-700 active:bg-slate-600 border border-slate-700/80 transition flex items-center justify-center shadow-md focus:outline-none focus:ring-2 focus:ring-saffron-500 cursor-pointer shrink-0" aria-label="Toggle navigation" title="Menu (मेन्यू)">
+            <svg class="w-5 h-5 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
 
           <!-- Brand Logo -->
           <a href="#home" onclick="navigateToHome(event)" class="flex items-center space-x-1.5 sm:space-x-3 cursor-pointer shrink-0">
-            <div class="w-9 h-9 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl sm:text-2xl shadow-lg ring-2 ring-saffron-400/50 shrink-0">
+            <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-lg sm:text-xl shadow-lg ring-2 ring-saffron-400/50 shrink-0">
               S
             </div>
             <div class="min-w-0">
               <div class="flex items-center space-x-1 sm:space-x-1.5">
-                <span class="text-base sm:text-xl lg:text-2xl font-black tracking-tight text-white truncate max-w-[95px] xs:max-w-[130px] sm:max-w-none" data-i18n="brand_title">SarkariAI Hub</span>
-                <span class="text-xs sm:text-lg shrink-0">🇮🇳</span>
+                <span class="text-base sm:text-lg lg:text-xl font-black tracking-tight text-white truncate max-w-[120px] xs:max-w-[160px] sm:max-w-none" data-i18n="brand_title">SarkariAI Hub</span>
+                <span class="text-xs sm:text-base shrink-0">🇮🇳</span>
               </div>
-              <div class="hidden xs:block text-[9px] sm:text-xs font-bold text-saffron-400 tracking-wider uppercase truncate max-w-[120px] sm:max-w-none" data-i18n="brand_badge">
+              <div class="hidden xs:block text-[9px] sm:text-[10px] font-bold text-saffron-400 tracking-wider uppercase truncate max-w-[140px] sm:max-w-none" data-i18n="brand_badge">
                 Bharat's #1 Exam & Board Portal
               </div>
             </div>
           </a>
         </div>
 
-        <!-- Desktop Navigation Links (Streamlined to prevent overflow in long languages) -->
-        <nav class="hidden lg:flex items-center space-x-1 xl:space-x-1.5 font-bold text-[11px] xl:text-xs min-w-0">
-          <a href="#home" onclick="navigateToHome(event)" data-tab="home" class="nav-link px-2 xl:px-3 py-1.5 xl:py-2 rounded-xl bg-saffron-500 text-white shadow-md transition cursor-pointer whitespace-nowrap" data-i18n="nav_home">Home</a>
-          <a href="#tool/quiz" data-tab="quiz" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-rose-300 hover:bg-slate-800 transition font-black whitespace-nowrap" data-i18n="nav_quiz">🎯 Mock Test</a>
-          <a href="#tool/notes" data-tab="notes" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition whitespace-nowrap" data-i18n="nav_notes">📚 ₹10 Notes</a>
-          <a href="#homeCurrentAffairsSection" onclick="scrollToCurrentAffairs(event)" data-tab="current-affairs" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition whitespace-nowrap" data-i18n="nav_gk">📰 GK & CA</a>
-
-          <!-- More Tools Dropdown -->
-          <div class="relative" id="desktopToolsDropdownContainer">
-            <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-2 xl:px-2.5 py-1.5 xl:py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition flex items-center space-x-1 font-bold cursor-pointer whitespace-nowrap" aria-haspopup="true" aria-expanded="false">
-              <span data-i18n="nav_more_tools">🛠️ Tools</span>
-              <span id="desktopToolsArrow" class="text-[9px] ml-0.5 transition-transform duration-200 inline-block">▼</span>
-            </button>
-            <div id="desktopToolsMenu" class="absolute right-0 top-full pt-1.5 w-60 hidden z-50 animate-fadeIn">
-              <div class="bg-slate-900 border border-slate-700/80 rounded-2xl shadow-2xl p-2 space-y-1 max-h-[80vh] overflow-y-auto">
-                <a href="#tool/resizer" data-tab="resizer" onclick="handleToolItemClick(event, 'resizer')" class="flex items-center px-3 py-2 rounded-xl text-slate-200 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_tools">📸 Photo Resizer Lab</a>
-                <a href="#directory" data-tab="directory" onclick="handleToolItemClick(event, 'directory')" class="flex items-center px-3 py-2 rounded-xl text-slate-200 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_boards">🎓 31 State & Central Boards</a>
-                <button type="button" onclick="triggerOmrSheetGenerator()" class="w-full text-left flex items-center px-3 py-2 rounded-xl text-indigo-300 hover:bg-slate-800 transition text-xs font-bold cursor-pointer">
-                  <span data-i18n="nav_omr">📄 Blank Vector OMR Sheet</span>
-                </button>
-                <a href="/admin" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold">🔐 Master Admin Console</a>
-                <a href="#tool/physical" data-tab="physical" onclick="handleToolItemClick(event, 'physical')" class="flex items-center px-3 py-2 rounded-xl text-orange-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_physical">🏃 Physical (PET/PST)</a>
-                <a href="#tool/salary" data-tab="salary" onclick="handleToolItemClick(event, 'salary')" class="flex items-center px-3 py-2 rounded-xl text-green-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_salary">💰 Salary Calculator</a>
-                <a href="#tool/documents" data-tab="documents" onclick="handleToolItemClick(event, 'documents')" class="flex items-center px-3 py-2 rounded-xl text-cyan-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_documents">📜 DV Guard</a>
-                <a href="#tool/planner" data-tab="planner" onclick="handleToolItemClick(event, 'planner')" class="flex items-center px-3 py-2 rounded-xl text-pink-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_planner">⏰ Study Routine</a>
-                <a href="#tool/rank" data-tab="rank" onclick="handleToolItemClick(event, 'rank')" class="flex items-center px-3 py-2 rounded-xl text-purple-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_rank">🎯 Rank Predictor</a>
-                <a href="#tool/kit" data-tab="kit" onclick="handleToolItemClick(event, 'kit')" class="flex items-center px-3 py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_kit">🎒 Exam Bag Kit</a>
-                <a href="#tool/waiver" data-tab="waiver" onclick="handleToolItemClick(event, 'waiver')" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_waiver">💰 Fee Exemption</a>
-                <a href="#tool/typing" data-tab="typing" onclick="handleToolItemClick(event, 'typing')" class="flex items-center px-3 py-2 rounded-xl text-teal-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_typing">⌨️ Typing Test</a>
-                <a href="#tool/calendar" data-tab="calendar" onclick="handleToolItemClick(event, 'calendar')" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_calendar">📅 Exam Calendar</a>
-                <a href="#tool/cutoff" data-tab="cutoff" onclick="handleToolItemClick(event, 'cutoff')" class="flex items-center px-3 py-2 rounded-xl text-blue-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_cutoff">📊 Cut-Off Analyzer</a>
-                <a href="#tool/syllabus" data-tab="syllabus" onclick="handleToolItemClick(event, 'syllabus')" class="flex items-center px-3 py-2 rounded-xl text-purple-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_syllabus">📋 Chapter Syllabus</a>
-                <a href="#tool/revision" data-tab="revision" onclick="handleToolItemClick(event, 'revision')" class="flex items-center px-3 py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_vault">⭐ Revision Vault</a>
-                <a href="/adaptive-practice.html" class="flex items-center px-3 py-2 rounded-xl text-saffron-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_adaptive">🧠 Adaptive Practice</a>
-                <a href="/candidate-analytics.html" class="flex items-center px-3 py-2 rounded-xl text-cyan-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_analytics">📊 Honest Analytics</a>
-                <a href="#tool/age" data-tab="age" onclick="handleToolItemClick(event, 'age')" class="flex items-center px-3 py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_age">🎂 Age Calculator</a>
-                <a href="#tool/ai" data-tab="ai" onclick="handleToolItemClick(event, 'ai')" class="flex items-center px-3 py-2 rounded-xl text-indigo-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_ai">📑 Circular Decoder</a>
-              </div>
-            </div>
-          </div>
-        </nav>
-
-        <!-- Right Side: Dark Mode Toggle, Job Alerts Bell, Auto-Sync Badge & Language Switcher (Guaranteed Visible) -->
+        <!-- Right Side: Job Alerts Bell, Night Mode Toggle, Auto-Sync Badge & Language Switcher -->
         <div class="flex items-center space-x-1.5 sm:space-x-2.5 shrink-0 ml-auto z-20">
           <!-- Web Push Job Alert Notification Bell -->
-          <button id="jobAlertBellBtn" type="button" onclick="toggleJobAlerts()" class="relative p-1.5 sm:px-3 sm:py-1.5 rounded-xl sm:rounded-2xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/50 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Job Alerts Notifications">
-            <span class="text-sm sm:text-lg">🔔</span>
+          <button id="jobAlertBellBtn" type="button" onclick="toggleJobAlerts()" class="relative p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-400/50 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Job Alerts Notifications">
+            <span class="text-sm sm:text-base">🔔</span>
             <span class="hidden md:inline text-xs font-bold text-amber-300" data-i18n="nav_alerts">Job Alerts</span>
             <span id="bellActiveDot" class="hidden absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-slate-900 animate-pulse"></span>
           </button>
 
           <!-- Night Study Mode / Dark Mode Toggle Button -->
-          <button id="darkModeToggleBtn" type="button" class="dark-mode-toggle-btn p-1.5 sm:px-3 sm:py-1.5 rounded-xl sm:rounded-2xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Night Study Mode">
-            <span class="text-sm sm:text-lg">🌙</span>
+          <button id="darkModeToggleBtn" type="button" class="dark-mode-toggle-btn p-1.5 sm:px-2.5 sm:py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center space-x-1.5 shadow-md cursor-pointer shrink-0" title="Night Study Mode">
+            <span class="text-sm sm:text-base">🌙</span>
             <span class="hidden md:inline text-xs font-bold text-slate-200" data-i18n="nav_night_mode">Night Mode</span>
           </button>
 
           <!-- 24x7 Autonomous Auto-Sync Indicator -->
-          <div class="hidden xl:flex items-center space-x-1.5 px-3 py-1.5 bg-emerald-950/80 border border-emerald-500/50 rounded-2xl text-[11px] font-black text-emerald-400 shadow-sm" title="System automatically verifies & updates official links every 2 hours without human intervention">
+          <div class="hidden xl:flex items-center space-x-1.5 px-2.5 py-1.5 bg-emerald-950/80 border border-emerald-500/50 rounded-xl text-[11px] font-black text-emerald-400 shadow-sm" title="System automatically verifies & updates official links every 2 hours without human intervention">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
             <span data-i18n="nav_auto_sync">🤖 Auto-Sync</span>
           </div>
 
           <!-- 24-Language Switcher Dropdown (Clamped width so it never overflows) -->
-          <div class="relative flex items-center bg-slate-900 border border-amber-400/80 sm:border-2 rounded-xl sm:rounded-2xl px-1.5 py-1 sm:px-2.5 sm:py-1.5 shadow-md shrink-0 max-w-[130px] sm:max-w-[160px]">
+          <div class="relative flex items-center bg-slate-900 border border-amber-400/80 sm:border-2 rounded-xl px-1.5 py-1 sm:px-2 sm:py-1 shadow-md shrink-0 max-w-[130px] sm:max-w-[160px]">
             <span class="text-xs sm:text-sm mr-1 shrink-0">🌐</span>
             <select id="langSelectDropdown" onchange="setLanguage(this.value)" class="lang-selector-select bg-transparent text-[11px] sm:text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-4 appearance-none truncate max-w-[95px] sm:max-w-[125px]">
               <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
@@ -203,12 +162,67 @@
           </div>
 
           <!-- WhatsApp Quick Share Button (Desktop) -->
-          <button type="button" onclick="shareOnWhatsApp()" class="hidden xl:flex items-center space-x-1 px-3 py-1.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white rounded-2xl text-xs font-black shadow-md transition cursor-pointer" title="Share SarkariAI Hub with Friends on WhatsApp">
+          <button type="button" onclick="shareOnWhatsApp()" class="hidden xl:flex items-center space-x-1 px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 active:scale-95 text-white rounded-xl text-xs font-black shadow-md transition cursor-pointer" title="Share SarkariAI Hub with Friends on WhatsApp">
             <span class="text-sm">📲</span>
             <span class="text-[11px]" data-i18n="nav_share_btn">Share</span>
           </button>
         </div>
 
+      </div>
+    </div>
+
+    <!-- TIER 2 (NEECHE): Dedicated Navigation & Tools Bar (Full width, horizontal scrolling on mobile, zero overlap) -->
+    <div class="bg-slate-950/70 border-t border-slate-800/80 backdrop-blur-md">
+      <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+        <nav class="flex items-center justify-start md:justify-center space-x-1.5 sm:space-x-3 overflow-x-auto no-scrollbar py-1.5 sm:py-2 text-xs font-bold">
+          <a href="#home" onclick="navigateToHome(event)" data-tab="home" class="nav-link px-3 py-1.5 rounded-xl bg-saffron-500 text-white shadow-md transition cursor-pointer whitespace-nowrap shrink-0 flex items-center space-x-1">
+            <span>🏠</span> <span data-i18n="nav_home">Home</span>
+          </a>
+          <a href="#tool/quiz" data-tab="quiz" class="nav-link px-3 py-1.5 rounded-xl bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/30 transition font-black whitespace-nowrap shrink-0 flex items-center space-x-1">
+            <span>🎯</span> <span data-i18n="nav_quiz">Mock Test</span>
+          </a>
+          <a href="#tool/notes" data-tab="notes" class="nav-link px-3 py-1.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/30 transition whitespace-nowrap shrink-0 flex items-center space-x-1">
+            <span>📚</span> <span data-i18n="nav_notes">₹10 Notes Vault</span>
+          </a>
+          <a href="#homeCurrentAffairsSection" onclick="scrollToCurrentAffairs(event)" data-tab="current-affairs" class="nav-link px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 transition whitespace-nowrap shrink-0 flex items-center space-x-1">
+            <span>📰</span> <span data-i18n="nav_gk">GK & CA Daily</span>
+          </a>
+
+          <!-- More Tools Dropdown -->
+          <div class="relative shrink-0" id="desktopToolsDropdownContainer">
+            <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center space-x-1.5 font-bold cursor-pointer whitespace-nowrap shrink-0" aria-haspopup="true" aria-expanded="false">
+              <span>🛠️</span>
+              <span data-i18n="nav_more_tools">Tools & Utilities</span>
+              <span id="desktopToolsArrow" class="text-[9px] ml-0.5 transition-transform duration-200 inline-block">▼</span>
+            </button>
+            <div id="desktopToolsMenu" class="absolute left-0 sm:left-auto sm:right-0 top-full pt-1.5 w-64 hidden z-50 animate-fadeIn">
+              <div class="bg-slate-900 border border-slate-700/80 rounded-2xl shadow-2xl p-2 space-y-1 max-h-[75vh] overflow-y-auto">
+                <a href="#tool/resizer" data-tab="resizer" onclick="handleToolItemClick(event, 'resizer')" class="flex items-center px-3 py-2 rounded-xl text-slate-200 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_tools">📸 Photo Resizer Lab</a>
+                <a href="#directory" data-tab="directory" onclick="handleToolItemClick(event, 'directory')" class="flex items-center px-3 py-2 rounded-xl text-slate-200 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_boards">🎓 31 State & Central Boards</a>
+                <button type="button" onclick="triggerOmrSheetGenerator()" class="w-full text-left flex items-center px-3 py-2 rounded-xl text-indigo-300 hover:bg-slate-800 transition text-xs font-bold cursor-pointer">
+                  <span data-i18n="nav_omr">📄 Blank Vector OMR Sheet</span>
+                </button>
+                <a href="/admin" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold">🔐 Master Admin Console</a>
+                <a href="#tool/physical" data-tab="physical" onclick="handleToolItemClick(event, 'physical')" class="flex items-center px-3 py-2 rounded-xl text-orange-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_physical">🏃 Physical (PET/PST)</a>
+                <a href="#tool/salary" data-tab="salary" onclick="handleToolItemClick(event, 'salary')" class="flex items-center px-3 py-2 rounded-xl text-green-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_salary">💰 Salary Calculator</a>
+                <a href="#tool/documents" data-tab="documents" onclick="handleToolItemClick(event, 'documents')" class="flex items-center px-3 py-2 rounded-xl text-cyan-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_documents">📜 DV Guard</a>
+                <a href="#tool/planner" data-tab="planner" onclick="handleToolItemClick(event, 'planner')" class="flex items-center px-3 py-2 rounded-xl text-pink-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_planner">⏰ Study Routine</a>
+                <a href="#tool/rank" data-tab="rank" onclick="handleToolItemClick(event, 'rank')" class="flex items-center px-3 py-2 rounded-xl text-purple-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_rank">🎯 Rank Predictor</a>
+                <a href="#tool/kit" data-tab="kit" onclick="handleToolItemClick(event, 'kit')" class="flex items-center px-3 py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_kit">🎒 Exam Bag Kit</a>
+                <a href="#tool/waiver" data-tab="waiver" onclick="handleToolItemClick(event, 'waiver')" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_waiver">💰 Fee Exemption</a>
+                <a href="#tool/typing" data-tab="typing" onclick="handleToolItemClick(event, 'typing')" class="flex items-center px-3 py-2 rounded-xl text-teal-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_typing">⌨️ Typing Test</a>
+                <a href="#tool/calendar" data-tab="calendar" onclick="handleToolItemClick(event, 'calendar')" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_calendar">📅 Exam Calendar</a>
+                <a href="#tool/cutoff" data-tab="cutoff" onclick="handleToolItemClick(event, 'cutoff')" class="flex items-center px-3 py-2 rounded-xl text-blue-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_cutoff">📊 Cut-Off Analyzer</a>
+                <a href="#tool/syllabus" data-tab="syllabus" onclick="handleToolItemClick(event, 'syllabus')" class="flex items-center px-3 py-2 rounded-xl text-purple-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_syllabus">📋 Chapter Syllabus</a>
+                <a href="#tool/revision" data-tab="revision" onclick="handleToolItemClick(event, 'revision')" class="flex items-center px-3 py-2 rounded-xl text-yellow-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_vault">⭐ Revision Vault</a>
+                <a href="/adaptive-practice.html" class="flex items-center px-3 py-2 rounded-xl text-saffron-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_adaptive">🧠 Adaptive Practice</a>
+                <a href="/candidate-analytics.html" class="flex items-center px-3 py-2 rounded-xl text-cyan-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_analytics">📊 Honest Analytics</a>
+                <a href="#tool/age" data-tab="age" onclick="handleToolItemClick(event, 'age')" class="flex items-center px-3 py-2 rounded-xl text-slate-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_age">🎂 Age Calculator</a>
+                <a href="#tool/ai" data-tab="ai" onclick="handleToolItemClick(event, 'ai')" class="flex items-center px-3 py-2 rounded-xl text-indigo-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_ai">📑 Circular Decoder</a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
 

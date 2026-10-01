@@ -471,4 +471,13 @@ button:active, .btn-saffron:active, a.cursor-pointer:active {
   background-color: transparent;
 }
 
+/* Horizontal Smooth Scroll Bar Hidden */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 

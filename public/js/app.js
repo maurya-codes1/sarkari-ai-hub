@@ -1424,7 +1424,7 @@ function closeExamDayGuideModal() {
 
 // Smart Selective Pre-Apply Outbound Gateway Controller
 let gwCountdownInterval = null;
-const GW_TOTAL_SECONDS = 10;
+const GW_TOTAL_SECONDS = 3;
 let gwRemainingSeconds = GW_TOTAL_SECONDS;
 let gwTargetUrl = '';
 

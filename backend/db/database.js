@@ -58,6 +58,9 @@ function getDb(options = {}) {
     dbInstance.pragma('journal_mode = WAL');
     dbInstance.pragma('synchronous = NORMAL');
     dbInstance.pragma('busy_timeout = 5000');
+    dbInstance.pragma('cache_size = -64000');
+    dbInstance.pragma('mmap_size = 268435456');
+    dbInstance.pragma('temp_store = MEMORY');
 
     isDbAvailable = true;
     return dbInstance;
