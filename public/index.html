@@ -90,7 +90,7 @@
 
           <!-- Brand Logo -->
           <a href="#home" onclick="navigateToHome(event)" class="flex items-center space-x-1.5 sm:space-x-3 cursor-pointer shrink-0">
-            <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-lg sm:text-xl shadow-lg ring-2 ring-saffron-400/50 shrink-0">
+            <div id="brandLogoSecretTrigger" onclick="handleSecretLogoClick(event)" class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-lg sm:text-xl shadow-lg ring-2 ring-saffron-400/50 shrink-0 select-none cursor-pointer" title="SarkariAI Hub">
               S
             </div>
             <div class="min-w-0">
@@ -202,7 +202,6 @@
                 <button type="button" onclick="triggerOmrSheetGenerator()" class="w-full text-left flex items-center px-3 py-2 rounded-xl text-indigo-300 hover:bg-slate-800 transition text-xs font-bold cursor-pointer">
                   <span data-i18n="nav_omr">📄 Blank Vector OMR Sheet</span>
                 </button>
-                <a href="/admin" class="flex items-center px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition text-xs font-bold">🔐 Master Admin Console</a>
                 <a href="#tool/physical" data-tab="physical" onclick="handleToolItemClick(event, 'physical')" class="flex items-center px-3 py-2 rounded-xl text-orange-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_physical">🏃 Physical (PET/PST)</a>
                 <a href="#tool/salary" data-tab="salary" onclick="handleToolItemClick(event, 'salary')" class="flex items-center px-3 py-2 rounded-xl text-green-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_salary">💰 Salary Calculator</a>
                 <a href="#tool/documents" data-tab="documents" onclick="handleToolItemClick(event, 'documents')" class="flex items-center px-3 py-2 rounded-xl text-cyan-300 hover:bg-slate-800 transition text-xs font-bold" data-i18n="nav_documents">📜 DV Guard</a>
@@ -290,7 +289,6 @@
       <a href="#tool/age" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-i18n="nav_age">🎂 Age Calculator</a>
       <a href="#directory" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-i18n="nav_boards">🎓 10th/12th Boards & Exams</a>
       <a href="#tool/ai" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-slate-800 text-slate-300 hover:bg-slate-700 transition" data-i18n="nav_ai">📑 Official Circular Decoder</a>
-      <a href="/admin" onclick="closeMobileMenu()" class="block w-full text-left px-4 py-2.5 rounded-xl font-bold text-xs bg-amber-950/40 text-amber-300 border border-amber-800/50 hover:bg-amber-900/60 transition">🔐 Master Admin Console (/admin)</a>
       
       <!-- Mobile Quick Actions Row: OMR + Dark Mode -->
       <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-800">
@@ -3785,7 +3783,6 @@
           <a href="#tool/age" class="hover:text-saffron-400 transition" data-i18n="nav_age">Age Calculator</a>
           <a href="#directory" class="hover:text-saffron-400 transition" data-i18n="nav_boards">Boards & Exams</a>
           <a href="#tool/notes" class="hover:text-saffron-400 transition" data-i18n="nav_notes">₹10 Notes Vault</a>
-          <a href="/admin" class="hover:text-amber-300 text-amber-400 transition font-bold">🔐 Master Admin Console (/admin)</a>
         </div>
       </div>
 

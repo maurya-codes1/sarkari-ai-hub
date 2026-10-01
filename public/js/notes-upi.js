@@ -6825,6 +6825,31 @@ function initNotesVault() {
   updateNotesDependentDropdowns();
 }
 
+function maskUpiId(id) {
+  if (!id) return '';
+  const parts = id.split('@');
+  const handle = parts[0];
+  const host = parts[1] || 'upi';
+  if (handle.length <= 4) return handle.slice(0, 2) + '***@' + host;
+  return handle.slice(0, 4) + '****' + handle.slice(-2) + '@' + host;
+}
+
+function copyUpiIdText(upiId) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(upiId).then(() => {
+      const btn = document.getElementById('copyUpiBtn');
+      if (btn) btn.innerText = '✓ Copied';
+      setTimeout(() => { if (btn) btn.innerText = '📋 Copy'; }, 2000);
+    }).catch(() => {
+      prompt('Copy UPI ID:', upiId);
+    });
+  } else {
+    prompt('Copy UPI ID:', upiId);
+  }
+}
+
+let utrPollTimer = null;
+
 function openUpiPaymentModal(noteId, customNote = null) {
   let note = null;
 
@@ -6841,59 +6866,104 @@ function openUpiPaymentModal(noteId, customNote = null) {
 
   const upiCfg = window.DYNAMIC_UPI_CONFIG || {};
   const upiId = upiCfg.upiId || "sarkariai@upi";
+  const maskedUpi = maskUpiId(upiId);
   const payeeName = upiCfg.payeeName || "SarkariAI Hub";
   const price = note.price || upiCfg.defaultPrice || 9;
-  const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${encodeURIComponent(note.title.slice(0, 25))}`;
-  const qrUrl = upiCfg.customQrUrl || `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(upiIntent)}`;
+  const noteTitleClean = encodeURIComponent((note.title || 'Study Notes').slice(0, 25));
+  
+  // Mobile app intents
+  const genericUpiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${noteTitleClean}`;
+  const gpayIntent = `tez://upi/pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${noteTitleClean}`;
+  const phonepeIntent = `phonepe://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${noteTitleClean}`;
+  const paytmIntent = `paytmmp://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${noteTitleClean}`;
+
+  const qrUrl = upiCfg.customQrUrl || `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(genericUpiIntent)}`;
 
   const modal = document.getElementById('upiPaymentDialog');
   const modalContent = document.getElementById('upiModalContent');
 
   if (modal && modalContent) {
     modalContent.innerHTML = `
-      <div class="p-6 sm:p-8 max-w-md w-full bg-white rounded-3xl shadow-2xl relative">
-        <button onclick="closeUpiModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold p-1">
+      <div class="p-5 sm:p-7 max-w-md w-full bg-white rounded-3xl shadow-2xl relative max-h-[92vh] overflow-y-auto">
+        <button onclick="closeUpiModal()" class="absolute top-4 right-4 text-slate-400 hover:text-slate-700 text-xl font-bold p-1 z-10 cursor-pointer">
           ✕
         </button>
 
+        <!-- Header -->
         <div class="text-center">
-          <div class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-amber-100 text-amber-800 text-xl font-black mb-3">
-            ₹${note.price}
+          <div class="inline-flex items-center justify-center px-3.5 py-1 rounded-2xl bg-amber-100 text-amber-900 text-base font-black mb-2 shadow-xs border border-amber-300">
+            ₹${price}.00 (0% GST)
           </div>
-          <h3 class="text-lg font-black text-slate-900">${note.title}</h3>
-          <p class="text-xs text-slate-500 mt-1" data-i18n="upi_modal_scan_hint">${typeof getTranslation === 'function' ? getTranslation('upi_modal_scan_hint') : 'Scan QR with PhonePe / GPay / Paytm or click App below'}</p>
+          <h3 class="text-base sm:text-lg font-black text-slate-900 leading-snug">${note.title}</h3>
+          <p class="text-[11px] text-slate-500 mt-1 font-medium">PhonePe / GPay / Paytm से QR स्कैन करें या नीचे ऐप पर टैप करें</p>
         </div>
 
-        <!-- Dynamic QR Code -->
-        <div class="my-5 flex flex-col items-center justify-center p-4 bg-slate-50 rounded-2xl border border-slate-200">
-          <img src="${qrUrl}" alt="Scan UPI QR" class="w-44 h-44 rounded-xl shadow-sm border border-white" />
-          <div class="text-xs text-slate-600 font-mono mt-3 font-semibold">UPI ID: ${upiId}</div>
-          <div class="text-[11px] text-emerald-600 font-bold mt-0.5">Amount: ₹${note.price}.00 (No Extra GST)</div>
+        <!-- Step 1: Dynamic QR Code & Masked UPI ID -->
+        <div class="my-4 flex flex-col items-center justify-center p-3.5 bg-slate-50 rounded-2xl border border-slate-200">
+          <img src="${qrUrl}" alt="Scan UPI QR" class="w-40 h-40 rounded-xl shadow-sm border-2 border-white bg-white p-1" />
+          
+          <!-- Masked UPI ID with Copy Button -->
+          <div class="mt-2.5 flex items-center space-x-2 bg-white px-3 py-1.5 rounded-xl border border-slate-200 shadow-xs">
+            <span class="text-[11px] text-slate-700 font-mono font-bold">${maskedUpi}</span>
+            <button id="copyUpiBtn" type="button" onclick="copyUpiIdText('${upiId}')" class="px-2 py-0.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-[10px] font-bold border border-slate-300 transition cursor-pointer">
+              📋 Copy
+            </button>
+          </div>
+          <div class="text-[10px] text-emerald-700 font-bold mt-1">Beneficiary: ${payeeName}</div>
         </div>
 
-        <!-- Mobile UPI Intent App Buttons -->
-        <div class="grid grid-cols-3 gap-2 mb-4">
-          <a href="${upiIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:bg-slate-50 transition text-center">
-            <span class="text-base">🟢</span>
-            <span class="text-[10px] font-bold text-slate-700 mt-0.5">Google Pay</span>
+        <!-- Mobile Authentic App Buttons with Official SVGs -->
+        <div class="text-[11px] font-bold text-slate-700 mb-1.5 flex items-center justify-between">
+          <span>📲 मोबाइल ऐप्स (Direct Pay):</span>
+          <span class="text-[10px] text-slate-400 font-normal">Tap to open app</span>
+        </div>
+        <div class="grid grid-cols-4 gap-1.5 mb-4">
+          <!-- Google Pay -->
+          <a href="${gpayIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:border-blue-400 hover:bg-blue-50/50 transition text-center shadow-xs">
+            <svg class="w-6 h-6" viewBox="0 0 48 48"><path fill="#4285F4" d="M43.6 20.1H42V20H24v8h11.3C33.7 32.7 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.2 6.1 29.4 4 24 4 13 4 4 13 4 24s9 20 20 20 20-9 20-20c0-1.3-.2-2.7-.4-3.9z"/><path fill="#34A853" d="M24 44c5.4 0 10.2-1.8 13.9-4.9l-6.8-5.6c-2 1.4-4.5 2.2-7.1 2.2-5.3 0-9.8-3.3-11.4-8H5.6v5.8C9.3 40.5 16.1 44 24 44z"/><path fill="#FBBC05" d="M12.6 27.7c-.4-1.2-.6-2.5-.6-3.7s.2-2.5.6-3.7V14.5H5.6C4.1 17.5 3.2 20.7 3.2 24s.9 6.5 2.4 9.5l7-5.8z"/><path fill="#EA4335" d="M24 11.7c2.9 0 5.6 1 7.6 2.9l5.7-5.7C33.7 5.7 29.1 4 24 4 16.1 4 9.3 7.5 5.6 14.5l7 5.8c1.6-4.7 6.1-8.6 11.4-8.6z"/></svg>
+            <span class="text-[9px] font-bold text-slate-800 mt-1">GPay</span>
           </a>
-          <a href="${upiIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:bg-slate-50 transition text-center">
-            <span class="text-base">🟣</span>
-            <span class="text-[10px] font-bold text-slate-700 mt-0.5">PhonePe</span>
+
+          <!-- PhonePe -->
+          <a href="${phonepeIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:border-purple-400 hover:bg-purple-50/50 transition text-center shadow-xs">
+            <svg class="w-6 h-6" viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="#5f259f"/><path fill="#ffffff" d="M25.7 13.5h-5.2c-.3 0-.6.2-.6.5v2.8h2.3c2.4 0 3.8 1.1 3.8 3.2 0 2.5-1.9 3.5-4.2 3.5h-1.9v5.2c0 .3-.2.5-.5.5h-2.5c-.3 0-.5-.2-.5-.5V13.8c0-.6.4-1.1 1-1.1h8.3c.3 0 .5.2.5.5v.3z"/><path fill="#ffffff" d="M21.9 19.3h-2v2.4h2c1 0 1.9-.3 1.9-1.2 0-.8-.8-1.2-1.9-1.2z"/></svg>
+            <span class="text-[9px] font-bold text-slate-800 mt-1">PhonePe</span>
           </a>
-          <a href="${upiIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:bg-slate-50 transition text-center">
-            <span class="text-base">🔵</span>
-            <span class="text-[10px] font-bold text-slate-700 mt-0.5">Paytm / BHIM</span>
+
+          <!-- Paytm -->
+          <a href="${paytmIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:border-sky-400 hover:bg-sky-50/50 transition text-center shadow-xs">
+            <svg class="w-7 h-6" viewBox="0 0 100 40"><rect width="100" height="40" rx="8" fill="#002970"/><text x="8" y="27" fill="#00b9f5" font-weight="900" font-size="22" font-family="system-ui, sans-serif">Pay</text><text x="54" y="27" fill="#ffffff" font-weight="900" font-size="22" font-family="system-ui, sans-serif">tm</text></svg>
+            <span class="text-[9px] font-bold text-slate-800 mt-1">Paytm</span>
+          </a>
+
+          <!-- BHIM / Any UPI -->
+          <a href="${genericUpiIntent}" class="flex flex-col items-center justify-center p-2 rounded-xl border border-slate-200 hover:border-emerald-400 hover:bg-emerald-50/50 transition text-center shadow-xs">
+            <svg class="w-7 h-6" viewBox="0 0 90 40"><rect width="90" height="40" rx="8" fill="#0b2341"/><text x="6" y="27" fill="#22c55e" font-weight="900" font-size="18" font-family="system-ui, sans-serif">UPI</text><text x="48" y="27" fill="#f97316" font-weight="900" font-size="18" font-family="system-ui, sans-serif">BHIM</text></svg>
+            <span class="text-[9px] font-bold text-slate-800 mt-1">BHIM UPI</span>
           </a>
         </div>
 
-        <!-- Verification & Download Trigger -->
-        <button id="confirmPayBtn" onclick="verifyAndDownloadPdf()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-4 rounded-xl text-xs shadow-lg transition flex items-center justify-center space-x-2">
-          <span data-i18n="upi_modal_confirm_btn">${typeof getTranslation === 'function' ? getTranslation('upi_modal_confirm_btn') : '✅ I Have Completed Payment (Download High-Res PDF)'}</span>
-        </button>
+        <!-- Step 2: 12-Digit UTR Number Verification -->
+        <div class="bg-amber-50/80 border border-amber-200 rounded-2xl p-3.5 space-y-2">
+          <div class="flex items-center space-x-1.5 text-xs font-bold text-amber-950">
+            <span>🛡️</span>
+            <span>पेमेंट के बाद 12-अंकों का UTR / Ref No. दर्ज करें:</span>
+          </div>
+          
+          <input type="text" id="candidateUtrInput" maxlength="12" placeholder="12-अंकों का UTR नंबर (उदा. 421876543210)" class="w-full px-3.5 py-2.5 text-xs font-mono font-bold tracking-wider bg-white border border-amber-300 rounded-xl focus:outline-hidden focus:ring-2 focus:ring-amber-500 uppercase text-slate-900" />
 
-        <p class="text-[10px] text-center text-slate-400 mt-3">
-          100% Pure Hindi & English Fonts. Watermark-free clean study material.
+          <input type="tel" id="candidatePhoneInput" maxlength="15" placeholder="WhatsApp / मोबाइल नंबर (वैकल्पिक)" class="w-full px-3.5 py-2 text-xs bg-white border border-amber-300 rounded-xl focus:outline-hidden focus:ring-2 focus:ring-amber-500 text-slate-900" />
+
+          <button id="submitUtrBtn" onclick="submitCandidateUtr()" class="w-full bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 active:scale-98 text-white font-black py-3 px-4 rounded-xl text-xs shadow-md transition flex items-center justify-center space-x-2 cursor-pointer">
+            <span>🚀 UTR सबमिट करें व PDF अनलॉक करें</span>
+          </button>
+        </div>
+
+        <!-- Status Area (Pending / Approved) -->
+        <div id="utrStatusArea" class="hidden mt-3 p-3 rounded-2xl text-xs"></div>
+
+        <p class="text-[10px] text-center text-slate-400 mt-3 font-medium">
+          🔒 100% सुरक्षित भुगतान • वाटरमार्क-मुक्त सम्पूर्ण स्टडी पैकेज • तत्काल वेरिफिकेशन
         </p>
       </div>
     `;
@@ -6902,7 +6972,108 @@ function openUpiPaymentModal(noteId, customNote = null) {
   }
 }
 
+async function submitCandidateUtr() {
+  const utrInput = document.getElementById('candidateUtrInput');
+  const phoneInput = document.getElementById('candidatePhoneInput');
+  const submitBtn = document.getElementById('submitUtrBtn');
+  const statusArea = document.getElementById('utrStatusArea');
+
+  const cleanUtr = String(utrInput?.value || '').trim().replace(/[^a-zA-Z0-9]/g, '');
+  if (!cleanUtr || cleanUtr.length < 10) {
+    alert('कृपया 10 से 12 अंकों का वैध UPI Transaction/UTR नंबर दर्ज करें।');
+    if (utrInput) utrInput.focus();
+    return;
+  }
+
+  if (submitBtn) {
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = `<span>⏳ UTR सबमिट हो रहा है...</span>`;
+  }
+
+  try {
+    const res = await fetch('/api/pay/submit-utr', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        utr: cleanUtr,
+        noteId: activePaymentNote?.id || '',
+        noteName: activePaymentNote?.title || '',
+        examId: activePaymentNote?.exam || '',
+        amount: activePaymentNote?.price || 9,
+        phone: phoneInput?.value?.trim() || ''
+      })
+    });
+    const data = await res.json();
+
+    if (statusArea) {
+      statusArea.classList.remove('hidden');
+      if (data.status === 'APPROVED') {
+        statusArea.className = 'mt-3 p-3 rounded-2xl text-xs bg-emerald-50 border border-emerald-300 text-emerald-900 font-bold';
+        statusArea.innerHTML = `✅ भुगतान पूर्व-स्वीकृत! PDF तैयार की जा रही है...`;
+        localStorage.setItem('paid_note_' + (activePaymentNote?.id || ''), cleanUtr);
+        setTimeout(() => {
+          generateAndDownloadHighResPdf(cleanUtr);
+        }, 800);
+      } else {
+        statusArea.className = 'mt-3 p-3 rounded-2xl text-xs bg-amber-50 border border-amber-300 text-amber-950 font-medium';
+        statusArea.innerHTML = `
+          <div class="font-bold text-amber-900 flex items-center space-x-1.5">
+            <span>⏳</span>
+            <span>UTR सबमिट हो गया! (स्टेटस: एडमिन वेरिफिकेशन पेंडिंग)</span>
+          </div>
+          <p class="text-[11px] text-amber-800 mt-1">एडमिन द्वारा वेरीफाई किया जा रहा है (सामान्यतः 1-2 मिनट)। जैसे ही एडमिन अप्रूव करेंगे, PDF स्वतः डाउनलोड हो जाएगी।</p>
+          <div class="mt-2.5 flex items-center space-x-2">
+            <button type="button" onclick="pollUtrStatus('${cleanUtr}')" class="px-3 py-1 bg-amber-600 hover:bg-amber-700 text-white rounded-lg text-[11px] font-bold transition cursor-pointer">
+              🔄 स्टेटस जांचें (Refresh)
+            </button>
+            <span class="text-[10px] text-amber-700">ऑटो-चेक चालू है...</span>
+          </div>
+        `;
+        startAutoUtrPolling(cleanUtr);
+      }
+    }
+  } catch (err) {
+    alert('UTR सबमिट करने में समस्या आई: ' + err.message);
+  } finally {
+    if (submitBtn) {
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = `<span>🚀 UTR सबमिट करें व PDF अनलॉक करें</span>`;
+    }
+  }
+}
+
+function startAutoUtrPolling(utr) {
+  if (utrPollTimer) clearInterval(utrPollTimer);
+  utrPollTimer = setInterval(async () => {
+    await pollUtrStatus(utr);
+  }, 4000);
+}
+
+async function pollUtrStatus(utr) {
+  try {
+    const res = await fetch('/api/pay/check-utr?utr=' + encodeURIComponent(utr));
+    const data = await res.json();
+    const statusArea = document.getElementById('utrStatusArea');
+    if (!statusArea) return;
+
+    if (data.status === 'APPROVED') {
+      if (utrPollTimer) clearInterval(utrPollTimer);
+      statusArea.className = 'mt-3 p-3 rounded-2xl text-xs bg-emerald-50 border border-emerald-300 text-emerald-900 font-bold';
+      statusArea.innerHTML = `✅ भुगतान एडमिन द्वारा स्वीकृत! PDF तुरंत तैयार हो रही है...`;
+      localStorage.setItem('paid_note_' + (activePaymentNote?.id || ''), utr);
+      setTimeout(() => {
+        generateAndDownloadHighResPdf(utr);
+      }, 800);
+    } else if (data.status === 'REJECTED') {
+      if (utrPollTimer) clearInterval(utrPollTimer);
+      statusArea.className = 'mt-3 p-3 rounded-2xl text-xs bg-rose-50 border border-rose-300 text-rose-900 font-bold';
+      statusArea.innerHTML = `❌ UTR अस्वीकृत। कृपया अपना सही 12-अंकों का UPI Transaction नंबर दर्ज करें।`;
+    }
+  } catch (e) {}
+}
+
 function closeUpiModal() {
+  if (utrPollTimer) clearInterval(utrPollTimer);
   const modal = document.getElementById('upiPaymentDialog');
   if (modal) modal.close();
 }
@@ -6938,10 +7109,28 @@ function scrollToNotesCatalog() {
 
 // Master PDF Builder with Unicode Support (Devanagari Hindi + English)
 // Fixed Page-Cuts with CSS break rules and html2pdf pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
-async function verifyAndDownloadPdf() {
+function verifyAndDownloadPdf(approvedToken = null) {
+  if (!activePaymentNote) return;
+  const noteId = activePaymentNote.id;
+  const isPaid = approvedToken || localStorage.getItem('paid_note_' + noteId);
+
+  if (!isPaid) {
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('कृपया पहले ₹9 का भुगतान करके 12-अंकों का UTR नंबर दर्ज करें।', 'Payment Required', '🔒');
+    } else {
+      alert('कृपया पहले ₹9 का भुगतान करके 12-अंकों का UTR नंबर दर्ज करें।');
+    }
+    openUpiPaymentModal(noteId, activePaymentNote);
+    return;
+  }
+
+  generateAndDownloadHighResPdf(isPaid);
+}
+
+async function generateAndDownloadHighResPdf(token = '') {
   if (!activePaymentNote) return;
 
-  const btn = document.getElementById('confirmPayBtn');
+  const btn = document.getElementById('confirmPayBtn') || document.getElementById('submitUtrBtn');
   if (btn) {
     btn.innerHTML = `<span>⏳ Generating Crisp High-Yield PDF (100+ Questions)...</span>`;
     btn.disabled = true;
@@ -7293,6 +7482,24 @@ function openPrintWindow(htmlContent, title = 'SarkariAI Hub - Official Study No
   win.document.close();
 }
 
+function handleSavePdfFromReader() {
+  const note = activePaymentNote || latestAiGeneratedNote;
+  if (!note) return;
+  const isPaid = localStorage.getItem('paid_note_' + note.id);
+  if (isPaid) {
+    activePaymentNote = note;
+    generateAndDownloadHighResPdf(isPaid);
+  } else {
+    if (typeof showAppAlert === 'function') {
+      showAppAlert('PDF डाउनलोड करने के लिए कृपया पहले ₹9 का भुगतान पूरा करें और UTR नंबर सबमिट करें।', 'Payment Required', '🔒');
+    } else {
+      alert('PDF डाउनलोड करने के लिए कृपया पहले ₹9 का भुगतान पूरा करें और UTR नंबर सबमिट करें।');
+    }
+    closeNotesReaderModal();
+    openUpiPaymentModal(note.id, note);
+  }
+}
+
 // On-Screen Full Notes Interactive Reader Modal
 function openNotesReaderModal(noteData) {
   const note = noteData || latestAiGeneratedNote || activePaymentNote;
@@ -7324,7 +7531,7 @@ function openNotesReaderModal(noteData) {
           </div>
         </div>
         <div class="flex items-center space-x-2">
-          <button onclick="verifyAndDownloadPdf()" class="bg-saffron-500 hover:bg-saffron-600 text-white font-black text-xs px-3.5 py-2 rounded-xl transition shadow flex items-center space-x-1.5 cursor-pointer">
+          <button onclick="handleSavePdfFromReader()" class="bg-saffron-500 hover:bg-saffron-600 text-white font-black text-xs px-3.5 py-2 rounded-xl transition shadow flex items-center space-x-1.5 cursor-pointer">
             <span>🖨️ Save PDF</span>
           </button>
           <button onclick="closeNotesReaderModal()" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center font-bold text-sm transition cursor-pointer">

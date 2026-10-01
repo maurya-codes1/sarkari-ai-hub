@@ -74,11 +74,22 @@ function createRateLimiter({ windowMs = 60000, max = 50, message = 'Too many req
   };
 }
 
+// Universal HTTP Security Hardening Headers
+app.use((req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+  res.setHeader('X-XSS-Protection', '1; mode=block');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  next();
+});
+
 const aiRateLimiter = createRateLimiter({ windowMs: 60000, max: 40, message: 'Too many AI requests. Please wait a minute.' });
 const payRateLimiter = createRateLimiter({ windowMs: 60000, max: 60, message: 'Too many payment requests. Please wait a moment.' });
+const adminLoginLimiter = createRateLimiter({ windowMs: 60000, max: 10, message: 'Too many admin login attempts. Please wait a minute.' });
 
 app.use('/api/ai', aiRateLimiter);
 app.use('/api/pay', payRateLimiter);
+app.use('/api/admin/login', adminLoginLimiter);
 
 // Database Layer Integration (Phase 3)
 const { checkDbAvailable, getDb } = require('./backend/db/database');
@@ -96,6 +107,21 @@ function initPortalSettings() {
       CREATE TABLE IF NOT EXISTS portal_settings (
         key TEXT PRIMARY KEY,
         value TEXT,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+      )
+    `).run();
+
+    db.prepare(`
+      CREATE TABLE IF NOT EXISTS utr_payments (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        utr TEXT UNIQUE,
+        note_id TEXT,
+        note_name TEXT,
+        exam_id TEXT,
+        amount REAL,
+        phone TEXT,
+        status TEXT DEFAULT 'PENDING',
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
         updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
       )
     `).run();
@@ -2194,6 +2220,130 @@ app.get('/api/pay/generate-upi', (req, res) => {
     upiIntent,
     qrUrl: customQrUrl || defaultQrUrl
   });
+});
+
+// API: Candidate Submits 12-Digit UTR for Payment Verification
+app.post('/api/pay/submit-utr', (req, res) => {
+  const { utr, noteId = '', noteName = '', examId = '', amount = 9, phone = '' } = req.body || {};
+  const cleanUtr = String(utr || '').trim().replace(/[^a-zA-Z0-9]/g, '');
+
+  if (!cleanUtr || cleanUtr.length < 10) {
+    return res.status(400).json({ ok: false, error: 'Please enter a valid 12-digit UPI Transaction / UTR number.' });
+  }
+
+  try {
+    const db = getDb();
+    if (!db) {
+      return res.status(500).json({ ok: false, error: 'Database service temporarily unavailable.' });
+    }
+
+    // Check if UTR was already recorded
+    const existing = db.prepare('SELECT * FROM utr_payments WHERE utr = ?').get(cleanUtr);
+    if (existing) {
+      if (existing.status === 'APPROVED') {
+        return res.json({
+          ok: true,
+          utr: cleanUtr,
+          status: 'APPROVED',
+          token: 'dl_approved_' + cleanUtr,
+          message: 'Payment verified and approved! Starting download.'
+        });
+      }
+      return res.json({
+        ok: true,
+        utr: cleanUtr,
+        status: existing.status,
+        message: 'UTR already received. Awaiting Admin verification.'
+      });
+    }
+
+    db.prepare(`
+      INSERT INTO utr_payments (utr, note_id, note_name, exam_id, amount, phone, status, created_at, updated_at)
+      VALUES (?, ?, ?, ?, ?, ?, 'PENDING', datetime('now'), datetime('now'))
+    `).run(cleanUtr, String(noteId), String(noteName), String(examId), Number(amount) || 9, String(phone).trim());
+
+    return res.json({
+      ok: true,
+      utr: cleanUtr,
+      status: 'PENDING',
+      message: 'UTR submitted successfully! Verification pending.'
+    });
+  } catch (err) {
+    console.error('[UTR Submit Error]', err.message);
+    return res.status(500).json({ ok: false, error: 'Failed to record UTR payment.' });
+  }
+});
+
+// API: Candidate Checks UTR Approval Status
+app.get('/api/pay/check-utr', (req, res) => {
+  const cleanUtr = String(req.query.utr || '').trim().replace(/[^a-zA-Z0-9]/g, '');
+  if (!cleanUtr) {
+    return res.status(400).json({ ok: false, error: 'UTR parameter is required.' });
+  }
+
+  try {
+    const db = getDb();
+    if (!db) return res.status(500).json({ ok: false, error: 'Database unavailable.' });
+
+    const row = db.prepare('SELECT * FROM utr_payments WHERE utr = ?').get(cleanUtr);
+    if (!row) {
+      return res.json({ ok: false, status: 'NOT_FOUND' });
+    }
+
+    return res.json({
+      ok: true,
+      utr: cleanUtr,
+      status: row.status,
+      token: row.status === 'APPROVED' ? 'dl_approved_' + cleanUtr : null,
+      message: row.status === 'APPROVED' ? 'Payment Approved!' : (row.status === 'REJECTED' ? 'Payment Rejected.' : 'Pending Admin Verification')
+    });
+  } catch (err) {
+    return res.status(500).json({ ok: false, error: 'Failed to check UTR status.' });
+  }
+});
+
+// API: Admin List UTR Payments
+app.get('/api/admin/utr-list', (req, res) => {
+  const authHeader = req.headers['authorization'] || req.headers['x-admin-token'] || req.query.token;
+  if (!authHeader) {
+    return res.status(401).json({ error: 'Unauthorized: Admin token required' });
+  }
+
+  try {
+    const db = getDb();
+    if (!db) return res.json({ ok: true, utrs: [] });
+
+    const rows = db.prepare('SELECT * FROM utr_payments ORDER BY id DESC LIMIT 100').all();
+    return res.json({ ok: true, utrs: rows });
+  } catch (err) {
+    return res.status(500).json({ ok: false, error: err.message });
+  }
+});
+
+// API: Admin Approve / Reject UTR Payment
+app.post('/api/admin/utr-action', (req, res) => {
+  const authHeader = req.headers['authorization'] || req.headers['x-admin-token'] || req.query.token;
+  if (!authHeader) {
+    return res.status(401).json({ error: 'Unauthorized: Admin token required' });
+  }
+
+  const { utr, action } = req.body || {};
+  const cleanUtr = String(utr || '').trim().replace(/[^a-zA-Z0-9]/g, '');
+  if (!cleanUtr || !['APPROVE', 'REJECT'].includes(action)) {
+    return res.status(400).json({ ok: false, error: 'Valid UTR and action (APPROVE/REJECT) required.' });
+  }
+
+  try {
+    const db = getDb();
+    if (!db) return res.status(500).json({ error: 'Database unavailable' });
+
+    const newStatus = action === 'APPROVE' ? 'APPROVED' : 'REJECTED';
+    db.prepare("UPDATE utr_payments SET status = ?, updated_at = datetime('now') WHERE utr = ?").run(newStatus, cleanUtr);
+
+    return res.json({ ok: true, utr: cleanUtr, status: newStatus });
+  } catch (err) {
+    return res.status(500).json({ ok: false, error: err.message });
+  }
 });
 
 // API: Admin Authentication

@@ -547,7 +547,7 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     ]);
 
     const subjectSections = sectionsToBuild.map(sub => {
-      const qPool = getCompleteSubjectInventory(sub.id, { examName: meta.name });
+      const qPool = getCompleteSubjectInventory(sub.id, { examId: meta.id, examName: meta.name });
       return {
         subjectId: sub.id,
         subjectName: sub.name.replace(/^[^\w\s\u0900-\u097F]+/, '').trim(),
@@ -567,7 +567,7 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     // Preserves FULL legitimate subject inventory without artificial clamp
     // If 150, 200, 250 questions exist, ALL are included
     // -------------------------------------------------------------
-    const questions = getCompleteSubjectInventory(normSub, { examName: meta.name });
+    const questions = getCompleteSubjectInventory(normSub, { examId: meta.id, examName: meta.name });
     mcqs = questions.map((item, idx) => ({
       ...item,
       num: idx + 1,

@@ -260,6 +260,69 @@
 
       </div>
     </div>
+
+    <!-- UTR Payment Approvals Master Table (Full Width) -->
+    <div class="bg-slate-900 rounded-3xl border border-slate-800 p-6 sm:p-8 shadow-xl space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between pb-4 border-b border-slate-800 gap-3">
+        <div>
+          <div class="inline-flex items-center space-x-2 text-xs font-bold text-emerald-400 uppercase tracking-wider">
+            <span>💰 Live Micro-Payments Center</span>
+          </div>
+          <h2 class="text-lg sm:text-xl font-black text-white mt-1">Candidate UPI Payments & UTR Approvals</h2>
+          <p class="text-xs text-slate-400 mt-0.5">Review candidate UTR numbers, match them with your UPI app notification, and approve to instantly unlock PDF downloads.</p>
+        </div>
+
+        <div class="flex items-center space-x-3">
+          <button type="button" onclick="loadUtrPayments()" id="refreshUtrBtn" class="px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-400 border border-slate-700 transition flex items-center space-x-1.5 cursor-pointer">
+            <span>🔄 Refresh UTRs</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Metrics -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800">
+          <div class="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Total Submissions</div>
+          <div id="utrCountTotal" class="text-xl font-black text-white mt-1">0</div>
+        </div>
+        <div class="bg-slate-950 p-4 rounded-2xl border border-amber-900/50">
+          <div class="text-[10px] font-bold text-amber-400 uppercase tracking-wider">Pending Verification</div>
+          <div id="utrCountPending" class="text-xl font-black text-amber-400 mt-1">0</div>
+        </div>
+        <div class="bg-slate-950 p-4 rounded-2xl border border-emerald-900/50">
+          <div class="text-[10px] font-bold text-emerald-400 uppercase tracking-wider">Approved Payments</div>
+          <div id="utrCountApproved" class="text-xl font-black text-emerald-400 mt-1">0</div>
+        </div>
+        <div class="bg-slate-950 p-4 rounded-2xl border border-cyan-900/50">
+          <div class="text-[10px] font-bold text-cyan-400 uppercase tracking-wider">Total Verified Revenue</div>
+          <div id="utrTotalRevenue" class="text-xl font-black text-cyan-400 mt-1">₹0</div>
+        </div>
+      </div>
+
+      <!-- Table Container -->
+      <div class="overflow-x-auto rounded-2xl border border-slate-800">
+        <table class="w-full text-left text-xs text-slate-300">
+          <thead class="bg-slate-950 text-slate-400 text-[11px] font-bold uppercase tracking-wider border-b border-slate-800">
+            <tr>
+              <th class="py-3 px-4">Date / Time</th>
+              <th class="py-3 px-4">12-Digit UTR</th>
+              <th class="py-3 px-4">Candidate Mobile</th>
+              <th class="py-3 px-4">Note / Target Exam</th>
+              <th class="py-3 px-4">Amount</th>
+              <th class="py-3 px-4">Status</th>
+              <th class="py-3 px-4 text-right">Verification Action</th>
+            </tr>
+          </thead>
+          <tbody id="utrTableBody" class="divide-y divide-slate-800/60 bg-slate-900/40 font-medium">
+            <tr>
+              <td colspan="7" class="py-6 text-center text-slate-500">
+                Loading live UTR records from SQLite...
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
   </main>
 
   <script>
@@ -329,14 +392,20 @@
       } catch (e) {}
     }
 
+    let utrAutoRefreshInterval = null;
+
     function unlockAdminDashboard() {
       document.getElementById('loginGateModal').classList.add('hidden');
       document.getElementById('adminMainContent').classList.remove('hidden');
       document.getElementById('logoutBtn').classList.remove('hidden');
       loadAdminSettings();
+      loadUtrPayments();
+      if (utrAutoRefreshInterval) clearInterval(utrAutoRefreshInterval);
+      utrAutoRefreshInterval = setInterval(loadUtrPayments, 10000);
     }
 
     function adminLogout() {
+      if (utrAutoRefreshInterval) clearInterval(utrAutoRefreshInterval);
       currentAdminToken = null;
       sessionStorage.removeItem('sarkari_admin_token');
       localStorage.removeItem('sarkari_admin_token');
@@ -480,6 +549,127 @@
       } finally {
         btn.disabled = false;
         btn.innerText = '🔄 Run Auto-Sync Now';
+      }
+    }
+
+    async function loadUtrPayments() {
+      if (!currentAdminToken) return;
+      const tbody = document.getElementById('utrTableBody');
+      const refreshBtn = document.getElementById('refreshUtrBtn');
+      if (refreshBtn) refreshBtn.classList.add('animate-pulse');
+
+      try {
+        const res = await fetch('/api/admin/utr-list', {
+          headers: { 'Authorization': currentAdminToken }
+        });
+        if (!res.ok) return;
+        const data = await res.json();
+        const utrs = data.utrs || [];
+
+        // Calculate metrics
+        let pending = 0;
+        let approved = 0;
+        let revenue = 0;
+        utrs.forEach(u => {
+          if (u.status === 'PENDING') pending++;
+          else if (u.status === 'APPROVED') {
+            approved++;
+            revenue += Number(u.amount) || 9;
+          }
+        });
+
+        const totalEl = document.getElementById('utrCountTotal');
+        const pendingEl = document.getElementById('utrCountPending');
+        const approvedEl = document.getElementById('utrCountApproved');
+        const revEl = document.getElementById('utrTotalRevenue');
+
+        if (totalEl) totalEl.innerText = utrs.length;
+        if (pendingEl) pendingEl.innerText = pending;
+        if (approvedEl) approvedEl.innerText = approved;
+        if (revEl) revEl.innerText = '₹' + revenue;
+
+        if (!tbody) return;
+        if (utrs.length === 0) {
+          tbody.innerHTML = `
+            <tr>
+              <td colspan="7" class="py-8 text-center text-slate-500">
+                No UTR submissions yet. When candidates pay and enter their 12-digit UTR, they will appear here in real-time.
+              </td>
+            </tr>
+          `;
+          return;
+        }
+
+        tbody.innerHTML = utrs.map(u => {
+          let statusBadge = '';
+          if (u.status === 'APPROVED') {
+            statusBadge = `<span class="px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-[10px] font-bold">✓ APPROVED</span>`;
+          } else if (u.status === 'REJECTED') {
+            statusBadge = `<span class="px-2.5 py-1 rounded-full bg-rose-500/20 text-rose-400 border border-rose-500/30 text-[10px] font-bold">✕ REJECTED</span>`;
+          } else {
+            statusBadge = `<span class="px-2.5 py-1 rounded-full bg-amber-500/20 text-amber-400 border border-amber-500/30 text-[10px] font-bold animate-pulse">⏳ PENDING</span>`;
+          }
+
+          const formattedDate = u.created_at ? new Date(u.created_at).toLocaleString('en-IN', { dateStyle: 'short', timeStyle: 'short' }) : '—';
+
+          return `
+            <tr class="hover:bg-slate-800/40 transition">
+              <td class="py-3 px-4 text-slate-400 font-mono text-[11px] whitespace-nowrap">${formattedDate}</td>
+              <td class="py-3 px-4 font-mono font-bold text-amber-300 text-xs">${u.utr}</td>
+              <td class="py-3 px-4 text-slate-300">${u.phone ? u.phone : '<span class="text-slate-600">—</span>'}</td>
+              <td class="py-3 px-4 max-w-xs truncate text-slate-200 font-semibold" title="${u.note_name || u.exam_id}">
+                ${u.note_name || u.exam_id || 'Study Notes Vault'}
+              </td>
+              <td class="py-3 px-4 font-black text-emerald-400">₹${u.amount || 9}</td>
+              <td class="py-3 px-4">${statusBadge}</td>
+              <td class="py-3 px-4 text-right whitespace-nowrap">
+                <div class="inline-flex items-center space-x-1.5">
+                  ${u.status !== 'APPROVED' ? `
+                    <button type="button" onclick="handleUtrAction('${u.utr}', 'APPROVE')" class="px-3 py-1 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-[11px] font-bold transition shadow-xs cursor-pointer">
+                      ✓ Approve
+                    </button>
+                  ` : `
+                    <span class="text-xs text-emerald-400 font-bold px-2 py-1">Unlocked</span>
+                  `}
+                  ${u.status !== 'REJECTED' ? `
+                    <button type="button" onclick="handleUtrAction('${u.utr}', 'REJECT')" class="px-2.5 py-1 bg-slate-800 hover:bg-rose-950 hover:text-rose-300 text-slate-400 rounded-lg text-[11px] font-bold border border-slate-700 transition cursor-pointer">
+                      ✕ Reject
+                    </button>
+                  ` : ''}
+                </div>
+              </td>
+            </tr>
+          `;
+        }).join('');
+
+      } catch (err) {
+        console.error('Error fetching UTR list:', err);
+      } finally {
+        if (refreshBtn) refreshBtn.classList.remove('animate-pulse');
+      }
+    }
+
+    async function handleUtrAction(utr, action) {
+      if (!confirm(`Are you sure you want to ${action} UTR ${utr}?`)) return;
+
+      try {
+        const res = await fetch('/api/admin/utr-action', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': currentAdminToken
+          },
+          body: JSON.stringify({ utr, action })
+        });
+        const data = await res.json();
+        if (res.ok && data.ok) {
+          showToast(`UTR ${utr} ${action === 'APPROVE' ? 'Approved & Candidate PDF Unlocked!' : 'Rejected'}`);
+          loadUtrPayments();
+        } else {
+          alert('Action failed: ' + (data.error || 'Server error'));
+        }
+      } catch (err) {
+        alert('Communication error: ' + err.message);
       }
     }
 

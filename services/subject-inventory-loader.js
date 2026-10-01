@@ -55,7 +55,89 @@ function cleanQuestionText(text) {
   cleaned = cleaned.replace(/^\[[^\]]+\]\s*/, '');
   cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  cleaned = cleaned.replace(/^\d+[\.\)]\s+/, '');
+  cleaned = cleaned.replace(/\s*\([^)]*(?:जांच संदर्भ|Inquiry|अभ्यास संदर्भ|प्रैक्टिस संदर्भ)[^)]*\)/gi, '');
   return cleaned.trim();
+}
+
+/**
+ * Filter out auto-generated synthetic test fixtures, machine stubs, and irrelevant templates.
+ */
+function isSyntheticJunk(qRow, parsedContent, is12th = false) {
+  const qId = qRow.question_id || '';
+  if (qId.includes('p17c') || qId.includes('p17b') || qId.startsWith('q-p17') || qId.startsWith('q-c12')) return true;
+  if (!is12th && (qRow.subject_id === 'subj-math12' || qId.includes('math12'))) return true;
+  
+  const contentStr = JSON.stringify(parsedContent || {});
+  const junkPatterns = [
+    /statement i is uniquely false/i,
+    /canonical verified doctrine/i,
+    /contrary to gazette findings/i,
+    /neither statement applies to indian governance/i,
+    /statement i represents an invalid premise/i,
+    /standard verified formulation holds true/i,
+    /propositions contradict empirical observations/i,
+    /neither proposition satisfies/i,
+    /only conclusion 1 follows definitively/i,
+    /only conclusion 2 follows logically/i,
+    /రెండు ప్రకటనలు/i,
+    /పైవేవీ కావు/i,
+    /సంబంధించిన/i,
+    /ଏହି ବିବୃତି/i,
+    /bsem curriculum standards/i,
+    /bseb bihar board पाठ्यचर्या/i,
+    /आरआरबी एनटीपीसी परीक्षा के प्रश्न \d+ का विस्तृत समाधान/i,
+    /आईबीपीएस पीओ परीक्षा के लिए प्रश्न #\d+ का चरणबद्ध हल/i,
+    /जांच संदर्भ #\d+/i,
+    /स्थिति #\d+ का मूल्यांकन/i,
+    /scenario #\d+/i,
+    /NDA गणित पाठ्यक्रम/i,
+    /evaluated result for .* problem scenario #\d+/i
+  ];
+
+  for (const pat of junkPatterns) {
+    if (pat.test(contentStr)) return true;
+  }
+
+  if (!is12th) {
+    const math12Pats = [
+      /dy\/dx/i,
+      /∫/,
+      /d²y\/dx²/i,
+      /व्युत्क्रमणीय आव्यूह/i,
+      /सममित आव्यूह/i,
+      /differential equation/i,
+      /integrating factor/i,
+      /direction cosines/i,
+      /linear programming/i
+    ];
+    for (const pat of math12Pats) {
+      if (pat.test(contentStr)) return true;
+    }
+  }
+
+  return false;
+}
+
+/**
+ * Deterministic pseudo-random shuffle seeded by a string (e.g. examId)
+ */
+function seededShuffle(array, seedStr = '') {
+  if (!Array.isArray(array) || array.length <= 1) return array;
+  let seed = 0;
+  for (let i = 0; i < seedStr.length; i++) {
+    seed = (seed * 31 + seedStr.charCodeAt(i)) >>> 0;
+  }
+  function random() {
+    seed = (seed * 1664525 + 1013904223) >>> 0;
+    return (seed >>> 0) / 4294967296;
+  }
+  const result = [...array];
+  for (let i = result.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [result[i], result[j]] = [result[j], result[i]];
+  }
+  return result;
 }
 
 /**
@@ -76,7 +158,7 @@ function normalizeSubjectId(sub = '') {
   if (s.includes('chem') || s.includes('रसायन')) return 'chemistry';
   if (s.includes('bio') || s.includes('जीव')) return 'biology';
   if (s.includes('account') || s.includes('लेखा')) return 'accountancy';
-  if (s.includes('business') || s.includes('व्यावसायिक') || s.includes('bst')) return 'business';
+  if (s.includes('business') || s.includes('व्यावसायिक')) return 'business';
   if (s.includes('eco') || s.includes('अर्थशास्त्र')) return 'economics';
   if (s.includes('hist') || s.includes('इतिहास')) return 'history';
   if (s.includes('polit') || s.includes('राजनीति')) return 'polity';
@@ -88,11 +170,12 @@ function normalizeSubjectId(sub = '') {
 /**
  * Retrieves database questions for a given subject identifier or subject code.
  */
-function fetchDbQuestionsForSubject(subjectId) {
+function fetchDbQuestionsForSubject(subjectId, options = {}) {
   try {
     const db = getDb();
     if (!db) return [];
 
+    const is12th = Boolean(options.is12th);
     const normKey = normalizeSubjectId(subjectId);
     let targetSubId = normKey;
     if (!targetSubId.startsWith('subj-')) {
@@ -113,14 +196,20 @@ function fetchDbQuestionsForSubject(subjectId) {
     const LANGUAGE_SUBJECTS = new Set(['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi']);
     const isLangSub = LANGUAGE_SUBJECTS.has(normKey) || (rSub => LANGUAGE_SUBJECTS.has(rSub.replace(/^subj-/, '')))(targetSubId);
 
-    return rows.map(r => {
+    const validList = [];
+    for (const r of rows) {
       let parsed = {};
       try { parsed = JSON.parse(r.language_content); } catch (e) {}
+      if (isSyntheticJunk(r, parsed, is12th)) {
+        continue;
+      }
+
       const hi = parsed.hi || {};
       const en = parsed.en || {};
 
       const cleanHi = cleanQuestionText(hi.q || '');
       const cleanEn = cleanQuestionText(en.q || '');
+      if (!cleanHi && !cleanEn) continue;
 
       let qText = '';
       let opts = [];
@@ -171,18 +260,25 @@ function fetchDbQuestionsForSubject(subjectId) {
       const correctIdx = typeof parsedCa.index === 'number' ? parsedCa.index : (typeof parsedCa.correct_index === 'number' ? parsedCa.correct_index : ((typeof hi.correct === 'number') ? hi.correct : 0));
       const correctAnsText = parsedCa.value || parsedCa.correct_value || (Array.isArray(opts) && opts[correctIdx] ? opts[correctIdx] : (hi.ans || en.ans || ''));
 
-      return {
+      let rawExp = hi.exp || en.exp || 'Authentic solution with conceptual explanation.';
+      // Clean duplicate explanation tags e.g. 💡 सही उत्तर: A) ... — 💡 Correct Answer: A) ...
+      rawExp = rawExp.replace(/—\s*💡\s*Correct Answer:[^—\n]+/gi, '').trim();
+      rawExp = cleanQuestionText(rawExp);
+
+      validList.push({
         id: r.question_id,
         q: qText,
         options: opts,
         correct: correctIdx,
         ans: correctAnsText,
-        exp: cleanQuestionText(hi.exp || en.exp || 'Authentic solution with conceptual explanation.'),
+        exp: rawExp,
         topic: hi.topic || en.topic || `${subjectId.toUpperCase()} Core Concept`,
         provenance: r.provenance || 'HUMAN_CURATED',
         provLabel
-      };
-    });
+      });
+    }
+
+    return validList;
   } catch (err) {
     return [];
   }
@@ -196,6 +292,7 @@ function getMasterBankForSubject(subjectId = '', is12th = false) {
   const hy = HIGH_YIELD_BANKS || {};
   const cb = COMP_BANKS || {};
   const c12 = CLASS12_BANKS || {};
+  const mv = MASTER_VAULT || {};
 
   if (is12th) {
     if (s.includes('phys')) return c12.CLASS12_PHYSICS_BANK || [];
@@ -212,7 +309,10 @@ function getMasterBankForSubject(subjectId = '', is12th = false) {
 
   // General & Competitive mapping
   if (s.includes('reason') || s.includes('तर्क') || s.includes('तार्किक')) {
-    return cb.COMPETITIVE_REASONING_BANK || [];
+    return [
+      ...(cb.COMPETITIVE_REASONING_BANK || []),
+      ...(mv.REASONING_OBJECTIVES || [])
+    ];
   }
   if (s.includes('law') || s.includes('मूलविधि') || s.includes('संविधान')) {
     return cb.UP_POLICE_LAW_SPECIAL_BANK || [];
@@ -221,19 +321,33 @@ function getMasterBankForSubject(subjectId = '', is12th = false) {
     return cb.RAILWAY_SCIENCE_TECH_BANK || [];
   }
   if (s.includes('math') || s.includes('quant') || s.includes('गणित')) {
-    return cb.COMPETITIVE_MATH_BANK || hy.HIGH_YIELD_MATH_BANK || [];
+    return [
+      ...(cb.COMPETITIVE_MATH_BANK || []),
+      ...(mv.MATHS_OBJECTIVES || []),
+      ...(hy.HIGH_YIELD_MATH_BANK || [])
+    ];
   }
   if (s.includes('gk') || s.includes('gs') || s.includes('general') || s.includes('सामान्य ज्ञान')) {
-    return cb.COMPETITIVE_GK_GS_BANK || [];
+    return [
+      ...(cb.COMPETITIVE_GK_GS_BANK || []),
+      ...(mv.GK_POLITY_OBJECTIVES || []),
+      ...(hy.HIGH_YIELD_SOCIAL_BANK || [])
+    ];
   }
   if (s.includes('science') || s.includes('विज्ञान')) {
-    return hy.HIGH_YIELD_SCIENCE_BANK || [];
+    return [
+      ...(hy.HIGH_YIELD_SCIENCE_BANK || []),
+      ...(mv.SCIENCE_OBJECTIVES || [])
+    ];
   }
   if (s.includes('social') || s.includes('सामाजिक') || s.includes('sst')) {
     return hy.HIGH_YIELD_SOCIAL_BANK || [];
   }
   if (s.includes('hindi') || s.includes('हिन्दी')) {
-    return hy.HIGH_YIELD_HINDI_BANK || [];
+    return [
+      ...(hy.HIGH_YIELD_HINDI_BANK || []),
+      ...(mv.HINDI_OBJECTIVES || [])
+    ];
   }
   if (s.includes('english') || s.includes('अंग्रेजी')) {
     return hy.HIGH_YIELD_ENGLISH_BANK || [];
@@ -250,18 +364,19 @@ function getMasterBankForSubject(subjectId = '', is12th = false) {
  * Integrates Master Bank + DB Questions + High Yield Vault.
  * 
  * @param {string} subjectId
- * @param {object} [options] - { is12th: boolean, examName: string }
+ * @param {object} [options] - { is12th: boolean, examName: string, examId: string }
  * @returns {Array<object>} Full distinct question inventory
  */
 function getCompleteSubjectInventory(subjectId = '', options = {}) {
   const normSub = (subjectId || '').toLowerCase();
   const is12th = Boolean(options.is12th);
   const examName = options.examName || 'Competitive & Board Exam';
+  const examId = (options.examId || '').toLowerCase();
 
   const masterList = getMasterBankForSubject(normSub, is12th);
-  const dbList = fetchDbQuestionsForSubject(normSub);
+  const dbList = fetchDbQuestionsForSubject(normSub, options);
 
-  const combined = [];
+  let combined = [];
   const seenStems = new Set();
 
   function pushItem(item, source) {
@@ -271,7 +386,7 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
     if (seenStems.has(stem)) return;
     seenStems.add(stem);
 
-    let cleanQ = item.q.trim();
+    let cleanQ = cleanQuestionText(item.q);
     // Ensure clean question text without fake repetitive tags
     cleanQ = cleanQ.replace(/\n\[.*TCS\/NTA Model.*\]/g, '').trim();
 
@@ -290,14 +405,29 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
     });
   }
 
-  // 1. Prioritize authentic Master Bank questions
+  // 1. If exam-specific questions exist for this exam, prioritize them first
+  if (examId) {
+    for (const item of dbList) {
+      const qId = (item.id || '').toLowerCase();
+      if (qId.includes(examId)) {
+        pushItem(item, 'DB');
+      }
+    }
+  }
+
+  // 2. Prioritize authentic Master Bank questions
   for (const item of masterList) {
     pushItem(item, 'MASTER_BANK');
   }
 
-  // 2. Enrich with database questions
+  // 3. Enrich with remaining clean database questions
   for (const item of dbList) {
     pushItem(item, 'DB');
+  }
+
+  // 4. Seeded differentiation by examId to prevent SSC GD, SSC MTS etc. from having identical question order
+  if (examId && combined.length > 1) {
+    combined = seededShuffle(combined, `${examId}-${normSub}`);
   }
 
   return combined;

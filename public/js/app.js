@@ -1711,3 +1711,41 @@ function toggleAllBoards() {
   }
 }
 window.toggleAllBoards = toggleAllBoards;
+
+// ============================================================
+// Stealth Master Admin Shortcuts
+// 1. Ctrl + Shift + A (or a) opens /admin
+// 2. Tapping the brand logo "S" icon 5 times within 2.5s opens /admin
+// ============================================================
+window.addEventListener('keydown', (e) => {
+  if (e.ctrlKey && e.shiftKey && (e.key === 'a' || e.key === 'A')) {
+    e.preventDefault();
+    window.location.href = '/admin';
+  }
+});
+
+let logoSecretClickCount = 0;
+let logoSecretClickTimer = null;
+function handleSecretLogoClick(e) {
+  if (e && typeof e.stopPropagation === 'function') {
+    e.stopPropagation();
+  }
+  logoSecretClickCount++;
+  clearTimeout(logoSecretClickTimer);
+
+  if (logoSecretClickCount >= 5) {
+    logoSecretClickCount = 0;
+    if (typeof showToast === 'function') {
+      showToast('🔐 Opening Master Admin Console...', 'info');
+    }
+    setTimeout(() => {
+      window.location.href = '/admin';
+    }, 200);
+    return;
+  }
+
+  logoSecretClickTimer = setTimeout(() => {
+    logoSecretClickCount = 0;
+  }, 2200);
+}
+window.handleSecretLogoClick = handleSecretLogoClick;
