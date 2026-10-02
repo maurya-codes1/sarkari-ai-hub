@@ -173,6 +173,11 @@ function setPortalSetting(key, value) {
   }
 }
 
+// Google Search Console Site Verification Endpoint
+app.get('/googledfdc5f73589133c5.html', (req, res) => {
+  res.type('text/html').send('google-site-verification: googledfdc5f73589133c5.html');
+});
+
 // Standard root health check for container probes
 app.get('/health', (req, res) => {
   res.json({ ok: true, service: 'sarkari-ai-hub', status: 'healthy', timestamp: new Date().toISOString() });
