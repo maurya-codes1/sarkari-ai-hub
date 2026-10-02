@@ -47,7 +47,11 @@ function ingestFile(filePath) {
 
   // Resolve valid foreign keys
   const validBoard = boardId && db.prepare('SELECT 1 FROM boards WHERE board_id = ?').get(boardId) ? boardId : null;
-  const validExamVersion = examVersionId && db.prepare('SELECT 1 FROM exam_versions WHERE version_id = ?').get(examVersionId) ? examVersionId : null;
+  let resolvedVersion = examVersionId;
+  if (!resolvedVersion && validBoard) {
+    resolvedVersion = `ver-${validBoard}-2026`;
+  }
+  const validExamVersion = resolvedVersion && db.prepare('SELECT 1 FROM exam_versions WHERE version_id = ?').get(resolvedVersion) ? resolvedVersion : null;
   const validSource = db.prepare('SELECT source_id FROM official_sources WHERE source_id LIKE ? LIMIT 1').get(`%${boardId || 'cbse'}%`)?.source_id 
     || db.prepare('SELECT source_id FROM official_sources LIMIT 1').get()?.source_id 
     || 'src-cbse-board-portal';
@@ -99,7 +103,8 @@ function ingestFile(filePath) {
         continue;
       }
 
-      const qId = `q-mg-${boardId || examVersionId || 'comp'}-${subjectId}-${Date.now().toString(36)}-${i+1}`;
+      const rnd = Math.random().toString(36).substr(2, 6);
+      const qId = `q-mg-${boardId || examVersionId || 'comp'}-${subjectId}-${Date.now().toString(36)}-${rnd}-${i+1}`;
       const vId = `ver-${qId}-1`;
 
       // Resolve correct index & value
@@ -180,13 +185,14 @@ function ingestFile(filePath) {
         continue;
       }
 
-      const qId = `q-sub-${boardId || examVersionId || 'comp'}-${subjectId}-${Date.now().toString(36)}-${j+1}`;
+      const rnd = Math.random().toString(36).substr(2, 6);
+      const qId = `q-sub-${boardId || examVersionId || 'comp'}-${subjectId}-${Date.now().toString(36)}-${rnd}-${j+1}`;
       const vId = `ver-${qId}-1`;
 
       const langContent = {};
       langContent[language] = {
         q: subj.q,
-        modelAnswer: subj.modelAnswer || subj.ans || 'विस्तृत आदर्श उत्तर',
+        modelAnswer: subj.solution || subj.modelAnswer || subj.ans || 'विस्तृत आदर्श उत्तर',
         keyPoints: subj.keyPoints || [],
         markingGuidance: subj.markingGuidance || 'मुख्य अवधारणा पर 50%, उदाहरण/समीकरण पर 30%, प्रस्तुति पर 20% अंक।',
         chapter: subj.chapter || null,
