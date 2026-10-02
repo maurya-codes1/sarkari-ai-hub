@@ -25,8 +25,24 @@ function cleanTextForFingerprint(text) {
     .trim();
 }
 
+const CANONICAL_SUBJECT_MAP = {
+  'subj-te': 'subj-telugu',
+  'subj-ta': 'subj-tamil',
+  'subj-kn': 'subj-kannada',
+  'subj-ml': 'subj-malayalam',
+  'subj-or': 'subj-odia',
+  'subj-mr': 'subj-marathi',
+  'subj-gu': 'subj-gujarati',
+  'subj-pa': 'subj-punjabi',
+  'subj-as': 'subj-assamese',
+  'subj-bn': 'subj-bengali',
+  'subj-ur': 'subj-urdu',
+  'subj-en': 'subj-english',
+  'subj-political-science': 'subj-polity',
+  'subj-business-studies': 'subj-business',
+};
+
 function ingestFile(filePath) {
-  console.log(`Processing file: ${filePath}`);
   const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
   const {
@@ -42,6 +58,13 @@ function ingestFile(filePath) {
 
   if (!subjectId) {
     console.warn(`Skipping ${filePath}: missing subjectId`);
+    return { objectivesAdded: 0, subjectivesAdded: 0, skipped: 0 };
+  }
+
+  const canonicalSubjectId = CANONICAL_SUBJECT_MAP[subjectId] || subjectId;
+  const validSubject = db.prepare('SELECT 1 FROM subjects WHERE subject_id = ?').get(canonicalSubjectId) ? canonicalSubjectId : null;
+  if (!validSubject) {
+    console.warn(`Skipping ${filePath}: subjectId ${subjectId} (${canonicalSubjectId}) not found in database`);
     return { objectivesAdded: 0, subjectivesAdded: 0, skipped: 0 };
   }
 
@@ -104,7 +127,7 @@ function ingestFile(filePath) {
       }
 
       const rnd = Math.random().toString(36).substr(2, 6);
-      const qId = `q-mg-${boardId || examVersionId || 'comp'}-${subjectId}-${Date.now().toString(36)}-${rnd}-${i+1}`;
+      const qId = `q-mg-${boardId || examVersionId || 'comp'}-${canonicalSubjectId}-${Date.now().toString(36)}-${rnd}-${i+1}`;
       const vId = `ver-${qId}-1`;
 
       // Resolve correct index & value
@@ -150,7 +173,7 @@ function ingestFile(filePath) {
         qId,
         validExamVersion,
         validBoard,
-        subjectId,
+        canonicalSubjectId,
         'single_mcq',
         1, // marks
         validSource,
@@ -186,7 +209,7 @@ function ingestFile(filePath) {
       }
 
       const rnd = Math.random().toString(36).substr(2, 6);
-      const qId = `q-sub-${boardId || examVersionId || 'comp'}-${subjectId}-${Date.now().toString(36)}-${rnd}-${j+1}`;
+      const qId = `q-sub-${boardId || examVersionId || 'comp'}-${canonicalSubjectId}-${Date.now().toString(36)}-${rnd}-${j+1}`;
       const vId = `ver-${qId}-1`;
 
       const langContent = {};
@@ -205,7 +228,7 @@ function ingestFile(filePath) {
         qId,
         validExamVersion,
         validBoard,
-        subjectId,
+        canonicalSubjectId,
         subType,
         subj.marks || 5, // marks
         validSource,

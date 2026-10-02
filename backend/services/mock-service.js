@@ -764,7 +764,7 @@ class MockService {
         totalQuestions: sessionQuestions.length,
         questionsToAttempt: sessionQuestions.length,
         isNegativeMarking: false,
-        hasInsufficientInventory: sessionQuestions.length < validCount
+        hasInsufficientInventory: sessionQuestions.length < (parseInt(requestedCount, 10) || validCount)
       },
       sections: [practiceSection],
       questions: sessionQuestions,

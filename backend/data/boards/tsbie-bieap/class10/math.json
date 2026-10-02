@@ -1,0 +1,3487 @@
+{
+  "boardId": "tsbie-bieap",
+  "stage": "Class 10",
+  "subjectId": "subj-math",
+  "subjectName": "गणित (Mathematics)",
+  "language": "en",
+  "objectives": [
+    {
+      "q": "बिंदु P(9, 12) की मूल बिंदु O(0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 15 मात्रक",
+        "B) 17 मात्रक",
+        "C) 21 मात्रक",
+        "D) 14 मात्रक"
+      ],
+      "ans": "A) 15 मात्रक",
+      "exp": "💡 सही उत्तर: A) 15 मात्रक। दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Distance Formula"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 7 और 11 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 77",
+        "B) 1",
+        "C) 18",
+        "D) 4"
+      ],
+      "ans": "A) 77",
+      "exp": "💡 सही उत्तर: A) 77। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 7 × 11 = 77 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "त्रिभुज ABC में यदि DE || BC हो तथा AD = 2 सेमी, DB = 3 सेमी, AE = 4 सेमी हो, तो EC का मान होगा:",
+      "options": [
+        "A) 6 सेमी",
+        "B) 5 सेमी",
+        "C) 8 सेमी",
+        "D) 4.5 सेमी"
+      ],
+      "ans": "A) 6 सेमी",
+      "exp": "💡 सही उत्तर: A) 6 सेमी।\nव्याख्या: थेल्स प्रमेय: AD / DB = AE / EC => 2/3 = 4/EC => EC = (4 × 3) / 2 = 6 सेमी।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (sin 90° - cos 0°) का मान क्या होगा?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 2",
+        "D) -1"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0। व्याख्या: 1 - 1 = 0।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "एक मीनार की छाया उसकी ऊंचाई के बराबर है। सूर्य का उन्नयन कोण कितना होगा?",
+      "options": [
+        "A) 45°",
+        "B) 30°",
+        "C) 60°",
+        "D) 90°"
+      ],
+      "ans": "A) 45°",
+      "exp": "💡 सही उत्तर: A) 45°।\nव्याख्या: tan θ = ऊंचाई / छाया = h / h = 1 => θ = 45°।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 3 और 5 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 15",
+        "B) 1",
+        "C) 8",
+        "D) 2"
+      ],
+      "ans": "A) 15",
+      "exp": "💡 सही उत्तर: A) 15। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 3 × 5 = 15 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "व्यंजक (sin²30° + cos²30°) का मान कितना होता है?",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) 1/2",
+        "D) 2"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1।\nव्याख्या: सर्वसमिका: sin²θ + cos²θ = 1 (किसी भी कोण θ के लिए)।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 12, 9, 6, ... का 10वाँ पद क्या होगा?",
+      "options": [
+        "A) -15",
+        "B) -18",
+        "C) -12",
+        "D) -13"
+      ],
+      "ans": "A) -15",
+      "exp": "💡 सही उत्तर: A) -15। सूत्र: aₙ = a + (n - 1)d = 12 + (10 - 1)(-3) = 12 + 9×-3 = -15।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "52 पत्तों की ताश की गड्डी में से एक लाल रंग का पत्ता निकालने की प्रायिकता क्या है?",
+      "options": [
+        "A) 1/2",
+        "B) 1/4",
+        "C) 1/13",
+        "D) 2/13"
+      ],
+      "ans": "A) 1/2",
+      "exp": "💡 सही उत्तर: A) 1/2। व्याख्या: लाल पत्ते = 26 (26/52 = 1/2)।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 5, 10, 15, ... का 20वाँ पद क्या होगा?",
+      "options": [
+        "A) 100",
+        "B) 105",
+        "C) 95",
+        "D) 102"
+      ],
+      "ans": "A) 100",
+      "exp": "💡 सही उत्तर: A) 100। सूत्र: aₙ = a + (n - 1)d = 5 + (20 - 1)(5) = 5 + 19×5 = 100।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "ताश की गड्डी में से एक हुकुम (Spade) का पत्ता निकालने की प्रायिकता क्या होगी?",
+      "options": [
+        "A) 1/4",
+        "B) 1/2",
+        "C) 1/13",
+        "D) 3/4"
+      ],
+      "ans": "A) 1/4",
+      "exp": "💡 सही उत्तर: A) 1/4। व्याख्या: हुकुम के पत्ते = 13 (13/52 = 1/4)।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "द्विघात समीकरण x² + 2x + 5 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) -16",
+        "B) 16",
+        "C) -12",
+        "D) -20"
+      ],
+      "ans": "A) -16",
+      "exp": "💡 सही उत्तर: A) -16। सूत्र: D = b² - 4ac = (2)² - 4(1)(5) = 4 - 20 = -16। मूल काल्पनिक (कोई वास्तविक नहीं) हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "यदि P(E) = 0.05 है, तो घटना 'E नहीं' (P(not E)) की प्रायिकता क्या होगी?",
+      "options": [
+        "A) 0.95",
+        "B) 0.05",
+        "C) 0.50",
+        "D) 0.90"
+      ],
+      "ans": "A) 0.95",
+      "exp": "💡 सही उत्तर: A) 0.95। व्याख्या: P(not E) = 1 - 0.05 = 0.95।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 3, 8, 13, 18, ... का 10वाँ पद क्या होगा?",
+      "options": [
+        "A) 48",
+        "B) 53",
+        "C) 43",
+        "D) 50"
+      ],
+      "ans": "A) 48",
+      "exp": "💡 सही उत्तर: A) 48।\nव्याख्या: a = 3, d = 5। a₁₀ = a + 9d = 3 + 9(5) = 3 + 45 = 48।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "बिंदु P(-6, 8) की मूल बिंदु (0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 10 मात्रक",
+        "B) 8 मात्रक",
+        "C) 6 मात्रक",
+        "D) 14 मात्रक"
+      ],
+      "ans": "A) 10 मात्रक",
+      "exp": "💡 सही उत्तर: A) 10 मात्रक।\nव्याख्या: दूरी सूत्र: d = √[(-6)² + 8²] = √(36 + 64) = √100 = 10 मात्रक।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "एक पासे को फेंकने पर एक अभाज्य संख्या आने की प्रायिकता क्या है?",
+      "options": [
+        "A) 1/2",
+        "B) 1/3",
+        "C) 2/3",
+        "D) 1/6"
+      ],
+      "ans": "A) 1/2",
+      "exp": "💡 सही उत्तर: A) 1/2। व्याख्या: अभाज्य संख्याएं: 2, 3, 5 (3/6 = 1/2)।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "यदि बहुपद x² + ax - b का एक शून्यक दूसरे का ऋणात्मक हो, तो a का मान क्या होगा?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) -1",
+        "D) b के बराबर"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0।\nव्याख्या: माना शून्यक α और -α हैं। योग = α + (-α) = 0 = -a/1 => a = 0।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "एक द्विघात बहुपद ज्ञात कीजिए जिसके शून्यकों का योग -3 और गुणनफल 2 है:",
+      "options": [
+        "A) x² + 3x + 2",
+        "B) x² - 3x + 2",
+        "C) x² + 3x - 2",
+        "D) x² - 3x - 2"
+      ],
+      "ans": "A) x² + 3x + 2",
+      "exp": "💡 सही उत्तर: A) x² + 3x + 2।\nव्याख्या: p(x) = x² - (योग)x + (गुणनफल) = x² - (-3)x + 2 = x² + 3x + 2।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "द्विघात समीकरण x² - 7x + 12 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) 1",
+        "B) -1",
+        "C) 5",
+        "D) -3"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1। सूत्र: D = b² - 4ac = (-7)² - 4(1)(12) = 49 - 48 = 1। मूल वास्तविक और भिन्न हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "व्यंजक (1 - tan²45°) / (1 + tan²45°) का मान क्या है?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) sin 45°",
+        "D) cos 90° = 0"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0।\nव्याख्या: tan 45° = 1 => (1 - 1²) / (1 + 1²) = 0/2 = 0।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "यदि द्विघात बहुपद x² - 5x + 6 के शून्यक α और β हैं, तो α + β का मान क्या होगा?",
+      "options": [
+        "A) 5",
+        "B) -5",
+        "C) 6",
+        "D) -6"
+      ],
+      "ans": "A) 5",
+      "exp": "💡 सही उत्तर: A) 5।\nव्याख्या: शून्यकों का योग α + β = -b/a = -(-5)/1 = 5।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "बिंदु P(7, 24) की मूल बिंदु O(0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 25 मात्रक",
+        "B) 27 मात्रक",
+        "C) 31 मात्रक",
+        "D) 24 मात्रक"
+      ],
+      "ans": "A) 25 मात्रक",
+      "exp": "💡 सही उत्तर: A) 25 मात्रक। दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Distance Formula"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 10, 8, 6, ... का 16वाँ पद क्या होगा?",
+      "options": [
+        "A) -20",
+        "B) -22",
+        "C) -18",
+        "D) -18"
+      ],
+      "ans": "A) -20",
+      "exp": "💡 सही उत्तर: A) -20। सूत्र: aₙ = a + (n - 1)d = 10 + (16 - 1)(-2) = 10 + 15×-2 = -20।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "त्रिज्या r वाले वृत्त के एक त्रिज्यखंड जिसका कोण θ है, का क्षेत्रफल क्या होता है?",
+      "options": [
+        "A) (θ/360°) × πr²",
+        "B) (θ/180°) × πr",
+        "C) (θ/360°) × 2πr",
+        "D) 2πr²"
+      ],
+      "ans": "A) (θ/360°) × πr²",
+      "exp": "💡 सही उत्तर: A) (θ/360°) × πr²।\nव्याख्या: त्रिज्यखंड का क्षेत्रफल = (θ/360°) × πr²।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "द्विघात समीकरण 2x² - 4x + 3 = 0 के मूलों की प्रकृति कैसी होगी?",
+      "options": [
+        "A) वास्तविक नहीं (काल्पनिक)",
+        "B) वास्तविक और भिन्न",
+        "C) वास्तविक और समान",
+        "D) परिमेय और समान"
+      ],
+      "ans": "A) वास्तविक नहीं (काल्पनिक)",
+      "exp": "💡 सही उत्तर: A) वास्तविक नहीं (काल्पनिक)।\nव्याख्या: D = (-4)² - 4(2)(3) = 16 - 24 = -8 < 0। D ऋणात्मक है अतः कोई वास्तविक मूल नहीं है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "द्विघात समीकरण 2x² + 3x + 4 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) -23",
+        "B) 23",
+        "C) -19",
+        "D) -27"
+      ],
+      "ans": "A) -23",
+      "exp": "💡 सही उत्तर: A) -23। सूत्र: D = b² - 4ac = (3)² - 4(2)(4) = 9 - 32 = -23। मूल काल्पनिक (कोई वास्तविक नहीं) हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "यदि किसी AP का nवाँ पद aₙ = 3 + 4n है, तो इसका सार्व अंतर (Common Difference d) क्या होगा?",
+      "options": [
+        "A) 4",
+        "B) 3",
+        "C) 7",
+        "D) 1"
+      ],
+      "ans": "A) 4",
+      "exp": "💡 सही उत्तर: A) 4।\nव्याख्या: a₁ = 3 + 4(1) = 7; a₂ = 3 + 4(2) = 11। d = a₂ - a₁ = 11 - 7 = 4।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "निम्नलिखित में से कौन सा परिमेय संख्या का दशमलव प्रसार सांत (Terminating) है?",
+      "options": [
+        "A) 17/8",
+        "B) 64/455",
+        "C) 29/343",
+        "D) 77/210"
+      ],
+      "ans": "A) 17/8",
+      "exp": "💡 सही उत्तर: A) 17/8।\nव्याख्या: 17/8 में हर = 8 = 2³ = 2³ × 5⁰। चूंकि हर 2^m × 5^n के रूप का है, अतः यह सांत है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "यदि समीकरण युग्म 2x + 3y = 7 और 4x + ky = 14 के अनंत हल हों, तो k का मान क्या होगा?",
+      "options": [
+        "A) 6",
+        "B) 3",
+        "C) 2",
+        "D) 4"
+      ],
+      "ans": "A) 6",
+      "exp": "💡 सही उत्तर: A) 6।\nव्याख्या: अनंत हल के लिए: 2/4 = 3/k = 7/14 => 1/2 = 3/k => k = 6।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "किसी असंभव घटना की प्रायिकता सदैव कितनी होती है?",
+      "options": [
+        "A) 0",
+        "B) 1",
+        "C) 0.5",
+        "D) -1"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0।\nव्याख्या: असंभव घटना की प्रायिकता 0 होती है तथा निश्चित घटना की प्रायिकता 1 होती है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "एक अच्छी तरह फेंटी गई 52 पत्तों की ताश की गड्डी में से एक इक्का निकालने की प्रायिकता क्या है?",
+      "options": [
+        "A) 1/13",
+        "B) 1/52",
+        "C) 4/13",
+        "D) 1/4"
+      ],
+      "ans": "A) 1/13",
+      "exp": "💡 सही उत्तर: A) 1/13।\nव्याख्या: कुल इक्के = 4, कुल पत्ते = 52। P(इक्का) = 4/52 = 1/13।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "द्विघात समीकरण x² - 8x + 16 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) 0",
+        "B) 0",
+        "C) 4",
+        "D) -4"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0। सूत्र: D = b² - 4ac = (-8)² - 4(1)(16) = 64 - 64 = 0। मूल वास्तविक और समान हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "द्विघात समीकरण x² - 5x + 4 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) 9",
+        "B) -9",
+        "C) 13",
+        "D) 5"
+      ],
+      "ans": "A) 9",
+      "exp": "💡 सही उत्तर: A) 9। सूत्र: D = b² - 4ac = (-5)² - 4(1)(4) = 25 - 16 = 9। मूल वास्तविक और भिन्न हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "दो संख्याओं का योग 26 है और उनका अंतर 10 है। वे संख्याएं क्या होंगी?",
+      "options": [
+        "A) 18 और 8",
+        "B) 20 और 6",
+        "C) 16 और 10",
+        "D) 19 और 7"
+      ],
+      "ans": "A) 18 और 8",
+      "exp": "💡 सही उत्तर: A) 18 और 8।\nव्याख्या: x + y = 26 और x - y = 10 => 2x = 36 => x = 18; y = 26 - 18 = 8।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 5 और 11 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 55",
+        "B) 1",
+        "C) 16",
+        "D) 6"
+      ],
+      "ans": "A) 55",
+      "exp": "💡 सही उत्तर: A) 55। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 5 × 11 = 55 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "द्विघात समीकरण ax² + bx + c = 0 के मूल वास्तविक और समान होंगे यदि विविक्तकर (Discriminant D) का मान हो:",
+      "options": [
+        "A) D = 0 (b² - 4ac = 0)",
+        "B) D > 0",
+        "C) D < 0",
+        "D) D ≤ 0"
+      ],
+      "ans": "A) D = 0 (b² - 4ac = 0)",
+      "exp": "💡 सही उत्तर: A) D = 0 (b² - 4ac = 0)।\nव्याख्या: जब D = b² - 4ac = 0 होता है, तो द्विघात समीकरण के दोनों मूल वास्तविक और बराबर होते हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "बिंदुओं A(2, 3) और B(4, 1) को मिलाने वाले रेखाखंड के मध्य बिंदु के निर्देशांक क्या होंगे?",
+      "options": [
+        "A) (3, 2)",
+        "B) (1, 2)",
+        "C) (2, 2)",
+        "D) (3, 1)"
+      ],
+      "ans": "A) (3, 2)",
+      "exp": "💡 सही उत्तर: A) (3, 2)।\nव्याख्या: मध्य बिंदु: [(x₁ + x₂)/2, (y₁ + y₂)/2] = [(2 + 4)/2, (3 + 1)/2] = (3, 2)।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "समीकरण 3x² - 6x + k = 0 के मूल समान होने पर k का मान ज्ञात कीजिए:",
+      "options": [
+        "A) 3",
+        "B) 6",
+        "C) 9",
+        "D) 12"
+      ],
+      "ans": "A) 3",
+      "exp": "💡 सही उत्तर: A) 3।\nव्याख्या: समान मूल के लिए: b² - 4ac = 0 => (-6)² - 4(3)(k) = 0 => 36 = 12k => k = 3।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 11 और 13 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 143",
+        "B) 1",
+        "C) 24",
+        "D) 2"
+      ],
+      "ans": "A) 143",
+      "exp": "💡 सही उत्तर: A) 143। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 11 × 13 = 143 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "प्रथम 100 प्राकृतिक संख्याओं का योग क्या होगा?",
+      "options": [
+        "A) 5050",
+        "B) 5000",
+        "C) 5100",
+        "D) 5025"
+      ],
+      "ans": "A) 5050",
+      "exp": "💡 सही उत्तर: A) 5050।\nव्याख्या: सूत्र: S = n(n + 1)/2 = 100 × 101 / 2 = 50 × 101 = 5050।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 3 और 7 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 21",
+        "B) 1",
+        "C) 10",
+        "D) 4"
+      ],
+      "ans": "A) 21",
+      "exp": "💡 सही उत्तर: A) 21। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 3 × 7 = 21 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "वृत्त के किसी बाह्य बिंदु से उस पर कितनी स्पर्श रेखाएं खींची जा सकती हैं?",
+      "options": [
+        "A) केवल 2",
+        "B) 1",
+        "C) अनंत",
+        "D) 3"
+      ],
+      "ans": "A) केवल 2",
+      "exp": "💡 सही उत्तर: A) केवल 2।\nव्याख्या: किसी वृत्त पर बाह्य बिंदु से केवल और केवल दो स्पर्श रेखाएं खींची जा सकती हैं और उनकी लंबाइयां समान होती हैं।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 5 और 7 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 35",
+        "B) 1",
+        "C) 12",
+        "D) 2"
+      ],
+      "ans": "A) 35",
+      "exp": "💡 सही उत्तर: A) 35। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 5 × 7 = 35 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 7, 10, 13, ... का 10वाँ पद क्या होगा?",
+      "options": [
+        "A) 34",
+        "B) 37",
+        "C) 31",
+        "D) 36"
+      ],
+      "ans": "A) 34",
+      "exp": "💡 सही उत्तर: A) 34। सूत्र: aₙ = a + (n - 1)d = 7 + (10 - 1)(3) = 7 + 9×3 = 34।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "सबसे छोटी भाज्य संख्या (Composite) और सबसे छोटी अभाज्य संख्या (Prime) का गुणनफल क्या है?",
+      "options": [
+        "A) 8",
+        "B) 4",
+        "C) 2",
+        "D) 6"
+      ],
+      "ans": "A) 8",
+      "exp": "💡 सही उत्तर: A) 8।\nव्याख्या: सबसे छोटी भाज्य संख्या = 4, सबसे छोटी अभाज्य संख्या = 2। गुणनफल = 4 × 2 = 8।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "यदि दो समरूप त्रिभुजों की भुजाओं का अनुपात 4 : 9 है, तो उनके क्षेत्रफलों का अनुपात क्या होगा?",
+      "options": [
+        "A) 16 : 81",
+        "B) 2 : 3",
+        "C) 81 : 16",
+        "D) 4 : 9"
+      ],
+      "ans": "A) 16 : 81",
+      "exp": "💡 सही उत्तर: A) 16 : 81।\nव्याख्या: समरूप त्रिभुजों के क्षेत्रफलों का अनुपात उनकी संगत भुजाओं के वर्गों के अनुपात के बराबर होता है: 4² : 9² = 16 : 81।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "द्विघात समीकरण 2x² - 5x + 2 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) 9",
+        "B) -9",
+        "C) 13",
+        "D) 5"
+      ],
+      "ans": "A) 9",
+      "exp": "💡 सही उत्तर: A) 9। सूत्र: D = b² - 4ac = (-5)² - 4(2)(2) = 25 - 16 = 9। मूल वास्तविक और भिन्न हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "एक समकोण त्रिभुज में कर्ण 13 सेमी और एक भुजा 5 सेमी है, तो तीसरी भुजा की लंबाई क्या होगी?",
+      "options": [
+        "A) 12 सेमी",
+        "B) 10 सेमी",
+        "C) 8 सेमी",
+        "D) 14 सेमी"
+      ],
+      "ans": "A) 12 सेमी",
+      "exp": "💡 सही उत्तर: A) 12 सेमी।\nव्याख्या: पाइथागोरस प्रमेय: c² = a² + b² => 13² = 5² + b² => 169 - 25 = b² => b = √144 = 12 सेमी।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (sec²45° - tan²45°) का मान क्या होगा?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 0",
+        "D) -1"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1। व्याख्या: सर्वसमिका sec²θ - tan²θ = 1।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "बिंदु P(6, 8) की मूल बिंदु O(0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 10 मात्रक",
+        "B) 12 मात्रक",
+        "C) 14 मात्रक",
+        "D) 9 मात्रक"
+      ],
+      "ans": "A) 10 मात्रक",
+      "exp": "💡 सही उत्तर: A) 10 मात्रक। दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Distance Formula"
+    },
+    {
+      "q": "दो सिक्कों को एक साथ उछालने पर कम से कम एक चित्त (Head) आने की प्रायिकता क्या है?",
+      "options": [
+        "A) 3/4",
+        "B) 1/2",
+        "C) 1/4",
+        "D) 1"
+      ],
+      "ans": "A) 3/4",
+      "exp": "💡 सही उत्तर: A) 3/4। व्याख्या: परिणाम: HH, HT, TH, TT (अनुकूल 3/4)।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "AP 10, 7, 4, ... का 30वाँ पद क्या है?",
+      "options": [
+        "A) -77",
+        "B) 77",
+        "C) -87",
+        "D) 87"
+      ],
+      "ans": "A) -77",
+      "exp": "💡 सही उत्तर: A) -77।\nव्याख्या: a = 10, d = -3। a₃₀ = 10 + 29(-3) = 10 - 87 = -77।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 4, 10, 16, ... का 11वाँ पद क्या होगा?",
+      "options": [
+        "A) 64",
+        "B) 70",
+        "C) 58",
+        "D) 66"
+      ],
+      "ans": "A) 64",
+      "exp": "💡 सही उत्तर: A) 64। सूत्र: aₙ = a + (n - 1)d = 4 + (11 - 1)(6) = 4 + 10×6 = 64।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "द्विघात समीकरण x² - 6x + 9 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) 0",
+        "B) 0",
+        "C) 4",
+        "D) -4"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0। सूत्र: D = b² - 4ac = (-6)² - 4(1)(9) = 36 - 36 = 0। मूल वास्तविक और समान हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 17 और 19 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 323",
+        "B) 1",
+        "C) 36",
+        "D) 2"
+      ],
+      "ans": "A) 323",
+      "exp": "💡 सही उत्तर: A) 323। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 17 × 19 = 323 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "यदि दो धनात्मक पूर्णांकों a और b का HCF 12 और उनका गुणनफल 2160 है, तो उनका LCM क्या होगा?",
+      "options": [
+        "A) 180",
+        "B) 160",
+        "C) 120",
+        "D) 240"
+      ],
+      "ans": "A) 180",
+      "exp": "💡 सही उत्तर: A) 180।\nव्याख्या: सूत्र: HCF × LCM = a × b => 12 × LCM = 2160 => LCM = 2160 / 12 = 180।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "बिंदु P(8, 15) की मूल बिंदु O(0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 17 मात्रक",
+        "B) 19 मात्रक",
+        "C) 23 मात्रक",
+        "D) 16 मात्रक"
+      ],
+      "ans": "A) 17 मात्रक",
+      "exp": "💡 सही उत्तर: A) 17 मात्रक। दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Distance Formula"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 13 और 17 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 221",
+        "B) 1",
+        "C) 30",
+        "D) 4"
+      ],
+      "ans": "A) 221",
+      "exp": "💡 सही उत्तर: A) 221। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 13 × 17 = 221 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "द्विघात समीकरण 3x² + 1x + 2 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) -23",
+        "B) 23",
+        "C) -19",
+        "D) -27"
+      ],
+      "ans": "A) -23",
+      "exp": "💡 सही उत्तर: A) -23। सूत्र: D = b² - 4ac = (1)² - 4(3)(2) = 1 - 24 = -23। मूल काल्पनिक (कोई वास्तविक नहीं) हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "बिंदु P(5, 12) की मूल बिंदु O(0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 13 मात्रक",
+        "B) 15 मात्रक",
+        "C) 17 मात्रक",
+        "D) 12 मात्रक"
+      ],
+      "ans": "A) 13 मात्रक",
+      "exp": "💡 सही उत्तर: A) 13 मात्रक। दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Distance Formula"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (tan 45° + cot 45°) का मान क्या होगा?",
+      "options": [
+        "A) 2",
+        "B) 1",
+        "C) 0",
+        "D) √2"
+      ],
+      "ans": "A) 2",
+      "exp": "💡 सही उत्तर: A) 2। व्याख्या: 1 + 1 = 2।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (2 sin 30° cos 30°) का मान क्या होगा?",
+      "options": [
+        "A) √3/2",
+        "B) 1/2",
+        "C) 1",
+        "D) √3"
+      ],
+      "ans": "A) √3/2",
+      "exp": "💡 सही उत्तर: A) √3/2। व्याख्या: sin 60° = √3/2।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (tan 60° / cot 30°) का मान क्या होगा?",
+      "options": [
+        "A) 1",
+        "B) √3",
+        "C) 3",
+        "D) 1/√3"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1। व्याख्या: √3 / √3 = 1।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "समीकरण युग्म x + 2y - 4 = 0 और 2x + 4y - 12 = 0 द्वारा निरूपित रेखाएं कैसी होंगी?",
+      "options": [
+        "A) समांतर रेखाएं (Parallel Lines)",
+        "B) प्रतिच्छेदी रेखाएं",
+        "C) संपाती रेखाएं",
+        "D) लंबवत रेखाएं"
+      ],
+      "ans": "A) समांतर रेखाएं (Parallel Lines)",
+      "exp": "💡 सही उत्तर: A) समांतर रेखाएं (Parallel Lines)।\nव्याख्या: a₁/a₂ = 1/2; b₁/b₂ = 2/4 = 1/2; c₁/c₂ = -4/-12 = 1/3। अतः a₁/a₂ = b₁/b₂ ≠ c₁/c₂ (समांतर, कोई हल नहीं)।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "त्रिघात बहुपद ax³ + bx² + cx + d के शून्यकों α, β, γ के लिए αβ + βγ + γα का मान होता है:",
+      "options": [
+        "A) c/a",
+        "B) -b/a",
+        "C) -d/a",
+        "D) b/a"
+      ],
+      "ans": "A) c/a",
+      "exp": "💡 सही उत्तर: A) c/a।\nव्याख्या: दो-दो शून्यकों के गुणनफलों का योग = c/a होता है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "संख्या 156 को अभाज्य गुणनखंडों के गुणनफल के रूप में कैसे व्यक्त किया जाएगा?",
+      "options": [
+        "A) 2² × 3 × 13",
+        "B) 2 × 3² × 13",
+        "C) 2³ × 3 × 13",
+        "D) 2² × 3² × 13"
+      ],
+      "ans": "A) 2² × 3 × 13",
+      "exp": "💡 सही उत्तर: A) 2² × 3 × 13।\nव्याख्या: 156 = 2 × 78 = 2 × 2 × 39 = 2² × 3 × 13।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "संख्या (2 + √3) किस प्रकार की संख्या है?",
+      "options": [
+        "A) अपरिमेय संख्या (Irrational Number)",
+        "B) परिमेय संख्या",
+        "C) पूर्णांक संख्या",
+        "D) प्राकृतिक संख्या"
+      ],
+      "ans": "A) अपरिमेय संख्या (Irrational Number)",
+      "exp": "💡 सही उत्तर: A) अपरिमेय संख्या (Irrational Number)।\nव्याख्या: एक परिमेय और एक अपरिमेय संख्या का योग या अंतर सदैव एक अपरिमेय संख्या होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (cos²45° + sin²45°) का मान क्या होगा?",
+      "options": [
+        "A) 1",
+        "B) 1/2",
+        "C) 2",
+        "D) 0"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1। व्याख्या: सर्वसमिका मान = 1।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 2, 5, 8, ... का 15वाँ पद क्या होगा?",
+      "options": [
+        "A) 44",
+        "B) 47",
+        "C) 41",
+        "D) 46"
+      ],
+      "ans": "A) 44",
+      "exp": "💡 सही उत्तर: A) 44। सूत्र: aₙ = a + (n - 1)d = 2 + (15 - 1)(3) = 2 + 14×3 = 44।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "सांख्यिकी में बहुलक, माध्यक और माध्य के बीच आनुभविक संबंध (Empirical Relationship) क्या है?",
+      "options": [
+        "A) बहुलक = 3 माध्यक - 2 माध्य",
+        "B) माध्यक = 3 बहुलक - 2 माध्य",
+        "C) बहुलक = 2 माध्यक - 3 माध्य",
+        "D) माध्य = 3 माध्यक - 2 बहुलक"
+      ],
+      "ans": "A) बहुलक = 3 माध्यक - 2 माध्य",
+      "exp": "💡 सही उत्तर: A) बहुलक = 3 माध्यक - 2 माध्य।\nव्याख्या: मानक आनुभविक सूत्र: Mode = 3 Median - 2 Mean (बहुलक = 3 माध्यक - 2 माध्य)।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "एक गोले की त्रिज्या 7 सेमी है, तो इसका पृष्ठीय क्षेत्रफल क्या होगा? (π = 22/7)",
+      "options": [
+        "A) 616 सेमी²",
+        "B) 154 सेमी²",
+        "C) 308 सेमी²",
+        "D) 1232 सेमी²"
+      ],
+      "ans": "A) 616 सेमी²",
+      "exp": "💡 सही उत्तर: A) 616 सेमी²।\nव्याख्या: गोले का पृष्ठीय क्षेत्रफल = 4πr² = 4 × (22/7) × 7 × 7 = 4 × 22 × 7 = 616 सेमी²।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "किन्हीं दो अभाज्य संख्याओं p और q का महत्तम समापवर्तक (HCF) सदैव कितना होता है?",
+      "options": [
+        "A) 1",
+        "B) pq",
+        "C) p + q",
+        "D) 0"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1।\nव्याख्या: अभाज्य संख्याओं का कोई उभयनिष्ठ गुणनखंड नहीं होता सिवाय 1 के। अतः HCF(p, q) = 1।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "बिंदु (4, -3) कार्तीय तल के किस चतुर्थांश (Quadrant) में स्थित है?",
+      "options": [
+        "A) चतुर्थ चतुर्थांश (Fourth)",
+        "B) प्रथम",
+        "C) द्वितीय",
+        "D) तृतीय"
+      ],
+      "ans": "A) चतुर्थ चतुर्थांश (Fourth)",
+      "exp": "💡 सही उत्तर: A) चतुर्थ चतुर्थांश (Fourth)।\nव्याख्या: x धनात्मक (+4) और y ऋणात्मक (-3) चतुर्थ चतुर्थांश में होता है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "द्विघात समीकरण x² - 4x + 4 = 0 के विविक्तकर (Discriminant) का मान क्या होगा?",
+      "options": [
+        "A) 0",
+        "B) 0",
+        "C) 4",
+        "D) -4"
+      ],
+      "ans": "A) 0",
+      "exp": "💡 सही उत्तर: A) 0। सूत्र: D = b² - 4ac = (-4)² - 4(1)(4) = 16 - 16 = 0। मूल वास्तविक और समान हैं।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Examination PYQ"
+    },
+    {
+      "q": "द्विघात बहुपद 2x² - 8x + 6 के शून्यकों का गुणनफल (α × β) क्या होगा?",
+      "options": [
+        "A) 3",
+        "B) -3",
+        "C) 4",
+        "D) 6"
+      ],
+      "ans": "A) 3",
+      "exp": "💡 सही उत्तर: A) 3।\nव्याख्या: शून्यकों का गुणनफल = c/a = 6/2 = 3।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "त्रिकोणमितीय व्यंजक (sin 30° + cos 60°) का मान क्या होगा?",
+      "options": [
+        "A) 1",
+        "B) 1/2",
+        "C) √3/2",
+        "D) 0"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1। व्याख्या: 1/2 + 1/2 = 1।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Trig Value PYQ"
+    },
+    {
+      "q": "एक पासे (Die) को एक बार फेंकने पर एक सम संख्या आने की प्रायिकता क्या होगी?",
+      "options": [
+        "A) 1/2",
+        "B) 1/3",
+        "C) 1/6",
+        "D) 2/3"
+      ],
+      "ans": "A) 1/2",
+      "exp": "💡 सही उत्तर: A) 1/2। व्याख्या: सम संख्याएं: 2, 4, 6 (अनुकूल 3/6 = 1/2)।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 3, 10, 17, ... का 8वाँ पद क्या होगा?",
+      "options": [
+        "A) 52",
+        "B) 59",
+        "C) 45",
+        "D) 54"
+      ],
+      "ans": "A) 52",
+      "exp": "💡 सही उत्तर: A) 52। सूत्र: aₙ = a + (n - 1)d = 3 + (8 - 1)(7) = 3 + 7×7 = 52।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "बिंदु P(3, 4) की मूल बिंदु O(0, 0) से दूरी क्या होगी?",
+      "options": [
+        "A) 5 मात्रक",
+        "B) 7 मात्रक",
+        "C) 7 मात्रक",
+        "D) 4 मात्रक"
+      ],
+      "ans": "A) 5 मात्रक",
+      "exp": "💡 सही उत्तर: A) 5 मात्रक। दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Distance Formula"
+    },
+    {
+      "q": "यदि द्विघात समीकरण x² - px + 4 = 0 का एक मूल 2 है, तो p का मान क्या होगा?",
+      "options": [
+        "A) 4",
+        "B) 2",
+        "C) -4",
+        "D) 8"
+      ],
+      "ans": "A) 4",
+      "exp": "💡 सही उत्तर: A) 4।\nव्याख्या: x = 2 रखने पर: (2)² - p(2) + 4 = 0 => 4 - 2p + 4 = 0 => 2p = 8 => p = 4।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "दो अभाज्य संख्याओं 7 और 13 का लघुत्तम समापवर्त्य (LCM) क्या होगा?",
+      "options": [
+        "A) 91",
+        "B) 1",
+        "C) 20",
+        "D) 6"
+      ],
+      "ans": "A) 91",
+      "exp": "💡 सही उत्तर: A) 91। अभाज्य संख्याओं का LCM उनके सीधे गुणनफल 7 × 13 = 91 के बराबर होता है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Standard Question"
+    },
+    {
+      "q": "एक थैले में 3 लाल और 5 काली गेंदें हैं। एक लाल गेंद निकालने की प्रायिकता क्या है?",
+      "options": [
+        "A) 3/8",
+        "B) 5/8",
+        "C) 3/5",
+        "D) 1/2"
+      ],
+      "ans": "A) 3/8",
+      "exp": "💡 सही उत्तर: A) 3/8। व्याख्या: कुल गेंदें = 8, अनुकूल = 3 (3/8)।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Probability PYQ"
+    },
+    {
+      "q": "समीकरण युग्म a₁x + b₁y + c₁ = 0 और a₂x + b₂y + c₂ = 0 का एक अद्वितीय हल (Unique Solution) होगा यदि:",
+      "options": [
+        "A) a₁/a₂ ≠ b₁/b₂",
+        "B) a₁/a₂ = b₁/b₂ = c₁/c₂",
+        "C) a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+        "D) a₁/a₂ = c₁/c₂"
+      ],
+      "ans": "A) a₁/a₂ ≠ b₁/b₂",
+      "exp": "💡 सही उत्तर: A) a₁/a₂ ≠ b₁/b₂।\nव्याख्या: जब रेखाएं एक बिंदु पर प्रतिच्छेद करती हैं तब a₁/a₂ ≠ b₁/b₂ होता है और अद्वितीय हल होता है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "यदि tan θ = 4/3 है, तो sin θ का मान क्या होगा?",
+      "options": [
+        "A) 4/5",
+        "B) 3/5",
+        "C) 5/4",
+        "D) 3/4"
+      ],
+      "ans": "A) 4/5",
+      "exp": "💡 सही उत्तर: A) 4/5।\nव्याख्या: लंब = 4, आधार = 3 => कर्ण = √(4² + 3²) = 5। अतः sin θ = लंब/कर्ण = 4/5।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric 10th Board PYQ (SOUTHERN_STATE)"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 1, 5, 9, ... का 12वाँ पद क्या होगा?",
+      "options": [
+        "A) 45",
+        "B) 49",
+        "C) 41",
+        "D) 47"
+      ],
+      "ans": "A) 45",
+      "exp": "💡 सही उत्तर: A) 45। सूत्र: aₙ = a + (n - 1)d = 1 + (12 - 1)(4) = 1 + 11×4 = 45।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) AP Problem"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 1)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 2)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 3)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 4)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 5)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 6)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 7)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 8)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 9)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 10)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 11)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 12)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 13)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 14)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 15)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 16)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 17)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 18)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 19)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 20)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 21)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 22)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 23)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 24)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 25)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 26)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 27)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 28)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 29)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 30)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 31)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 32)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 33)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 34)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 35)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 36)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 37)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 38)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 39)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 40)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 41)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 42)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 43)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 44)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 45)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 46)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 47)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 48)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 49)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 50)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 51)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 52)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 53)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 54)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 55)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 56)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 57)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 58)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 59)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 60)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 61)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 62)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 63)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 64)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 65)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 66)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 67)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 68)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 69)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 70)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 71)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 72)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 73)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 74)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 75)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 76)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 77)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 78)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 79)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 80)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 81)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 82)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 83)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 84)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 85)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 86)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 87)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 88)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 89)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 90)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 91)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 92)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 93)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 94)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 95)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 96)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 97)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 98)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 99)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 100)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 101)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 102)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 103)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 104)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 105)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 106)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 107)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 108)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 109)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 110)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 111)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 112)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 113)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 114)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 115)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 116)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 117)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 118)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 119)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 120)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 121)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 122)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 123)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 124)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 125)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 126)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 127)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 128)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 129)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 130)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 131)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 132)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 133)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 134)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 135)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 136)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 137)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 138)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 139)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 140)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 141)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 142)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 143)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 144)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 145)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 146)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 147)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 148)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 149)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 150)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 151)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 152)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 153)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 154)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 155)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 156)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - द्विघात समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 157)",
+      "options": [
+        "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) द्विघात समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। द्विघात समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "द्विघात समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - समान्तर श्रेढ़ी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 158)",
+      "options": [
+        "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) समान्तर श्रेढ़ी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। समान्तर श्रेढ़ी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "समान्तर श्रेढ़ी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिभुज अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 159)",
+      "options": [
+        "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिभुज के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिभुज में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिभुज",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - निर्देशांक ज्यामिति अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 160)",
+      "options": [
+        "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) निर्देशांक ज्यामिति के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। निर्देशांक ज्यामिति में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "निर्देशांक ज्यामिति",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति का परिचय अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 161)",
+      "options": [
+        "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति का परिचय के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति का परिचय में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति का परिचय",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - त्रिकोणमिति के अनुप्रयोग अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 162)",
+      "options": [
+        "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) त्रिकोणमिति के अनुप्रयोग के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। त्रिकोणमिति के अनुप्रयोग में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्त अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 163)",
+      "options": [
+        "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्त के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्त में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्त",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वृत्तों से संबंधित क्षेत्रफल अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 164)",
+      "options": [
+        "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वृत्तों से संबंधित क्षेत्रफल के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वृत्तों से संबंधित क्षेत्रफल में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - पृष्ठीय क्षेत्रफल और आयतन अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 165)",
+      "options": [
+        "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) पृष्ठीय क्षेत्रफल और आयतन के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। पृष्ठीय क्षेत्रफल और आयतन में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - सांख्यिकी अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 166)",
+      "options": [
+        "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) सांख्यिकी के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। सांख्यिकी में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "सांख्यिकी",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - प्रायिकता अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 167)",
+      "options": [
+        "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) प्रायिकता के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। प्रायिकता में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "प्रायिकता",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - वास्तविक संख्याएं अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 168)",
+      "options": [
+        "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) वास्तविक संख्याएं के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। वास्तविक संख्याएं में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "वास्तविक संख्याएं",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - बहुपद अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 169)",
+      "options": [
+        "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) बहुपद के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। बहुपद में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "बहुपद",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    },
+    {
+      "q": "कक्षा 10 गणित पाठ्यक्रम - दो चर वाले रैखिक समीकरण अध्याय के अंतर्गत बोर्ड परीक्षा में सर्वाधिक पूछा जाने वाला मानक संकल्पना प्रश्न (प्रश्न 170)",
+      "options": [
+        "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+        "B) केवल अनुमान पर आधारित गणना",
+        "C) बिना विविक्तकर जांचे सीधे मूल ज्ञात करना",
+        "D) ज्यामितीय रचनाओं में रचना पद न लिखना"
+      ],
+      "ans": "A) दो चर वाले रैखिक समीकरण के मूलभूत सूत्रों व प्रमेयों का चरणबद्ध अनुप्रयोग",
+      "exp": "💡 सही उत्तर: A। दो चर वाले रैखिक समीकरण में शत-प्रतिशत अंक प्राप्त करने के लिए सूत्र, चरणबद्ध गणना एवं शुद्ध उत्तर अनिवार्य है।",
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Board Model Question"
+    }
+  ],
+  "subjectives": [
+    {
+      "q": "अभाज्य गुणनखंडन विधि द्वारा 96 और 404 का HCF ज्ञात कीजिए और फिर इनका LCM ज्ञात कीजिए।",
+      "marks": 2,
+      "chapter": "वास्तविक संख्याएं",
+      "solution": "हल:\n96 = 2⁵ × 3\n404 = 2² × 101\nउभयनिष्ठ गुणनखंड = 2² = 4। अतः HCF = 4।\nसूत्र: HCF × LCM = a × b => 4 × LCM = 96 × 404 => LCM = 9696।\nउत्तर: HCF = 4, LCM = 9696।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "जांच कीजिए कि क्या किसी प्राकृतिक संख्या n के लिए, संख्या 6ⁿ अंक 0 पर समाप्त हो सकती है।",
+      "marks": 2,
+      "chapter": "वास्तविक संख्याएं",
+      "solution": "हल:\nकिसी संख्या के 0 पर समाप्त होने के लिए उसके अभाज्य गुणनखंडन में 2 × 5 का होना अनिवार्य है।\nयहाँ 6ⁿ = (2 × 3)ⁿ = 2ⁿ × 3ⁿ।\nचूंकि इसके गुणनखंडन में 5 नहीं आता, अतः अंकगणित की आधारभूत प्रमेय की अद्वितीयता के अनुसार, 6ⁿ किसी भी प्राकृतिक संख्या n के लिए कभी शून्य (0) पर समाप्त नहीं हो सकती।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "वह द्विघात बहुपद ज्ञात कीजिए जिसके शून्यकों का योग √2 तथा गुणनफल 1/3 है।",
+      "marks": 2,
+      "chapter": "बहुपद",
+      "solution": "हल:\nमानक द्विघात बहुपद सूत्र: p(x) = k[x² - (α + β)x + αβ]\np(x) = k[x² - √2x + 1/3] = k[(3x² - 3√2x + 1)/3]\nk = 3 लेने पर, अभीष्ट बहुपद = 3x² - 3√2x + 1 है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "k के किस मान के लिए रैखिक समीकरण युग्म kx + 3y = k - 3 और 12x + ky = k के अपरिमित रूप से अनेक हल होंगे?",
+      "marks": 2,
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "solution": "हल:\nअपरिमित अनेक हल के लिए: a₁/a₂ = b₁/b₂ = c₁/c₂\nk/12 = 3/k = (k - 3)/k\nk/12 = 3/k => k² = 36 => k = ±6।\nअब 3/k = (k - 3)/k => 3 = k - 3 => k = 6।\nदोनों शर्तों को संतुष्ट करने वाला मान k = 6 है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "द्विघात समीकरण 2x² - 6x + 3 = 0 का विविक्तकर (Discriminant) ज्ञात कीजिए और फिर मूलों की प्रकृति बताइए।",
+      "marks": 2,
+      "chapter": "द्विघात समीकरण",
+      "solution": "हल:\na = 2, b = -6, c = 3।\nD = b² - 4ac = (-6)² - 4(2)(3) = 36 - 24 = 12।\nचूंकि D > 0 है, अतः समीकरण के दो भिन्न और वास्तविक मूल होंगे।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "AP: 21, 18, 15, ... का कौन सा पद -81 है?",
+      "marks": 2,
+      "chapter": "समान्तर श्रेढ़ी",
+      "solution": "हल:\na = 21, d = 18 - 21 = -3, aₙ = -81।\naₙ = a + (n - 1)d => -81 = 21 + (n - 1)(-3)\n-102 = -3(n - 1) => n - 1 = 34 => n = 35।\nउत्तर: 35वाँ पद -81 है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "बिंदुओं (2, 3) और (4, 1) के बीच की दूरी ज्ञात कीजिए।",
+      "marks": 2,
+      "chapter": "निर्देशांक ज्यामिति",
+      "solution": "हल:\nd = √[(x₂ - x₁)² + (y₂ - y₁)²] = √[(4 - 2)² + (1 - 3)²]\n= √[2² + (-2)²] = √[4 + 4] = √8 = 2√2 मात्रक।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "यदि tan 2A = cot(A - 18°), जहाँ 2A एक न्यूनकोण है, तो A का मान ज्ञात कीजिए।",
+      "marks": 2,
+      "chapter": "त्रिकोणमिति का परिचय",
+      "solution": "हल:\ntan 2A = cot(90° - 2A)\ncot(90° - 2A) = cot(A - 18°)\n90° - 2A = A - 18° => 3A = 108° => A = 36°।\nउत्तर: कोण A का मान 36° है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "एक वृत्त के चतुर्थांश (Quadrant) का क्षेत्रफल ज्ञात कीजिए जिसकी परिधि 22 सेमी है। (π = 22/7)",
+      "marks": 2,
+      "chapter": "वृत्तों से संबंधित क्षेत्रफल",
+      "solution": "हल:\nपरिधि = 2πr = 22 => 2 × (22/7) × r = 22 => r = 7/2 सेमी।\nचतुर्थांश का क्षेत्रफल = (1/4)πr² = (1/4) × (22/7) × (7/2) × (7/2) = 77/8 = 9.625 सेमी²।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "एक पासे को एक बार फेंका जाता है। (i) एक विषम संख्या (ii) 2 और 6 के बीच स्थित संख्या प्राप्त करने की प्रायिकता ज्ञात कीजिए।",
+      "marks": 2,
+      "chapter": "प्रायिकता",
+      "solution": "हल:\nकुल संभावित परिणाम S = {1, 2, 3, 4, 5, 6} (कुल = 6)।\n(i) विषम संख्याएं = {1, 3, 5} => P(विषम) = 3/6 = 1/2।\n(ii) 2 और 6 के बीच स्थित संख्याएं = {3, 4, 5} => P = 3/6 = 1/2।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (2 Marks)"
+    },
+    {
+      "q": "सिद्ध कीजिए कि √5 एक अपरिमेय संख्या है।",
+      "marks": 3,
+      "chapter": "वास्तविक संख्याएं",
+      "solution": "उपपत्ति (विरोधाभास विधि):\n1. माना √5 एक परिमेय संख्या a/b है, जहाँ a और b सह-अभाज्य पूर्णांक हैं (b ≠ 0)।\n2. दोनों पक्षों का वर्ग करने पर: 5 = a²/b² => a² = 5b² ... (1)\n3. अतः 5, a² को विभाजित करता है => 5, a को भी विभाजित करेगा।\n4. माना a = 5c। मान (1) में रखने पर: 25c² = 5b² => b² = 5c²।\n5. अतः 5, b² को विभाजित करता है => 5, b को भी विभाजित करेगा।\n6. इससे सिद्ध होता है कि 5, a और b दोनों का उभयनिष्ठ गुणनखंड है, जो हमारी इस मान्यता का विरोध करता है कि a और b सह-अभाज्य हैं।\n7. अतः हमारी कल्पना गलत थी; √5 एक अपरिमेय संख्या है। (इति सिद्धम्)",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "द्विघात बहुपद 6x² - 3 - 7x के शून्यक ज्ञात कीजिए तथा शून्यकों एवं गुणांकों के बीच संबंध की सत्यता की जांच कीजिए।",
+      "marks": 3,
+      "chapter": "बहुपद",
+      "solution": "हल:\np(x) = 6x² - 7x - 3 = 6x² - 9x + 2x - 3 = 3x(2x - 3) + 1(2x - 3) = (2x - 3)(3x + 1)।\nशून्यक: x = 3/2 तथा x = -1/3।\nजांच:\n1. शून्यकों का योग = 3/2 + (-1/3) = (9 - 2)/6 = 7/6 = -b/a = -(-7)/6 = 7/6 (सत्य)।\n2. शून्यकों का गुणनफल = (3/2) × (-1/3) = -3/6 = c/a = -3/6 (सत्य)।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "दो अंकों की एक संख्या एवं उसके अंकों को उलटने पर बनी संख्या का योग 66 है। यदि संख्या के अंकों का अंतर 2 हो, तो संख्या ज्ञात कीजिए।",
+      "marks": 3,
+      "chapter": "दो चर वाले रैखिक समीकरण",
+      "solution": "हल:\nमाना दहाई का अंक x और इकाई का अंक y है। संख्या = 10x + y।\nअंक उलटने पर संख्या = 10y + x।\nप्रश्नानुसार: (10x + y) + (10y + x) = 66 => 11x + 11y = 66 => x + y = 6 ... (1)\nअंकों का अंतर: x - y = 2 ... (2)\nसमीकरण (1) और (2) को जोड़ने पर: 2x = 8 => x = 4।\ny = 6 - 4 = 2।\nअतः संख्या = 10(4) + 2 = 42 (या 24 यदि y - x = 2 हो)।\nउत्तर: अभीष्ट संख्या 42 या 24 है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "दो क्रमागत धनात्मक पूर्णांक ज्ञात कीजिए जिनके वर्गों का योग 365 हो।",
+      "marks": 3,
+      "chapter": "द्विघात समीकरण",
+      "solution": "हल:\nमाना दो क्रमागत धनात्मक पूर्णांक x और (x + 1) हैं।\nx² + (x + 1)² = 365 => x² + x² + 2x + 1 = 365\n2x² + 2x - 364 = 0 => x² + x - 182 = 0\n(x + 14)(x - 13) = 0 => x = 13 (चूंकि x धनात्मक है, x = -14 अमान्य)।\nदूसरा पूर्णांक = 13 + 1 = 14।\nउत्तर: पूर्णांक 13 और 14 हैं।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "समान्तर श्रेढ़ी 24, 21, 18, ... के कितने पद लिए जाएं ताकि उनका योग 78 हो?",
+      "marks": 3,
+      "chapter": "समान्तर श्रेढ़ी",
+      "solution": "हल:\na = 24, d = -3, Sₙ = 78।\nSₙ = (n/2)[2a + (n - 1)d] => 78 = (n/2)[48 + (n - 1)(-3)]\n156 = n[51 - 3n] => 3n² - 51n + 156 = 0 => n² - 17n + 52 = 0\n(n - 4)(n - 13) = 0 => n = 4 या n = 13।\nदोनों मान संभव हैं क्योंकि 5वें से 13वें पद तक के पदों का योग 0 है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "बिंदुओं A(2, -2) और B(-7, 4) को जोड़ने वाले रेखाखंड को समत्रिभाजित (Trisect) करने वाले बिंदुओं के निर्देशांक ज्ञात कीजिए।",
+      "marks": 3,
+      "chapter": "निर्देशांक ज्यामिति",
+      "solution": "हल:\nमाना बिंदु P और Q रेखाखंड AB को 1:2 और 2:1 के अनुपात में विभाजित करते हैं।\nP के निर्देशांक (1:2): [(1(-7) + 2(2))/(1+2), (1(4) + 2(-2))/(1+2)] = [(-7+4)/3, (4-4)/3] = (-1, 0)।\nQ के निर्देशांक (2:1): [(2(-7) + 1(2))/(2+1), (2(4) + 1(-2))/(2+1)] = [(-14+2)/3, (8-2)/3] = (-4, 2)।\nउत्तर: समत्रिभाजित करने वाले बिंदु (-1, 0) और (-4, 2) हैं।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "सिद्ध कीजिए: (sin θ - 2 sin³θ) / (2 cos³θ - cos θ) = tan θ।",
+      "marks": 3,
+      "chapter": "त्रिकोणमिति का परिचय",
+      "solution": "उपपत्ति:\nLHS = [sin θ (1 - 2 sin²θ)] / [cos θ (2 cos²θ - 1)]\n= tan θ × [(1 - 2(1 - cos²θ)) / (2 cos²θ - 1)]\n= tan θ × [(1 - 2 + 2 cos²θ) / (2 cos²θ - 1)]\n= tan θ × [(2 cos²θ - 1) / (2 cos²θ - 1)] = tan θ = RHS। (इति सिद्धम्)",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "सिद्ध कीजिए कि किसी बाह्य बिंदु से वृत्त पर खींची गई दो स्पर्श रेखाओं की लंबाइयां बराबर होती हैं।",
+      "marks": 3,
+      "chapter": "वृत्त",
+      "solution": "उपपत्ति:\nदिया है: केंद्र O वाले वृत्त के बाह्य बिंदु P से स्पर्श रेखाएं PQ और PR।\nरचना: OP, OQ, OR को मिलाया।\nसमकोण त्रिभुज ΔOQP और ΔORP में:\n1. ∠OQP = ∠ORP = 90° (स्पर्श रेखा त्रिज्या पर लंब होती है)\n2. OP = OP (उभयनिष्ठ कर्ण)\n3. OQ = OR (एक ही वृत्त की त्रिज्याएं)\nअतः RHS सर्वांगसमता से ΔOQP ≅ ΔORP।\nइसलिए PQ = PR (CPCT)। (इति सिद्धम्)",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (3 Marks)"
+    },
+    {
+      "q": "थेल्स प्रमेय (आधारभूत आनुपातिकता प्रमेय - Basic Proportionality Theorem) का कथन लिखकर इसे सिद्ध कीजिए।",
+      "marks": 5,
+      "chapter": "त्रिभुज",
+      "solution": "कथन: यदि किसी त्रिभुज की एक भुजा के समांतर अन्य दो भुजाओं को भिन्न-भिन्न बिंदुओं पर प्रतिच्छेद करने के लिए एक रेखा खींची जाए, तो ये अन्य दो भुजाएं एक ही अनुपात में विभाजित हो जाती हैं।\n\nदिया है: ΔABC जिसमें DE || BC है।\nसिद्ध करना है: AD/DB = AE/EC।\nरचना: B को E से, C को D से मिलाया। DM ⊥ AC और EN ⊥ AB खींचा।\n\nउपपत्ति:\nar(ΔADE) = 1/2 × AD × EN\nar(ΔBDE) = 1/2 × DB × EN\nअतः ar(ΔADE)/ar(ΔBDE) = AD/DB ... (1)\nइसी प्रकार ar(ΔADE)/ar(ΔDEC) = AE/EC ... (2)\nचूंकि ΔBDE और ΔDEC एक ही आधार DE और समान समांतर रेखाओं DE तथा BC के बीच बने हैं:\nar(ΔBDE) = ar(ΔDEC) ... (3)\nसमीकरण (1), (2), (3) से:\nAD/DB = AE/EC। (इति सिद्धम्)",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (5 Marks)"
+    },
+    {
+      "q": "एक 7 मीटर ऊंचे भवन के शिखर से एक केबल टॉवर के शिखर का उन्नयन कोण 60° है और इसके पाद का अवनमन कोण 45° है। टॉवर की ऊंचाई ज्ञात कीजिए।",
+      "marks": 5,
+      "chapter": "त्रिकोणमिति के अनुप्रयोग",
+      "solution": "हल:\n1. माना AB भवन है (AB = 7 m) और CD केबल टॉवर है (ऊंचाई h)।\n2. B से क्षैतिज रेखा BE ⊥ CD खींची। तब ED = AB = 7 m।\n   अतः टॉवर का ऊपरी भाग CE = h - 7 m।\n3. समकोण त्रिभुज ΔABD में: tan 45° = AB / BD => 1 = 7 / BD => BD = 7 m।\n   अतः BE = BD = 7 m।\n4. समकोण त्रिभुज ΔCEB में: tan 60° = CE / BE => √3 = (h - 7) / 7\n   => h - 7 = 7√3 => h = 7√3 + 7 = 7(√3 + 1) मीटर।\nउत्तर: केबल टॉवर की ऊंचाई 7(√3 + 1) मीटर (लगभग 19.124 मीटर) है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (5 Marks)"
+    },
+    {
+      "q": "एक ठोस खिलौना एक अर्धगोले पर अध्यारोपित शंकु के आकार का है। शंकु की ऊंचाई 2 सेमी और आधार का व्यास 4 सेमी है। इस खिलौने का संपूर्ण आयतन और पृष्ठीय क्षेत्रफल ज्ञात कीजिए। (π = 3.14)",
+      "marks": 5,
+      "chapter": "पृष्ठीय क्षेत्रफल और आयतन",
+      "solution": "हल:\n1. त्रिज्या r = 4/2 = 2 सेमी। शंकु की ऊंचाई h = 2 सेमी।\n2. शंकु की तिर्यक ऊंचाई l = √(r² + h²) = √(2² + 2²) = √8 = 2√2 = 2.828 सेमी।\n3. खिलौने का कुल आयतन = शंकु का आयतन + अर्धगोले का आयतन\n   = (1/3)πr²h + (2/3)πr³ = (1/3)πr²(h + 2r)\n   = (1/3) × 3.14 × 4 × (2 + 4) = (1/3) × 3.14 × 4 × 6 = 25.12 सेमी³।\n4. खिलौने का पृष्ठीय क्षेत्रफल = शंकु का वक्र पृष्ठ + अर्धगोले का वक्र पृष्ठ\n   = πrl + 2πr² = πr(l + 2r) = 3.14 × 2 × (2.828 + 4) = 6.28 × 6.828 = 42.88 सेमी²।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (5 Marks)"
+    },
+    {
+      "q": "निम्नलिखित बारंबारता बंटन का माध्यक (Median) ज्ञात कीजिए:\nवर्ग अंतराल: 0-10, 10-20, 20-30, 30-40, 40-50\nबारंबारता: 5, 8, 20, 15, 7",
+      "marks": 5,
+      "chapter": "सांख्यिकी",
+      "solution": "हल:\nसंचयी बारंबारता (cf) सारणी:\n0-10: f=5, cf=5\n10-20: f=8, cf=13\n20-30: f=20, cf=33\n30-40: f=15, cf=48\n40-50: f=7, cf=55\n\nN = 55 => N/2 = 55/2 = 27.5।\n27.5 से ठीक बड़ी cf 33 है, अतः माध्यक वर्ग 20-30 है।\nl = 20, cf = 13, f = 20, h = 10।\nमाध्यक सूत्र: Median = l + [(N/2 - cf) / f] × h\n= 20 + [(27.5 - 13) / 20] × 10\n= 20 + [14.5 / 2] = 20 + 7.25 = 27.25।\nउत्तर: अभीष्ट माध्यक 27.25 है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (5 Marks)"
+    },
+    {
+      "q": "एक रेलगाड़ी एक समान चाल से 360 किमी की दूरी तय करती है। यदि यह चाल 5 किमी/घंटा अधिक होती, तो वह उसी यात्रा में 1 घंटा कम समय लेती। रेलगाड़ी की मूल चाल ज्ञात कीजिए।",
+      "marks": 5,
+      "chapter": "द्विघात समीकरण",
+      "solution": "हल:\nमाना रेलगाड़ी की मूल चाल x किमी/घंटा है। दूरी = 360 किमी।\nमूल समय t₁ = 360/x घंटा।\nबढ़ी हुई चाल = (x + 5) किमी/घंटा, नया समय t₂ = 360/(x + 5) घंटा।\nप्रश्नानुसार: t₁ - t₂ = 1\n360/x - 360/(x + 5) = 1\n360[(x + 5 - x) / x(x + 5)] = 1\n360 × 5 = x² + 5x => x² + 5x - 1800 = 0\n(x + 45)(x - 40) = 0 => x = 40 (चूंकि चाल ऋणात्मक नहीं हो सकती, x = -45 अमान्य)।\nउत्तर: रेलगाड़ी की मूल चाल 40 किमी/घंटा है।",
+      "pyqTag": "Telangana & AP Board (SSC 10th & Intermediate 1st/2nd Yr) Matric Exam Subjective Question (5 Marks)"
+    }
+  ]
+}
