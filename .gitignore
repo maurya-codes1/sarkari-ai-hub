@@ -29,4 +29,5 @@ scratch/
 scripts/scratch_*
 backend/generated_pdfs/*.pdf
 !backend/generated_pdfs/sarkariai-ssc-cgl-*.pdf
+.deploy_hook
 

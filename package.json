@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node --max-old-space-size=384 server.js",
+    "deploy:render": "node scripts/trigger_render_deploy.js",
     "dev": "node --watch server.js",
     "postinstall": "node scripts/unpack_database.js",
     "db:unpack": "node scripts/unpack_database.js",
