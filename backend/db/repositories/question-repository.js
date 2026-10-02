@@ -26,6 +26,9 @@ class QuestionRepository {
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
       WHERE q.subject_id = ?
+        AND q.is_published = 1
+        AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
+        AND q.trust_status != 'QUARANTINED'
       ORDER BY q.question_id ASC
       LIMIT ? OFFSET ?
     `);
@@ -39,10 +42,13 @@ class QuestionRepository {
       FROM questions q
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
+      WHERE q.is_published = 1
+        AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
+        AND q.trust_status != 'QUARANTINED'
     `;
     const params = [];
     if (subjectId && subjectId !== 'all') {
-      query += ` WHERE q.subject_id = ?`;
+      query += ` AND q.subject_id = ?`;
       params.push(normalizeSubjectId(subjectId));
     }
     query += ` ORDER BY RANDOM() LIMIT ?`;
@@ -76,6 +82,9 @@ class QuestionRepository {
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
       WHERE 1=1
+        AND q.is_published = 1
+        AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
+        AND q.trust_status != 'QUARANTINED'
     `;
     const params = [];
 
@@ -168,6 +177,9 @@ class QuestionRepository {
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
       WHERE 1=1
+        AND q.is_published = 1
+        AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
+        AND q.trust_status != 'QUARANTINED'
         AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
         AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
     `;
@@ -256,6 +268,9 @@ class QuestionRepository {
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
       WHERE q.question_id IN (${placeholders})
+        AND q.is_published = 1
+        AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
+        AND q.trust_status != 'QUARANTINED'
     `;
     return this.db.prepare(query).all(...questionIds);
   }
@@ -267,7 +282,10 @@ class QuestionRepository {
       FROM questions q
       JOIN question_versions v ON q.question_id = v.question_id AND v.version_number = q.current_version
       JOIN subjects s ON q.subject_id = s.subject_id
-      WHERE q.provenance = ? OR q.source_type = ?
+      WHERE (q.provenance = ? OR q.source_type = ?)
+        AND q.is_published = 1
+        AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
+        AND q.trust_status != 'QUARANTINED'
       ORDER BY RANDOM() LIMIT ?
     `;
     return this.db.prepare(query).all(provenance, provenance, limit);
@@ -280,7 +298,7 @@ class QuestionRepository {
 
   getTotalCount() {
     if (!this.isAvailable()) return 0;
-    return this.db.prepare('SELECT COUNT(*) as c FROM questions').get().c;
+    return this.db.prepare("SELECT COUNT(*) as c FROM questions WHERE is_published = 1 AND (quality_state IS NULL OR quality_state != 'SYNTHETIC_QUARANTINE') AND trust_status != 'QUARANTINED'").get().c;
   }
 }
 
