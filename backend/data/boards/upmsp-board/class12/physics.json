@@ -1,0 +1,425 @@
+{
+  "boardId": "upmsp-board",
+  "stage": "Class 12",
+  "subjectId": "subj-physics",
+  "subjectName": "भौतिक विज्ञान (Physics)",
+  "language": "hi",
+  "objectives": [
+    {
+      "q": "निर्वात की विद्युतशीलता (Permittivity of Free Space, ε₀) का SI मात्रक क्या होता है?\n[English: What is the SI unit of permittivity of free space (ε₀)?]",
+      "options": [
+        "A) C² N⁻¹ m⁻²",
+        "B) N m² C⁻²",
+        "C) N C⁻¹ m",
+        "D) C N m"
+      ],
+      "ans": "A) C² N⁻¹ m⁻²",
+      "exp": "💡 सही उत्तर: A) C² N⁻¹ m⁻²। कूलॉम के नियम से: F = (1 / 4πε₀) · (q₁q₂ / r²) ⟹ ε₀ = q₁q₂ / (4πFr²)। अतः मात्रक = C² / (N · m²) = C² N⁻¹ m⁻²। इसका मान 8.854 × 10⁻¹² C² N⁻¹ m⁻² होता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "अनंत लंबाई के एकसमान आवेशित सीधे तार के कारण विद्युत क्षेत्र की तीव्रता (E) दूरी (r) पर किस प्रकार निर्भर करती है?\n[English: How does the electric field intensity (E) due to an infinitely long uniformly charged wire depend on distance (r)?]",
+      "options": [
+        "A) E ∝ r",
+        "B) E ∝ 1/r",
+        "C) E ∝ 1/r²",
+        "D) E ∝ 1/r³"
+      ],
+      "ans": "B) E ∝ 1/r",
+      "exp": "💡 सही उत्तर: B) E ∝ 1/r। गाउस के नियम के अनुसार अनंत लंबाई के रेखीय आवेश (रेखीय आवेश घनत्व λ) के कारण विद्युत क्षेत्र E = λ / (2πε₀r) होता है। अतः E, दूरी r के व्युत्क्रमानुपाती होता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "समानांतर पट्टिका संधारित्र की पट्टिकाओं के बीच परावैद्युत पदार्थ (Dielectric constant K) रखने पर उसकी धारिता पर क्या प्रभाव पड़ता है?\n[English: What happens to the capacitance of a parallel plate capacitor when a dielectric slab of constant K is inserted?]",
+      "options": [
+        "A) घटती है (C/K) / Decreases",
+        "B) अपरिवर्तित रहती है / Remains Unchanged",
+        "C) K गुना बढ़ जाती है (KC) / Increases by K times",
+        "D) शून्य हो जाती है / Becomes Zero"
+      ],
+      "ans": "C) K गुना बढ़ जाती है (KC) / Increases by K times",
+      "exp": "💡 सही उत्तर: C) K गुना बढ़ जाती है। निर्वात में धारिता C₀ = ε₀A/d होती है। परावैद्युत माध्यम भरने पर नई धारिता C = K(ε₀A/d) = K·C₀ हो जाती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "किसी चालक तार में विद्युत धारा (I) तथा अपवाह वेग (Drift Velocity, v_d) के बीच सही संबंध क्या है?\n[English: What is the correct relation between electric current (I) and drift velocity (v_d) in a conductor?]",
+      "options": [
+        "A) I = n e A v_d",
+        "B) I = n e / (A v_d)",
+        "C) I = n A / (e v_d)",
+        "D) I = v_d / (n e A)"
+      ],
+      "ans": "A) I = n e A v_d",
+      "exp": "💡 सही उत्तर: A) I = n e A v_d। यहाँ n = मुक्त इलेक्ट्रॉन घनत्व, e = मूल आवेश, A = चालक का अनुप्रस्थ काट क्षेत्रफल तथा v_d = अपवाह वेग है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "किरचॉफ का प्रथम नियम (संधि नियम, Junction Rule) किस भौतिक राशि के संरक्षण के नियम पर आधारित है?\n[English: Kirchhoff's first law (Junction rule) is based on the conservation of which physical quantity?]",
+      "options": [
+        "A) ऊर्जा संरक्षण / Conservation of Energy",
+        "B) आवेश संरक्षण / Conservation of Charge",
+        "C) संवेग संरक्षण / Conservation of Momentum",
+        "D) द्रव्यमान संरक्षण / Conservation of Mass"
+      ],
+      "ans": "B) आवेश संरक्षण / Conservation of Charge",
+      "exp": "💡 सही उत्तर: B) आवेश संरक्षण। किसी विद्युत संधि पर मिलने वाली समस्त धाराओं का बीजगणितीय योग शून्य होता है (ΣI = 0)। किरचॉफ का द्वितीय नियम (लूप नियम) ऊर्जा संरक्षण पर आधारित है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "किरचॉफ का द्वितीय नियम (लूप नियम / वोल्टेज नियम) किसके संरक्षण पर आधारित है?\n[English: Kirchhoff's second law (Loop rule / Voltage law) is based on the conservation of:]",
+      "options": [
+        "A) आवेश / Charge",
+        "B) ऊर्जा / Energy",
+        "C) संवेग / Momentum",
+        "D) कोणीय संवेग / Angular Momentum"
+      ],
+      "ans": "B) ऊर्जा / Energy",
+      "exp": "💡 सही उत्तर: B) ऊर्जा। किसी बंद विद्युत परिपथ के विभिन्न खंडों में धाराओं तथा उनके प्रतिरोधों के गुणनफलों का बीजगणितीय योग उस लूप में उपस्थित विद्युत वाहक बलों के योग के बराबर होता है (ΣIR = ΣE)। यह ऊर्जा संरक्षण का प्रकटीकरण है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "विद्युत हीटर का तार (Heating Element) किस मिश्रधातु का बना होता है?\n[English: The heating element of an electric heater is made of which alloy?]",
+      "options": [
+        "A) तांबा / Copper",
+        "B) टंगस्टन / Tungsten",
+        "C) नाइक्रोम / Nichrome",
+        "D) एल्युमिनियम / Aluminium"
+      ],
+      "ans": "C) नाइक्रोम / Nichrome",
+      "exp": "💡 सही उत्तर: C) नाइक्रोम (Nichrome)। नाइक्रोम निकल (80%) और क्रोमियम (20%) की मिश्रधातु है। इसकी उच्च प्रतिरोधकता (High Resistivity) और उच्च गलनांक (High Melting Point) होता है तथा यह उच्च ताप पर ऑक्सीकृत नहीं होता।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "चुंबकीय क्षेत्र B⃗ में वेग v⃗ से गतिमान आवेश q पर लगने वाले लॉरेंट्ज चुंबकीय बल का सदिश रूप क्या है?\n[English: What is the vector form of magnetic Lorentz force acting on a charge q moving with velocity v⃗ in magnetic field B⃗?]",
+      "options": [
+        "A) F⃗ = q(v⃗ · B⃗)",
+        "B) F⃗ = q(v⃗ × B⃗)",
+        "C) F⃗ = q(B⃗ × v⃗)",
+        "D) F⃗ = (v⃗ × B⃗) / q"
+      ],
+      "ans": "B) F⃗ = q(v⃗ × B⃗)",
+      "exp": "💡 सही उत्तर: B) F⃗ = q(v⃗ × B⃗)। परिमाण F = qvB sin θ होता है। यदि आवेश चुंबकीय क्षेत्र की दिशा में गति करे (θ = 0°), तो बल शून्य होता है। जब θ = 90° हो, तो बल अधिकतम F_max = qvB होता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "एक आदर्श वोल्टमीटर (Ideal Voltmeter) का प्रतिरोध कितना होना चाहिए?\n[English: What should be the resistance of an ideal voltmeter?]",
+      "options": [
+        "A) शून्य / Zero",
+        "B) अनंत / Infinite",
+        "C) 1 ओम / 1 Ohm",
+        "D) बहुत कम / Very Low"
+      ],
+      "ans": "B) अनंत / Infinite",
+      "exp": "💡 सही उत्तर: B) अनंत (Infinite)। एक आदर्श वोल्टमीटर का प्रतिरोध अनंत होना चाहिए ताकि वह परिपथ से कोई धारा न खींचे और वास्तविक विभवांतर सटीक नाप सके। आदर्श अमीटर का प्रतिरोध शून्य होना चाहिए।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "अनुचुंबकीय (Paramagnetic) पदार्थों की चुंबकीय प्रवृत्ति (Magnetic Susceptibility, χ) कैसी होती है?\n[English: The magnetic susceptibility (χ) of paramagnetic materials is:]",
+      "options": [
+        "A) ऋणात्मक तथा कम / Negative and small",
+        "B) धनात्मक तथा अल्प / Positive and small",
+        "C) धनात्मक तथा अत्यधिक बड़ी / Positive and very large",
+        "D) शून्य / Zero"
+      ],
+      "ans": "B) धनात्मक तथा अल्प / Positive and small",
+      "exp": "💡 सही उत्तर: B) धनात्मक तथा अल्प (Positive and small)। प्रतिचुंबकीय (Diamagnetic) की प्रवृत्ति ऋणात्मक होती है, अनुचुंबकीय (Paramagnetic) की अल्प धनात्मक तथा लौहचुंबकीय (Ferromagnetic) की बहुत अधिक धनात्मक (χ >> 1) होती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "लेन्ज का नियम (Lenz's Law) किस मौलिक संरक्षण नियम का परिणाम है?\n[English: Lenz's Law is a consequence of which conservation law?]",
+      "options": [
+        "A) आवेश संरक्षण / Conservation of Charge",
+        "B) ऊर्जा संरक्षण / Conservation of Energy",
+        "C) संवेग संरक्षण / Conservation of Momentum",
+        "D) द्रव्यमान संरक्षण / Conservation of Mass"
+      ],
+      "ans": "B) ऊर्जा संरक्षण / Conservation of Energy",
+      "exp": "💡 सही उत्तर: B) ऊर्जा संरक्षण। लेन्ज के नियम के अनुसार प्रेरित विद्युत वाहक बल या धारा की दिशा सदैव ऐसी होती है कि वह उस कारण का विरोध करती है जिससे वह स्वयं उत्पन्न होती है। यांत्रिक कार्य ही विद्युत ऊर्जा में रूपांतरित होता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "स्वप्रेरकत्व (Self-Inductance, L) का SI मात्रक क्या होता है?\n[English: What is the SI unit of Self-Inductance (L)?]",
+      "options": [
+        "A) वेबर / Weber (Wb)",
+        "B) हेनरी / Henry (H)",
+        "C) टेस्ला / Tesla (T)",
+        "D) गॉस / Gauss (G)"
+      ],
+      "ans": "B) हेनरी / Henry (H)",
+      "exp": "💡 सही उत्तर: B) हेनरी (Henry, H)। सूत्र: e = -L (dI/dt) ⟹ L = e / (dI/dt) = Volt · second / Ampere = Henry (H)। चुंबकीय फ्लक्स का मात्रक वेबर (Weber) तथा चुंबकीय क्षेत्र का मात्रक टेस्ला (Tesla) है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "प्रत्यावर्ती धारा के शिखर मान (I₀) तथा वर्ग माध्य मूल मान (I_rms) के बीच सही संबंध क्या है?\n[English: What is the relation between peak current (I₀) and root mean square current (I_rms)?]",
+      "options": [
+        "A) I_rms = I₀ / √2 = 0.707 I₀",
+        "B) I_rms = √2 I₀",
+        "C) I_rms = I₀ / 2",
+        "D) I_rms = 2 I₀"
+      ],
+      "ans": "A) I_rms = I₀ / √2 = 0.707 I₀",
+      "exp": "💡 सही उत्तर: A) I_rms = I₀ / √2। प्रत्यावर्ती धारा का RMS मान शिखर मान का 1/√2 गुना (लगभग 70.7%) होता है। भारत में घरेलू 220V आपूर्ति इसका RMS मान ही होती है, जिसका शिखर मान 220 × √2 ≈ 311V होता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "एक शुद्ध प्रेरकत्व (Pure Inductive) परिपथ में प्रत्यावर्ती वोल्टेज तथा धारा के बीच कलान्तर (Phase Difference) कितना होता है?\n[English: In a pure inductive AC circuit, what is the phase difference between voltage and current?]",
+      "options": [
+        "A) शून्य / Zero (समान कला)",
+        "B) वोल्टेज, धारा से 90° (π/2) अग्रगामी होता है / Voltage leads current by 90°",
+        "C) धारा, वोल्टेज से 90° अग्रगामी होती है / Current leads voltage by 90°",
+        "D) 180°"
+      ],
+      "ans": "B) वोल्टेज, धारा से 90° (π/2) अग्रगामी होता है / Voltage leads current by 90°",
+      "exp": "💡 सही उत्तर: B) वोल्टेज धारा से 90° अग्रगामी होता है। शुद्ध प्रेरक में वोल्टेज धारा से π/2 आगे रहता है। शुद्ध धारिता (Capacitor) में धारा वोल्टेज से π/2 आगे रहती है। शुद्ध प्रतिरोधक में कलान्तर शून्य होता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "ट्रांसफार्मर किस सिद्धांत पर कार्य करता है?\n[English: On which principle does a transformer work?]",
+      "options": [
+        "A) स्वप्रेरण / Self Induction",
+        "B) अन्योन्य प्रेरण / Mutual Induction",
+        "C) भंवर धाराएँ / Eddy Currents",
+        "D) प्रकाश विद्युत प्रभाव / Photoelectric Effect"
+      ],
+      "ans": "B) अन्योन्य प्रेरण / Mutual Induction",
+      "exp": "💡 सही उत्तर: B) अन्योन्य प्रेरण (Mutual Induction)। जब प्राथमिक कुंडली में प्रत्यावर्ती धारा प्रवाहित होती है, तो उसके चुंबकीय फ्लक्स में परिवर्तन से द्वितीयक कुंडली में प्रेरित विद्युत वाहक बल उत्पन्न हो जाता है। ट्रांसफार्मर केवल AC पर कार्य करता है, DC पर नहीं।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "निम्नलिखित में से किसकी तरंगदैर्घ्य (Wavelength) सबसे कम (न्यूनतम) तथा आवृत्ति सर्वाधिक होती है?\n[English: Which of the following has the minimum wavelength and highest frequency?]",
+      "options": [
+        "A) रेडियो तरंगें / Radio Waves",
+        "B) गामा किरणें / Gamma Rays (γ-rays)",
+        "C) सूक्ष्म तरंगें / Microwaves",
+        "D) दृश्य प्रकाश / Visible Light"
+      ],
+      "ans": "B) गामा किरणें / Gamma Rays (γ-rays)",
+      "exp": "💡 सही उत्तर: B) गामा किरणें। विद्युत चुंबकीय स्पेक्ट्रम क्रम (घटती तरंगदैर्घ्य): रेडियो > माइक्रो > अवरक्त > दृश्य प्रकाश > पराबैंगनी > एक्स-किरणें > गामा किरणें। गामा किरणों की तरंगदैर्घ्य सबसे कम (< 10⁻¹² m) और ऊर्जा व भेदन क्षमता सर्वाधिक होती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "ऑप्टिकल फाइबर (प्रकाशीय तंतु) प्रकाश के किस सिद्धांत पर आधारित है?\n[English: Optical fiber works on which optical principle?]",
+      "options": [
+        "A) प्रकाश का प्रकीर्णन / Scattering of Light",
+        "B) पूर्ण आंतरिक परावर्तन / Total Internal Reflection (TIR)",
+        "C) प्रकाश का विवर्तन / Diffraction",
+        "D) प्रकाश का अपवर्तन / Simple Refraction"
+      ],
+      "ans": "B) पूर्ण आंतरिक परावर्तन / Total Internal Reflection (TIR)",
+      "exp": "💡 सही उत्तर: B) पूर्ण आंतरिक परावर्तन (TIR)। ऑप्टिकल फाइबर में कोर का अपवर्तनांक क्लैडिंग से अधिक होता है। जब प्रकाश किरण क्रांतिक कोण से बड़े कोण पर प्रवेश करती है, तो वह बिना ऊर्जा ह्रास के बार-बार पूर्ण आंतरिक परावर्तित होकर आगे बढ़ती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "दो पतले लेंस जिनकी क्षमताएँ क्रमशः +4D तथा -2D हैं, संपर्क में रखे हैं। संयुक्त लेंस की फोकस दूरी क्या होगी?\n[English: Two thin lenses of powers +4D and -2D are in contact. What is the focal length of the combination?]",
+      "options": [
+        "A) +50 cm",
+        "B) -50 cm",
+        "C) +25 cm",
+        "D) +100 cm"
+      ],
+      "ans": "A) +50 cm",
+      "exp": "💡 सही उत्तर: A) +50 cm। संयुक्त क्षमता P = P₁ + P₂ = (+4) + (-2) = +2 D। फोकस दूरी f = 1/P मीटर = 1/2 m = +50 cm। धनात्मक चिह्न दर्शाता है कि संयोजन उत्तल लेंस (Convex lens) की भांति कार्य करता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "यंग के द्वि-झिरी प्रयोग (YDSE) में फ्रिंज चौड़ाई (Fringe Width, β) का सूत्र क्या होता है?\n[English: In Young's double slit experiment (YDSE), what is the formula for fringe width (β)?]",
+      "options": [
+        "A) β = λ D / d",
+        "B) β = λ d / D",
+        "C) β = D d / λ",
+        "D) β = λ / (D d)"
+      ],
+      "ans": "A) β = λ D / d",
+      "exp": "💡 सही उत्तर: A) β = λ D / d। यहाँ λ = प्रयुक्त प्रकाश की तरंगदैर्घ्य, D = झिरियों से पर्दे की दूरी तथा d = दोनों झिरियों के बीच की अल्प दूरी है। लाल प्रकाश के लिए λ अधिक होने से फ्रिंज चौड़ाई सबसे अधिक होती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "ब्रूस्टर का नियम (Brewster's Law) माध्यम के अपवर्तनांक (μ) तथा ध्रुवण कोण (i_p) के बीच क्या संबंध बताता है?\n[English: Brewster's Law states which relation between refractive index (μ) and polarizing angle (i_p)?]",
+      "options": [
+        "A) μ = sin i_p",
+        "B) μ = tan i_p",
+        "C) μ = cos i_p",
+        "D) μ = cot i_p"
+      ],
+      "ans": "B) μ = tan i_p",
+      "exp": "💡 सही उत्तर: B) μ = tan i_p। ब्रूस्टर के नियमानुसार जब प्रकाश ध्रुवण कोण (Brewster's angle) पर आपतित होता है, तो परावर्तित प्रकाश पूर्णतः समतल ध्रुवित होता है तथा परावर्तित व अपवर्तित किरणें परस्पर लंबवत (90°) होती हैं।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "प्रकाश विद्युत प्रभाव (Photoelectric Effect) की सफल व्याख्या के लिए अल्बर्ट आइंस्टीन को नोबेल पुरस्कार किस सिद्धांत के अनुप्रयोग पर दिया गया था?\n[English: Albert Einstein was awarded the Nobel Prize for explaining the Photoelectric Effect based on:]",
+      "options": [
+        "A) मैक्सवेल के तरंग सिद्धांत / Maxwell Wave Theory",
+        "B) प्लांक का क्वांटम सिद्धांत / Planck's Quantum Theory (Photon Concept)",
+        "C) रदरफोर्ड नाभिकीय मॉडल / Rutherford Model",
+        "D) बोर का परमाणु मॉडल / Bohr Model"
+      ],
+      "ans": "B) प्लांक का क्वांटम सिद्धांत / Planck's Quantum Theory (Photon Concept)",
+      "exp": "💡 सही उत्तर: B) प्लांक का क्वांटम सिद्धांत। आइंस्टीन ने 1905 में फोटॉन अवधारणा (E = hν) के आधार पर प्रकाश विद्युत समीकरण K_max = hν - Φ₀ प्रतिपादित किया। इसके लिए उन्हें 1921 में भौतिकी का नोबेल पुरस्कार प्रदान किया गया।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "संवेग p वाले गतिशील कण की डी-ब्रोग्ली तरंगदैर्घ्य (de Broglie Wavelength, λ) क्या होती है?\n[English: What is the de Broglie wavelength (λ) of a moving particle having momentum p?]",
+      "options": [
+        "A) λ = h / p",
+        "B) λ = p / h",
+        "C) λ = h · p",
+        "D) λ = h / p²"
+      ],
+      "ans": "A) λ = h / p",
+      "exp": "💡 सही उत्तर: A) λ = h / p। डी-ब्रोग्ली परिकल्पना के अनुसार द्रव्य कणों के साथ भी तरंग संबद्ध होती है। तरंगदैर्घ्य λ = h / p = h / (mv) = h / √(2mE) होती है, जहाँ h प्लांक नियतांक है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "हाइड्रोजन परमाणु के प्रथम बोर कक्ष की त्रिज्या (Bohr Radius, r₁) का मान लगभग कितना होता है?\n[English: What is the approximate value of the first Bohr orbit radius (r₁) of a hydrogen atom?]",
+      "options": [
+        "A) 0.529 Å (0.053 nm)",
+        "B) 1.058 Å",
+        "C) 0.265 Å",
+        "D) 5.29 Å"
+      ],
+      "ans": "A) 0.529 Å (0.053 nm)",
+      "exp": "💡 सही उत्तर: A) 0.529 Å। बोर मॉडल के अनुसार r_n = 0.529 × (n² / Z) Å। हाइड्रोजन के लिए Z = 1 तथा प्रथम कक्षा के लिए n = 1 ⟹ r₁ = 0.529 Å।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "हाइड्रोजन परमाणु स्पेक्ट्रम की कौन सी श्रेणी विद्युत चुंबकीय स्पेक्ट्रम के दृश्य प्रकाश (Visible Light) क्षेत्र में पड़ती है?\n[English: Which spectral series of the hydrogen atom lies in the visible light region?]",
+      "options": [
+        "A) लाइमन श्रेणी / Lyman Series",
+        "B) बामर श्रेणी / Balmer Series",
+        "C) पाश्चन श्रेणी / Paschen Series",
+        "D) फुंड श्रेणी / Pfund Series"
+      ],
+      "ans": "B) बामर श्रेणी / Balmer Series",
+      "exp": "💡 सही उत्तर: B) बामर श्रेणी (Balmer Series)। लाइमन श्रेणी पराबैंगनी (UV) क्षेत्र में, बामर श्रेणी दृश्य प्रकाश (Visible) में, तथा पाश्चन, ब्रैकेट व फुंड श्रेणियां अवरक्त (Infrared) क्षेत्र में पड़ती हैं।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "1 परमाणु द्रव्यमान मात्रक (1 amu / 1 u) के तुल्य ऊर्जा कितनी होती है?\n[English: What is the equivalent energy of 1 atomic mass unit (1 amu / 1 u)?]",
+      "options": [
+        "A) 931.5 MeV",
+        "B) 93.15 MeV",
+        "C) 1.6 × 10⁻¹⁹ J",
+        "D) 931.5 eV"
+      ],
+      "ans": "A) 931.5 MeV",
+      "exp": "💡 सही उत्तर: A) 931.5 MeV। आइंस्टीन के द्रव्यमान-ऊर्जा समीकरण E = Δm · c² से 1 u (1.66 × 10⁻²⁷ kg) के समतुल्य ऊर्जा 931.5 मिलियन इलेक्ट्रॉन वोल्ट (MeV) प्राप्त होती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "सूर्य तथा अन्य तारों में ऊर्जा का विशाल स्रोत निम्नलिखित में से कौन सी नाभिकीय प्रक्रिया है?\n[English: Which nuclear process is the source of tremendous energy in the Sun and stars?]",
+      "options": [
+        "A) नाभिकीय विखंडन / Nuclear Fission",
+        "B) नाभिकीय संलयन / Nuclear Fusion",
+        "C) रेडियोएक्टिव क्षय / Radioactive Decay",
+        "D) रासायनिक दहन / Chemical Combustion"
+      ],
+      "ans": "B) नाभिकीय संलयन / Nuclear Fusion",
+      "exp": "💡 सही उत्तर: B) नाभिकीय संलयन (Nuclear Fusion)। तारों में अत्यधिक उच्च ताप और दाब पर हल्के हाइड्रोजन नाभिक संलयित होकर हीलियम नाभिक बनाते हैं (प्रोटॉन-प्रोटॉन चक्र), जिसमें भारी मात्रा में ऊर्जा मुक्त होती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "शुद्ध (नैज) अर्धचालक (Intrinsic Semiconductor - सिलिकॉन/जर्मेनियम) में त्रिसंयोजी (Trivalent - बोरॉन, एल्युमिनियम) अपद्रव्य मिलाने पर किस प्रकार का अर्धचालक प्राप्त होता है?\n[English: Doping a pure semiconductor with trivalent impurities (B, Al, Ga) produces which type of semiconductor?]",
+      "options": [
+        "A) n-प्रकार अर्धचालक / n-type",
+        "B) p-प्रकार अर्धचालक / p-type",
+        "C) कुचालक / Insulator",
+        "D) अतिचालक / Superconductor"
+      ],
+      "ans": "B) p-प्रकार अर्धचालक / p-type",
+      "exp": "💡 सही उत्तर: B) p-प्रकार अर्धचालक (p-type)। त्रिसंयोजी अपद्रव्य मिलाने पर संयोजी बंध में एक इलेक्ट्रॉन की कमी से कोटर (Hole) बनता है। अतः p-प्रकार में बहुसंख्यक आवेश वाहक होल (Holes) होते हैं। पंचसंयोजी (P, As, Sb) मिलाने पर n-प्रकार बनता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "परम शून्य ताप (Absolute Zero - 0 K) पर एक शुद्ध अर्धचालक (Pure Silicon/Germanium) किस प्रकार व्यवहार करता है?\n[English: At absolute zero temperature (0 K), how does an intrinsic semiconductor behave?]",
+      "options": [
+        "A) एक आदर्श चालक की भांति / Like a perfect conductor",
+        "B) एक आदर्श कुचालक (विद्युतरोधी) की भांति / Like an ideal insulator",
+        "C) अतिचालक की भांति / Like a superconductor",
+        "D) अर्धचालक ही रहता है"
+      ],
+      "ans": "B) एक आदर्श कुचालक (विद्युतरोधी) की भांति / Like an ideal insulator",
+      "exp": "💡 सही उत्तर: B) एक आदर्श कुचालक की भांति। 0 K पर सभी संयोजी इलेक्ट्रॉन दृढ़तापूर्वक सहसंयोजक बंधों में बंधे होते हैं और चालन बैंड में कोई मुक्त इलेक्ट्रॉन नहीं होता। अतः चालकता शून्य हो जाती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "NAND गेट का बूलियन व्यंजक (Boolean Expression) क्या होता है?\n[English: What is the Boolean expression for a NAND gate?]",
+      "options": [
+        "A) Y = A + B",
+        "B) Y = A · B",
+        "C) Y = (A · B)' (NOT of AND)",
+        "D) Y = (A + B)'"
+      ],
+      "ans": "C) Y = (A · B)' (NOT of AND)",
+      "exp": "💡 सही उत्तर: C) Y = (A · B)'। NAND गेट AND गेट और NOT गेट का संयोजन है। इसका आउटपुट तभी 0 होता है जब दोनों इनपुट 1 हों। NAND तथा NOR गेटों को सार्वत्रिक गेट (Universal Gates) कहा जाता है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    },
+    {
+      "q": "p-n संधि डायोड को अग्र अभिनति (Forward Bias) में जोड़ने पर अवक्षय परत (Depletion Layer) की चौड़ाई पर क्या प्रभाव पड़ता है?\n[English: What happens to the width of the depletion layer when a p-n junction is forward biased?]",
+      "options": [
+        "A) घटती है / Decreases",
+        "B) बढ़ती है / Increases",
+        "C) अपरिवर्तित रहती है / Remains same",
+        "D) अनंत हो जाती है / Becomes infinite"
+      ],
+      "ans": "A) घटती है / Decreases",
+      "exp": "💡 सही उत्तर: A) घटती है (Decreases)। अग्र अभिनति में बाह्य विद्युत क्षेत्र आंतरिक रोधिका क्षेत्र का विरोध करता है, जिससे अवक्षय परत पतली हो जाती है और धारा सुगमता से प्रवाहित होती है। पश्च अभिनति (Reverse bias) में परत की चौड़ाई बढ़ जाती है।",
+      "chapter": "कक्षा 12 भौतिक विज्ञान (वैद्युतस्थैतिकी, चुंबकत्व, प्रकाशिकी, आधुनिक भौतिकी)",
+      "pyqTag": "UP Board (UPMSP) 12th (2019-2024 Repeated)"
+    }
+  ],
+  "subjectives": [
+    {
+      "q": "हाइगेन्स के द्वितीयक तरंगिकाओं के सिद्धांत के आधार पर प्रकाश के अपवर्तन के नियमों की व्याख्या कीजिए।",
+      "marks": 5,
+      "chapter": "तरंग प्रकाशिकी (Wave Optics)",
+      "pyqTag": "UPMSP 2023, 2020 Long Answer",
+      "modelAnswer": "हाइगेन्स के अनुसार तरंगाग्र का प्रत्येक बिंदु एक नए विक्षोभ का स्रोत बनता है जिसे द्वितीयक तरंगिकाएं कहते हैं। सघन माध्यम में वेग कम होने से तरंगिकाएं कम दूरी तय करती हैं। ज्यामितीय गणना से sin i / sin r = v₁/v₂ = n सिद्ध होता है जो स्नेल का नियम है।",
+      "keyPoints": [
+        "तरंगाग्र की अवधारणा",
+        "द्वितीयक तरंगिकाओं की उत्पत्ति",
+        "स्नेल के नियम (sin i / sin r = n) का निगमन"
+      ]
+    },
+    {
+      "q": "प्रकाश वैद्युत प्रभाव के नियम क्या हैं? आइंस्टीन के प्रकाश वैद्युत समीकरण hν = W + Ek का निगमन कीजिए।",
+      "marks": 5,
+      "chapter": "विकिरण तथा द्रव्य की द्वैत प्रकृति",
+      "pyqTag": "UPMSP 2024, 2022 Long Answer",
+      "modelAnswer": "जब धातु पर देहली आवृत्ति से अधिक आवृत्ति का प्रकाश गिरता है, तो सतह से तुरंत इलेक्ट्रॉन उत्सर्जित होते हैं। आइंस्टीन के अनुसार आपतित फोटॉन की ऊर्जा (hν) दो कार्यों में व्यय होती है: धातु का कार्यफलन (W) और उत्सर्जित इलेक्ट्रॉन की अधिकतम गतिज ऊर्जा (Ek)। अतः hν = hν₀ + ½mv²_max।",
+      "keyPoints": [
+        "देहली आवृत्ति एवं कार्यफलन की परिभाषा",
+        "ऊर्जा संरक्षण का सिद्धांत",
+        "आइंस्टीन का समीकरण एवं ग्राफीय व्याख्या"
+      ]
+    }
+  ]
+}
