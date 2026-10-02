@@ -1,5 +1,5 @@
-// SarkariAI Hub Service Worker
-const CACHE_NAME = 'sarkariai-cache-v1';
+// BharatExams Hub Service Worker
+const CACHE_NAME = 'bharatexamshub-cache-v2';
 const STATIC_ASSETS = ['/', '/index.html', '/documentation.html'];
 
 self.addEventListener('install', (e) => {

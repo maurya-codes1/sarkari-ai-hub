@@ -237,7 +237,7 @@ function generateOmrSheetHtml(config = {}) {
 
       <!-- Footer -->
       <div style="display: flex; justify-content: space-between; align-items: center; border-top: 1.5px solid #000; padding-top: 4px; font-size: 8.5px; font-weight: bold; color: #444;">
-        <span>SarkariAI Hub 🇮🇳 Official Standard OMR Sheet • Serial: SK-${Date.now().toString().slice(-6)}</span>
+        <span>BharatExams Hub 🇮🇳 Official Standard OMR Sheet • Serial: SK-${Date.now().toString().slice(-6)}</span>
         <span>COMPUTER SCANNABLE OPTICAL MARK RECOGNITION SHEET (A4)</span>
       </div>
 
@@ -310,7 +310,7 @@ function openPrintableOmrWindow(config = {}) {
     <body>
       <div class="no-print">
         <div class="action-bar">
-          <div style="font-weight: 800; font-size: 13px;">🇮🇳 SarkariAI Hub • Vector Printable OMR Sheet Console</div>
+          <div style="font-weight: 800; font-size: 13px;">🇮🇳 BharatExams Hub • Vector Printable OMR Sheet Console</div>
           <div style="display: flex; gap: 8px;">
             <button onclick="window.print()" class="print-btn">
               🖨️ Print / Save as PDF (Ctrl + P)

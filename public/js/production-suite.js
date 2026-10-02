@@ -1,4 +1,4 @@
-// SarkariAI Hub — Production Suite (Push Alerts, Bookmarks, Qualification Filters, Broken Link Reporting, FAQ, Offline Detector, DPDP Consent, & Rating)
+// BharatExams Hub — Production Suite (Push Alerts, Bookmarks, Qualification Filters, Broken Link Reporting, FAQ, Offline Detector, DPDP Consent, & Rating)
 
 // -------------------------------------------------------------
 // 1. WEB PUSH NOTIFICATION JOB ALERT BELL
@@ -45,7 +45,7 @@ function toggleJobAlerts() {
       
       // Send a welcome notification
       try {
-        new Notification('🇮🇳 SarkariAI Hub जॉब अलर्ट सक्रिय!', {
+        new Notification('🇮🇳 BharatExams Hub जॉब अलर्ट सक्रिय!', {
           body: 'धन्यवाद! SSC, रेलवे, पुलिस व बोर्ड परीक्षाओं के आधिकारिक अपडेट सबसे पहले आपको मिलेंगे।',
           icon: '/favicon.svg'
         });

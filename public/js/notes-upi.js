@@ -7628,7 +7628,7 @@ function openNotesReaderModal(noteData) {
 
       <!-- Footer Bar -->
       <div class="bg-slate-100 p-3 sm:p-4 border-t border-slate-200 flex items-center justify-between text-xs text-slate-600 font-bold shrink-0">
-        <span>SarkariAI Hub • 100% Free Online Reading</span>
+        <span>BharatExams Hub • 100% Free Online Reading</span>
         <button onclick="closeNotesReaderModal()" class="px-4 py-2 bg-slate-800 text-white rounded-xl hover:bg-slate-700 transition">
           Done Reading
         </button>

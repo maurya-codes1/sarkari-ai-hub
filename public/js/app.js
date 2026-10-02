@@ -413,7 +413,7 @@ async function sendChatMessage(promptText = null) {
       <span class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce"></span>
       <span class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce" style="animation-delay: 0.2s"></span>
       <span class="w-1.5 h-1.5 bg-slate-400 rounded-full animate-bounce" style="animation-delay: 0.4s"></span>
-      <span class="text-[11px] ml-1">Sarkari AI सोच रहा है...</span>
+      <span class="text-[11px] ml-1">BharatExams AI सोच रहा है...</span>
     </div>
   `;
   chatMessages.appendChild(typingEl);
@@ -437,7 +437,7 @@ async function sendChatMessage(promptText = null) {
     botMsgEl.innerHTML = `
       <div class="bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200 text-slate-800 text-xs rounded-2xl rounded-tl-none p-3.5 max-w-[90%] shadow-sm leading-relaxed whitespace-pre-line font-medium">
         <div class="flex items-center space-x-1.5 text-saffron-700 font-bold mb-1">
-          <span>🇮🇳 Sarkari AI Guide:</span>
+          <span>🇮🇳 BharatExams Guide:</span>
         </div>
         ${formatAiResponse(data.answer || '')}
       </div>
@@ -1326,7 +1326,7 @@ function handleContactSubmit(event) {
 // WHATSAPP 1-TAP SHARING ENGINE
 // ==========================================
 function shareOnWhatsApp(customText = '') {
-  const shareText = customText || '🇮🇳 SarkariAI Hub: भारत का #1 ऑल-इन-वन सरकारी परीक्षा एवं बोर्ड पोर्टल। फोटो रिसाइज़र (20-50 KB), 7th CPC वेतन गणक, लाइव मॉक टेस्ट, स्टडी टाइमटेबल और OMR जनरेटर। सीधे देखें:\n' + window.location.origin;
+  const shareText = customText || '🇮🇳 BharatExams Hub: भारत का #1 ऑल-इन-वन सरकारी परीक्षा एवं बोर्ड पोर्टल। फोटो रिसाइज़र (20-50 KB), 7th CPC वेतन गणक, लाइव मॉक टेस्ट, स्टडी टाइमटेबल और OMR जनरेटर। सीधे देखें:\n' + window.location.origin;
   const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(shareText)}`;
   window.open(url, '_blank');
 }
@@ -1337,7 +1337,7 @@ function shareQuizScoreOnWhatsApp() {
   const air = document.getElementById('scorecardAir')?.innerText || '#1,420';
   const accuracy = document.getElementById('scorecardAccuracy')?.innerText || '90%';
 
-  const text = `🎯 मैंने SarkariAI Hub पर लाइव ऑल-इंडिया मॉक टेस्ट दिया!\n\n📊 मेरा स्कोर: ${raw} (${pct})\n🎯 सटीकता (Accuracy): ${accuracy}\n🏆 अनुमानित ऑल-इंडिया रैंक: ${air}\n\nआप भी अपनी तैयारी का स्तर और ऑल-इंडिया रैंक तुरंत चेक करें:\n${window.location.origin}/#tool/quiz`;
+  const text = `🎯 मैंने BharatExams Hub पर लाइव ऑल-इंडिया मॉक टेस्ट दिया!\n\n📊 मेरा स्कोर: ${raw} (${pct})\n🎯 सटीकता (Accuracy): ${accuracy}\n🏆 अनुमानित ऑल-इंडिया रैंक: ${air}\n\nआप भी अपनी तैयारी का स्तर और ऑल-इंडिया रैंक तुरंत चेक करें:\n${window.location.origin}/#tool/quiz`;
   shareOnWhatsApp(text);
 }
 
@@ -1370,7 +1370,7 @@ function installPwaApp() {
       deferredPwaPrompt = null;
     });
   } else {
-    showAppAlert('📱 SarkariAI Hub ऐप इंस्टॉल करने के लिए अपने Chrome ब्राउज़र के मेन्यू (तीन डॉट्स) में "Add to Home screen (होम स्क्रीन पर जोड़ें)" पर टैप करें।');
+    showAppAlert('📱 BharatExams Hub ऐप इंस्टॉल करने के लिए अपने Chrome ब्राउज़र के मेन्यू (तीन डॉट्स) में "Add to Home screen (होम स्क्रीन पर जोड़ें)" पर टैप करें।');
   }
 }
 

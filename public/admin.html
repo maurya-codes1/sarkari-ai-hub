@@ -421,7 +421,7 @@
         const data = await res.json();
 
         document.getElementById('settingUpiId').value = data.upiId || 'sarkariai@upi';
-        document.getElementById('settingPayeeName').value = data.payeeName || 'SarkariAI Hub';
+        document.getElementById('settingPayeeName').value = data.payeeName || 'BharatExams Hub';
         document.getElementById('settingDefaultPrice').value = data.defaultPrice || 9;
         document.getElementById('settingCustomQrUrl').value = data.customQrUrl || '';
 
@@ -439,11 +439,11 @@
 
     function updateLivePreview() {
       const upiId = document.getElementById('settingUpiId').value.trim() || 'sarkariai@upi';
-      const payeeName = document.getElementById('settingPayeeName').value.trim() || 'SarkariAI Hub';
+      const payeeName = document.getElementById('settingPayeeName').value.trim() || 'BharatExams Hub';
       const price = document.getElementById('settingDefaultPrice').value.trim() || '9';
       const customQr = document.getElementById('settingCustomQrUrl').value.trim();
 
-      const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${encodeURIComponent('SarkariAI Study Notes')}`;
+      const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${price}&cu=INR&tn=${encodeURIComponent('BharatExams Study Notes')}`;
       const defaultQrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=${encodeURIComponent(upiIntent)}`;
 
       const imgEl = document.getElementById('previewQrImage');

@@ -805,7 +805,7 @@ function finishCAQuiz() {
       </div>
       <div>
         <h2 class="text-2xl font-black text-slate-900">क्विज परिणाम (Daily Quiz Scorecard)</h2>
-        <p class="text-xs text-slate-500 mt-1">SarkariAI Real-Time Current Affairs Assessment</p>
+        <p class="text-xs text-slate-500 mt-1">BharatExams Real-Time Current Affairs Assessment</p>
       </div>
 
       <div class="inline-block px-4 py-1.5 rounded-full border text-xs font-bold ${badgeColor}">
@@ -921,7 +921,7 @@ function renderMonthlyCapsule() {
 }
 
 function copyCACapsuleNotes() {
-  let text = "📚 SarkariAI Daily Current Affairs & Static GK High-Yield Capsule 2026\n\n";
+  let text = "📚 BharatExams Daily Current Affairs & Static GK High-Yield Capsule 2026\n\n";
   MONTHLY_CAPSULE_DATA.forEach(sec => {
     text += `== ${sec.category} ==\n`;
     sec.points.forEach(pt => {

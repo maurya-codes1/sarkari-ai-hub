@@ -1009,7 +1009,7 @@ const POLL_MULTILINGUAL_MAP = {
   }
 };
 
-// SarkariAI Hub — Interactive Features Engine (Daily Poll, Viral Share, Voice Search, Rank Predictor, Exam Kit, Fee Waiver & PWA)
+// BharatExams Hub — Interactive Features Engine (Daily Poll, Viral Share, Voice Search, Rank Predictor, Exam Kit, Fee Waiver & PWA)
 
 // -------------------------------------------------------------
 // 1. DAILY QUESTION OF THE DAY & LIVE COMMUNITY POLL
@@ -2124,7 +2124,7 @@ function shareExamTelegram(examId) {
   const exam = (typeof getExamById === 'function') ? getExamById(examId) : null;
   const siteUrl = window.location.origin + '/#exam/' + (examId || '');
 
-  let title = exam ? `🔥 ${exam.name} - SarkariAI Hub` : 'SarkariAI Hub - All India Exam Portal';
+  let title = exam ? `🔥 ${exam.name} - BharatExams Hub` : 'BharatExams Hub - All India Exam Portal';
   const tgUrl = `https://t.me/share/url?url=${encodeURIComponent(siteUrl)}&text=${encodeURIComponent(title)}`;
   window.open(tgUrl, '_blank');
 }

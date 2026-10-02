@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SarkariAI Hub - AI & Human Code/Architecture Inspection Report</title>
+  <title>BharatExams Hub - AI & Human Code/Architecture Inspection Report</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #1e293b; background: #f8fafc; padding: 24px; margin: 0; }
     .container { max-width: 960px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
@@ -31,7 +31,7 @@
 </head>
 <body>
 <div class="container">
-  <h1>🇮🇳 SarkariAI Hub — Comprehensive Project & Architecture Inspection Report</h1>
+  <h1>🇮🇳 BharatExams Hub — Comprehensive Project & Architecture Inspection Report</h1>
   <p><strong>Target:</strong> Automated Inspection for ChatGPT, Gemini, and Evaluators.<br>
   <strong>Server Status:</strong> <span class="badge badge-green">LIVE (Node.js Express + Bore Tunnel)</span>
   <span class="badge badge-blue">Zero Build Step SPA</span>
@@ -58,7 +58,7 @@
   </div>
 
   <h2>1. Project Overview & Architecture</h2>
-  <p><strong>SarkariAI Hub</strong> is an all-in-one, high-performance Indian government exam and state board utility portal designed for students and job aspirants across Bharat.</p>
+  <p><strong>BharatExams Hub</strong> is an all-in-one, high-performance Indian government exam and state board utility portal designed for students and job aspirants across Bharat.</p>
   <ul>
     <li><strong>Backend:</strong> Node.js + Express (<code>server.js</code>) running on port 5000 with autonomous background sync (<code>services/auto-sync.js</code>, <code>services/smart-fetcher.js</code>).</li>
     <li><strong>Frontend:</strong> Client-Side Single Page Application (SPA) with hash routing (<code>#home</code>, <code>#exam/:id</code>, <code>#tool/:id</code>, <code>#mock-tests</code>, <code>#results</code>, etc.). Zero webpack/vite build steps for instant loading on 2G/3G/4G networks across rural India.</li>
@@ -79,8 +79,8 @@
   
   <div class="success-card">
     <h3 style="margin-top:0; color:#15803d;">✅ 1. Double-Tab Navigation Bug Fixed</h3>
-    <p><strong>Problem:</strong> When users tapped "Apply Online", an outbound gateway opened in a new tab, but simultaneously Tab 1 (SarkariAI Hub) was redirected to the external government website (e.g. cbse.gov.in), destroying the user's active session and back-navigation stack.</p>
-    <p><strong>Solution:</strong> In <code>public/js/app.js</code>, the fallback <code>window.location.href = target;</code> was completely removed. Outbound links are strictly opened in a new window via <code>window.open(target, '_blank', 'noopener,noreferrer')</code>. Tab 1 remains permanently intact on SarkariAI Hub.</p>
+    <p><strong>Problem:</strong> When users tapped "Apply Online", an outbound gateway opened in a new tab, but simultaneously Tab 1 (BharatExams Hub) was redirected to the external government website (e.g. cbse.gov.in), destroying the user's active session and back-navigation stack.</p>
+    <p><strong>Solution:</strong> In <code>public/js/app.js</code>, the fallback <code>window.location.href = target;</code> was completely removed. Outbound links are strictly opened in a new window via <code>window.open(target, '_blank', 'noopener,noreferrer')</code>. Tab 1 remains permanently intact on BharatExams Hub.</p>
   </div>
 
   <div class="success-card">
@@ -173,7 +173,7 @@
   <h2>4. AI Inspection Summary & Access Notice</h2>
   <div class="highlight-card">
     <p><strong>Note for ChatGPT / Gemini AI Evaluators:</strong></p>
-    <p>SarkariAI Hub uses client-side routing. If accessing via basic web scrapers that do not execute JavaScript, please review this static report (<code>/ai-audit.html</code>) or view the raw source files in the codebase repository. For live interactive inspection, open the portal in any modern browser on mobile or desktop.</p>
+    <p>BharatExams Hub uses client-side routing. If accessing via basic web scrapers that do not execute JavaScript, please review this static report (<code>/ai-audit.html</code>) or view the raw source files in the codebase repository. For live interactive inspection, open the portal in any modern browser on mobile or desktop.</p>
   </div>
 
   <h2>5. Official Source Intelligence & Full-Exam Eligibility Gate (Phase 6)</h2>
