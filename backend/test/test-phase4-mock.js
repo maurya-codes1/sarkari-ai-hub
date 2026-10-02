@@ -177,11 +177,12 @@ async function runPhase4Tests() {
 
   // CASE 12: Insufficient question inventory handling
   runTest('CASE 12: Insufficient question inventory handling without repetition', () => {
-    // Request a practice session for subj-sociology (which has 166 questions in DB) with 200 questions
+    // Request a practice session for BSEB Class 10 Science (which has 113 questions in DB) with 200 questions
     const session = mockService.startMockSession({
-      examId: 'bihar-police-constable',
+      boardId: 'bseb-bihar',
+      stage: 'Class 10',
       testMode: 'PRACTICE',
-      subjectId: 'subj-sociology',
+      subjectId: 'subj-science',
       requestedCount: 200
     });
     const qIds = session.questions.map(q => q.id);

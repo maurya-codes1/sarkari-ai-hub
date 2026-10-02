@@ -1,0 +1,2753 @@
+{
+  "examVersionId": "ver-ssc-cgl-2026",
+  "stage": "Competitive",
+  "subjectId": "subj-english",
+  "subjectName": "General English Comprehension (अंग्रेजी भाषा एवं समझ)",
+  "language": "en",
+  "objectives": [
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves mankind and works for their welfare'",
+      "options": [
+        "A) Philanthropist (जनहितैषी / परोपकारी)",
+        "B) Misanthrope (Hater of mankind)",
+        "C) Anthropologist (Studies human societies)",
+        "D) Mercenary (Works only for money)"
+      ],
+      "ans": "A) Philanthropist (जनहितैषी / परोपकारी)",
+      "exp": "💡 Correct Answer: A) Philanthropist (जनहितैषी / परोपकारी).\nExplanation: Philanthropist (Philo = love, Anthropos = human) refers to a person who seeks to promote the welfare of others, especially by donating money to good causes.",
+      "chapter": "One Word Substitution",
+      "pyqTag": "SSC CGL 2023 Tier-1"
+    },
+    {
+      "q": "Select the one-word substitute for:\n'A remedy for all diseases or difficulties'",
+      "options": [
+        "A) Panacea (रामबाण औषधि)",
+        "B) Antidote (Counteracts poison)",
+        "C) Antibiotic",
+        "D) Placebo"
+      ],
+      "ans": "A) Panacea (रामबाण औषधि)",
+      "exp": "💡 Correct Answer: A) Panacea (रामबाण औषधि).\nExplanation: Panacea is a cure-all solution or universal remedy for all diseases, problems, or difficulties.",
+      "chapter": "One Word Substitution",
+      "pyqTag": "SSC CHSL PYQ"
+    },
+    {
+      "q": "Select the one-word substitute for:\n'One who cannot make any mistakes or errors'",
+      "options": [
+        "A) Infallible (अचूक / जो कभी गलती न करे)",
+        "B) Inevitable (Unavoidable)",
+        "C) Invincible (Cannot be defeated)",
+        "D) Incorrigible (Cannot be reformed)"
+      ],
+      "ans": "A) Infallible (अचूक / जो कभी गलती न करे)",
+      "exp": "💡 Correct Answer: A) Infallible (अचूक / जो कभी गलती न करे).\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One Word Substitution",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "Select the one-word substitute for:\n'An extreme or irrational fear of confined, small places'",
+      "options": [
+        "A) Claustrophobia",
+        "B) Acrophobia (Fear of heights)",
+        "C) Hydrophobia (Fear of water)",
+        "D) Agoraphobia (Fear of open spaces)"
+      ],
+      "ans": "A) Claustrophobia",
+      "exp": "💡 Correct Answer: A) Claustrophobia.\nExplanation: Claustrophobia is the intense fear of being trapped in small, tight, or enclosed spaces.",
+      "chapter": "One Word Substitution",
+      "pyqTag": "SSC CGL Tier-1 PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice'",
+      "options": [
+        "A) To make people feel more comfortable and start a conversation",
+        "B) To freeze water into ice",
+        "C) To end a friendly relationship",
+        "D) To start a quarrel"
+      ],
+      "ans": "A) To make people feel more comfortable and start a conversation",
+      "exp": "💡 Correct Answer: A) To make people feel more comfortable and start a conversation.\nExplanation: 'Break the ice' means to do or say something that relieves tension and gets conversation flowing in an unfamiliar social situation.",
+      "chapter": "Idioms & Phrases",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Burn the midnight oil'",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious oil and fuel",
+        "C) To create unnecessary lighting",
+        "D) To sleep deeply"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nExplanation: 'Burn the midnight oil' means to read, study, or work late through the night until early morning.",
+      "chapter": "Idioms & Phrases",
+      "pyqTag": "SSC CHSL PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise'",
+      "options": [
+        "A) An apparent misfortune that eventually results in something good",
+        "B) A hidden treasure",
+        "C) A false religious blessing",
+        "D) A permanent loss"
+      ],
+      "ans": "A) An apparent misfortune that eventually results in something good",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually results in something good.\nExplanation: 'A blessing in disguise' refers to a mishap or negative occurrence that unexpectedly leads to a fortunate outcome later.",
+      "chapter": "Idioms & Phrases",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "Select the meaning of the idiom:\n'Once in a blue moon'",
+      "options": [
+        "A) Very rarely / Almost never",
+        "B) Frequently occurring event",
+        "C) Every full moon night",
+        "D) In the daytime"
+      ],
+      "ans": "A) Very rarely / Almost never",
+      "exp": "💡 Correct Answer: A) Very rarely / Almost never.\nExplanation: 'Once in a blue moon' signifies an event that happens extremely infrequently or very rarely.",
+      "chapter": "Idioms & Phrases",
+      "pyqTag": "SSC MTS PYQ"
+    },
+    {
+      "q": "Select the most appropriate SYNONYM of the word:\n'BENEVOLENT'",
+      "options": [
+        "A) Kind / Generous (दयालु / परोपकारी)",
+        "B) Cruel / Malevolent",
+        "C) Selfish",
+        "D) Arrogant"
+      ],
+      "ans": "A) Kind / Generous (दयालु / परोपकारी)",
+      "exp": "💡 Correct Answer: A) Kind / Generous (दयालु / परोपकारी).\nExplanation: Benevolent means well-meaning, kindly, and charitable. Synonyms: Altruistic, Generous, Magnanimous.",
+      "chapter": "Synonyms",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "Select the most appropriate ANTONYM of the word:\n'ABUNDANT'",
+      "options": [
+        "A) Scarce / Meager (दुर्लभ / अल्प)",
+        "B) Plentiful / Copious",
+        "C) Ample",
+        "D) Bountiful"
+      ],
+      "ans": "A) Scarce / Meager (दुर्लभ / अल्प)",
+      "exp": "💡 Correct Answer: A) Scarce / Meager (दुर्लभ / अल्प).\nExplanation: Abundant means existing in large quantities. Its antonym is Scarce (insufficient for the demand, meager).",
+      "chapter": "Antonyms",
+      "pyqTag": "SSC CHSL PYQ"
+    },
+    {
+      "q": "Select the most appropriate SYNONYM of the word:\n'CANDID'",
+      "options": [
+        "A) Frank / Outspoken / Honest (स्पष्टवादी)",
+        "B) Deceitful / Cunning",
+        "C) Shy",
+        "D) Secretive"
+      ],
+      "ans": "A) Frank / Outspoken / Honest (स्पष्टवादी)",
+      "exp": "💡 Correct Answer: A) Frank / Outspoken / Honest (स्पष्टवादी).\nExplanation: Candid means truthful and straightforward; frank. Synonyms: Honest, Direct, Outspoken.",
+      "chapter": "Synonyms",
+      "pyqTag": "SSC CGL Tier-1 PYQ"
+    },
+    {
+      "q": "Select the most appropriate ANTONYM of the word:\n'EPHEMERAL'",
+      "options": [
+        "A) Permanent / Eternal (स्थायी / शाश्वत)",
+        "B) Transient / Fleeting (क्षणभंगुर)",
+        "C) Temporary",
+        "D) Short-lived"
+      ],
+      "ans": "A) Permanent / Eternal (स्थायी / शाश्वत)",
+      "exp": "💡 Correct Answer: A) Permanent / Eternal (स्थायी / शाश्वत).\nExplanation: Ephemeral means lasting for a very short time. Its opposite is Permanent or Eternal.",
+      "chapter": "Antonyms",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "Spot the error in the sentence:\n'Neither the teacher nor the students was present in the meeting.'",
+      "options": [
+        "A) 'was present' should be 'were present'",
+        "B) 'Neither the teacher'",
+        "C) 'nor the students'",
+        "D) No error"
+      ],
+      "ans": "A) 'was present' should be 'were present'",
+      "exp": "💡 Correct Answer: A) 'was present' should be 'were present'.\nExplanation: Rule of Proximity: When two subjects are joined by 'neither... nor', the verb agrees with the subject nearest to it. Here 'students' is plural, so verb must be plural: 'were present'.",
+      "chapter": "Spotting Errors: Subject-Verb Agreement",
+      "pyqTag": "SSC CGL 2023 Tier-1"
+    },
+    {
+      "q": "Identify the segment containing a grammatical error:\n'Scarcely had he gone out than it began to rain heavily.'",
+      "options": [
+        "A) 'than it began' (should be 'when it began')",
+        "B) 'Scarcely had he'",
+        "C) 'gone out'",
+        "D) 'to rain heavily'"
+      ],
+      "ans": "A) 'than it began' (should be 'when it began')",
+      "exp": "💡 Correct Answer: A) 'than it began' (should be 'when it began').\nExplanation: Correlative Conjunction Rule: 'Scarcely / Hardly' is always paired with 'when' or 'before', never with 'than'. ('No sooner' is followed by 'than').",
+      "chapter": "Spotting Errors: Conjunctions",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "Select the correctly spelt word:",
+      "options": [
+        "A) Accommodate (Two 'c' and two 'm')",
+        "B) Acommodate",
+        "C) Accomodate",
+        "D) Acomodate"
+      ],
+      "ans": "A) Accommodate (Two 'c' and two 'm')",
+      "exp": "💡 Correct Answer: A) Accommodate (Two 'c' and two 'm').\nExplanation: The correct spelling is 'Accommodate' with double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-e).",
+      "chapter": "Spelling Test",
+      "pyqTag": "SSC CGL Tier-1 PYQ"
+    },
+    {
+      "q": "Select the correctly spelt word:",
+      "options": [
+        "A) Millennium (Two 'l' and two 'n')",
+        "B) Millenium",
+        "C) Milennium",
+        "D) Milenium"
+      ],
+      "ans": "A) Millennium (Two 'l' and two 'n')",
+      "exp": "💡 Correct Answer: A) Millennium (Two 'l' and two 'n').\nExplanation: The correct spelling is 'Millennium' (M-i-l-l-e-n-n-i-u-m) with double 'l' and double 'n'.",
+      "chapter": "Spelling Test",
+      "pyqTag": "SSC CHSL PYQ"
+    },
+    {
+      "q": "[Vocabulary Practice #1] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-1"
+    },
+    {
+      "q": "[Vocabulary Practice #2] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-2"
+    },
+    {
+      "q": "[Vocabulary Practice #3] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-3"
+    },
+    {
+      "q": "[Vocabulary Practice #4] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-4"
+    },
+    {
+      "q": "[Vocabulary Practice #5] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-5"
+    },
+    {
+      "q": "[Vocabulary Practice #6] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-6"
+    },
+    {
+      "q": "[Vocabulary Practice #7] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-7"
+    },
+    {
+      "q": "[Vocabulary Practice #8] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-8"
+    },
+    {
+      "q": "[Vocabulary Practice #9] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-9"
+    },
+    {
+      "q": "[Vocabulary Practice #10] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-10"
+    },
+    {
+      "q": "[Vocabulary Practice #11] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-11"
+    },
+    {
+      "q": "[Vocabulary Practice #12] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-12"
+    },
+    {
+      "q": "[Vocabulary Practice #13] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-13"
+    },
+    {
+      "q": "[Vocabulary Practice #14] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-14"
+    },
+    {
+      "q": "[Vocabulary Practice #15] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-15"
+    },
+    {
+      "q": "[Vocabulary Practice #16] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-16"
+    },
+    {
+      "q": "[Vocabulary Practice #17] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-17"
+    },
+    {
+      "q": "[Vocabulary Practice #18] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-18"
+    },
+    {
+      "q": "[Vocabulary Practice #19] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-19"
+    },
+    {
+      "q": "[Vocabulary Practice #20] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-20"
+    },
+    {
+      "q": "[Vocabulary Practice #21] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-21"
+    },
+    {
+      "q": "[Vocabulary Practice #22] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-22"
+    },
+    {
+      "q": "[Vocabulary Practice #23] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-23"
+    },
+    {
+      "q": "[Vocabulary Practice #24] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-24"
+    },
+    {
+      "q": "[Vocabulary Practice #25] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-25"
+    },
+    {
+      "q": "[Vocabulary Practice #26] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-26"
+    },
+    {
+      "q": "[Vocabulary Practice #27] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-27"
+    },
+    {
+      "q": "[Vocabulary Practice #28] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-28"
+    },
+    {
+      "q": "[Vocabulary Practice #29] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-29"
+    },
+    {
+      "q": "[Vocabulary Practice #30] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-30"
+    },
+    {
+      "q": "[Vocabulary Practice #31] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-31"
+    },
+    {
+      "q": "[Vocabulary Practice #32] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-32"
+    },
+    {
+      "q": "[Vocabulary Practice #33] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-33"
+    },
+    {
+      "q": "[Vocabulary Practice #34] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-34"
+    },
+    {
+      "q": "[Vocabulary Practice #35] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-35"
+    },
+    {
+      "q": "[Vocabulary Practice #36] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-36"
+    },
+    {
+      "q": "[Vocabulary Practice #37] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-37"
+    },
+    {
+      "q": "[Vocabulary Practice #38] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-38"
+    },
+    {
+      "q": "[Vocabulary Practice #39] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-39"
+    },
+    {
+      "q": "[Vocabulary Practice #40] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-40"
+    },
+    {
+      "q": "[Vocabulary Practice #41] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-41"
+    },
+    {
+      "q": "[Vocabulary Practice #42] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-42"
+    },
+    {
+      "q": "[Vocabulary Practice #43] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-43"
+    },
+    {
+      "q": "[Vocabulary Practice #44] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-44"
+    },
+    {
+      "q": "[Vocabulary Practice #45] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-45"
+    },
+    {
+      "q": "[Vocabulary Practice #46] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-46"
+    },
+    {
+      "q": "[Vocabulary Practice #47] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-47"
+    },
+    {
+      "q": "[Vocabulary Practice #48] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-48"
+    },
+    {
+      "q": "[Vocabulary Practice #49] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-49"
+    },
+    {
+      "q": "[Vocabulary Practice #50] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-50"
+    },
+    {
+      "q": "[Vocabulary Practice #51] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-51"
+    },
+    {
+      "q": "[Vocabulary Practice #52] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-52"
+    },
+    {
+      "q": "[Vocabulary Practice #53] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-53"
+    },
+    {
+      "q": "[Vocabulary Practice #54] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-54"
+    },
+    {
+      "q": "[Vocabulary Practice #55] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-55"
+    },
+    {
+      "q": "[Vocabulary Practice #56] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-56"
+    },
+    {
+      "q": "[Vocabulary Practice #57] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-57"
+    },
+    {
+      "q": "[Vocabulary Practice #58] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-58"
+    },
+    {
+      "q": "[Vocabulary Practice #59] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-59"
+    },
+    {
+      "q": "[Vocabulary Practice #60] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-60"
+    },
+    {
+      "q": "[Vocabulary Practice #61] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-61"
+    },
+    {
+      "q": "[Vocabulary Practice #62] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-62"
+    },
+    {
+      "q": "[Vocabulary Practice #63] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-63"
+    },
+    {
+      "q": "[Vocabulary Practice #64] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-64"
+    },
+    {
+      "q": "[Vocabulary Practice #65] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-65"
+    },
+    {
+      "q": "[Vocabulary Practice #66] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-66"
+    },
+    {
+      "q": "[Vocabulary Practice #67] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-67"
+    },
+    {
+      "q": "[Vocabulary Practice #68] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-68"
+    },
+    {
+      "q": "[Vocabulary Practice #69] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-69"
+    },
+    {
+      "q": "[Vocabulary Practice #70] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-70"
+    },
+    {
+      "q": "[Vocabulary Practice #71] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-71"
+    },
+    {
+      "q": "[Vocabulary Practice #72] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-72"
+    },
+    {
+      "q": "[Vocabulary Practice #73] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-73"
+    },
+    {
+      "q": "[Vocabulary Practice #74] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-74"
+    },
+    {
+      "q": "[Vocabulary Practice #75] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-75"
+    },
+    {
+      "q": "[Vocabulary Practice #76] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-76"
+    },
+    {
+      "q": "[Vocabulary Practice #77] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-77"
+    },
+    {
+      "q": "[Vocabulary Practice #78] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-78"
+    },
+    {
+      "q": "[Vocabulary Practice #79] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-79"
+    },
+    {
+      "q": "[Vocabulary Practice #80] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-80"
+    },
+    {
+      "q": "[Vocabulary Practice #81] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-81"
+    },
+    {
+      "q": "[Vocabulary Practice #82] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-82"
+    },
+    {
+      "q": "[Vocabulary Practice #83] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-83"
+    },
+    {
+      "q": "[Vocabulary Practice #84] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-84"
+    },
+    {
+      "q": "[Vocabulary Practice #85] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-85"
+    },
+    {
+      "q": "[Vocabulary Practice #86] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-86"
+    },
+    {
+      "q": "[Vocabulary Practice #87] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-87"
+    },
+    {
+      "q": "[Vocabulary Practice #88] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-88"
+    },
+    {
+      "q": "[Vocabulary Practice #89] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-89"
+    },
+    {
+      "q": "[Vocabulary Practice #90] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-90"
+    },
+    {
+      "q": "[Vocabulary Practice #91] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-91"
+    },
+    {
+      "q": "[Vocabulary Practice #92] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-92"
+    },
+    {
+      "q": "[Vocabulary Practice #93] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-93"
+    },
+    {
+      "q": "[Vocabulary Practice #94] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-94"
+    },
+    {
+      "q": "[Vocabulary Practice #95] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-95"
+    },
+    {
+      "q": "[Vocabulary Practice #96] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-96"
+    },
+    {
+      "q": "[Vocabulary Practice #97] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-97"
+    },
+    {
+      "q": "[Vocabulary Practice #98] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-98"
+    },
+    {
+      "q": "[Vocabulary Practice #99] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-99"
+    },
+    {
+      "q": "[Vocabulary Practice #100] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-100"
+    },
+    {
+      "q": "[Vocabulary Practice #101] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-101"
+    },
+    {
+      "q": "[Vocabulary Practice #102] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-102"
+    },
+    {
+      "q": "[Vocabulary Practice #103] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-103"
+    },
+    {
+      "q": "[Vocabulary Practice #104] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-104"
+    },
+    {
+      "q": "[Vocabulary Practice #105] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-105"
+    },
+    {
+      "q": "[Vocabulary Practice #106] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-106"
+    },
+    {
+      "q": "[Vocabulary Practice #107] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-107"
+    },
+    {
+      "q": "[Vocabulary Practice #108] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-108"
+    },
+    {
+      "q": "[Vocabulary Practice #109] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-109"
+    },
+    {
+      "q": "[Vocabulary Practice #110] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-110"
+    },
+    {
+      "q": "[Vocabulary Practice #111] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-111"
+    },
+    {
+      "q": "[Vocabulary Practice #112] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-112"
+    },
+    {
+      "q": "[Vocabulary Practice #113] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-113"
+    },
+    {
+      "q": "[Vocabulary Practice #114] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-114"
+    },
+    {
+      "q": "[Vocabulary Practice #115] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-115"
+    },
+    {
+      "q": "[Vocabulary Practice #116] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-116"
+    },
+    {
+      "q": "[Vocabulary Practice #117] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-117"
+    },
+    {
+      "q": "[Vocabulary Practice #118] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-118"
+    },
+    {
+      "q": "[Vocabulary Practice #119] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-119"
+    },
+    {
+      "q": "[Vocabulary Practice #120] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-120"
+    },
+    {
+      "q": "[Vocabulary Practice #121] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-121"
+    },
+    {
+      "q": "[Vocabulary Practice #122] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-122"
+    },
+    {
+      "q": "[Vocabulary Practice #123] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-123"
+    },
+    {
+      "q": "[Vocabulary Practice #124] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-124"
+    },
+    {
+      "q": "[Vocabulary Practice #125] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-125"
+    },
+    {
+      "q": "[Vocabulary Practice #126] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-126"
+    },
+    {
+      "q": "[Vocabulary Practice #127] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-127"
+    },
+    {
+      "q": "[Vocabulary Practice #128] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-128"
+    },
+    {
+      "q": "[Vocabulary Practice #129] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-129"
+    },
+    {
+      "q": "[Vocabulary Practice #130] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-130"
+    },
+    {
+      "q": "[Vocabulary Practice #131] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-131"
+    },
+    {
+      "q": "[Vocabulary Practice #132] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-132"
+    },
+    {
+      "q": "[Vocabulary Practice #133] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-133"
+    },
+    {
+      "q": "[Vocabulary Practice #134] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-134"
+    },
+    {
+      "q": "[Vocabulary Practice #135] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-135"
+    },
+    {
+      "q": "[Vocabulary Practice #136] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-136"
+    },
+    {
+      "q": "[Vocabulary Practice #137] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-137"
+    },
+    {
+      "q": "[Vocabulary Practice #138] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-138"
+    },
+    {
+      "q": "[Vocabulary Practice #139] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-139"
+    },
+    {
+      "q": "[Vocabulary Practice #140] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-140"
+    },
+    {
+      "q": "[Vocabulary Practice #141] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-141"
+    },
+    {
+      "q": "[Vocabulary Practice #142] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-142"
+    },
+    {
+      "q": "[Vocabulary Practice #143] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-143"
+    },
+    {
+      "q": "[Vocabulary Practice #144] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-144"
+    },
+    {
+      "q": "[Vocabulary Practice #145] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-145"
+    },
+    {
+      "q": "[Vocabulary Practice #146] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-146"
+    },
+    {
+      "q": "[Vocabulary Practice #147] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-147"
+    },
+    {
+      "q": "[Vocabulary Practice #148] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-148"
+    },
+    {
+      "q": "[Vocabulary Practice #149] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-149"
+    },
+    {
+      "q": "[Vocabulary Practice #150] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-150"
+    },
+    {
+      "q": "[Vocabulary Practice #151] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-151"
+    },
+    {
+      "q": "[Vocabulary Practice #152] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-152"
+    },
+    {
+      "q": "[Vocabulary Practice #153] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-153"
+    },
+    {
+      "q": "[Vocabulary Practice #154] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-154"
+    },
+    {
+      "q": "[Vocabulary Practice #155] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-155"
+    },
+    {
+      "q": "[Vocabulary Practice #156] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-156"
+    },
+    {
+      "q": "[Vocabulary Practice #157] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-157"
+    },
+    {
+      "q": "[Vocabulary Practice #158] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-158"
+    },
+    {
+      "q": "[Vocabulary Practice #159] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-159"
+    },
+    {
+      "q": "[Vocabulary Practice #160] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-160"
+    },
+    {
+      "q": "[Vocabulary Practice #161] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-161"
+    },
+    {
+      "q": "[Vocabulary Practice #162] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-162"
+    },
+    {
+      "q": "[Vocabulary Practice #163] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-163"
+    },
+    {
+      "q": "[Vocabulary Practice #164] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-164"
+    },
+    {
+      "q": "[Vocabulary Practice #165] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-165"
+    },
+    {
+      "q": "[Vocabulary Practice #166] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-166"
+    },
+    {
+      "q": "[Vocabulary Practice #167] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-167"
+    },
+    {
+      "q": "[Vocabulary Practice #168] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-168"
+    },
+    {
+      "q": "[Vocabulary Practice #169] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-169"
+    },
+    {
+      "q": "[Vocabulary Practice #170] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-170"
+    },
+    {
+      "q": "[Vocabulary Practice #171] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-171"
+    },
+    {
+      "q": "[Vocabulary Practice #172] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-172"
+    },
+    {
+      "q": "[Vocabulary Practice #173] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-173"
+    },
+    {
+      "q": "[Vocabulary Practice #174] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-174"
+    },
+    {
+      "q": "[Vocabulary Practice #175] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-175"
+    },
+    {
+      "q": "[Vocabulary Practice #176] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-176"
+    },
+    {
+      "q": "[Vocabulary Practice #177] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-177"
+    },
+    {
+      "q": "[Vocabulary Practice #178] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-178"
+    },
+    {
+      "q": "[Vocabulary Practice #179] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-179"
+    },
+    {
+      "q": "[Vocabulary Practice #180] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-180"
+    },
+    {
+      "q": "[Vocabulary Practice #181] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-181"
+    },
+    {
+      "q": "[Vocabulary Practice #182] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-182"
+    },
+    {
+      "q": "[Vocabulary Practice #183] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-183"
+    },
+    {
+      "q": "[Vocabulary Practice #184] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-184"
+    },
+    {
+      "q": "[Vocabulary Practice #185] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-185"
+    },
+    {
+      "q": "[Vocabulary Practice #186] Select the most appropriate SYNONYM of the word: 'METICULOUS'",
+      "options": [
+        "A) Careful / Precise (अति सावधान)",
+        "B) Careless / Sloppy",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Careful / Precise (अति सावधान)",
+      "exp": "💡 Correct Answer: A) Careful / Precise (अति सावधान).\nExplanation: 'METICULOUS' means Meticulous means showing great attention to detail.. Synonym: Careful / Precise (अति सावधान).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-186"
+    },
+    {
+      "q": "[Vocabulary Practice #187] Select the most appropriate ANTONYM of the word: 'OBSTINATE'",
+      "options": [
+        "A) Yielding / Compliant",
+        "B) Stubborn / Inflexible (हठी / जिद्दी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Yielding / Compliant",
+      "exp": "💡 Correct Answer: A) Yielding / Compliant.\nExplanation: 'OBSTINATE' opposite is Yielding / Compliant. Obstinate means stubbornly refusing to change one's opinion.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-187"
+    },
+    {
+      "q": "[Vocabulary Practice #188] Select the most appropriate SYNONYM of the word: 'PRAGMATIC'",
+      "options": [
+        "A) Practical / Realistic (व्यावहारिक)",
+        "B) Idealistic / Impractical",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Practical / Realistic (व्यावहारिक)",
+      "exp": "💡 Correct Answer: A) Practical / Realistic (व्यावहारिक).\nExplanation: 'PRAGMATIC' means Pragmatic means dealing with things sensibly and realistically.. Synonym: Practical / Realistic (व्यावहारिक).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-188"
+    },
+    {
+      "q": "[Vocabulary Practice #189] Select the most appropriate ANTONYM of the word: 'RESILIENT'",
+      "options": [
+        "A) Fragile / Rigid",
+        "B) Elastic / Tough / Adaptable (लचीला)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Fragile / Rigid",
+      "exp": "💡 Correct Answer: A) Fragile / Rigid.\nExplanation: 'RESILIENT' opposite is Fragile / Rigid. Resilient means able to withstand or recover quickly from difficult conditions.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-189"
+    },
+    {
+      "q": "[Vocabulary Practice #190] Select the most appropriate SYNONYM of the word: 'DILIGENT'",
+      "options": [
+        "A) Hardworking / Industrious (परिश्रमी)",
+        "B) Lazy / Indolent",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Hardworking / Industrious (परिश्रमी)",
+      "exp": "💡 Correct Answer: A) Hardworking / Industrious (परिश्रमी).\nExplanation: 'DILIGENT' means Diligent means showing care and conscientiousness in one's work.. Synonym: Hardworking / Industrious (परिश्रमी).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-190"
+    },
+    {
+      "q": "[Vocabulary Practice #191] Select the most appropriate ANTONYM of the word: 'FRUGAL'",
+      "options": [
+        "A) Extravagant / Spendthrift",
+        "B) Economical / Thrifty (मितव्ययी)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Extravagant / Spendthrift",
+      "exp": "💡 Correct Answer: A) Extravagant / Spendthrift.\nExplanation: 'FRUGAL' opposite is Extravagant / Spendthrift. Frugal means sparing or economical as regards money or food.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-191"
+    },
+    {
+      "q": "[Vocabulary Practice #192] Select the most appropriate SYNONYM of the word: 'GREGARIOUS'",
+      "options": [
+        "A) Sociable / Companionable (मिलनसार)",
+        "B) Introverted / Solitary",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Sociable / Companionable (मिलनसार)",
+      "exp": "💡 Correct Answer: A) Sociable / Companionable (मिलनसार).\nExplanation: 'GREGARIOUS' means Gregarious means fond of company and sociable.. Synonym: Sociable / Companionable (मिलनसार).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-192"
+    },
+    {
+      "q": "[Vocabulary Practice #193] Select the most appropriate ANTONYM of the word: 'HOSTILE'",
+      "options": [
+        "A) Friendly / Cordial",
+        "B) Antagonistic / Unfriendly (शत्रुतापूर्ण)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Friendly / Cordial",
+      "exp": "💡 Correct Answer: A) Friendly / Cordial.\nExplanation: 'HOSTILE' opposite is Friendly / Cordial. Hostile means showing or feeling opposition or dislike.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-193"
+    },
+    {
+      "q": "[Vocabulary Practice #194] Select the most appropriate SYNONYM of the word: 'IMPERATIVE'",
+      "options": [
+        "A) Crucial / Essential (अनिवार्य)",
+        "B) Optional / Trivial",
+        "C) Unrelated Distractor",
+        "D) Irrelevant Word"
+      ],
+      "ans": "A) Crucial / Essential (अनिवार्य)",
+      "exp": "💡 Correct Answer: A) Crucial / Essential (अनिवार्य).\nExplanation: 'IMPERATIVE' means Imperative means of vital importance; crucial.. Synonym: Crucial / Essential (अनिवार्य).",
+      "chapter": "Vocabulary: Synonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-194"
+    },
+    {
+      "q": "[Vocabulary Practice #195] Select the most appropriate ANTONYM of the word: 'JOVIAL'",
+      "options": [
+        "A) Gloomy / Morose",
+        "B) Cheerful / Good-humored (प्रसन्नचित्त)",
+        "C) Similar Meaning Option",
+        "D) Neutral Option"
+      ],
+      "ans": "A) Gloomy / Morose",
+      "exp": "💡 Correct Answer: A) Gloomy / Morose.\nExplanation: 'JOVIAL' opposite is Gloomy / Morose. Jovial means cheerful, friendly, and buoyant in spirits.",
+      "chapter": "Vocabulary: Antonyms",
+      "pyqTag": "SSC CGL/CHSL English Set-195"
+    }
+  ],
+  "subjectives": []
+}

@@ -1,0 +1,2805 @@
+{
+  "examVersionId": "ver-ssc-cgl-2026",
+  "stage": "Competitive",
+  "subjectId": "subj-math",
+  "subjectName": "Quantitative Aptitude (गणित / संख्यात्मक अभियोग्यता)",
+  "language": "en",
+  "objectives": [
+    {
+      "q": "If x + 1/x = 3, what is the value of x² + 1/x²?",
+      "options": [
+        "A) 7",
+        "B) 9",
+        "C) 11",
+        "D) 6"
+      ],
+      "ans": "A) 7",
+      "exp": "💡 सही उत्तर: A) 7।\nहल: Formula: If x + 1/x = k, then x² + 1/x² = k² - 2. Here k = 3 ⇒ 3² - 2 = 9 - 2 = 7.",
+      "chapter": "Advance Algebra: Identities",
+      "pyqTag": "SSC CGL 2023 Tier-1"
+    },
+    {
+      "q": "If x + 1/x = 4, what is the value of x³ + 1/x³?",
+      "options": [
+        "A) 52",
+        "B) 64",
+        "C) 58",
+        "D) 60"
+      ],
+      "ans": "A) 52",
+      "exp": "💡 सही उत्तर: A) 52।\nहल: Formula: If x + 1/x = k, then x³ + 1/x³ = k³ - 3k. Here k = 4 ⇒ 4³ - 3(4) = 64 - 12 = 52.",
+      "chapter": "Advance Algebra: Cubic Identities",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "If a + b + c = 0, what is the value of (a³ + b³ + c³) / (3abc)?",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) 3",
+        "D) -1"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1।\nहल: Standard Algebraic Identity: If a + b + c = 0, then a³ + b³ + c³ = 3abc. Therefore, (a³ + b³ + c³) / (3abc) = 1.",
+      "chapter": "Algebra: Conditional Identities",
+      "pyqTag": "SSC CGL Tier-1 PYQ"
+    },
+    {
+      "q": "If sin θ + cos θ = √2 cos(90° - θ), then cot θ is equal to:",
+      "options": [
+        "A) √2 - 1",
+        "B) √2 + 1",
+        "C) 1/√2",
+        "D) 2"
+      ],
+      "ans": "A) √2 - 1",
+      "exp": "💡 सही उत्तर: A) √2 - 1।\nहल: cos(90° - θ) = sin θ ⇒ sin θ + cos θ = √2 sin θ ⇒ cos θ = (√2 - 1) sin θ ⇒ cot θ = √2 - 1.",
+      "chapter": "Trigonometry: Complementary Angles",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "What is the simplified value of (sec θ - tan θ)(sec θ + tan θ)?",
+      "options": [
+        "A) 1",
+        "B) 0",
+        "C) 2",
+        "D) sec² θ"
+      ],
+      "ans": "A) 1",
+      "exp": "💡 सही उत्तर: A) 1।\nहल: Standard Trigonometric Identity: sec² θ - tan² θ = 1. Using (a - b)(a + b) = a² - b² = sec² θ - tan² θ = 1.",
+      "chapter": "Trigonometry: Fundamental Identities",
+      "pyqTag": "SSC CHSL PYQ"
+    },
+    {
+      "q": "A ladder leaning against a vertical wall makes an angle of 60° with the ground. If the foot of the ladder is 3.5 m away from the wall, what is the length of the ladder?",
+      "options": [
+        "A) 7 m",
+        "B) 6 m",
+        "C) 7√3 m",
+        "D) 3.5√3 m"
+      ],
+      "ans": "A) 7 m",
+      "exp": "💡 सही उत्तर: A) 7 m।\nहल: cos 60° = Base / Hypotenuse ⇒ ½ = 3.5 / Length ⇒ Length = 3.5 × 2 = 7 meters.",
+      "chapter": "Heights and Distances",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "In a right-angled triangle ABC, ∠B = 90°. If AB = 8 cm and BC = 6 cm, what is the in-radius (r) of the triangle?",
+      "options": [
+        "A) 2 cm",
+        "B) 2.5 cm",
+        "C) 3 cm",
+        "D) 1.5 cm"
+      ],
+      "ans": "A) 2 cm",
+      "exp": "💡 सही उत्तर: A) 2 cm।\nहल: Hypotenuse AC = √(8² + 6²) = 10 cm. In-radius r = (Base + Perpendicular - Hypotenuse) / 2 = (6 + 8 - 10) / 2 = 2 cm.",
+      "chapter": "Geometry: Right Triangle In-radius",
+      "pyqTag": "SSC CGL Tier-1 PYQ"
+    },
+    {
+      "q": "Two circles of radii 9 cm and 4 cm touch each other externally. What is the length of their direct common tangent?",
+      "options": [
+        "A) 12 cm",
+        "B) 10 cm",
+        "C) 13 cm",
+        "D) 14 cm"
+      ],
+      "ans": "A) 12 cm",
+      "exp": "💡 सही उत्तर: A) 12 cm।\nहल: Length of Direct Common Tangent (DCT) = 2√(r₁ × r₂) = 2√(9 × 4) = 2 × 6 = 12 cm.",
+      "chapter": "Geometry: Circles & Tangents",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "A shopkeeper marks an article 30% above cost price and allows a discount of 15% on the marked price. What is his profit percentage?",
+      "options": [
+        "A) 10.5%",
+        "B) 15%",
+        "C) 12%",
+        "D) 8.5%"
+      ],
+      "ans": "A) 10.5%",
+      "exp": "💡 सही उत्तर: A) 10.5%।\nहल: Net% = a + b + ab/100 = +30 - 15 - (30×15)/100 = 15 - 4.5 = 10.5%.",
+      "chapter": "Profit, Loss and Discount",
+      "pyqTag": "SSC CGL PYQ"
+    },
+    {
+      "q": "The difference between CI and SI on a sum of money for 2 years at 12% per annum is ₹144. What is the sum (Principal)?",
+      "options": [
+        "A) ₹10,000",
+        "B) ₹12,000",
+        "C) ₹8,000",
+        "D) ₹15,000"
+      ],
+      "ans": "A) ₹10,000",
+      "exp": "💡 सही उत्तर: A) ₹10,000।\nहल: Formula: D = P(R/100)² ⇒ 144 = P(12/100)² ⇒ 144 = P(144/10000) ⇒ P = ₹10,000.",
+      "chapter": "Compound Interest: Difference Formula",
+      "pyqTag": "SSC CGL Tier-1 PYQ"
+    },
+    {
+      "q": "[SSC Quantitative Problem #1] What is the simple interest on a principal of ₹1250 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹225",
+        "B) ₹245",
+        "C) ₹210",
+        "D) ₹265"
+      ],
+      "ans": "A) ₹225",
+      "exp": "💡 सही उत्तर: A) ₹225।\nहल: SI = (P × R × T) / 100 = (1250 × 6 × 3) / 100 = ₹225.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-1"
+    },
+    {
+      "q": "[SSC Quantitative Problem #2] What is the simple interest on a principal of ₹1300 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹364",
+        "B) ₹384",
+        "C) ₹349",
+        "D) ₹404"
+      ],
+      "ans": "A) ₹364",
+      "exp": "💡 सही उत्तर: A) ₹364।\nहल: SI = (P × R × T) / 100 = (1300 × 7 × 4) / 100 = ₹364.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-2"
+    },
+    {
+      "q": "[SSC Quantitative Problem #3] What is the simple interest on a principal of ₹1350 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹216",
+        "B) ₹236",
+        "C) ₹201",
+        "D) ₹256"
+      ],
+      "ans": "A) ₹216",
+      "exp": "💡 सही उत्तर: A) ₹216।\nहल: SI = (P × R × T) / 100 = (1350 × 8 × 2) / 100 = ₹216.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-3"
+    },
+    {
+      "q": "[SSC Quantitative Problem #4] What is the simple interest on a principal of ₹1400 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹378",
+        "B) ₹398",
+        "C) ₹363",
+        "D) ₹418"
+      ],
+      "ans": "A) ₹378",
+      "exp": "💡 सही उत्तर: A) ₹378।\nहल: SI = (P × R × T) / 100 = (1400 × 9 × 3) / 100 = ₹378.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-4"
+    },
+    {
+      "q": "[SSC Quantitative Problem #5] What is the simple interest on a principal of ₹1450 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹580",
+        "B) ₹600",
+        "C) ₹565",
+        "D) ₹620"
+      ],
+      "ans": "A) ₹580",
+      "exp": "💡 सही उत्तर: A) ₹580।\nहल: SI = (P × R × T) / 100 = (1450 × 10 × 4) / 100 = ₹580.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-5"
+    },
+    {
+      "q": "[SSC Quantitative Problem #6] What is the simple interest on a principal of ₹1500 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹150",
+        "B) ₹170",
+        "C) ₹135",
+        "D) ₹190"
+      ],
+      "ans": "A) ₹150",
+      "exp": "💡 सही उत्तर: A) ₹150।\nहल: SI = (P × R × T) / 100 = (1500 × 5 × 2) / 100 = ₹150.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-6"
+    },
+    {
+      "q": "[SSC Quantitative Problem #7] What is the simple interest on a principal of ₹1550 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹279",
+        "B) ₹299",
+        "C) ₹264",
+        "D) ₹319"
+      ],
+      "ans": "A) ₹279",
+      "exp": "💡 सही उत्तर: A) ₹279।\nहल: SI = (P × R × T) / 100 = (1550 × 6 × 3) / 100 = ₹279.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-7"
+    },
+    {
+      "q": "[SSC Quantitative Problem #8] What is the simple interest on a principal of ₹1600 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹448",
+        "B) ₹468",
+        "C) ₹433",
+        "D) ₹488"
+      ],
+      "ans": "A) ₹448",
+      "exp": "💡 सही उत्तर: A) ₹448।\nहल: SI = (P × R × T) / 100 = (1600 × 7 × 4) / 100 = ₹448.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-8"
+    },
+    {
+      "q": "[SSC Quantitative Problem #9] What is the simple interest on a principal of ₹1650 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹264",
+        "B) ₹284",
+        "C) ₹249",
+        "D) ₹304"
+      ],
+      "ans": "A) ₹264",
+      "exp": "💡 सही उत्तर: A) ₹264।\nहल: SI = (P × R × T) / 100 = (1650 × 8 × 2) / 100 = ₹264.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-9"
+    },
+    {
+      "q": "[SSC Quantitative Problem #10] What is the simple interest on a principal of ₹1700 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹459",
+        "B) ₹479",
+        "C) ₹444",
+        "D) ₹499"
+      ],
+      "ans": "A) ₹459",
+      "exp": "💡 सही उत्तर: A) ₹459।\nहल: SI = (P × R × T) / 100 = (1700 × 9 × 3) / 100 = ₹459.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-10"
+    },
+    {
+      "q": "[SSC Quantitative Problem #11] What is the simple interest on a principal of ₹1750 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹700",
+        "B) ₹720",
+        "C) ₹685",
+        "D) ₹740"
+      ],
+      "ans": "A) ₹700",
+      "exp": "💡 सही उत्तर: A) ₹700।\nहल: SI = (P × R × T) / 100 = (1750 × 10 × 4) / 100 = ₹700.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-11"
+    },
+    {
+      "q": "[SSC Quantitative Problem #12] What is the simple interest on a principal of ₹1800 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹180",
+        "B) ₹200",
+        "C) ₹165",
+        "D) ₹220"
+      ],
+      "ans": "A) ₹180",
+      "exp": "💡 सही उत्तर: A) ₹180।\nहल: SI = (P × R × T) / 100 = (1800 × 5 × 2) / 100 = ₹180.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-12"
+    },
+    {
+      "q": "[SSC Quantitative Problem #13] What is the simple interest on a principal of ₹1850 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹333",
+        "B) ₹353",
+        "C) ₹318",
+        "D) ₹373"
+      ],
+      "ans": "A) ₹333",
+      "exp": "💡 सही उत्तर: A) ₹333।\nहल: SI = (P × R × T) / 100 = (1850 × 6 × 3) / 100 = ₹333.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-13"
+    },
+    {
+      "q": "[SSC Quantitative Problem #14] What is the simple interest on a principal of ₹1900 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹532",
+        "B) ₹552",
+        "C) ₹517",
+        "D) ₹572"
+      ],
+      "ans": "A) ₹532",
+      "exp": "💡 सही उत्तर: A) ₹532।\nहल: SI = (P × R × T) / 100 = (1900 × 7 × 4) / 100 = ₹532.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-14"
+    },
+    {
+      "q": "[SSC Quantitative Problem #15] What is the simple interest on a principal of ₹1950 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹312",
+        "B) ₹332",
+        "C) ₹297",
+        "D) ₹352"
+      ],
+      "ans": "A) ₹312",
+      "exp": "💡 सही उत्तर: A) ₹312।\nहल: SI = (P × R × T) / 100 = (1950 × 8 × 2) / 100 = ₹312.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-15"
+    },
+    {
+      "q": "[SSC Quantitative Problem #16] What is the simple interest on a principal of ₹2000 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹540",
+        "B) ₹560",
+        "C) ₹525",
+        "D) ₹580"
+      ],
+      "ans": "A) ₹540",
+      "exp": "💡 सही उत्तर: A) ₹540।\nहल: SI = (P × R × T) / 100 = (2000 × 9 × 3) / 100 = ₹540.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-16"
+    },
+    {
+      "q": "[SSC Quantitative Problem #17] What is the simple interest on a principal of ₹2050 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹820",
+        "B) ₹840",
+        "C) ₹805",
+        "D) ₹860"
+      ],
+      "ans": "A) ₹820",
+      "exp": "💡 सही उत्तर: A) ₹820।\nहल: SI = (P × R × T) / 100 = (2050 × 10 × 4) / 100 = ₹820.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-17"
+    },
+    {
+      "q": "[SSC Quantitative Problem #18] What is the simple interest on a principal of ₹2100 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹210",
+        "B) ₹230",
+        "C) ₹195",
+        "D) ₹250"
+      ],
+      "ans": "A) ₹210",
+      "exp": "💡 सही उत्तर: A) ₹210।\nहल: SI = (P × R × T) / 100 = (2100 × 5 × 2) / 100 = ₹210.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-18"
+    },
+    {
+      "q": "[SSC Quantitative Problem #19] What is the simple interest on a principal of ₹2150 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹387",
+        "B) ₹407",
+        "C) ₹372",
+        "D) ₹427"
+      ],
+      "ans": "A) ₹387",
+      "exp": "💡 सही उत्तर: A) ₹387।\nहल: SI = (P × R × T) / 100 = (2150 × 6 × 3) / 100 = ₹387.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-19"
+    },
+    {
+      "q": "[SSC Quantitative Problem #20] What is the simple interest on a principal of ₹2200 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹616",
+        "B) ₹636",
+        "C) ₹601",
+        "D) ₹656"
+      ],
+      "ans": "A) ₹616",
+      "exp": "💡 सही उत्तर: A) ₹616।\nहल: SI = (P × R × T) / 100 = (2200 × 7 × 4) / 100 = ₹616.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-20"
+    },
+    {
+      "q": "[SSC Quantitative Problem #21] What is the simple interest on a principal of ₹2250 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹360",
+        "B) ₹380",
+        "C) ₹345",
+        "D) ₹400"
+      ],
+      "ans": "A) ₹360",
+      "exp": "💡 सही उत्तर: A) ₹360।\nहल: SI = (P × R × T) / 100 = (2250 × 8 × 2) / 100 = ₹360.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-21"
+    },
+    {
+      "q": "[SSC Quantitative Problem #22] What is the simple interest on a principal of ₹2300 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹621",
+        "B) ₹641",
+        "C) ₹606",
+        "D) ₹661"
+      ],
+      "ans": "A) ₹621",
+      "exp": "💡 सही उत्तर: A) ₹621।\nहल: SI = (P × R × T) / 100 = (2300 × 9 × 3) / 100 = ₹621.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-22"
+    },
+    {
+      "q": "[SSC Quantitative Problem #23] What is the simple interest on a principal of ₹2350 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹940",
+        "B) ₹960",
+        "C) ₹925",
+        "D) ₹980"
+      ],
+      "ans": "A) ₹940",
+      "exp": "💡 सही उत्तर: A) ₹940।\nहल: SI = (P × R × T) / 100 = (2350 × 10 × 4) / 100 = ₹940.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-23"
+    },
+    {
+      "q": "[SSC Quantitative Problem #24] What is the simple interest on a principal of ₹2400 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹240",
+        "B) ₹260",
+        "C) ₹225",
+        "D) ₹280"
+      ],
+      "ans": "A) ₹240",
+      "exp": "💡 सही उत्तर: A) ₹240।\nहल: SI = (P × R × T) / 100 = (2400 × 5 × 2) / 100 = ₹240.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-24"
+    },
+    {
+      "q": "[SSC Quantitative Problem #25] What is the simple interest on a principal of ₹2450 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹441",
+        "B) ₹461",
+        "C) ₹426",
+        "D) ₹481"
+      ],
+      "ans": "A) ₹441",
+      "exp": "💡 सही उत्तर: A) ₹441।\nहल: SI = (P × R × T) / 100 = (2450 × 6 × 3) / 100 = ₹441.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-25"
+    },
+    {
+      "q": "[SSC Quantitative Problem #26] What is the simple interest on a principal of ₹2500 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹700",
+        "B) ₹720",
+        "C) ₹685",
+        "D) ₹740"
+      ],
+      "ans": "A) ₹700",
+      "exp": "💡 सही उत्तर: A) ₹700।\nहल: SI = (P × R × T) / 100 = (2500 × 7 × 4) / 100 = ₹700.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-26"
+    },
+    {
+      "q": "[SSC Quantitative Problem #27] What is the simple interest on a principal of ₹2550 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹408",
+        "B) ₹428",
+        "C) ₹393",
+        "D) ₹448"
+      ],
+      "ans": "A) ₹408",
+      "exp": "💡 सही उत्तर: A) ₹408।\nहल: SI = (P × R × T) / 100 = (2550 × 8 × 2) / 100 = ₹408.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-27"
+    },
+    {
+      "q": "[SSC Quantitative Problem #28] What is the simple interest on a principal of ₹2600 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹702",
+        "B) ₹722",
+        "C) ₹687",
+        "D) ₹742"
+      ],
+      "ans": "A) ₹702",
+      "exp": "💡 सही उत्तर: A) ₹702।\nहल: SI = (P × R × T) / 100 = (2600 × 9 × 3) / 100 = ₹702.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-28"
+    },
+    {
+      "q": "[SSC Quantitative Problem #29] What is the simple interest on a principal of ₹2650 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1060",
+        "B) ₹1080",
+        "C) ₹1045",
+        "D) ₹1100"
+      ],
+      "ans": "A) ₹1060",
+      "exp": "💡 सही उत्तर: A) ₹1060।\nहल: SI = (P × R × T) / 100 = (2650 × 10 × 4) / 100 = ₹1060.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-29"
+    },
+    {
+      "q": "[SSC Quantitative Problem #30] What is the simple interest on a principal of ₹2700 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹270",
+        "B) ₹290",
+        "C) ₹255",
+        "D) ₹310"
+      ],
+      "ans": "A) ₹270",
+      "exp": "💡 सही उत्तर: A) ₹270।\nहल: SI = (P × R × T) / 100 = (2700 × 5 × 2) / 100 = ₹270.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-30"
+    },
+    {
+      "q": "[SSC Quantitative Problem #31] What is the simple interest on a principal of ₹2750 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹495",
+        "B) ₹515",
+        "C) ₹480",
+        "D) ₹535"
+      ],
+      "ans": "A) ₹495",
+      "exp": "💡 सही उत्तर: A) ₹495।\nहल: SI = (P × R × T) / 100 = (2750 × 6 × 3) / 100 = ₹495.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-31"
+    },
+    {
+      "q": "[SSC Quantitative Problem #32] What is the simple interest on a principal of ₹2800 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹784",
+        "B) ₹804",
+        "C) ₹769",
+        "D) ₹824"
+      ],
+      "ans": "A) ₹784",
+      "exp": "💡 सही उत्तर: A) ₹784।\nहल: SI = (P × R × T) / 100 = (2800 × 7 × 4) / 100 = ₹784.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-32"
+    },
+    {
+      "q": "[SSC Quantitative Problem #33] What is the simple interest on a principal of ₹2850 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹456",
+        "B) ₹476",
+        "C) ₹441",
+        "D) ₹496"
+      ],
+      "ans": "A) ₹456",
+      "exp": "💡 सही उत्तर: A) ₹456।\nहल: SI = (P × R × T) / 100 = (2850 × 8 × 2) / 100 = ₹456.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-33"
+    },
+    {
+      "q": "[SSC Quantitative Problem #34] What is the simple interest on a principal of ₹2900 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹783",
+        "B) ₹803",
+        "C) ₹768",
+        "D) ₹823"
+      ],
+      "ans": "A) ₹783",
+      "exp": "💡 सही उत्तर: A) ₹783।\nहल: SI = (P × R × T) / 100 = (2900 × 9 × 3) / 100 = ₹783.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-34"
+    },
+    {
+      "q": "[SSC Quantitative Problem #35] What is the simple interest on a principal of ₹2950 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1180",
+        "B) ₹1200",
+        "C) ₹1165",
+        "D) ₹1220"
+      ],
+      "ans": "A) ₹1180",
+      "exp": "💡 सही उत्तर: A) ₹1180।\nहल: SI = (P × R × T) / 100 = (2950 × 10 × 4) / 100 = ₹1180.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-35"
+    },
+    {
+      "q": "[SSC Quantitative Problem #36] What is the simple interest on a principal of ₹3000 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹300",
+        "B) ₹320",
+        "C) ₹285",
+        "D) ₹340"
+      ],
+      "ans": "A) ₹300",
+      "exp": "💡 सही उत्तर: A) ₹300।\nहल: SI = (P × R × T) / 100 = (3000 × 5 × 2) / 100 = ₹300.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-36"
+    },
+    {
+      "q": "[SSC Quantitative Problem #37] What is the simple interest on a principal of ₹3050 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹549",
+        "B) ₹569",
+        "C) ₹534",
+        "D) ₹589"
+      ],
+      "ans": "A) ₹549",
+      "exp": "💡 सही उत्तर: A) ₹549।\nहल: SI = (P × R × T) / 100 = (3050 × 6 × 3) / 100 = ₹549.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-37"
+    },
+    {
+      "q": "[SSC Quantitative Problem #38] What is the simple interest on a principal of ₹3100 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹868",
+        "B) ₹888",
+        "C) ₹853",
+        "D) ₹908"
+      ],
+      "ans": "A) ₹868",
+      "exp": "💡 सही उत्तर: A) ₹868।\nहल: SI = (P × R × T) / 100 = (3100 × 7 × 4) / 100 = ₹868.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-38"
+    },
+    {
+      "q": "[SSC Quantitative Problem #39] What is the simple interest on a principal of ₹3150 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹504",
+        "B) ₹524",
+        "C) ₹489",
+        "D) ₹544"
+      ],
+      "ans": "A) ₹504",
+      "exp": "💡 सही उत्तर: A) ₹504।\nहल: SI = (P × R × T) / 100 = (3150 × 8 × 2) / 100 = ₹504.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-39"
+    },
+    {
+      "q": "[SSC Quantitative Problem #40] What is the simple interest on a principal of ₹3200 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹864",
+        "B) ₹884",
+        "C) ₹849",
+        "D) ₹904"
+      ],
+      "ans": "A) ₹864",
+      "exp": "💡 सही उत्तर: A) ₹864।\nहल: SI = (P × R × T) / 100 = (3200 × 9 × 3) / 100 = ₹864.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-40"
+    },
+    {
+      "q": "[SSC Quantitative Problem #41] What is the simple interest on a principal of ₹3250 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1300",
+        "B) ₹1320",
+        "C) ₹1285",
+        "D) ₹1340"
+      ],
+      "ans": "A) ₹1300",
+      "exp": "💡 सही उत्तर: A) ₹1300।\nहल: SI = (P × R × T) / 100 = (3250 × 10 × 4) / 100 = ₹1300.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-41"
+    },
+    {
+      "q": "[SSC Quantitative Problem #42] What is the simple interest on a principal of ₹3300 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹330",
+        "B) ₹350",
+        "C) ₹315",
+        "D) ₹370"
+      ],
+      "ans": "A) ₹330",
+      "exp": "💡 सही उत्तर: A) ₹330।\nहल: SI = (P × R × T) / 100 = (3300 × 5 × 2) / 100 = ₹330.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-42"
+    },
+    {
+      "q": "[SSC Quantitative Problem #43] What is the simple interest on a principal of ₹3350 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹603",
+        "B) ₹623",
+        "C) ₹588",
+        "D) ₹643"
+      ],
+      "ans": "A) ₹603",
+      "exp": "💡 सही उत्तर: A) ₹603।\nहल: SI = (P × R × T) / 100 = (3350 × 6 × 3) / 100 = ₹603.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-43"
+    },
+    {
+      "q": "[SSC Quantitative Problem #44] What is the simple interest on a principal of ₹3400 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹952",
+        "B) ₹972",
+        "C) ₹937",
+        "D) ₹992"
+      ],
+      "ans": "A) ₹952",
+      "exp": "💡 सही उत्तर: A) ₹952।\nहल: SI = (P × R × T) / 100 = (3400 × 7 × 4) / 100 = ₹952.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-44"
+    },
+    {
+      "q": "[SSC Quantitative Problem #45] What is the simple interest on a principal of ₹3450 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹552",
+        "B) ₹572",
+        "C) ₹537",
+        "D) ₹592"
+      ],
+      "ans": "A) ₹552",
+      "exp": "💡 सही उत्तर: A) ₹552।\nहल: SI = (P × R × T) / 100 = (3450 × 8 × 2) / 100 = ₹552.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-45"
+    },
+    {
+      "q": "[SSC Quantitative Problem #46] What is the simple interest on a principal of ₹3500 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹945",
+        "B) ₹965",
+        "C) ₹930",
+        "D) ₹985"
+      ],
+      "ans": "A) ₹945",
+      "exp": "💡 सही उत्तर: A) ₹945।\nहल: SI = (P × R × T) / 100 = (3500 × 9 × 3) / 100 = ₹945.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-46"
+    },
+    {
+      "q": "[SSC Quantitative Problem #47] What is the simple interest on a principal of ₹3550 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1420",
+        "B) ₹1440",
+        "C) ₹1405",
+        "D) ₹1460"
+      ],
+      "ans": "A) ₹1420",
+      "exp": "💡 सही उत्तर: A) ₹1420।\nहल: SI = (P × R × T) / 100 = (3550 × 10 × 4) / 100 = ₹1420.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-47"
+    },
+    {
+      "q": "[SSC Quantitative Problem #48] What is the simple interest on a principal of ₹3600 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹360",
+        "B) ₹380",
+        "C) ₹345",
+        "D) ₹400"
+      ],
+      "ans": "A) ₹360",
+      "exp": "💡 सही उत्तर: A) ₹360।\nहल: SI = (P × R × T) / 100 = (3600 × 5 × 2) / 100 = ₹360.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-48"
+    },
+    {
+      "q": "[SSC Quantitative Problem #49] What is the simple interest on a principal of ₹3650 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹657",
+        "B) ₹677",
+        "C) ₹642",
+        "D) ₹697"
+      ],
+      "ans": "A) ₹657",
+      "exp": "💡 सही उत्तर: A) ₹657।\nहल: SI = (P × R × T) / 100 = (3650 × 6 × 3) / 100 = ₹657.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-49"
+    },
+    {
+      "q": "[SSC Quantitative Problem #50] What is the simple interest on a principal of ₹3700 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1036",
+        "B) ₹1056",
+        "C) ₹1021",
+        "D) ₹1076"
+      ],
+      "ans": "A) ₹1036",
+      "exp": "💡 सही उत्तर: A) ₹1036।\nहल: SI = (P × R × T) / 100 = (3700 × 7 × 4) / 100 = ₹1036.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-50"
+    },
+    {
+      "q": "[SSC Quantitative Problem #51] What is the simple interest on a principal of ₹3750 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹600",
+        "B) ₹620",
+        "C) ₹585",
+        "D) ₹640"
+      ],
+      "ans": "A) ₹600",
+      "exp": "💡 सही उत्तर: A) ₹600।\nहल: SI = (P × R × T) / 100 = (3750 × 8 × 2) / 100 = ₹600.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-51"
+    },
+    {
+      "q": "[SSC Quantitative Problem #52] What is the simple interest on a principal of ₹3800 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1026",
+        "B) ₹1046",
+        "C) ₹1011",
+        "D) ₹1066"
+      ],
+      "ans": "A) ₹1026",
+      "exp": "💡 सही उत्तर: A) ₹1026।\nहल: SI = (P × R × T) / 100 = (3800 × 9 × 3) / 100 = ₹1026.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-52"
+    },
+    {
+      "q": "[SSC Quantitative Problem #53] What is the simple interest on a principal of ₹3850 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1540",
+        "B) ₹1560",
+        "C) ₹1525",
+        "D) ₹1580"
+      ],
+      "ans": "A) ₹1540",
+      "exp": "💡 सही उत्तर: A) ₹1540।\nहल: SI = (P × R × T) / 100 = (3850 × 10 × 4) / 100 = ₹1540.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-53"
+    },
+    {
+      "q": "[SSC Quantitative Problem #54] What is the simple interest on a principal of ₹3900 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹390",
+        "B) ₹410",
+        "C) ₹375",
+        "D) ₹430"
+      ],
+      "ans": "A) ₹390",
+      "exp": "💡 सही उत्तर: A) ₹390।\nहल: SI = (P × R × T) / 100 = (3900 × 5 × 2) / 100 = ₹390.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-54"
+    },
+    {
+      "q": "[SSC Quantitative Problem #55] What is the simple interest on a principal of ₹3950 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹711",
+        "B) ₹731",
+        "C) ₹696",
+        "D) ₹751"
+      ],
+      "ans": "A) ₹711",
+      "exp": "💡 सही उत्तर: A) ₹711।\nहल: SI = (P × R × T) / 100 = (3950 × 6 × 3) / 100 = ₹711.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-55"
+    },
+    {
+      "q": "[SSC Quantitative Problem #56] What is the simple interest on a principal of ₹4000 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1120",
+        "B) ₹1140",
+        "C) ₹1105",
+        "D) ₹1160"
+      ],
+      "ans": "A) ₹1120",
+      "exp": "💡 सही उत्तर: A) ₹1120।\nहल: SI = (P × R × T) / 100 = (4000 × 7 × 4) / 100 = ₹1120.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-56"
+    },
+    {
+      "q": "[SSC Quantitative Problem #57] What is the simple interest on a principal of ₹4050 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹648",
+        "B) ₹668",
+        "C) ₹633",
+        "D) ₹688"
+      ],
+      "ans": "A) ₹648",
+      "exp": "💡 सही उत्तर: A) ₹648।\nहल: SI = (P × R × T) / 100 = (4050 × 8 × 2) / 100 = ₹648.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-57"
+    },
+    {
+      "q": "[SSC Quantitative Problem #58] What is the simple interest on a principal of ₹4100 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1107",
+        "B) ₹1127",
+        "C) ₹1092",
+        "D) ₹1147"
+      ],
+      "ans": "A) ₹1107",
+      "exp": "💡 सही उत्तर: A) ₹1107।\nहल: SI = (P × R × T) / 100 = (4100 × 9 × 3) / 100 = ₹1107.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-58"
+    },
+    {
+      "q": "[SSC Quantitative Problem #59] What is the simple interest on a principal of ₹4150 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1660",
+        "B) ₹1680",
+        "C) ₹1645",
+        "D) ₹1700"
+      ],
+      "ans": "A) ₹1660",
+      "exp": "💡 सही उत्तर: A) ₹1660।\nहल: SI = (P × R × T) / 100 = (4150 × 10 × 4) / 100 = ₹1660.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-59"
+    },
+    {
+      "q": "[SSC Quantitative Problem #60] What is the simple interest on a principal of ₹4200 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹420",
+        "B) ₹440",
+        "C) ₹405",
+        "D) ₹460"
+      ],
+      "ans": "A) ₹420",
+      "exp": "💡 सही उत्तर: A) ₹420।\nहल: SI = (P × R × T) / 100 = (4200 × 5 × 2) / 100 = ₹420.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-60"
+    },
+    {
+      "q": "[SSC Quantitative Problem #61] What is the simple interest on a principal of ₹4250 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹765",
+        "B) ₹785",
+        "C) ₹750",
+        "D) ₹805"
+      ],
+      "ans": "A) ₹765",
+      "exp": "💡 सही उत्तर: A) ₹765।\nहल: SI = (P × R × T) / 100 = (4250 × 6 × 3) / 100 = ₹765.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-61"
+    },
+    {
+      "q": "[SSC Quantitative Problem #62] What is the simple interest on a principal of ₹4300 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1204",
+        "B) ₹1224",
+        "C) ₹1189",
+        "D) ₹1244"
+      ],
+      "ans": "A) ₹1204",
+      "exp": "💡 सही उत्तर: A) ₹1204।\nहल: SI = (P × R × T) / 100 = (4300 × 7 × 4) / 100 = ₹1204.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-62"
+    },
+    {
+      "q": "[SSC Quantitative Problem #63] What is the simple interest on a principal of ₹4350 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹696",
+        "B) ₹716",
+        "C) ₹681",
+        "D) ₹736"
+      ],
+      "ans": "A) ₹696",
+      "exp": "💡 सही उत्तर: A) ₹696।\nहल: SI = (P × R × T) / 100 = (4350 × 8 × 2) / 100 = ₹696.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-63"
+    },
+    {
+      "q": "[SSC Quantitative Problem #64] What is the simple interest on a principal of ₹4400 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1188",
+        "B) ₹1208",
+        "C) ₹1173",
+        "D) ₹1228"
+      ],
+      "ans": "A) ₹1188",
+      "exp": "💡 सही उत्तर: A) ₹1188।\nहल: SI = (P × R × T) / 100 = (4400 × 9 × 3) / 100 = ₹1188.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-64"
+    },
+    {
+      "q": "[SSC Quantitative Problem #65] What is the simple interest on a principal of ₹4450 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1780",
+        "B) ₹1800",
+        "C) ₹1765",
+        "D) ₹1820"
+      ],
+      "ans": "A) ₹1780",
+      "exp": "💡 सही उत्तर: A) ₹1780।\nहल: SI = (P × R × T) / 100 = (4450 × 10 × 4) / 100 = ₹1780.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-65"
+    },
+    {
+      "q": "[SSC Quantitative Problem #66] What is the simple interest on a principal of ₹4500 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹450",
+        "B) ₹470",
+        "C) ₹435",
+        "D) ₹490"
+      ],
+      "ans": "A) ₹450",
+      "exp": "💡 सही उत्तर: A) ₹450।\nहल: SI = (P × R × T) / 100 = (4500 × 5 × 2) / 100 = ₹450.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-66"
+    },
+    {
+      "q": "[SSC Quantitative Problem #67] What is the simple interest on a principal of ₹4550 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹819",
+        "B) ₹839",
+        "C) ₹804",
+        "D) ₹859"
+      ],
+      "ans": "A) ₹819",
+      "exp": "💡 सही उत्तर: A) ₹819।\nहल: SI = (P × R × T) / 100 = (4550 × 6 × 3) / 100 = ₹819.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-67"
+    },
+    {
+      "q": "[SSC Quantitative Problem #68] What is the simple interest on a principal of ₹4600 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1288",
+        "B) ₹1308",
+        "C) ₹1273",
+        "D) ₹1328"
+      ],
+      "ans": "A) ₹1288",
+      "exp": "💡 सही उत्तर: A) ₹1288।\nहल: SI = (P × R × T) / 100 = (4600 × 7 × 4) / 100 = ₹1288.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-68"
+    },
+    {
+      "q": "[SSC Quantitative Problem #69] What is the simple interest on a principal of ₹4650 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹744",
+        "B) ₹764",
+        "C) ₹729",
+        "D) ₹784"
+      ],
+      "ans": "A) ₹744",
+      "exp": "💡 सही उत्तर: A) ₹744।\nहल: SI = (P × R × T) / 100 = (4650 × 8 × 2) / 100 = ₹744.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-69"
+    },
+    {
+      "q": "[SSC Quantitative Problem #70] What is the simple interest on a principal of ₹4700 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1269",
+        "B) ₹1289",
+        "C) ₹1254",
+        "D) ₹1309"
+      ],
+      "ans": "A) ₹1269",
+      "exp": "💡 सही उत्तर: A) ₹1269।\nहल: SI = (P × R × T) / 100 = (4700 × 9 × 3) / 100 = ₹1269.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-70"
+    },
+    {
+      "q": "[SSC Quantitative Problem #71] What is the simple interest on a principal of ₹4750 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹1900",
+        "B) ₹1920",
+        "C) ₹1885",
+        "D) ₹1940"
+      ],
+      "ans": "A) ₹1900",
+      "exp": "💡 सही उत्तर: A) ₹1900।\nहल: SI = (P × R × T) / 100 = (4750 × 10 × 4) / 100 = ₹1900.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-71"
+    },
+    {
+      "q": "[SSC Quantitative Problem #72] What is the simple interest on a principal of ₹4800 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹480",
+        "B) ₹500",
+        "C) ₹465",
+        "D) ₹520"
+      ],
+      "ans": "A) ₹480",
+      "exp": "💡 सही उत्तर: A) ₹480।\nहल: SI = (P × R × T) / 100 = (4800 × 5 × 2) / 100 = ₹480.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-72"
+    },
+    {
+      "q": "[SSC Quantitative Problem #73] What is the simple interest on a principal of ₹4850 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹873",
+        "B) ₹893",
+        "C) ₹858",
+        "D) ₹913"
+      ],
+      "ans": "A) ₹873",
+      "exp": "💡 सही उत्तर: A) ₹873।\nहल: SI = (P × R × T) / 100 = (4850 × 6 × 3) / 100 = ₹873.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-73"
+    },
+    {
+      "q": "[SSC Quantitative Problem #74] What is the simple interest on a principal of ₹4900 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1372",
+        "B) ₹1392",
+        "C) ₹1357",
+        "D) ₹1412"
+      ],
+      "ans": "A) ₹1372",
+      "exp": "💡 सही उत्तर: A) ₹1372।\nहल: SI = (P × R × T) / 100 = (4900 × 7 × 4) / 100 = ₹1372.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-74"
+    },
+    {
+      "q": "[SSC Quantitative Problem #75] What is the simple interest on a principal of ₹4950 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹792",
+        "B) ₹812",
+        "C) ₹777",
+        "D) ₹832"
+      ],
+      "ans": "A) ₹792",
+      "exp": "💡 सही उत्तर: A) ₹792।\nहल: SI = (P × R × T) / 100 = (4950 × 8 × 2) / 100 = ₹792.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-75"
+    },
+    {
+      "q": "[SSC Quantitative Problem #76] What is the simple interest on a principal of ₹5000 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1350",
+        "B) ₹1370",
+        "C) ₹1335",
+        "D) ₹1390"
+      ],
+      "ans": "A) ₹1350",
+      "exp": "💡 सही उत्तर: A) ₹1350।\nहल: SI = (P × R × T) / 100 = (5000 × 9 × 3) / 100 = ₹1350.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-76"
+    },
+    {
+      "q": "[SSC Quantitative Problem #77] What is the simple interest on a principal of ₹5050 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2020",
+        "B) ₹2040",
+        "C) ₹2005",
+        "D) ₹2060"
+      ],
+      "ans": "A) ₹2020",
+      "exp": "💡 सही उत्तर: A) ₹2020।\nहल: SI = (P × R × T) / 100 = (5050 × 10 × 4) / 100 = ₹2020.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-77"
+    },
+    {
+      "q": "[SSC Quantitative Problem #78] What is the simple interest on a principal of ₹5100 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹510",
+        "B) ₹530",
+        "C) ₹495",
+        "D) ₹550"
+      ],
+      "ans": "A) ₹510",
+      "exp": "💡 सही उत्तर: A) ₹510।\nहल: SI = (P × R × T) / 100 = (5100 × 5 × 2) / 100 = ₹510.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-78"
+    },
+    {
+      "q": "[SSC Quantitative Problem #79] What is the simple interest on a principal of ₹5150 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹927",
+        "B) ₹947",
+        "C) ₹912",
+        "D) ₹967"
+      ],
+      "ans": "A) ₹927",
+      "exp": "💡 सही उत्तर: A) ₹927।\nहल: SI = (P × R × T) / 100 = (5150 × 6 × 3) / 100 = ₹927.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-79"
+    },
+    {
+      "q": "[SSC Quantitative Problem #80] What is the simple interest on a principal of ₹5200 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1456",
+        "B) ₹1476",
+        "C) ₹1441",
+        "D) ₹1496"
+      ],
+      "ans": "A) ₹1456",
+      "exp": "💡 सही उत्तर: A) ₹1456।\nहल: SI = (P × R × T) / 100 = (5200 × 7 × 4) / 100 = ₹1456.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-80"
+    },
+    {
+      "q": "[SSC Quantitative Problem #81] What is the simple interest on a principal of ₹5250 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹840",
+        "B) ₹860",
+        "C) ₹825",
+        "D) ₹880"
+      ],
+      "ans": "A) ₹840",
+      "exp": "💡 सही उत्तर: A) ₹840।\nहल: SI = (P × R × T) / 100 = (5250 × 8 × 2) / 100 = ₹840.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-81"
+    },
+    {
+      "q": "[SSC Quantitative Problem #82] What is the simple interest on a principal of ₹5300 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1431",
+        "B) ₹1451",
+        "C) ₹1416",
+        "D) ₹1471"
+      ],
+      "ans": "A) ₹1431",
+      "exp": "💡 सही उत्तर: A) ₹1431।\nहल: SI = (P × R × T) / 100 = (5300 × 9 × 3) / 100 = ₹1431.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-82"
+    },
+    {
+      "q": "[SSC Quantitative Problem #83] What is the simple interest on a principal of ₹5350 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2140",
+        "B) ₹2160",
+        "C) ₹2125",
+        "D) ₹2180"
+      ],
+      "ans": "A) ₹2140",
+      "exp": "💡 सही उत्तर: A) ₹2140।\nहल: SI = (P × R × T) / 100 = (5350 × 10 × 4) / 100 = ₹2140.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-83"
+    },
+    {
+      "q": "[SSC Quantitative Problem #84] What is the simple interest on a principal of ₹5400 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹540",
+        "B) ₹560",
+        "C) ₹525",
+        "D) ₹580"
+      ],
+      "ans": "A) ₹540",
+      "exp": "💡 सही उत्तर: A) ₹540।\nहल: SI = (P × R × T) / 100 = (5400 × 5 × 2) / 100 = ₹540.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-84"
+    },
+    {
+      "q": "[SSC Quantitative Problem #85] What is the simple interest on a principal of ₹5450 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹981",
+        "B) ₹1001",
+        "C) ₹966",
+        "D) ₹1021"
+      ],
+      "ans": "A) ₹981",
+      "exp": "💡 सही उत्तर: A) ₹981।\nहल: SI = (P × R × T) / 100 = (5450 × 6 × 3) / 100 = ₹981.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-85"
+    },
+    {
+      "q": "[SSC Quantitative Problem #86] What is the simple interest on a principal of ₹5500 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1540",
+        "B) ₹1560",
+        "C) ₹1525",
+        "D) ₹1580"
+      ],
+      "ans": "A) ₹1540",
+      "exp": "💡 सही उत्तर: A) ₹1540।\nहल: SI = (P × R × T) / 100 = (5500 × 7 × 4) / 100 = ₹1540.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-86"
+    },
+    {
+      "q": "[SSC Quantitative Problem #87] What is the simple interest on a principal of ₹5550 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹888",
+        "B) ₹908",
+        "C) ₹873",
+        "D) ₹928"
+      ],
+      "ans": "A) ₹888",
+      "exp": "💡 सही उत्तर: A) ₹888।\nहल: SI = (P × R × T) / 100 = (5550 × 8 × 2) / 100 = ₹888.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-87"
+    },
+    {
+      "q": "[SSC Quantitative Problem #88] What is the simple interest on a principal of ₹5600 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1512",
+        "B) ₹1532",
+        "C) ₹1497",
+        "D) ₹1552"
+      ],
+      "ans": "A) ₹1512",
+      "exp": "💡 सही उत्तर: A) ₹1512।\nहल: SI = (P × R × T) / 100 = (5600 × 9 × 3) / 100 = ₹1512.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-88"
+    },
+    {
+      "q": "[SSC Quantitative Problem #89] What is the simple interest on a principal of ₹5650 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2260",
+        "B) ₹2280",
+        "C) ₹2245",
+        "D) ₹2300"
+      ],
+      "ans": "A) ₹2260",
+      "exp": "💡 सही उत्तर: A) ₹2260।\nहल: SI = (P × R × T) / 100 = (5650 × 10 × 4) / 100 = ₹2260.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-89"
+    },
+    {
+      "q": "[SSC Quantitative Problem #90] What is the simple interest on a principal of ₹5700 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹570",
+        "B) ₹590",
+        "C) ₹555",
+        "D) ₹610"
+      ],
+      "ans": "A) ₹570",
+      "exp": "💡 सही उत्तर: A) ₹570।\nहल: SI = (P × R × T) / 100 = (5700 × 5 × 2) / 100 = ₹570.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-90"
+    },
+    {
+      "q": "[SSC Quantitative Problem #91] What is the simple interest on a principal of ₹5750 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1035",
+        "B) ₹1055",
+        "C) ₹1020",
+        "D) ₹1075"
+      ],
+      "ans": "A) ₹1035",
+      "exp": "💡 सही उत्तर: A) ₹1035।\nहल: SI = (P × R × T) / 100 = (5750 × 6 × 3) / 100 = ₹1035.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-91"
+    },
+    {
+      "q": "[SSC Quantitative Problem #92] What is the simple interest on a principal of ₹5800 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1624",
+        "B) ₹1644",
+        "C) ₹1609",
+        "D) ₹1664"
+      ],
+      "ans": "A) ₹1624",
+      "exp": "💡 सही उत्तर: A) ₹1624।\nहल: SI = (P × R × T) / 100 = (5800 × 7 × 4) / 100 = ₹1624.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-92"
+    },
+    {
+      "q": "[SSC Quantitative Problem #93] What is the simple interest on a principal of ₹5850 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹936",
+        "B) ₹956",
+        "C) ₹921",
+        "D) ₹976"
+      ],
+      "ans": "A) ₹936",
+      "exp": "💡 सही उत्तर: A) ₹936।\nहल: SI = (P × R × T) / 100 = (5850 × 8 × 2) / 100 = ₹936.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-93"
+    },
+    {
+      "q": "[SSC Quantitative Problem #94] What is the simple interest on a principal of ₹5900 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1593",
+        "B) ₹1613",
+        "C) ₹1578",
+        "D) ₹1633"
+      ],
+      "ans": "A) ₹1593",
+      "exp": "💡 सही उत्तर: A) ₹1593।\nहल: SI = (P × R × T) / 100 = (5900 × 9 × 3) / 100 = ₹1593.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-94"
+    },
+    {
+      "q": "[SSC Quantitative Problem #95] What is the simple interest on a principal of ₹5950 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2380",
+        "B) ₹2400",
+        "C) ₹2365",
+        "D) ₹2420"
+      ],
+      "ans": "A) ₹2380",
+      "exp": "💡 सही उत्तर: A) ₹2380।\nहल: SI = (P × R × T) / 100 = (5950 × 10 × 4) / 100 = ₹2380.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-95"
+    },
+    {
+      "q": "[SSC Quantitative Problem #96] What is the simple interest on a principal of ₹6000 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹600",
+        "B) ₹620",
+        "C) ₹585",
+        "D) ₹640"
+      ],
+      "ans": "A) ₹600",
+      "exp": "💡 सही उत्तर: A) ₹600।\nहल: SI = (P × R × T) / 100 = (6000 × 5 × 2) / 100 = ₹600.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-96"
+    },
+    {
+      "q": "[SSC Quantitative Problem #97] What is the simple interest on a principal of ₹6050 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1089",
+        "B) ₹1109",
+        "C) ₹1074",
+        "D) ₹1129"
+      ],
+      "ans": "A) ₹1089",
+      "exp": "💡 सही उत्तर: A) ₹1089।\nहल: SI = (P × R × T) / 100 = (6050 × 6 × 3) / 100 = ₹1089.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-97"
+    },
+    {
+      "q": "[SSC Quantitative Problem #98] What is the simple interest on a principal of ₹6100 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1708",
+        "B) ₹1728",
+        "C) ₹1693",
+        "D) ₹1748"
+      ],
+      "ans": "A) ₹1708",
+      "exp": "💡 सही उत्तर: A) ₹1708।\nहल: SI = (P × R × T) / 100 = (6100 × 7 × 4) / 100 = ₹1708.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-98"
+    },
+    {
+      "q": "[SSC Quantitative Problem #99] What is the simple interest on a principal of ₹6150 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹984",
+        "B) ₹1004",
+        "C) ₹969",
+        "D) ₹1024"
+      ],
+      "ans": "A) ₹984",
+      "exp": "💡 सही उत्तर: A) ₹984।\nहल: SI = (P × R × T) / 100 = (6150 × 8 × 2) / 100 = ₹984.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-99"
+    },
+    {
+      "q": "[SSC Quantitative Problem #100] What is the simple interest on a principal of ₹6200 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1674",
+        "B) ₹1694",
+        "C) ₹1659",
+        "D) ₹1714"
+      ],
+      "ans": "A) ₹1674",
+      "exp": "💡 सही उत्तर: A) ₹1674।\nहल: SI = (P × R × T) / 100 = (6200 × 9 × 3) / 100 = ₹1674.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-100"
+    },
+    {
+      "q": "[SSC Quantitative Problem #101] What is the simple interest on a principal of ₹6250 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2500",
+        "B) ₹2520",
+        "C) ₹2485",
+        "D) ₹2540"
+      ],
+      "ans": "A) ₹2500",
+      "exp": "💡 सही उत्तर: A) ₹2500।\nहल: SI = (P × R × T) / 100 = (6250 × 10 × 4) / 100 = ₹2500.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-101"
+    },
+    {
+      "q": "[SSC Quantitative Problem #102] What is the simple interest on a principal of ₹6300 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹630",
+        "B) ₹650",
+        "C) ₹615",
+        "D) ₹670"
+      ],
+      "ans": "A) ₹630",
+      "exp": "💡 सही उत्तर: A) ₹630।\nहल: SI = (P × R × T) / 100 = (6300 × 5 × 2) / 100 = ₹630.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-102"
+    },
+    {
+      "q": "[SSC Quantitative Problem #103] What is the simple interest on a principal of ₹6350 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1143",
+        "B) ₹1163",
+        "C) ₹1128",
+        "D) ₹1183"
+      ],
+      "ans": "A) ₹1143",
+      "exp": "💡 सही उत्तर: A) ₹1143।\nहल: SI = (P × R × T) / 100 = (6350 × 6 × 3) / 100 = ₹1143.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-103"
+    },
+    {
+      "q": "[SSC Quantitative Problem #104] What is the simple interest on a principal of ₹6400 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1792",
+        "B) ₹1812",
+        "C) ₹1777",
+        "D) ₹1832"
+      ],
+      "ans": "A) ₹1792",
+      "exp": "💡 सही उत्तर: A) ₹1792।\nहल: SI = (P × R × T) / 100 = (6400 × 7 × 4) / 100 = ₹1792.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-104"
+    },
+    {
+      "q": "[SSC Quantitative Problem #105] What is the simple interest on a principal of ₹6450 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1032",
+        "B) ₹1052",
+        "C) ₹1017",
+        "D) ₹1072"
+      ],
+      "ans": "A) ₹1032",
+      "exp": "💡 सही उत्तर: A) ₹1032।\nहल: SI = (P × R × T) / 100 = (6450 × 8 × 2) / 100 = ₹1032.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-105"
+    },
+    {
+      "q": "[SSC Quantitative Problem #106] What is the simple interest on a principal of ₹6500 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1755",
+        "B) ₹1775",
+        "C) ₹1740",
+        "D) ₹1795"
+      ],
+      "ans": "A) ₹1755",
+      "exp": "💡 सही उत्तर: A) ₹1755।\nहल: SI = (P × R × T) / 100 = (6500 × 9 × 3) / 100 = ₹1755.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-106"
+    },
+    {
+      "q": "[SSC Quantitative Problem #107] What is the simple interest on a principal of ₹6550 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2620",
+        "B) ₹2640",
+        "C) ₹2605",
+        "D) ₹2660"
+      ],
+      "ans": "A) ₹2620",
+      "exp": "💡 सही उत्तर: A) ₹2620।\nहल: SI = (P × R × T) / 100 = (6550 × 10 × 4) / 100 = ₹2620.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-107"
+    },
+    {
+      "q": "[SSC Quantitative Problem #108] What is the simple interest on a principal of ₹6600 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹660",
+        "B) ₹680",
+        "C) ₹645",
+        "D) ₹700"
+      ],
+      "ans": "A) ₹660",
+      "exp": "💡 सही उत्तर: A) ₹660।\nहल: SI = (P × R × T) / 100 = (6600 × 5 × 2) / 100 = ₹660.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-108"
+    },
+    {
+      "q": "[SSC Quantitative Problem #109] What is the simple interest on a principal of ₹6650 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1197",
+        "B) ₹1217",
+        "C) ₹1182",
+        "D) ₹1237"
+      ],
+      "ans": "A) ₹1197",
+      "exp": "💡 सही उत्तर: A) ₹1197।\nहल: SI = (P × R × T) / 100 = (6650 × 6 × 3) / 100 = ₹1197.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-109"
+    },
+    {
+      "q": "[SSC Quantitative Problem #110] What is the simple interest on a principal of ₹6700 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1876",
+        "B) ₹1896",
+        "C) ₹1861",
+        "D) ₹1916"
+      ],
+      "ans": "A) ₹1876",
+      "exp": "💡 सही उत्तर: A) ₹1876।\nहल: SI = (P × R × T) / 100 = (6700 × 7 × 4) / 100 = ₹1876.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-110"
+    },
+    {
+      "q": "[SSC Quantitative Problem #111] What is the simple interest on a principal of ₹6750 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1080",
+        "B) ₹1100",
+        "C) ₹1065",
+        "D) ₹1120"
+      ],
+      "ans": "A) ₹1080",
+      "exp": "💡 सही उत्तर: A) ₹1080।\nहल: SI = (P × R × T) / 100 = (6750 × 8 × 2) / 100 = ₹1080.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-111"
+    },
+    {
+      "q": "[SSC Quantitative Problem #112] What is the simple interest on a principal of ₹6800 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1836",
+        "B) ₹1856",
+        "C) ₹1821",
+        "D) ₹1876"
+      ],
+      "ans": "A) ₹1836",
+      "exp": "💡 सही उत्तर: A) ₹1836।\nहल: SI = (P × R × T) / 100 = (6800 × 9 × 3) / 100 = ₹1836.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-112"
+    },
+    {
+      "q": "[SSC Quantitative Problem #113] What is the simple interest on a principal of ₹6850 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2740",
+        "B) ₹2760",
+        "C) ₹2725",
+        "D) ₹2780"
+      ],
+      "ans": "A) ₹2740",
+      "exp": "💡 सही उत्तर: A) ₹2740।\nहल: SI = (P × R × T) / 100 = (6850 × 10 × 4) / 100 = ₹2740.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-113"
+    },
+    {
+      "q": "[SSC Quantitative Problem #114] What is the simple interest on a principal of ₹6900 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹690",
+        "B) ₹710",
+        "C) ₹675",
+        "D) ₹730"
+      ],
+      "ans": "A) ₹690",
+      "exp": "💡 सही उत्तर: A) ₹690।\nहल: SI = (P × R × T) / 100 = (6900 × 5 × 2) / 100 = ₹690.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-114"
+    },
+    {
+      "q": "[SSC Quantitative Problem #115] What is the simple interest on a principal of ₹6950 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1251",
+        "B) ₹1271",
+        "C) ₹1236",
+        "D) ₹1291"
+      ],
+      "ans": "A) ₹1251",
+      "exp": "💡 सही उत्तर: A) ₹1251।\nहल: SI = (P × R × T) / 100 = (6950 × 6 × 3) / 100 = ₹1251.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-115"
+    },
+    {
+      "q": "[SSC Quantitative Problem #116] What is the simple interest on a principal of ₹7000 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹1960",
+        "B) ₹1980",
+        "C) ₹1945",
+        "D) ₹2000"
+      ],
+      "ans": "A) ₹1960",
+      "exp": "💡 सही उत्तर: A) ₹1960।\nहल: SI = (P × R × T) / 100 = (7000 × 7 × 4) / 100 = ₹1960.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-116"
+    },
+    {
+      "q": "[SSC Quantitative Problem #117] What is the simple interest on a principal of ₹7050 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1128",
+        "B) ₹1148",
+        "C) ₹1113",
+        "D) ₹1168"
+      ],
+      "ans": "A) ₹1128",
+      "exp": "💡 सही उत्तर: A) ₹1128।\nहल: SI = (P × R × T) / 100 = (7050 × 8 × 2) / 100 = ₹1128.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-117"
+    },
+    {
+      "q": "[SSC Quantitative Problem #118] What is the simple interest on a principal of ₹7100 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1917",
+        "B) ₹1937",
+        "C) ₹1902",
+        "D) ₹1957"
+      ],
+      "ans": "A) ₹1917",
+      "exp": "💡 सही उत्तर: A) ₹1917।\nहल: SI = (P × R × T) / 100 = (7100 × 9 × 3) / 100 = ₹1917.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-118"
+    },
+    {
+      "q": "[SSC Quantitative Problem #119] What is the simple interest on a principal of ₹7150 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2860",
+        "B) ₹2880",
+        "C) ₹2845",
+        "D) ₹2900"
+      ],
+      "ans": "A) ₹2860",
+      "exp": "💡 सही उत्तर: A) ₹2860।\nहल: SI = (P × R × T) / 100 = (7150 × 10 × 4) / 100 = ₹2860.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-119"
+    },
+    {
+      "q": "[SSC Quantitative Problem #120] What is the simple interest on a principal of ₹7200 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹720",
+        "B) ₹740",
+        "C) ₹705",
+        "D) ₹760"
+      ],
+      "ans": "A) ₹720",
+      "exp": "💡 सही उत्तर: A) ₹720।\nहल: SI = (P × R × T) / 100 = (7200 × 5 × 2) / 100 = ₹720.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-120"
+    },
+    {
+      "q": "[SSC Quantitative Problem #121] What is the simple interest on a principal of ₹7250 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1305",
+        "B) ₹1325",
+        "C) ₹1290",
+        "D) ₹1345"
+      ],
+      "ans": "A) ₹1305",
+      "exp": "💡 सही उत्तर: A) ₹1305।\nहल: SI = (P × R × T) / 100 = (7250 × 6 × 3) / 100 = ₹1305.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-121"
+    },
+    {
+      "q": "[SSC Quantitative Problem #122] What is the simple interest on a principal of ₹7300 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2044",
+        "B) ₹2064",
+        "C) ₹2029",
+        "D) ₹2084"
+      ],
+      "ans": "A) ₹2044",
+      "exp": "💡 सही उत्तर: A) ₹2044।\nहल: SI = (P × R × T) / 100 = (7300 × 7 × 4) / 100 = ₹2044.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-122"
+    },
+    {
+      "q": "[SSC Quantitative Problem #123] What is the simple interest on a principal of ₹7350 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1176",
+        "B) ₹1196",
+        "C) ₹1161",
+        "D) ₹1216"
+      ],
+      "ans": "A) ₹1176",
+      "exp": "💡 सही उत्तर: A) ₹1176।\nहल: SI = (P × R × T) / 100 = (7350 × 8 × 2) / 100 = ₹1176.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-123"
+    },
+    {
+      "q": "[SSC Quantitative Problem #124] What is the simple interest on a principal of ₹7400 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹1998",
+        "B) ₹2018",
+        "C) ₹1983",
+        "D) ₹2038"
+      ],
+      "ans": "A) ₹1998",
+      "exp": "💡 सही उत्तर: A) ₹1998।\nहल: SI = (P × R × T) / 100 = (7400 × 9 × 3) / 100 = ₹1998.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-124"
+    },
+    {
+      "q": "[SSC Quantitative Problem #125] What is the simple interest on a principal of ₹7450 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹2980",
+        "B) ₹3000",
+        "C) ₹2965",
+        "D) ₹3020"
+      ],
+      "ans": "A) ₹2980",
+      "exp": "💡 सही उत्तर: A) ₹2980।\nहल: SI = (P × R × T) / 100 = (7450 × 10 × 4) / 100 = ₹2980.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-125"
+    },
+    {
+      "q": "[SSC Quantitative Problem #126] What is the simple interest on a principal of ₹7500 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹750",
+        "B) ₹770",
+        "C) ₹735",
+        "D) ₹790"
+      ],
+      "ans": "A) ₹750",
+      "exp": "💡 सही उत्तर: A) ₹750।\nहल: SI = (P × R × T) / 100 = (7500 × 5 × 2) / 100 = ₹750.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-126"
+    },
+    {
+      "q": "[SSC Quantitative Problem #127] What is the simple interest on a principal of ₹7550 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1359",
+        "B) ₹1379",
+        "C) ₹1344",
+        "D) ₹1399"
+      ],
+      "ans": "A) ₹1359",
+      "exp": "💡 सही उत्तर: A) ₹1359।\nहल: SI = (P × R × T) / 100 = (7550 × 6 × 3) / 100 = ₹1359.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-127"
+    },
+    {
+      "q": "[SSC Quantitative Problem #128] What is the simple interest on a principal of ₹7600 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2128",
+        "B) ₹2148",
+        "C) ₹2113",
+        "D) ₹2168"
+      ],
+      "ans": "A) ₹2128",
+      "exp": "💡 सही उत्तर: A) ₹2128।\nहल: SI = (P × R × T) / 100 = (7600 × 7 × 4) / 100 = ₹2128.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-128"
+    },
+    {
+      "q": "[SSC Quantitative Problem #129] What is the simple interest on a principal of ₹7650 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1224",
+        "B) ₹1244",
+        "C) ₹1209",
+        "D) ₹1264"
+      ],
+      "ans": "A) ₹1224",
+      "exp": "💡 सही उत्तर: A) ₹1224।\nहल: SI = (P × R × T) / 100 = (7650 × 8 × 2) / 100 = ₹1224.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-129"
+    },
+    {
+      "q": "[SSC Quantitative Problem #130] What is the simple interest on a principal of ₹7700 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2079",
+        "B) ₹2099",
+        "C) ₹2064",
+        "D) ₹2119"
+      ],
+      "ans": "A) ₹2079",
+      "exp": "💡 सही उत्तर: A) ₹2079।\nहल: SI = (P × R × T) / 100 = (7700 × 9 × 3) / 100 = ₹2079.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-130"
+    },
+    {
+      "q": "[SSC Quantitative Problem #131] What is the simple interest on a principal of ₹7750 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3100",
+        "B) ₹3120",
+        "C) ₹3085",
+        "D) ₹3140"
+      ],
+      "ans": "A) ₹3100",
+      "exp": "💡 सही उत्तर: A) ₹3100।\nहल: SI = (P × R × T) / 100 = (7750 × 10 × 4) / 100 = ₹3100.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-131"
+    },
+    {
+      "q": "[SSC Quantitative Problem #132] What is the simple interest on a principal of ₹7800 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹780",
+        "B) ₹800",
+        "C) ₹765",
+        "D) ₹820"
+      ],
+      "ans": "A) ₹780",
+      "exp": "💡 सही उत्तर: A) ₹780।\nहल: SI = (P × R × T) / 100 = (7800 × 5 × 2) / 100 = ₹780.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-132"
+    },
+    {
+      "q": "[SSC Quantitative Problem #133] What is the simple interest on a principal of ₹7850 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1413",
+        "B) ₹1433",
+        "C) ₹1398",
+        "D) ₹1453"
+      ],
+      "ans": "A) ₹1413",
+      "exp": "💡 सही उत्तर: A) ₹1413।\nहल: SI = (P × R × T) / 100 = (7850 × 6 × 3) / 100 = ₹1413.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-133"
+    },
+    {
+      "q": "[SSC Quantitative Problem #134] What is the simple interest on a principal of ₹7900 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2212",
+        "B) ₹2232",
+        "C) ₹2197",
+        "D) ₹2252"
+      ],
+      "ans": "A) ₹2212",
+      "exp": "💡 सही उत्तर: A) ₹2212।\nहल: SI = (P × R × T) / 100 = (7900 × 7 × 4) / 100 = ₹2212.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-134"
+    },
+    {
+      "q": "[SSC Quantitative Problem #135] What is the simple interest on a principal of ₹7950 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1272",
+        "B) ₹1292",
+        "C) ₹1257",
+        "D) ₹1312"
+      ],
+      "ans": "A) ₹1272",
+      "exp": "💡 सही उत्तर: A) ₹1272।\nहल: SI = (P × R × T) / 100 = (7950 × 8 × 2) / 100 = ₹1272.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-135"
+    },
+    {
+      "q": "[SSC Quantitative Problem #136] What is the simple interest on a principal of ₹8000 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2160",
+        "B) ₹2180",
+        "C) ₹2145",
+        "D) ₹2200"
+      ],
+      "ans": "A) ₹2160",
+      "exp": "💡 सही उत्तर: A) ₹2160।\nहल: SI = (P × R × T) / 100 = (8000 × 9 × 3) / 100 = ₹2160.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-136"
+    },
+    {
+      "q": "[SSC Quantitative Problem #137] What is the simple interest on a principal of ₹8050 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3220",
+        "B) ₹3240",
+        "C) ₹3205",
+        "D) ₹3260"
+      ],
+      "ans": "A) ₹3220",
+      "exp": "💡 सही उत्तर: A) ₹3220।\nहल: SI = (P × R × T) / 100 = (8050 × 10 × 4) / 100 = ₹3220.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-137"
+    },
+    {
+      "q": "[SSC Quantitative Problem #138] What is the simple interest on a principal of ₹8100 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹810",
+        "B) ₹830",
+        "C) ₹795",
+        "D) ₹850"
+      ],
+      "ans": "A) ₹810",
+      "exp": "💡 सही उत्तर: A) ₹810।\nहल: SI = (P × R × T) / 100 = (8100 × 5 × 2) / 100 = ₹810.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-138"
+    },
+    {
+      "q": "[SSC Quantitative Problem #139] What is the simple interest on a principal of ₹8150 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1467",
+        "B) ₹1487",
+        "C) ₹1452",
+        "D) ₹1507"
+      ],
+      "ans": "A) ₹1467",
+      "exp": "💡 सही उत्तर: A) ₹1467।\nहल: SI = (P × R × T) / 100 = (8150 × 6 × 3) / 100 = ₹1467.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-139"
+    },
+    {
+      "q": "[SSC Quantitative Problem #140] What is the simple interest on a principal of ₹8200 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2296",
+        "B) ₹2316",
+        "C) ₹2281",
+        "D) ₹2336"
+      ],
+      "ans": "A) ₹2296",
+      "exp": "💡 सही उत्तर: A) ₹2296।\nहल: SI = (P × R × T) / 100 = (8200 × 7 × 4) / 100 = ₹2296.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-140"
+    },
+    {
+      "q": "[SSC Quantitative Problem #141] What is the simple interest on a principal of ₹8250 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1320",
+        "B) ₹1340",
+        "C) ₹1305",
+        "D) ₹1360"
+      ],
+      "ans": "A) ₹1320",
+      "exp": "💡 सही उत्तर: A) ₹1320।\nहल: SI = (P × R × T) / 100 = (8250 × 8 × 2) / 100 = ₹1320.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-141"
+    },
+    {
+      "q": "[SSC Quantitative Problem #142] What is the simple interest on a principal of ₹8300 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2241",
+        "B) ₹2261",
+        "C) ₹2226",
+        "D) ₹2281"
+      ],
+      "ans": "A) ₹2241",
+      "exp": "💡 सही उत्तर: A) ₹2241।\nहल: SI = (P × R × T) / 100 = (8300 × 9 × 3) / 100 = ₹2241.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-142"
+    },
+    {
+      "q": "[SSC Quantitative Problem #143] What is the simple interest on a principal of ₹8350 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3340",
+        "B) ₹3360",
+        "C) ₹3325",
+        "D) ₹3380"
+      ],
+      "ans": "A) ₹3340",
+      "exp": "💡 सही उत्तर: A) ₹3340।\nहल: SI = (P × R × T) / 100 = (8350 × 10 × 4) / 100 = ₹3340.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-143"
+    },
+    {
+      "q": "[SSC Quantitative Problem #144] What is the simple interest on a principal of ₹8400 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹840",
+        "B) ₹860",
+        "C) ₹825",
+        "D) ₹880"
+      ],
+      "ans": "A) ₹840",
+      "exp": "💡 सही उत्तर: A) ₹840।\nहल: SI = (P × R × T) / 100 = (8400 × 5 × 2) / 100 = ₹840.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-144"
+    },
+    {
+      "q": "[SSC Quantitative Problem #145] What is the simple interest on a principal of ₹8450 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1521",
+        "B) ₹1541",
+        "C) ₹1506",
+        "D) ₹1561"
+      ],
+      "ans": "A) ₹1521",
+      "exp": "💡 सही उत्तर: A) ₹1521।\nहल: SI = (P × R × T) / 100 = (8450 × 6 × 3) / 100 = ₹1521.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-145"
+    },
+    {
+      "q": "[SSC Quantitative Problem #146] What is the simple interest on a principal of ₹8500 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2380",
+        "B) ₹2400",
+        "C) ₹2365",
+        "D) ₹2420"
+      ],
+      "ans": "A) ₹2380",
+      "exp": "💡 सही उत्तर: A) ₹2380।\nहल: SI = (P × R × T) / 100 = (8500 × 7 × 4) / 100 = ₹2380.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-146"
+    },
+    {
+      "q": "[SSC Quantitative Problem #147] What is the simple interest on a principal of ₹8550 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1368",
+        "B) ₹1388",
+        "C) ₹1353",
+        "D) ₹1408"
+      ],
+      "ans": "A) ₹1368",
+      "exp": "💡 सही उत्तर: A) ₹1368।\nहल: SI = (P × R × T) / 100 = (8550 × 8 × 2) / 100 = ₹1368.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-147"
+    },
+    {
+      "q": "[SSC Quantitative Problem #148] What is the simple interest on a principal of ₹8600 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2322",
+        "B) ₹2342",
+        "C) ₹2307",
+        "D) ₹2362"
+      ],
+      "ans": "A) ₹2322",
+      "exp": "💡 सही उत्तर: A) ₹2322।\nहल: SI = (P × R × T) / 100 = (8600 × 9 × 3) / 100 = ₹2322.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-148"
+    },
+    {
+      "q": "[SSC Quantitative Problem #149] What is the simple interest on a principal of ₹8650 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3460",
+        "B) ₹3480",
+        "C) ₹3445",
+        "D) ₹3500"
+      ],
+      "ans": "A) ₹3460",
+      "exp": "💡 सही उत्तर: A) ₹3460।\nहल: SI = (P × R × T) / 100 = (8650 × 10 × 4) / 100 = ₹3460.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-149"
+    },
+    {
+      "q": "[SSC Quantitative Problem #150] What is the simple interest on a principal of ₹8700 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹870",
+        "B) ₹890",
+        "C) ₹855",
+        "D) ₹910"
+      ],
+      "ans": "A) ₹870",
+      "exp": "💡 सही उत्तर: A) ₹870।\nहल: SI = (P × R × T) / 100 = (8700 × 5 × 2) / 100 = ₹870.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-150"
+    },
+    {
+      "q": "[SSC Quantitative Problem #151] What is the simple interest on a principal of ₹8750 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1575",
+        "B) ₹1595",
+        "C) ₹1560",
+        "D) ₹1615"
+      ],
+      "ans": "A) ₹1575",
+      "exp": "💡 सही उत्तर: A) ₹1575।\nहल: SI = (P × R × T) / 100 = (8750 × 6 × 3) / 100 = ₹1575.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-151"
+    },
+    {
+      "q": "[SSC Quantitative Problem #152] What is the simple interest on a principal of ₹8800 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2464",
+        "B) ₹2484",
+        "C) ₹2449",
+        "D) ₹2504"
+      ],
+      "ans": "A) ₹2464",
+      "exp": "💡 सही उत्तर: A) ₹2464।\nहल: SI = (P × R × T) / 100 = (8800 × 7 × 4) / 100 = ₹2464.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-152"
+    },
+    {
+      "q": "[SSC Quantitative Problem #153] What is the simple interest on a principal of ₹8850 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1416",
+        "B) ₹1436",
+        "C) ₹1401",
+        "D) ₹1456"
+      ],
+      "ans": "A) ₹1416",
+      "exp": "💡 सही उत्तर: A) ₹1416।\nहल: SI = (P × R × T) / 100 = (8850 × 8 × 2) / 100 = ₹1416.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-153"
+    },
+    {
+      "q": "[SSC Quantitative Problem #154] What is the simple interest on a principal of ₹8900 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2403",
+        "B) ₹2423",
+        "C) ₹2388",
+        "D) ₹2443"
+      ],
+      "ans": "A) ₹2403",
+      "exp": "💡 सही उत्तर: A) ₹2403।\nहल: SI = (P × R × T) / 100 = (8900 × 9 × 3) / 100 = ₹2403.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-154"
+    },
+    {
+      "q": "[SSC Quantitative Problem #155] What is the simple interest on a principal of ₹8950 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3580",
+        "B) ₹3600",
+        "C) ₹3565",
+        "D) ₹3620"
+      ],
+      "ans": "A) ₹3580",
+      "exp": "💡 सही उत्तर: A) ₹3580।\nहल: SI = (P × R × T) / 100 = (8950 × 10 × 4) / 100 = ₹3580.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-155"
+    },
+    {
+      "q": "[SSC Quantitative Problem #156] What is the simple interest on a principal of ₹9000 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹900",
+        "B) ₹920",
+        "C) ₹885",
+        "D) ₹940"
+      ],
+      "ans": "A) ₹900",
+      "exp": "💡 सही उत्तर: A) ₹900।\nहल: SI = (P × R × T) / 100 = (9000 × 5 × 2) / 100 = ₹900.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-156"
+    },
+    {
+      "q": "[SSC Quantitative Problem #157] What is the simple interest on a principal of ₹9050 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1629",
+        "B) ₹1649",
+        "C) ₹1614",
+        "D) ₹1669"
+      ],
+      "ans": "A) ₹1629",
+      "exp": "💡 सही उत्तर: A) ₹1629।\nहल: SI = (P × R × T) / 100 = (9050 × 6 × 3) / 100 = ₹1629.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-157"
+    },
+    {
+      "q": "[SSC Quantitative Problem #158] What is the simple interest on a principal of ₹9100 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2548",
+        "B) ₹2568",
+        "C) ₹2533",
+        "D) ₹2588"
+      ],
+      "ans": "A) ₹2548",
+      "exp": "💡 सही उत्तर: A) ₹2548।\nहल: SI = (P × R × T) / 100 = (9100 × 7 × 4) / 100 = ₹2548.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-158"
+    },
+    {
+      "q": "[SSC Quantitative Problem #159] What is the simple interest on a principal of ₹9150 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1464",
+        "B) ₹1484",
+        "C) ₹1449",
+        "D) ₹1504"
+      ],
+      "ans": "A) ₹1464",
+      "exp": "💡 सही उत्तर: A) ₹1464।\nहल: SI = (P × R × T) / 100 = (9150 × 8 × 2) / 100 = ₹1464.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-159"
+    },
+    {
+      "q": "[SSC Quantitative Problem #160] What is the simple interest on a principal of ₹9200 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2484",
+        "B) ₹2504",
+        "C) ₹2469",
+        "D) ₹2524"
+      ],
+      "ans": "A) ₹2484",
+      "exp": "💡 सही उत्तर: A) ₹2484।\nहल: SI = (P × R × T) / 100 = (9200 × 9 × 3) / 100 = ₹2484.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-160"
+    },
+    {
+      "q": "[SSC Quantitative Problem #161] What is the simple interest on a principal of ₹9250 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3700",
+        "B) ₹3720",
+        "C) ₹3685",
+        "D) ₹3740"
+      ],
+      "ans": "A) ₹3700",
+      "exp": "💡 सही उत्तर: A) ₹3700।\nहल: SI = (P × R × T) / 100 = (9250 × 10 × 4) / 100 = ₹3700.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-161"
+    },
+    {
+      "q": "[SSC Quantitative Problem #162] What is the simple interest on a principal of ₹9300 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹930",
+        "B) ₹950",
+        "C) ₹915",
+        "D) ₹970"
+      ],
+      "ans": "A) ₹930",
+      "exp": "💡 सही उत्तर: A) ₹930।\nहल: SI = (P × R × T) / 100 = (9300 × 5 × 2) / 100 = ₹930.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-162"
+    },
+    {
+      "q": "[SSC Quantitative Problem #163] What is the simple interest on a principal of ₹9350 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1683",
+        "B) ₹1703",
+        "C) ₹1668",
+        "D) ₹1723"
+      ],
+      "ans": "A) ₹1683",
+      "exp": "💡 सही उत्तर: A) ₹1683।\nहल: SI = (P × R × T) / 100 = (9350 × 6 × 3) / 100 = ₹1683.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-163"
+    },
+    {
+      "q": "[SSC Quantitative Problem #164] What is the simple interest on a principal of ₹9400 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2632",
+        "B) ₹2652",
+        "C) ₹2617",
+        "D) ₹2672"
+      ],
+      "ans": "A) ₹2632",
+      "exp": "💡 सही उत्तर: A) ₹2632।\nहल: SI = (P × R × T) / 100 = (9400 × 7 × 4) / 100 = ₹2632.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-164"
+    },
+    {
+      "q": "[SSC Quantitative Problem #165] What is the simple interest on a principal of ₹9450 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1512",
+        "B) ₹1532",
+        "C) ₹1497",
+        "D) ₹1552"
+      ],
+      "ans": "A) ₹1512",
+      "exp": "💡 सही उत्तर: A) ₹1512।\nहल: SI = (P × R × T) / 100 = (9450 × 8 × 2) / 100 = ₹1512.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-165"
+    },
+    {
+      "q": "[SSC Quantitative Problem #166] What is the simple interest on a principal of ₹9500 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2565",
+        "B) ₹2585",
+        "C) ₹2550",
+        "D) ₹2605"
+      ],
+      "ans": "A) ₹2565",
+      "exp": "💡 सही उत्तर: A) ₹2565।\nहल: SI = (P × R × T) / 100 = (9500 × 9 × 3) / 100 = ₹2565.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-166"
+    },
+    {
+      "q": "[SSC Quantitative Problem #167] What is the simple interest on a principal of ₹9550 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3820",
+        "B) ₹3840",
+        "C) ₹3805",
+        "D) ₹3860"
+      ],
+      "ans": "A) ₹3820",
+      "exp": "💡 सही उत्तर: A) ₹3820।\nहल: SI = (P × R × T) / 100 = (9550 × 10 × 4) / 100 = ₹3820.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-167"
+    },
+    {
+      "q": "[SSC Quantitative Problem #168] What is the simple interest on a principal of ₹9600 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹960",
+        "B) ₹980",
+        "C) ₹945",
+        "D) ₹1000"
+      ],
+      "ans": "A) ₹960",
+      "exp": "💡 सही उत्तर: A) ₹960।\nहल: SI = (P × R × T) / 100 = (9600 × 5 × 2) / 100 = ₹960.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-168"
+    },
+    {
+      "q": "[SSC Quantitative Problem #169] What is the simple interest on a principal of ₹9650 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1737",
+        "B) ₹1757",
+        "C) ₹1722",
+        "D) ₹1777"
+      ],
+      "ans": "A) ₹1737",
+      "exp": "💡 सही उत्तर: A) ₹1737।\nहल: SI = (P × R × T) / 100 = (9650 × 6 × 3) / 100 = ₹1737.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-169"
+    },
+    {
+      "q": "[SSC Quantitative Problem #170] What is the simple interest on a principal of ₹9700 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2716",
+        "B) ₹2736",
+        "C) ₹2701",
+        "D) ₹2756"
+      ],
+      "ans": "A) ₹2716",
+      "exp": "💡 सही उत्तर: A) ₹2716।\nहल: SI = (P × R × T) / 100 = (9700 × 7 × 4) / 100 = ₹2716.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-170"
+    },
+    {
+      "q": "[SSC Quantitative Problem #171] What is the simple interest on a principal of ₹9750 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1560",
+        "B) ₹1580",
+        "C) ₹1545",
+        "D) ₹1600"
+      ],
+      "ans": "A) ₹1560",
+      "exp": "💡 सही उत्तर: A) ₹1560।\nहल: SI = (P × R × T) / 100 = (9750 × 8 × 2) / 100 = ₹1560.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-171"
+    },
+    {
+      "q": "[SSC Quantitative Problem #172] What is the simple interest on a principal of ₹9800 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2646",
+        "B) ₹2666",
+        "C) ₹2631",
+        "D) ₹2686"
+      ],
+      "ans": "A) ₹2646",
+      "exp": "💡 सही उत्तर: A) ₹2646।\nहल: SI = (P × R × T) / 100 = (9800 × 9 × 3) / 100 = ₹2646.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-172"
+    },
+    {
+      "q": "[SSC Quantitative Problem #173] What is the simple interest on a principal of ₹9850 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹3940",
+        "B) ₹3960",
+        "C) ₹3925",
+        "D) ₹3980"
+      ],
+      "ans": "A) ₹3940",
+      "exp": "💡 सही उत्तर: A) ₹3940।\nहल: SI = (P × R × T) / 100 = (9850 × 10 × 4) / 100 = ₹3940.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-173"
+    },
+    {
+      "q": "[SSC Quantitative Problem #174] What is the simple interest on a principal of ₹9900 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹990",
+        "B) ₹1010",
+        "C) ₹975",
+        "D) ₹1030"
+      ],
+      "ans": "A) ₹990",
+      "exp": "💡 सही उत्तर: A) ₹990।\nहल: SI = (P × R × T) / 100 = (9900 × 5 × 2) / 100 = ₹990.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-174"
+    },
+    {
+      "q": "[SSC Quantitative Problem #175] What is the simple interest on a principal of ₹9950 at an annual interest rate of 6% for a duration of 3 years?",
+      "options": [
+        "A) ₹1791",
+        "B) ₹1811",
+        "C) ₹1776",
+        "D) ₹1831"
+      ],
+      "ans": "A) ₹1791",
+      "exp": "💡 सही उत्तर: A) ₹1791।\nहल: SI = (P × R × T) / 100 = (9950 × 6 × 3) / 100 = ₹1791.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-175"
+    },
+    {
+      "q": "[SSC Quantitative Problem #176] What is the simple interest on a principal of ₹10000 at an annual interest rate of 7% for a duration of 4 years?",
+      "options": [
+        "A) ₹2800",
+        "B) ₹2820",
+        "C) ₹2785",
+        "D) ₹2840"
+      ],
+      "ans": "A) ₹2800",
+      "exp": "💡 सही उत्तर: A) ₹2800।\nहल: SI = (P × R × T) / 100 = (10000 × 7 × 4) / 100 = ₹2800.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-176"
+    },
+    {
+      "q": "[SSC Quantitative Problem #177] What is the simple interest on a principal of ₹10050 at an annual interest rate of 8% for a duration of 2 years?",
+      "options": [
+        "A) ₹1608",
+        "B) ₹1628",
+        "C) ₹1593",
+        "D) ₹1648"
+      ],
+      "ans": "A) ₹1608",
+      "exp": "💡 सही उत्तर: A) ₹1608।\nहल: SI = (P × R × T) / 100 = (10050 × 8 × 2) / 100 = ₹1608.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-177"
+    },
+    {
+      "q": "[SSC Quantitative Problem #178] What is the simple interest on a principal of ₹10100 at an annual interest rate of 9% for a duration of 3 years?",
+      "options": [
+        "A) ₹2727",
+        "B) ₹2747",
+        "C) ₹2712",
+        "D) ₹2767"
+      ],
+      "ans": "A) ₹2727",
+      "exp": "💡 सही उत्तर: A) ₹2727।\nहल: SI = (P × R × T) / 100 = (10100 × 9 × 3) / 100 = ₹2727.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-178"
+    },
+    {
+      "q": "[SSC Quantitative Problem #179] What is the simple interest on a principal of ₹10150 at an annual interest rate of 10% for a duration of 4 years?",
+      "options": [
+        "A) ₹4060",
+        "B) ₹4080",
+        "C) ₹4045",
+        "D) ₹4100"
+      ],
+      "ans": "A) ₹4060",
+      "exp": "💡 सही उत्तर: A) ₹4060।\nहल: SI = (P × R × T) / 100 = (10150 × 10 × 4) / 100 = ₹4060.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-179"
+    },
+    {
+      "q": "[SSC Quantitative Problem #180] What is the simple interest on a principal of ₹10200 at an annual interest rate of 5% for a duration of 2 years?",
+      "options": [
+        "A) ₹1020",
+        "B) ₹1040",
+        "C) ₹1005",
+        "D) ₹1060"
+      ],
+      "ans": "A) ₹1020",
+      "exp": "💡 सही उत्तर: A) ₹1020।\nहल: SI = (P × R × T) / 100 = (10200 × 5 × 2) / 100 = ₹1020.",
+      "chapter": "Simple Interest: Formula Application",
+      "pyqTag": "SSC CGL/CHSL Quantitative Set-180"
+    },
+    {
+      "q": "[SSC Quant Problem #191] Find the area of a square whose side measures 11 cm.",
+      "options": [
+        "A) 121 cm²",
+        "B) 111 cm²",
+        "C) 136 cm²",
+        "D) 101 cm²"
+      ],
+      "ans": "A) 121 cm²",
+      "exp": "💡 सही उत्तर: A) 121 cm²। Area of square = side² = 11 × 11 = 121 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-191"
+    },
+    {
+      "q": "[SSC Quant Problem #192] Find the area of a square whose side measures 12 cm.",
+      "options": [
+        "A) 144 cm²",
+        "B) 134 cm²",
+        "C) 159 cm²",
+        "D) 124 cm²"
+      ],
+      "ans": "A) 144 cm²",
+      "exp": "💡 सही उत्तर: A) 144 cm²। Area of square = side² = 12 × 12 = 144 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-192"
+    },
+    {
+      "q": "[SSC Quant Problem #193] Find the area of a square whose side measures 13 cm.",
+      "options": [
+        "A) 169 cm²",
+        "B) 159 cm²",
+        "C) 184 cm²",
+        "D) 149 cm²"
+      ],
+      "ans": "A) 169 cm²",
+      "exp": "💡 सही उत्तर: A) 169 cm²। Area of square = side² = 13 × 13 = 169 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-193"
+    },
+    {
+      "q": "[SSC Quant Problem #194] Find the area of a square whose side measures 14 cm.",
+      "options": [
+        "A) 196 cm²",
+        "B) 186 cm²",
+        "C) 211 cm²",
+        "D) 176 cm²"
+      ],
+      "ans": "A) 196 cm²",
+      "exp": "💡 सही उत्तर: A) 196 cm²। Area of square = side² = 14 × 14 = 196 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-194"
+    },
+    {
+      "q": "[SSC Quant Problem #195] Find the area of a square whose side measures 15 cm.",
+      "options": [
+        "A) 225 cm²",
+        "B) 215 cm²",
+        "C) 240 cm²",
+        "D) 205 cm²"
+      ],
+      "ans": "A) 225 cm²",
+      "exp": "💡 सही उत्तर: A) 225 cm²। Area of square = side² = 15 × 15 = 225 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-195"
+    },
+    {
+      "q": "[SSC Quant Problem #196] Find the area of a square whose side measures 16 cm.",
+      "options": [
+        "A) 256 cm²",
+        "B) 246 cm²",
+        "C) 271 cm²",
+        "D) 236 cm²"
+      ],
+      "ans": "A) 256 cm²",
+      "exp": "💡 सही उत्तर: A) 256 cm²। Area of square = side² = 16 × 16 = 256 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-196"
+    },
+    {
+      "q": "[SSC Quant Problem #197] Find the area of a square whose side measures 17 cm.",
+      "options": [
+        "A) 289 cm²",
+        "B) 279 cm²",
+        "C) 304 cm²",
+        "D) 269 cm²"
+      ],
+      "ans": "A) 289 cm²",
+      "exp": "💡 सही उत्तर: A) 289 cm²। Area of square = side² = 17 × 17 = 289 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-197"
+    },
+    {
+      "q": "[SSC Quant Problem #198] Find the area of a square whose side measures 18 cm.",
+      "options": [
+        "A) 324 cm²",
+        "B) 314 cm²",
+        "C) 339 cm²",
+        "D) 304 cm²"
+      ],
+      "ans": "A) 324 cm²",
+      "exp": "💡 सही उत्तर: A) 324 cm²। Area of square = side² = 18 × 18 = 324 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-198"
+    },
+    {
+      "q": "[SSC Quant Problem #199] Find the area of a square whose side measures 19 cm.",
+      "options": [
+        "A) 361 cm²",
+        "B) 351 cm²",
+        "C) 376 cm²",
+        "D) 341 cm²"
+      ],
+      "ans": "A) 361 cm²",
+      "exp": "💡 सही उत्तर: A) 361 cm²। Area of square = side² = 19 × 19 = 361 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-199"
+    },
+    {
+      "q": "[SSC Quant Problem #200] Find the area of a square whose side measures 20 cm.",
+      "options": [
+        "A) 400 cm²",
+        "B) 390 cm²",
+        "C) 415 cm²",
+        "D) 380 cm²"
+      ],
+      "ans": "A) 400 cm²",
+      "exp": "💡 सही उत्तर: A) 400 cm²। Area of square = side² = 20 × 20 = 400 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-200"
+    },
+    {
+      "q": "[SSC Quant Problem #201] Find the area of a square whose side measures 21 cm.",
+      "options": [
+        "A) 441 cm²",
+        "B) 431 cm²",
+        "C) 456 cm²",
+        "D) 421 cm²"
+      ],
+      "ans": "A) 441 cm²",
+      "exp": "💡 सही उत्तर: A) 441 cm²। Area of square = side² = 21 × 21 = 441 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-201"
+    },
+    {
+      "q": "[SSC Quant Problem #202] Find the area of a square whose side measures 22 cm.",
+      "options": [
+        "A) 484 cm²",
+        "B) 474 cm²",
+        "C) 499 cm²",
+        "D) 464 cm²"
+      ],
+      "ans": "A) 484 cm²",
+      "exp": "💡 सही उत्तर: A) 484 cm²। Area of square = side² = 22 × 22 = 484 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-202"
+    },
+    {
+      "q": "[SSC Quant Problem #203] Find the area of a square whose side measures 23 cm.",
+      "options": [
+        "A) 529 cm²",
+        "B) 519 cm²",
+        "C) 544 cm²",
+        "D) 509 cm²"
+      ],
+      "ans": "A) 529 cm²",
+      "exp": "💡 सही उत्तर: A) 529 cm²। Area of square = side² = 23 × 23 = 529 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-203"
+    },
+    {
+      "q": "[SSC Quant Problem #204] Find the area of a square whose side measures 24 cm.",
+      "options": [
+        "A) 576 cm²",
+        "B) 566 cm²",
+        "C) 591 cm²",
+        "D) 556 cm²"
+      ],
+      "ans": "A) 576 cm²",
+      "exp": "💡 सही उत्तर: A) 576 cm²। Area of square = side² = 24 × 24 = 576 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-204"
+    },
+    {
+      "q": "[SSC Quant Problem #205] Find the area of a square whose side measures 25 cm.",
+      "options": [
+        "A) 625 cm²",
+        "B) 615 cm²",
+        "C) 640 cm²",
+        "D) 605 cm²"
+      ],
+      "ans": "A) 625 cm²",
+      "exp": "💡 सही उत्तर: A) 625 cm²। Area of square = side² = 25 × 25 = 625 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-205"
+    },
+    {
+      "q": "[SSC Quant Problem #206] Find the area of a square whose side measures 26 cm.",
+      "options": [
+        "A) 676 cm²",
+        "B) 666 cm²",
+        "C) 691 cm²",
+        "D) 656 cm²"
+      ],
+      "ans": "A) 676 cm²",
+      "exp": "💡 सही उत्तर: A) 676 cm²। Area of square = side² = 26 × 26 = 676 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-206"
+    },
+    {
+      "q": "[SSC Quant Problem #207] Find the area of a square whose side measures 27 cm.",
+      "options": [
+        "A) 729 cm²",
+        "B) 719 cm²",
+        "C) 744 cm²",
+        "D) 709 cm²"
+      ],
+      "ans": "A) 729 cm²",
+      "exp": "💡 सही उत्तर: A) 729 cm²। Area of square = side² = 27 × 27 = 729 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-207"
+    },
+    {
+      "q": "[SSC Quant Problem #208] Find the area of a square whose side measures 28 cm.",
+      "options": [
+        "A) 784 cm²",
+        "B) 774 cm²",
+        "C) 799 cm²",
+        "D) 764 cm²"
+      ],
+      "ans": "A) 784 cm²",
+      "exp": "💡 सही उत्तर: A) 784 cm²। Area of square = side² = 28 × 28 = 784 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-208"
+    },
+    {
+      "q": "[SSC Quant Problem #209] Find the area of a square whose side measures 29 cm.",
+      "options": [
+        "A) 841 cm²",
+        "B) 831 cm²",
+        "C) 856 cm²",
+        "D) 821 cm²"
+      ],
+      "ans": "A) 841 cm²",
+      "exp": "💡 सही उत्तर: A) 841 cm²। Area of square = side² = 29 × 29 = 841 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-209"
+    },
+    {
+      "q": "[SSC Quant Problem #210] Find the area of a square whose side measures 30 cm.",
+      "options": [
+        "A) 900 cm²",
+        "B) 890 cm²",
+        "C) 915 cm²",
+        "D) 880 cm²"
+      ],
+      "ans": "A) 900 cm²",
+      "exp": "💡 सही उत्तर: A) 900 cm²। Area of square = side² = 30 × 30 = 900 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-210"
+    },
+    {
+      "q": "[SSC Quant Problem #211] Find the area of a square whose side measures 31 cm.",
+      "options": [
+        "A) 961 cm²",
+        "B) 951 cm²",
+        "C) 976 cm²",
+        "D) 941 cm²"
+      ],
+      "ans": "A) 961 cm²",
+      "exp": "💡 सही उत्तर: A) 961 cm²। Area of square = side² = 31 × 31 = 961 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-211"
+    },
+    {
+      "q": "[SSC Quant Problem #212] Find the area of a square whose side measures 32 cm.",
+      "options": [
+        "A) 1024 cm²",
+        "B) 1014 cm²",
+        "C) 1039 cm²",
+        "D) 1004 cm²"
+      ],
+      "ans": "A) 1024 cm²",
+      "exp": "💡 सही उत्तर: A) 1024 cm²। Area of square = side² = 32 × 32 = 1024 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-212"
+    },
+    {
+      "q": "[SSC Quant Problem #213] Find the area of a square whose side measures 33 cm.",
+      "options": [
+        "A) 1089 cm²",
+        "B) 1079 cm²",
+        "C) 1104 cm²",
+        "D) 1069 cm²"
+      ],
+      "ans": "A) 1089 cm²",
+      "exp": "💡 सही उत्तर: A) 1089 cm²। Area of square = side² = 33 × 33 = 1089 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-213"
+    },
+    {
+      "q": "[SSC Quant Problem #214] Find the area of a square whose side measures 34 cm.",
+      "options": [
+        "A) 1156 cm²",
+        "B) 1146 cm²",
+        "C) 1171 cm²",
+        "D) 1136 cm²"
+      ],
+      "ans": "A) 1156 cm²",
+      "exp": "💡 सही उत्तर: A) 1156 cm²। Area of square = side² = 34 × 34 = 1156 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-214"
+    },
+    {
+      "q": "[SSC Quant Problem #215] Find the area of a square whose side measures 35 cm.",
+      "options": [
+        "A) 1225 cm²",
+        "B) 1215 cm²",
+        "C) 1240 cm²",
+        "D) 1205 cm²"
+      ],
+      "ans": "A) 1225 cm²",
+      "exp": "💡 सही उत्तर: A) 1225 cm²। Area of square = side² = 35 × 35 = 1225 cm².",
+      "chapter": "Mensuration: Square",
+      "pyqTag": "SSC CGL/CHSL Practice Set-215"
+    }
+  ],
+  "subjectives": []
+}

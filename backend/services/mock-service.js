@@ -1098,6 +1098,12 @@ class MockService {
     if (cleanSecondaryQ.toLowerCase() === cleanPrimaryQ.toLowerCase()) {
       cleanSecondaryQ = '';
     }
+    if (!cleanSecondaryQ && !isLanguageSubject) {
+      const match = (pData.q || '').match(/\[(?:English|अंग्रेजी|अंग्रेज़ी):\s*([^\]]+)\]/i) || (pData.q || '').match(/\n\[([^\]]+)\]/);
+      if (match) {
+        cleanSecondaryQ = (match[1] || match[0]).replace(/^\[|\]$/g, '').trim();
+      }
+    }
 
     const pOpts = pData.options || [];
     const sOpts = sData.options || [];
