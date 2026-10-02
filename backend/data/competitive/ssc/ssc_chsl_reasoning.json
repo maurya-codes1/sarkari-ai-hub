@@ -1,0 +1,4630 @@
+{
+  "examVersionId": "ver-ssc-chsl-2026",
+  "stage": "Tier-1 / Prelims",
+  "subjectId": "subj-reasoning",
+  "subjectName": "General Intelligence",
+  "language": "hi",
+  "objectives": [
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 5, 10, 17, 26, ?",
+      "options": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "ans": "A) 37",
+      "exp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 5, 10, 17, 26, ?",
+      "enOptions": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "enAns": "A) 37",
+      "enExp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 4, 9, 16, 25, ?",
+      "options": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "ans": "A) 36",
+      "exp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 4, 9, 16, 25, ?",
+      "enOptions": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "enAns": "A) 36",
+      "enExp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n3, 7, 15, 31, 63, ?",
+      "options": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "ans": "A) 127",
+      "exp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n3, 7, 15, 31, 63, ?",
+      "enOptions": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "enAns": "A) 127",
+      "enExp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 6, 12, 20, 30, ?",
+      "options": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "ans": "A) 42",
+      "exp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 6, 12, 20, 30, ?",
+      "enOptions": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "enAns": "A) 42",
+      "enExp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n5, 11, 23, 47, 95, ?",
+      "options": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "ans": "A) 191",
+      "exp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n5, 11, 23, 47, 95, ?",
+      "enOptions": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "enAns": "A) 191",
+      "enExp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n10, 18, 28, 40, 54, ?",
+      "options": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "ans": "A) 70",
+      "exp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n10, 18, 28, 40, 54, ?",
+      "enOptions": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "enAns": "A) 70",
+      "enExp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n4, 9, 19, 39, 79, ?",
+      "options": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "ans": "A) 159",
+      "exp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n4, 9, 19, 39, 79, ?",
+      "enOptions": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "enAns": "A) 159",
+      "enExp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n100, 96, 90, 82, 72, ?",
+      "options": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "ans": "A) 60",
+      "exp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n100, 96, 90, 82, 72, ?",
+      "enOptions": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "enAns": "A) 60",
+      "enExp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 8, 27, 64, 125, ?",
+      "options": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "ans": "A) 216",
+      "exp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 8, 27, 64, 125, ?",
+      "enOptions": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "enAns": "A) 216",
+      "enExp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 3, 5, 7, 11, 13, ?",
+      "options": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "ans": "A) 17",
+      "exp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 3, 5, 7, 11, 13, ?",
+      "enOptions": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "enAns": "A) 17",
+      "enExp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n7, 14, 28, 56, 112, ?",
+      "options": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "ans": "A) 224",
+      "exp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n7, 14, 28, 56, 112, ?",
+      "enOptions": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "enAns": "A) 224",
+      "enExp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n0, 7, 26, 63, 124, ?",
+      "options": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "ans": "A) 215",
+      "exp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n0, 7, 26, 63, 124, ?",
+      "enOptions": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "enAns": "A) 215",
+      "enExp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 9, 28, 65, 126, ?",
+      "options": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "ans": "A) 217",
+      "exp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 9, 28, 65, 126, ?",
+      "enOptions": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "enAns": "A) 217",
+      "enExp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n12, 23, 34, 45, 56, ?",
+      "options": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "ans": "A) 67",
+      "exp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n12, 23, 34, 45, 56, ?",
+      "enOptions": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "enAns": "A) 67",
+      "enExp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 2, 4, 7, 11, 16, ?",
+      "options": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "ans": "A) 22",
+      "exp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 2, 4, 7, 11, 16, ?",
+      "enOptions": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "enAns": "A) 22",
+      "enExp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'APPLE' को 'BQQMF' लिखा जाता है, तो उसी कूट भाषा में 'MANGO' को क्या लिखा जाएगा?",
+      "options": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "ans": "A) NBOHP",
+      "exp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'APPLE' is coded as 'BQQMF', how will 'MANGO' be coded in that language?",
+      "enOptions": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "enAns": "A) NBOHP",
+      "enExp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'TIGER' को 'VKIGT' लिखा जाता है, तो उसी कूट भाषा में 'HORSE' को क्या लिखा जाएगा?",
+      "options": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "ans": "A) JQTIH",
+      "exp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'TIGER' is coded as 'VKIGT', how will 'HORSE' be coded in that language?",
+      "enOptions": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "enAns": "A) JQTIH",
+      "enExp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'LIGHT' को 'KHFGS' लिखा जाता है, तो उसी कूट भाषा में 'FLAME' को क्या लिखा जाएगा?",
+      "options": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "ans": "A) EKZLD",
+      "exp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'LIGHT' is coded as 'KHFGS', how will 'FLAME' be coded in that language?",
+      "enOptions": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "enAns": "A) EKZLD",
+      "enExp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'SMART' को 'TOBSU' लिखा जाता है, तो उसी कूट भाषा में 'BRAIN' को क्या लिखा जाएगा?",
+      "options": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "ans": "A) CSBJO",
+      "exp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'SMART' is coded as 'TOBSU', how will 'BRAIN' be coded in that language?",
+      "enOptions": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "enAns": "A) CSBJO",
+      "enExp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'DELHI' को 'CCIDD' लिखा जाता है, तो उसी कूट भाषा में 'MUMBAI' को क्या लिखा जाएगा?",
+      "options": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "ans": "A) LTLAZE",
+      "exp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'DELHI' is coded as 'CCIDD', how will 'MUMBAI' be coded in that language?",
+      "enOptions": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "enAns": "A) LTLAZE",
+      "enExp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'CAT' को 'XZG' लिखा जाता है, तो उसी कूट भाषा में 'DOG' को क्या लिखा जाएगा?",
+      "options": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "ans": "A) WLT",
+      "exp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'CAT' is coded as 'XZG', how will 'DOG' be coded in that language?",
+      "enOptions": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "enAns": "A) WLT",
+      "enExp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'KING' को 'PRMT' लिखा जाता है, तो उसी कूट भाषा में 'QUEEN' को क्या लिखा जाएगा?",
+      "options": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "ans": "A) JFHHM",
+      "exp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'KING' is coded as 'PRMT', how will 'QUEEN' be coded in that language?",
+      "enOptions": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "enAns": "A) JFHHM",
+      "enExp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'ROSE' को 'ILHV' लिखा जाता है, तो उसी कूट भाषा में 'LILY' को क्या लिखा जाएगा?",
+      "options": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "ans": "A) OROB",
+      "exp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'ROSE' is coded as 'ILHV', how will 'LILY' be coded in that language?",
+      "enOptions": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "enAns": "A) OROB",
+      "enExp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nभारत : नई दिल्ली :: जापान : ?",
+      "options": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "ans": "A) टोक्यो",
+      "exp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nभारत : नई दिल्ली :: जापान : ?",
+      "enOptions": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "enAns": "A) टोक्यो",
+      "enExp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nमीटर : लंबाई :: किलोग्राम : ?",
+      "options": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "ans": "A) द्रव्यमान (Mass)",
+      "exp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nमीटर : लंबाई :: किलोग्राम : ?",
+      "enOptions": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "enAns": "A) द्रव्यमान (Mass)",
+      "enExp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ?",
+      "options": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "ans": "A) भूकंप की तीव्रता",
+      "exp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ?",
+      "enOptions": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "enAns": "A) भूकंप की तीव्रता",
+      "enExp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकलम : लेखक :: आरी : ?",
+      "options": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "ans": "A) बढ़ई (Carpenter)",
+      "exp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकलम : लेखक :: आरी : ?",
+      "enOptions": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "enAns": "A) बढ़ई (Carpenter)",
+      "enExp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ?",
+      "options": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "ans": "A) छेनी (Chisel)",
+      "exp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ?",
+      "enOptions": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "enAns": "A) छेनी (Chisel)",
+      "enExp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nसूर्य : दिन :: चंद्रमा : ?",
+      "options": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "ans": "A) रात",
+      "exp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nसूर्य : दिन :: चंद्रमा : ?",
+      "enOptions": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "enAns": "A) रात",
+      "enExp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकुत्ता : भौंकना :: शेर : ?",
+      "options": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "ans": "A) दहाड़ना (Roar)",
+      "exp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकुत्ता : भौंकना :: शेर : ?",
+      "enOptions": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "enAns": "A) दहाड़ना (Roar)",
+      "enExp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ?",
+      "options": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "ans": "A) हैजा (Cholera)",
+      "exp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ?",
+      "enOptions": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "enAns": "A) हैजा (Cholera)",
+      "enExp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।"
+    },
+    {
+      "q": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, 'यह मेरे पिता के इकलौते पुत्र की पत्नी है।' वह महिला उस व्यक्ति से किस प्रकार संबंधित है?",
+      "options": [
+        "A) पत्नी (Wife)",
+        "B) बहन",
+        "C) माता",
+        "D) भाभी"
+      ],
+      "ans": "A) पत्नी (Wife)",
+      "exp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Pointing to a photograph, a man said, 'She is the wife of the only son of my father.' How is the woman related to the man?",
+      "enOptions": [
+        "A) Wife",
+        "B) Sister",
+        "C) Mother",
+        "D) Sister-in-law"
+      ],
+      "enAns": "A) Wife",
+      "enExp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।"
+    },
+    {
+      "q": "A, B का भाई है। C, A की माता है। D, C का पिता है। E, B का पुत्र है। D का A से क्या संबंध है?",
+      "options": [
+        "A) नाना (Maternal Grandfather)",
+        "B) दादा",
+        "C) पिता",
+        "D) चाचा"
+      ],
+      "ans": "A) नाना (Maternal Grandfather)",
+      "exp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "A is brother of B. C is mother of A. D is father of C. E is son of B. How is D related to A?",
+      "enOptions": [
+        "A) Maternal Grandfather",
+        "B) Grandfather",
+        "C) Father",
+        "D) Uncle"
+      ],
+      "enAns": "A) Maternal Grandfather",
+      "enExp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।"
+    },
+    {
+      "q": "सीमा, राहुल से कहती है, 'तुम्हारी बहन के पिता मेरी नानी के इकलौते दामाद हैं।' सीमा का राहुल से क्या संबंध है?",
+      "options": [
+        "A) बहन (Sister)",
+        "B) मौसी",
+        "C) माता",
+        "D) चचेरी बहन"
+      ],
+      "ans": "A) बहन (Sister)",
+      "exp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Seema says to Rahul, 'Your sister's father is the only son-in-law of my maternal grandmother.' How is Seema related to Rahul?",
+      "enOptions": [
+        "A) Sister",
+        "B) Aunt",
+        "C) Mother",
+        "D) Cousin"
+      ],
+      "enAns": "A) Sister",
+      "enExp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 3 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 4 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 5 किमी, उत्तर-पूर्व",
+        "B) 7 किमी, उत्तर",
+        "C) 5 किमी, दक्षिण-पूर्व",
+        "D) 7 किमी, पूर्व"
+      ],
+      "ans": "A) 5 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 3 km East from his house, then turns left and walks 4 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 5 km, North-East",
+        "B) 7 km, North",
+        "C) 5 km, South-East",
+        "D) 7 km, East"
+      ],
+      "enAns": "A) 5 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 6 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 8 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 10 किमी, उत्तर-पूर्व",
+        "B) 14 किमी, उत्तर",
+        "C) 10 किमी, दक्षिण-पूर्व",
+        "D) 12 किमी, पूर्व"
+      ],
+      "ans": "A) 10 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 6 km East from his house, then turns left and walks 8 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 10 km, North-East",
+        "B) 14 km, North",
+        "C) 10 km, South-East",
+        "D) 12 km, East"
+      ],
+      "enAns": "A) 10 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 5 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 13 किमी, उत्तर-पूर्व",
+        "B) 17 किमी, उत्तर",
+        "C) 13 किमी, दक्षिण-पूर्व",
+        "D) 15 किमी, पूर्व"
+      ],
+      "ans": "A) 13 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 5 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 13 km, North-East",
+        "B) 17 km, North",
+        "C) 13 km, South-East",
+        "D) 15 km, East"
+      ],
+      "enAns": "A) 13 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 9 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 15 किमी, उत्तर-पूर्व",
+        "B) 21 किमी, उत्तर",
+        "C) 15 किमी, दक्षिण-पूर्व",
+        "D) 17 किमी, पूर्व"
+      ],
+      "ans": "A) 15 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 9 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 15 km, North-East",
+        "B) 21 km, North",
+        "C) 15 km, South-East",
+        "D) 17 km, East"
+      ],
+      "enAns": "A) 15 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 8 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 15 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 17 किमी, उत्तर-पूर्व",
+        "B) 23 किमी, उत्तर",
+        "C) 17 किमी, दक्षिण-पूर्व",
+        "D) 19 किमी, पूर्व"
+      ],
+      "ans": "A) 17 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 8 km East from his house, then turns left and walks 15 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 17 km, North-East",
+        "B) 23 km, North",
+        "C) 17 km, South-East",
+        "D) 19 km, East"
+      ],
+      "enAns": "A) 17 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 7 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 24 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 25 किमी, उत्तर-पूर्व",
+        "B) 31 किमी, उत्तर",
+        "C) 25 किमी, दक्षिण-पूर्व",
+        "D) 27 किमी, पूर्व"
+      ],
+      "ans": "A) 25 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 7 km East from his house, then turns left and walks 24 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 25 km, North-East",
+        "B) 31 km, North",
+        "C) 25 km, South-East",
+        "D) 27 km, East"
+      ],
+      "enAns": "A) 25 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 12 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 16 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है?",
+      "options": [
+        "A) 20 किमी, उत्तर-पूर्व",
+        "B) 28 किमी, उत्तर",
+        "C) 20 किमी, दक्षिण-पूर्व",
+        "D) 22 किमी, पूर्व"
+      ],
+      "ans": "A) 20 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 12 km East from his house, then turns left and walks 16 km North. What is the shortest distance and direction from his starting point?",
+      "enOptions": [
+        "A) 20 km, North-East",
+        "B) 28 km, North",
+        "C) 20 km, South-East",
+        "D) 22 km, East"
+      ],
+      "enAns": "A) 20 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "कथन:\n1. सभी पेन किताबें हैं।\n2. सभी किताबें कापियां हैं।\nनिष्कर्ष:\nI. सभी पेन कापियां हैं।\nII. कुछ कापियां पेन हैं।",
+      "options": [
+        "A) निष्कर्ष I और II दोनों निकलते हैं",
+        "B) केवल निष्कर्ष I निकलता है",
+        "C) केवल निष्कर्ष II निकलता है",
+        "D) न तो I और न ही II निकलता है"
+      ],
+      "ans": "A) निष्कर्ष I और II दोनों निकलते हैं",
+      "exp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. All pens are books.\n2. All books are copies.\nConclusions:\nI. All pens are copies.\nII. Some copies are pens.",
+      "enOptions": [
+        "A) Both conclusions I and II follow",
+        "B) Only conclusion I follows",
+        "C) Only conclusion II follows",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Both conclusions I and II follow",
+      "enExp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।"
+    },
+    {
+      "q": "कथन:\n1. कुछ फूल लाल हैं।\n2. सभी लाल फल हैं।\nनिष्कर्ष:\nI. कुछ फूल फल हैं।\nII. सभी फल लाल हैं।",
+      "options": [
+        "A) केवल निष्कर्ष I निकलता है",
+        "B) केवल निष्कर्ष II निकलता है",
+        "C) दोनों निष्कर्ष निकलते हैं",
+        "D) कोई निष्कर्ष नहीं निकलता"
+      ],
+      "ans": "A) केवल निष्कर्ष I निकलता है",
+      "exp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. Some flowers are red.\n2. All red are fruits.\nConclusions:\nI. Some flowers are fruits.\nII. All fruits are red.",
+      "enOptions": [
+        "A) Only conclusion I follows",
+        "B) Only conclusion II follows",
+        "C) Both follow",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Only conclusion I follows",
+      "enExp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।"
+    },
+    {
+      "q": "घड़ी में समय 3:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "ans": "A) 90°",
+      "exp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 3:00 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "enAns": "A) 90°",
+      "enExp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।"
+    },
+    {
+      "q": "घड़ी में समय 4:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "ans": "A) 120°",
+      "exp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 4:00 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "enAns": "A) 120°",
+      "enExp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।"
+    },
+    {
+      "q": "घड़ी में समय 5:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "ans": "A) 150°",
+      "exp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 5:00 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "enAns": "A) 150°",
+      "enExp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।"
+    },
+    {
+      "q": "घड़ी में समय 2:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "ans": "A) 50°",
+      "exp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 2:20 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "enAns": "A) 50°",
+      "enExp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।"
+    },
+    {
+      "q": "घड़ी में समय 8:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "ans": "A) 130°",
+      "exp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 8:20 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "enAns": "A) 130°",
+      "enExp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।"
+    },
+    {
+      "q": "घड़ी में समय 7:30 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "ans": "A) 45°",
+      "exp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 7:30 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "enAns": "A) 45°",
+      "enExp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।"
+    },
+    {
+      "q": "घड़ी में समय 10:10 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा?",
+      "options": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "ans": "A) 115°",
+      "exp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 10:10 o'clock, what is the angle between the hour hand and the minute hand of a clock?",
+      "enOptions": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "enAns": "A) 115°",
+      "enExp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 5, 10, 17, 26, ? (अभ्यास प्रश्न #51)",
+      "options": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "ans": "A) 37",
+      "exp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 5, 10, 17, 26, ? (Practice Set #51)",
+      "enOptions": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "enAns": "A) 37",
+      "enExp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 4, 9, 16, 25, ? (अभ्यास प्रश्न #52)",
+      "options": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "ans": "A) 36",
+      "exp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 4, 9, 16, 25, ? (Practice Set #52)",
+      "enOptions": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "enAns": "A) 36",
+      "enExp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n3, 7, 15, 31, 63, ? (अभ्यास प्रश्न #53)",
+      "options": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "ans": "A) 127",
+      "exp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n3, 7, 15, 31, 63, ? (Practice Set #53)",
+      "enOptions": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "enAns": "A) 127",
+      "enExp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 6, 12, 20, 30, ? (अभ्यास प्रश्न #54)",
+      "options": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "ans": "A) 42",
+      "exp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 6, 12, 20, 30, ? (Practice Set #54)",
+      "enOptions": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "enAns": "A) 42",
+      "enExp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n5, 11, 23, 47, 95, ? (अभ्यास प्रश्न #55)",
+      "options": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "ans": "A) 191",
+      "exp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n5, 11, 23, 47, 95, ? (Practice Set #55)",
+      "enOptions": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "enAns": "A) 191",
+      "enExp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n10, 18, 28, 40, 54, ? (अभ्यास प्रश्न #56)",
+      "options": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "ans": "A) 70",
+      "exp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n10, 18, 28, 40, 54, ? (Practice Set #56)",
+      "enOptions": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "enAns": "A) 70",
+      "enExp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n4, 9, 19, 39, 79, ? (अभ्यास प्रश्न #57)",
+      "options": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "ans": "A) 159",
+      "exp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n4, 9, 19, 39, 79, ? (Practice Set #57)",
+      "enOptions": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "enAns": "A) 159",
+      "enExp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n100, 96, 90, 82, 72, ? (अभ्यास प्रश्न #58)",
+      "options": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "ans": "A) 60",
+      "exp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n100, 96, 90, 82, 72, ? (Practice Set #58)",
+      "enOptions": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "enAns": "A) 60",
+      "enExp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 8, 27, 64, 125, ? (अभ्यास प्रश्न #59)",
+      "options": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "ans": "A) 216",
+      "exp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 8, 27, 64, 125, ? (Practice Set #59)",
+      "enOptions": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "enAns": "A) 216",
+      "enExp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 3, 5, 7, 11, 13, ? (अभ्यास प्रश्न #60)",
+      "options": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "ans": "A) 17",
+      "exp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 3, 5, 7, 11, 13, ? (Practice Set #60)",
+      "enOptions": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "enAns": "A) 17",
+      "enExp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n7, 14, 28, 56, 112, ? (अभ्यास प्रश्न #61)",
+      "options": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "ans": "A) 224",
+      "exp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n7, 14, 28, 56, 112, ? (Practice Set #61)",
+      "enOptions": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "enAns": "A) 224",
+      "enExp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n0, 7, 26, 63, 124, ? (अभ्यास प्रश्न #62)",
+      "options": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "ans": "A) 215",
+      "exp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n0, 7, 26, 63, 124, ? (Practice Set #62)",
+      "enOptions": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "enAns": "A) 215",
+      "enExp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 9, 28, 65, 126, ? (अभ्यास प्रश्न #63)",
+      "options": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "ans": "A) 217",
+      "exp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 9, 28, 65, 126, ? (Practice Set #63)",
+      "enOptions": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "enAns": "A) 217",
+      "enExp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n12, 23, 34, 45, 56, ? (अभ्यास प्रश्न #64)",
+      "options": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "ans": "A) 67",
+      "exp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n12, 23, 34, 45, 56, ? (Practice Set #64)",
+      "enOptions": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "enAns": "A) 67",
+      "enExp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 2, 4, 7, 11, 16, ? (अभ्यास प्रश्न #65)",
+      "options": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "ans": "A) 22",
+      "exp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 2, 4, 7, 11, 16, ? (Practice Set #65)",
+      "enOptions": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "enAns": "A) 22",
+      "enExp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'APPLE' को 'BQQMF' लिखा जाता है, तो उसी कूट भाषा में 'MANGO' को क्या लिखा जाएगा? (अभ्यास प्रश्न #66)",
+      "options": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "ans": "A) NBOHP",
+      "exp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'APPLE' is coded as 'BQQMF', how will 'MANGO' be coded in that language? (Practice Set #66)",
+      "enOptions": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "enAns": "A) NBOHP",
+      "enExp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'TIGER' को 'VKIGT' लिखा जाता है, तो उसी कूट भाषा में 'HORSE' को क्या लिखा जाएगा? (अभ्यास प्रश्न #67)",
+      "options": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "ans": "A) JQTIH",
+      "exp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'TIGER' is coded as 'VKIGT', how will 'HORSE' be coded in that language? (Practice Set #67)",
+      "enOptions": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "enAns": "A) JQTIH",
+      "enExp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'LIGHT' को 'KHFGS' लिखा जाता है, तो उसी कूट भाषा में 'FLAME' को क्या लिखा जाएगा? (अभ्यास प्रश्न #68)",
+      "options": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "ans": "A) EKZLD",
+      "exp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'LIGHT' is coded as 'KHFGS', how will 'FLAME' be coded in that language? (Practice Set #68)",
+      "enOptions": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "enAns": "A) EKZLD",
+      "enExp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'SMART' को 'TOBSU' लिखा जाता है, तो उसी कूट भाषा में 'BRAIN' को क्या लिखा जाएगा? (अभ्यास प्रश्न #69)",
+      "options": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "ans": "A) CSBJO",
+      "exp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'SMART' is coded as 'TOBSU', how will 'BRAIN' be coded in that language? (Practice Set #69)",
+      "enOptions": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "enAns": "A) CSBJO",
+      "enExp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'DELHI' को 'CCIDD' लिखा जाता है, तो उसी कूट भाषा में 'MUMBAI' को क्या लिखा जाएगा? (अभ्यास प्रश्न #70)",
+      "options": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "ans": "A) LTLAZE",
+      "exp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'DELHI' is coded as 'CCIDD', how will 'MUMBAI' be coded in that language? (Practice Set #70)",
+      "enOptions": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "enAns": "A) LTLAZE",
+      "enExp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'CAT' को 'XZG' लिखा जाता है, तो उसी कूट भाषा में 'DOG' को क्या लिखा जाएगा? (अभ्यास प्रश्न #71)",
+      "options": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "ans": "A) WLT",
+      "exp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'CAT' is coded as 'XZG', how will 'DOG' be coded in that language? (Practice Set #71)",
+      "enOptions": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "enAns": "A) WLT",
+      "enExp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'KING' को 'PRMT' लिखा जाता है, तो उसी कूट भाषा में 'QUEEN' को क्या लिखा जाएगा? (अभ्यास प्रश्न #72)",
+      "options": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "ans": "A) JFHHM",
+      "exp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'KING' is coded as 'PRMT', how will 'QUEEN' be coded in that language? (Practice Set #72)",
+      "enOptions": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "enAns": "A) JFHHM",
+      "enExp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'ROSE' को 'ILHV' लिखा जाता है, तो उसी कूट भाषा में 'LILY' को क्या लिखा जाएगा? (अभ्यास प्रश्न #73)",
+      "options": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "ans": "A) OROB",
+      "exp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'ROSE' is coded as 'ILHV', how will 'LILY' be coded in that language? (Practice Set #73)",
+      "enOptions": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "enAns": "A) OROB",
+      "enExp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nभारत : नई दिल्ली :: जापान : ? (अभ्यास प्रश्न #74)",
+      "options": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "ans": "A) टोक्यो",
+      "exp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nभारत : नई दिल्ली :: जापान : ? (Practice Set #74)",
+      "enOptions": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "enAns": "A) टोक्यो",
+      "enExp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nमीटर : लंबाई :: किलोग्राम : ? (अभ्यास प्रश्न #75)",
+      "options": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "ans": "A) द्रव्यमान (Mass)",
+      "exp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nमीटर : लंबाई :: किलोग्राम : ? (Practice Set #75)",
+      "enOptions": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "enAns": "A) द्रव्यमान (Mass)",
+      "enExp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ? (अभ्यास प्रश्न #76)",
+      "options": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "ans": "A) भूकंप की तीव्रता",
+      "exp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ? (Practice Set #76)",
+      "enOptions": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "enAns": "A) भूकंप की तीव्रता",
+      "enExp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकलम : लेखक :: आरी : ? (अभ्यास प्रश्न #77)",
+      "options": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "ans": "A) बढ़ई (Carpenter)",
+      "exp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकलम : लेखक :: आरी : ? (Practice Set #77)",
+      "enOptions": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "enAns": "A) बढ़ई (Carpenter)",
+      "enExp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ? (अभ्यास प्रश्न #78)",
+      "options": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "ans": "A) छेनी (Chisel)",
+      "exp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ? (Practice Set #78)",
+      "enOptions": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "enAns": "A) छेनी (Chisel)",
+      "enExp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nसूर्य : दिन :: चंद्रमा : ? (अभ्यास प्रश्न #79)",
+      "options": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "ans": "A) रात",
+      "exp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nसूर्य : दिन :: चंद्रमा : ? (Practice Set #79)",
+      "enOptions": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "enAns": "A) रात",
+      "enExp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकुत्ता : भौंकना :: शेर : ? (अभ्यास प्रश्न #80)",
+      "options": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "ans": "A) दहाड़ना (Roar)",
+      "exp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकुत्ता : भौंकना :: शेर : ? (Practice Set #80)",
+      "enOptions": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "enAns": "A) दहाड़ना (Roar)",
+      "enExp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ? (अभ्यास प्रश्न #81)",
+      "options": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "ans": "A) हैजा (Cholera)",
+      "exp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ? (Practice Set #81)",
+      "enOptions": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "enAns": "A) हैजा (Cholera)",
+      "enExp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।"
+    },
+    {
+      "q": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, 'यह मेरे पिता के इकलौते पुत्र की पत्नी है।' वह महिला उस व्यक्ति से किस प्रकार संबंधित है? (अभ्यास प्रश्न #82)",
+      "options": [
+        "A) पत्नी (Wife)",
+        "B) बहन",
+        "C) माता",
+        "D) भाभी"
+      ],
+      "ans": "A) पत्नी (Wife)",
+      "exp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Pointing to a photograph, a man said, 'She is the wife of the only son of my father.' How is the woman related to the man? (Practice Set #82)",
+      "enOptions": [
+        "A) Wife",
+        "B) Sister",
+        "C) Mother",
+        "D) Sister-in-law"
+      ],
+      "enAns": "A) Wife",
+      "enExp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।"
+    },
+    {
+      "q": "A, B का भाई है। C, A की माता है। D, C का पिता है। E, B का पुत्र है। D का A से क्या संबंध है? (अभ्यास प्रश्न #83)",
+      "options": [
+        "A) नाना (Maternal Grandfather)",
+        "B) दादा",
+        "C) पिता",
+        "D) चाचा"
+      ],
+      "ans": "A) नाना (Maternal Grandfather)",
+      "exp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "A is brother of B. C is mother of A. D is father of C. E is son of B. How is D related to A? (Practice Set #83)",
+      "enOptions": [
+        "A) Maternal Grandfather",
+        "B) Grandfather",
+        "C) Father",
+        "D) Uncle"
+      ],
+      "enAns": "A) Maternal Grandfather",
+      "enExp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।"
+    },
+    {
+      "q": "सीमा, राहुल से कहती है, 'तुम्हारी बहन के पिता मेरी नानी के इकलौते दामाद हैं।' सीमा का राहुल से क्या संबंध है? (अभ्यास प्रश्न #84)",
+      "options": [
+        "A) बहन (Sister)",
+        "B) मौसी",
+        "C) माता",
+        "D) चचेरी बहन"
+      ],
+      "ans": "A) बहन (Sister)",
+      "exp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Seema says to Rahul, 'Your sister's father is the only son-in-law of my maternal grandmother.' How is Seema related to Rahul? (Practice Set #84)",
+      "enOptions": [
+        "A) Sister",
+        "B) Aunt",
+        "C) Mother",
+        "D) Cousin"
+      ],
+      "enAns": "A) Sister",
+      "enExp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 3 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 4 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #85)",
+      "options": [
+        "A) 5 किमी, उत्तर-पूर्व",
+        "B) 7 किमी, उत्तर",
+        "C) 5 किमी, दक्षिण-पूर्व",
+        "D) 7 किमी, पूर्व"
+      ],
+      "ans": "A) 5 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 3 km East from his house, then turns left and walks 4 km North. What is the shortest distance and direction from his starting point? (Practice Set #85)",
+      "enOptions": [
+        "A) 5 km, North-East",
+        "B) 7 km, North",
+        "C) 5 km, South-East",
+        "D) 7 km, East"
+      ],
+      "enAns": "A) 5 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 6 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 8 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #86)",
+      "options": [
+        "A) 10 किमी, उत्तर-पूर्व",
+        "B) 14 किमी, उत्तर",
+        "C) 10 किमी, दक्षिण-पूर्व",
+        "D) 12 किमी, पूर्व"
+      ],
+      "ans": "A) 10 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 6 km East from his house, then turns left and walks 8 km North. What is the shortest distance and direction from his starting point? (Practice Set #86)",
+      "enOptions": [
+        "A) 10 km, North-East",
+        "B) 14 km, North",
+        "C) 10 km, South-East",
+        "D) 12 km, East"
+      ],
+      "enAns": "A) 10 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 5 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #87)",
+      "options": [
+        "A) 13 किमी, उत्तर-पूर्व",
+        "B) 17 किमी, उत्तर",
+        "C) 13 किमी, दक्षिण-पूर्व",
+        "D) 15 किमी, पूर्व"
+      ],
+      "ans": "A) 13 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 5 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point? (Practice Set #87)",
+      "enOptions": [
+        "A) 13 km, North-East",
+        "B) 17 km, North",
+        "C) 13 km, South-East",
+        "D) 15 km, East"
+      ],
+      "enAns": "A) 13 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 9 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #88)",
+      "options": [
+        "A) 15 किमी, उत्तर-पूर्व",
+        "B) 21 किमी, उत्तर",
+        "C) 15 किमी, दक्षिण-पूर्व",
+        "D) 17 किमी, पूर्व"
+      ],
+      "ans": "A) 15 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 9 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point? (Practice Set #88)",
+      "enOptions": [
+        "A) 15 km, North-East",
+        "B) 21 km, North",
+        "C) 15 km, South-East",
+        "D) 17 km, East"
+      ],
+      "enAns": "A) 15 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 8 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 15 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #89)",
+      "options": [
+        "A) 17 किमी, उत्तर-पूर्व",
+        "B) 23 किमी, उत्तर",
+        "C) 17 किमी, दक्षिण-पूर्व",
+        "D) 19 किमी, पूर्व"
+      ],
+      "ans": "A) 17 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 8 km East from his house, then turns left and walks 15 km North. What is the shortest distance and direction from his starting point? (Practice Set #89)",
+      "enOptions": [
+        "A) 17 km, North-East",
+        "B) 23 km, North",
+        "C) 17 km, South-East",
+        "D) 19 km, East"
+      ],
+      "enAns": "A) 17 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 7 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 24 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #90)",
+      "options": [
+        "A) 25 किमी, उत्तर-पूर्व",
+        "B) 31 किमी, उत्तर",
+        "C) 25 किमी, दक्षिण-पूर्व",
+        "D) 27 किमी, पूर्व"
+      ],
+      "ans": "A) 25 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 7 km East from his house, then turns left and walks 24 km North. What is the shortest distance and direction from his starting point? (Practice Set #90)",
+      "enOptions": [
+        "A) 25 km, North-East",
+        "B) 31 km, North",
+        "C) 25 km, South-East",
+        "D) 27 km, East"
+      ],
+      "enAns": "A) 25 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 12 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 16 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #91)",
+      "options": [
+        "A) 20 किमी, उत्तर-पूर्व",
+        "B) 28 किमी, उत्तर",
+        "C) 20 किमी, दक्षिण-पूर्व",
+        "D) 22 किमी, पूर्व"
+      ],
+      "ans": "A) 20 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 12 km East from his house, then turns left and walks 16 km North. What is the shortest distance and direction from his starting point? (Practice Set #91)",
+      "enOptions": [
+        "A) 20 km, North-East",
+        "B) 28 km, North",
+        "C) 20 km, South-East",
+        "D) 22 km, East"
+      ],
+      "enAns": "A) 20 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "कथन:\n1. सभी पेन किताबें हैं।\n2. सभी किताबें कापियां हैं।\nनिष्कर्ष:\nI. सभी पेन कापियां हैं।\nII. कुछ कापियां पेन हैं। (अभ्यास प्रश्न #92)",
+      "options": [
+        "A) निष्कर्ष I और II दोनों निकलते हैं",
+        "B) केवल निष्कर्ष I निकलता है",
+        "C) केवल निष्कर्ष II निकलता है",
+        "D) न तो I और न ही II निकलता है"
+      ],
+      "ans": "A) निष्कर्ष I और II दोनों निकलते हैं",
+      "exp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. All pens are books.\n2. All books are copies.\nConclusions:\nI. All pens are copies.\nII. Some copies are pens. (Practice Set #92)",
+      "enOptions": [
+        "A) Both conclusions I and II follow",
+        "B) Only conclusion I follows",
+        "C) Only conclusion II follows",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Both conclusions I and II follow",
+      "enExp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।"
+    },
+    {
+      "q": "कथन:\n1. कुछ फूल लाल हैं।\n2. सभी लाल फल हैं।\nनिष्कर्ष:\nI. कुछ फूल फल हैं।\nII. सभी फल लाल हैं। (अभ्यास प्रश्न #93)",
+      "options": [
+        "A) केवल निष्कर्ष I निकलता है",
+        "B) केवल निष्कर्ष II निकलता है",
+        "C) दोनों निष्कर्ष निकलते हैं",
+        "D) कोई निष्कर्ष नहीं निकलता"
+      ],
+      "ans": "A) केवल निष्कर्ष I निकलता है",
+      "exp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. Some flowers are red.\n2. All red are fruits.\nConclusions:\nI. Some flowers are fruits.\nII. All fruits are red. (Practice Set #93)",
+      "enOptions": [
+        "A) Only conclusion I follows",
+        "B) Only conclusion II follows",
+        "C) Both follow",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Only conclusion I follows",
+      "enExp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।"
+    },
+    {
+      "q": "घड़ी में समय 3:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #94)",
+      "options": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "ans": "A) 90°",
+      "exp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 3:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #94)",
+      "enOptions": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "enAns": "A) 90°",
+      "enExp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।"
+    },
+    {
+      "q": "घड़ी में समय 4:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #95)",
+      "options": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "ans": "A) 120°",
+      "exp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 4:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #95)",
+      "enOptions": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "enAns": "A) 120°",
+      "enExp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।"
+    },
+    {
+      "q": "घड़ी में समय 5:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #96)",
+      "options": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "ans": "A) 150°",
+      "exp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 5:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #96)",
+      "enOptions": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "enAns": "A) 150°",
+      "enExp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।"
+    },
+    {
+      "q": "घड़ी में समय 2:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #97)",
+      "options": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "ans": "A) 50°",
+      "exp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 2:20 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #97)",
+      "enOptions": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "enAns": "A) 50°",
+      "enExp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।"
+    },
+    {
+      "q": "घड़ी में समय 8:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #98)",
+      "options": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "ans": "A) 130°",
+      "exp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 8:20 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #98)",
+      "enOptions": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "enAns": "A) 130°",
+      "enExp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।"
+    },
+    {
+      "q": "घड़ी में समय 7:30 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #99)",
+      "options": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "ans": "A) 45°",
+      "exp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 7:30 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #99)",
+      "enOptions": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "enAns": "A) 45°",
+      "enExp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।"
+    },
+    {
+      "q": "घड़ी में समय 10:10 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #100)",
+      "options": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "ans": "A) 115°",
+      "exp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 10:10 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #100)",
+      "enOptions": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "enAns": "A) 115°",
+      "enExp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 5, 10, 17, 26, ? (अभ्यास प्रश्न #101)",
+      "options": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "ans": "A) 37",
+      "exp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 5, 10, 17, 26, ? (Practice Set #101)",
+      "enOptions": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "enAns": "A) 37",
+      "enExp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 4, 9, 16, 25, ? (अभ्यास प्रश्न #102)",
+      "options": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "ans": "A) 36",
+      "exp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 4, 9, 16, 25, ? (Practice Set #102)",
+      "enOptions": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "enAns": "A) 36",
+      "enExp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n3, 7, 15, 31, 63, ? (अभ्यास प्रश्न #103)",
+      "options": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "ans": "A) 127",
+      "exp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n3, 7, 15, 31, 63, ? (Practice Set #103)",
+      "enOptions": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "enAns": "A) 127",
+      "enExp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 6, 12, 20, 30, ? (अभ्यास प्रश्न #104)",
+      "options": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "ans": "A) 42",
+      "exp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 6, 12, 20, 30, ? (Practice Set #104)",
+      "enOptions": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "enAns": "A) 42",
+      "enExp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n5, 11, 23, 47, 95, ? (अभ्यास प्रश्न #105)",
+      "options": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "ans": "A) 191",
+      "exp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n5, 11, 23, 47, 95, ? (Practice Set #105)",
+      "enOptions": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "enAns": "A) 191",
+      "enExp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n10, 18, 28, 40, 54, ? (अभ्यास प्रश्न #106)",
+      "options": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "ans": "A) 70",
+      "exp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n10, 18, 28, 40, 54, ? (Practice Set #106)",
+      "enOptions": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "enAns": "A) 70",
+      "enExp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n4, 9, 19, 39, 79, ? (अभ्यास प्रश्न #107)",
+      "options": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "ans": "A) 159",
+      "exp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n4, 9, 19, 39, 79, ? (Practice Set #107)",
+      "enOptions": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "enAns": "A) 159",
+      "enExp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n100, 96, 90, 82, 72, ? (अभ्यास प्रश्न #108)",
+      "options": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "ans": "A) 60",
+      "exp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n100, 96, 90, 82, 72, ? (Practice Set #108)",
+      "enOptions": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "enAns": "A) 60",
+      "enExp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 8, 27, 64, 125, ? (अभ्यास प्रश्न #109)",
+      "options": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "ans": "A) 216",
+      "exp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 8, 27, 64, 125, ? (Practice Set #109)",
+      "enOptions": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "enAns": "A) 216",
+      "enExp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 3, 5, 7, 11, 13, ? (अभ्यास प्रश्न #110)",
+      "options": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "ans": "A) 17",
+      "exp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 3, 5, 7, 11, 13, ? (Practice Set #110)",
+      "enOptions": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "enAns": "A) 17",
+      "enExp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n7, 14, 28, 56, 112, ? (अभ्यास प्रश्न #111)",
+      "options": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "ans": "A) 224",
+      "exp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n7, 14, 28, 56, 112, ? (Practice Set #111)",
+      "enOptions": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "enAns": "A) 224",
+      "enExp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n0, 7, 26, 63, 124, ? (अभ्यास प्रश्न #112)",
+      "options": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "ans": "A) 215",
+      "exp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n0, 7, 26, 63, 124, ? (Practice Set #112)",
+      "enOptions": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "enAns": "A) 215",
+      "enExp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 9, 28, 65, 126, ? (अभ्यास प्रश्न #113)",
+      "options": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "ans": "A) 217",
+      "exp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 9, 28, 65, 126, ? (Practice Set #113)",
+      "enOptions": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "enAns": "A) 217",
+      "enExp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n12, 23, 34, 45, 56, ? (अभ्यास प्रश्न #114)",
+      "options": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "ans": "A) 67",
+      "exp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n12, 23, 34, 45, 56, ? (Practice Set #114)",
+      "enOptions": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "enAns": "A) 67",
+      "enExp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 2, 4, 7, 11, 16, ? (अभ्यास प्रश्न #115)",
+      "options": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "ans": "A) 22",
+      "exp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 2, 4, 7, 11, 16, ? (Practice Set #115)",
+      "enOptions": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "enAns": "A) 22",
+      "enExp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'APPLE' को 'BQQMF' लिखा जाता है, तो उसी कूट भाषा में 'MANGO' को क्या लिखा जाएगा? (अभ्यास प्रश्न #116)",
+      "options": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "ans": "A) NBOHP",
+      "exp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'APPLE' is coded as 'BQQMF', how will 'MANGO' be coded in that language? (Practice Set #116)",
+      "enOptions": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "enAns": "A) NBOHP",
+      "enExp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'TIGER' को 'VKIGT' लिखा जाता है, तो उसी कूट भाषा में 'HORSE' को क्या लिखा जाएगा? (अभ्यास प्रश्न #117)",
+      "options": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "ans": "A) JQTIH",
+      "exp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'TIGER' is coded as 'VKIGT', how will 'HORSE' be coded in that language? (Practice Set #117)",
+      "enOptions": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "enAns": "A) JQTIH",
+      "enExp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'LIGHT' को 'KHFGS' लिखा जाता है, तो उसी कूट भाषा में 'FLAME' को क्या लिखा जाएगा? (अभ्यास प्रश्न #118)",
+      "options": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "ans": "A) EKZLD",
+      "exp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'LIGHT' is coded as 'KHFGS', how will 'FLAME' be coded in that language? (Practice Set #118)",
+      "enOptions": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "enAns": "A) EKZLD",
+      "enExp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'SMART' को 'TOBSU' लिखा जाता है, तो उसी कूट भाषा में 'BRAIN' को क्या लिखा जाएगा? (अभ्यास प्रश्न #119)",
+      "options": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "ans": "A) CSBJO",
+      "exp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'SMART' is coded as 'TOBSU', how will 'BRAIN' be coded in that language? (Practice Set #119)",
+      "enOptions": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "enAns": "A) CSBJO",
+      "enExp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'DELHI' को 'CCIDD' लिखा जाता है, तो उसी कूट भाषा में 'MUMBAI' को क्या लिखा जाएगा? (अभ्यास प्रश्न #120)",
+      "options": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "ans": "A) LTLAZE",
+      "exp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'DELHI' is coded as 'CCIDD', how will 'MUMBAI' be coded in that language? (Practice Set #120)",
+      "enOptions": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "enAns": "A) LTLAZE",
+      "enExp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'CAT' को 'XZG' लिखा जाता है, तो उसी कूट भाषा में 'DOG' को क्या लिखा जाएगा? (अभ्यास प्रश्न #121)",
+      "options": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "ans": "A) WLT",
+      "exp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'CAT' is coded as 'XZG', how will 'DOG' be coded in that language? (Practice Set #121)",
+      "enOptions": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "enAns": "A) WLT",
+      "enExp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'KING' को 'PRMT' लिखा जाता है, तो उसी कूट भाषा में 'QUEEN' को क्या लिखा जाएगा? (अभ्यास प्रश्न #122)",
+      "options": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "ans": "A) JFHHM",
+      "exp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'KING' is coded as 'PRMT', how will 'QUEEN' be coded in that language? (Practice Set #122)",
+      "enOptions": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "enAns": "A) JFHHM",
+      "enExp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'ROSE' को 'ILHV' लिखा जाता है, तो उसी कूट भाषा में 'LILY' को क्या लिखा जाएगा? (अभ्यास प्रश्न #123)",
+      "options": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "ans": "A) OROB",
+      "exp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'ROSE' is coded as 'ILHV', how will 'LILY' be coded in that language? (Practice Set #123)",
+      "enOptions": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "enAns": "A) OROB",
+      "enExp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nभारत : नई दिल्ली :: जापान : ? (अभ्यास प्रश्न #124)",
+      "options": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "ans": "A) टोक्यो",
+      "exp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nभारत : नई दिल्ली :: जापान : ? (Practice Set #124)",
+      "enOptions": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "enAns": "A) टोक्यो",
+      "enExp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nमीटर : लंबाई :: किलोग्राम : ? (अभ्यास प्रश्न #125)",
+      "options": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "ans": "A) द्रव्यमान (Mass)",
+      "exp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nमीटर : लंबाई :: किलोग्राम : ? (Practice Set #125)",
+      "enOptions": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "enAns": "A) द्रव्यमान (Mass)",
+      "enExp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ? (अभ्यास प्रश्न #126)",
+      "options": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "ans": "A) भूकंप की तीव्रता",
+      "exp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ? (Practice Set #126)",
+      "enOptions": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "enAns": "A) भूकंप की तीव्रता",
+      "enExp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकलम : लेखक :: आरी : ? (अभ्यास प्रश्न #127)",
+      "options": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "ans": "A) बढ़ई (Carpenter)",
+      "exp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकलम : लेखक :: आरी : ? (Practice Set #127)",
+      "enOptions": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "enAns": "A) बढ़ई (Carpenter)",
+      "enExp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ? (अभ्यास प्रश्न #128)",
+      "options": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "ans": "A) छेनी (Chisel)",
+      "exp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ? (Practice Set #128)",
+      "enOptions": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "enAns": "A) छेनी (Chisel)",
+      "enExp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nसूर्य : दिन :: चंद्रमा : ? (अभ्यास प्रश्न #129)",
+      "options": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "ans": "A) रात",
+      "exp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nसूर्य : दिन :: चंद्रमा : ? (Practice Set #129)",
+      "enOptions": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "enAns": "A) रात",
+      "enExp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकुत्ता : भौंकना :: शेर : ? (अभ्यास प्रश्न #130)",
+      "options": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "ans": "A) दहाड़ना (Roar)",
+      "exp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकुत्ता : भौंकना :: शेर : ? (Practice Set #130)",
+      "enOptions": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "enAns": "A) दहाड़ना (Roar)",
+      "enExp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ? (अभ्यास प्रश्न #131)",
+      "options": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "ans": "A) हैजा (Cholera)",
+      "exp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ? (Practice Set #131)",
+      "enOptions": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "enAns": "A) हैजा (Cholera)",
+      "enExp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।"
+    },
+    {
+      "q": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, 'यह मेरे पिता के इकलौते पुत्र की पत्नी है।' वह महिला उस व्यक्ति से किस प्रकार संबंधित है? (अभ्यास प्रश्न #132)",
+      "options": [
+        "A) पत्नी (Wife)",
+        "B) बहन",
+        "C) माता",
+        "D) भाभी"
+      ],
+      "ans": "A) पत्नी (Wife)",
+      "exp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Pointing to a photograph, a man said, 'She is the wife of the only son of my father.' How is the woman related to the man? (Practice Set #132)",
+      "enOptions": [
+        "A) Wife",
+        "B) Sister",
+        "C) Mother",
+        "D) Sister-in-law"
+      ],
+      "enAns": "A) Wife",
+      "enExp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।"
+    },
+    {
+      "q": "A, B का भाई है। C, A की माता है। D, C का पिता है। E, B का पुत्र है। D का A से क्या संबंध है? (अभ्यास प्रश्न #133)",
+      "options": [
+        "A) नाना (Maternal Grandfather)",
+        "B) दादा",
+        "C) पिता",
+        "D) चाचा"
+      ],
+      "ans": "A) नाना (Maternal Grandfather)",
+      "exp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "A is brother of B. C is mother of A. D is father of C. E is son of B. How is D related to A? (Practice Set #133)",
+      "enOptions": [
+        "A) Maternal Grandfather",
+        "B) Grandfather",
+        "C) Father",
+        "D) Uncle"
+      ],
+      "enAns": "A) Maternal Grandfather",
+      "enExp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।"
+    },
+    {
+      "q": "सीमा, राहुल से कहती है, 'तुम्हारी बहन के पिता मेरी नानी के इकलौते दामाद हैं।' सीमा का राहुल से क्या संबंध है? (अभ्यास प्रश्न #134)",
+      "options": [
+        "A) बहन (Sister)",
+        "B) मौसी",
+        "C) माता",
+        "D) चचेरी बहन"
+      ],
+      "ans": "A) बहन (Sister)",
+      "exp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Seema says to Rahul, 'Your sister's father is the only son-in-law of my maternal grandmother.' How is Seema related to Rahul? (Practice Set #134)",
+      "enOptions": [
+        "A) Sister",
+        "B) Aunt",
+        "C) Mother",
+        "D) Cousin"
+      ],
+      "enAns": "A) Sister",
+      "enExp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 3 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 4 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #135)",
+      "options": [
+        "A) 5 किमी, उत्तर-पूर्व",
+        "B) 7 किमी, उत्तर",
+        "C) 5 किमी, दक्षिण-पूर्व",
+        "D) 7 किमी, पूर्व"
+      ],
+      "ans": "A) 5 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 3 km East from his house, then turns left and walks 4 km North. What is the shortest distance and direction from his starting point? (Practice Set #135)",
+      "enOptions": [
+        "A) 5 km, North-East",
+        "B) 7 km, North",
+        "C) 5 km, South-East",
+        "D) 7 km, East"
+      ],
+      "enAns": "A) 5 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 6 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 8 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #136)",
+      "options": [
+        "A) 10 किमी, उत्तर-पूर्व",
+        "B) 14 किमी, उत्तर",
+        "C) 10 किमी, दक्षिण-पूर्व",
+        "D) 12 किमी, पूर्व"
+      ],
+      "ans": "A) 10 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 6 km East from his house, then turns left and walks 8 km North. What is the shortest distance and direction from his starting point? (Practice Set #136)",
+      "enOptions": [
+        "A) 10 km, North-East",
+        "B) 14 km, North",
+        "C) 10 km, South-East",
+        "D) 12 km, East"
+      ],
+      "enAns": "A) 10 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 5 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #137)",
+      "options": [
+        "A) 13 किमी, उत्तर-पूर्व",
+        "B) 17 किमी, उत्तर",
+        "C) 13 किमी, दक्षिण-पूर्व",
+        "D) 15 किमी, पूर्व"
+      ],
+      "ans": "A) 13 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 5 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point? (Practice Set #137)",
+      "enOptions": [
+        "A) 13 km, North-East",
+        "B) 17 km, North",
+        "C) 13 km, South-East",
+        "D) 15 km, East"
+      ],
+      "enAns": "A) 13 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 9 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #138)",
+      "options": [
+        "A) 15 किमी, उत्तर-पूर्व",
+        "B) 21 किमी, उत्तर",
+        "C) 15 किमी, दक्षिण-पूर्व",
+        "D) 17 किमी, पूर्व"
+      ],
+      "ans": "A) 15 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 9 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point? (Practice Set #138)",
+      "enOptions": [
+        "A) 15 km, North-East",
+        "B) 21 km, North",
+        "C) 15 km, South-East",
+        "D) 17 km, East"
+      ],
+      "enAns": "A) 15 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 8 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 15 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #139)",
+      "options": [
+        "A) 17 किमी, उत्तर-पूर्व",
+        "B) 23 किमी, उत्तर",
+        "C) 17 किमी, दक्षिण-पूर्व",
+        "D) 19 किमी, पूर्व"
+      ],
+      "ans": "A) 17 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 8 km East from his house, then turns left and walks 15 km North. What is the shortest distance and direction from his starting point? (Practice Set #139)",
+      "enOptions": [
+        "A) 17 km, North-East",
+        "B) 23 km, North",
+        "C) 17 km, South-East",
+        "D) 19 km, East"
+      ],
+      "enAns": "A) 17 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 7 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 24 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #140)",
+      "options": [
+        "A) 25 किमी, उत्तर-पूर्व",
+        "B) 31 किमी, उत्तर",
+        "C) 25 किमी, दक्षिण-पूर्व",
+        "D) 27 किमी, पूर्व"
+      ],
+      "ans": "A) 25 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 7 km East from his house, then turns left and walks 24 km North. What is the shortest distance and direction from his starting point? (Practice Set #140)",
+      "enOptions": [
+        "A) 25 km, North-East",
+        "B) 31 km, North",
+        "C) 25 km, South-East",
+        "D) 27 km, East"
+      ],
+      "enAns": "A) 25 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 12 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 16 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #141)",
+      "options": [
+        "A) 20 किमी, उत्तर-पूर्व",
+        "B) 28 किमी, उत्तर",
+        "C) 20 किमी, दक्षिण-पूर्व",
+        "D) 22 किमी, पूर्व"
+      ],
+      "ans": "A) 20 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 12 km East from his house, then turns left and walks 16 km North. What is the shortest distance and direction from his starting point? (Practice Set #141)",
+      "enOptions": [
+        "A) 20 km, North-East",
+        "B) 28 km, North",
+        "C) 20 km, South-East",
+        "D) 22 km, East"
+      ],
+      "enAns": "A) 20 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "कथन:\n1. सभी पेन किताबें हैं।\n2. सभी किताबें कापियां हैं।\nनिष्कर्ष:\nI. सभी पेन कापियां हैं।\nII. कुछ कापियां पेन हैं। (अभ्यास प्रश्न #142)",
+      "options": [
+        "A) निष्कर्ष I और II दोनों निकलते हैं",
+        "B) केवल निष्कर्ष I निकलता है",
+        "C) केवल निष्कर्ष II निकलता है",
+        "D) न तो I और न ही II निकलता है"
+      ],
+      "ans": "A) निष्कर्ष I और II दोनों निकलते हैं",
+      "exp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. All pens are books.\n2. All books are copies.\nConclusions:\nI. All pens are copies.\nII. Some copies are pens. (Practice Set #142)",
+      "enOptions": [
+        "A) Both conclusions I and II follow",
+        "B) Only conclusion I follows",
+        "C) Only conclusion II follows",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Both conclusions I and II follow",
+      "enExp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।"
+    },
+    {
+      "q": "कथन:\n1. कुछ फूल लाल हैं।\n2. सभी लाल फल हैं।\nनिष्कर्ष:\nI. कुछ फूल फल हैं।\nII. सभी फल लाल हैं। (अभ्यास प्रश्न #143)",
+      "options": [
+        "A) केवल निष्कर्ष I निकलता है",
+        "B) केवल निष्कर्ष II निकलता है",
+        "C) दोनों निष्कर्ष निकलते हैं",
+        "D) कोई निष्कर्ष नहीं निकलता"
+      ],
+      "ans": "A) केवल निष्कर्ष I निकलता है",
+      "exp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. Some flowers are red.\n2. All red are fruits.\nConclusions:\nI. Some flowers are fruits.\nII. All fruits are red. (Practice Set #143)",
+      "enOptions": [
+        "A) Only conclusion I follows",
+        "B) Only conclusion II follows",
+        "C) Both follow",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Only conclusion I follows",
+      "enExp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।"
+    },
+    {
+      "q": "घड़ी में समय 3:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #144)",
+      "options": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "ans": "A) 90°",
+      "exp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 3:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #144)",
+      "enOptions": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "enAns": "A) 90°",
+      "enExp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।"
+    },
+    {
+      "q": "घड़ी में समय 4:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #145)",
+      "options": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "ans": "A) 120°",
+      "exp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 4:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #145)",
+      "enOptions": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "enAns": "A) 120°",
+      "enExp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।"
+    },
+    {
+      "q": "घड़ी में समय 5:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #146)",
+      "options": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "ans": "A) 150°",
+      "exp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 5:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #146)",
+      "enOptions": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "enAns": "A) 150°",
+      "enExp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।"
+    },
+    {
+      "q": "घड़ी में समय 2:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #147)",
+      "options": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "ans": "A) 50°",
+      "exp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 2:20 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #147)",
+      "enOptions": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "enAns": "A) 50°",
+      "enExp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।"
+    },
+    {
+      "q": "घड़ी में समय 8:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #148)",
+      "options": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "ans": "A) 130°",
+      "exp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 8:20 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #148)",
+      "enOptions": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "enAns": "A) 130°",
+      "enExp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।"
+    },
+    {
+      "q": "घड़ी में समय 7:30 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #149)",
+      "options": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "ans": "A) 45°",
+      "exp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 7:30 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #149)",
+      "enOptions": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "enAns": "A) 45°",
+      "enExp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।"
+    },
+    {
+      "q": "घड़ी में समय 10:10 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #150)",
+      "options": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "ans": "A) 115°",
+      "exp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 10:10 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #150)",
+      "enOptions": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "enAns": "A) 115°",
+      "enExp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 5, 10, 17, 26, ? (अभ्यास प्रश्न #151)",
+      "options": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "ans": "A) 37",
+      "exp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 5, 10, 17, 26, ? (Practice Set #151)",
+      "enOptions": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "enAns": "A) 37",
+      "enExp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 4, 9, 16, 25, ? (अभ्यास प्रश्न #152)",
+      "options": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "ans": "A) 36",
+      "exp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 4, 9, 16, 25, ? (Practice Set #152)",
+      "enOptions": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "enAns": "A) 36",
+      "enExp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n3, 7, 15, 31, 63, ? (अभ्यास प्रश्न #153)",
+      "options": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "ans": "A) 127",
+      "exp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n3, 7, 15, 31, 63, ? (Practice Set #153)",
+      "enOptions": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "enAns": "A) 127",
+      "enExp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 6, 12, 20, 30, ? (अभ्यास प्रश्न #154)",
+      "options": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "ans": "A) 42",
+      "exp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 6, 12, 20, 30, ? (Practice Set #154)",
+      "enOptions": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "enAns": "A) 42",
+      "enExp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n5, 11, 23, 47, 95, ? (अभ्यास प्रश्न #155)",
+      "options": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "ans": "A) 191",
+      "exp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n5, 11, 23, 47, 95, ? (Practice Set #155)",
+      "enOptions": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "enAns": "A) 191",
+      "enExp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n10, 18, 28, 40, 54, ? (अभ्यास प्रश्न #156)",
+      "options": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "ans": "A) 70",
+      "exp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n10, 18, 28, 40, 54, ? (Practice Set #156)",
+      "enOptions": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "enAns": "A) 70",
+      "enExp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n4, 9, 19, 39, 79, ? (अभ्यास प्रश्न #157)",
+      "options": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "ans": "A) 159",
+      "exp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n4, 9, 19, 39, 79, ? (Practice Set #157)",
+      "enOptions": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "enAns": "A) 159",
+      "enExp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n100, 96, 90, 82, 72, ? (अभ्यास प्रश्न #158)",
+      "options": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "ans": "A) 60",
+      "exp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n100, 96, 90, 82, 72, ? (Practice Set #158)",
+      "enOptions": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "enAns": "A) 60",
+      "enExp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 8, 27, 64, 125, ? (अभ्यास प्रश्न #159)",
+      "options": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "ans": "A) 216",
+      "exp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 8, 27, 64, 125, ? (Practice Set #159)",
+      "enOptions": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "enAns": "A) 216",
+      "enExp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 3, 5, 7, 11, 13, ? (अभ्यास प्रश्न #160)",
+      "options": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "ans": "A) 17",
+      "exp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 3, 5, 7, 11, 13, ? (Practice Set #160)",
+      "enOptions": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "enAns": "A) 17",
+      "enExp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n7, 14, 28, 56, 112, ? (अभ्यास प्रश्न #161)",
+      "options": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "ans": "A) 224",
+      "exp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n7, 14, 28, 56, 112, ? (Practice Set #161)",
+      "enOptions": [
+        "A) 224",
+        "B) 226",
+        "C) 221",
+        "D) 229"
+      ],
+      "enAns": "A) 224",
+      "enExp": "💡 सही उत्तर: A) 224।\nतर्क/Pattern: प्रत्येक पद में 2 से गुणा (×2)।\nअतः अगला पद = 224 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n0, 7, 26, 63, 124, ? (अभ्यास प्रश्न #162)",
+      "options": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "ans": "A) 215",
+      "exp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n0, 7, 26, 63, 124, ? (Practice Set #162)",
+      "enOptions": [
+        "A) 215",
+        "B) 217",
+        "C) 212",
+        "D) 220"
+      ],
+      "enAns": "A) 215",
+      "enExp": "💡 सही उत्तर: A) 215।\nतर्क/Pattern: n³ - 1 श्रृंखला (1³-1, 2³-1, 3³-1...)।\nअतः अगला पद = 215 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 9, 28, 65, 126, ? (अभ्यास प्रश्न #163)",
+      "options": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "ans": "A) 217",
+      "exp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 9, 28, 65, 126, ? (Practice Set #163)",
+      "enOptions": [
+        "A) 217",
+        "B) 219",
+        "C) 214",
+        "D) 222"
+      ],
+      "enAns": "A) 217",
+      "enExp": "💡 सही उत्तर: A) 217।\nतर्क/Pattern: n³ + 1 श्रृंखला (1³+1, 2³+1, 3³+1...)।\nअतः अगला पद = 217 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n12, 23, 34, 45, 56, ? (अभ्यास प्रश्न #164)",
+      "options": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "ans": "A) 67",
+      "exp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n12, 23, 34, 45, 56, ? (Practice Set #164)",
+      "enOptions": [
+        "A) 67",
+        "B) 69",
+        "C) 64",
+        "D) 72"
+      ],
+      "enAns": "A) 67",
+      "enExp": "💡 सही उत्तर: A) 67।\nतर्क/Pattern: प्रत्येक पद में +11 का अंतर।\nअतः अगला पद = 67 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 2, 4, 7, 11, 16, ? (अभ्यास प्रश्न #165)",
+      "options": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "ans": "A) 22",
+      "exp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 2, 4, 7, 11, 16, ? (Practice Set #165)",
+      "enOptions": [
+        "A) 22",
+        "B) 24",
+        "C) 19",
+        "D) 27"
+      ],
+      "enAns": "A) 22",
+      "enExp": "💡 सही उत्तर: A) 22।\nतर्क/Pattern: +1, +2, +3, +4, +5, +6।\nअतः अगला पद = 22 होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'APPLE' को 'BQQMF' लिखा जाता है, तो उसी कूट भाषा में 'MANGO' को क्या लिखा जाएगा? (अभ्यास प्रश्न #166)",
+      "options": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "ans": "A) NBOHP",
+      "exp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'APPLE' is coded as 'BQQMF', how will 'MANGO' be coded in that language? (Practice Set #166)",
+      "enOptions": [
+        "A) NBOHP",
+        "B) NBOHX",
+        "C) BOHPA",
+        "D) OGNAM"
+      ],
+      "enAns": "A) NBOHP",
+      "enExp": "💡 सही उत्तर: A) NBOHP।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि (A→B, P→Q, L→M, E→F)।\nअतः MANGO = NBOHP होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'TIGER' को 'VKIGT' लिखा जाता है, तो उसी कूट भाषा में 'HORSE' को क्या लिखा जाएगा? (अभ्यास प्रश्न #167)",
+      "options": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "ans": "A) JQTIH",
+      "exp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'TIGER' is coded as 'VKIGT', how will 'HORSE' be coded in that language? (Practice Set #167)",
+      "enOptions": [
+        "A) JQTIH",
+        "B) JQTIX",
+        "C) QTIHA",
+        "D) ESROH"
+      ],
+      "enAns": "A) JQTIH",
+      "enExp": "💡 सही उत्तर: A) JQTIH।\nतर्क/Rule: प्रत्येक अक्षर में +2 की वृद्धि (T→V, I→K, G→I, E→G, R→T)।\nअतः HORSE = JQTIH होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'LIGHT' को 'KHFGS' लिखा जाता है, तो उसी कूट भाषा में 'FLAME' को क्या लिखा जाएगा? (अभ्यास प्रश्न #168)",
+      "options": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "ans": "A) EKZLD",
+      "exp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'LIGHT' is coded as 'KHFGS', how will 'FLAME' be coded in that language? (Practice Set #168)",
+      "enOptions": [
+        "A) EKZLD",
+        "B) EKZLX",
+        "C) KZLDA",
+        "D) EMALF"
+      ],
+      "enAns": "A) EKZLD",
+      "enExp": "💡 सही उत्तर: A) EKZLD।\nतर्क/Rule: प्रत्येक अक्षर में -1 की कमी (L→K, I→H, G→F, H→G, T→S)।\nअतः FLAME = EKZLD होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'SMART' को 'TOBSU' लिखा जाता है, तो उसी कूट भाषा में 'BRAIN' को क्या लिखा जाएगा? (अभ्यास प्रश्न #169)",
+      "options": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "ans": "A) CSBJO",
+      "exp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'SMART' is coded as 'TOBSU', how will 'BRAIN' be coded in that language? (Practice Set #169)",
+      "enOptions": [
+        "A) CSBJO",
+        "B) CSBJX",
+        "C) SBJOA",
+        "D) NIARB"
+      ],
+      "enAns": "A) CSBJO",
+      "enExp": "💡 सही उत्तर: A) CSBJO।\nतर्क/Rule: प्रत्येक अक्षर में +1 की वृद्धि।\nअतः BRAIN = CSBJO होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'DELHI' को 'CCIDD' लिखा जाता है, तो उसी कूट भाषा में 'MUMBAI' को क्या लिखा जाएगा? (अभ्यास प्रश्न #170)",
+      "options": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "ans": "A) LTLAZE",
+      "exp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'DELHI' is coded as 'CCIDD', how will 'MUMBAI' be coded in that language? (Practice Set #170)",
+      "enOptions": [
+        "A) LTLAZE",
+        "B) LTLAZX",
+        "C) TLAZEA",
+        "D) IABMUM"
+      ],
+      "enAns": "A) LTLAZE",
+      "enExp": "💡 सही उत्तर: A) LTLAZE।\nतर्क/Rule: क्रमिक -1, -2, -3 का नियम।\nअतः MUMBAI = LTLAZE होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'CAT' को 'XZG' लिखा जाता है, तो उसी कूट भाषा में 'DOG' को क्या लिखा जाएगा? (अभ्यास प्रश्न #171)",
+      "options": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "ans": "A) WLT",
+      "exp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'CAT' is coded as 'XZG', how will 'DOG' be coded in that language? (Practice Set #171)",
+      "enOptions": [
+        "A) WLT",
+        "B) WLX",
+        "C) LTA",
+        "D) GOD"
+      ],
+      "enAns": "A) WLT",
+      "enExp": "💡 सही उत्तर: A) WLT।\nतर्क/Rule: विपरीत अक्षर (Opposite Letters: C↔X, A↔Z, T↔G; D↔W, O↔L, G↔T)।\nअतः DOG = WLT होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'KING' को 'PRMT' लिखा जाता है, तो उसी कूट भाषा में 'QUEEN' को क्या लिखा जाएगा? (अभ्यास प्रश्न #172)",
+      "options": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "ans": "A) JFHHM",
+      "exp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'KING' is coded as 'PRMT', how will 'QUEEN' be coded in that language? (Practice Set #172)",
+      "enOptions": [
+        "A) JFHHM",
+        "B) JFHHX",
+        "C) FHHMA",
+        "D) NEEUQ"
+      ],
+      "enAns": "A) JFHHM",
+      "enExp": "💡 सही उत्तर: A) JFHHM।\nतर्क/Rule: विपरीत अक्षर युग्म (Opposite Letter Pairs: K↔P, I↔R, N↔M, G↔T)।\nअतः QUEEN = JFHHM होगा।"
+    },
+    {
+      "q": "यदि किसी निश्चित कूट भाषा में 'ROSE' को 'ILHV' लिखा जाता है, तो उसी कूट भाषा में 'LILY' को क्या लिखा जाएगा? (अभ्यास प्रश्न #173)",
+      "options": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "ans": "A) OROB",
+      "exp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।",
+      "pyqTag": "SSC CHSL Reasoning Coding-Decoding",
+      "chapter": "Coding-Decoding",
+      "enQ": "If in a certain code language 'ROSE' is coded as 'ILHV', how will 'LILY' be coded in that language? (Practice Set #173)",
+      "enOptions": [
+        "A) OROB",
+        "B) OROX",
+        "C) ROBA",
+        "D) YLIL"
+      ],
+      "enAns": "A) OROB",
+      "enExp": "💡 सही उत्तर: A) OROB।\nतर्क/Rule: विपरीत अक्षर युग्म (R↔I, O↔L, S↔H, E↔V)।\nअतः LILY = OROB होगा।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nभारत : नई दिल्ली :: जापान : ? (अभ्यास प्रश्न #174)",
+      "options": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "ans": "A) टोक्यो",
+      "exp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nभारत : नई दिल्ली :: जापान : ? (Practice Set #174)",
+      "enOptions": [
+        "A) टोक्यो",
+        "B) बीजिंग",
+        "C) सियोल",
+        "D) बैंकॉक"
+      ],
+      "enAns": "A) टोक्यो",
+      "enExp": "💡 सही उत्तर: A) टोक्यो।\nसंबंध: देश और उसकी राजधानी का संबंध है। जापान की राजधानी टोक्यो है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nमीटर : लंबाई :: किलोग्राम : ? (अभ्यास प्रश्न #175)",
+      "options": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "ans": "A) द्रव्यमान (Mass)",
+      "exp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nमीटर : लंबाई :: किलोग्राम : ? (Practice Set #175)",
+      "enOptions": [
+        "A) द्रव्यमान (Mass)",
+        "B) आयतन",
+        "C) घनत्व",
+        "D) दाब"
+      ],
+      "enAns": "A) द्रव्यमान (Mass)",
+      "enExp": "💡 सही उत्तर: A) द्रव्यमान (Mass)।\nसंबंध: इकाई और भौतिक राशि का संबंध। किलोग्राम द्रव्यमान की SI इकाई है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ? (अभ्यास प्रश्न #176)",
+      "options": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "ans": "A) भूकंप की तीव्रता",
+      "exp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nअमीटर : विद्युत धारा :: सिस्मोग्राफ : ? (Practice Set #176)",
+      "enOptions": [
+        "A) भूकंप की तीव्रता",
+        "B) वायुदाब",
+        "C) आर्द्रता",
+        "D) तापमान"
+      ],
+      "enAns": "A) भूकंप की तीव्रता",
+      "enExp": "💡 सही उत्तर: A) भूकंप की तीव्रता।\nसंबंध: उपकरण और उसके मापन का संबंध। सिस्मोग्राफ भूकंप तरंगों की तीव्रता मापता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकलम : लेखक :: आरी : ? (अभ्यास प्रश्न #177)",
+      "options": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "ans": "A) बढ़ई (Carpenter)",
+      "exp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकलम : लेखक :: आरी : ? (Practice Set #177)",
+      "enOptions": [
+        "A) बढ़ई (Carpenter)",
+        "B) लोहार",
+        "C) दर्जी",
+        "D) सुनार"
+      ],
+      "enAns": "A) बढ़ई (Carpenter)",
+      "enExp": "💡 सही उत्तर: A) बढ़ई (Carpenter)।\nसंबंध: उपकरण और कारीगर का संबंध। आरी बढ़ई का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ? (अभ्यास प्रश्न #178)",
+      "options": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "ans": "A) छेनी (Chisel)",
+      "exp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nचिकित्सक : स्टेथोस्कोप :: मूर्तिकार : ? (Practice Set #178)",
+      "enOptions": [
+        "A) छेनी (Chisel)",
+        "B) कुल्हाड़ी",
+        "C) हथौड़ा",
+        "D) ब्रश"
+      ],
+      "enAns": "A) छेनी (Chisel)",
+      "enExp": "💡 सही उत्तर: A) छेनी (Chisel)।\nसंबंध: छेनी मूर्तिकार का मुख्य औजार है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nसूर्य : दिन :: चंद्रमा : ? (अभ्यास प्रश्न #179)",
+      "options": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "ans": "A) रात",
+      "exp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nसूर्य : दिन :: चंद्रमा : ? (Practice Set #179)",
+      "enOptions": [
+        "A) रात",
+        "B) शाम",
+        "C) सुबह",
+        "D) ग्रहण"
+      ],
+      "enAns": "A) रात",
+      "enExp": "💡 सही उत्तर: A) रात।\nसंबंध: सूर्य दिन का सूचक है तथा चंद्रमा रात का।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nकुत्ता : भौंकना :: शेर : ? (अभ्यास प्रश्न #180)",
+      "options": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "ans": "A) दहाड़ना (Roar)",
+      "exp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nकुत्ता : भौंकना :: शेर : ? (Practice Set #180)",
+      "enOptions": [
+        "A) दहाड़ना (Roar)",
+        "B) मियाऊं",
+        "C) चिंघाड़ना",
+        "D) रंभाना"
+      ],
+      "enAns": "A) दहाड़ना (Roar)",
+      "enExp": "💡 सही उत्तर: A) दहाड़ना (Roar)।\nसंबंध: जानवर और उसकी ध्वनि। शेर दहाड़ता है।"
+    },
+    {
+      "q": "संबंधित विकल्प का चयन कीजिए:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ? (अभ्यास प्रश्न #181)",
+      "options": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "ans": "A) हैजा (Cholera)",
+      "exp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।",
+      "pyqTag": "SSC CHSL Reasoning Analogy",
+      "chapter": "Analogy",
+      "enQ": "Select the related option:\nविषाणु (Virus) : पोलियो :: जीवाणु (Bacteria) : ? (Practice Set #181)",
+      "enOptions": [
+        "A) हैजा (Cholera)",
+        "B) चेचक",
+        "C) इन्फ्लुएंजा",
+        "D) एड्स"
+      ],
+      "enAns": "A) हैजा (Cholera)",
+      "enExp": "💡 सही उत्तर: A) हैजा (Cholera)।\nसंबंध: रोग और उसके रोगकारक। पोलियो विषाणु से तथा हैजा जीवाणु (Vibrio cholerae) से होता है।"
+    },
+    {
+      "q": "एक तस्वीर की ओर इशारा करते हुए एक व्यक्ति ने कहा, 'यह मेरे पिता के इकलौते पुत्र की पत्नी है।' वह महिला उस व्यक्ति से किस प्रकार संबंधित है? (अभ्यास प्रश्न #182)",
+      "options": [
+        "A) पत्नी (Wife)",
+        "B) बहन",
+        "C) माता",
+        "D) भाभी"
+      ],
+      "ans": "A) पत्नी (Wife)",
+      "exp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Pointing to a photograph, a man said, 'She is the wife of the only son of my father.' How is the woman related to the man? (Practice Set #182)",
+      "enOptions": [
+        "A) Wife",
+        "B) Sister",
+        "C) Mother",
+        "D) Sister-in-law"
+      ],
+      "enAns": "A) Wife",
+      "enExp": "💡 सही उत्तर: A) पत्नी (Wife)।\nविश्लेषण: व्यक्ति के पिता का इकलौता पुत्र वह व्यक्ति स्वयं है। उसकी पत्नी = उस व्यक्ति की पत्नी।"
+    },
+    {
+      "q": "A, B का भाई है। C, A की माता है। D, C का पिता है। E, B का पुत्र है। D का A से क्या संबंध है? (अभ्यास प्रश्न #183)",
+      "options": [
+        "A) नाना (Maternal Grandfather)",
+        "B) दादा",
+        "C) पिता",
+        "D) चाचा"
+      ],
+      "ans": "A) नाना (Maternal Grandfather)",
+      "exp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "A is brother of B. C is mother of A. D is father of C. E is son of B. How is D related to A? (Practice Set #183)",
+      "enOptions": [
+        "A) Maternal Grandfather",
+        "B) Grandfather",
+        "C) Father",
+        "D) Uncle"
+      ],
+      "enAns": "A) Maternal Grandfather",
+      "enExp": "💡 सही उत्तर: A) नाना (Maternal Grandfather)।\nविश्लेषण: C, A की माता है और D, C का पिता है। अतः D, A की माता का पिता यानी नाना है।"
+    },
+    {
+      "q": "सीमा, राहुल से कहती है, 'तुम्हारी बहन के पिता मेरी नानी के इकलौते दामाद हैं।' सीमा का राहुल से क्या संबंध है? (अभ्यास प्रश्न #184)",
+      "options": [
+        "A) बहन (Sister)",
+        "B) मौसी",
+        "C) माता",
+        "D) चचेरी बहन"
+      ],
+      "ans": "A) बहन (Sister)",
+      "exp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।",
+      "pyqTag": "SSC CHSL Reasoning Blood Relations",
+      "chapter": "Blood Relations",
+      "enQ": "Seema says to Rahul, 'Your sister's father is the only son-in-law of my maternal grandmother.' How is Seema related to Rahul? (Practice Set #184)",
+      "enOptions": [
+        "A) Sister",
+        "B) Aunt",
+        "C) Mother",
+        "D) Cousin"
+      ],
+      "enAns": "A) Sister",
+      "enExp": "💡 सही उत्तर: A) बहन (Sister)।\nविश्लेषण: राहुल की बहन के पिता = राहुल के पिता। सीमा की नानी के इकलौते दामाद = सीमा के पिता। अतः दोनों के पिता एक ही हैं, सीमा राहुल की बहन है।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 3 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 4 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #185)",
+      "options": [
+        "A) 5 किमी, उत्तर-पूर्व",
+        "B) 7 किमी, उत्तर",
+        "C) 5 किमी, दक्षिण-पूर्व",
+        "D) 7 किमी, पूर्व"
+      ],
+      "ans": "A) 5 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 3 km East from his house, then turns left and walks 4 km North. What is the shortest distance and direction from his starting point? (Practice Set #185)",
+      "enOptions": [
+        "A) 5 km, North-East",
+        "B) 7 km, North",
+        "C) 5 km, South-East",
+        "D) 7 km, East"
+      ],
+      "enAns": "A) 5 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 5 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(3² + 4²) = √(9 + 16) = √25 = 5 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 6 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 8 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #186)",
+      "options": [
+        "A) 10 किमी, उत्तर-पूर्व",
+        "B) 14 किमी, उत्तर",
+        "C) 10 किमी, दक्षिण-पूर्व",
+        "D) 12 किमी, पूर्व"
+      ],
+      "ans": "A) 10 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 6 km East from his house, then turns left and walks 8 km North. What is the shortest distance and direction from his starting point? (Practice Set #186)",
+      "enOptions": [
+        "A) 10 km, North-East",
+        "B) 14 km, North",
+        "C) 10 km, South-East",
+        "D) 12 km, East"
+      ],
+      "enAns": "A) 10 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 10 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(6² + 8²) = √(36 + 64) = √100 = 10 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 5 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #187)",
+      "options": [
+        "A) 13 किमी, उत्तर-पूर्व",
+        "B) 17 किमी, उत्तर",
+        "C) 13 किमी, दक्षिण-पूर्व",
+        "D) 15 किमी, पूर्व"
+      ],
+      "ans": "A) 13 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 5 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point? (Practice Set #187)",
+      "enOptions": [
+        "A) 13 km, North-East",
+        "B) 17 km, North",
+        "C) 13 km, South-East",
+        "D) 15 km, East"
+      ],
+      "enAns": "A) 13 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 13 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(5² + 12²) = √(25 + 144) = √169 = 13 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 9 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 12 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #188)",
+      "options": [
+        "A) 15 किमी, उत्तर-पूर्व",
+        "B) 21 किमी, उत्तर",
+        "C) 15 किमी, दक्षिण-पूर्व",
+        "D) 17 किमी, पूर्व"
+      ],
+      "ans": "A) 15 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 9 km East from his house, then turns left and walks 12 km North. What is the shortest distance and direction from his starting point? (Practice Set #188)",
+      "enOptions": [
+        "A) 15 km, North-East",
+        "B) 21 km, North",
+        "C) 15 km, South-East",
+        "D) 17 km, East"
+      ],
+      "enAns": "A) 15 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 15 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(9² + 12²) = √(81 + 144) = √225 = 15 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 8 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 15 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #189)",
+      "options": [
+        "A) 17 किमी, उत्तर-पूर्व",
+        "B) 23 किमी, उत्तर",
+        "C) 17 किमी, दक्षिण-पूर्व",
+        "D) 19 किमी, पूर्व"
+      ],
+      "ans": "A) 17 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 8 km East from his house, then turns left and walks 15 km North. What is the shortest distance and direction from his starting point? (Practice Set #189)",
+      "enOptions": [
+        "A) 17 km, North-East",
+        "B) 23 km, North",
+        "C) 17 km, South-East",
+        "D) 19 km, East"
+      ],
+      "enAns": "A) 17 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 17 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(8² + 15²) = √(64 + 225) = √289 = 17 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 7 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 24 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #190)",
+      "options": [
+        "A) 25 किमी, उत्तर-पूर्व",
+        "B) 31 किमी, उत्तर",
+        "C) 25 किमी, दक्षिण-पूर्व",
+        "D) 27 किमी, पूर्व"
+      ],
+      "ans": "A) 25 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 7 km East from his house, then turns left and walks 24 km North. What is the shortest distance and direction from his starting point? (Practice Set #190)",
+      "enOptions": [
+        "A) 25 km, North-East",
+        "B) 31 km, North",
+        "C) 25 km, South-East",
+        "D) 27 km, East"
+      ],
+      "enAns": "A) 25 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 25 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(7² + 24²) = √(49 + 576) = √625 = 25 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "रोहन अपने घर से पूर्व दिशा में 12 किमी चलता है, फिर बाएं मुड़कर उत्तर दिशा में 16 किमी चलता है। वह अपने प्रारंभिक बिंदु से न्यूनतम कितनी दूरी पर और किस दिशा में है? (अभ्यास प्रश्न #191)",
+      "options": [
+        "A) 20 किमी, उत्तर-पूर्व",
+        "B) 28 किमी, उत्तर",
+        "C) 20 किमी, दक्षिण-पूर्व",
+        "D) 22 किमी, पूर्व"
+      ],
+      "ans": "A) 20 किमी, उत्तर-पूर्व",
+      "exp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।",
+      "pyqTag": "SSC CHSL Reasoning Direction Sense",
+      "chapter": "Direction Sense",
+      "enQ": "Rohan walks 12 km East from his house, then turns left and walks 16 km North. What is the shortest distance and direction from his starting point? (Practice Set #191)",
+      "enOptions": [
+        "A) 20 km, North-East",
+        "B) 28 km, North",
+        "C) 20 km, South-East",
+        "D) 22 km, East"
+      ],
+      "enAns": "A) 20 km, North-East",
+      "enExp": "💡 सही उत्तर: A) 20 किमी, उत्तर-पूर्व।\nहल: समकोण त्रिभुज में न्यूनतम दूरी = √(12² + 16²) = √(144 + 256) = √400 = 20 किमी। दिशा पूर्व और उत्तर के बीच = उत्तर-पूर्व।"
+    },
+    {
+      "q": "कथन:\n1. सभी पेन किताबें हैं।\n2. सभी किताबें कापियां हैं।\nनिष्कर्ष:\nI. सभी पेन कापियां हैं।\nII. कुछ कापियां पेन हैं। (अभ्यास प्रश्न #192)",
+      "options": [
+        "A) निष्कर्ष I और II दोनों निकलते हैं",
+        "B) केवल निष्कर्ष I निकलता है",
+        "C) केवल निष्कर्ष II निकलता है",
+        "D) न तो I और न ही II निकलता है"
+      ],
+      "ans": "A) निष्कर्ष I और II दोनों निकलते हैं",
+      "exp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. All pens are books.\n2. All books are copies.\nConclusions:\nI. All pens are copies.\nII. Some copies are pens. (Practice Set #192)",
+      "enOptions": [
+        "A) Both conclusions I and II follow",
+        "B) Only conclusion I follows",
+        "C) Only conclusion II follows",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Both conclusions I and II follow",
+      "enExp": "💡 सही उत्तर: A) निष्कर्ष I और II दोनों निकलते हैं।\nतर्क: वेन आरेख: पेन ⊂ किताबें ⊂ कापियां। अतः सभी पेन कापियां हैं (निष्कर्ष I सत्य है) और कुछ कापियां पेन हैं (निष्कर्ष II सत्य है)।"
+    },
+    {
+      "q": "कथन:\n1. कुछ फूल लाल हैं।\n2. सभी लाल फल हैं।\nनिष्कर्ष:\nI. कुछ फूल फल हैं।\nII. सभी फल लाल हैं। (अभ्यास प्रश्न #193)",
+      "options": [
+        "A) केवल निष्कर्ष I निकलता है",
+        "B) केवल निष्कर्ष II निकलता है",
+        "C) दोनों निष्कर्ष निकलते हैं",
+        "D) कोई निष्कर्ष नहीं निकलता"
+      ],
+      "ans": "A) केवल निष्कर्ष I निकलता है",
+      "exp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।",
+      "pyqTag": "SSC CHSL Reasoning Syllogism",
+      "chapter": "Syllogism",
+      "enQ": "Statements:\n1. Some flowers are red.\n2. All red are fruits.\nConclusions:\nI. Some flowers are fruits.\nII. All fruits are red. (Practice Set #193)",
+      "enOptions": [
+        "A) Only conclusion I follows",
+        "B) Only conclusion II follows",
+        "C) Both follow",
+        "D) Neither follows"
+      ],
+      "enAns": "A) Only conclusion I follows",
+      "enExp": "💡 सही उत्तर: A) केवल निष्कर्ष I निकलता है।\nतर्क: फूल का जो भाग लाल है, वह फल के अंदर भी आता है। अतः कुछ फूल फल हैं (निष्कर्ष I सही)। सभी फल लाल हैं यह आवश्यक नहीं है।"
+    },
+    {
+      "q": "घड़ी में समय 3:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #194)",
+      "options": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "ans": "A) 90°",
+      "exp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 3:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #194)",
+      "enOptions": [
+        "A) 90°",
+        "B) 100°",
+        "C) 75°",
+        "D) 90°"
+      ],
+      "enAns": "A) 90°",
+      "enExp": "💡 सही उत्तर: A) 90°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×3 - 5.5×0| = |90 - 0.0| = 90°।"
+    },
+    {
+      "q": "घड़ी में समय 4:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #195)",
+      "options": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "ans": "A) 120°",
+      "exp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 4:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #195)",
+      "enOptions": [
+        "A) 120°",
+        "B) 130°",
+        "C) 105°",
+        "D) 60°"
+      ],
+      "enAns": "A) 120°",
+      "enExp": "💡 सही उत्तर: A) 120°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×4 - 5.5×0| = |120 - 0.0| = 120°।"
+    },
+    {
+      "q": "घड़ी में समय 5:00 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #196)",
+      "options": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "ans": "A) 150°",
+      "exp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 5:00 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #196)",
+      "enOptions": [
+        "A) 150°",
+        "B) 160°",
+        "C) 135°",
+        "D) 30°"
+      ],
+      "enAns": "A) 150°",
+      "enExp": "💡 सही उत्तर: A) 150°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×5 - 5.5×0| = |150 - 0.0| = 150°।"
+    },
+    {
+      "q": "घड़ी में समय 2:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #197)",
+      "options": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "ans": "A) 50°",
+      "exp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 2:20 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #197)",
+      "enOptions": [
+        "A) 50°",
+        "B) 60°",
+        "C) 35°",
+        "D) 130°"
+      ],
+      "enAns": "A) 50°",
+      "enExp": "💡 सही उत्तर: A) 50°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×2 - 5.5×20| = |60 - 110.0| = 50°।"
+    },
+    {
+      "q": "घड़ी में समय 8:20 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #198)",
+      "options": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "ans": "A) 130°",
+      "exp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 8:20 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #198)",
+      "enOptions": [
+        "A) 130°",
+        "B) 140°",
+        "C) 115°",
+        "D) 50°"
+      ],
+      "enAns": "A) 130°",
+      "enExp": "💡 सही उत्तर: A) 130°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×8 - 5.5×20| = |240 - 110.0| = 130°।"
+    },
+    {
+      "q": "घड़ी में समय 7:30 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #199)",
+      "options": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "ans": "A) 45°",
+      "exp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 7:30 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #199)",
+      "enOptions": [
+        "A) 45°",
+        "B) 55°",
+        "C) 30°",
+        "D) 135°"
+      ],
+      "enAns": "A) 45°",
+      "enExp": "💡 सही उत्तर: A) 45°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×7 - 5.5×30| = |210 - 165.0| = 45°।"
+    },
+    {
+      "q": "घड़ी में समय 10:10 बजे घंटे और मिनट की सुइयों के बीच कितने अंश का कोण बनेगा? (अभ्यास प्रश्न #200)",
+      "options": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "ans": "A) 115°",
+      "exp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।",
+      "pyqTag": "SSC CHSL Reasoning Clock",
+      "chapter": "Clock",
+      "enQ": "At 10:10 o'clock, what is the angle between the hour hand and the minute hand of a clock? (Practice Set #200)",
+      "enOptions": [
+        "A) 115°",
+        "B) 125°",
+        "C) 100°",
+        "D) 65°"
+      ],
+      "enAns": "A) 115°",
+      "enExp": "💡 सही उत्तर: A) 115°।\nसूत्र: कोण θ = |30H - (11/2)M|\n= |30×10 - 5.5×10| = |300 - 55.0| = 115°।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 5, 10, 17, 26, ? (अभ्यास प्रश्न #201)",
+      "options": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "ans": "A) 37",
+      "exp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 5, 10, 17, 26, ? (Practice Set #201)",
+      "enOptions": [
+        "A) 37",
+        "B) 39",
+        "C) 34",
+        "D) 42"
+      ],
+      "enAns": "A) 37",
+      "enExp": "💡 सही उत्तर: A) 37।\nतर्क/Pattern: +3, +5, +7, +9, +11।\nअतः अगला पद = 37 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 4, 9, 16, 25, ? (अभ्यास प्रश्न #202)",
+      "options": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "ans": "A) 36",
+      "exp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 4, 9, 16, 25, ? (Practice Set #202)",
+      "enOptions": [
+        "A) 36",
+        "B) 38",
+        "C) 33",
+        "D) 41"
+      ],
+      "enAns": "A) 36",
+      "enExp": "💡 सही उत्तर: A) 36।\nतर्क/Pattern: वर्ग संख्याएं 1², 2², 3², 4², 5², 6²।\nअतः अगला पद = 36 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n3, 7, 15, 31, 63, ? (अभ्यास प्रश्न #203)",
+      "options": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "ans": "A) 127",
+      "exp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n3, 7, 15, 31, 63, ? (Practice Set #203)",
+      "enOptions": [
+        "A) 127",
+        "B) 129",
+        "C) 124",
+        "D) 132"
+      ],
+      "enAns": "A) 127",
+      "enExp": "💡 सही उत्तर: A) 127।\nतर्क/Pattern: ×2 + 1 श्रृंखला (3×2+1=7, 7×2+1=15...)।\nअतः अगला पद = 127 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 6, 12, 20, 30, ? (अभ्यास प्रश्न #204)",
+      "options": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "ans": "A) 42",
+      "exp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 6, 12, 20, 30, ? (Practice Set #204)",
+      "enOptions": [
+        "A) 42",
+        "B) 44",
+        "C) 39",
+        "D) 47"
+      ],
+      "enAns": "A) 42",
+      "enExp": "💡 सही उत्तर: A) 42।\nतर्क/Pattern: +4, +6, +8, +10, +12।\nअतः अगला पद = 42 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n5, 11, 23, 47, 95, ? (अभ्यास प्रश्न #205)",
+      "options": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "ans": "A) 191",
+      "exp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n5, 11, 23, 47, 95, ? (Practice Set #205)",
+      "enOptions": [
+        "A) 191",
+        "B) 193",
+        "C) 188",
+        "D) 196"
+      ],
+      "enAns": "A) 191",
+      "enExp": "💡 सही उत्तर: A) 191।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 191 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n10, 18, 28, 40, 54, ? (अभ्यास प्रश्न #206)",
+      "options": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "ans": "A) 70",
+      "exp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n10, 18, 28, 40, 54, ? (Practice Set #206)",
+      "enOptions": [
+        "A) 70",
+        "B) 72",
+        "C) 67",
+        "D) 75"
+      ],
+      "enAns": "A) 70",
+      "enExp": "💡 सही उत्तर: A) 70।\nतर्क/Pattern: +8, +10, +12, +14, +16।\nअतः अगला पद = 70 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n4, 9, 19, 39, 79, ? (अभ्यास प्रश्न #207)",
+      "options": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "ans": "A) 159",
+      "exp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n4, 9, 19, 39, 79, ? (Practice Set #207)",
+      "enOptions": [
+        "A) 159",
+        "B) 161",
+        "C) 156",
+        "D) 164"
+      ],
+      "enAns": "A) 159",
+      "enExp": "💡 सही उत्तर: A) 159।\nतर्क/Pattern: ×2 + 1 श्रृंखला।\nअतः अगला पद = 159 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n100, 96, 90, 82, 72, ? (अभ्यास प्रश्न #208)",
+      "options": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "ans": "A) 60",
+      "exp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n100, 96, 90, 82, 72, ? (Practice Set #208)",
+      "enOptions": [
+        "A) 60",
+        "B) 62",
+        "C) 57",
+        "D) 65"
+      ],
+      "enAns": "A) 60",
+      "enExp": "💡 सही उत्तर: A) 60।\nतर्क/Pattern: -4, -6, -8, -10, -12।\nअतः अगला पद = 60 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n1, 8, 27, 64, 125, ? (अभ्यास प्रश्न #209)",
+      "options": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "ans": "A) 216",
+      "exp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n1, 8, 27, 64, 125, ? (Practice Set #209)",
+      "enOptions": [
+        "A) 216",
+        "B) 218",
+        "C) 213",
+        "D) 221"
+      ],
+      "enAns": "A) 216",
+      "enExp": "💡 सही उत्तर: A) 216।\nतर्क/Pattern: घन संख्याएं 1³, 2³, 3³, 4³, 5³, 6³।\nअतः अगला पद = 216 होगा।"
+    },
+    {
+      "q": "दी गई संख्या श्रृंखला में लुप्त पद ज्ञात कीजिए:\n2, 3, 5, 7, 11, 13, ? (अभ्यास प्रश्न #210)",
+      "options": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "ans": "A) 17",
+      "exp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।",
+      "pyqTag": "SSC CHSL Reasoning Series",
+      "chapter": "Number Series",
+      "enQ": "Find the missing term in the given number series:\n2, 3, 5, 7, 11, 13, ? (Practice Set #210)",
+      "enOptions": [
+        "A) 17",
+        "B) 19",
+        "C) 14",
+        "D) 22"
+      ],
+      "enAns": "A) 17",
+      "enExp": "💡 सही उत्तर: A) 17।\nतर्क/Pattern: अभाज्य संख्याएं (Prime numbers)।\nअतः अगला पद = 17 होगा।"
+    }
+  ],
+  "subjectives": []
+}

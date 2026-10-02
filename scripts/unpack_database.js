@@ -15,7 +15,7 @@ function unpackDatabase(force = false) {
   return new Promise((resolve, reject) => {
     if (fs.existsSync(DB_PATH) && !force) {
       const stat = fs.statSync(DB_PATH);
-      if (stat.size > 500 * 1024 * 1024) {
+      if (stat.size > 20 * 1024 * 1024) {
         console.log(`[Unpack] Master database already exists (${(stat.size / (1024 * 1024)).toFixed(2)} MB). Skipping unpack.`);
         return resolve(true);
       }

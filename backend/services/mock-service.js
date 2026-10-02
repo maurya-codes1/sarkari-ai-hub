@@ -105,6 +105,8 @@ class MockService {
     // Determine whether this exam is genuinely a 10th/12th school board
     const examObj = examRepository.getExamById(examId);
     const isBoardExam = Boolean(
+      boardId ||
+      stage ||
       (examObj && (examObj.category === 'boards' || examObj.board_id)) ||
       (typeof examId === 'string' && (
         examId.startsWith('board-') ||
