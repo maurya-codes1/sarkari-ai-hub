@@ -53,14 +53,14 @@ function getDb(options = {}) {
       verbose: options.verbose ? console.log : null
     });
 
-    // Enforce relational integrity and high-performance WAL mode
+    // Enforce relational integrity and lean memory profile for 512MB Render container
     dbInstance.pragma('foreign_keys = ON');
     dbInstance.pragma('journal_mode = WAL');
     dbInstance.pragma('synchronous = NORMAL');
     dbInstance.pragma('busy_timeout = 5000');
-    dbInstance.pragma('cache_size = -64000');
-    dbInstance.pragma('mmap_size = 268435456');
-    dbInstance.pragma('temp_store = MEMORY');
+    dbInstance.pragma('cache_size = -16000'); // 16 MB cache (down from 64 MB)
+    dbInstance.pragma('mmap_size = 0');       // Disable mmap to prevent Linux cgroup page cache OOM
+    dbInstance.pragma('temp_store = FILE');   // File-backed temporary store
 
     isDbAvailable = true;
     return dbInstance;

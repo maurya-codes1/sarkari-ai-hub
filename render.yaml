@@ -4,7 +4,9 @@ services:
     runtime: node
     plan: free
     buildCommand: npm install
-    startCommand: node server.js
+    startCommand: node --max-old-space-size=384 server.js
     envVars:
       - key: NODE_VERSION
         value: 20.18.0
+      - key: NODE_OPTIONS
+        value: --max-old-space-size=384
