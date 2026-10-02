@@ -128,7 +128,7 @@ function initPortalSettings() {
 
     const defaults = {
       upi_id: process.env.UPI_ID || 'sarkariai@upi',
-      payee_name: 'SarkariAI Hub',
+      payee_name: 'BharatExams Hub',
       default_price: '9',
       custom_qr_url: '',
       admin_pin: process.env.ADMIN_PIN || 'sarkariai2026'
@@ -2105,7 +2105,7 @@ app.post('/api/ai/ask', async (req, res) => {
       return res.status(400).json({ error: 'Question is too long (maximum 2,000 characters allowed)' });
     }
 
-    const systemInstruction = `You are SarkariAI Hub's Exam Guidance Expert. Answer student queries regarding Indian government jobs (SSC, Railways, UPSC, State Police, Banking), 10th/12th Board exams (CBSE, UP Board, Bihar Board), and entrance tests (NEET, JEE, CUET).
+    const systemInstruction = `You are BharatExams Hub's Exam Guidance Expert. Answer student queries regarding Indian government jobs (SSC, Railways, UPSC, State Police, Banking), 10th/12th Board exams (CBSE, UP Board, Bihar Board), and entrance tests (NEET, JEE, CUET).
 Answer strictly in the selected language: ${language}.
 Keep advice practical, encouraging, accurate, and structured with bullet points.`;
 
@@ -2194,7 +2194,7 @@ app.get(['/admin', '/admin/', '/admin.html'], (req, res) => {
 // API: Get active payment configuration dynamically
 app.get('/api/pay/config', (req, res) => {
   const upiId = getPortalSetting('upi_id', process.env.UPI_ID || 'sarkariai@upi');
-  const payeeName = getPortalSetting('payee_name', 'SarkariAI Hub');
+  const payeeName = getPortalSetting('payee_name', 'BharatExams Hub');
   const defaultPrice = parseInt(getPortalSetting('default_price', '9'), 10) || 9;
   const customQrUrl = getPortalSetting('custom_qr_url', '');
   res.json({ upiId, payeeName, defaultPrice, customQrUrl });
@@ -2205,7 +2205,7 @@ app.get('/api/pay/generate-upi', (req, res) => {
   const defaultAmount = getPortalSetting('default_price', '9');
   const { noteId = 'ssc-gd-500', amount = defaultAmount, noteName = 'SSC GD Top 500 GK Questions' } = req.query;
   const upiId = getPortalSetting('upi_id', process.env.UPI_ID || 'sarkariai@upi');
-  const payeeName = getPortalSetting('payee_name', 'SarkariAI Hub');
+  const payeeName = getPortalSetting('payee_name', 'BharatExams Hub');
   const customQrUrl = getPortalSetting('custom_qr_url', '');
   
   const upiIntent = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(payeeName)}&am=${encodeURIComponent(amount)}&cu=INR&tn=${encodeURIComponent(noteName.slice(0, 30))}`;
@@ -2376,7 +2376,7 @@ app.get('/api/admin/settings', (req, res) => {
 
   res.json({
     upiId: getPortalSetting('upi_id', 'sarkariai@upi'),
-    payeeName: getPortalSetting('payee_name', 'SarkariAI Hub'),
+    payeeName: getPortalSetting('payee_name', 'BharatExams Hub'),
     defaultPrice: parseInt(getPortalSetting('default_price', '9'), 10) || 9,
     customQrUrl: getPortalSetting('custom_qr_url', ''),
     adminPinSet: true,
@@ -2407,7 +2407,7 @@ app.post('/api/admin/settings', (req, res) => {
     message: 'Payment and portal settings updated successfully! Changes are active immediately.',
     settings: {
       upiId: getPortalSetting('upi_id', 'sarkariai@upi'),
-      payeeName: getPortalSetting('payee_name', 'SarkariAI Hub'),
+      payeeName: getPortalSetting('payee_name', 'BharatExams Hub'),
       defaultPrice: parseInt(getPortalSetting('default_price', '9'), 10),
       customQrUrl: getPortalSetting('custom_qr_url', '')
     }
@@ -2450,7 +2450,7 @@ setTimeout(() => {
 if (require.main === module) {
   app.listen(PORT, '0.0.0.0', () => {
     console.log(`====================================================`);
-    console.log(`🚀 SarkariAI Hub Server running on http://localhost:${PORT}`);
+    console.log(`🚀 BharatExams Hub Server running on http://localhost:${PORT}`);
     console.log(`🇮🇳 Bharat's All-in-One AI Exam & Board Utility Portal`);
     console.log(`🤖 Autonomous Auto-Sync Engine: ACTIVE (2-Hour Interval)`);
     console.log(`🔑 Gemini AI Status: ${process.env.GEMINI_API_KEY ? 'CONFIGURED' : 'Using Smart Fallback Engine'}`);

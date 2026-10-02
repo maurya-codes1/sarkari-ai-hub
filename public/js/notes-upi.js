@@ -2,7 +2,7 @@
 // Features: Client-side html2pdf rendering with zero page-cut bugs (page-break-inside: avoid),
 // 100-200+ authentic questions per subject, 10-Year Hall of Fame, and 100% CBT vs Board separation.
 
-window.DYNAMIC_UPI_CONFIG = { upiId: "sarkariai@upi", payeeName: "SarkariAI Hub", defaultPrice: 9, customQrUrl: "" };
+window.DYNAMIC_UPI_CONFIG = { upiId: "sarkariai@upi", payeeName: "BharatExams Hub", defaultPrice: 9, customQrUrl: "" };
 if (typeof fetch !== 'undefined') {
   fetch('/api/pay/config')
     .then(r => r.json())
@@ -6867,7 +6867,7 @@ function openUpiPaymentModal(noteId, customNote = null) {
   const upiCfg = window.DYNAMIC_UPI_CONFIG || {};
   const upiId = upiCfg.upiId || "sarkariai@upi";
   const maskedUpi = maskUpiId(upiId);
-  const payeeName = upiCfg.payeeName || "SarkariAI Hub";
+  const payeeName = upiCfg.payeeName || "BharatExams Hub";
   const price = note.price || upiCfg.defaultPrice || 9;
   const noteTitleClean = encodeURIComponent((note.title || 'Study Notes').slice(0, 25));
   
@@ -7199,7 +7199,7 @@ async function generateAndDownloadHighResPdf(token = '') {
     <div class="pdf-avoid-break" style="border-bottom: 4px solid #ea580c; padding-bottom: 14px; margin-bottom: 18px;">
       <div style="display: flex; justify-content: space-between; align-items: center;">
         <div>
-          <h1 style="color: #1e3a8a; font-size: 22px; font-weight: 900; margin: 0;">SarkariAI Hub 🇮🇳 Official Study Notes</h1>
+          <h1 style="color: #1e3a8a; font-size: 22px; font-weight: 900; margin: 0;">BharatExams Hub 🇮🇳 Official Study Notes</h1>
           <p style="color: #64748b; font-size: 11px; margin: 3px 0 0 0; font-weight: 600;">
             ${isPaperOnly ? '📝 Live Exam Practice Paper (Questions + Final Answer Key at Back)' : '📖 Complete Solution Guide (Theory, Explanations & Solved Questions)'} • 2026 Edition
           </p>
@@ -7350,7 +7350,7 @@ async function generateAndDownloadHighResPdf(token = '') {
 
     <!-- Footer -->
     <div class="pdf-avoid-break" style="border-top: 2px solid #e2e8f0; padding-top: 8px; margin-top: 18px; display: flex; justify-content: space-between; font-size: 10px; color: #94a3b8;">
-      <span>SarkariAI Hub Exam Cell • Verified Syllabus 2026</span>
+      <span>BharatExams Hub Exam Cell • Verified Syllabus 2026</span>
       <span>Official Candidate Copy • ${objectives.length} Questions Verified</span>
     </div>
   `;
@@ -7364,7 +7364,7 @@ async function generateAndDownloadHighResPdf(token = '') {
   }
 }
 
-function openPrintWindow(htmlContent, title = 'SarkariAI Hub - Official Study Notes') {
+function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
   const win = window.open('', '_blank', 'width=900,height=950');
   if (!win) {
     if (typeof showAppAlert === 'function') {
@@ -7452,7 +7452,7 @@ function openPrintWindow(htmlContent, title = 'SarkariAI Hub - Official Study No
     <body>
       <div class="no-print">
         <div class="action-bar">
-          <div style="font-weight: 800; font-size: 14px;">🇮🇳 SarkariAI Hub • Study Notes & Formula Sheet</div>
+          <div style="font-weight: 800; font-size: 14px;">🇮🇳 BharatExams Hub • Study Notes & Formula Sheet</div>
           <div style="display: flex; gap: 8px;">
             <button onclick="window.print()" class="action-btn">
               🖨️ Download / Print PDF
