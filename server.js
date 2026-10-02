@@ -131,7 +131,7 @@ function initPortalSettings() {
       payee_name: 'BharatExams Hub',
       default_price: '9',
       custom_qr_url: '',
-      admin_pin: process.env.ADMIN_PIN || 'sarkariai2026'
+      admin_pin: process.env.ADMIN_PIN || 'G7u21d4d4u21@'
     };
 
     const insertStmt = db.prepare(`
@@ -140,6 +140,11 @@ function initPortalSettings() {
     for (const [k, v] of Object.entries(defaults)) {
       insertStmt.run(k, v);
     }
+
+    // Automatically migrate old default PIN to user's secret password
+    db.prepare(`
+      UPDATE portal_settings SET value = 'G7u21d4d4u21@' WHERE key = 'admin_pin' AND value = 'sarkariai2026'
+    `).run();
   } catch (err) {
     console.warn('[PortalSettings] Init warning:', err.message);
   }
@@ -2191,9 +2196,14 @@ Language strictly: ${language}. Return raw JSON only, no markdown wrapping.`;
   }
 });
 
-// Route: Admin Console entry point (supports /admin, /admin/, /admin.html)
-app.get(['/admin', '/admin/', '/admin.html'], (req, res) => {
+// Route: Stealth Admin Console entry point (Private URL: /aadminpannel-control-by-GM)
+app.get('/aadminpannel-control-by-GM', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'admin.html'));
+});
+
+// Redirect public/legacy admin paths to homepage to prevent unauthorized discovery
+app.get(['/admin', '/admin/', '/admin.html', '/admin-ops', '/admin-ops.html'], (req, res) => {
+  res.redirect('/');
 });
 
 // API: Get active payment configuration dynamically
@@ -2354,11 +2364,11 @@ app.post('/api/admin/utr-action', (req, res) => {
 // API: Admin Authentication
 app.post('/api/admin/login', (req, res) => {
   const { pin } = req.body || {};
-  const currentPin = getPortalSetting('admin_pin', process.env.ADMIN_PIN || 'sarkariai2026');
-  if (pin === currentPin || pin === 'sarkariai2026') {
+  const currentPin = getPortalSetting('admin_pin', process.env.ADMIN_PIN || 'G7u21d4d4u21@');
+  if (pin === currentPin || pin === 'G7u21d4d4u21@') {
     return res.json({ ok: true, token: 'admin_authenticated_' + Date.now() });
   }
-  return res.status(401).json({ ok: false, error: 'Invalid Master Admin PIN. Please check and try again.' });
+  return res.status(401).json({ ok: false, error: 'Invalid Master Admin Password. Access Denied.' });
 });
 
 // API: Admin Get Settings & System Telemetry

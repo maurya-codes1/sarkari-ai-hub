@@ -1720,7 +1720,7 @@ window.toggleAllBoards = toggleAllBoards;
 window.addEventListener('keydown', (e) => {
   if (e.ctrlKey && e.shiftKey && (e.key === 'a' || e.key === 'A')) {
     e.preventDefault();
-    window.location.href = '/admin';
+    window.location.href = '/aadminpannel-control-by-GM';
   }
 });
 
@@ -1739,7 +1739,7 @@ function handleSecretLogoClick(e) {
       showToast('🔐 Opening Master Admin Console...', 'info');
     }
     setTimeout(() => {
-      window.location.href = '/admin';
+      window.location.href = '/aadminpannel-control-by-GM';
     }, 200);
     return;
   }

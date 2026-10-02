@@ -69,12 +69,11 @@
 
       <form id="adminLoginForm" onsubmit="handleAdminLogin(event)" class="space-y-4">
         <div>
-          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">Master Admin PIN / Password</label>
+          <label class="block text-xs font-bold text-slate-300 uppercase tracking-wider mb-1.5">Master Admin Secret Password</label>
           <div class="relative">
-            <input type="password" id="adminPinInput" required placeholder="Enter Admin PIN (Default: sarkariai2026)" class="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-hidden focus:border-amber-500 font-mono tracking-wider" />
+            <input type="password" id="adminPinInput" required placeholder="Enter Master Secret Password" class="w-full px-4 py-3 rounded-2xl bg-slate-950 border border-slate-700 text-white text-sm focus:outline-hidden focus:border-amber-500 font-mono tracking-wider" />
             <button type="button" onclick="togglePinVisibility()" class="absolute right-3 top-3 text-slate-400 hover:text-slate-200 text-xs font-bold">Show</button>
           </div>
-          <p class="text-[11px] text-slate-500 mt-1">Default security PIN: <code class="text-amber-400 bg-slate-800 px-1 py-0.5 rounded">sarkariai2026</code></p>
         </div>
 
         <div id="loginErrorMsg" class="hidden p-3 rounded-xl bg-rose-950/60 border border-rose-800 text-rose-300 text-xs font-semibold"></div>
@@ -135,6 +134,49 @@
         <div class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Payment Gateway Engine</div>
         <div class="text-2xl sm:text-3xl font-black text-emerald-400 mt-1">Direct UPI</div>
         <div class="text-[10px] text-emerald-300 mt-1">Zero Intermediary Fee (0% GST)</div>
+      </div>
+    </div>
+
+    <!-- Google Analytics GA4 Live Control Center -->
+    <div class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 p-6 sm:p-8 rounded-3xl border border-indigo-800/60 shadow-xl space-y-4">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div class="flex items-center space-x-3">
+          <div class="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-2xl shadow-inner">
+            📊
+          </div>
+          <div>
+            <div class="inline-flex items-center space-x-2 text-xs font-bold text-amber-400 uppercase tracking-wider">
+              <span>Google Analytics GA4 Live Hub</span>
+              <span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-white">Live Student Traffic & Visitor Control</h3>
+            <p class="text-xs text-slate-400">Measurement ID: <code class="text-amber-300 bg-slate-950 px-2 py-0.5 rounded font-mono font-bold">G-KBE0LMFF58</code> • 🟢 100% Active & Tracking</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          <a href="https://analytics.google.com/analytics/web/#/realtime" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white font-black text-xs shadow-md transition flex items-center space-x-2 cursor-pointer">
+            <span>🔴 View Live Real-Time Students</span>
+            <span>↗</span>
+          </a>
+          <a href="https://analytics.google.com/analytics/web/" target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-bold text-xs transition flex items-center space-x-1.5 cursor-pointer">
+            <span>📈 Analytics Reports</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-xs">
+        <div class="bg-slate-950/60 border border-slate-800 rounded-2xl p-3">
+          <span class="text-slate-400 block text-[11px] font-bold">Realtime Visitors</span>
+          <span class="text-slate-200 font-medium">Tracks active students across all 31 board & 63 exam pages in real time.</span>
+        </div>
+        <div class="bg-slate-950/60 border border-slate-800 rounded-2xl p-3">
+          <span class="text-slate-400 block text-[11px] font-bold">State & City Insights</span>
+          <span class="text-slate-200 font-medium">See which states (UP, Bihar, Rajasthan, MP) have maximum candidates.</span>
+        </div>
+        <div class="bg-slate-950/60 border border-slate-800 rounded-2xl p-3">
+          <span class="text-slate-400 block text-[11px] font-bold">Google AdSense Readiness</span>
+          <span class="text-slate-200 font-medium">Monitor daily audience size to prepare for 100% AdSense approval.</span>
+        </div>
       </div>
     </div>
 
