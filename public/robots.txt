@@ -1,4 +1,4 @@
-# robots.txt for SarkariAI Hub
+# robots.txt for BharatExams Hub (https://bharatexamshub.com)
 User-agent: GPTBot
 Allow: /
 
@@ -19,5 +19,5 @@ Disallow: /review-queue.html
 Disallow: /api/
 
 # Sitemap location
-Sitemap: https://sarkari-ai-hub-1.onrender.com/sitemap.xml
+Sitemap: https://bharatexamshub.com/sitemap.xml
 

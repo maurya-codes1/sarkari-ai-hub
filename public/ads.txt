@@ -1,0 +1,3 @@
+# Google AdSense ads.txt for BharatExams Hub (https://bharatexamshub.com)
+# When your Google AdSense account is approved, add your publisher ID line below:
+# Example: google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
