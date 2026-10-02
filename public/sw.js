@@ -1,6 +1,6 @@
 // BharatExams Hub Service Worker
-const CACHE_NAME = 'bharatexamshub-cache-v2';
-const STATIC_ASSETS = ['/', '/index.html', '/documentation.html'];
+const CACHE_NAME = 'bharatexamshub-cache-v3';
+const STATIC_ASSETS = ['/', '/index.html', '/documentation.html', '/js/i18n.js'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
