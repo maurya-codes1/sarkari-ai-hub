@@ -2,7 +2,7 @@
   "boardId": "wbbse-wb",
   "stage": "Class 10",
   "subjectId": "subj-science",
-  "subjectName": "विज्ञान (General Science)",
+  "subjectName": "विज्ञान (Science)",
   "language": "en",
   "objectives": [
     {
@@ -16,7 +16,7 @@
       "ans": "A) मैग्नीशियम ऑक्साइड (MgO)",
       "exp": "💡 सही उत्तर: A) मैग्नीशियम ऑक्साइड (MgO)।\nव्याख्या: अभिक्रिया: 2Mg + O₂ → 2MgO (मैग्नीशियम ऑक्साइड का श्वेत चूर्ण बनता है)। यह एक संयोजन एवं दहन अभिक्रिया है।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "फेरस सल्फेट (FeSO₄·7H₂O) के क्रिस्टलों को गर्म करने पर उनका हरा रंग किसमें बदल जाता है?",
@@ -29,7 +29,7 @@
       "ans": "A) भूरे रंग (Fe₂O₃) में",
       "exp": "💡 सही उत्तर: A) भूरे रंग (Fe₂O₃) में।\nव्याख्या: FeSO₄ को गर्म करने पर क्रिस्टलन जल समाप्त होता है तथा अपघटन होकर Fe₂O₃ (फेरिक ऑक्साइड - भूरा रंग) तथा SO₂ व SO₃ गैसें निकलती हैं।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "चूने के पानी (Ca(OH)₂) में अधिक मात्रा में CO₂ गैस प्रवाहित करने पर दूधियापन क्यों गायब हो जाता है?",
@@ -42,7 +42,7 @@
       "ans": "A) जल में घुलनशील Ca(HCO₃)₂ बनने के कारण",
       "exp": "💡 सही उत्तर: A) जल में घुलनशील Ca(HCO₃)₂ बनने के कारण।\nव्याख्या: प्रारंभ में अघुलनशील CaCO₃ बनने से पानी दूधिया होता है। अधिक CO₂ से घुलनशील कैल्शियम हाइड्रोजन कार्बोनेट Ca(HCO₃)₂ बनता है।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "निम्न में से कौन सी एक ऊष्माशोषी (Endothermic) अभिक्रिया है?",
@@ -55,7 +55,7 @@
       "ans": "A) प्रकाश संश्लेषण (Photosynthesis)",
       "exp": "💡 सही उत्तर: A) प्रकाश संश्लेषण (Photosynthesis)।\nव्याख्या: प्रकाश संश्लेषण में सूर्य के प्रकाश की ऊर्जा अवशोषित होती है, अतः यह एक ऊष्माशोषी अभिक्रिया है, जबकि श्वसन और दहन ऊष्माक्षेपी हैं।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "जब लोहे की कील को कॉपर सल्फेट (CuSO₄) के नीले विलयन में डुबोया जाता है, तो विलयन का रंग कैसा हो जाता है?",
@@ -68,7 +68,7 @@
       "ans": "A) हल्का हरा (FeSO₄ बनने के कारण)",
       "exp": "💡 सही उत्तर: A) हल्का हरा (FeSO₄ बनने के कारण)।\nव्याख्या: विस्थापन अभिक्रिया: Fe + CuSO₄ → FeSO₄ (हल्का हरा) + Cu। लोहा तांबे से अधिक अभिक्रियाशील है।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "श्वसन (Respiration) को किस प्रकार की रासायनिक अभिक्रिया माना जाता है?",
@@ -81,7 +81,7 @@
       "ans": "A) ऊष्माक्षेपी अभिक्रिया (Exothermic)",
       "exp": "💡 सही उत्तर: A) ऊष्माक्षेपी अभिक्रिया (Exothermic)।\nव्याख्या: ग्लूकोज के विखंडन (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ऊर्जा) से ऊर्जा मुक्त होती है, अतः श्वसन एक ऊष्माक्षेपी अभिक्रिया है।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "चिप्स के पैकेट में तेल और वसा के उपचयन (विकृतगंधिता - Rancidity) को रोकने के लिए कौन सी निष्क्रिय गैस भरी जाती है?",
@@ -94,7 +94,7 @@
       "ans": "A) नाइट्रोजन (N₂)",
       "exp": "💡 सही उत्तर: A) नाइट्रोजन (N₂)।\nव्याख्या: नाइट्रोजन एक कम सक्रिय/निष्क्रिय गैस है जो वसा और तेल को ऑक्सीकृत (उपचयित) होने से रोकती है।",
       "chapter": "रासायनिक अभिक्रियाएं एवं समीकरण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "शुद्ध जल अथवा उदासीन विलयन का pH मान 25°C पर कितना होता है?",
@@ -107,7 +107,7 @@
       "ans": "A) 7",
       "exp": "💡 सही उत्तर: A) 7।\nव्याख्या: उदासीन विलयन में [H⁺] = [OH⁻] = 10⁻⁷ M, अतः pH = -log(10⁻⁷) = 7 होता है।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "टमाटर में कौन सा प्राकृतिक अम्ल पाया जाता है?",
@@ -120,7 +120,7 @@
       "ans": "A) ऑक्सैलिक अम्ल (Oxalic Acid)",
       "exp": "💡 सही उत्तर: A) ऑक्सैलिक अम्ल (Oxalic Acid)।\nव्याख्या: टमाटर में मुख्य रूप से ऑक्सैलिक अम्ल तथा सिट्रिक अम्ल होता है। सिरके में एसिटिक अम्ल, इमली में टार्टरिक अम्ल होता है।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "विरंजक चूर्ण (Bleaching Powder) का सही रासायनिक सूत्र क्या है?",
@@ -133,7 +133,7 @@
       "ans": "A) CaOCl₂",
       "exp": "💡 सही उत्तर: A) CaOCl₂।\nव्याख्या: शुष्क बुझे चूने पर क्लोरीन की क्रिया से विरंजक चूर्ण बनता है: Ca(OH)₂ + Cl₂ → CaOCl₂ + H₂O।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "बेकिंग सोडा (खाने का सोडा) का रासायनिक नाम और सूत्र क्या है?",
@@ -146,7 +146,7 @@
       "ans": "A) सोडियम हाइड्रोजन कार्बोनेट (NaHCO₃)",
       "exp": "💡 सही उत्तर: A) सोडियम हाइड्रोजन कार्बोनेट (NaHCO₃)।\nव्याख्या: बेकिंग सोडा = सोडियम बाइकार्बोनेट / सोडियम हाइड्रोजन कार्बोनेट (NaHCO₃)। धोने का सोडा = Na₂CO₃·10H₂O।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "प्लास्टर ऑफ पेरिस (POP) का रासायनिक सूत्र क्या है?",
@@ -159,7 +159,7 @@
       "ans": "A) CaSO₄·½H₂O",
       "exp": "💡 सही उत्तर: A) CaSO₄·½H₂O।\nव्याख्या: जिप्सम को 373 K (100°C) पर गर्म करने पर प्लास्टर ऑफ पेरिस (कैल्शियम सल्फेट हेमीहाइड्रेट CaSO₄·½H₂O) बनता है।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दांतों के इनेमल (Enamel) का क्षरण किस pH मान से कम होने पर शुरू हो जाता है?",
@@ -172,7 +172,7 @@
       "ans": "A) 5.5 से कम",
       "exp": "💡 सही उत्तर: A) 5.5 से कम।\nव्याख्या: मुख का pH मान 5.5 से कम होने पर दांतों का इनेमल (कैल्शियम हाइड्रॉक्सीएपेटाइट) संक्षारित होने लगता है।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "अम्लीय वर्षा (Acid Rain) के जल का pH मान कितना होता है?",
@@ -185,7 +185,7 @@
       "ans": "A) 5.6 से कम",
       "exp": "💡 सही उत्तर: A) 5.6 से कम।\nव्याख्या: जब वर्षा के जल का pH मान 5.6 से कम हो जाता है, तो उसे अम्लीय वर्षा कहते हैं।",
       "chapter": "अम्ल, क्षारक एवं लवण",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "कमरे के ताप पर द्रव अवस्था में पाई जाने वाली एकमात्र धातु कौन सी है?",
@@ -198,7 +198,7 @@
       "ans": "A) पारा (Mercury - Hg)",
       "exp": "💡 सही उत्तर: A) पारा (Mercury - Hg)।\nव्याख्या: पारा (Hg) कमरे के ताप पर द्रव धातु है। ब्रोमीन (Br) कमरे के ताप पर द्रव अधातु है।",
       "chapter": "धातु एवं अधातु",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "कौन सी धातुएं इतनी मुलायम होती हैं कि उन्हें चाकू से आसानी से काटा जा सकता है?",
@@ -211,7 +211,7 @@
       "ans": "A) सोडियम (Na) और पोटेशियम (K)",
       "exp": "💡 सही उत्तर: A) सोडियम (Na) और पोटेशियम (K)।\nव्याख्या: सोडियम और पोटेशियम क्षार धातुएं हैं जिनका घनत्व और गलनांक कम होता है, इन्हें चाकू से काटा जा सकता है।",
       "chapter": "धातु एवं अधातु",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "विद्युत तारों पर किस कुचालक पदार्थ की परत चढ़ाई जाती है?",
@@ -224,7 +224,7 @@
       "ans": "A) पॉलीविनाइल क्लोराइड (PVC)",
       "exp": "💡 सही उत्तर: A) पॉलीविनाइल क्लोराइड (PVC)।\nव्याख्या: PVC एक उत्कृष्ट विद्युत कुचालक बहुलक है जो शॉर्ट सर्किट और करंट से सुरक्षा प्रदान करता है।",
       "chapter": "धातु एवं अधातु",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "सिनाबार (Cinnabar) किस धातु का प्रमुख अयस्क है?",
@@ -237,7 +237,7 @@
       "ans": "A) पारा (HgS)",
       "exp": "💡 सही उत्तर: A) पारा (HgS)।\nव्याख्या: सिनाबार (HgS - मर्क्यूरिक सल्फाइड) पारे का प्राथमिक अयस्क है।",
       "chapter": "धातु एवं अधातु",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "लोहे को जंग से बचाने के लिए उस पर जस्ते (Zinc) की पतली परत चढ़ाने की विधि क्या कहलाती है?",
@@ -250,7 +250,7 @@
       "ans": "A) यशदलेपन (Galvanization)",
       "exp": "💡 सही उत्तर: A) यशदलेपन (Galvanization)।\nव्याख्या: गैल्वनीकरण (यशदलेपन) में लोहे या इस्पात पर पिघले हुए जिंक की सुरक्षात्मक परत चढ़ाई जाती है।",
       "chapter": "धातु एवं अधातु",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "कार्बन की संयोजकता (Valency) कितनी होती है और यह किस प्रकार के बंध बनाता है?",
@@ -263,7 +263,7 @@
       "ans": "A) चार (चतुःसंयोजी), सहसंयोजी आबंध (Covalent Bonds)",
       "exp": "💡 सही उत्तर: A) चार (चतुःसंयोजी), सहसंयोजी आबंध (Covalent Bonds)।\nव्याख्या: कार्बन का परमाणु क्रमांक 6 है (2, 4)। यह 4 इलेक्ट्रॉनों की साझेदारी करके 4 सहसंयोजी बंध बनाता है।",
       "chapter": "कार्बन एवं उसके यौगिक",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "एथेनॉल (C₂H₅OH) को सांद्र H₂SO₄ के साथ 443 K (170°C) पर गर्म करने पर क्या बनता है?",
@@ -276,7 +276,7 @@
       "ans": "A) एथीन (C₂H₄) और जल (निर्जलीकरण)",
       "exp": "💡 सही उत्तर: A) एथीन (C₂H₄) और जल (निर्जलीकरण)।\nव्याख्या: सांद्र सल्फ्यूरिक अम्ल एक प्रबल निर्जलीकारक (dehydrating agent) है: CH₃CH₂OH → CH₂=CH₂ + H₂O।",
       "chapter": "कार्बन एवं उसके यौगिक",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "साबुन के अणु में जलरागी (Hydrophilic) और जलविरागी (Hydrophobic) सिरे कौन से होते हैं?",
@@ -289,7 +289,7 @@
       "ans": "A) आयनिक सिरा जलरागी तथा कार्बन श्रृंखला जलविरागी होती है",
       "exp": "💡 सही उत्तर: A) आयनिक सिरा जलरागी तथा कार्बन श्रृंखला जलविरागी होती है।\nव्याख्या: साबुन के अणु में -COO⁻Na⁺ आयनिक सिरा जलरागी (जल में घुलनशील) तथा हाइड्रोकार्बन पूंछ जलविरागी (तेल/मैल में घुलनशील) होती है, जो मिसेल बनाती है।",
       "chapter": "कार्बन एवं उसके यौगिक",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "सिरका (Vinegar) वास्तव में क्या होता है?",
@@ -302,7 +302,7 @@
       "ans": "A) जल में 5% से 8% एसिटिक अम्ल का विलयन",
       "exp": "💡 सही उत्तर: A) जल में 5% से 8% एसिटिक अम्ल का विलयन।\nव्याख्या: जल में 5-8% एसिटिक अम्ल (एथेनोइक अम्ल CH₃COOH) के तनु विलयन को सिरका कहते हैं।",
       "chapter": "कार्बन एवं उसके यौगिक",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पादपों में जाइलम (Xylem) ऊतक का मुख्य कार्य क्या है?",
@@ -315,7 +315,7 @@
       "ans": "A) जल एवं खनिज लवणों का वहन (Transport of Water)",
       "exp": "💡 सही उत्तर: A) जल एवं खनिज लवणों का वहन (Transport of Water)।\nव्याख्या: जाइलम जड़ों से पत्तियों तक जल व घुले हुए खनिजों का एकदिशीय संवहन करता है। फ्लोएम सुक्रोज/भोजन का द्विदिशीय संवहन करता है।",
       "chapter": "जैव प्रक्रम (Life Processes)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "मानव पाचन तंत्र में आमाशय में प्रोटीन का पाचन किस एंजाइम द्वारा शुरू होता है?",
@@ -328,7 +328,7 @@
       "ans": "A) पेप्सिन (Pepsin)",
       "exp": "💡 सही उत्तर: A) पेप्सिन (Pepsin)।\nव्याख्या: आमाशय रस में उपस्थित हाइड्रोक्लोरिक अम्ल (HCl) की उपस्थिति में पेप्सिनोजन सक्रिय होकर पेप्सिन बनता है जो प्रोटीन का पाचन करता है।",
       "chapter": "जैव प्रक्रम (Life Processes)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "कोशिका का 'ऊर्जा गृह' (Powerhouse of the Cell) तथा ऊर्जा मुद्रा (Energy Currency) क्या है?",
@@ -341,7 +341,7 @@
       "ans": "A) माइटोकॉन्ड्रिया, ATP (एडेनोसिन ट्राइफॉस्फेट)",
       "exp": "💡 सही उत्तर: A) माइटोकॉन्ड्रिया, ATP (एडेनोसिन ट्राइफॉस्फेट)।\nव्याख्या: कोशिकीय श्वसन माइटोकॉन्ड्रिया में होता है जहां ग्लूकोज के ऑक्सीकरण से ATP के रूप में ऊर्जा संचित होती है।",
       "chapter": "जैव प्रक्रम (Life Processes)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "मानव हृदय में अशुद्ध (विऑक्सीजनित) रक्त शरीर से किस कोष्ठ में प्रवेश करता है?",
@@ -354,7 +354,7 @@
       "ans": "A) दायां अलिंद (Right Atrium)",
       "exp": "💡 सही उत्तर: A) दायां अलिंद (Right Atrium)।\nव्याख्या: महाशिरा (Vena Cava) द्वारा विऑक्सीजनित रक्त दायें अलिंद में आता है, फिर दायें निलय से फुफ्फुस धमनी द्वारा फेफड़ों में जाता है।",
       "chapter": "जैव प्रक्रम (Life Processes)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "वृक्क (Kidney) की संरचनात्मक एवं कार्यात्मक इकाई क्या कहलाती है?",
@@ -367,7 +367,7 @@
       "ans": "A) नेफ्रॉन / वृक्काणु (Nephron)",
       "exp": "💡 सही उत्तर: A) नेफ्रॉन / वृक्काणु (Nephron)।\nव्याख्या: प्रत्येक वृक्क में लगभग 10-12 लाख सूक्ष्म निस्यंदन इकाइयां होती हैं जिन्हें नेफ्रॉन (वृक्काणु) कहते हैं।",
       "chapter": "जैव प्रक्रम (Life Processes)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो तंत्रिका कोशिकाओं (Neurons) के बीच के खाली स्थान को क्या कहते हैं?",
@@ -380,7 +380,7 @@
       "ans": "A) सिनेप्स / अंतर्ग्रथन (Synapse)",
       "exp": "💡 सही उत्तर: A) सिनेप्स / अंतर्ग्रथन (Synapse)।\nव्याख्या: सिनेप्स वह सूक्ष्म संधि स्थल है जहां एक न्यूरॉन से दूसरे न्यूरॉन में रासायनिक संकेतों (न्यूरोट्रांसमीटर) द्वारा आवेग पहुंचता है।",
       "chapter": "नियंत्रण, समन्वय एवं जनन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पादप हार्मोन 'ऑक्सिन' (Auxin) का मुख्य कार्य क्या है?",
@@ -393,7 +393,7 @@
       "ans": "A) कोशिका दीर्घीकरण एवं प्ररोह की वृद्धि (वृद्धि प्रवर्धक)",
       "exp": "💡 सही उत्तर: A) कोशिका दीर्घीकरण एवं प्ररोह की वृद्धि (वृद्धि प्रवर्धक)।\nव्याख्या: ऑक्सिन प्ररोह के अग्रभाग में बनता है और प्रकाश की दिशा में मुड़ने (प्रकाशनुवर्तन) तथा कोशिका दीर्घीकरण में सहायक होता है।",
       "chapter": "नियंत्रण, समन्वय एवं जनन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "फल पकाने वाला गैसीय पादप हार्मोन कौन सा है?",
@@ -406,7 +406,7 @@
       "ans": "A) एथिलीन (Ethylene)",
       "exp": "💡 सही उत्तर: A) एथिलीन (Ethylene)।\nव्याख्या: एथिलीन एक गैसीय हार्मोन है जो फलों के प्राकृतिक परिपक्वन को प्रेरित करता है।",
       "chapter": "नियंत्रण, समन्वय एवं जनन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "हाइड्रा (Hydra) और यीस्ट (Yeast) में अलैंगिक जनन की सबसे प्रमुख विधि कौन सी है?",
@@ -419,7 +419,7 @@
       "ans": "A) मुकुलन (Budding)",
       "exp": "💡 सही उत्तर: A) मुकुलन (Budding)।\nव्याख्या: हाइड्रा तथा यीस्ट के शरीर पर एक उभार (मुकुल) विकसित होता है जो परिपक्व होकर अलग जीव बन जाता है।",
       "chapter": "नियंत्रण, समन्वय एवं जनन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पुष्प का कौन सा भाग निषेचन के पश्चात फल में विकसित होता है?",
@@ -432,7 +432,7 @@
       "ans": "A) अंडाशय (Ovary)",
       "exp": "💡 सही उत्तर: A) अंडाशय (Ovary)।\nव्याख्या: निषेचन के बाद बीजांड से बीज बनता है तथा परिपक्व अंडाशय से फल का निर्माण होता है।",
       "chapter": "नियंत्रण, समन्वय एवं जनन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "मानव में लिंग निर्धारण के लिए कौन सा गुणसूत्र उत्तरदायी होता है?",
@@ -445,7 +445,7 @@
       "ans": "A) पिता का Y गुणसूत्र",
       "exp": "💡 सही उत्तर: A) पिता का Y गुणसूत्र।\nव्याख्या: महिला में XX तथा पुरुष में XY गुणसूत्र होते हैं। यदि शुक्राणु से Y गुणसूत्र मिलता है तो लड़का (XY) और X मिलने पर लड़की (XX) होती है।",
       "chapter": "नियंत्रण, समन्वय एवं जनन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "गोलीय दर्पण की फोकस दूरी (f) तथा वक्रता त्रिज्या (R) में क्या संबंध होता है?",
@@ -458,7 +458,7 @@
       "ans": "A) f = R / 2",
       "exp": "💡 सही उत्तर: A) f = R / 2।\nव्याख्या: छोटे द्वारक के गोलीय दर्पण के लिए फोकस दूरी वक्रता त्रिज्या की आधी होती है: f = R/2 या R = 2f।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "वाहनों के पश्च-दृश्य दर्पण (Rear-view mirror) के रूप में किस दर्पण का उपयोग किया जाता है?",
@@ -471,7 +471,7 @@
       "ans": "A) उत्तल दर्पण (Convex Mirror)",
       "exp": "💡 सही उत्तर: A) उत्तल दर्पण (Convex Mirror)।\nव्याख्या: उत्तल दर्पण सदैव सीधा, छोटा और विस्तृत दृष्टि क्षेत्र (Wide Field of View) प्रदान करता है, जिससे पीछे का पूरा ट्रैफिक दिखता है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "लेंस की क्षमता (Power of Lens) का SI मात्रक क्या है?",
@@ -484,7 +484,7 @@
       "ans": "A) डाइऑप्टर (Dioptre - D)",
       "exp": "💡 सही उत्तर: A) डाइऑप्टर (Dioptre - D)।\nव्याख्या: P = 1/f (मीटर में)। 1 मीटर फोकस दूरी वाले लेंस की क्षमता 1 डाइऑप्टर (D = m⁻¹) होती है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "सामान्य दृष्टि के वयस्क के लिए सुस्पष्ट दर्शन की न्यूनतम दूरी (Least Distance of Distinct Vision) कितनी होती है?",
@@ -497,7 +497,7 @@
       "ans": "A) 25 सेमी",
       "exp": "💡 सही उत्तर: A) 25 सेमी।\nव्याख्या: स्वस्थ मानव नेत्र के लिए निकट बिंदु 25 सेमी तथा दूर बिंदु अनंत (Infinity) पर होता है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "निकट दृष्टि दोष (मायोपिया - Myopia) को संशोधित करने के लिए किस लेंस का उपयोग किया जाता है?",
@@ -510,7 +510,7 @@
       "ans": "A) अवतल लेंस (Concave Lens)",
       "exp": "💡 सही उत्तर: A) अवतल लेंस (Concave Lens)।\nव्याख्या: मायोपिया में दूर की वस्तुएं स्पष्ट नहीं दिखतीं और प्रतिबिंब रेटिना से पहले बनता है। इसे अवतल लेंस (अपसारी लेंस) से ठीक किया जाता है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "आकाश का नीला रंग और सूर्योदय/सूर्यास्त के समय सूर्य का लाल दिखना किस परिघटना के कारण होता है?",
@@ -523,7 +523,7 @@
       "ans": "A) प्रकाश का प्रकीर्णन (Scattering of Light - Rayleigh Law)",
       "exp": "💡 सही उत्तर: A) प्रकाश का प्रकीर्णन (Scattering of Light - Rayleigh Law)।\nव्याख्या: रैले के नियमानुसार प्रकीर्णन ∝ 1/λ⁴। नीले रंग का तरंगदैर्घ्य कम होने से उसका प्रकीर्णन अधिक होता है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "ओम का नियम (Ohm's Law) किस सूत्र द्वारा व्यक्त किया जाता है?",
@@ -536,7 +536,7 @@
       "ans": "A) V = I × R",
       "exp": "💡 सही उत्तर: A) V = I × R।\nव्याख्या: नियत ताप और भौतिक अवस्था पर चालक के सिरों पर विभवांतर प्रवाहित धारा के समानुपाती होता है: V ∝ I => V = IR।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "विद्युत धारा के तापीय प्रभाव (जूल का तापन नियम) का सही सूत्र क्या है?",
@@ -549,7 +549,7 @@
       "ans": "A) H = I²Rt",
       "exp": "💡 सही उत्तर: A) H = I²Rt।\nव्याख्या: जूल के तापन नियमानुसार उत्पन्न ऊष्मा H = I²Rt (जूल) होती है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी विद्युत परिपथ में 1 किलोवाट-घंटा (1 kWh / 1 यूनिट) कितने जूल के बराबर होता है?",
@@ -562,7 +562,7 @@
       "ans": "A) 3.6 × 10⁶ J",
       "exp": "💡 सही उत्तर: A) 3.6 × 10⁶ J।\nव्याख्या: 1 kWh = 1000 W × 3600 s = 3.6 × 10⁶ Watt-sec = 3.6 × 10⁶ Joule।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "विद्युत मोटर (Electric Motor) किस नियम पर कार्य करती है और यह किस ऊर्जा को किसमें बदलती है?",
@@ -575,7 +575,7 @@
       "ans": "A) फ्लेमिंग के बाएं हाथ का नियम, विद्युत ऊर्जा को यांत्रिक ऊर्जा में",
       "exp": "💡 सही उत्तर: A) फ्लेमिंग के बाएं हाथ का नियम, विद्युत ऊर्जा को यांत्रिक ऊर्जा में।\nव्याख्या: विद्युत मोटर धारावाही चालक पर चुंबकीय क्षेत्र में लगने वाले बल (फ्लेमिंग का वामहस्त नियम) पर कार्य करती है और विद्युत ऊर्जा को यांत्रिक ऊर्जा में बदलती है।",
       "chapter": "भौतिकी: प्रकाश, विद्युत एवं चुंबकत्व",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 2 Ω तथा 3 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -588,7 +588,7 @@
       "ans": "A) 5 Ω",
       "exp": "💡 सही उत्तर: A) 5 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 2 + 3 = 5 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 2 Ω तथा 3 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -601,7 +601,7 @@
       "ans": "A) 1.2 Ω",
       "exp": "💡 सही उत्तर: A) 1.2 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (2 × 3) / (2 + 3) = 1.2 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 3 Ω तथा 6 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -614,7 +614,7 @@
       "ans": "A) 9 Ω",
       "exp": "💡 सही उत्तर: A) 9 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 3 + 6 = 9 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 3 Ω तथा 6 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -627,7 +627,7 @@
       "ans": "A) 2 Ω",
       "exp": "💡 सही उत्तर: A) 2 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (3 × 6) / (3 + 6) = 2 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 4 Ω तथा 4 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -640,7 +640,7 @@
       "ans": "A) 8 Ω",
       "exp": "💡 सही उत्तर: A) 8 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 4 + 4 = 8 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 4 Ω तथा 4 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -653,7 +653,7 @@
       "ans": "A) 2 Ω",
       "exp": "💡 सही उत्तर: A) 2 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (4 × 4) / (4 + 4) = 2 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 6 Ω तथा 12 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -666,7 +666,7 @@
       "ans": "A) 18 Ω",
       "exp": "💡 सही उत्तर: A) 18 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 6 + 12 = 18 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 6 Ω तथा 12 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -679,7 +679,7 @@
       "ans": "A) 4 Ω",
       "exp": "💡 सही उत्तर: A) 4 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (6 × 12) / (6 + 12) = 4 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 10 Ω तथा 10 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -692,7 +692,7 @@
       "ans": "A) 20 Ω",
       "exp": "💡 सही उत्तर: A) 20 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 10 + 10 = 20 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 10 Ω तथा 10 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -705,7 +705,7 @@
       "ans": "A) 5 Ω",
       "exp": "💡 सही उत्तर: A) 5 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (10 × 10) / (10 + 10) = 5 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 5 Ω तथा 20 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -718,7 +718,7 @@
       "ans": "A) 25 Ω",
       "exp": "💡 सही उत्तर: A) 25 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 5 + 20 = 25 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 5 Ω तथा 20 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -731,7 +731,7 @@
       "ans": "A) 4 Ω",
       "exp": "💡 सही उत्तर: A) 4 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (5 × 20) / (5 + 20) = 4 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 4 Ω तथा 6 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -744,7 +744,7 @@
       "ans": "A) 10 Ω",
       "exp": "💡 सही उत्तर: A) 10 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 4 + 6 = 10 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 4 Ω तथा 6 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -757,7 +757,7 @@
       "ans": "A) 2.4 Ω",
       "exp": "💡 सही उत्तर: A) 2.4 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (4 × 6) / (4 + 6) = 2.4 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 10 Ω तथा 40 Ω श्रेणीक्रम (Series) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -770,7 +770,7 @@
       "ans": "A) 50 Ω",
       "exp": "💡 सही उत्तर: A) 50 Ω।\nव्याख्या: श्रेणीक्रम में तुल्य प्रतिरोध R = R₁ + R₂ = 10 + 40 = 50 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "दो प्रतिरोधक 10 Ω तथा 40 Ω पार्श्वक्रम / समांतरक्रम (Parallel) में संयोजित हैं। इनका तुल्य प्रतिरोध क्या होगा?",
@@ -783,7 +783,7 @@
       "ans": "A) 8 Ω",
       "exp": "💡 सही उत्तर: A) 8 Ω।\nव्याख्या: समांतरक्रम में 1/R = 1/R₁ + 1/R₂ => R = (R₁ × R₂) / (R₁ + R₂) = (10 × 40) / (10 + 40) = 8 Ω।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = +0.50 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -796,7 +796,7 @@
       "ans": "A) +2.0 D, उत्तल लेंस (Convex Lens)",
       "exp": "💡 सही उत्तर: A) +2.0 D, उत्तल लेंस (Convex Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (0.5) = +2.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = +0.25 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -809,7 +809,7 @@
       "ans": "A) +4.0 D, उत्तल लेंस (Convex Lens)",
       "exp": "💡 सही उत्तर: A) +4.0 D, उत्तल लेंस (Convex Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (0.25) = +4.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = +0.20 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -822,7 +822,7 @@
       "ans": "A) +5.0 D, उत्तल लेंस (Convex Lens)",
       "exp": "💡 सही उत्तर: A) +5.0 D, उत्तल लेंस (Convex Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (0.2) = +5.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = +0.10 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -835,7 +835,7 @@
       "ans": "A) +10.0 D, उत्तल लेंस (Convex Lens)",
       "exp": "💡 सही उत्तर: A) +10.0 D, उत्तल लेंस (Convex Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (0.1) = +10.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = -0.50 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -848,7 +848,7 @@
       "ans": "A) -2.0 D, अवतल लेंस (Concave Lens)",
       "exp": "💡 सही उत्तर: A) -2.0 D, अवतल लेंस (Concave Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (-0.5) = -2.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = -0.20 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -861,7 +861,7 @@
       "ans": "A) -5.0 D, अवतल लेंस (Concave Lens)",
       "exp": "💡 सही उत्तर: A) -5.0 D, अवतल लेंस (Concave Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (-0.2) = -5.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = +1.00 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -874,7 +874,7 @@
       "ans": "A) +1.0 D, उत्तल लेंस (Convex Lens)",
       "exp": "💡 सही उत्तर: A) +1.0 D, उत्तल लेंस (Convex Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (1.0) = +1.0 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "किसी लेंस की फोकस दूरी f = +2.00 मीटर है। इसकी क्षमता (Power) और प्रकृति क्या होगी?",
@@ -887,7 +887,7 @@
       "ans": "A) +0.5 D, उत्तल लेंस (Convex Lens)",
       "exp": "💡 सही उत्तर: A) +0.5 D, उत्तल लेंस (Convex Lens)।\nव्याख्या: क्षमता P = 1 / f = 1 / (2.0) = +0.5 D। धनात्मक क्षमता उत्तल लेंस तथा ऋणात्मक अवतल लेंस की होती है।",
       "chapter": "प्रकाश: परावर्तन तथा अपवर्तन",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #1)",
@@ -900,7 +900,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #2)",
@@ -913,7 +913,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #3)",
@@ -926,7 +926,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #4)",
@@ -939,7 +939,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #5)",
@@ -952,7 +952,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #6)",
@@ -965,7 +965,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #7)",
@@ -978,7 +978,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #8)",
@@ -991,7 +991,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #9)",
@@ -1004,7 +1004,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #10)",
@@ -1017,7 +1017,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #11)",
@@ -1030,7 +1030,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #12)",
@@ -1043,7 +1043,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #13)",
@@ -1056,7 +1056,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #14)",
@@ -1069,7 +1069,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #15)",
@@ -1082,7 +1082,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #16)",
@@ -1095,7 +1095,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #17)",
@@ -1108,7 +1108,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #18)",
@@ -1121,7 +1121,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #19)",
@@ -1134,7 +1134,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #20)",
@@ -1147,7 +1147,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #21)",
@@ -1160,7 +1160,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #22)",
@@ -1173,7 +1173,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #23)",
@@ -1186,7 +1186,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #24)",
@@ -1199,7 +1199,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #25)",
@@ -1212,7 +1212,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #26)",
@@ -1225,7 +1225,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #27)",
@@ -1238,7 +1238,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #28)",
@@ -1251,7 +1251,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #29)",
@@ -1264,7 +1264,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #30)",
@@ -1277,7 +1277,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #31)",
@@ -1290,7 +1290,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #32)",
@@ -1303,7 +1303,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #33)",
@@ -1316,7 +1316,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #34)",
@@ -1329,7 +1329,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #35)",
@@ -1342,7 +1342,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #36)",
@@ -1355,7 +1355,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #37)",
@@ -1368,7 +1368,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #38)",
@@ -1381,7 +1381,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #39)",
@@ -1394,7 +1394,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #40)",
@@ -1407,7 +1407,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #41)",
@@ -1420,7 +1420,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #42)",
@@ -1433,7 +1433,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #43)",
@@ -1446,7 +1446,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #44)",
@@ -1459,7 +1459,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #45)",
@@ -1472,7 +1472,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #46)",
@@ -1485,7 +1485,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #47)",
@@ -1498,7 +1498,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #48)",
@@ -1511,7 +1511,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #49)",
@@ -1524,7 +1524,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #50)",
@@ -1537,7 +1537,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #51)",
@@ -1550,7 +1550,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #52)",
@@ -1563,7 +1563,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #53)",
@@ -1576,7 +1576,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #54)",
@@ -1589,7 +1589,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #55)",
@@ -1602,7 +1602,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #56)",
@@ -1615,7 +1615,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #57)",
@@ -1628,7 +1628,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #58)",
@@ -1641,7 +1641,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #59)",
@@ -1654,7 +1654,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #60)",
@@ -1667,7 +1667,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #61)",
@@ -1680,7 +1680,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #62)",
@@ -1693,7 +1693,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #63)",
@@ -1706,7 +1706,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #64)",
@@ -1719,7 +1719,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #65)",
@@ -1732,7 +1732,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #66)",
@@ -1745,7 +1745,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #67)",
@@ -1758,7 +1758,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #68)",
@@ -1771,7 +1771,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #69)",
@@ -1784,7 +1784,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #70)",
@@ -1797,7 +1797,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #71)",
@@ -1810,7 +1810,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #72)",
@@ -1823,7 +1823,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #73)",
@@ -1836,7 +1836,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #74)",
@@ -1849,7 +1849,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #75)",
@@ -1862,7 +1862,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #76)",
@@ -1875,7 +1875,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #77)",
@@ -1888,7 +1888,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #78)",
@@ -1901,7 +1901,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #79)",
@@ -1914,7 +1914,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #80)",
@@ -1927,7 +1927,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #81)",
@@ -1940,7 +1940,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #82)",
@@ -1953,7 +1953,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #83)",
@@ -1966,7 +1966,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #84)",
@@ -1979,7 +1979,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #85)",
@@ -1992,7 +1992,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #86)",
@@ -2005,7 +2005,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #87)",
@@ -2018,7 +2018,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #88)",
@@ -2031,7 +2031,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #89)",
@@ -2044,7 +2044,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #90)",
@@ -2057,7 +2057,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #91)",
@@ -2070,7 +2070,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #92)",
@@ -2083,7 +2083,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #93)",
@@ -2096,7 +2096,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #94)",
@@ -2109,7 +2109,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #95)",
@@ -2122,7 +2122,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #96)",
@@ -2135,7 +2135,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #97)",
@@ -2148,7 +2148,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #98)",
@@ -2161,7 +2161,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #99)",
@@ -2174,7 +2174,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #100)",
@@ -2187,7 +2187,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #101)",
@@ -2200,7 +2200,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #102)",
@@ -2213,7 +2213,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #103)",
@@ -2226,7 +2226,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #104)",
@@ -2239,7 +2239,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #105)",
@@ -2252,7 +2252,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #106)",
@@ -2265,7 +2265,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #107)",
@@ -2278,7 +2278,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #108)",
@@ -2291,7 +2291,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #109)",
@@ -2304,7 +2304,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #110)",
@@ -2317,7 +2317,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #111)",
@@ -2330,7 +2330,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #112)",
@@ -2343,7 +2343,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #113)",
@@ -2356,7 +2356,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #114)",
@@ -2369,7 +2369,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #115)",
@@ -2382,7 +2382,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #116)",
@@ -2395,7 +2395,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #117)",
@@ -2408,7 +2408,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #118)",
@@ -2421,7 +2421,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #119)",
@@ -2434,7 +2434,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #120)",
@@ -2447,7 +2447,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #121)",
@@ -2460,7 +2460,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #122)",
@@ -2473,7 +2473,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #123)",
@@ -2486,7 +2486,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #124)",
@@ -2499,7 +2499,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #125)",
@@ -2512,7 +2512,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #126)",
@@ -2525,7 +2525,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #127)",
@@ -2538,7 +2538,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #128)",
@@ -2551,7 +2551,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #129)",
@@ -2564,7 +2564,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #130)",
@@ -2577,7 +2577,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #131)",
@@ -2590,7 +2590,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #132)",
@@ -2603,7 +2603,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #133)",
@@ -2616,7 +2616,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #134)",
@@ -2629,7 +2629,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #135)",
@@ -2642,7 +2642,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #136)",
@@ -2655,7 +2655,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #137)",
@@ -2668,7 +2668,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #138)",
@@ -2681,7 +2681,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #139)",
@@ -2694,7 +2694,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #140)",
@@ -2707,7 +2707,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #141)",
@@ -2720,7 +2720,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #142)",
@@ -2733,7 +2733,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #143)",
@@ -2746,7 +2746,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #144)",
@@ -2759,7 +2759,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #145)",
@@ -2772,7 +2772,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #146)",
@@ -2785,7 +2785,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #147)",
@@ -2798,7 +2798,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #148)",
@@ -2811,7 +2811,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #149)",
@@ -2824,7 +2824,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #150)",
@@ -2837,7 +2837,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #151)",
@@ -2850,7 +2850,7 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     },
     {
       "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #152)",
@@ -2863,7 +2863,72 @@
       "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
       "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
       "chapter": "हमारा पर्यावरण (Our Environment)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+    },
+    {
+      "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #153)",
+      "options": [
+        "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+        "B) 90% ऊर्जा अगले स्तर पर जाती है",
+        "C) सभी ऊर्जा नष्ट हो जाती है",
+        "D) ऊर्जा का प्रवाह चक्रीय होता है"
+      ],
+      "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+      "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
+      "chapter": "हमारा पर्यावरण (Our Environment)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+    },
+    {
+      "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #154)",
+      "options": [
+        "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+        "B) 90% ऊर्जा अगले स्तर पर जाती है",
+        "C) सभी ऊर्जा नष्ट हो जाती है",
+        "D) ऊर्जा का प्रवाह चक्रीय होता है"
+      ],
+      "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+      "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
+      "chapter": "हमारा पर्यावरण (Our Environment)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+    },
+    {
+      "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #155)",
+      "options": [
+        "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+        "B) 90% ऊर्जा अगले स्तर पर जाती है",
+        "C) सभी ऊर्जा नष्ट हो जाती है",
+        "D) ऊर्जा का प्रवाह चक्रीय होता है"
+      ],
+      "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+      "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
+      "chapter": "हमारा पर्यावरण (Our Environment)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+    },
+    {
+      "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #156)",
+      "options": [
+        "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+        "B) 90% ऊर्जा अगले स्तर पर जाती है",
+        "C) सभी ऊर्जा नष्ट हो जाती है",
+        "D) ऊर्जा का प्रवाह चक्रीय होता है"
+      ],
+      "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+      "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
+      "chapter": "हमारा पर्यावरण (Our Environment)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
+    },
+    {
+      "q": "पर्यावरण में विभिन्न पोषी स्तरों (Trophic Levels) पर ऊर्जा प्रवाह के संबंध में लिंडमैन का 10% नियम क्या स्पष्ट करता है? (वेरिएशन #157)",
+      "options": [
+        "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+        "B) 90% ऊर्जा अगले स्तर पर जाती है",
+        "C) सभी ऊर्जा नष्ट हो जाती है",
+        "D) ऊर्जा का प्रवाह चक्रीय होता है"
+      ],
+      "ans": "A) एक पोषी स्तर से अगले पोषी स्तर पर केवल 10% ऊर्जा ही स्थानांतरित होती है",
+      "exp": "💡 सही उत्तर: A।\nव्याख्या: लिंडमैन के नियम (1942) के अनुसार एक पोषी स्तर से अगले पोषी स्तर में केवल 10% ऊर्जा कार्बनिक पदार्थ के रूप में पहुंचती है, 90% जैविक क्रियाओं व ऊष्मा में व्यय होती है।",
+      "chapter": "हमारा पर्यावरण (Our Environment)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board Previous Exam Verified"
     }
   ],
   "subjectives": [
@@ -2872,35 +2937,126 @@
       "marks": 5,
       "solution": "1. ओम का नियम: यदि किसी चालक की भौतिक अवस्थाएं (जैसे ताप, दाब, लंबाई) नियत रहें, तो चालक के सिरों पर लगाया गया विभवांतर (V) उसमें प्रवाहित विद्युत धारा (I) के अनुक्रमानुपाती होता है।\n   V ∝ I  =>  V = IR (जहाँ R चालक का प्रतिरोध है)।\n\n2. चालक के प्रतिरोध को प्रभावित करने वाले कारक:\n   (i) चालक की लंबाई (l): प्रतिरोध लंबाई के समानुपाती होता है (R ∝ l)।\n   (ii) अनुप्रस्थ काट का क्षेत्रफल (A): प्रतिरोध क्षेत्रफल के व्युत्क्रमानुपाती होता है (R ∝ 1/A)।\n   (iii) चालक के पदार्थ की प्रकृति (प्रतिरोधकता ρ): R = ρ(l/A)।\n   (iv) तापमान: चालकों का ताप बढ़ाने पर प्रतिरोध बढ़ता है।\n\n3. श्रेणीक्रम संयोजन:\n   माना R₁, R₂, R₃ श्रेणीक्रम में जुड़े हैं। धारा I समान रहती है।\n   V = V₁ + V₂ + V₃\n   IR = IR₁ + IR₂ + IR₃ => R_eq = R₁ + R₂ + R₃।\n\n4. समांतरक्रम संयोजन:\n   माना R₁, R₂, R₃ समांतरक्रम में जुड़े हैं। विभवांतर V समान रहता है।\n   I = I₁ + I₂ + I₃\n   V/R = V/R₁ + V/R₂ + V/R₃ => 1/R_eq = 1/R₁ + 1/R₂ + 1/R₃।",
       "chapter": "विद्युत (Electricity)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board 5-Marks Derivation Essential"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board 5-Marks Derivation Essential"
     },
     {
       "q": "मानव पाचन तंत्र अथवा मानव हृदय में दोहरा परिसंचरण (Double Circulation) क्या है? नामांकित आरेख की सहायता से स्पष्ट कीजिए कि यह पक्षियों और स्तनधारियों में क्यों आवश्यक है।",
       "marks": 5,
       "solution": "1. दोहरा परिसंचरण की परिभाषा: मानव रक्त एक संपूर्ण चक्र पूरा करने में हृदय से होकर दो बार गुजरता है। इसे दोहरा परिसंचरण कहते हैं। इसके दो भाग होते हैं:\n   (i) फुफ्फुसीय परिसंचरण (Pulmonary Circulation): दायां निलय → फुफ्फुस धमनी → फेफड़े (ऑक्सीजनीकरण) → फुफ्फुस शिरा → बायां अलिंद।\n   (ii) दैहिक परिसंचरण (Systemic Circulation): बायां निलय → महाधमनी → संपूर्ण शरीर के अंग → महाशिरा → दायां अलिंद।\n\n2. स्तनधारियों में आवश्यकता:\n   (i) यह ऑक्सीजनित (शुद्ध) और विऑक्सीजनित (अशुद्ध) रक्त को आपस में मिलने से पूरी तरह रोकता है।\n   (ii) स्तनधारियों और पक्षियों को अपने शरीर का तापमान नियत (वार्म-ब्लडेड) बनाए रखने के लिए अत्यधिक ऊर्जा की आवश्यकता होती है, जो उच्च दक्षता वाले दोहरे परिसंचरण से ही संभव है।",
       "chapter": "जैव प्रक्रम (Life Processes)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board 5-Marks Biology Milestone"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board 5-Marks Biology Milestone"
     },
     {
       "q": "साबुन और अपमार्जक (Soap and Detergents) में अंतर स्पष्ट कीजिए। साबुन के अणुओं द्वारा मिसेल (Micelle) निर्माण तथा सफाई प्रक्रिया की क्रियाविधि समझाइए।",
       "marks": 4,
       "solution": "1. साबुन और अपमार्जक में अंतर:\n   - साबुन: लंबी श्रृंखला वाले कार्बोक्सिलिक अम्लों के सोडियम या पोटेशियम लवण होते हैं (जैसे C₁₇H₃₅COONa)। यह कठोर जल में झाग नहीं देते।\n   - अपमार्जक (डिटर्जेंट): लंबी श्रृंखला वाले बेंजीन सल्फोनिक अम्ल या अमोनियम लवण होते हैं। यह कठोर तथा मृदु दोनों जलों में प्रभावी झाग देते हैं।\n\n2. मिसेल निर्माण एवं सफाई क्रियाविधि:\n   - साबुन के अणु में दो सिरे होते हैं: (i) आयनिक सिरा (-COO⁻Na⁺), जो जलरागी (hydrophilic) होता है और जल के अणुओं की ओर आकर्षित रहता है।\n     (ii) लंबी हाइड्रोकार्बन पूंछ, जो जलविरागी (hydrophobic) तथा तैलीय मैल की ओर आकर्षित होती है।\n   - जब साबुन को जल में घोला जाता है, तो अणु एक गोलीय संरचना बनाते हैं जिसमें हाइड्रोकार्बन पूंछ अंदर तेल/मैल के केंद्र में तथा आयनिक सिरे बाहर जल की ओर होते हैं। इस संरचना को 'मिसेल' कहते हैं।\n   - मिसेल तैलीय मैल को अपने केंद्र में फंसाकर जल में इमल्शन बना लेता है, और कपड़े को हिलाने या पानी से धोने पर मैल आसानी से बाहर निकल जाता है।",
       "chapter": "कार्बन एवं उसके यौगिक",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board 4-Marks Conceptual Chemistry"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board 4-Marks Conceptual Chemistry"
     },
     {
       "q": "नेफ्रॉन (वृक्काणु - Nephron) की संरचना का नामांकित चित्र बनाकर मूत्र निर्माण (Urine Formation) की कार्यप्रणाली स्पष्ट कीजिए।",
       "marks": 4,
       "solution": "1. नेफ्रॉन की संरचना के मुख्य भाग:\n   (i) बोमन संपुट (Bowman's Capsule) एवं केशिकागुच्छ (Glomerulus)\n   (ii) समीपस्थ कुंडलित नलिका (PCT)\n   (iii) हेनले का लूप (Henle's Loop)\n   (iv) दूरस्थ कुंडलित नलिका (DCT) एवं संग्रह वाहिनी (Collecting Duct)\n\n2. मूत्र निर्माण के तीन प्रमुख चरण:\n   (i) परानिस्यंदन (Ultrafiltration): ग्लोमेरुलस में रक्त उच्च दाब पर छनता है। ग्लूकोज, अमीनो अम्ल, लवण तथा जल बोमन संपुट में आ जाते हैं।\n   (ii) चयनात्मक पुनःअवशोषण (Selective Reabsorption): नलिका में आवश्यक पदार्थ (ग्लूकोज, अमीनो अम्ल, अधिकांश जल और उपयोगी लवण) रक्त कोशिकाओं द्वारा पुनः अवशोषित कर लिए जाते हैं।\n   (iii) नलिका स्राव (Tubular Secretion): अपशिष्ट पदार्थ जैसे यूरिया, यूरिक अम्ल, अतिरिक्त K⁺ आयन नलिका के तरल में स्रावित होकर अंतिम मूत्र बनाते हैं जो संग्रह वाहिनी में जाता है।",
       "chapter": "जैव प्रक्रम (उत्सर्जन)",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board 4-Marks Biology Essential"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board 4-Marks Biology Essential"
     },
     {
       "q": "निकट दृष्टि दोष (Myopia) और दूर दृष्टि दोष (Hypermetropia) के कारण तथा इनके निवारण के लिए प्रयुक्त लेंसों का किरण आरेख बनाकर वर्णन कीजिए।",
       "marks": 4,
       "solution": "1. निकट दृष्टि दोष (Myopia):\n   - लक्षण: पास की वस्तुएं साफ दिखती हैं, परंतु दूर की वस्तुएं स्पष्ट नहीं दिखतीं।\n   - कारण: (i) नेत्र लेंस की वक्रता अधिक होना (फोकस दूरी घटना), (ii) नेत्र गोलक का लंबा हो जाना। प्रतिबिंब रेटिना से पहले बन जाता है।\n   - निवारण: उपयुक्त फोकस दूरी का अवतल लेंस (Concave Lens) लगाने से प्रकाश किरणें अपसारित होकर ठीक रेटिना पर केंद्रित होती हैं।\n\n2. दूर दृष्टि दोष (Hypermetropia):\n   - लक्षण: दूर की वस्तुएं स्पष्ट दिखती हैं, परंतु 25 सेमी के निकट बिंदु की वस्तुएं धुंधली दिखती हैं।\n   - कारण: (i) नेत्र लेंस की फोकस दूरी अत्यधिक हो जाना, (ii) नेत्र गोलक का छोटा हो जाना। प्रतिबिंब रेटिना के पीछे बनता है।\n   - निवारण: उपयुक्त फोकस दूरी का उत्तल लेंस (Convex Lens) प्रयुक्त किया जाता है, जो किरणों को अभिसरित करके रेटिना पर फोकस करता है।",
       "chapter": "मानव नेत्र तथा रंगबिरंगा संसार",
-      "pyqTag": "West Bengal Board (Madhyamik 10th & WBCHSE 12th) Board 4-Marks Physics Ray-Diagram Question"
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) Board 4-Marks Physics Ray-Diagram Question"
+    },
+    {
+      "q": "संतुलित रासायनिक समीकरण क्या है? रासायनिक समीकरण को संतुलित करना क्यों आवश्यक है?",
+      "marks": 2,
+      "solution": "1. परिभाषा: वह रासायनिक समीकरण जिसमें तीर के दोनों ओर (अभिकारकों और उत्पादों में) प्रत्येक तत्व के परमाणुओं की संख्या समान होती है, संतुलित रासायनिक समीकरण कहलाता है।\n2. आवश्यकता: द्रव्यमान संरक्षण के नियम (Law of Conservation of Mass) के अनुसार किसी भी रासायनिक अभिक्रिया में द्रव्यमान का न तो निर्माण होता है और न ही विनाश। अतः दोनों पक्षों का द्रव्यमान बराबर रखने के लिए समीकरण को संतुलित करना आवश्यक है।",
+      "chapter": "रासायनिक अभिक्रियाएं",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 2-Marks Board PYQ"
+    },
+    {
+      "q": "प्लास्टर ऑफ पेरिस (POP) को आर्द्र-रोधी (Moisture-proof) बर्तन में क्यों रखा जाना चाहिए? इसकी जल के साथ अभिक्रिया का समीकरण लिखिए।",
+      "marks": 2,
+      "solution": "कारण: प्लास्टर ऑफ पेरिस (CaSO₄·½H₂O) वायुमंडल की नमी (जलवाष्प) को तुरंत अवशोषित करके एक कठोर ठोस पदार्थ 'जिप्सम' में बदल जाता है, जिससे इसके जमने का विशिष्ट गुण नष्ट हो जाता है।\n\nसमीकरण: CaSO₄·½H₂O + 1½H₂O → CaSO₄·2H₂O (जिप्सम)।",
+      "chapter": "अम्ल, क्षारक एवं लवण",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 2-Marks Board PYQ"
+    },
+    {
+      "q": "उभयधर्मी ऑक्साइड (Amphoteric Oxides) क्या होते हैं? किन्हीं दो उभयधर्मी ऑक्साइडों के नाम और उनकी अम्ल तथा क्षार के साथ अभिक्रिया के समीकरण लिखिए।",
+      "marks": 3,
+      "solution": "1. परिभाषा: वे धातु ऑक्साइड जो अम्ल तथा क्षारक दोनों से अभिक्रिया करके लवण तथा जल बनाते हैं, उभयधर्मी ऑक्साइड कहलाते हैं।\n2. उदाहरण: एल्युमिनियम ऑक्साइड (Al₂O₃) तथा जिंक ऑक्साइड (ZnO)।\n3. Al₂O₃ की अभिक्रियाएं:\n   (i) अम्ल के साथ: Al₂O₃ + 6HCl → 2AlCl₃ + 3H₂O\n   (ii) क्षार के साथ: Al₂O₃ + 2NaOH → 2NaAlO₂ (सोडियम एल्युमिनेट) + H₂O।",
+      "chapter": "धातु एवं अधातु",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 3-Marks Chemistry PYQ"
+    },
+    {
+      "q": "हाइड्रोकार्बन के संदर्भ में समजातीय श्रेणी (Homologous Series) क्या है? इसके तीन प्रमुख लक्षण लिखिए।",
+      "marks": 3,
+      "solution": "1. परिभाषा: कार्बनिक यौगिकों की वह श्रेणी जिसके सभी सदस्यों में एक ही प्रकार्यात्मक समूह उपस्थित होता है तथा किन्हीं दो उत्तरोत्तर सदस्यों के बीच -CH₂- इकाई का अंतर होता है, समजातीय श्रेणी कहलाती है।\n2. प्रमुख लक्षण:\n   (i) सभी सदस्यों को एक सामान्य सूत्र (जैसे एल्केन का CₙH₂ₙ₊₂) द्वारा व्यक्त किया जा सकता है।\n   (ii) दो क्रमागत सदस्यों के आण्विक द्रव्यमान में 14 u का अंतर होता है।\n   (iii) सभी सदस्यों के रासायनिक गुण समान होते हैं तथा आण्विक द्रव्यमान बढ़ने के साथ भौतिक गुणों में क्रमिक परिवर्तन देखा जाता है।",
+      "chapter": "कार्बन एवं उसके यौगिक",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 3-Marks Board PYQ"
+    },
+    {
+      "q": "वायवीय (Aerobic) और अवायवीय (Anaerobic) श्वसन में अंतर स्पष्ट कीजिए। यीस्ट में किण्वन (Fermentation) की प्रक्रिया का समीकरण लिखिए।",
+      "marks": 3,
+      "solution": "1. अंतर:\n   - वायवीय श्वसन: ऑक्सीजन की उपस्थिति में होता है, माइटोकॉन्ड्रिया में संपन्न होता है, ग्लूकोज का पूर्ण विखंडन होकर CO₂, जल और 38 ATP ऊर्जा बनती है।\n   - अवायवीय श्वसन: ऑक्सीजन की अनुपस्थिति में होता है, कोशिकाद्रव्य में संपन्न होता है, ग्लूकोज का अपूर्ण विखंडन होकर एथेनॉल/लैक्टिक अम्ल और केवल 2 ATP ऊर्जा बनती है।\n\n2. यीस्ट में किण्वन:\n   ग्लूकोज (6-कार्बन) → पाइरुवेट (3-कार्बन) → 2C₂H₅OH (एथेनॉल) + 2CO₂ + ऊर्जा।",
+      "chapter": "जैव प्रक्रम (श्वसन)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 3-Marks Biology PYQ"
+    },
+    {
+      "q": "प्रतिवर्ती चाप (Reflex Arc) क्या है? नामांकित चित्र की सहायता से एक गर्म वस्तु को छूने पर हाथ पीछे खींचने की प्रतिवर्ती क्रिया का पथ समझाइए।",
+      "marks": 4,
+      "solution": "1. परिभाषा: प्रतिवर्ती क्रिया में तंत्रिका आवेगों द्वारा तय किए गए संपूर्ण मार्ग को प्रतिवर्ती चाप कहते हैं। यह मस्तिष्क की सीधी भागीदारी के बिना मेरुरज्जु (Spinal Cord) द्वारा नियंत्रित होता है।\n2. क्रिया का पथ:\n   उद्दीपन (गर्म वस्तु) → त्वचा में ग्राही (Receptor) → संवेदी न्यूरॉन (Sensory Neuron) → मेरुरज्जु (Spinal Cord / रिले न्यूरॉन) → प्रेरक न्यूरॉन (Motor Neuron) → कार्यकर पेशी (Effector Muscle) → अनुक्रिया (हाथ का तुरंत पीछे हटना)।",
+      "chapter": "नियंत्रण एवं समन्वय",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 4-Marks Biology Diagram PYQ"
+    },
+    {
+      "q": "मेंडल के आनुवंशिकता के नियमों का उल्लेख कीजिए। मेंडल के एकसंकर संकरण (Monohybrid Cross) को चेकर बोर्ड (Punnett Square) द्वारा समझाइए तथा इसका लक्षणप्ररूपी (Phenotypic) व जीनप्ररूपी (Genotypic) अनुपात लिखिए।",
+      "marks": 5,
+      "solution": "1. मेंडल के तीन नियम:\n   (i) प्रभाविता का नियम (Law of Dominance)\n   (ii) विसंयोजन या युग्मकों की शुद्धता का नियम (Law of Segregation)\n   (iii) स्वतंत्र अपव्यूहन का नियम (Law of Independent Assortment)\n\n2. एकसंकर संकरण (Monohybrid Cross):\n   - शुद्ध लंबा पौधा (TT) × शुद्ध बौना पौधा (tt)\n   - F₁ पीढ़ी: सभी संकर लंबे पौधे (Tt)\n   - F₁ का स्व-परागण (Tt × Tt):\n     गेमीट्स: T, t और T, t\n     F₂ पीढ़ी: TT (शुद्ध लंबा), Tt (संकर लंबा), Tt (संकर लंबा), tt (शुद्ध बौना)\n\n3. अनुपात:\n   - लक्षणप्ररूपी अनुपात (बाह्य रूप): 3 लंबा : 1 बौना (3 : 1)\n   - जीनप्ररूपी अनुपात (आनुवंशिक संरचना): 1 TT : 2 Tt : 1 tt (1 : 2 : 1)।",
+      "chapter": "आनुवंशिकता एवं जैव विकास",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 5-Marks Genetics Master Question"
+    },
+    {
+      "q": "प्रिज्म द्वारा श्वेत प्रकाश के वर्ण-विक्षेपण (Dispersion) का स्वच्छ नामांकित किरण आरेख खींचिए। प्रकाश का कौन सा रंग सबसे अधिक और कौन सा सबसे कम विचलित होता है और क्यों?",
+      "marks": 3,
+      "solution": "1. वर्ण-विक्षेपण: जब श्वेत प्रकाश किसी कांच के प्रिज्म से गुजरता है, तो यह अपने 7 अवयवी रंगों (VIBGYOR) के स्पेक्ट्रम में विभाजित हो जाता है।\n2. विचलन का कारण:\n   - बैंगनी रंग (Violet) का तरंगदैर्घ्य सबसे कम होता है, अतः कांच में इसकी चाल सबसे धीमी होती है और इसका अपवर्तनांक सबसे अधिक होने से यह सर्वाधिक विचलित होता है।\n   - लाल रंग (Red) का तरंगदैर्घ्य सबसे अधिक होता है, अतः कांच में इसकी चाल सर्वाधिक होती है और यह सबसे कम विचलित होता है।",
+      "chapter": "मानव नेत्र तथा रंगबिरंगा संसार",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 3-Marks Optics PYQ"
+    },
+    {
+      "q": "फ्लेमिंग का वामहस्त नियम (Fleming's Left-Hand Rule) लिखिए। इसका उपयोग किस उपकरण में किया जाता है?",
+      "marks": 2,
+      "solution": "नियम: अपने बाएं हाथ के अंगूठे, तर्जनी और मध्यमा को इस प्रकार फैलाएं कि वे तीनों परस्पर लंबवत हों। यदि तर्जनी चुंबकीय क्षेत्र (B) की दिशा तथा मध्यमा चालक में प्रवाहित धारा (I) की दिशा को इंगित करे, तो अंगूठा चालक पर लगने वाले बल (F) अथवा गति की दिशा को निरूपित करेगा।\nउपयोग: इसका उपयोग विद्युत मोटर (Electric Motor) की कार्यप्रणाली में किया जाता है।",
+      "chapter": "विद्युत धारा के चुंबकीय प्रभाव",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 2-Marks Physics Law"
+    },
+    {
+      "q": "धातुओं और अधातुओं में रासायनिक गुणों के आधार पर कोई चार अंतर लिखिए।",
+      "marks": 4,
+      "solution": "1. ऑक्साइड की प्रकृति: धातुएं क्षारीय ऑक्साइड बनाती हैं (जैसे Na₂O, MgO); अधातुएं अम्लीय या उदासीन ऑक्साइड बनाती हैं (जैसे SO₂, CO₂)।\n2. तनु अम्लों से क्रिया: धातुएं तनु अम्लों (HCl, H₂SO₄) से क्रिया कर हाइड्रोजन गैस (H₂) विस्थापित करती हैं; अधातुएं तनु अम्लों से क्रिया करके H₂ गैस नहीं निकालतीं।\n3. विद्युत धनात्मकता/ऋणात्मकता: धातुएं इलेक्ट्रॉन त्यागकर धनायन (Electropositive) बनाती हैं; अधातुएं इलेक्ट्रॉन ग्रहण कर ऋणायन (Electronegative) बनाती हैं।\n4. क्लोरीन से क्रिया: धातुएं आयनिक क्लोराइड (उच्च गलनांक) बनाती हैं; अधातुएं सहसंयोजी क्लोराइड (निम्न गलनांक) बनाती हैं।",
+      "chapter": "धातु एवं अधातु",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 4-Marks Chemistry PYQ"
+    },
+    {
+      "q": "मानव में वृक्क (Kidney) की संरचनात्मक एवं कार्यात्मक इकाई नेफ्रॉन (Nephron / वृक्काणु) का स्वच्छ नामांकित चित्र बनाइए तथा मूत्र निर्माण की क्रियाविधि के तीन चरणों को समझाइए।",
+      "marks": 5,
+      "solution": "1. नेफ्रॉन के मुख्य भाग: बोमन संपुट (Bowman's Capsule), ग्लोमेरुलस (केशिका गुच्छ), समीपस्थ कुंडलित नलिका (PCT), हेनले का लूप, दूरस्थ कुंडलित नलिका (DCT), तथा संग्रह नलिका (Collecting Duct)।\n2. मूत्र निर्माण के तीन चरण:\n   (i) गुच्छीय निस्यंदन (Glomerular Filtration): हृदय द्वारा पंप किए गए रक्त का उच्च दाब पर ग्लोमेरुलस की पतली झिल्ली से छनना। प्रोटीन व रक्त कोशिकाओं को छोड़कर जल, ग्लूकोज, लवण और यूरिया छनकर बोमन संपुट में आ जाते हैं।\n   (ii) चयनात्मक पुनरावशोषण (Selective Reabsorption): निस्यंद नलिका से गुजरते समय ग्लूकोज, अमीनो अम्ल, लवण और जल का शरीर की आवश्यकतानुसार पुनः रुधिर कोशिकाओं में अवशोषण।\n   (iii) नलिका स्रावण (Tubular Secretion): रक्त से हानिकारक आयनों (H⁺, K⁺, अमोनिया) का सीधे निस्यंद में स्रावित होकर मूत्र के रूप में बाहर निकलना।",
+      "chapter": "जैव प्रक्रम (उत्सर्जन)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 5-Marks Biology Master Question"
+    },
+    {
+      "q": "साबुन के स्वच्छीकारक क्रिया की क्रियाविधि (Mechanism of Cleansing Action of Soap) को मिसेल (Micelle) संरचना का चित्र बनाकर समझाइए।",
+      "marks": 4,
+      "solution": "1. साबुन अणु की संरचना: साबुन (जैसे सोडियम स्टीयरेट) के अणु के दो सिरे होते हैं:\n   (i) जलरागी सिरा (Hydrophilic Head): आयनिक सिरा (-COO⁻Na⁺) जो जल में घुलनशील होता है।\n   (ii) जलविरागी सिरा (Hydrophobic Tail): लंबी हाइड्रोकार्बन श्रृंखला जो तेल/मैल में घुलनशील होती है।\n2. मिसेल निर्माण:\n   जब साबुन को गंदे कपड़े वाले पानी में घोला जाता है, तो अणु इस प्रकार व्यवस्थित होते हैं कि जलविरागी हाइड्रोकार्बन पूंछ तेल की बूंद (मैल) के अंदर की ओर और आयनिक सिरा बाहर जल की ओर रहता है। इस गोलाकार आण्विक पुंज को 'मिसेल' कहते हैं।\n3. सफाई:\n   मिसेल के केंद्र में तेल का मैल फंस जाता है। जब कपड़े को रगड़ा या हिलाया जाता है, तो मिसेल जल के साथ बह जाते हैं और कपड़ा पूरी तरह स्वच्छ हो जाता है।",
+      "chapter": "कार्बन एवं उसके यौगिक",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 4-Marks Chemistry Master Question"
+    },
+    {
+      "q": "विद्युत परिपथ में 2 Ω, 3 Ω तथा 6 Ω के तीन प्रतिरोधकों को किस प्रकार संयोजित करेंगे कि संयोजन का कुल प्रतिरोध (a) 4 Ω हो, और (b) 1 Ω हो? गणना द्वारा दर्शाइए।",
+      "marks": 4,
+      "solution": "हल:\n(a) कुल प्रतिरोध 4 Ω प्राप्त करने के लिए:\n   3 Ω और 6 Ω को पार्श्वक्रम (Parallel) में तथा 2 Ω को इनके साथ श्रेणीक्रम (Series) में जोड़ते हैं:\n   1/R_p = 1/3 + 1/6 = (2 + 1)/6 = 3/6 = 1/2 => R_p = 2 Ω।\n   अब 2 Ω को R_p (2 Ω) के साथ श्रेणीक्रम में जोड़ने पर:\n   R_total = 2 + 2 = 4 Ω।\n\n(b) कुल प्रतिरोध 1 Ω प्राप्त करने के लिए:\n   तीनों प्रतिरोधकों (2 Ω, 3 Ω, 6 Ω) को पार्श्वक्रम (Parallel) में जोड़ते हैं:\n   1/R_total = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1\n   => R_total = 1 Ω।",
+      "chapter": "विद्युत (Electricity)",
+      "pyqTag": "West Bengal Board (WBBSE Madhyamik 10th & WBCHSE 12th) 4-Marks Physics Numerical"
     }
   ]
 }

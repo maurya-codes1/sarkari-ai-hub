@@ -93,7 +93,7 @@ function ingestFile(filePath) {
       }
 
       const cleanQ = cleanTextForFingerprint(obj.q);
-      const examScope = validBoard || validExamVersion || 'global';
+      const examScope = `${validBoard || validExamVersion || 'global'}:${stage || 'all'}`;
       const fp = crypto.createHash('sha256').update(`${examScope}:${cleanQ}`).digest('hex');
 
       // Check for duplicates
@@ -176,7 +176,7 @@ function ingestFile(filePath) {
       if (!subj.q) continue;
 
       const cleanQ = cleanTextForFingerprint(subj.q);
-      const examScope = validBoard || validExamVersion || 'global';
+      const examScope = `${validBoard || validExamVersion || 'global'}:${stage || 'all'}`;
       const fp = crypto.createHash('sha256').update(`${examScope}:subj:${cleanQ}`).digest('hex');
 
       const existing = checkFingerprint.get(fp);

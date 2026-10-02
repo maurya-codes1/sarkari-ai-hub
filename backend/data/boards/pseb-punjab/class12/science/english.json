@@ -1,0 +1,2941 @@
+{
+  "boardId": "pseb-punjab",
+  "stage": "Class 12 Science",
+  "subjectId": "subj-english",
+  "subjectName": "English Core (Science Stream)",
+  "language": "en",
+  "objectives": [
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves and collects books'",
+      "options": [
+        "A) Bibliophile",
+        "B) Philatelist",
+        "C) Polyglot",
+        "D) Scholar"
+      ],
+      "ans": "A) Bibliophile",
+      "exp": "💡 Correct Answer: A) Bibliophile.\nExplanation: Bibliophile is a person who has a great love of books. Philatelist collects stamps; Polyglot speaks many languages.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A remedy for all diseases or difficulties'",
+      "options": [
+        "A) Panacea",
+        "B) Placebo",
+        "C) Antidote",
+        "D) Antibiotic"
+      ],
+      "ans": "A) Panacea",
+      "exp": "💡 Correct Answer: A) Panacea.\nExplanation: Panacea (रामबाण) is a solution or remedy for all difficulties or diseases.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who is unable to pay one's debts'",
+      "options": [
+        "A) Insolvent",
+        "B) Impoverished",
+        "C) Destitute",
+        "D) Pauper"
+      ],
+      "ans": "A) Insolvent",
+      "exp": "💡 Correct Answer: A) Insolvent (Bankrupt).\nExplanation: An insolvent or bankrupt person is unable to satisfy creditor debts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who does not believe in the existence of God'",
+      "options": [
+        "A) Atheist",
+        "B) Agnostic",
+        "C) Theist",
+        "D) Cynic"
+      ],
+      "ans": "A) Atheist",
+      "exp": "💡 Correct Answer: A) Atheist.\nExplanation: Atheist (नास्तिक) denies the existence of God. Theist believes in God.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who walks in sleep'",
+      "options": [
+        "A) Somnambulist",
+        "B) Somniloquist",
+        "C) Insomniac",
+        "D) Altruist"
+      ],
+      "ans": "A) Somnambulist",
+      "exp": "💡 Correct Answer: A) Somnambulist.\nExplanation: Somnambulist walks in sleep. Somniloquist talks in sleep.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who hates mankind'",
+      "options": [
+        "A) Misanthrope",
+        "B) Philanthropist",
+        "C) Misogynist",
+        "D) Cannibal"
+      ],
+      "ans": "A) Misanthrope",
+      "exp": "💡 Correct Answer: A) Misanthrope.\nExplanation: Misanthrope dislikes humankind. Philanthropist loves mankind.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Something that cannot be corrected or reformed'",
+      "options": [
+        "A) Incorrigible",
+        "B) Infallible",
+        "C) Incurable",
+        "D) Invulnerable"
+      ],
+      "ans": "A) Incorrigible",
+      "exp": "💡 Correct Answer: A) Incorrigible.\nExplanation: Incorrigible means not able to be corrected, improved, or reformed.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who makes an official examination of accounts'",
+      "options": [
+        "A) Auditor",
+        "B) Accountant",
+        "C) Actuary",
+        "D) Registrar"
+      ],
+      "ans": "A) Auditor",
+      "exp": "💡 Correct Answer: A) Auditor.\nExplanation: An auditor conducts an official financial inspection of accounts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A post for which no salary is paid'",
+      "options": [
+        "A) Honorary",
+        "B) Sinecurist",
+        "C) Voluntary",
+        "D) Gratis"
+      ],
+      "ans": "A) Honorary",
+      "exp": "💡 Correct Answer: A) Honorary.\nExplanation: An honorary post carries no salary or monetary remuneration.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where birds are kept'",
+      "options": [
+        "A) Aviary",
+        "B) Apiary",
+        "C) Aquarium",
+        "D) Sanctuary"
+      ],
+      "ans": "A) Aviary",
+      "exp": "💡 Correct Answer: A) Aviary.\nExplanation: Aviary is for birds. Apiary is a place where bees are kept.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where bees are kept'",
+      "options": [
+        "A) Apiary",
+        "B) Aviary",
+        "C) Hangar",
+        "D) Hive"
+      ],
+      "ans": "A) Apiary",
+      "exp": "💡 Correct Answer: A) Apiary.\nExplanation: Apiary is a collection of beehives.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who cannot make mistakes'",
+      "options": [
+        "A) Infallible",
+        "B) Inevitable",
+        "C) Incorrigible",
+        "D) Omniscient"
+      ],
+      "ans": "A) Infallible",
+      "exp": "💡 Correct Answer: A) Infallible.\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A handwriting that cannot be read easily'",
+      "options": [
+        "A) Illegible",
+        "B) Ineligible",
+        "C) Obscure",
+        "D) Elliptical"
+      ],
+      "ans": "A) Illegible",
+      "exp": "💡 Correct Answer: A) Illegible.\nExplanation: Illegible means not clear enough to be read.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who leaves his own country to settle in another'",
+      "options": [
+        "A) Emigrant",
+        "B) Immigrant",
+        "C) Refugee",
+        "D) Expatriate"
+      ],
+      "ans": "A) Emigrant",
+      "exp": "💡 Correct Answer: A) Emigrant.\nExplanation: Emigrant leaves his own country (Exit = Emigrant). Immigrant enters a foreign country.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'That which lasts for a very short time'",
+      "options": [
+        "A) Ephemeral",
+        "B) Eternal",
+        "C) Perpetual",
+        "D) Unending"
+      ],
+      "ans": "A) Ephemeral",
+      "exp": "💡 Correct Answer: A) Ephemeral (Transient).\nExplanation: Ephemeral means lasting for a very short time.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A speech delivered without any previous preparation'",
+      "options": [
+        "A) Extempore",
+        "B) Maiden speech",
+        "C) Soliloquy",
+        "D) Elocution"
+      ],
+      "ans": "A) Extempore",
+      "exp": "💡 Correct Answer: A) Extempore.\nExplanation: Extempore is spoken or done without preparation.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by a single ruler with absolute power'",
+      "options": [
+        "A) Autocracy",
+        "B) Oligarchy",
+        "C) Democracy",
+        "D) Plutocracy"
+      ],
+      "ans": "A) Autocracy",
+      "exp": "💡 Correct Answer: A) Autocracy.\nExplanation: Autocracy is absolute monarchy or dictatorship.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by the wealthy class'",
+      "options": [
+        "A) Plutocracy",
+        "B) Aristocracy",
+        "C) Bureaucracy",
+        "D) Theocracy"
+      ],
+      "ans": "A) Plutocracy",
+      "exp": "💡 Correct Answer: A) Plutocracy.\nExplanation: Plutocracy is governance by the rich and wealthy.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'To burn the midnight oil'",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious fuel",
+        "C) To cause an unexpected accident",
+        "D) To sleep peacefully"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nUsage Context: Burning the midnight oil means working late hours to achieve a goal.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise'",
+      "options": [
+        "A) An apparent misfortune that eventually has good results",
+        "B) A hidden treasure in a dark room",
+        "C) An unexpected curse from an elder",
+        "D) A religious miracle"
+      ],
+      "ans": "A) An apparent misfortune that eventually has good results",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually has good results.\nUsage Context: A blessing in disguise is something that seemed bad at first but resulted in something good.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice'",
+      "options": [
+        "A) To initiate a social conversation in an awkward silence",
+        "B) To defrost refrigerated food",
+        "C) To get angry suddenly",
+        "D) To end a friendship"
+      ],
+      "ans": "A) To initiate a social conversation in an awkward silence",
+      "exp": "💡 Correct Answer: A) To initiate a social conversation in an awkward silence.\nUsage Context: Breaking the ice means relieving tension or making people comfortable in an unfamiliar setting.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Call it a day'",
+      "options": [
+        "A) To stop working on something for the rest of the day",
+        "B) To celebrate a birthday",
+        "C) To plan a new project",
+        "D) To start a difficult morning shift"
+      ],
+      "ans": "A) To stop working on something for the rest of the day",
+      "exp": "💡 Correct Answer: A) To stop working on something for the rest of the day.\nUsage Context: Call it a day means deciding to finish work for the day.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Once in a blue moon'",
+      "options": [
+        "A) Very rarely",
+        "B) Every month on a full moon",
+        "C) Frequently and predictably",
+        "D) During a solar eclipse"
+      ],
+      "ans": "A) Very rarely",
+      "exp": "💡 Correct Answer: A) Very rarely.\nUsage Context: Once in a blue moon describes an event that happens extremely rarely.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Spill the beans'",
+      "options": [
+        "A) To reveal a secret carelessly or prematurely",
+        "B) To drop food on the kitchen floor",
+        "C) To plant vegetables in a farm",
+        "D) To speak very politely"
+      ],
+      "ans": "A) To reveal a secret carelessly or prematurely",
+      "exp": "💡 Correct Answer: A) To reveal a secret carelessly or prematurely.\nUsage Context: To spill the beans means disclosing confidential information.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'At the eleventh hour'",
+      "options": [
+        "A) At the last possible moment",
+        "B) Exactly at 11:00 AM",
+        "C) Very early in the morning",
+        "D) After the deadline has passed"
+      ],
+      "ans": "A) At the last possible moment",
+      "exp": "💡 Correct Answer: A) At the last possible moment.\nUsage Context: At the eleventh hour means almost too late, at the final moment.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Beat around the bush'",
+      "options": [
+        "A) To avoid talking about the main topic directly",
+        "B) To search for something in a forest",
+        "C) To clear hedges in a garden",
+        "D) To speak authoritatively"
+      ],
+      "ans": "A) To avoid talking about the main topic directly",
+      "exp": "💡 Correct Answer: A) To avoid talking about the main topic directly.\nUsage Context: Beating around the bush means delaying discussing the actual issue.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'The committee / have agreed / on the newly proposed budget / without any objection.'",
+      "options": [
+        "A) have agreed",
+        "B) The committee",
+        "C) on the newly proposed budget",
+        "D) No error"
+      ],
+      "ans": "A) have agreed",
+      "exp": "💡 Correct Answer: A) have agreed.\nRule: Collective noun 'committee' acting unanimously takes singular verb 'has agreed', not 'have agreed'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Neither the teacher / nor the students / was present / in the lecture hall yesterday.'",
+      "options": [
+        "A) was present",
+        "B) nor the students",
+        "C) Neither the teacher",
+        "D) in the lecture hall yesterday"
+      ],
+      "ans": "A) was present",
+      "exp": "💡 Correct Answer: A) was present.\nRule: When subjects are joined by 'Neither... nor', the verb agrees with the nearer subject ('students' is plural -> 'were present').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Each of the candidates / were given a fair opportunity / to present their perspective / before the jury.'",
+      "options": [
+        "A) were given a fair opportunity",
+        "B) Each of the candidates",
+        "C) to present their perspective",
+        "D) No error"
+      ],
+      "ans": "A) were given a fair opportunity",
+      "exp": "💡 Correct Answer: A) were given a fair opportunity.\nRule: 'Each of' is followed by a plural noun but takes a SINGULAR verb ('was given', not 'were given').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Hardly had he arrived / at the railway station / then the express train departed / from the platform.'",
+      "options": [
+        "A) then the express train departed",
+        "B) Hardly had he arrived",
+        "C) at the railway station",
+        "D) No error"
+      ],
+      "ans": "A) then the express train departed",
+      "exp": "💡 Correct Answer: A) then the express train departed.\nRule: 'Hardly / Scarcely' is followed by 'when', never 'then' or 'than'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'No sooner did the alarm ring / when all the workers / rushed outside the factory / immediately.'",
+      "options": [
+        "A) when all the workers",
+        "B) No sooner did the alarm ring",
+        "C) rushed outside the factory",
+        "D) No error"
+      ],
+      "ans": "A) when all the workers",
+      "exp": "💡 Correct Answer: A) when all the workers.\nRule: 'No sooner' is always paired with 'than', not 'when'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'She is one of the brightest girls / who has won / prestigious national awards / in science.'",
+      "options": [
+        "A) who has won",
+        "B) She is one of the brightest girls",
+        "C) prestigious national awards",
+        "D) No error"
+      ],
+      "ans": "A) who has won",
+      "exp": "💡 Correct Answer: A) who has won.\nRule: Relative pronoun 'who' refers to plural antecedent 'girls', so the verb must be plural ('have won', not 'has won').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word:",
+      "options": [
+        "A) Accommodation",
+        "B) Acommodation",
+        "C) Accomodation",
+        "D) Acomodation"
+      ],
+      "ans": "A) Accommodation",
+      "exp": "💡 Correct Answer: A) Accommodation.\nRule: Accommodation has double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word:",
+      "options": [
+        "A) Bureaucracy",
+        "B) Burocracy",
+        "C) Bureacracy",
+        "D) Bureaucrasy"
+      ],
+      "ans": "A) Bureaucracy",
+      "exp": "💡 Correct Answer: A) Bureaucracy.\nRule: Bureaucracy is spelled B-u-r-e-a-u-c-r-a-c-y.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word:",
+      "options": [
+        "A) Embarrassment",
+        "B) Embarasment",
+        "C) Embarassment",
+        "D) Embaressment"
+      ],
+      "ans": "A) Embarrassment",
+      "exp": "💡 Correct Answer: A) Embarrassment.\nRule: Embarrassment has double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word:",
+      "options": [
+        "A) Millennium",
+        "B) Milenium",
+        "C) Millenium",
+        "D) Milennium"
+      ],
+      "ans": "A) Millennium",
+      "exp": "💡 Correct Answer: A) Millennium.\nRule: Millennium has double 'l' and double 'n' (M-i-l-l-e-n-n-i-u-m).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word:",
+      "options": [
+        "A) Surveillance",
+        "B) Surveilance",
+        "C) Survaillance",
+        "D) Servellance"
+      ],
+      "ans": "A) Surveillance",
+      "exp": "💡 Correct Answer: A) Surveillance.\nRule: Surveillance is spelled S-u-r-v-e-i-l-l-a-n-c-e.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves and collects books' (Exercise #38)",
+      "options": [
+        "A) Bibliophile",
+        "B) Philatelist",
+        "C) Polyglot",
+        "D) Scholar"
+      ],
+      "ans": "A) Bibliophile",
+      "exp": "💡 Correct Answer: A) Bibliophile.\nExplanation: Bibliophile is a person who has a great love of books. Philatelist collects stamps; Polyglot speaks many languages.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A remedy for all diseases or difficulties' (Exercise #39)",
+      "options": [
+        "A) Panacea",
+        "B) Placebo",
+        "C) Antidote",
+        "D) Antibiotic"
+      ],
+      "ans": "A) Panacea",
+      "exp": "💡 Correct Answer: A) Panacea.\nExplanation: Panacea (रामबाण) is a solution or remedy for all difficulties or diseases.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who is unable to pay one's debts' (Exercise #40)",
+      "options": [
+        "A) Insolvent",
+        "B) Impoverished",
+        "C) Destitute",
+        "D) Pauper"
+      ],
+      "ans": "A) Insolvent",
+      "exp": "💡 Correct Answer: A) Insolvent (Bankrupt).\nExplanation: An insolvent or bankrupt person is unable to satisfy creditor debts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who does not believe in the existence of God' (Exercise #41)",
+      "options": [
+        "A) Atheist",
+        "B) Agnostic",
+        "C) Theist",
+        "D) Cynic"
+      ],
+      "ans": "A) Atheist",
+      "exp": "💡 Correct Answer: A) Atheist.\nExplanation: Atheist (नास्तिक) denies the existence of God. Theist believes in God.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who walks in sleep' (Exercise #42)",
+      "options": [
+        "A) Somnambulist",
+        "B) Somniloquist",
+        "C) Insomniac",
+        "D) Altruist"
+      ],
+      "ans": "A) Somnambulist",
+      "exp": "💡 Correct Answer: A) Somnambulist.\nExplanation: Somnambulist walks in sleep. Somniloquist talks in sleep.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who hates mankind' (Exercise #43)",
+      "options": [
+        "A) Misanthrope",
+        "B) Philanthropist",
+        "C) Misogynist",
+        "D) Cannibal"
+      ],
+      "ans": "A) Misanthrope",
+      "exp": "💡 Correct Answer: A) Misanthrope.\nExplanation: Misanthrope dislikes humankind. Philanthropist loves mankind.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Something that cannot be corrected or reformed' (Exercise #44)",
+      "options": [
+        "A) Incorrigible",
+        "B) Infallible",
+        "C) Incurable",
+        "D) Invulnerable"
+      ],
+      "ans": "A) Incorrigible",
+      "exp": "💡 Correct Answer: A) Incorrigible.\nExplanation: Incorrigible means not able to be corrected, improved, or reformed.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who makes an official examination of accounts' (Exercise #45)",
+      "options": [
+        "A) Auditor",
+        "B) Accountant",
+        "C) Actuary",
+        "D) Registrar"
+      ],
+      "ans": "A) Auditor",
+      "exp": "💡 Correct Answer: A) Auditor.\nExplanation: An auditor conducts an official financial inspection of accounts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A post for which no salary is paid' (Exercise #46)",
+      "options": [
+        "A) Honorary",
+        "B) Sinecurist",
+        "C) Voluntary",
+        "D) Gratis"
+      ],
+      "ans": "A) Honorary",
+      "exp": "💡 Correct Answer: A) Honorary.\nExplanation: An honorary post carries no salary or monetary remuneration.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where birds are kept' (Exercise #47)",
+      "options": [
+        "A) Aviary",
+        "B) Apiary",
+        "C) Aquarium",
+        "D) Sanctuary"
+      ],
+      "ans": "A) Aviary",
+      "exp": "💡 Correct Answer: A) Aviary.\nExplanation: Aviary is for birds. Apiary is a place where bees are kept.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where bees are kept' (Exercise #48)",
+      "options": [
+        "A) Apiary",
+        "B) Aviary",
+        "C) Hangar",
+        "D) Hive"
+      ],
+      "ans": "A) Apiary",
+      "exp": "💡 Correct Answer: A) Apiary.\nExplanation: Apiary is a collection of beehives.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who cannot make mistakes' (Exercise #49)",
+      "options": [
+        "A) Infallible",
+        "B) Inevitable",
+        "C) Incorrigible",
+        "D) Omniscient"
+      ],
+      "ans": "A) Infallible",
+      "exp": "💡 Correct Answer: A) Infallible.\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A handwriting that cannot be read easily' (Exercise #50)",
+      "options": [
+        "A) Illegible",
+        "B) Ineligible",
+        "C) Obscure",
+        "D) Elliptical"
+      ],
+      "ans": "A) Illegible",
+      "exp": "💡 Correct Answer: A) Illegible.\nExplanation: Illegible means not clear enough to be read.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who leaves his own country to settle in another' (Exercise #51)",
+      "options": [
+        "A) Emigrant",
+        "B) Immigrant",
+        "C) Refugee",
+        "D) Expatriate"
+      ],
+      "ans": "A) Emigrant",
+      "exp": "💡 Correct Answer: A) Emigrant.\nExplanation: Emigrant leaves his own country (Exit = Emigrant). Immigrant enters a foreign country.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'That which lasts for a very short time' (Exercise #52)",
+      "options": [
+        "A) Ephemeral",
+        "B) Eternal",
+        "C) Perpetual",
+        "D) Unending"
+      ],
+      "ans": "A) Ephemeral",
+      "exp": "💡 Correct Answer: A) Ephemeral (Transient).\nExplanation: Ephemeral means lasting for a very short time.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A speech delivered without any previous preparation' (Exercise #53)",
+      "options": [
+        "A) Extempore",
+        "B) Maiden speech",
+        "C) Soliloquy",
+        "D) Elocution"
+      ],
+      "ans": "A) Extempore",
+      "exp": "💡 Correct Answer: A) Extempore.\nExplanation: Extempore is spoken or done without preparation.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by a single ruler with absolute power' (Exercise #54)",
+      "options": [
+        "A) Autocracy",
+        "B) Oligarchy",
+        "C) Democracy",
+        "D) Plutocracy"
+      ],
+      "ans": "A) Autocracy",
+      "exp": "💡 Correct Answer: A) Autocracy.\nExplanation: Autocracy is absolute monarchy or dictatorship.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by the wealthy class' (Exercise #55)",
+      "options": [
+        "A) Plutocracy",
+        "B) Aristocracy",
+        "C) Bureaucracy",
+        "D) Theocracy"
+      ],
+      "ans": "A) Plutocracy",
+      "exp": "💡 Correct Answer: A) Plutocracy.\nExplanation: Plutocracy is governance by the rich and wealthy.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'To burn the midnight oil' (Exercise #56)",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious fuel",
+        "C) To cause an unexpected accident",
+        "D) To sleep peacefully"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nUsage Context: Burning the midnight oil means working late hours to achieve a goal.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise' (Exercise #57)",
+      "options": [
+        "A) An apparent misfortune that eventually has good results",
+        "B) A hidden treasure in a dark room",
+        "C) An unexpected curse from an elder",
+        "D) A religious miracle"
+      ],
+      "ans": "A) An apparent misfortune that eventually has good results",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually has good results.\nUsage Context: A blessing in disguise is something that seemed bad at first but resulted in something good.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice' (Exercise #58)",
+      "options": [
+        "A) To initiate a social conversation in an awkward silence",
+        "B) To defrost refrigerated food",
+        "C) To get angry suddenly",
+        "D) To end a friendship"
+      ],
+      "ans": "A) To initiate a social conversation in an awkward silence",
+      "exp": "💡 Correct Answer: A) To initiate a social conversation in an awkward silence.\nUsage Context: Breaking the ice means relieving tension or making people comfortable in an unfamiliar setting.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Call it a day' (Exercise #59)",
+      "options": [
+        "A) To stop working on something for the rest of the day",
+        "B) To celebrate a birthday",
+        "C) To plan a new project",
+        "D) To start a difficult morning shift"
+      ],
+      "ans": "A) To stop working on something for the rest of the day",
+      "exp": "💡 Correct Answer: A) To stop working on something for the rest of the day.\nUsage Context: Call it a day means deciding to finish work for the day.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Once in a blue moon' (Exercise #60)",
+      "options": [
+        "A) Very rarely",
+        "B) Every month on a full moon",
+        "C) Frequently and predictably",
+        "D) During a solar eclipse"
+      ],
+      "ans": "A) Very rarely",
+      "exp": "💡 Correct Answer: A) Very rarely.\nUsage Context: Once in a blue moon describes an event that happens extremely rarely.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Spill the beans' (Exercise #61)",
+      "options": [
+        "A) To reveal a secret carelessly or prematurely",
+        "B) To drop food on the kitchen floor",
+        "C) To plant vegetables in a farm",
+        "D) To speak very politely"
+      ],
+      "ans": "A) To reveal a secret carelessly or prematurely",
+      "exp": "💡 Correct Answer: A) To reveal a secret carelessly or prematurely.\nUsage Context: To spill the beans means disclosing confidential information.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'At the eleventh hour' (Exercise #62)",
+      "options": [
+        "A) At the last possible moment",
+        "B) Exactly at 11:00 AM",
+        "C) Very early in the morning",
+        "D) After the deadline has passed"
+      ],
+      "ans": "A) At the last possible moment",
+      "exp": "💡 Correct Answer: A) At the last possible moment.\nUsage Context: At the eleventh hour means almost too late, at the final moment.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Beat around the bush' (Exercise #63)",
+      "options": [
+        "A) To avoid talking about the main topic directly",
+        "B) To search for something in a forest",
+        "C) To clear hedges in a garden",
+        "D) To speak authoritatively"
+      ],
+      "ans": "A) To avoid talking about the main topic directly",
+      "exp": "💡 Correct Answer: A) To avoid talking about the main topic directly.\nUsage Context: Beating around the bush means delaying discussing the actual issue.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'The committee / have agreed / on the newly proposed budget / without any objection.' (Exercise #64)",
+      "options": [
+        "A) have agreed",
+        "B) The committee",
+        "C) on the newly proposed budget",
+        "D) No error"
+      ],
+      "ans": "A) have agreed",
+      "exp": "💡 Correct Answer: A) have agreed.\nRule: Collective noun 'committee' acting unanimously takes singular verb 'has agreed', not 'have agreed'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Neither the teacher / nor the students / was present / in the lecture hall yesterday.' (Exercise #65)",
+      "options": [
+        "A) was present",
+        "B) nor the students",
+        "C) Neither the teacher",
+        "D) in the lecture hall yesterday"
+      ],
+      "ans": "A) was present",
+      "exp": "💡 Correct Answer: A) was present.\nRule: When subjects are joined by 'Neither... nor', the verb agrees with the nearer subject ('students' is plural -> 'were present').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Each of the candidates / were given a fair opportunity / to present their perspective / before the jury.' (Exercise #66)",
+      "options": [
+        "A) were given a fair opportunity",
+        "B) Each of the candidates",
+        "C) to present their perspective",
+        "D) No error"
+      ],
+      "ans": "A) were given a fair opportunity",
+      "exp": "💡 Correct Answer: A) were given a fair opportunity.\nRule: 'Each of' is followed by a plural noun but takes a SINGULAR verb ('was given', not 'were given').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Hardly had he arrived / at the railway station / then the express train departed / from the platform.' (Exercise #67)",
+      "options": [
+        "A) then the express train departed",
+        "B) Hardly had he arrived",
+        "C) at the railway station",
+        "D) No error"
+      ],
+      "ans": "A) then the express train departed",
+      "exp": "💡 Correct Answer: A) then the express train departed.\nRule: 'Hardly / Scarcely' is followed by 'when', never 'then' or 'than'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'No sooner did the alarm ring / when all the workers / rushed outside the factory / immediately.' (Exercise #68)",
+      "options": [
+        "A) when all the workers",
+        "B) No sooner did the alarm ring",
+        "C) rushed outside the factory",
+        "D) No error"
+      ],
+      "ans": "A) when all the workers",
+      "exp": "💡 Correct Answer: A) when all the workers.\nRule: 'No sooner' is always paired with 'than', not 'when'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'She is one of the brightest girls / who has won / prestigious national awards / in science.' (Exercise #69)",
+      "options": [
+        "A) who has won",
+        "B) She is one of the brightest girls",
+        "C) prestigious national awards",
+        "D) No error"
+      ],
+      "ans": "A) who has won",
+      "exp": "💡 Correct Answer: A) who has won.\nRule: Relative pronoun 'who' refers to plural antecedent 'girls', so the verb must be plural ('have won', not 'has won').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #70)",
+      "options": [
+        "A) Accommodation",
+        "B) Acommodation",
+        "C) Accomodation",
+        "D) Acomodation"
+      ],
+      "ans": "A) Accommodation",
+      "exp": "💡 Correct Answer: A) Accommodation.\nRule: Accommodation has double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #71)",
+      "options": [
+        "A) Bureaucracy",
+        "B) Burocracy",
+        "C) Bureacracy",
+        "D) Bureaucrasy"
+      ],
+      "ans": "A) Bureaucracy",
+      "exp": "💡 Correct Answer: A) Bureaucracy.\nRule: Bureaucracy is spelled B-u-r-e-a-u-c-r-a-c-y.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #72)",
+      "options": [
+        "A) Embarrassment",
+        "B) Embarasment",
+        "C) Embarassment",
+        "D) Embaressment"
+      ],
+      "ans": "A) Embarrassment",
+      "exp": "💡 Correct Answer: A) Embarrassment.\nRule: Embarrassment has double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #73)",
+      "options": [
+        "A) Millennium",
+        "B) Milenium",
+        "C) Millenium",
+        "D) Milennium"
+      ],
+      "ans": "A) Millennium",
+      "exp": "💡 Correct Answer: A) Millennium.\nRule: Millennium has double 'l' and double 'n' (M-i-l-l-e-n-n-i-u-m).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #74)",
+      "options": [
+        "A) Surveillance",
+        "B) Surveilance",
+        "C) Survaillance",
+        "D) Servellance"
+      ],
+      "ans": "A) Surveillance",
+      "exp": "💡 Correct Answer: A) Surveillance.\nRule: Surveillance is spelled S-u-r-v-e-i-l-l-a-n-c-e.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves and collects books' (Exercise #75)",
+      "options": [
+        "A) Bibliophile",
+        "B) Philatelist",
+        "C) Polyglot",
+        "D) Scholar"
+      ],
+      "ans": "A) Bibliophile",
+      "exp": "💡 Correct Answer: A) Bibliophile.\nExplanation: Bibliophile is a person who has a great love of books. Philatelist collects stamps; Polyglot speaks many languages.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A remedy for all diseases or difficulties' (Exercise #76)",
+      "options": [
+        "A) Panacea",
+        "B) Placebo",
+        "C) Antidote",
+        "D) Antibiotic"
+      ],
+      "ans": "A) Panacea",
+      "exp": "💡 Correct Answer: A) Panacea.\nExplanation: Panacea (रामबाण) is a solution or remedy for all difficulties or diseases.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who is unable to pay one's debts' (Exercise #77)",
+      "options": [
+        "A) Insolvent",
+        "B) Impoverished",
+        "C) Destitute",
+        "D) Pauper"
+      ],
+      "ans": "A) Insolvent",
+      "exp": "💡 Correct Answer: A) Insolvent (Bankrupt).\nExplanation: An insolvent or bankrupt person is unable to satisfy creditor debts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who does not believe in the existence of God' (Exercise #78)",
+      "options": [
+        "A) Atheist",
+        "B) Agnostic",
+        "C) Theist",
+        "D) Cynic"
+      ],
+      "ans": "A) Atheist",
+      "exp": "💡 Correct Answer: A) Atheist.\nExplanation: Atheist (नास्तिक) denies the existence of God. Theist believes in God.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who walks in sleep' (Exercise #79)",
+      "options": [
+        "A) Somnambulist",
+        "B) Somniloquist",
+        "C) Insomniac",
+        "D) Altruist"
+      ],
+      "ans": "A) Somnambulist",
+      "exp": "💡 Correct Answer: A) Somnambulist.\nExplanation: Somnambulist walks in sleep. Somniloquist talks in sleep.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who hates mankind' (Exercise #80)",
+      "options": [
+        "A) Misanthrope",
+        "B) Philanthropist",
+        "C) Misogynist",
+        "D) Cannibal"
+      ],
+      "ans": "A) Misanthrope",
+      "exp": "💡 Correct Answer: A) Misanthrope.\nExplanation: Misanthrope dislikes humankind. Philanthropist loves mankind.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Something that cannot be corrected or reformed' (Exercise #81)",
+      "options": [
+        "A) Incorrigible",
+        "B) Infallible",
+        "C) Incurable",
+        "D) Invulnerable"
+      ],
+      "ans": "A) Incorrigible",
+      "exp": "💡 Correct Answer: A) Incorrigible.\nExplanation: Incorrigible means not able to be corrected, improved, or reformed.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who makes an official examination of accounts' (Exercise #82)",
+      "options": [
+        "A) Auditor",
+        "B) Accountant",
+        "C) Actuary",
+        "D) Registrar"
+      ],
+      "ans": "A) Auditor",
+      "exp": "💡 Correct Answer: A) Auditor.\nExplanation: An auditor conducts an official financial inspection of accounts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A post for which no salary is paid' (Exercise #83)",
+      "options": [
+        "A) Honorary",
+        "B) Sinecurist",
+        "C) Voluntary",
+        "D) Gratis"
+      ],
+      "ans": "A) Honorary",
+      "exp": "💡 Correct Answer: A) Honorary.\nExplanation: An honorary post carries no salary or monetary remuneration.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where birds are kept' (Exercise #84)",
+      "options": [
+        "A) Aviary",
+        "B) Apiary",
+        "C) Aquarium",
+        "D) Sanctuary"
+      ],
+      "ans": "A) Aviary",
+      "exp": "💡 Correct Answer: A) Aviary.\nExplanation: Aviary is for birds. Apiary is a place where bees are kept.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where bees are kept' (Exercise #85)",
+      "options": [
+        "A) Apiary",
+        "B) Aviary",
+        "C) Hangar",
+        "D) Hive"
+      ],
+      "ans": "A) Apiary",
+      "exp": "💡 Correct Answer: A) Apiary.\nExplanation: Apiary is a collection of beehives.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who cannot make mistakes' (Exercise #86)",
+      "options": [
+        "A) Infallible",
+        "B) Inevitable",
+        "C) Incorrigible",
+        "D) Omniscient"
+      ],
+      "ans": "A) Infallible",
+      "exp": "💡 Correct Answer: A) Infallible.\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A handwriting that cannot be read easily' (Exercise #87)",
+      "options": [
+        "A) Illegible",
+        "B) Ineligible",
+        "C) Obscure",
+        "D) Elliptical"
+      ],
+      "ans": "A) Illegible",
+      "exp": "💡 Correct Answer: A) Illegible.\nExplanation: Illegible means not clear enough to be read.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who leaves his own country to settle in another' (Exercise #88)",
+      "options": [
+        "A) Emigrant",
+        "B) Immigrant",
+        "C) Refugee",
+        "D) Expatriate"
+      ],
+      "ans": "A) Emigrant",
+      "exp": "💡 Correct Answer: A) Emigrant.\nExplanation: Emigrant leaves his own country (Exit = Emigrant). Immigrant enters a foreign country.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'That which lasts for a very short time' (Exercise #89)",
+      "options": [
+        "A) Ephemeral",
+        "B) Eternal",
+        "C) Perpetual",
+        "D) Unending"
+      ],
+      "ans": "A) Ephemeral",
+      "exp": "💡 Correct Answer: A) Ephemeral (Transient).\nExplanation: Ephemeral means lasting for a very short time.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A speech delivered without any previous preparation' (Exercise #90)",
+      "options": [
+        "A) Extempore",
+        "B) Maiden speech",
+        "C) Soliloquy",
+        "D) Elocution"
+      ],
+      "ans": "A) Extempore",
+      "exp": "💡 Correct Answer: A) Extempore.\nExplanation: Extempore is spoken or done without preparation.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by a single ruler with absolute power' (Exercise #91)",
+      "options": [
+        "A) Autocracy",
+        "B) Oligarchy",
+        "C) Democracy",
+        "D) Plutocracy"
+      ],
+      "ans": "A) Autocracy",
+      "exp": "💡 Correct Answer: A) Autocracy.\nExplanation: Autocracy is absolute monarchy or dictatorship.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by the wealthy class' (Exercise #92)",
+      "options": [
+        "A) Plutocracy",
+        "B) Aristocracy",
+        "C) Bureaucracy",
+        "D) Theocracy"
+      ],
+      "ans": "A) Plutocracy",
+      "exp": "💡 Correct Answer: A) Plutocracy.\nExplanation: Plutocracy is governance by the rich and wealthy.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'To burn the midnight oil' (Exercise #93)",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious fuel",
+        "C) To cause an unexpected accident",
+        "D) To sleep peacefully"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nUsage Context: Burning the midnight oil means working late hours to achieve a goal.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise' (Exercise #94)",
+      "options": [
+        "A) An apparent misfortune that eventually has good results",
+        "B) A hidden treasure in a dark room",
+        "C) An unexpected curse from an elder",
+        "D) A religious miracle"
+      ],
+      "ans": "A) An apparent misfortune that eventually has good results",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually has good results.\nUsage Context: A blessing in disguise is something that seemed bad at first but resulted in something good.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice' (Exercise #95)",
+      "options": [
+        "A) To initiate a social conversation in an awkward silence",
+        "B) To defrost refrigerated food",
+        "C) To get angry suddenly",
+        "D) To end a friendship"
+      ],
+      "ans": "A) To initiate a social conversation in an awkward silence",
+      "exp": "💡 Correct Answer: A) To initiate a social conversation in an awkward silence.\nUsage Context: Breaking the ice means relieving tension or making people comfortable in an unfamiliar setting.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Call it a day' (Exercise #96)",
+      "options": [
+        "A) To stop working on something for the rest of the day",
+        "B) To celebrate a birthday",
+        "C) To plan a new project",
+        "D) To start a difficult morning shift"
+      ],
+      "ans": "A) To stop working on something for the rest of the day",
+      "exp": "💡 Correct Answer: A) To stop working on something for the rest of the day.\nUsage Context: Call it a day means deciding to finish work for the day.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Once in a blue moon' (Exercise #97)",
+      "options": [
+        "A) Very rarely",
+        "B) Every month on a full moon",
+        "C) Frequently and predictably",
+        "D) During a solar eclipse"
+      ],
+      "ans": "A) Very rarely",
+      "exp": "💡 Correct Answer: A) Very rarely.\nUsage Context: Once in a blue moon describes an event that happens extremely rarely.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Spill the beans' (Exercise #98)",
+      "options": [
+        "A) To reveal a secret carelessly or prematurely",
+        "B) To drop food on the kitchen floor",
+        "C) To plant vegetables in a farm",
+        "D) To speak very politely"
+      ],
+      "ans": "A) To reveal a secret carelessly or prematurely",
+      "exp": "💡 Correct Answer: A) To reveal a secret carelessly or prematurely.\nUsage Context: To spill the beans means disclosing confidential information.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'At the eleventh hour' (Exercise #99)",
+      "options": [
+        "A) At the last possible moment",
+        "B) Exactly at 11:00 AM",
+        "C) Very early in the morning",
+        "D) After the deadline has passed"
+      ],
+      "ans": "A) At the last possible moment",
+      "exp": "💡 Correct Answer: A) At the last possible moment.\nUsage Context: At the eleventh hour means almost too late, at the final moment.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Beat around the bush' (Exercise #100)",
+      "options": [
+        "A) To avoid talking about the main topic directly",
+        "B) To search for something in a forest",
+        "C) To clear hedges in a garden",
+        "D) To speak authoritatively"
+      ],
+      "ans": "A) To avoid talking about the main topic directly",
+      "exp": "💡 Correct Answer: A) To avoid talking about the main topic directly.\nUsage Context: Beating around the bush means delaying discussing the actual issue.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'The committee / have agreed / on the newly proposed budget / without any objection.' (Exercise #101)",
+      "options": [
+        "A) have agreed",
+        "B) The committee",
+        "C) on the newly proposed budget",
+        "D) No error"
+      ],
+      "ans": "A) have agreed",
+      "exp": "💡 Correct Answer: A) have agreed.\nRule: Collective noun 'committee' acting unanimously takes singular verb 'has agreed', not 'have agreed'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Neither the teacher / nor the students / was present / in the lecture hall yesterday.' (Exercise #102)",
+      "options": [
+        "A) was present",
+        "B) nor the students",
+        "C) Neither the teacher",
+        "D) in the lecture hall yesterday"
+      ],
+      "ans": "A) was present",
+      "exp": "💡 Correct Answer: A) was present.\nRule: When subjects are joined by 'Neither... nor', the verb agrees with the nearer subject ('students' is plural -> 'were present').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Each of the candidates / were given a fair opportunity / to present their perspective / before the jury.' (Exercise #103)",
+      "options": [
+        "A) were given a fair opportunity",
+        "B) Each of the candidates",
+        "C) to present their perspective",
+        "D) No error"
+      ],
+      "ans": "A) were given a fair opportunity",
+      "exp": "💡 Correct Answer: A) were given a fair opportunity.\nRule: 'Each of' is followed by a plural noun but takes a SINGULAR verb ('was given', not 'were given').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Hardly had he arrived / at the railway station / then the express train departed / from the platform.' (Exercise #104)",
+      "options": [
+        "A) then the express train departed",
+        "B) Hardly had he arrived",
+        "C) at the railway station",
+        "D) No error"
+      ],
+      "ans": "A) then the express train departed",
+      "exp": "💡 Correct Answer: A) then the express train departed.\nRule: 'Hardly / Scarcely' is followed by 'when', never 'then' or 'than'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'No sooner did the alarm ring / when all the workers / rushed outside the factory / immediately.' (Exercise #105)",
+      "options": [
+        "A) when all the workers",
+        "B) No sooner did the alarm ring",
+        "C) rushed outside the factory",
+        "D) No error"
+      ],
+      "ans": "A) when all the workers",
+      "exp": "💡 Correct Answer: A) when all the workers.\nRule: 'No sooner' is always paired with 'than', not 'when'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'She is one of the brightest girls / who has won / prestigious national awards / in science.' (Exercise #106)",
+      "options": [
+        "A) who has won",
+        "B) She is one of the brightest girls",
+        "C) prestigious national awards",
+        "D) No error"
+      ],
+      "ans": "A) who has won",
+      "exp": "💡 Correct Answer: A) who has won.\nRule: Relative pronoun 'who' refers to plural antecedent 'girls', so the verb must be plural ('have won', not 'has won').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #107)",
+      "options": [
+        "A) Accommodation",
+        "B) Acommodation",
+        "C) Accomodation",
+        "D) Acomodation"
+      ],
+      "ans": "A) Accommodation",
+      "exp": "💡 Correct Answer: A) Accommodation.\nRule: Accommodation has double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #108)",
+      "options": [
+        "A) Bureaucracy",
+        "B) Burocracy",
+        "C) Bureacracy",
+        "D) Bureaucrasy"
+      ],
+      "ans": "A) Bureaucracy",
+      "exp": "💡 Correct Answer: A) Bureaucracy.\nRule: Bureaucracy is spelled B-u-r-e-a-u-c-r-a-c-y.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #109)",
+      "options": [
+        "A) Embarrassment",
+        "B) Embarasment",
+        "C) Embarassment",
+        "D) Embaressment"
+      ],
+      "ans": "A) Embarrassment",
+      "exp": "💡 Correct Answer: A) Embarrassment.\nRule: Embarrassment has double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #110)",
+      "options": [
+        "A) Millennium",
+        "B) Milenium",
+        "C) Millenium",
+        "D) Milennium"
+      ],
+      "ans": "A) Millennium",
+      "exp": "💡 Correct Answer: A) Millennium.\nRule: Millennium has double 'l' and double 'n' (M-i-l-l-e-n-n-i-u-m).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #111)",
+      "options": [
+        "A) Surveillance",
+        "B) Surveilance",
+        "C) Survaillance",
+        "D) Servellance"
+      ],
+      "ans": "A) Surveillance",
+      "exp": "💡 Correct Answer: A) Surveillance.\nRule: Surveillance is spelled S-u-r-v-e-i-l-l-a-n-c-e.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves and collects books' (Exercise #112)",
+      "options": [
+        "A) Bibliophile",
+        "B) Philatelist",
+        "C) Polyglot",
+        "D) Scholar"
+      ],
+      "ans": "A) Bibliophile",
+      "exp": "💡 Correct Answer: A) Bibliophile.\nExplanation: Bibliophile is a person who has a great love of books. Philatelist collects stamps; Polyglot speaks many languages.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A remedy for all diseases or difficulties' (Exercise #113)",
+      "options": [
+        "A) Panacea",
+        "B) Placebo",
+        "C) Antidote",
+        "D) Antibiotic"
+      ],
+      "ans": "A) Panacea",
+      "exp": "💡 Correct Answer: A) Panacea.\nExplanation: Panacea (रामबाण) is a solution or remedy for all difficulties or diseases.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who is unable to pay one's debts' (Exercise #114)",
+      "options": [
+        "A) Insolvent",
+        "B) Impoverished",
+        "C) Destitute",
+        "D) Pauper"
+      ],
+      "ans": "A) Insolvent",
+      "exp": "💡 Correct Answer: A) Insolvent (Bankrupt).\nExplanation: An insolvent or bankrupt person is unable to satisfy creditor debts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who does not believe in the existence of God' (Exercise #115)",
+      "options": [
+        "A) Atheist",
+        "B) Agnostic",
+        "C) Theist",
+        "D) Cynic"
+      ],
+      "ans": "A) Atheist",
+      "exp": "💡 Correct Answer: A) Atheist.\nExplanation: Atheist (नास्तिक) denies the existence of God. Theist believes in God.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who walks in sleep' (Exercise #116)",
+      "options": [
+        "A) Somnambulist",
+        "B) Somniloquist",
+        "C) Insomniac",
+        "D) Altruist"
+      ],
+      "ans": "A) Somnambulist",
+      "exp": "💡 Correct Answer: A) Somnambulist.\nExplanation: Somnambulist walks in sleep. Somniloquist talks in sleep.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who hates mankind' (Exercise #117)",
+      "options": [
+        "A) Misanthrope",
+        "B) Philanthropist",
+        "C) Misogynist",
+        "D) Cannibal"
+      ],
+      "ans": "A) Misanthrope",
+      "exp": "💡 Correct Answer: A) Misanthrope.\nExplanation: Misanthrope dislikes humankind. Philanthropist loves mankind.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Something that cannot be corrected or reformed' (Exercise #118)",
+      "options": [
+        "A) Incorrigible",
+        "B) Infallible",
+        "C) Incurable",
+        "D) Invulnerable"
+      ],
+      "ans": "A) Incorrigible",
+      "exp": "💡 Correct Answer: A) Incorrigible.\nExplanation: Incorrigible means not able to be corrected, improved, or reformed.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who makes an official examination of accounts' (Exercise #119)",
+      "options": [
+        "A) Auditor",
+        "B) Accountant",
+        "C) Actuary",
+        "D) Registrar"
+      ],
+      "ans": "A) Auditor",
+      "exp": "💡 Correct Answer: A) Auditor.\nExplanation: An auditor conducts an official financial inspection of accounts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A post for which no salary is paid' (Exercise #120)",
+      "options": [
+        "A) Honorary",
+        "B) Sinecurist",
+        "C) Voluntary",
+        "D) Gratis"
+      ],
+      "ans": "A) Honorary",
+      "exp": "💡 Correct Answer: A) Honorary.\nExplanation: An honorary post carries no salary or monetary remuneration.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where birds are kept' (Exercise #121)",
+      "options": [
+        "A) Aviary",
+        "B) Apiary",
+        "C) Aquarium",
+        "D) Sanctuary"
+      ],
+      "ans": "A) Aviary",
+      "exp": "💡 Correct Answer: A) Aviary.\nExplanation: Aviary is for birds. Apiary is a place where bees are kept.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where bees are kept' (Exercise #122)",
+      "options": [
+        "A) Apiary",
+        "B) Aviary",
+        "C) Hangar",
+        "D) Hive"
+      ],
+      "ans": "A) Apiary",
+      "exp": "💡 Correct Answer: A) Apiary.\nExplanation: Apiary is a collection of beehives.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who cannot make mistakes' (Exercise #123)",
+      "options": [
+        "A) Infallible",
+        "B) Inevitable",
+        "C) Incorrigible",
+        "D) Omniscient"
+      ],
+      "ans": "A) Infallible",
+      "exp": "💡 Correct Answer: A) Infallible.\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A handwriting that cannot be read easily' (Exercise #124)",
+      "options": [
+        "A) Illegible",
+        "B) Ineligible",
+        "C) Obscure",
+        "D) Elliptical"
+      ],
+      "ans": "A) Illegible",
+      "exp": "💡 Correct Answer: A) Illegible.\nExplanation: Illegible means not clear enough to be read.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who leaves his own country to settle in another' (Exercise #125)",
+      "options": [
+        "A) Emigrant",
+        "B) Immigrant",
+        "C) Refugee",
+        "D) Expatriate"
+      ],
+      "ans": "A) Emigrant",
+      "exp": "💡 Correct Answer: A) Emigrant.\nExplanation: Emigrant leaves his own country (Exit = Emigrant). Immigrant enters a foreign country.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'That which lasts for a very short time' (Exercise #126)",
+      "options": [
+        "A) Ephemeral",
+        "B) Eternal",
+        "C) Perpetual",
+        "D) Unending"
+      ],
+      "ans": "A) Ephemeral",
+      "exp": "💡 Correct Answer: A) Ephemeral (Transient).\nExplanation: Ephemeral means lasting for a very short time.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A speech delivered without any previous preparation' (Exercise #127)",
+      "options": [
+        "A) Extempore",
+        "B) Maiden speech",
+        "C) Soliloquy",
+        "D) Elocution"
+      ],
+      "ans": "A) Extempore",
+      "exp": "💡 Correct Answer: A) Extempore.\nExplanation: Extempore is spoken or done without preparation.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by a single ruler with absolute power' (Exercise #128)",
+      "options": [
+        "A) Autocracy",
+        "B) Oligarchy",
+        "C) Democracy",
+        "D) Plutocracy"
+      ],
+      "ans": "A) Autocracy",
+      "exp": "💡 Correct Answer: A) Autocracy.\nExplanation: Autocracy is absolute monarchy or dictatorship.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by the wealthy class' (Exercise #129)",
+      "options": [
+        "A) Plutocracy",
+        "B) Aristocracy",
+        "C) Bureaucracy",
+        "D) Theocracy"
+      ],
+      "ans": "A) Plutocracy",
+      "exp": "💡 Correct Answer: A) Plutocracy.\nExplanation: Plutocracy is governance by the rich and wealthy.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'To burn the midnight oil' (Exercise #130)",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious fuel",
+        "C) To cause an unexpected accident",
+        "D) To sleep peacefully"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nUsage Context: Burning the midnight oil means working late hours to achieve a goal.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise' (Exercise #131)",
+      "options": [
+        "A) An apparent misfortune that eventually has good results",
+        "B) A hidden treasure in a dark room",
+        "C) An unexpected curse from an elder",
+        "D) A religious miracle"
+      ],
+      "ans": "A) An apparent misfortune that eventually has good results",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually has good results.\nUsage Context: A blessing in disguise is something that seemed bad at first but resulted in something good.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice' (Exercise #132)",
+      "options": [
+        "A) To initiate a social conversation in an awkward silence",
+        "B) To defrost refrigerated food",
+        "C) To get angry suddenly",
+        "D) To end a friendship"
+      ],
+      "ans": "A) To initiate a social conversation in an awkward silence",
+      "exp": "💡 Correct Answer: A) To initiate a social conversation in an awkward silence.\nUsage Context: Breaking the ice means relieving tension or making people comfortable in an unfamiliar setting.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Call it a day' (Exercise #133)",
+      "options": [
+        "A) To stop working on something for the rest of the day",
+        "B) To celebrate a birthday",
+        "C) To plan a new project",
+        "D) To start a difficult morning shift"
+      ],
+      "ans": "A) To stop working on something for the rest of the day",
+      "exp": "💡 Correct Answer: A) To stop working on something for the rest of the day.\nUsage Context: Call it a day means deciding to finish work for the day.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Once in a blue moon' (Exercise #134)",
+      "options": [
+        "A) Very rarely",
+        "B) Every month on a full moon",
+        "C) Frequently and predictably",
+        "D) During a solar eclipse"
+      ],
+      "ans": "A) Very rarely",
+      "exp": "💡 Correct Answer: A) Very rarely.\nUsage Context: Once in a blue moon describes an event that happens extremely rarely.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Spill the beans' (Exercise #135)",
+      "options": [
+        "A) To reveal a secret carelessly or prematurely",
+        "B) To drop food on the kitchen floor",
+        "C) To plant vegetables in a farm",
+        "D) To speak very politely"
+      ],
+      "ans": "A) To reveal a secret carelessly or prematurely",
+      "exp": "💡 Correct Answer: A) To reveal a secret carelessly or prematurely.\nUsage Context: To spill the beans means disclosing confidential information.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'At the eleventh hour' (Exercise #136)",
+      "options": [
+        "A) At the last possible moment",
+        "B) Exactly at 11:00 AM",
+        "C) Very early in the morning",
+        "D) After the deadline has passed"
+      ],
+      "ans": "A) At the last possible moment",
+      "exp": "💡 Correct Answer: A) At the last possible moment.\nUsage Context: At the eleventh hour means almost too late, at the final moment.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Beat around the bush' (Exercise #137)",
+      "options": [
+        "A) To avoid talking about the main topic directly",
+        "B) To search for something in a forest",
+        "C) To clear hedges in a garden",
+        "D) To speak authoritatively"
+      ],
+      "ans": "A) To avoid talking about the main topic directly",
+      "exp": "💡 Correct Answer: A) To avoid talking about the main topic directly.\nUsage Context: Beating around the bush means delaying discussing the actual issue.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'The committee / have agreed / on the newly proposed budget / without any objection.' (Exercise #138)",
+      "options": [
+        "A) have agreed",
+        "B) The committee",
+        "C) on the newly proposed budget",
+        "D) No error"
+      ],
+      "ans": "A) have agreed",
+      "exp": "💡 Correct Answer: A) have agreed.\nRule: Collective noun 'committee' acting unanimously takes singular verb 'has agreed', not 'have agreed'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Neither the teacher / nor the students / was present / in the lecture hall yesterday.' (Exercise #139)",
+      "options": [
+        "A) was present",
+        "B) nor the students",
+        "C) Neither the teacher",
+        "D) in the lecture hall yesterday"
+      ],
+      "ans": "A) was present",
+      "exp": "💡 Correct Answer: A) was present.\nRule: When subjects are joined by 'Neither... nor', the verb agrees with the nearer subject ('students' is plural -> 'were present').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Each of the candidates / were given a fair opportunity / to present their perspective / before the jury.' (Exercise #140)",
+      "options": [
+        "A) were given a fair opportunity",
+        "B) Each of the candidates",
+        "C) to present their perspective",
+        "D) No error"
+      ],
+      "ans": "A) were given a fair opportunity",
+      "exp": "💡 Correct Answer: A) were given a fair opportunity.\nRule: 'Each of' is followed by a plural noun but takes a SINGULAR verb ('was given', not 'were given').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Hardly had he arrived / at the railway station / then the express train departed / from the platform.' (Exercise #141)",
+      "options": [
+        "A) then the express train departed",
+        "B) Hardly had he arrived",
+        "C) at the railway station",
+        "D) No error"
+      ],
+      "ans": "A) then the express train departed",
+      "exp": "💡 Correct Answer: A) then the express train departed.\nRule: 'Hardly / Scarcely' is followed by 'when', never 'then' or 'than'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'No sooner did the alarm ring / when all the workers / rushed outside the factory / immediately.' (Exercise #142)",
+      "options": [
+        "A) when all the workers",
+        "B) No sooner did the alarm ring",
+        "C) rushed outside the factory",
+        "D) No error"
+      ],
+      "ans": "A) when all the workers",
+      "exp": "💡 Correct Answer: A) when all the workers.\nRule: 'No sooner' is always paired with 'than', not 'when'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'She is one of the brightest girls / who has won / prestigious national awards / in science.' (Exercise #143)",
+      "options": [
+        "A) who has won",
+        "B) She is one of the brightest girls",
+        "C) prestigious national awards",
+        "D) No error"
+      ],
+      "ans": "A) who has won",
+      "exp": "💡 Correct Answer: A) who has won.\nRule: Relative pronoun 'who' refers to plural antecedent 'girls', so the verb must be plural ('have won', not 'has won').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #144)",
+      "options": [
+        "A) Accommodation",
+        "B) Acommodation",
+        "C) Accomodation",
+        "D) Acomodation"
+      ],
+      "ans": "A) Accommodation",
+      "exp": "💡 Correct Answer: A) Accommodation.\nRule: Accommodation has double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #145)",
+      "options": [
+        "A) Bureaucracy",
+        "B) Burocracy",
+        "C) Bureacracy",
+        "D) Bureaucrasy"
+      ],
+      "ans": "A) Bureaucracy",
+      "exp": "💡 Correct Answer: A) Bureaucracy.\nRule: Bureaucracy is spelled B-u-r-e-a-u-c-r-a-c-y.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #146)",
+      "options": [
+        "A) Embarrassment",
+        "B) Embarasment",
+        "C) Embarassment",
+        "D) Embaressment"
+      ],
+      "ans": "A) Embarrassment",
+      "exp": "💡 Correct Answer: A) Embarrassment.\nRule: Embarrassment has double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #147)",
+      "options": [
+        "A) Millennium",
+        "B) Milenium",
+        "C) Millenium",
+        "D) Milennium"
+      ],
+      "ans": "A) Millennium",
+      "exp": "💡 Correct Answer: A) Millennium.\nRule: Millennium has double 'l' and double 'n' (M-i-l-l-e-n-n-i-u-m).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #148)",
+      "options": [
+        "A) Surveillance",
+        "B) Surveilance",
+        "C) Survaillance",
+        "D) Servellance"
+      ],
+      "ans": "A) Surveillance",
+      "exp": "💡 Correct Answer: A) Surveillance.\nRule: Surveillance is spelled S-u-r-v-e-i-l-l-a-n-c-e.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves and collects books' (Exercise #149)",
+      "options": [
+        "A) Bibliophile",
+        "B) Philatelist",
+        "C) Polyglot",
+        "D) Scholar"
+      ],
+      "ans": "A) Bibliophile",
+      "exp": "💡 Correct Answer: A) Bibliophile.\nExplanation: Bibliophile is a person who has a great love of books. Philatelist collects stamps; Polyglot speaks many languages.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A remedy for all diseases or difficulties' (Exercise #150)",
+      "options": [
+        "A) Panacea",
+        "B) Placebo",
+        "C) Antidote",
+        "D) Antibiotic"
+      ],
+      "ans": "A) Panacea",
+      "exp": "💡 Correct Answer: A) Panacea.\nExplanation: Panacea (रामबाण) is a solution or remedy for all difficulties or diseases.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who is unable to pay one's debts' (Exercise #151)",
+      "options": [
+        "A) Insolvent",
+        "B) Impoverished",
+        "C) Destitute",
+        "D) Pauper"
+      ],
+      "ans": "A) Insolvent",
+      "exp": "💡 Correct Answer: A) Insolvent (Bankrupt).\nExplanation: An insolvent or bankrupt person is unable to satisfy creditor debts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who does not believe in the existence of God' (Exercise #152)",
+      "options": [
+        "A) Atheist",
+        "B) Agnostic",
+        "C) Theist",
+        "D) Cynic"
+      ],
+      "ans": "A) Atheist",
+      "exp": "💡 Correct Answer: A) Atheist.\nExplanation: Atheist (नास्तिक) denies the existence of God. Theist believes in God.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who walks in sleep' (Exercise #153)",
+      "options": [
+        "A) Somnambulist",
+        "B) Somniloquist",
+        "C) Insomniac",
+        "D) Altruist"
+      ],
+      "ans": "A) Somnambulist",
+      "exp": "💡 Correct Answer: A) Somnambulist.\nExplanation: Somnambulist walks in sleep. Somniloquist talks in sleep.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who hates mankind' (Exercise #154)",
+      "options": [
+        "A) Misanthrope",
+        "B) Philanthropist",
+        "C) Misogynist",
+        "D) Cannibal"
+      ],
+      "ans": "A) Misanthrope",
+      "exp": "💡 Correct Answer: A) Misanthrope.\nExplanation: Misanthrope dislikes humankind. Philanthropist loves mankind.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Something that cannot be corrected or reformed' (Exercise #155)",
+      "options": [
+        "A) Incorrigible",
+        "B) Infallible",
+        "C) Incurable",
+        "D) Invulnerable"
+      ],
+      "ans": "A) Incorrigible",
+      "exp": "💡 Correct Answer: A) Incorrigible.\nExplanation: Incorrigible means not able to be corrected, improved, or reformed.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who makes an official examination of accounts' (Exercise #156)",
+      "options": [
+        "A) Auditor",
+        "B) Accountant",
+        "C) Actuary",
+        "D) Registrar"
+      ],
+      "ans": "A) Auditor",
+      "exp": "💡 Correct Answer: A) Auditor.\nExplanation: An auditor conducts an official financial inspection of accounts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A post for which no salary is paid' (Exercise #157)",
+      "options": [
+        "A) Honorary",
+        "B) Sinecurist",
+        "C) Voluntary",
+        "D) Gratis"
+      ],
+      "ans": "A) Honorary",
+      "exp": "💡 Correct Answer: A) Honorary.\nExplanation: An honorary post carries no salary or monetary remuneration.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where birds are kept' (Exercise #158)",
+      "options": [
+        "A) Aviary",
+        "B) Apiary",
+        "C) Aquarium",
+        "D) Sanctuary"
+      ],
+      "ans": "A) Aviary",
+      "exp": "💡 Correct Answer: A) Aviary.\nExplanation: Aviary is for birds. Apiary is a place where bees are kept.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where bees are kept' (Exercise #159)",
+      "options": [
+        "A) Apiary",
+        "B) Aviary",
+        "C) Hangar",
+        "D) Hive"
+      ],
+      "ans": "A) Apiary",
+      "exp": "💡 Correct Answer: A) Apiary.\nExplanation: Apiary is a collection of beehives.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who cannot make mistakes' (Exercise #160)",
+      "options": [
+        "A) Infallible",
+        "B) Inevitable",
+        "C) Incorrigible",
+        "D) Omniscient"
+      ],
+      "ans": "A) Infallible",
+      "exp": "💡 Correct Answer: A) Infallible.\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A handwriting that cannot be read easily' (Exercise #161)",
+      "options": [
+        "A) Illegible",
+        "B) Ineligible",
+        "C) Obscure",
+        "D) Elliptical"
+      ],
+      "ans": "A) Illegible",
+      "exp": "💡 Correct Answer: A) Illegible.\nExplanation: Illegible means not clear enough to be read.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who leaves his own country to settle in another' (Exercise #162)",
+      "options": [
+        "A) Emigrant",
+        "B) Immigrant",
+        "C) Refugee",
+        "D) Expatriate"
+      ],
+      "ans": "A) Emigrant",
+      "exp": "💡 Correct Answer: A) Emigrant.\nExplanation: Emigrant leaves his own country (Exit = Emigrant). Immigrant enters a foreign country.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'That which lasts for a very short time' (Exercise #163)",
+      "options": [
+        "A) Ephemeral",
+        "B) Eternal",
+        "C) Perpetual",
+        "D) Unending"
+      ],
+      "ans": "A) Ephemeral",
+      "exp": "💡 Correct Answer: A) Ephemeral (Transient).\nExplanation: Ephemeral means lasting for a very short time.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A speech delivered without any previous preparation' (Exercise #164)",
+      "options": [
+        "A) Extempore",
+        "B) Maiden speech",
+        "C) Soliloquy",
+        "D) Elocution"
+      ],
+      "ans": "A) Extempore",
+      "exp": "💡 Correct Answer: A) Extempore.\nExplanation: Extempore is spoken or done without preparation.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by a single ruler with absolute power' (Exercise #165)",
+      "options": [
+        "A) Autocracy",
+        "B) Oligarchy",
+        "C) Democracy",
+        "D) Plutocracy"
+      ],
+      "ans": "A) Autocracy",
+      "exp": "💡 Correct Answer: A) Autocracy.\nExplanation: Autocracy is absolute monarchy or dictatorship.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by the wealthy class' (Exercise #166)",
+      "options": [
+        "A) Plutocracy",
+        "B) Aristocracy",
+        "C) Bureaucracy",
+        "D) Theocracy"
+      ],
+      "ans": "A) Plutocracy",
+      "exp": "💡 Correct Answer: A) Plutocracy.\nExplanation: Plutocracy is governance by the rich and wealthy.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'To burn the midnight oil' (Exercise #167)",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious fuel",
+        "C) To cause an unexpected accident",
+        "D) To sleep peacefully"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nUsage Context: Burning the midnight oil means working late hours to achieve a goal.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise' (Exercise #168)",
+      "options": [
+        "A) An apparent misfortune that eventually has good results",
+        "B) A hidden treasure in a dark room",
+        "C) An unexpected curse from an elder",
+        "D) A religious miracle"
+      ],
+      "ans": "A) An apparent misfortune that eventually has good results",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually has good results.\nUsage Context: A blessing in disguise is something that seemed bad at first but resulted in something good.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice' (Exercise #169)",
+      "options": [
+        "A) To initiate a social conversation in an awkward silence",
+        "B) To defrost refrigerated food",
+        "C) To get angry suddenly",
+        "D) To end a friendship"
+      ],
+      "ans": "A) To initiate a social conversation in an awkward silence",
+      "exp": "💡 Correct Answer: A) To initiate a social conversation in an awkward silence.\nUsage Context: Breaking the ice means relieving tension or making people comfortable in an unfamiliar setting.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Call it a day' (Exercise #170)",
+      "options": [
+        "A) To stop working on something for the rest of the day",
+        "B) To celebrate a birthday",
+        "C) To plan a new project",
+        "D) To start a difficult morning shift"
+      ],
+      "ans": "A) To stop working on something for the rest of the day",
+      "exp": "💡 Correct Answer: A) To stop working on something for the rest of the day.\nUsage Context: Call it a day means deciding to finish work for the day.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Once in a blue moon' (Exercise #171)",
+      "options": [
+        "A) Very rarely",
+        "B) Every month on a full moon",
+        "C) Frequently and predictably",
+        "D) During a solar eclipse"
+      ],
+      "ans": "A) Very rarely",
+      "exp": "💡 Correct Answer: A) Very rarely.\nUsage Context: Once in a blue moon describes an event that happens extremely rarely.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Spill the beans' (Exercise #172)",
+      "options": [
+        "A) To reveal a secret carelessly or prematurely",
+        "B) To drop food on the kitchen floor",
+        "C) To plant vegetables in a farm",
+        "D) To speak very politely"
+      ],
+      "ans": "A) To reveal a secret carelessly or prematurely",
+      "exp": "💡 Correct Answer: A) To reveal a secret carelessly or prematurely.\nUsage Context: To spill the beans means disclosing confidential information.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'At the eleventh hour' (Exercise #173)",
+      "options": [
+        "A) At the last possible moment",
+        "B) Exactly at 11:00 AM",
+        "C) Very early in the morning",
+        "D) After the deadline has passed"
+      ],
+      "ans": "A) At the last possible moment",
+      "exp": "💡 Correct Answer: A) At the last possible moment.\nUsage Context: At the eleventh hour means almost too late, at the final moment.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Beat around the bush' (Exercise #174)",
+      "options": [
+        "A) To avoid talking about the main topic directly",
+        "B) To search for something in a forest",
+        "C) To clear hedges in a garden",
+        "D) To speak authoritatively"
+      ],
+      "ans": "A) To avoid talking about the main topic directly",
+      "exp": "💡 Correct Answer: A) To avoid talking about the main topic directly.\nUsage Context: Beating around the bush means delaying discussing the actual issue.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'The committee / have agreed / on the newly proposed budget / without any objection.' (Exercise #175)",
+      "options": [
+        "A) have agreed",
+        "B) The committee",
+        "C) on the newly proposed budget",
+        "D) No error"
+      ],
+      "ans": "A) have agreed",
+      "exp": "💡 Correct Answer: A) have agreed.\nRule: Collective noun 'committee' acting unanimously takes singular verb 'has agreed', not 'have agreed'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Neither the teacher / nor the students / was present / in the lecture hall yesterday.' (Exercise #176)",
+      "options": [
+        "A) was present",
+        "B) nor the students",
+        "C) Neither the teacher",
+        "D) in the lecture hall yesterday"
+      ],
+      "ans": "A) was present",
+      "exp": "💡 Correct Answer: A) was present.\nRule: When subjects are joined by 'Neither... nor', the verb agrees with the nearer subject ('students' is plural -> 'were present').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Each of the candidates / were given a fair opportunity / to present their perspective / before the jury.' (Exercise #177)",
+      "options": [
+        "A) were given a fair opportunity",
+        "B) Each of the candidates",
+        "C) to present their perspective",
+        "D) No error"
+      ],
+      "ans": "A) were given a fair opportunity",
+      "exp": "💡 Correct Answer: A) were given a fair opportunity.\nRule: 'Each of' is followed by a plural noun but takes a SINGULAR verb ('was given', not 'were given').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Hardly had he arrived / at the railway station / then the express train departed / from the platform.' (Exercise #178)",
+      "options": [
+        "A) then the express train departed",
+        "B) Hardly had he arrived",
+        "C) at the railway station",
+        "D) No error"
+      ],
+      "ans": "A) then the express train departed",
+      "exp": "💡 Correct Answer: A) then the express train departed.\nRule: 'Hardly / Scarcely' is followed by 'when', never 'then' or 'than'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'No sooner did the alarm ring / when all the workers / rushed outside the factory / immediately.' (Exercise #179)",
+      "options": [
+        "A) when all the workers",
+        "B) No sooner did the alarm ring",
+        "C) rushed outside the factory",
+        "D) No error"
+      ],
+      "ans": "A) when all the workers",
+      "exp": "💡 Correct Answer: A) when all the workers.\nRule: 'No sooner' is always paired with 'than', not 'when'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'She is one of the brightest girls / who has won / prestigious national awards / in science.' (Exercise #180)",
+      "options": [
+        "A) who has won",
+        "B) She is one of the brightest girls",
+        "C) prestigious national awards",
+        "D) No error"
+      ],
+      "ans": "A) who has won",
+      "exp": "💡 Correct Answer: A) who has won.\nRule: Relative pronoun 'who' refers to plural antecedent 'girls', so the verb must be plural ('have won', not 'has won').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #181)",
+      "options": [
+        "A) Accommodation",
+        "B) Acommodation",
+        "C) Accomodation",
+        "D) Acomodation"
+      ],
+      "ans": "A) Accommodation",
+      "exp": "💡 Correct Answer: A) Accommodation.\nRule: Accommodation has double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #182)",
+      "options": [
+        "A) Bureaucracy",
+        "B) Burocracy",
+        "C) Bureacracy",
+        "D) Bureaucrasy"
+      ],
+      "ans": "A) Bureaucracy",
+      "exp": "💡 Correct Answer: A) Bureaucracy.\nRule: Bureaucracy is spelled B-u-r-e-a-u-c-r-a-c-y.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #183)",
+      "options": [
+        "A) Embarrassment",
+        "B) Embarasment",
+        "C) Embarassment",
+        "D) Embaressment"
+      ],
+      "ans": "A) Embarrassment",
+      "exp": "💡 Correct Answer: A) Embarrassment.\nRule: Embarrassment has double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #184)",
+      "options": [
+        "A) Millennium",
+        "B) Milenium",
+        "C) Millenium",
+        "D) Milennium"
+      ],
+      "ans": "A) Millennium",
+      "exp": "💡 Correct Answer: A) Millennium.\nRule: Millennium has double 'l' and double 'n' (M-i-l-l-e-n-n-i-u-m).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #185)",
+      "options": [
+        "A) Surveillance",
+        "B) Surveilance",
+        "C) Survaillance",
+        "D) Servellance"
+      ],
+      "ans": "A) Surveillance",
+      "exp": "💡 Correct Answer: A) Surveillance.\nRule: Surveillance is spelled S-u-r-v-e-i-l-l-a-n-c-e.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who loves and collects books' (Exercise #186)",
+      "options": [
+        "A) Bibliophile",
+        "B) Philatelist",
+        "C) Polyglot",
+        "D) Scholar"
+      ],
+      "ans": "A) Bibliophile",
+      "exp": "💡 Correct Answer: A) Bibliophile.\nExplanation: Bibliophile is a person who has a great love of books. Philatelist collects stamps; Polyglot speaks many languages.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A remedy for all diseases or difficulties' (Exercise #187)",
+      "options": [
+        "A) Panacea",
+        "B) Placebo",
+        "C) Antidote",
+        "D) Antibiotic"
+      ],
+      "ans": "A) Panacea",
+      "exp": "💡 Correct Answer: A) Panacea.\nExplanation: Panacea (रामबाण) is a solution or remedy for all difficulties or diseases.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who is unable to pay one's debts' (Exercise #188)",
+      "options": [
+        "A) Insolvent",
+        "B) Impoverished",
+        "C) Destitute",
+        "D) Pauper"
+      ],
+      "ans": "A) Insolvent",
+      "exp": "💡 Correct Answer: A) Insolvent (Bankrupt).\nExplanation: An insolvent or bankrupt person is unable to satisfy creditor debts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who does not believe in the existence of God' (Exercise #189)",
+      "options": [
+        "A) Atheist",
+        "B) Agnostic",
+        "C) Theist",
+        "D) Cynic"
+      ],
+      "ans": "A) Atheist",
+      "exp": "💡 Correct Answer: A) Atheist.\nExplanation: Atheist (नास्तिक) denies the existence of God. Theist believes in God.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who walks in sleep' (Exercise #190)",
+      "options": [
+        "A) Somnambulist",
+        "B) Somniloquist",
+        "C) Insomniac",
+        "D) Altruist"
+      ],
+      "ans": "A) Somnambulist",
+      "exp": "💡 Correct Answer: A) Somnambulist.\nExplanation: Somnambulist walks in sleep. Somniloquist talks in sleep.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who hates mankind' (Exercise #191)",
+      "options": [
+        "A) Misanthrope",
+        "B) Philanthropist",
+        "C) Misogynist",
+        "D) Cannibal"
+      ],
+      "ans": "A) Misanthrope",
+      "exp": "💡 Correct Answer: A) Misanthrope.\nExplanation: Misanthrope dislikes humankind. Philanthropist loves mankind.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Something that cannot be corrected or reformed' (Exercise #192)",
+      "options": [
+        "A) Incorrigible",
+        "B) Infallible",
+        "C) Incurable",
+        "D) Invulnerable"
+      ],
+      "ans": "A) Incorrigible",
+      "exp": "💡 Correct Answer: A) Incorrigible.\nExplanation: Incorrigible means not able to be corrected, improved, or reformed.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who makes an official examination of accounts' (Exercise #193)",
+      "options": [
+        "A) Auditor",
+        "B) Accountant",
+        "C) Actuary",
+        "D) Registrar"
+      ],
+      "ans": "A) Auditor",
+      "exp": "💡 Correct Answer: A) Auditor.\nExplanation: An auditor conducts an official financial inspection of accounts.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A post for which no salary is paid' (Exercise #194)",
+      "options": [
+        "A) Honorary",
+        "B) Sinecurist",
+        "C) Voluntary",
+        "D) Gratis"
+      ],
+      "ans": "A) Honorary",
+      "exp": "💡 Correct Answer: A) Honorary.\nExplanation: An honorary post carries no salary or monetary remuneration.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where birds are kept' (Exercise #195)",
+      "options": [
+        "A) Aviary",
+        "B) Apiary",
+        "C) Aquarium",
+        "D) Sanctuary"
+      ],
+      "ans": "A) Aviary",
+      "exp": "💡 Correct Answer: A) Aviary.\nExplanation: Aviary is for birds. Apiary is a place where bees are kept.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A place where bees are kept' (Exercise #196)",
+      "options": [
+        "A) Apiary",
+        "B) Aviary",
+        "C) Hangar",
+        "D) Hive"
+      ],
+      "ans": "A) Apiary",
+      "exp": "💡 Correct Answer: A) Apiary.\nExplanation: Apiary is a collection of beehives.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'One who cannot make mistakes' (Exercise #197)",
+      "options": [
+        "A) Infallible",
+        "B) Inevitable",
+        "C) Incorrigible",
+        "D) Omniscient"
+      ],
+      "ans": "A) Infallible",
+      "exp": "💡 Correct Answer: A) Infallible.\nExplanation: Infallible means incapable of making mistakes or being wrong.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A handwriting that cannot be read easily' (Exercise #198)",
+      "options": [
+        "A) Illegible",
+        "B) Ineligible",
+        "C) Obscure",
+        "D) Elliptical"
+      ],
+      "ans": "A) Illegible",
+      "exp": "💡 Correct Answer: A) Illegible.\nExplanation: Illegible means not clear enough to be read.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A person who leaves his own country to settle in another' (Exercise #199)",
+      "options": [
+        "A) Emigrant",
+        "B) Immigrant",
+        "C) Refugee",
+        "D) Expatriate"
+      ],
+      "ans": "A) Emigrant",
+      "exp": "💡 Correct Answer: A) Emigrant.\nExplanation: Emigrant leaves his own country (Exit = Emigrant). Immigrant enters a foreign country.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'That which lasts for a very short time' (Exercise #200)",
+      "options": [
+        "A) Ephemeral",
+        "B) Eternal",
+        "C) Perpetual",
+        "D) Unending"
+      ],
+      "ans": "A) Ephemeral",
+      "exp": "💡 Correct Answer: A) Ephemeral (Transient).\nExplanation: Ephemeral means lasting for a very short time.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'A speech delivered without any previous preparation' (Exercise #201)",
+      "options": [
+        "A) Extempore",
+        "B) Maiden speech",
+        "C) Soliloquy",
+        "D) Elocution"
+      ],
+      "ans": "A) Extempore",
+      "exp": "💡 Correct Answer: A) Extempore.\nExplanation: Extempore is spoken or done without preparation.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by a single ruler with absolute power' (Exercise #202)",
+      "options": [
+        "A) Autocracy",
+        "B) Oligarchy",
+        "C) Democracy",
+        "D) Plutocracy"
+      ],
+      "ans": "A) Autocracy",
+      "exp": "💡 Correct Answer: A) Autocracy.\nExplanation: Autocracy is absolute monarchy or dictatorship.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the option that can be used as a one-word substitute for the given group of words:\n'Government by the wealthy class' (Exercise #203)",
+      "options": [
+        "A) Plutocracy",
+        "B) Aristocracy",
+        "C) Bureaucracy",
+        "D) Theocracy"
+      ],
+      "ans": "A) Plutocracy",
+      "exp": "💡 Correct Answer: A) Plutocracy.\nExplanation: Plutocracy is governance by the rich and wealthy.",
+      "chapter": "One-Word Substitution",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'To burn the midnight oil' (Exercise #204)",
+      "options": [
+        "A) To work or study late into the night",
+        "B) To waste precious fuel",
+        "C) To cause an unexpected accident",
+        "D) To sleep peacefully"
+      ],
+      "ans": "A) To work or study late into the night",
+      "exp": "💡 Correct Answer: A) To work or study late into the night.\nUsage Context: Burning the midnight oil means working late hours to achieve a goal.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'A blessing in disguise' (Exercise #205)",
+      "options": [
+        "A) An apparent misfortune that eventually has good results",
+        "B) A hidden treasure in a dark room",
+        "C) An unexpected curse from an elder",
+        "D) A religious miracle"
+      ],
+      "ans": "A) An apparent misfortune that eventually has good results",
+      "exp": "💡 Correct Answer: A) An apparent misfortune that eventually has good results.\nUsage Context: A blessing in disguise is something that seemed bad at first but resulted in something good.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Break the ice' (Exercise #206)",
+      "options": [
+        "A) To initiate a social conversation in an awkward silence",
+        "B) To defrost refrigerated food",
+        "C) To get angry suddenly",
+        "D) To end a friendship"
+      ],
+      "ans": "A) To initiate a social conversation in an awkward silence",
+      "exp": "💡 Correct Answer: A) To initiate a social conversation in an awkward silence.\nUsage Context: Breaking the ice means relieving tension or making people comfortable in an unfamiliar setting.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Call it a day' (Exercise #207)",
+      "options": [
+        "A) To stop working on something for the rest of the day",
+        "B) To celebrate a birthday",
+        "C) To plan a new project",
+        "D) To start a difficult morning shift"
+      ],
+      "ans": "A) To stop working on something for the rest of the day",
+      "exp": "💡 Correct Answer: A) To stop working on something for the rest of the day.\nUsage Context: Call it a day means deciding to finish work for the day.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Once in a blue moon' (Exercise #208)",
+      "options": [
+        "A) Very rarely",
+        "B) Every month on a full moon",
+        "C) Frequently and predictably",
+        "D) During a solar eclipse"
+      ],
+      "ans": "A) Very rarely",
+      "exp": "💡 Correct Answer: A) Very rarely.\nUsage Context: Once in a blue moon describes an event that happens extremely rarely.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Spill the beans' (Exercise #209)",
+      "options": [
+        "A) To reveal a secret carelessly or prematurely",
+        "B) To drop food on the kitchen floor",
+        "C) To plant vegetables in a farm",
+        "D) To speak very politely"
+      ],
+      "ans": "A) To reveal a secret carelessly or prematurely",
+      "exp": "💡 Correct Answer: A) To reveal a secret carelessly or prematurely.\nUsage Context: To spill the beans means disclosing confidential information.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'At the eleventh hour' (Exercise #210)",
+      "options": [
+        "A) At the last possible moment",
+        "B) Exactly at 11:00 AM",
+        "C) Very early in the morning",
+        "D) After the deadline has passed"
+      ],
+      "ans": "A) At the last possible moment",
+      "exp": "💡 Correct Answer: A) At the last possible moment.\nUsage Context: At the eleventh hour means almost too late, at the final moment.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the most appropriate meaning of the given idiom:\n'Beat around the bush' (Exercise #211)",
+      "options": [
+        "A) To avoid talking about the main topic directly",
+        "B) To search for something in a forest",
+        "C) To clear hedges in a garden",
+        "D) To speak authoritatively"
+      ],
+      "ans": "A) To avoid talking about the main topic directly",
+      "exp": "💡 Correct Answer: A) To avoid talking about the main topic directly.\nUsage Context: Beating around the bush means delaying discussing the actual issue.",
+      "chapter": "Idioms and Phrases",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'The committee / have agreed / on the newly proposed budget / without any objection.' (Exercise #212)",
+      "options": [
+        "A) have agreed",
+        "B) The committee",
+        "C) on the newly proposed budget",
+        "D) No error"
+      ],
+      "ans": "A) have agreed",
+      "exp": "💡 Correct Answer: A) have agreed.\nRule: Collective noun 'committee' acting unanimously takes singular verb 'has agreed', not 'have agreed'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Neither the teacher / nor the students / was present / in the lecture hall yesterday.' (Exercise #213)",
+      "options": [
+        "A) was present",
+        "B) nor the students",
+        "C) Neither the teacher",
+        "D) in the lecture hall yesterday"
+      ],
+      "ans": "A) was present",
+      "exp": "💡 Correct Answer: A) was present.\nRule: When subjects are joined by 'Neither... nor', the verb agrees with the nearer subject ('students' is plural -> 'were present').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Each of the candidates / were given a fair opportunity / to present their perspective / before the jury.' (Exercise #214)",
+      "options": [
+        "A) were given a fair opportunity",
+        "B) Each of the candidates",
+        "C) to present their perspective",
+        "D) No error"
+      ],
+      "ans": "A) were given a fair opportunity",
+      "exp": "💡 Correct Answer: A) were given a fair opportunity.\nRule: 'Each of' is followed by a plural noun but takes a SINGULAR verb ('was given', not 'were given').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'Hardly had he arrived / at the railway station / then the express train departed / from the platform.' (Exercise #215)",
+      "options": [
+        "A) then the express train departed",
+        "B) Hardly had he arrived",
+        "C) at the railway station",
+        "D) No error"
+      ],
+      "ans": "A) then the express train departed",
+      "exp": "💡 Correct Answer: A) then the express train departed.\nRule: 'Hardly / Scarcely' is followed by 'when', never 'then' or 'than'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'No sooner did the alarm ring / when all the workers / rushed outside the factory / immediately.' (Exercise #216)",
+      "options": [
+        "A) when all the workers",
+        "B) No sooner did the alarm ring",
+        "C) rushed outside the factory",
+        "D) No error"
+      ],
+      "ans": "A) when all the workers",
+      "exp": "💡 Correct Answer: A) when all the workers.\nRule: 'No sooner' is always paired with 'than', not 'when'.",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Identify the segment in the sentence which contains a grammatical error:\n'She is one of the brightest girls / who has won / prestigious national awards / in science.' (Exercise #217)",
+      "options": [
+        "A) who has won",
+        "B) She is one of the brightest girls",
+        "C) prestigious national awards",
+        "D) No error"
+      ],
+      "ans": "A) who has won",
+      "exp": "💡 Correct Answer: A) who has won.\nRule: Relative pronoun 'who' refers to plural antecedent 'girls', so the verb must be plural ('have won', not 'has won').",
+      "chapter": "Spotting Errors",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #218)",
+      "options": [
+        "A) Accommodation",
+        "B) Acommodation",
+        "C) Accomodation",
+        "D) Acomodation"
+      ],
+      "ans": "A) Accommodation",
+      "exp": "💡 Correct Answer: A) Accommodation.\nRule: Accommodation has double 'c' and double 'm' (A-c-c-o-m-m-o-d-a-t-i-o-n).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #219)",
+      "options": [
+        "A) Bureaucracy",
+        "B) Burocracy",
+        "C) Bureacracy",
+        "D) Bureaucrasy"
+      ],
+      "ans": "A) Bureaucracy",
+      "exp": "💡 Correct Answer: A) Bureaucracy.\nRule: Bureaucracy is spelled B-u-r-e-a-u-c-r-a-c-y.",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    },
+    {
+      "q": "Select the correctly spelled word: (Exercise #220)",
+      "options": [
+        "A) Embarrassment",
+        "B) Embarasment",
+        "C) Embarassment",
+        "D) Embaressment"
+      ],
+      "ans": "A) Embarrassment",
+      "exp": "💡 Correct Answer: A) Embarrassment.\nRule: Embarrassment has double 'r' and double 's' (E-m-b-a-r-r-a-s-s-m-e-n-t).",
+      "chapter": "Spelling Test",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) Class 12 English Board PYQ"
+    }
+  ],
+  "subjectives": [
+    {
+      "q": "You are Anand/Anandi of 15, Mall Road, Shimla. You saw an advertisement in 'The Tribune' for the post of Senior Computer Science Teacher in Modern Public School, Chandigarh. Write a formal Job Application along with a detailed Bio-data in 120-150 words.",
+      "marks": 5,
+      "solution": "15, Mall Road, Shimla\nDate: 20th October 2026\n\nTo,\nThe Principal / Manager,\nModern Public School, Sector 21,\nChandigarh\n\nSubject: Application for the post of Senior Computer Science Teacher.\n\nRespected Sir/Madam,\nIn response to your esteemed advertisement published in 'The Tribune' dated 18th October 2026 for the post of Senior Computer Science Teacher (PGT), I wish to offer my candidature for the same.\n\nI possess a Master's degree in Computer Applications (MCA) with First Division, followed by a B.Ed. degree. I have over four years of successful teaching experience preparing senior secondary students for Board examinations and competitive coding olympiads. My teaching philosophy focuses on experiential project-based coding and nurturing analytical thinking.\n\nI possess excellent interpersonal communication skills and am proficient in Python, SQL, and Web Technologies. If given an opportunity, I assure you of dedicated service and relentless commitment towards academic excellence. My detailed Bio-data is enclosed herewith for your kind consideration.\n\nYours faithfully,\n[Candidate Signature]\nANAND / ANANDI\n\nENCLOSURE: BIO-DATA\n1. Name: Anand Kumar / Anandi Sharma\n2. Father's Name: Sh. R.K. Sharma\n3. Date of Birth: 14th August 1996\n4. Educational Qualifications:\n   - MCA (Panjab University, 2019) - 82%\n   - B.Sc. Computer Science (HPU, 2017) - 85%\n   - B.Ed. (Panjab University, 2021) - 80%\n5. Work Experience: PGT Computer Science at DAV Senior Secondary School, Shimla (2022-Present).\n6. References:\n   (i) Dr. S.K. Verma, Professor, Dept. of Computer Science, Panjab University.\n   (ii) Mrs. Meenakshi Joshi, Principal, DAV Senior Secondary School, Shimla.",
+      "chapter": "Job Application Writing with Bio-data",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 5-Marks Advanced Writing"
+    },
+    {
+      "q": "You are Secretary of the Cultural Club of your school. Draft a formal Invitation Card to invite parents and guests to the Annual Cultural Evening 'Umang 2026'.",
+      "marks": 4,
+      "solution": "THE PRINCIPAL, STAFF AND STUDENTS OF\nDELHI PUBLIC SCHOOL, R.K. PURAM\n\ncordially invite you to the auspicious occasion of the\nANNUAL CULTURAL EVENING 'UMANG 2026'\n\non Saturday, 14th November 2026\nat 5:30 PM in the School Auditorium.\n\nHon'ble Minister of Education, Government of India\nhas kindly consented to grace the occasion as the CHIEF GUEST.\n\nProgramme Highlights:\n- Inaugural Classical Orchestral Symphony\n- Musical Drama: 'Pride of Freedom'\n- Annual Academic & Sports Felicitation\n\nRSVP: Cultural Club Secretary | Phone: 011-26123456\n(Please be seated by 5:15 PM. Entry strictly by invitation card).",
+      "chapter": "Formal Invitation Writing",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 4-Marks Invitation Writing"
+    },
+    {
+      "q": "Draft a formal reply expressing your inability to accept an invitation to attend an alumni reunion dinner due to a prior official engagement.",
+      "marks": 4,
+      "solution": "FORMAL REPLY (LETTER FORMAT - REGRET)\n\n24, Civil Lines, Jaipur\nDate: 12th October 2026\n\nDear Mr. Kapoor / Organizing Committee,\nI express my profound gratitude to the Alumni Association of St. Xavier's College for the cordial invitation to attend the 25th Silver Jubilee Alumni Reunion Dinner scheduled for 25th October 2026 at Hotel Grand Palace.\n\nHowever, I deeply regret my inability to attend the gala evening due to a prior, unavoidable international business delegation meeting in Mumbai on the same dates.\n\nI convey my heartiest congratulations to all batchmates and best wishes for the grand success of the reunion.\n\nWith warm regards,\nYours sincerely,\n[Candidate Name]\nBatch of 2001",
+      "chapter": "Formal Reply (Acceptance/Regret)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 4-Marks Invitation Reply"
+    },
+    {
+      "q": "Write a formal Report in 120-150 words on a massive fire outbreak in a commercial complex in your city for publication in a national daily.",
+      "marks": 5,
+      "solution": "DEVASTATING FIRE ENGULFS COMMERCIAL COMPLEX IN NEHRU PLACE\n- By Staff Reporter, The Indian Express\n\nNew Delhi, 5th October: A major blaze ripped through a four-storey commercial complex, Surya Tower, in the bustling Nehru Place electronic market early this morning, destroying electronic merchandise worth several crores.\n\nThe fire reportedly erupted around 6:30 AM on the second floor, suspected to have originated from a severe electrical short-circuit in an air-conditioning unit. Fed by combustible packaging materials, synthetic cables, and cardboard boxes, thick black plumes of smoke quickly billowed across the skyline.\n\nTen fire tenders rushed to the spot within fifteen minutes of the emergency distress call. Over fifty firefighters battled blazing infernos and suffocating fumes for over three hours before bringing the fire under control. Fortunately, because the market had not yet opened for business, no casualties were reported. Two security guards were rescued safely using hydraulic snorkel cranes.\n\nThe Delhi Fire Service has initiated a probe to ascertain whether the mandatory fire extinguishing equipment and automatic sprinklers inside the premises were operational.",
+      "chapter": "Report Writing (Newspaper Format)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 5-Marks Newspaper Report"
+    },
+    {
+      "q": "Write an Article in 120-150 words on 'Mental Health & Stress Management Among Teenagers in the Digital Age'.",
+      "marks": 5,
+      "solution": "Mental Health & Stress Management Among Teenagers in the Digital Age\n- By [Candidate Name]\n\nAdolescence has always been a period of profound physical, cognitive, and psychological transformation. However, in today's hyper-connected digital era, teenagers grapple with unprecedented mental stress, anxiety, and performance burnout.\n\nThe constant pressure of academic competition, entrance exam cut-offs, and career anxieties are magnified tenfold by social media algorithms. Platforms that promote idealized lifestyles foster crippling 'Fear of Missing Out' (FOMO), negative body image perceptions, and toxic peer comparisons. Furthermore, chronic sleep deprivation caused by late-night screen scrolling severely damages emotional resilience.\n\nCombating this teenage mental health crisis demands institutional empathy. Schools must integrate dedicated counseling cells, mindfulness meditation, and mental health literacy into daily timetables without societal stigma. Parents must replace transactional grade expectations with open, non-judgmental communication. Encouraging regular outdoor physical exercise, creative hobbies, and structured digital detox routines can restore emotional balance in young lives.",
+      "chapter": "Article Writing",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 5-Marks Article Writing"
+    },
+    {
+      "q": "How does the story 'The Last Lesson' by Alphonse Daudet highlight the psychological pain of losing one's native language under foreign subjugation?",
+      "marks": 5,
+      "solution": "1. Emotional Turning Point:\nIn 'The Last Lesson', the Prussian invasion of Alsace and Lorraine leads to an authoritarian decree from Berlin enforcing German in schools, abolishing the teaching of French. The protagonist, young Franz, who previously considered French grammar rules tedious and M. Hamel's ruler terrifying, experiences an overwhelming awakening of linguistic pride and remorse.\n\n2. The Dignity of the Mother Tongue:\nM. Hamel, dressed in his finest ceremonial attire, delivers his final lecture with extraordinary pathos. He reminds the village elders sitting quietly on the back benches that French is the most beautiful, clearest, and most logical language in the world. He passionately proclaims: 'When a people are enslaved, as long as they hold fast to their language it is as if they had the key to their prison'.\n\n3. The Symbolism:\nThe final moments where M. Hamel, choking with emotion, turns to the blackboard and writes in giant letters 'VIVE LA FRANCE!' (Long Live France!) immortalizes the truth that an invader can conquer territory, but the soul and cultural identity of a people reside perpetually in their mother tongue.",
+      "chapter": "Flamingo Prose: The Last Lesson (Alphonse Daudet)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 5-Marks Literature Question"
+    },
+    {
+      "q": "In 'The Rattrap' by Selma Lagerlöf, how does Edla Willmansson's unconditional compassion and empathy reform the hardened vagabond?",
+      "marks": 5,
+      "solution": "1. The Vagabond's Cynical Worldview:\nThe peddler lived an impoverished, solitary existence selling small wire rattraps. He viewed the entire world as a gigantic rattrap whose baits of riches, food, and shelter existed solely to entrap and ruin vulnerable men. Even when given shelter by an old crofter, he betrayed his trust and stole 30 kronor.\n\n2. The Contrast in Treatment:\nWhen mistaken for an old captain by the Ironmaster, the peddler was invited home; but once his identity was discovered in broad daylight, the Ironmaster threatened to call the sheriff. In contrast, his compassionate daughter, Edla Willmansson, intervened. She understood his wretched, hunted existence—walking the whole year round without a single welcoming home.\n\n3. The Power of Radical Empathy:\nEdla treated him with royal dignity, calling him 'Captain', serving him Christmas food, and assuring him that he was safe from any betrayal. This genuine, unconditional human love struck at the peddler's hardened conscience. Before departing, he left the stolen 30 kronor with a note requesting it be returned to the crofter, accompanied by a small rattrap as a Christmas gift. Edla's profound trust elevated him to act like a true captain.",
+      "chapter": "Flamingo Prose: The Rattrap (Selma Lagerlöf)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 5-Marks Character & Thematic Study"
+    },
+    {
+      "q": "Analyze the themes of human aging, fear of mortality, and filial helplessness in Kamala Das's poem 'My Mother at Sixty-Six'.",
+      "marks": 4,
+      "solution": "1. Confronting Mortality:\nWhile driving to the Cochin airport, the poet glances at her elderly mother sleeping beside her with an open mouth. Her face appeared pale, ashen, and lifeless like a corpse. This visual jolts the poet into a sharp realization of her mother's advancing age and approaching mortality.\n\n2. Juxtaposition of Life and Death:\nTo distract her aching mind from this grim truth, she looks outside the car window at 'young trees sprinting' and 'merry children spilling out of their homes'. This vivid imagery symbolizes exuberance, vitality, energy, and relentless youth, creating a poignant contrast with the decaying physical state of her mother.\n\n3. Concealing Pain:\nAt the airport security check, seeing her mother again looking wan and pale like a 'late winter's moon', the poet feels the familiar childhood ache of losing her mother. Yet, unable to alter the inevitable cycle of life, she hides her agonizing sorrow behind a parting smile: 'All I said was, see you soon, Amma, all I did was smile and smile and smile...'",
+      "chapter": "Flamingo Poetry: My Mother at Sixty-Six (Kamala Das)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 4-Marks Poetry Analysis"
+    },
+    {
+      "q": "How did Mahatma Gandhi transform the Champaran peasant struggle (1917) into a historic turning point for Indian independence in Louis Fischer's 'Indigo'?",
+      "marks": 4,
+      "solution": "1. The Injustice of the Tinkathia System:\nEuropean British planters compelled Indian sharecroppers in Champaran, Bihar, to cultivate indigo on 3/20th (15%) of their total landholdings and surrender the entire harvest as rent. When German synthetic indigo rendered natural indigo unprofitable, planters extracted extortionate compensations to release peasants from agreements.\n\n2. Gandhi's Satyagraha Methodology:\n- Disobedience of unjust orders: When ordered by the British Commissioner to leave Champaran, Gandhi refused, submitting to trial without fear.\n- Mobilization of legal power: He motivated prominent lawyers (like Dr. Rajendra Prasad) to stop taking high fees and dedicate themselves to the peasant cause.\n- Empirical evidence collection: Thousands of written depositions and proof of landlord extortion were compiled.\n\n3. The Outcome and Significance:\nThe British inquiry commission agreed that landlords must refund money; Gandhi accepted a 25% refund, establishing that British prestige and authority were broken. Most importantly, it liberated Indian peasants from fear of British landlords, becoming the laboratory where civil disobedience triumphed for the first time in India.",
+      "chapter": "Flamingo Prose: Indigo (Louis Fischer)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 4-Marks History & Literature"
+    },
+    {
+      "q": "In 'The Enemy' by Pearl S. Buck, explain how Dr. Sadao Hoki resolved the conflict between his duty as a patriotic citizen of wartime Japan and his humanitarian ethics as a physician.",
+      "marks": 5,
+      "solution": "1. The Moral Dilemma:\nDuring World War II, Dr. Sadao and his wife Hana discovered an unconscious, critically wounded American prisoner of war (POW), Tom, washed ashore outside their house. Harbouring an American enemy was an act of high treason punishable by death, but abandoning him meant certain death for the wounded soldier.\n\n2. The Triumph of Professional Oath:\nDr. Sadao was trained at a top American medical school where his professor drilled that allowing a patient to die when one could save him was a physician's cardinal sin. Overcoming internal racial prejudices and open hostility from household servants who deserted the house, Dr. Sadao performed a complicated surgery to extract the bullet from near the soldier's kidney and nursed him back to health.\n\n3. Reconciliation with State Duty:\nTo remain loyal to Japan, Dr. Sadao reported the presence of the POW to the Japanese General, who promised to send private assassins. However, when the General forgot his promise, Dr. Sadao did not murder the soldier; instead, he secretly arranged a boat with food, bottled water, and a flashlight, assisting Tom to escape safely to an uninhabited island. Dr. Sadao proved that the universal duty to preserve human life transcends wartime geopolitical hatred.",
+      "chapter": "Vistas: The Enemy (Pearl S. Buck)",
+      "pyqTag": "Punjab School Education Board (PSEB Mohali 10th & 12th) 5-Marks Moral Conflict Study"
+    }
+  ]
+}

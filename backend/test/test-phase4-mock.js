@@ -177,13 +177,13 @@ async function runPhase4Tests() {
 
   // CASE 12: Insufficient question inventory handling
   runTest('CASE 12: Insufficient question inventory handling without repetition', () => {
-    // Request a practice session for UPMSP Class 12 Physics (which has 64 questions in DB) with 100 questions
+    // Request a practice session for UPMSP Class 12 Physics (which has ~220 questions in DB) with 500 questions
     const session = mockService.startMockSession({
       boardId: 'upmsp-board',
       stage: 'Class 12',
       testMode: 'PRACTICE',
       subjectId: 'subj-physics',
-      requestedCount: 100
+      requestedCount: 500
     });
     const qIds = session.questions.map(q => q.id);
     const uniqueIds = new Set(qIds);
