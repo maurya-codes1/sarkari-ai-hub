@@ -1,0 +1,4545 @@
+{
+  "summary": {
+    "totalExams": 63,
+    "boardsCount": 31,
+    "compCount": 32,
+    "totalBoardMCQs": 22688,
+    "totalBoardSubj": 13068,
+    "totalBoardQuestions": 35756,
+    "totalCompMCQs": 14672,
+    "totalCompSubj": 6,
+    "totalCompQuestions": 14678,
+    "grandTotalQuestions": 50434
+  },
+  "boardReport": [
+    {
+      "board_id": "bseap-board",
+      "name": "Board of Secondary Education Andhra Pradesh",
+      "c10MCQ": 421,
+      "c10Sub": 253,
+      "c10Total": 674,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 73,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 39,
+          "sub_count": 41
+        },
+        {
+          "subject_id": "subj-telugu",
+          "mcq_count": 0,
+          "sub_count": 2
+        }
+      ],
+      "c12MCQ": 0,
+      "c12Sub": 0,
+      "c12Total": 0,
+      "c12Subjects": [],
+      "grandTotal": 674
+    },
+    {
+      "board_id": "bseb-bihar",
+      "name": "Bihar Board BSEB (Matric 10th & Inter 12th)",
+      "c10MCQ": 447,
+      "c10Sub": 256,
+      "c10Total": 703,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 31,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 36,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 354,
+      "c12Sub": 189,
+      "c12Total": 543,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 8,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1246
+    },
+    {
+      "board_id": "bseh-haryana",
+      "name": "Haryana Board (BSEH Bhiwani 10th & 12th)",
+      "c10MCQ": 446,
+      "c10Sub": 256,
+      "c10Total": 702,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 36,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 352,
+      "c12Sub": 189,
+      "c12Total": 541,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1243
+    },
+    {
+      "board_id": "bsem-board",
+      "name": "Board of Secondary Education Manipur",
+      "c10MCQ": 415,
+      "c10Sub": 253,
+      "c10Total": 668,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 15
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 35,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 324,
+      "c12Sub": 187,
+      "c12Total": 511,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1179
+    },
+    {
+      "board_id": "bsetg-board",
+      "name": "Directorate of Government Examinations Telangana",
+      "c10MCQ": 417,
+      "c10Sub": 253,
+      "c10Total": 670,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 37,
+          "sub_count": 41
+        },
+        {
+          "subject_id": "subj-telugu",
+          "mcq_count": 0,
+          "sub_count": 2
+        }
+      ],
+      "c12MCQ": 0,
+      "c12Sub": 0,
+      "c12Total": 0,
+      "c12Subjects": [],
+      "grandTotal": 670
+    },
+    {
+      "board_id": "cbse-board",
+      "name": "CBSE Board (Class 10th & 12th)",
+      "c10MCQ": 449,
+      "c10Sub": 256,
+      "c10Total": 705,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 73,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 37,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 357,
+      "c12Sub": 189,
+      "c12Total": 546,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 6,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 225,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 18,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 32,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1251
+    },
+    {
+      "board_id": "cgbse-chhattisgarh",
+      "name": "Chhattisgarh Board (CGBSE Raipur 10th & 12th)",
+      "c10MCQ": 446,
+      "c10Sub": 256,
+      "c10Total": 702,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 31,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 35,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 353,
+      "c12Sub": 189,
+      "c12Total": 542,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1244
+    },
+    {
+      "board_id": "chse-bse-odisha",
+      "name": "Odisha Board (BSE Matric 10th & CHSE +2 Council)",
+      "c10MCQ": 415,
+      "c10Sub": 253,
+      "c10Total": 668,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-odia",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 35,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 326,
+      "c12Sub": 187,
+      "c12Total": 513,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-odia",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1181
+    },
+    {
+      "board_id": "gbshse-board",
+      "name": "Goa Board of Secondary and Higher Secondary Education",
+      "c10MCQ": 415,
+      "c10Sub": 253,
+      "c10Total": 668,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-marathi",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 35,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-marathi",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1180
+    },
+    {
+      "board_id": "gseb-gujarat",
+      "name": "Gujarat Board (GSEB SSC 10th & HSC 12th)",
+      "c10MCQ": 417,
+      "c10Sub": 253,
+      "c10Total": 670,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-gujarati",
+          "mcq_count": 1,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 36,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-gujarati",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1182
+    },
+    {
+      "board_id": "hpbose-board",
+      "name": "Himachal Pradesh Board of School Education",
+      "c10MCQ": 445,
+      "c10Sub": 256,
+      "c10Total": 701,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 35,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 352,
+      "c12Sub": 189,
+      "c12Total": 541,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1242
+    },
+    {
+      "board_id": "icse-cisce",
+      "name": "ICSE & ISC Board (Class 10th & 12th)",
+      "c10MCQ": 422,
+      "c10Sub": 253,
+      "c10Total": 675,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 225,
+          "sub_count": 15
+        },
+        {
+          "subject_id": "subj-geography",
+          "mcq_count": 1,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-history",
+          "mcq_count": 3,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-polity",
+          "mcq_count": 1,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 73,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 34,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 31,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1187
+    },
+    {
+      "board_id": "jac-jharkhand",
+      "name": "Jharkhand Board (JAC Ranchi Matric 10th & Inter 12th)",
+      "c10MCQ": 446,
+      "c10Sub": 256,
+      "c10Total": 702,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 36,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 354,
+      "c12Sub": 189,
+      "c12Total": 543,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1245
+    },
+    {
+      "board_id": "jkbose-board",
+      "name": "Jammu & Kashmir Board of School Education",
+      "c10MCQ": 418,
+      "c10Sub": 253,
+      "c10Total": 671,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 38,
+          "sub_count": 41
+        },
+        {
+          "subject_id": "subj-urdu",
+          "mcq_count": 0,
+          "sub_count": 2
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-urdu",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1183
+    },
+    {
+      "board_id": "kerala-board",
+      "name": "Kerala Directorate of General Education & Pareeksha Bhavan",
+      "c10MCQ": 419,
+      "c10Sub": 253,
+      "c10Total": 672,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-malayalam",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 72,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 38,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-malayalam",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1184
+    },
+    {
+      "board_id": "kseab-karnataka",
+      "name": "Karnataka Board (KSEAB SSLC 10th & 2nd PUC)",
+      "c10MCQ": 422,
+      "c10Sub": 253,
+      "c10Total": 675,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-kannada",
+          "mcq_count": 1,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 41,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 326,
+      "c12Sub": 187,
+      "c12Total": 513,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-kannada",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1188
+    },
+    {
+      "board_id": "maharashtra-board",
+      "name": "Maharashtra State Board (SSC 10th & HSC 12th)",
+      "c10MCQ": 427,
+      "c10Sub": 253,
+      "c10Total": 680,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-marathi",
+          "mcq_count": 1,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 46,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 326,
+      "c12Sub": 187,
+      "c12Total": 513,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-marathi",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1193
+    },
+    {
+      "board_id": "mbose-board",
+      "name": "Meghalaya Board of School Education",
+      "c10MCQ": 422,
+      "c10Sub": 253,
+      "c10Total": 675,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 15
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 42,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 324,
+      "c12Sub": 187,
+      "c12Total": 511,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1186
+    },
+    {
+      "board_id": "mbse-board",
+      "name": "Mizoram Board of School Education",
+      "c10MCQ": 425,
+      "c10Sub": 253,
+      "c10Total": 678,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 15
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 45,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 324,
+      "c12Sub": 187,
+      "c12Total": 511,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1189
+    },
+    {
+      "board_id": "mpbse-board",
+      "name": "MP Board (MPBSE 10th & 12th Bhopal)",
+      "c10MCQ": 449,
+      "c10Sub": 256,
+      "c10Total": 705,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 39,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 354,
+      "c12Sub": 189,
+      "c12Total": 543,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 7,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1248
+    },
+    {
+      "board_id": "nbse-board",
+      "name": "Nagaland Board of School Education",
+      "c10MCQ": 426,
+      "c10Sub": 253,
+      "c10Total": 679,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 15
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 46,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 324,
+      "c12Sub": 187,
+      "c12Total": 511,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1190
+    },
+    {
+      "board_id": "nios-board",
+      "name": "NIOS Board (National Institute of Open Schooling)",
+      "c10MCQ": 453,
+      "c10Sub": 256,
+      "c10Total": 709,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-economics",
+          "mcq_count": 1,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-polity",
+          "mcq_count": 1,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 74,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 38,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 352,
+      "c12Sub": 189,
+      "c12Total": 541,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1250
+    },
+    {
+      "board_id": "pseb-punjab",
+      "name": "Punjab Board (PSEB Mohali 10th & 12th)",
+      "c10MCQ": 426,
+      "c10Sub": 253,
+      "c10Total": 679,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-punjabi",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 46,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-punjabi",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1191
+    },
+    {
+      "board_id": "rbse-rajasthan",
+      "name": "Rajasthan Board (RBSE 10th & 12th Ajmer)",
+      "c10MCQ": 448,
+      "c10Sub": 256,
+      "c10Total": 704,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 38,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 359,
+      "c12Sub": 189,
+      "c12Total": 548,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 9,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 9,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1252
+    },
+    {
+      "board_id": "seba-ahsec-assam",
+      "name": "Assam Board (SEBA HSLC 10th & AHSEC HS 12th)",
+      "c10MCQ": 429,
+      "c10Sub": 253,
+      "c10Total": 682,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-assamese",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 72,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 48,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-assamese",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1194
+    },
+    {
+      "board_id": "tbse-board",
+      "name": "Tripura Board of Secondary Education",
+      "c10MCQ": 431,
+      "c10Sub": 253,
+      "c10Total": 684,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-bengali",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 51,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 324,
+      "c12Sub": 187,
+      "c12Total": 511,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-bengali",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1195
+    },
+    {
+      "board_id": "tndge-tamilnadu",
+      "name": "Tamil Nadu State Board (SSLC 10th & HSE +1, +2)",
+      "c10MCQ": 420,
+      "c10Sub": 253,
+      "c10Total": 673,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 39,
+          "sub_count": 41
+        },
+        {
+          "subject_id": "subj-tamil",
+          "mcq_count": 1,
+          "sub_count": 2
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-tamil",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1185
+    },
+    {
+      "board_id": "tsbie-bieap",
+      "name": "Telangana & AP Board (TSBIE & BIEAP Inter 1st/2nd Yr)",
+      "c10MCQ": 0,
+      "c10Sub": 0,
+      "c10Total": 0,
+      "c10Subjects": [],
+      "c12MCQ": 329,
+      "c12Sub": 187,
+      "c12Total": 516,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 8,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-telugu",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 18,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 31,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 516
+    },
+    {
+      "board_id": "ubse-uttarakhand",
+      "name": "Uttarakhand Board (UBSE Ramnagar 10th & 12th)",
+      "c10MCQ": 449,
+      "c10Sub": 256,
+      "c10Total": 705,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 30,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 39,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 353,
+      "c12Sub": 189,
+      "c12Total": 542,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 6,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 6,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 28,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1247
+    },
+    {
+      "board_id": "upmsp-board",
+      "name": "UP Board (High School & Intermediate 10th/12th)",
+      "c10MCQ": 448,
+      "c10Sub": 256,
+      "c10Total": 704,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 32,
+          "sub_count": 11
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 36,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 356,
+      "c12Sub": 189,
+      "c12Total": 545,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 7,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 29,
+          "sub_count": 5
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1249
+    },
+    {
+      "board_id": "wbbse-wb",
+      "name": "West Bengal Board (Madhyamik 10th & WBCHSE 12th)",
+      "c10MCQ": 427,
+      "c10Sub": 253,
+      "c10Total": 680,
+      "c10Subjects": [
+        {
+          "subject_id": "subj-bengali",
+          "mcq_count": 1,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 13
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 6
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 85,
+          "sub_count": 83
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 71,
+          "sub_count": 108
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 46,
+          "sub_count": 41
+        }
+      ],
+      "c12MCQ": 325,
+      "c12Sub": 187,
+      "c12Total": 512,
+      "c12Subjects": [
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-geography",
+          "mcq_count": 5,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-history",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Arts",
+          "subject_id": "subj-polity",
+          "mcq_count": 5,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-accountancy",
+          "mcq_count": 7,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-business",
+          "mcq_count": 7,
+          "sub_count": 9
+        },
+        {
+          "stage": "Class 12 Commerce",
+          "subject_id": "subj-economics",
+          "mcq_count": 5,
+          "sub_count": 10
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-bengali",
+          "mcq_count": 0,
+          "sub_count": 2
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-english",
+          "mcq_count": 224,
+          "sub_count": 8
+        },
+        {
+          "stage": "Class 12 Languages",
+          "subject_id": "subj-hindi",
+          "mcq_count": 0,
+          "sub_count": 1
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-biology",
+          "mcq_count": 8,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-chemistry",
+          "mcq_count": 17,
+          "sub_count": 34
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math",
+          "mcq_count": 0,
+          "sub_count": 13
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-math12",
+          "mcq_count": 10,
+          "sub_count": 12
+        },
+        {
+          "stage": "Class 12 Science",
+          "subject_id": "subj-physics",
+          "mcq_count": 30,
+          "sub_count": 41
+        }
+      ],
+      "grandTotal": 1192
+    }
+  ],
+  "compReport": [
+    {
+      "exam_id": "agniveer-airforce",
+      "name": "Indian Air Force Agniveer Vayu (Science & Other than Science)",
+      "category": "central",
+      "mcqTotal": 442,
+      "subTotal": 0,
+      "total": 442,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 201,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math12",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-physics",
+          "mcq_count": 36,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "agniveer-army",
+      "name": "Indian Army Agniveer Rally (GD, Tech, Clerk, Tradesman)",
+      "category": "central",
+      "mcqTotal": 235,
+      "subTotal": 0,
+      "total": 235,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "agniveer-navy",
+      "name": "Indian Navy Agniveer (SSR & MR 01/2026 & 02/2026)",
+      "category": "central",
+      "mcqTotal": 419,
+      "subTotal": 0,
+      "total": 419,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 196,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ibps-po-clerk",
+      "name": "IBPS & SBI Banking (Probationary Officer & Clerk)",
+      "category": "central",
+      "mcqTotal": 954,
+      "subTotal": 0,
+      "total": 954,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 410,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 14,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 430,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 100,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "rrb-alp",
+      "name": "Railway RRB Assistant Loco Pilot (ALP 2026)",
+      "category": "central",
+      "mcqTotal": 520,
+      "subTotal": 0,
+      "total": 520,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 20,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-railway-sci",
+          "mcq_count": 438,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "rrb-group-d",
+      "name": "Railway RRB Group D (RRC Level-1 Trackman, Pointsman)",
+      "category": "central",
+      "mcqTotal": 290,
+      "subTotal": 0,
+      "total": 290,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "rrb-ntpc",
+      "name": "Railway RRB NTPC (Station Master, Goods Guard, Clerk)",
+      "category": "central",
+      "mcqTotal": 307,
+      "subTotal": 0,
+      "total": 307,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 42,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 215,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "rrb-technician",
+      "name": "Railway RRB Technician Grade I & Grade III",
+      "category": "central",
+      "mcqTotal": 278,
+      "subTotal": 0,
+      "total": 278,
+      "subjects": [
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-railway-sci",
+          "mcq_count": 18,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ssc-cgl",
+      "name": "SSC CGL (Combined Graduate Level - Inspector, ASO, Tax Asst)",
+      "category": "central",
+      "mcqTotal": 1287,
+      "subTotal": 0,
+      "total": 1287,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 264,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 150,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 430,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 443,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ssc-chsl",
+      "name": "SSC CHSL (10+2 Combined Higher Secondary - LDC, JSA, DEO)",
+      "category": "central",
+      "mcqTotal": 473,
+      "subTotal": 0,
+      "total": 473,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 201,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ssc-gd",
+      "name": "SSC GD Constable (CAPF, BSF, CISF, CRPF, ITBP, SSB, SSF)",
+      "category": "central",
+      "mcqTotal": 293,
+      "subTotal": 0,
+      "total": 293,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 15,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 23,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ssc-mts",
+      "name": "SSC MTS & Havaldar (Multi-Tasking Non-Technical Staff)",
+      "category": "central",
+      "mcqTotal": 463,
+      "subTotal": 0,
+      "total": 463,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 196,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "upsc-cse",
+      "name": "UPSC Civil Services Examination (IAS, IPS, IFS, IRS)",
+      "category": "central",
+      "mcqTotal": 384,
+      "subTotal": 6,
+      "total": 390,
+      "subjects": [
+        {
+          "subject_id": "subj-economics",
+          "mcq_count": 15,
+          "sub_count": 2
+        },
+        {
+          "subject_id": "subj-geography",
+          "mcq_count": 14,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 38,
+          "sub_count": 1
+        },
+        {
+          "subject_id": "subj-history",
+          "mcq_count": 14,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-polity",
+          "mcq_count": 15,
+          "sub_count": 3
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 28,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "upsc-nda",
+      "name": "UPSC NDA & NA (National Defence Academy & Naval Academy)",
+      "category": "central",
+      "mcqTotal": 433,
+      "subTotal": 0,
+      "total": 433,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 206,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math12",
+          "mcq_count": 215,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "clat-law",
+      "name": "CLAT (Common Law Admission Test for NLUs - BA LLB & LLM)",
+      "category": "entrance",
+      "mcqTotal": 633,
+      "subTotal": 0,
+      "total": 633,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 201,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-legal",
+          "mcq_count": 420,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "nta-cuet-ug",
+      "name": "NTA CUET UG (Common University Entrance Test for Undergrad)",
+      "category": "entrance",
+      "mcqTotal": 213,
+      "subTotal": 0,
+      "total": 213,
+      "subjects": [
+        {
+          "subject_id": "subj-english",
+          "mcq_count": 201,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "nta-jee-adv",
+      "name": "JEE Advanced (Indian Institutes of Technology - IITs Entrance)",
+      "category": "entrance",
+      "mcqTotal": 223,
+      "subTotal": 0,
+      "total": 223,
+      "subjects": [
+        {
+          "subject_id": "subj-chemistry",
+          "mcq_count": 18,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math12",
+          "mcq_count": 205,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "nta-jee-main",
+      "name": "JEE Main (Joint Entrance Examination for NITs, IIITs, CFTIs)",
+      "category": "entrance",
+      "mcqTotal": 233,
+      "subTotal": 0,
+      "total": 233,
+      "subjects": [
+        {
+          "subject_id": "subj-chemistry",
+          "mcq_count": 18,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math12",
+          "mcq_count": 215,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "nta-neet",
+      "name": "NEET UG (National Eligibility cum Entrance Test - Medical)",
+      "category": "entrance",
+      "mcqTotal": 43,
+      "subTotal": 0,
+      "total": 43,
+      "subjects": [
+        {
+          "subject_id": "subj-biology",
+          "mcq_count": 32,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-chemistry",
+          "mcq_count": 6,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-physics",
+          "mcq_count": 5,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "bihar-police-constable",
+      "name": "Bihar Police Constable (CSBC 21,391 Posts) & Daroga",
+      "category": "police",
+      "mcqTotal": 637,
+      "subTotal": 0,
+      "total": 637,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 371,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 43,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "delhi-police",
+      "name": "Delhi Police Executive Constable & Head Constable",
+      "category": "police",
+      "mcqTotal": 649,
+      "subTotal": 0,
+      "total": 649,
+      "subjects": [
+        {
+          "subject_id": "subj-computer",
+          "mcq_count": 18,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 376,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "haryana-police",
+      "name": "Haryana Police Constable (HSSC 6,000 Posts)",
+      "category": "police",
+      "mcqTotal": 88,
+      "subTotal": 0,
+      "total": 88,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 20,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "maharashtra-police",
+      "name": "Maharashtra Police Constable Bharti (Police Shipai 17,471)",
+      "category": "police",
+      "mcqTotal": 240,
+      "subTotal": 0,
+      "total": 240,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-marathi",
+          "mcq_count": 23,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "mp-police",
+      "name": "MP Police Constable (ESB 7,411 Posts) & Sub Inspector",
+      "category": "police",
+      "mcqTotal": 85,
+      "subTotal": 0,
+      "total": 85,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 17,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "rajasthan-police",
+      "name": "Rajasthan Police Constable Bharti (3,578 Posts)",
+      "category": "police",
+      "mcqTotal": 475,
+      "subTotal": 0,
+      "total": 475,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 292,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-law",
+          "mcq_count": 133,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "up-police-constable",
+      "name": "UP Police Constable & Sub Inspector (SI) 60,244 Bharti",
+      "category": "police",
+      "mcqTotal": 1928,
+      "subTotal": 0,
+      "total": 1928,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 546,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 504,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 442,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 436,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "wb-police",
+      "name": "West Bengal Police (WBP Constable 11,749 & Kolkata Police)",
+      "category": "police",
+      "mcqTotal": 267,
+      "subTotal": 0,
+      "total": 267,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 205,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "bpsc-tre",
+      "name": "Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination)",
+      "category": "teaching",
+      "mcqTotal": 263,
+      "subTotal": 0,
+      "total": 263,
+      "subjects": [
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 23,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-science",
+          "mcq_count": 18,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ctet-exam",
+      "name": "CTET (Central Teacher Eligibility Test - CBSE Paper 1 & 2)",
+      "category": "teaching",
+      "mcqTotal": 721,
+      "subTotal": 0,
+      "total": 721,
+      "subjects": [
+        {
+          "subject_id": "subj-cdp",
+          "mcq_count": 440,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-evs",
+          "mcq_count": 18,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 23,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-social",
+          "mcq_count": 30,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "reet-rajasthan",
+      "name": "REET (Rajasthan Eligibility Examination for Teachers Level 1 & 2)",
+      "category": "teaching",
+      "mcqTotal": 453,
+      "subTotal": 0,
+      "total": 453,
+      "subjects": [
+        {
+          "subject_id": "subj-cdp",
+          "mcq_count": 215,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 23,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 215,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "ugc-net",
+      "name": "UGC NET / CSIR NET (Assistant Professor & JRF Fellowship)",
+      "category": "teaching",
+      "mcqTotal": 272,
+      "subTotal": 0,
+      "total": 272,
+      "subjects": [
+        {
+          "subject_id": "subj-cdp",
+          "mcq_count": 210,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-gk",
+          "mcq_count": 12,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-reasoning",
+          "mcq_count": 50,
+          "sub_count": 0
+        }
+      ]
+    },
+    {
+      "exam_id": "uptet-supertet",
+      "name": "UP TET & Super TET (UP Primary & Upper Primary Bharti)",
+      "category": "teaching",
+      "mcqTotal": 471,
+      "subTotal": 0,
+      "total": 471,
+      "subjects": [
+        {
+          "subject_id": "subj-cdp",
+          "mcq_count": 220,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-evs",
+          "mcq_count": 18,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-hindi",
+          "mcq_count": 23,
+          "sub_count": 0
+        },
+        {
+          "subject_id": "subj-math",
+          "mcq_count": 210,
+          "sub_count": 0
+        }
+      ]
+    }
+  ]
+}
