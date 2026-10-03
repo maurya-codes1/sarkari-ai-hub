@@ -1,0 +1,12 @@
+language_code,language_name,script,class_offering,exam_paper_mode,model_answer_script
+en,English,Latin,Class 10 & 12,Single Language,English Latin
+hi,Hindi,Devanagari,Class 10 & 12,Single Language,Hindi Devanagari
+sa,Sanskrit,Devanagari,Class 10 & 12,Single Language,Sanskrit Devanagari
+ur,Urdu,Nastaliq,Class 10 & 12,Single Language,Urdu Nastaliq
+pa,Punjabi,Gurmukhi,Class 10 & 12,Single Language,Punjabi Gurmukhi
+ta,Tamil,Tamil,Class 10 & 12,Single Language,Tamil Script
+te,Telugu,Telugu,Class 10 & 12,Single Language,Telugu Script
+bn,Bengali,Bengali,Class 10 & 12,Single Language,Bengali Script
+mr,Marathi,Devanagari,Class 10 & 12,Single Language,Marathi Devanagari
+gu,Gujarati,Gujarati,Class 10 & 12,Single Language,Gujarati Script
+bilingual,Hindi + English,Dual (Devanagari + Latin),Class 10 & 12 Science/Math/Social,Bilingual Medium,Dual / Paper specific

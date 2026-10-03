@@ -1,0 +1,15 @@
+class_stage,subject_id,official_paper_code,theory_marks,sections,mcq_count,subjective_count,official_sqp_url
+Class 10,subj-math,041,80,"A,B,C,D,E",20,18,https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html
+Class 10,subj-science,086,80,"A,B,C,D,E",20,19,https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html
+Class 10,subj-social,087,80,"A,B,C,D,E,F",20,17,https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html
+Class 10,subj-english,184,80,"A,B,C",16,15,https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html
+Class 12 Science,subj-physics,042,70,"A,B,C,D,E",16,17,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Science,subj-chemistry,043,70,"A,B,C,D,E",16,17,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Science,subj-math12,041,80,"A,B,C,D,E",20,18,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Science,subj-biology,044,70,"A,B,C,D,E",16,17,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Commerce,subj-accountancy,055,80,"A,B",20,14,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Commerce,subj-business,054,80,"A",20,14,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Commerce,subj-economics,030,80,"A,B",20,14,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Humanities,subj-history,027,80,"A,B,C,D,E",21,13,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Humanities,subj-polity,028,80,"A,B,C,D,E",12,18,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html
+Class 12 Humanities,subj-geography,029,70,"A,B,C,D,E",17,13,https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html

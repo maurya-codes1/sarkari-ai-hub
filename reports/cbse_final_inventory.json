@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "board_id": "cbse-board",
+    "board_name": "Central Board of Secondary Education",
+    "pre_sha256": "942f47701b58590aa68d9bdd6753b21225b6bea880408a67a438910af649ff01",
+    "post_sha256": "8728526193cc4376d85224659650a06263b06ae6a9a4183469286039d1022c74",
+    "generated_at": "2026-10-03T18:53:02.374Z"
+  },
+  "counts": {
+    "total_cbse_questions": 5750,
+    "class_10_total": 2070,
+    "class_12_total": 3680,
+    "total_mcqs": 5125,
+    "total_subjectives": 625,
+    "all_subject_notes_bundles": 4
+  },
+  "subject_breakdown": [
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-computer-app",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-elements-bookkeeping",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-elements-business",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-english",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-hindi",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-hindi-b",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-math",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-science",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "subj-social",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Commerce",
+      "subject_id": "subj-accountancy",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Commerce",
+      "subject_id": "subj-applied-math",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Commerce",
+      "subject_id": "subj-business",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Commerce",
+      "subject_id": "subj-economics",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Commerce",
+      "subject_id": "subj-entrepreneurship",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Humanities",
+      "subject_id": "subj-geography",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Humanities",
+      "subject_id": "subj-history",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Humanities",
+      "subject_id": "subj-polity",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Humanities",
+      "subject_id": "subj-psychology",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Humanities",
+      "subject_id": "subj-sociology",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Science",
+      "subject_id": "subj-biology",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Science",
+      "subject_id": "subj-chemistry",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Science",
+      "subject_id": "subj-cs",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Science",
+      "subject_id": "subj-math12",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Science",
+      "subject_id": "subj-pe",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    },
+    {
+      "stage": "Class 12 Science",
+      "subject_id": "subj-physics",
+      "mcq_count": 205,
+      "sub_count": 25,
+      "total_count": 230
+    }
+  ]
+}

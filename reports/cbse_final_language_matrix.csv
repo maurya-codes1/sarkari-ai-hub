@@ -1,0 +1,26 @@
+subject_id,stage,question_language,option_language,model_answer_language,medium_mode
+subj-english,Class 10,English,English,English,Monolingual
+subj-hindi,Class 10,Hindi,Hindi,Hindi,Monolingual
+subj-hindi-b,Class 10,Hindi,Hindi,Hindi,Monolingual
+subj-math,Class 10,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-science,Class 10,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-social,Class 10,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-computer-app,Class 10,English,English,English,Single Language
+subj-elements-business,Class 10,English,English,English,Single Language
+subj-elements-bookkeeping,Class 10,English,English,English,Single Language
+subj-physics,Class 12 Science,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-chemistry,Class 12 Science,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-math12,Class 12 Science,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-biology,Class 12 Science,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-cs,Class 12 Science,English,English,English,Single Language
+subj-pe,Class 12 Science,English,English,English,Single Language
+subj-accountancy,Class 12 Commerce,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-business,Class 12 Commerce,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-economics,Class 12 Commerce,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-applied-math,Class 12 Commerce,English,English,English,Single Language
+subj-entrepreneurship,Class 12 Commerce,English,English,English,Single Language
+subj-history,Class 12 Humanities,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-polity,Class 12 Humanities,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-geography,Class 12 Humanities,Hindi + English,Hindi + English,Hindi + English,Bilingual
+subj-sociology,Class 12 Humanities,English,English,English,Single Language
+subj-psychology,Class 12 Humanities,English,English,English,Single Language

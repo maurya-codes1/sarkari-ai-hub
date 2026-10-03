@@ -1,0 +1,27 @@
+unit_id,class,stream,unit_name,target_objective,current_objective,current_subjective,status,gap_reason
+cbse-c10-math,Class 10,general,Mathematics,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-sci,Class 10,general,Science,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-soc,Class 10,general,Social Science,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-eng,Class 10,general,English Language & Literature,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-hia,Class 10,general,Hindi Course-A,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-hib,Class 10,general,Hindi Course-B,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-ca,Class 10,general,Computer Applications,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-bka,Class 10,general,Elements of Book Keeping,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c10-eob,Class 10,general,Elements of Business,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-phy,Class 12,science,Physics,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-che,Class 12,science,Chemistry,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-mat,Class 12,science,Mathematics,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-bio,Class 12,science,Biology,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-eng,Class 12,science,English Core,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-cs,Class 12,science,Computer Science,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-pe,Class 12,science,Physical Education,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-acc,Class 12,commerce,Accountancy,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-bst,Class 12,commerce,Business Studies,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-eco,Class 12,commerce,Economics,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-amat,Class 12,commerce,Applied Mathematics,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-ent,Class 12,commerce,Entrepreneurship,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-his,Class 12,humanities,History,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-pol,Class 12,humanities,Political Science,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-geo,Class 12,humanities,Geography,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-soc,Class 12,humanities,Sociology,200,0,0,EMPTY,Awaiting official CBSE syllabus generation
+cbse-c12-psy,Class 12,humanities,Psychology,200,0,0,EMPTY,Awaiting official CBSE syllabus generation

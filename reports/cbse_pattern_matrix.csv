@@ -1,0 +1,11 @@
+class,subject_id,sections,total_marks,duration_mins,mcq_count_per_paper,vsa_count,sa_count,case_study_count,la_count
+Class 10,subj-math,"A,B,C,D,E",80,180,20,5,6,3,4
+Class 10,subj-science,"A,B,C,D,E",80,180,20,6,7,3,3
+Class 10,subj-social,"A,B,C,D,E,F",80,180,20,4,5,3,4
+Class 10,subj-english,"A,B,C",80,180,16,4,6,2,3
+Class 12,subj-physics,"A,B,C,D,E",70,180,16,5,7,2,3
+Class 12,subj-chemistry,"A,B,C,D,E",70,180,16,5,7,2,3
+Class 12,subj-math12,"A,B,C,D,E",80,180,20,5,6,3,4
+Class 12,subj-biology,"A,B,C,D,E",70,180,16,5,7,2,3
+Class 12,subj-accountancy,"A,B",80,180,20,4,6,2,4
+Class 12,subj-economics,"A,B",80,180,20,4,6,2,4

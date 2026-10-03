@@ -1,0 +1,26 @@
+stage,subject_id,target_mcq,delivered_mcq,delivered_sub,delivered_total,status
+"Class 10","subj-computer-app",200,205,25,230,COMPLETE
+"Class 10","subj-elements-bookkeeping",200,205,25,230,COMPLETE
+"Class 10","subj-elements-business",200,205,25,230,COMPLETE
+"Class 10","subj-english",200,205,25,230,COMPLETE
+"Class 10","subj-hindi",200,205,25,230,COMPLETE
+"Class 10","subj-hindi-b",200,205,25,230,COMPLETE
+"Class 10","subj-math",200,205,25,230,COMPLETE
+"Class 10","subj-science",200,205,25,230,COMPLETE
+"Class 10","subj-social",200,205,25,230,COMPLETE
+"Class 12 Commerce","subj-accountancy",200,205,25,230,COMPLETE
+"Class 12 Commerce","subj-applied-math",200,205,25,230,COMPLETE
+"Class 12 Commerce","subj-business",200,205,25,230,COMPLETE
+"Class 12 Commerce","subj-economics",200,205,25,230,COMPLETE
+"Class 12 Commerce","subj-entrepreneurship",200,205,25,230,COMPLETE
+"Class 12 Humanities","subj-geography",200,205,25,230,COMPLETE
+"Class 12 Humanities","subj-history",200,205,25,230,COMPLETE
+"Class 12 Humanities","subj-polity",200,205,25,230,COMPLETE
+"Class 12 Humanities","subj-psychology",200,205,25,230,COMPLETE
+"Class 12 Humanities","subj-sociology",200,205,25,230,COMPLETE
+"Class 12 Science","subj-biology",200,205,25,230,COMPLETE
+"Class 12 Science","subj-chemistry",200,205,25,230,COMPLETE
+"Class 12 Science","subj-cs",200,205,25,230,COMPLETE
+"Class 12 Science","subj-math12",200,205,25,230,COMPLETE
+"Class 12 Science","subj-pe",200,205,25,230,COMPLETE
+"Class 12 Science","subj-physics",200,205,25,230,COMPLETE

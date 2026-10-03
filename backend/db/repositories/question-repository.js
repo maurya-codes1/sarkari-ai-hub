@@ -245,13 +245,13 @@ class QuestionRepository {
     }
 
     // If board filter yielded no rows for this specific subject, fall back to general subject questions while PRESERVING stage
-    if (rows.length === 0 && resolvedBoard) {
+    if (rows.length === 0 && resolvedBoard && resolvedStage !== null) {
       const stageRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: resolvedBoard, stage: null, difficulty, count, excludeIds, examId });
       if (stageRows && stageRows.length > 0) return stageRows;
     }
 
-    // If stage filter or examId yielded no rows for this specific subject (e.g. GK requested under a board exam), fall back to general subject pool
-    if (rows.length === 0 && isTargetingBoard) {
+    // If stage filter or examId yielded no rows for this specific subject, fall back to general subject pool
+    if (rows.length === 0 && isTargetingBoard && (resolvedBoard !== null || resolvedStage !== null)) {
       const genRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds, examId: null });
       if (genRows && genRows.length > 0) return genRows;
     }

@@ -1,0 +1,27 @@
+subject_id,class,mcq_target,vsa_2m_target,sa_3m_target,case_4m_target,la_5m_target,total_target,status
+subj-math,Class 10,200,10,10,5,8,233,PENDING
+subj-science,Class 10,200,10,10,5,8,233,PENDING
+subj-social,Class 10,200,10,10,5,8,233,PENDING
+subj-english,Class 10,200,8,8,4,6,226,PENDING
+subj-hindi,Class 10,200,8,8,4,6,226,PENDING
+subj-hindi-b,Class 10,200,8,8,4,6,226,PENDING
+subj-computer-app,Class 10,200,8,8,4,6,226,PENDING
+subj-elements-bookkeeping,Class 10,200,8,8,4,6,226,PENDING
+subj-elements-business,Class 10,200,8,8,4,6,226,PENDING
+subj-physics,Class 12,200,10,10,5,8,233,PENDING
+subj-chemistry,Class 12,200,10,10,5,8,233,PENDING
+subj-math12,Class 12,200,10,10,5,8,233,PENDING
+subj-biology,Class 12,200,10,10,5,8,233,PENDING
+subj-english-core,Class 12,200,8,8,4,6,226,PENDING
+subj-cs,Class 12,200,8,8,4,6,226,PENDING
+subj-pe,Class 12,200,8,8,4,6,226,PENDING
+subj-accountancy,Class 12,200,10,10,5,8,233,PENDING
+subj-business,Class 12,200,10,10,5,8,233,PENDING
+subj-economics,Class 12,200,10,10,5,8,233,PENDING
+subj-applied-math,Class 12,200,10,10,5,8,233,PENDING
+subj-entrepreneurship,Class 12,200,8,8,4,6,226,PENDING
+subj-history,Class 12,200,10,10,5,8,233,PENDING
+subj-polity,Class 12,200,10,10,5,8,233,PENDING
+subj-geography,Class 12,200,10,10,5,8,233,PENDING
+subj-sociology,Class 12,200,8,8,4,6,226,PENDING
+subj-psychology,Class 12,200,8,8,4,6,226,PENDING

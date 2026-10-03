@@ -1,0 +1,26 @@
+stage,subject_id,mcq_count,vsa_2m,sa_3m,case_4m,la_5m,total_questions,assessment_type
+"Class 10","subj-computer-app",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-elements-bookkeeping",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-elements-business",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-english",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-hindi",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-hindi-b",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-math",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-science",205,8,8,4,5,230,Theory + Practical/IA
+"Class 10","subj-social",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Commerce","subj-accountancy",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Commerce","subj-applied-math",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Commerce","subj-business",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Commerce","subj-economics",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Commerce","subj-entrepreneurship",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Humanities","subj-geography",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Humanities","subj-history",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Humanities","subj-polity",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Humanities","subj-psychology",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Humanities","subj-sociology",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Science","subj-biology",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Science","subj-chemistry",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Science","subj-cs",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Science","subj-math12",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Science","subj-pe",205,8,8,4,5,230,Theory + Practical/IA
+"Class 12 Science","subj-physics",205,8,8,4,5,230,Theory + Practical/IA
