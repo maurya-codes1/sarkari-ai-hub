@@ -1,0 +1,5 @@
+stream_id,stream_name,compulsory_subject,core_subjects,elective_options,practical_weightage
+science_medical,Science (Medical Group),English (85+15),"Physics (60+25+15), Chemistry (60+25+15), Biology (60+25+15)",Mathematics / CS / Hindi / Sanskrit / Physical Education,25 Practical + 15 IA (40% School/Lab)
+science_non_medical,Science (Non-Medical Group),English (85+15),"Physics (60+25+15), Chemistry (60+25+15), Mathematics (85+15)",Computer Science / Hindi / Sanskrit / Physical Education,25 Practical + 15 IA for Lab Subjects
+commerce,Commerce Stream,English (85+15),"Accountancy (85+15), Business Studies (85+15), Economics (85+15)",Business Maths / Financial Markets / Hindi / CS,15 Project / Internal Assessment
+humanities,Humanities / Arts Stream,English (85+15),"History (85+15), Political Science (85+15), Geography (60+25+15), Sociology (85+15)",Psychology / Public Administration / Hindi / Sanskrit / Urdu,"Practical for Geography/Psychology (40%), Project (15%) for Others"

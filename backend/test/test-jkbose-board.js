@@ -547,9 +547,23 @@ runTest(54, 'All 16 mandatory audit reports existence and non-empty content', ()
 });
 
 // 55. Cumulative question count integrity
-runTest(55, 'Cumulative question count integrity (152,310 total questions in DB)', () => {
+runTest(55, 'Cumulative question count integrity (152,310 baseline questions accounted for)', () => {
+  const comp = db.prepare('SELECT COUNT(*) as c FROM questions WHERE board_id IS NULL').get().c;
+  const jk = db.prepare('SELECT COUNT(*) as c FROM questions WHERE board_id = ?').get(BOARD_ID).c;
+  const priorBoards = [
+    'cbse-board', 'pseb-punjab', 'bseb-bihar', 'ubse-uttarakhand',
+    'upmsp-uttar-pradesh', 'mpbse-madhya-pradesh', 'nios-board',
+    'rbse-rajasthan', 'msbshse-maharashtra', 'gseb-gujarat',
+    'wbbse-wbchse-west-bengal', 'odisha-bse-chse',
+    'andhra-pradesh-bse-bieap', 'karnataka-kseab-pue', 'tamil-nadu-dge'
+  ];
+  let totalPrior = 0;
+  for (const b of priorBoards) {
+    totalPrior += db.prepare("SELECT count(*) as cnt FROM questions WHERE board_id = ?").get(b).cnt;
+  }
+  assert.strictEqual(comp + totalPrior + jk, 152310, 'JKBOSE baseline sum balances perfectly to 152,310');
   const total = db.prepare('SELECT COUNT(*) as c FROM questions').get().c;
-  assert.strictEqual(total, 152310, 'Database question count must be exactly 152,310');
+  assert.ok(total >= 152310, 'Database question count must be at least 152,310');
 });
 
 // 56. Preservation of prior 15 board questions

@@ -1,0 +1,381 @@
+{
+  "board_id": "hpbose-himachal-pradesh",
+  "authority_id": "org-hp-board-hpbose",
+  "board_name": "Himachal Pradesh Board of School Education",
+  "short_name": "HPBOSE",
+  "common_name": "HPBOSE / Himachal Pradesh Board, Dharamshala",
+  "state": "Himachal Pradesh",
+  "headquarters": "Gyana Aloka, Dharamshala, Kangra - 176213, Himachal Pradesh",
+  "country": "India",
+  "official_url": "https://hpbose.org",
+  "results_url": "https://hpbose.org/Result.aspx",
+  "classes": [
+    "Class 9",
+    "Class 10",
+    "Class 11",
+    "Class 12"
+  ],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1.0",
+  "board_isolation_policy": "STRICT_ISOLATION_NO_CROSS_BOARD_CONTAMINATION",
+  "academic_calendar_type": "ANNUAL_BOARD_EXAMINATION_FEBRUARY_MARCH_SESSION",
+  "class_10": {
+    "examination_name": "Matriculation Examination (Class 10)",
+    "stage": "Class 10",
+    "terminal_public_exam": true,
+    "total_maximum_marks": 700,
+    "passing_marks_per_subject": 33,
+    "aggregate_passing_percentage": 33,
+    "scheme_of_studies": {
+      "compulsory_subjects_count": 5,
+      "elective_subjects_count": 2,
+      "marks_distribution": {
+        "external_theory_marks": 85,
+        "internal_assessment_marks": 15,
+        "total_marks_per_subject": 100
+      },
+      "science_marks_distribution": {
+        "theory_marks": 60,
+        "practical_marks": 25,
+        "internal_assessment_marks": 15,
+        "total_marks": 100
+      }
+    },
+    "subjects": [
+      {
+        "subject_id": "hp-c10-english",
+        "name": "English (Matriculation Paper 1)",
+        "category": "COMPULSORY_LANGUAGE",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-hindi",
+        "name": "Hindi (हिन्दी - Matriculation Paper 2)",
+        "category": "COMPULSORY_LANGUAGE",
+        "script": "Devanagari",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Hindi"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-sanskrit",
+        "name": "Sanskrit (संस्कृत - Matriculation Core/Elective)",
+        "category": "CLASSICAL_LANGUAGE_ELECTIVE",
+        "script": "Devanagari",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Sanskrit",
+          "Hindi"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-mathematics-en",
+        "name": "Mathematics (English Medium - Matriculation Paper 3)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-mathematics-hi",
+        "name": "Mathematics (Hindi Medium - गणित - Matriculation Paper 3)",
+        "category": "COMPULSORY_CORE",
+        "script": "Devanagari",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Hindi"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-science-en",
+        "name": "Science & Technology (English Medium - Matriculation Paper 4)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 60,
+        "practical_marks": 25,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-science-hi",
+        "name": "Science & Technology (Hindi Medium - विज्ञान एवं प्रौद्योगिकी - Matriculation Paper 4)",
+        "category": "COMPULSORY_CORE",
+        "script": "Devanagari",
+        "theory_marks": 60,
+        "practical_marks": 25,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Hindi"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-social-science-en",
+        "name": "Social Science (English Medium - Matriculation Paper 5)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-social-science-hi",
+        "name": "Social Science (Hindi Medium - सामाजिक विज्ञान - Matriculation Paper 5)",
+        "category": "COMPULSORY_CORE",
+        "script": "Devanagari",
+        "theory_marks": 85,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Hindi"
+        ]
+      },
+      {
+        "subject_id": "hp-c10-computer-science",
+        "name": "Computer Science (Information Technology - Matriculation Elective)",
+        "category": "ELECTIVE_ACADEMIC",
+        "theory_marks": 60,
+        "practical_marks": 25,
+        "internal_marks": 15,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English",
+          "Hindi"
+        ]
+      }
+    ]
+  },
+  "class_9": {
+    "stage": "Class 9",
+    "terminal_public_exam": false,
+    "examination_nature": "Continuous and Comprehensive Evaluation (CCE) conducted at affiliated school level under HPBOSE regulations",
+    "dependency_rule": "HPBOSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "registration_requirement": "School-level enrollment return and registration submission to HPBOSE Dharamshala",
+    "minimum_attendance_percentage": 75,
+    "promotion_criteria": "Mandatory qualifying grade/marks in school annual evaluation across all subjects",
+    "full_exam_eligible": false,
+    "practice_eligible": true
+  },
+  "class_11": {
+    "stage": "Class 11",
+    "examination_name": "Higher Secondary (+1) Examination",
+    "terminal_public_exam": false,
+    "evaluation_nature": "Centralized school-level annual examination with HPBOSE uniform question papers and evaluation guidelines",
+    "dependency_rule": "HPBOSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 33,
+    "streams": [
+      "Science",
+      "Commerce",
+      "Arts/Humanities"
+    ],
+    "stream_combinations": {
+      "science_medical": [
+        "English",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Optional (Mathematics / CS / Physical Education / Sanskrit)"
+      ],
+      "science_non_medical": [
+        "English",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Optional (CS / Physical Education / Sanskrit)"
+      ],
+      "commerce": [
+        "English",
+        "Accountancy",
+        "Business Studies",
+        "Economics",
+        "Optional (Business Maths / Financial Literacy / CS)"
+      ],
+      "humanities": [
+        "English",
+        "Hindi",
+        "History",
+        "Political Science",
+        "Optional (Geography / Economics / Sociology / Psychology / Sanskrit / Public Administration)"
+      ]
+    },
+    "progression_condition": "Candidate must pass Class 11 (+1) examination to be eligible for admission and registration into Class 12 (+2)"
+  },
+  "class_12": {
+    "examination_name": "Higher Secondary (+2) Examination",
+    "stage": "Class 12",
+    "terminal_public_exam": true,
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 33,
+    "aggregate_passing_percentage": 33,
+    "compulsory_subject_for_all_streams": "English (85 Theory + 15 Internal Assessment)",
+    "streams": {
+      "science": {
+        "stream_name": "Science Stream (Medical & Non-Medical)",
+        "core_subjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biology",
+          "Computer Science",
+          "Physical Education"
+        ],
+        "mark_breakdown_practical": {
+          "theory_marks": 60,
+          "practical_marks": 25,
+          "internal_assessment": 15,
+          "total_marks": 100,
+          "theory_passing": 20,
+          "practical_passing": 8,
+          "total_passing": 33
+        }
+      },
+      "commerce": {
+        "stream_name": "Commerce Stream",
+        "core_subjects": [
+          "Accountancy",
+          "Business Studies",
+          "Economics",
+          "Business Mathematics & Statistics",
+          "Financial Markets & Commercial Banking"
+        ],
+        "mark_breakdown": {
+          "theory_marks": 85,
+          "internal_project_marks": 15,
+          "total_marks": 100,
+          "passing_marks": 33
+        }
+      },
+      "humanities": {
+        "stream_name": "Arts / Humanities Stream",
+        "core_subjects": [
+          "History",
+          "Political Science",
+          "Geography",
+          "Sociology",
+          "Psychology",
+          "Public Administration"
+        ],
+        "mark_breakdown_theory": {
+          "theory_marks": 85,
+          "internal_marks": 15,
+          "total_marks": 100
+        },
+        "mark_breakdown_practical": {
+          "theory_marks": 60,
+          "practical_marks": 25,
+          "internal_marks": 15,
+          "total_marks": 100
+        }
+      },
+      "languages": {
+        "stream_name": "Core & Elective Languages",
+        "subjects": [
+          "English",
+          "Hindi",
+          "Sanskrit",
+          "Urdu"
+        ]
+      }
+    }
+  },
+  "language_script_registry": {
+    "hindi": {
+      "code": "hi",
+      "language_name": "Hindi",
+      "script_name": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "status": "OFFICIAL_STATE_LANGUAGE_HP"
+    },
+    "english": {
+      "code": "en",
+      "language_name": "English",
+      "script_name": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "status": "COMPULSORY_ACADEMIC_MEDIUM"
+    },
+    "sanskrit": {
+      "code": "sa",
+      "language_name": "Sanskrit",
+      "script_name": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "status": "SECOND_OFFICIAL_LANGUAGE_HP"
+    },
+    "urdu": {
+      "code": "ur",
+      "language_name": "Urdu",
+      "script_name": "Perso-Arabic",
+      "unicode_range": "U+0600 - U+06FF",
+      "status": "ELECTIVE_LANGUAGE"
+    },
+    "punjabi": {
+      "code": "pa",
+      "language_name": "Punjabi",
+      "script_name": "Gurmukhi",
+      "unicode_range": "U+0A00 - U+0A7F",
+      "status": "ELECTIVE_LANGUAGE"
+    }
+  },
+  "registration_and_eligibility": {
+    "registration_portal": "https://hpbose.org",
+    "registration_timeline": "Annual Regular Session (September-October window with late fee windows in November)",
+    "minimum_attendance_requirement": "75% aggregate attendance in classes IX-X / XI-XII",
+    "candidate_types": [
+      "Regular Affiliated School Candidate",
+      "State Open School (HPSOS) Candidate",
+      "Private / Re-appear Candidate"
+    ],
+    "required_documents": [
+      "School Admission & Enrollment Registration Number",
+      "Class 9 / Class 11 Promotion Tabulation Sheet",
+      "Date of Birth / Middle Standard Certificate",
+      "Bonafide Himachali / Domicile Certificate (if applicable)",
+      "Category / Reservation Certificate (if applicable)",
+      "Passport size photograph and signature"
+    ],
+    "admit_card_issuance": "Roll number admit cards distributed to schools and downloadable online in January-February",
+    "result_declaration": "Official portal (https://hpbose.org/Result.aspx) and DigiLocker integration"
+  }
+}

@@ -1,0 +1,5 @@
+stage,process_name,normal_window,late_fee_window,registration_portal,mandatory_prerequisite,status
+Class 9,Enrollment Return / CCE Registration,July - August,September (Late Fee),https://hpbose.org,Admission in 9th class in recognized HP school,VERIFIED
+Class 10 Matriculation,Examination Form Submission,October - November,December (Late Fee),https://hpbose.org,Valid Class 9 Enrollment Number + 75% Attendance,VERIFIED
+Class 11 (+1),Enrollment Return / Stream Registration,August - September,October (Late Fee),https://hpbose.org,Pass in Class 10 Matriculation or equivalent,VERIFIED
+Class 12 (+2),Examination Form Submission,October - November,December (Late Fee),https://hpbose.org,Pass in Class 11 (+1) + 75% Attendance,VERIFIED

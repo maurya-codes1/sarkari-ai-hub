@@ -1,0 +1,7 @@
+field,value,audit_notes
+stage,Class 11 (+1 Stage),Intermediate foundational higher secondary stage
+terminal_public_exam,FALSE_INDEPENDENT_PROMOTION,Evaluated via uniform board-regulated institutional examination
+dependency_rule,HPBOSE_CLASS11_TO_CLASS12_DEPENDENCY,Mandatory qualification in +1 for admission to +2 HSE
+stream_continuity,ENFORCED,Selected stream and core subjects in +1 continue into +2
+streams_offered,"Science (Medical/Non-Med), Commerce, Arts/Humanities",Officially recognized HPBOSE streams
+full_exam_mode,STANDALONE_BLOCKED_UNLESS_ENROLLED,Curricular progression enforced

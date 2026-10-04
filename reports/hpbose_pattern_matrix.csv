@@ -1,0 +1,7 @@
+stage,subject_category,theory_marks,practical_ia_marks,total_marks,theory_passing,practical_passing,total_passing,duration_mins,sections_count,internal_choice_scheme
+Class 10 Matriculation,"Languages (English, Hindi, Sanskrit)",85,15,100,28,5,33,180,4,Internal choice in Long Answer & Writing sections
+Class 10 Matriculation,Mathematics & Social Science,85,15,100,28,5,33,180,4,Internal choice in 3-mark & 5-mark sections
+Class 10 Matriculation,Science & Technology / Computer Science,60,40,100,20,13,33,180,4,60 Theory + 25 Practical + 15 IA
+Class 12 +2 HSE,"Languages, Humanities, Commerce Theory",85,15,100,28,5,33,180,4,"Reading, Writing, Grammar, Literature sections"
+Class 12 +2 HSE,"Science Practical Subjects (Physics, Chemistry, Biology, Geography)",60,40,100,20,13,33,180,4,60 Theory + 25 Practical + 15 IA
+Class 12 +2 HSE,"Commerce Subjects (Accountancy, Business Studies, Economics)",85,15,100,28,5,33,180,4,85 Theory + 15 Project/IA with internal choice

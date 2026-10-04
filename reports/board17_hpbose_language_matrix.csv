@@ -1,0 +1,6 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+hi,Hindi,Devanagari,U+0900 - U+097F,"Official State Language, Compulsory Matriculation Paper 2, +2 HSE Core/Elective",YES,VERIFIED_OFFICIAL_STATE_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject across Matriculation & +2 HSE, Universal Medium",YES,VERIFIED_COMPULSORY_MEDIUM
+sa,Sanskrit,Devanagari,U+0900 - U+097F,"Second Official State Language of HP, Classical & Elective Subject",YES,VERIFIED_SECOND_OFFICIAL_LANGUAGE
+ur,Urdu,Perso-Arabic (Nastaliq),U+0600 - U+06FF,+2 HSE Language Elective,YES,VERIFIED_ELECTIVE_LANGUAGE
+pa,Punjabi,Gurmukhi,U+0A00 - U+0A7F,Recognized Regional Language Elective in Border Districts,YES,VERIFIED_REGIONAL_ELECTIVE

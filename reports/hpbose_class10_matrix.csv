@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_practical_marks,exam_duration_mins
+hp-c10-english,English (Matriculation Paper 1),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,85,15,180
+hp-c10-hindi,Hindi (हिन्दी - Matriculation Paper 2),Compulsory Language,hi,Devanagari (U+0900-U+097F),280,205,75,85,15,180
+hp-c10-sanskrit,Sanskrit (संस्कृत - Matriculation Elective Paper),Language Elective,sa,Devanagari (U+0900-U+097F),280,205,75,85,15,180
+hp-c10-mathematics-en,Mathematics (English Medium - Matriculation Paper 3),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,85,15,180
+hp-c10-mathematics-hi,Mathematics (Hindi Medium - गणित - Matriculation Paper 3),Compulsory Core,hi,Devanagari (U+0900-U+097F),280,205,75,85,15,180
+hp-c10-science-en,Science & Technology (English Medium - Matriculation Paper 4),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,60,40,180
+hp-c10-science-hi,Science & Technology (Hindi Medium - विज्ञान एवं प्रौद्योगिकी - Matriculation Paper 4),Compulsory Core,hi,Devanagari (U+0900-U+097F),280,205,75,60,40,180
+hp-c10-social-science-en,Social Science (English Medium - Matriculation Paper 5),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,85,15,180
+hp-c10-social-science-hi,Social Science (Hindi Medium - सामाजिक विज्ञान - Matriculation Paper 5),Compulsory Core,hi,Devanagari (U+0900-U+097F),280,205,75,85,15,180
+hp-c10-computer-science,Computer Science (Information Technology Elective),Academic Elective,en,Latin (U+0020-U+007E),280,205,75,60,40,180

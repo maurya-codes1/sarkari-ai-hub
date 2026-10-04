@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+languages,Compulsory,hp-c12-english,English (+2 HSE Compulsory),Compulsory Language,280,205,75,85,15
+languages,Elective,hp-c12-hindi,Hindi (अनिवार्य / ऐच्छिक हिन्दी - +2 HSE),Language Core/Elective,280,205,75,85,15
+languages,Elective,hp-c12-sanskrit,Sanskrit (संस्कृत साहित्य - +2 HSE),Classical Elective,280,205,75,85,15
+languages,Elective,hp-c12-urdu,Urdu (اردو زبان و ادب - +2 HSE),Language Elective,280,205,75,85,15
+science,Medical / Non-Medical,hp-c12-physics,Physics (+2 HSE),Science Core,280,205,75,60,40
+science,Medical / Non-Medical,hp-c12-chemistry,Chemistry (+2 HSE),Science Core,280,205,75,60,40
+science,Medical,hp-c12-biology,Biology (Botany & Zoology - +2 HSE),Science Core,280,205,75,60,40
+science,Non-Medical,hp-c12-mathematics,Mathematics (+2 HSE),Science Core,280,205,75,85,15
+science,Elective,hp-c12-computer-science,Computer Science (+2 HSE),Academic Elective,280,205,75,60,40
+science,Elective,hp-c12-physical-education,Physical Education (+2 HSE),Academic Elective,280,205,75,60,40
+commerce,Compulsory,hp-c12-accountancy,Accountancy (+2 HSE),Commerce Core,280,205,75,85,15
+commerce,Compulsory,hp-c12-business-studies,Business Studies (+2 HSE),Commerce Core,280,205,75,85,15
+commerce,Compulsory,hp-c12-economics,Economics (+2 HSE),Commerce Core,280,205,75,85,15
+commerce,Elective,hp-c12-business-maths,Business Mathematics & Statistics (+2 HSE),Commerce Elective,280,205,75,85,15
+commerce,Elective,hp-c12-financial-literacy,Financial Markets & Commercial Banking (+2 HSE),Commerce Elective,280,205,75,85,15
+humanities,Elective,hp-c12-history,History (+2 HSE),Humanities Elective,280,205,75,85,15
+humanities,Elective,hp-c12-political-science,Political Science (+2 HSE),Humanities Elective,280,205,75,85,15
+humanities,Elective,hp-c12-geography,Geography (+2 HSE),Humanities Elective,280,205,75,60,40
+humanities,Elective,hp-c12-sociology,Sociology (+2 HSE),Humanities Elective,280,205,75,85,15
+humanities,Elective,hp-c12-psychology,Psychology (+2 HSE),Humanities Elective,280,205,75,60,40
+humanities,Elective,hp-c12-public-administration,Public Administration (+2 HSE),Humanities Elective,280,205,75,85,15
