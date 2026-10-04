@@ -1,0 +1,11 @@
+Parameter,Official Specification,Portal Database Implementation
+Exam Name,Rajasthan Police Constable & Sub-Inspector Examination,Rajasthan Police Constable & Sub-Inspector Examination
+Exam ID / Version ID,rajasthan-police,ver-rajasthan-police-2026
+Conducting Authority,"Rajasthan Police Recruitment Board, Jaipur",Rajasthan Police Jaipur
+Mode of Exam,Computer Based Written Test (CBT),CBT / Computer Practice Compatible
+Duration,120 Minutes (2.0 Hours),120 Minutes
+Total Questions,150 Questions,"150 Questions (Paper) / 1,200 Bank"
+Marks per Correct Answer,+1.0 Mark,+1.0 Mark
+Penalty per Incorrect Answer,-0.25 Marks (25% penalty),-0.25 Marks
+Bilingual Support,Hindi and English,Strict Dual Object JSON (en + hi)
+Option Key Balance,Balanced randomized distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D per subject)"

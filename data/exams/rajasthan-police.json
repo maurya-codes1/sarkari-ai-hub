@@ -1,0 +1,126 @@
+{
+  "exam_id": "rajasthan-police",
+  "name": "Rajasthan Police Constable & Sub-Inspector Examination (राजस्थान पुलिस कांस्टेबल एवं उप निरीक्षक भर्ती परीक्षा)",
+  "short_name": "Rajasthan Police",
+  "exam_category": "police_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-rajasthan-police-recruitment-board-jaipu",
+    "name": "Rajasthan Police Recruitment Board, Jaipur (राजस्थान पुलिस भर्ती एवं पदोन्नति बोर्ड, जयपुर)",
+    "short_name": "Rajasthan Police Jaipur",
+    "headquarters": "Police Headquarters (PHQ), Lal Kothi, Tonk Road, Jaipur, Rajasthan 302015",
+    "official_website": "https://police.rajasthan.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-rajasthan-police-portal",
+      "name": "Rajasthan Police Official Headquarters Portal",
+      "url": "https://police.rajasthan.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-rajasthan-police-constable-notice-2026",
+      "name": "Rajasthan Police Constable Recruitment Notification & Standing Order 2026",
+      "url": "https://police.rajasthan.gov.in/recruitment_constable_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-rajasthan-police-si-rpsc-notice-2026",
+      "name": "Rajasthan Police Sub-Inspector (SI / Platoon Commander) Notification 2026",
+      "url": "https://rpsc.rajasthan.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "constable_cbt_exam": {
+      "stage_name": "Computer Based Written Test (CBT - 150 Objective Questions)",
+      "duration_minutes": 120,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "Part A: Reasoning Ability, Logic & Computer Literacy (विवेचना एवं तार्किक योग्यता तथा कंप्यूटर ज्ञान)", "questions": 60, "marks": 60 },
+        { "name": "Part B: General Knowledge, General Science, Social Science & Current Affairs (सामान्य ज्ञान, सामान्य विज्ञान एवं समसामयिकी)", "questions": 35, "marks": 35 },
+        { "name": "Part C: Laws & Rules regarding Crimes against Women & Children (महिला एवं बाल अपराध व कानूनी प्रावधान)", "questions": 10, "marks": 10 },
+        { "name": "Part D: Rajasthan History, Art, Culture, Geography & Economy (राजस्थान का सामान्य ज्ञान, इतिहास, कला व संस्कृति)", "questions": 45, "marks": 45 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "rajasthan-police-reasoning-computer",
+        "name": "Reasoning Ability, Logic & Computer Fundamentals (तार्किक योग्यता एवं कंप्यूटर का सामान्य ज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Logical Reasoning & Mental Ability: Analogies, Classification, Coding-Decoding (Letter shift, Number code, Matrix)",
+          "Number Series, Alphabet Series & Missing Character in Geometric Figures",
+          "Blood Relations, Family Trees & Coded Relationships",
+          "Direction and Distance Sense Test (Pythagoras theorem, Compass angles, Shadow problems)",
+          "Order & Ranking, Linear & Circular Seating Arrangement, Clock and Calendar",
+          "Venn Diagrams, Syllogisms (Statements and Conclusions), Logical Deduction",
+          "Non-Verbal Reasoning: Mirror Images, Water Images, Paper Folding, Embedded Figures, Figure Completion",
+          "Computer Fundamentals: Computer Generations, Hardware (Input/Output devices, CPU, RAM, ROM, Secondary storage)",
+          "Operating Systems: Windows, Linux, Android; File management, GUI, Command Line basics",
+          "MS Office Suite: MS Word (Word processing, Shortcuts, Tables), MS Excel (Formulas, Functions, Cell formatting), MS PowerPoint",
+          "Internet, Networking & Cyber Security: LAN, WAN, IP addresses, URL, Browsers, Search Engines, Phishing, Antivirus, Firewalls"
+        ]
+      },
+      {
+        "subject_id": "rajasthan-police-general-knowledge-science",
+        "name": "General Knowledge, General Science & Current Affairs (सामान्य ज्ञान, सामान्य विज्ञान एवं समसामयिकी)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Indian Constitution & Polity: Preamble, Fundamental Rights, Fundamental Duties, Directive Principles of State Policy, Parliament, President, Supreme Court",
+          "Indian History: Ancient India (Indus Valley, Vedic Age, Maurya, Gupta), Medieval India (Delhi Sultanate, Mughals), Modern India (Freedom Struggle, 1857 Revolt, INC, Gandhi era)",
+          "Indian Geography: Physical divisions of India, Major Rivers, Climate, Soils, Agriculture, National Parks and Wildlife Sanctuaries",
+          "General Science - Physics: Newton's laws of motion, Work, Energy, Gravitation, Light, Reflection, Refraction, Lenses, Electricity, Sound",
+          "General Science - Chemistry: Matter, Atomic structure, Acids, Bases and Salts, Metals and Non-metals, Chemical reactions, Everyday chemical compounds",
+          "General Science - Biology: Cell structure, Human body systems (Circulatory, Digestive, Respiratory, Nervous, Excretory), Genetics, Blood groups",
+          "Health, Diseases & Nutrition: Vitamins, Carbohydrates, Proteins, Deficiency diseases, Viral and Bacterial pathogens, Vaccines",
+          "National & International Current Affairs, Major Summits, Sports Events (Olympics, Asian Games, IPL), Honors and Awards"
+        ]
+      },
+      {
+        "subject_id": "rajasthan-police-rajasthan-special",
+        "name": "Rajasthan History, Art, Culture, Geography & Economy (राजस्थान का इतिहास, कला, संस्कृति, भूगोल एवं अर्थव्यवस्था)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Geography of Rajasthan: Thar Desert, Aravalli mountain range (Guru Shikhar 1722m), Rivers (Chambal, Banas, Luni, Mahi, Banganga), Lakes (Sambhar Salt Lake, Pichola, Fateh Sagar, Nakki Lake)",
+          "Climate, Soils, Mineral Wealth (Zinc-Lead at Zawar, Copper at Khetri, Gypsum, Makrana Marble), Forest types & Protected areas",
+          "Wildlife Sanctuaries & Tiger Reserves: Ranthambore Tiger Reserve, Sariska, Mukundra Hills, Ramgarh Vishdhari (4th TR), Keoladeo Ghana National Park (UNESCO Bird Sanctuary, Bharatpur), Desert National Park",
+          "State Symbols of Rajasthan: State Animal (Chinkara & Camel), State Bird (Godawan / Great Indian Bustard), State Tree (Khejri), State Flower (Rohida), State Dance (Ghoomar), State Sport (Basketball)",
+          "History & Brave Dynasties of Rajasthan: Mewar (Maharana Pratap, Haldighati 1576, Rana Kumbha, Rana Sanga, Padmini), Marwar (Rathores, Rao Jodha, Maldeo), Amber/Jaipur (Kachwahas, Sawai Jai Singh II, Jantar Mantar), Chauhans (Prithviraj Chauhan III)",
+          "Freedom Movement & 1857 Revolt in Rajasthan: Naseerabad (28 May 1857), Neemuch, Erinpura, Auwa (Thakur Kushal Singh), Prajamandal movements, Peasant movements (Bijolia, Bengu)",
+          "Forts & Architecture: UNESCO Hill Forts of Rajasthan (Chittorgarh, Kumbhalgarh - 36km wall, Ranthambore, Gagron, Amer, Jaisalmer / Sonar Qila), Stepwells (Chand Baori Abhaneri), Havelis of Shekhawati",
+          "Art & Culture: Folk Deities / Panchpir (Pabuji, Ramdevji, Gogaji, Mehaji, Harbhuji), Tejaji, Karni Mata (Deshnok), Folk Dances (Ghoomar, Kalbelia - UNESCO, Terah Taali, Gair, Chari, Kachhi Ghodi), Fairs (Pushkar, Ramdevra, Baneshwar)",
+          "Rajasthan Police Administration: Motto ('सेवार्थ कटिबद्धता' - Committed to Serve), Structure, RAC (Rajasthan Armed Constabulary), Mewar Bhil Corps (MBC), Cyber Crime, Dial 112"
+        ]
+      },
+      {
+        "subject_id": "rajasthan-police-women-child-crime-law",
+        "name": "Crimes Against Women & Children, Legal Provisions & Protection Acts (महिला एवं बाल अपराध, सुरक्षा नियम व कानूनी प्रावधान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Protection of Children from Sexual Offences (POCSO Act, 2012): Definitions, Aggravated sexual assault, Mandatory reporting, Special courts, Child welfare",
+          "Protection of Women from Domestic Violence Act, 2005 (घरेलू हिंसा से महिलाओं का संरक्षण अधिनियम): Physical, emotional, sexual, economic abuse, Protection officers, Residence orders",
+          "Sexual Harassment of Women at Workplace Act, 2013 (POSH Act / विशाखा गाइडलाइन्स): Internal Complaints Committee (ICC), Local Complaints Committee (LCC), Conciliation & Inquiries",
+          "Dowry Prohibition Act, 1961 (दहेज प्रतिषेध अधिनियम, 1961): Definition of dowry, Penalties for giving/taking dowry, Dowry death under criminal law",
+          "Prohibition of Child Marriage Act, 2006 (बाल विवाह प्रतिषेध अधिनियम): Legal age of marriage (Male 21, Female 18), Child marriage prohibition officers, Penalties",
+          "Criminal Laws & Legal Provisions (IPC / BNS sections): Section 354 (Outraging modesty of women), 354A (Sexual harassment), 354B (Assault to disrobe), 354C (Voyeurism), 354D (Stalking), 376 (Rape), 498A (Cruelty by husband or relatives), 304B (Dowry death)",
+          "Juvenile Justice (Care and Protection of Children) Act, 2015 (JJ Act): Child in conflict with law, Child in need of care and protection, Child Welfare Committee (CWC), Juvenile Justice Board (JJB)",
+          "Helplines & Government Initiatives: Child Helpline (1098), Women Helpline (1090 / 181), National Cyber Crime Portal (cybercrime.gov.in), Rajasthan Police Suraksha Setu & Garima Helpline"
+        ]
+      }
+    ]
+  }
+}
