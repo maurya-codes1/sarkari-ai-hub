@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,exam_duration_mins
+ml-c10-english,English (Compulsory SSLC Subject),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+ml-c10-mil-khasi,Khasi MIL (Ka Ktien Khasi - Modern Indian Language),Compulsory/Elective MIL,kha,Latin (U+0020-U+007E),280,205,75,80,20,180
+ml-c10-mil-garo,Garo MIL (A·chik Ku·sik - Modern Indian Language),Compulsory/Elective MIL,grt,Latin (U+0020-U+007E),280,205,75,80,20,180
+ml-c10-alt-english,Alternative English (SSLC Language Option),Language Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+ml-c10-mil-hindi,Hindi MIL (हिन्दी - Modern Indian Language),MIL Option,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,180
+ml-c10-mil-bengali,Bengali MIL (বাংলা - Modern Indian Language),MIL Option,bn,Bengali (U+0980-U+09FF),280,205,75,80,20,180
+ml-c10-mil-assamese,Assamese MIL (অসমীয়া - Modern Indian Language),MIL Option,as,Assamese (U+0980-U+09FF),280,205,75,80,20,180
+ml-c10-mathematics,Mathematics (Compulsory SSLC),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+ml-c10-science,Science & Technology (Compulsory SSLC),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+ml-c10-social-science,Social Science (Compulsory SSLC),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180

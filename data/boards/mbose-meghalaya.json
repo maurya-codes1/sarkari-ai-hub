@@ -1,0 +1,272 @@
+{
+  "board_id": "mbose-meghalaya",
+  "board_name": "Meghalaya Board of School Education",
+  "short_name": "MBOSE",
+  "common_name": "Meghalaya Board",
+  "state": "Meghalaya",
+  "headquarters": "Tura, West Garo Hills - 794101 & Pine Mount Ridge, Shillong - 793001, Meghalaya",
+  "country": "India",
+  "authority_id": "org-ml-board-mbose",
+  "authorities": {
+    "MBOSE": {
+      "authority_id": "org-ml-board-mbose",
+      "name": "Meghalaya Board of School Education",
+      "short_name": "MBOSE",
+      "headquarters": "Tura, West Garo Hills - 794101, Meghalaya",
+      "regional_office": "Pine Mount Ridge, Shillong - 793001, Meghalaya",
+      "official_website": "https://www.mbose.in/",
+      "portal_results": "http://megresults.nic.in/",
+      "jurisdiction": "Secondary and Higher Secondary Education across Meghalaya (Class 9 to Class 12)"
+    }
+  },
+  "historical_authorities": {
+    "mbose": {
+      "authority_id": "org-ml-board-mbose",
+      "name": "Meghalaya Board of School Education",
+      "short_name": "MBOSE",
+      "established_year": 1973,
+      "act": "Meghalaya Board of School Education Act, 1973"
+    }
+  },
+  "classes": [9, 10, 11, 12],
+  "class_9": {
+    "stage": "Class 9",
+    "board_exam_eligible": false,
+    "progression_to_class_10": "MBOSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "mode": "Continuous Institutional Assessment & Board Registration Context",
+    "questions_ingested": 0
+  },
+  "class_10": {
+    "stage": "Class 10",
+    "exam_name": "Secondary School Leaving Certificate (SSLC)",
+    "administering_body": "org-ml-board-mbose",
+    "board_exam_eligible": true,
+    "total_marks": 600,
+    "total_subjects": 6,
+    "scheme": "80 Theory + 20 Internal Assessment per subject",
+    "passing_threshold_percent": 33,
+    "subjects": [
+      { "subject_id": "ml-c10-english", "name": "English", "category": "Compulsory Language" },
+      { "subject_id": "ml-c10-mil-khasi", "name": "Khasi MIL", "category": "Modern Indian Language", "script": "Latin" },
+      { "subject_id": "ml-c10-mil-garo", "name": "Garo MIL", "category": "Modern Indian Language", "script": "Latin" },
+      { "subject_id": "ml-c10-alt-english", "name": "Alternative English", "category": "Language Option" },
+      { "subject_id": "ml-c10-mil-hindi", "name": "Hindi MIL", "category": "Modern Indian Language", "script": "Devanagari" },
+      { "subject_id": "ml-c10-mil-bengali", "name": "Bengali MIL", "category": "Modern Indian Language", "script": "Bengali" },
+      { "subject_id": "ml-c10-mil-assamese", "name": "Assamese MIL", "category": "Modern Indian Language", "script": "Assamese" },
+      { "subject_id": "ml-c10-mathematics", "name": "Mathematics", "category": "Compulsory Core" },
+      { "subject_id": "ml-c10-science", "name": "Science & Technology", "category": "Compulsory Core" },
+      { "subject_id": "ml-c10-social-science", "name": "Social Science", "category": "Compulsory Core" }
+    ]
+  },
+  "class_11": {
+    "stage": "Class 11",
+    "exam_name": "Higher Secondary Examination Part-I",
+    "administering_body": "org-ml-board-mbose",
+    "board_exam_eligible": false,
+    "progression_to_class_12": "MBOSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "mode": "Board Moderated Institutional Examination & Registration Context",
+    "streams": ["Science", "Commerce", "Arts", "Vocational"]
+  },
+  "class_12": {
+    "stage": "Class 12",
+    "exam_name": "Higher Secondary School Leaving Certificate (HSSLC)",
+    "administering_body": "org-ml-board-mbose",
+    "board_exam_eligible": true,
+    "total_marks": 500,
+    "total_subjects": 5,
+    "passing_threshold_percent": 33,
+    "streams": [
+      {
+        "stream_id": "science",
+        "stream_name": "Science Stream",
+        "subjects": [
+          "ml-c12-physics", "ml-c12-chemistry", "ml-c12-biology",
+          "ml-c12-mathematics", "ml-c12-computer-science", "ml-c12-statistics"
+        ]
+      },
+      {
+        "stream_id": "commerce",
+        "stream_name": "Commerce Stream",
+        "subjects": [
+          "ml-c12-accountancy", "ml-c12-business-studies", "ml-c12-economics",
+          "ml-c12-entrepreneurship", "ml-c12-commercial-mathematics"
+        ]
+      },
+      {
+        "stream_id": "arts",
+        "stream_name": "Arts / Humanities Stream",
+        "subjects": [
+          "ml-c12-political-science", "ml-c12-history", "ml-c12-geography",
+          "ml-c12-education", "ml-c12-sociology", "ml-c12-philosophy"
+        ]
+      },
+      {
+        "stream_id": "languages",
+        "stream_name": "Languages",
+        "subjects": [
+          "ml-c12-english", "ml-c12-mil-khasi", "ml-c12-mil-garo", "ml-c12-alt-english"
+        ]
+      },
+      {
+        "stream_id": "vocational",
+        "stream_name": "Vocational Stream",
+        "subjects": [
+          "ml-c12-voc-tourism", "ml-c12-voc-it-ites", "ml-c12-voc-healthcare", "ml-c12-voc-agriculture"
+        ]
+      }
+    ]
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "mbose_home": "https://www.mbose.in/",
+    "results_portal": "http://megresults.nic.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_meghalaya": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "kha",
+      "name": "Khasi",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Khasi MIL", "Khasi Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "grt",
+      "name": "Garo",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Garo MIL", "Garo Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Compulsory English", "Alternative English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Hindi MIL", "Hindi Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["Bengali MIL", "Bengali Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "as",
+      "name": "Assamese",
+      "script": "Assamese",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["Assamese MIL", "Assamese Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ne",
+      "name": "Nepali",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Nepali MIL", "Nepali Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "lus",
+      "name": "Mizo",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Mizo MIL", "Mizo Elective"],
+      "permitted_medium": true
+    }
+  ],
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "MBOSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "INSTITUTIONAL_CCE_NOT_PUBLIC_BOARD_EXAM",
+      "enrolment_return": "MANDATORY_REGISTRATION_RETURN_TO_MBOSE_TURA",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "MBOSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "MBOSE_FOUNDATION_YEAR_ANNUAL_EVALUATION",
+      "stream_continuity": "MANDATORY",
+      "min_attendance_percent": 75
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Continuous Assessment (Class 9)",
+      "terminal_public_exam": false,
+      "dependency_rule": "MBOSE_CLASS9_TO_CLASS10_DEPENDENCY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary School Leaving Certificate (SSLC) Examination",
+      "aggregate_marks": 600,
+      "passing_percentage": 33,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Higher Secondary Examination Part-I",
+      "terminal_public_exam": false,
+      "dependency_rule": "MBOSE_CLASS11_TO_CLASS12_DEPENDENCY"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Higher Secondary School Leaving Certificate (HSSLC) Examination",
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 30,
+      "practical_passing_percentage": 30,
+      "exam_duration_hours": 3
+    }
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "MBOSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "MBOSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_terminal_public_exam": false
+  },
+  "registration_rules": {
+    "sslc_class_10": {
+      "minimum_attendance": "75%",
+      "enrolment_return": "MANDATORY_MBOSE_TURA"
+    },
+    "hsslc_class_12": {
+      "minimum_attendance": "75%",
+      "stream_continuity": "Mandatory"
+    }
+  },
+  "curriculum_specialties": {
+    "sixth_schedule_autonomy": "Sixth Schedule Autonomous District Councils (ADCs): Khasi Hills ADC, Garo Hills ADC, Jaintia Hills ADC",
+    "state_freedom_fighters": [
+      "U Tirot Sing Syiem (Anglo-Khasi War leader)",
+      "Pa Togan Sangma (Pa Togan Nengminza Sangma, Garo resistance hero)",
+      "U Kiang Nangbah (Jaintia freedom fighter)"
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+source_stage,target_stage,dependency_rule,enforcement_level,gate_action
+Class 9,Class 10 (SSLC),MBOSE_CLASS9_TO_CLASS10_DEPENDENCY,STRICT_INSTITUTIONAL,Block SSLC admit card unless CCE passed & registered at MBOSE Tura/Shillong
+Class 11 (HSSLC Part-I),Class 12 (HSSLC Final),MBOSE_CLASS11_TO_CLASS12_DEPENDENCY,STRICT_BOARD,Block HSSLC registration unless Class 11 promotional exam cleared in same stream

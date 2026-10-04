@@ -1,0 +1,9 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+kha,Khasi (Ka Ktien Khasi),Latin,U+0020 - U+007E,"Official State Associate Language, Compulsory SSLC First Language, HSSLC MIL/Elective",YES,VERIFIED_STATE_LANGUAGE
+grt,Garo (A·chik Ku·sik),Latin,U+0020 - U+007E,"Official State Associate Language, Compulsory SSLC First Language, HSSLC MIL/Elective",YES,VERIFIED_STATE_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject across SSLC & HSSLC, Official Working Language & Medium of Instruction",YES,VERIFIED_COMPULSORY_MEDIUM
+hi,Hindi,Devanagari,U+0900 - U+097F,First Language Option in SSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE
+bn,Bengali,Bengali,U+0980 - U+09FF,First Language Option in SSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE
+as,Assamese,Assamese,"U+0980 - U+09FF (with U+09F0, U+09F1)",First Language Option in SSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE
+ne,Nepali,Devanagari,U+0900 - U+097F,First Language Option in SSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE
+lus,Mizo,Latin,U+0020 - U+007E,Approved Language Option under MBOSE,YES,VERIFIED_MIL_LANGUAGE

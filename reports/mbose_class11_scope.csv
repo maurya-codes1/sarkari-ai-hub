@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 11 (Higher Secondary Part-I),Intermediate foundational higher secondary stage
+administering_body,Meghalaya Board of School Education (MBOSE),Regulated under MBOSE Higher Secondary Framework
+terminal_public_exam,FALSE_INDEPENDENT_PROMOTION,Evaluated via board-moderated institutional annual examination
+dependency_rule,MBOSE_CLASS11_TO_CLASS12_DEPENDENCY,Mandatory qualification in Class 11 for enrollment into Class 12 HSSLC Final Year
+stream_continuity,ENFORCED,Selected stream and core subjects in Class 11 continue into Class 12
+streams_offered,"Science, Commerce, Arts / Humanities, Vocational",Officially recognized MBOSE streams
+full_exam_mode,STANDALONE_BLOCKED_UNLESS_ENROLLED,Curricular progression enforced

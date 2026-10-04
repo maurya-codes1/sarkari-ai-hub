@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+languages,Compulsory,ml-c12-english,English Core (Compulsory across all streams),Compulsory Language,280,205,75,100,0
+languages,Compulsory_MIL,ml-c12-mil-khasi,Modern Indian Language - Khasi (Ka Ktien Khasi),Compulsory/Elective MIL,280,205,75,100,0
+languages,Compulsory_MIL,ml-c12-mil-garo,Modern Indian Language - Garo (A·chik Ku·sik),Compulsory/Elective MIL,280,205,75,100,0
+languages,Compulsory_MIL,ml-c12-alt-english,Alternative English (HSSLC MBOSE),Compulsory/Elective MIL,280,205,75,100,0
+science,Core,ml-c12-physics,Physics (70 Theory + 30 Practical - HSSLC),Science Core,280,205,75,70,30
+science,Core,ml-c12-chemistry,Chemistry (70 Theory + 30 Practical - HSSLC),Science Core,280,205,75,70,30
+science,Core,ml-c12-biology,Biology (Botany & Zoology - 70 Theory + 30 Practical),Science Core,280,205,75,70,30
+science,Core,ml-c12-mathematics,Mathematics (80 Theory + 20 IA - HSSLC),Science Core,280,205,75,80,20
+science,Elective,ml-c12-computer-science,Computer Science (70 Theory + 30 Practical - HSSLC),Science Elective,280,205,75,70,30
+science,Elective,ml-c12-statistics,Statistics (70 Theory + 30 Practical - HSSLC),Science Elective,280,205,75,70,30
+commerce,Core,ml-c12-accountancy,Accountancy (80 Theory + 20 Project - HSSLC),Commerce Core,280,205,75,80,20
+commerce,Core,ml-c12-business-studies,Business Studies (80 Theory + 20 Project - HSSLC),Commerce Core,280,205,75,80,20
+commerce,Core,ml-c12-economics,Economics (80 Theory + 20 Project - HSSLC),Commerce Core,280,205,75,80,20
+commerce,Elective,ml-c12-entrepreneurship,Entrepreneurship (80 Theory + 20 Project - HSSLC),Commerce Elective,280,205,75,80,20
+commerce,Elective,ml-c12-commercial-mathematics,Business / Commercial Mathematics (80 Theory + 20 Project),Commerce Elective,280,205,75,80,20
+arts,Elective,ml-c12-political-science,Political Science (Themes in Indian Politics - 80 Theory + 20 Project),Humanities Elective,280,205,75,80,20
+arts,Elective,ml-c12-history,History (Themes in Indian History & Meghalaya Heritage),Humanities Elective,280,205,75,80,20
+arts,Elective,ml-c12-geography,Geography (Fundamentals & Regional - 70 Theory + 30 Practical),Humanities Elective,280,205,75,70,30
+arts,Elective,ml-c12-education,Education (Educational Principles & Psychological Foundations),Humanities Elective,280,205,75,80,20
+arts,Elective,ml-c12-sociology,Sociology (Indian Society & Social Change - 80 Theory + 20 Project),Humanities Elective,280,205,75,80,20
+arts,Elective,ml-c12-philosophy,Logic & Philosophy (80 Theory + 20 Project - HSSLC),Humanities Elective,280,205,75,80,20

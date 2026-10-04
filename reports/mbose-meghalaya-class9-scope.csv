@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 9,Non-terminal stage
+administering_body,Meghalaya Board of School Education (MBOSE),Regulated under MBOSE Secondary Framework
+terminal_public_exam,FALSE,Evaluated via continuous institutional assessment (CCE) at school level
+dependency_rule,MBOSE_CLASS9_TO_CLASS10_DEPENDENCY,School CCE promotion + Enrolment Return submission to MBOSE Tura/Shillong
+minimum_attendance,75%,Mandatory 75% attendance in Class 9 for SSLC registration eligibility
+full_exam_mode,BLOCKED,Full exam simulation prevented for Class 9; practice/revision permitted
+questions_ingested,0,Strict isolation: zero fake public board questions generated for Class 9
