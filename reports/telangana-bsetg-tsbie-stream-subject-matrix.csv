@@ -1,0 +1,5 @@
+stream_id,stream_name,subject_count,compulsory_subjects,elective_options,signature_disciplines,evaluation_framework
+science,TSBIE Intermediate Science (MPC & BiPC),6,"General English, Second Language","Maths IIA & IIB, Physics, Chemistry, Botany, Zoology",Mathematics IIA & IIB / Botany & Zoology,60 Th + 30 Pr (Lab) / 75 Th (Math) - 35% pass
+commerce,TSBIE Intermediate Commerce (CEC & MEC),5,"General English, Second Language","Commerce, Accountancy, Economics, Civics, Commercial Geography",Accountancy (Consignment/Partnership) & TS-iPASS Economics,100 Theory per paper - 35% pass
+humanities,TSBIE Intermediate Humanities (HEC),6,"General English, Second Language","History, Political Science, Geography, Sociology, Public Administration, Logic",Telangana Regional History (Kakatiyas to Statehood) & Dharani Public Admin,100 Theory per paper - 35% pass
+languages,TSBIE Intermediate Languages,4,Compulsory General English (Part I),"Telugu, Hindi, Urdu (Part II Options)",Classical Deccani Urdu & Telangana Telugu (Pothana to CiNaRe),100 Theory per paper - 35% pass

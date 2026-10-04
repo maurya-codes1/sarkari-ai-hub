@@ -1,0 +1,22 @@
+subject_id,subject_name,stream,lang_code,script,total_questions,mcqs,subjectives,theory_marks,practical_marks,theory_pass,practical_pass,reading_time_mins,writing_time_mins
+telangana-inter-physics,Physics (భౌతికశాస్త్రం),Science,en,Latin / Bilingual,280,205,75,60,30,21,11,15,180
+telangana-inter-chemistry,Chemistry (రసాయనశాస్త్రం),Science,en,Latin / Bilingual,280,205,75,60,30,21,11,15,180
+telangana-inter-mathematics-a,Mathematics IIA (గణితం 2A - Algebra & Probability),Science,en,Latin / Bilingual,280,205,75,75,0,26,0,15,180
+telangana-inter-mathematics-b,Mathematics IIB (గణితం 2B - Calculus & Geometry),Science,en,Latin / Bilingual,280,205,75,75,0,26,0,15,180
+telangana-inter-botany,Botany (వృక్షశాస్త్రం),Science,en,Latin / Bilingual,280,205,75,60,30,21,11,15,180
+telangana-inter-zoology,Zoology (జంతుశాస్త్రం),Science,en,Latin / Bilingual,280,205,75,60,30,21,11,15,180
+telangana-inter-commerce,Commerce & Business Organisation (వాణిజ్యశాస్త్రం),Commerce,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-accountancy,Accountancy (ఖాతా పుస్తకాలు & ముగింపు లెక్కలు),Commerce,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-economics,Economics (సాంఘిక ఆర్థికశాస్త్రం - Telangana Economy),Commerce,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-civics-commerce,Civics / Political Science (పౌరనీతి),Commerce,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-commercial-geography,Commercial Geography & Trade (వాణిజ్య భూగోళశాస్త్రం),Commerce,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-history,"History (చరిత్ర - Telangana History: Kakatiyas, Asaf Jahis, Armed Struggle)",Humanities,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-political-science,Political Science (రాజనీతిశాస్త్రం - Telangana Governance),Humanities,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-geography,"Geography (భూగోళశాస్త్రం - Godavari/Krishna Basins, Singareni SCCL)",Humanities,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-sociology,Sociology (సమాజశాస్త్రం - Telangana Tribal & Rural Heritage),Humanities,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-public-administration,Public Administration (ప్రజాపాలన - Secretariat & Dharani),Humanities,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-logic-psychology,Logic & Psychology (తర్కశాస్త్రం & మనోవిజ్ఞానశాస్త్రం),Humanities,en,Latin / Bilingual,280,205,75,100,0,35,0,15,180
+telangana-inter-telugu,Telugu Literature (తెలంగాణ తెలుగు సాహిత్యం - TSBIE),Languages,te,Telugu (U+0C00-U+0C7F),280,205,75,100,0,35,0,15,180
+telangana-inter-english,General English (Part I Compulsory - TSBIE Reader),Languages,en,Latin (U+0020-U+007E),280,205,75,100,0,35,0,15,180
+telangana-inter-hindi,Hindi Literature (द्वितीय भाषा हिन्दी साहित्य),Languages,hi,Devanagari (U+0900-U+097F),280,205,75,100,0,35,0,15,180
+telangana-inter-urdu,Urdu Literature (اردو ادب - دکنی اردو، کلیات قلی قطب شاہ),Languages,ur,Perso-Arabic (U+0600-U+06FF),280,205,75,100,0,35,0,15,180

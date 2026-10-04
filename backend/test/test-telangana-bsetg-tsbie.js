@@ -1,132 +1,141 @@
+/**
+ * Forensic Verification Test Suite for Board #31: Telangana
+ * Directorate of Government Examinations (BSE Telangana) +
+ * Telangana State Board of Intermediate Education (TSBIE)
+ * 
+ * Tests: 57 rigorous assertion checkpoints
+ */
+
 const fs = require('fs');
 const path = require('path');
 const assert = require('assert');
 const Database = require('better-sqlite3');
 
-const dbPath = path.join(__dirname, '../db/sarkari_core.db');
-const db = new Database(dbPath);
+const DB_PATH = path.join(__dirname, '../db/sarkari_core.db');
+const db = new Database(DB_PATH, { readonly: true });
 
-const BOARD_ID = 'kerala-general-scert-dhse';
-const dictPath = path.join(__dirname, '../../data/boards/kerala-general-scert-dhse.json');
+const BOARD_ID = 'telangana-bsetg-tsbie';
+const dictPath = path.join(__dirname, '../../data/boards/telangana-bsetg-tsbie.json');
 const dict = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
-
-console.log('================================================================');
-console.log('🧪 SARKARIAI HUB — BOARD #30 KERALA (DGE / SCERT / PAREEKSHA BHAVAN / DHSE) VERIFICATION SUITE');
-console.log('================================================================\n');
 
 let passedTests = 0;
 let failedTests = 0;
 
-function runTest(testNum, testName, fn) {
+function runTest(testNumber, description, fn) {
   try {
     fn();
-    console.log(`✅ [${testNum}/57] ${testName}: PASSED`);
+    console.log(`[PASS] Test ${testNumber}: ${description}`);
     passedTests++;
   } catch (err) {
-    console.error(`❌ [${testNum}/57] ${testName}: FAILED -> ${err.message}`);
+    console.error(`[FAIL] Test ${testNumber}: ${description}`);
+    console.error(`       Error: ${err.message}`);
     failedTests++;
   }
 }
 
-// 1. Board identity isolation
-runTest(1, 'Kerala board identity isolation (kerala-general-scert-dhse dictionary and database separation)', () => {
-  assert.strictEqual(dict.board_id, 'kerala-general-scert-dhse');
-  assert.strictEqual(dict.short_name, 'Kerala DGE / DHSE');
-  assert.strictEqual(dict.state, 'Kerala');
-  assert.strictEqual(dict.official_website, 'https://education.kerala.gov.in/');
-  assert.strictEqual(dict.official_result_url, 'https://keralaresults.nic.in/');
-  
-  const bRow = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(BOARD_ID);
-  assert.ok(bRow, 'Board record must exist in DB');
-  assert.strictEqual(bRow.board_id, 'kerala-general-scert-dhse');
-});
+console.log('================================================================');
+console.log('🔍 RUNNING FORENSIC AUDIT: BOARD #31 — TELANGANA (BSE & TSBIE)');
+console.log('================================================================\n');
 
-// 2. Kerala DGE / GED authority verification
-runTest(2, 'Kerala DGE / GED apex department authority verification (org-kl-gov-ged)', () => {
-  const org = db.prepare('SELECT * FROM organizations WHERE organization_id = ?').get('org-kl-gov-ged');
-  assert.ok(org, 'DGE organization must exist');
-  assert.strictEqual(org.state_or_ut, 'Kerala');
-  assert.strictEqual(org.type, 'GOVERNMENT_DEPARTMENT');
-});
-
-// 3. SCERT Kerala curriculum body verification
-runTest(3, 'SCERT Kerala curriculum research body verification (org-kl-scert)', () => {
-  const org = db.prepare('SELECT * FROM organizations WHERE organization_id = ?').get('org-kl-scert');
-  assert.ok(org, 'SCERT Kerala organization must exist');
-  assert.strictEqual(org.type, 'ACADEMIC_RESEARCH');
-  assert.strictEqual(org.official_website, 'https://scert.kerala.gov.in/');
-});
-
-// 4. Kerala Pareeksha Bhavan SSLC authority verification
-runTest(4, 'Kerala Pareeksha Bhavan SSLC examination authority verification (org-kl-pareeksha-bhavan)', () => {
-  const org = db.prepare('SELECT * FROM organizations WHERE organization_id = ?').get('org-kl-pareeksha-bhavan');
-  assert.ok(org, 'Pareeksha Bhavan organization must exist');
-  assert.strictEqual(org.type, 'EXAM_BOARD');
-  assert.strictEqual(org.official_website, 'https://pareekshabhavan.kerala.gov.in/');
-});
-
-// 5. Kerala DHSE Higher Secondary authority verification
-runTest(5, 'Kerala DHSE Higher Secondary examination authority verification (org-kl-dhse)', () => {
-  const org = db.prepare('SELECT * FROM organizations WHERE organization_id = ?').get('org-kl-dhse');
-  assert.ok(org, 'DHSE Kerala organization must exist');
-  assert.strictEqual(org.type, 'EXAM_BOARD');
-  assert.strictEqual(org.official_website, 'https://dhsekerala.gov.in/');
-});
-
-// 6. Aliases in boards table
-runTest(6, 'Kerala aliases in boards table (kerala-general-scert-dhse, kerala-board, kerala-dhse, kerala-sslc, kerala-pareeksha-bhavan)', () => {
-  const aliases = ['kerala-general-scert-dhse', 'kerala-board', 'kerala-dhse', 'kerala-sslc', 'kerala-pareeksha-bhavan'];
-  for (const a of aliases) {
-    const row = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(a);
-    assert.ok(row, `Board alias ${a} must exist`);
+// 1. Organization Registration
+runTest(1, 'Organization Registration (SED, SCERT, BSE, TSBIE)', () => {
+  const orgs = ['org-tg-gov-sed', 'org-tg-scert', 'org-tg-bse', 'org-tg-tsbie'];
+  for (const orgId of orgs) {
+    const row = db.prepare('SELECT * FROM organizations WHERE organization_id = ?').get(orgId);
+    assert.ok(row, `Organization ${orgId} must be registered in organizations table`);
+    assert.strictEqual(row.state_or_ut, 'Telangana');
   }
 });
 
-// 7. Statutory official sources verification
-runTest(7, 'Statutory official sources verification (5 registered sources)', () => {
-  const sources = [
-    'src-kl-education-dept',
-    'src-kl-scert',
-    'src-kl-pareeksha-bhavan',
-    'src-kl-dhse',
-    'src-kl-results'
+// 2. Primary Board Registration
+runTest(2, 'Primary Board Registration (telangana-bsetg-tsbie)', () => {
+  const b = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(BOARD_ID);
+  assert.ok(b, 'Board telangana-bsetg-tsbie must exist in boards table');
+  assert.strictEqual(b.board_type, 'State');
+  assert.strictEqual(b.jurisdiction, 'State');
+  assert.strictEqual(b.active, 1);
+});
+
+// 3. Primary and Alias Board IDs
+runTest(3, 'Primary and Alias Board IDs registered in boards table (6 total)', () => {
+  const aliases = [
+    'telangana-bsetg-tsbie',
+    'telangana-board',
+    'telangana-tsbie',
+    'telangana-bsetg',
+    'bsetg-board',
+    'tsbie-board'
   ];
-  for (const sId of sources) {
-    const row = db.prepare('SELECT * FROM official_sources WHERE source_id = ?').get(sId);
-    assert.ok(row, `Source ${sId} must exist in official_sources`);
+  for (const a of aliases) {
+    const row = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(a);
+    assert.ok(row, `Board or alias ${a} must exist in boards table`);
+  }
+});
+
+// 4. Official Sources Registration
+runTest(4, 'Official Sources Registration (5 statutory sources)', () => {
+  const sources = [
+    'src-tg-bse',
+    'src-tg-tsbie',
+    'src-tg-scert',
+    'src-tg-education-dept',
+    'src-tg-results'
+  ];
+  for (const s of sources) {
+    const row = db.prepare('SELECT * FROM official_sources WHERE source_id = ?').get(s);
+    assert.ok(row, `Source ${s} must exist in official_sources`);
+    assert.strictEqual(row.source_hierarchy_level, 'PRIMARY_STATUTORY');
     assert.strictEqual(row.verification_status, 'VERIFIED');
   }
 });
 
-// 8. Class 10 SSLC question distribution
-runTest(8, 'Class 10 SSLC question distribution (10 subjects x 280 = 2,800)', () => {
+// 5. Primary Subjects Registration
+runTest(5, 'Primary Subjects Registration (exactly 31 subjects)', () => {
+  const count = db.prepare("SELECT COUNT(*) as cnt FROM subjects WHERE subject_id LIKE 'telangana-%'").get().cnt;
+  assert.strictEqual(count, 31, 'Must have exactly 31 primary subjects registered for Telangana');
+});
+
+// 6. Class 10 Subject Count
+runTest(6, 'Class 10 Subject Count (exactly 10 subjects)', () => {
+  const count = db.prepare("SELECT COUNT(*) as cnt FROM subjects WHERE subject_id LIKE 'telangana-ssc-%'").get().cnt;
+  assert.strictEqual(count, 10, 'Must have exactly 10 subjects for Class 10 (SSC)');
+});
+
+// 7. Class 12 Subject Count
+runTest(7, 'Class 12 Subject Count (exactly 21 subjects)', () => {
+  const count = db.prepare("SELECT COUNT(*) as cnt FROM subjects WHERE subject_id LIKE 'telangana-inter-%'").get().cnt;
+  assert.strictEqual(count, 21, 'Must have exactly 21 subjects for Class 12 (Inter 2nd Year)');
+});
+
+// 8. Class 10 Subject Question Distribution
+runTest(8, 'Class 10 Subject Question Distribution (10 subjects x 280 = 2,800)', () => {
   const expectedC10 = [
-    'kerala-sslc-malayalam-1',
-    'kerala-sslc-malayalam-2',
-    'kerala-sslc-english',
-    'kerala-sslc-hindi',
-    'kerala-sslc-mathematics',
-    'kerala-sslc-physics',
-    'kerala-sslc-chemistry',
-    'kerala-sslc-biology',
-    'kerala-sslc-social-science',
-    'kerala-sslc-information-technology'
+    'telangana-ssc-first-language-telugu',
+    'telangana-ssc-second-language-hindi',
+    'telangana-ssc-third-language-english',
+    'telangana-ssc-mathematics',
+    'telangana-ssc-physical-science',
+    'telangana-ssc-biological-science',
+    'telangana-ssc-social-studies',
+    'telangana-ssc-first-language-urdu',
+    'telangana-ssc-telangana-heritage',
+    'telangana-ssc-information-technology'
   ];
   for (const sId of expectedC10) {
     const row = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, sId);
-    assert.strictEqual(row.cnt, 280, `SSLC subject ${sId} must have exactly 280 questions`);
+    assert.strictEqual(row.cnt, 280, `Class 10 subject ${sId} must have exactly 280 questions`);
   }
 });
 
 // 9. Class 12 Science stream question distribution
 runTest(9, 'Class 12 Science stream question distribution (6 subjects x 280 = 1,680)', () => {
   const expectedSci = [
-    'kerala-c12-physics',
-    'kerala-c12-chemistry',
-    'kerala-c12-mathematics',
-    'kerala-c12-biology',
-    'kerala-c12-computer-science',
-    'kerala-c12-geology'
+    'telangana-inter-mathematics-a',
+    'telangana-inter-mathematics-b',
+    'telangana-inter-physics',
+    'telangana-inter-chemistry',
+    'telangana-inter-botany',
+    'telangana-inter-zoology'
   ];
   for (const sId of expectedSci) {
     const row = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, sId);
@@ -137,11 +146,11 @@ runTest(9, 'Class 12 Science stream question distribution (6 subjects x 280 = 1,
 // 10. Class 12 Commerce stream question distribution
 runTest(10, 'Class 12 Commerce stream question distribution (5 subjects x 280 = 1,400)', () => {
   const expectedCom = [
-    'kerala-c12-accountancy',
-    'kerala-c12-business-studies',
-    'kerala-c12-economics-commerce',
-    'kerala-c12-computer-applications-commerce',
-    'kerala-c12-business-mathematics'
+    'telangana-inter-commerce',
+    'telangana-inter-accountancy',
+    'telangana-inter-economics',
+    'telangana-inter-civics-commerce',
+    'telangana-inter-commercial-geography'
   ];
   for (const sId of expectedCom) {
     const row = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, sId);
@@ -152,12 +161,12 @@ runTest(10, 'Class 12 Commerce stream question distribution (5 subjects x 280 = 
 // 11. Class 12 Humanities stream question distribution
 runTest(11, 'Class 12 Humanities stream question distribution (6 subjects x 280 = 1,680)', () => {
   const expectedHum = [
-    'kerala-c12-history',
-    'kerala-c12-political-science',
-    'kerala-c12-geography',
-    'kerala-c12-sociology',
-    'kerala-c12-journalism',
-    'kerala-c12-psychology'
+    'telangana-inter-history',
+    'telangana-inter-political-science',
+    'telangana-inter-geography',
+    'telangana-inter-sociology',
+    'telangana-inter-public-administration',
+    'telangana-inter-logic-psychology'
   ];
   for (const sId of expectedHum) {
     const row = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, sId);
@@ -168,10 +177,10 @@ runTest(11, 'Class 12 Humanities stream question distribution (6 subjects x 280 
 // 12. Class 12 Language stream question distribution
 runTest(12, 'Class 12 Language stream question distribution (4 subjects x 280 = 1,120)', () => {
   const expectedLang = [
-    'kerala-c12-malayalam',
-    'kerala-c12-english',
-    'kerala-c12-hindi',
-    'kerala-c12-arabic'
+    'telangana-inter-telugu',
+    'telangana-inter-english',
+    'telangana-inter-hindi',
+    'telangana-inter-urdu'
   ];
   for (const sId of expectedLang) {
     const row = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, sId);
@@ -179,35 +188,39 @@ runTest(12, 'Class 12 Language stream question distribution (4 subjects x 280 = 
   }
 });
 
-// 13. Class 12 Geology signature subject verification
-runTest(13, 'Class 12 Geology signature subject verification (kerala-c12-geology)', () => {
-  const s = db.prepare("SELECT * FROM subjects WHERE subject_id = 'kerala-c12-geology'").get();
+// 13. Class 12 Mathematics IIA and IIB signature bifocal subjects verification
+runTest(13, 'Class 12 Mathematics IIA & IIB signature bifocal subjects verification', () => {
+  for (const sId of ['telangana-inter-mathematics-a', 'telangana-inter-mathematics-b']) {
+    const s = db.prepare("SELECT * FROM subjects WHERE subject_id = ?").get(sId);
+    assert.ok(s, `Subject ${sId} must exist in subjects table`);
+    const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = ?").get(sId).cnt;
+    assert.strictEqual(qCount, 280);
+  }
+});
+
+// 14. Class 12 Botany and Zoology signature split biology subjects verification
+runTest(14, 'Class 12 Botany and Zoology signature split biology subjects verification', () => {
+  for (const sId of ['telangana-inter-botany', 'telangana-inter-zoology']) {
+    const s = db.prepare("SELECT * FROM subjects WHERE subject_id = ?").get(sId);
+    assert.ok(s, `Subject ${sId} must exist in subjects table`);
+    const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = ?").get(sId).cnt;
+    assert.strictEqual(qCount, 280);
+  }
+});
+
+// 15. Class 12 Public Administration signature governance subject verification (telangana-inter-public-administration)
+runTest(15, 'Class 12 Public Administration signature governance subject verification (telangana-inter-public-administration)', () => {
+  const s = db.prepare("SELECT * FROM subjects WHERE subject_id = 'telangana-inter-public-administration'").get();
   assert.ok(s, 'Subject must exist in subjects table');
-  const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = 'kerala-c12-geology'").get().cnt;
+  const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = 'telangana-inter-public-administration'").get().cnt;
   assert.strictEqual(qCount, 280);
 });
 
-// 14. Class 12 Journalism signature subject verification
-runTest(14, 'Class 12 Journalism & Mass Communication signature subject verification (kerala-c12-journalism)', () => {
-  const s = db.prepare("SELECT * FROM subjects WHERE subject_id = 'kerala-c12-journalism'").get();
+// 16. Class 10 Telangana Heritage signature cultural subject verification (telangana-ssc-telangana-heritage)
+runTest(16, 'Class 10 Telangana Heritage signature cultural subject verification (telangana-ssc-telangana-heritage)', () => {
+  const s = db.prepare("SELECT * FROM subjects WHERE subject_id = 'telangana-ssc-telangana-heritage'").get();
   assert.ok(s, 'Subject must exist in subjects table');
-  const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = 'kerala-c12-journalism'").get().cnt;
-  assert.strictEqual(qCount, 280);
-});
-
-// 15. Class 12 Classical Arabic signature subject verification
-runTest(15, 'Class 12 Classical Arabic signature subject verification (kerala-c12-arabic)', () => {
-  const s = db.prepare("SELECT * FROM subjects WHERE subject_id = 'kerala-c12-arabic'").get();
-  assert.ok(s, 'Subject must exist in subjects table');
-  const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = 'kerala-c12-arabic'").get().cnt;
-  assert.strictEqual(qCount, 280);
-});
-
-// 16. Class 12 Computer Applications in Commerce signature discipline verification
-runTest(16, 'Class 12 Computer Applications in Commerce signature discipline verification (kerala-c12-computer-applications-commerce)', () => {
-  const s = db.prepare("SELECT * FROM subjects WHERE subject_id = 'kerala-c12-computer-applications-commerce'").get();
-  assert.ok(s, 'Subject must exist in subjects table');
-  const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = 'kerala-c12-computer-applications-commerce'").get().cnt;
+  const qCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE subject_id = 'telangana-ssc-telangana-heritage'").get().cnt;
   assert.strictEqual(qCount, 280);
 });
 
@@ -226,14 +239,14 @@ runTest(18, 'Class 11 continuous evaluation public exam verification (Contribute
   assert.strictEqual(qCount, 0, 'No separate isolated questions in questions table for Class 11');
 });
 
-// 19. Total Kerala questions count
-runTest(19, 'Total Kerala questions count (exactly 8,680)', () => {
+// 19. Total Telangana questions count
+runTest(19, 'Total Telangana questions count (exactly 8,680)', () => {
   const total = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
   assert.strictEqual(total, 8680, 'Must have exactly 8,680 questions');
 });
 
-// 20. Total Kerala question_versions count
-runTest(20, 'Total Kerala question_versions count (exactly 8,680)', () => {
+// 20. Total Telangana question_versions count
+runTest(20, 'Total Telangana question_versions count (exactly 8,680)', () => {
   const total = db.prepare(`
     SELECT COUNT(*) as cnt FROM question_versions qv
     JOIN questions q ON q.question_id = qv.question_id
@@ -357,8 +370,8 @@ runTest(29, 'Full exam eligible flag verification (1 for MCQs, 0 for Subjectives
 });
 
 // 30. Provenance tag verification
-runTest(30, 'Provenance tag verification (OFFICIAL_KERALA_CURRICULUM_BANK across all questions)', () => {
-  const count = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND provenance = 'OFFICIAL_KERALA_CURRICULUM_BANK'").get(BOARD_ID).cnt;
+runTest(30, 'Provenance tag verification (OFFICIAL_TELANGANA_CURRICULUM_BANK across all questions)', () => {
+  const count = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND provenance = 'OFFICIAL_TELANGANA_CURRICULUM_BANK'").get(BOARD_ID).cnt;
   assert.strictEqual(count, 8680);
 });
 
@@ -405,9 +418,9 @@ runTest(37, 'Published flag verification (is_published = 1 across all questions)
 });
 
 // 38. Source ID binding verification
-runTest(38, 'Source ID binding verification (src-kl-pareeksha-bhavan for C10, src-kl-dhse for C12)', () => {
-  const c10Count = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 10' AND source_id = 'src-kl-pareeksha-bhavan'").get(BOARD_ID).cnt;
-  const c12Count = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 12' AND source_id = 'src-kl-dhse'").get(BOARD_ID).cnt;
+runTest(38, 'Source ID binding verification (src-tg-bse for C10, src-tg-tsbie for C12)', () => {
+  const c10Count = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 10' AND source_id = 'src-tg-bse'").get(BOARD_ID).cnt;
+  const c12Count = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 12' AND source_id = 'src-tg-tsbie'").get(BOARD_ID).cnt;
   assert.strictEqual(c10Count, 2800);
   assert.strictEqual(c12Count, 5880);
 });
@@ -480,18 +493,18 @@ runTest(44, 'Valid JSON verification in correct_answer', () => {
 
 // 45. Master Bundled Study Notes count
 runTest(45, 'Master Bundled Study Notes count (exactly 5 notes)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM notes WHERE note_id LIKE 'note-kl-%'").get().cnt;
-  assert.strictEqual(cnt, 5, 'Must have exactly 5 master bundled study notes for Kerala');
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM notes WHERE note_id LIKE 'note-tg-%'").get().cnt;
+  assert.strictEqual(cnt, 5, 'Must have exactly 5 master bundled study notes for Telangana');
 });
 
 // 46. Note IDs pattern verification
 runTest(46, 'Note IDs pattern verification', () => {
   const expectedNotes = [
-    'note-kl-sslc-all-subjects',
-    'note-kl-c12-science',
-    'note-kl-c12-commerce',
-    'note-kl-c12-humanities',
-    'note-kl-c12-languages'
+    'note-tg-ssc-all-subjects',
+    'note-tg-c12-science',
+    'note-tg-c12-commerce',
+    'note-tg-c12-humanities',
+    'note-tg-c12-languages'
   ];
   for (const nId of expectedNotes) {
     const row = db.prepare('SELECT * FROM notes WHERE note_id = ?').get(nId);
@@ -501,7 +514,7 @@ runTest(46, 'Note IDs pattern verification', () => {
 
 // 47. Note type verification
 runTest(47, 'Note type verification (SYLLABUS_REVISION_BUNDLE)', () => {
-  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-kl-%'").all();
+  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-tg-%'").all();
   for (const r of rows) {
     assert.strictEqual(r.note_type, 'SYLLABUS_REVISION_BUNDLE');
   }
@@ -509,7 +522,7 @@ runTest(47, 'Note type verification (SYLLABUS_REVISION_BUNDLE)', () => {
 
 // 48. Note verification status
 runTest(48, 'Note verification status (VERIFIED)', () => {
-  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-kl-%'").all();
+  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-tg-%'").all();
   for (const r of rows) {
     assert.strictEqual(r.verification_status, 'VERIFIED');
   }
@@ -517,23 +530,23 @@ runTest(48, 'Note verification status (VERIFIED)', () => {
 
 // 49. Note content depth
 runTest(49, 'Note content depth (COMPREHENSIVE)', () => {
-  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-kl-%'").all();
+  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-tg-%'").all();
   for (const r of rows) {
     assert.strictEqual(r.content_depth, 'COMPREHENSIVE');
   }
 });
 
 // 50. Note provenance tag
-runTest(50, 'Note provenance tag (OFFICIAL_KERALA_CURRICULUM)', () => {
-  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-kl-%'").all();
+runTest(50, 'Note provenance tag (OFFICIAL_TELANGANA_CURRICULUM)', () => {
+  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-tg-%'").all();
   for (const r of rows) {
-    assert.strictEqual(r.provenance, 'OFFICIAL_KERALA_CURRICULUM');
+    assert.strictEqual(r.provenance, 'OFFICIAL_TELANGANA_CURRICULUM');
   }
 });
 
 // 51. Note priority tier
 runTest(51, 'Note priority tier (HIGH)', () => {
-  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-kl-%'").all();
+  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-tg-%'").all();
   for (const r of rows) {
     assert.strictEqual(r.priority_tier, 'HIGH');
   }
@@ -541,48 +554,48 @@ runTest(51, 'Note priority tier (HIGH)', () => {
 
 // 52. Note minimum length
 runTest(52, 'Note minimum length (>= 1,000 characters for each note)', () => {
-  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-kl-%'").all();
+  const rows = db.prepare("SELECT * FROM notes WHERE note_id LIKE 'note-tg-%'").all();
   for (const r of rows) {
     assert.ok(r.content.length >= 1000, `Note ${r.note_id} must have >= 1,000 chars (got ${r.content.length})`);
   }
 });
 
 // 53. Canonical dictionary file verification
-runTest(53, 'Canonical dictionary file verification (data/boards/kerala-general-scert-dhse.json)', () => {
+runTest(53, 'Canonical dictionary file verification (data/boards/telangana-bsetg-tsbie.json)', () => {
   assert.ok(fs.existsSync(dictPath), 'Canonical dictionary file must exist');
   const d = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
-  assert.strictEqual(d.board_id, 'kerala-general-scert-dhse');
+  assert.strictEqual(d.board_id, 'telangana-bsetg-tsbie');
 });
 
 // 54. Alias dictionary file verification
-runTest(54, 'Alias dictionary file verification (data/boards/kerala.json)', () => {
-  const aliasPath = path.join(__dirname, '../../data/boards/kerala.json');
+runTest(54, 'Alias dictionary file verification (data/boards/telangana.json)', () => {
+  const aliasPath = path.join(__dirname, '../../data/boards/telangana.json');
   assert.ok(fs.existsSync(aliasPath), 'Alias dictionary file must exist');
   const d = JSON.parse(fs.readFileSync(aliasPath, 'utf8'));
-  assert.strictEqual(d.board_id, 'kerala-general-scert-dhse');
+  assert.strictEqual(d.board_id, 'telangana-bsetg-tsbie');
 });
 
 // 55. Report files generation verification
 runTest(55, 'Report files generation verification (all 14 reports exist in reports/)', () => {
   const reports = [
-    'kerala-general-scert-dhse-class9-scope.csv',
-    'kerala-general-scert-dhse-class10-matrix.csv',
-    'board30_kerala_class10_matrix.csv',
-    'kerala-general-scert-dhse-class11-scope.csv',
-    'kerala-general-scert-dhse-class12-matrix.csv',
-    'board30_kerala_class12_matrix.csv',
-    'kerala-general-scert-dhse-stream-subject-matrix.csv',
-    'kerala-general-scert-dhse-language-matrix.csv',
-    'board30_kerala_language_matrix.csv',
-    'kerala-general-scert-dhse-subjective-matrix.csv',
-    'kerala-general-scert-dhse-pyq-matrix.csv',
-    'kerala-general-scert-dhse-registration-matrix.csv',
-    'kerala-general-scert-dhse-pattern-matrix.csv',
-    'kerala-general-scert-dhse-dependency-matrix.csv',
-    'kerala-general-scert-dhse-open-school-matrix.csv',
-    'kerala-general-scert-dhse-database-impact.csv',
-    'kerala-general-scert-dhse-audit-full-summary.md',
-    'board30_kerala_audit_full_summary.md'
+    'telangana-bsetg-tsbie-class9-scope.csv',
+    'telangana-bsetg-tsbie-class10-matrix.csv',
+    'board31_telangana_class10_matrix.csv',
+    'telangana-bsetg-tsbie-class11-scope.csv',
+    'telangana-bsetg-tsbie-class12-matrix.csv',
+    'board31_telangana_class12_matrix.csv',
+    'telangana-bsetg-tsbie-stream-subject-matrix.csv',
+    'telangana-bsetg-tsbie-language-matrix.csv',
+    'board31_telangana_language_matrix.csv',
+    'telangana-bsetg-tsbie-subjective-matrix.csv',
+    'telangana-bsetg-tsbie-pyq-matrix.csv',
+    'telangana-bsetg-tsbie-registration-matrix.csv',
+    'telangana-bsetg-tsbie-pattern-matrix.csv',
+    'telangana-bsetg-tsbie-dependency-matrix.csv',
+    'telangana-bsetg-tsbie-open-school-matrix.csv',
+    'telangana-bsetg-tsbie-database-impact.csv',
+    'telangana-bsetg-tsbie-audit-full-summary.md',
+    'board31_telangana_audit_full_summary.md'
   ];
   const repDir = path.join(__dirname, '../../reports');
   for (const rf of reports) {
@@ -592,10 +605,10 @@ runTest(55, 'Report files generation verification (all 14 reports exist in repor
 
 // 56. Pre- and Post-mutation database backups and SHA-256 hashes verification
 runTest(56, 'Pre- and Post-mutation database backups and SHA-256 hashes verification', () => {
-  const preDb = path.join(__dirname, '../db/sarkari_core_pre_kerala-general-scert-dhse.db');
-  const postDb = path.join(__dirname, '../db/sarkari_core_post_kerala-general-scert-dhse.db');
-  const preSha = path.join(__dirname, '../db/sarkari_core_pre_kerala-general-scert-dhse.sha256');
-  const postSha = path.join(__dirname, '../db/sarkari_core_post_kerala-general-scert-dhse.sha256');
+  const preDb = path.join(__dirname, '../db/sarkari_core_pre_telangana-bsetg-tsbie.db');
+  const postDb = path.join(__dirname, '../db/sarkari_core_post_telangana-bsetg-tsbie.db');
+  const preSha = path.join(__dirname, '../db/sarkari_core_pre_telangana-bsetg-tsbie.sha256');
+  const postSha = path.join(__dirname, '../db/sarkari_core_post_telangana-bsetg-tsbie.sha256');
   
   assert.ok(fs.existsSync(preDb), 'Pre-mutation backup DB must exist');
   assert.ok(fs.existsSync(postDb), 'Post-mutation backup DB must exist');
@@ -610,16 +623,16 @@ runTest(56, 'Pre- and Post-mutation database backups and SHA-256 hashes verifica
 });
 
 // 57. Cumulative question count integrity
-runTest(57, 'Cumulative question count integrity (at least 268,230 total questions in DB, 259,550 baseline accounted for)', () => {
+runTest(57, 'Cumulative question count integrity (276,910 total questions in DB, 268,230 baseline accounted for)', () => {
   const total = db.prepare('SELECT COUNT(*) as cnt FROM questions').get().cnt;
-  assert.ok(total >= 268230, `Grand total questions must be at least 268,230 (got ${total})`);
+  assert.strictEqual(total, 276910, 'Grand total questions must be exactly 276,910 (268,230 + 8,680)');
   
-  const klQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
-  assert.strictEqual(klQuestions, 8680, 'Kerala questions must be exactly 8,680');
+  const tgQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
+  assert.strictEqual(tgQuestions, 8680, 'Telangana questions must be exactly 8,680');
   
-  const priorBoards = 244160;
+  const priorBoards = 252840;
   const compBaseline = 15390;
-  assert.strictEqual(priorBoards + compBaseline + klQuestions, 268230, 'Exact baseline decomposition verified');
+  assert.strictEqual(priorBoards + compBaseline + tgQuestions, 276910, 'Exact baseline decomposition verified');
 });
 
 console.log('\n================================================================');
@@ -627,7 +640,7 @@ console.log(`📊 TEST SUITE SUMMARY: ${passedTests}/57 PASSED, ${failedTests} F
 console.log('================================================================');
 
 if (failedTests === 0) {
-  console.log('🎉 100% SUCCESS: All Kerala (DGE / SCERT / Pareeksha Bhavan / DHSE) Forensic Integrity Tests Passed.\n');
+  console.log('🎉 100% SUCCESS: All Telangana (BSE Telangana & TSBIE) Forensic Integrity Tests Passed.\n');
   process.exit(0);
 } else {
   console.error(`💥 FAILURE: ${failedTests} tests failed.`);

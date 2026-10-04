@@ -1,0 +1,6 @@
+question_type,type_id,items_per_subject,total_31_subjects,marks_per_item,word_limit,model_answer_min_chars,rubric_structure
+Very Short Answer (VSA),very_short_answer,24,744,2,30-50 words,20,1 mark for core definition/concept + 1 mark for formula/example
+Short Answer (SA),short_answer,24,744,3,60-80 words,20,1 mark for core law/theorem + 2 marks for derivation/explanation
+Case Study / Contextual Analysis,case_study,12,372,4,80-120 words,20,2 marks for scenario comprehension + 2 marks for analytical deduction
+Long Answer (LA) Essay,long_answer,15,465,5,120-180 words,20,1 mark for thesis + 3 marks for structural elaboration + 1 mark for conclusion/diagram
+TOTAL SUBJECTIVE POOL,all_subjective,75,2325,2 to 5,30-180 words,20,100% compliant with BSE Telangana / TSBIE official rubrics

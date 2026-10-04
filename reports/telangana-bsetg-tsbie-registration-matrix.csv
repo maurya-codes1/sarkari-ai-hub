@@ -1,0 +1,5 @@
+stage,candidate_category,eligibility_criteria,min_attendance,portal_url,fee_structure,mandatory_documents
+Class 10 SSC,Regular Candidate,Passed Class 9 annual school evaluation with requisite attendance,75,https://bse.telangana.gov.in/,Nominal Board Examination Fee as notified by DGE,"Class 9 Mark Card, Child Info ID, Birth Certificate, Aadhaar"
+Class 10 SSC,Advanced Supplementary Candidate,Failed candidates / Grade E improvement,N/A,https://bse.telangana.gov.in/,Prescribed Supplementary Fee per paper,Original SSC Hall Ticket and Marks Memo
+Class 12 Intermediate,Regular Candidate,Qualified Intermediate 1st Year (Junior Inter) and completed 2nd Year coursework,75,https://tsbie.cgg.gov.in/,Standard TSBIE Examination Fee as notified,"1st Year IPE Marks Memo, College Enrolment ID, Aadhaar"
+Class 12 Intermediate,IPA (Improvement/Supplementary) Candidate,Appeared for regular IPE and seeking improvement or subject clearance,N/A,https://tsbie.cgg.gov.in/,Prescribed Improvement / Supplementary Fee per paper,Original IPE Hall Ticket and Result Slip

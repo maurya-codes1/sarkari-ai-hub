@@ -1,0 +1,8 @@
+stage,stream,subject_type,board_theory_marks,practical_marks,formative_internal_marks,total_marks,passing_threshold,reading_time_mins,exam_duration_hours
+Class 10 SSC,General,"All Subjects (Telugu, Hindi, Eng, Math, Social, Urdu, Heritage, IT)",80,0,20,100,35% combined (min 28/80 in board exam),15,3.0
+Class 10 SSC,General,Science Papers (Physical Science 50 + Biological Science 50),80,0,20,100,35% combined (min 28/80 in board exam),15,2.0
+Class 12 Intermediate,Science,"Lab Subjects (Physics, Chemistry, Botany, Zoology)",60,30,0,90,35% in theory (21/60) & practical (11/30),15,3.0
+Class 12 Intermediate,Science,Mathematics (Maths IIA & Maths IIB),75,0,0,75,35% in theory (26/75),15,3.0
+Class 12 Intermediate,Commerce,"Commerce, Accountancy, Economics, Civics, Geography",100,0,0,100,35% in theory (35/100),15,3.0
+Class 12 Intermediate,Humanities,"History, Political Science, Geography, Sociology, Pub Admin, Logic",100,0,0,100,35% in theory (35/100),15,3.0
+Class 12 Intermediate,Languages,"General English, Telugu, Hindi, Urdu",100,0,0,100,35% in theory (35/100),15,3.0

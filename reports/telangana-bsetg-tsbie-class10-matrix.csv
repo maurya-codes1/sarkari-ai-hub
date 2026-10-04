@@ -1,0 +1,11 @@
+subject_id,subject_name,category,lang_code,script,total_questions,mcqs,subjectives,sa_theory_marks,fa_marks,total_marks,reading_time_mins,writing_time_mins
+telangana-ssc-first-language-telugu,First Language Telugu (తెలుగు - సింగిడి 2 / తెలుగు వాచకం),First Language,te,Telugu (U+0C00-U+0C7F),280,205,75,80,20,100,15,180
+telangana-ssc-second-language-hindi,Second Language Hindi (द्वितीय भाषा हिन्दी),Second Language,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,100,15,180
+telangana-ssc-third-language-english,Third Language English (Our World through English),Third Language,en,Latin (U+0020-U+007E),280,205,75,80,20,100,15,180
+telangana-ssc-mathematics,Mathematics (గణితం - SCERT Telangana),Core Discipline,en,Latin / Bilingual Math,280,205,75,80,20,100,15,180
+telangana-ssc-physical-science,Physical Science (భౌతిక రసాయన శాస్త్రాలు - Physics & Chemistry),Core Science,en,Latin / Bilingual,280,205,75,80,20,100,15,180
+telangana-ssc-biological-science,Biological Science (జీవ శాస్త్రం - Biology),Core Science,en,Latin / Bilingual,280,205,75,80,20,100,15,180
+telangana-ssc-social-studies,"Social Studies (సాంఘిక శాస్త్రం - Telangana Geography, History, Movement)",Core Social,en,Latin / Bilingual,280,205,75,80,20,100,15,180
+telangana-ssc-first-language-urdu,First Language Urdu (اردو - Telangana Official Language),First Language Option,ur,Perso-Arabic (U+0600-U+06FF),280,205,75,80,20,100,15,180
+telangana-ssc-telangana-heritage,"Telangana History, Culture & Heritage (తెలంగాణ సంస్కృతి & వారసత్వం)",Heritage Core,en,Latin / Bilingual,280,205,75,80,20,100,15,180
+telangana-ssc-information-technology,Information Technology & Digital Literacy (కంప్యూటర్ సైన్స్),Skill / Vocational,en,Latin (U+0020-U+007E),280,205,75,80,20,100,15,180

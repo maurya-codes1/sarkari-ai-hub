@@ -1,0 +1,218 @@
+{
+  "board_id": "telangana-bsetg-tsbie",
+  "board_name": "Telangana School Board Ecosystem (BSE Telangana & TSBIE)",
+  "short_name": "Telangana BSE / TSBIE",
+  "official_abbreviation": "BSETG / TSBIE",
+  "authority_id": "org-tg-gov-sed",
+  "authority_name": "School Education Department, Government of Telangana",
+  "state": "Telangana",
+  "headquarters": "Nampally, Hyderabad, Telangana - 500001",
+  "statutory_act": "Telangana Education Act, 1982 & Andhra Pradesh Reorganisation Act, 2014",
+  "established_year": 2014,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://bse.telangana.gov.in/",
+  "official_result_url": "https://results.cgg.gov.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "telangana-bsetg-tsbie",
+    "telangana-board",
+    "telangana-tsbie",
+    "telangana-bsetg",
+    "bsetg-board",
+    "tsbie-board"
+  ],
+  "authorities": {
+    "administrative_department": {
+      "authority_id": "org-tg-gov-sed",
+      "name": "School Education Department, Government of Telangana",
+      "portal": "https://schooledu.telangana.gov.in/"
+    },
+    "curriculum_body": {
+      "authority_id": "org-tg-scert",
+      "name": "State Council of Educational Research and Training (SCERT) Telangana",
+      "portal": "https://scert.telangana.gov.in/",
+      "headquarters": "Opp. LB Stadium, E-Gate, Hyderabad - 500001"
+    },
+    "ssc_exam_body": {
+      "authority_id": "org-tg-bse",
+      "name": "Directorate of Government Examinations, Telangana (BSE Telangana)",
+      "portal": "https://bse.telangana.gov.in/",
+      "headquarters": "Chapel Road, Nampally, Hyderabad - 500001"
+    },
+    "intermediate_exam_body": {
+      "authority_id": "org-tg-tsbie",
+      "name": "Telangana State Board of Intermediate Education (TSBIE)",
+      "portal": "https://tsbie.cgg.gov.in/",
+      "headquarters": "Vidya Bhavan, Nampally, Hyderabad - 500001"
+    },
+    "open_school_body": {
+      "authority_id": "org-tg-toss",
+      "name": "Telangana Open School Society (TOSS)",
+      "portal": "https://telanganaopenschool.org/",
+      "headquarters": "SCERT Campus, Hyderabad - 500001"
+    }
+  },
+  "exam_reading_time": {
+    "reading_time_minutes": 15,
+    "rule_description": "15 minutes mandatory reading time prior to exam writing to read questions and plan answers",
+    "exam_writing_duration_hours": 3.0
+  },
+  "curriculum_framework": {
+    "ssc_class_10": {
+      "examination_name": "Secondary School Certificate (SSC) Public Examination",
+      "administering_body": "Directorate of Government Examinations Telangana (BSE Telangana)",
+      "grading_system": "10-Point GPA Scale (A1 to E)",
+      "passing_criteria": "Minimum 35% in each subject (minimum 28/80 in Board Examination)",
+      "reading_time_minutes": 15,
+      "compulsory_subjects": [
+        "telangana-ssc-first-language-telugu",
+        "telangana-ssc-second-language-hindi",
+        "telangana-ssc-third-language-english",
+        "telangana-ssc-mathematics",
+        "telangana-ssc-physical-science",
+        "telangana-ssc-biological-science",
+        "telangana-ssc-social-studies",
+        "telangana-ssc-first-language-urdu",
+        "telangana-ssc-telangana-heritage",
+        "telangana-ssc-information-technology"
+      ]
+    },
+    "intermediate_plus_two": {
+      "examination_name": "Intermediate Public Examination (IPE / Plus Two)",
+      "administering_body": "Telangana State Board of Intermediate Education (TSBIE)",
+      "grading_system": "Combined Score Grading Scale (1st Year + 2nd Year Cumulative)",
+      "reading_time_minutes": 15,
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Intermediate Science Stream (MPC & BiPC)",
+          "subjects": [
+            "telangana-inter-physics",
+            "telangana-inter-chemistry",
+            "telangana-inter-mathematics-a",
+            "telangana-inter-mathematics-b",
+            "telangana-inter-botany",
+            "telangana-inter-zoology"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Intermediate Commerce Stream (CEC & MEC)",
+          "subjects": [
+            "telangana-inter-commerce",
+            "telangana-inter-accountancy",
+            "telangana-inter-economics",
+            "telangana-inter-civics-commerce",
+            "telangana-inter-commercial-geography"
+          ]
+        },
+        {
+          "stream_id": "humanities",
+          "stream_name": "Intermediate Humanities / Arts Stream (HEC)",
+          "subjects": [
+            "telangana-inter-history",
+            "telangana-inter-political-science",
+            "telangana-inter-geography",
+            "telangana-inter-sociology",
+            "telangana-inter-public-administration",
+            "telangana-inter-logic-psychology"
+          ]
+        },
+        {
+          "stream_id": "languages",
+          "stream_name": "Intermediate Languages Stream",
+          "subjects": [
+            "telangana-inter-telugu",
+            "telangana-inter-english",
+            "telangana-inter-hindi",
+            "telangana-inter-urdu"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Annual Summative Assessment (SA-2)",
+      "terminal_public_exam": false,
+      "exam_mode": "SCHOOL_LEVEL_ANNUAL_EVALUATION",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "administering_body": "Affiliated Schools under SCERT Telangana Curriculum",
+      "dependency_rule": "TELANGANA_CLASS9_TO_SSC_DEPENDENCY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary School Certificate (SSC) Public Examination",
+      "terminal_public_exam": true,
+      "administering_body": "Directorate of Government Examinations Telangana (BSE Telangana)",
+      "grading_system": "10-Point GPA Scale (A1 to E)",
+      "cool_off_time_minutes": 15
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Intermediate First Year Public Examination (IPE 1st Year)",
+      "terminal_public_exam": false,
+      "exam_mode": "BOARD_ADMINISTERED_CONTINUOUS_EVALUATION",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "continuous_evaluation_weightage_percentage": 50,
+      "administering_body": "Telangana State Board of Intermediate Education (TSBIE)",
+      "dependency_rule": "TELANGANA_INTER1_TO_INTER2_DEPENDENCY"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Intermediate Second Year Public Examination (IPE 2nd Year)",
+      "terminal_public_exam": true,
+      "administering_body": "Telangana State Board of Intermediate Education (TSBIE)",
+      "grading_system": "Cumulative 1000 Marks Standard Division System",
+      "cool_off_time_minutes": 15
+    }
+  },
+  "specialized_pathways": {
+    "vocational": {
+      "pathway_name": "TSBIE Vocational Stream",
+      "target_group": "Technical and Paramedical Vocational Courses under TSBIE Vocational Wing",
+      "curriculum_focus": "Automobile, Computer Science, MLT, Accounting & Taxation"
+    },
+    "toss": {
+      "pathway_name": "Telangana Open School Society (TOSS)",
+      "purpose": "Open schooling opportunities for SSC and Intermediate dropouts, adults, and working learners"
+    }
+  },
+  "language_script_registry": [
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "unicode_range": "U+0C00 - U+0C7F",
+      "mandatory_for": ["First Language Telugu", "Second Language Telugu", "Intermediate Telugu Literature"],
+      "status": "Official State Language of Telangana"
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Third Language English (SSC)", "General English (TSBIE)", "Science & Commerce Medium"],
+      "status": "Compulsory Global Language & Statewide Technical Medium"
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Second Language Hindi (SSC)", "Intermediate Second Language Hindi"],
+      "status": "National Language & Compulsory Second Language Option"
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Perso-Arabic",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["First Language Urdu (SSC)", "Intermediate Urdu Literature"],
+      "status": "Second Official Language of Telangana & Deccani Cultural Heritage"
+    }
+  ]
+}

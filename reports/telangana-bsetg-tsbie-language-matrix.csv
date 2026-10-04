@@ -1,0 +1,5 @@
+lang_code,language_name,role,script,direction,associated_subjects,status
+te,Telugu,Official State Language of Telangana,Telugu (U+0C00-U+0C7F),LTR,"telangana-ssc-first-language-telugu, telangana-inter-telugu, and bilingual medium subjects",Statewide Compulsory & Classical Language
+en,English,Compulsory Global Language & Statewide Technical Medium,Latin (U+0020-U+007E),LTR,"telangana-ssc-third-language-english, telangana-inter-english, science, commerce, humanities core subjects",Compulsory Part I Language & Universal Medium
+hi,Hindi,Compulsory Second Language (SSC) & Literature Option (Inter),Devanagari (U+0900-U+097F),LTR,"telangana-ssc-second-language-hindi, telangana-inter-hindi",Statewide Compulsory at SSC & Intermediate Elective
+ur,Urdu,Second Official Language of Telangana & Deccani Classical Heritage,Perso-Arabic (U+0600-U+06FF),RTL,"telangana-ssc-first-language-urdu, telangana-inter-urdu",Telangana Second Official Language & High Enrolment Elective
