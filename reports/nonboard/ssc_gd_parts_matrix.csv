@@ -1,0 +1,6 @@
+Part_ID,Subject_ID,Subject_Name,Questions,Marks_Per_Q,Negative_Marking,Language_Support
+Part-A,ssc-gd-part-a-reasoning,General Intelligence and Reasoning,300,2.0,0.25 Marks,Bilingual (en+hi)
+Part-B,ssc-gd-part-b-general-knowledge,General Knowledge and General Awareness,300,2.0,0.25 Marks,Bilingual (en+hi)
+Part-C,ssc-gd-part-c-elementary-maths,Elementary Mathematics,300,2.0,0.25 Marks,Bilingual (en+hi)
+Part-D (Option 1),ssc-gd-part-d-english,English,300,2.0,0.25 Marks,English Language
+Part-D (Option 2),ssc-gd-part-d-hindi,General Hindi (सामान्य हिंदी),300,2.0,0.25 Marks,Hindi Language

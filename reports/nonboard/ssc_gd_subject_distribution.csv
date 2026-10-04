@@ -1,0 +1,6 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+ssc-gd-part-a-reasoning,SSC GD Part-A General Intelligence and Reasoning (सामान्य बुद्धिमत्ता एवं तर्कशक्ति),CBT_PART_A,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-gd-part-b-general-knowledge,SSC GD Part-B General Knowledge and General Awareness (सामान्य ज्ञान एवं सामान्य जागरूकता),CBT_PART_B,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-gd-part-c-elementary-maths,SSC GD Part-C Elementary Mathematics (प्रारंभिक गणित),CBT_PART_C,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-gd-part-d-english,SSC GD Part-D English (अंग्रेजी व्याकरण एवं समझ),CBT_PART_D_ENG,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-gd-part-d-hindi,SSC GD Part-D General Hindi (सामान्य हिंदी),CBT_PART_D_HIN,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%

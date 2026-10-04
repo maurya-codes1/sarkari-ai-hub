@@ -1,0 +1,135 @@
+{
+  "exam_id": "ssc-gd",
+  "name": "Staff Selection Commission - Constable (GD) in Central Armed Police Forces (CAPFs), SSF, and Rifleman (GD) in Assam Rifles Examination",
+  "short_name": "SSC GD Constable",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-central-ssc",
+    "name": "Staff Selection Commission, Government of India",
+    "short_name": "SSC",
+    "headquarters": "Block No. 12, CGO Complex, Lodhi Road, New Delhi 110003",
+    "official_website": "https://ssc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ssc-gd-portal",
+      "name": "Staff Selection Commission GD Constable Official Web Portal",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ssc-gd-notice-2026",
+      "name": "Notice of Constable (GD) in CAPFs, SSF, and Rifleman (GD) in Assam Rifles Examination 2026",
+      "url": "https://ssc.gov.in/portal/notices",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-ssc-gd-pyq-corpus",
+      "name": "Official Staff Selection Commission GD Historical Question Papers Corpus (2020-2025)",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "computer_based_examination": {
+      "mode": "Computer Based Examination (CBT)",
+      "duration_minutes": 60,
+      "total_questions": 80,
+      "total_marks": 160,
+      "marks_per_question": 2.0,
+      "negative_marking": 0.25,
+      "parts": [
+        {
+          "part_id": "Part-A",
+          "subject_id": "ssc-gd-part-a-reasoning",
+          "name": "General Intelligence and Reasoning",
+          "questions": 20,
+          "marks": 40
+        },
+        {
+          "part_id": "Part-B",
+          "subject_id": "ssc-gd-part-b-general-knowledge",
+          "name": "General Knowledge and General Awareness",
+          "questions": 20,
+          "marks": 40
+        },
+        {
+          "part_id": "Part-C",
+          "subject_id": "ssc-gd-part-c-elementary-maths",
+          "name": "Elementary Mathematics",
+          "questions": 20,
+          "marks": 40
+        },
+        {
+          "part_id": "Part-D",
+          "subject_options": [
+            {
+              "subject_id": "ssc-gd-part-d-english",
+              "name": "English"
+            },
+            {
+              "subject_id": "ssc-gd-part-d-hindi",
+              "name": "Hindi (हिंदी)"
+            }
+          ],
+          "name": "English or Hindi (Optional)",
+          "questions": 20,
+          "marks": 40
+        }
+      ]
+    },
+    "physical_tests": {
+      "physical_efficiency_test": {
+        "general_candidates": {
+          "male": "5 Kms in 24 minutes",
+          "female": "1.6 Kms in 8.5 minutes"
+        },
+        "ladakh_region": {
+          "male": "1.6 Kms in 7 minutes",
+          "female": "800 meters in 5 minutes"
+        }
+      },
+      "physical_standard_test": {
+        "height": {
+          "male_general": "170 cm",
+          "female_general": "157 cm",
+          "male_st": "162.5 cm",
+          "female_st": "150.0 cm"
+        },
+        "chest_male_only": {
+          "unexpanded": "80 cm",
+          "minimum_expansion": "5 cm",
+          "st_unexpanded": "76 cm"
+        }
+      }
+    }
+  },
+  "participating_forces": [
+    "Border Security Force (BSF)",
+    "Central Industrial Security Force (CISF)",
+    "Central Reserve Police Force (CRPF)",
+    "Indo-Tibetan Border Police (ITBP)",
+    "Sashastra Seema Bal (SSB)",
+    "Secretariat Security Force (SSF)",
+    "Assam Rifles (AR)"
+  ],
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Constable (General Duty)",
+      "pay_level": "Pay Level-3 (₹21,700 - ₹69,100)",
+      "classification": "General Central Service Group 'C' Non-Gazetted"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India",
+    "age_limit": "18-23 years as on cutoff date (OBC +3 yrs, SC/ST +5 yrs relaxation)",
+    "educational_qualification": "Candidate must have passed Matriculation or 10th Class Examination from a recognized Board/University."
+  },
+  "metadata": {
+    "current_version_id": "ver-ssc-gd-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}
