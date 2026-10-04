@@ -1,0 +1,13 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Agency,West Bengal Police Recruitment Board (WBPRB),org-west-bengal-police-recruitment-board-wbp
+Official Exam Version ID,ver-wb-police-2026,ver-wb-police-2026
+Written Exam Mode,Offline OMR Single Written Examination,Objective Single Choice MCQ
+Total Written Exam Duration,60 Minutes (1.0 Hour),60 Minutes Standard
+Total Question Count in Live Exam,85 Questions,"85 Questions (25 GA, 10 Eng, 25 Math, 25 Reasoning)"
+Total Marks in Live Exam,85 Marks,85 Marks (+ 15 Marks Interview = 100 Marks)
+Marks for Correct Answer,+1.0 Mark,+1.0 Mark across all questions
+Penalty for Incorrect Answer,-0.25 Mark (1/4th negative marking),-0.25 Negative Marking
+Medium of Exam,"Bengali, Nepali & English",Bilingual Dual JSON (en + hi/bn)
+Total Repository Question Bank,"1,200 Official Questions (4 Subjects x 300 Qs)","1,200 Questions Ingested"
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database

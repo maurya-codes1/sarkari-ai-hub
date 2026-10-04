@@ -1,0 +1,129 @@
+{
+  "exam_id": "wb-police",
+  "name": "West Bengal Police Constable & Lady Constable and Kolkata Police Examination (পশ্চিমবঙ্গ পুলিশ কনস্টেबल ও লেডি কনস্টেबल পরীক্ষা)",
+  "short_name": "WB Police (WBP & KP)",
+  "exam_category": "police_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-west-bengal-police-recruitment-board-wbp",
+    "name": "West Bengal Police Recruitment Board (WBPRB), Araksha Bhawan",
+    "short_name": "WBPRB Kolkata",
+    "headquarters": "Araksha Bhawan (5th Floor), 6th Cross Road, Block-DJ, Sector-II, Bidhannagar, Kolkata 700091",
+    "official_website": "https://prb.wb.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-wb-police-portal",
+      "name": "West Bengal Police Recruitment Board Official Portal",
+      "url": "https://prb.wb.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-wb-police-headquarters",
+      "name": "West Bengal Police Directorate (wbpolice.gov.in)",
+      "url": "https://wbpolice.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-wb-police-constable-notice-2026",
+      "name": "West Bengal Police Constable Recruitment Official Notification & Syllabus 2026",
+      "url": "https://prb.wb.gov.in/notice_constable_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "written_examination": {
+      "stage_name": "Written Examination (85 Objective MCQs / 85 Marks) + 15 Marks Interview",
+      "duration_minutes": 60,
+      "total_questions": 85,
+      "total_marks": 85,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "General Awareness and General Knowledge (including WB Special)", "questions": 25, "marks": 25 },
+        { "name": "English Language & Grammar", "questions": 10, "marks": 10 },
+        { "name": "Elementary Mathematics (Madhyamik Standard)", "questions": 25, "marks": 25 },
+        { "name": "Reasoning and Logical Analysis", "questions": 25, "marks": 25 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "wb-police-general-awareness",
+        "name": "General Awareness, General Knowledge & West Bengal Special (সাধারণ জ্ঞান, সমসাময়িক বিষয় ও পশ্চিমবঙ্গ বিশেষ)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "History of Bengal & National Movement: Battle of Plassey (1757), Battle of Buxar (1764), Bengal Renaissance (Raja Ram Mohan Roy, Ishwar Chandra Vidyasagar, Swami Vivekananda, Rabindranath Tagore, Kazi Nazrul Islam)",
+          "Revolutionary Freedom Struggle: Anushilan Samiti, Jugantar, Khudiram Bose, Prafulla Chaki, Surya Sen (Chittagong Armoury Raid 1930), Matangini Hazra (Tamralipta Jatiya Sarkar), Subhash Chandra Bose & INA",
+          "Geography of West Bengal: Physiography (Darjeeling Himalayan region, Sandakphu 3636m - highest peak, Buxa-Duars, Rarh plain, Coastal Sundarbans Delta - UNESCO World Heritage Site & Biosphere Reserve)",
+          "River Systems & Climate: Ganga / Bhagirathi-Hooghly, Teesta, Torsa, Jaldhaka, Mahananda, Damodar ('Sorrow of Bengal'), Rupnarayan, Subarnarekha; Kalbaishakhi (Nor'wester)",
+          "Districts & Administration: 23 Districts of West Bengal, 5 Administrative Divisions (Jalpaiguri, Malda, Burdwan, Presidency, Medinipur), Kolkata Police (CP Kolkata) and West Bengal Police (DGP WB)",
+          "West Bengal Wildlife & Protected Areas: Sundarbans National Park, Jaldapara (One-horned Rhinoceros), Gorumara, Buxa Tiger Reserve, Neora Valley, Singalila National Park",
+          "Indian Constitution & Governance: Preamble, Fundamental Rights, Directive Principles, President, Governor, Chief Minister, West Bengal Legislative Assembly (294 seats), Calcutta High Court (Oldest High Court in India - 1862)",
+          "General Science & Everyday Technology: Physics (Mechanics, Sound, Optics, Electricity), Chemistry (Acids, Bases, Metals, Polymers), Biology (Human Physiology, Nutrition, Vitamins, Infectious Diseases), Environmental Science",
+          "Police Administration & State Schemes: WBP Motto, Police Ranks (DGP, ADG, DIG, SP, SDPO, Inspector, SI, ASI, Constable), Traffic rules, Dial 112, Kanyashree Prakalpa, Lakshmir Bhandar, Swasthya Sathi, Sabooj Sathi"
+        ]
+      },
+      {
+        "subject_id": "wb-police-english",
+        "name": "English Language, Grammar, Comprehension & Vocabulary (ইংরেজি ব্যাকরণ ও শব্দভাণ্ডার)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Grammar Fundamentals: Parts of Speech (Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, Interjection), Subject-Verb Agreement / Concord",
+          "Tenses & Time: Simple, Continuous, Perfect, Perfect Continuous tenses across Present, Past, and Future",
+          "Articles & Determiners: Use of Definite (The) and Indefinite (A, An) articles, Quantifiers (some, any, few, little)",
+          "Prepositions & Phrasal Verbs: Fixed prepositions (abstain from, capable of, listen to), Prepositions of time and place, Common phrasal verbs (look into, call off, give up, break down)",
+          "Voice Change & Narration: Active to Passive Voice and Passive to Active Voice; Direct to Indirect Speech (Statements, Questions, Imperatives, Exclamatory)",
+          "Sentence Transformation & Correction: Simple, Complex, and Compound sentences; Degree of Comparison (Positive, Comparative, Superlative); Spotting Errors in sentences",
+          "Vocabulary & Word Power: Synonyms, Antonyms, Homonyms and Homophones, One-word Substitutions (Philanthropist, Ominous, Omnipotent, Polyglot)",
+          "Idioms & Phrases: Common English idioms and their meanings ('Bite the bullet', 'Once in a blue moon', 'A feather in one's cap', 'Burn the midnight oil')",
+          "Spelling Test: Commonly misspelled words (Accommodate, Bureaucracy, Maintenance, Privilege, Separate, Queue)"
+        ]
+      },
+      {
+        "subject_id": "wb-police-elementary-mathematics",
+        "name": "Elementary Mathematics - Madhyamik Standard (প্রাথমিক পাটিগণিত ও বীজগণিত - মাধ্যমিক মান)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Number System & Basic Arithmetic: Natural numbers, Integers, Prime numbers, Divisibility rules (2, 3, 4, 5, 6, 8, 9, 11), Place value and Face value",
+          "LCM and HCF: HCF and LCM of integers and fractions, Relation between HCF, LCM and product of numbers, Word problems",
+          "Fractions, Decimals & Simplification: Vulgar fractions, Recurring decimals, BODMAS / VBODMAS rule, Square roots and Cube roots",
+          "Ratio, Proportion & Partnership: Direct and Inverse proportion, Third and Fourth proportional, Mean proportional, Business partnership and profit distribution",
+          "Average & Problems on Ages: Simple average, Weighted average, Consecutive numbers average, Linear age equations",
+          "Percentage & Applications: Percentage calculation, Increase/decrease percentage, Population and depreciation problems, Examination marks",
+          "Profit, Loss & Discount: Cost price, Selling price, Marked price, Profit%, Loss%, Successive discounts, False weight / dishonest trader problems",
+          "Simple & Compound Interest: Simple interest formula (PTR/100), Compound interest annual and semi-annual, Difference between CI and SI for 2 and 3 years",
+          "Time & Work, Pipes & Cisterns: Individual and joint work, Work and wages, Efficiency ratios, Tank filling and emptying problems",
+          "Speed, Time & Distance: Speed conversion (km/h to m/s), Relative speed (same and opposite direction), Train crossing pole, platform and another train, Boats and streams",
+          "Mensuration (Madhyamik Standard): Perimeter and Area of triangle, rectangle, square, circle, semi-circle; Surface area and Volume of cuboid, cube, cylinder"
+        ]
+      },
+      {
+        "subject_id": "wb-police-reasoning",
+        "name": "Reasoning and Logical Analysis (যুক্তি ও বিশ্লেষণমূলক ক্ষমতা)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Number & Alphabet Series: Arithmetic series, Geometric series, Alternate series, Two-tier difference series, Missing number puzzles",
+          "Analogy & Classification: Word analogies (Country-Capital, State-River, Instrument-Measurement), Number analogies, Alphabet analogies, Odd one out (Words, Numbers, Letters)",
+          "Coding & Decoding: Letter shifting (+1, +2, +3, reverse), Substitution coding, Mixed letter-number coding, Deciphering message codes",
+          "Direction & Distance Sense: Four cardinal and four intercardinal directions, Left/right turns, Clockwise/counter-clockwise angular turns, Pythagoras theorem straight-line distance",
+          "Blood Relations: Decoded relationships, Family tree diagrams, Pointing to a photograph / person statements",
+          "Clock & Calendar: Angle between hour and minute hands, Coincidence and right-angle frequencies, Day of week calculation, Leap years, Odd days",
+          "Order & Ranking, Seating Arrangement: Position from left/right, Total persons in a row, Linear single-row seating, Circular seating facing center",
+          "Venn Diagrams & Syllogism: Three-circle Venn diagrams, Syllogistic deductions (All, Some, No statements), Validity of conclusions",
+          "Mathematical Operations: Arithmetic symbol substitution (+, -, *, /), Balancing equations, Inequality statements (>, <, =)",
+          "Visual & Spatial Non-Verbal Reasoning: Mirror images, Water images, Paper folding and cutting, Embedded figures, Pattern completion, Dice and Cube faces"
+        ]
+      }
+    ]
+  }
+}
