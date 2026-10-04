@@ -1,0 +1,26 @@
+stream_id,stream_name,subject_id,subject_name,evaluation_structure,curriculum_role
+science,Science Stream (I.Sc),jac-c12-physics,Physics,Theory 70 + Practical 30,Mandatory Science Core
+science,Science Stream (I.Sc),jac-c12-chemistry,Chemistry,Theory 70 + Practical 30,Mandatory Science Core
+science,Science Stream (I.Sc),jac-c12-mathematics,Mathematics,Theory 80 + IA 20,Science Core Option
+science,Science Stream (I.Sc),jac-c12-biology,Biology,Theory 70 + Practical 30,Science Core Option
+science,Science Stream (I.Sc),jac-c12-computer-science,Computer Science,Theory 70 + Practical 30,Science Elective
+science,Science Stream (I.Sc),jac-c12-geology,Geology,Theory 70 + Practical 30,Signature Jharkhand Subject
+commerce,Commerce Stream (I.Com),jac-c12-accountancy,Accountancy,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream (I.Com),jac-c12-business-studies,Business Studies,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream (I.Com),jac-c12-economics,Economics,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream (I.Com),jac-c12-commercial-arithmetic,Commercial Arithmetic,Theory 80 + IA 20,Commerce Elective
+commerce,Commerce Stream (I.Com),jac-c12-entrepreneurship,Entrepreneurship,Theory 70 + Practical 30,Commerce Elective
+humanities,Arts Stream (I.A),jac-c12-history,History,Theory 80 + IA 20,Humanities Core
+humanities,Arts Stream (I.A),jac-c12-political-science,Political Science,Theory 80 + IA 20,Humanities Core
+humanities,Arts Stream (I.A),jac-c12-geography,Geography,Theory 70 + Practical 30,Humanities Core
+humanities,Arts Stream (I.A),jac-c12-sociology,Sociology,Theory 80 + IA 20,Humanities Elective
+humanities,Arts Stream (I.A),jac-c12-psychology,Psychology,Theory 70 + Practical 30,Humanities Elective
+humanities,Arts Stream (I.A),jac-c12-home-science,Home Science,Theory 70 + Practical 30,Humanities Elective
+languages,Languages (MIL & Core),jac-c12-hindi,Hindi Core,Theory 80 + IA 20,Compulsory Core Language
+languages,Languages (MIL & Core),jac-c12-english,English Core,Theory 80 + IA 20,Compulsory Core Language
+languages,Languages (MIL & Core),jac-c12-sanskrit,Sanskrit Elective,Theory 80 + IA 20,Elective Classical Language
+languages,Languages (MIL & Core),jac-c12-urdu,Urdu Elective,Theory 80 + IA 20,Elective Language
+vocational,Inter Vocational,nsqf-auto,Automobile Service Technician,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Inter Vocational,nsqf-it,IT & Computer Networking,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Inter Vocational,nsqf-health,Healthcare & Paramedical,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Inter Vocational,nsqf-tourism,Tourism & Hospitality,Theory 50 + Practical 50,Career Vocational Stream

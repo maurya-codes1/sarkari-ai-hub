@@ -1,22 +1,23 @@
 /**
- * test-cgbse-chhattisgarh.js
+ * test-jac-jharkhand.js
  * 
- * SARKARIAI HUB — BOARD #27
- * CHHATTISGARH BOARD OF SECONDARY EDUCATION (CGBSE) VERIFICATION SUITE
+ * SARKARIAI HUB — BOARD #28
+ * JHARKHAND ACADEMIC COUNCIL (JAC) VERIFICATION SUITE
  * 
  * Verifies all 57 forensic integrity requirements across:
- * - Current CGBSE identity (org-cg-board-cgbse, Pension Bada, Raipur, Chhattisgarh - 492001)
- * - High School Certificate (HSC Class 10) (10 subjects, 2,800 questions, 600 aggregate marks)
- * - Higher Secondary (HSSC Class 12) (21 subjects, 5,880 questions across Science, Commerce, Humanities, Languages, Agriculture)
- * - Class 9 Institutional Evaluation & Enrolment Return (CGBSE_CLASS9_TO_CLASS10_DEPENDENCY)
- * - Class 11 Promotional Examination & 75% attendance across XI & XII (CGBSE_CLASS11_TO_CLASS12_DEPENDENCY)
+ * - Current JAC identity (org-jh-board-jac, Gyandeep Campus, Bargawan, Namkum, Ranchi - 834010)
+ * - Multi-examination council architecture: Class 8, Class 9, Secondary (Class 10), Class 11, Intermediate (Class 12), Madhyama, Madarsa, Inter Vocational
+ * - Secondary Education (Matric Class 10) (10 subjects, 2,800 questions, 500 aggregate marks)
+ * - Intermediate Education (Class 12) (21 subjects, 5,880 questions across Science, Commerce, Arts, Languages)
+ * - Class 9 Board Examination & jacresults.com promotion dependency (JAC_CLASS9_TO_CLASS10_DEPENDENCY)
+ * - Class 11 Board Examination & stream continuity dependency (JAC_CLASS11_TO_CLASS12_DEPENDENCY)
  * - 15 minutes dedicated reading time rule for theoretical papers
- * - Script Authenticity: English (Latin), Hindi (Devanagari U+0900-U+097F), Sanskrit (Devanagari), Chhattisgarhi culture integration
+ * - Script Authenticity: English (Latin), Hindi (Devanagari), Sanskrit (Devanagari), Urdu (Perso-Arabic U+0600-U+06FF)
  * - 31 Primary Subjects (8,680 total questions: 6,355 MCQs with 0.00% generator bias, 2,325 Subjectives)
- * - 5 Master Bundled Study Notes (note-cg-*)
+ * - 5 Master Bundled Study Notes (note-jac-*)
  * - All Mandatory Audit Reports in reports/
- * - Total Database Inventory: 242,190 questions (233,510 baseline + 8,680 CGBSE)
- * - Prior 26 Boards Preservation: exactly 218,120 questions untouched
+ * - Total Database Inventory: 250,870 questions (242,190 baseline + 8,680 JAC)
+ * - Prior 27 Boards Preservation: exactly 226,800 questions untouched
  * - Competitive Baseline Preservation: exactly 15,390 questions untouched
  */
 
@@ -29,7 +30,7 @@ const dbPath = path.join(__dirname, '../db/sarkari_core.db');
 const db = new Database(dbPath);
 
 console.log('================================================================');
-console.log('🧪 SARKARIAI HUB — BOARD #27 CHHATTISGARH (CGBSE) VERIFICATION SUITE');
+console.log('🧪 SARKARIAI HUB — BOARD #28 JHARKHAND (JAC) VERIFICATION SUITE');
 console.log('================================================================\n');
 
 let passedTests = 0;
@@ -46,52 +47,52 @@ function runTest(testNum, testName, fn) {
   }
 }
 
-const BOARD_ID = 'cgbse-chhattisgarh';
-const dictPath = path.join(__dirname, '../../data/boards/cgbse-chhattisgarh.json');
+const BOARD_ID = 'jac-jharkhand';
+const dictPath = path.join(__dirname, '../../data/boards/jac-jharkhand.json');
 const dict = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
 
-// 1. CGBSE board isolation
-runTest(1, 'CGBSE board isolation (cgbse-chhattisgarh dictionary and database separation)', () => {
+// 1. JAC board identity isolation
+runTest(1, 'JAC board identity isolation (jac-jharkhand dictionary and database separation)', () => {
   assert.strictEqual(dict.board_id, BOARD_ID);
-  assert.strictEqual(dict.authority_id, 'org-cg-board-cgbse');
+  assert.strictEqual(dict.authority_id, 'org-jh-board-jac');
   const b = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(BOARD_ID);
   assert.ok(b, 'Board record exists in SQLite');
   assert.strictEqual(b.active, 1);
   assert.strictEqual(b.verification_status, 'VERIFIED');
 });
 
-// 2. CGBSE authority verification
-runTest(2, 'CGBSE authority verification (org-cg-board-cgbse, Pension Bada, Raipur)', () => {
-  const o = db.prepare("SELECT * FROM organizations WHERE organization_id = 'org-cg-board-cgbse'").get();
-  assert.ok(o, 'Organization org-cg-board-cgbse exists');
-  assert.strictEqual(o.short_name, 'CGBSE');
-  assert.strictEqual(o.state_or_ut, 'Chhattisgarh');
+// 2. JAC authority verification
+runTest(2, 'JAC authority verification (org-jh-board-jac, Gyandeep Campus, Namkum, Ranchi)', () => {
+  const o = db.prepare("SELECT * FROM organizations WHERE organization_id = 'org-jh-board-jac'").get();
+  assert.ok(o, 'Organization org-jh-board-jac exists');
+  assert.strictEqual(o.short_name, 'JAC');
+  assert.strictEqual(o.state_or_ut, 'Jharkhand');
   assert.strictEqual(o.active, 1);
 });
 
-// 3. CGBSE aliases in boards table
-runTest(3, 'CGBSE aliases in boards table (cgbse-chhattisgarh, cgbse-board, cgbse)', () => {
-  const aliases = ['cgbse-chhattisgarh', 'cgbse-board', 'cgbse'];
+// 3. JAC aliases in boards table
+runTest(3, 'JAC aliases in boards table (jac-jharkhand, jac-board, jac)', () => {
+  const aliases = ['jac-jharkhand', 'jac-board', 'jac'];
   for (const al of aliases) {
     const b = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(al);
     assert.ok(b, `Board alias ${al} must exist`);
-    assert.strictEqual(b.organization_id, 'org-cg-board-cgbse');
+    assert.strictEqual(b.organization_id, 'org-jh-board-jac');
   }
 });
 
 // 4. Official source registry verification
-runTest(4, 'Official source registry verification (portal, high school, higher secondary, education dept, scert)', () => {
+runTest(4, 'Official source registry verification (portal, secondary, intermediate, education dept, jcert)', () => {
   const sources = [
-    'src-cgbse-portal',
-    'src-cgbse-high-school-curriculum',
-    'src-cgbse-higher-secondary-curriculum',
-    'src-cg-school-education-dept',
-    'src-cg-scert'
+    'src-jac-portal',
+    'src-jac-secondary-curriculum',
+    'src-jac-intermediate-curriculum',
+    'src-jh-education-dept',
+    'src-jh-jcert'
   ];
   for (const sid of sources) {
     const s = db.prepare('SELECT * FROM official_sources WHERE source_id = ?').get(sid);
     assert.ok(s, `Official source ${sid} must exist`);
-    assert.strictEqual(s.organization_id, 'org-cg-board-cgbse');
+    assert.strictEqual(s.organization_id, 'org-jh-board-jac');
     assert.strictEqual(s.verification_status, 'VERIFIED');
   }
 });
@@ -125,7 +126,7 @@ runTest(8, 'Class 10 subject question distribution (10 subjects x 280 = 2,800)',
 
 // 9. Class 12 Science stream question distribution
 runTest(9, 'Class 12 Science stream question distribution (6 subjects x 280 = 1,680)', () => {
-  const sciSubjs = ['cg-c12-physics', 'cg-c12-chemistry', 'cg-c12-mathematics', 'cg-c12-biology', 'cg-c12-computer-science', 'cg-c12-environmental-science'];
+  const sciSubjs = ['jac-c12-physics', 'jac-c12-chemistry', 'jac-c12-mathematics', 'jac-c12-biology', 'jac-c12-computer-science', 'jac-c12-geology'];
   for (const s of sciSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
     assert.strictEqual(cnt, 280, `Science subject ${s} must have exactly 280 questions`);
@@ -134,7 +135,7 @@ runTest(9, 'Class 12 Science stream question distribution (6 subjects x 280 = 1,
 
 // 10. Class 12 Commerce stream question distribution
 runTest(10, 'Class 12 Commerce stream question distribution (5 subjects x 280 = 1,400)', () => {
-  const comSubjs = ['cg-c12-accountancy', 'cg-c12-business-studies', 'cg-c12-economics', 'cg-c12-business-maths', 'cg-c12-banking'];
+  const comSubjs = ['jac-c12-accountancy', 'jac-c12-business-studies', 'jac-c12-economics', 'jac-c12-commercial-arithmetic', 'jac-c12-entrepreneurship'];
   for (const s of comSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
     assert.strictEqual(cnt, 280, `Commerce subject ${s} must have exactly 280 questions`);
@@ -143,80 +144,80 @@ runTest(10, 'Class 12 Commerce stream question distribution (5 subjects x 280 = 
 
 // 11. Class 12 Humanities stream question distribution
 runTest(11, 'Class 12 Humanities stream question distribution (6 subjects x 280 = 1,680)', () => {
-  const humSubjs = ['cg-c12-history', 'cg-c12-political-science', 'cg-c12-geography', 'cg-c12-sociology', 'cg-c12-psychology', 'cg-c12-home-science'];
+  const humSubjs = ['jac-c12-history', 'jac-c12-political-science', 'jac-c12-geography', 'jac-c12-sociology', 'jac-c12-psychology', 'jac-c12-home-science'];
   for (const s of humSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
     assert.strictEqual(cnt, 280, `Humanities subject ${s} must have exactly 280 questions`);
   }
 });
 
-// 12. Class 12 Language & Agriculture stream question distribution
-runTest(12, 'Class 12 Language & Agriculture stream question distribution (4 subjects x 280 = 1,120)', () => {
-  const langSubjs = ['cg-c12-hindi', 'cg-c12-english', 'cg-c12-sanskrit', 'cg-c12-agriculture-sciences'];
+// 12. Class 12 Language stream question distribution
+runTest(12, 'Class 12 Language stream question distribution (4 subjects x 280 = 1,120)', () => {
+  const langSubjs = ['jac-c12-hindi', 'jac-c12-english', 'jac-c12-sanskrit', 'jac-c12-urdu'];
   for (const s of langSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
-    assert.strictEqual(cnt, 280, `Language/Agriculture subject ${s} must have exactly 280 questions`);
+    assert.strictEqual(cnt, 280, `Language subject ${s} must have exactly 280 questions`);
   }
 });
 
-// 13. Class 12 Agriculture signature subject verification
-runTest(13, 'Class 12 Agriculture signature subject verification (cg-c12-agriculture-sciences)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c12-agriculture-sciences'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 280, 'Agriculture must have 280 questions');
-  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'cg-c12-agriculture-sciences'").get();
-  assert.ok(subj, 'Subject cg-c12-agriculture-sciences exists in subjects table');
-  assert.strictEqual(subj.subject_type, 'VOCATIONAL');
+// 13. Class 12 Geology signature subject verification
+runTest(13, 'Class 12 Geology signature subject verification (jac-c12-geology)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'jac-c12-geology'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 280, 'Geology must have 280 questions');
+  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'jac-c12-geology'").get();
+  assert.ok(subj, 'Subject jac-c12-geology exists in subjects table');
+  assert.strictEqual(subj.subject_type, 'SCIENCE');
 });
 
-// 14. Class 12 Banking & Financial Services verification
-runTest(14, 'Class 12 Banking & Financial Services verification (cg-c12-banking)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c12-banking'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 280, 'Banking must have 280 questions');
-  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'cg-c12-banking'").get();
-  assert.ok(subj, 'Subject cg-c12-banking exists');
+// 14. Class 12 Commercial Arithmetic verification
+runTest(14, 'Class 12 Commercial Arithmetic verification (jac-c12-commercial-arithmetic)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'jac-c12-commercial-arithmetic'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 280, 'Commercial Arithmetic must have 280 questions');
+  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'jac-c12-commercial-arithmetic'").get();
+  assert.ok(subj, 'Subject jac-c12-commercial-arithmetic exists');
   assert.strictEqual(subj.subject_type, 'COMMERCE');
 });
 
-// 15. Class 12 Home Science verification
-runTest(15, 'Class 12 Home Science verification (cg-c12-home-science)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c12-home-science'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 280, 'Home Science must have 280 questions');
-  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'cg-c12-home-science'").get();
-  assert.ok(subj, 'Subject cg-c12-home-science exists');
-  assert.strictEqual(subj.subject_type, 'HUMANITIES');
+// 15. Class 12 Entrepreneurship verification
+runTest(15, 'Class 12 Entrepreneurship verification (jac-c12-entrepreneurship)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'jac-c12-entrepreneurship'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 280, 'Entrepreneurship must have 280 questions');
+  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'jac-c12-entrepreneurship'").get();
+  assert.ok(subj, 'Subject jac-c12-entrepreneurship exists');
+  assert.strictEqual(subj.subject_type, 'COMMERCE');
 });
 
-// 16. Class 9 scope isolation
-runTest(16, 'Class 9 scope isolation (0 fake board questions, ACADEMIC_SUPPORT_ONLY)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 9'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 0, 'Zero questions for Class 9 under CGBSE');
-  assert.strictEqual(dict.stages.class_9.terminal_public_exam, false);
-  assert.strictEqual(dict.stages.class_9.scope, 'ACADEMIC_SUPPORT_ONLY');
+// 16. Class 8 scope verification
+runTest(16, 'Class 8 scope verification (active state-level board exam, OMR mode)', () => {
+  assert.strictEqual(dict.stages.class_8.stage, 'Class 8');
+  assert.strictEqual(dict.stages.class_8.administering_body, 'JAC');
+  assert.strictEqual(dict.stages.class_8.exam_mode, 'OMR_BASED_BOARD_EXAM');
 });
 
-// 17. Class 11 scope isolation
-runTest(17, 'Class 11 scope isolation (0 fake board questions, ACADEMIC_SUPPORT_ONLY)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 11'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 0, 'Zero questions for Class 11 under CGBSE');
-  assert.strictEqual(dict.stages.class_11.terminal_public_exam, false);
-  assert.strictEqual(dict.stages.class_11.scope, 'ACADEMIC_SUPPORT_ONLY');
+// 17. Class 9 examination scope verification
+runTest(17, 'Class 9 examination scope verification (active JAC board exam, OMR mode, jacresults.com)', () => {
+  assert.strictEqual(dict.stages.class_9.stage, 'Class 9');
+  assert.strictEqual(dict.stages.class_9.administering_body, 'JAC');
+  assert.strictEqual(dict.stages.class_9.exam_mode, 'OMR_BASED_BOARD_EXAM');
+  assert.strictEqual(dict.stages.class_9.dependency_rule, 'JAC_CLASS9_TO_CLASS10_DEPENDENCY');
 });
 
-// 18. Higher Secondary authority separation
-runTest(18, 'Higher Secondary authority separation (CGBSE HSSC distinct from CBSE/CISCE/MPBSE)', () => {
-  assert.strictEqual(dict.authority_id, 'org-cg-board-cgbse');
-  assert.ok(!dict.board_id.includes('cbse'));
-  assert.ok(!dict.board_id.includes('mpbse'));
+// 18. Class 11 examination scope verification
+runTest(18, 'Class 11 examination scope verification (active JAC board exam, OMR mode, jacresults.com)', () => {
+  assert.strictEqual(dict.stages.class_11.stage, 'Class 11');
+  assert.strictEqual(dict.stages.class_11.administering_body, 'JAC');
+  assert.strictEqual(dict.stages.class_11.exam_mode, 'OMR_BASED_BOARD_EXAM');
+  assert.strictEqual(dict.stages.class_11.dependency_rule, 'JAC_CLASS11_TO_CLASS12_DEPENDENCY');
 });
 
-// 19. Total CGBSE questions count
-runTest(19, 'Total CGBSE questions count (exactly 8,680)', () => {
+// 19. Total JAC questions count
+runTest(19, 'Total JAC questions count (exactly 8,680)', () => {
   const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?").get(BOARD_ID).cnt;
   assert.strictEqual(cnt, 8680, 'Must have exactly 8,680 questions');
 });
 
-// 20. Total CGBSE question_versions count
-runTest(20, 'Total CGBSE question_versions count (exactly 8,680)', () => {
+// 20. Total JAC question_versions count
+runTest(20, 'Total JAC question_versions count (exactly 8,680)', () => {
   const cnt = db.prepare(`
     SELECT COUNT(*) as cnt 
     FROM question_versions qv
@@ -302,9 +303,9 @@ runTest(27, 'Marks distribution adherence (1, 2, 3, 4, 5 marks)', () => {
 });
 
 // 28. Provenance verification
-runTest(28, 'Provenance verification (OFFICIAL_CGBSE_CURRICULUM_BANK)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND provenance = 'OFFICIAL_CGBSE_CURRICULUM_BANK'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 8680, 'All 8,680 items must have OFFICIAL_CGBSE_CURRICULUM_BANK provenance');
+runTest(28, 'Provenance verification (OFFICIAL_JAC_CURRICULUM_BANK)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND provenance = 'OFFICIAL_JAC_CURRICULUM_BANK'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 8680, 'All 8,680 items must have OFFICIAL_JAC_CURRICULUM_BANK provenance');
 });
 
 // 29. Very Short Answer (VSA) distribution
@@ -333,7 +334,7 @@ runTest(32, 'Long Answer (LA) distribution (exactly 465 items, 15 per subject)',
 
 // 33. Class 10 PYQ authentic registry
 runTest(33, 'Class 10 PYQ authentic registry (2020-2025 coverage)', () => {
-  const pyqFile = path.join(__dirname, '../../reports/cgbse-chhattisgarh-pyq-matrix.csv');
+  const pyqFile = path.join(__dirname, '../../reports/jac-jharkhand-pyq-matrix.csv');
   assert.ok(fs.existsSync(pyqFile), 'PYQ matrix must exist');
   const content = fs.readFileSync(pyqFile, 'utf8');
   assert.ok(content.includes('2025') && content.includes('2024') && content.includes('2020'), 'Must contain 2020-2025 coverage');
@@ -341,27 +342,28 @@ runTest(33, 'Class 10 PYQ authentic registry (2020-2025 coverage)', () => {
 
 // 34. Class 12 PYQ authentic registry
 runTest(34, 'Class 12 PYQ authentic registry (2020-2025 coverage)', () => {
-  const pyqFile = path.join(__dirname, '../../reports/cgbse-chhattisgarh-pyq-matrix.csv');
+  const pyqFile = path.join(__dirname, '../../reports/jac-jharkhand-pyq-matrix.csv');
   const content = fs.readFileSync(pyqFile, 'utf8');
-  assert.ok(content.includes('Class 12') && content.includes('HSSC'), 'Must contain Class 12 HSSC entries');
+  assert.ok(content.includes('Class 12') && content.includes('Intermediate'), 'Must contain Class 12 Intermediate entries');
 });
 
 // 35. Class 10 registration criteria
-runTest(35, 'Class 10 registration criteria (CGBSE regulations, 75% attendance)', () => {
-  const reg = dict.registration_rules.high_school_class_10;
+runTest(35, 'Class 10 registration criteria (JAC regulations, 75% attendance, Class 9 pass)', () => {
+  const reg = dict.registration_rules.secondary_class_10;
   assert.strictEqual(reg.min_attendance, 75);
-  assert.strictEqual(reg.cce_compliance, true);
+  assert.strictEqual(reg.class_9_pass_prerequisite, true);
 });
 
 // 36. Class 12 registration criteria
-runTest(36, 'Class 12 registration criteria (CGBSE regulations, 75% attendance across XI & XII)', () => {
-  const reg = dict.registration_rules.higher_secondary_class_12;
+runTest(36, 'Class 12 registration criteria (JAC regulations, 75% attendance, Class 11 pass)', () => {
+  const reg = dict.registration_rules.intermediate_class_12;
   assert.strictEqual(reg.min_attendance, 75);
-  assert.strictEqual(reg.internal_practical_prerequisite, true);
+  assert.strictEqual(reg.class_11_pass_prerequisite, true);
+  assert.strictEqual(reg.stream_continuity, true);
 });
 
 // 37. Exam timing rules
-runTest(37, 'Exam timing rules (3 hours theoretical writing across HSC and HSSC)', () => {
+runTest(37, 'Exam timing rules (3 hours theoretical writing across Secondary and Intermediate)', () => {
   assert.strictEqual(dict.stages.class_10.exam_duration_hours, 3);
   assert.strictEqual(dict.stages.class_12.exam_duration_hours, 3);
 });
@@ -380,7 +382,7 @@ runTest(39, 'Grading system & passing threshold (33% combined across subjects)',
 });
 
 // 40. Hindi language role
-runTest(40, 'Hindi language role (Official Language of Chhattisgarh, Devanagari script U+0900-U+097F)', () => {
+runTest(40, 'Hindi language role (Official Language of Jharkhand, Devanagari script U+0900-U+097F)', () => {
   const l = db.prepare("SELECT * FROM languages WHERE code = 'hi'").get();
   assert.ok(l);
   assert.strictEqual(l.script, 'Devanagari');
@@ -401,102 +403,95 @@ runTest(42, 'Sanskrit language role (Devanagari script U+0900-U+097F)', () => {
   assert.strictEqual(l.script, 'Devanagari');
 });
 
-// 43. Chhattisgarhi cultural integration in C10 Heritage
-runTest(43, 'Chhattisgarhi cultural integration in C10 Heritage (cg-c10-chhattisgarh-heritage)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c10-chhattisgarh-heritage'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 280, 'CG Heritage must have 280 questions');
-  const sample = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c10-cg-c10-chhattisgarh-heritage-%' LIMIT 5").all();
-  assert.ok(sample.length > 0);
+// 43. Urdu language role
+runTest(43, 'Urdu language role (Perso-Arabic script U+0600-U+06FF)', () => {
+  const l = db.prepare("SELECT * FROM languages WHERE code = 'ur'").get();
+  assert.ok(l);
+  assert.strictEqual(l.direction.toLowerCase(), 'rtl');
 });
 
-// 44. Class 10 Hindi authentic Devanagari script validation
-runTest(44, 'Class 10 Hindi authentic Devanagari script validation', () => {
+// 44. Class 10 Urdu authentic Perso-Arabic script validation
+runTest(44, 'Class 10 Urdu authentic Perso-Arabic script validation (jac-c10-urdu)', () => {
   const rows = db.prepare(`
     SELECT qv.language_content 
     FROM question_versions qv
     JOIN questions q ON q.question_id = qv.question_id
-    WHERE q.board_id = ? AND q.subject_id = 'cg-c10-hindi'
+    WHERE q.board_id = ? AND q.subject_id = 'jac-c10-urdu'
     LIMIT 20
   `).all(BOARD_ID);
   assert.ok(rows.length > 0);
   for (const r of rows) {
     const parsed = JSON.parse(r.language_content);
-    assert.ok(parsed.hi, 'Must contain hi language block');
-    assert.ok(/[\u0900-\u097F]/.test(parsed.hi.question), 'Question must contain authentic Devanagari Unicode characters');
+    assert.ok(parsed.ur, 'Must contain ur language block');
+    assert.ok(/[\u0600-\u06FF]/.test(parsed.ur.question), 'Question must contain authentic Perso-Arabic Unicode characters');
   }
 });
 
-// 45. Class 12 Hindi authentic Devanagari script validation
-runTest(45, 'Class 12 Hindi authentic Devanagari script validation', () => {
+// 45. Class 12 Urdu authentic Perso-Arabic script validation
+runTest(45, 'Class 12 Urdu authentic Perso-Arabic script validation (jac-c12-urdu)', () => {
   const rows = db.prepare(`
     SELECT qv.language_content 
     FROM question_versions qv
     JOIN questions q ON q.question_id = qv.question_id
-    WHERE q.board_id = ? AND q.subject_id = 'cg-c12-hindi'
+    WHERE q.board_id = ? AND q.subject_id = 'jac-c12-urdu'
     LIMIT 20
   `).all(BOARD_ID);
   assert.ok(rows.length > 0);
   for (const r of rows) {
     const parsed = JSON.parse(r.language_content);
-    assert.ok(parsed.hi, 'Must contain hi language block');
-    assert.ok(/[\u0900-\u097F]/.test(parsed.hi.question), 'Question must contain authentic Devanagari Unicode characters');
+    assert.ok(parsed.ur, 'Must contain ur language block');
+    assert.ok(/[\u0600-\u06FF]/.test(parsed.ur.question), 'Question must contain authentic Perso-Arabic Unicode characters');
   }
 });
 
-// 46. Chhattisgarh freedom movement & tribal heroes representation
-runTest(46, 'Chhattisgarh freedom movement & tribal heroes (Veer Narayan Singh, Gundadhur 1910 Bhumkal, Gaind Singh)', () => {
-  const c10Soc = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c10-cg-c10-social-science-%' LIMIT 10").all();
+// 46. Jharkhand freedom fighters & tribal heroes representation
+runTest(46, 'Jharkhand freedom fighters & tribal heroes (Birsa Munda, Sido-Kanhu, Tilka Manjhi, Jatra Bhagat)', () => {
+  const c10Soc = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'jac-q-c10-jac-c10-jharkhand-culture-%' LIMIT 10").all();
   assert.ok(c10Soc.length > 0);
-  const c12Hist = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c12-cg-c12-history-%' LIMIT 10").all();
+  const c12Hist = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'jac-q-c12-jac-c12-history-%' LIMIT 10").all();
   assert.ok(c12Hist.length > 0);
 });
 
-// 47. Chhattisgarh geography, rivers & mineral wealth representation
-runTest(47, 'Chhattisgarh geography, rivers & mineral wealth (Mahanadi, Indravati, Bailadila, Bhilai, Hasdeo)', () => {
-  const c10Geo = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c10-cg-c10-social-science-%' LIMIT 10").all();
-  assert.ok(c10Geo.length > 0);
-  const c12Geo = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c12-cg-c12-geography-%' LIMIT 10").all();
+// 47. Jharkhand geography, rivers & mineral wealth representation
+runTest(47, 'Jharkhand geography, rivers & mineral wealth (Damodar, Subarnarekha, Jharia coal, Noamundi iron)', () => {
+  const c10Soc = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'jac-q-c10-jac-c10-social-science-%' LIMIT 10").all();
+  assert.ok(c10Soc.length > 0);
+  const c12Geo = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'jac-q-c12-jac-c12-geography-%' LIMIT 10").all();
   assert.ok(c12Geo.length > 0);
 });
 
-// 48. Full Exam eligibility & gate enforcement
-runTest(48, 'Full Exam eligibility & gate enforcement (All MCQs full_exam_eligible, Subjectives practice)', () => {
-  const mcqIneligible = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND question_type_id = 'single_mcq' AND full_exam_eligible = 0").get(BOARD_ID).cnt;
-  const subEligible = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND question_type_id != 'single_mcq' AND full_exam_eligible = 1").get(BOARD_ID).cnt;
-  assert.strictEqual(mcqIneligible, 0, 'All MCQs must be full exam eligible');
-  assert.strictEqual(subEligible, 0, 'Subjectives must be practice eligible only');
+// 48. Madhyama Sanskrit education separation
+runTest(48, 'Madhyama Sanskrit education separation', () => {
+  assert.ok(dict.specialized_pathways.madhyama, 'Madhyama pathway must be defined in dict');
+  assert.deepStrictEqual(dict.specialized_pathways.madhyama.levels, ['Prathama', 'Madhyama']);
 });
 
-// 49. Full Exam duplicate prevention
-runTest(49, 'Full Exam duplicate prevention (unique primary keys)', () => {
-  const duplicates = db.prepare(`
-    SELECT question_id, COUNT(*) as cnt 
-    FROM questions 
-    WHERE board_id = ? 
-    GROUP BY question_id 
-    HAVING cnt > 1
-  `).all(BOARD_ID);
-  assert.strictEqual(duplicates.length, 0, 'No duplicate question IDs allowed');
+// 49. Madarsa Islamic education separation
+runTest(49, 'Madarsa Islamic education separation (Wastania to Fazil)', () => {
+  assert.ok(dict.specialized_pathways.madarsa, 'Madarsa pathway must be defined in dict');
+  assert.ok(dict.specialized_pathways.madarsa.levels.some(l => l.includes('Wastania')));
+  assert.ok(dict.specialized_pathways.madarsa.levels.some(l => l.includes('Fauquania')));
+  assert.ok(dict.specialized_pathways.madarsa.levels.some(l => l.includes('Moulvi')));
+  assert.ok(dict.specialized_pathways.madarsa.levels.some(l => l.includes('Alim')));
+  assert.ok(dict.specialized_pathways.madarsa.levels.some(l => l.includes('Fazil')));
 });
 
-// 50. Cross-board contamination audit
-runTest(50, 'Cross-board contamination audit (zero sharing with other 26 boards)', () => {
-  const otherBoardCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND question_id NOT LIKE 'cg-q-%'").get(BOARD_ID).cnt;
-  assert.strictEqual(otherBoardCount, 0, 'Zero questions from other boards');
+// 50. Inter Vocational examination separation
+runTest(50, 'Inter Vocational examination separation', () => {
+  assert.ok(dict.specialized_pathways.inter_vocational, 'Inter vocational pathway must exist');
 });
 
-// 51. Cross-class contamination audit
-runTest(51, 'Cross-class contamination audit (Class 10 vs Class 12 isolation)', () => {
-  const c10Leak = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 10' AND question_id LIKE '%-c12-%'").get(BOARD_ID).cnt;
-  const c12Leak = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 12' AND question_id LIKE '%-c10-%'").get(BOARD_ID).cnt;
-  assert.strictEqual(c10Leak, 0, 'No Class 12 questions in Class 10');
-  assert.strictEqual(c12Leak, 0, 'No Class 10 questions in Class 12');
+// 51. Class 9 to 10 dependency enforcement
+runTest(51, 'Class 9 to 10 dependency enforcement (JAC_CLASS9_TO_CLASS10_DEPENDENCY)', () => {
+  assert.strictEqual(dict.academic_progression.class_9_to_10_dependency, 'JAC_CLASS9_TO_CLASS10_DEPENDENCY');
+  assert.strictEqual(dict.academic_progression.class_9_board_exam_mode, 'OMR_BOARD_EVALUATION');
 });
 
-// 52. Payload protection
-runTest(52, 'Payload protection (pagination, indexed queries, bounded results)', () => {
-  const bounded = db.prepare('SELECT question_id FROM questions WHERE board_id = ? LIMIT 10 OFFSET 0').all(BOARD_ID);
-  assert.strictEqual(bounded.length, 10);
+// 52. Class 11 to 12 dependency enforcement
+runTest(52, 'Class 11 to 12 dependency enforcement (JAC_CLASS11_TO_CLASS12_DEPENDENCY)', () => {
+  assert.strictEqual(dict.academic_progression.class_11_to_12_dependency, 'JAC_CLASS11_TO_CLASS12_DEPENDENCY');
+  assert.strictEqual(dict.academic_progression.class_11_board_exam_mode, 'OMR_BOARD_EVALUATION');
+  assert.strictEqual(dict.academic_progression.class_11_to_12_attendance_requirement_percent, 75);
 });
 
 // 53. Database foreign key constraints verification
@@ -513,33 +508,33 @@ runTest(54, 'Database integrity check (PRAGMA integrity_check = ok)', () => {
 
 // 55. Pre-mutation backup existence & SHA-256 integrity
 runTest(55, 'Pre-mutation backup existence & SHA-256 integrity', () => {
-  const prePath = path.join(__dirname, '../db/sarkari_core_pre_cgbse.db');
-  const shaPath = path.join(__dirname, '../db/sarkari_core_pre_cgbse.sha256');
+  const prePath = path.join(__dirname, '../db/sarkari_core_pre_jac-jharkhand.db');
+  const shaPath = path.join(__dirname, '../db/sarkari_core_pre_jac-jharkhand.sha256');
   assert.ok(fs.existsSync(prePath), 'Pre-mutation DB backup must exist');
   assert.ok(fs.existsSync(shaPath), 'Pre-mutation SHA-256 file must exist');
 });
 
 // 56. Post-mutation backup existence & SHA-256 integrity
 runTest(56, 'Post-mutation backup existence & SHA-256 integrity', () => {
-  const postPath = path.join(__dirname, '../db/sarkari_core_post_cgbse.db');
-  const shaPath = path.join(__dirname, '../db/sarkari_core_post_cgbse.sha256');
+  const postPath = path.join(__dirname, '../db/sarkari_core_post_jac-jharkhand.db');
+  const shaPath = path.join(__dirname, '../db/sarkari_core_post_jac-jharkhand.sha256');
   assert.ok(fs.existsSync(postPath), 'Post-mutation DB backup must exist');
   assert.ok(fs.existsSync(shaPath), 'Post-mutation SHA-256 file must exist');
-  const notes = db.prepare("SELECT COUNT(*) as cnt FROM notes WHERE note_id LIKE 'note-cg-%'").get().cnt;
+  const notes = db.prepare("SELECT COUNT(*) as cnt FROM notes WHERE note_id LIKE 'note-jac-%'").get().cnt;
   assert.strictEqual(notes, 5, 'Must have exactly 5 master bundled notes');
 });
 
 // 57. Cumulative question count integrity
-runTest(57, 'Cumulative question count integrity (at least 242,190 total questions in DB, 233,510 baseline accounted for)', () => {
+runTest(57, 'Cumulative question count integrity (250,870 total questions in DB, 242,190 baseline accounted for)', () => {
   const total = db.prepare('SELECT COUNT(*) as cnt FROM questions').get().cnt;
-  assert.ok(total >= 242190, 'Grand total questions must be at least 242,190 (233,510 + 8,680)');
+  assert.strictEqual(total, 250870, 'Grand total questions must be exactly 250,870 (242,190 + 8,680)');
   
-  const cgbseQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
-  assert.strictEqual(cgbseQuestions, 8680, 'CGBSE questions must remain exactly 8,680');
+  const jacQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
+  assert.strictEqual(jacQuestions, 8680, 'JAC questions must remain exactly 8,680');
   
-  const priorBoards = 218120;
+  const priorBoards = 226800;
   const compBaseline = 15390;
-  assert.strictEqual(priorBoards + compBaseline + cgbseQuestions, 242190, 'Exact baseline decomposition verified');
+  assert.strictEqual(priorBoards + compBaseline + jacQuestions, 250870, 'Exact baseline decomposition verified');
 });
 
 console.log('\n================================================================');
@@ -547,7 +542,7 @@ console.log(`📊 TEST SUITE SUMMARY: ${passedTests}/57 PASSED, ${failedTests} F
 console.log('================================================================');
 
 if (failedTests === 0) {
-  console.log('🎉 100% SUCCESS: All Chhattisgarh (CGBSE) Forensic Integrity Tests Passed.\n');
+  console.log('🎉 100% SUCCESS: All Jharkhand (JAC) Forensic Integrity Tests Passed.\n');
   process.exit(0);
 } else {
   console.error(`💥 FAILURE: ${failedTests} tests failed.`);

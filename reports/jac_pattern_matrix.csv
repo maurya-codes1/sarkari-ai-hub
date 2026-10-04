@@ -1,0 +1,7 @@
+stage,exam_name,architecture_mode,mcq_objective_marks,subjective_marks,theory_written_marks,practical_ia_marks,qualifying_standard
+Class 8,JAC Middle Board,OMR_ONLY,50,0,50,0,Grade based (A+ to D pass; E fail)
+Class 9,JAC Preparatory Board,OMR_ONLY,40,0,40,10,Minimum 33% in 4 out of 5 subjects
+Class 10,JAC Secondary Matric,OMR_PLUS_WRITTEN,30,50,80,20,Minimum 33% combined in each subject
+Class 11,JAC Preparatory Inter,OMR_ONLY,40,0,40,10,Minimum 33% in 4 out of 5 subjects
+Class 12 (Lab),JAC Intermediate Lab,WRITTEN_PLUS_PRACTICAL,25,45,70,30,Minimum 23/70 Theory + 10/30 Practical (33% combined)
+Class 12 (Non-Lab),JAC Intermediate Non-Lab,WRITTEN_PLUS_PROJECT,30,50,80,20,Minimum 26/80 Theory + 7/20 Project (33% combined)

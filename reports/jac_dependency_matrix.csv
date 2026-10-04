@@ -1,0 +1,4 @@
+rule_id,transition_stage,dependency_type,regulatory_condition,status
+JAC_CLASS8_TO_CLASS9_DEPENDENCY,Class 8 to Class 9,PROGRESSION,JAC Class VIII Board Exam qualification + 75% attendance,ENFORCED
+JAC_CLASS9_TO_CLASS10_DEPENDENCY,Class 9 to Class 10,ACADEMIC_PROGRESSION,JAC Class IX Board Examination pass on jacresults.com + 75% attendance,ENFORCED
+JAC_CLASS11_TO_CLASS12_DEPENDENCY,Class 11 to Class 12,ACADEMIC_PROGRESSION,JAC Class XI Board Examination pass on jacresults.com + stream continuity + 75% attendance,ENFORCED

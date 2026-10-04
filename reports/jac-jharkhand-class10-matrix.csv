@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,reading_time_mins,exam_duration_mins
+jac-c10-hindi,Hindi (अनिवार्य हिन्दी - कोर्स ए / बी — 80 Theory + 20 IA),First / Compulsory Language,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+jac-c10-english,English (Language & Literature — 80 Theory + 20 IA),Second / Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+jac-c10-sanskrit,Sanskrit (संस्कृत - अनिवार्य / ऐच्छिक भाषा — 80 Theory + 20 IA),Third Language Option,sa,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+jac-c10-urdu,Urdu (اردو زبان و ادب — 80 Theory + 20 IA),Language Option,ur,Perso-Arabic (U+0600-U+06FF),280,205,75,80,20,15,180
+jac-c10-mathematics,Mathematics (गणित — 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+jac-c10-science,Science (विज्ञान — 80 Theory + 20 Practical/IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+jac-c10-social-science,Social Science (सामाजिक विज्ञान — 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+jac-c10-jharkhand-culture,Jharkhand Heritage & Tribal Culture (झारखंड अध्ययन एवं जनजातीय संस्कृति — 80 Theory + 20 IA),State Culture Core,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+jac-c10-information-technology,Information Technology (सूचना प्रौद्योगिकी — 80 Theory + 20 Practical),Vocational / Elective,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+jac-c10-health-physical-education,Health & Physical Education (स्वास्थ्य एवं शारीरिक शिक्षा — 80 Theory + 20 Practical),Activity / Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180

@@ -1,0 +1,8 @@
+examination_tier,scope_tier,registration_mode,minimum_attendance,regulatory_condition,status
+Class 8,Middle Board,ONLINE_SCHOOL_PORTAL,75%,Mandatory school registration on JAC portal,VERIFIED
+Class 9,Secondary Preparatory,ONLINE_SCHOOL_PORTAL,75%,Mandatory OMR registration for JAC Board Exam,VERIFIED
+Class 10,Secondary Matric,ONLINE_AFFILIATED_SCHOOL,75%,Class 9 pass certificate + CCE internal compliance,VERIFIED
+Class 11,Intermediate Preparatory,ONLINE_INTER_COLLEGE,75%,Mandatory stream registration + OMR board exam entry,VERIFIED
+Class 12,Intermediate Final,ONLINE_INTER_COLLEGE,75%,Class 11 board pass + stream continuity + practical verification,VERIFIED
+Madhyama,Sanskrit Secondary,SPECIAL_SANSKRIT_PORTAL,75%,Registered Sanskrit Tol / Vidyapeeth affiliation,VERIFIED
+Madarsa,Islamic Studies,SPECIAL_MADARSA_PORTAL,75%,Registered Madarsa affiliation across Wastania to Fazil,VERIFIED

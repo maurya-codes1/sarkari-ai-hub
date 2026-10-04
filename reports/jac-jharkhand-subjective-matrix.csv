@@ -1,0 +1,32 @@
+subject_id,subject_name,vsa_count,sa_count,case_study_count,la_count,total_subjective,min_answer_len,rubric_coverage
+jac-c10-hindi,Hindi (अनिवार्य हिन्दी - कोर्स ए / बी — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-english,English (Language & Literature — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-sanskrit,Sanskrit (संस्कृत - अनिवार्य / ऐच्छिक भाषा — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-urdu,Urdu (اردو زبان و ادب — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-mathematics,Mathematics (गणित — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-science,Science (विज्ञान — 80 Theory + 20 Practical/IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-social-science,Social Science (सामाजिक विज्ञान — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-jharkhand-culture,Jharkhand Heritage & Tribal Culture (झारखंड अध्ययन एवं जनजातीय संस्कृति — 80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-information-technology,Information Technology (सूचना प्रौद्योगिकी — 80 Theory + 20 Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c10-health-physical-education,Health & Physical Education (स्वास्थ्य एवं शारीरिक शिक्षा — 80 Theory + 20 Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-physics,Physics (70 Theory + 30 Practical - I.Sc),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-chemistry,Chemistry (70 Theory + 30 Practical - I.Sc),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-mathematics,Mathematics (80 Theory + 20 IA - I.Sc / I.A),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-biology,Biology (70 Theory + 30 Practical - I.Sc),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-computer-science,Computer Science (70 Theory + 30 Practical - I.Sc / I.Com),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-geology,Geology (70 Theory + 30 Practical - Mineralogy & Economic Geology),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-accountancy,Accountancy (80 Theory + 20 Project - I.Com),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-business-studies,Business Studies (80 Theory + 20 Project - I.Com),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-economics,Economics (80 Theory + 20 Project - I.Com / I.A),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-commercial-arithmetic,Commercial Arithmetic & Business Mathematics (80 Theory + 20 IA - I.Com),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-entrepreneurship,Entrepreneurship (70 Theory + 30 Practical - I.Com),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-history,History (80 Theory + 20 IA - Indian History & Jharkhand Freedom Movement),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-political-science,Political Science (80 Theory + 20 IA - Contemporary World & India),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-geography,Geography (70 Theory + 30 Practical - Human Geography & Chota Nagpur),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-sociology,Sociology (80 Theory + 20 IA - Indian Society & Tribal Sociology),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-psychology,Psychology (70 Theory + 30 Practical - Human Behaviour),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-home-science,Home Science (70 Theory + 30 Practical - Family Resource Management),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-hindi,Hindi Core (80 Theory + 20 IA - अनिवार्य हिन्दी कोर),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-english,English Core (80 Theory + 20 IA - Compulsory Language),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-sanskrit,Sanskrit Elective (80 Theory + 20 IA - संस्कृत ऐच्छिक),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+jac-c12-urdu,Urdu Elective (80 Theory + 20 IA - اردو اختیاری),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING

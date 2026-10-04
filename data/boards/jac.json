@@ -1,0 +1,11 @@
+{
+  "board_id": "jac",
+  "alias_of": "jac-jharkhand",
+  "board_name": "Jharkhand Academic Council (Alias)",
+  "short_name": "JAC",
+  "authority_id": "org-jh-board-jac",
+  "state": "Jharkhand",
+  "official_website": "https://jac.jharkhand.gov.in/",
+  "active": true,
+  "verification_status": "VERIFIED"
+}

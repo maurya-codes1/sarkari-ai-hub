@@ -1,0 +1,7 @@
+language_name,code,script_range,curriculum_role,status
+Hindi (हिन्दी),hi,Devanagari (U+0900-U+097F),Official Language of Jharkhand; Primary medium of examination and compulsory language,VERIFIED
+English,en,Latin (U+0020-U+007E),Compulsory Second Language; Medium of instruction in English medium institutions,VERIFIED
+Sanskrit (संस्कृतम्),sa,Devanagari (U+0900-U+097F),Third Language Option in Class 10; Classical Elective in Class 12; Madhyama curriculum,VERIFIED
+Urdu (اردو),ur,Perso-Arabic (U+0600-U+06FF),Recognized Second Official Language; Language option in Class 10/12; Madarsa curriculum,VERIFIED
+Santali (संताली / ᱥᱟᱱᱛᱟᱲᱤ),sat,Ol Chiki (U+1C50-U+1C7F) / Devanagari,Major tribal language of Jharkhand; Ol Chiki script recognized,DOCUMENTED
+"Regional Languages (खोरठा, नागपुरी, पंचपरगनिया, कुड़मालि)",reg,Devanagari (U+0900-U+097F),Recognized regional tribal/regional language options in Secondary/Intermediate,DOCUMENTED

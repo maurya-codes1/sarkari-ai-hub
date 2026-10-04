@@ -1,0 +1,2 @@
+stage,exam_name,administering_body,exam_mode,dependency_rule,streams,marks_structure,pass_criteria,status
+Class 11,JAC Class XI Board Examination,Jharkhand Academic Council,OMR_BASED_BOARD_EXAM,JAC_CLASS11_TO_CLASS12_DEPENDENCY,"Science, Commerce, Arts",40 MCQs + 10 IA per subject,Minimum 33% in at least 4 out of 5 subjects,ACTIVE_JAC_EXAM

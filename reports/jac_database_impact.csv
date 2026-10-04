@@ -1,0 +1,10 @@
+metric,value,details
+Pre-JAC Total Questions,"242,190",Official verified database count before Board #28
+JAC Added Questions,"8,680",Exactly 31 subjects * 280 questions
+Post-JAC Total Questions,"250,870",Total verified questions in sarkari_core.db
+JAC MCQs,"6,355","31 subjects * 205 MCQs (4-way balanced options, 0.00% bias)"
+JAC Subjectives,"2,325","31 subjects * 75 Subjectives (744 VSA, 744 SA, 372 Case, 465 LA)"
+JAC Bundled Notes,5,5 comprehensive multi-subject revision guides
+JAC Primary Subjects,31,10 Class 10 Secondary + 21 Class 12 Intermediate
+Foreign Key Violations,0,PRAGMA foreign_key_check verified
+SQLite Integrity,ok,PRAGMA integrity_check verified

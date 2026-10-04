@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks,reading_time_mins,exam_duration_mins
+science,Core_Compulsory,jac-c12-physics,Physics (70 Theory + 30 Practical - I.Sc),Science Core,280,205,75,70,30,15,180
+science,Core_Compulsory,jac-c12-chemistry,Chemistry (70 Theory + 30 Practical - I.Sc),Science Core,280,205,75,70,30,15,180
+science,Core_Compulsory,jac-c12-mathematics,Mathematics (80 Theory + 20 IA - I.Sc / I.A),Science Core,280,205,75,80,20,15,180
+science,Elective,jac-c12-biology,Biology (70 Theory + 30 Practical - I.Sc),Science Elective,280,205,75,70,30,15,180
+science,Elective,jac-c12-computer-science,Computer Science (70 Theory + 30 Practical - I.Sc / I.Com),Science Elective,280,205,75,70,30,15,180
+science,Signature_Discipline,jac-c12-geology,Geology (70 Theory + 30 Practical - Mineralogy & Economic Geology),Science Elective,280,205,75,70,30,15,180
+commerce,Core_Compulsory,jac-c12-accountancy,Accountancy (80 Theory + 20 Project - I.Com),Commerce Core,280,205,75,80,20,15,180
+commerce,Core_Compulsory,jac-c12-business-studies,Business Studies (80 Theory + 20 Project - I.Com),Commerce Core,280,205,75,80,20,15,180
+commerce,Core_Compulsory,jac-c12-economics,Economics (80 Theory + 20 Project - I.Com / I.A),Commerce Core,280,205,75,80,20,15,180
+commerce,Elective,jac-c12-commercial-arithmetic,Commercial Arithmetic & Business Mathematics (80 Theory + 20 IA - I.Com),Commerce Elective,280,205,75,80,20,15,180
+commerce,Elective,jac-c12-entrepreneurship,Entrepreneurship (70 Theory + 30 Practical - I.Com),Commerce Elective,280,205,75,70,30,15,180
+humanities,Elective,jac-c12-history,History (80 Theory + 20 IA - Indian History & Jharkhand Freedom Movement),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,jac-c12-political-science,Political Science (80 Theory + 20 IA - Contemporary World & India),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,jac-c12-geography,Geography (70 Theory + 30 Practical - Human Geography & Chota Nagpur),Humanities Elective,280,205,75,70,30,15,180
+humanities,Elective,jac-c12-sociology,Sociology (80 Theory + 20 IA - Indian Society & Tribal Sociology),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,jac-c12-psychology,Psychology (70 Theory + 30 Practical - Human Behaviour),Humanities Elective,280,205,75,70,30,15,180
+humanities,Elective,jac-c12-home-science,Home Science (70 Theory + 30 Practical - Family Resource Management),Humanities Elective,280,205,75,70,30,15,180
+languages,Language_Core,jac-c12-hindi,Hindi Core (80 Theory + 20 IA - अनिवार्य हिन्दी कोर),Language Core,280,205,75,80,20,15,180
+languages,Language_Core,jac-c12-english,English Core (80 Theory + 20 IA - Compulsory Language),Language Core,280,205,75,80,20,15,180
+languages,Language_Elective,jac-c12-sanskrit,Sanskrit Elective (80 Theory + 20 IA - संस्कृत ऐच्छिक),Language Elective,280,205,75,80,20,15,180
+languages,Language_Elective,jac-c12-urdu,Urdu Elective (80 Theory + 20 IA - اردو اختیاری),Language Elective,280,205,75,80,20,15,180

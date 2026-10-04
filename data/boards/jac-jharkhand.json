@@ -1,0 +1,275 @@
+{
+  "board_id": "jac-jharkhand",
+  "board_name": "Jharkhand Academic Council",
+  "short_name": "JAC",
+  "authority_id": "org-jh-board-jac",
+  "authority_name": "Jharkhand Academic Council, Gyandeep Campus, Bargawan, Namkum, Ranchi",
+  "state": "Jharkhand",
+  "headquarters": "Gyandeep Campus, Bargawan, Namkum, Ranchi, Jharkhand - 834010",
+  "statutory_act": "Jharkhand Academic Council Act, 2002 (Jharkhand Act No. 02 of 2003)",
+  "established_year": 2003,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://jac.jharkhand.gov.in/",
+  "official_result_url": "https://jacresults.com/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "jac-jharkhand",
+    "jac-board",
+    "jac"
+  ],
+  "exam_reading_time": {
+    "higher_secondary": "15 minutes dedicated reading time for theoretical papers",
+    "high_school": "15 minutes dedicated reading time for theoretical papers",
+    "reading_time_minutes": 15,
+    "exam_writing_duration_hours": 3
+  },
+  "curriculum_framework": {
+    "secondary_class_10": {
+      "examination_name": "Secondary Examination (Class X)",
+      "aggregate_marks": 500,
+      "core_subjects_count": 5,
+      "theory_marks": 80,
+      "internal_practical_marks": 20,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "language_structure": {
+        "first_language": "Hindi (Course A / Course B)",
+        "second_language": "English (Language & Literature)",
+        "third_language_options": [
+          "Sanskrit",
+          "Urdu",
+          "Bengali",
+          "Odia",
+          "Santali",
+          "Mundari",
+          "Kurukh",
+          "Ho",
+          "Kharia",
+          "Khortha",
+          "Nagpuri",
+          "Panchpargania",
+          "Kurmali"
+        ]
+      },
+      "compulsory_subjects": [
+        "jac-c10-hindi",
+        "jac-c10-english",
+        "jac-c10-sanskrit",
+        "jac-c10-urdu",
+        "jac-c10-mathematics",
+        "jac-c10-science",
+        "jac-c10-social-science",
+        "jac-c10-jharkhand-culture",
+        "jac-c10-information-technology",
+        "jac-c10-health-physical-education"
+      ]
+    },
+    "intermediate_class_12": {
+      "examination_name": "Intermediate Examination (Class XII)",
+      "aggregate_marks": 500,
+      "papers_count": 5,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "science_practical_split": {
+        "theory_marks": 70,
+        "practical_marks": 30,
+        "theory_pass_mark": 23,
+        "practical_pass_mark": 10,
+        "combined_pass_mark": 33
+      },
+      "humanities_commerce_split": {
+        "theory_marks": 80,
+        "internal_project_marks": 20,
+        "theory_pass_mark": 26,
+        "project_pass_mark": 7,
+        "combined_pass_mark": 33
+      },
+      "language_structure": {
+        "core_language_1": "Hindi Core / Elective",
+        "core_language_2": "English Core / Elective"
+      },
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Intermediate of Science (I.Sc)",
+          "compulsory_electives": [
+            "jac-c12-physics",
+            "jac-c12-chemistry"
+          ],
+          "optional_electives": [
+            "jac-c12-mathematics",
+            "jac-c12-biology",
+            "jac-c12-computer-science",
+            "jac-c12-geology"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Intermediate of Commerce (I.Com)",
+          "compulsory_electives": [
+            "jac-c12-accountancy",
+            "jac-c12-business-studies"
+          ],
+          "optional_electives": [
+            "jac-c12-economics",
+            "jac-c12-commercial-arithmetic",
+            "jac-c12-entrepreneurship"
+          ]
+        },
+        {
+          "stream_id": "arts",
+          "stream_name": "Intermediate of Arts (I.A.)",
+          "electives": [
+            "jac-c12-history",
+            "jac-c12-political-science",
+            "jac-c12-geography",
+            "jac-c12-sociology",
+            "jac-c12-psychology",
+            "jac-c12-home-science"
+          ]
+        },
+        {
+          "stream_id": "vocational",
+          "stream_name": "Inter Vocational Examination",
+          "trades": [
+            "Automobile Technology",
+            "IT & Computer Networking",
+            "Healthcare & Paramedical",
+            "Agriculture & Food Processing",
+            "Tourism & Hospitality",
+            "Retail Operations"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_8": {
+      "stage": "Class 8",
+      "exam_name": "Class VIII Board Examination",
+      "terminal_public_exam": false,
+      "exam_mode": "OMR_BASED_BOARD_EXAM",
+      "scope": "STATE_BOARD_MIDDLE_EXAM",
+      "administering_body": "JAC",
+      "pass_mark_percent": 33
+    },
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Board Examination",
+      "terminal_public_exam": false,
+      "exam_mode": "OMR_BASED_BOARD_EXAM",
+      "dependency_rule": "JAC_CLASS9_TO_CLASS10_DEPENDENCY",
+      "scope": "STATE_BOARD_SECONDARY_PREPARATORY",
+      "administering_body": "JAC",
+      "pass_mark_percent": 33
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary Examination (Class X)",
+      "terminal_public_exam": true,
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Board Examination",
+      "terminal_public_exam": false,
+      "exam_mode": "OMR_BASED_BOARD_EXAM",
+      "dependency_rule": "JAC_CLASS11_TO_CLASS12_DEPENDENCY",
+      "scope": "STATE_BOARD_INTERMEDIATE_PREPARATORY",
+      "administering_body": "JAC",
+      "attendance_regulation": "Minimum 75% attendance across Classes XI and XII",
+      "pass_mark_percent": 33
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Intermediate Examination (Class XII)",
+      "terminal_public_exam": true,
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 33,
+      "practical_passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    }
+  },
+  "specialized_pathways": {
+    "madhyama": {
+      "pathway_name": "Madhyama Examination (Sanskrit Board Education)",
+      "levels": ["Prathama", "Madhyama"],
+      "curriculum_focus": "Sanskrit Sahitya, Vyakarana, Darshan, Jyotish, Veda",
+      "equivalent_recognition": "Matric / Intermediate Equivalent"
+    },
+    "madarsa": {
+      "pathway_name": "Madarsa Examination (Islamic Traditional Education)",
+      "levels": [
+        "Wastania (Middle Equivalent)",
+        "Fauquania (Secondary / Matric Equivalent)",
+        "Moulvi (Higher Secondary / Intermediate Equivalent)",
+        "Alim (Graduation Equivalent)",
+        "Fazil (Post-Graduate Equivalent)"
+      ],
+      "curriculum_focus": "Arabic, Persian, Urdu, Islamic Studies, Modern Subjects"
+    },
+    "inter_vocational": {
+      "pathway_name": "Intermediate Vocational Course",
+      "target_group": "Skill and Technical Career Streams"
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "jac_home": "https://jac.jharkhand.gov.in/",
+    "results_portal": "https://jacresults.com/",
+    "school_education_dept": "https://education.jharkhand.gov.in/",
+    "jcert": "https://jcert.jharkhand.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": [
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26"
+    ]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_jharkhand": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "JAC_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_board_exam_mode": "OMR_BOARD_EVALUATION",
+    "class_11_to_12_dependency": "JAC_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_board_exam_mode": "OMR_BOARD_EVALUATION",
+    "class_11_to_12_attendance_requirement_percent": 75
+  },
+  "registration_rules": {
+    "secondary_class_10": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_INSTITUTION",
+      "min_attendance": 75,
+      "class_9_pass_prerequisite": true,
+      "portal": "https://jac.jharkhand.gov.in/"
+    },
+    "intermediate_class_12": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_INTERMEDIATE_COLLEGE",
+      "min_attendance": 75,
+      "class_11_pass_prerequisite": true,
+      "stream_continuity": true,
+      "portal": "https://jac.jharkhand.gov.in/"
+    }
+  }
+}
