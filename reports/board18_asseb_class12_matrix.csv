@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+languages,Compulsory,as-c12-english,General English (Compulsory across all streams),Compulsory Language,280,205,75,100,0
+languages,Compulsory_MIL,as-c12-mil-assamese,Modern Indian Language - Assamese (অসমীয়া),Compulsory/Elective MIL,280,205,75,100,0
+languages,Compulsory_MIL,as-c12-mil-bengali,Modern Indian Language - Bengali (বাংলা),Compulsory/Elective MIL,280,205,75,100,0
+languages,Compulsory_MIL,as-c12-mil-bodo,Modern Indian Language - Bodo (बर'),Compulsory/Elective MIL,280,205,75,100,0
+science,Core,as-c12-physics,Physics (+2 HS),Science Core,280,205,75,70,30
+science,Core,as-c12-chemistry,Chemistry (+2 HS),Science Core,280,205,75,70,30
+science,Core,as-c12-biology,Biology (Botany & Zoology - +2 HS),Science Core,280,205,75,70,30
+science,Core,as-c12-mathematics,Mathematics (+2 HS),Science Core,280,205,75,80,20
+science,Elective,as-c12-computer-science,Computer Science & Application (+2 HS),Academic Elective,280,205,75,70,30
+science,Elective,as-c12-statistics,Statistics (+2 HS),Academic Elective,280,205,75,70,30
+commerce,Core,as-c12-accountancy,Accountancy (+2 HS),Commerce Core,280,205,75,80,20
+commerce,Core,as-c12-business-studies,Business Studies (+2 HS),Commerce Core,280,205,75,80,20
+commerce,Core,as-c12-economics,Economics (+2 HS),Commerce Core,280,205,75,80,20
+commerce,Elective,as-c12-banking,Banking & Commercial Mathematics (+2 HS),Commerce Elective,280,205,75,80,20
+commerce,Elective,as-c12-insurance-finance,Insurance & Financial Studies (+2 HS),Commerce Elective,280,205,75,80,20
+arts,Elective,as-c12-political-science,Political Science (+2 HS),Humanities Elective,280,205,75,80,20
+arts,Elective,as-c12-history,History (+2 HS),Humanities Elective,280,205,75,80,20
+arts,Elective,as-c12-geography,Geography (+2 HS),Humanities Elective,280,205,75,70,30
+arts,Elective,as-c12-sociology,Sociology (+2 HS),Humanities Elective,280,205,75,80,20
+arts,Elective,as-c12-education,Education (+2 HS),Humanities Elective,280,205,75,80,20
+arts,Elective,as-c12-logic-philosophy,Logic & Philosophy (+2 HS),Humanities Elective,280,205,75,80,20

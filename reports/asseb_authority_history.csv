@@ -1,0 +1,4 @@
+entity_type,identifier,official_name,short_name,established_year,functional_role,current_integration_status,portal_url
+CURRENT_UNIFIED_BOARD,org-as-board-asseb,Assam State School Education Board,ASSEB,2024,Unified school examination and curriculum authority for Assam,ACTIVE_PRIMARY_AUTHORITY,https://asseb.assam.gov.in
+HISTORICAL_DIVISION,org-as-board-seba,Secondary Education Board of Assam,SEBA,1962,Secondary Education / HSLC (Class 10) Examination,MERGED_INTO_ASSEB_DIVISION_I,https://site.sebaonline.org
+HISTORICAL_DIVISION,org-as-board-ahsec,Assam Higher Secondary Education Council,AHSEC,1984,Higher Secondary / Classes 11 and 12 (+2) Education,MERGED_INTO_ASSEB_DIVISION_II,https://ahsec.assam.gov.in

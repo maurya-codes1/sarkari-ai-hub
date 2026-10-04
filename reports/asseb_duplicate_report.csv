@@ -1,0 +1,3 @@
+audit_check,total_checked,duplicates_found,cross_board_duplicates,status
+ASSET_INTERNAL_DUPLICATES,8680,0,0,PASSED_ZERO_DUPLICATES
+CROSS_BOARD_CONTAMINATION,8680,0,0,PASSED_ZERO_CONTAMINATION

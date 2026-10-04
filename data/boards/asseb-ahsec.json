@@ -1,0 +1,30 @@
+{
+  "board_id": "asseb-ahsec",
+  "authority_id": "org-as-board-ahsec",
+  "ecosystem_id": "asseb-assam",
+  "board_name": "Assam Higher Secondary Education Council (Now ASSEB Division-II)",
+  "short_name": "AHSEC",
+  "common_name": "AHSEC / ASSEB Higher Secondary Division",
+  "state": "Assam",
+  "headquarters": "Bamunimaidam, Guwahati - 781021, Assam",
+  "country": "India",
+  "official_website": "https://ahsec.assam.gov.in/",
+  "classes": [11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "class_11": {
+    "examination_status": "Higher Secondary First Year (+1) Examination under ASSEB guidelines",
+    "board_exam_eligible": false,
+    "progression_to_class_12": {
+      "rule": "Promotion to Class 12 requires passing Class 11 examination in chosen stream."
+    }
+  },
+  "class_12": {
+    "examination_name": "Higher Secondary Final Examination (+2)",
+    "board_exam_eligible": true,
+    "standard_duration": "3 Hours (9:00 AM to 12:00 PM or 1:30 PM to 4:30 PM)",
+    "total_maximum_marks": 500,
+    "passing_criteria": "Minimum 30% in each subject (theory + practical) and 30% aggregate."
+  }
+}

@@ -1,0 +1,5 @@
+stage,process_name,normal_window,late_fee_window,registration_portal,mandatory_prerequisite,status
+Class 9,Enrolment Return / Registration,July - August,September (Late Fee),https://site.sebaonline.org,Admission in 9th class in recognized school in Assam,VERIFIED
+Class 10 HSLC,Examination Form Submission,October - November,December (Late Fee),https://site.sebaonline.org,Valid Class 9 Enrolment Number + 75% Attendance,VERIFIED
+Class 11 (+1),HS Enrolment / Registration,August - September,October (Late Fee),https://ahsec.assam.gov.in,Pass in Class 10 HSLC or equivalent,VERIFIED
+Class 12 (+2),HS Final Examination Form Submission,October - November,December (Late Fee),https://ahsec.assam.gov.in,Pass in Class 11 (+1) + 75% Attendance,VERIFIED

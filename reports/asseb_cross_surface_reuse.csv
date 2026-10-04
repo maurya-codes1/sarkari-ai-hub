@@ -1,0 +1,5 @@
+surface_pair,permitted_cross_surface_reuse,asset_internal_duplicates_permitted,enforcement_policy
+PDF_GENERATION <-> REVISION,PERMITTED_CANONICAL_LINK,STRICTLY_FORBIDDEN_ZERO_TOLERANCE,Canonical ID preservation across surfaces
+REVISION <-> LEARNING_MOCK,PERMITTED_CANONICAL_LINK,STRICTLY_FORBIDDEN_ZERO_TOLERANCE,Studied items recycled into learning mock
+LEARNING_MOCK <-> PRACTICE_MOCK,PERMITTED_CONTROLLED_MIX,STRICTLY_FORBIDDEN_ZERO_TOLERANCE,Bounded stratified selection
+PRACTICE_MOCK <-> FULL_EXAM,PERMITTED_BLUEPRINT_FILTER,STRICTLY_FORBIDDEN_ZERO_TOLERANCE,Blueprint rules take strict precedence

@@ -1,0 +1,374 @@
+{
+  "board_id": "asseb-assam",
+  "authority_id": "org-as-board-asseb",
+  "board_name": "Assam State School Education Board",
+  "short_name": "ASSEB",
+  "common_name": "ASSEB / Assam Board (Formerly SEBA & AHSEC)",
+  "state": "Assam",
+  "headquarters": "Bamunimaidam, Guwahati - 781021, Assam",
+  "country": "India",
+  "official_url": "https://asseb.assam.gov.in",
+  "secondary_portal": "https://site.sebaonline.org",
+  "higher_secondary_portal": "https://ahsec.assam.gov.in",
+  "results_url": "https://sebaresults.sebaonline.org",
+  "historical_authorities": {
+    "seba": {
+      "authority_id": "org-as-board-seba",
+      "name": "Secondary Education Board of Assam",
+      "short_name": "SEBA",
+      "established_year": 1962,
+      "functional_scope": "Secondary Education / HSLC (Class 10) Examination",
+      "integration_act": "Assam State School Education Board Act, 2024",
+      "current_division": "Division-I (Secondary Education)",
+      "status": "HISTORICAL_AND_MERGED_OPERATIONAL_UNIT"
+    },
+    "ahsec": {
+      "authority_id": "org-as-board-ahsec",
+      "name": "Assam Higher Secondary Education Council",
+      "short_name": "AHSEC",
+      "established_year": 1984,
+      "functional_scope": "Higher Secondary / Classes 11 and 12 (+2) Education",
+      "integration_act": "Assam State School Education Board Act, 2024",
+      "current_division": "Division-II (Higher Secondary Education)",
+      "status": "HISTORICAL_AND_MERGED_OPERATIONAL_UNIT"
+    }
+  },
+  "classes": [
+    "Class 9",
+    "Class 10",
+    "Class 11",
+    "Class 12"
+  ],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1.0",
+  "board_isolation_policy": "STRICT_ISOLATION_NO_CROSS_BOARD_CONTAMINATION",
+  "academic_calendar_type": "ANNUAL_BOARD_EXAMINATION_FEBRUARY_MARCH_SESSION",
+  "class_10": {
+    "examination_name": "High School Leaving Certificate Examination (HSLC)",
+    "stage": "Class 10",
+    "administering_division": "Division-I (Secondary Education, Former SEBA)",
+    "terminal_public_exam": true,
+    "total_maximum_marks": 600,
+    "passing_marks_per_subject": 30,
+    "aggregate_passing_percentage": 30,
+    "scheme_of_studies": {
+      "total_papers": 6,
+      "compulsory_subjects_count": 6,
+      "marks_distribution": {
+        "external_theory_marks": 90,
+        "internal_assessment_marks": 10,
+        "total_marks_per_subject": 100
+      },
+      "mcq_weightage_percentage": 50,
+      "descriptive_weightage_percentage": 50
+    },
+    "subjects": [
+      {
+        "subject_id": "as-c10-english",
+        "name": "English (Compulsory HSLC Subject)",
+        "category": "COMPULSORY_LANGUAGE",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["English"]
+      },
+      {
+        "subject_id": "as-c10-mil-assamese",
+        "name": "Assamese MIL (অসমীয়া - প্ৰথম ভাষা / মাতৃভাষা)",
+        "category": "COMPULSORY_MIL",
+        "script": "Assamese",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["Assamese"]
+      },
+      {
+        "subject_id": "as-c10-mil-bengali",
+        "name": "Bengali MIL (বাংলা - প্রথম ভাষা / মাতৃভাষা)",
+        "category": "COMPULSORY_MIL",
+        "script": "Bengali",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["Bengali"]
+      },
+      {
+        "subject_id": "as-c10-mil-bodo",
+        "name": "Bodo MIL (बर' - गुदि राव)",
+        "category": "COMPULSORY_MIL",
+        "script": "Devanagari",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["Bodo"]
+      },
+      {
+        "subject_id": "as-c10-general-mathematics-en",
+        "name": "General Mathematics (English Medium - HSLC Compulsory)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["English"]
+      },
+      {
+        "subject_id": "as-c10-general-mathematics-as",
+        "name": "General Mathematics (Assamese Medium - সাধাৰণ গণিত)",
+        "category": "COMPULSORY_CORE",
+        "script": "Assamese",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["Assamese"]
+      },
+      {
+        "subject_id": "as-c10-general-science",
+        "name": "General Science (English Medium - HSLC Compulsory)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["English"]
+      },
+      {
+        "subject_id": "as-c10-general-science-as",
+        "name": "General Science (Assamese Medium - সাধাৰণ বিজ্ঞান)",
+        "category": "COMPULSORY_CORE",
+        "script": "Assamese",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["Assamese"]
+      },
+      {
+        "subject_id": "as-c10-social-science-en",
+        "name": "Social Science (English Medium - HSLC Compulsory)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["English"]
+      },
+      {
+        "subject_id": "as-c10-social-science-as",
+        "name": "Social Science (Assamese Medium - সমাজ বিজ্ঞান)",
+        "category": "COMPULSORY_CORE",
+        "script": "Assamese",
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "passing_marks": 30,
+        "duration_hours": 3,
+        "medium": ["Assamese"]
+      }
+    ]
+  },
+  "class_9": {
+    "stage": "Class 9",
+    "terminal_public_exam": false,
+    "examination_nature": "Continuous and Comprehensive Evaluation (CCE) conducted at affiliated school level under ASSEB Division-I regulations",
+    "dependency_rule": "ASSEB_CLASS9_TO_CLASS10_DEPENDENCY",
+    "registration_requirement": "School-level enrollment return and registration submission to ASSEB Bamunimaidam headquarters",
+    "minimum_attendance_percentage": 75,
+    "promotion_criteria": "Mandatory qualifying grade/marks in school annual evaluation across all subjects",
+    "full_exam_eligible": false,
+    "practice_eligible": true
+  },
+  "class_11": {
+    "stage": "Class 11",
+    "examination_name": "Higher Secondary First Year (+1) Examination",
+    "administering_division": "Division-II (Higher Secondary Education, Former AHSEC)",
+    "terminal_public_exam": false,
+    "evaluation_nature": "Council-moderated institutional annual examination conducted under ASSEB Division-II guidelines",
+    "dependency_rule": "ASSEB_CLASS11_TO_CLASS12_DEPENDENCY",
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 30,
+    "streams": [
+      "Science",
+      "Commerce",
+      "Arts"
+    ],
+    "stream_combinations": {
+      "science": [
+        "English",
+        "MIL (Assamese / Bengali / Bodo / Alternative English)",
+        "Physics",
+        "Chemistry",
+        "Mathematics / Biology / Computer Science / Statistics"
+      ],
+      "commerce": [
+        "English",
+        "MIL (Assamese / Bengali / Bodo / Alternative English)",
+        "Accountancy",
+        "Business Studies",
+        "Economics / Commercial Mathematics & Statistics / Banking"
+      ],
+      "arts": [
+        "English",
+        "MIL (Assamese / Bengali / Bodo / Alternative English)",
+        "Political Science",
+        "History",
+        "Economics / Geography / Sociology / Education / Logic & Philosophy"
+      ]
+    },
+    "progression_condition": "Candidate must pass Class 11 (+1) examination to be eligible for promotion and registration into Class 12 (+2)"
+  },
+  "class_12": {
+    "examination_name": "Higher Secondary Final Examination (+2)",
+    "stage": "Class 12",
+    "administering_division": "Division-II (Higher Secondary Education, Former AHSEC)",
+    "terminal_public_exam": true,
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 30,
+    "aggregate_passing_percentage": 30,
+    "compulsory_subject_for_all_streams": "English (100 Marks)",
+    "streams": {
+      "science": {
+        "stream_name": "Science Stream",
+        "core_subjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biology",
+          "Computer Science & Application",
+          "Statistics"
+        ],
+        "mark_breakdown_practical": {
+          "theory_marks": 70,
+          "practical_marks": 30,
+          "total_marks": 100,
+          "theory_passing": 21,
+          "practical_passing": 9,
+          "total_passing": 30
+        }
+      },
+      "commerce": {
+        "stream_name": "Commerce Stream",
+        "core_subjects": [
+          "Accountancy",
+          "Business Studies",
+          "Economics",
+          "Commercial Mathematics & Statistics / Banking",
+          "Insurance & Financial Studies"
+        ],
+        "mark_breakdown": {
+          "theory_marks": 80,
+          "internal_project_marks": 20,
+          "total_marks": 100,
+          "passing_marks": 30
+        }
+      },
+      "arts": {
+        "stream_name": "Arts / Humanities Stream",
+        "core_subjects": [
+          "Political Science",
+          "History",
+          "Geography",
+          "Sociology",
+          "Education",
+          "Logic & Philosophy"
+        ],
+        "mark_breakdown_theory": {
+          "theory_marks": 80,
+          "internal_project_marks": 20,
+          "total_marks": 100,
+          "passing_marks": 30
+        },
+        "mark_breakdown_practical": {
+          "theory_marks": 70,
+          "practical_marks": 30,
+          "total_marks": 100,
+          "passing_marks": 30
+        }
+      },
+      "languages": {
+        "stream_name": "Compulsory & MIL Languages",
+        "subjects": [
+          "General English",
+          "Assamese MIL",
+          "Bengali MIL",
+          "Bodo MIL"
+        ]
+      }
+    }
+  },
+  "language_script_registry": {
+    "assamese": {
+      "code": "as",
+      "language_name": "Assamese",
+      "script_name": "Assamese",
+      "unicode_range": "U+0980 - U+09FF",
+      "status": "OFFICIAL_STATE_LANGUAGE_ASSAM"
+    },
+    "bengali": {
+      "code": "bn",
+      "language_name": "Bengali",
+      "script_name": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "status": "OFFICIAL_STATE_LANGUAGE_BARAK_VALLEY"
+    },
+    "bodo": {
+      "code": "brx",
+      "language_name": "Bodo",
+      "script_name": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "status": "OFFICIAL_ASSOCIATE_STATE_LANGUAGE_BTR"
+    },
+    "english": {
+      "code": "en",
+      "language_name": "English",
+      "script_name": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "status": "COMPULSORY_ACADEMIC_MEDIUM"
+    },
+    "hindi": {
+      "code": "hi",
+      "language_name": "Hindi",
+      "script_name": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "status": "ELECTIVE_AND_MIL_LANGUAGE"
+    }
+  },
+  "registration_and_eligibility": {
+    "registration_portal": "https://asseb.assam.gov.in",
+    "secondary_portal": "https://site.sebaonline.org",
+    "higher_secondary_portal": "https://ahsec.assam.gov.in",
+    "registration_timeline": "Annual Regular Session (September-November registration window with late fee in December)",
+    "minimum_attendance_requirement": "75% aggregate attendance in recognized classes IX-X / XI-XII",
+    "candidate_types": [
+      "Regular School Candidate",
+      "Private Candidate",
+      "Compartmental / Re-appear Candidate"
+    ],
+    "required_documents": [
+      "School Admission & Enrollment Registration Number",
+      "Class 9 / Class 11 Promotion Tabulation Sheet",
+      "Birth Certificate / Registration Card",
+      "Passport photograph and signature",
+      "Category / Caste certificate (if applicable)"
+    ],
+    "admit_card_issuance": "Admit cards distributed to institutions in January-February",
+    "result_declaration": "Official portals (https://sebaresults.sebaonline.org and https://ahsec.assam.gov.in) and DigiLocker integration"
+  }
+}

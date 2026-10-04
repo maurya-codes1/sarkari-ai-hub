@@ -1,0 +1,5 @@
+stage,subject_category,theory_marks,practical_ia_marks,total_marks,theory_passing,practical_passing,total_passing,duration_mins,sections_count,internal_choice_scheme
+Class 10 HSLC,"All Core Subjects (English, MIL, Maths, Science, Social Sci)",90,10,100,27,3,30,180,5,50% MCQs (45M) on OMR + 50% Descriptive (45M) with internal choice
+Class 12 +2 HS,"Languages & Non-Practical Electives (English, MIL, Arts, Commerce)",100,0,100,30,0,30,180,4,"Reading, Writing, Grammar, Literature sections with internal choice"
+Class 12 +2 HS,Commerce Electives & Mathematics (80 Theory + 20 Project/IA),80,20,100,24,6,30,180,4,80 Theory + 20 Project with internal choice in 4-mark and 6-mark questions
+Class 12 +2 HS,"Science Practical Subjects (Physics, Chemistry, Biology, CS, Stat, Geog)",70,30,100,21,9,30,180,4,"70 Theory + 30 Practical (VSA, SA-I, SA-II, LA)"

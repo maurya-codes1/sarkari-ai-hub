@@ -1,0 +1,6 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+as,Assamese,Assamese,U+0980 - U+09FF,"Official State Language of Assam, Compulsory HSLC MIL, +2 HS MIL/Elective",YES,VERIFIED_OFFICIAL_STATE_LANGUAGE
+bn,Bengali,Bengali,U+0980 - U+09FF,"Official State Language of Barak Valley, Compulsory HSLC MIL, +2 HS MIL",YES,VERIFIED_OFFICIAL_REGIONAL_LANGUAGE
+brx,Bodo,Devanagari,U+0900 - U+097F,"Associate Official State Language (BTR), Compulsory HSLC MIL, +2 HS MIL",YES,VERIFIED_ASSOCIATE_OFFICIAL_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject across HSLC & +2 HS, Universal Medium of Instruction",YES,VERIFIED_COMPULSORY_MEDIUM
+hi,Hindi,Devanagari,U+0900 - U+097F,Alternative MIL & Elective Subject in HSLC and +2 HS,YES,VERIFIED_ELECTIVE_LANGUAGE

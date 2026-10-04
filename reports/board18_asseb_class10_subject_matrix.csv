@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,exam_duration_mins
+as-c10-english,English (Compulsory HSLC Subject),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,90,10,180
+as-c10-mil-assamese,Assamese MIL (অসমীয়া - প্ৰথম ভাষা / মাতৃভাষা),Compulsory MIL,as,Assamese (U+0980-U+09FF),280,205,75,90,10,180
+as-c10-mil-bengali,Bengali MIL (বাংলা - প্রথম ভাষা / মাতৃভাষা),Compulsory MIL,bn,Bengali (U+0980-U+09FF),280,205,75,90,10,180
+as-c10-mil-bodo,Bodo MIL (बर' - गुदि राव),Compulsory MIL,brx,Devanagari (U+0900-U+097F),280,205,75,90,10,180
+as-c10-general-mathematics-en,General Mathematics (English Medium),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,90,10,180
+as-c10-general-mathematics-as,General Mathematics (Assamese Medium - সাধাৰণ গণিত),Compulsory Core,as,Assamese (U+0980-U+09FF),280,205,75,90,10,180
+as-c10-general-science,General Science (English Medium),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,90,10,180
+as-c10-general-science-as,General Science (Assamese Medium - সাধাৰণ বিজ্ঞান),Compulsory Core,as,Assamese (U+0980-U+09FF),280,205,75,90,10,180
+as-c10-social-science-en,Social Science (English Medium),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,90,10,180
+as-c10-social-science-as,Social Science (Assamese Medium - সমাজ বিজ্ঞান),Compulsory Core,as,Assamese (U+0980-U+09FF),280,205,75,90,10,180

@@ -1,0 +1,30 @@
+{
+  "board_id": "asseb-seba",
+  "authority_id": "org-as-board-seba",
+  "ecosystem_id": "asseb-assam",
+  "board_name": "Secondary Education Board of Assam (Now ASSEB Division-I)",
+  "short_name": "SEBA",
+  "common_name": "SEBA / ASSEB Secondary Division",
+  "state": "Assam",
+  "headquarters": "Bamunimaidam, Guwahati - 781021, Assam",
+  "country": "India",
+  "official_website": "https://site.sebaonline.org/",
+  "classes": [9, 10],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "class_9": {
+    "examination_status": "Annual School-Level Internal CCE Evaluation with ASSEB Enrolment Return",
+    "board_exam_eligible": false,
+    "progression_to_class_10": {
+      "rule": "Promotion to Class 10 requires passing Class 9 internal evaluation and enrollment submission."
+    }
+  },
+  "class_10": {
+    "examination_name": "High School Leaving Certificate Examination (HSLC)",
+    "board_exam_eligible": true,
+    "standard_duration": "3 Hours (9:00 AM to 12:00 PM)",
+    "total_maximum_marks": 600,
+    "passing_criteria": "Minimum 30% in each subject (theory + internal) and 30% aggregate."
+  }
+}

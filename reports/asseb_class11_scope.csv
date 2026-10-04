@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 11 (+1 HS First Year),Intermediate foundational higher secondary stage
+administering_division,Division-II (Higher Secondary Education),Regulated under ASSEB Higher Secondary Division (Former AHSEC)
+terminal_public_exam,FALSE_INDEPENDENT_PROMOTION,Evaluated via council-moderated institutional annual examination
+dependency_rule,ASSEB_CLASS11_TO_CLASS12_DEPENDENCY,Mandatory qualification in +1 for enrollment into +2 HS Final Year
+stream_continuity,ENFORCED,Selected stream and core subjects in +1 continue into +2
+streams_offered,"Science, Commerce, Arts",Officially recognized ASSEB streams
+full_exam_mode,STANDALONE_BLOCKED_UNLESS_ENROLLED,Curricular progression enforced
