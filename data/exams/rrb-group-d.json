@@ -1,0 +1,117 @@
+{
+  "exam_id": "rrb-group-d",
+  "name": "Railway Recruitment Cells / Boards - Group D (Level-1 Posts) Examination",
+  "short_name": "RRB Group D",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-railway-recruitment-cell-rrb",
+    "name": "Railway Recruitment Cells (RRC) / Railway Recruitment Control Board (RRB), Ministry of Railways",
+    "short_name": "RRC / RRB",
+    "headquarters": "Rail Bhavan, Raisina Road, New Delhi 110001",
+    "official_website": "https://www.rrbapply.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-rrb-group-d-portal",
+      "name": "Railway Recruitment Boards Centralized Application Portal (RRB Apply)",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-rrb-group-d-notice-2026",
+      "name": "Centralised Employment Notice (CEN) for Level-1 (Group D) Posts 2026",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-rrb-group-d-pyq-corpus",
+      "name": "Official Railway Recruitment Boards Group D Historical Question Papers Corpus (2018-2025)",
+      "url": "https://indianrailways.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "cbt": {
+      "mode": "Computer Based Test (CBT - Online)",
+      "nature": "Single Stage Computer Based Examination for Merit Selection",
+      "duration_minutes": 90,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.333,
+      "sections": [
+        {
+          "section_id": "rrb-group-d-general-science",
+          "name": "General Science (Physics, Chemistry, Life Sciences up to 10th standard CBSE/NCERT)",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "section_id": "rrb-group-d-mathematics",
+          "name": "Mathematics",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "section_id": "rrb-group-d-reasoning",
+          "name": "General Intelligence and Reasoning",
+          "questions": 30,
+          "marks": 30
+        },
+        {
+          "section_id": "rrb-group-d-general-awareness",
+          "name": "General Awareness on Current Affairs",
+          "questions": 20,
+          "marks": 20
+        }
+      ]
+    },
+    "pet": {
+      "nature": "Physical Efficiency Test (Qualifying in nature)",
+      "male_criteria": "Should be able to lift and carry 35 kg of weight for a distance of 100 meters in 2 minutes in one chance without putting the weight down; and should be able to run for a distance of 1000 meters in 4 minutes and 15 seconds in one chance.",
+      "female_criteria": "Should be able to lift and carry 20 kg of weight for a distance of 100 meters in 2 minutes in one chance without putting the weight down; and should be able to run for a distance of 1000 meters in 5 minutes and 40 seconds in one chance."
+    },
+    "subsequent_stages": {
+      "document_verification": "Document Verification based on normalized marks in CBT",
+      "medical_examination": "Strict Railway Medical Examination according to post standards (A-2, A-3, B-1, B-2, C-1, C-2)"
+    }
+  },
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Track Maintainer Grade IV",
+      "department": "Civil Engineering",
+      "pay_level": "Level 1 (₹18,000 initial pay plus risk & running allowances)",
+      "medical_standard": "B-1"
+    },
+    {
+      "post_name": "Assistant Pointsman",
+      "department": "Traffic",
+      "pay_level": "Level 1 (₹18,000 initial pay)",
+      "medical_standard": "A-2"
+    },
+    {
+      "post_name": "Assistant / Helper (Electrical, Mechanical, S&T, Workshop)",
+      "department": "Electrical / Mechanical / Signal & Telecommunication",
+      "pay_level": "Level 1 (₹18,000 initial pay)",
+      "medical_standard": "B-1 / B-2 / C-1"
+    },
+    {
+      "post_name": "Hospital Assistant",
+      "department": "Medical",
+      "pay_level": "Level 1 (₹18,000 initial pay)",
+      "medical_standard": "C-1"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India",
+    "age_limit": "18 to 33 years (Age relaxation: OBC +3 years, SC/ST +5 years)",
+    "educational_qualification": "10th pass (Matriculation) from a recognized Board / Council OR National Apprenticeship Certificate (NAC) granted by NCVT OR ITI from institutions recognized by NCVT/SCVT."
+  },
+  "metadata": {
+    "current_version_id": "ver-rrb-group-d-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}

@@ -1,0 +1,5 @@
+Section_ID,Subject_ID,Subject_Name,Real_Exam_Questions,Bank_Questions,Marks_Per_Q,Negative_Marking,Curriculum_Standard
+Section-1,rrb-group-d-general-science,General Science,25,300,1.0,-0.333 (1/3rd),"10th Standard CBSE/NCERT Physics, Chemistry, Biology"
+Section-2,rrb-group-d-mathematics,Mathematics,25,300,1.0,-0.333 (1/3rd),Matriculation Quantitative Aptitude & Arithmetic
+Section-3,rrb-group-d-reasoning,General Intelligence and Reasoning,30,300,1.0,-0.333 (1/3rd),Analytical & Verbal/Non-Verbal Reasoning
+Section-4,rrb-group-d-general-awareness,General Awareness on Current Affairs,20,300,1.0,-0.333 (1/3rd),"National CA, Railways History, Sports, S&T"

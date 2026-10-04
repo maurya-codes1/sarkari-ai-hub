@@ -1,0 +1,5 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+rrb-group-d-general-awareness,RRB Group D General Awareness on Current Affairs (समसामयिक सामान्य जागरूकता - 20 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-group-d-general-science,RRB Group D General Science (सामान्य विज्ञान - 25 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-group-d-mathematics,RRB Group D Mathematics (गणित - 25 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-group-d-reasoning,RRB Group D General Intelligence & Reasoning (सामान्य बुद्धिमत्ता एवं तर्कशक्ति - 30 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
