@@ -1,0 +1,237 @@
+{
+  "board_id": "karnataka-kseab-pue",
+  "board_name": "Karnataka School Board Ecosystem (KSEAB & Karnataka Pre-University Education)",
+  "short_name": "KARNATAKA-ECOSYSTEM",
+  "common_name": "Karnataka Board",
+  "state": "Karnataka",
+  "headquarters": "Bengaluru, Karnataka",
+  "country": "India",
+  "authorities": {
+    "KSEAB": {
+      "authority_id": "kseab-karnataka",
+      "name": "Karnataka School Examination and Assessment Board (KSEAB)",
+      "short_name": "KSEAB",
+      "headquarters": "6th Cross, Malleshwaram, Bengaluru - 560003, Karnataka",
+      "official_website": "https://kseab.karnataka.gov.in/",
+      "portal_results": "https://karresults.nic.in/",
+      "jurisdiction": "Secondary Education (Class 9 Academic Evaluation & Class 10 Secondary School Leaving Certificate / SSLC Examination)"
+    },
+    "PUE": {
+      "authority_id": "pue-karnataka",
+      "name": "Department of School Education (Pre-University) / Karnataka PUC System",
+      "short_name": "Karnataka PUE",
+      "headquarters": "18th Cross, Malleshwaram, Bengaluru - 560012, Karnataka",
+      "official_website": "https://pue.karnataka.gov.in/",
+      "portal_results": "https://karresults.nic.in/",
+      "jurisdiction": "Higher Secondary / Pre-University Education (Class 11 = I PUC & Class 12 = II PUC)"
+    }
+  },
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "kseab_home": "https://kseab.karnataka.gov.in/",
+    "pue_home": "https://pue.karnataka.gov.in/",
+    "results_portal": "https://karresults.nic.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_karnataka": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "kn",
+      "name": "Kannada",
+      "script": "Kannada",
+      "unicode_range": "U+0C80 - U+0CFF",
+      "mandatory_for": ["First Language Kannada (FLK)", "Second Language Kannada (SLK)", "Part I Kannada"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["First Language English (FLE)", "Second Language English (SLE)", "Part I English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Third Language Hindi (TLH)", "Part I Hindi"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Perso-Arabic / Nastaliq",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["First Language Urdu (FLU)", "Part I Urdu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari / Kannada",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Third Language Sanskrit (TLS)", "Part I Sanskrit"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "mr",
+      "name": "Marathi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["First Language Marathi", "Part I Marathi"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ta",
+      "name": "Tamil",
+      "script": "Tamil",
+      "unicode_range": "U+0B80 - U+0BFF",
+      "mandatory_for": ["First Language Tamil", "Part I Tamil"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "unicode_range": "U+0C00 - U+0C7F",
+      "mandatory_for": ["First Language Telugu", "Part I Telugu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ml",
+      "name": "Malayalam",
+      "script": "Malayalam",
+      "unicode_range": "U+0D00 - U+0D7F",
+      "mandatory_for": ["Part I Malayalam"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ar",
+      "name": "Arabic",
+      "script": "Arabic",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["Part I Arabic"],
+      "permitted_medium": false
+    },
+    {
+      "language_id": "fr",
+      "name": "French",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Part I French"],
+      "permitted_medium": false
+    }
+  ],
+  "class_9": {
+    "authority": "kseab-karnataka",
+    "examination_status": "Annual School-Level Summative Assessment (SA-2) & CCE Framework",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, Continuous and Comprehensive Evaluation, SATS Enrolment for SSLC",
+    "progression_to_class_10": {
+      "rule": "Progression to Class 10 requires passing Class 9 Summative Assessment (SA-2) under DSEL / KSEAB guidelines, maintaining minimum 75% attendance, and valid student SATS (Student Achievement Tracking System) enrolment."
+    }
+  },
+  "class_10": {
+    "authority": "kseab-karnataka",
+    "examination_name": "Secondary School Leaving Certificate (SSLC) Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Secondary Board Examination, 6-Paper Pattern Verification, Practice & Model Papers",
+    "paper_pattern_structure": {
+      "total_papers": 6,
+      "pattern_description": "Six-Paper Pattern: First Language (100 marks theory + 25 internal = 125 marks max), Second Language (80 marks theory + 20 internal = 100 marks max), Third Language (80 marks theory + 20 internal = 100 marks max), Mathematics (80 marks theory + 20 internal = 100 marks max), Science (80 marks theory + 20 internal = 100 marks max), Social Science (80 marks theory + 20 internal = 100 marks max).",
+      "total_aggregate_marks": 625,
+      "exam_duration": "3 hours 15 minutes for 100-mark First Language & Core Subjects (including 15 mins reading time); 2 hours 45 minutes for Second & Third Languages."
+    },
+    "first_languages_official": [
+      "Kannada", "English", "Hindi", "Urdu", "Sanskrit", "Marathi", "Tamil", "Telugu"
+    ],
+    "second_languages_official": [
+      "English (for Kannada/Urdu/etc. medium students)",
+      "Kannada (for English medium students)"
+    ],
+    "third_languages_official": [
+      "Hindi", "Kannada", "Sanskrit", "Urdu", "Marathi", "Tamil", "Telugu"
+    ],
+    "core_academic_subjects": [
+      { "subject_id": "kar-c10-mathematics", "name": "Mathematics (ಗಣಿತ)" },
+      { "subject_id": "kar-c10-science", "name": "Science (ವಿಜ್ಞಾನ - Physics, Chemistry, Biology)" },
+      { "subject_id": "kar-c10-social-science", "name": "Social Science (ಸಮಾಜ ವಿಜ್ಞಾನ - History, Pol Sci, Sociology, Geog, Econ, Business)" }
+    ],
+    "passing_criteria": {
+      "minimum_percentage_per_subject": 35,
+      "minimum_aggregate_percentage": 35,
+      "minimum_passing_marks": "35 marks out of 100 (28 in theory + 7 in internal for core subjects; 44 out of 125 for First Language).",
+      "grading_system": "Grade A+ (90-100%), A (80-89%), B+ (70-79%), B (60-69%), C+ (50-59%), C (35-49%), Fail (< 35%)."
+    }
+  },
+  "class_11": {
+    "authority": "pue-karnataka",
+    "examination_status": "Pre-University Certificate - First Year (I PUC) Annual College Examination",
+    "board_exam_eligible": false,
+    "service_type": "PUE Administered I PUC Annual Examination, Foundation for II PUC, Six-Subject Framework",
+    "progression_to_class_12": {
+      "rule": "Progression to II PUC requires appearing in and qualifying the I PUC annual examination in all six chosen subjects, maintaining minimum 75% attendance, and subject continuity without unapproved combination changes."
+    }
+  },
+  "class_12": {
+    "authority": "pue-karnataka",
+    "examination_name": "Pre-University Certificate - Second Year (II PUC) Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Higher Secondary Board Examination, Six-Subject Rule (2 Languages + 4 Optionals)",
+    "six_subject_rule": "Under official Karnataka PUC regulations, every student studies exactly six subjects in both I PUC and II PUC: Two languages under Part I (compulsorily chosen from the scheduled 10 languages) and Four optional subjects under Part II.",
+    "part_1_languages": [
+      "Kannada", "English", "Hindi", "Tamil", "Malayalam", "Marathi", "Urdu", "Sanskrit", "Arabic", "French"
+    ],
+    "part_2_optionals_dictionary": [
+      "Optional Kannada", "History", "Economics", "Logic", "Geography", "Karnataka Music", "Hindustani Music",
+      "Business Studies", "Sociology", "Political Science", "Accountancy", "Statistics", "Psychology",
+      "Physics", "Chemistry", "Mathematics", "Biology", "Geology", "Electronics", "Computer Science",
+      "Education", "Home Science", "Basic Mathematics"
+    ],
+    "stream_combinations_official": {
+      "science": [
+        { "code": "PCMB", "name": "Physics, Chemistry, Mathematics, Biology" },
+        { "code": "PCMCs", "name": "Physics, Chemistry, Mathematics, Computer Science" },
+        { "code": "PCME", "name": "Physics, Chemistry, Mathematics, Electronics" },
+        { "code": "SPCM", "name": "Statistics, Physics, Chemistry, Mathematics" },
+        { "code": "PCMG", "name": "Physics, Chemistry, Mathematics, Geology" },
+        { "code": "PCB-HomeSci", "name": "Physics, Chemistry, Biology, Home Science" }
+      ],
+      "commerce": [
+        { "code": "BASBM", "name": "Business Studies, Accountancy, Statistics, Basic Mathematics" },
+        { "code": "BASCS", "name": "Business Studies, Accountancy, Statistics, Computer Science" },
+        { "code": "HEBA", "name": "History, Economics, Business Studies, Accountancy" },
+        { "code": "SEBA", "name": "Statistics, Economics, Business Studies, Accountancy" },
+        { "code": "MEBA", "name": "Basic Mathematics, Economics, Business Studies, Accountancy" }
+      ],
+      "arts": [
+        { "code": "HESP", "name": "History, Economics, Sociology, Political Science" },
+        { "code": "HEGP", "name": "History, Economics, Geography, Political Science" },
+        { "code": "HELP", "name": "History, Economics, Logic, Political Science" },
+        { "code": "HESK", "name": "History, Economics, Sociology, Optional Kannada" }
+      ]
+    },
+    "scheme_of_examination": "Total Aggregate: 600 Marks (100 Marks per subject across 6 subjects). Laboratory subjects feature 70 Theory + 30 Practical marks; Non-lab subjects feature 80 Theory + 20 Internal Assessment marks.",
+    "passing_criteria": {
+      "minimum_percentage_per_subject": 35,
+      "minimum_aggregate_percentage": 35,
+      "minimum_total_marks": 210,
+      "distinction_threshold": "Distinction (>= 85%), First Class (60% to < 85%), Second Class (50% to < 60%), Pass Class (35% to < 50%), Fail (< 35%)."
+    }
+  }
+}

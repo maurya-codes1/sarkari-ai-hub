@@ -1,0 +1,12 @@
+language_code,language_name,script,unicode_range,applicable_authorities,sample_verified_text,script_status
+kn,Kannada,Kannada,U+0C80 - U+0CFF,KSEAB & PUE,ಕರ್ನಾಟಕ ಶಾಲಾ ಪರೀಕ್ಷೆ ಮತ್ತು ಮೌಲ್ಯನಿರ್ಣಯ ಮಂಡಳಿ ಹಾಗೂ ಪದವಿಪೂರ್ವ ಶಿಕ್ಷಣ ಇಲಾಖೆ,VERIFIED_AUTHENTIC_SCRIPT
+en,English,Latin,U+0020 - U+007E,KSEAB & PUE,Karnataka School Examination and Assessment Board & Pre-University Education,VERIFIED_AUTHENTIC_SCRIPT
+hi,Hindi,Devanagari,U+0900 - U+097F,KSEAB & PUE,कर्नाटक विद्यालय परीक्षा एवं मूल्यांकन बोर्ड तथा पदवीपूर्व शिक्षा विभाग,VERIFIED_AUTHENTIC_SCRIPT
+ur,Urdu,Nastaliq / Perso-Arabic,U+0600 - U+06FF,KSEAB & PUE,کرناٹک اسکول ایگزامینیشن اینڈ اسیسمنٹ بورڈ اور پری یونیورسٹی ایجوکیشن,VERIFIED_AUTHENTIC_SCRIPT
+sa,Sanskrit,Devanagari,U+0900 - U+097F,KSEAB & PUE,कर्णाटक-विद्यालयपरीक्षा-मूल्याङ्कनमण्डली तथा पदवीपूर्व-शिक्षाविभागः,VERIFIED_AUTHENTIC_SCRIPT
+mr,Marathi,Devanagari,U+0900 - U+097F,KSEAB & PUE Registry,कर्नाटक शाळा परीक्षा आणि मूल्यमापन मंडळ,VERIFIED_AUTHENTIC_SCRIPT
+ta,Tamil,Tamil,U+0B80 - U+0BFF,KSEAB & PUE Registry,கர்நாடக பள்ளித் தேர்வு மற்றும் மதிப்பீட்டு வாரியம்,VERIFIED_AUTHENTIC_SCRIPT
+te,Telugu,Telugu,U+0C00 - U+0C7F,KSEAB & PUE Registry,కర్ణాటక పాఠశాల పరీక్ష మరియు మూల్యాంకన ಮಂಡಳಿ,VERIFIED_AUTHENTIC_SCRIPT
+ml,Malayalam,Malayalam,U+0D00 - U+0D7F,PUE Part I Registry,കർണ്ണാടക പ്രീ-യൂണിവേഴ്സിറ്റി വിദ്യാഭ്യാസ വകുപ്പ്,VERIFIED_AUTHENTIC_SCRIPT
+ar,Arabic,Arabic,U+0600 - U+06FF,PUE Part I Registry,قسم التعليم قبل الجامعي في كارناتاكا,VERIFIED_AUTHENTIC_SCRIPT
+fr,French,Latin,U+0020 - U+007E,PUE Part I Registry,Département de l'éducation pré-universitaire du Karnataka,VERIFIED_AUTHENTIC_SCRIPT

@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,board_theory_marks,internal_marks,exam_duration_mins
+kar-c10-kannada-fl,First Language Kannada (FLK - ಪ್ರಥಮ ಭಾಷೆ ಕನ್ನಡ),First Language,kn,Kannada,280,205,75,100,25,195
+kar-c10-english-fl,First Language English (FLE),First Language,en,Latin,280,205,75,100,25,195
+kar-c10-urdu-fl,First Language Urdu (FLU - اردو پہلی زبان),First Language,ur,Nastaliq,280,205,75,100,25,195
+kar-c10-kannada-sl,Second Language Kannada (SLK - ದ್ವಿತೀಯ ಭಾಷೆ ಕನ್ನಡ),Second Language,kn,Kannada,280,205,75,80,20,165
+kar-c10-english-sl,Second Language English (SLE),Second Language,en,Latin,280,205,75,80,20,165
+kar-c10-hindi-tl,Third Language Hindi (TLH - ತೃತೀಯ ಭಾಷೆ ಹಿಂದಿ),Third Language,hi,Devanagari,280,205,75,80,20,165
+kar-c10-sanskrit-tl,Third Language Sanskrit (TLS - ತೃತೀಯ ಭಾಷೆ ಸಂಸ್ಕೃತ),Third Language,sa,Devanagari,280,205,75,80,20,165
+kar-c10-mathematics,Mathematics (ಗಣಿತ - SSLC Mathematics),Core Mathematics,kn_en,Kannada/Latin,280,205,75,80,20,195
+kar-c10-science,"Science (ವಿಜ್ಞಾನ - SSLC Physics, Chemistry & Biology)",Core Science,kn_en,Kannada/Latin,280,205,75,80,20,195
+kar-c10-social-science,"Social Science (ಸಮಾಜ ವಿಜ್ಞಾನ - History, Pol Sci, Geog, Econ)",Core Social Science,kn_en,Kannada/Latin,280,205,75,80,20,195

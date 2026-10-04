@@ -1,0 +1,5 @@
+authority,stage,examination_name,total_papers,marks_per_paper,aggregate_marks,objective_marks,descriptive_marks,practicals_ia_weightage,min_pass_subject_pct,min_pass_aggregate_pct
+kseab-karnataka,Class 10,Secondary School Leaving Certificate (SSLC Examination),6,100,625,20,80,20,35%,35%
+pue-karnataka,Class 12 Science,Pre-University Certificate Examination (PCMB/PCMC/PCME),6,100,600,20,80,30,35%,35%
+pue-karnataka,Class 12 Commerce,Pre-University Certificate Examination (BASBM/BASCS/HEBA),6,100,600,20,80,20,35%,35%
+pue-karnataka,Class 12 Arts,Pre-University Certificate Examination (HESP/HEGP/HELP),6,100,600,20,80,20,35%,35%

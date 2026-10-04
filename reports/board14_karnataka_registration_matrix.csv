@@ -1,0 +1,5 @@
+stage,authority,portal_url,registration_type,mandatory_prerequisites,verification_status
+Class 9,kseab-karnataka,https://sts.karnataka.gov.in/,SATS Student Enrolment & Continuous CCE Comprehensive Record,"Enrolled in recognized school, SATS student ID created",OFFICIAL_PORTAL_VERIFIED
+Class 10,kseab-karnataka,https://kseab.karnataka.gov.in/,Annual Secondary School Leaving Certificate (SSLC) Examination Registration,"Passed Class 9, min 75% attendance, SATS verification, age 15+ by 1st March",OFFICIAL_PORTAL_VERIFIED
+Class 11 (I PUC),pue-karnataka,https://pue.karnataka.gov.in/,Pre-University First Year Admission & Six-Subject Enrolment,"Passed SSLC or equivalent, merit admission into junior composite college",OFFICIAL_PORTAL_VERIFIED
+Class 12 (II PUC),pue-karnataka,https://pue.karnataka.gov.in/,Annual II PUC Board Examination Candidate Registration & Examination Fee,"Passed I PUC annual examination in all 6 subjects, 75% attendance in theory & practicals",OFFICIAL_PORTAL_VERIFIED

@@ -1,0 +1,26 @@
+{
+  "board_id": "pue-karnataka",
+  "authority_id": "pue-karnataka",
+  "state": "Karnataka",
+  "official_name": "Department of School Education (Pre-University) / Karnataka PUC System",
+  "short_name": "Karnataka PUE",
+  "official_url": "https://pue.karnataka.gov.in/",
+  "portal_results": "https://karresults.nic.in/",
+  "class": [11, 12],
+  "stream": ["Science", "Commerce", "Arts / Humanities"],
+  "subject": [
+    "Part I Kannada", "Part I English", "Part I Hindi", "Part I Sanskrit", "Part I Urdu",
+    "Physics", "Chemistry", "Mathematics", "Biology", "Computer Science", "Electronics",
+    "Business Studies", "Accountancy", "Economics", "Statistics", "Basic Mathematics",
+    "History", "Political Science", "Sociology", "Geography", "Logic & Philosophy"
+  ],
+  "language": ["kn", "en", "hi", "sa", "ur", "ta", "ml", "mr", "ar", "fr"],
+  "medium": ["English", "Kannada"],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "source": "Department of School Education (Pre-University) Karnataka Official Portal",
+  "source_url": "https://pue.karnataka.gov.in/",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "1.0"
+}

@@ -1,0 +1,22 @@
+stream_type,official_combination_codes,subject_id,subject_name,subject_classification,total_questions,mcq_count,subjective_count,theory_marks,practical_ia_marks
+science,PCMB / PCMC / PCME,kar-c12-physics,Physics (ಭೌತಶಾಸ್ತ್ರ - II PUC),Core Science Elective,280,205,75,70,30
+science,PCMB / PCMC / PCME,kar-c12-chemistry,Chemistry (ರಸಾಯನಶಾಸ್ತ್ರ - II PUC),Core Science Elective,280,205,75,70,30
+science,PCMB / PCMC / PCME,kar-c12-mathematics,Mathematics (ಗಣಿತಶಾಸ್ತ್ರ - II PUC),Core Science Elective,280,205,75,80,20
+science,PCMB,kar-c12-biology,Biology (ಜೀವಶಾಸ್ತ್ರ - II PUC),Core Science Elective,280,205,75,70,30
+science,PCMCs / BASCS,kar-c12-computer-science,Computer Science (ಗಣಕ ವಿಜ್ಞಾನ - II PUC),Academic Elective,280,205,75,70,30
+science,PCME,kar-c12-electronics,Electronics (ವಿದ್ಯುನ್ಮಾನ ಶಾಸ್ತ್ರ - II PUC),Academic Elective,280,205,75,70,30
+commerce,BASBM / BASCS / HEBA,kar-c12-business-studies,Business Studies (ವ್ಯವಹಾರ ಅಧ್ಯಯನ - II PUC),Commerce Elective,280,205,75,80,20
+commerce,BASBM / BASCS / HEBA,kar-c12-accountancy,Accountancy (ಲೆಕ್ಕಶಾಸ್ತ್ರ - II PUC),Commerce Elective,280,205,75,80,20
+commerce_arts,HEBA / HESP / HEGP,kar-c12-economics,Economics (ಅರ್ಥಶಾಸ್ತ್ರ - II PUC),Commerce/Arts Elective,280,205,75,80,20
+commerce,BASBM / BASCS / SPCM,kar-c12-statistics,Statistics (ಸಂಖ್ಯಾಶಾಸ್ತ್ರ - II PUC),Commerce/Science Elective,280,205,75,80,20
+commerce,BASBM / MEBA,kar-c12-basic-mathematics,Basic Mathematics (ಮೂಲ ಗಣಿತ - II PUC),Commerce Elective,280,205,75,80,20
+arts,HESP / HEGP / HELP,kar-c12-history,History (ಇತಿಹಾಸ - II PUC),Humanities Elective,280,205,75,80,20
+arts,HESP / HEGP / HELP,kar-c12-political-science,Political Science (ರಾಜ್ಯಶಾಸ್ತ್ರ - II PUC),Humanities Elective,280,205,75,80,20
+arts,HESP / HESK,kar-c12-sociology,Sociology (ಸಮಾಜಶಾಸ್ತ್ರ - II PUC),Humanities Elective,280,205,75,80,20
+arts,HEGP,kar-c12-geography,Geography (ಭೂಗೋಳಶಾಸ್ತ್ರ - II PUC),Humanities Elective,280,205,75,70,30
+arts,HELP,kar-c12-logic,Logic & Philosophy (ತರ್ಕಶಾಸ್ತ್ರ - II PUC),Humanities Elective,280,205,75,80,20
+languages,Part I Language,kar-c12-kannada-part1,Part I Kannada (ಕನ್ನಡ ಭಾಷೆ - II PUC),Part I Language,280,205,75,80,20
+languages,Part I Language,kar-c12-english-part1,Part I English (II PUC),Part I Language,280,205,75,80,20
+languages,Part I Language,kar-c12-hindi-part1,Part I Hindi (हिन्दी भाषा - II PUC),Part I Language,280,205,75,80,20
+languages,Part I Language,kar-c12-sanskrit-part1,Part I Sanskrit (संस्कृत भाषा - II PUC),Part I Language,280,205,75,80,20
+languages,Part I Language,kar-c12-urdu-part1,Part I Urdu (اردو زبان - II PUC),Part I Language,280,205,75,80,20

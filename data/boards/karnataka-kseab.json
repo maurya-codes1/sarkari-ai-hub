@@ -1,0 +1,32 @@
+{
+  "board_id": "kseab-karnataka",
+  "authority_id": "kseab-karnataka",
+  "state": "Karnataka",
+  "official_name": "Karnataka School Examination and Assessment Board (KSEAB)",
+  "short_name": "KSEAB",
+  "official_url": "https://kseab.karnataka.gov.in/",
+  "portal_results": "https://karresults.nic.in/",
+  "class": [9, 10],
+  "stream": "General Secondary Education",
+  "subject": [
+    "First Language Kannada (FLK)",
+    "First Language English (FLE)",
+    "First Language Urdu (FLU)",
+    "Second Language Kannada (SLK)",
+    "Second Language English (SLE)",
+    "Third Language Hindi (TLH)",
+    "Third Language Sanskrit (TLS)",
+    "Mathematics (ಗಣಿತ)",
+    "Science (ವಿಜ್ಞಾನ)",
+    "Social Science (ಸಮಾಜ ವಿಜ್ಞಾನ)"
+  ],
+  "language": ["kn", "en", "hi", "ur", "sa", "mr", "ta", "te"],
+  "medium": ["Kannada", "English", "Urdu", "Marathi", "Tamil", "Telugu"],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "source": "Karnataka School Examination and Assessment Board Official Portal",
+  "source_url": "https://kseab.karnataka.gov.in/",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "1.0"
+}
