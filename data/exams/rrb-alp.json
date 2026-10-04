@@ -1,0 +1,146 @@
+{
+  "exam_id": "rrb-alp",
+  "name": "Railway Recruitment Boards - Assistant Loco Pilot (ALP) Examination",
+  "short_name": "RRB ALP",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-railway-recruitment-boards-rrb",
+    "name": "Railway Recruitment Control Board / Railway Recruitment Boards (RRBs), Ministry of Railways",
+    "short_name": "RRB",
+    "headquarters": "Rail Bhavan, Raisina Road, New Delhi 110001",
+    "official_website": "https://www.rrbapply.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-rrb-alp-portal",
+      "name": "Railway Recruitment Boards Centralized Application Portal (RRB Apply)",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-rrb-alp-notice-2026",
+      "name": "Centralised Employment Notice (CEN) for Assistant Loco Pilot (ALP) 2026",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-rrb-alp-pyq-corpus",
+      "name": "Official Railway Recruitment Boards ALP Historical Question Papers Corpus (2018-2025)",
+      "url": "https://indianrailways.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "cbt_1": {
+      "mode": "Computer Based Test (CBT)",
+      "nature": "First Stage CBT (Screening / Qualifying for CBT-2)",
+      "duration_minutes": 60,
+      "total_questions": 75,
+      "total_marks": 75,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.333,
+      "sections": [
+        {
+          "section_id": "rrb-alp-cbt1-mathematics",
+          "name": "Mathematics",
+          "questions": 20,
+          "marks": 20
+        },
+        {
+          "section_id": "rrb-alp-cbt1-reasoning",
+          "name": "Mental Ability / General Intelligence and Reasoning",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "section_id": "rrb-alp-cbt1-general-science",
+          "name": "General Science (Physics, Chemistry, Life Sciences up to 10th standard)",
+          "questions": 20,
+          "marks": 20
+        },
+        {
+          "section_id": "rrb-alp-cbt1-general-awareness",
+          "name": "General Awareness on Current Affairs",
+          "questions": 10,
+          "marks": 10
+        }
+      ]
+    },
+    "cbt_2": {
+      "part_a": {
+        "mode": "Computer Based Test (CBT)",
+        "nature": "Merit Determining Stage (Carries 70% weightage in final merit calculation)",
+        "duration_minutes": 90,
+        "total_questions": 100,
+        "total_marks": 100,
+        "marks_per_question": 1.0,
+        "negative_marking": 0.333,
+        "sections": [
+          {
+            "section_id": "rrb-alp-cbt2-basic-science-engineering",
+            "name": "Basic Science and Engineering (Engineering Drawing, Units, Mechanics, Electricity)",
+            "questions": 40,
+            "marks": 40
+          },
+          {
+            "name": "Mathematics",
+            "questions": 25,
+            "marks": 25
+          },
+          {
+            "name": "General Intelligence and Reasoning",
+            "questions": 25,
+            "marks": 25
+          },
+          {
+            "name": "General Awareness on Current Affairs",
+            "questions": 10,
+            "marks": 10
+          }
+        ]
+      },
+      "part_b": {
+        "mode": "Computer Based Test (CBT)",
+        "nature": "Qualifying Trade Test (Mandatory 35% pass mark per DGET syllabus)",
+        "duration_minutes": 60,
+        "total_questions": 75,
+        "total_marks": 75,
+        "marks_per_question": 1.0,
+        "negative_marking": 0.333,
+        "sections": [
+          {
+            "section_id": "rrb-alp-cbt2-technical-trades-electrical-mechanical",
+            "name": "Relevant Trade Technical Test (Electrician / Fitter / Diesel Mechanic / Electronics)",
+            "questions": 75,
+            "marks": 75
+          }
+        ]
+      }
+    },
+    "subsequent_stages": {
+      "cbat": "Computer Based Aptitude Test (CBAT) - 5 Test Batteries, T-score 42 minimum in each battery with no relaxation, 30% weightage in final merit",
+      "medical_standard": "Strict A-1 Medical Standard (Distant vision 6/6, 6/6 without glasses with fogging test; Near vision Sn 0.6, 0.6 without glasses; Color/Binocular/Field/Night vision tests pass mandatory)",
+      "dv": "Document Verification and Final Empanelling"
+    }
+  },
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Assistant Loco Pilot (ALP)",
+      "pay_level": "Level 2 (₹19,900 initial pay plus running allowances)",
+      "minimum_qualification": "Matriculation / SSLC plus ITI / Act Apprenticeship in specified trades OR Diploma / Degree in Mechanical / Electrical / Electronics / Automobile Engineering"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India",
+    "age_limit": "18 to 33 years (Age relaxation: OBC +3 years, SC/ST +5 years)",
+    "educational_qualification": "Matriculation / 10th Standard Pass PLUS ITI in approved trade (Fitter, Electrician, Wireman, Mechanic Diesel, Machinist, etc.) OR 3-year Diploma in Mechanical / Electrical / Electronics / Automobile Engineering OR B.Tech / B.E. in relevant engineering branches.",
+    "medical_fitness": "Must fulfill A-1 Medical Standard strictly. Candidates with LASIK surgery or defective color vision are strictly ineligible."
+  },
+  "metadata": {
+    "current_version_id": "ver-rrb-alp-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}

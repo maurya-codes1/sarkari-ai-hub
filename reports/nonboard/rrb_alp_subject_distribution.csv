@@ -1,0 +1,7 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+rrb-alp-cbt1-general-awareness,RRB ALP CBT-1 General Awareness on Current Affairs (समसामयिकी - 10 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-alp-cbt1-general-science,RRB ALP CBT-1 General Science (सामान्य विज्ञान - 20 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-alp-cbt1-mathematics,RRB ALP CBT-1 Mathematics (गणित - 20 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-alp-cbt1-reasoning,RRB ALP CBT-1 Mental Ability & Reasoning (मानसिक क्षमता एवं तर्कशक्ति - 25 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-alp-cbt2-basic-science-engineering,RRB ALP CBT-2 Part A Basic Science and Engineering (मूल विज्ञान एवं इंजीनियरिंग - 40 प्रश्न भार),CBT_STAGE_2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-alp-cbt2-technical-trades-electrical-mechanical,RRB ALP CBT-2 Part B Relevant Technical Trades (व्यावसायिक तकनीकी ट्रेड - 75 प्रश्न भार),CBT_STAGE_2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
