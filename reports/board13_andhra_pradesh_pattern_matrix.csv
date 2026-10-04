@@ -1,0 +1,6 @@
+authority,stage,examination_name,total_papers,marks_per_paper,aggregate_marks,objective_marks,descriptive_marks,practicals_weightage,min_pass_subject_pct,min_pass_aggregate_pct
+bse-ap,Class 10,Secondary School Certificate (SSC Public Examination - 7 Papers),7,100,600,20,80,0,35%,35%
+bieap,Class 12 MPC,"Intermediate Public Examination (IPE - Maths, Physics, Chem, Lang)",5,100,500,20,80,30,35%,35%
+bieap,Class 12 BiPC,"Intermediate Public Examination (IPE - Botany, Zoology, Phys, Chem, Lang)",5,100,500,20,80,30,35%,35%
+bieap,Class 12 CEC,"Intermediate Public Examination (IPE - Commerce, Econ, Civics, Lang)",5,100,500,20,80,0,35%,35%
+bieap,Class 12 HEC,"Intermediate Public Examination (IPE - History, Econ, Civics, Lang)",5,100,500,20,80,0,35%,35%

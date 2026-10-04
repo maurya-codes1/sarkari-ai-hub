@@ -1,0 +1,3 @@
+from_stage,to_stage,authority,dependency_rule,attendance_cutoff,verification_status
+Class 9,Class 10,bse-ap,Class 9 CCE school promotion and board child-info portal registration mandatory for SSC hall ticket issuance,75%,STRICT_PREREQUISITE_VERIFIED
+Class 11,Class 12,bieap,Inter 1st Year public examination appearance and college promotion mandatory for Inter 2nd Year IPE registration,75%,STRICT_PREREQUISITE_VERIFIED

@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,board_theory_marks,internal_marks,exam_duration_mins
+ap-c10-telugu-fl,First Language Telugu (FLO - ప్రథమ భాష తెలుగు),First Language,te,Telugu,280,205,75,100,0,195
+ap-c10-hindi-fl,First Language Hindi (प्रथम भाषा हिन्दी),First Language,hi,Devanagari,280,205,75,100,0,195
+ap-c10-urdu-fl,First Language Urdu (اردو پہلی زبان),First Language,ur,Nastaliq,280,205,75,100,0,195
+ap-c10-telugu-sl,Second Language Telugu (ద్వితీయ భాష తెలుగు),Second Language,te,Telugu,280,205,75,100,0,195
+ap-c10-hindi-sl,Second Language Hindi (द्वितीय भाषा हिन्दी),Second Language,hi,Devanagari,280,205,75,100,0,195
+ap-c10-english-tl,Third Language English,Third Language,en,Latin,280,205,75,100,0,195
+ap-c10-sanskrit-comp,Composite Sanskrit (సంస్కృతము / संस्कृतम्),Composite Language,sa,Devanagari,280,205,75,100,0,195
+ap-c10-mathematics,Mathematics (గణితము - SSC Mathematics),Core Mathematics,te_en,Telugu/Latin,280,205,75,100,0,195
+ap-c10-general-science,General Science (సాధారణ శాస్త్రం - Physical & Biological Science),Core Science,te_en,Telugu/Latin,280,205,75,100,0,195
+ap-c10-social-studies,Social Studies (సాంఘిక శాస్త్రం),Core Social Studies,te_en,Telugu/Latin,280,205,75,100,0,195

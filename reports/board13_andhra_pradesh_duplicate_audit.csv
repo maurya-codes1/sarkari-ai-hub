@@ -1,0 +1,4 @@
+scope,total_analyzed,duplicates_found,action_taken,isolation_status
+AP-Internal-Options,6355,0,NONE_REQUIRED,CLEAN
+AP-Cross-Board,8680,0,NONE_REQUIRED,CLEAN
+AP-Pre-and-Post-Snapshots,8680,0,NONE_REQUIRED,CLEAN

@@ -1,0 +1,215 @@
+{
+  "board_id": "andhra-pradesh-bse-bieap",
+  "board_name": "Andhra Pradesh School Board Ecosystem (BSE AP & BIEAP)",
+  "short_name": "AP-ECOSYSTEM",
+  "common_name": "Andhra Pradesh Board",
+  "state": "Andhra Pradesh",
+  "headquarters": "Vijayawada & Guntur, Andhra Pradesh",
+  "country": "India",
+  "authorities": {
+    "BSE_AP": {
+      "authority_id": "bse-ap",
+      "name": "Directorate of Government Examinations, Andhra Pradesh (BSE AP)",
+      "short_name": "BSE AP",
+      "headquarters": "D.No. 20-4-19, Beside SP Bungalow, Road No. 2, Old Bus Stand, Vijayawada - 520002, Andhra Pradesh",
+      "official_website": "https://bse.ap.gov.in/",
+      "portal_results": "https://results.bse.ap.gov.in/",
+      "jurisdiction": "Secondary Education (Class 9 Academic Support & Class 10 Secondary School Certificate / SSC Examination)"
+    },
+    "BIEAP": {
+      "authority_id": "bieap",
+      "name": "Board of Intermediate Education, Andhra Pradesh (BIEAP)",
+      "short_name": "BIEAP",
+      "headquarters": "Eswar Elite, Tadepalli, Guntur - 522501, Andhra Pradesh",
+      "official_website": "https://bieap.apcfss.in/",
+      "portal_results": "https://resultsbie.ap.gov.in/",
+      "jurisdiction": "Higher Secondary / Intermediate Education (Class 11 Inter 1st Year & Class 12 Inter 2nd Year)"
+    }
+  },
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "bse_ap_home": "https://bse.ap.gov.in/",
+    "bieap_home": "https://bieap.apcfss.in/",
+    "results_portal_ssc": "https://results.bse.ap.gov.in/",
+    "results_portal_inter": "https://resultsbie.ap.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_ap": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "unicode_range": "U+0C00 - U+0C7F",
+      "mandatory_for": ["First Language Telugu (FLO)", "Second Language Telugu (SLO)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Third Language English", "Special English", "General English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["First Language Hindi", "Second Language Hindi"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Perso-Arabic / Nastaliq",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["First Language Urdu", "Second Language Urdu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari / Telugu",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Composite Sanskrit", "Second Language Sanskrit"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "kn",
+      "name": "Kannada",
+      "script": "Kannada",
+      "unicode_range": "U+0C80 - U+0CFF",
+      "mandatory_for": ["First Language Kannada"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ta",
+      "name": "Tamil",
+      "script": "Tamil",
+      "unicode_range": "U+0B80 - U+0BFF",
+      "mandatory_for": ["First Language Tamil"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "or",
+      "name": "Odia",
+      "script": "Odia",
+      "unicode_range": "U+0B00 - U+0B7F",
+      "mandatory_for": ["First Language Odia"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "authority": "bse-ap",
+    "examination_status": "Annual School-Level Summative Assessment (SA-2) & CCE Framework",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, School-Based Evaluation, Child Info Enrolment for SSC",
+    "progression_to_class_10": {
+      "rule": "Progression to Class 10 requires passing Class 9 Summative Assessment (SA-2) under SCERT AP Continuous and Comprehensive Evaluation guidelines, maintaining minimum 75% attendance, and valid student Aadhaar/Child Info registration."
+    }
+  },
+  "class_10": {
+    "authority": "bse-ap",
+    "examination_name": "Secondary School Certificate (SSC) Public Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Secondary Board Examination, 7-Paper Pattern Verification, Practice & Model Papers",
+    "paper_pattern_structure": {
+      "total_papers": 7,
+      "pattern_description": "Seven-Paper Examination Pattern: First Language (1 paper, 100 marks), Second Language (1 paper, 100 marks), Third Language English (1 paper, 100 marks), Mathematics (1 paper, 100 marks), General Science (Physical Science 50 marks on Day 1 + Biological Science 50 marks on Day 2 = 100 marks total), Social Studies (1 paper, 100 marks).",
+      "marks_per_subject": 100,
+      "total_marks": 600,
+      "internal_marks_weightage": 0,
+      "exam_duration": "3 hours 15 minutes per 100-mark paper (including 15 minutes reading time); Physical Science and Biological Science are 2 hours each."
+    },
+    "first_languages_official": [
+      "Telugu", "Hindi", "Urdu", "Kannada", "Tamil", "Odia",
+      "Composite Courses: Telugu + Sanskrit, Urdu + Persian/Arabic"
+    ],
+    "second_languages_official": [
+      "Hindi (for Telugu/Urdu/etc. First Language students)",
+      "Telugu (for Hindi First Language students)",
+      "Special English"
+    ],
+    "third_languages_official": [
+      "English"
+    ],
+    "core_non_language_subjects": [
+      { "subject_id": "ap-c10-mathematics", "name": "Mathematics (గణితము)" },
+      { "subject_id": "ap-c10-general-science", "name": "General Science (సాధారణ శాస్త్రం - Physical Science & Biological Science)" },
+      { "subject_id": "ap-c10-social-studies", "name": "Social Studies (సాంఘిక శాస్త్రం)" }
+    ],
+    "passing_criteria": {
+      "minimum_percentage_per_subject": 35,
+      "minimum_aggregate_percentage": 35,
+      "minimum_total_marks": 210,
+      "grading_system": "Grade A1 (91-100), A2 (81-90), B1 (71-80), B2 (61-70), C1 (51-60), C2 (41-50), D (35-40 / Pass Threshold), E (Below 35 / Fail)."
+    }
+  },
+  "class_11": {
+    "authority": "bieap",
+    "examination_status": "Intermediate First Year Public Examination",
+    "board_exam_eligible": false,
+    "service_type": "BIEAP Administered Inter 1st Year Examination, Group Foundation, Continuous Practical Log",
+    "progression_to_class_12": {
+      "rule": "Progression to Intermediate Second Year requires appearing in and qualifying Inter 1st Year public examinations, maintaining minimum 75% attendance, and clearing non-core qualifying papers (Ethics and Human Values, Environmental Education)."
+    }
+  },
+  "class_12": {
+    "authority": "bieap",
+    "examination_name": "Intermediate Public Examination (IPE) / Inter Second Year Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Higher Secondary Board Examination, Major Stream Groups (MPC, BiPC, CEC, MEC, HEC, Vocational)",
+    "stream_groups_official": {
+      "mpc": {
+        "group_name": "MPC (Mathematics, Physics, Chemistry)",
+        "compulsory_subjects": ["General English", "Second Language (Telugu/Sanskrit/Hindi/Urdu)", "Mathematics (Maths IIA & IIB)", "Physics", "Chemistry"],
+        "max_marks": 1000
+      },
+      "bipc": {
+        "group_name": "BiPC (Biology, Physics, Chemistry)",
+        "compulsory_subjects": ["General English", "Second Language", "Botany", "Zoology", "Physics", "Chemistry"],
+        "max_marks": 1000
+      },
+      "cec": {
+        "group_name": "CEC (Civics, Economics, Commerce)",
+        "compulsory_subjects": ["General English", "Second Language", "Commerce & Accountancy", "Economics", "Civics / Political Science"],
+        "max_marks": 1000
+      },
+      "mec": {
+        "group_name": "MEC (Mathematics, Economics, Commerce)",
+        "compulsory_subjects": ["General English", "Second Language", "Mathematics (Maths IIA & IIB)", "Commerce & Accountancy", "Economics"],
+        "max_marks": 1000
+      },
+      "hec": {
+        "group_name": "HEC (History, Economics, Civics)",
+        "compulsory_subjects": ["General English", "Second Language", "History", "Economics", "Civics"],
+        "max_marks": 1000
+      },
+      "vocational": {
+        "group_name": "Vocational Stream",
+        "description": "General Foundation Course, English, Vocational Theory I, II, III & Practical Practicum."
+      }
+    },
+    "scheme_of_examination": "Combined 1st & 2nd Year Cumulative Total: 1000 Marks. Lab subjects feature 60 Marks Theory + 30 Marks Practical per year. Mathematics features 75 Marks Theory per paper. Commerce/Arts feature 100 Marks Theory per paper.",
+    "passing_criteria": {
+      "minimum_percentage_per_subject": 35,
+      "minimum_aggregate_percentage": 35,
+      "division_system": "Grade A / First Division (>= 60%), Grade B / Second Division (50% to < 60%), Grade C / Third Division (35% to < 50%), Fail (< 35%)."
+    }
+  }
+}

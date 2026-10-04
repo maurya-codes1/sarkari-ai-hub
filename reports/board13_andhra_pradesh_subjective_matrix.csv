@@ -1,0 +1,32 @@
+subject_id,subject_name,vsa_count,sa_count,case_study_count,la_count,total_subjectives,marking_scheme_present
+ap-c10-english-tl,Third Language English,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-general-science,General Science (సాధారణ శాస్త్రం - Physical & Biological Science),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-hindi-fl,First Language Hindi (प्रथम भाषा हिन्दी),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-hindi-sl,Second Language Hindi (द्वितीय भाषा हिन्दी),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-mathematics,Mathematics (గణితము - SSC Mathematics),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-sanskrit-comp,Composite Sanskrit (సంస్కృతము / संस्कृतम्),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-social-studies,Social Studies (సాంఘିକ శాస్త్రం),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-telugu-fl,First Language Telugu (FLO - ప్రథమ భాష తెలుగు),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-telugu-sl,Second Language Telugu (ద్వితీయ భాష తెలుగు),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c10-urdu-fl,First Language Urdu (اردو پہلی زبان),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-accountancy,Accountancy (ఖాతా నిర్వహణ - CEC & MEC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-botany,Botany (వృక్ష శాస్త్రం - BiPC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-chemistry,Chemistry (రసాయన శాస్త్రం - MPC & BiPC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-civics,Civics / Political Science (పౌరనీతి - CEC & HEC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-commerce,Commerce (వాణిజ్య శాస్త్రం - CEC & MEC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-computer-science,Computer Science,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-economics,"Economics (అర్థశాస్త్రం - CEC, MEC & HEC)",24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-english-compulsory,General English (Compulsory),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-geography,Geography,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-hindi-sl,Second Language Hindi (हिन्दी),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-history,History (చరిత్ర - HEC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-logic,Logic & Philosophy,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-mathematics,Mathematics (Maths IIA & IIB - MPC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-physics,Physics (భౌతిక శాస్త్రం - MPC & BiPC),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-psychology,Psychology,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-public-administration,Public Administration,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-sanskrit-sl,Second Language Sanskrit (संस्कृतम्),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-sociology,Sociology,24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-telugu-sl,Second Language Telugu (తెలుగు),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-urdu-sl,Second Language Urdu (اردو),24,24,12,15,75,YES_RUBRIC_INCLUDED
+ap-c12-zoology,Zoology (జంతు శాస్త్రం - BiPC),24,24,12,15,75,YES_RUBRIC_INCLUDED

@@ -1,0 +1,59 @@
+{
+  "board_id": "bse-ap",
+  "authority_id": "bse-ap",
+  "official_name": "Directorate of Government Examinations, Andhra Pradesh (BSE AP)",
+  "short_name": "BSE AP",
+  "common_name": "Andhra Pradesh SSC Board",
+  "state": "Andhra Pradesh",
+  "headquarters": "Vijayawada, Andhra Pradesh",
+  "country": "India",
+  "official_website": "https://bse.ap.gov.in/",
+  "official_result_url": "https://results.bse.ap.gov.in/",
+  "classes": [9, 10],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1",
+  "source_urls": {
+    "bse_portal": "https://bse.ap.gov.in/",
+    "results_portal": "https://results.bse.ap.gov.in/"
+  },
+  "class_9_scope": {
+    "is_board_exam": false,
+    "assessment_type": "Summative Assessment (SA-2) & Continuous and Comprehensive Evaluation (CCE)",
+    "advance_registration": "Student Child Info / Aadhaar enrollment for Class 10 SSC eligibility",
+    "progression_rule": "Minimum 35% marks in SA-2 and 75% attendance required for Class 10 promotion."
+  },
+  "class_10_exam": {
+    "exam_name": "Secondary School Certificate (SSC) Public Examination",
+    "is_board_exam": true,
+    "pattern_breakdown": {
+      "total_papers": 7,
+      "marks_per_subject": 100,
+      "total_marks": 600,
+      "internal_marks": 0,
+      "board_written_marks": 100,
+      "general_science_structure": "General Science is split into two distinct papers on separate examination days: Physical Science (50 Marks) and Biological Science (50 Marks), totaling 100 Marks.",
+      "exam_duration_standard": "3 hours 15 minutes",
+      "exam_duration_science_papers": "2 hours each"
+    },
+    "passing_rule": {
+      "min_per_subject": 35,
+      "min_aggregate": 35,
+      "min_aggregate_marks": 210
+    },
+    "subjects": [
+      { "code": "ap-c10-telugu-fl", "name": "First Language Telugu (FLO - ప్రథమ భాష తెలుగు)", "category": "First Language", "language": "te", "script": "Telugu" },
+      { "code": "ap-c10-hindi-fl", "name": "First Language Hindi (प्रथम भाषा हिन्दी)", "category": "First Language", "language": "hi", "script": "Devanagari" },
+      { "code": "ap-c10-urdu-fl", "name": "First Language Urdu (اردو پہلی زبان)", "category": "First Language", "language": "ur", "script": "Nastaliq" },
+      { "code": "ap-c10-telugu-sl", "name": "Second Language Telugu (ద్వితీయ భాష తెలుగు)", "category": "Second Language", "language": "te", "script": "Telugu" },
+      { "code": "ap-c10-hindi-sl", "name": "Second Language Hindi (द्वितीय भाषा हिन्दी)", "category": "Second Language", "language": "hi", "script": "Devanagari" },
+      { "code": "ap-c10-english-tl", "name": "Third Language English", "category": "Third Language", "language": "en", "script": "Latin" },
+      { "code": "ap-c10-sanskrit-comp", "name": "Composite Sanskrit (సంస్కృతము / संस्कृतम्)", "category": "Composite Language", "language": "sa", "script": "Devanagari" },
+      { "code": "ap-c10-mathematics", "name": "Mathematics (గణితము)", "category": "Core Mathematics", "language": "te_en", "script": "Telugu/Latin" },
+      { "code": "ap-c10-general-science", "name": "General Science (సాధారణ శాస్త్రం - Physical & Biological Science)", "category": "Core Science", "language": "te_en", "script": "Telugu/Latin" },
+      { "code": "ap-c10-social-studies", "name": "Social Studies (సాంఘిక శాస్త్రం)", "category": "Core Social Studies", "language": "te_en", "script": "Telugu/Latin" }
+    ]
+  }
+}

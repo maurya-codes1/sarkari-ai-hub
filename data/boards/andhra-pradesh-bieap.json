@@ -1,0 +1,100 @@
+{
+  "board_id": "bieap",
+  "authority_id": "bieap",
+  "official_name": "Board of Intermediate Education, Andhra Pradesh (BIEAP)",
+  "short_name": "BIEAP",
+  "common_name": "Andhra Pradesh Intermediate Board",
+  "state": "Andhra Pradesh",
+  "headquarters": "Eswar Elite, Tadepalli, Guntur - 522501, Andhra Pradesh",
+  "country": "India",
+  "official_website": "https://bieap.apcfss.in/",
+  "official_result_url": "https://resultsbie.ap.gov.in/",
+  "classes": [11, 12],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1",
+  "source_urls": {
+    "bieap_portal": "https://bieap.apcfss.in/",
+    "results_portal": "https://resultsbie.ap.gov.in/"
+  },
+  "class_11_scope": {
+    "is_board_exam": false,
+    "assessment_type": "Intermediate First Year Public Examination administered by BIEAP",
+    "registration": "Online Admissions through BIEAP JnanaBhumi portal",
+    "progression_rule": "Minimum 35% in each subject and 75% attendance in theory & practical required for promotion to Second Year."
+  },
+  "class_12_exam": {
+    "exam_name": "Intermediate Public Examination (IPE) / Inter Second Year",
+    "is_board_exam": true,
+    "pattern_breakdown": {
+      "stream_groups": ["MPC", "BiPC", "CEC", "MEC", "HEC", "Vocational"],
+      "total_marks": 1000,
+      "math_theory_marks": 75,
+      "lab_theory_marks": 60,
+      "lab_practical_marks": 30,
+      "arts_commerce_theory_marks": 100,
+      "exam_duration_hours": 3
+    },
+    "passing_rule": {
+      "min_percentage_per_subject": 35,
+      "min_aggregate_percentage": 35
+    },
+    "streams": [
+      {
+        "group_id": "mpc",
+        "group_name": "MPC (Mathematics, Physics, Chemistry)",
+        "subjects": [
+          { "code": "ap-c12-mathematics", "name": "Mathematics (Maths IIA & IIB)", "type": "Core", "theory_marks": 75 },
+          { "code": "ap-c12-physics", "name": "Physics", "type": "Core", "theory_marks": 60, "practical_marks": 30 },
+          { "code": "ap-c12-chemistry", "name": "Chemistry", "type": "Core", "theory_marks": 60, "practical_marks": 30 },
+          { "code": "ap-c12-computer-science", "name": "Computer Science", "type": "Elective", "theory_marks": 60, "practical_marks": 30 }
+        ]
+      },
+      {
+        "group_id": "bipc",
+        "group_name": "BiPC (Biology, Physics, Chemistry)",
+        "subjects": [
+          { "code": "ap-c12-botany", "name": "Botany", "type": "Core", "theory_marks": 60, "practical_marks": 30 },
+          { "code": "ap-c12-zoology", "name": "Zoology", "type": "Core", "theory_marks": 60, "practical_marks": 30 },
+          { "code": "ap-c12-physics", "name": "Physics", "type": "Core", "theory_marks": 60, "practical_marks": 30 },
+          { "code": "ap-c12-chemistry", "name": "Chemistry", "type": "Core", "theory_marks": 60, "practical_marks": 30 }
+        ]
+      },
+      {
+        "group_id": "cec_mec",
+        "group_name": "CEC & MEC (Commerce, Economics, Civics, Mathematics)",
+        "subjects": [
+          { "code": "ap-c12-commerce", "name": "Commerce", "type": "Core", "theory_marks": 100 },
+          { "code": "ap-c12-economics", "name": "Economics", "type": "Core", "theory_marks": 100 },
+          { "code": "ap-c12-civics", "name": "Civics / Political Science", "type": "Core", "theory_marks": 100 },
+          { "code": "ap-c12-accountancy", "name": "Accountancy", "type": "Core", "theory_marks": 100 }
+        ]
+      },
+      {
+        "group_id": "hec_humanities",
+        "group_name": "HEC & Humanities (History, Economics, Civics, Public Admin)",
+        "subjects": [
+          { "code": "ap-c12-history", "name": "History", "type": "Core", "theory_marks": 100 },
+          { "code": "ap-c12-public-administration", "name": "Public Administration", "type": "Elective", "theory_marks": 100 },
+          { "code": "ap-c12-sociology", "name": "Sociology", "type": "Elective", "theory_marks": 100 },
+          { "code": "ap-c12-psychology", "name": "Psychology", "type": "Elective", "theory_marks": 100 },
+          { "code": "ap-c12-geography", "name": "Geography", "type": "Elective", "theory_marks": 60, "practical_marks": 30 },
+          { "code": "ap-c12-logic", "name": "Logic & Philosophy", "type": "Elective", "theory_marks": 100 }
+        ]
+      },
+      {
+        "group_id": "languages",
+        "group_name": "Languages",
+        "subjects": [
+          { "code": "ap-c12-english-compulsory", "name": "General English (Compulsory)", "type": "Compulsory", "theory_marks": 100 },
+          { "code": "ap-c12-telugu-sl", "name": "Second Language Telugu", "type": "Second Language", "theory_marks": 100 },
+          { "code": "ap-c12-sanskrit-sl", "name": "Second Language Sanskrit", "type": "Second Language", "theory_marks": 100 },
+          { "code": "ap-c12-hindi-sl", "name": "Second Language Hindi", "type": "Second Language", "theory_marks": 100 },
+          { "code": "ap-c12-urdu-sl", "name": "Second Language Urdu", "type": "Second Language", "theory_marks": 100 }
+        ]
+      }
+    ]
+  }
+}

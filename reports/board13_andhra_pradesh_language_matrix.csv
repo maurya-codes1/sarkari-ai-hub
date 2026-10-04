@@ -1,0 +1,9 @@
+language_code,language_name,script,unicode_range,applicable_authorities,sample_verified_text,script_status
+te,Telugu,Telugu,U+0C00 - U+0C7F,BSE AP & BIEAP,ఆంధ్రప్రదేశ్ ప్రభుత్వ పరీక్షల విభాగం మరియు ఇంటర్మీడియట్ విద్యా మండలి,VERIFIED_AUTHENTIC_SCRIPT
+en,English,Latin,U+0020 - U+007E,BSE AP & BIEAP,Directorate of Government Examinations & Board of Intermediate Education AP,VERIFIED_AUTHENTIC_SCRIPT
+hi,Hindi,Devanagari,U+0900 - U+097F,BSE AP & BIEAP,आन्ध्र प्रदेश माध्यमिक शिक्षा परिषद एवं इंटरमीडिएट शिक्षा बोर्ड,VERIFIED_AUTHENTIC_SCRIPT
+ur,Urdu,Nastaliq / Perso-Arabic,U+0600 - U+06FF,BSE AP & BIEAP,ڈائریکٹوریٹ آف گورنمنٹ ایگزامینیشنز اور بورڈ آف انٹرمیڈیٹ ایجوکیشن آندھرا پردیش,VERIFIED_AUTHENTIC_SCRIPT
+sa,Sanskrit,Devanagari,U+0900 - U+097F,BSE AP & BIEAP,आन्ध्रप्रदेश-सर्वकार-परीक्षामण्डली तथा इण्टरमीडिएट-शिक्षासमितिः,VERIFIED_AUTHENTIC_SCRIPT
+ta,Tamil,Tamil,U+0B80 - U+0BFF,BSE AP Registry,ஆந்திரப் பிரதேச அரசுத் தேர்வுகள் இயக்ககம்,VERIFIED_AUTHENTIC_SCRIPT
+kn,Kannada,Kannada,U+0C80 - U+0CFF,BSE AP Registry,ಆಂಧ್ರಪ್ರದೇಶ ಸರ್ಕಾರಿ ಪರೀಕ್ಷೆಗಳ ನಿರ್ದೇಶನಾಲಯ,VERIFIED_AUTHENTIC_SCRIPT
+or,Odia,Odia,U+0B00 - U+0B7F,BSE AP Registry,ଆନ୍ଧ୍ରପ୍ରଦେଶ ସରକାରୀ ପରୀକ୍ଷା ନିର୍ଦ୍ଦେଶାଳୟ,VERIFIED_AUTHENTIC_SCRIPT

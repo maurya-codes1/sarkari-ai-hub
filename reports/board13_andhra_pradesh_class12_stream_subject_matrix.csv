@@ -1,0 +1,22 @@
+stream_group,group_description,subject_id,subject_name,subject_type,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+mpc,"MPC (Mathematics, Physics, Chemistry)",ap-c12-mathematics,Mathematics (Maths IIA & IIB - MPC),Core Elective,280,205,75,150,0
+mpc_bipc,MPC & BiPC,ap-c12-physics,Physics (భౌతిక శాస్త్రం - MPC & BiPC),Core Elective,280,205,75,60,30
+mpc_bipc,MPC & BiPC,ap-c12-chemistry,Chemistry (రసాయన శాస్త్రం - MPC & BiPC),Core Elective,280,205,75,60,30
+bipc,"BiPC (Biology, Physics, Chemistry)",ap-c12-botany,Botany (వృక్ష శాస్త్రం - BiPC),Core Elective,280,205,75,60,30
+bipc,"BiPC (Biology, Physics, Chemistry)",ap-c12-zoology,Zoology (జంతు శాస్త్రం - BiPC),Core Elective,280,205,75,60,30
+science_voc,Science / Vocational,ap-c12-computer-science,Computer Science,Academic Elective,280,205,75,70,30
+cec_mec,CEC & MEC,ap-c12-commerce,Commerce (వాణిజ్య శాస్త్రం - CEC & MEC),Commerce Elective,280,205,75,100,0
+cec_mec_hec,"CEC, MEC & HEC",ap-c12-economics,"Economics (అర్థశాస్త్రం - CEC, MEC & HEC)",Social Science Elective,280,205,75,100,0
+cec_hec,CEC & HEC,ap-c12-civics,Civics / Political Science (పౌరనీతి - CEC & HEC),Social Science Elective,280,205,75,100,0
+hec,HEC,ap-c12-history,History (చరిత్ర - HEC),Humanities Elective,280,205,75,100,0
+cec_mec,CEC & MEC,ap-c12-accountancy,Accountancy (ఖాతా నిర్వహణ - CEC & MEC),Commerce Elective,280,205,75,100,0
+humanities,Humanities / Arts,ap-c12-public-administration,Public Administration,Humanities Elective,280,205,75,100,0
+humanities,Humanities / Arts,ap-c12-sociology,Sociology,Humanities Elective,280,205,75,100,0
+humanities,Humanities / Arts,ap-c12-psychology,Psychology,Humanities Elective,280,205,75,100,0
+humanities,Humanities / Arts,ap-c12-geography,Geography,Humanities Elective,280,205,75,75,25
+humanities,Humanities / Arts,ap-c12-logic,Logic & Philosophy,Humanities Elective,280,205,75,100,0
+languages,Compulsory Part I,ap-c12-english-compulsory,General English (Compulsory),Compulsory Part I,280,205,75,100,0
+languages,Second Language Part II,ap-c12-telugu-sl,Second Language Telugu (తెలుగు),Second Language Part II,280,205,75,100,0
+languages,Second Language Part II,ap-c12-sanskrit-sl,Second Language Sanskrit (संस्कृतम्),Second Language Part II,280,205,75,100,0
+languages,Second Language Part II,ap-c12-hindi-sl,Second Language Hindi (हिन्दी),Second Language Part II,280,205,75,100,0
+languages,Second Language Part II,ap-c12-urdu-sl,Second Language Urdu (اردو),Second Language Part II,280,205,75,100,0

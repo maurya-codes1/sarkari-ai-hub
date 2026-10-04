@@ -1,0 +1,4 @@
+mode,eligible_questions,shuffle_supported,isolation_enforced,cross_board_fallback
+Learning Mock,6355,YES,ENFORCED,BLOCKED
+Practice Mock,6355,YES,ENFORCED,BLOCKED
+Full Exam,6355,YES,ENFORCED,BLOCKED
