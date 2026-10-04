@@ -1,0 +1,147 @@
+{
+  "exam_id": "agniveer-army",
+  "name": "Indian Army Agniveer Rally Recruitment Common Entrance Examination (CEE)",
+  "short_name": "Army Agniveer",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-join-indian-army-directorate-general-of-",
+    "name": "Join Indian Army (Directorate General of Recruiting), Ministry of Defence",
+    "short_name": "Indian Army",
+    "headquarters": "West Block-III, RK Puram, New Delhi 110066",
+    "official_website": "https://joinindianarmy.nic.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-agniveer-army-portal",
+      "name": "Join Indian Army Official Recruitment Portal",
+      "url": "https://joinindianarmy.nic.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-agniveer-army-notice-2026",
+      "name": "Indian Army Agniveer Rally Common Entrance Examination (CEE) Notification 2026",
+      "url": "https://joinindianarmy.nic.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-agniveer-army-pyq-corpus",
+      "name": "Indian Army Agniveer Historical CEE Examination Question Papers Corpus (2018-2025)",
+      "url": "https://joinindianarmy.nic.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "agniveer_general_duty_tradesman": {
+      "mode": "Computer Based Online Common Entrance Exam (Online CEE)",
+      "duration_minutes": 60,
+      "total_questions": 50,
+      "total_marks": 100,
+      "marks_per_question": 2.0,
+      "negative_marking": 0.50,
+      "passing_marks": 35,
+      "sections": [
+        { "name": "General Knowledge", "questions": 15, "marks": 30 },
+        { "name": "General Science", "questions": 15, "marks": 30 },
+        { "name": "Mathematics", "questions": 15, "marks": 30 },
+        { "name": "Logical Reasoning", "questions": 5, "marks": 10 }
+      ]
+    },
+    "agniveer_technical": {
+      "mode": "Computer Based Online Common Entrance Exam (Online CEE)",
+      "duration_minutes": 60,
+      "total_questions": 50,
+      "total_marks": 200,
+      "marks_per_question": 4.0,
+      "negative_marking": 1.00,
+      "passing_marks": 80,
+      "sections": [
+        { "name": "General Knowledge", "questions": 10, "marks": 40 },
+        { "name": "Mathematics (10+2 Level)", "questions": 15, "marks": 60 },
+        { "name": "Physics (10+2 Level)", "questions": 15, "marks": 60 },
+        { "name": "Chemistry (10+2 Level)", "questions": 10, "marks": 40 }
+      ]
+    },
+    "agniveer_clerk_skt": {
+      "mode": "Computer Based Online Common Entrance Exam (Online CEE)",
+      "duration_minutes": 60,
+      "total_questions": 50,
+      "total_marks": 200,
+      "marks_per_question": 4.0,
+      "negative_marking": 1.00,
+      "passing_marks": 80,
+      "part_1": { "name": "GK, Science, Maths, Computer", "questions": 25, "marks": 100 },
+      "part_2": { "name": "General English", "questions": 25, "marks": 100 }
+    },
+    "physical_fitness_test": {
+      "group_1": "1.6 Km Run in 5 Min 30 Sec (60 Marks), 10 Pull-Ups (40 Marks) = 100 Marks",
+      "group_2": "1.6 Km Run in 5 Min 45 Sec (48 Marks), 9 Pull-Ups (33 Marks) = 81 Marks",
+      "qualifying_events": "9 Feet Ditch Jump (Qualifying), Zig-Zag Balance (Qualifying)"
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": "army-agniveer-gd-general-knowledge",
+      "name": "Indian Army Agniveer GD & Tradesman General Knowledge",
+      "short_name": "Army GD GK",
+      "cadre": "General Duty / Tradesman",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.50
+    },
+    {
+      "subject_id": "army-agniveer-gd-general-science",
+      "name": "Indian Army Agniveer GD & Tradesman General Science",
+      "short_name": "Army GD Science",
+      "cadre": "General Duty / Tradesman",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.50
+    },
+    {
+      "subject_id": "army-agniveer-gd-mathematics-reasoning",
+      "name": "Indian Army Agniveer GD Elementary Mathematics & Logical Reasoning",
+      "short_name": "Army GD Maths & Reasoning",
+      "cadre": "General Duty / Tradesman",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.50
+    },
+    {
+      "subject_id": "army-agniveer-tech-physics-chemistry",
+      "name": "Indian Army Agniveer Technical Physics & Chemistry (10+2 Level)",
+      "short_name": "Army Tech Phy & Chem",
+      "cadre": "Technical / Aviation",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.00
+    },
+    {
+      "subject_id": "army-agniveer-tech-mathematics",
+      "name": "Indian Army Agniveer Technical Mathematics (10+2 Advanced)",
+      "short_name": "Army Tech Maths",
+      "cadre": "Technical / Aviation",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.00
+    },
+    {
+      "subject_id": "army-agniveer-clerk-english-computers",
+      "name": "Indian Army Agniveer Clerk/SKT General English & Computer Science",
+      "short_name": "Army Clerk English & IT",
+      "cadre": "Clerk / SKT / Office Assistant",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.00
+    }
+  ],
+  "marking_scheme": {
+    "correct_gd_tradesman": 2.0,
+    "incorrect_penalty_gd_tradesman": -0.50,
+    "correct_tech_clerk": 4.0,
+    "incorrect_penalty_tech_clerk": -1.00,
+    "unattempted": 0.0
+  },
+  "total_questions_in_bank": 1800,
+  "master_revision_bundles": 5
+}

@@ -1,0 +1,7 @@
+Section_Code,Section_Title,Subject_ID,Bank_Questions,CEE_Exam_Questions,Marking_Scheme,Total_Marks_Per_Paper
+GD_GK,Agniveer GD / Tradesman General Knowledge,army-agniveer-gd-general-knowledge,300,15,2.0 / -0.50,30 Marks
+GD_GS,Agniveer GD / Tradesman General Science,army-agniveer-gd-general-science,300,15,2.0 / -0.50,30 Marks
+GD_MATH_LR,Agniveer GD Elementary Maths & Reasoning,army-agniveer-gd-mathematics-reasoning,300,20,2.0 / -0.50,40 Marks
+TECH_PC,Agniveer Technical Physics & Chemistry,army-agniveer-tech-physics-chemistry,300,25,4.0 / -1.00,100 Marks
+TECH_MATH,Agniveer Technical Mathematics (10+2),army-agniveer-tech-mathematics,300,15,4.0 / -1.00,60 Marks
+CLK_ENG_CS,Agniveer Clerk/SKT General English & Computers,army-agniveer-clerk-english-computers,300,30,4.0 / -1.00,120 Marks
