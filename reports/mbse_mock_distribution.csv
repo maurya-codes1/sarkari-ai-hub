@@ -1,0 +1,94 @@
+mock_type,subject_id,question_count,studied_reuse_pct,fresh_verified_pct,time_limit_mins
+Learning Mock,mz-c10-english,30,80,20,45
+Practice Mock,mz-c10-english,50,40,60,90
+Full Exam Simulation,mz-c10-english,80,0,100,180
+Learning Mock,mz-c10-mizo,30,80,20,45
+Practice Mock,mz-c10-mizo,50,40,60,90
+Full Exam Simulation,mz-c10-mizo,80,0,100,180
+Learning Mock,mz-c10-alt-english,30,80,20,45
+Practice Mock,mz-c10-alt-english,50,40,60,90
+Full Exam Simulation,mz-c10-alt-english,80,0,100,180
+Learning Mock,mz-c10-hindi,30,80,20,45
+Practice Mock,mz-c10-hindi,50,40,60,90
+Full Exam Simulation,mz-c10-hindi,80,0,100,180
+Learning Mock,mz-c10-mathematics,30,80,20,45
+Practice Mock,mz-c10-mathematics,50,40,60,90
+Full Exam Simulation,mz-c10-mathematics,80,0,100,180
+Learning Mock,mz-c10-science,30,80,20,45
+Practice Mock,mz-c10-science,50,40,60,90
+Full Exam Simulation,mz-c10-science,80,0,100,180
+Learning Mock,mz-c10-social-science,30,80,20,45
+Practice Mock,mz-c10-social-science,50,40,60,90
+Full Exam Simulation,mz-c10-social-science,80,0,100,180
+Learning Mock,mz-c10-intro-computers,30,80,20,45
+Practice Mock,mz-c10-intro-computers,50,40,60,90
+Full Exam Simulation,mz-c10-intro-computers,80,0,100,180
+Learning Mock,mz-c10-home-science,30,80,20,45
+Practice Mock,mz-c10-home-science,50,40,60,90
+Full Exam Simulation,mz-c10-home-science,80,0,100,180
+Learning Mock,mz-c10-civics-economics,30,80,20,45
+Practice Mock,mz-c10-civics-economics,50,40,60,90
+Full Exam Simulation,mz-c10-civics-economics,80,0,100,180
+Learning Mock,mz-c12-english,30,80,20,45
+Practice Mock,mz-c12-english,50,40,60,90
+Full Exam Simulation,mz-c12-english,100,0,100,180
+Learning Mock,mz-c12-alt-english,30,80,20,45
+Practice Mock,mz-c12-alt-english,50,40,60,90
+Full Exam Simulation,mz-c12-alt-english,100,0,100,180
+Learning Mock,mz-c12-mizo,30,80,20,45
+Practice Mock,mz-c12-mizo,50,40,60,90
+Full Exam Simulation,mz-c12-mizo,100,0,100,180
+Learning Mock,mz-c12-hindi,30,80,20,45
+Practice Mock,mz-c12-hindi,50,40,60,90
+Full Exam Simulation,mz-c12-hindi,100,0,100,180
+Learning Mock,mz-c12-physics,30,80,20,45
+Practice Mock,mz-c12-physics,50,40,60,90
+Full Exam Simulation,mz-c12-physics,70,0,100,180
+Learning Mock,mz-c12-chemistry,30,80,20,45
+Practice Mock,mz-c12-chemistry,50,40,60,90
+Full Exam Simulation,mz-c12-chemistry,70,0,100,180
+Learning Mock,mz-c12-biology,30,80,20,45
+Practice Mock,mz-c12-biology,50,40,60,90
+Full Exam Simulation,mz-c12-biology,70,0,100,180
+Learning Mock,mz-c12-mathematics,30,80,20,45
+Practice Mock,mz-c12-mathematics,50,40,60,90
+Full Exam Simulation,mz-c12-mathematics,80,0,100,180
+Learning Mock,mz-c12-computer-science,30,80,20,45
+Practice Mock,mz-c12-computer-science,50,40,60,90
+Full Exam Simulation,mz-c12-computer-science,70,0,100,180
+Learning Mock,mz-c12-informatics-practices,30,80,20,45
+Practice Mock,mz-c12-informatics-practices,50,40,60,90
+Full Exam Simulation,mz-c12-informatics-practices,70,0,100,180
+Learning Mock,mz-c12-accountancy,30,80,20,45
+Practice Mock,mz-c12-accountancy,50,40,60,90
+Full Exam Simulation,mz-c12-accountancy,80,0,100,180
+Learning Mock,mz-c12-business-studies,30,80,20,45
+Practice Mock,mz-c12-business-studies,50,40,60,90
+Full Exam Simulation,mz-c12-business-studies,80,0,100,180
+Learning Mock,mz-c12-economics,30,80,20,45
+Practice Mock,mz-c12-economics,50,40,60,90
+Full Exam Simulation,mz-c12-economics,80,0,100,180
+Learning Mock,mz-c12-business-mathematics,30,80,20,45
+Practice Mock,mz-c12-business-mathematics,50,40,60,90
+Full Exam Simulation,mz-c12-business-mathematics,80,0,100,180
+Learning Mock,mz-c12-entrepreneurship,30,80,20,45
+Practice Mock,mz-c12-entrepreneurship,50,40,60,90
+Full Exam Simulation,mz-c12-entrepreneurship,80,0,100,180
+Learning Mock,mz-c12-political-science,30,80,20,45
+Practice Mock,mz-c12-political-science,50,40,60,90
+Full Exam Simulation,mz-c12-political-science,80,0,100,180
+Learning Mock,mz-c12-history,30,80,20,45
+Practice Mock,mz-c12-history,50,40,60,90
+Full Exam Simulation,mz-c12-history,80,0,100,180
+Learning Mock,mz-c12-geography,30,80,20,45
+Practice Mock,mz-c12-geography,50,40,60,90
+Full Exam Simulation,mz-c12-geography,70,0,100,180
+Learning Mock,mz-c12-education,30,80,20,45
+Practice Mock,mz-c12-education,50,40,60,90
+Full Exam Simulation,mz-c12-education,80,0,100,180
+Learning Mock,mz-c12-sociology,30,80,20,45
+Practice Mock,mz-c12-sociology,50,40,60,90
+Full Exam Simulation,mz-c12-sociology,80,0,100,180
+Learning Mock,mz-c12-psychology,30,80,20,45
+Practice Mock,mz-c12-psychology,50,40,60,90
+Full Exam Simulation,mz-c12-psychology,80,0,100,180

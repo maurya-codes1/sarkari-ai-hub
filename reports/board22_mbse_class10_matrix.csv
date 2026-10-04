@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,exam_duration_mins
+mz-c10-english,English (Compulsory HSLC Subject - 80 Theory + 20 IA),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-mizo,Mizo (Compulsory / Elective MIL - 80 Theory + 20 IA),Compulsory/Elective MIL,lus,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-alt-english,Alternative English (Second Language Option - 80 Theory + 20 IA),Second Language Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-hindi,Hindi (Second Language Option - हिन्दी - 80 Theory + 20 IA),Second Language Option,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,180
+mz-c10-mathematics,Mathematics (Compulsory HSLC - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-science,Science (Compulsory HSLC - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-social-science,Social Science (Compulsory HSLC - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-intro-computers,Introductory Information Technology / Computers (80 Theory + 20 IA),Elective Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-home-science,Home Science (Elective HSLC - 80 Theory + 20 IA),Elective Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mz-c10-civics-economics,Elements of Commerce & Economics (80 Theory + 20 IA),Elective Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180

@@ -1,0 +1,3 @@
+source_stage,target_stage,dependency_rule,enforcement_level,gate_action
+Class 9,Class 10 (HSLC),MBSE_CLASS9_TO_CLASS10_DEPENDENCY,STRICT_INSTITUTIONAL,Block HSLC admit card unless Class 9 final examination cleared & registered at MBSE Aizawl
+Class 11 (HSSLC Part-I),Class 12 (HSSLC Final),MBSE_CLASS11_TO_CLASS12_DEPENDENCY,STRICT_BOARD,Block HSSLC registration unless Class 11 promotional exam cleared in identical stream

@@ -1,0 +1,6 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+lus,Mizo (Mizo ṭawng),Latin,U+0020 - U+007E,"Official State Language, Compulsory/Elective HSLC MIL, HSSLC MIL, Mizo Academy of Letters standards",YES,VERIFIED_STATE_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject across HSLC & HSSLC, Official Working Language & Medium of Instruction",YES,VERIFIED_COMPULSORY_MEDIUM
+hi,Hindi,Devanagari,U+0900 - U+097F,Second Language Option in HSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE
+bn,Bengali,Bengali,U+0980 - U+09FF,Minority Language Option under MBSE,YES,VERIFIED_MIL_LANGUAGE
+ne,Nepali,Devanagari,U+0900 - U+097F,Minority Language Option under MBSE,YES,VERIFIED_MIL_LANGUAGE

@@ -1,0 +1,241 @@
+{
+  "board_id": "mbse-mizoram",
+  "board_name": "Mizoram Board of School Education",
+  "short_name": "MBSE",
+  "authority_id": "org-mz-board-mbse",
+  "authority_name": "Mizoram Board of School Education, Aizawl",
+  "state": "Mizoram",
+  "headquarters": "Chaltlang, Aizawl - 796012, Mizoram",
+  "statutory_act": "Mizoram Board of School Education Act, 1975 (Act No. 10 of 1975)",
+  "established_year": 1975,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://www.mbse.edu.in/",
+  "official_result_url": "https://www.mbse.edu.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "mbse-mizoram",
+    "mbse-board",
+    "mbse"
+  ],
+  "curriculum_framework": {
+    "hslc_class_10": {
+      "aggregate_marks": 500,
+      "core_subjects_count": 5,
+      "theory_marks": 80,
+      "internal_assessment_marks": 20,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "compulsory_subjects": [
+        "mz-c10-english",
+        "mz-c10-mizo",
+        "mz-c10-mathematics",
+        "mz-c10-science",
+        "mz-c10-social-science"
+      ]
+    },
+    "hsslc_class_12": {
+      "aggregate_marks": 500,
+      "papers_count": 5,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "science_practical_split": {
+        "theory_marks": 70,
+        "practical_marks": 30,
+        "theory_pass_mark": 21,
+        "practical_pass_mark": 9,
+        "combined_pass_mark": 30
+      },
+      "non_lab_split": {
+        "theory_marks": 80,
+        "project_ia_marks": 20,
+        "theory_pass_mark": 24,
+        "project_pass_mark": 6,
+        "combined_pass_mark": 30
+      },
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Science Stream",
+          "subjects": [
+            "mz-c12-physics", "mz-c12-chemistry", "mz-c12-biology",
+            "mz-c12-mathematics", "mz-c12-computer-science", "mz-c12-informatics-practices"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Commerce Stream",
+          "subjects": [
+            "mz-c12-accountancy", "mz-c12-business-studies", "mz-c12-economics",
+            "mz-c12-business-mathematics", "mz-c12-entrepreneurship"
+          ]
+        },
+        {
+          "stream_id": "arts",
+          "stream_name": "Arts / Humanities Stream",
+          "subjects": [
+            "mz-c12-political-science", "mz-c12-history", "mz-c12-geography",
+            "mz-c12-education", "mz-c12-sociology", "mz-c12-psychology"
+          ]
+        },
+        {
+          "stream_id": "languages",
+          "stream_name": "Languages",
+          "subjects": [
+            "mz-c12-english", "mz-c12-alt-english", "mz-c12-mizo", "mz-c12-hindi"
+          ]
+        },
+        {
+          "stream_id": "vocational",
+          "stream_name": "Vocational Stream",
+          "subjects": [
+            "mz-c12-voc-it", "mz-c12-voc-tourism", "mz-c12-voc-retail", "mz-c12-voc-healthcare", "mz-c12-voc-agriculture"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Final Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "MBSE_CLASS9_TO_CLASS10_DEPENDENCY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "High School Leaving Certificate (HSLC) Examination",
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Promotion Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "MBSE_CLASS11_TO_CLASS12_DEPENDENCY"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Higher Secondary School Leaving Certificate (HSSLC) Examination",
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 30,
+      "practical_passing_percentage": 30,
+      "exam_duration_hours": 3
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "mbse_home": "https://www.mbse.edu.in/",
+    "results_portal": "https://www.mbse.edu.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_mizoram": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "MBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "MBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_terminal_public_exam": false
+  },
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "MBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "BOARD_SUPERVISED_INSTITUTIONAL_FINAL_EXAM",
+      "enrolment_return": "MANDATORY_REGISTRATION_RETURN_TO_MBSE_AIZAWL",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "MBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "MBSE_CLASS_XI_PROMOTION_EXAMINATION",
+      "stream_continuity": "MANDATORY",
+      "min_attendance_percent": 75
+    }
+  },
+  "registration_rules": {
+    "hslc_class_10": {
+      "minimum_attendance": "75%",
+      "enrolment_return": "MANDATORY_MBSE_AIZAWL",
+      "exam_forms_window": "September - October 2026"
+    },
+    "hsslc_class_12": {
+      "minimum_attendance": "75%",
+      "stream_continuity": "Mandatory",
+      "exam_forms_window": "October - November 2026"
+    }
+  },
+  "curriculum_specialties": {
+    "mizo_language_and_culture": "Mizo language (Latin script) standardized by MBSE and Mizo Academy of Letters",
+    "tlawmngaihna_code_of_ethics": "Tlawmngaihna is the core traditional Mizo ethical code of selflessness, hospitality, chivalry, courage and community solidarity",
+    "cultural_heritage_integration": [
+      "Chapchar Küt, Mim Küt, and Pawl Küt festivals",
+      "Traditional Zawlbuk (youth dormitory) educational ethos",
+      "Village administration under Mizo Chiefs and modern Village Councils",
+      "Mizoram Statehood and Peace Accord (1986)"
+    ],
+    "state_heritage": [
+      "Chapchar Küt Celebrations", "Zawlbuk Customary System",
+      "Tlawmngaihna Ethical Foundations", "Aizawl & Lunglei Historic Settlements"
+    ],
+    "state_freedom_fighters": [
+      "Ropuiliani (Heroic Mizo chieftainess who resisted British colonization)",
+      "Pasaltha Khuangchera (Legendary Mizo warrior and martyr)",
+      "Zatuaha and Vanhnuailiana (Pioneer traditional Mizo leaders)"
+    ]
+  },
+  "language_script_registry": [
+    {
+      "language_id": "lus",
+      "name": "Mizo",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Mizo MIL", "Mizo Literature"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Compulsory English", "Alternative English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Hindi Second Language", "Hindi MIL"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["Bengali MIL Option"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ne",
+      "name": "Nepali",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Nepali MIL Option"],
+      "permitted_medium": true
+    }
+  ]
+}
