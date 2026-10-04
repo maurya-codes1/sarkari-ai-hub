@@ -1,0 +1,10 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+ssc-chsl-t1-english-language,SSC CHSL Tier-1 English Language (अंग्रेजी भाषा - बुनियादी ज्ञान),TIER_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t1-general-awareness,SSC CHSL Tier-1 General Awareness (सामान्य जागरूकता),TIER_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t1-general-intelligence,SSC CHSL Tier-1 General Intelligence (सामान्य बुद्धिमत्ता एवं तर्कशक्ति),TIER_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t1-quantitative-aptitude,SSC CHSL Tier-1 Quantitative Aptitude (संख्यात्मक अभियोग्यता - बुनियादी अंकगणित),TIER_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t2-computer-knowledge,SSC CHSL Tier-2 Computer Knowledge Module (कंप्यूटर ज्ञान मॉड्यूल),TIER_2_SESSION_1_COMPUTER,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t2-english,SSC CHSL Tier-2 English Language and Comprehension (अंग्रेजी भाषा एवं बोधगम्यता),TIER_2_SESSION_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t2-general-awareness,SSC CHSL Tier-2 General Awareness (सामान्य जागरूकता),TIER_2_SESSION_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t2-mathematical-abilities,SSC CHSL Tier-2 Mathematical Abilities (गणितीय क्षमताएं),TIER_2_SESSION_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-chsl-t2-reasoning,SSC CHSL Tier-2 Reasoning and General Intelligence (तर्कशक्ति एवं सामान्य बुद्धिमत्ता),TIER_2_SESSION_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%

@@ -1,0 +1,173 @@
+{
+  "exam_id": "ssc-chsl",
+  "name": "Staff Selection Commission - Combined Higher Secondary (10+2) Level Examination",
+  "short_name": "SSC CHSL",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-central-ssc",
+    "name": "Staff Selection Commission, Government of India",
+    "short_name": "SSC",
+    "headquarters": "Block No. 12, CGO Complex, Lodhi Road, New Delhi 110003",
+    "official_website": "https://ssc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ssc-chsl-portal",
+      "name": "Staff Selection Commission Official Examination Portal",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ssc-chsl-notice-2026",
+      "name": "Notice of Combined Higher Secondary (10+2) Level Examination 2026",
+      "url": "https://ssc.gov.in/portal/notices",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-ssc-chsl-pyq-corpus",
+      "name": "Official Staff Selection Commission Historical Question Papers Corpus (2020-2025)",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "tier_1": {
+      "mode": "Computer Based Examination (CBT)",
+      "nature": "Qualifying / Screening",
+      "total_questions": 100,
+      "total_marks": 200,
+      "duration_minutes": 60,
+      "negative_marking": 0.50,
+      "sections": [
+        {
+          "section_id": "ssc-chsl-t1-english-language",
+          "name": "English Language (Basic Knowledge)",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "section_id": "ssc-chsl-t1-general-intelligence",
+          "name": "General Intelligence",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "section_id": "ssc-chsl-t1-quantitative-aptitude",
+          "name": "Quantitative Aptitude (Basic Arithmetic Skills)",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "section_id": "ssc-chsl-t1-general-awareness",
+          "name": "General Awareness",
+          "questions": 25,
+          "marks": 50
+        }
+      ]
+    },
+    "tier_2": {
+      "mode": "Computer Based Examination (CBT) + Skill/Typing Test",
+      "nature": "Merit Determining & Qualifying",
+      "sessions": [
+        {
+          "session_name": "Session-I",
+          "duration_minutes": 135,
+          "sections": [
+            {
+              "section_number": "Section-I",
+              "duration_minutes": 60,
+              "negative_marking": 1.00,
+              "modules": [
+                {
+                  "module_id": "ssc-chsl-t2-mathematical-abilities",
+                  "name": "Module-I: Mathematical Abilities",
+                  "questions": 30,
+                  "marks": 90
+                },
+                {
+                  "module_id": "ssc-chsl-t2-reasoning",
+                  "name": "Module-II: Reasoning and General Intelligence",
+                  "questions": 30,
+                  "marks": 90
+                }
+              ]
+            },
+            {
+              "section_number": "Section-II",
+              "duration_minutes": 60,
+              "negative_marking": 1.00,
+              "modules": [
+                {
+                  "module_id": "ssc-chsl-t2-english",
+                  "name": "Module-I: English Language and Comprehension",
+                  "questions": 40,
+                  "marks": 120
+                },
+                {
+                  "module_id": "ssc-chsl-t2-general-awareness",
+                  "name": "Module-II: General Awareness",
+                  "questions": 20,
+                  "marks": 60
+                }
+              ]
+            },
+            {
+              "section_number": "Section-III",
+              "duration_minutes": 15,
+              "negative_marking": 1.00,
+              "nature": "Qualifying",
+              "modules": [
+                {
+                  "module_id": "ssc-chsl-t2-computer-knowledge",
+                  "name": "Module-I: Computer Knowledge Module",
+                  "questions": 15,
+                  "marks": 45
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "session_name": "Session-II",
+          "nature": "Qualifying",
+          "modules": [
+            {
+              "module_id": "ssc-chsl-t2-skill-typing",
+              "name": "Skill Test / Typing Test Module",
+              "details": "Part A: Skill Test for DEO (8,000 Key Depressions per hour); Part B: Typing Test for LDC/JSA (35 w.p.m. English / 30 w.p.m. Hindi)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Lower Division Clerk (LDC) / Junior Secretariat Assistant (JSA)",
+      "pay_level": "Pay Level-2 (₹19,900 - ₹63,200)",
+      "classification": "Group C"
+    },
+    {
+      "post_name": "Data Entry Operator (DEO)",
+      "pay_level": "Pay Level-4 (₹25,500 - ₹81,100) and Level-5 (₹29,200 - ₹92,300)",
+      "classification": "Group C"
+    },
+    {
+      "post_name": "Data Entry Operator, Grade 'A'",
+      "pay_level": "Pay Level-4 (₹25,500 - ₹81,100)",
+      "classification": "Group C"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India / Subject of Nepal / Bhutan",
+    "age_limit": "18 to 27 years (Age relaxations: OBC 3 yrs, SC/ST 5 yrs, PwBD 10 yrs, ESM 3 yrs after service)",
+    "educational_qualification": "Must have passed 12th Standard or equivalent examination from a recognized Board or University. (For DEO Grade A in CAG/MoC: 12th in Science stream with Mathematics)."
+  },
+  "metadata": {
+    "current_version_id": "ver-ssc-chsl-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}

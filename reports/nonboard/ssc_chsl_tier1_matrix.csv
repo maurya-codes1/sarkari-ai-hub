@@ -1,0 +1,5 @@
+Section_ID,Section_Name,Questions,Marks_Per_Q,Total_Marks,Negative_Marking,Language_Support
+ssc-chsl-t1-english-language,English Language (Basic Knowledge),300,2.0,600,0.5,Bilingual (en+hi)
+ssc-chsl-t1-general-intelligence,General Intelligence,300,2.0,600,0.5,Bilingual (en+hi)
+ssc-chsl-t1-quantitative-aptitude,Quantitative Aptitude (Basic Arithmetic Skills),300,2.0,600,0.5,Bilingual (en+hi)
+ssc-chsl-t1-general-awareness,General Awareness,300,2.0,600,0.5,Bilingual (en+hi)
