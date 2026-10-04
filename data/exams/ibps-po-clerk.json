@@ -1,0 +1,142 @@
+{
+  "exam_id": "ibps-po-clerk",
+  "name": "IBPS & SBI Banking (Probationary Officer & Clerk) Recruitment Examination",
+  "short_name": "IBPS & SBI Banking",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-institute-of-banking-personnel-selection",
+    "name": "Institute of Banking Personnel Selection (IBPS) & State Bank of India (SBI)",
+    "short_name": "IBPS & SBI",
+    "headquarters": "IBPS House, 90 Feet D.P. Road, Kandivali (East), Mumbai 400101",
+    "official_website": "https://www.ibps.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ibps-banking-portal",
+      "name": "IBPS Official Recruitment Web Portal",
+      "url": "https://www.ibps.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ibps-po-crp-notice-2026",
+      "name": "IBPS CRP PO/MT & Clerical Cadre Official Recruitment Notification 2026",
+      "url": "https://www.ibps.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-sbi-po-clerk-notice-2026",
+      "name": "SBI Probationary Officer & Junior Associates Official Notification 2026",
+      "url": "https://sbi.co.in/careers",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "banking_prelims": {
+      "stage_name": "Preliminary Examination (IBPS/SBI PO & Clerk)",
+      "duration_minutes": 60,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sectional_timing_minutes": 20,
+      "sections": [
+        { "name": "English Language", "questions": 30, "marks": 30, "time_mins": 20 },
+        { "name": "Quantitative Aptitude", "questions": 35, "marks": 35, "time_mins": 20 },
+        { "name": "Reasoning Ability", "questions": 35, "marks": 35, "time_mins": 20 }
+      ]
+    },
+    "banking_mains": {
+      "stage_name": "Main Examination (IBPS/SBI PO & Clerk)",
+      "duration_minutes": 180,
+      "total_questions": 155,
+      "total_marks": 200,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "Reasoning & Computer Aptitude", "questions": 45, "marks": 60, "time_mins": 60 },
+        { "name": "General / Economy / Banking Awareness", "questions": 40, "marks": 40, "time_mins": 35 },
+        { "name": "English Language", "questions": 35, "marks": 40, "time_mins": 40 },
+        { "name": "Data Analysis & Interpretation", "questions": 35, "marks": 60, "time_mins": 45 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "ibps-banking-quantitative-aptitude",
+        "name": "Banking Quantitative Aptitude & Data Interpretation",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Number Series (Missing & Wrong Number)",
+          "Simplification & Approximation",
+          "Quadratic Equations Comparison",
+          "Data Interpretation (Tables, Bar Graphs, Pie Charts, Radar, Line)",
+          "Caselet DI & Arithmetic-Based DI",
+          "Data Sufficiency",
+          "Percentages, Profit & Loss, Discount",
+          "Simple & Compound Interest (Installments)",
+          "Time & Work, Pipes & Cisterns",
+          "Time, Speed, Distance, Boats & Streams",
+          "Ratio & Proportion, Partnership, Mixtures & Alligations",
+          "Permutations, Combinations & Probability"
+        ]
+      },
+      {
+        "subject_id": "ibps-banking-reasoning-ability",
+        "name": "Banking Reasoning Ability & Puzzles",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Seating Arrangements (Linear, Circular, Square, Triangular)",
+          "Floor Puzzles, Box Puzzles, Day/Month/Year Scheduling",
+          "Syllogisms (Only a few, Some not, Possibility cases)",
+          "Inequalities (Direct & Coded)",
+          "Coding-Decoding (Chinese, Matrix & New Pattern)",
+          "Blood Relations & Direction Sense",
+          "Machine Input-Output",
+          "Order & Ranking",
+          "Critical Reasoning (Statements & Assumptions, Course of Action, Cause & Effect)"
+        ]
+      },
+      {
+        "subject_id": "ibps-banking-english-language",
+        "name": "Banking English Language & Verbal Ability",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Reading Comprehension (Financial, Economic, Editorial themes)",
+          "Cloze Test",
+          "Spotting Errors & Phrase Replacement",
+          "Para Jumbles & Sentence Rearrangement",
+          "Double Fillers & Single Fillers",
+          "Word Swap & Word Rearrangement",
+          "Sentence Connectors & Starters",
+          "Idiomatic Expressions & High-Frequency Banking Vocabulary"
+        ]
+      },
+      {
+        "subject_id": "ibps-banking-general-financial-awareness",
+        "name": "Banking, Financial Awareness & Current Economy",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Reserve Bank of India (RBI) Structure, Functions & Subsidiary Bodies",
+          "RBI Monetary Policy Tools (Repo, Reverse Repo, SDF, MSF, CRR, SLR)",
+          "Indian Banking Architecture (PSBs, Private Banks, Small Finance Banks, Payments Banks)",
+          "Priority Sector Lending (PSL) & Financial Inclusion Schemes",
+          "National Payments Corporation of India (NPCI) Platforms (UPI, RuPay, IMPS, NACH, AePS)",
+          "Non-Performing Assets (NPAs), SARFAESI Act, IBC Code & PCA Framework",
+          "Negotiable Instruments Act, 1881 (Cheques, Promissory Notes, Bills of Exchange)",
+          "Basel III Capital Accord Norms",
+          "Union Budget, Economic Survey & Financial News (Last 6 Months)",
+          "Important Financial Institutions (NABARD, SIDBI, EXIM, SEBI, IRDAI, PFRDA)"
+        ]
+      }
+    ]
+  }
+}

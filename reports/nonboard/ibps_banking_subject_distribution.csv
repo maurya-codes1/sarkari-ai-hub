@@ -1,0 +1,5 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+ibps-banking-english-language,Banking English Language & Verbal Ability (बैंकिंग अंग्रेजी भाषा एवं व्याकरण),BANKING_CBT,300,75,75,75,75,25.0% Perfect
+ibps-banking-general-financial-awareness,"Banking, Financial Awareness & Current Economy (बैंकिंग, वित्तीय जागरूकता एवं अर्थव्यवस्था)",BANKING_CBT,300,75,75,75,75,25.0% Perfect
+ibps-banking-quantitative-aptitude,Banking Quantitative Aptitude & Data Interpretation (बैंकिंग संख्यात्मक अभियोग्यता एवं डीआई),BANKING_CBT,300,75,75,75,75,25.0% Perfect
+ibps-banking-reasoning-ability,Banking Reasoning Ability & Puzzles (बैंकिंग तर्कशक्ति एवं पहेलियाँ),BANKING_CBT,300,75,75,75,75,25.0% Perfect

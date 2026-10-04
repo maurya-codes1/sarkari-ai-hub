@@ -1,0 +1,18 @@
+Metric,Count_Value,Status,Notes
+Total_Database_Questions,286220,EXPANDED,Post-IBPS Banking total in database
+Board_Preserved_Questions,261520,PRESERVED_100%,All 31 school boards strictly intact
+SSC_CGL_Questions,2800,PRESERVED_100%,Exam #1 untouched
+SSC_CHSL_Questions,2700,PRESERVED_100%,Exam #2 untouched
+SSC_MTS_Questions,1200,PRESERVED_100%,Exam #3 untouched
+SSC_GD_Questions,1500,PRESERVED_100%,Exam #4 untouched
+RRB_NTPC_Questions,1800,PRESERVED_100%,Exam #5 untouched
+RRB_ALP_Questions,1800,PRESERVED_100%,Exam #6 untouched
+RRB_Group_D_Questions,1200,PRESERVED_100%,Exam #7 untouched
+RRB_Technician_Questions,1800,PRESERVED_100%,Exam #8 untouched
+UPSC_CSE_Questions,2400,PRESERVED_100%,Exam #9 untouched
+UPSC_NDA_Questions,1800,PRESERVED_100%,Exam #10 untouched
+Army_Agniveer_Questions,1800,PRESERVED_100%,Exam #11 untouched
+IAF_Agniveer_Questions,1500,PRESERVED_100%,Exam #12 untouched
+Navy_Agniveer_Questions,1200,PRESERVED_100%,Exam #13 untouched
+IBPS_Banking_Questions,1200,INTEGRATED_NEW,Exam #14 fresh official bank
+IBPS_Banking_Master_Notes,5,DEPLOYED_NEW,5 comprehensive multi-stage notes
