@@ -1,0 +1,184 @@
+{
+  "exam_id": "upsc-cse",
+  "name": "Union Public Service Commission - Civil Services Examination (IAS, IPS, IFS, IRS)",
+  "short_name": "UPSC CSE",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-union-public-service-commission-upsc",
+    "name": "Union Public Service Commission (UPSC)",
+    "short_name": "UPSC",
+    "headquarters": "Dholpur House, Shahjahan Road, New Delhi 110069",
+    "official_website": "https://upsc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-upsc-cse-portal",
+      "name": "Union Public Service Commission Official Application and Examination Portal",
+      "url": "https://upsc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-upsc-cse-notice-2026",
+      "name": "Union Public Service Commission Civil Services Examination Notice 2026",
+      "url": "https://upsc.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-upsc-cse-pyq-corpus",
+      "name": "UPSC Civil Services Preliminary Historical Examination Question Papers Corpus (2014-2025)",
+      "url": "https://upsc.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "prelims_gs_paper_1": {
+      "paper_title": "Civil Services Preliminary Examination - Paper I (General Studies)",
+      "mode": "Offline OMR Based Objective Test",
+      "duration_minutes": 120,
+      "total_questions": 100,
+      "total_marks": 200,
+      "marks_per_question": 2.0,
+      "negative_marking": 0.667,
+      "merit_status": "Counting for Prelims Cut-Off Ranking & Shortlisting for CSE Mains",
+      "sections": [
+        {
+          "name": "Indian Polity & Governance",
+          "questions": 18,
+          "marks": 36
+        },
+        {
+          "name": "Economy & Social Development",
+          "questions": 16,
+          "marks": 32
+        },
+        {
+          "name": "History of India & Indian National Movement",
+          "questions": 16,
+          "marks": 32
+        },
+        {
+          "name": "Indian & World Geography",
+          "questions": 16,
+          "marks": 32
+        },
+        {
+          "name": "Environment, Ecology, Biodiversity & Climate Change",
+          "questions": 18,
+          "marks": 36
+        },
+        {
+          "name": "General Science & Science and Technology",
+          "questions": 16,
+          "marks": 32
+        }
+      ]
+    },
+    "prelims_csat_paper_2": {
+      "paper_title": "Civil Services Preliminary Examination - Paper II (CSAT Aptitude Test)",
+      "mode": "Offline OMR Based Objective Test",
+      "duration_minutes": 120,
+      "total_questions": 80,
+      "total_marks": 200,
+      "marks_per_question": 2.5,
+      "negative_marking": 0.833,
+      "merit_status": "Qualifying Paper (Minimum 33% / 66.0 Marks Mandatory)",
+      "sections": [
+        {
+          "name": "Reading Comprehension & Critical Reasoning",
+          "questions": 30,
+          "marks": 75
+        },
+        {
+          "name": "Basic Numeracy, Math & Logical Reasoning",
+          "questions": 50,
+          "marks": 125
+        }
+      ]
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": "upsc-cse-gs1-polity",
+      "name": "UPSC CSE GS-1 Indian Polity, Constitution & Governance",
+      "short_name": "CSE Polity",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.667
+    },
+    {
+      "subject_id": "upsc-cse-gs1-economy",
+      "name": "UPSC CSE GS-1 Indian Economy & Sustainable Development",
+      "short_name": "CSE Economy",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.667
+    },
+    {
+      "subject_id": "upsc-cse-gs1-history-culture",
+      "name": "UPSC CSE GS-1 Indian History, National Movement & Art & Culture",
+      "short_name": "CSE History",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.667
+    },
+    {
+      "subject_id": "upsc-cse-gs1-geography",
+      "name": "UPSC CSE GS-1 Indian & World Geography & Agriculture",
+      "short_name": "CSE Geography",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.667
+    },
+    {
+      "subject_id": "upsc-cse-gs1-environment-ecology",
+      "name": "UPSC CSE GS-1 Environment, Ecology & Climate Change",
+      "short_name": "CSE Environment",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.667
+    },
+    {
+      "subject_id": "upsc-cse-gs1-science-tech",
+      "name": "UPSC CSE GS-1 Science & Technology and Everyday Science",
+      "short_name": "CSE Sci & Tech",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.0,
+      "negative_marking": 0.667
+    },
+    {
+      "subject_id": "upsc-cse-csat-comprehension",
+      "name": "UPSC CSE CSAT Reading Comprehension & Decision Making",
+      "short_name": "CSAT Comprehension",
+      "paper": "Paper-II",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.5,
+      "negative_marking": 0.833
+    },
+    {
+      "subject_id": "upsc-cse-csat-quant-reasoning",
+      "name": "UPSC CSE CSAT Basic Numeracy, Math & Analytical Reasoning",
+      "short_name": "CSAT Quant & Reasoning",
+      "paper": "Paper-II",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.5,
+      "negative_marking": 0.833
+    }
+  ],
+  "marking_scheme": {
+    "correct_gs1": 2.0,
+    "incorrect_penalty_gs1": -0.667,
+    "correct_csat": 2.5,
+    "incorrect_penalty_csat": -0.833,
+    "unattempted": 0.0,
+    "csat_qualifying_percentage": 33.33
+  },
+  "total_questions_in_bank": 2400,
+  "master_revision_bundles": 5
+}

@@ -1,0 +1,9 @@
+Paper,Subject_ID,Subject_Name,Real_Exam_Questions,Bank_Questions,Marks_Per_Q,Negative_Marking,Curriculum_Standard
+Paper-I (GS),upsc-cse-gs1-polity,"Indian Polity, Constitution & Governance",18,300,2.0,-0.667 (1/3rd),"Constitutional Articles, DPSP, Parliament, Judiciary & Federalism"
+Paper-I (GS),upsc-cse-gs1-economy,Indian Economy & Sustainable Development,16,300,2.0,-0.667 (1/3rd),"Macroeconomics, Monetary Policy, Fiscal Deficits, Agriculture & Trade"
+Paper-I (GS),upsc-cse-gs1-history-culture,"History of India, National Movement & Culture",16,300,2.0,-0.667 (1/3rd),"Ancient, Medieval, Modern Freedom Struggle & Art & Architecture"
+Paper-I (GS),upsc-cse-gs1-geography,Indian & World Geography & Agriculture,16,300,2.0,-0.667 (1/3rd),"Geomorphology, Climatology, Drainage Basins & Resource Distribution"
+Paper-I (GS),upsc-cse-gs1-environment-ecology,"Environment, Ecology & Climate Change",18,300,2.0,-0.667 (1/3rd),"Biodiversity Hotspots, Protected Areas, Climate Treaties & Acts"
+Paper-I (GS),upsc-cse-gs1-science-tech,Science & Technology and Everyday Science,16,300,2.0,-0.667 (1/3rd),"Space (ISRO), Defense, Biotechnology (CRISPR), AI & Semiconductors"
+Paper-II (CSAT),upsc-cse-csat-comprehension,CSAT Reading Comprehension & Decision Making,30,300,2.5,-0.833 (1/3rd),"Philosophical, Policy & Socio-Economic Passages with Logical Inferences"
+Paper-II (CSAT),upsc-cse-csat-quant-reasoning,CSAT Basic Numeracy & Logical Reasoning,50,300,2.5,-0.833 (1/3rd),"Number Systems, P&C, Probability, Syllogisms & Seating Arrangements"

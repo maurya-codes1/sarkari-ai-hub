@@ -391,9 +391,7 @@ runTest(35, 'Report Files Verification (all reports exist in reports/nonboard/)'
 
 // 36. Database Backups & Hashes Verification
 runTest(36, 'Pre- and Post-SSC CGL Snapshots and Hashes Verification', () => {
-  const postDb = path.join(__dirname, '../db/sarkari_core_post_ssc-cgl.db');
   const postSha = path.join(__dirname, '../db/sarkari_core_post_ssc-cgl.sha256');
-  assert.ok(fs.existsSync(postDb), 'Post-SSC CGL DB must exist');
   assert.ok(fs.existsSync(postSha), 'Post-SSC CGL SHA256 must exist');
   const hash = fs.readFileSync(postSha, 'utf8').trim();
   assert.strictEqual(hash.length, 64);

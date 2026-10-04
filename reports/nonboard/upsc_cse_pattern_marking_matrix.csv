@@ -1,0 +1,10 @@
+Metric,Paper-I (General Studies),Paper-II (CSAT Aptitude)
+Exam Nature,Merit Ranking Paper (Decides Prelims Cut-Off),Qualifying Paper (Mandatory 33% / 66.0 Marks)
+Exam Mode,Offline OMR Objective MCQs,Offline OMR Objective MCQs
+Duration,120 Minutes (9:30 AM to 11:30 AM),120 Minutes (2:30 PM to 4:30 PM)
+Total Real Exam Questions,100 Questions,80 Questions
+Total Real Exam Marks,200 Marks,200 Marks
+Marks Per Correct Answer,+2.0 Marks,+2.5 Marks
+Negative Marking Penalty,-0.667 Marks (1/3rd of 2.0),-0.833 Marks (1/3rd of 2.5)
+Total Questions Ingested,"1,800 Questions (6 Subjects x 300 Qs)",600 Questions (2 Subjects x 300 Qs)
+Option Distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D)","Exact 25.0% (75 A, 75 B, 75 C, 75 D)"

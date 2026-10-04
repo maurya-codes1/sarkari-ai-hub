@@ -1,0 +1,9 @@
+Subject_ID,Subject_Name,Paper_Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+upsc-cse-csat-comprehension,UPSC CSE CSAT Reading Comprehension & Critical Reasoning (बोधगम्यता एवं तार्किक निर्णय),Prelims - CSAT Paper 2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-csat-quant-reasoning,"UPSC CSE CSAT Basic Numeracy, Math & Analytical Reasoning (संख्यात्मक अभियोग्यता एवं तर्कशक्ति)",Prelims - CSAT Paper 2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-gs1-economy,UPSC CSE GS-1 Indian Economy & Sustainable Development (भारतीय अर्थव्यवस्था एवं विकास),Prelims - GS Paper 1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-gs1-environment-ecology,"UPSC CSE GS-1 Environment, Ecology & Biodiversity (पर्यावरण, पारिस्थितिकी एवं जैव विविधता)",Prelims - GS Paper 1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-gs1-geography,UPSC CSE GS-1 Indian & World Geography & Agriculture (भारत एवं विश्व का भूगोल),Prelims - GS Paper 1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-gs1-history-culture,"UPSC CSE GS-1 History of India, National Movement & Art & Culture (भारतीय इतिहास एवं कला-संस्कृति)",Prelims - GS Paper 1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-gs1-polity,"UPSC CSE GS-1 Indian Polity, Constitution & Governance (भारतीय राजव्यवस्था एवं संविधान)",Prelims - GS Paper 1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+upsc-cse-gs1-science-tech,UPSC CSE GS-1 Science & Technology and Applied Innovations (विज्ञान एवं प्रौद्योगिकी),Prelims - GS Paper 1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
