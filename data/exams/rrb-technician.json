@@ -1,0 +1,132 @@
+{
+  "exam_id": "rrb-technician",
+  "name": "Railway Recruitment Boards - Technician Grade I Signal & Technician Grade III Examination",
+  "short_name": "RRB Technician",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-railway-recruitment-boards-rrb",
+    "name": "Railway Recruitment Control Board / Railway Recruitment Boards (RRBs), Ministry of Railways",
+    "short_name": "RRB",
+    "headquarters": "Rail Bhavan, Raisina Road, New Delhi 110001",
+    "official_website": "https://www.rrbapply.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-rrb-technician-portal",
+      "name": "Railway Recruitment Boards Centralized Application Portal (RRB Apply)",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-rrb-technician-notice-2026",
+      "name": "Centralised Employment Notice (CEN) for Technician Grade I Signal & Grade III Posts 2026",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-rrb-technician-pyq-corpus",
+      "name": "Official Railway Recruitment Boards Historical Technician Question Papers Corpus (2018-2025)",
+      "url": "https://indianrailways.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "technician_grade_1_signal": {
+      "post_level": "Pay Level 5 (₹29,200 initial basic pay)",
+      "mode": "Computer Based Test (CBT - Online)",
+      "duration_minutes": 90,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.333,
+      "sections": [
+        {
+          "name": "General Awareness",
+          "questions": 10,
+          "marks": 10
+        },
+        {
+          "name": "General Intelligence and Reasoning",
+          "questions": 15,
+          "marks": 15
+        },
+        {
+          "name": "Basics of Computers and Applications",
+          "questions": 20,
+          "marks": 20
+        },
+        {
+          "name": "Mathematics",
+          "questions": 20,
+          "marks": 20
+        },
+        {
+          "name": "Basic Science and Engineering (Physics, Electronics & Signal)",
+          "questions": 35,
+          "marks": 35
+        }
+      ]
+    },
+    "technician_grade_3": {
+      "post_level": "Pay Level 2 (₹19,900 initial basic pay)",
+      "mode": "Computer Based Test (CBT - Online)",
+      "duration_minutes": 90,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.333,
+      "sections": [
+        {
+          "name": "Mathematics",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "General Intelligence and Reasoning",
+          "questions": 25,
+          "marks": 25
+        },
+        {
+          "name": "General Science (Physics, Chemistry, Life Sciences 10th CBSE/NCERT)",
+          "questions": 40,
+          "marks": 40
+        },
+        {
+          "name": "General Awareness on Current Affairs",
+          "questions": 10,
+          "marks": 10
+        }
+      ]
+    },
+    "subsequent_stages": {
+      "document_verification": "Document Verification in 1:1 ratio based on CBT merit",
+      "medical_examination": "Strict Medical Fitness Examination (A-3 for Grade I Signal; B-1 / B-2 for Grade III Trades)"
+    }
+  },
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Technician Grade I Signal",
+      "department": "Signal & Telecommunication (S&T)",
+      "pay_level": "Level 5 (₹29,200 initial pay)",
+      "medical_standard": "B-1"
+    },
+    {
+      "post_name": "Technician Grade III (Electrical, Mechanical, S&T, Track Machine, Welder, Fitter)",
+      "department": "Electrical / Mechanical / Engineering / S&T",
+      "pay_level": "Level 2 (₹19,900 initial pay)",
+      "medical_standard": "B-1 / B-2"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India",
+    "age_limit": "Grade I Signal: 18 to 36 years; Grade III: 18 to 33 years (Age relaxation: OBC +3 years, SC/ST +5 years)",
+    "educational_qualification": "Grade I Signal: Bachelor of Science in Physics / Electronics / Computer Science / IT / Instrumentation OR 3-year Diploma in Engineering. Grade III: Matriculation (10th pass) plus ITI in specified trade OR 10+2 with Physics and Mathematics (for S&T)."
+  },
+  "metadata": {
+    "current_version_id": "ver-rrb-technician-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}

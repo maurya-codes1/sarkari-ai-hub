@@ -1,0 +1,7 @@
+Subject_ID,Subject_Name,Grade_Cadre,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+rrb-tech-basic-science-engineering,RRB Technician Basic Science & Engineering (मूल विज्ञान एवं इंजीनियरिंग - 35 प्रश्न भार Grade I Signal),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-tech-computers-applications,RRB Technician Basics of Computers & Applications (कंप्यूटर एवं अनुप्रयोग - 20 प्रश्न भार Grade I Signal),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-tech-general-awareness,RRB Technician General Awareness on Current Affairs (समसामयिकी सामान्य जागरूकता - 10 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-tech-general-science,RRB Technician General Science (सामान्य विज्ञान - 40 प्रश्न भार Grade III),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-tech-mathematics,RRB Technician Mathematics (तकनीशियन गणित - 20/25 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-tech-reasoning,RRB Technician General Intelligence & Reasoning (सामान्य तर्कशक्ति - 15/25 प्रश्न भार),CBT_SINGLE_STAGE,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
