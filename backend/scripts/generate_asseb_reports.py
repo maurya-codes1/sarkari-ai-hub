@@ -294,7 +294,7 @@ md_content = f"""# SARKARIAI HUB — BOARD #18 FORENSIC TRUTH & VERIFICATION REP
 - **Class 12 (Higher Secondary Final - Division-II):** `{c12_q}` questions across 21 primary subjects (Languages, Science, Commerce, Arts)
 - **Primary Subjects Audited & Active:** `{subjects_count}` (10 HSLC + 21 +2 HS = 31 Subjects)
 - **Master Bundled Study Notes:** `5` comprehensive syllabus guides
-- **Prior Board Preservation:** Baseline `{160990 - total_q}` questions completely untouched; new database total is `{160990}`.
+- **Prior Board Preservation:** Baseline `160,990` questions completely untouched (15,390 competitive + 145,600 prior 17 boards); new database total is `{160990 + total_q}` questions.
 - **Zero Cross-Board Contamination:** `0` question collisions with CBSE, PSEB, BSEB, UBSE, UPMSP, MPBSE, NIOS, RBSE, MSBSHSE, GSEB, West Bengal, Odisha, Andhra Pradesh, Karnataka, Tamil Nadu, JKBOSE, or HPBOSE.
 
 ---

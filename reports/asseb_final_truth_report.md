@@ -23,7 +23,7 @@
 - **Class 12 (Higher Secondary Final - Division-II):** `5880` questions across 21 primary subjects (Languages, Science, Commerce, Arts)
 - **Primary Subjects Audited & Active:** `31` (10 HSLC + 21 +2 HS = 31 Subjects)
 - **Master Bundled Study Notes:** `5` comprehensive syllabus guides
-- **Prior Board Preservation:** Baseline `152310` questions completely untouched; new database total is `160990`.
+- **Prior Board Preservation:** Baseline `160,990` questions completely untouched (15,390 competitive + 145,600 prior 17 boards); new database total is `169670` questions.
 - **Zero Cross-Board Contamination:** `0` question collisions with CBSE, PSEB, BSEB, UBSE, UPMSP, MPBSE, NIOS, RBSE, MSBSHSE, GSEB, West Bengal, Odisha, Andhra Pradesh, Karnataka, Tamil Nadu, JKBOSE, or HPBOSE.
 
 ---
