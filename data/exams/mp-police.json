@@ -1,0 +1,133 @@
+{
+  "exam_id": "mp-police",
+  "name": "Madhya Pradesh Police Constable & Sub-Inspector Examination (मध्यप्रदेश पुलिस आरक्षक एवं उप निरीक्षक भर्ती परीक्षा)",
+  "short_name": "MP Police",
+  "exam_category": "police_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-madhya-pradesh-employees-selection-board",
+    "name": "Madhya Pradesh Employees Selection Board (MPESB), Bhopal (मध्यप्रदेश कर्मचारी चयन मण्डल)",
+    "short_name": "MPESB Bhopal",
+    "headquarters": "Chayan Bhawan, Main Road No. 1, Chinar Park (East), Bhopal, Madhya Pradesh 462011",
+    "official_website": "https://esb.mp.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-mpesb-portal",
+      "name": "MPESB Official Portal (esb.mp.gov.in)",
+      "url": "https://esb.mp.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-mppolice-portal",
+      "name": "Madhya Pradesh Police Official Headquarters Portal",
+      "url": "https://mppolice.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-mp-police-constable-rulebook-2026",
+      "name": "MPESB Police Constable (GD / Radio) Recruitment Rule Book Notification 2026",
+      "url": "https://esb.mp.gov.in/rulebooks/police_constable_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-mp-police-si-rulebook-2026",
+      "name": "MP Police Sub-Inspector (SI / Platoon Commander) Recruitment Rule Book 2026",
+      "url": "https://esb.mp.gov.in/rulebooks/police_si_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "constable_cbt_exam": {
+      "stage_name": "Online Computer Based Written Test (CBT - 100 Objective Questions)",
+      "duration_minutes": 120,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Part 1: General Knowledge & Logical Reasoning (सामान्य ज्ञान एवं तार्किक ज्ञान)", "questions": 40, "marks": 40 },
+        { "name": "Part 2: Intellectual Ability & Mental Aptitude (बौद्धिक क्षमता एवं मानसिक अभिरुचि)", "questions": 30, "marks": 30 },
+        { "name": "Part 3: Science & Simple Arithmetic (विज्ञान एवं सरल अंकगणित)", "questions": 30, "marks": 30 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "mp-police-general-knowledge",
+        "name": "General Knowledge, MP Special GK & Current Affairs (सामान्य ज्ञान, मध्यप्रदेश सामान्य ज्ञान एवं समसामयिकी)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Geography & Demography of Madhya Pradesh: Districts, Rivers (Narmada, Tapti, Chambal, Betwa, Son, Ken), Plateaus (Malwa, Bundelkhand, Baghelkhand, Rewa-Panna, Satpura), Soils & Minerals (Diamond in Panna, Copper in Malanjkhand)",
+          "History & Freedom Movement in MP: Chandrashekhar Azad (Bhabhra), Rani Laxmibai, Tantya Bhil, Bheema Nayak, Holkars, Scindias, Paramaras (Raja Bhoj), Chandela Dynasty (Khajuraho temples)",
+          "Art, Culture & Tribal Heritage of MP: Gond, Bhil, Baiga, Sahariya, Korku, Bharia tribes, Bhagoria Haat, Pithora painting, Fairs (Simhastha Kumbh Ujjain, Tansen Samaroh Gwalior)",
+          "National Parks & Wildlife Sanctuaries: Kanha Tiger Reserve, Bandhavgarh, Panna, Pench, Kuno National Park (Cheetah reintroduction), Madhav, Van Vihar",
+          "Indian Constitution & Polity: Preamble, Fundamental Rights, Directive Principles, Parliament, MP Vidhan Sabha (230 seats), Panchayati Raj (73rd Amendment, MP 1st implementation)",
+          "MP Police Administration: Motto ('Desh Bhakti, Jan Seva'), Structure, Director General of Police (DGP), Special Armed Force (SAF), Hawk Force (Anti-Naxal), Cyber Crime, Dial 100/112",
+          "National & MP Current Affairs, Government Welfare Schemes (Ladli Behna Yojana, Sambal Yojana), Sports (MP Shikhar Khel Awards, Malkhamb as State Sport)"
+        ]
+      },
+      {
+        "subject_id": "mp-police-reasoning-mental-aptitude",
+        "name": "Reasoning Ability, Mental Aptitude & Intellectual Ability (तार्किक ज्ञान, बौद्धिक क्षमता एवं मानसिक अभिरुचि)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Analogies & Semantic Classification (Word, Letter, Number)",
+          "Coding-Decoding: Letter shifting, Symbol replacement, Matrix and Numerical coding",
+          "Number Series, Alphabet Series & Missing Character in Figures",
+          "Blood Relations: Coded blood relations, Family tree deductions",
+          "Direction and Distance Sense: Angles, Pythagoras theorem based turns, Shadow problems",
+          "Order & Ranking, Seating Arrangement (Linear and Circular)",
+          "Logical Venn Diagrams, Syllogisms (Statements and Conclusions)",
+          "Mathematical Operations, Symbol substitution & Inequality relations",
+          "Non-Verbal Reasoning: Mirror images, Water images, Paper folding, Paper cutting, Embedded figures, Pattern completion",
+          "Mental Aptitude & Police Judgment: Law and order attitude, Public relations, Communal harmony, Rule of law, Basic professional ethics"
+        ]
+      },
+      {
+        "subject_id": "mp-police-simple-arithmetic",
+        "name": "Simple Arithmetic & Quantitative Aptitude (सरल अंकगणित एवं संख्यात्मक योग्यता)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number System: Divisibility rules, Prime numbers, Unit digit calculation, Remainders, Square roots & Cube roots",
+          "LCM and HCF: Applications in bells, runners and fraction LCM/HCF",
+          "Simplification: BODMAS rule, Fractions, Decimals, Surds & Indices",
+          "Percentages & Applications: Price increase/decrease, Population growth, Voting problems",
+          "Ratio & Proportion: Proportions, Direct & Inverse variation, Ages, Partnership",
+          "Averages: Weighted average, Batsman/bowler averages, Replacement problems",
+          "Profit, Loss & Discount: Cost price, Selling price, Marked price, Successive discounts, Dishonest shopkeeper",
+          "Simple & Compound Interest: Annual, Half-yearly compounding, Difference between CI and SI for 2 & 3 years",
+          "Time and Work: Men-days formula, Efficiency, Pipes and Cisterns",
+          "Time, Speed and Distance: Train crossings, Relative speed, River boat and stream problems, Average speed",
+          "Mensuration 2D & 3D: Area and perimeter of rectangle, square, triangle, circle; Surface area and volume of cylinder, cone, cube, sphere"
+        ]
+      },
+      {
+        "subject_id": "mp-police-general-science",
+        "name": "General Science - Physics, Chemistry & Life Sciences (सामान्य विज्ञान - भौतिकी, रसायन एवं जीव विज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Physics - Mechanics & Motion: Newton's laws of motion, Gravitation, Work, Energy, Power, Kinetic and Potential energy, Friction",
+          "Physics - Light & Optics: Reflection, Refraction, Concave/Convex mirrors and lenses, Human eye defects (Myopia, Hypermetropia), Dispersion of light",
+          "Physics - Electricity, Magnetism & Heat: Ohm's law, Resistance in series and parallel, Electric power, Heat transfer (Conduction, Convection, Radiation), Latent heat",
+          "Chemistry - Matter & Structure of Atom: States of matter, Sub-atomic particles (Proton, Neutron, Electron), Atomic number, Mass number, Isotopes",
+          "Chemistry - Chemical Reactions & Periodic Classification: Types of reactions, Acids, Bases and Salts, pH scale, Metals and Non-metals, Modern Periodic Table",
+          "Chemistry - Everyday Chemistry: Common salts (NaCl, NaHCO3, Na2CO3, Bleaching powder, Plaster of Paris), Hardness of water, Polymers, Alloys",
+          "Biology - Cell & Tissues: Plant cell vs Animal cell, Cell organelles (Mitochondria, Chloroplast, Ribosome, Nucleus), Plant and animal tissues",
+          "Biology - Human Anatomy & Physiology: Digestive system, Circulatory system (Heart, Blood groups), Respiratory system, Nervous system, Excretory system (Kidney)",
+          "Biology - Health, Diseases & Nutrition: Vitamins, Carbohydrates, Proteins, Deficiency diseases, Viral and Bacterial diseases (Tuberculosis, Malaria, Dengue), Vaccines",
+          "Ecology & MP Biodiversity: Ecosystem, Food chain, Food web, Environmental conservation, MP State Animals (Barasingha / Swamp Deer), State Bird (Dudhraj / Paradise Flycatcher), State Tree (Banyan)"
+        ]
+      }
+    ]
+  }
+}

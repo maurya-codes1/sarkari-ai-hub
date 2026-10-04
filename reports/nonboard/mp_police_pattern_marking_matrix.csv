@@ -1,0 +1,11 @@
+Parameter,Official Specification,Portal Database Implementation
+Exam Name,MP Police Constable & Sub-Inspector Examination,MP Police Constable & Sub-Inspector Examination
+Exam ID / Version ID,mp-police,ver-mp-police-2026
+Conducting Authority,"Madhya Pradesh Employees Selection Board (MPESB), Bhopal",MPESB Bhopal
+Mode of Exam,Online Computer Based Test (CBT),CBT / Computer Practice Compatible
+Duration,120 Minutes (2.0 Hours),120 Minutes
+Total Questions,100 Questions,"100 Questions (Paper) / 1,200 Bank"
+Marks per Correct Answer,+1.0 Mark,+1.0 Mark
+Penalty per Incorrect Answer,0.0 Marks (No negative marking),0.0 Marks
+Bilingual Support,Hindi and English,Strict Dual Object JSON (en + hi)
+Option Key Balance,Balanced randomized distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D per subject)"
