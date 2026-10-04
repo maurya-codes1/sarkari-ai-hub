@@ -1,0 +1,9 @@
+Database_Metric,Pre_NTPC_Count,Post_NTPC_Count,Net_Addition,Integrity_Status
+Total Questions in Database,269720,271520,"+1,800",VERIFIED
+31 State/Central School Boards,261520,261520,0 (100% Preserved),VERIFIED
+Non-Board Exam #1 (SSC CGL),2800,2800,0 (100% Preserved),VERIFIED
+Non-Board Exam #2 (SSC CHSL),2700,2700,0 (100% Preserved),VERIFIED
+Non-Board Exam #3 (SSC MTS & Havaldar),1200,1200,0 (100% Preserved),VERIFIED
+Non-Board Exam #4 (SSC GD Constable),1500,1500,0 (100% Preserved),VERIFIED
+Non-Board Exam #5 (RRB NTPC),0,1800,"+1,800",CANONICAL
+RRB NTPC Master Bundled Notes,0,5,+5,ACTIVE

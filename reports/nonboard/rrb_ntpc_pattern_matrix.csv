@@ -1,0 +1,12 @@
+Metric,CBT-1 Specification,CBT-2 Specification
+Exam Mode,Computer Based Examination (Online),Computer Based Examination (Online)
+Total Questions,100 MCQs,120 MCQs
+Total Marks,100 Marks,120 Marks
+Duration,90 Minutes (120 Mins for PwBD),90 Minutes (120 Mins for PwBD)
+Negative Marking,1/3rd Mark (0.333) deducted per wrong answer,1/3rd Mark (0.333) deducted per wrong answer
+General Awareness Weight,40 Questions (40 Marks),50 Questions (50 Marks)
+Mathematics Weight,30 Questions (30 Marks),35 Questions (35 Marks)
+Reasoning Weight,30 Questions (30 Marks),35 Questions (35 Marks)
+Normalization Scheme,Percentile based normalization across multi-shift sessions,Percentile score within pay-level sessions
+Ingested Bank Size,900 Questions (300 per subject),900 Questions (300 per subject)
+Option Key Distribution,"Exact 25.0% (75 per key A, B, C, D per subject)","Exact 25.0% (75 per key A, B, C, D per subject)"

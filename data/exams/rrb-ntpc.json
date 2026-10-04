@@ -1,0 +1,142 @@
+{
+  "exam_id": "rrb-ntpc",
+  "name": "Railway Recruitment Boards - Non-Technical Popular Categories (Graduate & Under-Graduate) Examination",
+  "short_name": "RRB NTPC",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-railway-recruitment-boards-rrb",
+    "name": "Railway Recruitment Control Board / Railway Recruitment Boards (RRBs), Ministry of Railways",
+    "short_name": "RRB",
+    "headquarters": "Rail Bhavan, Raisina Road, New Delhi 110001",
+    "official_website": "https://www.rrbapply.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-rrb-ntpc-portal",
+      "name": "Railway Recruitment Boards Centralized Application Portal",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-rrb-ntpc-notice-2026",
+      "name": "Centralised Employment Notice (CEN) for NTPC Graduate & Under Graduate Posts 2026",
+      "url": "https://www.rrbapply.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-rrb-ntpc-pyq-corpus",
+      "name": "Official Railway Recruitment Boards NTPC Historical Question Papers Corpus (2019-2025)",
+      "url": "https://indianrailways.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "cbt_1": {
+      "mode": "Computer Based Test (CBT)",
+      "nature": "Screening / Common for Graduate and Under Graduate Posts",
+      "duration_minutes": 90,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.333,
+      "sections": [
+        {
+          "section_id": "rrb-ntpc-cbt1-general-awareness",
+          "name": "General Awareness",
+          "questions": 40,
+          "marks": 40
+        },
+        {
+          "section_id": "rrb-ntpc-cbt1-mathematics",
+          "name": "Mathematics",
+          "questions": 30,
+          "marks": 30
+        },
+        {
+          "section_id": "rrb-ntpc-cbt1-reasoning",
+          "name": "General Intelligence and Reasoning",
+          "questions": 30,
+          "marks": 30
+        }
+      ]
+    },
+    "cbt_2": {
+      "mode": "Computer Based Test (CBT)",
+      "nature": "Separate 2nd Stage CBT for each of the 7th CPC Level (Level 2, 3, 5, 6)",
+      "duration_minutes": 90,
+      "total_questions": 120,
+      "total_marks": 120,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.333,
+      "sections": [
+        {
+          "section_id": "rrb-ntpc-cbt2-general-awareness",
+          "name": "General Awareness",
+          "questions": 50,
+          "marks": 50
+        },
+        {
+          "section_id": "rrb-ntpc-cbt2-mathematics",
+          "name": "Mathematics",
+          "questions": 35,
+          "marks": 35
+        },
+        {
+          "section_id": "rrb-ntpc-cbt2-reasoning",
+          "name": "General Intelligence and Reasoning",
+          "questions": 35,
+          "marks": 35
+        }
+      ]
+    },
+    "subsequent_stages": {
+      "cbat": "Computer Based Aptitude Test (for Station Master & Traffic Assistant - qualifying, 70% CBT-2 + 30% CBAT merit)",
+      "tst": "Typing Skill Test (for Jr Accounts Assistant, Sr Clerk cum Typist, Jr Clerk cum Typist - qualifying, 30 wpm English / 25 wpm Hindi)",
+      "dv_medical": "Document Verification and Medical Examination as per Railway Medical Standards (A-2, A-3, B-2, C-2)"
+    }
+  },
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Station Master",
+      "pay_level": "Level 6 (₹35,400 initial pay)",
+      "minimum_qualification": "Graduate Degree"
+    },
+    {
+      "post_name": "Goods Train Manager (Goods Guard)",
+      "pay_level": "Level 5 (₹29,200 initial pay)",
+      "minimum_qualification": "Graduate Degree"
+    },
+    {
+      "post_name": "Senior Commercial cum Ticket Clerk",
+      "pay_level": "Level 5 (₹29,200 initial pay)",
+      "minimum_qualification": "Graduate Degree"
+    },
+    {
+      "post_name": "Commercial cum Ticket Clerk",
+      "pay_level": "Level 3 (₹21,700 initial pay)",
+      "minimum_qualification": "12th Standard (+2 Stage) with not less than 50% marks"
+    },
+    {
+      "post_name": "Accounts Clerk cum Typist / Junior Clerk cum Typist",
+      "pay_level": "Level 2 (₹19,900 initial pay)",
+      "minimum_qualification": "12th Standard (+2 Stage) with not less than 50% marks"
+    },
+    {
+      "post_name": "Trains Clerk",
+      "pay_level": "Level 2 (₹19,900 initial pay)",
+      "minimum_qualification": "12th Standard (+2 Stage) with not less than 50% marks"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India / Subject of Nepal / Bhutan",
+    "age_limit": "Under Graduate Posts: 18 to 33 years; Graduate Posts: 18 to 36 years (OBC +3 yrs, SC/ST +5 yrs relaxation)",
+    "educational_qualification": "Under Graduate posts require 12th (+2) with 50% marks; Graduate posts require Bachelor's Degree from a recognized University."
+  },
+  "metadata": {
+    "current_version_id": "ver-rrb-ntpc-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}

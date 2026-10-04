@@ -1,0 +1,7 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+rrb-ntpc-cbt1-general-awareness,RRB NTPC CBT-1 General Awareness (सामान्य जागरूकता - 40 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-ntpc-cbt1-mathematics,RRB NTPC CBT-1 Mathematics (गणित - 30 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-ntpc-cbt1-reasoning,RRB NTPC CBT-1 General Intelligence and Reasoning (तर्कशक्ति - 30 प्रश्न भार),CBT_STAGE_1,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-ntpc-cbt2-general-awareness,RRB NTPC CBT-2 Advanced General Awareness (उन्नत सामान्य जागरूकता - 50 प्रश्न भार),CBT_STAGE_2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-ntpc-cbt2-mathematics,RRB NTPC CBT-2 Advanced Mathematics (उन्नत गणित - 35 प्रश्न भार),CBT_STAGE_2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+rrb-ntpc-cbt2-reasoning,RRB NTPC CBT-2 Advanced Reasoning (उन्नत तर्कशक्ति एवं बुद्धिमत्ता - 35 प्रश्न भार),CBT_STAGE_2,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
