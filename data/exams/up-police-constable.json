@@ -1,0 +1,153 @@
+{
+  "exam_id": "up-police-constable",
+  "name": "UP Police Constable & Sub Inspector (SI) Recruitment Examination",
+  "short_name": "UP Police Constable",
+  "exam_category": "state_police",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-uttar-pradesh-police-recruitment-promoti",
+    "name": "Uttar Pradesh Police Recruitment and Promotion Board (UPPRPB)",
+    "short_name": "UPPRPB",
+    "headquarters": "Tulsi Ganga Complex, 19 C Vidhan Sabha Marg, Lucknow, Uttar Pradesh 226001",
+    "official_website": "https://uppbpb.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-upprpb-portal",
+      "name": "UPPRPB Official Recruitment Web Portal",
+      "url": "https://uppbpb.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-upprpb-constable-notice-2026",
+      "name": "UP Police Constable Direct Recruitment Official Notification & Syllabus 2026",
+      "url": "https://uppbpb.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-upprpb-si-notice-2026",
+      "name": "UP Police Sub-Inspector (SI Civil Police) Recruitment Notification 2026",
+      "url": "https://uppbpb.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "constable_written_exam": {
+      "stage_name": "Written Examination (OMR / CBT Objective Test)",
+      "duration_minutes": 120,
+      "total_questions": 150,
+      "total_marks": 300,
+      "marks_per_question": 2.0,
+      "negative_marking": 0.50,
+      "sections": [
+        { "name": "General Knowledge (सामान्य ज्ञान)", "questions": 38, "marks": 76 },
+        { "name": "General Hindi (सामान्य हिन्दी)", "questions": 37, "marks": 74 },
+        { "name": "Numerical & Mental Ability (संख्यात्मक एवं मानसिक योग्यता)", "questions": 38, "marks": 76 },
+        { "name": "Mental Aptitude, I.Q. & Reasoning Ability (मानसिक अभिरुचि, बुद्धिलब्धि एवं तार्किक क्षमता)", "questions": 37, "marks": 74 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "up-police-general-knowledge",
+        "name": "General Knowledge & UP Special GK (सामान्य ज्ञान एवं उत्तर प्रदेश सामान्य अध्ययन)",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.50,
+        "domains": [
+          "General Science (Physics, Chemistry, Biology & Everyday Science)",
+          "History of India & Indian National Freedom Movement",
+          "Indian Constitution & Polity (Preamble, Fundamental Rights, Parliament, Judiciary)",
+          "Indian Economy, Agriculture, Commerce and Trade",
+          "Population, Environment and Urbanisation in Indian & UP Context",
+          "Geography of India and World Geography, Natural Resources of India",
+          "Uttar Pradesh Specific Knowledge: History, Culture, Traditions, Folklore, Dialects & Festivals",
+          "Uttar Pradesh Revenue, Police Administration and District Governance Architecture",
+          "Human Rights, Internal Security, Counter-Terrorism & Police Reform Guidelines",
+          "India and Neighboring Countries Relations & Diplomatic Treaties",
+          "National and International Current Affairs, Summits & Sports",
+          "Demonetisation & Its Impact, Goods and Services Tax (GST) Architecture",
+          "Cyber Crime, Cyber Safety & Social Media Communication Security",
+          "Important National & International Days, Honors, Awards and Literature Prizes",
+          "Countries, Capitals, Currencies and International Organizations (UN, SAARC, ASEAN, G20)",
+          "Discoveries, Inventions, Scientific Books and Authors"
+        ]
+      },
+      {
+        "subject_id": "up-police-general-hindi",
+        "name": "General Hindi & Literature (सामान्य हिन्दी एवं हिन्दी साहित्य)",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.50,
+        "domains": [
+          "हिन्दी और अन्य भारतीय भाषाएं (Hindi and other Indian Languages & Dialects)",
+          "हिन्दी वर्णमाला, स्वर, व्यंजन, अल्पप्राण-महाप्राण, घोष-अघोष",
+          "तद्भव एवं तत्सम शब्द (Tadbhav and Tatsam Words)",
+          "पर्यायवाची एवं विलोम शब्द (Synonyms & Antonyms)",
+          "अनेकार्थक शब्द एवं वाक्यांशों के लिए एक शब्द (One-Word Substitutions)",
+          "समरूपी भिन्नार्थक शब्द (Homophones & Similar Sounding Words)",
+          "अशुद्ध वाक्यों को शुद्ध करना (Sentence Correction & Syntax Rules)",
+          "लिंग, वचन, कारक, सर्वनाम, विशेषण, क्रिया, काल, वाच्य, अव्यय",
+          "उपसर्ग, प्रत्यय, सन्धि (स्वर, व्यंजन, विसर्ग), समास (छह भेद)",
+          "विराम चिन्हों का प्रयोग, मुहावरे एवं लोकोक्तियां (Idioms & Proverbs)",
+          "रस (स्थायी भाव एवं भेद), छन्द (दोहा, चौपाई, सोरठा, रोला), अलंकार (शब्द एवं अर्थ)",
+          "अपठित गद्यांश बोध (Unseen Passage Comprehension)",
+          "प्रसिद्ध कवि, लेखक एवं उनकी कालजयी रचनाएं (Kabir, Tulsidas, Surdas, Premchand, Jaishankar Prasad, Nirala, Mahadevi Varma)",
+          "हिन्दी भाषा में प्रमुख पुरस्कार एवं सम्मान (साहित्य अकादमी, ज्ञानपीठ, व्यास सम्मान, सरस्वती सम्मान)"
+        ]
+      },
+      {
+        "subject_id": "up-police-numerical-mental-ability",
+        "name": "Numerical & Mental Ability (संख्यात्मक एवं मानसिक योग्यता)",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.50,
+        "domains": [
+          "Number System, Divisibility Rules & Remainder Theorem",
+          "Simplification & BODMAS Calculations",
+          "Decimals, Fractions, Recurring Decimals & Surds",
+          "Highest Common Factor (HCF) & Lowest Common Multiple (LCM)",
+          "Ratio & Proportion, Direct and Inverse Proportions",
+          "Percentage & Applications in Real Life",
+          "Profit, Loss & Successive Discount Calculations",
+          "Simple Interest & Compound Interest (Annual/Half-yearly compounding)",
+          "Partnership & Profit Sharing Ratios",
+          "Average, Weighted Average & Age Calculations",
+          "Time & Work, Work Efficiency, Wages & Pipes and Cisterns",
+          "Time, Speed & Distance, Relative Speed, Train Problems, Boats & Streams",
+          "Mensuration 2D (Triangles, Rectangles, Circles, Quadrilaterals)",
+          "Mensuration 3D (Cylinder, Cone, Sphere, Cube, Cuboid)",
+          "Data Analysis, Tabulation, Line Graphs and Bar Charts",
+          "Logical Interpretation of Data & Arithmetical Reasoning"
+        ]
+      },
+      {
+        "subject_id": "up-police-mental-aptitude-reasoning",
+        "name": "Mental Aptitude, IQ & Reasoning Ability (मानसिक अभिरुचि, बुद्धिलब्धि एवं तार्किक क्षमता)",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.50,
+        "domains": [
+          "Public Interest & Contemporary Public Order Situations (जनहित एवं लोक व्यवस्था)",
+          "Law and Order Maintenance & Crime Control Strategies (कानून एवं शांति व्यवस्था, अपराध नियंत्रण)",
+          "Communal Harmony & Cultural Sensitivity (सांप्रदायिक सौहार्द)",
+          "Rule of Law & Constitutionality in Policing (विधि का शासन)",
+          "Ability of Adaptability & Professional Integrity (अनुकूलन की क्षमता एवं व्यावसायिक निष्ठा)",
+          "Police System & Station House Governance in Uttar Pradesh (पुलिस प्रणाली एवं समकालीन मुद्दे)",
+          "Sensitivity towards Minorities, Underprivileged & Gender Justice (अल्पसंख्यकों, वंचितों एवं लैंगिक संवेदनशीलता)",
+          "Relationship & Analogy Tests (सादृश्यता परीक्षण - Verbal and Semantic)",
+          "Series Completion Tests (Number, Letter and Alpha-Numeric Series)",
+          "Coding-Decoding Techniques (Letter shift, Substitution, Matrix)",
+          "Direction and Distance Sense Tests",
+          "Blood Relations Tests (Coded & Direct Relationships)",
+          "Venn Diagrams, Syllogisms & Set Theory Diagrams",
+          "Order and Ranking, Sitting Arrangements & Time Sequence Tests",
+          "Mathematical Operations & Arithmetical Reasoning",
+          "Critical Thinking, Statement & Assumption, Statement & Argument, Statement & Conclusion",
+          "Non-Verbal Reasoning: Mirror Images, Water Images, Paper Folding, Embedded Figures"
+        ]
+      }
+    ]
+  }
+}

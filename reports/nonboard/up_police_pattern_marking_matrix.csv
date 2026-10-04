@@ -1,0 +1,10 @@
+Parameter,Official Specification,Portal Database Implementation
+Exam Name,UP Police Constable & Sub Inspector Recruitment,"UP Police Constable & Sub Inspector (SI) 60,244 Bharti"
+Exam ID / Version ID,up-police-constable,ver-up-police-constable-2026
+Mode of Exam,OMR-Based Objective Test / CBT,Computer-Based Test / Practice Engine Compatible
+Duration,120 Minutes (2 Hours),120 Minutes
+Total Questions,150 Questions,"150 Questions (Full Paper) / 1,200 Bank"
+Marks per Correct Answer,+2.0 Marks,+2.0 Marks
+Penalty per Incorrect Answer,-0.50 Marks (25% penalty),-0.50 Marks
+Bilingual Support,Hindi and English,Strict Dual Object JSON (en + hi)
+Option Key Balance,Balanced randomized distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D per subject)"
