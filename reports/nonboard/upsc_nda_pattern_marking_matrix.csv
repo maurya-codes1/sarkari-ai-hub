@@ -1,0 +1,11 @@
+Metric,Paper-I (Mathematics),Paper-II (General Ability Test)
+Paper Code,Code 01,Code 02
+Exam Nature,Compulsory Core Paper (Qualifying ~25% required),Compulsory Core Paper (Determines Written Merit)
+Exam Mode,Offline OMR Objective MCQs,Offline OMR Objective MCQs
+Duration,150 Minutes (2.5 Hours),150 Minutes (2.5 Hours)
+Total Real Exam Questions,120 Questions,150 Questions
+Total Real Exam Marks,300 Marks,600 Marks
+Marks Per Correct Answer,+2.5 Marks,+4.0 Marks
+Negative Marking Penalty,-0.833 Marks (1/3rd of 2.5),-1.333 Marks (1/3rd of 4.0)
+Total Questions Ingested,600 Questions (2 Subjects x 300 Qs),"1,200 Questions (4 Subjects x 300 Qs)"
+Option Distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D)","Exact 25.0% (75 A, 75 B, 75 C, 75 D)"

@@ -1,0 +1,145 @@
+{
+  "exam_id": "upsc-nda",
+  "name": "Union Public Service Commission - National Defence Academy & Naval Academy Examination",
+  "short_name": "UPSC NDA & NA",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-union-public-service-commission-upsc",
+    "name": "Union Public Service Commission (UPSC)",
+    "short_name": "UPSC",
+    "headquarters": "Dholpur House, Shahjahan Road, New Delhi 110069",
+    "official_website": "https://upsc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-upsc-nda-portal",
+      "name": "UPSC Official Examination Web Portal (UPSC Online)",
+      "url": "https://upsc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-upsc-nda-notice-2026",
+      "name": "Union Public Service Commission National Defence Academy & Naval Academy Examination Notice 2026",
+      "url": "https://upsc.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-upsc-nda-pyq-corpus",
+      "name": "UPSC NDA & NA Historical Examination Question Papers Corpus (2016-2025)",
+      "url": "https://upsc.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "paper_1_mathematics": {
+      "code": "01",
+      "paper_title": "Paper I - Mathematics",
+      "mode": "Offline OMR Based Objective Test",
+      "duration_minutes": 150,
+      "total_questions": 120,
+      "total_marks": 300,
+      "marks_per_question": 2.5,
+      "negative_marking": 0.833,
+      "curriculum_standard": "10+2 (Intermediate / CBSE Class 11 & 12) Advanced Mathematics"
+    },
+    "paper_2_gat": {
+      "code": "02",
+      "paper_title": "Paper II - General Ability Test (GAT)",
+      "mode": "Offline OMR Based Objective Test",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 600,
+      "marks_per_question": 4.0,
+      "negative_marking": 1.333,
+      "part_a": {
+        "title": "English",
+        "questions": 50,
+        "marks": 200
+      },
+      "part_b": {
+        "title": "General Knowledge",
+        "questions": 100,
+        "marks": 400,
+        "sections": [
+          { "section": "Physics", "approx_questions": 25, "marks": 100 },
+          { "section": "Chemistry", "approx_questions": 15, "marks": 60 },
+          { "section": "General Science (Biology)", "approx_questions": 10, "marks": 40 },
+          { "section": "History & Freedom Movement", "approx_questions": 20, "marks": 80 },
+          { "section": "Geography", "approx_questions": 20, "marks": 80 },
+          { "section": "Current Events & Defense", "approx_questions": 10, "marks": 40 }
+        ]
+      }
+    },
+    "stage_2_ssb_interview": {
+      "title": "Services Selection Board (SSB) Interview & Psychological Testing",
+      "marks": 900,
+      "duration_days": 5
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": "upsc-nda-maths-algebra-calculus",
+      "name": "UPSC NDA Mathematics (Algebra, Matrices, Calculus & Vectors)",
+      "short_name": "NDA Maths Alg-Calc",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.5,
+      "negative_marking": 0.833
+    },
+    {
+      "subject_id": "upsc-nda-maths-trig-stats",
+      "name": "UPSC NDA Mathematics (Trigonometry, Conics, 3D & Statistics-Probability)",
+      "short_name": "NDA Maths Trig-Stats",
+      "paper": "Paper-I",
+      "bank_target_questions": 300,
+      "marks_per_q": 2.5,
+      "negative_marking": 0.833
+    },
+    {
+      "subject_id": "upsc-nda-gat-english",
+      "name": "UPSC NDA GAT Part-A English (Grammar, Vocabulary & Comprehension)",
+      "short_name": "NDA GAT English",
+      "paper": "Paper-II",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.333
+    },
+    {
+      "subject_id": "upsc-nda-gat-physics",
+      "name": "UPSC NDA GAT Part-B Physics (Mechanics, Optics, Thermodynamics & Electricity)",
+      "short_name": "NDA GAT Physics",
+      "paper": "Paper-II",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.333
+    },
+    {
+      "subject_id": "upsc-nda-gat-chem-bio",
+      "name": "UPSC NDA GAT Part-B Chemistry & General Life Sciences",
+      "short_name": "NDA GAT Chem-Bio",
+      "paper": "Paper-II",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.333
+    },
+    {
+      "subject_id": "upsc-nda-gat-history-geo-ca",
+      "name": "UPSC NDA GAT Part-B History, Geography, Polity & Defense Current Affairs",
+      "short_name": "NDA GAT Hist-Geo-CA",
+      "paper": "Paper-II",
+      "bank_target_questions": 300,
+      "marks_per_q": 4.0,
+      "negative_marking": 1.333
+    }
+  ],
+  "marking_scheme": {
+    "correct_maths": 2.5,
+    "incorrect_penalty_maths": -0.833,
+    "correct_gat": 4.0,
+    "incorrect_penalty_gat": -1.333,
+    "unattempted": 0.0
+  },
+  "total_questions_in_bank": 1800,
+  "master_revision_bundles": 5
+}
