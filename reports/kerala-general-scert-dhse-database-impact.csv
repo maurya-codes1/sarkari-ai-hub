@@ -1,0 +1,10 @@
+metric,pre_mutation_baseline,post_mutation_value,kerala_delta,status
+Total Questions in DB,259550,268230,8680,VERIFIED_ACCURATE
+Kerala Questions,0,8680,8680,VERIFIED_ACCURATE
+Kerala Question Versions,0,8680,8680,VERIFIED_ACCURATE
+Kerala Registered Primary Subjects,0,31,31,VERIFIED_ACCURATE
+Kerala Class 10 Subjects,0,10,10,VERIFIED_ACCURATE
+Kerala Class 12 Subjects,0,21,21,VERIFIED_ACCURATE
+Kerala Master Bundled Notes,0,5,5,VERIFIED_ACCURATE
+Foreign Key Violations,0,0,0,PERFECT_ZERO_VIOLATIONS
+SQLite Integrity Check,ok,ok,ok,DATABASE_HEALTHY

@@ -1,0 +1,2 @@
+stage,exam_name,administering_body,exam_mode,dependency_rule,marks_structure,grading_criteria,terminal_status,scope_status
+Class 9,Standard IX Annual School Evaluation,Affiliated High Schools under SCERT Kerala Curriculum,SCHOOL_LEVEL_ANNUAL_EVALUATION,KERALA_CLASS9_TO_SSLC_DEPENDENCY,40/80 Theory + 10/20 CE per subject,9-Point Grading (Minimum D+ threshold),Internal Promotion to Class 10 (SSLC Registration Prerequisite),ACADEMIC_SUPPORT_ONLY

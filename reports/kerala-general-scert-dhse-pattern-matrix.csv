@@ -1,0 +1,10 @@
+stage,stream,subject_type,theory_te_marks,practical_pe_marks,ce_marks,total_marks,passing_threshold,cool_off_mins,exam_duration_hours
+Class 10 SSLC,General,"80-Mark Theory (Math, Social, English)",80,0,20,100,D+ Grade (30% in TE + 30% aggregate),15,2.5
+Class 10 SSLC,General,"40-Mark Theory (Mal 1, Mal 2, Hindi, Phy, Chem, Bio, IT)",40,0,10,50,D+ Grade (30% in TE + 30% aggregate),15,1.5
+Class 12 Plus Two,Science,"Lab Disciplines (Phy, Chem, Bio, CS, Geology)",60,40,20,120,D+ Grade (30% in TE + 30% overall),15,2
+Class 12 Plus Two,Science,Mathematics (Non-lab),80,0,20,100,D+ Grade (30% in TE + 30% overall),15,2.5
+Class 12 Plus Two,Commerce,"Lab Disciplines (Accountancy CAS, Computer Applications)",60,40,20,120,D+ Grade (30% in TE + 30% overall),15,2
+Class 12 Plus Two,Commerce,"Theory (Business Studies, Economics, Business Math)",80,0,20,100,D+ Grade (30% in TE + 30% overall),15,2.5
+Class 12 Plus Two,Humanities,"Lab Disciplines (Geography, Journalism)",60,40,20,120,D+ Grade (30% in TE + 30% overall),15,2
+Class 12 Plus Two,Humanities,"Theory (History, Pol Sci, Sociology, Psychology)",80,0,20,100,D+ Grade (30% in TE + 30% overall),15,2.5
+Class 12 Plus Two,Languages,"All Languages (Malayalam, English, Hindi, Arabic)",80,0,20,100,D+ Grade (30% in TE + 30% overall),15,2.5

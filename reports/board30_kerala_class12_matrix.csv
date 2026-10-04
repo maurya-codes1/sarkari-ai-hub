@@ -1,0 +1,22 @@
+subject_id,subject_name,stream,lang_code,script,total_questions,mcqs,subjectives,te_theory_marks,pe_practical_marks,ce_marks,total_marks,cool_off_mins,writing_time_mins
+kerala-c12-physics,Physics (ഭൗതികശാസ്ത്രം),Science,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-chemistry,Chemistry (രസതന്ത്രം),Science,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-mathematics,Mathematics (ഗണിതം),Science,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-biology,Biology (ജീവശാസ്ത്രം - Botany & Zoology),Science,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-computer-science,Computer Science (കംപ്യൂട്ടർ സയൻസ്),Science,en,Latin (U+0020-U+007E),280,205,75,60,40,20,120,15,120
+kerala-c12-geology,Geology (ഭൂഗർഭശാസ്ത്രം - Signature),Science,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-accountancy,Accountancy with Computerised Accounting (അക്കൗണ്ടൻസി),Commerce,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-business-studies,Business Studies (ബിസിനസ് സ്റ്റഡീസ്),Commerce,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-economics-commerce,Economics (സാമ്പത്തികശാസ്ത്രം),Commerce,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-computer-applications-commerce,Computer Applications (കംപ്യൂട്ടർ ആപ്ലിക്കേഷൻസ്),Commerce,en,Latin (U+0020-U+007E),280,205,75,60,40,20,120,15,120
+kerala-c12-business-mathematics,Business Mathematics & Statistics (ബിസിനസ് മാത്തമാറ്റിക്സ്),Commerce,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-history,History (ചരിത്രം - Kerala Renaissance),Humanities,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-political-science,Political Science (രാഷ്ട്രമീമാംസ),Humanities,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-geography,Geography (ഭൂമിശാസ്ത്രം - Regional),Humanities,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-sociology,Sociology (സോഷ്യോളജി - Marumakkathayam & Migration),Humanities,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-journalism,Journalism & Mass Communication (ജേർണലിസം - Signature),Humanities,en,Latin / Bilingual,280,205,75,60,40,20,120,15,120
+kerala-c12-psychology,Psychology (സൈക്കോളജി),Humanities,en,Latin / Bilingual,280,205,75,80,0,20,100,15,150
+kerala-c12-malayalam,Malayalam Literature (മലയാളം സാഹിത്യം),Languages,ml,Malayalam (U+0D00-U+0D7F),280,205,75,80,0,20,100,15,150
+kerala-c12-english,Compulsory English (Kerala Reader),Languages,en,Latin (U+0020-U+007E),280,205,75,80,0,20,100,15,150
+kerala-c12-hindi,Hindi Literature (हिन्दी साहित्य),Languages,hi,Devanagari (U+0900-U+097F),280,205,75,80,0,20,100,15,150
+kerala-c12-arabic,Classical Arabic (اللغة العربية - Malabar),Languages,ar,Perso-Arabic (U+0600-U+06FF),280,205,75,80,0,20,100,15,150

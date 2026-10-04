@@ -1,0 +1,5 @@
+lang_code,language_name,role,script,direction,associated_subjects,status
+ml,Malayalam,Official State Language of Kerala,Malayalam (U+0D00-U+0D7F),LTR,"kerala-sslc-malayalam-1, kerala-sslc-malayalam-2, kerala-c12-malayalam, and bilingual medium subjects",Statewide Compulsory & Classical Language
+en,English,Compulsory Language & Technical Medium,Latin (U+0020-U+007E),LTR,"kerala-sslc-english, kerala-c12-english, and statewide science/commerce subjects",Compulsory Part I Language & Universal Medium
+hi,Hindi,Compulsory Third Language & Literature Option,Devanagari (U+0900-U+097F),LTR,"kerala-sslc-hindi, kerala-c12-hindi",Statewide Compulsory at SSLC & Plus Two Elective
+ar,Arabic,Classical & Regional Literary Language,Perso-Arabic (U+0600-U+06FF),RTL,kerala-c12-arabic,Malabar Cultural Heritage & High Enrolment Elective

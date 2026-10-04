@@ -1,0 +1,5 @@
+stream_id,stream_name,subject_count,compulsory_subjects,elective_options,signature_disciplines,evaluation_framework
+science,DHSE Higher Secondary Science,6,"Physics, Chemistry, English","Mathematics, Biology (Botany & Zoology), Computer Science, Geology",Geology (Western Ghats Granulites & Coastal Mineral Placers),60 TE + 40 PE + 20 CE (D+ minimum pass)
+commerce,DHSE Higher Secondary Commerce,5,"Accountancy, Business Studies, English","Economics, Computer Applications, Business Mathematics & Statistics",Computerised Accounting with GNUKhata / Calc,60/80 TE + 40/0 PE + 20 CE (D+ minimum pass)
+humanities,DHSE Higher Secondary Humanities,6,"History, Political Science, English","Geography, Sociology, Journalism & Mass Communication, Psychology",Journalism (Swadeshabhimani / Gundert heritage) & Decentralisation Politics,60/80 TE + 40/0 PE + 20 CE (D+ minimum pass)
+languages,DHSE Higher Secondary Languages,4,Compulsory English (Part I),"Malayalam (Part II), Hindi (Part II), Arabic (Part II)",Classical Arabic (Malabar Zainuddin Makhdoom heritage) & Malayalam Triumvirate,80 TE + 20 CE (D+ minimum pass)

@@ -1,0 +1,11 @@
+subject_id,subject_name,category,lang_code,script,total_questions,mcqs,subjectives,theory_marks,ce_marks,total_marks,cool_off_mins,writing_time_mins
+kerala-sslc-malayalam-1,Malayalam Part 1 (മലയാളം ഭാഗം 1 - കേരള പാഠാവലി),First Language Part 1,ml,Malayalam (U+0D00-U+0D7F),280,205,75,40,10,50,15,90
+kerala-sslc-malayalam-2,Malayalam Part 2 (മലയാളം ഭാഗം 2 - അടിസ്ഥാന പാഠാവലി),First Language Part 2,ml,Malayalam (U+0D00-U+0D7F),280,205,75,40,10,50,15,90
+kerala-sslc-english,English (Second Language - Kerala Reader),Second Language,en,Latin (U+0020-U+007E),280,205,75,80,20,100,15,150
+kerala-sslc-hindi,Hindi (Third Language - केरल भारती),Third Language,hi,Devanagari (U+0900-U+097F),280,205,75,40,10,50,15,90
+kerala-sslc-mathematics,Mathematics (ഗണിതം - SCERT Kerala),Core Discipline,en,Latin / Malayalam Math,280,205,75,80,20,100,15,150
+kerala-sslc-physics,Physics (ഭൗതികശാസ്ത്രം),Core Science,en,Latin / Bilingual,280,205,75,40,10,50,15,90
+kerala-sslc-chemistry,Chemistry (രസതന്ത്രം),Core Science,en,Latin / Bilingual,280,205,75,40,10,50,15,90
+kerala-sslc-biology,Biology (ജീവശാസ്ത്രം),Core Science,en,Latin / Bilingual,280,205,75,40,10,50,15,90
+kerala-sslc-social-science,Social Science (സാമൂഹ്യശാസ്ത്രം),Core Social,en,Latin / Bilingual,280,205,75,80,20,100,15,150
+kerala-sslc-information-technology,Information Technology (വിവരസാങ്കേതികവിദ്യ - IT),Practical Core (FOSS),en,Latin / Bilingual,280,205,75,40,10,50,15,90

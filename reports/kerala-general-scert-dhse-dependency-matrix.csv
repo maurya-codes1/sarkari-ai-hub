@@ -1,0 +1,3 @@
+source_stage,target_stage,dependency_rule_name,prerequisite_mode,attendance_floor,stream_continuity,enforcement_status
+Class 9,Class 10 (SSLC),KERALA_CLASS9_TO_SSLC_DEPENDENCY,School-Level Annual Institutional Evaluation,75% minimum,Mandatory High School Coursework,STRICT_ENFORCEMENT
+Class 11 (Plus One),Class 12 (Plus Two),KERALA_PLUS_ONE_TO_PLUS_TWO_DEPENDENCY,Plus One Public Continuous Evaluation Exam,75% minimum across XI & XII,Mandatory Stream Continuity (Science/Com/Hum),STRICT_ENFORCEMENT

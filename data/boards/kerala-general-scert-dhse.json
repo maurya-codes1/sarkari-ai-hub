@@ -1,0 +1,231 @@
+{
+  "board_id": "kerala-general-scert-dhse",
+  "board_name": "Kerala General Education Department & SCERT / DHSE / Pareeksha Bhavan",
+  "short_name": "Kerala DGE / DHSE",
+  "official_abbreviation": "DHSE / KBPE",
+  "authority_id": "org-kl-gov-ged",
+  "authority_name": "General Education Department, Government of Kerala",
+  "state": "Kerala",
+  "headquarters": "Secretariat, Thiruvananthapuram, Kerala - 695001",
+  "statutory_act": "Kerala Education Act, 1958 (Act 6 of 1959) & Kerala Education Rules (KER)",
+  "established_year": 1958,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://education.kerala.gov.in/",
+  "official_result_url": "https://keralaresults.nic.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "kerala-general-scert-dhse",
+    "kerala-board",
+    "kerala-dhse",
+    "kerala-sslc",
+    "kerala-pareeksha-bhavan"
+  ],
+  "authorities": {
+    "administrative_department": {
+      "authority_id": "org-kl-gov-ged",
+      "name": "General Education Department, Government of Kerala",
+      "portal": "https://education.kerala.gov.in/"
+    },
+    "curriculum_body": {
+      "authority_id": "org-kl-scert",
+      "name": "State Council of Educational Research and Training (SCERT) Kerala",
+      "portal": "https://scert.kerala.gov.in/",
+      "headquarters": "Poojappura, Thiruvananthapuram - 695012"
+    },
+    "sslc_exam_body": {
+      "authority_id": "org-kl-pareeksha-bhavan",
+      "name": "Kerala Pareeksha Bhavan (Office of the Commissioner for Government Examinations)",
+      "portal": "https://pareekshabhavan.kerala.gov.in/",
+      "headquarters": "Poojappura, Thiruvananthapuram - 695012"
+    },
+    "higher_secondary_body": {
+      "authority_id": "org-kl-dhse",
+      "name": "Directorate of General Education - Higher Secondary Wing (DHSE Kerala)",
+      "portal": "https://dhsekerala.gov.in/",
+      "headquarters": "Housing Board Buildings, Santhi Nagar, Thiruvananthapuram - 695001"
+    },
+    "vocational_higher_secondary_body": {
+      "authority_id": "org-kl-vhse",
+      "name": "Vocational Higher Secondary Education Wing (VHSE Kerala)",
+      "portal": "https://vhse.kerala.gov.in/"
+    }
+  },
+  "exam_reading_time": {
+    "cool_off_time_minutes": 15,
+    "rule_description": "15 minutes mandatory Cool-off Time prior to exam writing to read questions and plan answers",
+    "exam_writing_duration_hours": 2.5
+  },
+  "curriculum_framework": {
+    "sslc_class_10": {
+      "examination_name": "Secondary School Leaving Certificate (SSLC) Examination",
+      "administering_body": "Kerala Pareeksha Bhavan",
+      "grading_system": "9-Point Grading Scale (A+ to E)",
+      "eligibility_for_higher_studies": "Grade D+ (30% marks or above) in each subject",
+      "cool_off_time_minutes": 15,
+      "compulsory_subjects": [
+        "kerala-sslc-malayalam-1",
+        "kerala-sslc-malayalam-2",
+        "kerala-sslc-english",
+        "kerala-sslc-hindi",
+        "kerala-sslc-mathematics",
+        "kerala-sslc-physics",
+        "kerala-sslc-chemistry",
+        "kerala-sslc-biology",
+        "kerala-sslc-social-science",
+        "kerala-sslc-information-technology"
+      ]
+    },
+    "higher_secondary_plus_two": {
+      "examination_name": "Higher Secondary Examination (Plus Two / Class XII)",
+      "administering_body": "Directorate of General Education - Higher Secondary Wing (DHSE)",
+      "grading_system": "Combined Continuous Evaluation (Plus One + Plus Two) with D+ passing threshold",
+      "cool_off_time_minutes": 15,
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Higher Secondary Science Stream",
+          "subjects": [
+            "kerala-c12-physics",
+            "kerala-c12-chemistry",
+            "kerala-c12-mathematics",
+            "kerala-c12-biology",
+            "kerala-c12-computer-science",
+            "kerala-c12-geology"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Higher Secondary Commerce Stream",
+          "subjects": [
+            "kerala-c12-accountancy",
+            "kerala-c12-business-studies",
+            "kerala-c12-economics-commerce",
+            "kerala-c12-computer-applications-commerce",
+            "kerala-c12-business-mathematics"
+          ]
+        },
+        {
+          "stream_id": "humanities",
+          "stream_name": "Higher Secondary Humanities Stream",
+          "subjects": [
+            "kerala-c12-history",
+            "kerala-c12-political-science",
+            "kerala-c12-geography",
+            "kerala-c12-sociology",
+            "kerala-c12-journalism",
+            "kerala-c12-psychology"
+          ]
+        },
+        {
+          "stream_id": "languages",
+          "stream_name": "Higher Secondary Languages Stream",
+          "subjects": [
+            "kerala-c12-malayalam",
+            "kerala-c12-english",
+            "kerala-c12-hindi",
+            "kerala-c12-arabic"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Annual Institutional Examination",
+      "terminal_public_exam": false,
+      "exam_mode": "SCHOOL_LEVEL_ANNUAL_EVALUATION",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "administering_body": "Affiliated Schools under SCERT Kerala Curriculum",
+      "dependency_rule": "KERALA_CLASS9_TO_SSLC_DEPENDENCY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary School Leaving Certificate (SSLC) Examination",
+      "terminal_public_exam": true,
+      "administering_body": "Kerala Pareeksha Bhavan",
+      "grading_system": "9-Point Absolute Grading",
+      "cool_off_time_minutes": 15
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "First Year Higher Secondary Examination (Plus One)",
+      "terminal_public_exam": false,
+      "exam_mode": "BOARD_ADMINISTERED_CONTINUOUS_EVALUATION",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "continuous_evaluation_weightage_percentage": 50,
+      "administering_body": "DHSE Kerala",
+      "dependency_rule": "KERALA_PLUS_ONE_TO_PLUS_TWO_DEPENDENCY"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Second Year Higher Secondary Examination (Plus Two)",
+      "terminal_public_exam": true,
+      "administering_body": "DHSE Kerala",
+      "grading_system": "Combined Score Grading Scale",
+      "cool_off_time_minutes": 15
+    }
+  },
+  "specialized_pathways": {
+    "vhse": {
+      "pathway_name": "Vocational Higher Secondary Education (VHSE)",
+      "target_group": "Skill and Technical Career Pathways under DGE Vocational Wing",
+      "curriculum_focus": "NSQF aligned Vocational subjects alongside General Education"
+    },
+    "say_exam": {
+      "pathway_name": "Save A Year (SAY) Examination",
+      "purpose": "Immediate supplementary examination for students needing to clear subjects for higher study eligibility"
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "general_education_dept": "https://education.kerala.gov.in/",
+    "scert_kerala": "https://scert.kerala.gov.in/",
+    "pareeksha_bhavan": "https://pareekshabhavan.kerala.gov.in/",
+    "dhse_portal": "https://dhsekerala.gov.in/",
+    "results_portal": "https://keralaresults.nic.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": [
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26"
+    ]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_kerala": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "KERALA_CLASS9_TO_SSLC_DEPENDENCY",
+    "class_11_to_12_dependency": "KERALA_PLUS_ONE_TO_PLUS_TWO_DEPENDENCY",
+    "class_11_to_12_attendance_requirement_percent": 75
+  },
+  "registration_rules": {
+    "sslc_class_10": {
+      "mode": "SAMPURNA_PORTAL_REGISTRATION",
+      "portal": "https://pareekshabhavan.kerala.gov.in/",
+      "class_9_pass_prerequisite": true,
+      "min_attendance": 75
+    },
+    "plus_two_class_12": {
+      "mode": "HSCAP_PORTAL_REGISTRATION",
+      "portal": "https://dhsekerala.gov.in/",
+      "plus_one_pass_prerequisite": true,
+      "stream_continuity": true,
+      "min_attendance": 75
+    }
+  }
+}
