@@ -1,0 +1,123 @@
+{
+  "exam_id": "bihar-police-constable",
+  "name": "Bihar Police Constable (CSBC 21,391 Posts) & Sub-Inspector (Daroga)",
+  "short_name": "Bihar Police Constable",
+  "exam_category": "state_police",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-central-selection-board-of-constable-csb",
+    "name": "Central Selection Board of Constable (CSBC) & BPSSC, Patna",
+    "short_name": "CSBC & BPSSC",
+    "headquarters": "Harding Road, Near Secretariat Sports Ground, Patna, Bihar 800001",
+    "official_website": "https://csbc.bih.nic.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-csbc-bihar-portal",
+      "name": "CSBC Official Recruitment Web Portal",
+      "url": "https://csbc.bih.nic.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-csbc-constable-notice-2026",
+      "name": "Bihar Police Constable 21,391 Posts Official Notification & Syllabus 2026",
+      "url": "https://csbc.bih.nic.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-bpssc-daroga-notice-2026",
+      "name": "Bihar Police Sub-Inspector (Daroga) Recruitment Notification 2026",
+      "url": "https://bpssc.bih.nic.in",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "constable_written_exam": {
+      "stage_name": "Written Examination (OMR / CBT Objective Qualifying Test - 10th Standard)",
+      "duration_minutes": 120,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "General Studies & Bihar Special GK (सामान्य अध्ययन एवं बिहार सामान्य ज्ञान)", "questions": 35, "marks": 35 },
+        { "name": "General Science (सामान्य विज्ञान - भौतिकी, रसायन, जीव विज्ञान)", "questions": 30, "marks": 30 },
+        { "name": "Hindi Language & Literature (हिन्दी भाषा एवं साहित्य)", "questions": 15, "marks": 15 },
+        { "name": "English & Mathematics (अंग्रेजी भाषा एवं गणित)", "questions": 20, "marks": 20 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "bihar-police-general-knowledge-studies",
+        "name": "General Studies & Bihar Special GK (सामान्य अध्ययन एवं बिहार सामान्य ज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Ancient Bihar & Indian History: Magadha Empire, Maurya Dynasty (Chandragupta, Ashoka), Nalanda & Vikramshila Universities",
+          "Buddhism and Jainism in Bihar: Mahavira (Vaishali, Pavapuri), Gautama Buddha (Bodh Gaya enlightenment)",
+          "Medieval Bihar: Sher Shah Suri (Sasaram Tomb, Grand Trunk Road), Battle of Buxar 1764",
+          "Modern Freedom Movement in Bihar: Champaran Satyagraha 1917, Veer Kunwar Singh (1857 Revolt in Jagdishpur), Jayaprakash Narayan (Sampoorna Kranti)",
+          "Bihar Geography: 38 Districts, 9 Divisions, Ganga River system, Kosi (Sorrow of Bihar), Gandak, Son, Falgu rivers",
+          "Bihar Agriculture, Economy & Minerals: Rice, Maize, Makhana, Litchi (Shahi Litchi of Muzaffarpur), Pyrite in Rohtas",
+          "Bihar Wildlife & Sanctuaries: Valmiki National Park (West Champaran), Kanwar Lake Bird Sanctuary (Begusarai), Vikramshila Gangetic Dolphin Sanctuary (Bhagalpur)",
+          "Indian Constitution & Polity: Fundamental Rights, Preamble, Parliament, Bihar Vidhan Sabha (243 seats), Bihar Vidhan Parishad (75 seats), Lok Sabha (40 seats)",
+          "National & International Current Affairs, Awards & Sports"
+        ]
+      },
+      {
+        "subject_id": "bihar-police-general-science",
+        "name": "General Science (सामान्य विज्ञान - भौतिकी, रसायन, जीव विज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Physics: SI Units, Motion, Newton's Laws, Work, Energy & Power, Gravitation, Sound Waves, Light Reflection & Refraction, Electricity & Ohm's Law",
+          "Chemistry: Matter & States, Atomic Structure, Periodic Table Classification, Acids, Bases & Salts (pH scale), Metals & Non-metals, Carbon Compounds",
+          "Biology: Cell Structure & Functions (Organelles), Plant & Animal Tissues, Human Organ Systems (Digestive, Circulatory, Respiratory, Nervous, Excretory)",
+          "Nutrition & Health: Vitamins & Deficiency Diseases, Infectious Diseases (Bacterial, Viral), Vaccination & Immunology",
+          "Ecology & Environment: Ecosystems, Food Chains, Biodiversity Conservation, Environmental Pollution & Global Warming"
+        ]
+      },
+      {
+        "subject_id": "bihar-police-hindi-language",
+        "name": "Hindi Language & Literature (हिन्दी भाषा एवं साहित्य)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "हिन्दी वर्णमाला, स्वर, व्यंजन, उच्चारण स्थान (कण्ठ्य, तालव्य, मूर्धन्य, दन्त्य, ओष्ठ्य)",
+          "सन्धि (दीर्घ, गुण, वृद्धि, यण, अयादि, व्यंजन, विसर्ग)",
+          "समास (अव्ययीभाव, तत्पुरुष, कर्मधारय, द्विगु, द्वन्द्व, बहुव्रीहि)",
+          "तद्भव एवं तत्सम शब्द",
+          "पर्यायवाची शब्द एवं विलोम शब्द",
+          "अनेक शब्दों के लिए एक शब्द",
+          "मुहावरे एवं लोकोक्तियां",
+          "वाक्य शुद्धि, लिंग, वचन, कारक एवं काल",
+          "प्रमुख कवि, लेखक एवं रचनाएं (रामधारी सिंह 'दिनकर', फणीश्वर नाथ रेणु, विद्यापति, नागार्जुन)"
+        ]
+      },
+      {
+        "subject_id": "bihar-police-english-mathematics",
+        "name": "English & Mathematics (अंग्रेजी भाषा एवं संख्यात्मक योग्यता)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "English Grammar: Parts of Speech (Nouns, Pronouns, Verbs, Adjectives, Prepositions, Conjunctions)",
+          "Tenses & Subject-Verb Agreement",
+          "Vocabulary: Synonyms, Antonyms, Idioms & Phrases, Spelling Corrections",
+          "Sentence Improvement & Error Spotting",
+          "Mathematics: Number System, Divisibility Rules, LCM & HCF",
+          "Simplification & BODMAS, Decimals & Fractions",
+          "Percentages, Profit & Loss, Simple Interest & Compound Interest",
+          "Ratio & Proportion, Average & Age Problems",
+          "Time & Work, Speed, Distance & Trains",
+          "Mensuration 2D & 3D (Area of triangle, rectangle, circle; Volume of cylinder, sphere)"
+        ]
+      }
+    ]
+  }
+}

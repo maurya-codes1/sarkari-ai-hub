@@ -1,0 +1,10 @@
+Parameter,Official Specification,Portal Database Implementation
+Exam Name,"Bihar Police Constable (CSBC 21,391 Posts) & Sub-Inspector","Bihar Police Constable (CSBC 21,391 Posts) & Daroga"
+Exam ID / Version ID,bihar-police-constable,ver-bihar-police-constable-2026
+Mode of Exam,OMR-Based Objective Test / CBT,Computer-Based Test / Practice Engine Compatible
+Duration,120 Minutes (2 Hours),120 Minutes
+Total Questions,100 Questions,"100 Questions (Full Paper) / 1,200 Bank"
+Marks per Correct Answer,+1.0 Mark,+1.0 Mark
+Penalty per Incorrect Answer,0.0 (No penalty for Constable),0.0 (No Negative Penalty)
+Bilingual Support,Hindi and English,Strict Dual Object JSON (en + hi)
+Option Key Balance,Balanced randomized distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D per subject)"
