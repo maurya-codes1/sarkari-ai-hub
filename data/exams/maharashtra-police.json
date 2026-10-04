@@ -1,0 +1,130 @@
+{
+  "exam_id": "maharashtra-police",
+  "name": "Maharashtra Police Constable & Police Driver Examination (महाराष्ट्र पोलीस शिपाई व चालक भरती परीक्षा)",
+  "short_name": "Maharashtra Police Bharti",
+  "exam_category": "police_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-maharashtra-state-police-recruitment-boa",
+    "name": "Maharashtra State Police Recruitment Board (महाराष्ट्र राज्य पोलीस भरती मंडळ, मुंबई)",
+    "short_name": "Maharashtra Police Bharti",
+    "headquarters": "Maharashtra Police Headquarters, Old Council Hall, Shahid Bhagat Singh Marg, Colaba, Mumbai 400001",
+    "official_website": "https://policerecruitment2024.mahait.org"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-maharashtra-police-portal",
+      "name": "Maharashtra Police Official Headquarters Portal",
+      "url": "https://mahapolice.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-maharashtra-police-recruitment-2026",
+      "name": "Maharashtra Police Recruitment Portal (MahaIT)",
+      "url": "https://policerecruitment2024.mahait.org",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-maharashtra-police-constable-notice-2026",
+      "name": "Maharashtra Police Constable Recruitment Official Notification 2026",
+      "url": "https://mahapolice.gov.in/police_constable_bharti_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "written_examination": {
+      "stage_name": "Written Examination (100 Objective MCQs / 100 Marks)",
+      "duration_minutes": 90,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Part 1: Mathematics & Numerical Ability (अंकगणित)", "questions": 25, "marks": 25 },
+        { "name": "Part 2: Intellectual Test & Logical Reasoning (बुद्धिमत्ता चाचणी)", "questions": 25, "marks": 25 },
+        { "name": "Part 3: Marathi Grammar & Vocabulary (मराठी व्याकरण)", "questions": 25, "marks": 25 },
+        { "name": "Part 4: General Knowledge, Current Affairs & Maharashtra Special (सामान्य ज्ञान व चालू घडामोडी)", "questions": 25, "marks": 25 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "maharashtra-police-marathi-grammar",
+        "name": "Marathi Grammar, Vocabulary & Language Comprehension (मराठी व्याकरण, शब्दसंग्रह व आकलन)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Marathi Alphabet & Phonetics: वर्णविचार, स्वर (र्हस्व, दीर्घ, संयुक्त स्वर), स्वरादी, व्यंजने (स्पर्श, अर्धस्वर, उष्मे, महाप्राण, स्वतंत्र वर्ण 'ळ')",
+          "Sandhi & Types: संधी व प्रकार (स्वरसंधी, व्यंजनसंधी, विसर्गसंधी, मराठीतील विशेष संधी - पूर्वरूप व पररूप संधी)",
+          "Parts of Speech: नाम (नाम व नामांचे प्रकार: सामान्यनाम, विशेषनाम, भाववाचक नाम), सर्वनाम (६ प्रकार), विशेषण (गुण, संख्या, सार्वनामिक), क्रियापद (सकर्मक, अकर्मक, द्विकर्मक, संयुक्त क्रियापद, सहाय्यक क्रियापद)",
+          "Gender, Number & Case: लिंगविचार, वचनविचार, विभक्ती व विभक्ती प्रत्यय, सामान्यरूप (नामे व सर्वनामांचे सामान्यरूप)",
+          "Tenses & Moods: काळ व काळांचे प्रकार (वर्तमानकाळ, भूतकाळ, भविष्यकाळ - साधा, अपूर्ण, पूर्ण, रीती काळ), आख्यात विचार",
+          "Prayog & Samas: प्रयोग (कर्तरी, कर्मणी, भावे प्रयोग व त्यांचे उपप्रकार), समास (अव्ययीभाव, तत्पुरुष, द्वंद्व, बहुव्रीही समास)",
+          "Sentences & Transformation: वाक्यविचार, वाक्यांचे प्रकार (विधानार्थी, प्रश्नार्थी, उद्गारार्थी, होकारार्थी, नकारार्थी, केवल, मिश्र, संयुक्त वाक्य), वाक्यरूपांतर",
+          "Figures of Speech & Prosody: अलंकार (अनुप्रास, यमक, श्लेष, उपमा, उत्प्रेक्षा, रूपक, व्यतिरेक, दृष्टान्त, अर्थान्तरन्यास), वृत्तविचार",
+          "Vocabulary & Idioms: समानार्थी शब्द, विरुद्धार्थी शब्द, म्हणी व त्यांचे अर्थ, वाक्प्रचार व त्यांचे अर्थ, शब्दसमूहाबद्दल एक शब्द, जोडशब्द",
+          "Marathi Literature & Prominent Authors: प्रसिद्ध पुस्तके व लेखक/कवी, संत साहित्य (ज्ञानेश्वर, तुकाराम, एकनाथ, नामदेव), ज्ञानपीठ पुरस्कार विजेते साहित्यिक (वि. स. खांडेकर, कुसुमाग्रज, विंदा करंदीकर, भालचंद्र नेमाडे)"
+        ]
+      },
+      {
+        "subject_id": "maharashtra-police-mathematics",
+        "name": "Mathematics & Numerical Ability (अंकगणित व संख्यात्मक अभियोग्यता)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number System & Classification: संख्या व संख्यांचे प्रकार (नैसर्गिक, पूर्ण, पूर्णांक, सम, विषम, मूळ, संयुक्त, परिमेय, अपरिमेय संख्या), दर्शनी किंमत व स्थानिक किंमत",
+          "Divisibility & Simplification: कसोटी (२, ३, ४, ५, ६, ८, ९, ११ च्या कसोट्या), पदावली व BODMAS नियम, वर्ग, वर्गमूळ, घन व घनमूळ",
+          "LCM and HCF: मसावि (महत्तम साधारण विभाजक) व लसावि (लघुत्तम साधारण विभाज्य), अपूर्णांकांचा लसावि-मसावि, उपयोजित प्रश्न",
+          "Fractions & Decimals: व्यवहारी अपूर्णांक, दशांश अपूर्णांक, आवर्ती दशांश अपूर्णांक, अपूर्णांकांची बेरीज, वजाबाकी, गुणाकार व भागाकार",
+          "Average & Ages: सरासरी (संख्यांची सरासरी, क्रमवार संख्यांची सरासरी), वयावर आधारित गणिते (Age problems)",
+          "Ratio, Proportion & Partnership: गुणोत्तर व प्रमाण, चतुर्थ प्रमाणपद, चलन (समचलन, व्यस्तचलन), भागीदारी व नफा वाटणी",
+          "Percentage: टक्केवारी, वाढ व घट, शेकडा नफा-तोटा यातील परस्पर संबंध, परीक्षेशी संबंधित टक्केवारी",
+          "Profit, Loss & Discount: नफा व तोटा, खरेदी किंमत, विक्री किंमत, छापील किंमत, शेकडा नफा/तोटा, कमिशन व दलाली, सूट व बट्टा",
+          "Simple & Compound Interest: सरळव्याज (मुद्दल, दर, मुदत, रास), चक्रवाढव्याज, वार्षिक व अर्धवार्षिक चक्रवाढव्याज, व्याजदरातील फरक",
+          "Time, Work & Pipes: काळ आणि काम, कामगारांची संख्या व दिवस, मजुरी वाटणी, नळ आणि पाण्याची टाकी (Pipes and Cisterns)",
+          "Speed, Distance & Time: वेग, अंतर आणि वेळ, आगगाडी/रेल्वेवर आधारित उदाहरणे, नदीचा प्रवाह व नाव (Boats and Streams)",
+          "Mensuration & Geometry: भूमिती - परिमिती, क्षेत्रफळ (त्रिकोण, चौकोन, आयत, चौरस, वर्तुळ), घनफळ व पृष्ठफळ (इष्टिकाचिती, घन, वृत्तचिती/दंडगोल)"
+        ]
+      },
+      {
+        "subject_id": "maharashtra-police-reasoning",
+        "name": "Intellectual Test & Logical Reasoning (बुद्धिमत्ता चाचणी व तर्कक्षमता)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number Series & Letter Series: अंक मालिका, अक्षर मालिका, संख्या-अक्षर मिश्र मालिका, चुकीचे पद ओळखणे, गाळलेली पदे शोधणे",
+          "Analogy & Classification: समसंबंध (शब्द, संख्या, अक्षरे समसंबंध), वर्गीकरण / विसंगत घटक ओळखणे (Odd one out)",
+          "Coding & Decoding: सांकेतिक भाषा व लिपी (अक्षरांसाठी अक्षरे, अंकांचे संकेतीकरण, शब्द संकेतीकरण, मॅट्रिक्स कोड)",
+          "Direction & Distance Sense: दिशा ज्ञान चाचणी (मुख्य ४ दिशा, उपदिशा, पायथागोरस प्रमेयाचा वापर, काटकोनातील वळणे, सावलीचे प्रश्न)",
+          "Blood Relations: नातेसंबंध (कुटुंब वृक्ष, निर्देश करून बोललेली वाक्ये, सांकेतिक नातेसंबंध - A + B, A x B)",
+          "Clock & Calendar: घड्याळ (काटकोन, सरळकोन, तास काटा व मिनिट काट्यातील कोन, पुढे/मागे पडणारे घड्याळ), दिनदर्शिका (वार काढणे, लीप वर्ष, समान कॅलेंडर वर्ष)",
+          "Order, Ranking & Seating: रांगेतील स्थान (डावीकडून, उजवीकडून, एकूण व्यक्ती), तुलना (उंची, वजन, गुण), बैठक व्यवस्था (रेषीय व वर्तुळाकार)",
+          "Venn Diagrams & Syllogism: वेन आकृत्या, विधाने व निष्कर्ष (तर्कसंगती), विधाने व युक्तिवाद, विधाने व गृहीतके",
+          "Mathematical Operations: चिन्हांचे अदलाबदल (+, -, x, ÷), समीकरणांचे संतुलन, अंक आणि चिन्हांची तुलना",
+          "Visual & Spatial Reasoning: अशातील प्रतिमा (Mirror Image), पाण्यातील प्रतिबिंब (Water Image), कागदाची घडी व छिद्रे, लपलेली आकृती, आकृती पूर्ण करणे, ठोकळा (Dice & Cube)"
+        ]
+      },
+      {
+        "subject_id": "maharashtra-police-general-knowledge",
+        "name": "General Knowledge, Maharashtra History/Geography & Administration (सामान्य ज्ञान, चालू घडामोडी व महाराष्ट्र विशेष)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "History of Maharashtra & Maratha Empire: छत्रपती शिवाजी महाराज - जन्म (शिवनेरी), राज्याभिषेक (रायगड १६७४), अष्टप्रधान मंडळ, गनिमी कावा, किल्ले, छत्रपती संभाजी महाराज, पेशवेकाळ",
+          "Social Reformers of Maharashtra: महात्मा जोतीराव फुले (सत्यशोधक समाज, सत्यशोधक शाळा), क्रांतीज्योती सावित्रीबाई फुले, भारतरत्न डॉ. बाबासाहेब आंबेडकर (महाड सत्याग्रह, मूकनायक, संविधान निर्मिती), राजर्षी छत्रपती शाहू महाराज (आरक्षण, वेदोक्त प्रकरण), महर्षी धोंडो केशव कर्वे, लोकमान्य बाळ गंगाधर टिळक, गोपाळ गणेश आगरकर",
+          "Geography of Maharashtra: प्राकृतिक रचना (कोकण किनारपट्टी, सह्याद्री पर्वत / पश्चिम घाट, महाराष्ट्र पठार - दख्खनचे पठार), सर्वोच्च शिखर (कळसूबाई १६४६ मी), प्रमुख नद्या (गोदावरी, भीमा, कृष्णा, तापी, नर्मदा), जिल्हे व प्रशासकीय विभाग (६ महसूल विभाग, ३६ जिल्हे)",
+          "National Parks, Sanctuaries & Forts of Maharashtra: राष्ट्रीय उद्याने (ताडोबा, संजय गांधी, नवेगाव, पेंच, गुगामल, चांदोली), अभयारण्ये (कोयना, राधानगरी, माळढोक), युनेस्को जागतिक वारसा स्थळे (अजिंठा, वेरूळ, एलिफंटा, छत्रपती शिवाजी महाराज टर्मिनस, कास पठार), ऐतिहासिक किल्ले (रायगड, प्रतापगड, शिवनेरी, सिंहगड, सिंधुदुर्ग, जंजिरा)",
+          "Indian Constitution & Polity: राज्यघटना निर्मिती, उद्देशिका, मूलभूत हक्क, मूलभूत कर्तव्ये, मार्गदर्शक तत्त्वे, राष्ट्रपती, पंतप्रधान, संसद, राज्यपाल, मुख्यमंत्री, महाराष्ट्र विधानमंडळ (विधानसभा व विधानपरिषद), उच्च न्यायालय (मुंबई उच्च न्यायालय व खंडपीठे: नागपूर, औरंगाबाद, पणजी), महाराष्ट्रातील पंचायत राज (७३ वी व ७४ वी घटनादुरुस्ती - ग्रामपंचायत, पंचायत समिती, जिल्हा परिषद, वसंतराव नाईक समिती)",
+          "General Science & Everyday Technology: भौतिकशास्त्र (गतीचे नियम, प्रकाश, ध्वनी, विद्युतधारा), रसायनशास्त्र (अम्ल, आम्लारी, धातू व अधातू, रासायनिक सूत्रे), जीवशास्त्र (मानवी शरीर संस्था, रक्तगट, हृदय, मेंदू), जीवनसत्त्वे व अभावजन्य आजार, संसर्गजन्य व असंसर्गजन्य रोग, लसीकरण",
+          "Maharashtra Police Administration & Law: पोलीस महासंचालक (DGP), पोलीस आयुक्त (CP), विशेष पोलीस महानिरीक्षक (Range IG), पोलीस अधीक्षक (SP), पोलीस शिपाई संवर्ग, ब्रीदवाक्य ('सद्रक्षणाय खलनिग्रहणाय' - सज्जनांचे रक्षण व दुर्जनांचे निर्दालन), महाराष्ट्र पोलीस स्थापना दिन (२ जानेवारी १९६१ - पंडित नेहरूंनी ध्वज प्रदान केला), डायल ११२, मोटार वाहन कायदा (वाहतूक नियम, लायसन्स, दंड), सायबर सुरक्षा",
+          "Current Affairs, Sports & Maharashtra Govt Schemes: चालू घडामोडी (राष्ट्रीय व आंतरराष्ट्रीय), क्रीडा (ऑलिंपिक, क्रिकेट, राष्ट्रीय खेळ, शिवछत्रपती क्रीडा पुरस्कार, अर्जुन पुरस्कार), पुरस्कार (महाराष्ट्र भूषण, भारतरत्न, पद्म पुरस्कार), शासकीय योजना (मुख्यमंत्री लाडकी बहीण योजना, जलयुक्त शिवार, महात्मा फुले जन आरोग्य योजना)"
+        ]
+      }
+    ]
+  }
+}

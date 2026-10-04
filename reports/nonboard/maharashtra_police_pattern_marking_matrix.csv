@@ -1,0 +1,13 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Agency,Maharashtra State Police Recruitment Board (महाराष्ट्र राज्य पोलीस भरती मंडळ),org-maharashtra-state-police-recruitment-boa
+Official Exam Version ID,ver-maharashtra-police-2026,ver-maharashtra-police-2026
+Written Exam Mode,Offline OMR / Written Examination,Objective Single Choice MCQ
+Total Written Exam Duration,90 Minutes (1.5 Hours),90 Minutes Standard
+Total Question Count in Live Exam,100 Questions,100 Questions (25 per section)
+Total Marks in Live Exam,100 Marks,100 Marks (1.0 Mark per question)
+Marks for Correct Answer,+1.0 Mark,+1.0 Mark across all questions
+Penalty for Incorrect Answer,0.0 (No negative marking in Maharashtra Police),0.0 Penalty
+Medium of Exam,Marathi & English,Bilingual Dual JSON (en + hi/mr)
+Total Repository Question Bank,"1,200 Official Questions (4 Subjects x 300 Qs)","1,200 Questions Ingested"
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database
