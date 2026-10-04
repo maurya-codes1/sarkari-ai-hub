@@ -536,13 +536,15 @@ runTest(56, 'Master bundled study notes verification (exactly 5 comprehensive gu
 });
 
 // 57. Cumulative question count integrity
-runTest(57, 'Cumulative question count integrity (221,750 total questions in DB, 213,070 baseline accounted for)', () => {
+runTest(57, 'Cumulative question count integrity (at least 221,750 total questions in DB, 213,070 baseline accounted for)', () => {
   const total = db.prepare('SELECT COUNT(*) as cnt FROM questions').get().cnt;
-  assert.strictEqual(total, 221750, 'Grand total questions must be exactly 221,750 (213,070 + 8,680)');
+  assert.ok(total >= 221750, 'Grand total questions must be at least 221,750');
+  
+  const bosseQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
+  assert.strictEqual(bosseQuestions, 8680, 'BOSSE questions must remain exactly 8,680');
   
   const priorBoards = 197680;
   const compBaseline = 15390;
-  const bosseQuestions = 8680;
   assert.strictEqual(priorBoards + compBaseline + bosseQuestions, 221750, 'Exact baseline decomposition verified');
 });
 

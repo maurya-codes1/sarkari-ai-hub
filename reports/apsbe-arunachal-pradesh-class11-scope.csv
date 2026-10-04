@@ -1,0 +1,7 @@
+field,value,audit_notes
+stage,Class 11 (Senior Secondary First Year),Intermediate promotional senior secondary stage
+administering_body,School Level (under CBSE Higher Secondary Regulations),Evaluated internally by higher secondary schools
+terminal_public_exam,FALSE,Internal school promotional examination
+apsbe_board_exam,FALSE,APSBE statutory scope does not include higher secondary education
+scope_status,ACADEMIC_SUPPORT_ONLY,Internal academic progression only
+questions_ingested,0,Strict isolation: zero fake APSBE questions generated for Class 11

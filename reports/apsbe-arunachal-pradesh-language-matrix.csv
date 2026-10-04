@@ -1,0 +1,5 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+en,English,Latin,U+0020 - U+007E,Principal Medium of Instruction & State Examination Paper Language,YES,VERIFIED_PRIMARY_EXAM_MEDIUM
+hi,Hindi (हिन्दी),Devanagari,U+0900 - U+097F,Compulsory Language Subject & State Lingua Franca across all districts,YES,VERIFIED_COMPULSORY_LANGUAGE
+sa,Sanskrit (संस्कृतम्),Devanagari,U+0900 - U+097F,Third Language Classical Option in Upper Primary Stage,YES,VERIFIED_CLASSICAL_OPTION
+tribal_dialects,"Indigenous Tribal Dialects (Nyishi, Adi, Apatani, Monpa, Mishmi, Galo, etc.)",Oral / Community Scripts,N/A,Oral community languages; cultural lore incorporated into Heritage & Social Studies,NO_WRITTEN_BOARD_PAPER,VERIFIED_CULTURAL_PRESERVATION

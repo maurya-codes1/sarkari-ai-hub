@@ -1,0 +1,6 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,reading_time_mins,exam_duration_mins
+ar-c5-english,English (Class V - Marigold / APSBE),Language Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,150
+ar-c5-hindi,Hindi (Class V - Rimjhim / हिन्दी - APSBE),Language Core,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,150
+ar-c5-mathematics,Mathematics (Class V - Math-Magic / APSBE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,150
+ar-c5-evs,Environmental Studies (Class V - Looking Around / APSBE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,150
+ar-c5-arunachal-heritage,Arunachal Pradesh Cultural Heritage & Social Life (Class V - APSBE),State Heritage Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,150

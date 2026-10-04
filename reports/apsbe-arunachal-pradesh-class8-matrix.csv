@@ -1,0 +1,7 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,reading_time_mins,exam_duration_mins
+ar-c8-english,English (Class VIII - Honeydew & It So Happened / APSBE),Language Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+ar-c8-hindi,Hindi (Class VIII - Vasant & Bharat Ki Khoj / हिन्दी - APSBE),Language Core,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+ar-c8-mathematics,Mathematics (Class VIII - APSBE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+ar-c8-science,Science and Technology (Class VIII - APSBE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+ar-c8-social-science,"Social Science (Class VIII - History, Civics, Geography / APSBE)",Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+ar-c8-third-language-skill,Third Language & Vocational Skill Education (Class VIII - APSBE),Skill/Language Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180

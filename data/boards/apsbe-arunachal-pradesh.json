@@ -1,0 +1,177 @@
+{
+  "board_id": "apsbe-arunachal-pradesh",
+  "board_name": "Arunachal Pradesh State Board Examination",
+  "short_name": "APSBE",
+  "authority_id": "org-ar-board-apsbe",
+  "authority_name": "Directorate of School Education, Government of Arunachal Pradesh",
+  "state": "Arunachal Pradesh",
+  "headquarters": "Directorate of School Education, Itanagar, Arunachal Pradesh - 791111",
+  "statutory_act": "Arunachal Pradesh State Board Examination Regulations (under DSE/SCERT Arunachal Pradesh Framework)",
+  "established_year": 2018,
+  "jurisdiction": "State Education (Classes V & VIII)",
+  "board_type": "State Elementary Board Examination",
+  "official_website": "https://apsbe.arunachal.gov.in/",
+  "education_department_portal": "https://www.education.arunachal.gov.in/",
+  "state_government_portal": "https://arunachalpradesh.gov.in/",
+  "scert_portal": "https://scertarunachal.nic.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "apsbe-arunachal-pradesh",
+    "apsbe",
+    "apsbe-board"
+  ],
+  "arunachal_educational_architecture": {
+    "state_elementary_board": "APSBE conducts the official Arunachal Pradesh State Board Examination for Classes V and VIII across all government and designated recognized schools in the state.",
+    "secondary_senior_secondary_pathway": "Secondary (Class 10) and Higher Secondary (Class 12) education in Arunachal Pradesh state government and recognized private schools is affiliated with the Central Board of Secondary Education (CBSE), New Delhi. Examinations are conducted under CBSE AISSE (Class 10) and AISSCE (Class 12). Select institutions follow CISCE or NIOS.",
+    "state_board_scope_distinction": "APSBE is NOT a Class 10 or Class 12 examination board. APSBE currently covers Class V and Class VIII only. Zero fake Class 10 or Class 12 board examinations are administered by APSBE."
+  },
+  "verified_examination_scope": {
+    "classes_covered": [
+      "Class 5",
+      "Class 8"
+    ],
+    "classes_not_covered_by_apsbe": [
+      "Class 9",
+      "Class 10",
+      "Class 11",
+      "Class 12"
+    ],
+    "external_higher_education_authorities": {
+      "class_10": "CBSE (Central Board of Secondary Education - AISSE)",
+      "class_12": "CBSE (Central Board of Secondary Education - AISSCE)",
+      "open_schooling": "NIOS (National Institute of Open Schooling)"
+    }
+  },
+  "stages": {
+    "class_5": {
+      "stage": "Class 5",
+      "exam_name": "Arunachal Pradesh State Board Examination (Class V)",
+      "terminal_state_board_exam": true,
+      "academic_level": "Primary Completion Stage",
+      "total_marks_per_subject": 100,
+      "theory_marks": 80,
+      "internal_assessment_marks": 20,
+      "passing_percentage": 33,
+      "exam_duration_hours": 2.5,
+      "reading_time_minutes": 15
+    },
+    "class_8": {
+      "stage": "Class 8",
+      "exam_name": "Arunachal Pradesh State Board Examination (Class VIII)",
+      "terminal_state_board_exam": true,
+      "academic_level": "Upper Primary / Elementary Completion Stage",
+      "total_marks_per_subject": 100,
+      "theory_marks": 80,
+      "internal_assessment_marks": 20,
+      "passing_percentage": 33,
+      "exam_duration_hours": 3,
+      "reading_time_minutes": 15
+    },
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "School-Level Internal Annual Assessment",
+      "terminal_public_exam": false,
+      "apsbe_board_exam": false,
+      "scope_status": "ACADEMIC_SUPPORT_ONLY",
+      "pathway": "Internal institutional evaluation following CBSE curriculum"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "CBSE All India Secondary School Examination (AISSE)",
+      "terminal_public_exam": true,
+      "apsbe_board_exam": false,
+      "scope_status": "EXTERNAL_PATHWAY_CBSE",
+      "administering_authority": "CBSE (Central Board of Secondary Education)",
+      "audit_note": "APSBE does not conduct Class 10 board examinations. Arunachal schools are affiliated with CBSE."
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "School-Level Internal Annual Promotion",
+      "terminal_public_exam": false,
+      "apsbe_board_exam": false,
+      "scope_status": "ACADEMIC_SUPPORT_ONLY",
+      "pathway": "Internal institutional evaluation following CBSE +2 curriculum"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "CBSE All India Senior School Certificate Examination (AISSCE)",
+      "terminal_public_exam": true,
+      "apsbe_board_exam": false,
+      "scope_status": "EXTERNAL_PATHWAY_CBSE",
+      "administering_authority": "CBSE (Central Board of Secondary Education)",
+      "audit_note": "APSBE does not conduct Class 12 board examinations. Arunachal schools are affiliated with CBSE."
+    }
+  },
+  "curriculum_framework": {
+    "class_5": {
+      "examination_name": "APSBE Class V State Board Examination",
+      "subjects_audited": [
+        "ar-c5-english",
+        "ar-c5-hindi",
+        "ar-c5-mathematics",
+        "ar-c5-evs",
+        "ar-c5-arunachal-heritage"
+      ]
+    },
+    "class_8": {
+      "examination_name": "APSBE Class VIII State Board Examination",
+      "subjects_audited": [
+        "ar-c8-english",
+        "ar-c8-hindi",
+        "ar-c8-mathematics",
+        "ar-c8-science",
+        "ar-c8-social-science",
+        "ar-c8-third-language-skill"
+      ]
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "apsbe_portal": "https://apsbe.arunachal.gov.in/",
+    "education_dept": "https://www.education.arunachal.gov.in/",
+    "scert_arunachal": "https://scertarunachal.nic.in/",
+    "arunachal_state": "https://arunachalpradesh.gov.in/"
+  },
+  "registration_rules": {
+    "class_5": {
+      "eligibility": "Regular enrollment in Class V in recognized government/aided/private schools in Arunachal Pradesh",
+      "attendance_requirement": "75% minimum school attendance",
+      "portal": "https://apsbe.arunachal.gov.in/",
+      "form_submission": "Institutional entry by Head of School / Centre Superintendent"
+    },
+    "class_8": {
+      "eligibility": "Regular enrollment in Class VIII having cleared Class VII annual assessment",
+      "attendance_requirement": "75% minimum school attendance",
+      "portal": "https://apsbe.arunachal.gov.in/",
+      "form_submission": "Institutional entry by Head of School / Centre Superintendent"
+    }
+  },
+  "curriculum_specialties": {
+    "arunachal_tribal_heritage": "Nyishi, Adi, Apatani, Monpa, Mishmi, Galo, Tagin, Tangsa, Wancho, Nocte, Khamti traditions",
+    "traditional_governance": "Kebang (Adi tribal council), Bulyang (Apatani village council), Tsorgen (Monpa system)",
+    "festivals": "Nyokum (Nyishi), Dree (Apatani), Solung (Adi), Losar & Chosker (Monpa), Si-Donyi (Tagin), Reh (Idu Mishmi)",
+    "biodiversity": "Namdapha National Park, Mouling National Park, Hornbill (Great Indian Hornbill - State Bird), Mithun (State Animal)",
+    "history_and_monuments": "Tawang Monastery (Gaden Namgyal Lhatse, 1681), Ita Fort (Itanagar, Chutiya kingdom), Bhismaknagar, Malinithan"
+  },
+  "language_script_registry": [
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "role": "Principal Medium of Instruction & Examination in Arunachal Pradesh",
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "role": "Compulsory Language Subject & State Lingua Franca",
+      "permitted_medium": true
+    }
+  ]
+}

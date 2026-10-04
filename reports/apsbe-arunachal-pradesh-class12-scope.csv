@@ -1,0 +1,7 @@
+field,value,audit_notes
+stage,Class 12 (Senior Secondary),Senior Secondary Completion Stage
+administering_body,CBSE (Central Board of Secondary Education),State higher secondary schools in Arunachal Pradesh are affiliated with CBSE
+apsbe_board_exam,FALSE,APSBE DOES NOT CONDUCT CLASS 12 BOARD EXAMINATIONS
+scope_status,EXTERNAL_PATHWAY_CBSE,"Class 12 candidates take CBSE AISSCE (Board #1), not APSBE"
+questions_ingested,0,Strict isolation: zero fake Class 12 questions generated under APSBE board ID
+full_exam_mode,BLOCKED_ON_APSBE,Users redirected to CBSE AISSCE portal for Class 12 exams

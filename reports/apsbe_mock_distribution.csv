@@ -1,0 +1,23 @@
+mock_type,subject_id,question_count,studied_reuse_pct,fresh_verified_pct,time_limit_mins
+Learning Mock,ar-c5-english,25,80,20,40
+Practice Mock,ar-c5-english,40,40,60,60
+Learning Mock,ar-c5-hindi,25,80,20,40
+Practice Mock,ar-c5-hindi,40,40,60,60
+Learning Mock,ar-c5-mathematics,25,80,20,40
+Practice Mock,ar-c5-mathematics,40,40,60,60
+Learning Mock,ar-c5-evs,25,80,20,40
+Practice Mock,ar-c5-evs,40,40,60,60
+Learning Mock,ar-c5-arunachal-heritage,25,80,20,40
+Practice Mock,ar-c5-arunachal-heritage,40,40,60,60
+Learning Mock,ar-c8-english,30,80,20,45
+Practice Mock,ar-c8-english,50,40,60,90
+Learning Mock,ar-c8-hindi,30,80,20,45
+Practice Mock,ar-c8-hindi,50,40,60,90
+Learning Mock,ar-c8-mathematics,30,80,20,45
+Practice Mock,ar-c8-mathematics,50,40,60,90
+Learning Mock,ar-c8-science,30,80,20,45
+Practice Mock,ar-c8-science,50,40,60,90
+Learning Mock,ar-c8-social-science,30,80,20,45
+Practice Mock,ar-c8-social-science,50,40,60,90
+Learning Mock,ar-c8-third-language-skill,30,80,20,45
+Practice Mock,ar-c8-third-language-skill,50,40,60,90

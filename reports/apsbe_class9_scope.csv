@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 9,Non-terminal school-level annual assessment stage
+administering_body,School Level (under DSE Arunachal Pradesh / CBSE Curriculum),Not administered as a public state board examination by APSBE
+terminal_public_exam,FALSE,Evaluated via internal school annual examination
+apsbe_board_exam,FALSE,APSBE statutory scope restricted to Classes V and VIII
+curriculum_affiliation,CBSE (Central Board of Secondary Education),Arunachal secondary schools follow CBSE curriculum
+scope_status,ACADEMIC_SUPPORT_ONLY,Full board exam simulation blocked; practice/support allowed
+questions_ingested,0,Strict isolation: zero fake APSBE board questions generated for Class 9
