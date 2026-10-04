@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 11 (+1 Higher Secondary Part-I),Intermediate foundational higher secondary stage
+administering_body,"Council of Higher Secondary Education, Manipur (COHSEM)",Regulated under COHSEM Higher Secondary Framework
+terminal_public_exam,FALSE_INDEPENDENT_PROMOTION,Evaluated via council-moderated institutional annual examination
+dependency_rule,MANIPUR_CLASS11_TO_CLASS12_DEPENDENCY,Mandatory qualification in +1 for enrollment into +2 HSE Final Year
+stream_continuity,ENFORCED,Selected stream and core subjects in +1 continue into +2
+streams_offered,"Science, Commerce, Arts",Officially recognized COHSEM streams
+full_exam_mode,STANDALONE_BLOCKED_UNLESS_ENROLLED,Curricular progression enforced

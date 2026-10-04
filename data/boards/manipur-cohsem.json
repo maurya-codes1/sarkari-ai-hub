@@ -1,0 +1,13 @@
+{
+  "board_id": "manipur-cohsem",
+  "board_name": "Council of Higher Secondary Education, Manipur",
+  "short_name": "COHSEM",
+  "state": "Manipur",
+  "headquarters": "Babupura, Imphal West - 795001, Manipur",
+  "official_website": "https://cohsem.nic.in",
+  "results_portal": "https://manresults.nic.in",
+  "authority_id": "org-mn-board-cohsem",
+  "parent_ecosystem": "manipur-bsem-cohsem",
+  "jurisdiction": "Higher Secondary Education (Class 11 Part-I & Class 12 Higher Secondary Examination - HSE)",
+  "active": true
+}

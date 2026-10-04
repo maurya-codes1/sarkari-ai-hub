@@ -1,0 +1,4 @@
+entity_id,entity_name,short_name,role,established_year,portal_url,functional_mandate,status
+org-mn-board-bsem,"Board of Secondary Education, Manipur",BSEM,Secondary Authority,1972,https://bsem.nic.in,Class 9 & 10 (HSLC) curriculum & board examination,ACTIVE_PRIMARY
+org-mn-board-cohsem,"Council of Higher Secondary Education, Manipur",COHSEM,Higher Secondary Authority,1992,https://cohsem.nic.in,Class 11 & 12 (+2 HSE) curriculum & board examination,ACTIVE_PRIMARY
+org-mn-board-ecosystem,Manipur School Education Board Ecosystem,MANIPUR_BOARDS,State Unified Framework,2026,https://bsem.nic.in,Unified metadata and state curriculum federation,ACTIVE_FEDERATION

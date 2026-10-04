@@ -1,0 +1,4 @@
+check_scope,duplicates_found,threshold,audit_verdict
+intra_board_exact_question_id,0,0,CLEAN_ZERO_DUPLICATES
+intra_paper_option_duplicates,0,0,CLEAN_ZERO_DUPLICATES
+cross_board_contamination_against_18_boards,0,0,CLEAN_ZERO_CONTAMINATION

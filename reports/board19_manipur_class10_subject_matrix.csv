@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,exam_duration_mins
+mn-c10-english,English (Compulsory HSLC Subject),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mn-c10-manipuri-mil,Manipuri MIL (মণিপুরী / ꯃꯤꯇꯩ ꯃꯌꯦꯛ - First Language),Compulsory First Language,mni,Meetei Mayek (U+ABC0-U+ABFF),280,205,75,80,20,180
+mn-c10-alt-english,Alternative English (First Language Option),First Language Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mn-c10-hindi-mil,Hindi MIL (हिन्दी - First Language Option),First Language Option,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,180
+mn-c10-mathematics-en,Mathematics (English Medium - HSLC Compulsory),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mn-c10-mathematics-mn,Mathematics (Manipuri Medium - মথমেটিক্স),Compulsory Core,mni,Meetei Mayek / Bengali,280,205,75,80,20,180
+mn-c10-science-en,Science (English Medium - HSLC Compulsory),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mn-c10-science-mn,Science (Manipuri Medium - সাইন্স),Compulsory Core,mni,Meetei Mayek / Bengali,280,205,75,80,20,180
+mn-c10-social-science-en,Social Science (English Medium - HSLC Compulsory),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+mn-c10-social-science-mn,Social Science (Manipuri Medium - সোসিএল সাইন্স),Compulsory Core,mni,Meetei Mayek / Bengali,280,205,75,80,20,180

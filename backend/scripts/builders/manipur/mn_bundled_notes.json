@@ -1,0 +1,72 @@
+[
+  {
+    "note_id": "note-mn-c10-core",
+    "subject_id": "mn-c10-english",
+    "language_id": "en",
+    "note_type": "SYLLABUS_REVISION_BUNDLE",
+    "title": "BSEM HSLC (Class 10) Master Revision & Examination Blueprint Guide",
+    "summary": "Comprehensive architectural guide covering BSEM HSLC scheme of studies: 500 Maximum Marks across 5 core subjects (80 Theory + 20 Internal Assessment), Mathematics, Science, Social Science, and MIL/English.",
+    "content": "# BSEM HSLC (CLASS 10) MASTER EXAMINATION & SYLLABUS GUIDE\n## BOARD OF SECONDARY EDUCATION, MANIPUR (BSEM)\n\n### 1. Board Identity & Institutional Framework\n- **Governing Body:** Board of Secondary Education, Manipur (BSEM), established in 1972.\n- **Headquarters:** Babupura, Imphal West - 795001, Manipur.\n- **Official Portals:** `https://bsem.nic.in` and `https://manresults.nic.in`.\n- **Examination Scope:** High School Leaving Certificate (HSLC) Examination (Class 10) and regulation of Class 9 secondary curriculum.\n\n### 2. High School Leaving Certificate (HSLC) Scheme of Studies\n- Total Maximum Marks: 500 Marks across 5 compulsory subjects (100 Marks each).\n- Minimum Qualifying Marks: 33% in each subject (Theory + Internal Assessment) and 33% aggregate.\n- **Marking Scheme:**\n  - 80 Marks External Board Theory Examination.\n  - 20 Marks Continuous and Comprehensive Evaluation (CCE) / School-Based Internal Assessment (IA).\n  - Question Types: Multiple Choice Questions (MCQs), Very Short Answer (VSA), Short Answer (SA), and Long Answer (LA).\n\n### 3. Core Curricular Areas & High-Yield Units\n1. **Mathematics:**\n   - Real Numbers (Euclid's Division Lemma, Fundamental Theorem of Arithmetic).\n   - Polynomials & Pair of Linear Equations in Two Variables.\n   - Quadratic Equations ($D = b^2 - 4ac$ discriminant & nature of roots).\n   - Arithmetic Progressions ($a_n = a + (n-1)d, S_n = \\frac{n}{2}[2a + (n-1)d]$).\n   - Triangles (Thales Theorem, Criteria for Similarity).\n   - Coordinate Geometry, Trigonometry (Heights and Distances), and Circles.\n   - Surface Areas, Volumes, Statistics (Mean, Median, Mode) and Probability.\n2. **Science:**\n   - Chemistry: Chemical Reactions, Acids, Bases & Salts, Metals & Non-metals, Carbon and Its Compounds.\n   - Biology: Life Processes (Nutrition, Respiration, Transport, Excretion), Control & Coordination, Heredity.\n   - Physics: Reflection & Refraction of Light, Human Eye and Colourful World, Electricity, Magnetic Effects of Electric Current.\n3. **Social Science:**\n   - History: Nationalism in India, Making of Modern Manipur (Anglo-Manipur War of 1891, Bir Tikendrajit, Thangal General).\n   - Geography: Resources, Agriculture, Minerals, Geography of Manipur (Valley & Hills, Loktak Lake basin, Keibul Lamjao).\n   - Political Science: Power Sharing, Federalism, Political Parties, Challenges to Democracy.\n   - Economics: Development, Sectors of Economy, Money and Credit, Handloom & Agrarian Economy of Manipur.\n4. **First Languages (Manipuri MIL / Alt English / Hindi):**\n   - Manipuri: Meetei Mayek script (ꯃꯤꯇꯩ ꯃꯌꯦꯛ) and Bengali script, prose, poetry, grammar (ৱাহৈ পরেং, সমাস, কারক).\n   - Alternative English / Hindi MIL: Prose comprehension, poetic appreciation, applied grammar and creative composition.",
+    "verification_status": "VERIFIED",
+    "version": "2026-27.1",
+    "content_depth": "COMPREHENSIVE_CORE_BUNDLE",
+    "provenance": "OFFICIAL_BSEM_PORTAL_CURRICULUM",
+    "priority_tier": 1
+  },
+  {
+    "note_id": "note-mn-c12-science",
+    "subject_id": "mn-c12-physics",
+    "language_id": "en",
+    "note_type": "STREAM_REVISION_BUNDLE",
+    "title": "COHSEM Higher Secondary (+2 HSE) Science Stream Master Revision Manual",
+    "summary": "Complete revision handbook for COHSEM Higher Secondary Science: Physics, Chemistry, Biology, Mathematics, Computer Science, and Statistics with 70 Theory + 30 Practical laboratory breakdown.",
+    "content": "# COHSEM HIGHER SECONDARY (+2 HSE) SCIENCE STREAM MASTER MANUAL\n## COUNCIL OF HIGHER SECONDARY EDUCATION, MANIPUR (COHSEM)\n\n### 1. Administrative Framework & Scheme of Studies\n- **Authority:** Council of Higher Secondary Education, Manipur (COHSEM), established in 1992.\n- **Headquarters:** Babupura, Imphal West - 795001, Manipur.\n- **Official Portals:** `https://cohsem.nic.in`.\n- **Examination Scheme:** 500 Total Marks (English 100 + MIL 100 + 3 Science Electives 300).\n- **Evaluation Pattern:**\n  - Laboratory Subjects (Physics, Chemistry, Biology, CS, Statistics): 70 Theory + 30 Practical (Pass: 23 in Theory, 10 in Practical).\n  - Mathematics: 80 Theory + 20 Internal Assessment (Pass: 33%).\n\n### 2. High-Yield Subject Overviews\n1. **Physics (70 Theory + 30 Practical):**\n   - Electrostatics & Gauss's Law, Capacitance.\n   - Current Electricity (Kirchhoff's Laws, Wheatstone Bridge).\n   - Magnetism & Biot-Savart Law, Ampere's Circuital Law, Moving Coil Galvanometer.\n   - Electromagnetic Induction (Faraday & Lenz's Law) and AC Circuits (LCR Resonance, Power Factor).\n   - Optics (Lens Maker's Formula, Astronomical Telescope, Wave Optics & Interference).\n   - Dual Nature, Photoelectric Equation, Bohr Model of Hydrogen, Semiconductors (p-n junction diodes, logic gates).\n2. **Chemistry (70 Theory + 30 Practical):**\n   - Physical Chemistry: Solutions (Colligative properties, Raoult's Law), Electrochemistry (Nernst Equation, Kohlrausch's Law), Chemical Kinetics (Integrated rate laws, Arrhenius equation).\n   - Inorganic Chemistry: d- and f-Block Elements (Transition properties, Lanthanoid contraction), Coordination Compounds (Werner's Theory, Crystal Field Theory).\n   - Organic Chemistry: Reaction Mechanisms (SN1, SN2), Aldol Condensation, Cannizzaro Reaction, Hoffmann Bromamide, Biomolecules (Proteins, Nucleic Acids).\n3. **Biology (Botany & Zoology - 70 Theory + 30 Practical):**\n   - Reproduction in Flowering Plants & Human Reproductive System.\n   - Genetics & Evolution: Mendelian Ratios, Molecular Basis of Inheritance (DNA replication, transcription, genetic code, Lac Operon).\n   - Biotechnology: Principles, Recombinant DNA tools (Restriction enzymes, PCR, cloning vectors), Applications in Agriculture and Medicine.\n   - Ecology & Environment: Biodiversity Hotspots, Conservation in Manipur (Keibul Lamjao National Park & Sangai Deer preservation).\n4. **Mathematics (80 Theory + 20 IA):**\n   - Relations & Functions, Matrices and Determinants.\n   - Calculus: Continuity, Differentiability, Maxima-Minima, Definite Integrals, Differential Equations.\n   - Vectors, Three-Dimensional Geometry (Shortest distance between skew lines), Linear Programming, and Probability (Bayes' Theorem).",
+    "verification_status": "VERIFIED",
+    "version": "2026-27.1",
+    "content_depth": "COMPREHENSIVE_CORE_BUNDLE",
+    "provenance": "OFFICIAL_COHSEM_PORTAL_CURRICULUM",
+    "priority_tier": 1
+  },
+  {
+    "note_id": "note-mn-c12-commerce",
+    "subject_id": "mn-c12-accountancy",
+    "language_id": "en",
+    "note_type": "STREAM_REVISION_BUNDLE",
+    "title": "COHSEM Higher Secondary (+2 HSE) Commerce Stream Master Revision Manual",
+    "summary": "Comprehensive revision manual for COHSEM Commerce: Accountancy, Business Studies, Economics, Business Mathematics, and Finance & Banking (80 Theory + 20 Project scheme).",
+    "content": "# COHSEM HIGHER SECONDARY (+2 HSE) COMMERCE STREAM MASTER MANUAL\n## COUNCIL OF HIGHER SECONDARY EDUCATION, MANIPUR (COHSEM)\n\n### 1. Scheme of Studies & Academic Structure\n- **Authority:** Council of Higher Secondary Education, Manipur (COHSEM).\n- **Core Papers:** English (100) + MIL (100) + Accountancy (100) + Business Studies (100) + Economics / Commercial Maths (100).\n- **Evaluation Pattern:** 80 Marks External Theory + 20 Marks Project / Practical viva-voce.\n\n### 2. High-Yield Commerce Units\n1. **Accountancy (80 Theory + 20 Project):**\n   - Accounting for Partnership: Fundamentals, P&L Appropriation, Valuation of Goodwill.\n   - Reconstitution of Firms: Admission, Retirement, Death (Sacrificing & Gaining Ratios, Revaluation).\n   - Dissolution of Partnership: Realisation Account and Settlement of Accounts.\n   - Company Accounts: Issue, Forfeiture, and Re-issue of Shares (Pro-rata Allotment), Issue of Debentures.\n   - Analysis of Financial Statements: Ratio Analysis (Current, Quick, Debt-Equity, ROI) and Cash Flow Statement (AS-3).\n2. **Business Studies (80 Theory + 20 Project):**\n   - Management Principles: Fayol's 14 Principles and Taylor's Scientific Techniques.\n   - Functions of Management: Planning, Organising (Formal/Informal, Delegation), Staffing, Directing, Controlling.\n   - Business Finance: Capital Structure Decisions, Working Capital, Money & Capital Markets, SEBI Regulations.\n   - Marketing Management: 4 Ps (Product, Price, Place, Promotion), Consumer Protection Act 2019.\n3. **Economics (80 Theory + 20 Project):**\n   - Macroeconomics: National Income aggregates (GDP, GNP, NNP), Money & Banking (Credit Creation, RBI Monetary Policy), Income & Employment (Multiplier).\n   - Indian Economic Development: Post-independence reforms, Rural Development, Employment challenges, Manipur's indigenous cottage industries & handloom trade.",
+    "verification_status": "VERIFIED",
+    "version": "2026-27.1",
+    "content_depth": "COMPREHENSIVE_CORE_BUNDLE",
+    "provenance": "OFFICIAL_COHSEM_PORTAL_CURRICULUM",
+    "priority_tier": 1
+  },
+  {
+    "note_id": "note-mn-c12-arts",
+    "subject_id": "mn-c12-political-science",
+    "language_id": "en",
+    "note_type": "STREAM_REVISION_BUNDLE",
+    "title": "COHSEM Higher Secondary (+2 HSE) Arts & Humanities Master Revision Manual",
+    "summary": "Authoritative guide for COHSEM Arts Stream: Political Science, History of India & Manipur, Geography, Sociology, Education, and Logic & Philosophy.",
+    "content": "# COHSEM HIGHER SECONDARY (+2 HSE) ARTS & HUMANITIES MASTER MANUAL\n## COUNCIL OF HIGHER SECONDARY EDUCATION, MANIPUR (COHSEM)\n\n### 1. Scheme of Studies & Academic Framework\n- **Authority:** Council of Higher Secondary Education, Manipur (COHSEM).\n- **Electives:** Political Science, History, Geography, Sociology, Education, Philosophy.\n- **Evaluation Pattern:** 80 Theory + 20 Project (Geography: 70 Theory + 30 Practical).\n\n### 2. High-Yield Humanities Subjects\n1. **Political Science (80 Theory + 20 Project):**\n   - Contemporary World Politics: Cold War aftermath, Disintegration of USSR, Rise of Alternative Centres (EU, ASEAN), United Nations.\n   - Politics in India Since Independence: Challenges of Nation-Building, Integration of Manipur, Planning Commission / NITI Aayog, Emergency of 1975, Coalition Era.\n2. **History (80 Theory + 20 Project):**\n   - Ancient India: Harappan Civilisation, Early States & Economies, Ashokan Inscriptions, Social History through the Mahabharata.\n   - Medieval India: Travellers' Accounts (Ibn Battuta, Bernier), Bhakti-Sufi Movements, Vijayanagara Empire.\n   - Modern India & Manipur: Colonialism and 1857 Revolt, Mahatma Gandhi and Nationalist Movements, Cheitharol Kumbaba, Anglo-Manipur War (1891), Hijam Irabot and Democratic Aspirations.\n3. **Geography (70 Theory + 30 Practical):**\n   - Fundamentals of Human Geography: Population growth, Human Development, Primary/Secondary/Tertiary activities.\n   - India - People and Economy: Resources, Industrial clusters, Sustainable regional development.\n   - Geography of Manipur: Geomorphology (Valley and Hills), Loktak Lake ecology, Shifting vs Terrace Cultivation, Forest resources.\n4. **Sociology & Education:**\n   - Indian Social Structure: Caste, Class, Family, Tribal social systems in Northeast India.\n   - Educational Developments: Mudaliar, Kothari Commissions, NEP 2020, Psychology of Learning and Evaluation in Manipur.",
+    "verification_status": "VERIFIED",
+    "version": "2026-27.1",
+    "content_depth": "COMPREHENSIVE_CORE_BUNDLE",
+    "provenance": "OFFICIAL_COHSEM_PORTAL_CURRICULUM",
+    "priority_tier": 1
+  },
+  {
+    "note_id": "note-mn-c12-languages",
+    "subject_id": "mn-c12-manipuri-mil",
+    "language_id": "mni",
+    "note_type": "LANGUAGE_STUDY_GUIDE",
+    "title": "Manipur BSEM & COHSEM Language Architecture & Script Guide (Manipuri Meetei Mayek, English, Hindi)",
+    "summary": "Exhaustive linguistic and orthographic reference guide covering Meetei Mayek script (U+ABC0 - U+ABFF), Bengali script usage in Manipuri literature, English compulsory curriculum, and Hindi MIL.",
+    "content": "# MANIPUR SCHOOL EDUCATION LANGUAGE ARCHITECTURE & SCRIPT GUIDE\n## BSEM (HSLC) & COHSEM (HSE) LINGUISTIC ECOSYSTEM\n\n### 1. Linguistic Demographics & Official Status\n- **Official State Language:** Manipuri (Meetei / Meeteilon).\n- **Official Script:** Meetei Mayek (ꯃꯤꯇꯩ ꯃꯌꯦꯛ - Unicode range `U+ABC0 - U+ABFF`).\n- **Historical Script:** Eastern Nagari / Bengali script (`U+0980 - U+09FF`), historically utilized in textbooks, literature, and official administration.\n- **Universal Compulsory Medium:** English (Latin script `U+0020 - U+007E`).\n- **Additional Approved Languages:** Alternative English, Hindi (Devanagari script `U+0900 - U+097F`), Bengali, Mizo, Paite, Tangkhul, Hmar, Thadou-Kuki.\n\n### 2. Meetei Mayek Script Structure (ꯃꯤꯇꯩ ꯃꯌꯦꯛ)\n- **Iyek Ipi (Primary Letters / ꯏꯌꯦꯛ ꯏꯄꯤ):** 18 Original letters (Kok, Sam, Lai, Mit, Pa, Na, Chil, Til, Khou, Ngou, Thou, Wai, Yang, Huk, Un, I, Pham, Atiya).\n- **Cheitap Iyek (Vowel signs / ꯆꯩꯇꯥꯞ ꯏꯌꯦꯛ):** Diacritical vowel marks modifying consonant stems.\n- **Lonsum Iyek (Terminal consonants / ꯂꯣꯟꯁꯨꯝ ꯏꯌꯦꯛ):** Distinct terminal consonant representations.\n- **Cheikhei & Khodam:** Punctuation and syntactic markers.\n\n### 3. Curricular Deployment Across BSEM & COHSEM\n- **BSEM Class 10 HSLC:**\n  - Manipuri MIL papers feature Meetei Mayek script questions, literature, and textual comprehension.\n  - Core academic subjects (Mathematics, Science, Social Science) are officially provided in English Medium and Manipuri Medium.\n- **COHSEM Class 12 HSE:**\n  - Modern Indian Language (MIL) Manipuri emphasizes classical and modern literature (Khamba Thoibi, patriotic poetry, drama).\n  - General English is compulsory across all Science, Commerce, and Arts candidates with comprehensive reading, writing, and literature components.",
+    "verification_status": "VERIFIED",
+    "version": "2026-27.1",
+    "content_depth": "COMPREHENSIVE_CORE_BUNDLE",
+    "provenance": "OFFICIAL_MANIPUR_LANGUAGE_DIRECTORATE",
+    "priority_tier": 1
+  }
+]

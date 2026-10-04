@@ -1,0 +1,13 @@
+{
+  "board_id": "manipur-bsem",
+  "board_name": "Board of Secondary Education, Manipur",
+  "short_name": "BSEM",
+  "state": "Manipur",
+  "headquarters": "Babupura, Imphal West - 795001, Manipur",
+  "official_website": "https://bsem.nic.in",
+  "results_portal": "https://manresults.nic.in",
+  "authority_id": "org-mn-board-bsem",
+  "parent_ecosystem": "manipur-bsem-cohsem",
+  "jurisdiction": "Secondary Education (Class 9 Continuous Evaluation & Class 10 HSLC Examination)",
+  "active": true
+}

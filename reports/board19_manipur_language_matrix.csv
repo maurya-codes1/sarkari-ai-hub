@@ -1,0 +1,5 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+mni,Manipuri (Meeteilon),Meetei Mayek,U+ABC0 - U+ABFF,"Official State Language of Manipur, Compulsory HSLC First Language, +2 HSE MIL/Elective",YES,VERIFIED_OFFICIAL_STATE_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject across HSLC & +2 HSE, Universal Medium of Instruction",YES,VERIFIED_COMPULSORY_MEDIUM
+hi,Hindi,Devanagari,U+0900 - U+097F,First Language Option in HSLC and MIL Option in +2 HSE,YES,VERIFIED_ELECTIVE_LANGUAGE
+bn,Bengali,Bengali,U+0980 - U+09FF,First Language Option in HSLC (Jiribam district) and regional MIL,YES,VERIFIED_REGIONAL_LANGUAGE

@@ -1,0 +1,5 @@
+surface_pair,allowed_overlap,canonical_dedup_enforced,audit_status
+PDF <-> Revision,YES,TRUE,PASS - canonical question IDs reused cleanly
+Revision <-> Learning Mock,YES,TRUE,PASS - studied questions dynamically served
+Learning Mock <-> Practice Mock,YES,TRUE,PASS - stratified sampling preserves integrity
+Practice Mock <-> Full Exam,NO_FULL_EXAM_INDIVIDUAL,TRUE,PASS - blueprint gates enforced

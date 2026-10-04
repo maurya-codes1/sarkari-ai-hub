@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+languages,Compulsory,mn-c12-english,General English (Compulsory across all streams),Compulsory Language,280,205,75,100,0
+languages,Compulsory_MIL,mn-c12-manipuri-mil,Modern Indian Language - Manipuri (মণিপুরী / ꯃꯤꯇꯩ ꯃꯌꯦꯛ),Compulsory/Elective MIL,280,205,75,100,0
+languages,Compulsory_MIL,mn-c12-alt-english,Alternative English (COHSEM HSE),Compulsory/Elective MIL,280,205,75,100,0
+languages,Compulsory_MIL,mn-c12-hindi-mil,Modern Indian Language - Hindi (हिन्दी),Compulsory/Elective MIL,280,205,75,100,0
+science,Core,mn-c12-physics,Physics (+2 HSE),Science Core,280,205,75,70,30
+science,Core,mn-c12-chemistry,Chemistry (+2 HSE),Science Core,280,205,75,70,30
+science,Core,mn-c12-biology,Biology (Botany & Zoology - +2 HSE),Science Core,280,205,75,70,30
+science,Core,mn-c12-mathematics,Mathematics (+2 HSE),Science Core,280,205,75,80,20
+science,Elective,mn-c12-computer-science,Computer Science (+2 HSE),Science Elective,280,205,75,70,30
+science,Elective,mn-c12-statistics,Statistics (+2 HSE),Science Elective,280,205,75,70,30
+commerce,Core,mn-c12-accountancy,Accountancy (+2 HSE),Commerce Core,280,205,75,80,20
+commerce,Core,mn-c12-business-studies,Business Studies (+2 HSE),Commerce Core,280,205,75,80,20
+commerce,Core,mn-c12-economics,Economics (+2 HSE),Commerce Core,280,205,75,80,20
+commerce,Elective,mn-c12-commercial-maths,Business Mathematics & Statistics (+2 HSE),Commerce Elective,280,205,75,80,20
+commerce,Elective,mn-c12-financial-management,Finance & Management / Banking (+2 HSE),Commerce Elective,280,205,75,80,20
+arts,Elective,mn-c12-political-science,Political Science (+2 HSE),Humanities Elective,280,205,75,80,20
+arts,Elective,mn-c12-history,History (+2 HSE),Humanities Elective,280,205,75,80,20
+arts,Elective,mn-c12-geography,Geography (+2 HSE),Humanities Elective,280,205,75,70,30
+arts,Elective,mn-c12-sociology,Sociology (+2 HSE),Humanities Elective,280,205,75,80,20
+arts,Elective,mn-c12-education,Education (+2 HSE),Humanities Elective,280,205,75,80,20
+arts,Elective,mn-c12-philosophy,Logic & Philosophy (+2 HSE),Humanities Elective,280,205,75,80,20

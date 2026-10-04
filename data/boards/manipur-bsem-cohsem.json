@@ -1,0 +1,196 @@
+{
+  "board_id": "manipur-bsem-cohsem",
+  "board_name": "Manipur School Education (BSEM & COHSEM)",
+  "short_name": "BSEM/COHSEM",
+  "common_name": "Manipur Board",
+  "state": "Manipur",
+  "headquarters": "Babupura, Imphal West - 795001, Manipur",
+  "country": "India",
+  "authority_id": "org-mn-board-ecosystem",
+  "authorities": {
+    "BSEM": {
+      "authority_id": "org-mn-board-bsem",
+      "name": "Board of Secondary Education, Manipur",
+      "short_name": "BSEM",
+      "headquarters": "Babupura, Imphal West - 795001, Manipur",
+      "official_website": "https://bsem.nic.in",
+      "portal_results": "https://manresults.nic.in",
+      "jurisdiction": "Secondary Education (Class 9 CCE & Class 10 High School Leaving Certificate Examination - HSLC)"
+    },
+    "COHSEM": {
+      "authority_id": "org-mn-board-cohsem",
+      "name": "Council of Higher Secondary Education, Manipur",
+      "short_name": "COHSEM",
+      "headquarters": "Babupura, Imphal West - 795001, Manipur",
+      "official_website": "https://cohsem.nic.in",
+      "portal_results": "https://manresults.nic.in",
+      "jurisdiction": "Higher Secondary Education (Class 11 Part-I Foundational & Class 12 Higher Secondary Examination - HSE)"
+    }
+  },
+  "historical_authorities": {
+    "bsem": {
+      "authority_id": "org-mn-board-bsem",
+      "name": "Board of Secondary Education, Manipur",
+      "short_name": "BSEM",
+      "established_year": 1972,
+      "division": "Secondary Education (HSLC)"
+    },
+    "cohsem": {
+      "authority_id": "org-mn-board-cohsem",
+      "name": "Council of Higher Secondary Education, Manipur",
+      "short_name": "COHSEM",
+      "established_year": 1992,
+      "division": "Higher Secondary (+2 HSE)"
+    }
+  },
+  "classes": [9, 10, 11, 12],
+  "class_9": {
+    "stage": "Class 9",
+    "board_exam_eligible": false,
+    "progression_to_class_10": "MANIPUR_CLASS9_TO_CLASS10_DEPENDENCY",
+    "mode": "Continuous and Comprehensive Evaluation (CCE)",
+    "questions_ingested": 0
+  },
+  "class_10": {
+    "stage": "Class 10",
+    "exam_name": "High School Leaving Certificate Examination (HSLC)",
+    "administering_body": "org-mn-board-bsem",
+    "board_exam_eligible": true,
+    "total_marks": 500,
+    "total_subjects": 5,
+    "scheme": "80 Theory + 20 Internal Assessment per subject",
+    "passing_threshold_percent": 33,
+    "subjects": [
+      { "subject_id": "mn-c10-english", "name": "English", "category": "Compulsory Language" },
+      { "subject_id": "mn-c10-manipuri-mil", "name": "Manipuri MIL", "category": "First Language", "script": "Meetei Mayek" },
+      { "subject_id": "mn-c10-alt-english", "name": "Alternative English", "category": "First Language Option" },
+      { "subject_id": "mn-c10-hindi-mil", "name": "Hindi MIL", "category": "First Language Option" },
+      { "subject_id": "mn-c10-mathematics-en", "name": "Mathematics (English Medium)", "category": "Compulsory Core" },
+      { "subject_id": "mn-c10-mathematics-mn", "name": "Mathematics (Manipuri Medium)", "category": "Compulsory Core" },
+      { "subject_id": "mn-c10-science-en", "name": "Science (English Medium)", "category": "Compulsory Core" },
+      { "subject_id": "mn-c10-science-mn", "name": "Science (Manipuri Medium)", "category": "Compulsory Core" },
+      { "subject_id": "mn-c10-social-science-en", "name": "Social Science (English Medium)", "category": "Compulsory Core" },
+      { "subject_id": "mn-c10-social-science-mn", "name": "Social Science (Manipuri Medium)", "category": "Compulsory Core" }
+    ]
+  },
+  "class_11": {
+    "stage": "Class 11",
+    "exam_name": "Higher Secondary Examination Part-I",
+    "administering_body": "org-mn-board-cohsem",
+    "board_exam_eligible": false,
+    "progression_to_class_12": "MANIPUR_CLASS11_TO_CLASS12_DEPENDENCY",
+    "mode": "Council Moderated Institutional Examination",
+    "streams": ["Science", "Commerce", "Arts"]
+  },
+  "class_12": {
+    "stage": "Class 12",
+    "exam_name": "Higher Secondary Examination (HSE)",
+    "administering_body": "org-mn-board-cohsem",
+    "board_exam_eligible": true,
+    "total_marks": 500,
+    "total_subjects": 5,
+    "passing_threshold_percent": 33,
+    "streams": [
+      {
+        "stream_id": "science",
+        "stream_name": "Science",
+        "subjects": [
+          "mn-c12-physics", "mn-c12-chemistry", "mn-c12-biology",
+          "mn-c12-mathematics", "mn-c12-computer-science", "mn-c12-statistics"
+        ]
+      },
+      {
+        "stream_id": "commerce",
+        "stream_name": "Commerce",
+        "subjects": [
+          "mn-c12-accountancy", "mn-c12-business-studies", "mn-c12-economics",
+          "mn-c12-commercial-maths", "mn-c12-financial-management"
+        ]
+      },
+      {
+        "stream_id": "arts",
+        "stream_name": "Arts / Humanities",
+        "subjects": [
+          "mn-c12-political-science", "mn-c12-history", "mn-c12-geography",
+          "mn-c12-sociology", "mn-c12-education", "mn-c12-philosophy"
+        ]
+      },
+      {
+        "stream_id": "languages",
+        "stream_name": "Languages",
+        "subjects": [
+          "mn-c12-english", "mn-c12-manipuri-mil", "mn-c12-alt-english", "mn-c12-hindi-mil"
+        ]
+      }
+    ]
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "bsem_home": "https://bsem.nic.in",
+    "cohsem_home": "https://cohsem.nic.in",
+    "results_portal": "https://manresults.nic.in"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_manipur": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "mni",
+      "name": "Manipuri (Meeteilon)",
+      "script": "Meetei Mayek",
+      "unicode_range": "U+ABC0 - U+ABFF",
+      "concurrent_script": "Bengali (U+0980 - U+09FF)",
+      "mandatory_for": ["Manipuri MIL (Meetei Mayek)", "Manipuri Language Electives"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Compulsory English", "Alternative English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Hindi MIL", "Elective Hindi"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["Bengali MIL (Jiribam & regional)"],
+      "permitted_medium": true
+    }
+  ],
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "MANIPUR_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "INSTITUTIONAL_CCE_NOT_PUBLIC_BOARD_EXAM",
+      "enrolment_return": "MANDATORY_SUBMISSION_TO_BSEM_BABUPURA",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "MANIPUR_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "COHSEM_FOUNDATION_YEAR_ANNUAL_EVALUATION",
+      "stream_continuity": "MANDATORY",
+      "min_attendance_percent": 75
+    }
+  }
+}

@@ -1,0 +1,4 @@
+stream_id,stream_name,compulsory_subject,core_subjects,elective_options,practical_weightage
+science,Science Stream,English (100) + MIL (100),"Physics (70+30), Chemistry (70+30)",Mathematics (80+20) / Biology (70+30) / CS (70+30) / Statistics (70+30),30% Practical Lab Assessment
+commerce,Commerce Stream,English (100) + MIL (100),"Accountancy (80+20), Business Studies (80+20)",Economics (80+20) / Commercial Maths (80+20) / Finance & Management (80+20),20% Project Assessment
+arts,Arts / Humanities Stream,English (100) + MIL (100),"Political Science (80+20), History (80+20)",Geography (70+30) / Sociology (80+20) / Education (80+20) / Philosophy (80+20),"Practical for Geography (30%), Project (20%) for Others"
