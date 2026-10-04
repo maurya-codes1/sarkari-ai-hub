@@ -1,0 +1,5 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+navy-agniveer-english,Indian Navy Agniveer General English & Grammar (नौसेना सामान्य अंग्रेजी एवं व्याकरण),NAVY_INET_CBT,300,75,75,75,75,25.0% Perfect
+navy-agniveer-general-awareness,Indian Navy Agniveer General Awareness & Naval Heritage (सामान्य जागरूकता एवं नौसेना ज्ञान),NAVY_INET_CBT,300,75,75,75,75,25.0% Perfect
+navy-agniveer-mathematics,Indian Navy Agniveer Mathematics - Core & Applied (नौसेना गणित 10+2 एवं मैट्रिक),NAVY_INET_CBT,300,75,75,75,75,25.0% Perfect
+navy-agniveer-science,"Indian Navy Agniveer Science - Physics, Chemistry & Biology (नौसेना सामान्य विज्ञान)",NAVY_INET_CBT,300,75,75,75,75,25.0% Perfect

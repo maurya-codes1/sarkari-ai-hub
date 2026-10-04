@@ -1,0 +1,5 @@
+Section_Code,Section_Title,Subject_ID,Bank_Questions,Exam_Paper_Questions,Marking_Scheme,Recruitment_Track
+ENG,General English,navy-agniveer-english,300,25,1.0 / -0.25,SSR Compulsory
+SCI,"Science (Physics, Chemistry & Biology)",navy-agniveer-science,300,25,1.0 / -0.25,SSR & MR Compulsory
+MATH,Mathematics (Core & Applied),navy-agniveer-mathematics,300,25,1.0 / -0.25,SSR & MR Compulsory
+GA,General Awareness & Naval Heritage,navy-agniveer-general-awareness,300,25,1.0 / -0.25,SSR & MR Compulsory

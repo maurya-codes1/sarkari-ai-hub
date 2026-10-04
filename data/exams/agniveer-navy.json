@@ -1,0 +1,140 @@
+{
+  "exam_id": "agniveer-navy",
+  "name": "Indian Navy Agniveer SSR (Senior Secondary Recruit) & MR (Matric Recruit) Examination",
+  "short_name": "Indian Navy Agniveer",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-indian-navy-naval-headquarters",
+    "name": "Directorate of Manpower Planning & Recruitment, Naval Headquarters, Ministry of Defence",
+    "short_name": "Indian Navy",
+    "headquarters": "Sena Bhawan, New Delhi 110011",
+    "official_website": "https://joinindiannavy.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-navy-agniveer-portal",
+      "name": "Join Indian Navy Official Web Portal",
+      "url": "https://joinindiannavy.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-navy-agniveer-notice-2026",
+      "name": "Indian Navy Agniveer SSR & MR Intake 01/2026 & 02/2026 Official Notification",
+      "url": "https://joinindiannavy.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-navy-agniveer-syllabus-model",
+      "name": "Naval Headquarters Agniveer SSR & MR Official Sample Papers & Syllabus",
+      "url": "https://joinindiannavy.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "agniveer_ssr": {
+      "stream_name": "Agniveer Senior Secondary Recruit (SSR)",
+      "duration_minutes": 60,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "English", "questions": 25, "marks": 25 },
+        { "name": "Science", "questions": 25, "marks": 25 },
+        { "name": "Mathematics", "questions": 25, "marks": 25 },
+        { "name": "General Awareness", "questions": 25, "marks": 25 }
+      ]
+    },
+    "agniveer_mr": {
+      "stream_name": "Agniveer Matric Recruit (MR - Chef, Steward, Hygienist)",
+      "duration_minutes": 30,
+      "total_questions": 50,
+      "total_marks": 50,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "Science & Mathematics", "questions": 25, "marks": 25 },
+        { "name": "General Awareness", "questions": 25, "marks": 25 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "navy-agniveer-english",
+        "name": "Indian Navy Agniveer General English & Grammar",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Passage Comprehension",
+          "Correction of Sentences & Spotting Errors",
+          "Active and Passive Voice",
+          "Direct and Indirect Speech",
+          "Prepositions and Phrasal Verbs",
+          "Synonyms and Antonyms",
+          "Idioms and Phrases",
+          "One Word Substitution",
+          "Punctuation and Spellings"
+        ]
+      },
+      {
+        "subject_id": "navy-agniveer-science",
+        "name": "Indian Navy Agniveer Science (Physics, Chemistry & Biology)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Physical World, Units and Measurement",
+          "Kinematics and Laws of Motion",
+          "Work, Energy and Power",
+          "Gravitation and Planetary Motion",
+          "Mechanics of Solids and Fluids",
+          "Heat, Thermodynamics and Heat Engines",
+          "Oscillations, Waves and Sound Acoustics",
+          "Electrostatics, Current Electricity and Circuits",
+          "Magnetic Effects of Current and Magnetism",
+          "Optics - Reflection, Refraction and Optical Instruments",
+          "Atomic Structure, Chemical Bonding and Periodic Properties",
+          "Basic Organic & Inorganic Chemistry, Everyday Biology"
+        ]
+      },
+      {
+        "subject_id": "navy-agniveer-mathematics",
+        "name": "Indian Navy Agniveer Mathematics (Core & Applied)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Sets, Relations and Functions",
+          "Trigonometric Ratios and Identities",
+          "Complex Numbers and Quadratic Equations",
+          "Sequences and Series (AP, GP)",
+          "Permutations, Combinations and Binomial Theorem",
+          "Coordinate Geometry - Straight Lines and Conic Sections",
+          "Three Dimensional Geometry and Vectors",
+          "Calculus - Limits, Continuity, Derivatives and Integrals",
+          "Statistics - Measures of Central Tendency and Dispersion",
+          "Probability and Commercial Arithmetic (Percentages, Ratios, SI/CI)"
+        ]
+      },
+      {
+        "subject_id": "navy-agniveer-general-awareness",
+        "name": "Indian Navy Agniveer General Awareness & Naval Heritage",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Indian Navy Organization, Commands, Ranks & Naval Warships",
+          "Indian Maritime Heritage, Submarines & Aircraft Carriers",
+          "Indian Geography - Soil, Rivers, Mountains, Ports & Inland Waterways",
+          "Indian History, National Freedom Struggle & Culture",
+          "Indian Constitution, Fundamental Rights, Parliament & Judiciary",
+          "General Science Facts and Scientific Discoveries",
+          "National & International Current Affairs, Awards & Sports Championships"
+        ]
+      }
+    ]
+  }
+}
