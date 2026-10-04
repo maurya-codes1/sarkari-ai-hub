@@ -1,0 +1,11 @@
+Subject ID,Subject Name,Tier/Stage,Questions,Marks Per Q,Provenance,Source ID
+ssc-cgl-t1-english,SSC CGL Tier-1 English Comprehension (अंग्रेजी समझ),Tier-1,280,2,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t1-general-awareness,SSC CGL Tier-1 General Awareness (सामान्य जागरूकता - Static GK & Current),Tier-1,280,2,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t1-quantitative-aptitude,SSC CGL Tier-1 Quantitative Aptitude (संख्यात्मक अभियोग्यता),Tier-1,280,2,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t1-reasoning,SSC CGL Tier-1 General Intelligence and Reasoning (सामान्य बुद्धिमत्ता एवं तर्कशक्ति),Tier-1,280,2,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t2-computer-knowledge,SSC CGL Tier-2 Module-I Computer Knowledge Module (कंप्यूटर ज्ञान मॉड्यूल),Tier-2,280,3,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t2-english,SSC CGL Tier-2 Module-I English Language & Comprehension (उन्नत अंग्रेजी),Tier-2,280,3,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t2-general-awareness,SSC CGL Tier-2 Module-II General Awareness (गहन सामान्य अध्ययन),Tier-2,280,3,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t2-mathematical-abilities,SSC CGL Tier-2 Module-I Mathematical Abilities (गणितीय क्षमताएं),Tier-2,280,3,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t2-reasoning,SSC CGL Tier-2 Module-II Reasoning & General Intelligence (उन्नत तर्कशक्ति),Tier-2,280,3,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal
+ssc-cgl-t2-statistics,SSC CGL Tier-2 Paper-II Statistics (सांख्यिकी - JSO),Tier-2,280,2,OFFICIAL_SSC_CGL_CURRICULUM_BANK,src-ssc-cgl-portal

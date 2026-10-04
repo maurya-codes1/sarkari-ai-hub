@@ -1,0 +1,225 @@
+{
+  "exam_id": "ssc-cgl",
+  "name": "Staff Selection Commission - Combined Graduate Level Examination",
+  "short_name": "SSC CGL",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-central-ssc",
+    "name": "Staff Selection Commission, Government of India",
+    "short_name": "SSC",
+    "headquarters": "Block No. 12, CGO Complex, Lodhi Road, New Delhi 110003",
+    "official_website": "https://ssc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ssc-cgl-portal",
+      "name": "Staff Selection Commission Official Examination Portal",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ssc-cgl-notice-2026",
+      "name": "Notice of Combined Graduate Level Examination 2026",
+      "url": "https://ssc.gov.in/portal/notices",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-ssc-cgl-pyq-corpus",
+      "name": "Official Staff Selection Commission Historical Question Papers Corpus (2020-2025)",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "tier_1": {
+      "mode": "Computer Based Examination (CBT)",
+      "nature": "Qualifying / Screening",
+      "total_questions": 100,
+      "total_marks": 200,
+      "duration_minutes": 60,
+      "negative_marking": 0.50,
+      "sections": [
+        {
+          "section_id": "ssc-cgl-t1-reasoning",
+          "name": "General Intelligence and Reasoning",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "section_id": "ssc-cgl-t1-general-awareness",
+          "name": "General Awareness",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "section_id": "ssc-cgl-t1-quantitative-aptitude",
+          "name": "Quantitative Aptitude",
+          "questions": 25,
+          "marks": 50
+        },
+        {
+          "section_id": "ssc-cgl-t1-english",
+          "name": "English Comprehension",
+          "questions": 25,
+          "marks": 50
+        }
+      ]
+    },
+    "tier_2": {
+      "mode": "Computer Based Examination (CBT)",
+      "nature": "Merit Ranking",
+      "paper_1": {
+        "compulsory_for_all_posts": true,
+        "session_1": {
+          "section_1": {
+            "module_1": {
+              "subject_id": "ssc-cgl-t2-mathematical-abilities",
+              "name": "Mathematical Abilities",
+              "questions": 30,
+              "marks_per_q": 3,
+              "total_marks": 90
+            },
+            "module_2": {
+              "subject_id": "ssc-cgl-t2-reasoning",
+              "name": "Reasoning and General Intelligence",
+              "questions": 30,
+              "marks_per_q": 3,
+              "total_marks": 90
+            },
+            "duration_minutes": 60,
+            "negative_marking": 1.00
+          },
+          "section_2": {
+            "module_1": {
+              "subject_id": "ssc-cgl-t2-english",
+              "name": "English Language and Comprehension",
+              "questions": 45,
+              "marks_per_q": 3,
+              "total_marks": 135
+            },
+            "module_2": {
+              "subject_id": "ssc-cgl-t2-general-awareness",
+              "name": "General Awareness",
+              "questions": 25,
+              "marks_per_q": 3,
+              "total_marks": 75
+            },
+            "duration_minutes": 60,
+            "negative_marking": 1.00
+          },
+          "section_3": {
+            "module_1": {
+              "subject_id": "ssc-cgl-t2-computer-knowledge",
+              "name": "Computer Knowledge Module",
+              "questions": 20,
+              "marks_per_q": 3,
+              "total_marks": 60,
+              "qualifying_only": true,
+              "duration_minutes": 15,
+              "negative_marking": 1.00
+            }
+          }
+        }
+      },
+      "paper_2": {
+        "target_post": "Junior Statistical Officer (JSO)",
+        "subject_id": "ssc-cgl-t2-statistics",
+        "name": "Statistics",
+        "questions": 100,
+        "marks_per_q": 2,
+        "total_marks": 200,
+        "duration_minutes": 120,
+        "negative_marking": 0.50
+      }
+    }
+  },
+  "subjects": [
+    {
+      "subject_id": "ssc-cgl-t1-quantitative-aptitude",
+      "name": "SSC CGL Tier-1 Quantitative Aptitude",
+      "tier": "Tier-1",
+      "marks_per_question": 2,
+      "negative_marking": 0.50,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t1-reasoning",
+      "name": "SSC CGL Tier-1 General Intelligence & Reasoning",
+      "tier": "Tier-1",
+      "marks_per_question": 2,
+      "negative_marking": 0.50,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t1-english",
+      "name": "SSC CGL Tier-1 English Comprehension",
+      "tier": "Tier-1",
+      "marks_per_question": 2,
+      "negative_marking": 0.50,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t1-general-awareness",
+      "name": "SSC CGL Tier-1 General Awareness",
+      "tier": "Tier-1",
+      "marks_per_question": 2,
+      "negative_marking": 0.50,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t2-mathematical-abilities",
+      "name": "SSC CGL Tier-2 Mathematical Abilities",
+      "tier": "Tier-2",
+      "marks_per_question": 3,
+      "negative_marking": 1.00,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t2-reasoning",
+      "name": "SSC CGL Tier-2 Reasoning & Problem Solving",
+      "tier": "Tier-2",
+      "marks_per_question": 3,
+      "negative_marking": 1.00,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t2-english",
+      "name": "SSC CGL Tier-2 English Language & Comprehension",
+      "tier": "Tier-2",
+      "marks_per_question": 3,
+      "negative_marking": 1.00,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t2-general-awareness",
+      "name": "SSC CGL Tier-2 In-Depth General Awareness",
+      "tier": "Tier-2",
+      "marks_per_question": 3,
+      "negative_marking": 1.00,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t2-computer-knowledge",
+      "name": "SSC CGL Tier-2 Computer Knowledge Module",
+      "tier": "Tier-2",
+      "marks_per_question": 3,
+      "negative_marking": 1.00,
+      "total_questions_allocated": 280
+    },
+    {
+      "subject_id": "ssc-cgl-t2-statistics",
+      "name": "SSC CGL Tier-2 Statistics (JSO)",
+      "tier": "Tier-2",
+      "marks_per_question": 2,
+      "negative_marking": 0.50,
+      "total_questions_allocated": 280
+    }
+  ],
+  "eligibility": {
+    "education": "Bachelor's Degree from a recognized University or equivalent",
+    "age_limit": "18-30 or 18-32 years as on crucial date depending on post group"
+  },
+  "provenance_tag": "OFFICIAL_SSC_CGL_CURRICULUM_BANK",
+  "applicable_academic_year": "2026-27"
+}

@@ -1,0 +1,11 @@
+Tier/Paper,Section/Module,Subject Name,Official Exam Qs,Official Marks,Marks Per Q,Negative Marking,Duration,Nature
+Tier-1,Section 1,General Intelligence and Reasoning,25,50,2,0.5,60 Minutes,Qualifying / Screening
+Tier-1,Section 2,General Awareness,25,50,2,0.5,60 Minutes,Qualifying / Screening
+Tier-1,Section 3,Quantitative Aptitude,25,50,2,0.5,60 Minutes,Qualifying / Screening
+Tier-1,Section 4,English Comprehension,25,50,2,0.5,60 Minutes,Qualifying / Screening
+Tier-2 Paper-I,Section 1 Module 1,Mathematical Abilities,30,90,3,1.0,60 Minutes (with Sec 1 Mod 2),Merit Ranking
+Tier-2 Paper-I,Section 1 Module 2,Reasoning & General Intelligence,30,90,3,1.0,60 Minutes (with Sec 1 Mod 1),Merit Ranking
+Tier-2 Paper-I,Section 2 Module 1,English Language & Comprehension,45,135,3,1.0,60 Minutes (with Sec 2 Mod 2),Merit Ranking
+Tier-2 Paper-I,Section 2 Module 2,General Awareness,25,75,3,1.0,60 Minutes (with Sec 2 Mod 1),Merit Ranking
+Tier-2 Paper-I,Section 3 Module 1,Computer Knowledge Module,20,60,3,1.0,15 Minutes,Qualifying in Nature
+Tier-2 Paper-II,Specialized Paper,Statistics (for JSO),100,200,2,0.5,120 Minutes,Post Specific Merit (JSO)

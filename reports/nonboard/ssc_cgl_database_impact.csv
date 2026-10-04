@@ -1,0 +1,8 @@
+Metric,Before SSC CGL,Added SSC CGL,Post SSC CGL Total,Verification Status
+Total Database Questions,261520,2800,264320,VERIFIED
+Total 31 Boards Questions,261520,0,261520,100% PRESERVED
+SSC CGL Questions,0,2800,2800,VERIFIED
+SSC CGL Master Notes,0,5,5,VERIFIED
+MCQs (100% CBT),0,2800,2800,BALANCED_KEYS_VERIFIED
+Foreign Key Violations,0,0,0,ZERO_VIOLATIONS
+Database Integrity Check,ok,ok,ok,HEALTHY
