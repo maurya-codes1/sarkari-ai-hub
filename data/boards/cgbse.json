@@ -1,0 +1,12 @@
+{
+  "$schema": "./schema.json",
+  "board_id": "cgbse",
+  "canonical_board_id": "cgbse-chhattisgarh",
+  "board_name": "Chhattisgarh Board of Secondary Education",
+  "short_name": "CGBSE",
+  "state": "Chhattisgarh",
+  "authority_id": "org-cg-board-cgbse",
+  "redirect_to": "cgbse-chhattisgarh",
+  "description": "Alias pointer for Chhattisgarh Board of Secondary Education (CGBSE)",
+  "active": true
+}

@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,reading_time_mins,exam_duration_mins
+cg-c10-hindi,Hindi Special/General (विशिष्ट / सामान्य हिन्दी — 75 Theory + 25 Project),First / Compulsory Language,hi,Devanagari (U+0900-U+097F),280,205,75,75,25,15,180
+cg-c10-english,English Special/General (Special / General English — 75 Theory + 25 Project),Second / Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180
+cg-c10-sanskrit,Sanskrit (संस्कृत - अनिवार्य तृतीय भाषा — 75 Theory + 25 Project),Third Language,sa,Devanagari (U+0900-U+097F),280,205,75,75,25,15,180
+cg-c10-mathematics,Mathematics (गणित — 75 Theory + 25 Project/Practical),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180
+cg-c10-science,Science (विज्ञान — 75 Theory + 25 Practical),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180
+cg-c10-social-science,Social Science (सामाजिक विज्ञान — 75 Theory + 25 Project),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180
+cg-c10-chhattisgarh-heritage,Chhattisgarh Studies & Environment (छत्तीसगढ़ अध्ययन एवं पर्यावरण — 75 Theory + 25 Project),Core Elective / State Culture,hi,Devanagari (U+0900-U+097F),280,205,75,75,25,15,180
+cg-c10-information-technology,Information Technology (सूचना प्रौद्योगिकी — 75 Theory + 25 Practical),Vocational / Elective,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180
+cg-c10-vocational-retail-auto,Retail & Automobile Skills (व्यावसायिक कौशल — 75 Theory + 25 Practical),Vocational Stream,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180
+cg-c10-health-physical-education,Health & Physical Education (स्वास्थ्य एवं शारीरिक शिक्षा — 75 Theory + 25 Practical),Activity / Core,en,Latin (U+0020-U+007E),280,205,75,75,25,15,180

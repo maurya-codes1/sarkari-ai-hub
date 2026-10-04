@@ -1,0 +1,5 @@
+subject_id,subject_name,vocational_framework,evaluation_scheme,status
+cg-c10-vocational-retail-auto,Class 10 Retail & Automobile Skills,NSQF Level 2,75 Theory + 25 Practical,VERIFIED
+cg-c10-information-technology,Class 10 Information Technology,IT-ITeS Level 2,75 Theory + 25 Practical,VERIFIED
+cg-c12-agriculture-sciences,Class 12 Crop Production & Animal Husbandry,Agriculture & Rural Tech,70 Theory + 30 Practical,VERIFIED
+cg-c12-computer-science,Class 12 Computer Science,Advanced Informatics,70 Theory + 30 Practical,VERIFIED

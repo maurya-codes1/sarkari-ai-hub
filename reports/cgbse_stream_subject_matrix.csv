@@ -1,0 +1,26 @@
+stream_id,stream_name,subject_id,subject_name,evaluation_structure,curriculum_role
+science,Science Stream,cg-c12-physics,Physics,Theory 70 + Practical 30,Mandatory Science Core
+science,Science Stream,cg-c12-chemistry,Chemistry,Theory 70 + Practical 30,Mandatory Science Core
+science,Science Stream,cg-c12-mathematics,Mathematics,Theory 80 + IA 20,Mandatory Science Core
+science,Science Stream,cg-c12-biology,Biology,Theory 70 + Practical 30,Elective Science Option
+science,Science Stream,cg-c12-computer-science,Computer Science,Theory 70 + Practical 30,Elective Science Option
+science,Science Stream,cg-c12-environmental-science,Environmental Science,Theory 70 + Practical 30,Elective Science Option
+commerce,Commerce Stream,cg-c12-accountancy,Accountancy,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream,cg-c12-business-studies,Business Studies,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream,cg-c12-economics,Business Economics,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream,cg-c12-business-maths,Business Mathematics,Theory 80 + IA 20,Elective Commerce Option
+commerce,Commerce Stream,cg-c12-banking,Banking & Financial Services,Theory 80 + Project 20,Elective Commerce Option
+humanities,Humanities / Arts Stream,cg-c12-history,History,Theory 80 + Project 20,Elective Humanities Option
+humanities,Humanities / Arts Stream,cg-c12-political-science,Political Science,Theory 80 + Project 20,Elective Humanities Option
+humanities,Humanities / Arts Stream,cg-c12-geography,Geography,Theory 70 + Practical 30,Elective Humanities Option
+humanities,Humanities / Arts Stream,cg-c12-sociology,Sociology,Theory 80 + Project 20,Elective Humanities Option
+humanities,Humanities / Arts Stream,cg-c12-psychology,Psychology,Theory 70 + Practical 30,Elective Humanities Option
+humanities,Humanities / Arts Stream,cg-c12-home-science,Home Science,Theory 70 + Practical 30,Elective Humanities Option
+languages,Languages (MIL & Core),cg-c12-hindi,Hindi Core,Theory 80 + IA 20,Compulsory Core Language
+languages,Languages (MIL & Core),cg-c12-english,English Core,Theory 80 + IA 20,Compulsory Core Language
+languages,Languages (MIL & Core),cg-c12-sanskrit,Sanskrit Elective,Theory 80 + IA 20,Elective Classical Language
+agriculture,Agriculture Stream (धान का कटोरा),cg-c12-agriculture-sciences,Crop Production & Animal Husbandry,Theory 70 + Practical 30,Signature Chhattisgarh Stream
+vocational,Vocational Stream,nsqf-auto,Automobile Service Technician,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Vocational Stream,nsqf-retail,Retail Operations,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Vocational Stream,nsqf-it,IT-ITeS Domestic Data Entry,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Vocational Stream,nsqf-agriculture,Agriculture & Solanaceous Crops,Theory 50 + Practical 50,Career Vocational Stream

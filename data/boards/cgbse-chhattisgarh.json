@@ -1,0 +1,265 @@
+{
+  "board_id": "cgbse-chhattisgarh",
+  "board_name": "Chhattisgarh Board of Secondary Education",
+  "short_name": "CGBSE",
+  "authority_id": "org-cg-board-cgbse",
+  "authority_name": "Chhattisgarh Board of Secondary Education, Pension Bada, Raipur",
+  "state": "Chhattisgarh",
+  "headquarters": "Pension Bada, Raipur, Chhattisgarh - 492001",
+  "statutory_act": "Chhattisgarh Madhyamik Shiksha Mandal Act, 2001 (Chhattisgarh Act No. 8 of 2001)",
+  "established_year": 2001,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://cgbse.nic.in/",
+  "official_result_url": "https://results.cg.nic.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "cgbse-chhattisgarh",
+    "cgbse-board",
+    "cgbse"
+  ],
+  "exam_reading_time": {
+    "higher_secondary": "15 minutes dedicated reading time for theoretical papers",
+    "high_school": "15 minutes dedicated reading time for theoretical papers",
+    "reading_time_minutes": 15,
+    "exam_writing_duration_hours": 3
+  },
+  "curriculum_framework": {
+    "high_school_class_10": {
+      "examination_name": "High School Certificate Examination (Class X)",
+      "aggregate_marks": 600,
+      "core_subjects_count": 6,
+      "theory_marks": 75,
+      "internal_project_marks": 25,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "language_structure": {
+        "first_language": "Hindi (Special / General)",
+        "second_language": "English (General / Special)",
+        "third_language_options": [
+          "Sanskrit",
+          "Urdu",
+          "Marathi",
+          "Bengali"
+        ]
+      },
+      "compulsory_subjects": [
+        "cg-c10-hindi",
+        "cg-c10-english",
+        "cg-c10-sanskrit",
+        "cg-c10-mathematics",
+        "cg-c10-science",
+        "cg-c10-social-science",
+        "cg-c10-chhattisgarh-heritage",
+        "cg-c10-information-technology",
+        "cg-c10-vocational-retail-auto",
+        "cg-c10-health-physical-education"
+      ]
+    },
+    "higher_secondary_class_12": {
+      "examination_name": "Higher Secondary School Certificate Examination (Class XII)",
+      "aggregate_marks": 500,
+      "papers_count": 5,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "science_practical_split": {
+        "theory_marks": 70,
+        "practical_marks": 30,
+        "theory_pass_mark": 23,
+        "practical_pass_mark": 10,
+        "combined_pass_mark": 33
+      },
+      "humanities_commerce_split": {
+        "theory_marks": 80,
+        "project_ia_marks": 20,
+        "theory_pass_mark": 26,
+        "project_pass_mark": 7,
+        "combined_pass_mark": 33
+      },
+      "language_structure": {
+        "language_1": "Hindi (Core / Compulsory)",
+        "language_2": "English (Core / Compulsory)"
+      },
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Science Stream (Maths & Biology Groups)",
+          "compulsory_electives": [
+            "cg-c12-physics",
+            "cg-c12-chemistry"
+          ],
+          "optional_electives": [
+            "cg-c12-mathematics",
+            "cg-c12-biology",
+            "cg-c12-computer-science",
+            "cg-c12-environmental-science"
+          ],
+          "subjects": [
+            "cg-c12-physics",
+            "cg-c12-chemistry",
+            "cg-c12-mathematics",
+            "cg-c12-biology",
+            "cg-c12-computer-science",
+            "cg-c12-environmental-science"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Commerce Stream",
+          "compulsory_electives": [
+            "cg-c12-accountancy",
+            "cg-c12-business-studies",
+            "cg-c12-economics"
+          ],
+          "optional_electives": [
+            "cg-c12-business-maths",
+            "cg-c12-banking"
+          ],
+          "subjects": [
+            "cg-c12-accountancy",
+            "cg-c12-business-studies",
+            "cg-c12-economics",
+            "cg-c12-business-maths",
+            "cg-c12-banking"
+          ]
+        },
+        {
+          "stream_id": "humanities",
+          "stream_name": "Humanities / Arts Stream",
+          "subjects": [
+            "cg-c12-history",
+            "cg-c12-political-science",
+            "cg-c12-geography",
+            "cg-c12-sociology",
+            "cg-c12-psychology",
+            "cg-c12-home-science"
+          ]
+        },
+        {
+          "stream_id": "languages_and_agriculture",
+          "stream_name": "Languages & Agriculture Stream",
+          "subjects": [
+            "cg-c12-hindi",
+            "cg-c12-english",
+            "cg-c12-sanskrit",
+            "cg-c12-agriculture-sciences"
+          ]
+        },
+        {
+          "stream_id": "vocational",
+          "stream_name": "Vocational Stream",
+          "trades": [
+            "Agriculture & Farm Machinery",
+            "Automobile Service Technician",
+            "Healthcare Assistant",
+            "IT-ITeS & Multi-Media",
+            "Retail Operations"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Annual Institutional Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "CGBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "scope": "ACADEMIC_SUPPORT_ONLY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "High School Certificate Examination (Class X)",
+      "terminal_public_exam": true,
+      "aggregate_marks": 600,
+      "passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Promotional Institutional Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "CGBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "attendance_regulation": "Calculated across Classes XI & XII (min 75%)"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Higher Secondary School Certificate Examination (Class XII)",
+      "terminal_public_exam": true,
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 33,
+      "practical_passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "cgbse_home": "https://cgbse.nic.in/",
+    "results_portal": "https://results.cg.nic.in/",
+    "school_education_dept": "https://eduportal.cg.nic.in/",
+    "scert_cg": "https://scert.cg.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": [
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26"
+    ]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_chhattisgarh": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "CGBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "CGBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_terminal_public_exam": false,
+    "class_11_to_12_attendance_requirement_percent": 75
+  },
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "CGBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "BOARD_SUPERVISED_INSTITUTIONAL_FINAL_EXAM",
+      "enrolment_return": "MANDATORY_REGISTRATION_RETURN_TO_CGBSE_RAIPUR",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "CGBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "CGBSE_CLASS_XI_PROMOTIONAL_EXAMINATION",
+      "stream_continuity": "MANDATORY",
+      "hssc_two_session_attendance_percent": 75
+    }
+  },
+  "registration_rules": {
+    "high_school_class_10": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_INSTITUTION",
+      "min_attendance": 75,
+      "cce_compliance": true,
+      "portal": "https://cgbse.nic.in/"
+    },
+    "higher_secondary_class_12": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_HIGHER_SECONDARY",
+      "min_attendance": 75,
+      "internal_practical_prerequisite": true,
+      "portal": "https://cgbse.nic.in/"
+    }
+  }
+}

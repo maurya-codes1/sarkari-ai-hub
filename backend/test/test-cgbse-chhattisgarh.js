@@ -1,22 +1,22 @@
 /**
- * test-gbshse-goa.js
+ * test-cgbse-chhattisgarh.js
  * 
- * SARKARIAI HUB — BOARD #26
- * GOA BOARD OF SECONDARY AND HIGHER SECONDARY EDUCATION (GBSHSE) VERIFICATION SUITE
+ * SARKARIAI HUB — BOARD #27
+ * CHHATTISGARH BOARD OF SECONDARY EDUCATION (CGBSE) VERIFICATION SUITE
  * 
  * Verifies all 57 forensic integrity requirements across:
- * - Current GBSHSE identity (org-ga-board-gbshse, Alto Betim, Bardez, Goa - 403521)
- * - Secondary Education (SSC Class 10) (10 subjects, 2,800 questions, 600 aggregate marks)
- * - Higher Secondary (HSSC Class 12) (21 subjects, 5,880 questions across Science, Commerce, Humanities, Languages)
- * - Class 9 Institutional Evaluation & Enrolment Return (GBSHSE_CLASS9_TO_CLASS10_DEPENDENCY)
- * - Class 11 Promotional Examination & 75% attendance across XI & XII (GBSHSE_CLASS11_TO_CLASS12_DEPENDENCY)
+ * - Current CGBSE identity (org-cg-board-cgbse, Pension Bada, Raipur, Chhattisgarh - 492001)
+ * - High School Certificate (HSC Class 10) (10 subjects, 2,800 questions, 600 aggregate marks)
+ * - Higher Secondary (HSSC Class 12) (21 subjects, 5,880 questions across Science, Commerce, Humanities, Languages, Agriculture)
+ * - Class 9 Institutional Evaluation & Enrolment Return (CGBSE_CLASS9_TO_CLASS10_DEPENDENCY)
+ * - Class 11 Promotional Examination & 75% attendance across XI & XII (CGBSE_CLASS11_TO_CLASS12_DEPENDENCY)
  * - 15 minutes dedicated reading time rule for theoretical papers
- * - Script Authenticity: English (Latin), Konkani (Devanagari U+0900-U+097F), Marathi (Devanagari), Hindi (Devanagari)
+ * - Script Authenticity: English (Latin), Hindi (Devanagari U+0900-U+097F), Sanskrit (Devanagari), Chhattisgarhi culture integration
  * - 31 Primary Subjects (8,680 total questions: 6,355 MCQs with 0.00% generator bias, 2,325 Subjectives)
- * - 5 Master Bundled Study Notes (note-ga-*)
+ * - 5 Master Bundled Study Notes (note-cg-*)
  * - All Mandatory Audit Reports in reports/
- * - Total Database Inventory: 233,510 questions (224,830 baseline + 8,680 GBSHSE)
- * - Prior 25 Boards Preservation: exactly 209,440 questions untouched
+ * - Total Database Inventory: 242,190 questions (233,510 baseline + 8,680 CGBSE)
+ * - Prior 26 Boards Preservation: exactly 218,120 questions untouched
  * - Competitive Baseline Preservation: exactly 15,390 questions untouched
  */
 
@@ -29,7 +29,7 @@ const dbPath = path.join(__dirname, '../db/sarkari_core.db');
 const db = new Database(dbPath);
 
 console.log('================================================================');
-console.log('🧪 SARKARIAI HUB — BOARD #26 GOA (GBSHSE) VERIFICATION SUITE');
+console.log('🧪 SARKARIAI HUB — BOARD #27 CHHATTISGARH (CGBSE) VERIFICATION SUITE');
 console.log('================================================================\n');
 
 let passedTests = 0;
@@ -46,52 +46,52 @@ function runTest(testNum, testName, fn) {
   }
 }
 
-const BOARD_ID = 'gbshse-goa';
-const dictPath = path.join(__dirname, '../../data/boards/gbshse-goa.json');
+const BOARD_ID = 'cgbse-chhattisgarh';
+const dictPath = path.join(__dirname, '../../data/boards/cgbse-chhattisgarh.json');
 const dict = JSON.parse(fs.readFileSync(dictPath, 'utf8'));
 
-// 1. GBSHSE board isolation
-runTest(1, 'GBSHSE board isolation (gbshse-goa dictionary and database separation)', () => {
+// 1. CGBSE board isolation
+runTest(1, 'CGBSE board isolation (cgbse-chhattisgarh dictionary and database separation)', () => {
   assert.strictEqual(dict.board_id, BOARD_ID);
-  assert.strictEqual(dict.authority_id, 'org-ga-board-gbshse');
+  assert.strictEqual(dict.authority_id, 'org-cg-board-cgbse');
   const b = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(BOARD_ID);
   assert.ok(b, 'Board record exists in SQLite');
   assert.strictEqual(b.active, 1);
   assert.strictEqual(b.verification_status, 'VERIFIED');
 });
 
-// 2. GBSHSE authority verification
-runTest(2, 'GBSHSE authority verification (org-ga-board-gbshse, Alto Betim, Bardez)', () => {
-  const o = db.prepare("SELECT * FROM organizations WHERE organization_id = 'org-ga-board-gbshse'").get();
-  assert.ok(o, 'Organization org-ga-board-gbshse exists');
-  assert.strictEqual(o.short_name, 'GBSHSE');
-  assert.strictEqual(o.state_or_ut, 'Goa');
+// 2. CGBSE authority verification
+runTest(2, 'CGBSE authority verification (org-cg-board-cgbse, Pension Bada, Raipur)', () => {
+  const o = db.prepare("SELECT * FROM organizations WHERE organization_id = 'org-cg-board-cgbse'").get();
+  assert.ok(o, 'Organization org-cg-board-cgbse exists');
+  assert.strictEqual(o.short_name, 'CGBSE');
+  assert.strictEqual(o.state_or_ut, 'Chhattisgarh');
   assert.strictEqual(o.active, 1);
 });
 
-// 3. GBSHSE aliases in boards table
-runTest(3, 'GBSHSE aliases in boards table (gbshse-goa, gbshse-board, gbshse)', () => {
-  const aliases = ['gbshse-goa', 'gbshse-board', 'gbshse'];
+// 3. CGBSE aliases in boards table
+runTest(3, 'CGBSE aliases in boards table (cgbse-chhattisgarh, cgbse-board, cgbse)', () => {
+  const aliases = ['cgbse-chhattisgarh', 'cgbse-board', 'cgbse'];
   for (const al of aliases) {
     const b = db.prepare('SELECT * FROM boards WHERE board_id = ?').get(al);
     assert.ok(b, `Board alias ${al} must exist`);
-    assert.strictEqual(b.organization_id, 'org-ga-board-gbshse');
+    assert.strictEqual(b.organization_id, 'org-cg-board-cgbse');
   }
 });
 
 // 4. Official source registry verification
-runTest(4, 'Official source registry verification (portal, ssc, hssc, education dept, scert)', () => {
+runTest(4, 'Official source registry verification (portal, high school, higher secondary, education dept, scert)', () => {
   const sources = [
-    'src-gbshse-portal',
-    'src-gbshse-ssc-curriculum',
-    'src-gbshse-hssc-curriculum',
-    'src-ga-education-dept',
-    'src-ga-scert'
+    'src-cgbse-portal',
+    'src-cgbse-high-school-curriculum',
+    'src-cgbse-higher-secondary-curriculum',
+    'src-cg-school-education-dept',
+    'src-cg-scert'
   ];
   for (const sid of sources) {
     const s = db.prepare('SELECT * FROM official_sources WHERE source_id = ?').get(sid);
     assert.ok(s, `Official source ${sid} must exist`);
-    assert.strictEqual(s.organization_id, 'org-ga-board-gbshse');
+    assert.strictEqual(s.organization_id, 'org-cg-board-cgbse');
     assert.strictEqual(s.verification_status, 'VERIFIED');
   }
 });
@@ -125,7 +125,7 @@ runTest(8, 'Class 10 subject question distribution (10 subjects x 280 = 2,800)',
 
 // 9. Class 12 Science stream question distribution
 runTest(9, 'Class 12 Science stream question distribution (6 subjects x 280 = 1,680)', () => {
-  const sciSubjs = ['goa-c12-physics', 'goa-c12-chemistry', 'goa-c12-mathematics', 'goa-c12-biology', 'goa-c12-computer-science', 'goa-c12-geology'];
+  const sciSubjs = ['cg-c12-physics', 'cg-c12-chemistry', 'cg-c12-mathematics', 'cg-c12-biology', 'cg-c12-computer-science', 'cg-c12-environmental-science'];
   for (const s of sciSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
     assert.strictEqual(cnt, 280, `Science subject ${s} must have exactly 280 questions`);
@@ -134,7 +134,7 @@ runTest(9, 'Class 12 Science stream question distribution (6 subjects x 280 = 1,
 
 // 10. Class 12 Commerce stream question distribution
 runTest(10, 'Class 12 Commerce stream question distribution (5 subjects x 280 = 1,400)', () => {
-  const comSubjs = ['goa-c12-accountancy', 'goa-c12-business-studies', 'goa-c12-economics', 'goa-c12-banking', 'goa-c12-commercial-maths'];
+  const comSubjs = ['cg-c12-accountancy', 'cg-c12-business-studies', 'cg-c12-economics', 'cg-c12-business-maths', 'cg-c12-banking'];
   for (const s of comSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
     assert.strictEqual(cnt, 280, `Commerce subject ${s} must have exactly 280 questions`);
@@ -143,53 +143,53 @@ runTest(10, 'Class 12 Commerce stream question distribution (5 subjects x 280 = 
 
 // 11. Class 12 Humanities stream question distribution
 runTest(11, 'Class 12 Humanities stream question distribution (6 subjects x 280 = 1,680)', () => {
-  const humSubjs = ['goa-c12-history', 'goa-c12-political-science', 'goa-c12-sociology', 'goa-c12-psychology', 'goa-c12-geography', 'goa-c12-philosophy'];
+  const humSubjs = ['cg-c12-history', 'cg-c12-political-science', 'cg-c12-geography', 'cg-c12-sociology', 'cg-c12-psychology', 'cg-c12-home-science'];
   for (const s of humSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
     assert.strictEqual(cnt, 280, `Humanities subject ${s} must have exactly 280 questions`);
   }
 });
 
-// 12. Class 12 Language stream question distribution
-runTest(12, 'Class 12 Language stream question distribution (4 subjects x 280 = 1,120)', () => {
-  const langSubjs = ['goa-c12-english', 'goa-c12-konkani', 'goa-c12-marathi', 'goa-c12-hindi'];
+// 12. Class 12 Language & Agriculture stream question distribution
+runTest(12, 'Class 12 Language & Agriculture stream question distribution (4 subjects x 280 = 1,120)', () => {
+  const langSubjs = ['cg-c12-hindi', 'cg-c12-english', 'cg-c12-sanskrit', 'cg-c12-agriculture-sciences'];
   for (const s of langSubjs) {
     const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = ?").get(BOARD_ID, s).cnt;
-    assert.strictEqual(cnt, 280, `Language subject ${s} must have exactly 280 questions`);
+    assert.strictEqual(cnt, 280, `Language/Agriculture subject ${s} must have exactly 280 questions`);
   }
 });
 
-// 13. Class 12 Geology signature subject verification
-runTest(13, 'Class 12 Geology signature subject verification (goa-c12-geology)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'goa-c12-geology'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 280, 'Geology must have 280 questions');
-  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'goa-c12-geology'").get();
-  assert.ok(subj, 'Subject goa-c12-geology exists in subjects table');
-  assert.strictEqual(subj.subject_type, 'SCIENCE');
+// 13. Class 12 Agriculture signature subject verification
+runTest(13, 'Class 12 Agriculture signature subject verification (cg-c12-agriculture-sciences)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c12-agriculture-sciences'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 280, 'Agriculture must have 280 questions');
+  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'cg-c12-agriculture-sciences'").get();
+  assert.ok(subj, 'Subject cg-c12-agriculture-sciences exists in subjects table');
+  assert.strictEqual(subj.subject_type, 'VOCATIONAL');
 });
 
-// 14. Class 12 Banking & Secretarial Practice verification
-runTest(14, 'Class 12 Banking & Secretarial Practice verification (goa-c12-banking)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'goa-c12-banking'").get(BOARD_ID).cnt;
+// 14. Class 12 Banking & Financial Services verification
+runTest(14, 'Class 12 Banking & Financial Services verification (cg-c12-banking)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c12-banking'").get(BOARD_ID).cnt;
   assert.strictEqual(cnt, 280, 'Banking must have 280 questions');
-  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'goa-c12-banking'").get();
-  assert.ok(subj, 'Subject goa-c12-banking exists');
+  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'cg-c12-banking'").get();
+  assert.ok(subj, 'Subject cg-c12-banking exists');
   assert.strictEqual(subj.subject_type, 'COMMERCE');
 });
 
-// 15. Class 12 Philosophy & Logic verification
-runTest(15, 'Class 12 Philosophy & Logic verification (goa-c12-philosophy)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'goa-c12-philosophy'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 280, 'Philosophy must have 280 questions');
-  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'goa-c12-philosophy'").get();
-  assert.ok(subj, 'Subject goa-c12-philosophy exists');
+// 15. Class 12 Home Science verification
+runTest(15, 'Class 12 Home Science verification (cg-c12-home-science)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c12-home-science'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 280, 'Home Science must have 280 questions');
+  const subj = db.prepare("SELECT * FROM subjects WHERE subject_id = 'cg-c12-home-science'").get();
+  assert.ok(subj, 'Subject cg-c12-home-science exists');
   assert.strictEqual(subj.subject_type, 'HUMANITIES');
 });
 
 // 16. Class 9 scope isolation
 runTest(16, 'Class 9 scope isolation (0 fake board questions, ACADEMIC_SUPPORT_ONLY)', () => {
   const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 9'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 0, 'Zero questions for Class 9 under GBSHSE');
+  assert.strictEqual(cnt, 0, 'Zero questions for Class 9 under CGBSE');
   assert.strictEqual(dict.stages.class_9.terminal_public_exam, false);
   assert.strictEqual(dict.stages.class_9.scope, 'ACADEMIC_SUPPORT_ONLY');
 });
@@ -197,26 +197,26 @@ runTest(16, 'Class 9 scope isolation (0 fake board questions, ACADEMIC_SUPPORT_O
 // 17. Class 11 scope isolation
 runTest(17, 'Class 11 scope isolation (0 fake board questions, ACADEMIC_SUPPORT_ONLY)', () => {
   const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND stage = 'Class 11'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 0, 'Zero questions for Class 11 under GBSHSE');
+  assert.strictEqual(cnt, 0, 'Zero questions for Class 11 under CGBSE');
   assert.strictEqual(dict.stages.class_11.terminal_public_exam, false);
   assert.strictEqual(dict.stages.class_11.scope, 'ACADEMIC_SUPPORT_ONLY');
 });
 
 // 18. Higher Secondary authority separation
-runTest(18, 'Higher Secondary authority separation (GBSHSE HSSC distinct from CBSE/CISCE)', () => {
-  assert.strictEqual(dict.authority_id, 'org-ga-board-gbshse');
+runTest(18, 'Higher Secondary authority separation (CGBSE HSSC distinct from CBSE/CISCE/MPBSE)', () => {
+  assert.strictEqual(dict.authority_id, 'org-cg-board-cgbse');
   assert.ok(!dict.board_id.includes('cbse'));
-  assert.ok(!dict.board_id.includes('cisce'));
+  assert.ok(!dict.board_id.includes('mpbse'));
 });
 
-// 19. Total GBSHSE questions count
-runTest(19, 'Total GBSHSE questions count (exactly 8,680)', () => {
+// 19. Total CGBSE questions count
+runTest(19, 'Total CGBSE questions count (exactly 8,680)', () => {
   const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?").get(BOARD_ID).cnt;
   assert.strictEqual(cnt, 8680, 'Must have exactly 8,680 questions');
 });
 
-// 20. Total GBSHSE question_versions count
-runTest(20, 'Total GBSHSE question_versions count (exactly 8,680)', () => {
+// 20. Total CGBSE question_versions count
+runTest(20, 'Total CGBSE question_versions count (exactly 8,680)', () => {
   const cnt = db.prepare(`
     SELECT COUNT(*) as cnt 
     FROM question_versions qv
@@ -302,9 +302,9 @@ runTest(27, 'Marks distribution adherence (1, 2, 3, 4, 5 marks)', () => {
 });
 
 // 28. Provenance verification
-runTest(28, 'Provenance verification (OFFICIAL_GBSHSE_CURRICULUM_BANK)', () => {
-  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND provenance = 'OFFICIAL_GBSHSE_CURRICULUM_BANK'").get(BOARD_ID).cnt;
-  assert.strictEqual(cnt, 8680, 'All 8,680 items must have OFFICIAL_GBSHSE_CURRICULUM_BANK provenance');
+runTest(28, 'Provenance verification (OFFICIAL_CGBSE_CURRICULUM_BANK)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND provenance = 'OFFICIAL_CGBSE_CURRICULUM_BANK'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 8680, 'All 8,680 items must have OFFICIAL_CGBSE_CURRICULUM_BANK provenance');
 });
 
 // 29. Very Short Answer (VSA) distribution
@@ -333,7 +333,7 @@ runTest(32, 'Long Answer (LA) distribution (exactly 465 items, 15 per subject)',
 
 // 33. Class 10 PYQ authentic registry
 runTest(33, 'Class 10 PYQ authentic registry (2020-2025 coverage)', () => {
-  const pyqFile = path.join(__dirname, '../../reports/gbshse-goa-pyq-matrix.csv');
+  const pyqFile = path.join(__dirname, '../../reports/cgbse-chhattisgarh-pyq-matrix.csv');
   assert.ok(fs.existsSync(pyqFile), 'PYQ matrix must exist');
   const content = fs.readFileSync(pyqFile, 'utf8');
   assert.ok(content.includes('2025') && content.includes('2024') && content.includes('2020'), 'Must contain 2020-2025 coverage');
@@ -341,27 +341,27 @@ runTest(33, 'Class 10 PYQ authentic registry (2020-2025 coverage)', () => {
 
 // 34. Class 12 PYQ authentic registry
 runTest(34, 'Class 12 PYQ authentic registry (2020-2025 coverage)', () => {
-  const pyqFile = path.join(__dirname, '../../reports/gbshse-goa-pyq-matrix.csv');
+  const pyqFile = path.join(__dirname, '../../reports/cgbse-chhattisgarh-pyq-matrix.csv');
   const content = fs.readFileSync(pyqFile, 'utf8');
   assert.ok(content.includes('Class 12') && content.includes('HSSC'), 'Must contain Class 12 HSSC entries');
 });
 
 // 35. Class 10 registration criteria
-runTest(35, 'Class 10 registration criteria (GBSHSE regulations, 75% attendance)', () => {
-  const reg = dict.registration_rules.ssc_class_10;
+runTest(35, 'Class 10 registration criteria (CGBSE regulations, 75% attendance)', () => {
+  const reg = dict.registration_rules.high_school_class_10;
   assert.strictEqual(reg.min_attendance, 75);
   assert.strictEqual(reg.cce_compliance, true);
 });
 
 // 36. Class 12 registration criteria
-runTest(36, 'Class 12 registration criteria (GBSHSE regulations, 75% attendance across XI & XII)', () => {
-  const reg = dict.registration_rules.hssc_class_12;
+runTest(36, 'Class 12 registration criteria (CGBSE regulations, 75% attendance across XI & XII)', () => {
+  const reg = dict.registration_rules.higher_secondary_class_12;
   assert.strictEqual(reg.min_attendance, 75);
   assert.strictEqual(reg.internal_practical_prerequisite, true);
 });
 
 // 37. Exam timing rules
-runTest(37, 'Exam timing rules (3 hours theoretical writing across SSC and HSSC)', () => {
+runTest(37, 'Exam timing rules (3 hours theoretical writing across HSC and HSSC)', () => {
   assert.strictEqual(dict.stages.class_10.exam_duration_hours, 3);
   assert.strictEqual(dict.stages.class_12.exam_duration_hours, 3);
 });
@@ -379,81 +379,84 @@ runTest(39, 'Grading system & passing threshold (33% combined across subjects)',
   assert.strictEqual(dict.stages.class_12.passing_percentage, 33);
 });
 
-// 40. English language role
-runTest(40, 'English language role (medium of instruction for Science & Commerce)', () => {
+// 40. Hindi language role
+runTest(40, 'Hindi language role (Official Language of Chhattisgarh, Devanagari script U+0900-U+097F)', () => {
+  const l = db.prepare("SELECT * FROM languages WHERE code = 'hi'").get();
+  assert.ok(l);
+  assert.strictEqual(l.script, 'Devanagari');
+  assert.strictEqual(l.is_language_subject, 1);
+});
+
+// 41. English language role
+runTest(41, 'English language role (Latin script U+0020-U+007E)', () => {
   const l = db.prepare("SELECT * FROM languages WHERE code = 'en'").get();
   assert.ok(l);
   assert.strictEqual(l.is_exam_language, 1);
 });
 
-// 41. Konkani language role
-runTest(41, 'Konkani language role (Official State Language of Goa, Devanagari script U+0900-U+097F)', () => {
-  const l = db.prepare("SELECT * FROM languages WHERE code = 'kok'").get();
-  assert.ok(l, 'Konkani language record must exist');
-  assert.strictEqual(l.script, 'Devanagari');
-  assert.strictEqual(l.is_language_subject, 1);
-});
-
-// 42. Marathi language role
-runTest(42, 'Marathi language role (Devanagari script U+0900-U+097F)', () => {
-  const l = db.prepare("SELECT * FROM languages WHERE code = 'mr'").get();
+// 42. Sanskrit language role
+runTest(42, 'Sanskrit language role (Devanagari script U+0900-U+097F)', () => {
+  const l = db.prepare("SELECT * FROM languages WHERE code = 'sa'").get();
   assert.ok(l);
   assert.strictEqual(l.script, 'Devanagari');
 });
 
-// 43. Hindi language role
-runTest(43, 'Hindi language role (Devanagari script U+0900-U+097F)', () => {
-  const l = db.prepare("SELECT * FROM languages WHERE code = 'hi'").get();
-  assert.ok(l);
-  assert.strictEqual(l.script, 'Devanagari');
+// 43. Chhattisgarhi cultural integration in C10 Heritage
+runTest(43, 'Chhattisgarhi cultural integration in C10 Heritage (cg-c10-chhattisgarh-heritage)', () => {
+  const cnt = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND subject_id = 'cg-c10-chhattisgarh-heritage'").get(BOARD_ID).cnt;
+  assert.strictEqual(cnt, 280, 'CG Heritage must have 280 questions');
+  const sample = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c10-cg-c10-chhattisgarh-heritage-%' LIMIT 5").all();
+  assert.ok(sample.length > 0);
 });
 
-// 44. Class 10 Konkani authentic Devanagari script validation
-runTest(44, 'Class 10 Konkani authentic Devanagari script validation', () => {
+// 44. Class 10 Hindi authentic Devanagari script validation
+runTest(44, 'Class 10 Hindi authentic Devanagari script validation', () => {
   const rows = db.prepare(`
     SELECT qv.language_content 
     FROM question_versions qv
     JOIN questions q ON q.question_id = qv.question_id
-    WHERE q.board_id = ? AND q.subject_id = 'goa-c10-konkani'
+    WHERE q.board_id = ? AND q.subject_id = 'cg-c10-hindi'
     LIMIT 20
   `).all(BOARD_ID);
   assert.ok(rows.length > 0);
   for (const r of rows) {
     const parsed = JSON.parse(r.language_content);
-    assert.ok(parsed.kok, 'Must contain kok language block');
-    assert.ok(/[\u0900-\u097F]/.test(parsed.kok.question), 'Question must contain authentic Devanagari Unicode characters');
+    assert.ok(parsed.hi, 'Must contain hi language block');
+    assert.ok(/[\u0900-\u097F]/.test(parsed.hi.question), 'Question must contain authentic Devanagari Unicode characters');
   }
 });
 
-// 45. Class 12 Konkani authentic Devanagari script validation
-runTest(45, 'Class 12 Konkani authentic Devanagari script validation', () => {
+// 45. Class 12 Hindi authentic Devanagari script validation
+runTest(45, 'Class 12 Hindi authentic Devanagari script validation', () => {
   const rows = db.prepare(`
     SELECT qv.language_content 
     FROM question_versions qv
     JOIN questions q ON q.question_id = qv.question_id
-    WHERE q.board_id = ? AND q.subject_id = 'goa-c12-konkani'
+    WHERE q.board_id = ? AND q.subject_id = 'cg-c12-hindi'
     LIMIT 20
   `).all(BOARD_ID);
   assert.ok(rows.length > 0);
   for (const r of rows) {
     const parsed = JSON.parse(r.language_content);
-    assert.ok(parsed.kok, 'Must contain kok language block');
-    assert.ok(/[\u0900-\u097F]/.test(parsed.kok.question), 'Question must contain authentic Devanagari Unicode characters');
+    assert.ok(parsed.hi, 'Must contain hi language block');
+    assert.ok(/[\u0900-\u097F]/.test(parsed.hi.question), 'Question must contain authentic Devanagari Unicode characters');
   }
 });
 
-// 46. Goan liberation & state history representation
-runTest(46, 'Goan liberation & state history representation (18 June 1946, Operation Vijay, Opinion Poll 1967, Statehood 1987)', () => {
-  const c10Soc = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'ga-q-c10-goa-c10-social-science-%' LIMIT 10").all();
+// 46. Chhattisgarh freedom movement & tribal heroes representation
+runTest(46, 'Chhattisgarh freedom movement & tribal heroes (Veer Narayan Singh, Gundadhur 1910 Bhumkal, Gaind Singh)', () => {
+  const c10Soc = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c10-cg-c10-social-science-%' LIMIT 10").all();
   assert.ok(c10Soc.length > 0);
-  const c12Hist = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'ga-q-c12-goa-c12-history-%' LIMIT 10").all();
+  const c12Hist = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c12-cg-c12-history-%' LIMIT 10").all();
   assert.ok(c12Hist.length > 0);
 });
 
-// 47. Goan coastal ecology & cultural representation
-runTest(47, 'Goan coastal ecology & cultural representation (Communidades, Western Ghats, Mandovi/Zuari, Khazan lands)', () => {
-  const c10Evs = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'ga-q-c10-goa-c10-environmental-studies-%' LIMIT 10").all();
-  assert.ok(c10Evs.length > 0);
+// 47. Chhattisgarh geography, rivers & mineral wealth representation
+runTest(47, 'Chhattisgarh geography, rivers & mineral wealth (Mahanadi, Indravati, Bailadila, Bhilai, Hasdeo)', () => {
+  const c10Geo = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c10-cg-c10-social-science-%' LIMIT 10").all();
+  assert.ok(c10Geo.length > 0);
+  const c12Geo = db.prepare("SELECT language_content FROM question_versions WHERE question_id LIKE 'cg-q-c12-cg-c12-geography-%' LIMIT 10").all();
+  assert.ok(c12Geo.length > 0);
 });
 
 // 48. Full Exam eligibility & gate enforcement
@@ -477,8 +480,8 @@ runTest(49, 'Full Exam duplicate prevention (unique primary keys)', () => {
 });
 
 // 50. Cross-board contamination audit
-runTest(50, 'Cross-board contamination audit (zero sharing with other 25 boards)', () => {
-  const otherBoardCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND question_id NOT LIKE 'ga-q-%'").get(BOARD_ID).cnt;
+runTest(50, 'Cross-board contamination audit (zero sharing with other 26 boards)', () => {
+  const otherBoardCount = db.prepare("SELECT COUNT(*) as cnt FROM questions WHERE board_id = ? AND question_id NOT LIKE 'cg-q-%'").get(BOARD_ID).cnt;
   assert.strictEqual(otherBoardCount, 0, 'Zero questions from other boards');
 });
 
@@ -510,33 +513,33 @@ runTest(54, 'Database integrity check (PRAGMA integrity_check = ok)', () => {
 
 // 55. Pre-mutation backup existence & SHA-256 integrity
 runTest(55, 'Pre-mutation backup existence & SHA-256 integrity', () => {
-  const prePath = path.join(__dirname, '../db/sarkari_core_pre_gbshse.db');
-  const shaPath = path.join(__dirname, '../db/sarkari_core_pre_gbshse.sha256');
+  const prePath = path.join(__dirname, '../db/sarkari_core_pre_cgbse.db');
+  const shaPath = path.join(__dirname, '../db/sarkari_core_pre_cgbse.sha256');
   assert.ok(fs.existsSync(prePath), 'Pre-mutation DB backup must exist');
   assert.ok(fs.existsSync(shaPath), 'Pre-mutation SHA-256 file must exist');
 });
 
 // 56. Post-mutation backup existence & SHA-256 integrity
 runTest(56, 'Post-mutation backup existence & SHA-256 integrity', () => {
-  const postPath = path.join(__dirname, '../db/sarkari_core_post_gbshse.db');
-  const shaPath = path.join(__dirname, '../db/sarkari_core_post_gbshse.sha256');
+  const postPath = path.join(__dirname, '../db/sarkari_core_post_cgbse.db');
+  const shaPath = path.join(__dirname, '../db/sarkari_core_post_cgbse.sha256');
   assert.ok(fs.existsSync(postPath), 'Post-mutation DB backup must exist');
   assert.ok(fs.existsSync(shaPath), 'Post-mutation SHA-256 file must exist');
-  const notes = db.prepare("SELECT COUNT(*) as cnt FROM notes WHERE note_id LIKE 'note-ga-%'").get().cnt;
+  const notes = db.prepare("SELECT COUNT(*) as cnt FROM notes WHERE note_id LIKE 'note-cg-%'").get().cnt;
   assert.strictEqual(notes, 5, 'Must have exactly 5 master bundled notes');
 });
 
 // 57. Cumulative question count integrity
-runTest(57, 'Cumulative question count integrity (at least 233,510 total questions in DB, 224,830 baseline accounted for)', () => {
+runTest(57, 'Cumulative question count integrity (242,190 total questions in DB, 233,510 baseline accounted for)', () => {
   const total = db.prepare('SELECT COUNT(*) as cnt FROM questions').get().cnt;
-  assert.ok(total >= 233510, 'Grand total questions must be at least 233,510 (224,830 + 8,680)');
+  assert.strictEqual(total, 242190, 'Grand total questions must be exactly 242,190 (233,510 + 8,680)');
   
-  const gbshseQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
-  assert.strictEqual(gbshseQuestions, 8680, 'GBSHSE questions must remain exactly 8,680');
+  const cgbseQuestions = db.prepare('SELECT COUNT(*) as cnt FROM questions WHERE board_id = ?').get(BOARD_ID).cnt;
+  assert.strictEqual(cgbseQuestions, 8680, 'CGBSE questions must remain exactly 8,680');
   
-  const priorBoards = 209440;
+  const priorBoards = 218120;
   const compBaseline = 15390;
-  assert.strictEqual(priorBoards + compBaseline + gbshseQuestions, 233510, 'Exact baseline decomposition verified');
+  assert.strictEqual(priorBoards + compBaseline + cgbseQuestions, 242190, 'Exact baseline decomposition verified');
 });
 
 console.log('\n================================================================');
@@ -544,7 +547,7 @@ console.log(`📊 TEST SUITE SUMMARY: ${passedTests}/57 PASSED, ${failedTests} F
 console.log('================================================================');
 
 if (failedTests === 0) {
-  console.log('🎉 100% SUCCESS: All Goa (GBSHSE) Forensic Integrity Tests Passed.\n');
+  console.log('🎉 100% SUCCESS: All Chhattisgarh (CGBSE) Forensic Integrity Tests Passed.\n');
   process.exit(0);
 } else {
   console.error(`💥 FAILURE: ${failedTests} tests failed.`);

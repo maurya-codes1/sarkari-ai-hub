@@ -1,0 +1,3 @@
+rule_id,transition_stage,dependency_type,regulatory_condition,status
+CGBSE_CLASS9_TO_CLASS10_DEPENDENCY,Class 9 to Class 10,ACADEMIC_PROGRESSION,Mandatory institutional examination + 75% attendance + school enrolment return to CGBSE Raipur,ENFORCED
+CGBSE_CLASS11_TO_CLASS12_DEPENDENCY,Class 11 to Class 12,ACADEMIC_PROGRESSION,Institutional Class 11 promotion + stream continuity + registration return to CGBSE Raipur,ENFORCED

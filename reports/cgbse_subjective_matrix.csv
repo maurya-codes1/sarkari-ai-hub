@@ -1,0 +1,32 @@
+subject_id,subject_name,vsa_count,sa_count,case_study_count,la_count,total_subjective,min_answer_len,rubric_coverage
+cg-c10-hindi,Hindi Special/General (विशिष्ट / सामान्य हिन्दी — 75 Theory + 25 Project),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-english,English Special/General (Special / General English — 75 Theory + 25 Project),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-sanskrit,Sanskrit (संस्कृत - अनिवार्य तृतीय भाषा — 75 Theory + 25 Project),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-mathematics,Mathematics (गणित — 75 Theory + 25 Project/Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-science,Science (विज्ञान — 75 Theory + 25 Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-social-science,Social Science (सामाजिक विज्ञान — 75 Theory + 25 Project),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-chhattisgarh-heritage,Chhattisgarh Studies & Environment (छत्तीसगढ़ अध्ययन एवं पर्यावरण — 75 Theory + 25 Project),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-information-technology,Information Technology (सूचना प्रौद्योगिकी — 75 Theory + 25 Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-vocational-retail-auto,Retail & Automobile Skills (व्यावसायिक कौशल — 75 Theory + 25 Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c10-health-physical-education,Health & Physical Education (स्वास्थ्य एवं शारीरिक शिक्षा — 75 Theory + 25 Practical),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-physics,Physics (70 Theory + 30 Practical - Compulsory Science Elective),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-chemistry,Chemistry (70 Theory + 30 Practical - Compulsory Science Elective),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-mathematics,Mathematics (80 Theory + 20 IA - Compulsory Science Elective),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-biology,Biology (70 Theory + 30 Practical - CGBSE HSSC),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-computer-science,Computer Science (70 Theory + 30 Practical - CGBSE HSSC),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-environmental-science,Environmental Science (70 Theory + 30 Practical - Central India Ecology),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-accountancy,Accountancy (80 Theory + 20 Project - Compulsory Commerce Elective),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-business-studies,Business Studies (80 Theory + 20 Project - Compulsory Commerce Elective),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-economics,Business Economics (80 Theory + 20 Project - Compulsory Commerce Elective),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-business-maths,Business Mathematics (80 Theory + 20 IA),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-banking,Banking & Financial Services (80 Theory + 20 Project),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-history,History (80 Theory + 20 Project/IA - Indian History & Chhattisgarh),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-political-science,Political Science (80 Theory + 20 Project/IA - Contemporary World & India),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-geography,Geography (70 Theory + 30 Practical - Human Geography & Chhattisgarh Resources),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-sociology,Sociology (80 Theory + 20 Project/IA - Indian Society & Tribal Dynamics),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-psychology,Psychology (70 Theory + 30 Practical - Psychological Processes),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-home-science,Home Science (70 Theory + 30 Practical - Family Resource Management),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-hindi,Hindi Core (80 Theory + 20 Project/IA - Compulsory Language),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-english,English Core (80 Theory + 20 Project/IA - Compulsory Language),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-sanskrit,Sanskrit Elective (80 Theory + 20 Project/IA - Elective Language),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING
+cg-c12-agriculture-sciences,Crop Production & Animal Husbandry (70 Theory + 30 Practical - Agriculture Stream),24,24,12,15,75,20,100%_EXPLICIT_STEP_MARKING

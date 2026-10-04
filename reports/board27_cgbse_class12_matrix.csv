@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks,reading_time_mins,exam_duration_mins
+science,Core_Compulsory,cg-c12-physics,Physics (70 Theory + 30 Practical - Compulsory Science Elective),Science Core,280,205,75,70,30,15,180
+science,Core_Compulsory,cg-c12-chemistry,Chemistry (70 Theory + 30 Practical - Compulsory Science Elective),Science Core,280,205,75,70,30,15,180
+science,Core_Compulsory,cg-c12-mathematics,Mathematics (80 Theory + 20 IA - Compulsory Science Elective),Science Core,280,205,75,80,20,15,180
+science,Elective,cg-c12-biology,Biology (70 Theory + 30 Practical - CGBSE HSSC),Science Elective,280,205,75,70,30,15,180
+science,Elective,cg-c12-computer-science,Computer Science (70 Theory + 30 Practical - CGBSE HSSC),Science Elective,280,205,75,70,30,15,180
+science,Elective,cg-c12-environmental-science,Environmental Science (70 Theory + 30 Practical - Central India Ecology),Science Elective,280,205,75,70,30,15,180
+commerce,Core_Compulsory,cg-c12-accountancy,Accountancy (80 Theory + 20 Project - Compulsory Commerce Elective),Commerce Core,280,205,75,80,20,15,180
+commerce,Core_Compulsory,cg-c12-business-studies,Business Studies (80 Theory + 20 Project - Compulsory Commerce Elective),Commerce Core,280,205,75,80,20,15,180
+commerce,Core_Compulsory,cg-c12-economics,Business Economics (80 Theory + 20 Project - Compulsory Commerce Elective),Commerce Core,280,205,75,80,20,15,180
+commerce,Elective,cg-c12-business-maths,Business Mathematics (80 Theory + 20 IA),Commerce Elective,280,205,75,80,20,15,180
+commerce,Elective,cg-c12-banking,Banking & Financial Services (80 Theory + 20 Project),Commerce Elective,280,205,75,80,20,15,180
+humanities,Elective,cg-c12-history,History (80 Theory + 20 Project/IA - Indian History & Chhattisgarh),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,cg-c12-political-science,Political Science (80 Theory + 20 Project/IA - Contemporary World & India),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,cg-c12-geography,Geography (70 Theory + 30 Practical - Human Geography & Chhattisgarh Resources),Humanities Elective,280,205,75,70,30,15,180
+humanities,Elective,cg-c12-sociology,Sociology (80 Theory + 20 Project/IA - Indian Society & Tribal Dynamics),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,cg-c12-psychology,Psychology (70 Theory + 30 Practical - Psychological Processes),Humanities Elective,280,205,75,70,30,15,180
+humanities,Elective,cg-c12-home-science,Home Science (70 Theory + 30 Practical - Family Resource Management),Humanities Elective,280,205,75,70,30,15,180
+languages,Language_Core,cg-c12-hindi,Hindi Core (80 Theory + 20 Project/IA - Compulsory Language),Language Core,280,205,75,80,20,15,180
+languages,Language_Core,cg-c12-english,English Core (80 Theory + 20 Project/IA - Compulsory Language),Language Core,280,205,75,80,20,15,180
+languages,Language_Elective,cg-c12-sanskrit,Sanskrit Elective (80 Theory + 20 Project/IA - Elective Language),Language Elective,280,205,75,80,20,15,180
+agriculture,Signature_Stream,cg-c12-agriculture-sciences,Crop Production & Animal Husbandry (70 Theory + 30 Practical - Agriculture Stream),Agriculture Core,280,205,75,70,30,15,180

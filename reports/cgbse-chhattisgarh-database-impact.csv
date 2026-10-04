@@ -1,0 +1,10 @@
+metric,value,details
+Pre-CGBSE Total Questions,"233,510",Official verified database count before Board #27
+CGBSE Added Questions,"8,680",Exactly 31 subjects * 280 questions
+Post-CGBSE Total Questions,"242,190",Total verified questions in sarkari_core.db
+CGBSE MCQs,"6,355","31 subjects * 205 MCQs (4-way balanced options, 0.00% bias)"
+CGBSE Subjectives,"2,325","31 subjects * 75 Subjectives (744 VSA, 744 SA, 372 Case, 465 LA)"
+CGBSE Bundled Notes,5,5 comprehensive multi-subject revision guides
+CGBSE Primary Subjects,31,10 Class 10 HSC + 21 Class 12 HSSC
+Foreign Key Violations,0,PRAGMA foreign_key_check verified
+SQLite Integrity,ok,PRAGMA integrity_check verified
