@@ -1,0 +1,123 @@
+{
+  "exam_id": "ssc-mts",
+  "name": "Staff Selection Commission - Multi-Tasking (Non-Technical) Staff and Havaldar (CBIC & CBN) Examination",
+  "short_name": "SSC MTS & Havaldar",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-central-ssc",
+    "name": "Staff Selection Commission, Government of India",
+    "short_name": "SSC",
+    "headquarters": "Block No. 12, CGO Complex, Lodhi Road, New Delhi 110003",
+    "official_website": "https://ssc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ssc-mts-portal",
+      "name": "Staff Selection Commission Official Examination Portal",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ssc-mts-notice-2026",
+      "name": "Notice of Multi-Tasking (Non-Technical) Staff, and Havaldar Examination 2026",
+      "url": "https://ssc.gov.in/portal/notices",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-ssc-mts-pyq-corpus",
+      "name": "Official Staff Selection Commission MTS Historical Question Papers Corpus (2020-2025)",
+      "url": "https://ssc.gov.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "computer_based_examination": {
+      "mode": "Computer Based Examination (CBT)",
+      "language_medium": "Hindi, English and in 13 regional languages",
+      "sessions": [
+        {
+          "session_name": "Session-I",
+          "nature": "Qualifying Only (No Negative Marking)",
+          "duration_minutes": 45,
+          "total_questions": 40,
+          "total_marks": 120,
+          "negative_marking": 0.0,
+          "sections": [
+            {
+              "section_id": "ssc-mts-s1-numerical-maths",
+              "name": "Numerical and Mathematical Ability",
+              "questions": 20,
+              "marks": 60,
+              "marks_per_question": 3.0
+            },
+            {
+              "section_id": "ssc-mts-s1-reasoning",
+              "name": "Reasoning Ability and Problem Solving",
+              "questions": 20,
+              "marks": 60,
+              "marks_per_question": 3.0
+            }
+          ]
+        },
+        {
+          "session_name": "Session-II",
+          "nature": "Merit Determining (Negative Marking: 1 Mark per wrong answer)",
+          "duration_minutes": 45,
+          "total_questions": 50,
+          "total_marks": 150,
+          "negative_marking": 1.0,
+          "sections": [
+            {
+              "section_id": "ssc-mts-s2-general-awareness",
+              "name": "General Awareness",
+              "questions": 25,
+              "marks": 75,
+              "marks_per_question": 3.0
+            },
+            {
+              "section_id": "ssc-mts-s2-english",
+              "name": "English Language and Comprehension",
+              "questions": 25,
+              "marks": 75,
+              "marks_per_question": 3.0
+            }
+          ]
+        }
+      ]
+    },
+    "physical_test_for_havaldar": {
+      "physical_efficiency_test": {
+        "male": "Walking 1600 meters in 15 minutes",
+        "female": "Walking 1 Km in 20 minutes"
+      },
+      "physical_standard_test": {
+        "male": "Height: 157.5 cm (relaxed by 5 cms for Garhwalis, Assamese, Gorkhas and members of ST); Chest: 81 cm (fully expanded with min expansion 5 cm)",
+        "female": "Height: 152 cm (relaxed by 2.5 cms for specified categories); Weight: 48 kg (relaxed by 2 kg for ST)"
+      }
+    }
+  },
+  "posts_and_pay_scales": [
+    {
+      "post_name": "Multi-Tasking (Non-Technical) Staff (MTS)",
+      "pay_level": "Pay Level-1 as per 7th CPC (₹18,000 - ₹56,900)",
+      "classification": "General Central Service Group 'C' Non-Gazetted, Non-Ministerial"
+    },
+    {
+      "post_name": "Havaldar in CBIC and CBN",
+      "pay_level": "Pay Level-1 as per 7th CPC (₹18,000 - ₹56,900)",
+      "classification": "General Central Service Group 'C' Non-Gazetted, Non-Ministerial"
+    }
+  ],
+  "eligibility_criteria": {
+    "nationality": "Citizen of India / Subject of Nepal / Bhutan",
+    "age_limit": "18-25 years for MTS and Havaldar in CBN; 18-27 years for Havaldar in CBIC (Customs & Central Excise) and few MTS posts. (OBC +3 yrs, SC/ST +5 yrs)",
+    "educational_qualification": "Must have passed Matriculation (10th Class) Examination or equivalent from a recognized Board."
+  },
+  "metadata": {
+    "current_version_id": "ver-ssc-mts-2026",
+    "recruitment_year": "2026",
+    "status": "ACTIVE_RECRUITMENT",
+    "verification_status": "VERIFIED_PRIMARY_STATUTORY"
+  }
+}

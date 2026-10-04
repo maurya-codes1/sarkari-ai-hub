@@ -1,0 +1,5 @@
+Subject_ID,Subject_Name,Stage,Total_Questions,Key_A,Key_B,Key_C,Key_D,Key_Balance_Pct
+ssc-mts-s1-numerical-maths,SSC MTS Session-I Numerical and Mathematical Ability (संख्यात्मक एवं गणितीय योग्यता),SESSION_1_QUALIFYING,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-mts-s1-reasoning,SSC MTS Session-I Reasoning Ability and Problem Solving (तर्कशक्ति क्षमता एवं समस्या समाधान),SESSION_1_QUALIFYING,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-mts-s2-english,SSC MTS Session-II English Language and Comprehension (अंग्रेजी भाषा एवं बोधगम्यता - मेरिट निर्धारक),SESSION_2_MERIT,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
+ssc-mts-s2-general-awareness,SSC MTS Session-II General Awareness (सामान्य जागरूकता - मेरिट निर्धारक),SESSION_2_MERIT,300,75,75,75,75,25.0% / 25.0% / 25.0% / 25.0%
