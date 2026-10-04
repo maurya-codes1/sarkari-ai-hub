@@ -1,0 +1,9 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+ur,Urdu,Perso-Arabic (Nastaliq),U+0600 - U+06FF,"Compulsory SSE & Core/Elective HSE, Native Medium",YES,VERIFIED_OFFICIAL_STATE_LANGUAGE
+ks,Kashmiri,Kashmiri Nastaliq,U+0600 - U+06FF,"Elective SSE & HSE Language, UT J&K Official Language",YES,VERIFIED_REGIONAL_LANGUAGE
+doi,Dogri,Devanagari,U+0900 - U+097F,"Elective SSE & HSE Language, UT J&K Official Language",YES,VERIFIED_REGIONAL_LANGUAGE
+hi,Hindi,Devanagari,U+0900 - U+097F,"Compulsory Option SSE & HSE Elective, Exam Medium",YES,VERIFIED_UNION_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject All Stages, General Exam Medium",YES,VERIFIED_COMPULSORY_MEDIUM
+pa,Punjabi,Gurmukhi,U+0A00 - U+0A7F,Elective Language Option in SSE & HSE,YES,VERIFIED_ELECTIVE_LANGUAGE
+ar,Arabic,Arabic,U+0600 - U+06FF,Classical Language Elective,NO,VERIFIED_CLASSICAL_ELECTIVE
+fa,Persian,Perso-Arabic,U+0600 - U+06FF,Classical Language Elective,NO,VERIFIED_CLASSICAL_ELECTIVE

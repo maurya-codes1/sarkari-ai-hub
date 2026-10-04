@@ -1,0 +1,7 @@
+field,value,audit_notes
+stage,Class 11 (Higher Secondary Part-I),Intermediate foundational higher secondary stage
+terminal_public_exam,FALSE_INDEPENDENT_PROMOTION,Evaluated via uniform board-regulated institutional examination
+dependency_rule,JKBOSE_CLASS11_TO_CLASS12_DEPENDENCY,Mandatory qualification in Class 11 Part-I for enrollment into Class 12 Part-II
+stream_continuity,ENFORCED,Selected stream and core subjects in Class 11 continue into Class 12
+streams_offered,"Science (Medical/Non-Med), Commerce, Humanities/Arts, Home Science",Officially recognized JKBOSE streams
+full_exam_mode,STANDALONE_BLOCKED_UNLESS_ENROLLED,Curricular progression enforced

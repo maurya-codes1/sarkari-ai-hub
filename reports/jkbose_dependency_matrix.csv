@@ -1,0 +1,3 @@
+dependency_code,source_stage,target_stage,enforcement_mechanism,tracking_identifier,status
+JKBOSE_CLASS9_TO_CLASS10_DEPENDENCY,Class 9,Class 10 SSE,School Continuous Evaluation + RR submission,JKBOSE RR Enrollment Number,ACTIVE_ENFORCED
+JKBOSE_CLASS11_TO_CLASS12_DEPENDENCY,Class 11 Part-I,Class 12 HSE Part-II,Passing result in Class 11 examination + stream continuity,HSE Registration Number,ACTIVE_ENFORCED

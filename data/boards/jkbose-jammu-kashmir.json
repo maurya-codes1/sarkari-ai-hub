@@ -1,0 +1,387 @@
+{
+  "board_id": "jkbose-jammu-kashmir",
+  "authority_id": "org-jk-board-jkbose",
+  "board_name": "Jammu & Kashmir Board of School Education",
+  "short_name": "JKBOSE",
+  "common_name": "JKBOSE / Jammu & Kashmir State Board of School Education",
+  "state": "Jammu and Kashmir & Ladakh",
+  "headquarters": "Rehari Colony, Jammu - 180005 (Winter) / New Campus, Bemina, Srinagar - 190018 (Summer)",
+  "country": "India",
+  "official_url": "https://jkbose.nic.in",
+  "results_url": "https://jkbose.nic.in/results",
+  "classes": [
+    "Class 9",
+    "Class 10",
+    "Class 11",
+    "Class 12"
+  ],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1.0",
+  "board_isolation_policy": "STRICT_ISOLATION_NO_CROSS_BOARD_CONTAMINATION",
+  "academic_calendar_type": "UNIFORM_ACADEMIC_CALENDAR_MARCH_APRIL_SESSION",
+  "class_10": {
+    "examination_name": "Secondary School Examination (SSE Class 10)",
+    "stage": "Class 10",
+    "terminal_public_exam": true,
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 33,
+    "aggregate_passing_percentage": 33,
+    "scheme_of_studies": {
+      "compulsory_subjects_count": 5,
+      "total_papers": 5,
+      "marks_distribution": {
+        "external_theory_marks": 80,
+        "internal_assessment_practical_marks": 20,
+        "total_marks_per_subject": 100
+      }
+    },
+    "subjects": [
+      {
+        "subject_id": "jk-c10-english",
+        "name": "General English",
+        "category": "COMPULSORY_LANGUAGE",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-urdu",
+        "name": "Urdu (لازمی اردو)",
+        "category": "COMPULSORY_LANGUAGE_OPTION",
+        "script": "Perso-Arabic (Nastaliq)",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Urdu"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-hindi",
+        "name": "General Hindi (सामान्य हिन्दी)",
+        "category": "COMPULSORY_LANGUAGE_OPTION",
+        "script": "Devanagari",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Hindi"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-mathematics-en",
+        "name": "Mathematics (English Medium)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-mathematics-ur",
+        "name": "Mathematics (Urdu Medium - ریاضی)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Urdu"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-science-en",
+        "name": "Science (English Medium - Physics, Chemistry, Biology)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 80,
+        "practical_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-science-ur",
+        "name": "Science (Urdu Medium - سائنس)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 80,
+        "practical_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Urdu"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-social-science-en",
+        "name": "Social Science (English Medium - History, Pol Science, Geography, Economics & Disaster Management)",
+        "category": "COMPULSORY_CORE",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "English"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-kashmiri",
+        "name": "Kashmiri Language (کٲشُر زبان)",
+        "category": "ELECTIVE_REGIONAL_LANGUAGE",
+        "script": "Perso-Arabic (Nastaliq)",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Kashmiri"
+        ]
+      },
+      {
+        "subject_id": "jk-c10-dogri",
+        "name": "Dogri Language (डोगरी भाषा)",
+        "category": "ELECTIVE_REGIONAL_LANGUAGE",
+        "script": "Devanagari",
+        "theory_marks": 80,
+        "internal_marks": 20,
+        "total_marks": 100,
+        "passing_marks": 33,
+        "duration_hours": 3,
+        "medium": [
+          "Dogri"
+        ]
+      }
+    ]
+  },
+  "class_9": {
+    "stage": "Class 9",
+    "terminal_public_exam": false,
+    "examination_nature": "Continuous and Comprehensive Evaluation (CCE) conducted at affiliated school level under JKBOSE academic guidelines",
+    "dependency_rule": "JKBOSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "registration_requirement": "Registration Returns (RR) submission to JKBOSE Divisional/Sub-offices with assigned candidate enrollment registration number",
+    "minimum_attendance_percentage": 75,
+    "promotion_criteria": "Mandatory qualifying grade/marks in school internal evaluation across all five curricular areas",
+    "full_exam_eligible": false,
+    "practice_eligible": true
+  },
+  "class_11": {
+    "stage": "Class 11",
+    "examination_name": "Higher Secondary Examination Part-I (Class 11)",
+    "terminal_public_exam": true,
+    "evaluation_nature": "Uniform Board Examination / JKBOSE-monitored assessment with centralized paper pattern and standard evaluation guidelines",
+    "dependency_rule": "JKBOSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 33,
+    "streams": [
+      "Science",
+      "Commerce",
+      "Humanities/Arts",
+      "Home Science"
+    ],
+    "stream_combinations": {
+      "science_medical": [
+        "General English",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Elective (Mathematics / CS / Urdu / EVS)"
+      ],
+      "science_non_medical": [
+        "General English",
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Elective (CS / Urdu / EVS / Statistics)"
+      ],
+      "commerce": [
+        "General English",
+        "Accountancy",
+        "Business Studies",
+        "Economics / Business Mathematics",
+        "Elective (Entrepreneurship / CS / Urdu)"
+      ],
+      "humanities": [
+        "General English",
+        "History",
+        "Political Science",
+        "Economics / Geography / Sociology",
+        "Elective (Psychology / Education / Urdu / Kashmiri / Dogri)"
+      ]
+    },
+    "progression_condition": "Candidate must secure pass grade in Class 11 Part-I to be admitted and enrolled for Class 12 Part-II examination"
+  },
+  "class_12": {
+    "examination_name": "Higher Secondary Examination Part-II (Class 12)",
+    "stage": "Class 12",
+    "terminal_public_exam": true,
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 33,
+    "aggregate_passing_percentage": 33,
+    "compulsory_subject_for_all_streams": "General English (80 Theory + 20 Internal Assessment)",
+    "streams": {
+      "science": {
+        "stream_name": "Science Stream (Medical & Non-Medical)",
+        "core_subjects": [
+          "Physics",
+          "Chemistry",
+          "Mathematics",
+          "Biology",
+          "Computer Science",
+          "Environmental Science"
+        ],
+        "mark_breakdown_practical_subjects": {
+          "theory_marks": 70,
+          "practical_marks": 30,
+          "total_marks": 100,
+          "theory_passing": 23,
+          "practical_passing": 10
+        }
+      },
+      "commerce": {
+        "stream_name": "Commerce Stream",
+        "core_subjects": [
+          "Accountancy",
+          "Business Studies",
+          "Economics",
+          "Entrepreneurship",
+          "Business Mathematics & Statistics"
+        ],
+        "mark_breakdown": {
+          "theory_marks": 80,
+          "project_internal_marks": 20,
+          "total_marks": 100,
+          "passing_marks": 33
+        }
+      },
+      "humanities": {
+        "stream_name": "Humanities / Arts Stream",
+        "core_subjects": [
+          "History",
+          "Political Science",
+          "Geography",
+          "Sociology",
+          "Education",
+          "Psychology"
+        ],
+        "mark_breakdown_non_practical": {
+          "theory_marks": 80,
+          "internal_marks": 20,
+          "total_marks": 100
+        },
+        "mark_breakdown_practical": {
+          "theory_marks": 70,
+          "practical_marks": 30,
+          "total_marks": 100
+        }
+      },
+      "languages_elective": {
+        "stream_name": "Core & Elective Languages",
+        "subjects": [
+          "General English",
+          "Urdu",
+          "Kashmiri",
+          "Dogri / Hindi"
+        ]
+      }
+    }
+  },
+  "language_script_registry": {
+    "urdu": {
+      "code": "ur",
+      "language_name": "Urdu",
+      "script_name": "Perso-Arabic (Nastaliq)",
+      "unicode_range": "U+0600 - U+06FF",
+      "status": "OFFICIAL_STATE_LANGUAGE_JKBOSE"
+    },
+    "kashmiri": {
+      "code": "ks",
+      "language_name": "Kashmiri",
+      "script_name": "Perso-Arabic (Kashmiri Nastaliq)",
+      "unicode_range": "U+0600 - U+06FF",
+      "status": "OFFICIAL_REGIONAL_LANGUAGE_UT_JK"
+    },
+    "dogri": {
+      "code": "doi",
+      "language_name": "Dogri",
+      "script_name": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "status": "OFFICIAL_REGIONAL_LANGUAGE_UT_JK"
+    },
+    "hindi": {
+      "code": "hi",
+      "language_name": "Hindi",
+      "script_name": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "status": "OFFICIAL_LANGUAGE_UNION"
+    },
+    "english": {
+      "code": "en",
+      "language_name": "General English",
+      "script_name": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "status": "COMPULSORY_ACADEMIC_MEDIUM"
+    },
+    "punjabi": {
+      "code": "pa",
+      "language_name": "Punjabi",
+      "script_name": "Gurmukhi",
+      "unicode_range": "U+0A00 - U+0A7F",
+      "status": "ELECTIVE_REGIONAL_LANGUAGE"
+    },
+    "arabic": {
+      "code": "ar",
+      "language_name": "Arabic",
+      "script_name": "Arabic",
+      "unicode_range": "U+0600 - U+06FF",
+      "status": "CLASSICAL_ELECTIVE_LANGUAGE"
+    },
+    "persian": {
+      "code": "fa",
+      "language_name": "Persian",
+      "script_name": "Perso-Arabic",
+      "unicode_range": "U+0600 - U+06FF",
+      "status": "CLASSICAL_ELECTIVE_LANGUAGE"
+    }
+  },
+  "registration_and_eligibility": {
+    "registration_portal": "https://jkbose.nic.in",
+    "registration_timeline": "Annual Regular Session (November-December window with late fee windows in January)",
+    "minimum_attendance_requirement": "75% aggregate attendance in classes IX-X / XI-XII",
+    "candidate_types": [
+      "Regular Affiliated School Candidate",
+      "Private Candidate",
+      "Late College / Failure Candidate"
+    ],
+    "required_documents": [
+      "Registration Return (RR) Number",
+      "Class 9 / Class 11 Promotion Notification & Tabulation Sheet",
+      "Date of Birth Certificate / Municipal / School Leaving Certificate",
+      "Domicile / Category Certificate (if claiming reservation)",
+      "Passport size photograph and signature"
+    ],
+    "admit_card_issuance": "Centralized roll number slips released via institutional school login and student download portal in February-March",
+    "result_declaration": "Published on official results portal (https://jkbose.nic.in/results/) with digilocker integration"
+  }
+}

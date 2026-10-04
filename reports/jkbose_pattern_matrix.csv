@@ -1,0 +1,7 @@
+stage,subject_category,theory_marks,practical_ia_marks,total_marks,theory_passing,practical_passing,total_passing,duration_mins,sections_count,internal_choice_scheme
+Class 10 SSE,"Languages (English, Urdu, Hindi, Kashmiri, Dogri)",80,20,100,26,7,33,180,4,Internal choice in Long Answer & Writing sections
+Class 10 SSE,Mathematics & Social Science,80,20,100,26,7,33,180,4,Internal choice in 3-mark & 5-mark sections
+Class 10 SSE,"Science (Physics, Chemistry, Biology)",80,20,100,26,7,33,180,4,"Separate Physics, Chemistry, Biology sections"
+Class 12 HSE,General English & Humanities Theory,80,20,100,26,7,33,180,4,"Reading, Writing, Grammar, Literature sections"
+Class 12 HSE,"Science Practical Subjects (Physics, Chemistry, Biology)",70,30,100,23,10,33,180,4,"Section A (VSA/MCQ), Section B (SA-I), Section C (SA-II), Section D (LA)"
+Class 12 HSE,"Commerce Subjects (Accountancy, Business Studies, Economics)",80,20,100,26,7,33,180,4,"Part A (Financial/Macro), Part B (Company/Indian Econ) with internal choice"

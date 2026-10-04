@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_practical_marks,exam_duration_mins
+jk-c10-english,General English (SSE Class 10 Paper 1),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+jk-c10-urdu,Urdu (لازمی اردو - SSE Class 10 Paper 2),Compulsory Language,ur,Nastaliq (U+0600-U+06FF),280,205,75,80,20,180
+jk-c10-hindi,General Hindi (सामान्य हिन्दी - SSE Class 10 Paper 2),Compulsory Language,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,180
+jk-c10-mathematics-en,Mathematics (English Medium - SSE Class 10 Paper 3),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+jk-c10-mathematics-ur,Mathematics (Urdu Medium - ریاضی - SSE Class 10 Paper 3),Compulsory Core,ur,Nastaliq (U+0600-U+06FF),280,205,75,80,20,180
+jk-c10-science-en,Science (English Medium - SSE Class 10 Paper 4),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+jk-c10-science-ur,Science (Urdu Medium - سائنس - SSE Class 10 Paper 4),Compulsory Core,ur,Nastaliq (U+0600-U+06FF),280,205,75,80,20,180
+jk-c10-social-science-en,Social Science (English Medium - SSE Class 10 Paper 5),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+jk-c10-kashmiri,Kashmiri Language (کٲشُر زبان - SSE Class 10 Elective),Regional Elective,ks,Kashmiri Nastaliq (U+0600-U+06FF),280,205,75,80,20,180
+jk-c10-dogri,Dogri Language (डोगरी भाषा - SSE Class 10 Elective),Regional Elective,doi,Devanagari (U+0900-U+097F),280,205,75,80,20,180

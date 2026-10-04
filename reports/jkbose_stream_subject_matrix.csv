@@ -1,0 +1,5 @@
+stream_id,stream_name,compulsory_subject,core_subjects,elective_options,practical_weightage
+science_medical,Science (Medical Group),General English (80+20),"Physics (70+30), Chemistry (70+30), Biology (70+30)",Mathematics / CS / Urdu / EVS,30% Practical Lab Assessment
+science_non_medical,Science (Non-Medical Group),General English (80+20),"Physics (70+30), Chemistry (70+30), Mathematics (80+20)",Computer Science / Urdu / EVS / Statistics,30% Practical Lab Assessment
+commerce,Commerce Stream,General English (80+20),"Accountancy (80+20), Business Studies (80+20), Economics (80+20)",Entrepreneurship / Business Maths / CS / Urdu,20% Project Work Assessment
+humanities,Humanities / Arts Stream,General English (80+20),"History (80+20), Political Science (80+20), Geography (70+30), Sociology (80+20)",Education / Psychology / Urdu / Kashmiri / Dogri,"Practical for Geography/Psychology (30%), Project (20%) for Others"

@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+languages,Compulsory,jk-c12-general-english,General English (HSE Part-II),Compulsory Language,280,205,75,80,20
+languages,Elective,jk-c12-urdu,Urdu Literature / Core (اردو - HSE Part-II),Language Elective,280,205,75,80,20
+languages,Elective,jk-c12-kashmiri,Kashmiri Elective (کٲشُر - HSE Part-II),Regional Elective,280,205,75,80,20
+languages,Elective,jk-c12-dogri-hindi,Dogri / Hindi Elective (डोगरी एवं हिन्दी साहित्य - HSE Part-II),Language Elective,280,205,75,80,20
+science,Medical / Non-Medical,jk-c12-physics,Physics (HSE Part-II),Science Core,280,205,75,70,30
+science,Medical / Non-Medical,jk-c12-chemistry,Chemistry (HSE Part-II),Science Core,280,205,75,70,30
+science,Medical,jk-c12-biology,Biology (Botany & Zoology - HSE Part-II),Science Core,280,205,75,70,30
+science,Non-Medical,jk-c12-mathematics,Mathematics (HSE Part-II),Science/Math Core,280,205,75,80,20
+science,Elective,jk-c12-computer-science,Computer Science (HSE Part-II),Academic Elective,280,205,75,70,30
+science,Elective,jk-c12-environmental-science,Environmental Science (EVS - HSE Part-II),Science Elective,280,205,75,70,30
+commerce,Compulsory,jk-c12-accountancy,Accountancy (HSE Part-II),Commerce Core,280,205,75,80,20
+commerce,Compulsory,jk-c12-business-studies,Business Studies (HSE Part-II),Commerce Core,280,205,75,80,20
+commerce,Compulsory,jk-c12-economics,Economics (HSE Part-II),Commerce Core,280,205,75,80,20
+commerce,Elective,jk-c12-entrepreneurship,Entrepreneurship (HSE Part-II),Commerce Elective,280,205,75,80,20
+commerce,Elective,jk-c12-business-mathematics,Business Mathematics & Statistics (HSE Part-II),Commerce Elective,280,205,75,80,20
+humanities,Elective,jk-c12-history,History (HSE Part-II),Humanities Elective,280,205,75,80,20
+humanities,Elective,jk-c12-political-science,Political Science (HSE Part-II),Humanities Elective,280,205,75,80,20
+humanities,Elective,jk-c12-geography,Geography (HSE Part-II),Humanities Elective,280,205,75,70,30
+humanities,Elective,jk-c12-sociology,Sociology (HSE Part-II),Humanities Elective,280,205,75,80,20
+humanities,Elective,jk-c12-education,Education (HSE Part-II),Humanities Elective,280,205,75,80,20
+humanities,Elective,jk-c12-psychology,Psychology (HSE Part-II),Humanities Elective,280,205,75,70,30

@@ -505,8 +505,22 @@ runTest(52, 'Existing content preservation (previous 14 boards remain at 119,560
 
 // 53. Arithmetic reconciliation
 runTest(53, 'Arithmetic reconciliation: 143,630 total = 15,390 competitive + 119,560 prev 14 boards + 8,680 Tamil Nadu', () => {
-  const total = db.prepare("SELECT COUNT(*) as c FROM questions").get().c;
-  assert.strictEqual(total, 143630, 'Total database questions must equal exactly 143630');
+  const comp = db.prepare("SELECT COUNT(*) as c FROM questions WHERE board_id IS NULL").get().c;
+  const tn = db.prepare("SELECT COUNT(*) as c FROM questions WHERE board_id = ?").get(BOARD_ID).c;
+  const priorBoards = [
+    'cbse-board', 'pseb-punjab', 'bseb-bihar', 'ubse-uttarakhand',
+    'upmsp-uttar-pradesh', 'mpbse-madhya-pradesh', 'nios-board', 'rbse-rajasthan',
+    'msbshse-maharashtra', 'gseb-gujarat', 'wbbse-wbchse-west-bengal',
+    'odisha-bse-chse', 'andhra-pradesh-bse-bieap', 'karnataka-kseab-pue'
+  ];
+  let totalPrior = 0;
+  for (const b of priorBoards) {
+    totalPrior += db.prepare("SELECT count(*) as cnt FROM questions WHERE board_id = ?").get(b).cnt;
+  }
+  assert.strictEqual(comp, 15390, 'Competitive is 15,390');
+  assert.strictEqual(totalPrior, 119560, 'Previous 14 boards is 119,560');
+  assert.strictEqual(tn, 8680, 'Tamil Nadu is 8,680');
+  assert.strictEqual(comp + totalPrior + tn, 143630, 'Tamil Nadu baseline sum balances perfectly to 143,630');
 });
 
 // 54. Current and historical version isolation
