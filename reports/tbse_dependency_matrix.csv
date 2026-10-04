@@ -1,0 +1,3 @@
+source_stage,target_stage,dependency_rule,enforcement_level,gate_action
+Class 9,Class 10 (Madhyamik),TBSE_CLASS9_TO_CLASS10_DEPENDENCY,STRICT_INSTITUTIONAL,Block Madhyamik admit card unless Class 9 final examination cleared & enrolled at TBSE Agartala
+Class 11 (H.S. First Session),Class 12 (H.S. Second Session),TBSE_CLASS11_TO_CLASS12_DEPENDENCY,STRICT_BOARD,Block Higher Secondary registration unless Class 11 promotional exam cleared & min 70% attendance achieved across both sessions

@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,reading_time_mins,exam_duration_mins
+tr-c10-bengali,Bengali (First Language — বাংলা - 80 Theory + 20 IA),First Language (Language I),bn,Bengali (U+0980-U+09FF),280,205,75,80,20,15,180
+tr-c10-english,English (Second Language — 80 Theory + 20 IA),Second Language (Language II),en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+tr-c10-kokborok,Kokborok (First Language — ককবরক - 80 Theory + 20 IA),First Language (Language I),trp,Bengali (U+0980-U+09FF),280,205,75,80,20,15,180
+tr-c10-hindi,Hindi (First Language — हिन्दी - 80 Theory + 20 IA),First Language (Language I),hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+tr-c10-mizo,Mizo (First Language Option - 80 Theory + 20 IA),First Language Option,lus,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+tr-c10-mathematics,Mathematics (Madhyamik Compulsory - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+tr-c10-science,Science (Physical Science & Life Science - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+tr-c10-social-science,"Social Science (History, Geography, Pol Sci, Economics - 80 Theory + 20 IA)",Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+tr-c10-sanskrit,Sanskrit (Elective Subject - 80 Theory + 20 IA),Elective Subject,sa,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+tr-c10-it,Information Technology / Computer Applications (80 Theory + 20 IA),Elective / Vocational,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180

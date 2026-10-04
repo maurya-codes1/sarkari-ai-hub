@@ -1,0 +1,351 @@
+{
+  "board_id": "tbse-tripura",
+  "board_name": "Tripura Board of Secondary Education",
+  "short_name": "TBSE",
+  "authority_id": "org-tr-board-tbse",
+  "authority_name": "Tripura Board of Secondary Education, Agartala",
+  "state": "Tripura",
+  "headquarters": "Gurkhabasti, P.O. Kunjaban, Agartala, West Tripura - 799006",
+  "statutory_act": "Tripura Board of Secondary Education Act, 1973 (Tripura Act No. 12 of 1973)",
+  "established_year": 1973,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://tbse.tripura.gov.in/",
+  "official_result_url": "https://tbresults.tripura.gov.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "tbse-tripura",
+    "tbse-board",
+    "tbse"
+  ],
+  "exam_reading_time": {
+    "higher_secondary": "15 minutes reading time for theoretical papers",
+    "madhyamik": "15 minutes reading time for theoretical papers",
+    "reading_time_minutes": 15,
+    "exam_writing_duration_hours": 3
+  },
+  "curriculum_framework": {
+    "madhyamik_class_10": {
+      "examination_name": "Madhyamik Pariksha (Secondary Examination)",
+      "aggregate_marks": 500,
+      "core_subjects_count": 5,
+      "theory_marks": 80,
+      "internal_assessment_marks": 20,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "language_structure": {
+        "first_language_options": [
+          "Bengali",
+          "Kokborok",
+          "Hindi",
+          "Mizo",
+          "English"
+        ],
+        "second_language": "English (or Bengali if First Language is English)"
+      },
+      "compulsory_subjects": [
+        "tr-c10-bengali",
+        "tr-c10-english",
+        "tr-c10-mathematics",
+        "tr-c10-science",
+        "tr-c10-social-science"
+      ]
+    },
+    "hs_class_12": {
+      "examination_name": "Higher Secondary (+2 Stage) Examination",
+      "aggregate_marks": 500,
+      "papers_count": 5,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "science_practical_split": {
+        "theory_marks": 70,
+        "practical_marks": 30,
+        "theory_pass_mark": 21,
+        "practical_pass_mark": 9,
+        "combined_pass_mark": 30
+      },
+      "humanities_commerce_split": {
+        "theory_marks": 80,
+        "project_ia_marks": 20,
+        "theory_pass_mark": 24,
+        "project_pass_mark": 6,
+        "combined_pass_mark": 30
+      },
+      "language_structure": {
+        "language_1_options": [
+          "Bengali",
+          "Hindi",
+          "Kokborok",
+          "Mizo",
+          "Pali"
+        ],
+        "language_2": "English"
+      },
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Science Stream",
+          "compulsory_electives": [
+            "tr-c12-physics",
+            "tr-c12-chemistry",
+            "tr-c12-mathematics"
+          ],
+          "optional_electives": [
+            "tr-c12-biology",
+            "tr-c12-computer-science",
+            "tr-c12-statistics",
+            "tr-c12-economics"
+          ],
+          "subjects": [
+            "tr-c12-physics",
+            "tr-c12-chemistry",
+            "tr-c12-mathematics",
+            "tr-c12-biology",
+            "tr-c12-computer-science",
+            "tr-c12-statistics"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Commerce Stream",
+          "compulsory_electives": [
+            "tr-c12-accountancy",
+            "tr-c12-business-studies",
+            "tr-c12-economics"
+          ],
+          "optional_electives": [
+            "tr-c12-business-mathematics",
+            "tr-c12-computer-science",
+            "tr-c12-statistics"
+          ],
+          "subjects": [
+            "tr-c12-accountancy",
+            "tr-c12-business-studies",
+            "tr-c12-economics",
+            "tr-c12-business-mathematics"
+          ]
+        },
+        {
+          "stream_id": "humanities",
+          "stream_name": "Humanities Stream",
+          "subjects": [
+            "tr-c12-political-science",
+            "tr-c12-history",
+            "tr-c12-geography",
+            "tr-c12-education",
+            "tr-c12-sociology",
+            "tr-c12-philosophy",
+            "tr-c12-sanskrit"
+          ]
+        },
+        {
+          "stream_id": "languages",
+          "stream_name": "Languages (Language I & Language II)",
+          "subjects": [
+            "tr-c12-bengali",
+            "tr-c12-kokborok",
+            "tr-c12-english",
+            "tr-c12-hindi"
+          ]
+        },
+        {
+          "stream_id": "vocational",
+          "stream_name": "Vocational Stream",
+          "trades": [
+            "Agriculture — Gardener",
+            "Agriculture — Dairy Farmer",
+            "IT/ITeS",
+            "Electronics & Hardware",
+            "Retail"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Final Institutional Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "TBSE_CLASS9_TO_CLASS10_DEPENDENCY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Madhyamik Pariksha (Secondary Examination)",
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Promotion Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "TBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "attendance_regulation": "Calculated across Classes XI & XII (min 70%)"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Higher Secondary (+2 Stage) Examination",
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 30,
+      "practical_passing_percentage": 30,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "tbse_home": "https://tbse.tripura.gov.in/",
+    "results_portal": "https://tbresults.tripura.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": [
+      "2019-20",
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26"
+    ]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_tripura": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "TBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "TBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_terminal_public_exam": false,
+    "class_11_to_12_attendance_requirement_percent": 70
+  },
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "TBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "BOARD_SUPERVISED_INSTITUTIONAL_FINAL_EXAM",
+      "enrolment_return": "MANDATORY_REGISTRATION_RETURN_TO_TBSE_AGARTALA",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "TBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "TBSE_CLASS_XI_PROMOTION_EXAMINATION",
+      "stream_continuity": "MANDATORY",
+      "hs_two_session_attendance_percent": 70
+    }
+  },
+  "registration_rules": {
+    "madhyamik_class_10": {
+      "minimum_attendance": "75%",
+      "enrolment_return": "MANDATORY_TBSE_AGARTALA",
+      "exam_forms_window": "October - November 2026"
+    },
+    "hs_class_12": {
+      "minimum_attendance": "70% calculated across Classes XI & XII",
+      "stream_continuity": "Mandatory",
+      "exam_forms_window": "November - December 2026"
+    }
+  },
+  "curriculum_specialties": {
+    "kokborok_language_and_culture": "Kokborok language (native tongue of Borok people) standardized in Bengali and Latin scripts by TBSE",
+    "bengali_heritage": "Bengali language, literature, Rabindranath Tagore's intimate relationship with Tripura royal house",
+    "tripura_royal_history": "Manikya Dynasty history, Maharaja Bir Bikram Kishore Manikya Bahadur (modern architect of Tripura), Ujjayanta Palace, Neermahal",
+    "cultural_heritage_integration": [
+      "Kharchi Puja (Worship of Fourteen Gods / Chaturdash Devata)",
+      "Garia Puja (Traditional agrarian festival of Borok people)",
+      "Ker Puja (Sacred ritual guarding royal boundaries)",
+      "Unakoti colossal rock cut bas-relief carvings",
+      "Pilak archaeological site (Buddhist and Hindu sculptures)",
+      "Tripura Sundari Temple (Matabari, Udaipur - 51 Shaktipeethas)"
+    ],
+    "tribal_governance": "Tripura Tribal Areas Autonomous District Council (TTAADC) under Sixth Schedule of Constitution of India"
+  },
+  "language_script_registry": [
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": [
+        "Bengali First Language",
+        "Bengali Medium Instruction"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "trp",
+      "name": "Kokborok",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": [
+        "Kokborok First Language",
+        "Kokborok Literature"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": [
+        "Compulsory English",
+        "English Medium Instruction"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": [
+        "Hindi First Language",
+        "Hindi Elective"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "lus",
+      "name": "Mizo",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": [
+        "Mizo Language Option"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pi",
+      "name": "Pali",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": [
+        "Pali Language Option"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": [
+        "Sanskrit Elective"
+      ],
+      "permitted_medium": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "board_id": "tbse",
+  "board_name": "Tripura Board of Secondary Education",
+  "canonical_board_id": "tbse-tripura",
+  "short_name": "TBSE",
+  "authority_id": "org-tr-board-tbse",
+  "authority_name": "Tripura Board of Secondary Education, Agartala",
+  "state": "Tripura",
+  "headquarters": "Gurkhabasti, P.O. Kunjaban, Agartala, West Tripura - 799006",
+  "statutory_act": "Tripura Board of Secondary Education Act, 1973 (Tripura Act No. 12 of 1973)",
+  "official_website": "https://tbse.tripura.gov.in/",
+  "active": true
+}

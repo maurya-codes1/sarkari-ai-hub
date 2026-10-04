@@ -1,0 +1,73 @@
+[
+  {
+    "note_id": "note-tr-c10-core",
+    "subject_id": "tr-c10-bengali",
+    "language_id": "en",
+    "note_type": "SYLLABUS_REVISION_BUNDLE",
+    "title": "TBSE Madhyamik (Class 10) Master Revision & Examination Blueprint Guide",
+    "summary": "Authoritative architectural blueprint covering TBSE Madhyamik scheme of studies: 500 aggregate marks across 5 core subjects (80 Theory + 20 Internal Assessment), passing threshold 33%, 15 minutes reading time, institutional continuous assessment, and authentic Bengali and Kokborok curriculum integration.",
+    "content": "# TBSE Madhyamik (Class 10) Comprehensive Master Preparation Guide\n\n## 1. Statutory Architecture & Examination Scheme\nThe **Tripura Board of Secondary Education (TBSE)** conducts the annual **Madhyamik Pariksha (Secondary Examination)** under the statutory mandate of the *Tripura Board of Secondary Education Act, 1973 (Tripura Act No. 12 of 1973)*.\n\n- **Aggregate Marks:** 500 Marks across 5 compulsory subjects.\n- **Marks Distribution:** 80 Marks Theory Paper + 20 Marks Internal Assessment (IA/CCE) per subject.\n- **Reading Time:** 15 minutes dedicated reading time provided prior to the commencement of writing.\n- **Writing Duration:** 3 Hours for each 80-mark theoretical paper.\n- **Qualifying Standard:** Minimum 33% marks in each individual subject (Theory + IA combined) as well as 33% overall aggregate.\n\n## 2. Core Curriculum & Subject Combination\n1. **First Language (Language I):** Bengali (বাংলা), Kokborok (ককবরক), Hindi (हिन्दी), Mizo, or English.\n2. **Second Language (Language II):** English (or Bengali if First Language is English).\n3. **Mathematics:** Real Numbers, Polynomials, Linear Equations, Quadratic Equations, Arithmetic Progressions, Triangles, Coordinate Geometry, Trigonometry, Mensuration, Statistics and Probability.\n4. **Science:** Physical Science (Physics & Chemistry) and Life Science (Biology), covering Chemical Reactions, Acids/Bases, Metals/Non-metals, Carbon Compounds, Life Processes, Reproduction, Heredity, Light, Electricity and Natural Resources.\n5. **Social Science:** History (Nationalism in Europe & India), Geography (Resources, Agriculture, Tripura Physiography & Flora/Fauna), Political Science (Federalism, Power Sharing, TTAADC Autonomous Administration), and Economics (Development, Money & Credit).\n\n## 3. Class IX Institutional Evaluation & Enrolment Dependency\nUnder **`TBSE_CLASS9_TO_CLASS10_DEPENDENCY`**:\n- Class IX is an intermediate institutional stage evaluated under TBSE academic guidelines.\n- Continuous attendance (>= 75%) and formal school enrolment return submitted to the TBSE headquarters at Gurkhabasti, Agartala are required for Madhyamik candidate registration.\n",
+    "verification_status": "VERIFIED",
+    "version": 1,
+    "content_depth": "COMPREHENSIVE",
+    "provenance": "OFFICIAL_TBSE_SYLLABUS_REGULATION",
+    "priority_tier": "TIER_1"
+  },
+  {
+    "note_id": "note-tr-c12-science",
+    "subject_id": "tr-c12-physics",
+    "language_id": "en",
+    "note_type": "SYLLABUS_REVISION_BUNDLE",
+    "title": "TBSE Higher Secondary Class 12 Science Stream Master Guide",
+    "category": "COMPREHENSIVE_STUDY_GUIDE",
+    "summary": "Authoritative syllabus guide for TBSE Higher Secondary (+2 Stage) Science stream: 500 aggregate marks across 5 subjects, 70 Theory + 30 Practical laboratory architecture, passing rule 21 in Theory + 9 in Practical, 15 minutes reading time, covering Physics, Chemistry, Biology, Mathematics, CS and Statistics.",
+    "content": "# TBSE Higher Secondary (+2 Stage) Class 12 Science Stream Master Guide\n\n## 1. Statutory Structure & Practical Evaluation\nUnder TBSE Higher Secondary regulations, Science stream subjects with laboratory components follow an empirical split:\n- **Laboratory Subjects (Physics, Chemistry, Biology, Computer Science, Statistics):** 70 Marks Theory + 30 Marks Practical / Laboratory Evaluation.\n  - **Theory Pass Mark:** 21 out of 70 (30%).\n  - **Practical Pass Mark:** 9 out of 30 (30%).\n  - **Combined Minimum:** 30 out of 100.\n- **Mathematics:** 80 Marks Theory + 20 Marks Internal Assessment.\n- **Reading Time:** 15 minutes dedicated reading time before the 3-hour theoretical examination.\n\n## 2. Compulsory Science Electives\n- **Physics (`tr-c12-physics`):** Electrostatics, Current Electricity, Magnetism, Electromagnetic Induction, Optics, Dual Nature, Atoms, Nuclei, and Semiconductor Electronics.\n- **Chemistry (`tr-c12-chemistry`):** Solutions, Electrochemistry, Kinetics, d- & f-Block Elements, Coordination Chemistry, Haloalkanes, Alcohols/Phenols, Carbonyl Compounds, Amines and Biomolecules.\n- **Mathematics (`tr-c12-mathematics`):** Relations and Functions, Matrices, Calculus (Continuity, Differentiation, Integrals, Differential Equations), Vectors, 3D Geometry, Linear Programming and Probability.\n\n## 3. High-Scoring Laboratory & Numerical Guidelines\n1. Maintain calibrated laboratory logbooks signed by external and internal examiners.\n2. Verify dimensional consistency and SI units across all numerical derivations.\n3. Utilize the 15-minute reading time to plan sectional question selections.\n",
+    "verification_status": "VERIFIED",
+    "version": 1,
+    "content_depth": "COMPREHENSIVE",
+    "provenance": "OFFICIAL_TBSE_SYLLABUS_REGULATION",
+    "priority_tier": "TIER_1"
+  },
+  {
+    "note_id": "note-tr-c12-commerce",
+    "subject_id": "tr-c12-accountancy",
+    "language_id": "en",
+    "note_type": "SYLLABUS_REVISION_BUNDLE",
+    "title": "TBSE Higher Secondary Class 12 Commerce Stream Master Guide",
+    "summary": "Authoritative syllabus guide for TBSE Higher Secondary (+2 Stage) Commerce stream: 500 aggregate marks across 5 subjects, 80 Theory + 20 Project evaluation structure, passing rule 24 in Theory + 6 in Project, 15 minutes reading time, covering Accountancy, Business Studies, Economics, and Business Mathematics.",
+    "content": "# TBSE Higher Secondary (+2 Stage) Class 12 Commerce Stream Master Guide\n\n## 1. Examination Scheme & Project Guidelines\nTBSE Higher Secondary Commerce stream adheres to modern business management and financial reporting principles:\n- **Evaluation Split:** 80 Marks Theory Paper + 20 Marks Project / Viva Voce.\n- **Passing Threshold:** Minimum 24 marks in Theory (out of 80) and 6 marks in Project (out of 20), totaling minimum 30 marks per subject and 33% aggregate.\n- **Reading Time:** 15 minutes dedicated reading time.\n- **Writing Duration:** 3 Hours.\n\n## 2. Compulsory Commerce Electives\n- **Accountancy (`tr-c12-accountancy`):** Partnership Accounts (Admission, Retirement, Death, Dissolution), Company Accounts (Shares & Debentures), Financial Statement Analysis (Ratios, Cash Flow Statement as per AS-3).\n- **Business Studies (`tr-c12-business-studies`):** Principles and Functions of Management (Planning, Organising, Staffing, Directing, Controlling), Financial Management, Capital Markets and Marketing Management (4Ps).\n- **Economics (`tr-c12-economics`):** Macroeconomics (National Income, Money & Banking, Income Determination, Government Budget, Balance of Payments) and Indian Economic Development (Reforms, North-East Border Trade, Tripura Economy).\n- **Business Mathematics (`tr-c12-business-mathematics`):** Commercial Arithmetic, Matrices, Input-Output Models, Differential & Integral Calculus in Business, Linear Programming.\n",
+    "verification_status": "VERIFIED",
+    "version": 1,
+    "content_depth": "COMPREHENSIVE",
+    "provenance": "OFFICIAL_TBSE_SYLLABUS_REGULATION",
+    "priority_tier": "TIER_1"
+  },
+  {
+    "note_id": "note-tr-c12-humanities",
+    "subject_id": "tr-c12-political-science",
+    "language_id": "en",
+    "note_type": "SYLLABUS_REVISION_BUNDLE",
+    "title": "TBSE Higher Secondary Class 12 Humanities Stream Master Guide",
+    "summary": "Authoritative syllabus guide for TBSE Higher Secondary (+2 Stage) Humanities stream: 500 aggregate marks across 5 subjects, 80 Theory + 20 Project/IA evaluation structure, 15 minutes reading time, covering Political Science, History, Geography, Education, Sociology, Philosophy, and Sanskrit.",
+    "content": "# TBSE Higher Secondary (+2 Stage) Class 12 Humanities Stream Master Guide\n\n## 1. Humanities & Social Sciences Structure\nThe Humanities stream under TBSE provides deep critical and historical grounding in Indian society, statehood, governance, and philosophy:\n- **Theory & Project Split:** 80 Marks Theory + 20 Marks Project / IA (Geography: 70 Theory + 30 Practical).\n- **Passing Standard:** Minimum 30% combined with 30% theory component.\n- **Reading Time:** 15 minutes reading time prior to the 3-hour examination.\n\n## 2. Core Disciplines & Regional Heritage Integration\n- **Political Science (`tr-c12-political-science`):** Contemporary World Politics (Cold War Era, Global Organisations) and Politics in India since Independence (Tripura Merger 1949, 1971 Bangladesh Liberation War and Tripura's historic role, Sixth Schedule TTAADC governance).\n- **History (`tr-c12-history`):** Themes in Indian History (Harappa, Ancient Empires, Bhakti-Sufi, Mughal Economy, Colonialism, Mahatma Gandhi, Constitution) and Archaeology of Pilak & Unakoti.\n- **Geography (`tr-c12-geography`):** Human Geography, World Population, Resources, Indian Economy, Tripura Physiography, Rubber/Tea Plantations and Natural Gas reserves.\n- **Education (`tr-c12-education`):** Philosophies of Tagore, Vivekananda, Gandhi, Psychology of Learning, Educational Statistics (Mean, Median, NPC).\n- **Sociology (`tr-c12-sociology`):** Demographic Structure, Social Institutions, Tribal Communities of Tripura, Social Inequality, Sanskritisation and Modernisation.\n- **Philosophy (`tr-c12-philosophy`):** Formal Logic (Syllogisms, Induction, Mill's Methods) and Western & Indian Ethics (Utilitarianism, Kant, Gita's Nishkama Karma).\n- **Sanskrit (`tr-c12-sanskrit`):** Classical Sanskrit Grammar, Literature (Shashwati), Vedic and Classical Poetics.\n",
+    "verification_status": "VERIFIED",
+    "version": 1,
+    "content_depth": "COMPREHENSIVE",
+    "provenance": "OFFICIAL_TBSE_SYLLABUS_REGULATION",
+    "priority_tier": "TIER_1"
+  },
+  {
+    "note_id": "note-tr-c12-languages",
+    "subject_id": "tr-c12-bengali",
+    "language_id": "bn",
+    "note_type": "SYLLABUS_REVISION_BUNDLE",
+    "title": "TBSE Higher Secondary Class 12 Language & Literature Guide",
+    "summary": "Authoritative syllabus guide for TBSE Higher Secondary (+2 Stage) Language policy: Language I (Bengali, Kokborok, Hindi, Mizo, Pali) and Language II (English), covering literary canons, grammar, and 15 minutes reading time rule.",
+    "content": "# TBSE Higher Secondary (+2 Stage) Class 12 Language & Literature Guide\n\n## 1. Higher Secondary Language Policy\nUnder TBSE regulations, students must complete two compulsory language papers:\n- **Language I (Compulsory First Language):** Bengali (বাংলা), Kokborok (ককবরক), Hindi (हिन्दी), Mizo, or Pali.\n- **Language II (Compulsory Second Language):** English.\n- **Evaluation:** 80 Marks Theory + 20 Marks Project / Oral Assessment.\n- **Reading Time:** 15 minutes dedicated reading time before 3-hour examination.\n\n## 2. Language Canons & Literary Tradition\n1. **Bengali (`tr-c12-bengali`):** Prescribed modern Bengali literature (Manik Bandyopadhyay, Mahasweta Devi, Rabindranath Tagore, Jibanananda Das, Shambhu Mitra) and cultural heritage of Bengali in Tripura.\n2. **Kokborok (`tr-c12-kokborok`):** Standardized literary Kokborok of the Borok people, celebrating Tipra history, customary institutions, Garia and Kharchi rituals, and modern Kokborok poetry and dramatic prose.\n3. **English (`tr-c12-english`):** Advanced Reading Comprehension, Creative & Formal Writing Skills, Flamingo Prose and Poetry, Vistas Supplementary Reader.\n4. **Hindi (`tr-c12-hindi`):** Mass Media & Journalism writing, Aroh Prose and Poetry (Mahadevi Varma, Harivansh Rai Bachchan, Nirala) and Vitan Supplementary reader.\n",
+    "verification_status": "VERIFIED",
+    "version": 1,
+    "content_depth": "COMPREHENSIVE",
+    "provenance": "OFFICIAL_TBSE_SYLLABUS_REGULATION",
+    "priority_tier": "TIER_1"
+  }
+]

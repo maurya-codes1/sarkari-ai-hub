@@ -1,0 +1,8 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+bn,Bengali (বাংলা),Bengali,U+0980 - U+09FF,"Official State Language, Language I in Madhyamik & H.S., Primary Medium of Instruction",YES,VERIFIED_PRIMARY_LANGUAGE
+trp,Kokborok (ককবরক),Bengali / Latin,U+0980 - U+09FF,"Official Language of Borok People, Language I Option in Madhyamik & H.S., TBSE Standardized",YES,VERIFIED_STATE_INDIGENOUS_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Language II across Madhyamik & H.S., Medium of Instruction",YES,VERIFIED_COMPULSORY_LANGUAGE
+hi,Hindi (हिन्दी),Devanagari,U+0900 - U+097F,Language I Option in Madhyamik & Higher Secondary,YES,VERIFIED_NATIONAL_LANGUAGE
+lus,Mizo (Mizo ṭawng),Latin,U+0020 - U+007E,Language I Option for Jampui Hills Linguistic Community,YES,VERIFIED_REGIONAL_LANGUAGE
+pi,Pali (पालि),Devanagari,U+0900 - U+097F,Language I Option in Higher Secondary (Buddhist Studies / Heritage),YES,VERIFIED_CLASSICAL_LANGUAGE
+sa,Sanskrit (संस्कृतम्),Devanagari,U+0900 - U+097F,Elective Subject in Madhyamik and Humanities Stream in Higher Secondary,YES,VERIFIED_CLASSICAL_LANGUAGE

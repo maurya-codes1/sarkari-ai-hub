@@ -1,0 +1,5 @@
+stream_id,stream_name,language_structure,compulsory_stream_subjects,elective_options,evaluation_split
+science,Science Stream,Lang I (Bengali/Kokborok/Hindi/Mizo/Pali) + Lang II (English),"Physics, Chemistry, Mathematics","Biology, Computer Science, Statistics, Economics",Lab: 70 Th + 30 Pr (Pass: 21+9); Math: 80 Th + 20 IA
+commerce,Commerce Stream,Lang I (Bengali/Kokborok/Hindi/Mizo/Pali) + Lang II (English),"Accountancy, Business Studies, Economics","Business Mathematics, Computer Science, Statistics",80 Th + 20 Project (Pass: 24+6)
+humanities,Humanities Stream,Lang I (Bengali/Kokborok/Hindi/Mizo/Pali) + Lang II (English),3 Electives from Humanities Pool,"Political Science, History, Geography, Education, Sociology, Philosophy, Sanskrit",80 Th + 20 Project/IA (Geography: 70+30)
+vocational,Vocational Stream,Lang I + Lang II / Functional Eng,Designated Trade Theory & Practical,"Agriculture (Gardener/Dairy), IT/ITeS, Electronics, Retail",30/40 Theory + 60/70 Practical/Skill Assessment
