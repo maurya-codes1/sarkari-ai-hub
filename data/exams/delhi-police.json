@@ -1,0 +1,124 @@
+{
+  "exam_id": "delhi-police",
+  "name": "Delhi Police Executive Constable & Head Constable Examination",
+  "short_name": "Delhi Police",
+  "exam_category": "police_recruitment",
+  "exam_level": "Central / UT",
+  "conducting_body": {
+    "organization_id": "org-staff-selection-commission-ssc-on-behalf",
+    "name": "Staff Selection Commission (SSC) on behalf of Delhi Police",
+    "short_name": "SSC & Delhi Police",
+    "headquarters": "Delhi Police Headquarters, Jai Singh Road, New Delhi 110001 / SSC Block No. 12, CGO Complex, Lodhi Road, New Delhi 110003",
+    "official_website": "https://delhipolice.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-delhi-police-portal",
+      "name": "Delhi Police Official Portal",
+      "url": "https://delhipolice.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ssc-delhi-police-notice-2026",
+      "name": "SSC Delhi Police Constable (Executive) Male & Female Recruitment Notification 2026",
+      "url": "https://ssc.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-delhi-police-hc-notice-2026",
+      "name": "Delhi Police Head Constable (Ministerial / AWO-TPO) Notification 2026",
+      "url": "https://delhipolice.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "constable_cbe_exam": {
+      "stage_name": "Computer Based Examination (CBE - Objective Type Test)",
+      "duration_minutes": 90,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "Part A: General Knowledge / Current Affairs", "questions": 50, "marks": 50 },
+        { "name": "Part B: Reasoning", "questions": 25, "marks": 25 },
+        { "name": "Part C: Numerical Ability", "questions": 15, "marks": 15 },
+        { "name": "Part D: Computer Fundamentals, MS Excel, MS Word, Communication, Internet", "questions": 10, "marks": 10 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "delhi-police-general-knowledge",
+        "name": "General Knowledge, Current Affairs & Delhi Special (सामान्य ज्ञान, समसामयिकी एवं दिल्ली अध्ययन)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "History of India, Indian Freedom Struggle & Delhi Historical Monuments (Red Fort, Qutub Minar, Humayun Tomb, India Gate)",
+          "Culture, Art, Classical & Folk Dances, Fairs and Festivals of India",
+          "Geography of India and World Geography, Rivers, Soils, Climate, National Parks",
+          "Indian Economy, Economic Planning, Five Year Plans, Union Budget, NITI Aayog, Banking & GST",
+          "Indian Constitution & Polity: Preamble, Fundamental Rights, DPSP, Parliament, President, Supreme Court, NCT of Delhi Governance (Article 239AA)",
+          "Scientific Research, Space Missions (ISRO), Nuclear Energy, Everyday Physics, Chemistry & Biology",
+          "Delhi Police Administration: Motto ('Shanti, Seva, Nyaya'), Police Station Architecture, Special Cell, Traffic Police, Cyber Crime Cell",
+          "National & International Current Affairs, Summits, G20, Sports, Honors and Awards"
+        ]
+      },
+      {
+        "subject_id": "delhi-police-reasoning",
+        "name": "Reasoning Ability & Mental Aptitude (तर्कशक्ति एवं मानसिक क्षमता)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Analogies & Semantic Similarities (Verbal and Figural)",
+          "Spatial Orientation & Spatial Visualization",
+          "Visual Memory, Discrimination & Observation",
+          "Relationship Concepts & Blood Relations",
+          "Arithmetical Reasoning & Figural Classification",
+          "Arithmetic Number Series, Letter Series & Alpha-Numeric Patterns",
+          "Non-Verbal Series, Paper Folding, Paper Cutting & Embedded Figures",
+          "Coding-Decoding (Letter Shift, Number Substitution, Matrix)",
+          "Statement and Assumptions, Logical Venn Diagrams & Syllogisms"
+        ]
+      },
+      {
+        "subject_id": "delhi-police-numerical-ability",
+        "name": "Numerical Ability & Quantitative Aptitude (संख्यात्मक योग्यता)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Number Systems, Computation of Whole Numbers, Divisibility Rules & Remainder Theorem",
+          "Decimals, Fractions, Recurring Decimals, LCM & HCF",
+          "Simplification & BODMAS Operations",
+          "Percentages & Applications in Commercial Mathematics",
+          "Ratio & Proportion, Direct & Inverse Variations, Partnership",
+          "Averages, Weighted Averages & Age Problems",
+          "Simple Interest & Compound Interest (Installments)",
+          "Profit and Loss, Marked Price & Successive Discounts",
+          "Time and Work, Efficiency, Wages, Pipes and Cisterns",
+          "Time and Distance, Relative Speed, Train Problems, Boats & Streams",
+          "Mensuration 2D (Triangles, Rectangles, Circles) & 3D (Cylinder, Cone, Sphere, Cube, Cuboid)"
+        ]
+      },
+      {
+        "subject_id": "delhi-police-computer-fundamentals",
+        "name": "Computer Fundamentals, MS Office & Internet (कंप्यूटर ज्ञान, एमएस वर्ड, एक्सेल एवं इंटरनेट)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Elements of Word Processing: Basics of MS Word, Opening, Saving & Closing Documents, Text Creation, Font Formatting, Paragraph Alignment",
+          "MS Excel: Spreadsheets, Rows & Columns, Cell Referencing, Functions (SUM, AVERAGE, COUNT, MAX, MIN, IF) & Formulas",
+          "Communication & Email: Basics of E-mail, CC, BCC, Attachments, Inbox, Sent, Spam, Email Protocols (SMTP, POP3, IMAP)",
+          "Internet & Web Technologies: World Wide Web (WWW), URL Structure, HTTP, HTTPS, FTP, DNS, IP Addresses",
+          "Web Browsers & Navigation: Chrome, Edge, Firefox, Search Engines (Google, Bing), Cookies, Cache, Bookmarks",
+          "Cyber Security Basics: Antivirus, Firewalls, Phishing, Malware, Ransomware, Strong Passwords, OTP Authentication"
+        ]
+      }
+    ]
+  }
+}

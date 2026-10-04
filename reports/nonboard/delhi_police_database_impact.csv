@@ -1,0 +1,8 @@
+Metric,Before Deployment,After Deployment,Net Change,Integrity Status
+Total Database Questions,"288,620","289,820","+1,200",Verified Correct
+School Board Questions (31 Boards),"261,520","261,520",0 (Preserved 100%),Zero Tampering
+Non-Board Competitive Questions,"27,100","28,300","+1,200",Exams #1-#17 Fully Integrated
+Delhi Police Questions,0,"1,200","+1,200",Exact 300 Qs per Subject
+Delhi Police Master Bundled Notes,0,5,+5,50% Uniform Sampling (600 Qs Sampled)
+Foreign Key Violations,0,0,0,0 Violations
+PRAGMA integrity_check,ok,ok,N/A,ok

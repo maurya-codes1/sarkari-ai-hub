@@ -1,0 +1,10 @@
+Parameter,Official Specification,Portal Database Implementation
+Exam Name,Delhi Police Executive Constable & Head Constable,Delhi Police Executive Constable & Head Constable
+Exam ID / Version ID,delhi-police,ver-delhi-police-2026
+Mode of Exam,Computer Based Examination (CBE),CBT / Computer Practice Compatible
+Duration,90 Minutes (1.5 Hours),90 Minutes
+Total Questions,100 Questions,"100 Questions (Paper) / 1,200 Bank"
+Marks per Correct Answer,+1.0 Mark,+1.0 Mark
+Penalty per Incorrect Answer,-0.25 Marks (25% penalty),-0.25 Marks
+Bilingual Support,Hindi and English,Strict Dual Object JSON (en + hi)
+Option Key Balance,Balanced randomized distribution,"Exact 25.0% (75 A, 75 B, 75 C, 75 D per subject)"
