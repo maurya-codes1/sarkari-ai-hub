@@ -1,0 +1,11 @@
+subject_id,subject_name,category,lang_code,script,total_questions,mcqs,subjectives,theory_marks,ia_practical_marks,reading_time_mins,writing_time_mins
+hbse-c10-hindi,Hindi (अनिवार्य हिन्दी - क्षितिज एवं कृतिका — 80 Theory + 20 IA),First / Compulsory Language,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+hbse-c10-english,English (Language & Literature — 80 Theory + 20 IA),Second / Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+hbse-c10-mathematics,Mathematics (गणित — 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+hbse-c10-science,Science (विज्ञान — 60 Theory + 20 Practical + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,60,20,15,180
+hbse-c10-social-science,Social Science (सामाजिक विज्ञान — 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+hbse-c10-sanskrit,Sanskrit (संस्कृत - शेमुषी भाग-2 एवं व्याकरण — 80 Theory + 20 IA),Elective / Third Language,sa,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+hbse-c10-punjabi,Punjabi (ਪੰਜਾਬੀ - ਸਾਹਿਤ ਮਾਲਾ / ਵੰਨਗੀ — 80 Theory + 20 IA),Linguistic Minority Language,pa,Gurmukhi (U+0A00-U+0A7F),280,205,75,80,20,15,180
+hbse-c10-urdu,Urdu (اردو - نواۓ اردو / قواعد — 80 Theory + 20 IA),Regional Language Option,ur,Perso-Arabic (U+0600-U+06FF),280,205,75,80,20,15,180
+hbse-c10-haryana-heritage,"Haryana Heritage, Culture & Physical Education (हरियाणा संस्कृति — 80 Theory + 20 IA)",State Heritage Core,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+hbse-c10-computer-science,Computer Science & IT (कंप्यूटर विज्ञान — 60 Theory + 20 Practical + 20 IA),Vocational / Skill Elective,en,Latin (U+0020-U+007E),280,205,75,60,20,15,180

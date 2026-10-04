@@ -1,0 +1,5 @@
+stage,candidate_category,eligibility_criteria,min_attendance,portal_url,fee_structure,mandatory_documents
+Class 10 Secondary,Regular Candidate,Passed Class 9 annual exam from BSEH recognized institution,75,https://bseh.org.in/,Standard Board Exam Fee as notified,"Class 9 Marksheet, Aadhaar / PPP (Parivar Pehchan Patra), Enrolment ID"
+Class 10 Secondary,Private / Re-appear Candidate,Failed regular candidates / Compartment / Improvement,N/A,https://bseh.org.in/,Prescribed Examination Fee + Late Fee if applicable,"Previous Admit Card, Matric Roll Number, PPP ID"
+Class 12 Senior Secondary,Regular Candidate,Passed Class 11 annual exam with stream continuity,75,https://bseh.org.in/,Standard Board Exam Fee as notified,"Class 11 Marksheet, Secondary Certificate, PPP ID, Registration Card"
+Class 12 Senior Secondary,Private / Re-appear Candidate,Compartment / Improvement / Additional Subject,N/A,https://bseh.org.in/,Prescribed Examination Fee + Late Fee if applicable,"Previous Sr Secondary Admit Card, Roll Number, PPP ID"

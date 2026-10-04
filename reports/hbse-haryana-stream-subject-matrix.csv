@@ -1,0 +1,5 @@
+stream_id,stream_name,subject_count,compulsory_subjects,elective_options,signature_disciplines,evaluation_framework
+science,Senior Secondary Science,6,"Physics, Chemistry, English/Hindi","Mathematics, Biology, Computer Science, Agriculture",Agriculture (BSEH Agrarian Signature),"70 Theory + 30 Practical (23/70, 10/30 pass)"
+commerce,Senior Secondary Commerce,5,"Accountancy, Business Studies, English/Hindi","Business Economics, Entrepreneurship, Commercial Art",Commercial Art (Trade Graphics),80 Theory + 20 Project / 70 Th + 30 Pr (33% combined pass)
+humanities,Senior Secondary Humanities / Arts,6,"Hindi Core, English Core, History, Pol Science","Geography, Public Administration, Sociology, Physical Education",Public Administration (Senior Secondary Flagship) & Physical Education (Sports Capital),80 Theory + 20 IA / 70 Th + 30 Pr (33% pass)
+languages,Senior Secondary Languages & Literature,4,"Hindi Core, English Core","Punjabi Elective, Sanskrit Elective",Punjabi (Linguistic Minority) & Sanskrit (Vedic Heritage),80 Theory + 20 IA (33% combined pass)

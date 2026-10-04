@@ -1,0 +1,250 @@
+{
+  "board_id": "hbse-haryana",
+  "board_name": "Board of School Education Haryana",
+  "short_name": "HBSE",
+  "official_abbreviation": "BSEH",
+  "authority_id": "org-hr-board-bseh",
+  "authority_name": "Board of School Education Haryana, Hansi Road, Bhiwani",
+  "state": "Haryana",
+  "headquarters": "Hansi Road, Bhiwani, Haryana - 127021",
+  "statutory_act": "Haryana Board of School Education Act, 1969 (Haryana Act No. 11 of 1969)",
+  "established_year": 1969,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://bseh.org.in/",
+  "official_result_url": "https://bseh.org.in/all-results",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "hbse-haryana",
+    "hbse-board",
+    "hbse",
+    "bseh"
+  ],
+  "exam_reading_time": {
+    "senior_secondary": "15 minutes dedicated reading time for question paper verification",
+    "secondary": "15 minutes dedicated reading time for question paper verification",
+    "reading_time_minutes": 15,
+    "exam_writing_duration_hours": 3
+  },
+  "curriculum_framework": {
+    "secondary_class_10": {
+      "examination_name": "Secondary Examination (Class X)",
+      "aggregate_marks": 500,
+      "core_subjects_count": 5,
+      "theory_marks": 80,
+      "internal_assessment_marks": 20,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "language_structure": {
+        "first_language": "Hindi (Compulsory First Language)",
+        "second_language": "English (Compulsory Second Language)",
+        "third_language_options": [
+          "Sanskrit",
+          "Punjabi",
+          "Urdu"
+        ]
+      },
+      "compulsory_subjects": [
+        "hbse-c10-hindi",
+        "hbse-c10-english",
+        "hbse-c10-mathematics",
+        "hbse-c10-science",
+        "hbse-c10-social-science"
+      ],
+      "elective_additional_subjects": [
+        "hbse-c10-sanskrit",
+        "hbse-c10-punjabi",
+        "hbse-c10-urdu",
+        "hbse-c10-haryana-heritage",
+        "hbse-c10-computer-science"
+      ]
+    },
+    "senior_secondary_class_12": {
+      "examination_name": "Senior Secondary Examination (Class XII)",
+      "aggregate_marks": 500,
+      "papers_count": 5,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "science_practical_split": {
+        "theory_marks": 70,
+        "practical_marks": 30,
+        "theory_pass_mark": 23,
+        "practical_pass_mark": 10,
+        "combined_pass_mark": 33
+      },
+      "commerce_humanities_split": {
+        "theory_marks": 80,
+        "internal_project_marks": 20,
+        "theory_pass_mark": 26,
+        "project_pass_mark": 7,
+        "combined_pass_mark": 33
+      },
+      "language_structure": {
+        "core_language_1": "Hindi Core / Elective",
+        "core_language_2": "English Core / Elective",
+        "optional_languages": ["Punjabi", "Sanskrit", "Urdu"]
+      },
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Senior Secondary Science Stream",
+          "compulsory_electives": [
+            "hbse-c12-physics",
+            "hbse-c12-chemistry"
+          ],
+          "optional_electives": [
+            "hbse-c12-mathematics",
+            "hbse-c12-biology",
+            "hbse-c12-computer-science",
+            "hbse-c12-agriculture"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Senior Secondary Commerce Stream",
+          "compulsory_electives": [
+            "hbse-c12-accountancy",
+            "hbse-c12-business-studies"
+          ],
+          "optional_electives": [
+            "hbse-c12-economics-commerce",
+            "hbse-c12-entrepreneurship",
+            "hbse-c12-commercial-art"
+          ]
+        },
+        {
+          "stream_id": "humanities",
+          "stream_name": "Senior Secondary Humanities / Arts Stream",
+          "electives": [
+            "hbse-c12-history",
+            "hbse-c12-political-science",
+            "hbse-c12-geography",
+            "hbse-c12-public-administration",
+            "hbse-c12-sociology",
+            "hbse-c12-physical-education"
+          ]
+        },
+        {
+          "stream_id": "languages",
+          "stream_name": "Senior Secondary Languages & Literature Stream",
+          "languages": [
+            "hbse-c12-hindi-core",
+            "hbse-c12-english-core",
+            "hbse-c12-punjabi",
+            "hbse-c12-sanskrit"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Annual Institutional Examination",
+      "terminal_public_exam": false,
+      "exam_mode": "SCHOOL_LEVEL_ANNUAL_EVALUATION",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "administering_body": "Affiliated Schools under BSEH Curriculum",
+      "dependency_rule": "BSEH_CLASS9_TO_CLASS10_DEPENDENCY",
+      "pass_mark_percent": 33
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary Examination (Class X)",
+      "terminal_public_exam": true,
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Annual Institutional Examination",
+      "terminal_public_exam": false,
+      "exam_mode": "SCHOOL_LEVEL_ANNUAL_EVALUATION",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "administering_body": "Affiliated Senior Secondary Schools under BSEH Curriculum",
+      "dependency_rule": "BSEH_CLASS11_TO_CLASS12_DEPENDENCY",
+      "attendance_regulation": "Minimum 75% attendance across Classes XI and XII",
+      "pass_mark_percent": 33
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Senior Secondary Examination (Class XII)",
+      "terminal_public_exam": true,
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 33,
+      "practical_passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    }
+  },
+  "specialized_pathways": {
+    "haryana_open_school": {
+      "pathway_name": "Haryana Open School (HOS)",
+      "established_year": 1994,
+      "levels": ["Secondary (Matric)", "Senior Secondary (10+2)"],
+      "curriculum_framework": "Equated with BSEH formal curricula with flexible credits & on-demand examinations",
+      "target_group": "Out-of-school youth, adult learners, rural candidates, and skill aspirants"
+    },
+    "teacher_education": {
+      "pathway_name": "Diploma in Elementary Education (D.El.Ed.)",
+      "target_group": "Pre-service primary teacher training across Haryana DIETs & private institutions"
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "bseh_home": "https://bseh.org.in/",
+    "results_portal": "https://bseh.org.in/all-results",
+    "school_education_dept": "https://schooleducationharyana.gov.in/",
+    "scert_haryana": "https://scertharyana.gov.in/",
+    "hos_portal": "https://bseh.org.in/haryana-open-school"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": [
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26"
+    ]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_haryana": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "BSEH_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_exam_mode": "SCHOOL_LEVEL_ANNUAL",
+    "class_11_to_12_dependency": "BSEH_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_exam_mode": "SCHOOL_LEVEL_ANNUAL",
+    "class_11_to_12_attendance_requirement_percent": 75
+  },
+  "registration_rules": {
+    "secondary_class_10": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_INSTITUTION",
+      "min_attendance": 75,
+      "class_9_pass_prerequisite": true,
+      "portal": "https://bseh.org.in/"
+    },
+    "senior_secondary_class_12": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_SENIOR_SECONDARY_SCHOOL",
+      "min_attendance": 75,
+      "class_11_pass_prerequisite": true,
+      "stream_continuity": true,
+      "portal": "https://bseh.org.in/"
+    }
+  }
+}

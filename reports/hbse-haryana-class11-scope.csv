@@ -1,0 +1,2 @@
+stage,exam_name,administering_body,exam_mode,dependency_rule,attendance_requirement,pass_criteria,terminal_status,scope_status
+Class 11,Class XI Annual Institutional Examination,Affiliated Senior Secondary Schools under BSEH Curriculum,SCHOOL_LEVEL_ANNUAL_EVALUATION,BSEH_CLASS11_TO_CLASS12_DEPENDENCY,Minimum 75% attendance across Classes XI & XII,Minimum 33% marks in theory and practical separately,Prerequisite for Class 12 Senior Secondary Registration,ACADEMIC_SUPPORT_ONLY

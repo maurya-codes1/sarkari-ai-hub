@@ -1,0 +1,6 @@
+lang_code,language_name,role,script,direction,associated_subjects,status
+hi,Hindi,Official State Language of Haryana,Devanagari (U+0900-U+097F),LTR,"hbse-c10-hindi, hbse-c12-hindi-core, hbse-c10-haryana-heritage, hbse-c12-agriculture, hbse-c12-history, hbse-c12-political-science, hbse-c12-geography, hbse-c12-public-administration, hbse-c12-sociology, hbse-c12-physical-education, hbse-c12-commercial-art",Statewide Compulsory & Core Medium
+en,English,Compulsory Language & Technical Medium,Latin (U+0020-U+007E),LTR,"hbse-c10-english, hbse-c12-english-core, hbse-c10-mathematics, hbse-c10-science, hbse-c10-social-science, hbse-c10-computer-science, hbse-c12-physics, hbse-c12-chemistry, hbse-c12-mathematics, hbse-c12-biology, hbse-c12-computer-science, hbse-c12-accountancy, hbse-c12-business-studies, hbse-c12-economics-commerce, hbse-c12-entrepreneurship",Science & Commerce Standard Medium
+sa,Sanskrit,Ancient Classical & Cultural Heritage,Devanagari (U+0900-U+097F),LTR,"hbse-c10-sanskrit, hbse-c12-sanskrit",Land of Vedas & Gita - Statewide Elective
+pa,Punjabi,Haryana Linguistic Minority Language,Gurmukhi (U+0A00-U+0A7F),LTR,"hbse-c10-punjabi, hbse-c12-punjabi","Ambala, Kurukshetra, Sirsa, Fatehabad, Karnal Belt"
+ur,Urdu,Regional Linguistic Minority Language,Perso-Arabic (U+0600-U+06FF),RTL,hbse-c10-urdu,Mewat / Nuh Cultural Region Option

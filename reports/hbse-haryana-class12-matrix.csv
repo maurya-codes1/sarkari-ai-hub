@@ -1,0 +1,22 @@
+subject_id,subject_name,stream,lang_code,script,total_questions,mcqs,subjectives,theory_marks,practical_project_marks,theory_pass,practical_pass,reading_time_mins,writing_time_mins
+hbse-c12-physics,Physics (भौतिक विज्ञान),Science,en,Latin (U+0020-U+007E),280,205,75,70,30,23,10,15,180
+hbse-c12-chemistry,Chemistry (रसायन विज्ञान),Science,en,Latin (U+0020-U+007E),280,205,75,70,30,23,10,15,180
+hbse-c12-mathematics,Mathematics (गणित),Science,en,Latin (U+0020-U+007E),280,205,75,80,20,26,7,15,180
+hbse-c12-biology,Biology (जीव विज्ञान),Science,en,Latin (U+0020-U+007E),280,205,75,70,30,23,10,15,180
+hbse-c12-computer-science,Computer Science (कंप्यूटर विज्ञान),Science,en,Latin (U+0020-U+007E),280,205,75,70,30,23,10,15,180
+hbse-c12-agriculture,Agriculture (कृषि विज्ञान - Haryana Signature),Science,hi,Devanagari (U+0900-U+097F),280,205,75,70,30,23,10,15,180
+hbse-c12-accountancy,Accountancy (लेखाशास्त्र),Commerce,en,Latin (U+0020-U+007E),280,205,75,80,20,26,7,15,180
+hbse-c12-business-studies,Business Studies (व्यवसाय अध्ययन),Commerce,en,Latin (U+0020-U+007E),280,205,75,80,20,26,7,15,180
+hbse-c12-economics-commerce,Business Economics (व्यावसायिक अर्थशास्त्र),Commerce,en,Latin (U+0020-U+007E),280,205,75,80,20,26,7,15,180
+hbse-c12-entrepreneurship,Entrepreneurship (उद्यमिता),Commerce,en,Latin (U+0020-U+007E),280,205,75,70,30,23,10,15,180
+hbse-c12-commercial-art,Commercial Art (व्यावसायिक कला),Commerce,hi,Devanagari (U+0900-U+097F),280,205,75,70,30,23,10,15,180
+hbse-c12-history,History (इतिहास),Humanities,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,26,7,15,180
+hbse-c12-political-science,Political Science (राजनीति विज्ञान),Humanities,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,26,7,15,180
+hbse-c12-geography,Geography (भूगोल),Humanities,hi,Devanagari (U+0900-U+097F),280,205,75,70,30,23,10,15,180
+hbse-c12-public-administration,Public Administration (लोक प्रशासन - Signature),Humanities,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,26,7,15,180
+hbse-c12-sociology,Sociology (समाजशास्त्र),Humanities,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,26,7,15,180
+hbse-c12-physical-education,Physical Education (शारीरिक शिक्षा - Sports Capital),Humanities,hi,Devanagari (U+0900-U+097F),280,205,75,70,30,23,10,15,180
+hbse-c12-hindi-core,Hindi Core (अनिवार्य हिन्दी कोर),Languages,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,26,7,15,180
+hbse-c12-english-core,English Core (Compulsory English),Languages,en,Latin (U+0020-U+007E),280,205,75,80,20,26,7,15,180
+hbse-c12-punjabi,Punjabi Elective (ਪੰਜਾਬੀ ਚੋਣਵੀਂ),Languages,pa,Gurmukhi (U+0A00-U+0A7F),280,205,75,80,20,26,7,15,180
+hbse-c12-sanskrit,Sanskrit (संस्कृत साहित्य एवं व्याकरण),Languages,sa,Devanagari (U+0900-U+097F),280,205,75,80,20,26,7,15,180

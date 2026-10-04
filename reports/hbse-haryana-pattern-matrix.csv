@@ -1,0 +1,9 @@
+stage,stream,subject_type,theory_marks,practical_project_marks,internal_assessment,total_marks,passing_threshold,reading_time_mins,exam_duration_hours
+Class 10,General,"Non-Practical (Math, Social, Hindi, Eng, Sanskrit)",80,0,20,100,33% combined,15,3
+Class 10,General,"Practical Core (Science, Computer Science)",60,20,20,100,33% combined,15,3
+Class 12,Science,"Practical Science (Physics, Chem, Bio, CS, Agri)",70,30,0,100,23/70 Th + 10/30 Pr (33% each),15,3
+Class 12,Science,Mathematics,80,0,20,100,33% combined,15,3
+Class 12,Commerce,"Theory (Accountancy, Business Studies, Economics)",80,20,0,100,33% combined,15,3
+Class 12,Commerce,"Practical (Entrepreneurship, Commercial Art)",70,30,0,100,23/70 Th + 10/30 Pr,15,3
+Class 12,Humanities,"Theory (History, Pol Sci, Pub Admin, Sociology, Langs)",80,0,20,100,33% combined,15,3
+Class 12,Humanities,"Practical (Geography, Physical Education)",70,30,0,100,23/70 Th + 10/30 Pr,15,3
