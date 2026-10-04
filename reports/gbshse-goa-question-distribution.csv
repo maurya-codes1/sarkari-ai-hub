@@ -1,0 +1,32 @@
+stage,subject_id,subject_name,total_questions,mcqs,subjectives,provenance
+Class 10,goa-c10-english,English (Language & Literature — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-konkani,Konkani (कोंकणी भाषा व साहित्य — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-marathi,Marathi (मराठी भाषा व साहित्य — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-hindi,Hindi (हिन्दी भाषा व साहित्य — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-mathematics,Mathematics (Standard / Basic — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-science,"Science (Physics, Chemistry, Biology — 80 Theory + 20 IA)",280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-social-science,"Social Science (History, Civics, Geography, Economics — 80 Theory + 20 IA)",280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-information-technology,Information Technology (IT-ITeS — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-environmental-studies,Environmental Studies (EVS & Disaster Management — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 10,goa-c10-health-physical-education,Health & Physical Education (Sports Science — 80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-physics,Physics (70 Theory + 30 Practical - Compulsory Science Elective),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-chemistry,Chemistry (70 Theory + 30 Practical - Compulsory Science Elective),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-mathematics,Mathematics (80 Theory + 20 IA - Compulsory Science Elective),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-biology,Biology (70 Theory + 30 Practical - GBSHSE HSSC),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-computer-science,Computer Science (70 Theory + 30 Practical - GBSHSE HSSC),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-geology,Geology (70 Theory + 30 Practical - Signature Goa Subject),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-accountancy,Accountancy (80 Theory + 20 Project - Compulsory Commerce Elective),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-business-studies,Business Studies (80 Theory + 20 Project - Compulsory Commerce Elective),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-economics,Economics (80 Theory + 20 Project - Compulsory Commerce Elective),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-banking,Banking & Secretarial Practice (80 Theory + 20 Project),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-commercial-maths,Commercial Mathematics & Statistics (80 Theory + 20 IA),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-history,History (80 Theory + 20 Project/IA - Themes & Goa Liberation),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-political-science,Political Science (80 Theory + 20 Project/IA - Contemporary World & India),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-sociology,Sociology (80 Theory + 20 Project/IA - Indian Society & Communidades),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-psychology,Psychology (70 Theory + 30 Practical - Human Behaviour),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-geography,Geography (70 Theory + 30 Practical - Human Geography & Goa Ecology),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-philosophy,Philosophy & Logic (80 Theory + 20 Project/IA - Classical Ethics),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-english,English Core (80 Theory + 20 Project/IA - Compulsory Language),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-konkani,Konkani Sahitya (कोंकणी - 80 Theory + 20 Project/IA - Modern Indian Language),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-marathi,Marathi Sahitya (मराठी - 80 Theory + 20 Project/IA - Modern Indian Language),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK
+Class 12,goa-c12-hindi,Hindi Sahitya (हिन्दी - 80 Theory + 20 Project/IA - Modern Indian Language),280,205,75,OFFICIAL_GBSHSE_CURRICULUM_BANK

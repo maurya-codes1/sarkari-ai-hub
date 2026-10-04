@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,reading_time_mins,exam_duration_mins
+goa-c10-english,English (Language & Literature — 80 Theory + 20 IA),First / Second Language,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+goa-c10-konkani,Konkani (कोंकणी भाषा व साहित्य — 80 Theory + 20 IA),Official State Language (L1/L2/L3),kok,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+goa-c10-marathi,Marathi (मराठी भाषा व साहित्य — 80 Theory + 20 IA),Language Option (L1/L2/L3),mr,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+goa-c10-hindi,Hindi (हिन्दी भाषा व साहित्य — 80 Theory + 20 IA),Compulsory Option (L2/L3),hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+goa-c10-mathematics,Mathematics (Standard / Basic — 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+goa-c10-science,"Science (Physics, Chemistry, Biology — 80 Theory + 20 IA)",Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+goa-c10-social-science,"Social Science (History, Civics, Geography, Economics — 80 Theory + 20 IA)",Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+goa-c10-information-technology,Information Technology (IT-ITeS — 80 Theory + 20 IA),Vocational / Elective,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+goa-c10-environmental-studies,Environmental Studies (EVS & Disaster Management — 80 Theory + 20 IA),Core Elective,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+goa-c10-health-physical-education,Health & Physical Education (Sports Science — 80 Theory + 20 IA),Activity / Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180

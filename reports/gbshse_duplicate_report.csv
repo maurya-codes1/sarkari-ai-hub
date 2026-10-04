@@ -1,0 +1,5 @@
+check_name,violation_count,status
+Primary Key Uniqueness (question_id),0,PASSED_0_VIOLATIONS
+Version ID Uniqueness (version_id),0,PASSED_0_VIOLATIONS
+Cross-Board Collision with Prior 25 Boards,0,PASSED_0_COLLISIONS
+Asset Internal Duplicate in Full Exam Pools,0,PASSED_0_DUPLICATES

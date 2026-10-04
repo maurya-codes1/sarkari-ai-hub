@@ -1,0 +1,12 @@
+{
+  "$schema": "./schema.json",
+  "board_id": "gbshse",
+  "canonical_board_id": "gbshse-goa",
+  "board_name": "Goa Board of Secondary and Higher Secondary Education",
+  "short_name": "GBSHSE",
+  "state": "Goa",
+  "authority_id": "org-ga-board-gbshse",
+  "redirect_to": "gbshse-goa",
+  "description": "Alias pointer for Goa Board of Secondary and Higher Secondary Education (GBSHSE)",
+  "active": true
+}

@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 11,Non-terminal institutional evaluation stage
+administering_body,Goa Board of Secondary and Higher Secondary Education (GBSHSE),Regulated under GBSHSE Higher Secondary Regulations
+terminal_public_exam,FALSE,Evaluated via institutional Class XI Promotional Examination
+dependency_rule,GBSHSE_CLASS11_TO_CLASS12_DEPENDENCY,School promotion examination + stream continuity + enrolment return to GBSHSE
+minimum_attendance,75%,Minimum 75% cumulative attendance across Classes XI and XII
+full_exam_mode,BLOCKED,Full exam simulation blocked for Class 11; practice/revision permitted
+questions_ingested,0,Strict isolation: zero fake public board questions generated for Class 11

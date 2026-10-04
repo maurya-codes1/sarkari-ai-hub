@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 9,Non-terminal institutional evaluation stage
+administering_body,Goa Board of Secondary and Higher Secondary Education (GBSHSE),Regulated under GBSHSE Secondary Regulations
+terminal_public_exam,FALSE,Evaluated via board-supervised institutional Class IX Annual Examination
+dependency_rule,GBSHSE_CLASS9_TO_CLASS10_DEPENDENCY,School institutional examination + Enrolment Return submission to GBSHSE Alto Betim
+minimum_attendance,75%,Mandatory 75% attendance in Class 9 for SSC registration eligibility
+full_exam_mode,BLOCKED,Full exam simulation prevented for Class 9; practice/revision permitted
+questions_ingested,0,Strict isolation: zero fake public board questions generated for Class 9

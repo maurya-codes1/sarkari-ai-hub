@@ -1,0 +1,26 @@
+stream_id,stream_name,subject_id,subject_name,evaluation_structure,curriculum_role
+science,Science Stream,goa-c12-physics,Physics,Theory 70 + Practical 30,Mandatory Science Core
+science,Science Stream,goa-c12-chemistry,Chemistry,Theory 70 + Practical 30,Mandatory Science Core
+science,Science Stream,goa-c12-mathematics,Mathematics,Theory 80 + IA 20,Mandatory Science Core
+science,Science Stream,goa-c12-biology,Biology,Theory 70 + Practical 30,Elective Science Option
+science,Science Stream,goa-c12-computer-science,Computer Science,Theory 70 + Practical 30,Elective Science Option
+science,Science Stream,goa-c12-geology,Geology,Theory 70 + Practical 30,Signature Goa Elective
+commerce,Commerce Stream,goa-c12-accountancy,Accountancy,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream,goa-c12-business-studies,Business Studies,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream,goa-c12-economics,Economics,Theory 80 + Project 20,Mandatory Commerce Core
+commerce,Commerce Stream,goa-c12-banking,Banking & Secretarial Practice,Theory 80 + Project 20,Elective Commerce Option
+commerce,Commerce Stream,goa-c12-commercial-maths,Commercial Mathematics,Theory 80 + IA 20,Elective Commerce Option
+humanities,Humanities / Arts Stream,goa-c12-history,History,Theory 80 + Project 20,Elective Humanities Option
+humanities,Humanities / Arts Stream,goa-c12-political-science,Political Science,Theory 80 + Project 20,Elective Humanities Option
+humanities,Humanities / Arts Stream,goa-c12-sociology,Sociology,Theory 80 + Project 20,Elective Humanities Option
+humanities,Humanities / Arts Stream,goa-c12-psychology,Psychology,Theory 70 + Practical 30,Elective Humanities Option
+humanities,Humanities / Arts Stream,goa-c12-geography,Geography,Theory 70 + Practical 30,Elective Humanities Option
+humanities,Humanities / Arts Stream,goa-c12-philosophy,Philosophy & Logic,Theory 80 + Project 20,Elective Humanities Option
+languages,Languages (MIL & Core),goa-c12-english,English Core,Theory 80 + IA 20,Compulsory Core Language
+languages,Languages (MIL & Core),goa-c12-konkani,Konkani Sahitya,Theory 80 + IA 20,Modern Indian Language Option
+languages,Languages (MIL & Core),goa-c12-marathi,Marathi Sahitya,Theory 80 + IA 20,Modern Indian Language Option
+languages,Languages (MIL & Core),goa-c12-hindi,Hindi Sahitya,Theory 80 + IA 20,Modern Indian Language Option
+vocational,Vocational Stream,nsqf-auto,Automobile Technology,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Vocational Stream,nsqf-health,Healthcare & Paramedical,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Vocational Stream,nsqf-tourism,Tourism & Hospitality,Theory 50 + Practical 50,Career Vocational Stream
+vocational,Vocational Stream,nsqf-it,IT & Computer Networking,Theory 50 + Practical 50,Career Vocational Stream

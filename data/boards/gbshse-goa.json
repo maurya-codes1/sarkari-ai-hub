@@ -1,0 +1,285 @@
+{
+  "board_id": "gbshse-goa",
+  "board_name": "Goa Board of Secondary and Higher Secondary Education",
+  "short_name": "GBSHSE",
+  "authority_id": "org-ga-board-gbshse",
+  "authority_name": "Goa Board of Secondary and Higher Secondary Education, Alto Betim, Bardez, Goa",
+  "state": "Goa",
+  "headquarters": "Alto Betim, Bardez, Goa - 403521",
+  "statutory_act": "Goa Board of Secondary and Higher Secondary Education Act, 1975 (Goa Act No. 13 of 1975)",
+  "established_year": 1975,
+  "jurisdiction": "State",
+  "board_type": "State",
+  "official_website": "https://gbshse.in/",
+  "official_result_url": "https://results.gbshse.org/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "gbshse-goa",
+    "gbshse-board",
+    "gbshse"
+  ],
+  "exam_reading_time": {
+    "higher_secondary": "15 minutes dedicated reading time for theoretical papers",
+    "secondary_ssc": "15 minutes dedicated reading time for theoretical papers",
+    "reading_time_minutes": 15,
+    "exam_writing_duration_hours": 3
+  },
+  "curriculum_framework": {
+    "ssc_class_10": {
+      "examination_name": "Secondary School Certificate (SSC) Examination",
+      "aggregate_marks": 600,
+      "core_subjects_count": 6,
+      "theory_marks": 80,
+      "internal_assessment_marks": 20,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "language_structure": {
+        "first_language_options": [
+          "English",
+          "Marathi",
+          "Konkani",
+          "Urdu"
+        ],
+        "second_language_options": [
+          "Hindi",
+          "English",
+          "Marathi",
+          "Konkani"
+        ],
+        "third_language_options": [
+          "Hindi",
+          "Konkani",
+          "Marathi",
+          "Sanskrit",
+          "French",
+          "Portuguese"
+        ]
+      },
+      "compulsory_subjects": [
+        "goa-c10-english",
+        "goa-c10-konkani",
+        "goa-c10-marathi",
+        "goa-c10-hindi",
+        "goa-c10-mathematics",
+        "goa-c10-science",
+        "goa-c10-social-science",
+        "goa-c10-information-technology",
+        "goa-c10-environmental-studies",
+        "goa-c10-health-physical-education"
+      ]
+    },
+    "hssc_class_12": {
+      "examination_name": "Higher Secondary School Certificate (HSSC) Examination",
+      "aggregate_marks": 600,
+      "papers_count": 6,
+      "passing_percentage": 33,
+      "duration_hours": 3,
+      "reading_time_minutes": 15,
+      "science_practical_split": {
+        "theory_marks": 70,
+        "practical_marks": 30,
+        "theory_pass_mark": 23,
+        "practical_pass_mark": 10,
+        "combined_pass_mark": 33
+      },
+      "humanities_commerce_split": {
+        "theory_marks": 80,
+        "project_ia_marks": 20,
+        "theory_pass_mark": 26,
+        "project_pass_mark": 7,
+        "combined_pass_mark": 33
+      },
+      "language_structure": {
+        "language_1": "English (Compulsory / Core)",
+        "language_2_options": [
+          "Konkani",
+          "Marathi",
+          "Hindi",
+          "French",
+          "Portuguese"
+        ]
+      },
+      "streams": [
+        {
+          "stream_id": "science",
+          "stream_name": "Science Stream",
+          "compulsory_electives": [
+            "goa-c12-physics",
+            "goa-c12-chemistry",
+            "goa-c12-mathematics"
+          ],
+          "optional_electives": [
+            "goa-c12-biology",
+            "goa-c12-computer-science",
+            "goa-c12-geology"
+          ],
+          "subjects": [
+            "goa-c12-physics",
+            "goa-c12-chemistry",
+            "goa-c12-mathematics",
+            "goa-c12-biology",
+            "goa-c12-computer-science",
+            "goa-c12-geology"
+          ]
+        },
+        {
+          "stream_id": "commerce",
+          "stream_name": "Commerce Stream",
+          "compulsory_electives": [
+            "goa-c12-accountancy",
+            "goa-c12-business-studies",
+            "goa-c12-economics"
+          ],
+          "optional_electives": [
+            "goa-c12-banking",
+            "goa-c12-commercial-maths"
+          ],
+          "subjects": [
+            "goa-c12-accountancy",
+            "goa-c12-business-studies",
+            "goa-c12-economics",
+            "goa-c12-banking",
+            "goa-c12-commercial-maths"
+          ]
+        },
+        {
+          "stream_id": "humanities",
+          "stream_name": "Humanities / Arts Stream",
+          "subjects": [
+            "goa-c12-history",
+            "goa-c12-political-science",
+            "goa-c12-sociology",
+            "goa-c12-psychology",
+            "goa-c12-geography",
+            "goa-c12-philosophy"
+          ]
+        },
+        {
+          "stream_id": "languages",
+          "stream_name": "Modern Indian Languages (MIL & Core English)",
+          "subjects": [
+            "goa-c12-english",
+            "goa-c12-konkani",
+            "goa-c12-marathi",
+            "goa-c12-hindi"
+          ]
+        },
+        {
+          "stream_id": "vocational",
+          "stream_name": "Vocational Stream",
+          "programmes": [
+            "Automobile Technology",
+            "Health Care & Paramedical",
+            "Tourism & Hospitality Management",
+            "IT & Computer Networking",
+            "Horticulture & Agriculture"
+          ]
+        }
+      ]
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Annual Institutional Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "GBSHSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "scope": "ACADEMIC_SUPPORT_ONLY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary School Certificate (SSC) Examination",
+      "terminal_public_exam": true,
+      "aggregate_marks": 600,
+      "passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Promotional Institutional Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "GBSHSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "scope": "ACADEMIC_SUPPORT_ONLY",
+      "attendance_regulation": "Calculated across Class XI & XII (min 75%)"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Higher Secondary School Certificate (HSSC) Examination",
+      "terminal_public_exam": true,
+      "aggregate_marks": 600,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 33,
+      "practical_passing_percentage": 33,
+      "reading_time_minutes": 15,
+      "exam_duration_hours": 3
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "gbshse_home": "https://gbshse.in/",
+    "secondary_portal": "https://gbshse.in/secondary/",
+    "higher_secondary_portal": "https://gbshse.in/higher-secondary/",
+    "results_portal": "https://results.gbshse.org/",
+    "education_department": "https://education.goa.gov.in/",
+    "scert_goa": "https://scert.goa.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": [
+      "2020-21",
+      "2021-22",
+      "2022-23",
+      "2023-24",
+      "2024-25",
+      "2025-26"
+    ]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_goa": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "GBSHSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "GBSHSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_terminal_public_exam": false,
+    "class_11_to_12_attendance_requirement_percent": 75
+  },
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "GBSHSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "BOARD_SUPERVISED_INSTITUTIONAL_FINAL_EXAM",
+      "enrolment_return": "MANDATORY_REGISTRATION_RETURN_TO_GBSHSE_ALTO_BETIM",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "GBSHSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "GBSHSE_CLASS_XI_PROMOTIONAL_EXAMINATION",
+      "stream_continuity": "MANDATORY",
+      "hssc_two_session_attendance_percent": 75
+    }
+  },
+  "registration_rules": {
+    "ssc_class_10": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_INSTITUTION",
+      "min_attendance": 75,
+      "cce_compliance": true,
+      "portal": "https://gbshse.in/"
+    },
+    "hssc_class_12": {
+      "mode": "ONLINE_PORTAL_AFFILIATED_HIGHER_SECONDARY",
+      "min_attendance": 75,
+      "internal_practical_prerequisite": true,
+      "portal": "https://gbshse.in/"
+    }
+  }
+}

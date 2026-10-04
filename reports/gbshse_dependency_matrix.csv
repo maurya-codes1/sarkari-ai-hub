@@ -1,0 +1,3 @@
+dependency_code,academic_transition,intermediate_mode,prerequisites,isolation_enforcement
+GBSHSE_CLASS9_TO_CLASS10_DEPENDENCY,Class 9 to Class 10 (Secondary SSC),Non-terminal institutional evaluation,Continuous 75% attendance + CCE submission + Formal Enrolment Return to GBSHSE Alto Betim,Strict isolation: Class 9 marked ACADEMIC_SUPPORT_ONLY with 0 fake board questions
+GBSHSE_CLASS11_TO_CLASS12_DEPENDENCY,Class 11 to Class 12 (Higher Secondary HSSC),Non-terminal institutional promotional exam,75% attendance across Classes XI and XII + stream continuity + Enrolment Return to GBSHSE,Strict isolation: Class 11 marked ACADEMIC_SUPPORT_ONLY with 0 fake board questions

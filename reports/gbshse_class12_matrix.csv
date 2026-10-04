@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks,reading_time_mins,exam_duration_mins
+science,Core_Compulsory,goa-c12-physics,Physics (70 Theory + 30 Practical - Compulsory Science Elective),Science Core,280,205,75,70,30,15,180
+science,Core_Compulsory,goa-c12-chemistry,Chemistry (70 Theory + 30 Practical - Compulsory Science Elective),Science Core,280,205,75,70,30,15,180
+science,Core_Compulsory,goa-c12-mathematics,Mathematics (80 Theory + 20 IA - Compulsory Science Elective),Science Core,280,205,75,80,20,15,180
+science,Elective,goa-c12-biology,Biology (70 Theory + 30 Practical - GBSHSE HSSC),Science Elective,280,205,75,70,30,15,180
+science,Elective,goa-c12-computer-science,Computer Science (70 Theory + 30 Practical - GBSHSE HSSC),Science Elective,280,205,75,70,30,15,180
+science,Elective,goa-c12-geology,Geology (70 Theory + 30 Practical - Signature Goa Subject),Science Elective,280,205,75,70,30,15,180
+commerce,Core_Compulsory,goa-c12-accountancy,Accountancy (80 Theory + 20 Project - Compulsory Commerce Elective),Commerce Core,280,205,75,80,20,15,180
+commerce,Core_Compulsory,goa-c12-business-studies,Business Studies (80 Theory + 20 Project - Compulsory Commerce Elective),Commerce Core,280,205,75,80,20,15,180
+commerce,Core_Compulsory,goa-c12-economics,Economics (80 Theory + 20 Project - Compulsory Commerce Elective),Commerce Core,280,205,75,80,20,15,180
+commerce,Elective,goa-c12-banking,Banking & Secretarial Practice (80 Theory + 20 Project),Commerce Elective,280,205,75,80,20,15,180
+commerce,Elective,goa-c12-commercial-maths,Commercial Mathematics & Statistics (80 Theory + 20 IA),Commerce Elective,280,205,75,80,20,15,180
+humanities,Elective,goa-c12-history,History (80 Theory + 20 Project/IA - Themes & Goa Liberation),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,goa-c12-political-science,Political Science (80 Theory + 20 Project/IA - Contemporary World & India),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,goa-c12-sociology,Sociology (80 Theory + 20 Project/IA - Indian Society & Communidades),Humanities Elective,280,205,75,80,20,15,180
+humanities,Elective,goa-c12-psychology,Psychology (70 Theory + 30 Practical - Human Behaviour),Humanities Elective,280,205,75,70,30,15,180
+humanities,Elective,goa-c12-geography,Geography (70 Theory + 30 Practical - Human Geography & Goa Ecology),Humanities Elective,280,205,75,70,30,15,180
+humanities,Elective,goa-c12-philosophy,Philosophy & Logic (80 Theory + 20 Project/IA - Classical Ethics),Humanities Elective,280,205,75,80,20,15,180
+languages,Language_Core,goa-c12-english,English Core (80 Theory + 20 Project/IA - Compulsory Language),Language Core,280,205,75,80,20,15,180
+languages,Language_MIL,goa-c12-konkani,Konkani Sahitya (कोंकणी - 80 Theory + 20 Project/IA - Modern Indian Language),Language MIL,280,205,75,80,20,15,180
+languages,Language_MIL,goa-c12-marathi,Marathi Sahitya (मराठी - 80 Theory + 20 Project/IA - Modern Indian Language),Language MIL,280,205,75,80,20,15,180
+languages,Language_MIL,goa-c12-hindi,Hindi Sahitya (हिन्दी - 80 Theory + 20 Project/IA - Modern Indian Language),Language MIL,280,205,75,80,20,15,180

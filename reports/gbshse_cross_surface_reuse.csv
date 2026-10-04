@@ -1,0 +1,6 @@
+surface_name,allowed_reuse_mode,isolation_rule,status
+Full Exam Simulation,Unique GBSHSE MCQs only,Zero intra-exam duplication,VERIFIED
+Topic Revision Sets,MCQs + Descriptive model answers,Zero intra-set duplication,VERIFIED
+Learning Mock Tests,75% Studied + 25% Unseen verified pool,Zero intra-test duplication,VERIFIED
+Practice Mock Tests,Balanced mix of syllabus questions,Zero intra-test duplication,VERIFIED
+PDF Worksheets,Topic-curated authentic worksheets,Zero intra-sheet duplication,VERIFIED
