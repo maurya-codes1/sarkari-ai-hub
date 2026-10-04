@@ -1,0 +1,8 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+ne,Nepali (नेपाली),Devanagari,U+0900 - U+097F,"Official State Language of Sikkim, Primary Lingua Franca, BOSSE Core Language",YES,VERIFIED_PRIMARY_STATE_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory / Elective Language, Principal Administrative Medium of BOSSE",YES,VERIFIED_COMPULSORY_LANGUAGE
+hi,Hindi (हिन्दी),Devanagari,U+0900 - U+097F,Recognized National & Examination Language in BOSSE Curriculum,YES,VERIFIED_NATIONAL_LANGUAGE
+bn,Bengali (বাংলা),Bengali,U+0980 - U+09FF,Recognized Regional Language Option in Secondary (Class 10),YES,VERIFIED_REGIONAL_LANGUAGE
+sip,Bhutia (འབྲས་ལྗོངས་སྐད།),Tibetan,U+0F00 - U+0FFF,Recognized Indigenous Language of Sikkim (Preserved in BOSSE Registry),YES,VERIFIED_INDIGENOUS_LANGUAGE
+lep,Lepcha (ᰛᰩᰵᰛᰧᰵ),Lepcha,U+1C00 - U+1C4F,Recognized Indigenous Language of Sikkim (Preserved in BOSSE Registry),YES,VERIFIED_INDIGENOUS_LANGUAGE
+lif,Limbu (ᤕᤠᤰᤌᤢᤱ ᤐᤠᤴ),Sirijonga,U+1900 - U+194F,Recognized Indigenous Language of Sikkim (Preserved in BOSSE Registry),YES,VERIFIED_INDIGENOUS_LANGUAGE

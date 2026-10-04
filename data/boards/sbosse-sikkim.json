@@ -1,0 +1,252 @@
+{
+  "board_id": "sbosse-sikkim",
+  "board_name": "Board of Open Schooling and Skill Education, Sikkim",
+  "short_name": "BOSSE",
+  "authority_id": "org-sk-board-bosse",
+  "authority_name": "Board of Open Schooling and Skill Education, Gangtok, Sikkim",
+  "state": "Sikkim",
+  "headquarters": "NH-10, 5th Mile, Tadong, Gangtok, East Sikkim - 737102",
+  "statutory_act": "Board of Open Schooling and Skill Education, Sikkim Act, 2020 (Act No. 14 of 2020)",
+  "established_year": 2020,
+  "jurisdiction": "State & Open Schooling",
+  "board_type": "Open Schooling & Skill Education",
+  "official_website": "https://www.bosse.ac.in/",
+  "state_education_portal": "https://education.sikkim.gov.in/",
+  "state_government_portal": "https://www.sikkim.gov.in/",
+  "active": true,
+  "verification_status": "VERIFIED",
+  "aliases": [
+    "sbosse-sikkim",
+    "bosse",
+    "bosse-sikkim"
+  ],
+  "sikkim_educational_context": {
+    "formal_schools_pathway": "Formal regular schools in Sikkim are predominantly affiliated with CBSE (Central Board of Secondary Education), and select private institutions with CISCE (ICSE/ISC).",
+    "open_schooling_pathway": "BOSSE is the statutory open-schooling and skill education board established by the Sikkim State Legislature under Act No. 14 of 2020.",
+    "legislative_status_2026": "Sikkim Government legislative reviews and amendments tracked under statutory authority, with ongoing validation of certification and equivalence."
+  },
+  "curriculum_framework": {
+    "secondary_class_10": {
+      "examination_name": "Secondary Examination (Class 10 Equivalent)",
+      "curriculum_model": "Open Schooling Flexible Subject Choice",
+      "passing_percentage": 33,
+      "core_minimum_subjects": 5,
+      "subjects_audited": [
+        "sk-c10-english",
+        "sk-c10-hindi",
+        "sk-c10-nepali",
+        "sk-c10-bengali",
+        "sk-c10-mathematics",
+        "sk-c10-science",
+        "sk-c10-social-science",
+        "sk-c10-business-studies",
+        "sk-c10-economics",
+        "sk-c10-ict"
+      ]
+    },
+    "senior_secondary_class_12": {
+      "examination_name": "Senior Secondary Examination (Class 12 Equivalent)",
+      "curriculum_model": "FLEXIBLE_SUBJECT_SELECTION",
+      "stream_policy": "No rigid conventional Science/Commerce/Arts divide; candidate selects flexible combinations with min 1 language + electives",
+      "passing_percentage": 33,
+      "discovery_grouping": {
+        "science_oriented": [
+          "sk-c12-physics",
+          "sk-c12-chemistry",
+          "sk-c12-biology",
+          "sk-c12-mathematics"
+        ],
+        "commerce_oriented": [
+          "sk-c12-accountancy",
+          "sk-c12-business-studies",
+          "sk-c12-economics"
+        ],
+        "humanities_social_sciences": [
+          "sk-c12-political-science",
+          "sk-c12-history",
+          "sk-c12-geography",
+          "sk-c12-sociology",
+          "sk-c12-psychology",
+          "sk-c12-family-studies",
+          "sk-c12-law-governance"
+        ],
+        "technology_media": [
+          "sk-c12-cs-digital",
+          "sk-c12-media-comm"
+        ],
+        "vocational_career": [
+          "sk-c12-tourism",
+          "sk-c12-entrepreneurship"
+        ],
+        "languages": [
+          "sk-c12-english",
+          "sk-c12-hindi",
+          "sk-c12-nepali"
+        ]
+      }
+    }
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Preparatory Support",
+      "terminal_public_exam": false,
+      "progression_rule": "NOT_APPLICABLE_OPEN_ENTRY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "Secondary Examination",
+      "passing_percentage": 33,
+      "exam_duration_hours": 3,
+      "reading_time_minutes": 15,
+      "terminal_board_exam": true
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Senior Secondary Part-I Continuous Entry",
+      "terminal_public_exam": false,
+      "progression_rule": "NOT_APPLICABLE_CONTINUOUS_PROGRAMME"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Senior Secondary Examination",
+      "passing_percentage": 33,
+      "exam_duration_hours": 3,
+      "reading_time_minutes": 15,
+      "terminal_board_exam": true
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "bosse_home": "https://www.bosse.ac.in/",
+    "sikkim_education": "https://education.sikkim.gov.in/",
+    "sikkim_state": "https://www.sikkim.gov.in/"
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_sikkim": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "NOT_APPLICABLE",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "NOT_APPLICABLE",
+    "class_11_terminal_public_exam": false,
+    "open_schooling_entry": "Direct admission based on age and previous educational record"
+  },
+  "registration_rules": {
+    "secondary_class_10": {
+      "minimum_age": "14 Years Completed",
+      "enrolment_validity": "5 Years (Up to 9 examination attempts)",
+      "entry_requirement": "Self-declaration of basic education or prior class completion",
+      "admission_blocks": "Block 1 (March-August) & Block 2 (September-February)"
+    },
+    "sr_secondary_class_12": {
+      "minimum_age": "15 Years Completed with Class 10 Pass",
+      "enrolment_validity": "5 Years (Up to 9 examination attempts)",
+      "stream_barrier": "None (Flexible Choice)",
+      "entry_requirement": "Passed Secondary (Class 10) from recognized board",
+      "transfer_of_credit": "Permitted up to 2 passed subjects from recognized boards"
+    },
+    "senior_secondary_class_12": {
+      "minimum_age": "15 Years Completed with Class 10 Pass",
+      "enrolment_validity": "5 Years (Up to 9 examination attempts)",
+      "stream_barrier": "None (Flexible Choice)",
+      "entry_requirement": "Passed Secondary (Class 10) from recognized board",
+      "transfer_of_credit": "Permitted up to 2 passed subjects from recognized boards"
+    }
+  },
+  "credit_transfer_system": {
+    "maximum_transfer_subjects": 2,
+    "recognized_ex_boards": "CBSE, NIOS, State Open and Secondary Boards",
+    "eligibility": "Passed subjects within the last 5 years"
+  },
+  "curriculum_specialties": {
+    "sikkim_constitutional_status": "Article 371F special constitutional provisions respecting the State of Sikkim, 36th Amendment Act 1975, preservation of old laws",
+    "nepali_state_language": "Nepali language (official state language of Sikkim) in Devanagari script, Bhanubhakta Acharya literary heritage, Laxmi Prasad Devkota",
+    "himalayan_biodiversity": [
+      "Khangchendzonga National Park (UNESCO Mixed World Heritage Site)",
+      "Eastern Himalayan Biodiversity Hotspot",
+      "Red Panda state animal, Noble Orchid state flower, Rhododendron"
+    ],
+    "mountain_economy_vocational": "Ecotourism, Himalayan village homestays, 100% organic agriculture mission, cardamom farming, mountain entrepreneurship",
+    "indigenous_communities": "Bhutia (Denzongpa), Lepcha (Rong), and Limbu indigenous heritages",
+    "organic_mission": "Sikkim 100% Organic State status (Future Policy Award winner)",
+    "monasteries_and_heritage": "Rumtek Dharma Chakra Centre, Enchey, Pemayangtse, Tashiding, Nathu La trade pass"
+  },
+  "vocational_trades": [
+    {
+      "trade_id": "tourism_hospitality",
+      "name": "Tourism and Hospitality Management",
+      "stage": "Senior Secondary",
+      "nsqf_aligned": true
+    },
+    {
+      "trade_id": "digital_literacy_cs",
+      "name": "Digital Literacy and Computer Science",
+      "stage": "Senior Secondary",
+      "nsqf_aligned": true
+    },
+    {
+      "trade_id": "media_comm",
+      "name": "Media and Communication Studies",
+      "stage": "Senior Secondary",
+      "nsqf_aligned": true
+    },
+    {
+      "trade_id": "entrepreneurship",
+      "name": "Entrepreneurship Development",
+      "stage": "Senior Secondary",
+      "nsqf_aligned": true
+    }
+  ],
+  "language_script_registry": [
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": [
+        "English Medium Instruction",
+        "Compulsory Language Option"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": [
+        "Hindi Medium Option",
+        "Language Elective"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ne",
+      "name": "Nepali",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": [
+        "Nepali Language Option",
+        "Official State Language"
+      ],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": [
+        "Bengali Language Option"
+      ],
+      "permitted_medium": true
+    }
+  ]
+}

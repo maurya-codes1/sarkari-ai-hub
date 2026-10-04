@@ -1,0 +1,22 @@
+stream_group,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_tma_marks,reading_time_mins,exam_duration_mins
+science,Core_Elective,sk-c12-physics,Physics (Theory & Practical - BOSSE),Science Discipline,280,205,75,70,30,15,180
+science,Core_Elective,sk-c12-chemistry,Chemistry (Theory & Practical - BOSSE),Science Discipline,280,205,75,70,30,15,180
+science,Core_Elective,sk-c12-biology,Biology (Theory & Practical - BOSSE),Science Discipline,280,205,75,70,30,15,180
+science,Core_Elective,sk-c12-mathematics,Mathematics (BOSSE),Science Discipline,280,205,75,80,20,15,180
+commerce,Core_Elective,sk-c12-accountancy,Accountancy (BOSSE),Commerce Discipline,280,205,75,80,20,15,180
+commerce,Core_Elective,sk-c12-business-studies,Business Studies (BOSSE),Commerce Discipline,280,205,75,80,20,15,180
+commerce,Core_Elective,sk-c12-economics,Economics (BOSSE),Commerce Discipline,280,205,75,80,20,15,180
+humanities,Core_Elective,sk-c12-political-science,Political Science (BOSSE),Humanities Discipline,280,205,75,80,20,15,180
+humanities,Core_Elective,sk-c12-history,History (BOSSE),Humanities Discipline,280,205,75,80,20,15,180
+humanities,Core_Elective,sk-c12-geography,Geography (Theory & Practical - BOSSE),Humanities Discipline,280,205,75,70,30,15,180
+humanities,Core_Elective,sk-c12-sociology,Sociology (BOSSE),Humanities Discipline,280,205,75,80,20,15,180
+humanities,Core_Elective,sk-c12-psychology,Psychology (BOSSE),Humanities Discipline,280,205,75,80,20,15,180
+humanities,Core_Elective,sk-c12-family-studies,Family & Community Studies / Home Science (BOSSE),Humanities Discipline,280,205,75,80,20,15,180
+humanities,Core_Elective,sk-c12-law-governance,"Law, Justice & Governance (BOSSE)",Humanities Discipline,280,205,75,80,20,15,180
+languages,Language_Discipline,sk-c12-nepali,Nepali (Senior Secondary - नेपाली - Official State Language BOSSE),Language Discipline,280,205,75,80,20,15,180
+languages,Language_Discipline,sk-c12-english,English (Senior Secondary - BOSSE),Language Discipline,280,205,75,80,20,15,180
+languages,Language_Discipline,sk-c12-hindi,Hindi (Senior Secondary - हिन्दी - BOSSE),Language Discipline,280,205,75,80,20,15,180
+skills_tech,Vocational_Discipline,sk-c12-cs-digital,Digital Literacy & Computer Science (BOSSE),Skill/Vocational Discipline,280,205,75,70,30,15,180
+skills_tech,Vocational_Discipline,sk-c12-media-comm,Media and Communication Studies (BOSSE),Skill/Vocational Discipline,280,205,75,80,20,15,180
+skills_tech,Vocational_Discipline,sk-c12-tourism,Tourism & Hospitality Management (BOSSE),Skill/Vocational Discipline,280,205,75,70,30,15,180
+skills_tech,Vocational_Discipline,sk-c12-entrepreneurship,Entrepreneurship (BOSSE),Skill/Vocational Discipline,280,205,75,80,20,15,180

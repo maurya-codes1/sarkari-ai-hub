@@ -1,0 +1,3 @@
+source_stage,target_stage,dependency_rule,enforcement_level,gate_action
+Class 9,Secondary (Class 10),BOSSE_OPEN_ADMISSION_RULE,DIRECT_ENTRY,No Class 9 barrier; age 14+ self-declaration permits direct secondary admission
+Class 11,Sr. Secondary (Class 12),BOSSE_SR_SEC_CREDIT_RULE,MODULAR_CREDIT,No Class 11 promotional barrier; Class 10 pass permits modular exam attempts across 5-year enrolment

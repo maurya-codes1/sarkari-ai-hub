@@ -1,0 +1,6 @@
+subject_id,subject_name,stage,total_questions,mcq_count,subjective_count,evaluation_scheme,curriculum_focus
+sk-c10-ict,Information and Communication Technology / Data Entry,Class 10,280,205,75,60 Theory + 40 Practical / TMA,"Office Tools, Keyboard Skills, Spreadsheets"
+sk-c12-cs-digital,Digital Literacy & Computer Science,Class 12,280,205,75,70 Theory + 30 Practical (PCP),"Python Programming, SQL, Networks & Cyber Law"
+sk-c12-media-comm,Media and Communication Studies,Class 12,280,205,75,80 Theory + 20 Project/TMA,"Journalism, Audio/Video Production, Media Ethics"
+sk-c12-tourism,Tourism & Hospitality Management,Class 12,280,205,75,70 Theory + 30 Practical (PCP),"Himalayan Ecotourism, Homestays, Khangchendzonga National Park"
+sk-c12-entrepreneurship,Entrepreneurship,Class 12,280,205,75,80 Theory + 20 Project/TMA,"Business Planning, Startup Finance, Mountain Enterprises"

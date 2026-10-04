@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 9,Open schooling direct entry architecture
+administering_body,"Board of Open Schooling and Skill Education, Sikkim (BOSSE)",BOSSE statutory open schooling framework
+terminal_public_exam,FALSE_NOT_APPLICABLE,No public board examination exists for Class 9 under BOSSE
+dependency_rule,BOSSE_OPEN_ADMISSION_RULE,Direct admission to Secondary based on age (14+) and self-certificate of basic literacy
+conventional_promotion,NOT_APPLICABLE,"BOSSE operates on modular credit accumulation, not annual classroom promotion"
+full_exam_mode,BLOCKED,Full exam simulation blocked; zero fake board questions
+questions_ingested,0,Strict isolation: zero fake public board questions generated for Class 9

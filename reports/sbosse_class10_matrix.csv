@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,tma_marks,reading_time_mins,exam_duration_mins
+sk-c10-nepali,Nepali (Secondary - नेपाली - Official State Language BOSSE),Compulsory Language I Option,ne,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+sk-c10-english,English (Secondary - BOSSE),Language Option,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+sk-c10-hindi,Hindi (Secondary - हिन्दी - BOSSE),Language Option,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,15,180
+sk-c10-bengali,Bengali (Secondary - বাংলা - BOSSE),Language Option,bn,Bengali (U+0980-U+09FF),280,205,75,80,20,15,180
+sk-c10-mathematics,Mathematics (Secondary - BOSSE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+sk-c10-science,Science and Technology (Secondary - BOSSE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+sk-c10-social-science,Social Science (Secondary - BOSSE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+sk-c10-business-studies,Business Studies (Secondary - BOSSE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+sk-c10-economics,Economics (Secondary - BOSSE),Academic Core,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180
+sk-c10-ict,Information and Communication Technology / Data Entry (Secondary - BOSSE),Skill / Vocational,en,Latin (U+0020-U+007E),280,205,75,80,20,15,180

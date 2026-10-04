@@ -1,0 +1,9 @@
+field,value,audit_notes
+stage,Class 11,Open schooling senior secondary architecture
+administering_body,"Board of Open Schooling and Skill Education, Sikkim (BOSSE)",BOSSE statutory open schooling framework
+terminal_public_exam,FALSE_NOT_APPLICABLE,No public board examination exists for Class 11 under BOSSE
+dependency_rule,BOSSE_DIRECT_SR_SEC_ENTRY,Admission directly into Senior Secondary upon passing Class 10 with age 15+
+stream_continuity,FLEXIBLE_CHOICE,Learners choose flexible combinations without rigid stream barriers
+conventional_promotion,NOT_APPLICABLE,Learners pace their own examinations across 5-year enrolment validity
+full_exam_mode,BLOCKED,Full exam simulation blocked; zero fake board questions
+questions_ingested,0,Strict isolation: zero fake public board questions generated for Class 11
