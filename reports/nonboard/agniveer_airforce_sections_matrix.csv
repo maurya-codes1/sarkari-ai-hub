@@ -1,0 +1,6 @@
+Section_Code,Section_Title,Subject_ID,Bank_Questions,Paper_Questions,Marking_Scheme,Applicable_Stream
+ENG,General English,iaf-agniveer-english,300,20,1.0 / -0.25,All Streams Compulsory
+PHY,Physics (10+2 CBSE/NCERT),iaf-agniveer-physics,300,25,1.0 / -0.25,Science Stream Compulsory
+MATH,Mathematics (10+2 CBSE/NCERT),iaf-agniveer-mathematics,300,25,1.0 / -0.25,Science Stream Compulsory
+RAGA_REA,RAGA - Reasoning Aptitude,iaf-agniveer-raga-reasoning,300,16,1.0 / -0.25,Other than Science Compulsory
+RAGA_GA,RAGA - General Awareness & Defence GK,iaf-agniveer-raga-general-awareness,300,14,1.0 / -0.25,Other than Science Compulsory

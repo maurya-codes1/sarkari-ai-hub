@@ -1,0 +1,178 @@
+{
+  "exam_id": "agniveer-airforce",
+  "name": "Indian Air Force Agniveer Vayu Recruitment Examination",
+  "short_name": "IAF Agniveer Vayu",
+  "exam_category": "central",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-indian-air-force-central-airmen-selectio",
+    "name": "Central Airmen Selection Board (CASB), Indian Air Force, Ministry of Defence",
+    "short_name": "Indian Air Force",
+    "headquarters": "Brar Square, Delhi Cantt, New Delhi 110010",
+    "official_website": "https://agnipathvayu.cdac.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-iaf-agniveer-portal",
+      "name": "Agnipath Vayu Official C-DAC Portal",
+      "url": "https://agnipathvayu.cdac.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-iaf-agniveer-notice-2026",
+      "name": "Indian Air Force Agniveer Vayu Intake 01/2026 & 02/2026 Official Notification",
+      "url": "https://agnipathvayu.cdac.in",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-iaf-agniveer-syllabus-model",
+      "name": "CASB Agniveer Vayu Official Model Question Papers & Detailed Syllabus",
+      "url": "https://agnipathvayu.cdac.in",
+      "type": "OFFICIAL_ARCHIVE"
+    }
+  ],
+  "scheme_of_examination": {
+    "science_subjects": {
+      "stream_name": "Science Subjects (Technical / Group X)",
+      "duration_minutes": 60,
+      "total_questions": 70,
+      "total_marks": 70,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "English", "questions": 20, "marks": 20 },
+        { "name": "Mathematics", "questions": 25, "marks": 25 },
+        { "name": "Physics", "questions": 25, "marks": 25 }
+      ]
+    },
+    "other_than_science": {
+      "stream_name": "Other than Science Subjects (Non-Technical / Group Y)",
+      "duration_minutes": 45,
+      "total_questions": 50,
+      "total_marks": 50,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "English", "questions": 20, "marks": 20 },
+        { "name": "Reasoning & General Awareness (RAGA)", "questions": 30, "marks": 30 }
+      ]
+    },
+    "science_and_other_than_science": {
+      "stream_name": "Science and Other than Science Subjects (Both Groups)",
+      "duration_minutes": 85,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        { "name": "English", "questions": 20, "marks": 20 },
+        { "name": "Mathematics", "questions": 25, "marks": 25 },
+        { "name": "Physics", "questions": 25, "marks": 25 },
+        { "name": "Reasoning & General Awareness (RAGA)", "questions": 30, "marks": 30 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "iaf-agniveer-english",
+        "name": "Indian Air Force Agniveer English Language & Grammar",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Reading Comprehension",
+          "Subject-Verb Agreement",
+          "Tenses and Conditionals",
+          "Direct and Indirect Speech",
+          "Active and Passive Voice",
+          "Synonyms and Antonyms",
+          "Idioms and Phrases",
+          "One Word Substitution",
+          "Spelling Errors & Sentence Completion"
+        ]
+      },
+      {
+        "subject_id": "iaf-agniveer-physics",
+        "name": "Indian Air Force Agniveer Vayu Physics (10+2 CBSE/NCERT)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Units, Dimensions & Errors",
+          "Kinematics & Newton's Laws of Motion",
+          "Work, Energy and Power",
+          "Rotational Motion & Gravitation",
+          "Bulk Properties of Matter & Fluid Mechanics",
+          "Thermodynamics & Heat Transfer",
+          "Oscillations and Simple Harmonic Motion",
+          "Waves & Sound Acoustics",
+          "Electrostatics and Electric Current",
+          "Magnetic Effects of Current & Magnetism",
+          "Electromagnetic Induction & Alternating Current",
+          "Ray & Wave Optics",
+          "Dual Nature of Radiation & Matter",
+          "Semiconductor Electronics & Logic Gates"
+        ]
+      },
+      {
+        "subject_id": "iaf-agniveer-mathematics",
+        "name": "Indian Air Force Agniveer Vayu Mathematics (10+2 CBSE/NCERT)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Sets, Relations and Functions",
+          "Trigonometric Functions & Inverse Trig",
+          "Complex Numbers and Quadratic Equations",
+          "Sequences and Series (AP, GP)",
+          "Permutations and Combinations",
+          "Binomial Theorem",
+          "Matrices and Determinants",
+          "Two Dimensional Coordinate Geometry & Conics",
+          "Vectors and 3D Geometry",
+          "Limits, Continuity and Differentiability",
+          "Applications of Derivatives",
+          "Indefinite and Definite Integrals",
+          "Differential Equations",
+          "Statistics and Probability"
+        ]
+      },
+      {
+        "subject_id": "iaf-agniveer-raga-reasoning",
+        "name": "Indian Air Force Agniveer RAGA - Reasoning & Mental Ability",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Number and Alphabet Series",
+          "Analogy and Classification",
+          "Coding and Decoding",
+          "Blood Relations",
+          "Direction Sense Test",
+          "Ranking and Order Test",
+          "Mathematical Operations & Interchanges",
+          "Venn Diagrams and Syllogism",
+          "Non-Verbal Series, Pattern Completion & Mirror Images"
+        ]
+      },
+      {
+        "subject_id": "iaf-agniveer-raga-general-awareness",
+        "name": "Indian Air Force Agniveer RAGA - General Awareness & Defence GK",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Indian Air Force History, Aircraft, Commands & Gallantry Honours",
+          "Indian Defence Tri-Services & Joint Operations",
+          "Everyday General Science (Physics, Chemistry, Biology)",
+          "Indian History and Freedom Movement",
+          "Geography of India and the World",
+          "Indian Constitution and Polity",
+          "Basic Indian Economy and National Budget",
+          "National & International Current Affairs, Sports & Awards"
+        ]
+      }
+    ]
+  }
+}
