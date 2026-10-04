@@ -1,0 +1,9 @@
+stage,subject_type,total_marks,theory_marks,practical_marks,internal_assessment,exam_duration_hours,passing_marks
+Class 10 (SSLC),Part I Language (Tamil),100,100,0,0,3.0,35
+Class 10 (SSLC),Part II English,100,100,0,0,3.0,35
+Class 10 (SSLC),Part III Mathematics,100,100,0,0,3.0,35
+Class 10 (SSLC),Part III Science,100,75,25,0,3.0,20 in Theory + 15 in Practical = 35 Min
+Class 10 (SSLC),Part III Social Science,100,100,0,0,3.0,35
+Class 12 (+2 HSE),Language / English (Non-Practical),100,90,0,10,3.0,25 in Theory + 35 in Aggregate
+Class 12 (+2 HSE),Science Lab Subjects (Physics/Chem/Bio/CS),100,70,20,10,3.0,15 in Theory + Practical presence + 35 Aggregate
+Class 12 (+2 HSE),Commerce / Arts (Non-Practical),100,90,0,10,3.0,25 in Theory + 35 in Aggregate

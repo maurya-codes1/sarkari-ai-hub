@@ -1,0 +1,2 @@
+board_id,authority_id,state,total_questions,mcq_count,subjective_count,distinct_subjects,integrity_check,foreign_key_check,verification_status
+tamil-nadu-dge,dge-tamil-nadu,Tamil Nadu,8680,6355,2325,31,PASSED_OK,ZERO_VIOLATIONS,VERIFIED_PRODUCTION_READY

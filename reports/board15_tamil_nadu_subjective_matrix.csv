@@ -1,0 +1,5 @@
+question_type,marks_per_item,items_per_subject,description,rubric_guidelines
+very_short_answer,2,24,VSA conceptual and fundamental formula questions (2 Marks),Step-by-step marking rubric with 1 mark for definition/principle and 1 mark for conclusive statement.
+short_answer,3,24,Short descriptive and derivation questions (3 Marks),"Detailed point-wise rubric: 1 mark for statement/formula, 1 mark for working steps, 1 mark for final result."
+case_study,4,12,"Contextual, scenario, or practical laboratory analytical questions (4 Marks)","Analytical rubric: 1 mark context/principle, 2 marks working/derivation, 1 mark practical interpretation."
+long_answer,5,15,"Long descriptive, comprehensive proof, essay, or circuit/ray diagram analysis (5 Marks)","Exhaustive evaluation rubric: 1 mark statement, 3 marks comprehensive derivations/proof/diagram, 1 mark conclusions/units."

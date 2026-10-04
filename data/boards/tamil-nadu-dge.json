@@ -1,0 +1,285 @@
+{
+  "board_id": "tamil-nadu-dge",
+  "authority_id": "dge-tamil-nadu",
+  "board_name": "Directorate of Government Examinations, Tamil Nadu (DGE Tamil Nadu)",
+  "short_name": "TN-DGE",
+  "common_name": "Tamil Nadu State Board",
+  "state": "Tamil Nadu",
+  "headquarters": "DPI Campus, College Road, Nungambakkam, Chennai - 600006, Tamil Nadu",
+  "country": "India",
+  "official_url": "https://www.dge.tn.gov.in/",
+  "results_url": "https://tnresults.nic.in/",
+  "classes": [9, 10, 11, 12],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026-27.1",
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_tamil_nadu": true
+  },
+  "class_10": {
+    "exam_name": "Secondary School Leaving Certificate (SSLC) Examination",
+    "terminal_public_exam": true,
+    "structure": "Part I to Part IV Scheme",
+    "total_maximum_marks": 500,
+    "passing_marks_per_subject": 35,
+    "passing_percentage": 35.0,
+    "duration_minutes": 180,
+    "parts": {
+      "part_1": {
+        "title": "Part I - Language",
+        "status": "Compulsory Tamil (under Tamil Nadu Tamil Learning Act, 2006; special provisions for linguistic minorities)",
+        "marks": 100,
+        "official_languages": ["Tamil"]
+      },
+      "part_2": {
+        "title": "Part II - English",
+        "status": "Compulsory",
+        "marks": 100,
+        "official_languages": ["English"]
+      },
+      "part_3": {
+        "title": "Part III - Core Subjects",
+        "status": "Compulsory",
+        "subjects": [
+          {
+            "name": "Mathematics",
+            "theory_marks": 100,
+            "practical_marks": 0,
+            "total_marks": 100,
+            "mediums_available": ["English", "Tamil", "Telugu", "Malayalam", "Kannada", "Hindi", "Gujarati", "Urdu"]
+          },
+          {
+            "name": "Science",
+            "theory_marks": 75,
+            "practical_marks": 25,
+            "total_marks": 100,
+            "theory_passing_marks": 20,
+            "practical_passing_marks": 15,
+            "mediums_available": ["English", "Tamil", "Telugu", "Malayalam", "Kannada", "Hindi", "Gujarati", "Urdu"]
+          },
+          {
+            "name": "Social Science",
+            "theory_marks": 100,
+            "practical_marks": 0,
+            "total_marks": 100,
+            "mediums_available": ["English", "Tamil", "Telugu", "Malayalam", "Kannada", "Hindi", "Gujarati", "Urdu"]
+          }
+        ]
+      },
+      "part_4": {
+        "title": "Part IV - Optional Language",
+        "status": "Optional / Linguistic Minorities",
+        "languages": ["Telugu", "Arabic", "Malayalam", "Kannada", "Hindi", "Gujarati", "Sanskrit", "French", "Urdu"]
+      }
+    }
+  },
+  "class_9": {
+    "exam_name": "Class 9 Annual Examination",
+    "terminal_public_exam": false,
+    "governance": "Continuous and Comprehensive Evaluation (CCE) overseen by Directorate of School Education / DGE Tamil Nadu",
+    "tracking_system": "Educational Management Information System (EMIS - Tamil Nadu)",
+    "dependency_rule": "TAMIL_NADU_CLASS9_TO_CLASS10_DEPENDENCY",
+    "promotion_rule": "Mandatory pass in institutional Class 9 annual assessment and minimum 75% attendance recorded in EMIS before SSLC enrollment."
+  },
+  "class_11": {
+    "exam_name": "Higher Secondary First Year (+1) Examination",
+    "terminal_public_exam": true,
+    "governance": "Directorate of Government Examinations, Tamil Nadu",
+    "total_maximum_marks": 600,
+    "subjects_count": 6,
+    "structure": "Part I Language + Part II English + Part III (4 Stream-specific Optionals)",
+    "dependency_rule": "TAMIL_NADU_CLASS11_TO_CLASS12_DEPENDENCY",
+    "subject_continuity_rule": "Strict subject combination continuity from +1 to +2; stream change after +1 is barred without re-admission."
+  },
+  "class_12": {
+    "exam_name": "Higher Secondary Second Year (+2) Public Examination",
+    "terminal_public_exam": true,
+    "governance": "Directorate of Government Examinations, Tamil Nadu",
+    "total_maximum_marks": 600,
+    "subjects_count": 6,
+    "passing_criteria": {
+      "non_practical_subject": {
+        "theory_marks": 90,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "theory_passing_minimum": 25,
+        "overall_passing_minimum": 35
+      },
+      "practical_subject": {
+        "theory_marks": 70,
+        "practical_marks": 20,
+        "internal_marks": 10,
+        "total_marks": 100,
+        "theory_passing_minimum": 15,
+        "practical_must_appear": true,
+        "overall_passing_minimum": 35
+      }
+    },
+    "structure": {
+      "part_1": {
+        "title": "Part I - Language",
+        "marks": 100,
+        "approved_languages": [
+          "Tamil", "Hindi", "Kannada", "Telugu", "Malayalam",
+          "Urdu", "Sanskrit", "Arabic", "French", "German"
+        ]
+      },
+      "part_2": {
+        "title": "Part II - English",
+        "marks": 100,
+        "status": "Compulsory General English"
+      },
+      "part_3": {
+        "title": "Part III - Four Stream-specific Optionals",
+        "marks_per_subject": 100,
+        "total_part3_marks": 400
+      }
+    },
+    "streams_and_groups": {
+      "science": {
+        "code_groups": [
+          { "group_name": "Group 2501 (Bio-Maths)", "subjects": ["Physics", "Chemistry", "Biology", "Mathematics"] },
+          { "group_name": "Group 2502 (Computer Science)", "subjects": ["Physics", "Chemistry", "Mathematics", "Computer Science"] },
+          { "group_name": "Group 2503 (Pure Science)", "subjects": ["Physics", "Chemistry", "Botany", "Zoology"] }
+        ],
+        "primary_subjects": [
+          "Physics", "Chemistry", "Mathematics", "Biology",
+          "Computer Science", "Botany", "Zoology", "Statistics",
+          "Bio-Chemistry", "Microbiology"
+        ]
+      },
+      "commerce": {
+        "code_groups": [
+          { "group_name": "Group 2701 (Commerce with Business Maths)", "subjects": ["Accountancy", "Commerce", "Economics", "Business Mathematics and Statistics"] },
+          { "group_name": "Group 2702 (Commerce with Computer Applications)", "subjects": ["Accountancy", "Commerce", "Economics", "Computer Applications"] }
+        ],
+        "primary_subjects": [
+          "Accountancy", "Commerce", "Economics", "Business Mathematics and Statistics", "Computer Applications"
+        ]
+      },
+      "humanities": {
+        "code_groups": [
+          { "group_name": "Group 2801 (Humanities & Social Sciences)", "subjects": ["History", "Economics", "Political Science", "Geography"] },
+          { "group_name": "Group 2802 (Ethics & Culture / Advanced Tamil)", "subjects": ["History", "Economics", "Political Science", "Ethics and Indian Culture"] }
+        ],
+        "primary_subjects": [
+          "History", "Political Science", "Geography", "Ethics and Indian Culture", "Advanced Language (Tamil)", "Sociology"
+        ]
+      },
+      "vocational": {
+        "code_groups": [
+          { "group_name": "Group 2901 (Engineering & Tech)", "subjects": ["Basic Mechanical Engineering", "Basic Electrical Engineering", "Basic Electronics Engineering", "Basic Automobile Engineering", "Basic Civil Engineering"] },
+          { "group_name": "Group 2902 (Health & Agriculture)", "subjects": ["Agricultural Science", "Nursing (General)", "Nursing (Vocational)", "Nutrition and Dietetics"] },
+          { "group_name": "Group 2903 (Textile & Management)", "subjects": ["Textile Technology", "Textile & Dress Designing", "Food Service Management", "Office Management and Secretaryship"] }
+        ]
+      }
+    }
+  },
+  "language_script_registry": [
+    {
+      "language_id": "ta",
+      "name": "Tamil",
+      "script": "Tamil",
+      "unicode_range": "U+0B80 - U+0BFF",
+      "mandatory_for": ["Compulsory Tamil (Part I SSLC & HSE)", "Advanced Tamil"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Part II English", "English Medium STEM"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Part IV SSLC Hindi", "Part I HSE Hindi"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "unicode_range": "U+0C00 - U+0C7F",
+      "mandatory_for": ["Part IV SSLC Telugu", "Part I HSE Telugu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ml",
+      "name": "Malayalam",
+      "script": "Malayalam",
+      "unicode_range": "U+0D00 - U+0D7F",
+      "mandatory_for": ["Part IV SSLC Malayalam", "Part I HSE Malayalam"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "kn",
+      "name": "Kannada",
+      "script": "Kannada",
+      "unicode_range": "U+0C80 - U+0CFF",
+      "mandatory_for": ["Part IV SSLC Kannada", "Part I HSE Kannada"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Arabic/Nastaliq",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["Part IV SSLC Urdu", "Part I HSE Urdu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Part IV SSLC Sanskrit", "Part I HSE Sanskrit"],
+      "permitted_medium": false
+    },
+    {
+      "language_id": "ar",
+      "name": "Arabic",
+      "script": "Arabic",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["Part IV SSLC Arabic", "Part I HSE Arabic"],
+      "permitted_medium": false
+    },
+    {
+      "language_id": "fr",
+      "name": "French",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Part IV SSLC French", "Part I HSE French"],
+      "permitted_medium": false
+    },
+    {
+      "language_id": "de",
+      "name": "German",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Part I HSE German"],
+      "permitted_medium": false
+    }
+  ],
+  "registration_and_eligibility": {
+    "portals": {
+      "dge_portal": "https://www.dge.tn.gov.in/",
+      "emis_portal": "https://emis.tnschools.gov.in/",
+      "results_portal": "https://tnresults.nic.in/"
+    },
+    "attendance_minimum": "75% minimum aggregate attendance in working instructional days",
+    "attendance_condonation": "Condonation between 65% and 74% granted by Chief Educational Officer (CEO) on certified medical grounds; below 65% candidate is detained.",
+    "private_candidates": "SSLC private candidates must have completed 14.5 years of age as of the notification date; Higher Secondary private candidates must have passed SSLC at least 2 years prior.",
+    "science_practical_registration": "Direct private candidates must register for Science practical training sessions at designated government schools prior to public examinations."
+  }
+}

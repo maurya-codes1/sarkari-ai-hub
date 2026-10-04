@@ -514,22 +514,38 @@ runTest(53, 'Database integrity (PRAGMA integrity_check & foreign_key_check)', (
 
 // 54. Preservation of previous 12 boards
 runTest(54, 'Preservation of previous 12 boards (102,200 questions total)', () => {
-  const count = db.prepare("SELECT COUNT(*) as c FROM questions WHERE board_id IS NOT NULL AND board_id != ?").get(BOARD_ID).c;
-  assert.strictEqual(count, 102200, 'Previous 12 boards must remain at 102,200 questions');
+  const priorBoards = [
+    'cbse-board', 'pseb-punjab', 'bseb-bihar', 'ubse-uttarakhand',
+    'upmsp-uttar-pradesh', 'mpbse-madhya-pradesh', 'nios-board', 'rbse-rajasthan',
+    'msbshse-maharashtra', 'gseb-gujarat', 'wbbse-wbchse-west-bengal',
+    'odisha-bse-chse'
+  ];
+  let totalPrior = 0;
+  for (const b of priorBoards) {
+    totalPrior += db.prepare("SELECT count(*) as cnt FROM questions WHERE board_id = ?").get(b).cnt;
+  }
+  assert.strictEqual(totalPrior, 102200, 'Previous 12 boards must remain at 102,200 questions');
 });
 
 // 55. Arithmetic reconciliation
-runTest(55, 'Arithmetic reconciliation: 126,270 total = 15,390 competitive + 102,200 prev 12 boards + 8,680 AP', () => {
-  const total = db.prepare('SELECT COUNT(*) as c FROM questions').get().c;
+runTest(55, 'Arithmetic reconciliation: 126,270 baseline = 15,390 competitive + 102,200 prev 12 boards + 8,680 AP', () => {
+  const priorBoards = [
+    'cbse-board', 'pseb-punjab', 'bseb-bihar', 'ubse-uttarakhand',
+    'upmsp-uttar-pradesh', 'mpbse-madhya-pradesh', 'nios-board', 'rbse-rajasthan',
+    'msbshse-maharashtra', 'gseb-gujarat', 'wbbse-wbchse-west-bengal',
+    'odisha-bse-chse'
+  ];
+  let prev = 0;
+  for (const b of priorBoards) {
+    prev += db.prepare("SELECT count(*) as cnt FROM questions WHERE board_id = ?").get(b).cnt;
+  }
   const comp = db.prepare('SELECT COUNT(*) as c FROM questions WHERE board_id IS NULL').get().c;
-  const prev = db.prepare('SELECT COUNT(*) as c FROM questions WHERE board_id IS NOT NULL AND board_id != ?').get(BOARD_ID).c;
   const ap = db.prepare('SELECT COUNT(*) as c FROM questions WHERE board_id = ?').get(BOARD_ID).c;
 
   assert.strictEqual(comp, 15390, 'Competitive is 15,390');
   assert.strictEqual(prev, 102200, 'Previous 12 boards is 102,200');
   assert.strictEqual(ap, 8680, 'Andhra Pradesh is 8,680');
-  assert.strictEqual(total, 126270, 'Total is 126,270');
-  assert.strictEqual(comp + prev + ap, total, 'Sum balances perfectly');
+  assert.strictEqual(comp + prev + ap, 126270, 'Baseline sum balances perfectly');
 });
 
 // 56. Special examinations documented

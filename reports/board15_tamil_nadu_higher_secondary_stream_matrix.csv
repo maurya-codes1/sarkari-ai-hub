@@ -1,0 +1,22 @@
+stream,group_code,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_ia_marks
+languages,Part I & II,tn-c12-tamil-part1,Part I Tamil (பொதுத் தமிழ் - +2),Part I Language,280,205,75,90,10
+languages,Part I & II,tn-c12-english-part2,Part II English (General English - +2),Part II Language,280,205,75,90,10
+languages,Part I & II,tn-c12-hindi-part1,Part I Hindi (सामान्य हिन्दी - +2),Part I Language,280,205,75,90,10
+languages,Part I & II,tn-c12-french-part1,Part I French (Français - +2),Part I Language,280,205,75,90,10
+science,Group 2501 / 2502 / 2503,tn-c12-physics,Physics (இயற்பியல் - +2),Science Elective,280,205,75,70,30
+science,Group 2501 / 2502 / 2503,tn-c12-chemistry,Chemistry (வேதியியல் - +2),Science Elective,280,205,75,70,30
+science,Group 2501 / 2502,tn-c12-mathematics,Mathematics (கணிதவியல் - +2),Science Elective,280,205,75,90,10
+science,Group 2501,tn-c12-biology,Biology (பொது உயிரியல் - +2),Science Elective,280,205,75,70,30
+science,Group 2502,tn-c12-computer-science,Computer Science (கணினி அறிவியல் - +2),Academic Elective,280,205,75,70,30
+science,Group 2503,tn-c12-botany,Botany (தாவரவியல் / Bio-Botany - +2),Science Elective,280,205,75,70,30
+science,Group 2503,tn-c12-zoology,Zoology (விலங்கியல் / Bio-Zoology - +2),Science Elective,280,205,75,70,30
+commerce,Group 2701 / 2702,tn-c12-accountancy,Accountancy (கணக்குப்பதிவியல் - +2),Commerce Elective,280,205,75,90,10
+commerce,Group 2701 / 2702,tn-c12-commerce,Commerce (வணிகவியல் - +2),Commerce Elective,280,205,75,90,10
+commerce_arts,Group 2701 / 2702 / 2801,tn-c12-economics,Economics (பொருளியல் - +2),Commerce/Arts Elective,280,205,75,90,10
+commerce,Group 2701,tn-c12-business-maths,Business Mathematics & Statistics (+2),Commerce Elective,280,205,75,90,10
+commerce,Group 2702,tn-c12-computer-applications,Computer Applications (கணினி பயன்பாடுகள் - +2),Commerce Elective,280,205,75,70,30
+humanities,Group 2801 / 2802,tn-c12-history,History (வரலாறு - +2),Humanities Elective,280,205,75,90,10
+humanities,Group 2801 / 2802,tn-c12-political-science,Political Science (அரசியல் அறிவியல் - +2),Humanities Elective,280,205,75,90,10
+humanities,Group 2801,tn-c12-geography,Geography (புவியியல் - +2),Humanities Elective,280,205,75,70,30
+humanities,Group 2802,tn-c12-ethics-culture,Ethics and Indian Culture (அறவியலும் பண்பாடும் - +2),Humanities Elective,280,205,75,90,10
+humanities,Group 2802 / Language,tn-c12-advanced-tamil,Advanced Language Tamil (சிறப்புத் தமிழ் - +2),Humanities Elective,280,205,75,90,10

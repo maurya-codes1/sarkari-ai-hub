@@ -1,0 +1,5 @@
+candidate_type,portal_url,eligibility_requirements,attendance_rule,condonation_authority,practical_registration
+Regular School Candidate (SSLC),https://emis.tnschools.gov.in/,Passing Class 9 annual exam; continuous CCE,75% minimum aggregate,CEO / DGE for 65%-74% on medical certificate,School-conducted internal & external labs (25M)
+Regular School Candidate (+2),https://emis.tnschools.gov.in/,Passing +1 First Year annual exam in identical group,75% minimum aggregate,CEO / DGE for 65%-74% on medical certificate,School-conducted internal & external labs (30M)
+Private Candidate (SSLC),https://www.dge.tn.gov.in/,Completed 14.5 years of age on notification date,Self-study; nodal registration,N/A,Mandatory practical training attendance at govt school
+Private Candidate (+2),https://www.dge.tn.gov.in/,Passed SSLC at least 2 years prior; passed +1,Self-study; nodal registration,N/A,Mandatory practical training attendance at govt school

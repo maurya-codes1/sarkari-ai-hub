@@ -1,0 +1,18 @@
+{
+  "board_id": "dge-tamil-nadu",
+  "authority_id": "dge-tamil-nadu",
+  "board_name": "Directorate of Government Examinations, Tamil Nadu",
+  "short_name": "DGE-TN",
+  "common_name": "Tamil Nadu State Board",
+  "state": "Tamil Nadu",
+  "headquarters": "DPI Campus, College Road, Nungambakkam, Chennai - 600006, Tamil Nadu",
+  "country": "India",
+  "official_url": "https://www.dge.tn.gov.in/",
+  "results_url": "https://tnresults.nic.in/",
+  "classes": [10, 11, 12],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026-27.1"
+}

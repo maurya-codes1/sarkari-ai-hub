@@ -1,0 +1,4 @@
+mock_tier,scope,target_board,cross_board_fallback,mcq_ratio,subjective_ratio,status
+Learning Mock,Untimed Immediate Feedback,tamil-nadu-dge,STRICTLY_PROHIBITED,100%,0%,ACTIVE_VERIFIED
+Practice Mock,Timed Sectional Practice,tamil-nadu-dge,STRICTLY_PROHIBITED,70%,30%,ACTIVE_VERIFIED
+Full Exam Simulation,Standardized Public Blueprint,tamil-nadu-dge,STRICTLY_PROHIBITED,Official Split,Official Split,ACTIVE_VERIFIED

@@ -1,0 +1,6 @@
+note_id,subject_id,language_id,note_type,title,content_depth,provenance
+note-tn-c10-sslc-core-compendium,tn-c10-mathematics-en,ta,FULL_NOTES,"DGE Tamil Nadu Class 10 SSLC Core Subjects Master Revision Compendium (கணிதம், அறிவியல் மற்றும் சமூக அறிவியல்)",COMPREHENSIVE,OFFICIAL_TN_DGE_SSLC_SYLLABUS_DERIVED
+note-tn-c10-c12-tamil-literature-compendium,tn-c10-tamil-fl,ta,FULL_NOTES,Tamil Nadu School & Higher Secondary Tamil Literature & Grammar Master Compendium (தமிழ் இலக்கியச் சோலை & இலக்கணப் பேழை),COMPREHENSIVE,OFFICIAL_TN_DGE_TAMIL_CURRICULUM
+note-tn-c12-science-compendium,tn-c12-physics,ta,FULL_NOTES,"Tamil Nadu Higher Secondary (+2) Science Stream Master Compendium (இயற்பியல், வேதியியல், கணிதவியல் & உயிரியல்)",COMPREHENSIVE,OFFICIAL_TN_DGE_HSE_SCIENCE_CURRICULUM
+note-tn-c12-commerce-compendium,tn-c12-accountancy,ta,FULL_NOTES,"Tamil Nadu Higher Secondary (+2) Commerce Stream Master Compendium (கணக்குப்பதிவியல், வணிகவியல், பொருளியல் & வணிகக் கணிதம்)",COMPREHENSIVE,OFFICIAL_TN_DGE_HSE_COMMERCE_CURRICULUM
+note-tn-c12-humanities-compendium,tn-c12-history,ta,FULL_NOTES,"Tamil Nadu Higher Secondary (+2) Humanities & Social Sciences Master Compendium (வரலாறு, அரசியல் அறிவியல், புவியியல் & அறவியல்)",COMPREHENSIVE,OFFICIAL_TN_DGE_HSE_HUMANITIES_CURRICULUM

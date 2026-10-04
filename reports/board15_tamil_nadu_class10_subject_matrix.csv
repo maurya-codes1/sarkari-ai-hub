@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,practical_marks,exam_duration_mins
+tn-c10-tamil-fl,Part I Compulsory Tamil (FLT - பொதுத் தமிழ்),Part I Language,ta,Tamil (U+0B80-U+0BFF),280,205,75,100,0,180
+tn-c10-english-sl,Part II General English (SSLC Paper 2),Part II Language,en,Latin,280,205,75,100,0,180
+tn-c10-mathematics-en,Mathematics (English Medium - SSLC Paper 3),Part III Core,en,Latin,280,205,75,100,0,180
+tn-c10-mathematics-ta,Mathematics (Tamil Medium - கணிதம் - SSLC தாள் 3),Part III Core,ta,Tamil (U+0B80-U+0BFF),280,205,75,100,0,180
+tn-c10-science-en,Science (English Medium - 75 Theory + 25 Practical - SSLC Paper 4),Part III Core,en,Latin,280,205,75,75,25,180
+tn-c10-science-ta,Science (Tamil Medium - அறிவியல் - 75 தியரி + 25 செய்முறை - SSLC தாள் 4),Part III Core,ta,Tamil (U+0B80-U+0BFF),280,205,75,75,25,180
+tn-c10-social-science-en,"Social Science (English Medium - History, Geog, Civics, Econ - SSLC Paper 5)",Part III Core,en,Latin,280,205,75,100,0,180
+tn-c10-social-science-ta,Social Science (Tamil Medium - சமூக அறிவியல் - SSLC தாள் 5),Part III Core,ta,Tamil (U+0B80-U+0BFF),280,205,75,100,0,180
+tn-c10-hindi-opt,Part IV Optional Language Hindi (விருப்ப மொழி இந்தி - SSLC Paper 6),Part IV Optional,hi,Devanagari (U+0900-U+097F),280,205,75,100,0,180
+tn-c10-telugu-opt,Part IV Optional Language Telugu (விருப்ப மொழி தெலுங்கு - SSLC Paper 6),Part IV Optional,te,Telugu (U+0C00-U+0C7F),280,205,75,100,0,180

@@ -1,0 +1,12 @@
+lang_code,language_name,script,unicode_range,usage_scope,permitted_exam_medium,verification_status
+ta,Tamil,Tamil,U+0B80 - U+0BFF,"Compulsory Part I SSLC, Part I HSE, Advanced Tamil",YES,VERIFIED_NATIVE
+en,English,Latin,U+0020 - U+007E,"Part II SSLC English, Part II HSE English, STEM Medium",YES,VERIFIED_NATIVE
+hi,Hindi,Devanagari,U+0900 - U+097F,"Part IV SSLC Hindi, Part I HSE Hindi",YES,VERIFIED_NATIVE
+te,Telugu,Telugu,U+0C00 - U+0C7F,"Part IV SSLC Telugu, Part I HSE Telugu",YES,VERIFIED_NATIVE
+fr,French,Latin,U+0020 - U+007E,"Part IV SSLC French, Part I HSE French",NO,VERIFIED_NATIVE
+kn,Kannada,Kannada,U+0C80 - U+0CFF,"Part IV SSLC Kannada, Part I HSE Kannada",YES,VERIFIED_REGISTERED
+ml,Malayalam,Malayalam,U+0D00 - U+0D7F,"Part IV SSLC Malayalam, Part I HSE Malayalam",YES,VERIFIED_REGISTERED
+ur,Urdu,Arabic/Nastaliq,U+0600 - U+06FF,"Part IV SSLC Urdu, Part I HSE Urdu",YES,VERIFIED_REGISTERED
+sa,Sanskrit,Devanagari,U+0900 - U+097F,"Part IV SSLC Sanskrit, Part I HSE Sanskrit",NO,VERIFIED_REGISTERED
+ar,Arabic,Arabic,U+0600 - U+06FF,"Part IV SSLC Arabic, Part I HSE Arabic",NO,VERIFIED_REGISTERED
+de,German,Latin,U+0020 - U+007E,Part I HSE German,NO,VERIFIED_REGISTERED
