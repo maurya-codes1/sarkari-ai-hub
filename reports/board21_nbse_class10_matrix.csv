@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,internal_assessment_marks,exam_duration_mins
+nl-c10-english,English (Compulsory HSLC Subject - 80 Theory + 20 IA),Compulsory Language,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-second-lang-tenyidie,Tenyidie (Second Language - Naga Language - 80 Theory + 20 IA),Second Language MIL,njz,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-second-lang-ao,Ao (Second Language - Naga Language - 80 Theory + 20 IA),Second Language MIL,njo,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-second-lang-sumi,Sumi (Second Language - Naga Language - 80 Theory + 20 IA),Second Language MIL,nsm,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-second-lang-lotha,Lotha (Second Language - Naga Language - 80 Theory + 20 IA),Second Language MIL,njh,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-alt-english,Alternative English (Second Language Option - 80 Theory + 20 IA),Second Language Option,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-second-lang-hindi,Hindi (Second Language - हिन्दी - 80 Theory + 20 IA),Second Language Option,hi,Devanagari (U+0900-U+097F),280,205,75,80,20,180
+nl-c10-mathematics,Mathematics (Compulsory HSLC - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-science,Science (Compulsory HSLC - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180
+nl-c10-social-sciences,Social Sciences (Compulsory HSLC - 80 Theory + 20 IA),Compulsory Core,en,Latin (U+0020-U+007E),280,205,75,80,20,180

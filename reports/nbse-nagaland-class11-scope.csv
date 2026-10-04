@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 11 (Higher Secondary Part-I),Intermediate promotional higher secondary stage
+administering_body,Nagaland Board of School Education (NBSE),Regulated under NBSE Higher Secondary Regulations
+terminal_public_exam,FALSE_INDEPENDENT_PROMOTION,Evaluated via board-moderated Class XI Promotion Examination
+dependency_rule,NBSE_CLASS11_TO_CLASS12_DEPENDENCY,Mandatory clearance of Class XI Promotion Exam for enrollment into Class 12 HSSLC Final Year
+stream_continuity,ENFORCED,Selected stream and core subjects in Class 11 continue into Class 12
+streams_offered,"Science, Commerce, Arts / Humanities, Vocational",Officially recognized NBSE streams
+full_exam_mode,STANDALONE_BLOCKED_UNLESS_ENROLLED,Curricular progression enforced

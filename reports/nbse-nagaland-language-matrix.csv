@@ -1,0 +1,8 @@
+language_code,language_name,script_name,unicode_range,usage_scope,permitted_exam_medium,verification_status
+njz,Tenyidie,Latin,U+0020 - U+007E,"Indigenous Naga State Language, Compulsory HSLC Second Language option, HSSLC MIL, Ura Academy curriculum",YES,VERIFIED_NAGA_LANGUAGE
+njo,Ao,Latin,U+0020 - U+007E,"Indigenous Naga State Language, Compulsory HSLC Second Language option, HSSLC MIL, Ao Literature Board curriculum",YES,VERIFIED_NAGA_LANGUAGE
+nsm,Sumi,Latin,U+0020 - U+007E,"Indigenous Naga State Language, Compulsory HSLC Second Language option, Sumi Literature Board curriculum",YES,VERIFIED_NAGA_LANGUAGE
+njh,Lotha,Latin,U+0020 - U+007E,"Indigenous Naga State Language, Compulsory HSLC Second Language option, Lotha Literature Committee curriculum",YES,VERIFIED_NAGA_LANGUAGE
+en,English,Latin,U+0020 - U+007E,"Compulsory Subject across HSLC & HSSLC, Official State Working Language & Medium of Instruction",YES,VERIFIED_COMPULSORY_MEDIUM
+hi,Hindi,Devanagari,U+0900 - U+097F,Second Language Option in HSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE
+bn,Bengali,Bengali,U+0980 - U+09FF,Second Language Option in HSLC and MIL Option in HSSLC,YES,VERIFIED_MIL_LANGUAGE

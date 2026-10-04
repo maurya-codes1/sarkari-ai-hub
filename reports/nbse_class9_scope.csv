@@ -1,0 +1,8 @@
+field,value,audit_notes
+stage,Class 9,Non-terminal institutional evaluation stage
+administering_body,Nagaland Board of School Education (NBSE),Regulated under NBSE Secondary Regulations
+terminal_public_exam,FALSE,Evaluated via board-supervised institutional Class IX Final Examination
+dependency_rule,NBSE_CLASS9_TO_CLASS10_DEPENDENCY,School institutional examination + Registration Return submission to NBSE Kohima
+minimum_attendance,75%,Mandatory 75% attendance in Class 9 for HSLC registration eligibility
+full_exam_mode,BLOCKED,Full exam simulation prevented for Class 9; practice/revision permitted
+questions_ingested,0,Strict isolation: zero fake public board questions generated for Class 9

@@ -1,0 +1,293 @@
+{
+  "board_id": "nbse-nagaland",
+  "board_name": "Nagaland Board of School Education",
+  "short_name": "NBSE",
+  "common_name": "Nagaland Board",
+  "state": "Nagaland",
+  "headquarters": "Bayavü Hill, Kohima - 797001, Nagaland",
+  "country": "India",
+  "authority_id": "org-nl-board-nbse",
+  "authorities": {
+    "NBSE": {
+      "authority_id": "org-nl-board-nbse",
+      "name": "Nagaland Board of School Education",
+      "short_name": "NBSE",
+      "headquarters": "Bayavü Hill, Kohima - 797001, Nagaland",
+      "official_website": "https://nbsenl.edu.in/",
+      "portal_results": "https://nbsenl.edu.in/",
+      "jurisdiction": "Secondary and Higher Secondary Education across Nagaland (Class 8 to Class 12)"
+    }
+  },
+  "historical_authorities": {
+    "nbse": {
+      "authority_id": "org-nl-board-nbse",
+      "name": "Nagaland Board of School Education",
+      "short_name": "NBSE",
+      "established_year": 1973,
+      "act": "Nagaland Board of School Education Act, 1973 (Nagaland Act No. 4 of 1974)"
+    }
+  },
+  "classes": [8, 9, 10, 11, 12],
+  "class_9": {
+    "stage": "Class 9",
+    "exam_name": "Class IX Final Examination",
+    "board_exam_eligible": false,
+    "terminal_public_exam": false,
+    "progression_to_class_10": "NBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "mode": "Board-Supervised Institutional Annual Examination & Registration Return",
+    "minimum_attendance_percentage": 75,
+    "dependency_rule": "NBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "questions_ingested": 0
+  },
+  "class_10": {
+    "stage": "Class 10",
+    "exam_name": "High School Leaving Certificate (HSLC) Examination",
+    "administering_body": "org-nl-board-nbse",
+    "board_exam_eligible": true,
+    "terminal_public_exam": true,
+    "total_marks": 600,
+    "total_subjects": 6,
+    "scheme": "80 Theory + 20 Internal Assessment per subject",
+    "passing_threshold_percent": 33,
+    "passing_marks_per_subject": 33,
+    "exam_duration_hours": 3,
+    "subjects": [
+      { "subject_id": "nl-c10-english", "name": "English", "category": "Compulsory Language" },
+      { "subject_id": "nl-c10-second-lang-tenyidie", "name": "Tenyidie", "category": "Second Language (Naga Language)", "script": "Latin" },
+      { "subject_id": "nl-c10-second-lang-ao", "name": "Ao", "category": "Second Language (Naga Language)", "script": "Latin" },
+      { "subject_id": "nl-c10-second-lang-sumi", "name": "Sumi", "category": "Second Language (Naga Language)", "script": "Latin" },
+      { "subject_id": "nl-c10-second-lang-lotha", "name": "Lotha", "category": "Second Language (Naga Language)", "script": "Latin" },
+      { "subject_id": "nl-c10-alt-english", "name": "Alternative English", "category": "Second Language Option" },
+      { "subject_id": "nl-c10-second-lang-hindi", "name": "Hindi", "category": "Second Language", "script": "Devanagari" },
+      { "subject_id": "nl-c10-mathematics", "name": "Mathematics", "category": "Compulsory Core" },
+      { "subject_id": "nl-c10-science", "name": "Science", "category": "Compulsory Core" },
+      { "subject_id": "nl-c10-social-sciences", "name": "Social Sciences", "category": "Compulsory Core" }
+    ]
+  },
+  "class_11": {
+    "stage": "Class 11",
+    "exam_name": "Class XI Promotion Examination",
+    "administering_body": "org-nl-board-nbse",
+    "board_exam_eligible": false,
+    "terminal_public_exam": false,
+    "progression_to_class_12": "NBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "dependency_rule": "NBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "mode": "Board-Moderated Promotional Examination & Stream Registration Context",
+    "minimum_attendance_percentage": 75,
+    "streams": ["Science", "Commerce", "Arts", "Vocational"]
+  },
+  "class_12": {
+    "stage": "Class 12",
+    "exam_name": "Higher Secondary School Leaving Certificate (HSSLC) Examination",
+    "administering_body": "org-nl-board-nbse",
+    "board_exam_eligible": true,
+    "terminal_public_exam": true,
+    "total_marks": 500,
+    "total_subjects": 5,
+    "passing_threshold_percent": 33,
+    "theory_passing_percentage": 30,
+    "practical_passing_percentage": 30,
+    "exam_duration_hours": 3,
+    "streams": [
+      {
+        "stream_id": "science",
+        "stream_name": "Science Stream",
+        "subjects": [
+          "nl-c12-physics", "nl-c12-chemistry", "nl-c12-biology",
+          "nl-c12-mathematics", "nl-c12-computer-science", "nl-c12-informatics-practices"
+        ]
+      },
+      {
+        "stream_id": "commerce",
+        "stream_name": "Commerce Stream",
+        "subjects": [
+          "nl-c12-accountancy", "nl-c12-business-studies", "nl-c12-economics",
+          "nl-c12-entrepreneurship", "nl-c12-financial-markets"
+        ]
+      },
+      {
+        "stream_id": "arts",
+        "stream_name": "Arts / Humanities Stream",
+        "subjects": [
+          "nl-c12-political-science", "nl-c12-history", "nl-c12-geography",
+          "nl-c12-education", "nl-c12-sociology", "nl-c12-philosophy"
+        ]
+      },
+      {
+        "stream_id": "languages",
+        "stream_name": "Languages",
+        "subjects": [
+          "nl-c12-english", "nl-c12-alt-english", "nl-c12-second-lang-tenyidie", "nl-c12-second-lang-ao"
+        ]
+      },
+      {
+        "stream_id": "vocational",
+        "stream_name": "Vocational Education",
+        "subjects": [
+          "nl-c12-voc-it-ites", "nl-c12-voc-tourism-hospitality", "nl-c12-voc-retail", "nl-c12-voc-healthcare", "nl-c12-voc-beauty-wellness", "nl-c12-voc-agriculture"
+        ]
+      }
+    ]
+  },
+  "stages": {
+    "class_9": {
+      "stage": "Class 9",
+      "exam_name": "Class IX Final Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "NBSE_CLASS9_TO_CLASS10_DEPENDENCY"
+    },
+    "class_10": {
+      "stage": "Class 10",
+      "exam_name": "High School Leaving Certificate (HSLC) Examination",
+      "aggregate_marks": 600,
+      "passing_percentage": 33,
+      "exam_duration_hours": 3
+    },
+    "class_11": {
+      "stage": "Class 11",
+      "exam_name": "Class XI Promotion Examination",
+      "terminal_public_exam": false,
+      "dependency_rule": "NBSE_CLASS11_TO_CLASS12_DEPENDENCY"
+    },
+    "class_12": {
+      "stage": "Class 12",
+      "exam_name": "Higher Secondary School Leaving Certificate (HSSLC) Examination",
+      "aggregate_marks": 500,
+      "passing_percentage": 33,
+      "theory_passing_percentage": 30,
+      "practical_passing_percentage": 30,
+      "exam_duration_hours": 3
+    }
+  },
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "nbse_home": "https://nbsenl.edu.in/",
+    "results_portal": "https://nbsenl.edu.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_nagaland": true
+  },
+  "academic_progression": {
+    "class_9_to_10_dependency": "NBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+    "class_9_terminal_public_exam": false,
+    "class_11_to_12_dependency": "NBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+    "class_11_terminal_public_exam": false
+  },
+  "progression_dependencies": {
+    "class9_to_class10": {
+      "rule_id": "NBSE_CLASS9_TO_CLASS10_DEPENDENCY",
+      "class9_mode": "BOARD_SUPERVISED_INSTITUTIONAL_FINAL_EXAM",
+      "enrolment_return": "MANDATORY_REGISTRATION_RETURN_TO_NBSE_KOHIMA",
+      "min_attendance_percent": 75
+    },
+    "class11_to_class12": {
+      "rule_id": "NBSE_CLASS11_TO_CLASS12_DEPENDENCY",
+      "class11_mode": "NBSE_CLASS_XI_PROMOTION_EXAMINATION",
+      "stream_continuity": "MANDATORY",
+      "min_attendance_percent": 75
+    }
+  },
+  "registration_rules": {
+    "hslc_class_10": {
+      "minimum_attendance": "75%",
+      "enrolment_return": "MANDATORY_NBSE_KOHIMA",
+      "exam_forms_window": "September - October 2026"
+    },
+    "hsslc_class_12": {
+      "minimum_attendance": "75%",
+      "stream_continuity": "Mandatory",
+      "exam_forms_window": "October - November 2026"
+    }
+  },
+  "curriculum_specialties": {
+    "article_371a_special_status": "Article 371A provides special constitutional safeguards for customary law, ownership of land and resources in Nagaland",
+    "cultural_heritage_integration": [
+      "Morung (youth dormitory) educational system",
+      "Traditional village republics and customary councils",
+      "Sekrenyi and Moatsü agro-cultural festivals",
+      "Hornbill Cultural Traditions",
+      "Battle of Kohima (1944)"
+    ],
+    "naga_languages": [
+      "Tenyidie (njz)", "Ao (njo)", "Sumi (nsm)", "Lotha (njh)"
+    ],
+    "state_heritage": [
+      "Hornbill Cultural Traditions", "Naga Tribal Customary Institutions",
+      "Village Republics and Morung Systems", "Battle of Kohima (1944)"
+    ],
+    "state_freedom_fighters": [
+      "AZ Phizo (Zapufise Phizo)",
+      "Haipou Jadonang (Rongmei Naga leader & freedom fighter)",
+      "Rani Gaidinliu (Heraka movement spiritual & political leader)"
+    ]
+  },
+  "language_script_registry": [
+    {
+      "language_id": "njz",
+      "name": "Tenyidie",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Tenyidie Second Language", "Tenyidie MIL"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "njo",
+      "name": "Ao",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Ao Second Language", "Ao MIL"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "nsm",
+      "name": "Sumi",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Sumi Second Language", "Sumi MIL"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "njh",
+      "name": "Lotha",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Lotha Second Language", "Lotha MIL"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["Compulsory English", "Alternative English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Hindi Second Language", "Hindi Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["Bengali Second Language"],
+      "permitted_medium": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+stream,group_type,subject_id,subject_name,role,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+languages,Compulsory,nl-c12-english,English Core (Compulsory across all streams - 100 Marks),Compulsory Language,280,205,75,100,0
+languages,Elective_MIL,nl-c12-alt-english,Alternative English (100 Marks - HSSLC NBSE),Elective Language Option,280,205,75,100,0
+languages,Elective_MIL,nl-c12-second-lang-tenyidie,Tenyidie MIL (Tenyidie Literature & Language - 100 Marks),Elective MIL,280,205,75,100,0
+languages,Elective_MIL,nl-c12-second-lang-ao,Ao MIL (Ao Literature & Language - 100 Marks),Elective MIL,280,205,75,100,0
+science,Core,nl-c12-physics,Physics (70 Theory + 30 Practical - HSSLC NBSE),Science Core,280,205,75,70,30
+science,Core,nl-c12-chemistry,Chemistry (70 Theory + 30 Practical - HSSLC NBSE),Science Core,280,205,75,70,30
+science,Core,nl-c12-biology,Biology (Botany & Zoology - 70 Theory + 30 Practical),Science Core,280,205,75,70,30
+science,Core,nl-c12-mathematics,Mathematics (80 Theory + 20 IA - HSSLC NBSE),Science Core,280,205,75,80,20
+science,Elective,nl-c12-computer-science,Computer Science (70 Theory + 30 Practical - HSSLC NBSE),Science Elective,280,205,75,70,30
+science,Elective,nl-c12-informatics-practices,Informatics Practices (70 Theory + 30 Practical - HSSLC NBSE),Science Elective,280,205,75,70,30
+commerce,Core,nl-c12-accountancy,Accountancy (80 Theory + 20 Project - HSSLC NBSE),Commerce Core,280,205,75,80,20
+commerce,Core,nl-c12-business-studies,Business Studies (80 Theory + 20 Project - HSSLC NBSE),Commerce Core,280,205,75,80,20
+commerce,Core,nl-c12-economics,Economics (80 Theory + 20 Project - HSSLC NBSE),Commerce Core,280,205,75,80,20
+commerce,Elective,nl-c12-entrepreneurship,Entrepreneurship (80 Theory + 20 Project - HSSLC NBSE),Commerce Elective,280,205,75,80,20
+commerce,Elective,nl-c12-financial-markets,Financial Markets Management / Commercial Math (80 Theory + 20 Project),Commerce Elective,280,205,75,80,20
+arts,Elective,nl-c12-political-science,Political Science (Themes in Politics - 80 Theory + 20 Project),Humanities Elective,280,205,75,80,20
+arts,Elective,nl-c12-history,History (Themes in History & Naga Heritage - 80 Theory + 20 Project),Humanities Elective,280,205,75,80,20
+arts,Elective,nl-c12-geography,Geography (Fundamentals & Nagaland Geography - 70 Theory + 30 Practical),Humanities Elective,280,205,75,70,30
+arts,Elective,nl-c12-education,Education (Educational Principles & Psychological Foundations),Humanities Elective,280,205,75,80,20
+arts,Elective,nl-c12-sociology,Sociology (Indian Society & Naga Social Institutions - 80 Theory + 20 Project),Humanities Elective,280,205,75,80,20
+arts,Elective,nl-c12-philosophy,Logic & Philosophy (80 Theory + 20 Project - HSSLC NBSE),Humanities Elective,280,205,75,80,20
