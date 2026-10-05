@@ -1,0 +1,129 @@
+{
+  "exam_id": "nta-cuet-ug",
+  "name": "NTA CUET UG (Common University Entrance Test for Undergraduate Admissions)",
+  "short_name": "NTA CUET UG",
+  "exam_category": "university_entrance",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-national-testing-agency-nta",
+    "name": "National Testing Agency (NTA)",
+    "short_name": "NTA",
+    "headquarters": "First Floor, NSIC-MDBP Building, Okhla Industrial Estate, New Delhi 110020",
+    "official_website": "https://exams.nta.ac.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-cuet-ug-official-portal",
+      "name": "NTA CUET UG Official Examination Portal (exams.nta.ac.in/CUET-UG/)",
+      "url": "https://exams.nta.ac.in/CUET-UG/",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-cuet-ug-bulletin-2026",
+      "name": "CUET (UG) 2026 Information Bulletin & Admission Scheme",
+      "url": "https://exams.nta.ac.in/CUET-UG/bulletin-2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-cuet-ug-syllabus-2026",
+      "name": "CUET UG Comprehensive Curriculum Guidelines & Section Blueprints (NTA)",
+      "url": "https://exams.nta.ac.in/CUET-UG/syllabus-2026.pdf",
+      "type": "STATUTORY_REGULATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "cuet_ug_hybrid": {
+      "stage_name": "CUET (UG) National Hybrid Entrance Examination (Pen & Paper OMR / CBT)",
+      "mode": "Hybrid Mode (OMR / CBT)",
+      "total_sections": 3,
+      "marks_per_question": 5.0,
+      "negative_marking": 1.0,
+      "sections": [
+        {
+          "section_id": "section_1",
+          "name": "Section IA & IB: Languages",
+          "description": "Language testing through Reading Comprehension (based on different types of passages–Factual, Literary and Narrative), Literary Aptitude and Vocabulary.",
+          "total_questions": 50,
+          "questions_to_attempt": 40,
+          "duration_minutes": 45
+        },
+        {
+          "section_id": "section_2",
+          "name": "Section II: Domain Specific Subjects",
+          "description": "27 Domain Subjects as per Class 12 syllabus covering Sciences, Humanities, and Commerce curricula.",
+          "total_questions": 50,
+          "questions_to_attempt": 40,
+          "duration_minutes": 45
+        },
+        {
+          "section_id": "section_3",
+          "name": "Section III: General Test",
+          "description": "General Knowledge, Current Affairs, General Mental Ability, Numerical Ability, Quantitative Reasoning (simple application of basic mathematical concepts arithmetic/algebra/geometry/mensuration/stat taught till Grade 8), Logical and Analytical Reasoning.",
+          "total_questions": 60,
+          "questions_to_attempt": 50,
+          "duration_minutes": 60
+        }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "cuet-ug-section1-language",
+        "name": "Language & Verbal Ability (Section I: भाषा एवं मौखिक योग्यता)",
+        "short_name": "CUET Language",
+        "total_questions": 300,
+        "marks_per_question": 5.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Reading Comprehension: Factual passages, Narrative extracts, Literary analysis, Central theme, Tone of author",
+          "Vocabulary & Word Power: Synonyms, Antonyms, One-word substitution, Idioms and phrases, Contextual word usage",
+          "Grammar & Sentence Mechanics: Tenses, Subject-verb agreement, Active and passive voice, Direct and indirect speech, Error spotting",
+          "Verbal Ability & Logic: Para jumbles, Sentence completion, Analogies, Clause connectors, Collocations"
+        ]
+      },
+      {
+        "subject_id": "cuet-ug-section2-humanities",
+        "name": "Humanities & Social Sciences (Section II: मानविकी एवं सामाजिक विज्ञान)",
+        "short_name": "CUET Humanities",
+        "total_questions": 300,
+        "marks_per_question": 5.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "History: Harappan civilization, Early states and economies, Bhakti-Sufi traditions, Mughal court, Colonialism, Freedom movement, Framing the Indian Constitution",
+          "Political Science: Cold War era and contemporary world politics, United Nations and global institutions, Nation-building in India, Democratic resurgence, Recent trends in Indian politics",
+          "Geography: Human geography fundamentals, World population distribution and density, Resources and development, India's people and economy, Transport, communication and trade",
+          "Economics: Introductory microeconomics (consumer behavior, demand, market structures), Macroeconomics (national income, money and banking, government budget, balance of payments)"
+        ]
+      },
+      {
+        "subject_id": "cuet-ug-section2-sciences",
+        "name": "Science & Applied Mathematics (Section II: विज्ञान एवं व्यावहारिक गणित)",
+        "short_name": "CUET Sciences",
+        "total_questions": 300,
+        "marks_per_question": 5.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Physical Sciences: Electrostatics, Current electricity, Magnetic effects of current, Electromagnetic induction and AC, Optics, Dual nature of matter and radiation, Atoms and nuclei, Semiconductor electronics",
+          "Chemical Sciences: Solid state, Solutions, Electrochemistry, Chemical kinetics, Surface chemistry, p-block elements, d- and f-block elements, Coordination compounds, Haloalkanes, Alcohols, Aldehydes and ketones, Amines, Biomolecules",
+          "Life Sciences: Reproduction in organisms, Genetics and evolution, Biology and human welfare, Biotechnology principles and applications, Ecology and environment",
+          "Mathematics: Relations and functions, Algebra (matrices and determinants), Calculus (continuity, differentiability, integrals, differential equations), Vectors and 3D geometry, Linear programming, Probability"
+        ]
+      },
+      {
+        "subject_id": "cuet-ug-section3-general-test",
+        "name": "General Test (Section III: सामान्य परीक्षण - GK, Quant & Reasoning)",
+        "short_name": "CUET General Test",
+        "total_questions": 300,
+        "marks_per_question": 5.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "General Knowledge & Current Affairs: Indian polity and governance, General science discoveries, National and international days, Awards and honors, Books and authors, Sports and championships",
+          "Numerical Ability & Arithmetic: Number system, Percentages, Ratio and proportion, Profit and loss, Simple and compound interest, Time and work, Time, speed and distance, Averages",
+          "Quantitative Reasoning & Mensuration: Basic algebra, Simple equations, Areas and volumes of 2D and 3D shapes, Elementary statistics, Basic probability",
+          "Logical & Analytical Reasoning: Number and letter series, Coding-decoding, Blood relations, Direction sense, Syllogisms, Venn diagrams, Seating arrangements, Non-verbal figure patterns"
+        ]
+      }
+    ]
+  }
+}

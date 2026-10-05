@@ -1,0 +1,10 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Agency,"National Testing Agency (NTA), New Delhi",org-national-testing-agency-nta
+Official Exam Version ID,ver-nta-cuet-ug-2026,ver-nta-cuet-ug-2026
+Examination Mode,Hybrid Mode (Pen & Paper OMR / CBT Online),Objective Single Choice MCQ Standard
+Marks for Correct Answer,+5.0 Marks,+5.0 Marks across all questions
+Penalty for Incorrect Answer,-1.0 Mark (Negative Marking 20%),1.0 Negative Marking
+Medium of Exam,"13 Languages (English, Hindi, Assamese, Bengali, Gujarati, Kannada, Malayalam, Marathi, Odia, Punjabi, Tamil, Telugu, Urdu)",Bilingual Dual JSON (en + hi)
+Total Repository Question Bank,"1,200 Official Questions (4 Subjects x 300 Qs)","1,200 Questions Ingested"
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database
