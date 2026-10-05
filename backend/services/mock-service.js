@@ -129,16 +129,22 @@ class MockService {
 
     // If NOT a school board (e.g. SSC, RRB, Police, NDA, UPSC, Banking), strictly PURGE board and stage!
     const BOARD_MAP = {
-      'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
-      'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
-      'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
-      'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
+      'cbse': 'cbse-board', 'icse': 'cbse-board', 'upmsp': 'upmsp-uttar-pradesh',
+      'bseb': 'bseb-bihar', 'maharashtra': 'msbshse-maharashtra', 'rbse': 'rbse-rajasthan',
+      'mpbse': 'mpbse-madhya-pradesh', 'wb': 'wbbse-wbchse-west-bengal', 'tn': 'tamil-nadu-dge',
+      'karnataka': 'karnataka-kseab-pue', 'gujarat': 'gseb-gujarat', 'haryana': 'hbse-haryana',
       'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
-      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
-      'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
-      'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
-      'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
-      'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
+      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'odisha-bse-chse', 'ubse': 'ubse-uttarakhand',
+      'seba': 'asseb-assam', 'bsetelangana': 'telangana-bsetg-tsbie', 'bsetg': 'telangana-bsetg-tsbie',
+      'hpbose': 'hpbose-himachal-pradesh', 'jkbose': 'jkbose-jammu-kashmir', 'kerala': 'kerala-general-scert-dhse',
+      'gbshse': 'gbshse-goa', 'bsem': 'manipur-bsem-cohsem', 'mbose': 'mbose-meghalaya',
+      'mbse': 'mbse-mizoram', 'nbse': 'nbse-nagaland', 'tbse': 'tbse-tripura',
+      'bseap': 'andhra-pradesh-bse-bieap', 'sbosse': 'sbosse-sikkim', 'apsbe': 'apsbe-arunachal-pradesh',
+      // Common aliases
+      'msbshse': 'msbshse-maharashtra', 'wbbse': 'wbbse-wbchse-west-bengal', 'tndge': 'tamil-nadu-dge',
+      'kseab': 'karnataka-kseab-pue', 'hbse': 'hbse-haryana', 'bseh': 'hbse-haryana',
+      'asseb': 'asseb-assam', 'odisha': 'odisha-bse-chse', 'chse': 'odisha-bse-chse',
+      'tsbie': 'telangana-bsetg-tsbie', 'bieap': 'andhra-pradesh-bse-bieap'
     };
     const rawBoardId = isBoardExam ? (boardId || (examObj && examObj.board_id) || (pdfContext && pdfContext.boardId) || null) : null;
     const resolvedBoardId = rawBoardId ? (BOARD_MAP[rawBoardId] || rawBoardId) : null;
@@ -157,20 +163,20 @@ class MockService {
     // Automatically resolve authentic native language if a regional board is selected
     if (resolvedBoardId && (!languageConfig || languageConfig.primary === 'hi')) {
       const bMap = {
-        'tn': 'ta', 'tndge': 'ta', 'tndge-tamilnadu': 'ta',
-        'maharashtra': 'mr', 'maharashtra-board': 'mr',
-        'wb': 'bn', 'wbbse-wb': 'bn',
-        'kerala': 'ml', 'kerala-board': 'ml',
-        'karnataka': 'kn', 'kseab-karnataka': 'kn',
-        'gujarat': 'gu', 'gseb-gujarat': 'gu',
+        'tn': 'ta', 'tndge': 'ta', 'tamil-nadu-dge': 'ta',
+        'maharashtra': 'mr', 'msbshse': 'mr', 'msbshse-maharashtra': 'mr',
+        'wb': 'bn', 'wbbse': 'bn', 'wbbse-wbchse-west-bengal': 'bn',
+        'kerala': 'ml', 'kerala-general-scert-dhse': 'ml',
+        'karnataka': 'kn', 'kseab': 'kn', 'karnataka-kseab-pue': 'kn',
+        'gujarat': 'gu', 'gseb': 'gu', 'gseb-gujarat': 'gu',
         'pseb': 'pa', 'pseb-punjab': 'pa',
-        'bseodisha': 'or', 'chse-bse-odisha': 'or',
-        'seba': 'as', 'seba-ahsec-assam': 'as',
-        'bsetelangana': 'te', 'tsbie-bieap': 'te', 'bseap': 'te', 'bsetg': 'te',
-        'tbse': 'bn', 'tbse-board': 'bn',
-        'jkbose': 'ur', 'jkbose-board': 'ur'
+        'bseodisha': 'or', 'odisha': 'or', 'odisha-bse-chse': 'or',
+        'seba': 'as', 'asseb': 'as', 'asseb-assam': 'as',
+        'bsetelangana': 'te', 'tsbie': 'te', 'bseap': 'te', 'bsetg': 'te', 'telangana-bsetg-tsbie': 'te', 'andhra-pradesh-bse-bieap': 'te',
+        'tbse': 'bn', 'tbse-tripura': 'bn',
+        'jkbose': 'ur', 'jkbose-jammu-kashmir': 'ur'
       };
-      const nativeBoardLang = bMap[resolvedBoardId] || bMap[resolvedBoardId.replace(/-board$/, '')];
+      const nativeBoardLang = bMap[resolvedBoardId] || bMap[rawBoardId];
       if (nativeBoardLang) {
         languageConfig = {
           primary: nativeBoardLang,
@@ -548,16 +554,38 @@ class MockService {
     if (practiceType === 'ALL_SUBJECTS_PRACTICE' || subjectId === 'all') {
       const db = require('../db/database').getDb();
       if (db) {
-        const bp = blueprintRepository.getBlueprintForExam(examId);
-        if (bp && Array.isArray(bp.sections) && bp.sections.length > 0) {
-          subjectIds = bp.sections.map(s => s.subject_id).filter(Boolean);
+        if (!boardId) {
+          const bp = blueprintRepository.getBlueprintForExam(examId);
+          if (bp && Array.isArray(bp.sections) && bp.sections.length > 0) {
+            subjectIds = bp.sections.map(s => s.subject_id).filter(Boolean);
+          }
         }
         if (!subjectIds || subjectIds.length === 0) {
           if (boardId) {
             const subRows = db.prepare(`
-              SELECT DISTINCT subject_id FROM questions WHERE board_id = ? ${stage ? 'AND stage = ?' : ''}
+              SELECT DISTINCT subject_id FROM questions WHERE board_id = ? ${stage ? 'AND stage = ?' : ''} AND is_published = 1 AND quality_state != 'SYNTHETIC_QUARANTINE' AND trust_status != 'QUARANTINED'
             `).all(...(stage ? [boardId, stage] : [boardId]));
-            subjectIds = subRows.map(r => r.subject_id).filter(Boolean);
+            let allSubs = subRows.map(r => r.subject_id).filter(Boolean);
+            if (stream === 'science' || (examId && examId.includes('science'))) {
+              const sciSubs = allSubs.filter(s => {
+                const sl = s.toLowerCase();
+                return sl.includes('phys') || sl.includes('chem') || sl.includes('bio') || sl.includes('math') || sl.includes('eng') || sl.includes('hindi') || sl.includes('bengali') || sl.includes('tamil') || sl.includes('telugu') || sl.includes('marathi') || sl.includes('gujarati') || sl.includes('punjabi');
+              });
+              if (sciSubs.length > 0) allSubs = sciSubs;
+            } else if (stream === 'commerce' || (examId && examId.includes('commerce'))) {
+              const comSubs = allSubs.filter(s => {
+                const sl = s.toLowerCase();
+                return sl.includes('account') || sl.includes('bus') || sl.includes('eco') || sl.includes('math') || sl.includes('eng') || sl.includes('hindi');
+              });
+              if (comSubs.length > 0) allSubs = comSubs;
+            } else if (stream === 'arts' || (examId && examId.includes('arts'))) {
+              const artSubs = allSubs.filter(s => {
+                const sl = s.toLowerCase();
+                return sl.includes('hist') || sl.includes('polit') || sl.includes('geog') || sl.includes('eco') || sl.includes('eng') || sl.includes('hindi') || sl.includes('soci');
+              });
+              if (artSubs.length > 0) allSubs = artSubs;
+            }
+            subjectIds = allSubs;
           } else {
             const subRows = db.prepare(`
               SELECT DISTINCT bs.subject_id 
@@ -1149,7 +1177,10 @@ class MockService {
 
     let resolvedSubjId = qRow.subject_id;
     if (sec.subject_id && sec.subject_id !== 'all') {
-      if (sec.subject_id === 'subj-english' && (resolvedSubjId.includes('english') || resolvedSubjId.includes('eng'))) {
+      const normSecSubj = normalizeSubjectId(sec.subject_id);
+      if (normSecSubj && (normalizeSubjectId(resolvedSubjId) === normSecSubj || resolvedSubjId.includes(normSecSubj.replace(/^subj-/, '')))) {
+        resolvedSubjId = normSecSubj;
+      } else if (sec.subject_id === 'subj-english' && (resolvedSubjId.includes('english') || resolvedSubjId.includes('eng'))) {
         resolvedSubjId = 'subj-english';
       } else if (sec.subject_id === 'subj-math' && (resolvedSubjId.includes('math') || resolvedSubjId.includes('quant'))) {
         resolvedSubjId = 'subj-math';

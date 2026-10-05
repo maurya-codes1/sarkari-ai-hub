@@ -5775,6 +5775,44 @@ function getHighYieldVault() {
 function getBoardLocalizedQuestions(boardId = "bseb", classLevel = "10th", subjectId = "all", requestedCount = 30, stream = "science") {
   const b = BOARD_METADATA[boardId] || BOARD_METADATA["bseb"];
   const langMode = b.langMode || "bilingual-hindi";
+  const normSub = (subjectId || 'all').toLowerCase();
+
+  // If in Node.js environment, load authentic questions directly from inventory loader for complete fidelity
+  if (typeof require !== 'undefined') {
+    try {
+      let invLoader = null;
+      try { invLoader = require('./services/subject-inventory-loader'); } catch (e1) {
+        try { invLoader = require('../services/subject-inventory-loader'); } catch (e2) {
+          try { invLoader = require('../../services/subject-inventory-loader'); } catch (e3) {}
+        }
+      }
+      if (invLoader && invLoader.getCompleteSubjectInventory) {
+        const inv = invLoader.getCompleteSubjectInventory(subjectId, {
+          boardId,
+          is12th: classLevel === '12th',
+          targetClass: classLevel,
+          langMode
+        });
+        if (inv && inv.length > 0) {
+          return inv.slice(0, requestedCount).map((item, idx) => ({
+            id: `${b.id}-${classLevel}-${subjectId}-${idx + 1}`,
+            uniqueKey: `${b.id}-${classLevel}-${idx + 1}-${Date.now()}-${Math.random().toString(36).substring(2, 6)}`,
+            examTags: [classLevel === "12th" ? `board-12th-${stream}` : "board-10th"],
+            subjectTags: [subjectId],
+            subjectName: getSubjectDisplayName(subjectId),
+            q: item.q,
+            options: [...item.options],
+            correct: item.correct !== undefined ? item.correct : 0,
+            ans: item.ans,
+            explanation: item.explanation || item.exp,
+            topic: `${item.topic || subjectId} (${b.name})`,
+            boardTag: b.name
+          }));
+        }
+      }
+    } catch (e) {}
+  }
+
   const vault = getHighYieldVault();
 
   const formatHyItem = (item, subKey, idx) => ({
@@ -5791,8 +5829,6 @@ function getBoardLocalizedQuestions(boardId = "bseb", classLevel = "10th", subje
     topic: `${item.topic} (${b.name})`,
     boardTag: b.name
   });
-
-  const normSub = (subjectId || 'all').toLowerCase();
 
   // 1. STRICT SUBJECT-SPECIFIC SELECTION: 10th & 12th Streams (Science, Commerce, Arts)
   // Completely prevents fallback to other subjects. If user picks Accountancy, they get pure Accountancy!
@@ -6010,10 +6046,11 @@ function getBoardLocalizedQuestions(boardId = "bseb", classLevel = "10th", subje
   if (candidates.length === 0 && subjectId !== "all") {
     candidates = CLIENT_BLUEPRINTS.filter(bp => bp.subject === subjectId);
   }
-  if (candidates.length === 0) {
+  const isRegionalLang = ['bengali', 'tamil', 'telugu', 'marathi', 'gujarati', 'punjabi', 'odia', 'assamese', 'urdu', 'kannada', 'malayalam'].some(l => normSub.includes(l));
+  if (candidates.length === 0 && !isRegionalLang) {
     candidates = CLIENT_BLUEPRINTS.filter(bp => bp.class === classLevel);
   }
-  if (candidates.length === 0) candidates = CLIENT_BLUEPRINTS;
+  if (candidates.length === 0 && !isRegionalLang) candidates = CLIENT_BLUEPRINTS;
 
   let pool = [...candidates];
   shuffleArray(pool);

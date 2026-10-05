@@ -44,7 +44,7 @@ try {
   } catch (e2) {}
 }
 
-const { getCompleteSubjectInventory } = require('./subject-inventory-loader');
+const { getCompleteSubjectInventory, fetchDbQuestionsForSubject } = require('./subject-inventory-loader');
 const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
 
 const BOARD_REGISTRY = {
@@ -1362,8 +1362,8 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
 
     const subjectSections = boardSubjects.map(sub => {
       const qPool = getCompleteSubjectInventory(sub.id, { is12th, targetClass, boardId, langMode: b.langMode, examName: `${b.name} Class ${targetClass}` });
-      // Take balanced proportion: 20-25 questions per subject for full mock bundle
-      const sampleCount = Math.min(qPool.length, 25);
+      // Balanced proportion: 30-35 questions per subject for full mock bundle (approx 40%-60% coverage, 210-245 total)
+      const sampleCount = Math.min(qPool.length, Math.max(30, Math.floor(qPool.length * 0.5)));
       return {
         subjectId: sub.id,
         subjectName: sub.name,
@@ -1387,54 +1387,15 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     }));
   }
 
-  // Fallback to curated blueprints ONLY if inventory has zero questions and strictly within subject boundaries
+  // Fallback to database or authentic question banks if mcqs still empty
   if (mcqs.length === 0) {
-    const allCuratedList = Object.values(CURATED_BOARD_BLUEPRINTS);
-    const academicList = Object.values(ACADEMIC_BLUEPRINTS);
-    const fullPool = [...academicList, ...allCuratedList];
-    let candidates = fullPool.filter(bp => (bp.class === targetClass) && (normSubject === 'all' || bp.subject === normSubject));
-    if (candidates.length === 0) {
-      // Create high-yield subject-specific questions for this board and subject
-      for (let i = 1; i <= 25; i++) {
-        const targetIdx = (i - 1) % 4;
-        const opts = [
-          `A) Option A for ${normSubject.toUpperCase()} (${b.name})`,
-          `B) Option B for ${normSubject.toUpperCase()} (${b.name})`,
-          `C) Option C for ${normSubject.toUpperCase()} (${b.name})`,
-          `D) Option D for ${normSubject.toUpperCase()} (${b.name})`
-        ];
-        mcqs.push({
-          id: `${boardId}-${targetClass}-${normSubject}-mcq-${i}`,
-          num: i,
-          q: `${i}. High-Yield Examination Question #${i} for ${normSubject.toUpperCase()} [${b.name}]`,
-          options: opts,
-          correct: targetIdx,
-          ans: opts[targetIdx],
-          explanation: `💡 ${b.name} Official Model Question Solution for ${normSubject.toUpperCase()}.`,
-          topic: `${normSubject.toUpperCase()} Core Concept`
-        });
-      }
-    } else {
-      for (let i = 1; i <= Math.min(candidates.length, 25); i++) {
-        const bp = candidates[i - 1];
-        const localized = (bp.loc && (bp.loc[langMode] || bp.loc["english"] || bp.loc["bilingual-hindi"])) || {
-          q: `High-Yield Examination Question #${i} for ${normSubject.toUpperCase()}`,
-          options: ["A) Option A", "B) Option B", "C) Option C", "D) Option D"],
-          ans: "C) Option C",
-          exp: "💡 Board Exam Model Question Solution."
-        };
-        const targetIdx = (i - 1) % 4;
-        mcqs.push({
-          id: `${boardId}-${targetClass}-${normSubject}-mcq-${i}`,
-          num: i,
-          q: `${i}. ${localized.q}`,
-          options: localized.options || ["A) Option A", "B) Option B", "C) Option C", "D) Option D"],
-          correct: targetIdx,
-          ans: (localized.options && localized.options[targetIdx]) || "A) Correct",
-          explanation: localized.exp || "💡 Board Model Answer.",
-          topic: bp.topic || `${normSubject.toUpperCase()} Core Concept`
-        });
-      }
+    const rawFallback = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass });
+    if (rawFallback.length > 0) {
+      mcqs = rawFallback.slice(0, 50).map((item, idx) => ({
+        ...item,
+        num: idx + 1,
+        id: `${boardId}-${targetClass}-${normSubject}-fb-${idx + 1}`
+      }));
     }
   }
 

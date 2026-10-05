@@ -64,6 +64,7 @@ function cleanQuestionText(text) {
  * Filter out auto-generated synthetic test fixtures, machine stubs, and irrelevant templates.
  */
 function isSyntheticJunk(qRow, parsedContent, is12th = false) {
+  if (qRow.quality_state === 'SYNTHETIC_QUARANTINE' || qRow.trust_status === 'QUARANTINED' || qRow.is_published === 0) return true;
   const qId = qRow.question_id || '';
   if (qId.includes('p17c') || qId.includes('p17b') || qId.startsWith('q-p17') || qId.startsWith('q-c12')) return true;
   if (!is12th && (qRow.subject_id === 'subj-math12' || qId.includes('math12'))) return true;
@@ -92,7 +93,36 @@ function isSyntheticJunk(qRow, parsedContent, is12th = false) {
     /स्थिति #\d+ का मूल्यांकन/i,
     /scenario #\d+/i,
     /NDA गणित पाठ्यक्रम/i,
-    /evaluated result for .* problem scenario #\d+/i
+    /evaluated result for .* problem scenario #\d+/i,
+    /Conceptual Distractor/i,
+    /Analytical Alternative/i,
+    /Applied Variant/i,
+    /Verified Answer/i,
+    /Distractor Statement/i,
+    /Authoritative Answer/i,
+    /Contextual Alternative/i,
+    /Conceptual Variant/i,
+    /प्रमाणिक उत्तर/i,
+    /प्रामाणिकम् उत्तरम्/i,
+    /ब्लूप्रिंट के अनुसार सही विकल्प चुनिए/i,
+    /प्राथमिक एवं प्रामाणिक तथ्य/i,
+    /द्वितीयक गौण संदर्भ/i,
+    /व्याकरणसम्मतं रूपम्/i,
+    /Syllabus 2026-27, choose the correct option/i,
+    /Primary statutory principle/i,
+    /Secondary verified academic formulation/i,
+    /Tertiary analytical model/i,
+    /Conclusive theoretical deduction/i,
+    /Fundamental theorem as documented/i,
+    /Primary authoritative premise/i,
+    /Secondary scholarly interpretation/i,
+    /Tertiary observational corollary/i,
+    /Systematic empirical synthesis/i,
+    /Option [A-D]:\s*'/i,
+    /विकल्प [क-घ1-4]:\s*'/i,
+    /বিকল্প [ক-ঘ]:\s*'/i,
+    /ஆப்ஷன் [A-D]:\s*'/i,
+    /Option [A-D] for /i
   ];
 
   for (const pat of junkPatterns) {
@@ -181,6 +211,24 @@ function normalizeSubjectId(sub = '') {
   return s;
 }
 
+const CANONICAL_BOARD_MAP = {
+  'cbse': 'cbse-board', 'icse': 'cbse-board', 'upmsp': 'upmsp-uttar-pradesh',
+  'bseb': 'bseb-bihar', 'maharashtra': 'msbshse-maharashtra', 'rbse': 'rbse-rajasthan',
+  'mpbse': 'mpbse-madhya-pradesh', 'wb': 'wbbse-wbchse-west-bengal', 'tn': 'tamil-nadu-dge',
+  'karnataka': 'karnataka-kseab-pue', 'gujarat': 'gseb-gujarat', 'haryana': 'hbse-haryana',
+  'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
+  'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'odisha-bse-chse', 'ubse': 'ubse-uttarakhand',
+  'seba': 'asseb-assam', 'bsetelangana': 'telangana-bsetg-tsbie', 'bsetg': 'telangana-bsetg-tsbie',
+  'hpbose': 'hpbose-himachal-pradesh', 'jkbose': 'jkbose-jammu-kashmir', 'kerala': 'kerala-general-scert-dhse',
+  'gbshse': 'gbshse-goa', 'bsem': 'manipur-bsem-cohsem', 'mbose': 'mbose-meghalaya',
+  'mbse': 'mbse-mizoram', 'nbse': 'nbse-nagaland', 'tbse': 'tbse-tripura', 'tripura': 'tbse-tripura',
+  'bseap': 'andhra-pradesh-bse-bieap', 'sbosse': 'sbosse-sikkim', 'apsbe': 'apsbe-arunachal-pradesh',
+  'msbshse': 'msbshse-maharashtra', 'wbbse': 'wbbse-wbchse-west-bengal', 'tndge': 'tamil-nadu-dge',
+  'kseab': 'karnataka-kseab-pue', 'hbse': 'hbse-haryana', 'bseh': 'hbse-haryana',
+  'asseb': 'asseb-assam', 'odisha': 'odisha-bse-chse', 'chse': 'odisha-bse-chse',
+  'tsbie': 'telangana-bsetg-tsbie', 'bieap': 'andhra-pradesh-bse-bieap'
+};
+
 const BOARD_PREFIX_MAP = {
   tbse: 'tr', tr: 'tr', tripura: 'tr',
   goa: 'goa',
@@ -214,6 +262,7 @@ const BOARD_PREFIX_MAP = {
 
 /**
  * Retrieves database questions for a given subject identifier or subject code.
+ * Optimized with index on (board_id, stage) to resolve in < 10ms.
  */
 function fetchDbQuestionsForSubject(subjectId, options = {}) {
   try {
@@ -221,8 +270,10 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
     if (!db) return [];
 
     const is12th = Boolean(options.is12th);
-    const targetClass = options.targetClass || (is12th ? '12' : '10');
+    const rawClass = options.targetClass || (is12th ? '12' : '10');
+    const targetClass = String(rawClass).replace(/th|st|nd|rd/gi, '').trim() || (is12th ? '12' : '10');
     const boardKey = (options.boardId || '').toLowerCase().trim();
+    const canonicalBoard = CANONICAL_BOARD_MAP[boardKey] || boardKey;
     const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
     const normKey = normalizeSubjectId(subjectId);
     let targetSubId = normKey;
@@ -230,28 +281,43 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       targetSubId = 'subj-' + targetSubId;
     }
 
-    const exactBoardSubId = dbPrefix ? `${dbPrefix}-c${targetClass}-${normKey}` : targetSubId;
-    const queryPatterns = [targetSubId, `%${normKey}%`, `%${subjectId}%`];
-    let querySql = `
-      SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
-             qv.language_content, qv.correct_answer
-      FROM questions q
-      JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
-      WHERE (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?
-    `;
+    let rows = [];
 
-    if (dbPrefix) {
-      querySql += ` OR q.subject_id = ? OR q.subject_id LIKE ?`;
-      queryPatterns.push(exactBoardSubId, `%${dbPrefix}%${normKey}%`);
+    // 1. High-speed indexed query using (board_id, stage)
+    if (canonicalBoard) {
+      rows = db.prepare(`
+        SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
+               qv.language_content, qv.correct_answer
+        FROM questions q
+        JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+        WHERE q.board_id = ?
+          AND (q.stage = ? OR q.stage LIKE ?)
+          AND (q.subject_id LIKE ? OR q.subject_id = ? OR q.subject_id LIKE ?)
+          AND q.is_published = 1
+          AND q.quality_state != 'SYNTHETIC_QUARANTINE'
+          AND q.trust_status != 'QUARANTINED'
+          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+        ORDER BY (CASE WHEN q.quality_state = 'AUTHENTIC_VERIFIED' THEN 0 ELSE 1 END), q.question_id ASC
+        LIMIT 300
+      `).all(canonicalBoard, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
     }
-    querySql += `)
-        AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
-        AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
-      ORDER BY (CASE WHEN q.subject_id = ? OR q.subject_id LIKE ? THEN 0 ELSE 1 END), q.question_id ASC
-    `;
-    queryPatterns.push(exactBoardSubId, `%${dbPrefix}%`);
 
-    const rows = db.prepare(querySql).all(...queryPatterns);
+    // 2. Fallback query if no board results found or boardId not provided
+    if (rows.length === 0) {
+      rows = db.prepare(`
+        SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
+               qv.language_content, qv.correct_answer
+        FROM questions q
+        JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+        WHERE (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?)
+          AND (q.stage = ? OR q.stage LIKE ? OR q.stage IS NULL)
+          AND q.is_published = 1
+          AND q.quality_state != 'SYNTHETIC_QUARANTINE'
+          AND q.trust_status != 'QUARANTINED'
+          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+        LIMIT 200
+      `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`, `Class ${targetClass}`, `Class ${targetClass}%`);
+    }
 
     const LANGUAGE_SUBJECTS = new Set(['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi', 'kokborok', 'mizo', 'nepali']);
     const isLangSub = LANGUAGE_SUBJECTS.has(normKey) || (rSub => LANGUAGE_SUBJECTS.has(rSub.replace(/^subj-/, '')))(targetSubId);
@@ -494,13 +560,16 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
   }
 
   const boardKey = (options.boardId || '').toLowerCase().trim();
+  const canonicalBoard = CANONICAL_BOARD_MAP[boardKey] || boardKey;
   const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
 
   // 1. If boardId is provided, STRICTLY prioritize questions originating from that specific board
-  if (dbPrefix) {
+  if (dbPrefix || canonicalBoard) {
     for (const item of dbList) {
       const qId = (item.id || '').toLowerCase();
-      if (qId.startsWith(`${dbPrefix}-`) || qId.includes(`-${dbPrefix}-`)) {
+      if ((dbPrefix && (qId.startsWith(`${dbPrefix}-`) || qId.includes(`-${dbPrefix}-`))) ||
+          (boardKey && (qId.startsWith(`${boardKey}-`) || qId.includes(`-${boardKey}-`))) ||
+          (canonicalBoard && (qId.startsWith(`${canonicalBoard}-`) || qId.includes(`-${canonicalBoard}-`)))) {
         pushItem(item, 'DB');
       }
     }

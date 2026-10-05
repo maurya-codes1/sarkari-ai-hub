@@ -4,6 +4,131 @@
 const { getDb, checkDbAvailable } = require('../database');
 const { normalizeSubjectId } = require('../../utils/subject-utils');
 
+const CANONICAL_BOARD_MAP = {
+  'cbse': 'cbse-board', 'icse': 'cbse-board', 'upmsp': 'upmsp-uttar-pradesh', 'up': 'upmsp-uttar-pradesh',
+  'bseb': 'bseb-bihar', 'bihar': 'bseb-bihar', 'maharashtra': 'msbshse-maharashtra', 'msbshse': 'msbshse-maharashtra',
+  'rbse': 'rbse-rajasthan', 'rajasthan': 'rbse-rajasthan', 'mpbse': 'mpbse-madhya-pradesh', 'mp': 'mpbse-madhya-pradesh',
+  'wb': 'wbbse-wbchse-west-bengal', 'wbbse': 'wbbse-wbchse-west-bengal', 'wbchse': 'wbbse-wbchse-west-bengal',
+  'tn': 'tamil-nadu-dge', 'tndge': 'tamil-nadu-dge', 'tamilnadu': 'tamil-nadu-dge',
+  'karnataka': 'karnataka-kseab-pue', 'kseab': 'karnataka-kseab-pue',
+  'gujarat': 'gseb-gujarat', 'gseb': 'gseb-gujarat',
+  'haryana': 'hbse-haryana', 'hbse': 'hbse-haryana', 'bseh': 'hbse-haryana',
+  'jac': 'jac-jharkhand', 'jharkhand': 'jac-jharkhand',
+  'pseb': 'pseb-punjab', 'punjab': 'pseb-punjab',
+  'nios': 'nios-board',
+  'cgbse': 'cgbse-chhattisgarh', 'chhattisgarh': 'cgbse-chhattisgarh',
+  'bseodisha': 'odisha-bse-chse', 'odisha': 'odisha-bse-chse', 'chse': 'odisha-bse-chse',
+  'ubse': 'ubse-uttarakhand', 'uttarakhand': 'ubse-uttarakhand',
+  'seba': 'asseb-assam', 'ahsec': 'asseb-assam', 'asseb': 'asseb-assam', 'assam': 'asseb-assam',
+  'bsetelangana': 'telangana-bsetg-tsbie', 'bsetg': 'telangana-bsetg-tsbie', 'tsbie': 'telangana-bsetg-tsbie', 'telangana': 'telangana-bsetg-tsbie',
+  'bseap': 'andhra-pradesh-bse-bieap', 'bieap': 'andhra-pradesh-bse-bieap', 'ap': 'andhra-pradesh-bse-bieap', 'andhra': 'andhra-pradesh-bse-bieap',
+  'hpbose': 'hpbose-himachal-pradesh', 'himachal': 'hpbose-himachal-pradesh',
+  'jkbose': 'jkbose-jammu-kashmir', 'jk': 'jkbose-jammu-kashmir',
+  'kerala': 'kerala-general-scert-dhse', 'dhse': 'kerala-general-scert-dhse',
+  'gbshse': 'gbshse-goa', 'goa': 'gbshse-goa',
+  'bsem': 'manipur-bsem-cohsem', 'cohsem': 'manipur-bsem-cohsem', 'manipur': 'manipur-bsem-cohsem',
+  'mbose': 'mbose-meghalaya', 'meghalaya': 'mbose-meghalaya',
+  'mbse': 'mbse-mizoram', 'mizoram': 'mbse-mizoram',
+  'nbse': 'nbse-nagaland', 'nagaland': 'nbse-nagaland',
+  'tbse': 'tbse-tripura', 'tripura': 'tbse-tripura',
+  'sbosse': 'sbosse-sikkim', 'sikkim': 'sbosse-sikkim',
+  'apsbe': 'apsbe-arunachal-pradesh', 'arunachal': 'apsbe-arunachal-pradesh'
+};
+
+const ANTI_PLACEHOLDER_SQL = `
+  AND (
+    v.language_content NOT LIKE '%Conceptual Distractor%'
+    AND v.language_content NOT LIKE '%Analytical Alternative%'
+    AND v.language_content NOT LIKE '%Applied Variant%'
+    AND v.language_content NOT LIKE '%Verified Answer%'
+    AND v.language_content NOT LIKE '%Distractor Statement%'
+    AND v.language_content NOT LIKE '%Authoritative Answer%'
+    AND v.language_content NOT LIKE '%Contextual Alternative%'
+    AND v.language_content NOT LIKE '%Conceptual Variant%'
+    AND v.language_content NOT LIKE '%प्रमाणिक उत्तर%'
+    AND v.language_content NOT LIKE '%प्रामाणिकम् उत्तरम्%'
+    AND v.language_content NOT LIKE '%ब्लूप्रिंट के अनुसार सही विकल्प चुनिए%'
+    AND v.language_content NOT LIKE '%प्राथमिक एवं प्रामाणिक तथ्य%'
+    AND v.language_content NOT LIKE '%द्वितीयक गौण संदर्भ%'
+    AND v.language_content NOT LIKE '%व्याकरणसम्मतं रूपम्%'
+    AND v.language_content NOT LIKE '%Syllabus 2026-27, choose the correct option%'
+    AND v.language_content NOT LIKE '%Primary statutory principle%'
+    AND v.language_content NOT LIKE '%Secondary verified academic formulation%'
+    AND v.language_content NOT LIKE '%Tertiary analytical model%'
+    AND v.language_content NOT LIKE '%Conclusive theoretical deduction%'
+    AND v.language_content NOT LIKE '%Option A for %'
+    AND v.language_content NOT LIKE '%Option A: Option A%'
+    AND v.language_content NOT LIKE '%व्याकरण सम्मत नियमों के विपरीत%'
+    AND v.language_content NOT LIKE '%মূল তাত্ত্বিক ও বাস্তবিক তাৎপর্য%'
+    AND v.language_content NOT LIKE '%গঠনমূলক নিয়মাবলী%'
+    AND v.language_content NOT LIKE '%ঐতিহাসিক পটভূমি এবং ত্রিপুরা%'
+    AND v.language_content NOT LIKE '%প্রাসঙ্গিক প্রামাণ্য সিদ্ধান্ত%'
+    AND v.language_content NOT LIKE '%বাচিমুং ক:%'
+    AND v.language_content NOT LIKE '%முதலாவது அடிப்படை விதி%'
+    AND v.language_content NOT LIKE '%இரண்டாவது நிரூபிக்கப்பட்ட உண்மை%'
+  )
+`;
+
+function buildSubjectFilter(subjectId, resolvedStage, isTargetingBoard = false) {
+  const normSub = normalizeSubjectId(subjectId);
+  const cleanSub = normSub.replace(/^subj-/, '').toLowerCase();
+
+  // If not targeting a board and no school stage specified: enforce strict subject isolation
+  if (!isTargetingBoard && !resolvedStage) {
+    return {
+      clause: ` AND q.subject_id = ?`,
+      params: [normSub]
+    };
+  }
+
+  if (cleanSub === 'science') {
+    return {
+      clause: ` AND (q.subject_id LIKE '%science%' OR q.subject_id LIKE '%physics%' OR q.subject_id LIKE '%chemistry%' OR q.subject_id LIKE '%biology%')`,
+      params: []
+    };
+  }
+  if (cleanSub === 'math' || cleanSub === 'mathematics') {
+    if (resolvedStage === 'Class 12') {
+      return {
+        clause: ` AND (q.subject_id LIKE '%math%' OR q.subject_id = 'subj-math12')`,
+        params: []
+      };
+    }
+    return {
+      clause: ` AND q.subject_id LIKE '%math%'`,
+      params: []
+    };
+  }
+  if (cleanSub === 'social' || cleanSub === 'sst') {
+    return {
+      clause: ` AND (q.subject_id LIKE '%social%' OR q.subject_id LIKE '%history%' OR q.subject_id LIKE '%geography%' OR q.subject_id LIKE '%civics%' OR q.subject_id LIKE '%economics%')`,
+      params: []
+    };
+  }
+  if (cleanSub === 'biology' || cleanSub === 'bio') {
+    return {
+      clause: ` AND (q.subject_id LIKE '%biology%' OR q.subject_id LIKE '%botany%' OR q.subject_id LIKE '%zoology%' OR q.subject_id LIKE '%bio%')`,
+      params: []
+    };
+  }
+  if (cleanSub === 'business' || cleanSub === 'bst') {
+    return {
+      clause: ` AND (q.subject_id LIKE '%business%' OR q.subject_id LIKE '%commerce%' OR q.subject_id LIKE '%bst%')`,
+      params: []
+    };
+  }
+  if (cleanSub === 'polity' || cleanSub === 'civics') {
+    return {
+      clause: ` AND (q.subject_id LIKE '%polity%' OR q.subject_id LIKE '%civics%' OR q.subject_id LIKE '%political%')`,
+      params: []
+    };
+  }
+  return {
+    clause: ` AND (q.subject_id = ? OR q.subject_id LIKE ?)`,
+    params: [normSub, `%${cleanSub}%`]
+  };
+}
+
 class QuestionRepository {
   constructor(db = null) {
     this._db = db;
@@ -29,6 +154,7 @@ class QuestionRepository {
         AND q.is_published = 1
         AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
         AND q.trust_status != 'QUARANTINED'
+        ${ANTI_PLACEHOLDER_SQL}
       ORDER BY q.question_id ASC
       LIMIT ? OFFSET ?
     `);
@@ -45,11 +171,14 @@ class QuestionRepository {
       WHERE q.is_published = 1
         AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
         AND q.trust_status != 'QUARANTINED'
+        ${ANTI_PLACEHOLDER_SQL}
     `;
     const params = [];
+
     if (subjectId && subjectId !== 'all') {
-      query += ` AND q.subject_id = ?`;
-      params.push(normalizeSubjectId(subjectId));
+      const subFilter = buildSubjectFilter(subjectId, null);
+      query += subFilter.clause;
+      params.push(...subFilter.params);
     }
     query += ` ORDER BY RANDOM() LIMIT ?`;
     params.push(limit);
@@ -60,20 +189,8 @@ class QuestionRepository {
   getQuestionsForSection(subjectId, count = 25, excludeIds = [], questionTypes = null, onlyFullExamEligible = false, examId = null, boardId = null, stage = null) {
     if (!this.isAvailable()) return [];
 
-    const BOARD_MAP = {
-      'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
-      'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
-      'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
-      'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
-      'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
-      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
-      'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
-      'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
-      'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
-      'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
-    };
-
-    const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
+    const cleanBoard = (boardId || '').toLowerCase().trim().replace(/-board$/, '');
+    const resolvedBoard = boardId ? (CANONICAL_BOARD_MAP[boardId] || CANONICAL_BOARD_MAP[cleanBoard] || boardId) : null;
     const isTargetingBoard = Boolean(resolvedBoard || (examId && (String(examId).includes('board') || String(examId).includes('class'))));
 
     let query = `
@@ -85,14 +202,14 @@ class QuestionRepository {
         AND q.is_published = 1
         AND (q.quality_state IS NULL OR q.quality_state != 'SYNTHETIC_QUARANTINE')
         AND q.trust_status != 'QUARANTINED'
+        ${ANTI_PLACEHOLDER_SQL}
     `;
     const params = [];
 
     if (subjectId && subjectId !== 'all') {
-      const normSub = normalizeSubjectId(subjectId);
-      const cleanSub = normSub.replace(/^subj-/, '');
-      query += ` AND (q.subject_id = ? OR q.subject_id LIKE ?)`;
-      params.push(normSub, `%${cleanSub}%`);
+      const subFilter = buildSubjectFilter(subjectId, stage);
+      query += subFilter.clause;
+      params.push(...subFilter.params);
     }
 
     if (onlyFullExamEligible) {
@@ -109,6 +226,9 @@ class QuestionRepository {
       const placeholders = questionTypes.map(() => '?').join(',');
       query += ` AND q.question_type_id IN (${placeholders})`;
       params.push(...questionTypes);
+    } else {
+      query += ` AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')`;
+      query += ` AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')`;
     }
 
     if (resolvedBoard) {
@@ -122,9 +242,15 @@ class QuestionRepository {
       query += ` AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
     }
 
-    if (stage) {
-      query += ` AND q.stage = ?`;
-      params.push(stage);
+    if (stage && stage !== 'ANY') {
+      if (String(stage).includes('12')) {
+        query += ` AND (q.stage = 'Class 12' OR q.stage LIKE 'Class 12%')`;
+      } else if (String(stage).includes('10')) {
+        query += ` AND (q.stage = 'Class 10' OR q.stage LIKE 'Class 10%')`;
+      } else {
+        query += ` AND q.stage = ?`;
+        params.push(stage);
+      }
     }
 
     if (examId && !resolvedBoard) {
@@ -138,34 +264,24 @@ class QuestionRepository {
     return this.db.prepare(query).all(...params);
   }
 
-  getPracticeQuestions({ subjectId = null, subjectIds = null, boardId = null, stage = null, difficulty = null, count = 30, excludeIds = [], examId = null }) {
+  getPracticeQuestions({ subjectId = null, subjectIds = null, boardId = null, stage = null, difficulty = null, count = 30, excludeIds = [], examId = null, _depth = 0 }) {
     if (!this.isAvailable()) return [];
 
-    const BOARD_MAP = {
-      'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
-      'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
-      'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
-      'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
-      'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
-      'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
-      'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
-      'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
-      'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
-      'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
-    };
-
-    const resolvedBoard = boardId ? (BOARD_MAP[boardId] || boardId) : null;
+    const cleanBoard = (boardId || '').toLowerCase().trim().replace(/-board$/, '');
+    const resolvedBoard = boardId ? (CANONICAL_BOARD_MAP[boardId] || CANONICAL_BOARD_MAP[cleanBoard] || boardId) : null;
     const isTargetingBoard = Boolean(resolvedBoard || (examId && (String(examId).includes('board') || String(examId).includes('class'))));
 
     let resolvedStage = stage;
-    if (!resolvedStage && examId && isTargetingBoard) {
+    if (stage === 'ANY') {
+      resolvedStage = null;
+    } else if (!resolvedStage && examId && isTargetingBoard) {
       const e = String(examId).toLowerCase();
       if (e.includes('12')) resolvedStage = 'Class 12';
       else if (e.includes('10')) resolvedStage = 'Class 10';
       else if (e.includes('11')) resolvedStage = 'Class 11';
       else if (e.includes('9')) resolvedStage = 'Class 9';
     }
-    if (resolvedStage) {
+    if (resolvedStage && stage !== 'ANY') {
       const s = String(resolvedStage).toLowerCase();
       if (s.includes('12')) resolvedStage = 'Class 12';
       else if (s.includes('10')) resolvedStage = 'Class 10';
@@ -184,6 +300,7 @@ class QuestionRepository {
         AND q.trust_status != 'QUARANTINED'
         AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
         AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
+        ${ANTI_PLACEHOLDER_SQL}
     `;
     const params = [];
 
@@ -200,25 +317,28 @@ class QuestionRepository {
       query += ` AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
     }
 
-    if (resolvedStage) {
-      query += ` AND q.stage = ?`;
-      params.push(resolvedStage);
+    if (resolvedStage && stage !== 'ANY') {
+      if (resolvedStage.includes('12')) {
+        query += ` AND (q.stage = ? OR q.stage LIKE ?)`;
+        params.push(resolvedStage, 'Class 12%');
+      } else if (resolvedStage.includes('10')) {
+        query += ` AND (q.stage = ? OR q.stage LIKE ?)`;
+        params.push(resolvedStage, 'Class 10%');
+      } else {
+        query += ` AND q.stage = ?`;
+        params.push(resolvedStage);
+      }
     }
 
     if (Array.isArray(subjectIds) && subjectIds.length > 0) {
-      const normIds = subjectIds.map(s => normalizeSubjectId(s)).filter(Boolean);
+      const normIds = Array.from(new Set(subjectIds.flatMap(s => [s, normalizeSubjectId(s)]).filter(Boolean)));
       const placeholders = normIds.map(() => '?').join(',');
       query += ` AND q.subject_id IN (${placeholders})`;
       params.push(...normIds);
     } else if (subjectId && subjectId !== 'all') {
-      const normSub = normalizeSubjectId(subjectId);
-      const cleanSub = normSub.replace(/^subj-/, '');
-      if (resolvedStage === 'Class 12' && normSub === 'subj-math') {
-        query += ` AND q.subject_id IN ('subj-math', 'subj-math12')`;
-      } else {
-        query += ` AND (q.subject_id = ? OR q.subject_id LIKE ?)`;
-        params.push(normSub, `%${cleanSub}%`);
-      }
+      const subFilter = buildSubjectFilter(subjectId, resolvedStage);
+      query += subFilter.clause;
+      params.push(...subFilter.params);
     }
 
     if (difficulty && difficulty !== 'MIXED') {
@@ -242,21 +362,25 @@ class QuestionRepository {
 
     let rows = this.db.prepare(query).all(...params);
 
-    // If specific difficulty filter yielded no questions, fallback to available difficulty
-    if (rows.length === 0 && difficulty && difficulty !== 'MIXED') {
-      return this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: resolvedStage, difficulty: 'MIXED', count, excludeIds, examId });
-    }
+    // Controlled fallback with recursion guards (_depth <= 1)
+    if (_depth === 0) {
+      // 1. If specific difficulty filter yielded no questions, fallback to available difficulty
+      if (rows.length === 0 && difficulty && difficulty !== 'MIXED') {
+        const diffRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId, stage: resolvedStage, difficulty: 'MIXED', count, excludeIds, examId, _depth: 1 });
+        if (diffRows && diffRows.length > 0) return diffRows;
+      }
 
-    // If board filter yielded no rows for this specific subject, fall back to general subject questions while PRESERVING stage
-    if (rows.length === 0 && resolvedBoard && resolvedStage !== null) {
-      const stageRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: resolvedBoard, stage: null, difficulty, count, excludeIds, examId });
-      if (stageRows && stageRows.length > 0) return stageRows;
-    }
+      // 2. If board filter yielded no rows for this specific subject and stage, try broader stage on SAME board
+      if (rows.length === 0 && resolvedBoard && stage !== 'ANY') {
+        const stageRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: resolvedBoard, stage: 'ANY', difficulty, count, excludeIds, examId, _depth: 1 });
+        if (stageRows && stageRows.length > 0) return stageRows;
+      }
 
-    // If stage filter or examId yielded no rows for this specific subject, fall back to general subject pool
-    if (rows.length === 0 && isTargetingBoard && (resolvedBoard !== null || resolvedStage !== null)) {
-      const genRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds, examId: null });
-      if (genRows && genRows.length > 0) return genRows;
+      // 3. If no specific board was specified (generic examId like 'board-12th-science') and subject yielded no rows (e.g. GK), fall back to general subject pool
+      if (rows.length === 0 && !resolvedBoard && isTargetingBoard) {
+        const genRows = this.getPracticeQuestions({ subjectId, subjectIds, boardId: null, stage: null, difficulty, count, excludeIds, examId: null, _depth: 1 });
+        if (genRows && genRows.length > 0) return genRows;
+      }
     }
 
     return rows;

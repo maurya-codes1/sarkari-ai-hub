@@ -163,9 +163,9 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '') {
     resultGuide = generateCompetitiveStudyGuide(compKey, subject);
   }
 
-  // Preserve full legitimate inventory without artificial 120 clamp (up to 250 for single subject, 175 for multi-subject bundle)
+  // Preserve full legitimate inventory without artificial clamp (up to 300 for single subject, 260 for multi-subject 7-stream bundle)
   const isBundle = s.includes('all') || s.includes('bundle') || (resultGuide && resultGuide.isBundle);
-  const maxObj = isBundle ? 175 : 250;
+  const maxObj = isBundle ? 260 : 300;
   if (resultGuide && Array.isArray(resultGuide.objectives) && resultGuide.objectives.length > maxObj) {
     resultGuide.objectives = resultGuide.objectives.slice(0, maxObj);
   }
