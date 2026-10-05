@@ -1,0 +1,170 @@
+{
+  "exam_id": "nta-neet",
+  "name": "NEET UG (National Eligibility cum Entrance Test - Undergraduate Medical Admissions)",
+  "short_name": "NTA NEET-UG",
+  "exam_category": "medical_entrance",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-national-testing-agency-nta",
+    "name": "National Testing Agency (NTA) on behalf of National Medical Commission (NMC)",
+    "short_name": "NTA / NMC",
+    "headquarters": "First Floor, NSIC-MDBP Building, Okhla Industrial Estate, New Delhi 110020",
+    "official_website": "https://exams.nta.ac.in/NEET"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-neet-nta-portal",
+      "name": "NTA NEET-UG Official Portal (exams.nta.ac.in/NEET)",
+      "url": "https://exams.nta.ac.in/NEET",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-neet-information-bulletin-2026",
+      "name": "NEET-UG Information Bulletin, Examination Scheme & Syllabus 2026",
+      "url": "https://exams.nta.ac.in/NEET/NEET_UG_2026_Information_Bulletin.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-nmc-ug-curriculum-guidelines",
+      "name": "National Medical Commission (NMC) NEET-UG Core Syllabus Guidelines",
+      "url": "https://www.nmc.org.in/rules-regulations/neet-ug-syllabus",
+      "type": "STATUTORY_REGULATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "neet_ug_omr": {
+      "stage_name": "NEET-UG Single-Stage Offline Pen-and-Paper Examination",
+      "mode": "Offline Pen-and-Paper (OMR)",
+      "duration_minutes": 200,
+      "total_questions": 200,
+      "questions_to_attempt": 180,
+      "total_marks": 720,
+      "marks_per_question": 4.0,
+      "negative_marking": 1.0,
+      "sections": [
+        {
+          "name": "Physics",
+          "questions_weightage": "45 Questions (Section A: 35 Qs, Section B: 15 Qs attempt 10) / 180 Marks",
+          "scope": "Units and Measurements, Kinematics, Laws of Motion, Work, Energy and Power, Rotational Motion, Gravitation, Properties of Bulk Matter, Thermodynamics, Kinetic Theory of Gases, Oscillations and Waves, Electrostatics, Current Electricity, Magnetic Effects of Current and Magnetism, Electromagnetic Induction and AC, Electromagnetic Waves, Optics, Dual Nature of Matter and Radiation, Atoms and Nuclei, Semiconductor Electronics."
+        },
+        {
+          "name": "Chemistry",
+          "questions_weightage": "45 Questions (Section A: 35 Qs, Section B: 15 Qs attempt 10) / 180 Marks",
+          "scope": "Some Basic Concepts of Chemistry, Structure of Atom, Classification of Elements and Periodicity, Chemical Bonding and Molecular Structure, Chemical Thermodynamics, Equilibrium, Redox Reactions and Electrochemistry, Chemical Kinetics, Solutions, Coordination Compounds, p-Block Elements, d- and f-Block Elements, Organic Chemistry - Some Basic Principles and Techniques (GOC), Hydrocarbons, Haloalkanes and Haloarenes, Alcohols, Phenols and Ethers, Aldehydes, Ketones and Carboxylic Acids, Amines, Biomolecules, Principles Related to Practical Chemistry."
+        },
+        {
+          "name": "Botany",
+          "questions_weightage": "45 Questions (Section A: 35 Qs, Section B: 15 Qs attempt 10) / 180 Marks",
+          "scope": "Diversity in Living World (Plant Kingdom, Biological Classification), Structural Organisation in Plants (Morphology & Anatomy of Flowering Plants), Cell Biology (Structure and Function, Biomolecules, Cell Cycle and Cell Division), Plant Physiology (Photosynthesis in Higher Plants, Respiration in Plants, Plant Growth and Development), Reproduction in Organisms, Sexual Reproduction in Flowering Plants, Genetics and Evolution (Principles of Inheritance and Variation, Molecular Basis of Inheritance), Ecology and Environment (Organisms and Populations, Ecosystem, Biodiversity and Conservation)."
+        },
+        {
+          "name": "Zoology",
+          "questions_weightage": "45 Questions (Section A: 35 Qs, Section B: 15 Qs attempt 10) / 180 Marks",
+          "scope": "Animal Kingdom, Structural Organisation in Animals (Animal Tissues, Frog, Cockroach), Human Physiology (Breathing and Exchange of Gases, Body Fluids and Circulation, Excretory Products and their Elimination, Locomotion and Movement, Neural Control and Coordination, Chemical Coordination and Integration), Human Reproduction, Reproductive Health, Evolution, Human Health and Disease, Biotechnology - Principles and Processes, Biotechnology and its Applications."
+        }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "neet-physics",
+        "name": "Physics (भौतिक विज्ञान)",
+        "short_name": "NEET Physics",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Units and Measurements: Dimensions, Dimensional analysis, Significant figures, Error analysis",
+          "Kinematics: Motion in a straight line, Projectile motion, Relative velocity, Uniform circular motion",
+          "Laws of Motion: Newton's Laws, Friction, Centripetal force, Banking of curves",
+          "Work, Energy and Power: Work-energy theorem, Conservative forces, Collisions in 1D and 2D",
+          "Rotational Motion: Center of mass, Torque, Angular momentum, Moment of inertia theorems",
+          "Gravitation: Kepler's laws, Universal gravitation, Gravitational potential, Escape velocity, Satellites",
+          "Properties of Solids and Fluids: Hooke's law, Modulus of elasticity, Pascal's law, Bernoulli's theorem, Surface tension, Viscosity",
+          "Thermodynamics & Kinetic Theory: First and Second Laws, Heat engines, Carnot cycle, Ideal gas laws, RMS speed, Degrees of freedom",
+          "Oscillations and Waves: Simple Harmonic Motion, Pendulums, Wave equation, Doppler effect, Standing waves",
+          "Electrostatics & Capacitance: Coulomb's law, Gauss's law, Electric potential, Parallel plate capacitors, Dielectrics",
+          "Current Electricity: Ohm's law, Kirchhoff's rules, Wheatstone bridge, Potentiometer, Temperature dependence of resistivity",
+          "Magnetism and Magnetic Effects: Biot-Savart law, Ampere's circuital law, Moving coil galvanometer, Earth's magnetism, Dia/Para/Ferromagnetism",
+          "Electromagnetic Induction & AC: Faraday's and Lenz's laws, Self and Mutual inductance, LCR circuits, Resonance, Transformers",
+          "Optics: Ray optics (Refraction, Lenses, Mirrors, Optical instruments) and Wave optics (Interference, Young's double slit, Diffraction)",
+          "Modern Physics & Semiconductors: Photoelectric effect, Bohr's atom model, Nuclear binding energy, Radioactive decay, p-n junction diodes, Logic gates"
+        ]
+      },
+      {
+        "subject_id": "neet-chemistry",
+        "name": "Chemistry (रसायन विज्ञान)",
+        "short_name": "NEET Chemistry",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Some Basic Concepts of Chemistry: Mole concept, Molar mass, Empirical & Molecular formula, Stoichiometry",
+          "Structure of Atom: Bohr's model, de Broglie relation, Heisenberg uncertainty, Quantum numbers, Hund's rule, Pauli principle",
+          "Classification of Elements & Periodicity: Modern periodic law, Ionization enthalpy, Electron gain enthalpy, Electronegativity trends",
+          "Chemical Bonding & Molecular Structure: Ionic vs Covalent, VSEPR theory, Hybridization, MO theory, Hydrogen bonding",
+          "Chemical Thermodynamics: First, Second and Third Laws, Enthalpy of reaction, Hess's law, Entropy, Gibbs free energy spontaneity",
+          "Equilibrium: Law of chemical equilibrium, Le Chatelier's principle, Ionic equilibrium, pH, Buffer solutions, Solubility product",
+          "Redox Reactions & Electrochemistry: Oxidation numbers, Nernst equation, Electrochemical cells, Conductance, Kohlrausch's law, Faraday's laws",
+          "Chemical Kinetics: Rate laws, Order and Molecularity, Integrated rate equations, Arrhenius equation, Catalysis",
+          "Solutions: Raoult's law, Ideal and Non-ideal solutions, Colligative properties, van 't Hoff factor",
+          "Inorganic Chemistry - Coordination Compounds: Werner's theory, IUPAC nomenclature, CFT, VBT, Isomerism, Magnetic properties",
+          "Inorganic Chemistry - d- and f-Block Elements: Electronic configuration, Variable oxidation states, Lanthanoid contraction",
+          "Inorganic Chemistry - p-Block Elements: Group 13 to 18 trends, Structure of oxoacids, Interhalogen compounds",
+          "Organic Chemistry - GOC & Hydrocarbons: Inductive, Mesomeric, Hyperconjugation effects, Alkanes, Alkenes (Markovnikov rule), Alkynes, Aromaticity",
+          "Organic Functional Groups: Haloalkanes (SN1, SN2 mechanisms), Alcohols, Phenols, Ethers, Aldehydes & Ketones (Nucleophilic addition, Aldol, Cannizzaro), Carboxylic acids, Amines (Diazonium salts)",
+          "Biomolecules & Practical Chemistry: Carbohydrates, Proteins, Nucleic acids, Qualitative salt analysis tests, Flame tests"
+        ]
+      },
+      {
+        "subject_id": "neet-botany",
+        "name": "Botany (वनस्पति विज्ञान)",
+        "short_name": "NEET Botany",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Diversity of Plants: Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms - alternation of generations",
+          "Biological Classification: Monera, Protista, Fungi, Lichens, Viruses, Viroids, Mycorrhiza",
+          "Plant Morphology: Root, Stem, Leaf modifications; Inflorescence types; Flower, Fruit (True, False, Parthenocarpic), Seed structure; Families (Solanaceae, Fabaceae, Liliaceae)",
+          "Plant Anatomy: Meristematic and Permanent tissues; Internal anatomy of Dicot and Monocot root, stem, leaf; Secondary growth",
+          "Cell Biology: Cell wall, Plasma membrane (Fluid mosaic model), Organelles (Chloroplast, Mitochondria, ER, Golgi, Vacuole), Ribosomes",
+          "Cell Division: Phases of Cell Cycle, Mitosis, Meiosis I (Prophase I substages: Leptotene, Zygotene, Pachytene, Diplotene, Diakinesis), Meiosis II",
+          "Plant Physiology - Photosynthesis: Light reaction, Z-scheme, Photophosphorylation, Calvin cycle (C3), Hatch-Slack pathway (C4), CAM, Photorespiration",
+          "Plant Physiology - Respiration: Glycolysis (EMP pathway), Fermentation, Krebs cycle (TCA), Electron transport system (ETS), Oxidative phosphorylation",
+          "Plant Growth and Development: Phytohormones (Auxin, Gibberellin, Cytokinin, Ethylene, Abscisic Acid), Photoperiodism, Vernalization",
+          "Reproduction in Angiosperms: Microsporogenesis, Megasporogenesis, Pollination mechanisms, Double fertilization, Endosperm and Embryo development",
+          "Genetics in Plants: Mendel's laws of inheritance, Incomplete dominance, Co-dominance, Linkage, Polygenic inheritance, Chromosomal aberrations",
+          "Molecular Basis of Inheritance: DNA structure, Semiconservative replication, Transcription, Genetic code, Translation, Gene regulation (Lac operon)",
+          "Ecology & Environment: Organisms and populations, Adaptations, Population interactions, Ecosystem structure, Energy flow, Nutrient cycling, Biodiversity hotspots"
+        ]
+      },
+      {
+        "subject_id": "neet-zoology",
+        "name": "Zoology (प्राणी विज्ञान)",
+        "short_name": "NEET Zoology",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Animal Kingdom: Non-chordates (Porifera to Echinodermata, Hemichordata) and Chordates (Cyclostomata to Mammalia) diagnostic characteristics",
+          "Structural Organisation in Animals: Epithelial, Connective, Muscular, Neural tissues; Anatomy of Frog and Cockroach",
+          "Human Digestion & Absorption: Gastrointestinal anatomy, Digestive enzymes, Absorption of carbohydrates, fats, proteins, Disorders",
+          "Breathing and Respiration: Respiratory volumes and capacities (TV, IRV, ERV, RV, VC, TLC), Gas exchange, Transport of O2 and CO2, Regulation",
+          "Body Fluids and Circulation: Blood composition, ABO & Rh grouping, Cardiac cycle, ECG interpretation, Double circulation, Hypertension, CAD",
+          "Excretory System: Nephron structure, Urine formation (Glomerular filtration, Reabsorption, Secretion), Countercurrent mechanism, RAAS regulation",
+          "Locomotion and Movement: Types of movement, Skeletal muscle sliding filament theory, Bones of human skeleton, Joints and disorders (Gout, Arthritis, Myasthenia gravis)",
+          "Neural Control & Coordination: Neuron structure, Generation and conduction of nerve impulse, Synaptic transmission, Central & Peripheral nervous system, Reflex arc",
+          "Chemical Coordination: Endocrine glands (Pituitary, Thyroid, Parathyroid, Adrenal, Pancreas, Gonads), Hormones, Mechanism of hormone action (peptide vs steroid)",
+          "Human Reproduction: Male and Female reproductive systems, Spermatogenesis, Oogenesis, Menstrual cycle, Fertilization, Blastocyst implantation, Placenta, Parturition",
+          "Reproductive Health: Population stabilization, Contraceptive methods, Medical Termination of Pregnancy (MTP Act), STIs, Assisted Reproductive Technology (IVF, ZIFT, GIFT, ICSI)",
+          "Evolution: Origin of life, Evidence of evolution (Homologous vs Analogous organs), Darwinian natural selection, Hardy-Weinberg equilibrium, Human evolution stages",
+          "Human Health and Diseases: Pathogens, Malaria cycle, Typhoid, Pneumonia, Amoebiasis, Immunity (Innate and Acquired, Antibodies, Allergies, Autoimmunity), AIDS, Cancer, Drugs/Alcohol abuse",
+          "Biotechnology Principles & Processes: Recombinant DNA technology, Restriction enzymes, Cloning vectors (pBR322), PCR, Gel electrophoresis, Bioreactors",
+          "Biotechnology Applications: Bt cotton, RNA interference, Genetically engineered insulin, Gene therapy (ADA deficiency), Transgenic animals, Ethical issues"
+        ]
+      }
+    ]
+  }
+}

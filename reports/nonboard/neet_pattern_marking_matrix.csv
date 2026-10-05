@@ -1,0 +1,13 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Agency,National Testing Agency (NTA) on behalf of NMC,org-national-testing-agency-nta
+Official Exam Version ID,ver-nta-neet-2026,ver-nta-neet-2026
+Examination Mode,Offline Pen-and-Paper (OMR Answer Sheet),Objective Single Choice MCQ
+Total Exam Duration,200 Minutes (3 Hours 20 Minutes),200 Minutes Standard
+Total Question Count in Live Exam,200 Questions (Answer 180 Questions),180 Scored Questions
+Total Marks in Live Exam,720 Marks,720 Marks Standard
+Marks for Correct Answer,+4.0 Marks,+4.0 Marks across all questions
+Penalty for Incorrect Answer,-1.0 Mark (Negative Marking 25%),1.0 Negative Marking
+Medium of Exam,13 Languages including English and Hindi,Bilingual Dual JSON (en + hi)
+Total Repository Question Bank,"1,200 Official Questions (4 Subjects x 300 Qs)","1,200 Questions Ingested"
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database
