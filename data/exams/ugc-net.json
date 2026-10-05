@@ -1,0 +1,167 @@
+{
+  "exam_id": "ugc-net",
+  "name": "UGC NET (University Grants Commission National Eligibility Test for Assistant Professor & JRF Fellowship)",
+  "short_name": "NTA UGC NET / JRF",
+  "exam_category": "higher_education_eligibility",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-national-testing-agency-nta-on-behalf-of",
+    "name": "National Testing Agency (NTA) on behalf of University Grants Commission (UGC)",
+    "short_name": "NTA / UGC",
+    "headquarters": "First Floor, NSIC-MDBP Building, Okhla Industrial Estate, New Delhi 110020",
+    "official_website": "https://ugcnet.nta.ac.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ugcnet-nta-portal",
+      "name": "NTA UGC NET Official Examination Portal (ugcnet.nta.ac.in)",
+      "url": "https://ugcnet.nta.ac.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ugc-official-portal",
+      "name": "University Grants Commission Apex Academic Portal (ugc.gov.in)",
+      "url": "https://ugc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ugcnet-information-bulletin-2026",
+      "name": "UGC NET Information Bulletin, Examination Scheme & Syllabus 2026",
+      "url": "https://ugcnet.nta.ac.in/UGC_NET_Information_Bulletin_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "paper_1": {
+      "stage_name": "Paper 1: General Paper on Teaching & Research Aptitude (Common to All Candidates)",
+      "duration_minutes": 60,
+      "total_questions": 50,
+      "total_marks": 100,
+      "marks_per_question": 2.0,
+      "negative_marking": 0.0,
+      "units": [
+        "Teaching Aptitude: Concept, Objectives, Levels of Teaching (Memory, Understanding, Reflective), Learner Characteristics, Teaching Support Systems (Traditional, Modern, ICT-based), Evaluation Systems (CBCS, Computer-based testing)",
+        "Research Aptitude: Research Meaning, Types & Characteristics, Positivism & Post-positivistic approach to research, Methods of Research (Experimental, Descriptive, Historical, Qualitative, Quantitative), Steps of Research, Thesis & Article writing, Plagiarism & Research Ethics",
+        "Comprehension: A passage of text with analytical questions",
+        "Communication: Meaning, Types & Characteristics of Communication, Effective Communication (Verbal, Non-verbal, Intercultural, Group, Classroom), Barriers to Effective Communication, Mass-Media & Society",
+        "Mathematical Reasoning & Aptitude: Types of reasoning, Number series, Letter series, Codes & Relationships, Fractions, Time & Distance, Ratio, Proportion, Percentage, Profit & Loss, Interest & Discounting",
+        "Logical Reasoning: Understanding structure of arguments, Forms of argument, Categorical propositions, Mood & Figure, Formal & Informal fallacies, Square of Opposition, Deductive & Inductive reasoning, Venn diagrams, Indian Logic (Pramanas: Pratyaksha, Anumana, Upamana, Shabda, Arthapatti, Anupalabdhi), Structure of Anumana, Vyapti, Hetvabhasa",
+        "Data Interpretation: Sources, Acquisition & Classification of Data, Quantitative & Qualitative Data, Graphical Representation (Bar-chart, Histogram, Pie-chart, Table-chart, Line-chart), Data & Governance",
+        "Information & Communication Technology (ICT): General abbreviations & Terminology, Basics of Internet, Intranet, E-mail, Audio & Video-conferencing, Digital initiatives in higher education (SWAYAM, SWAYAM PRABHA, DigiLocker, Shodhganga), ICT & Governance",
+        "People, Development & Environment: Development & Environment, Millennium Development Goals (MDGs), Sustainable Development Goals (SDGs 1-17), Human & Environmental interaction, Anthropogenic activities, Environmental issues (Air, Water, Soil, Noise, Hazardous waste, Climate change), Health impacts, Natural & Energy resources (Solar, Wind, Hydro, Geothermal, Biomass, Nuclear), Natural hazards & Disasters, Environmental Protection Act 1986, National Action Plan on Climate Change (NAPCC), International agreements (Montreal Protocol, Rio Summit, CBD, Kyoto Protocol, Paris Agreement, ISA)",
+        "Higher Education System: Institutions of higher learning & Education in ancient India (Takshashila, Nalanda, Valabhi, Vikramashila), Evolution of higher learning in post-independence India, Oriental, Conventional & Non-conventional learning programmes, Professional, Technical & Skill-based education, Value education & Environmental education, Policies, Governance & Administration (UGC, AICTE, NAAC, NIRF, NEP 2020)"
+      ]
+    },
+    "paper_2": {
+      "stage_name": "Paper 2: Subject-Specific Paper (Advanced Domain Specialization)",
+      "duration_minutes": 120,
+      "total_questions": 100,
+      "total_marks": 200,
+      "marks_per_question": 2.0,
+      "negative_marking": 0.0,
+      "scope": "Comprehensive domain-specific testing based on the master's level curriculum chosen by candidate."
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "ugc-net-teaching-research-aptitude",
+        "name": "Teaching Aptitude, Research Methodology & Communication (शिक्षण अभिवृत्ति, शोध प्रविधि एवं संप्रेषण)",
+        "short_name": "UGC NET Teaching & Research",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Teaching Aptitude: Levels of Teaching (Memory - Herbart, Understanding - Morrison, Reflective - Hunt)",
+          "Learner Characteristics: Adolescent & Adult learners (Academic, Social, Emotional, Cognitive)",
+          "Teaching Methods: Teacher-centered vs Learner-centered, Offline vs Online methods (SWAYAM, SWAYAM PRABHA, MOOCs)",
+          "Teaching Support System: Traditional, Modern and ICT based pedagogies",
+          "Evaluation Systems: Elements of evaluation, Choice Based Credit System (CBCS), Computer-based testing, Innovations",
+          "Research Aptitude: Meaning, Characteristics & Types of research (Fundamental, Applied, Action, Exploratory, Explanatory)",
+          "Approaches to Research: Positivism vs Post-positivistic approach to research",
+          "Methods of Research: Experimental (Variables: IV, DV, Extraneous), Descriptive, Historical, Qualitative vs Quantitative",
+          "Steps of Research & Design: Problem formulation, Hypothesis testing (Type I & Type II errors), Sampling techniques",
+          "Thesis and Article Writing: Format, Citation styles (APA, MLA, Chicago), Reference management",
+          "Application of ICT in Research: Data analysis software (SPSS, R, Python, NVivo), Plagiarism detection tools (Turnitin, Urkund)",
+          "Research Ethics: Integrity, Fabrication, Falsification, UGC Guidelines on Academic Integrity and Prevention of Plagiarism",
+          "Communication: Meaning, types and characteristics of communication",
+          "Effective Communication: Verbal and Non-verbal, Intercultural and Group communication, Classroom communication dynamics",
+          "Barriers to Effective Communication: Psychological, Semantic, Organizational, Cultural barriers",
+          "Mass-Media and Society: Role in public opinion, Digital broadcasting, Social media impact"
+        ]
+      },
+      {
+        "subject_id": "ugc-net-logical-mathematical-reasoning-di",
+        "name": "Mathematical Reasoning, Logical Reasoning & Data Interpretation (गणितीय तर्क, युक्ति-युक्त तर्क, भारतीय तर्कशास्त्र एवं आंकड़ा निर्वचन)",
+        "short_name": "UGC NET Logic Math & DI",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Mathematical Reasoning: Number series, Alphabet series, Coding and Decoding, Blood relations, Direction sense",
+          "Mathematical Aptitude: Fractions, Time & Distance, Ratio, Proportion, Percentage, Profit & Loss, Simple & Compound Interest, Averages",
+          "Logical Reasoning: Structure of arguments, Premises and Conclusions, Deductive vs Inductive reasoning",
+          "Categorical Propositions: Quantity and Quality, Distribution of terms, Mood and Figure of Syllogisms",
+          "Classical Square of Opposition: Contradictory, Contrary, Subcontrary, Subalternation relations",
+          "Formal and Informal Fallacies: Fallacy of undistributed middle, Ad hominem, Straw man, Slippery slope, Petitio principii",
+          "Venn Diagrams: Analytical representation of categorical syllogisms and valid argument testing",
+          "Indian Logic (भारतीय तर्कशास्त्र): Means of Knowledge (Pramanas - प्रमाण)",
+          "Pramanas: Pratyaksha (Perception), Anumana (Inference), Upamana (Comparison), Shabda (Verbal Testimony), Arthapatti (Postulation), Anupalabdhi (Non-apprehension)",
+          "Structure and Kinds of Anumana: Paksha, Sadhya, Hetu, Pararthanumana, Svarthanumana, Purvavat, Sheshavat, Samanyatodrishta",
+          "Vyapti & Hetvabhasa: Invariable concomitance (Vyapti) and Fallacies of Inference (Hetvabhasa: Savyabhichara, Viruddha, Satpratipaksha, Asiddha, Badhita)",
+          "Data Interpretation: Sources, acquisition and classification of data",
+          "Quantitative and Qualitative Data Representation: Tabulation, Bar charts, Histograms, Pie charts, Line graphs",
+          "Data Analysis & Data Governance: Percentage calculation, Ratio analysis, Trend evaluation, Data driven decision making"
+        ]
+      },
+      {
+        "subject_id": "ugc-net-ict-people-environment-higher-education",
+        "name": "ICT, People, Development & Environment and Higher Education System (सूचना एवं संचार प्रौद्योगिकी, लोक, विकास व पर्यावरण एवं उच्च शिक्षा प्रणाली)",
+        "short_name": "UGC NET ICT Env & Higher Ed",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "ICT Fundamentals: General abbreviations and terminology (ASCII, Unicode, RAM, ROM, Cloud, Cache)",
+          "Networking & Internet: IP address, IPv4 vs IPv6, DNS, HTTP/HTTPS, Intranet, Search engines, Web 2.0 and Web 3.0",
+          "Digital Initiatives in Higher Education: NPTEL, SWAYAM, SWAYAM PRABHA (40 DTH channels), National Digital Library (NDL), DigiLocker, Shodhganga, e-ShodhSindhu, NAD",
+          "Cybersecurity & ICT Governance: Phishing, Ransomware, Firewall, Digital India, e-Governance models",
+          "People, Development and Environment: Millennium Development Goals (MDGs - 8 goals) and Sustainable Development Goals (SDGs 1-17, 2030 Agenda)",
+          "Human and Environment Interaction: Anthropogenic impacts, Deforestation, Urbanization, Carbon footprint",
+          "Environmental Pollution: Air pollution (PM2.5, PM10, smog, AQI), Water pollution (BOD, COD, heavy metals), Soil and Noise pollution (decibel thresholds)",
+          "Climate Change & Global Warming: Greenhouse gases (CO2, CH4, N2O, CFCs), Global warming potential, Sea level rise, Extreme weather events",
+          "Natural Energy Resources: Solar energy (International Solar Alliance - ISA), Wind, Hydro, Geothermal, Biomass, Nuclear energy",
+          "Natural Hazards and Disasters: Mitigation strategies, NDMA framework, Early warning systems",
+          "Environmental Protection Statutory Frameworks: Environment (Protection) Act 1986, Air Act 1981, Water Act 1974, Wildlife Protection Act 1972",
+          "National Action Plan on Climate Change (NAPCC): 8 National Missions (Solar, Energy Efficiency, Sustainable Habitat, Water, Himalayan Eco, Green India, Agriculture, Strategic Knowledge)",
+          "International Treaties: Montreal Protocol 1987 (Ozone), Rio Earth Summit 1992, Kyoto Protocol 1997, Paris Agreement 2015, Kigali Amendment 2016",
+          "Higher Education in Ancient India: Takshashila, Nalanda, Valabhi, Vikramashila, Odantapuri, Jagaddala; Gurukula and Vihara traditions",
+          "Evolution of Modern Higher Education in India: Charter Act 1813, Macaulay's Minute 1835, Wood's Despatch 1854, Universities Act 1904, Wardha Scheme 1937, Radhakrishnan Commission 1948, Mudaliar Commission 1952, Kothari Commission 1964-66, NPE 1968, 1986",
+          "National Education Policy 2020 (NEP 2020): Higher Education Commission of India (HECI) 4 verticals (NHERC, NAC, HEGC, GEC), Academic Bank of Credits (ABC), Multiple Entry and Exit System (MEES), MERUs",
+          "Apex Regulatory Bodies: University Grants Commission (UGC Act 1956), AICTE, NCTE, ICSSR, CSIR, NAAC (Grading framework), NIRF rankings"
+        ]
+      },
+      {
+        "subject_id": "ugc-net-humanities-social-sciences-core",
+        "name": "Humanities, Social Sciences, Commerce & Governance Core Perspectives (मानविकी, समाजशास्त्र, अर्थशास्त्र, वाणिज्य एवं लोक प्रशासन परिप्रेक्ष्य)",
+        "short_name": "UGC NET Humanities & Commerce",
+        "total_questions": 300,
+        "marks_per_question": 2.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Indian Constitution & Polity: Preamble, Fundamental Rights (Articles 12-35), Directive Principles of State Policy (Articles 36-51), Fundamental Duties",
+          "Union & State Executive and Legislature: President, Prime Minister, Parliament (Lok Sabha, Rajya Sabha), Supreme Court & Judicial Review",
+          "Public Administration & Governance: Good Governance, Citizen's Charter, Right to Information (RTI Act 2005), Lokpal and Lokayukta",
+          "Macroeconomic Foundations: GDP, GNP, Inflation (CPI, WPI), Fiscal Policy vs Monetary Policy (RBI Monetary Policy Committee), NITI Aayog",
+          "Banking & Financial Systems: Commercial banks, Scheduled banks, Basel Accords, Capital markets, SEBI regulations, GST structure",
+          "International Trade & Globalization: Balance of Payments (BoP), Foreign Direct Investment (FDI), World Trade Organization (WTO), IMF, World Bank",
+          "Sociological Perspectives: Classical sociological theorists (Emile Durkheim, Max Weber, Karl Marx), Functionalism, Conflict theory, Symbolic interactionism",
+          "Social Stratification & Change in India: Caste system, Class dynamics, Gender relations, Sanskritization (M.N. Srinivas), Social mobility, Urbanization",
+          "Political Philosophy & Modern Thinkers: Social Contract theorists (Hobbes, Locke, Rousseau), John Rawls' Theory of Justice, Karl Marx's Historical Materialism",
+          "Modern Indian Political Thought: Mahatma Gandhi (Satyagraha, Swaraj, Trusteeship), B.R. Ambedkar (Constitutionalism, Annihilation of Caste), Rabindranath Tagore, Swami Vivekananda, Sri Aurobindo",
+          "Philosophical Traditions: Orthodox schools (Nyaya, Vaisheshika, Samkhya, Yoga, Mimamsa, Vedanta) and Heterodox schools (Buddhism, Jainism, Charvaka)"
+        ]
+      }
+    ]
+  }
+}
