@@ -1,0 +1,182 @@
+{
+  "exam_id": "bpsc-tre",
+  "name": "Bihar BPSC TRE 4.0 (School Teacher Recruitment Examination)",
+  "short_name": "BPSC TRE 4.0",
+  "exam_category": "teacher_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-bihar-public-service-commission-bpsc-pat",
+    "name": "Bihar Public Service Commission (BPSC), Patna",
+    "short_name": "BPSC Patna",
+    "headquarters": "15, Jawahar Lal Nehru Marg (Bailey Road), Patna, Bihar 800001",
+    "official_website": "https://www.bpsc.bih.nic.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-bpsc-portal",
+      "name": "BPSC Official Portal (bpsc.bih.nic.in)",
+      "url": "https://www.bpsc.bih.nic.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-bpsc-tre-notification-2026",
+      "name": "Bihar School Teacher Recruitment Examination (TRE 4.0) Official Notification & Syllabus 2026",
+      "url": "https://www.bpsc.bih.nic.in/Advt/TRE-4.0-Notification.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-bihar-education-dept",
+      "name": "Education Department, Government of Bihar Service Rules & Teacher Guidelines",
+      "url": "https://state.bihar.gov.in/educationbihar",
+      "type": "STATUTORY_RULES"
+    }
+  ],
+  "scheme_of_examination": {
+    "tre_written_exam": {
+      "stage_name": "Composite Objective Written Examination (OMR-based / CBT)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "parts": [
+        {
+          "part": "Part I - Language Qualifying (भाषा - अर्हता)",
+          "questions": 30,
+          "marks": 30,
+          "components": [
+            { "name": "English Language (General English)", "questions": 8, "marks": 8 },
+            { "name": "Hindi / Urdu / Bengali Language", "questions": 22, "marks": 22 }
+          ],
+          "qualifying_criteria": "Minimum 30% marks (9 marks out of 30) required to qualify."
+        },
+        {
+          "part": "Part II - General Studies (सामान्य अध्ययन)",
+          "questions": 40,
+          "marks": 40,
+          "components": [
+            { "name": "Elementary Mathematics & Mental Ability", "questions": 10, "marks": 10 },
+            { "name": "General Science & Environment", "questions": 10, "marks": 10 },
+            { "name": "Indian National Movement & Bihar History", "questions": 10, "marks": 10 },
+            { "name": "Geography & Current Affairs", "questions": 10, "marks": 10 }
+          ]
+        },
+        {
+          "part": "Part III - Concerned Subject / Specialized Discipline & Pedagogy (संबंधित विषय / विशिष्ट विषय एवं शिक्षण शास्त्र)",
+          "questions": 80,
+          "marks": 80,
+          "components": [
+            { "name": "Subject Knowledge / Core General Studies (Primary 1-5) or Specialized Subject (Middle 6-8, Secondary 9-10, Higher Secondary 11-12)", "questions": 80, "marks": 80 }
+          ]
+        }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "bpsc-tre-general-studies-bihar-gk",
+        "name": "General Studies, Indian National Movement & Bihar Special GK (सामान्य अध्ययन, भारतीय राष्ट्रीय आंदोलन एवं बिहार विशेष)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Indian National Movement 1857-1947: Revolt of 1857 (Kunwar Singh, Pir Ali), Champaran Satyagraha 1917 (Raj Kumar Shukla), Non-Cooperation Movement, Civil Disobedience Movement, Quit India Movement 1942 (Secretariat Firing, Azad Dasta, Jayaprakash Narayan)",
+          "Bihar History & Freedom Struggle: Kisan Sabha (Swami Sahajanand Saraswati), Dr. Rajendra Prasad, Mazharul Haque (Sadaqat Ashram), Maulana Shaukat Ali, Anugrah Narayan Sinha",
+          "Ancient and Medieval Bihar: Magadha Empire, Mauryan Dynasty (Chandragupta, Ashoka, Rock Edicts), Nalanda & Vikramshila Universities, Pala Dynasty, Sher Shah Suri's administration and mausoleum at Sasaram",
+          "Bihar Geography, Climate & Physical Features: River Systems (Ganga, Son, Gandak, Kosi, Ghaghara, Punpun), Soil types (Bangar, Khadar, Terai), Forest cover, Protected areas (Valmiki National Park, Kaimur, Kanwar Jheel), Mineral resources",
+          "Bihar Polity, Governance & Schemes: Legislative Assembly and Council structure, Panchayati Raj System (50% reservation for women in Panchayats), Seven Resolves (Saat Nischay-1 & Saat Nischay-2), Har Ghar Nal Ka Jal, Mukhyamantri Kanya Utthan Yojana",
+          "Bihar Economy, Demographics & Current Affairs: Census 2011 figures (literacy, sex ratio, density, decadal growth), Economic Survey of Bihar highlights, State budget priorities, Agrarian sectors and GI tags (Shahi Litchi, Katarni Rice, Magahi Paan, Mithila Makhana)"
+        ]
+      },
+      {
+        "subject_id": "bpsc-tre-language-qualifying",
+        "name": "Language Qualifying - General English & Hindi Grammar (भाषा अर्हता - सामान्य अंग्रेजी एवं हिन्दी व्याकरण)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "English Grammar & Usage: Parts of Speech (Nouns, Pronouns, Adjectives, Adverbs, Prepositions, Conjunctions), Subject-Verb Agreement, Tenses, Modals",
+          "English Sentence Mechanics: Active and Passive Voice, Direct and Indirect Speech, Sentence Transformation, Spotting Errors, Sentence Improvement",
+          "English Vocabulary: Synonyms, Antonyms, Idioms and Phrases, One-word Substitution, Spellings, Phrasal Verbs, Reading Comprehension",
+          "Hindi Vyakaran: वर्ण विचार (स्वर, व्यंजन, उच्चारण स्थान), संधि (स्वर संधि, व्यंजन संधि, विसर्ग संधि), समास (छह भेद - अव्ययीभाव, तत्पुरुष, कर्मधारय, द्विगु, द्वंद्व, बहुव्रीहि)",
+          "Hindi Shabda Rachna: उपसर्ग, प्रत्यय, शब्द भेद (तत्सम, तद्भव, देशज, विदेशज, संकर), शब्द रूप, संज्ञा, सर्वनाम, विशेषण, क्रिया, काल, कारक, लिंग, वचन",
+          "Hindi Bhasha Vyavahar: पर्यायवाची शब्द, विलोम शब्द, अनेकार्थी शब्द, वाक्यांश के लिए एक शब्द, मुहावरे एवं लोकोक्तियां, शुद्ध-अशुद्ध वर्तनी, वाक्य शुद्धि, अपठित गद्यांश"
+        ]
+      },
+      {
+        "subject_id": "bpsc-tre-mathematics-reasoning",
+        "name": "Elementary Mathematics, Quantitative Aptitude & Mental Ability (प्रारंभिक गणित एवं तर्कशक्ति)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number Systems & Fundamentals: Divisibility rules, Prime numbers, LCM & HCF, Fractions, Decimals, Surds & Indices, Simplification (BODMAS rule)",
+          "Commercial Arithmetic: Percentage, Profit, Loss and Discount, Simple Interest and Compound Interest, Ratio and Proportion, Partnership, Mixtures and Alligations",
+          "Applied Mathematics: Time and Work, Pipes and Cisterns, Time, Speed and Distance, Trains, Boats and Streams, Average, Age calculation problems",
+          "Algebra & Mensuration: Basic algebraic identities, Linear equations in one/two variables, Quadratic equations, 2D Area & Perimeter (Triangles, Rectangles, Trapeziums, Circles), 3D Volume & Surface Area (Cylinders, Cones, Spheres, Cubes)",
+          "Statistics & Probability: Mean, Median, Mode, Range, Basic probability concepts",
+          "Verbal Reasoning: Number and Alphabet Series, Analogies, Classification / Odd One Out, Coding-Decoding, Blood Relations, Direction Sense Test, Syllogisms, Ranking & Order",
+          "Non-Verbal & Analytical Reasoning: Venn Diagrams, Mathematical operators, Pattern completion, Figure series, Logical deduction"
+        ]
+      },
+      {
+        "subject_id": "bpsc-tre-general-science-social-science",
+        "name": "General Science, Social Studies & Teaching Pedagogy (सामान्य विज्ञान, सामाजिक अध्ययन एवं शिक्षण अभिरुचि)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Physical Sciences (Physics): Laws of Motion, Work, Power & Energy, Gravitation, Heat and Temperature, Reflection and Refraction of Light, Human Eye, Sound, Electric Current & Circuits, Magnetic Effects",
+          "Chemical Sciences (Chemistry): Matter and its states, Elements, Compounds and Mixtures, Atomic Structure, Acids, Bases and Salts, Chemical Reactions and Equations, Metals and Non-metals, Carbon and its Compounds",
+          "Life Sciences (Biology): Cell Structure and Functions, Plant and Animal Tissues, Human Physiology (Digestive, Respiratory, Circulatory, Excretory, Nervous Systems), Plant Physiology (Photosynthesis, Transpiration), Genetics, Diseases and Immunity, Vitamins & Nutrition",
+          "Ecology & Environment: Ecosystem components, Food chains and Food webs, Biodiversity Conservation, Environmental Pollution, Global Warming, Natural Resources",
+          "Social Studies & Indian Polity: Constitution of India (Preamble, Fundamental Rights, DPSPs, Fundamental Duties), Union Executive & Legislature, Judiciary, State Government, Panchayati Raj System, Indian Geography (Physical divisions, Monsoon, Rivers, Soils, Agriculture)",
+          "Educational Pedagogy & Teaching Aptitude: Child-centered teaching methods (Inductive, Deductive, Project, Heuristic), Classroom communication, Assessment for Learning, Evaluation techniques, Continuous Comprehensive Evaluation (CCE), National Education Policy (NEP 2020), Inclusive education strategies"
+        ]
+      }
+    ]
+  },
+  "master_bundled_notes": [
+    {
+      "note_id": "bpsc-tre-note-1",
+      "title": "BPSC TRE Master Bundle 1: Indian National Movement & Bihar's Historic Role (1857-1947)",
+      "target_subject": "bpsc-tre-general-studies-bihar-gk",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "1857 revolt, Babu Kunwar Singh, Champaran Satyagraha, Kisan Sabha, Swami Sahajanand Saraswati, Quit India Movement 1942, Secretariat Martyrs, Azad Dasta, Jayaprakash Narayan"
+    },
+    {
+      "note_id": "bpsc-tre-note-2",
+      "title": "BPSC TRE Master Bundle 2: Bihar Geography, River Systems, Demographics & Economic Survey",
+      "target_subject": "bpsc-tre-general-studies-bihar-gk",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Ganga & tributaries, Bihar agro-climatic zones, soils, mineral belts, Census 2011, Saat Nischay-1 & 2 flagship schemes, Bihar Economic Survey and State Budget"
+    },
+    {
+      "note_id": "bpsc-tre-note-3",
+      "title": "BPSC TRE Master Bundle 3: Language Qualifying - General English & Hindi Grammar Mastery",
+      "target_subject": "bpsc-tre-language-qualifying",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Part I qualifying threshold, English active/passive voice, prepositions, vocabulary, Hindi संधि, समास, कारक, तत्सम-तद्भव, वर्तनी एवं वाक्य शुद्धि"
+    },
+    {
+      "note_id": "bpsc-tre-note-4",
+      "title": "BPSC TRE Master Bundle 4: Elementary Mathematics, Quantitative Aptitude & Mental Ability Simulation",
+      "target_subject": "bpsc-tre-mathematics-reasoning",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Number systems, arithmetic (percentage, profit-loss, time-work, speed-distance), algebra, mensuration, coding-decoding, series, syllogisms and direction tests"
+    },
+    {
+      "note_id": "bpsc-tre-note-5",
+      "title": "BPSC TRE Master Bundle 5: General Science, Social Studies, Polity & Educational Pedagogy",
+      "target_subject": "bpsc-tre-general-science-social-science",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Physics, chemistry, biology, environmental ecology, Indian Constitution & Polity, pedagogical methodologies, classroom assessment and NEP 2020 framework"
+    }
+  ]
+}
