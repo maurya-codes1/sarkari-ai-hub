@@ -1,0 +1,13 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Agency,"Uttar Pradesh Education Service Selection Commission (UPESSC), Prayagraj",org-uttar-pradesh-education-service-selectio
+Official Exam Version ID,ver-uptet-supertet-2026,ver-uptet-supertet-2026
+Examination Mode,OMR Pen-Paper Objective Test,Objective Single Choice MCQ
+Total Exam Duration,150 Minutes (2.5 Hours),150 Minutes Standard
+Total Question Count in Live Exam,150 Questions,150 Questions Standard
+Total Marks in Live Exam,150 Marks,150 Marks Standard
+Marks for Correct Answer,+1.0 Mark,+1.0 Mark across all questions
+Penalty for Incorrect Answer,0.0 Marks (No negative marking),0.0 Negative Marking
+Medium of Exam,"Trilingual / Bilingual (Hindi, English, Sanskrit)",Bilingual Dual JSON (en + hi)
+Total Repository Question Bank,"1,200 Official Questions (4 Subjects x 300 Qs)","1,200 Questions Ingested"
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database

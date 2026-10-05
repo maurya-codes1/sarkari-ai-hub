@@ -1,0 +1,162 @@
+{
+  "exam_id": "uptet-supertet",
+  "name": "UP TET & Super TET (UP Primary & Upper Primary Assistant Teacher Recruitment)",
+  "short_name": "UP TET / Super TET",
+  "exam_category": "teacher_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-uttar-pradesh-education-service-selectio",
+    "name": "Uttar Pradesh Education Service Selection Commission (UPESSC), Prayagraj",
+    "short_name": "UPESSC Prayagraj",
+    "headquarters": "Allenganj, Prayagraj, Uttar Pradesh 211002",
+    "official_website": "https://updeled.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-updeled-portal",
+      "name": "UP Basic Education Examination Regulatory Authority Portal (updeled.gov.in)",
+      "url": "https://updeled.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-upessc-portal",
+      "name": "Uttar Pradesh Education Service Selection Commission Official Portal",
+      "url": "https://upessc.up.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-uptet-supertet-notification-2026",
+      "name": "UP Assistant Teacher Recruitment (Super TET) & UP TET Guidelines & Regulations 2026",
+      "url": "https://updeled.gov.in/UPTET_SuperTET_Guidelines_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "uptet_qualifying_exam": {
+      "stage_name": "Uttar Pradesh Teacher Eligibility Test (UP TET Paper I & II)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "qualifying_criteria": "General: 60% (90/150 marks); OBC/SC/ST: 55% (82/150 marks)."
+    },
+    "supertet_recruitment_exam": {
+      "stage_name": "Assistant Teacher Recruitment Examination (Super TET - Sahayak Adhyapak Bharti)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Language (Hindi, English, Sanskrit)", "questions": 40, "marks": 40 },
+        { "name": "Science (Physics, Chemistry, Biology)", "questions": 10, "marks": 10 },
+        { "name": "Mathematics & Mental Ability", "questions": 20, "marks": 20 },
+        { "name": "Environmental & Social Studies", "questions": 10, "marks": 10 },
+        { "name": "Teaching Skills (Shikshan Kaushal)", "questions": 10, "marks": 10 },
+        { "name": "Child Psychology (Baal Manovigyan)", "questions": 10, "marks": 10 },
+        { "name": "General Knowledge, Current Affairs & UP Special GK", "questions": 30, "marks": 30 },
+        { "name": "Reasoning & Logical Knowledge", "questions": 5, "marks": 5 },
+        { "name": "Information Technology / Computer", "questions": 5, "marks": 5 },
+        { "name": "Life Skills, Management & Aptitude (Jeevan Kaushal)", "questions": 10, "marks": 10 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "uptet-child-development-teaching-skills",
+        "name": "Child Development, Pedagogy, Teaching Skills & Life Skills (बाल विकास, शिक्षण कौशल एवं जीवन कौशल)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Child Development: Heredity and Environment, Growth vs Development, Stages of Development (Infancy, Childhood, Adolescence)",
+          "Theories of Learning: Thorndike Trial & Error, Pavlov Classical Conditioning, Skinner Operant Conditioning, Kohler Insight Theory, Piaget Cognitive Development, Vygotsky Sociocultural Theory",
+          "Teaching Skills (शिक्षण कौशल): Teaching methods and maxims, Principles of teaching, Micro-teaching (सूक्ष्म शिक्षण), TLM, CCE, Inclusive Education",
+          "Life Skills & Management (जीवन कौशल एवं प्रबंधन): Professional conduct and ethics, Motivation (Intrinsic vs Extrinsic), Constitutional values, Role of rewards and penalties"
+        ]
+      },
+      {
+        "subject_id": "uptet-mathematics-reasoning",
+        "name": "Mathematics & Logical Knowledge / Reasoning (गणित एवं तार्किक ज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number Systems & Fundamentals: Divisibility rules, Place value and Face value, Fractions, Decimals, LCM & HCF",
+          "Arithmetic Operations: Percentage, Profit, Loss and Discount, Simple & Compound Interest, Ratio & Proportion, Average",
+          "Work, Speed & Mensuration: Time and Work, Speed, Time and Distance, 2D Area & Perimeter (Triangle, Rectangle, Circle), 3D Volume (Cube, Cuboid, Cylinder, Cone)",
+          "Logical Reasoning: Analogies, Coding-Decoding, Series, Blood Relations, Direction Sense, Venn Diagrams, Mathematical Operators"
+        ]
+      },
+      {
+        "subject_id": "uptet-languages-hindi-english-sanskrit",
+        "name": "Languages - Hindi, English & Sanskrit Grammar (भाषा ज्ञान - हिन्दी, अंग्रेजी एवं संस्कृत व्याकरण)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Hindi Vyakaran: वर्ण विचार (उच्चारण स्थान, अल्पप्राण/महाप्राण), संधि, समास, तत्सम-तद्भव, कारक, काल, वाच्य, संज्ञा, सर्वनाम, विशेषण, क्रिया, पर्यायवाची, विलोम, मुहावरे, वर्तनी शुद्धि",
+          "English Grammar: Parts of Speech, Articles, Prepositions, Tenses, Active/Passive Voice, Direct/Indirect Speech, Synonyms, Antonyms, Idioms",
+          "Sanskrit Vyakaran: माहेश्वर सूत्र, प्रत्याहार, वर्ण विचार, संधि (स्वर, व्यंजन, विसर्ग), समास, शब्द रूप (बालक, हरि, लता, नदी), धातु रूप (पठ्, गम्, भू), कारक एवं विभक्ति"
+        ]
+      },
+      {
+        "subject_id": "uptet-evs-social-science-up-gk",
+        "name": "Environmental Studies, Science, UP Special GK & Current Affairs (पर्यावरण अध्ययन, सामान्य विज्ञान एवं उत्तर प्रदेश विशेष सामान्य ज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Environmental Studies: Ecosystem, Food chains, Pollution, Biodiversity, Conservation, Wildlife Sanctuaries & National Parks",
+          "General Science: Motion, Light, Sound, Electricity, Acids-Bases-Salts, Metals, Cell structure, Human body systems, Nutrition & Diseases",
+          "Indian Constitution & Geography: Preamble, Fundamental Rights, DPSPs, President, Parliament, Rivers, Soils, Monsoons of India",
+          "Uttar Pradesh Special GK: UP Geography (Rivers, Soils, Climate), History, 1857 Revolt in UP (Meerut, Jhansi, Kanpur, Lucknow), Protected areas (Dudhwa National Park, Chandraprabha, Okhla Bird Sanctuary), UP Culture, Folk Dances (Kathak, Charkula, Raslila), Handicrafts & GI Tags (Chikan of Lucknow, Brassware of Moradabad, Glass of Firozabad, Carpets of Bhadohi), UP Census 2011"
+        ]
+      }
+    ]
+  },
+  "master_bundled_notes": [
+    {
+      "note_id": "uptet-supertet-note-1",
+      "title": "UP TET & Super TET Master Bundle 1: Composite Examination Blueprint & All-Subject Guide",
+      "target_subject": "uptet-child-development-teaching-skills",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Complete examination structure, qualifying standards, Super TET merit formula (60% written + 40% academic), all-subject revision synthesis"
+    },
+    {
+      "note_id": "uptet-supertet-note-2",
+      "title": "UP TET & Super TET Master Bundle 2: Child Development, Teaching Skills & Life Skills (जीवन कौशल)",
+      "target_subject": "uptet-child-development-teaching-skills",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Thorndike, Pavlov, Skinner, Piaget, Vygotsky, micro-teaching maxims, professional code of ethics and classroom life skills"
+    },
+    {
+      "note_id": "uptet-supertet-note-3",
+      "title": "UP TET & Super TET Master Bundle 3: Mathematics, Numerical Aptitude & Reasoning Simulation",
+      "target_subject": "uptet-mathematics-reasoning",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Number system, BODMAS, commercial math (percentage, profit-loss, CI-SI), 2D/3D mensuration, coding-decoding, series, blood relations"
+    },
+    {
+      "note_id": "uptet-supertet-note-4",
+      "title": "UP TET & Super TET Master Bundle 4: Trilingual Mastery - Hindi, English & Sanskrit Grammar",
+      "target_subject": "uptet-languages-hindi-english-sanskrit",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Hindi संधि, समास, कारक, तत्सम-तद्भव, English prepositions, voice, tenses, Sanskrit माहेश्वर सूत्र, प्रत्याहार एवं शब्द/धातु रूप"
+    },
+    {
+      "note_id": "uptet-supertet-note-5",
+      "title": "UP TET & Super TET Master Bundle 5: Environmental Studies, Science, Polity & UP Special GK",
+      "target_subject": "uptet-evs-social-science-up-gk",
+      "sample_size": 150,
+      "sampling_rate": "50.0%",
+      "focus": "Ecosystem ecology, general science physics/chemistry/biology, Indian Constitution, UP Geography, Dudhwa, UP Heritage, Census 2011"
+    }
+  ]
+}
