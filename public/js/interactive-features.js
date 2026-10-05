@@ -2152,7 +2152,50 @@ function copyShareExamLink(examId) {
 let isVoiceListening = false;
 let speechRecognizerInstance = null;
 
-function initVoiceSearch() {
+function showVoiceToast(message, isError = false) {
+  let toast = document.getElementById('voiceSearchToast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'voiceSearchToast';
+    document.body.appendChild(toast);
+  }
+  toast.innerHTML = (isError ? '⚠️ ' : '🎙️ ') + message;
+  toast.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 z-[99999] px-4 py-2.5 rounded-2xl shadow-2xl text-xs font-bold transition-all duration-300 pointer-events-none flex items-center space-x-2 ' +
+    (isError ? 'bg-rose-900/95 text-rose-200 border border-rose-500' : 'bg-slate-900/95 text-amber-300 border border-amber-400');
+  toast.style.opacity = '1';
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => {
+    toast.style.opacity = '0';
+  }, 4000);
+}
+
+function setMicBtnListeningUI() {
+  const micBtn = document.getElementById('voiceSearchBtn');
+  if (!micBtn) return;
+  micBtn.className = 'absolute right-2.5 top-1/2 -translate-y-1/2 p-2.5 rounded-xl bg-rose-600 text-white transition shadow-lg ring-4 ring-rose-500/40 border border-rose-500 animate-pulse cursor-pointer flex items-center justify-center z-10';
+  micBtn.innerHTML = '<span class="text-base leading-none">🔴</span>';
+  micBtn.title = 'सुन रहे हैं... रोकने के लिए टैप करें (Listening...)';
+}
+
+function resetMicBtnUI() {
+  const micBtn = document.getElementById('voiceSearchBtn');
+  const searchInput = document.getElementById('globalSearchInput');
+  if (micBtn) {
+    micBtn.className = 'absolute right-2.5 top-1/2 -translate-y-1/2 p-2.5 rounded-xl bg-slate-100 hover:bg-saffron-100 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 hover:text-saffron-600 transition shadow-sm border border-slate-200 dark:border-slate-700 cursor-pointer flex items-center justify-center z-10';
+    micBtn.innerHTML = '<span class="text-base leading-none">🎙️</span>';
+    micBtn.title = 'बोलकर सर्च करें (Voice Search)';
+  }
+  if (searchInput) {
+    searchInput.placeholder = 'Search CBSE, UP Board, SSC GD, Railway, NEET, UP Police...';
+  }
+}
+
+function triggerVoiceSearch(event) {
+  if (event) {
+    if (typeof event.stopPropagation === 'function') event.stopPropagation();
+    if (typeof event.preventDefault === 'function') event.preventDefault();
+  }
+
   const micBtn = document.getElementById('voiceSearchBtn');
   const searchInput = document.getElementById('globalSearchInput');
   if (!micBtn || !searchInput) return;
@@ -2160,55 +2203,84 @@ function initVoiceSearch() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
   if (!SpeechRecognition) {
-    micBtn.title = 'वॉइस सर्च आपके ब्राउज़र में समर्थित नहीं है (Google Chrome उपयोग करें)';
-    micBtn.classList.add('opacity-50');
+    showVoiceToast('आपके ब्राउज़र में वॉइस सर्च समर्थित नहीं है। कृपया Google Chrome का उपयोग करें।', true);
+    searchInput.focus();
     return;
   }
 
-  speechRecognizerInstance = new SpeechRecognition();
-  speechRecognizerInstance.lang = 'hi-IN'; // Default Hindi/Hinglish
-  speechRecognizerInstance.interimResults = false;
-  speechRecognizerInstance.maxAlternatives = 1;
-
-  speechRecognizerInstance.onstart = () => {
-    isVoiceListening = true;
-    micBtn.classList.add('animate-pulse', 'bg-rose-600', 'text-white');
-    micBtn.classList.remove('bg-slate-800', 'text-slate-300');
-    searchInput.placeholder = '🎙️ बोलिए... (जैसे: यूपी पुलिस या एसएससी जीडी)...';
-  };
-
-  speechRecognizerInstance.onresult = (event) => {
-    const transcript = event.results[0][0].transcript;
-    searchInput.value = transcript;
-    searchInput.dispatchEvent(new Event('input'));
-  };
-
-  speechRecognizerInstance.onerror = (event) => {
-    console.warn('Voice search error:', event.error);
+  if (isVoiceListening && speechRecognizerInstance) {
+    try { speechRecognizerInstance.stop(); } catch(e) {}
     isVoiceListening = false;
-    micBtn.classList.remove('animate-pulse', 'bg-rose-600', 'text-white');
-    micBtn.classList.add('bg-slate-800', 'text-slate-300');
-    searchInput.placeholder = 'Search CBSE, UP Board, SSC GD, Railway, NEET, UP Police...';
-  };
+    resetMicBtnUI();
+    return;
+  }
 
-  speechRecognizerInstance.onend = () => {
-    isVoiceListening = false;
-    micBtn.classList.remove('animate-pulse', 'bg-rose-600', 'text-white');
-    micBtn.classList.add('bg-slate-800', 'text-slate-300');
-    searchInput.placeholder = 'Search CBSE, UP Board, SSC GD, Railway, NEET, UP Police...';
-  };
+  try {
+    if (!speechRecognizerInstance) {
+      speechRecognizerInstance = new SpeechRecognition();
+      speechRecognizerInstance.lang = 'hi-IN'; // Recognizes Hindi + Indian English / Hinglish
+      speechRecognizerInstance.interimResults = true;
+      speechRecognizerInstance.maxAlternatives = 1;
 
-  micBtn.addEventListener('click', () => {
-    if (isVoiceListening) {
-      speechRecognizerInstance.stop();
-    } else {
-      try {
-        speechRecognizerInstance.start();
-      } catch(e) {
-        console.error(e);
-      }
+      speechRecognizerInstance.onstart = () => {
+        isVoiceListening = true;
+        setMicBtnListeningUI();
+        searchInput.placeholder = '🎙️ बोलिए... (सुन रहे हैं / Listening)...';
+        showVoiceToast('सुन रहे हैं... परीक्षा का नाम बोलें (उदा: UP Board, SSC GD, Railway, NEET)');
+      };
+
+      speechRecognizerInstance.onresult = (event) => {
+        let interim = '';
+        let final = '';
+        for (let i = event.resultIndex; i < event.results.length; ++i) {
+          if (event.results[i].isFinal) {
+            final += event.results[i][0].transcript;
+          } else {
+            interim += event.results[i][0].transcript;
+          }
+        }
+        const text = (final || interim).trim();
+        if (text) {
+          searchInput.value = text;
+          searchInput.dispatchEvent(new Event('input', { bubbles: true }));
+          if (typeof handleSearchInput === 'function') {
+            handleSearchInput(text);
+          }
+        }
+      };
+
+      speechRecognizerInstance.onerror = (event) => {
+        console.warn('Speech recognition error:', event.error);
+        isVoiceListening = false;
+        resetMicBtnUI();
+        if (event.error === 'not-allowed') {
+          showVoiceToast('माइक्रोफ़ोन अनुमति (Microphone Permission) नहीं मिली। ब्राउज़र सेटिंग्स में Allow करें।', true);
+        } else if (event.error === 'no-speech') {
+          showVoiceToast('कोई आवाज़ सुनाई नहीं दी। कृपया दोबारा बोलें।', true);
+        } else {
+          showVoiceToast('वॉइस सर्च: कृपया दोबारा बोलें या लिखकर सर्च करें।', true);
+        }
+      };
+
+      speechRecognizerInstance.onend = () => {
+        isVoiceListening = false;
+        resetMicBtnUI();
+      };
     }
-  });
+
+    speechRecognizerInstance.start();
+  } catch (err) {
+    console.error('Error starting speech recognition:', err);
+    isVoiceListening = false;
+    resetMicBtnUI();
+    showVoiceToast('माइक शुरू करने में समस्या हुई। कृपया दोबारा टैप करें।', true);
+  }
+}
+
+function initVoiceSearch() {
+  const micBtn = document.getElementById('voiceSearchBtn');
+  if (!micBtn) return;
+  micBtn.addEventListener('click', triggerVoiceSearch);
 }
 
 // -------------------------------------------------------------
@@ -2630,6 +2702,7 @@ window.shareExamWhatsApp = shareExamWhatsApp;
 window.shareExamTelegram = shareExamTelegram;
 window.copyShareExamLink = copyShareExamLink;
 window.initVoiceSearch = initVoiceSearch;
+window.triggerVoiceSearch = triggerVoiceSearch;
 window.RANK_EXAM_METRICS = RANK_EXAM_METRICS;
 window.resolveRankExamKey = resolveRankExamKey;
 window.DAILY_POLL_QUESTIONS = DAILY_POLL_QUESTIONS;

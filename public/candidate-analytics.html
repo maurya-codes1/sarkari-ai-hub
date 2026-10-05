@@ -12,7 +12,7 @@
   </script>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Candidate Preparation Analytics & Honest Progress — BharatExams Hub</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="/css/style.css">
@@ -33,54 +33,55 @@
   </script>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen font-sans antialiased">
-  <!-- Top Navigation -->
-  <header class="sticky top-0 z-40 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <a href="/" class="flex items-center space-x-2">
-          <div class="w-10 h-10 rounded-2xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-xl shadow-lg">S</div>
-          <div>
-            <div class="text-lg font-black text-white leading-tight">BharatExams Hub <span class="text-sm">🇮🇳</span></div>
-            <div class="text-[10px] font-bold text-saffron-400 uppercase tracking-wider">Phase 13 Candidate Intelligence</div>
+  <!-- Top Navigation (Responsive for Mobile & Desktop) -->
+  <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 pt-[env(safe-area-inset-top,0px)]">
+    <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-0 sm:h-16 flex items-center justify-between gap-2">
+      <!-- Brand Logo & Title -->
+      <div class="flex items-center space-x-2 sm:space-x-3 min-w-0 shrink">
+        <a href="/" class="flex items-center space-x-2 min-w-0">
+          <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-saffron-500 via-orange-600 to-amber-400 flex items-center justify-center text-white font-black text-base sm:text-xl shadow-lg shrink-0">B</div>
+          <div class="min-w-0">
+            <div class="text-xs sm:text-lg font-black text-white leading-tight truncate">BharatExams Hub <span class="text-[10px] sm:text-sm">🇮🇳</span></div>
+            <div class="text-[8px] sm:text-[10px] font-bold text-saffron-400 uppercase tracking-wider truncate">Candidate Preparation Intelligence</div>
           </div>
         </a>
       </div>
-      <div class="flex items-center space-x-3">
-        <a href="/adaptive-practice.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-saffron-300 border border-slate-700 transition" data-i18n="nav_adaptive">🧠 Adaptive Practice</a>
+
+      <!-- Desktop Nav Items (lg and up) -->
+      <div class="hidden lg:flex items-center space-x-2 shrink-0">
+        <a href="/adaptive-practice.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-orange-300 border border-slate-700 transition" data-i18n="nav_adaptive">🧠 Adaptive Practice</a>
         <a href="/planner.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-amber-300 border border-slate-700 transition" data-i18n="nav_planner_leitner">📅 Study Planner</a>
         <a href="/coverage-matrix.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-emerald-300 border border-slate-700 transition" data-i18n="nav_matrix">🗺️ Exam Coverage</a>
-        <!-- Global 25-Language Switcher Dropdown -->
-        <div class="relative flex items-center bg-slate-900 border-2 border-amber-400/80 rounded-2xl px-2.5 sm:px-3 py-1.5 shadow-md">
-          <span class="text-xs sm:text-sm mr-1">🌐</span>
-          <select id="langSelectDropdown" class="bg-transparent text-xs font-black text-amber-300 focus:outline-none cursor-pointer pr-1">
-            <option value="hi" class="text-slate-900 bg-white font-bold">हिन्दी (Hindi)</option>
-            <option value="en" class="text-slate-900 bg-white font-bold">English</option>
-            <option value="hi-latn" class="text-slate-900 bg-white font-bold">Hinglish</option>
-            <option value="ta" class="text-slate-900 bg-white font-bold">தமிழ் (Tamil)</option>
-            <option value="te" class="text-slate-900 bg-white font-bold">తెలుగు (Telugu)</option>
-            <option value="mr" class="text-slate-900 bg-white font-bold">मराठी (Marathi)</option>
-            <option value="bn" class="text-slate-900 bg-white font-bold">বাংলা (Bengali)</option>
-            <option value="gu" class="text-slate-900 bg-white font-bold">ગુજરાતી (Gujarati)</option>
-            <option value="kn" class="text-slate-900 bg-white font-bold">ಕನ್ನಡ (Kannada)</option>
-            <option value="ml" class="text-slate-900 bg-white font-bold">മലയാളം (Malayalam)</option>
-            <option value="pa" class="text-slate-900 bg-white font-bold">ਪੰਜਾਬੀ (Punjabi)</option>
-            <option value="ur" class="text-slate-900 bg-white font-bold">اردو (Urdu)</option>
-            <option value="or" class="text-slate-900 bg-white font-bold">ଓଡ଼ିଆ (Odia)</option>
-            <option value="sa" class="text-slate-900 bg-white font-bold">संस्कृतम् (Sanskrit)</option>
-            <option value="as" class="text-slate-900 bg-white font-bold">অসমীয়া (Assamese)</option>
-            <option value="mai" class="text-slate-900 bg-white font-bold">मैथिली (Maithili)</option>
-            <option value="bho" class="text-slate-900 bg-white font-bold">भोजपुरी (Bhojpuri)</option>
-            <option value="ne" class="text-slate-900 bg-white font-bold">नेपाली (Nepali)</option>
-            <option value="kok" class="text-slate-900 bg-white font-bold">कोंकणी (Konkani)</option>
-            <option value="sd" class="text-slate-900 bg-white font-bold">سنڌي / सिंधी (Sindhi)</option>
-            <option value="doi" class="text-slate-900 bg-white font-bold">डोगरी (Dogri)</option>
-            <option value="ks" class="text-slate-900 bg-white font-bold">کٲشُر / कश्मीरी (Kashmiri)</option>
-            <option value="sat" class="text-slate-900 bg-white font-bold">ᱥᱟᱱᱛᱟᱲᱤ (Santali)</option>
-            <option value="brx" class="text-slate-900 bg-white font-bold">बर' (Bodo)</option>
-            <option value="mni" class="text-slate-900 bg-white font-bold">মৈতৈলোন্ / ꯃꯤꯇꯩꯂꯣꯟ (Manipuri)</option>
-          </select>
-        </div>
+        <a href="/calendar.html" class="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold text-pink-300 border border-slate-700 transition" data-i18n="mobile_nav_calendar">📅 Calendar</a>
         <a href="/" class="px-3 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-bold text-white shadow-md transition" data-i18n="nav_home">← Portal Home</a>
+      </div>
+
+      <!-- Mobile & Tablet Action Buttons -->
+      <div class="flex items-center space-x-1.5 shrink-0">
+        <a href="/" class="px-2.5 py-1.5 rounded-xl bg-saffron-500 hover:bg-saffron-600 text-xs font-black text-white shadow transition flex items-center space-x-1">
+          <span>🏠</span>
+          <span class="text-[11px] font-bold">Home</span>
+        </a>
+        <button type="button" onclick="document.getElementById('mobilePageDrawer').classList.toggle('hidden')" class="p-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center justify-center cursor-pointer shadow-md lg:hidden" aria-label="Toggle Navigation">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Slide Drawer -->
+    <div id="mobilePageDrawer" class="hidden lg:hidden bg-slate-900/98 border-t border-slate-800 px-4 py-3 space-y-2 shadow-2xl">
+      <div class="grid grid-cols-2 gap-2 pb-2 border-b border-slate-800 text-xs font-bold">
+        <a href="/" class="p-2.5 rounded-xl bg-slate-800 text-white flex items-center space-x-1.5"><span>🏠</span><span>Portal Home</span></a>
+        <a href="/#tool/quiz" class="p-2.5 rounded-xl bg-rose-950/60 text-rose-300 border border-rose-800/50 flex items-center space-x-1.5"><span>🎯</span><span>Live Mock Quiz</span></a>
+      </div>
+      <div class="space-y-1 text-xs font-bold">
+        <a href="/candidate-analytics.html" class="block px-3 py-2 rounded-xl bg-slate-800/60 text-cyan-300">📊 Honest Candidate Analytics</a>
+        <a href="/adaptive-practice.html" class="block px-3 py-2 rounded-xl text-orange-300 hover:bg-slate-800 transition">🧠 Adaptive Practice Engine (8 Modes)</a>
+        <a href="/planner.html" class="block px-3 py-2 rounded-xl text-amber-300 hover:bg-slate-800 transition">📅 Study Planner & Leitner Revision</a>
+        <a href="/coverage-matrix.html" class="block px-3 py-2 rounded-xl text-emerald-300 hover:bg-slate-800 transition">🗺️ Nationwide Coverage Matrix</a>
+        <a href="/calendar.html" class="block px-3 py-2 rounded-xl text-pink-300 hover:bg-slate-800 transition">📅 National Exam Calendar</a>
       </div>
     </div>
   </header>

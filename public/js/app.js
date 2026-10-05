@@ -271,8 +271,30 @@ function scrollToCurrentAffairs(event) {
   }, 100);
 }
 
-// ================= DESKTOP "OTHER TOOLS" (11 TOOLS) DROPDOWN CONTROLLER =================
-let isDesktopToolsLocked = false;
+// ================= DESKTOP & MOBILE "TOOLS" DROPDOWN CONTROLLER =================
+let isDesktopToolsOpen = false;
+
+function positionDesktopToolsMenu() {
+  const menu = document.getElementById('desktopToolsMenu');
+  const btn = document.getElementById('desktopToolsBtn');
+  if (!menu || !btn) return;
+
+  const rect = btn.getBoundingClientRect();
+  const menuWidth = Math.min(280, window.innerWidth - 16);
+
+  // Position cleanly below the button, keeping within viewport
+  let left = rect.right - menuWidth;
+  if (left < 8) left = 8;
+  if (left + menuWidth > window.innerWidth - 8) {
+    left = window.innerWidth - menuWidth - 8;
+  }
+
+  menu.style.position = 'fixed';
+  menu.style.top = (rect.bottom + 6) + 'px';
+  menu.style.left = left + 'px';
+  menu.style.width = menuWidth + 'px';
+  menu.style.zIndex = '99999';
+}
 
 function toggleDesktopToolsMenu(event) {
   if (event) {
@@ -282,27 +304,27 @@ function toggleDesktopToolsMenu(event) {
   const menu = document.getElementById('desktopToolsMenu');
   if (!menu) return;
 
-  const isHidden = menu.classList.contains('hidden');
-  if (isHidden) {
-    openDesktopToolsMenu(true);
+  if (menu.classList.contains('hidden')) {
+    openDesktopToolsMenu();
   } else {
     closeDesktopToolsMenu();
   }
 }
 
-function openDesktopToolsMenu(locked = true) {
+function openDesktopToolsMenu() {
   const menu = document.getElementById('desktopToolsMenu');
   const arrow = document.getElementById('desktopToolsArrow');
   const btn = document.getElementById('desktopToolsBtn');
   if (!menu) return;
 
+  positionDesktopToolsMenu();
   menu.classList.remove('hidden');
   if (arrow) arrow.textContent = '▲';
   if (btn) {
     btn.setAttribute('aria-expanded', 'true');
-    btn.classList.add('bg-slate-800', 'text-white');
+    btn.classList.add('bg-slate-700', 'text-white', 'ring-2', 'ring-saffron-500/50');
   }
-  isDesktopToolsLocked = locked;
+  isDesktopToolsOpen = true;
 }
 
 function closeDesktopToolsMenu() {
@@ -315,48 +337,39 @@ function closeDesktopToolsMenu() {
   if (arrow) arrow.textContent = '▼';
   if (btn) {
     btn.setAttribute('aria-expanded', 'false');
-    btn.classList.remove('bg-slate-800', 'text-white');
+    btn.classList.remove('bg-slate-700', 'text-white', 'ring-2', 'ring-saffron-500/50');
   }
-  isDesktopToolsLocked = false;
+  isDesktopToolsOpen = false;
 }
 
 function handleToolItemClick(event, toolId) {
   closeDesktopToolsMenu();
-  if (window.location.hash === `#tool/${toolId}`) {
+  if (toolId) {
+    window.location.hash = `#tool/${toolId}`;
     if (typeof showDedicatedTool === 'function') {
       showDedicatedTool(toolId);
     }
   }
 }
 
-// Global click-outside listener: If user clicks ANYWHERE outside the 11 tools dropdown, close it!
+// Global click-outside listener: If user clicks/taps outside the tools button or menu, close it!
 document.addEventListener('click', (event) => {
-  const container = document.getElementById('desktopToolsDropdownContainer');
-  if (container && !container.contains(event.target)) {
+  const menu = document.getElementById('desktopToolsMenu');
+  const btn = document.getElementById('desktopToolsBtn');
+  if (menu && !menu.classList.contains('hidden')) {
+    if (btn && btn.contains(event.target)) return;
+    if (menu.contains(event.target)) return;
     closeDesktopToolsMenu();
   }
 });
 
-// Setup hover assistance with safety lock:
-function initDesktopToolsHover() {
-  const container = document.getElementById('desktopToolsDropdownContainer');
-  if (!container) return;
-
-  container.addEventListener('mouseenter', () => {
-    if (!isDesktopToolsLocked) {
-      openDesktopToolsMenu(false);
-    }
-  });
-
-  container.addEventListener('mouseleave', () => {
-    // If the user tapped/clicked to lock it open, NEVER close on mouseleave!
-    if (!isDesktopToolsLocked) {
-      closeDesktopToolsMenu();
-    }
-  });
-}
-
-document.addEventListener('DOMContentLoaded', initDesktopToolsHover);
+// Reposition on window resize or scroll when open
+window.addEventListener('resize', () => {
+  if (isDesktopToolsOpen) positionDesktopToolsMenu();
+});
+window.addEventListener('scroll', () => {
+  if (isDesktopToolsOpen) positionDesktopToolsMenu();
+}, { passive: true });
 
 // ================= FLOATING AI SARKARI TUTOR CHATBOT =================
 function toggleChatbot() {

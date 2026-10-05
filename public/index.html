@@ -12,7 +12,7 @@
   </script>
 
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
   <title>BharatExams Hub 🇮🇳 | Bharat's #1 All-in-One Exam & Board Portal</title>
   
   <!-- SEO Meta Tags -->
@@ -86,7 +86,7 @@
   </div>
 
   <!-- Navigation Bar (Deep Navy with Saffron/White Accents - 2-Tiered Upar-Neeche Clean Layout) -->
-  <header class="sticky top-0 z-50 glass-nav shadow-xl border-b border-slate-800/80">
+  <header class="sticky top-0 z-50 glass-nav shadow-xl border-b border-slate-800/80 pt-[env(safe-area-inset-top,0px)]">
     <!-- TIER 1 (UPAR): Brand Logo & Action Controls -->
     <div class="max-w-7xl mx-auto px-2.5 xs:px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-14 sm:h-16">
@@ -203,8 +203,7 @@
           <!-- More Tools Dropdown -->
           <div class="relative shrink-0" id="desktopToolsDropdownContainer">
             <button type="button" id="desktopToolsBtn" onclick="toggleDesktopToolsMenu(event)" class="nav-link px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition flex items-center space-x-1.5 font-bold cursor-pointer whitespace-nowrap shrink-0" aria-haspopup="true" aria-expanded="false">
-              <span>🛠️</span>
-              <span data-i18n="nav_more_tools">Tools & Utilities</span>
+              <span id="desktopToolsLabel" data-i18n="nav_more_tools">🛠️ Tools</span>
               <span id="desktopToolsArrow" class="text-[9px] ml-0.5 transition-transform duration-200 inline-block">▼</span>
             </button>
             <div id="desktopToolsMenu" class="absolute left-0 sm:left-auto sm:right-0 top-full pt-1.5 w-64 hidden z-50 animate-fadeIn">
@@ -387,8 +386,8 @@
             <div class="relative max-w-xl">
               <span class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400 text-xl">🔍</span>
               <input type="text" id="globalSearchInput" autocomplete="off" placeholder="Search CBSE, UP Board, SSC GD, Railway, NEET, UP Police..." data-i18n="search_placeholder" class="w-full pl-12 pr-14 py-4 rounded-2xl bg-white text-slate-900 placeholder-slate-400 font-bold text-sm focus:outline-none focus:ring-4 focus:ring-saffron-500/40 shadow-xl border-2 border-slate-200">
-              <button type="button" id="voiceSearchBtn" title="बोलकर सर्च करें (Voice Search)" class="absolute right-3.5 p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white transition shadow-sm cursor-pointer flex items-center justify-center">
-                <span class="text-base">🎙️</span>
+              <button type="button" id="voiceSearchBtn" onclick="triggerVoiceSearch(event)" title="बोलकर सर्च करें (Voice Search)" class="absolute right-2.5 top-1/2 -translate-y-1/2 p-2.5 rounded-xl bg-slate-100 hover:bg-saffron-100 dark:bg-slate-800 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 hover:text-saffron-600 transition shadow-sm border border-slate-200 dark:border-slate-700 cursor-pointer flex items-center justify-center z-10" aria-label="Voice Search">
+                <span class="text-base leading-none">🎙️</span>
               </button>
               
               <!-- Floating Live Autocomplete Dropdown -->
@@ -558,7 +557,7 @@
       </div>
 
       <!-- 1. BHARAT NATIONAL QUESTION BANK EXPLORER (1,72,210+ QUESTIONS) -->
-      <div id="bharatQuestionBankShowcase" class="bg-gradient-to-br from-slate-900 via-slate-850 to-indigo-950 text-white rounded-3xl p-6 sm:p-8 border-2 border-indigo-500/40 shadow-2xl space-y-6">
+      <div id="bharatQuestionBankShowcase" class="scroll-mt-24 sm:scroll-mt-28 bg-gradient-to-br from-slate-900 via-slate-850 to-indigo-950 text-white rounded-3xl p-4 sm:p-8 border-2 border-indigo-500/40 shadow-2xl space-y-6">
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-indigo-800/60 pb-5">
           <div>
             <div class="inline-flex items-center space-x-2 px-3.5 py-1 rounded-full bg-saffron-500/20 border border-saffron-500/40 text-saffron-300 text-xs font-black tracking-wide mb-2">
@@ -576,16 +575,16 @@
           </div>
 
           <!-- Quick Navigation CTAs -->
-          <div class="flex items-center flex-wrap gap-2.5 shrink-0">
-            <a href="/adaptive-practice.html" class="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-saffron-500 to-orange-600 hover:from-saffron-600 hover:to-orange-700 text-white text-xs font-black shadow-lg transition active:scale-95 flex items-center space-x-2">
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 w-full md:w-auto shrink-0">
+            <a href="/adaptive-practice.html" class="px-4 py-2.5 rounded-2xl bg-gradient-to-r from-saffron-500 to-orange-600 hover:from-saffron-600 hover:to-orange-700 text-white text-xs font-black shadow-lg transition active:scale-95 flex items-center justify-center space-x-2">
               <span>🧠</span>
               <span data-i18n="bqb_cta_adaptive">Adaptive Practice (8 Modes)</span>
             </a>
-            <a href="/coverage-matrix.html" class="px-4 py-2.5 rounded-2xl bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-500/40 text-xs font-bold transition active:scale-95 flex items-center space-x-2">
+            <a href="/coverage-matrix.html" class="px-4 py-2.5 rounded-2xl bg-indigo-900/80 hover:bg-indigo-800 text-indigo-200 border border-indigo-500/40 text-xs font-bold transition active:scale-95 flex items-center justify-center space-x-2">
               <span>🗺️</span>
               <span data-i18n="bqb_cta_matrix">Coverage Matrix</span>
             </a>
-            <a href="/planner.html" class="px-4 py-2.5 rounded-2xl bg-pink-900/80 hover:bg-pink-800 text-pink-200 border border-pink-500/40 text-xs font-bold transition active:scale-95 flex items-center space-x-2">
+            <a href="/planner.html" class="px-4 py-2.5 rounded-2xl bg-pink-900/80 hover:bg-pink-800 text-pink-200 border border-pink-500/40 text-xs font-bold transition active:scale-95 flex items-center justify-center space-x-2">
               <span>📅</span>
               <span data-i18n="bqb_cta_planner">Study Planner</span>
             </a>

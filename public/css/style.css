@@ -12,6 +12,12 @@
   --emerald-600: #059669;
   --purple-600: #7c3aed;
   --rose-600: #e11d48;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.safe-top-pad {
+  padding-top: max(0.5rem, env(safe-area-inset-top, 0px));
 }
 
 html {
