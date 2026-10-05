@@ -1,0 +1,139 @@
+{
+  "exam_id": "reet-rajasthan",
+  "name": "REET (Rajasthan Eligibility Examination for Teachers Level 1 & Level 2 / राजस्थान अध्यापक पात्रता परीक्षा)",
+  "short_name": "REET Rajasthan",
+  "exam_category": "teacher_eligibility",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-board-of-secondary-education-rajasthan-r",
+    "name": "Board of Secondary Education Rajasthan (RBSE / BSER), Ajmer (माध्यमिक शिक्षा बोर्ड राजस्थान, अजमेर)",
+    "short_name": "RBSE Ajmer",
+    "headquarters": "BSER Campus, Rajiv Gandhi Vidya Bhawan, Subhash Nagar, Ajmer, Rajasthan 305001",
+    "official_website": "https://rajeduboard.rajasthan.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-rbse-rajasthan-portal",
+      "name": "Board of Secondary Education Rajasthan Official Portal (rajeduboard.rajasthan.gov.in)",
+      "url": "https://rajeduboard.rajasthan.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-reet-official-guidelines-2026",
+      "name": "REET Information Brochure, Examination Rules & Curriculum Notification 2026",
+      "url": "https://rajeduboard.rajasthan.gov.in/REET2026_Guidelines.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-rsmssb-teacher-guidelines-2026",
+      "name": "RSMSSB Primary & Upper Primary School Teacher Recruitment Regulations",
+      "url": "https://rsmssb.rajasthan.gov.in",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "reet_level_1": {
+      "stage_name": "REET Level 1 (Primary Teachers for Classes I to V / प्राथमिक शिक्षक वर्ग)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Child Development & Pedagogy (बाल विकास एवं शिक्षण विधियां)", "questions": 30, "marks": 30 },
+        { "name": "Language I (Hindi / English / Sanskrit / Urdu / Sindhi / Punjabi / Gujarati)", "questions": 30, "marks": 30 },
+        { "name": "Language II (Hindi / English / Sanskrit / Urdu / Sindhi / Punjabi / Gujarati)", "questions": 30, "marks": 30 },
+        { "name": "Mathematics (गणित एवं शिक्षण विधियां)", "questions": 30, "marks": 30 },
+        { "name": "Environmental Studies (पर्यावरण अध्ययन एवं शिक्षण विधियां)", "questions": 30, "marks": 30 }
+      ]
+    },
+    "reet_level_2": {
+      "stage_name": "REET Level 2 (Upper Primary Teachers for Classes VI to VIII / उच्च प्राथमिक शिक्षक वर्ग)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Child Development & Pedagogy (बाल विकास एवं शिक्षण विधियां)", "questions": 30, "marks": 30 },
+        { "name": "Language I (हिन्दी / अंग्रेजी / संस्कृत)", "questions": 30, "marks": 30 },
+        { "name": "Language II (हिन्दी / अंग्रेजी / संस्कृत)", "questions": 30, "marks": 30 },
+        { "name": "Science & Mathematics OR Social Studies (विज्ञान-गणित अथवा सामाजिक अध्ययन)", "questions": 60, "marks": 60 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "reet-child-development-pedagogy",
+        "name": "Child Development, Pedagogy & Teaching-Learning Process (बाल विकास, शिक्षण विधियाँ, RTE 2009 एवं क्रियात्मक अनुसंधान)",
+        "short_name": "REET Child Dev & Pedagogy",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Child Development: Principles of Growth & Development, Genetic & Environmental Determinants, Stages of Development",
+          "Theories of Learning: Piaget, Vygotsky, Kohlberg, Bruner, Thorndike, Skinner, Pavlov, Gestalt Insight Theory",
+          "Individual Differences & Personality: Types, Traits, Factors Affecting, Assessment of Personality (Projective & Objective tests)",
+          "Intelligence Theories & Measurement: Gardner Multiple Intelligences, Spearman Two-Factor, Sternberg Triarchic Theory, IQ & EQ",
+          "Inclusive Education: Children with Special Needs (CWSN), Learning Disabilities (Dyslexia, Dyscalculia, Dysgraphia, ADHD, Autism)",
+          "Teaching-Learning Process: Constructivism, Bloom's Taxonomy, Teaching Methods, Motivation & Learning Theories (Maslow)",
+          "Assessment & Evaluation: Formative vs Summative Assessment, CCE (Continuous & Comprehensive Evaluation), Diagnostic & Remedial Teaching",
+          "Statutory Frameworks: Right to Education Act 2009 (RTE 2009), National Education Policy 2020 (NEP 2020), NCF 2005 & NCF-FS/SE",
+          "Action Research (क्रियात्मक अनुसंधान): Meaning, Steps, Implementation in Classroom Settings"
+        ]
+      },
+      {
+        "subject_id": "reet-mathematics-science-evs",
+        "name": "Mathematics, Science & Environmental Studies (गणित, सामान्य विज्ञान एवं पर्यावरण अध्ययन)",
+        "short_name": "REET Maths Science & EVS",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number System & Arithmetic: Place Value, Fractions, Decimals, LCM & HCF, Unitary Method, Percentage, Simple Interest, Profit & Loss",
+          "Algebra & Geometry: Linear Equations, Exponents, Angles, Triangles, Quadrilaterals, Circles, Perimeter, Area, Surface Area & Volume",
+          "Physics: Motion, Force, Newton's Laws, Work, Energy, Heat & Temperature, Light (Reflection, Refraction, Lenses, Mirrors), Sound, Electricity",
+          "Chemistry: Matter & States, Physical & Chemical Changes, Elements, Compounds, Mixtures, Atoms & Molecules, Acids, Bases & Salts, Metals & Non-metals",
+          "Biology & Human Physiology: Cell Structure, Plant & Animal Tissues, Human Organ Systems (Digestive, Circulatory, Respiratory, Nervous), Microorganisms, Nutrition & Diseases",
+          "EVS - Family, Society & Living Habits: Family Structure, Social Evils (Child Marriage, Dowry, Child Labour), Clothes & Habitats, Public Places & Institutions",
+          "EVS - Nature, Ecology & Conservation: Ecosystems, Food Chain & Web, Biodiversity of Rajasthan, National Parks & Sanctuaries, Water Conservation (Baoris, Johad, Tanka), Solar Energy",
+          "Pedagogy of Mathematics, Science & Environmental Studies: Nature of Mathematics, Inductive-Deductive Method, Laboratory Method, EVS Integrated Approach"
+        ]
+      },
+      {
+        "subject_id": "reet-languages-hindi-english-sanskrit",
+        "name": "Languages - Hindi, English & Sanskrit Grammar with Pedagogy (भाषा ज्ञान - हिन्दी, अंग्रेजी एवं संस्कृत व्याकरण तथा शिक्षण विधियां)",
+        "short_name": "REET Languages Trilingual",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Hindi Grammar: Sandhi, Samas, Upsarg, Pratyay, Vilom, Paryayvachi, Tatsam-Tadbhav, Shuddh-Ashuddh, Muhavare va Lokoktiyan, Karak, Kaal, Vachya",
+          "Hindi Pedagogy: Bhasha Shikshan ki Vidhiyan, Bhashayi Kaushal (Shravan, Vachan, Pathan, Lekhan), Shikshan Sahayak Samagri, Upcharatmak Shikshan",
+          "English Grammar: Parts of Speech, Tenses, Subject-Verb Agreement, Active & Passive Voice, Direct & Indirect Speech, Articles & Prepositions, Vocabulary (Synonyms, Antonyms, Idioms)",
+          "English Pedagogy: Principles of Language Teaching, Communicative Language Teaching (CLT), Remedial Teaching, Teaching of Poetry & Prose",
+          "Sanskrit Grammar: Sandhi, Samas, Vibhakti, Dhatu Roop, Shabd Roop, Karaka, Pratyaya (Krit, Taddhita), Upasarga, Chhanda & Alankara Basics",
+          "Sanskrit Pedagogy: Sanskrit Shikshan Vidhaya (Pathshala Vidhi, Bhandarkar Vidhi, Pathyakram Vidhi), Bhasha Kaushal Shikshan"
+        ]
+      },
+      {
+        "subject_id": "reet-rajasthan-gk-culture-social-studies",
+        "name": "Rajasthan History, Art, Culture, Geography, Economy & Educational Scenario (राजस्थान का भूगोल, इतिहास, कला-संस्कृति एवं शैक्षिक परिदृश्य)",
+        "short_name": "REET Rajasthan GK & Culture",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Rajasthan Physical Geography: Physiographic Divisions (Thar Desert, Aravalli Range, Eastern Plains, Hadoti Plateau), Drainage Systems (Chambal, Banas, Luni, Mahi), Climate & Soil Types",
+          "Rajasthan Minerals, Agriculture & Economy: Major Crops, Mineral Wealth (Zinc, Lead, Marble, Gypsum, Rock Phosphate), Livestock & Dairy, Solar & Renewable Energy",
+          "Rajasthan History: Ancient Civilizations (Kalibangan, Ahar, Ganeshwar, Bairat), Major Dynasties (Guhil/Sisodiya, Rathore, Kachhwaha, Chauhan), 1857 Revolt in Rajasthan, Prajamandal Movements & Rajasthan Integration (7 Stages)",
+          "Art, Architecture & Culture: UNESCO Hill Forts of Rajasthan (Chittorgarh, Kumbhalgarh, Ranthambore, Amber, Jaisalmer, Gagron), Havelis, Stepwells (Baori), Temples, Miniature Paintings (Mewar, Marwar, Kishangarh Bani Thani, Bundi)",
+          "Folk Traditions, Fairs & Festivals: Folk Deities (Panchpir: Ramdevji, Pabuji, Gogaji, Mehaji, Harbhuji; Tejaji, Devnarayanji), Folk Dances (Ghoomar, Kalbelia, Chari, Gair, Bhavai), Fairs (Pushkar, Kolayat, Beneshwar Dham, Ramdevra)",
+          "Social Studies & Indian Polity: Harappan Civilization, Vedic Period, Mauryas & Guptas, Bhakti & Sufi Movements, Indian Constitution (Preamble, Fundamental Rights, Directive Principles, Parliament, Judiciary)",
+          "Rajasthan Educational Scenario: DIET, SCERT Rajasthan, SIERT Udaipur, Shala Darpan, Shala Samvad, SMILE Program, DIKSHA RISE, Mahatma Gandhi English Medium Schools, RTE in Rajasthan"
+        ]
+      }
+    ]
+  }
+}
