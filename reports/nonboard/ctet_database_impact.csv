@@ -1,0 +1,7 @@
+Metric / Table,Pre-Deployment Baseline,Post-Deployment Value,Delta Added,Integrity Status
+Total Questions in Database,295820,297320,"+1,500",Verified Correct
+School Board Questions (31 Boards),"261,520",261520,0 (Untouched),100% PRESERVED
+CTET Questions,0,1500,"+1,500",100% Fresh & Aligned
+CTET Master Notes,0,5,+5,Verified 50% Sampling
+Foreign Key Violations,0,0,0,0 Errors (Clean)
+Database PRAGMA integrity_check,ok,ok,None,Database Healthy

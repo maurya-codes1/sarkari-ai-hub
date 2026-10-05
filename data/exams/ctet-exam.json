@@ -1,0 +1,153 @@
+{
+  "exam_id": "ctet-exam",
+  "name": "Central Teacher Eligibility Test (केंद्रीय शिक्षक पात्रता परीक्षा - CTET CBSE)",
+  "short_name": "CTET CBSE",
+  "exam_category": "teacher_eligibility",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-central-board-of-secondary-education-cbs",
+    "name": "Central Board of Secondary Education (CBSE), Delhi",
+    "short_name": "CBSE Delhi",
+    "headquarters": "PS 1-2, Institutional Area, I.P. Extension, Patparganj, Delhi 110092",
+    "official_website": "https://ctet.nic.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-ctet-portal",
+      "name": "Central Teacher Eligibility Test Official Portal (ctet.nic.in)",
+      "url": "https://ctet.nic.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-cbse-portal",
+      "name": "Central Board of Secondary Education Official Portal (cbse.gov.in)",
+      "url": "https://cbse.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-ctet-info-bulletin-2026",
+      "name": "CTET Official Information Bulletin & Syllabus 2026",
+      "url": "https://ctet.nic.in/ctet_information_bulletin_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "paper_1_primary": {
+      "stage_name": "Paper I (For Classes I to V - Primary Stage)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Child Development and Pedagogy", "questions": 30, "marks": 30 },
+        { "name": "Mathematics & Pedagogy", "questions": 30, "marks": 30 },
+        { "name": "Environmental Studies & Pedagogy", "questions": 30, "marks": 30 },
+        { "name": "Language I (Hindi / English / Regional)", "questions": 30, "marks": 30 },
+        { "name": "Language II (English / Hindi / Regional)", "questions": 30, "marks": 30 }
+      ]
+    },
+    "paper_2_upper_primary": {
+      "stage_name": "Paper II (For Classes VI to VIII - Elementary Stage)",
+      "duration_minutes": 150,
+      "total_questions": 150,
+      "total_marks": 150,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Child Development and Pedagogy", "questions": 30, "marks": 30 },
+        { "name": "Mathematics & Science OR Social Studies/Social Sciences", "questions": 60, "marks": 60 },
+        { "name": "Language I", "questions": 30, "marks": 30 },
+        { "name": "Language II", "questions": 30, "marks": 30 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "ctet-child-development-pedagogy",
+        "name": "Child Development and Pedagogy (बाल विकास एवं शिक्षाशास्त्र)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Child Development (Primary School Child): Concept of development and its relationship with learning, Principles of child development (Cephalocaudal & Proximodistal), Influence of Heredity and Environment (Nature vs Nurture), Socialization processes (Primary: Family, Secondary: School and Peer group)",
+          "Cognitive & Moral Theories: Jean Piaget (Stages of cognitive development: Sensorimotor, Pre-operational, Concrete operational, Formal operational; Schema, Assimilation, Accommodation, Equilibration), Lev Vygotsky (Sociocultural theory, Zone of Proximal Development - ZPD, Scaffolding, Private Speech), Lawrence Kohlberg (Stages of moral development: Pre-conventional, Conventional, Post-conventional)",
+          "Progressive & Child-Centered Education: John Dewey progressive education principles, Child-centered classroom, Learning by doing, Democratic classroom environment",
+          "Intelligence & Multidimensional Intellect: Howard Gardner's Theory of Multiple Intelligences (8 intelligences: Linguistic, Logical-Mathematical, Spatial, Musical, Bodily-Kinesthetic, Interpersonal, Intrapersonal, Naturalistic), Robert Sternberg's Triarchic Theory of Intelligence, Concept of IQ (Binet-Simon, Terman formula: MA/CA × 100)",
+          "Language & Thought: Relationship between language and cognition (Piaget vs Vygotsky views), Gender as a social construct (Gender roles, gender-bias, educational practice)",
+          "Individual Differences: Diversity based on language, caste, gender, community, religion; Differentiated instruction; Assessment for Learning (Formative) vs Assessment of Learning (Summative), Continuous and Comprehensive Evaluation (CCE)",
+          "Inclusive Education & Children with Special Needs (CWSN): RPwD Act 2016 (21 disabilities), Dyslexia (Reading difficulty), Dysgraphia (Writing difficulty), Dyscalculia (Math difficulty), Dyspraxia (Motor skills), ADHD, Autism Spectrum Disorder (ASD), Gifted and creative children",
+          "Learning & Pedagogy: How children think and learn, Constructivist perspective of learning (Learner as active meaning maker), Problem solving and scientific investigator, Alternative conceptions (Naive theories) of children, Cognition and Emotion, Motivation (Intrinsic vs Extrinsic), Factors contributing to learning (Personal and Environmental)"
+        ]
+      },
+      {
+        "subject_id": "ctet-mathematics-pedagogy",
+        "name": "Mathematics & Pedagogical Issues (गणित एवं शिक्षण शास्त्र)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Number System & Operations: Natural numbers, Whole numbers, Integers, Prime and Composite numbers, Place value and Face value, Divisibility rules, Basic operations (Addition, Subtraction, Multiplication, Division), BODMAS rule",
+          "Fractions, Decimals & Factors: Proper, Improper and Mixed fractions, Decimals representation, LCM and HCF and their practical problem applications",
+          "Geometry & Spatial Understanding: Points, Lines, Angles (Acute, Right, Obtuse), Triangles, Quadrilaterals, Circles, 2D and 3D shapes (Cube, Cuboid, Cylinder, Cone, Sphere), Faces, Edges, Vertices (Euler's formula: F + V - E = 2), Tessellations (Tiling), Tangram",
+          "Measurement, Weight, Time & Volume: Standard units of length (meter, cm, km), conversion of units, Weight (kg, g), Capacity/Volume (liter, ml), Time (12-hour vs 24-hour clock, elapsed time), Money transactions",
+          "Data Handling & Patterns: Representation of data, Pictographs, Bar graphs, Mean, Median, Mode, Number patterns, Symmetrical patterns",
+          "Nature of Mathematics: Logical thinking, Deductive vs Inductive reasoning, Abstraction in mathematics, Axioms, Postulates, Conjectures, Theorems",
+          "Van Hiele Theory of Geometric Thought: Level 0 (Visualization / Recognition), Level 1 (Analysis / Description), Level 2 (Informal Deduction / Ordering), Level 3 (Formal Deduction), Level 4 (Rigor)",
+          "Pedagogy & Curriculum in Mathematics: Place of mathematics in school curriculum (NCF 2005 & NEP 2020 perspectives on mathematization of child's thinking), Language of mathematics, Community mathematics, Diagnostic and remedial teaching, Common errors and misconceptions in elementary mathematics, Teaching-Learning Materials (TLM: Abacus, Geo-board, Dienes blocks, Dot grid)"
+        ]
+      },
+      {
+        "subject_id": "ctet-environmental-studies",
+        "name": "Environmental Studies & EVS Pedagogy (पर्यावरण अध्ययन एवं शिक्षण शास्त्र)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Theme 1 - Family and Friends: Relationships, Work and Play, Animals (Elephant herd - led by oldest female, Sloth - sleeps 17 hours upside down, Snake - 4 poisonous snakes in India: Cobra, Common Krait, Russell's Viper, Saw-scaled Viper; Honeybees - Queen bee, Worker bees), Plants (Desert Oak in Australia, Nepenthes / Pitcher plant insectivore in Meghalaya, Banyan tree aerial roots)",
+          "Theme 2 - Food: Nutrition, Digestion (Dr. Beaumont's experiment on St. Martin's stomach), Food preservation (Pickling, boiling, refrigiration), Traditional foods (Ling-hu-fen snake dish in Hong Kong, Tapioca with coconut curry in Kerala, Fish cooked in mustard oil in Kashmir, Sea fish in coconut oil in Goa)",
+          "Theme 3 - Shelter: Traditional houses across India (Assam bamboo stilts 10-12 feet high, Ladakh stone houses with mud plaster and flat roof for drying, Kashmir houseboats and Shikara with Khatamband woodwork, Rajasthan mud houses with thorny acacia bushes roof, Manali wooden and stone houses with sloping roofs), Bird nests (Weaver bird, Sunbird, Robin, Crow, Dove)",
+          "Theme 4 - Water: Water cycle, Water conservation, Traditional water management (Bawari / Stepwells, Ghadsisar lake in Jaisalmer built by King Ghadsi, Al-Biruni traveler from Uzbekistan notes on Indian reservoirs), Water-borne diseases (Cholera, Typhoid, Malaria caused by female Anopheles discovered by Ronald Ross), Anaemia caused by iron deficiency (Jaggery, Amla, Green leafy vegetables)",
+          "Theme 5 - Travel: Mapping and cardinal directions on India map (States neighboring Arabian Sea and Bay of Bengal), Transport (Vallam wooden boat in Kerala, Camel cart in Rajasthan, Jugaad in Gujarat, Bamboo bridge in Assam), High-altitude adaptation (Pashmina shawl from Changthang Changpa tribe goats at 5000m, Mountaineering - Bachendri Pal first Indian woman on Mt. Everest / Sagarmatha)",
+          "Theme 6 - Things We Make and Do: Traditional crafts (Madhubani painting of Bihar made from rice paste and natural dyes, Pochampalli and Kalamkari sarees of Telangana/Andhra Pradesh, Kannauj perfume/Itr of UP), Environmental leaders (Suryamani - 'Girl Star' and Torang centre for Kuduk tribe forest rights in Jharkhand, Amrita Devi Bishnoi of Khejadli village Rajasthan)",
+          "EVS Pedagogical Principles: Concept and scope of integrated EVS (NCF 2005 integration of Science, Social Science and Environmental Education), Child's immediate environment as primary resource, Constructivist approach in EVS",
+          "EVS Classroom Methods & Assessment: Discussion, Survey, Field trip (Excursion), Experimentation, Activity-based learning, Developing enquiry skills, Continuous and Comprehensive Evaluation (CCE), Rubrics, Portfolios, Anecdotal records, Rating scales"
+        ]
+      },
+      {
+        "subject_id": "ctet-language-pedagogy",
+        "name": "Language I & II Comprehension & Pedagogy (भाषा विकास एवं शिक्षण शास्त्र - हिन्दी एवं English)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Language Acquisition vs Learning: First language acquisition (Natural, subconscious, informal) vs Second language learning (Formal, conscious, classroom-guided), Noam Chomsky's Theory (Language Acquisition Device - LAD, Universal Grammar), Stephen Krashen's Second Language Acquisition Hypotheses (Acquisition-Learning, Natural Order, Monitor, Input Hypothesis i+1, Affective Filter)",
+          "Four Fundamental Language Skills (LSRW - सुनना, बोलना, पढ़ना, लिखना): Receptive skills (Listening & Reading / ग्रहणात्मक कौशल) vs Productive skills (Speaking & Writing / अभिव्यक्तात्मक कौशल), Sub-skills of reading: Skimming (gist) and Scanning (specific info), Intensive reading vs Extensive reading (pleasure/fluency)",
+          "Principles of Language Teaching: Motivation, Habit formation, Imitation, Practice and Drill, Naturalness, Situational approach, Communicative Language Teaching (CLT)",
+          "Multilingualism as a Resource: Linguistic diversity in Indian classrooms as an asset rather than an obstacle; Mother tongue based multilingual education (NCF 2005 & NEP 2020), Translanguaging",
+          "Grammar in Context (सदर्भ में व्याकरण): Inductive method (Examples -> Rules) vs Deductive method (Rules -> Examples); Functional grammar over prescriptive rote rules",
+          "Language Disorders & Difficulties: Dyslexia, Speech disorders (Stuttering, Stammering), Aphasia, Common errors in articulation, pronunciation and syntax",
+          "Assessment & Evaluation of Language: Formative assessment of LSRW, Authentic language tasks, Portfolio assessment, Rubrics, Diagnostic tests and Remedial teaching (निदानात्मक एवं उपचारात्मक शिक्षण)",
+          "Hindi & English Grammar Core: Sandhi (संधि), Samas (समास), Upsarg & Pratyaya (उपसर्ग एवं प्रत्यय), Tatsam & Tadbhav, Vilom, Paryayvachi, Muhavare; English Parts of Speech, Subject-Verb Agreement, Tenses, Prepositions, Voice, Narration, Vocabulary & Contextual usage"
+        ]
+      },
+      {
+        "subject_id": "ctet-social-science-science-pedagogy",
+        "name": "Science, Social Science & Upper Primary Pedagogy (विज्ञान, सामाजिक विज्ञान एवं उच्च प्राथमिक शिक्षाशास्त्र)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Upper Primary Science Core: Food & Nutrition (Components, deficiency diseases), Materials (Acids, Bases, Salts, Metals and Non-metals, Separation of substances), World of the Living (Cell structure, Plant and Animal reproduction, Respiration, Transportation in plants and animals), Moving things & Physics (Motion and Time, Electric current and its effects, Light, Reflection, Spherical mirrors, Sound, Force and Pressure, Friction)",
+          "Natural Phenomena & Resources: Winds, Storms and Cyclones, Forests our lifeline, Wastewater story, Coal and Petroleum, Pollution of air and water",
+          "Upper Primary Social Studies - History: Sources of history (Archaeological, Inscriptions, Manuscripts), Harappan civilization, Vedic society, Mahajanapadas and Mauryas (Ashoka's Dhamma), Delhi Sultanate, Mughal Empire, 1857 Revolt, Social Reform movements (Raja Ram Mohan Roy, Jyotirao Phule, Ishwar Chandra Vidyasagar, B.R. Ambedkar), National Movement (Non-Cooperation, Civil Disobedience, Quit India)",
+          "Upper Primary Social Studies - Geography: Solar system and Earth, Latitudes and Longitudes, Motions of Earth (Rotation and Revolution), Maps (Scale, Direction, Symbols), Domains of Earth (Lithosphere, Hydrosphere, Atmosphere, Biosphere), Major landforms, India physical features, Climate, Natural vegetation and wildlife, Resources (Renewable and Non-renewable), Agriculture (Subsistence vs Commercial)",
+          "Upper Primary Social Studies - Social & Political Life (SPL): Diversity and Discrimination, Government (Democracy, Monarchy), Local Government (Panchayati Raj, Municipal Corporation), State Government (MLA, Chief Minister, Governor), Role of Gender, Media and Advertising, Markets around us, Constitution of India (Preamble, Fundamental Rights, Secularism), Parliament, Judiciary (Supreme Court, High Court, PIL - Public Interest Litigation), Criminal Justice System, Marginalisation and Social Justice",
+          "Pedagogy of Science: Nature of Science (Inquiry-based, Empirical, Tentative), Scientific method, Developing scientific temper, Inquiry approach, Hands-on activities, Laboratory work, Misconceptions in science",
+          "Pedagogy of Social Science: Concept and nature of Social Studies vs Social Science, Classroom processes and discourse, Questioning strategies, Developing critical and analytical thinking, Primary sources vs Secondary sources, Historical inquiry, Field visits and Projects, Remedial teaching"
+        ]
+      }
+    ]
+  }
+}
