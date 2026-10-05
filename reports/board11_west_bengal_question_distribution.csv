@@ -1,0 +1,5 @@
+Option,Count,Percentage,Expected Ideal,Generator Bias Status
+"A",1612,"25.37%","25.00%","BALANCED_ZERO_BIAS"
+"B",1581,"24.88%","25.00%","BALANCED_ZERO_BIAS"
+"C",1581,"24.88%","25.00%","BALANCED_ZERO_BIAS"
+"D",1581,"24.88%","25.00%","BALANCED_ZERO_BIAS"

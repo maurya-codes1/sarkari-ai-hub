@@ -1,0 +1,6 @@
+subject_category,code,script,official_status,rendering_rule
+Punjabi / General Punjabi,pa,Gurmukhi,Verified Official,Strict Gurmukhi Required
+English / General English,en,Latin,Verified Official,English Script
+Hindi,hi,Devanagari,Verified Official,Devanagari Script
+Urdu,ur,Nastaliq / Urdu,Verified Official,Urdu Script in lieu of Hindi
+Science / Math / Social / Commerce,pa/en,Gurmukhi + Latin,Verified Official Mediums,Bilingual / Permitted Mediums

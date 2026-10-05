@@ -1,0 +1,6 @@
+class_level,stream,subject_count,subject_basket,status
+Class 10,General,10,Group A Compulsory + Group B CS/Elective,ACTIVE
+Class 12,Science,7,"General Eng, General Pbi/PHC, CS, Physics, Chem, Bio, Math",ACTIVE
+Class 12,Commerce,7,"General Eng, General Pbi/PHC, CS, BST, Accounts, Econ, E-Bus/Math",ACTIVE
+Class 12,Humanities,9,"General Eng, General Pbi/PHC, CS, History, PolSci, Econ, Geo, Soc, PubAdmin",ACTIVE
+Class 12,Agriculture,5,"General Eng, General Pbi/PHC, CS, Agriculture, Selected Allied Science",ACTIVE

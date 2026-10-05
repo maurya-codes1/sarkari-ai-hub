@@ -1,0 +1,4 @@
+Provenance Type,Source Scope,Current Verified,Status,Rule
+OFFICIAL_BSEB_PYQ,Authentic BSEB Past Board Papers (2018-2025),0,PENDING_INGESTION,Strict official BSEB provenance only
+OFFICIAL_BSEB_MODEL,Official Model Papers 2026-27,Blueprint Framework,ACTIVE,Basis for question patterns & marks
+AI_PRACTICE_BSEB,Curriculum-aligned practice bank,Targeted Generation,ACTIVE,Strictly derived from BSEB official syllabus

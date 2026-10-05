@@ -1,0 +1,6 @@
+Question Type ID,Type Name,Marks Allocation,Count per Subject,Total Count (31 Subjects),Mock Engine Protection
+very_short_answer,Very Short Answer (VSA),2 Marks,24,744,practice_eligible=0 & full_exam_eligible=0
+short_answer,Short Answer (SA),3 Marks,24,744,practice_eligible=0 & full_exam_eligible=0
+case_study,Case Study / Competency,4 Marks,12,372,practice_eligible=0 & full_exam_eligible=0
+long_answer,Long Answer (LA) / Derivations,5 Marks,15,465,practice_eligible=0 & full_exam_eligible=0
+TOTAL,All Subjective Types,Varies,75,2325,100% Protected (Revision Mode Only)

@@ -1,0 +1,5 @@
+Question Type ID,Question Type Description,Marks per Question,Total Count in PSEB,Exam Mode Eligible,Notes & PDF Eligible
+"very_short_answer","Very Short Answer (VSA)",2,744,NO,YES
+"short_answer","Short Answer (SA)",3,744,NO,YES
+"case_study","Case Study / Practical Competency",4,372,NO,YES
+"long_answer","Long Answer (LA) / Derivation",5,465,NO,YES

@@ -1,0 +1,4 @@
+provenance_type,source_scope,current_verified,status,rule
+OFFICIAL_PSEB_PYQ,Official Question Papers 2020-2024,0,PENDING_VERIFIED_INGESTION,Strict provenance required
+OFFICIAL_PSEB_SAMPLE,Official Sample / Model Papers 2026-27,Sample Blueprint,ACTIVE,Grounding for format & marking
+AI_PRACTICE_PSEB,Curriculum-aligned practice bank,Targeted,ACTIVE,Strictly derived from PSEB official syllabus

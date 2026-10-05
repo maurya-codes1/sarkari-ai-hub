@@ -115,12 +115,19 @@ class AdaptiveSelectionService {
 
     let candidates = db.prepare(baseSql).all(...baseParams);
 
+    const extractOptsList = (opts) => {
+      if (Array.isArray(opts)) return opts;
+      if (opts && typeof opts === 'object') return Object.values(opts);
+      return [];
+    };
+
     // Filter candidates to ensure only questions with valid options (>= 2) are admitted
     candidates = candidates.filter(q => {
       try {
         const langObj = JSON.parse(q.language_content || '{}');
         const c = langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0];
-        return c && Array.isArray(c.options) && c.options.length >= 2;
+        const opts = extractOptsList(c?.options);
+        return opts.length >= 2;
       } catch (e) {
         return false;
       }
@@ -158,7 +165,8 @@ class AdaptiveSelectionService {
         try {
           const langObj = JSON.parse(q.language_content || '{}');
           const c = langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0];
-          return c && Array.isArray(c.options) && c.options.length >= 2;
+          const opts = extractOptsList(c?.options);
+          return opts.length >= 2;
         } catch (e) {
           return false;
         }
@@ -219,9 +227,9 @@ class AdaptiveSelectionService {
       const rawQ = content.q || content.question_text || 'Question text unavailable';
       const cleanQ = cleanQuestionText(rawQ);
 
-      const rawOpts = content.options || [];
+      const rawOpts = extractOptsList(content.options);
       const cleanOpts = rawOpts.map((opt, oIdx) => {
-        const stripped = String(opt).replace(/^[A-D]\)\s*/i, '').trim();
+        const stripped = String(opt).replace(/^[A-D][).:\-]\s*/i, '').trim();
         const letter = ['A)', 'B)', 'C)', 'D)'][oIdx] || `${oIdx + 1})`;
         return `${letter} ${stripped}`;
       });

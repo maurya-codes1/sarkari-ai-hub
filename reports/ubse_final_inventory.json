@@ -1,0 +1,228 @@
+{
+  "board_id": "ubse-uttarakhand",
+  "board_name": "Uttarakhand Board of School Education",
+  "state": "Uttarakhand",
+  "total_questions": 8680,
+  "total_mcqs": 6355,
+  "total_subjectives": 2325,
+  "subjects_count": 31,
+  "subjects": [
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-bengali-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-english-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-hindi-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-homesci-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-math-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-punjabi-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-sanskrit-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-science-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-social-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "ubse-urdu-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-accountancy-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-agri-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-biology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-business-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-chemistry-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-cs-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-economics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-economics-arts-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-education-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-english-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-english-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-geography-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-hindi-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-hindi-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-history-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-math-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-math-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-physics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-polity-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-psychology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "ubse-sociology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    }
+  ]
+}

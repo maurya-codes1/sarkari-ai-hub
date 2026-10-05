@@ -1,0 +1,11 @@
+Board ID,Total Questions,Primary Owner Board,Actual Board ID,Ownership Consistency,Cross Board Leakage,Status
+"cbse-board",7000,"cbse-board","cbse-board","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"pseb-punjab",8680,"pseb-punjab","pseb-punjab","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"bseb-bihar",8400,"bseb-bihar","bseb-bihar","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"ubse-uttarakhand",8680,"ubse-uttarakhand","ubse-uttarakhand","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"upmsp-uttar-pradesh",8680,"upmsp-uttar-pradesh","upmsp-uttar-pradesh","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"mpbse-madhya-pradesh",8680,"mpbse-madhya-pradesh","mpbse-madhya-pradesh","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"nios-board",8680,"nios-board","nios-board","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"rbse-rajasthan",8680,"rbse-rajasthan","rbse-rajasthan","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"msbshse-maharashtra",8680,"msbshse-maharashtra","msbshse-maharashtra","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"
+"gseb-gujarat",8680,"gseb-gujarat","gseb-gujarat","100.00%",0,"PERFECT_OWNERSHIP_INTEGRITY"

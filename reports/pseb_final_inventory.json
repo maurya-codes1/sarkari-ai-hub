@@ -1,0 +1,260 @@
+{
+  "board_id": "pseb-punjab",
+  "board_name": "Punjab School Education Board",
+  "authority_url": "https://www.pseb.ac.in/",
+  "generated_at": "2026-10-03T19:39:47.049Z",
+  "total_questions": 8680,
+  "total_mcqs": 6355,
+  "total_subjectives": 2325,
+  "subject_instances": 31,
+  "subjects": [
+    {
+      "subject_id": "pseb-cs-10",
+      "subject_name": "Computer Science (ਕੰਪਿਊਟਰ ਸਾਇੰਸ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-english-10",
+      "subject_name": "English (Class 10)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-pe-10",
+      "subject_name": "Health and Physical Education (ਸਿਹਤ ਅਤੇ ਸਰੀਰਕ ਸਿੱਖਿਆ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-hindi-10",
+      "subject_name": "Hindi (हिन्दी - कक्षा 10)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-math-10",
+      "subject_name": "Mathematics (ਗਣਿਤ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-phc-10",
+      "subject_name": "Punjab History and Culture (ਪੰਜਾਬ ਦਾ ਇਤਿਹਾਸ ਅਤੇ ਸੱਭਿਆਚਾਰ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-punjabi-10",
+      "subject_name": "Punjabi (ਪੰਜਾਬੀ - ਪਰਚਾ ੳ ਅਤੇ ਅ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-science-10",
+      "subject_name": "Science (ਵਿਗਿਆਨ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-social-10",
+      "subject_name": "Social Science (ਸਮਾਜਿਕ ਵਿਗਿਆਨ)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-urdu-10",
+      "subject_name": "Urdu (اردو - جماعت دہم)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-agri-12",
+      "subject_name": "Agriculture (ਖੇਤੀਬਾੜੀ ਵਿਗਿਆਨ)",
+      "stage": "Class 12 Agriculture",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-accountancy-12",
+      "subject_name": "Accountancy (ਲੇਖਾਕਾਰੀ)",
+      "stage": "Class 12 Commerce",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-business-12",
+      "subject_name": "Business Studies (ਵਪਾਰਕ ਅਧਿਐਨ)",
+      "stage": "Class 12 Commerce",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-cs-12",
+      "subject_name": "Computer Science (ਕੰਪਿਊਟਰ ਸਾਇੰਸ 12)",
+      "stage": "Class 12 Commerce",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-economics-12",
+      "subject_name": "Economics (ਅਰਥ ਸ਼ਾਸਤਰ)",
+      "stage": "Class 12 Commerce",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-ebusiness-12",
+      "subject_name": "Fundamentals of E-Business",
+      "stage": "Class 12 Commerce",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-math-12",
+      "subject_name": "Mathematics (ਗਣਿਤ 12)",
+      "stage": "Class 12 Commerce",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-geography-12",
+      "subject_name": "Geography (ਭੂਗੋਲ)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-history-12",
+      "subject_name": "History (ਇਤਿਹਾਸ: ਪੰਜਾਬ ਦਾ ਇਤਿਹਾਸ 1469-1849)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-polity-12",
+      "subject_name": "Political Science (ਰਾਜਨੀਤੀ ਸ਼ਾਸਤਰ)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-psychology-12",
+      "subject_name": "Psychology (ਮਨੋਵਿਗਿਆਨ)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-public-admin-12",
+      "subject_name": "Public Administration (ਲੋਕ ਪ੍ਰਸ਼ਾਸਨ)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-phc-12",
+      "subject_name": "Punjab History and Culture (ਕਲਾਸ 12)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-sociology-12",
+      "subject_name": "Sociology (ਸਮਾਜ ਸ਼ਾਸਤਰ)",
+      "stage": "Class 12 Humanities",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-biology-12",
+      "subject_name": "Biology (ਜੀਵ ਵਿਗਿਆਨ)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-chemistry-12",
+      "subject_name": "Chemistry (ਰਸਾਇਣ ਵਿਗਿਆਨ)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-cs-12",
+      "subject_name": "Computer Science (ਕੰਪਿਊਟਰ ਸਾਇੰਸ 12)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-gen-english-12",
+      "subject_name": "General English (Class 12)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-gen-punjabi-12",
+      "subject_name": "General Punjabi (ਲਾਜ਼ਮੀ ਪੰਜਾਬੀ)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-math-12",
+      "subject_name": "Mathematics (ਗਣਿਤ 12)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "pseb-physics-12",
+      "subject_name": "Physics (ਭੌਤਿਕ ਵਿਗਿਆਨ)",
+      "stage": "Class 12 Science",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    }
+  ]
+}

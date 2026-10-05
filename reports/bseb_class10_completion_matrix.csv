@@ -1,0 +1,10 @@
+Subject Code,Subject ID,Subject Name,Current MCQ,Target MCQ,Current Subj,Target Subj,Status,Gap Classification
+"101","bseb-hindi-10","Hindi (MIL हिन्दी)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"113","bseb-english-10","English (Class 10)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"110","bseb-math-10","Mathematics (गणित)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"112","bseb-science-10","Science (विज्ञान)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"111","bseb-social-10","Social Science (सामाजिक विज्ञान)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"105","bseb-sanskrit-10","Sanskrit (SIL संस्कृत)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"103","bseb-urdu-10","Urdu (MIL اردو)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"104","bseb-maithili-10","Maithili (MIL मैथिली)",0,205,0,75,"PENDING_GENERATION","EMPTY"
+"114","bseb-adv-math-10","Advanced Mathematics (उच्च गणित)",0,205,0,75,"PENDING_GENERATION","EMPTY"

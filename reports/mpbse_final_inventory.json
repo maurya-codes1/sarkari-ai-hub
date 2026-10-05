@@ -1,0 +1,228 @@
+{
+  "board_id": "mpbse-madhya-pradesh",
+  "board_name": "Madhya Pradesh Board of Secondary Education",
+  "state": "Madhya Pradesh",
+  "total_questions": 8680,
+  "total_mcqs": 6355,
+  "total_subjectives": 2325,
+  "subjects_count": 31,
+  "subjects": [
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-bengali-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-english-spl-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-hindi-spl-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-marathi-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-math-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-punjabi-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-sanskrit-gen-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-science-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-social-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "mpbse-urdu-gen-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-accountancy-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-agri-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-biology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-bst-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-chemistry-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-cs-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-economics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-economics-arts-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-english-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-english-gen-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-geography-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-hindi-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-hindi-gen-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-history-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-math-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-math-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-physics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-polscience-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-psychology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-sanskrit-gen-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "mpbse-sociology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    }
+  ]
+}

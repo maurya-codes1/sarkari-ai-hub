@@ -1,0 +1,6 @@
+Integrity Check Parameter,Command / Query,Observed Result,Expected Result,Pass / Fail
+"Foreign Key Check","PRAGMA foreign_key_check","0 violations","0 violations","PASS"
+"B-Tree Structural Integrity","PRAGMA integrity_check","ok","ok","PASS"
+"Orphan Questions","Questions with invalid subject_id",0,0,"PASS"
+"Orphan Versions","Versions with invalid question_id",0,0,"PASS"
+"Total Database Question Inventory","SELECT count(*) FROM questions",100230,100230,"PASS"

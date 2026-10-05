@@ -1,0 +1,4 @@
+Mock Mode,Eligible Questions,Subjective Excluded,Duplicate Prevention,Scoring Scheme
+Learning Mock,6355,YES (practice_eligible=0),Strict set uniqueness,1 mark per correct answer (no negative)
+Practice Mock,6355,YES (practice_eligible=0),Strict set uniqueness,Configurable quantity and time
+Full Exam,6355,YES (full_exam_eligible=0 for subjectives),Strict blueprint matching,Official UPMSP marking scheme

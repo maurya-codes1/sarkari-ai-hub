@@ -62,6 +62,17 @@ function getDb(options = {}) {
     dbInstance.pragma('mmap_size = 0');       // Disable mmap to prevent Linux cgroup page cache OOM
     dbInstance.pragma('temp_store = FILE');   // File-backed temporary store
 
+    // Ensure high-performance composite indexes exist on startup
+    try {
+      dbInstance.exec(`
+        CREATE INDEX IF NOT EXISTS idx_questions_board ON questions(board_id);
+        CREATE INDEX IF NOT EXISTS idx_questions_board_stage ON questions(board_id, stage);
+        CREATE INDEX IF NOT EXISTS idx_questions_board_stage_subj ON questions(board_id, stage, subject_id);
+        CREATE INDEX IF NOT EXISTS idx_questions_exam_ver_subj ON questions(exam_version_id, subject_id);
+        CREATE INDEX IF NOT EXISTS idx_questions_type_elig ON questions(question_type_id, current_eligibility);
+      `);
+    } catch (idxErr) {}
+
     isDbAvailable = true;
     return dbInstance;
   } catch (err) {

@@ -1,0 +1,5 @@
+"Mode","Target Stage","Eligible Inventory","Constraint","Engine Support"
+"Timed CBT Mock","Secondary (Class 10)","2,050 MCQs","Only single_mcq, practice_eligible=1","Active"
+"Timed CBT Mock","Senior Secondary (Class 12)","4,305 MCQs","Only single_mcq, practice_eligible=1","Active"
+"Subjective Written Revision","Secondary (Class 10)","750 Questions","Quarantined from CBT (practice_eligible=0)","Active via Notes & Revision"
+"Subjective Written Revision","Senior Secondary (Class 12)","1,575 Questions","Quarantined from CBT (practice_eligible=0)","Active via Notes & Revision"

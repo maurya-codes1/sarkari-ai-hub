@@ -1408,6 +1408,15 @@ async function startNewQuiz() {
   const difficulty = isFullExamMode ? 'MIXED' : (diffSelect ? diffSelect.value : 'MIXED');
   const timerMode = isFullExamMode ? 'COUNTDOWN' : (timerSelect ? timerSelect.value : 'COUNTDOWN');
 
+  // Immediate visual feedback on start button
+  const startBtn = document.getElementById('startQuizBtn');
+  let originalBtnHtml = '';
+  if (startBtn) {
+    originalBtnHtml = startBtn.innerHTML;
+    startBtn.innerHTML = `<span>⏳ Preparing CBT Test (लोड हो रहा है)...</span>`;
+    startBtn.disabled = true;
+  }
+
   // Exam Safety: Hide floating chatbot widget while taking the exam
   document.body.classList.add('in-quiz');
   const chatBubble = document.getElementById('floatingChatbotWidget');
@@ -1440,6 +1449,10 @@ async function startNewQuiz() {
         } else {
           alert(unavailMsg);
         }
+        if (startBtn && originalBtnHtml) {
+          startBtn.innerHTML = originalBtnHtml;
+          startBtn.disabled = false;
+        }
         document.body.classList.remove('in-quiz');
         if (chatBubble) chatBubble.classList.remove('hidden');
         return;
@@ -1458,6 +1471,10 @@ async function startNewQuiz() {
   }
 
   if (!sessionData.questions || sessionData.questions.length === 0) {
+    if (startBtn && originalBtnHtml) {
+      startBtn.innerHTML = originalBtnHtml;
+      startBtn.disabled = false;
+    }
     const loadingMsg = 'इस विषय के लिए प्रश्न लोड हो रहे हैं। कृपया दूसरा विकल्प चुनें।';
     if (typeof showAppAlert === 'function') {
       showAppAlert(loadingMsg, 'Notice', 'ℹ️');
@@ -1467,6 +1484,11 @@ async function startNewQuiz() {
     document.body.classList.remove('in-quiz');
     if (chatBubble) chatBubble.classList.remove('hidden');
     return;
+  }
+
+  if (startBtn && originalBtnHtml) {
+    startBtn.innerHTML = originalBtnHtml;
+    startBtn.disabled = false;
   }
 
   // Populate active quiz state

@@ -1,0 +1,304 @@
+Board ID,Subject ID,Subject Name,Subject Code,Stage,Stream,Total MCQs,Total Subjectives,Total Questions
+"bseb-bihar","bseb-adv-math-10","Advanced Mathematics (उच्च गणित - कोड 114)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-english-10","English (Class 10 - कोड 113)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-hindi-10","Hindi (MIL हिन्दी - कोड 101)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-maithili-10","Maithili (MIL मैथिली - कोड 104)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-math-10","Mathematics (गणित - कोड 110)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-sanskrit-10","Sanskrit (SIL संस्कृत - कोड 105)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-science-10","Science (विज्ञान - कोड 112)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-social-10","Social Science (सामाजिक विज्ञान - कोड 111)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-urdu-10","Urdu (MIL اردو - कोड 103)","N/A","Class 10","Core / General",205,75,280
+"bseb-bihar","bseb-accountancy-12","Accountancy (लेखाशास्त्र - कोड 217)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-agri-12","Agriculture (कृषि विज्ञान - कोड 120)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-biology-12","Biology (जीव विज्ञान - कोड 119)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-business-12","Business Studies (व्यवसाय अध्ययन - कोड 218)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-chemistry-12","Chemistry (रसायन शास्त्र - कोड 118)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-cs-12","Computer Science (I.Sc. - कोड 122)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-economics-12","Economics (I.Com. अर्थशास्त्र - कोड 219)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-economics-arts-12","Economics (I.A. अर्थशास्त्र - कोड 326)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-english-12","English (I.Sc. - कोड 105)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-english-com-12","English (I.Com. - कोड 205)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-entrepreneurship-12","Entrepreneurship (उद्यमिता - कोड 220)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-geography-12","Geography (भूगोल - कोड 323)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-hindi-12","Hindi (I.Sc. हिन्दी - कोड 106)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-hindi-com-12","Hindi (I.Com. हिन्दी - कोड 206)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-history-12","History (इतिहास - कोड 321)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-math-12","Mathematics (गणित 12 - कोड 121)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-philosophy-12","Philosophy (दर्शनशास्त्र - कोड 327)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-physics-12","Physics (भौतिकी - कोड 117)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-polity-12","Political Science (राजनीति शास्त्र - कोड 322)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-psychology-12","Psychology (मनोविज्ञान - कोड 324)","N/A","Class 12","Stream Specific",205,75,280
+"bseb-bihar","bseb-sociology-12","Sociology (समाजशास्त्र - कोड 325)","N/A","Class 12","Stream Specific",205,75,280
+"cbse-board","subj-computer-app","Computer Applications","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-elements-bookkeeping","Elements of Book Keeping and Accountancy","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-elements-business","Elements of Business","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-english","English Language & Literature / Core","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-hindi","Hindi Course-A / Elective","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-hindi-b","Hindi Course-B","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-math","Mathematics Standard","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-science","Science","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-social","Social Science","N/A","Class 10","Core / General",205,75,280
+"cbse-board","subj-accountancy","Accountancy","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"cbse-board","subj-applied-math","Applied Mathematics","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"cbse-board","subj-business","Business Studies","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"cbse-board","subj-economics","Economics","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"cbse-board","subj-entrepreneurship","Entrepreneurship","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"cbse-board","subj-geography","Geography","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"cbse-board","subj-history","History","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"cbse-board","subj-polity","Political Science","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"cbse-board","subj-psychology","Psychology","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"cbse-board","subj-sociology","Sociology","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"cbse-board","subj-biology","Biology","N/A","Class 12 Science","Stream Specific",205,75,280
+"cbse-board","subj-chemistry","Chemistry","N/A","Class 12 Science","Stream Specific",205,75,280
+"cbse-board","subj-cs","Computer Science","N/A","Class 12 Science","Stream Specific",205,75,280
+"cbse-board","subj-math12","Mathematics (Class 12)","N/A","Class 12 Science","Stream Specific",205,75,280
+"cbse-board","subj-pe","Physical Education","N/A","Class 12 Science","Stream Specific",205,75,280
+"cbse-board","subj-physics","Physics","N/A","Class 12 Science","Stream Specific",205,75,280
+"gseb-gujarat","gseb-computer-10","Computer Studies (કમ્પ્યુટર અધ્યયન)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-english-10","English (First/Second Language Compulsory)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-gujarati-fl-10","Gujarati First Language (ગુજરાતી - પ્રથમ ભાષા)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-hindi-sl-10","Hindi Second Language (હિન્દી - દ્વિતીય ભાષા)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-math-basic-10","Mathematics Basic (ગણિત બેઝિક - Code 18)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-math-std-10","Mathematics Standard (ગણિત સ્ટાન્ડર્ડ - Code 12)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-sanskrit-10","Sanskrit (સંસ્કૃત - શાસ્ત્રીય ભાષા)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-science-10","Science & Technology (વિજ્ઞાન અને ટેકનોલોજી)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-social-10","Social Science (સામાજિક વિજ્ઞાન)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-urdu-10","Urdu (اردو - First/Second Language)","N/A","Class 10","Core / General",205,75,280
+"gseb-gujarat","gseb-ba-com-12","Business Administration (વાણિજ્ય વ્યવસ્થા અને સંચાલન - Code 046)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-biology-12","Biology (જીવ વિજ્ઞાન - Code 056)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-chemistry-12","Chemistry (રસાયણ વિજ્ઞાન - Code 052)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-cs-sci-12","Computer Studies (કમ્પ્યુટર વિજ્ઞાન - Code 331)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-economics-com-12","Economics (અર્થશાસ્ત્ર - વાણિજ્ય - Code 022)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-elements-accounts-12","Elements of Accountancy (નામાના મૂળતત્વો - Code 154)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-english-com-12","English Compulsory (HSC Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-english-sci-12","English Compulsory (HSC Science)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-geography-12","Geography (ભૂગોળ - HSC Arts - Code 025)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-gujarati-com-12","Gujarati Compulsory (HSC Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-gujarati-sci-12","Gujarati (HSC Science)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-history-12","History (ઇતિહાસ - HSC Arts - Code 029)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-math-sci-12","Mathematics (ગણિત - Code 050)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-philosophy-12","Philosophy & Logic (તત્ત્વજ્ઞાન - Code 136)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-physics-12","Physics (ભૌતિક વિજ્ઞાન - Code 054)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-polscience-12","Political Science (રાજ્યશાસ્ત્ર - Code 023)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-psychology-12","Psychology (મનોવિજ્ઞાન - Code 141)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-sociology-12","Sociology (સમાજશાસ્ત્ર - Code 139)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-sp-com-12","Secretarial Practice & CC (એસ.પી. અને સી.સી. - Code 337)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-stat-com-12","Statistics (આંકડાશાસ્ત્ર - Code 135)","N/A","Class 12","Stream Specific",205,75,280
+"gseb-gujarat","gseb-vocational-12","Vocational & Technical Skills Foundation (વ્યવસાયલક્ષી શિક્ષણ અને કૌશલ્ય)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-bengali-10","Bengali (বাংলা)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-english-spl-10","English Special","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-hindi-spl-10","Hindi Special (हिन्दी विशिष्ट)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-marathi-10","Marathi (मराठी)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-math-10","Mathematics (गणित)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-punjabi-10","Punjabi (ਪੰਜਾਬੀ)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-sanskrit-gen-10","Sanskrit General (संस्कृत सामान्य)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-science-10","Science (विज्ञान)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-social-10","Social Science (सामाजिक विज्ञान)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-urdu-gen-10","Urdu General (اردو عمومی)","N/A","Class 10","Core / General",205,75,280
+"mpbse-madhya-pradesh","mpbse-accountancy-12","Book Keeping and Accountancy (बहीखाता एवं लेखाकर्म)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-agri-12","Elements of Science & Maths for Agriculture, Crop Production & Animal Husbandry (कृषि विज्ञान एवं प्रौद्योगिकी)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-biology-12","Biology (जीव विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-bst-12","Business Studies (व्यवसाय अध्ययन)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-chemistry-12","Chemistry (रसायन शास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-cs-12","Computer Application / IP","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-economics-12","Economics (अर्थशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-economics-arts-12","Economics (Humanities)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-english-com-12","English General (Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-english-gen-12","English General","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-geography-12","Geography (भूगोल)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-hindi-com-12","Hindi General (Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-hindi-gen-12","Hindi General (हिन्दी सामान्य)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-history-12","History (इतिहास)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-math-12","Mathematics (गणित)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-math-com-12","Business Mathematics (व्यावसायिक गणित)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-physics-12","Physics (भौतिक शास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-polscience-12","Political Science (राजनीति शास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-psychology-12","Psychology (मनोविज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-sanskrit-gen-12","Sanskrit General (संस्कृत सामान्य 12)","N/A","Class 12","Stream Specific",205,75,280
+"mpbse-madhya-pradesh","mpbse-sociology-12","Sociology (समाजशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-english-10","English (First Language / Compulsory)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-gujarati-10","Gujarati (ગુજરાતી)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-hindi-10","Hindi (हिन्दी - द्वितीय/तृतीय भाषा)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-kannada-10","Kannada (ಕನ್ನಡ)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-marathi-10","Marathi (मराठी - प्रथम भाषा / अनिवार्य)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-math-10","Mathematics (Algebra & Geometry - गणित भाग १ व २)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-sanskrit-10","Sanskrit (तृतीय भाषा - संस्कृत)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-science-10","Science & Technology (Part 1 & 2 - विज्ञान आणि तंत्रज्ञान)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-social-10","Social Sciences (History, Pol Sci & Geography - इतिहास, राज्यशास्त्र आणि भूगोल)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-urdu-10","Urdu (اردو - لازمی/اختیاری)","N/A","Class 10","Core / General",205,75,280
+"msbshse-maharashtra","msbshse-biology-12","Biology (जीवशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-bk-accounts-12","Book-Keeping & Accountancy (पुस्तपालन आणि लेखाकर्म)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-chemistry-12","Chemistry (रसायनशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-cs-12","Computer Science & IT (संगणक शास्त्र / माहिती तंत्रज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-economics-arts-12","Economics (Arts) (अर्थशास्त्र - कला)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-economics-com-12","Economics (Commerce) (अर्थशास्त्र - वाणिज्य)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-english-12","English Compulsory (HSC Science)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-english-com-12","English Compulsory (HSC Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-geography-12","Geography (भूगोल - HSC Arts)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-history-12","History (इतिहास - HSC Arts)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-marathi-12","Marathi (मराठी - HSC Science)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-math-com-12","Mathematics & Statistics (Commerce) (गणित आणि सांख्यिकी - वाणिज्य)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-math-sci-12","Mathematics & Statistics (Science) (गणित आणि सांख्यिकी)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-ocm-12","Organisation of Commerce & Management (वाणिज्य संघटन व व्यवस्थापन)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-philosophy-12","Philosophy & Logic (तत्त्वज्ञान / तर्कशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-physics-12","Physics (भौतिकशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-polscience-12","Political Science (राज्यशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-psychology-12","Psychology (मानसशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-sociology-12","Sociology (समाजशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-sp-12","Secretarial Practice (सिटणीसाची कार्यपद्धती)","N/A","Class 12","Stream Specific",205,75,280
+"msbshse-maharashtra","msbshse-vocational-12","Bifocal Vocational Foundation & Technical Skills (द्विलक्षी व्यावसायिक शिक्षण)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-bst-215","Business Studies (व्यवसाय अध्ययन - कोड 215)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-economics-214","Economics (अर्थशास्त्र - कोड 214)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-english-202","English (Code 202)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-hindi-201","Hindi (हिन्दी - कोड 201)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-homesci-216","Home Science (गृह विज्ञान - कोड 216)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-indian-culture-223","Indian Culture & Heritage (भारतीय संस्कृति एवं विरासत - कोड 223)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-math-211","Mathematics (गणित - कोड 211)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-psychology-222","Psychology (मनोविज्ञान - कोड 222)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-science-212","Science and Technology (विज्ञान एवं प्रौद्योगिकी - कोड 212)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-social-213","Social Science (सामाजिक विज्ञान - कोड 213)","N/A","Class 10","Core / General",205,75,280
+"nios-board","nios-accountancy-320","Accountancy (लेखांकन - कोड 320)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-biology-314","Biology (जीव विज्ञान - कोड 314)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-bst-319","Business Studies (व्यवसाय अध्ययन - कोड 319)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-chemistry-313","Chemistry (रसायन विज्ञान - कोड 313)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-cs-330","Computer Science (कंप्यूटर विज्ञान - कोड 330)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-dataentry-336","Data Entry Operations (डेटा एंट्री ऑपरेशंस - कोड 336)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-economics-318","Economics (अर्थशास्त्र - कोड 318)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-english-302","English (Senior Secondary - Code 302)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-environmental-333","Environmental Science (पर्यावरण विज्ञान - कोड 333)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-geography-316","Geography (भूगोल - कोड 316)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-hindi-301","Hindi (हिन्दी - कोड 301)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-history-315","History (इतिहास - कोड 315)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-homesci-321","Home Science (गृह विज्ञान - कोड 321)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-law-338","Introduction to Law (विधि का परिचय - कोड 338)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-masscomm-335","Mass Communication (जनसंचार - कोड 335)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-math-311","Mathematics (गणित - कोड 311)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-physics-312","Physics (भौतिक विज्ञान - कोड 312)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-polscience-317","Political Science (राजनीति विज्ञान - कोड 317)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-psychology-328","Psychology (मनोविज्ञान - कोड 328)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-sociology-331","Sociology (समाजशास्त्र - कोड 331)","N/A","Class 12","Stream Specific",205,75,280
+"nios-board","nios-tourism-337","Tourism (पर्यटन - कोड 337)","N/A","Class 12","Stream Specific",205,75,280
+"pseb-punjab","pseb-cs-10","Computer Science (ਕੰਪਿਊਟਰ ਸਾਇੰਸ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-english-10","English (Class 10)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-hindi-10","Hindi (हिन्दी - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-math-10","Mathematics (ਗਣਿਤ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-pe-10","Health and Physical Education (ਸਿਹਤ ਅਤੇ ਸਰੀਰਕ ਸਿੱਖਿਆ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-phc-10","Punjab History and Culture (ਪੰਜਾਬ ਦਾ ਇਤਿਹਾਸ ਅਤੇ ਸੱਭਿਆਚਾਰ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-punjabi-10","Punjabi (ਪੰਜਾਬੀ - ਪਰਚਾ ੳ ਅਤੇ ਅ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-science-10","Science (ਵਿਗਿਆਨ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-social-10","Social Science (ਸਮਾਜਿਕ ਵਿਗਿਆਨ)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-urdu-10","Urdu (اردو - جماعت دہم)","N/A","Class 10","Core / General",205,75,280
+"pseb-punjab","pseb-agri-12","Agriculture (ਖੇਤੀਬਾੜੀ ਵਿਗਿਆਨ)","N/A","Class 12 Agriculture","Stream Specific",205,75,280
+"pseb-punjab","pseb-accountancy-12","Accountancy (ਲੇਖਾਕਾਰੀ)","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"pseb-punjab","pseb-business-12","Business Studies (ਵਪਾਰਕ ਅਧਿਐਨ)","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"pseb-punjab","pseb-cs-12","Computer Science (ਕੰਪਿਊਟਰ ਸਾਇੰਸ 12)","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"pseb-punjab","pseb-ebusiness-12","Fundamentals of E-Business","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"pseb-punjab","pseb-economics-12","Economics (ਅਰਥ ਸ਼ਾਸਤਰ)","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"pseb-punjab","pseb-math-12","Mathematics (ਗਣਿਤ 12)","N/A","Class 12 Commerce","Stream Specific",205,75,280
+"pseb-punjab","pseb-geography-12","Geography (ਭੂਗੋਲ)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-history-12","History (ਇਤਿਹਾਸ: ਪੰਜਾਬ ਦਾ ਇਤਿਹਾਸ 1469-1849)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-phc-12","Punjab History and Culture (ਕਲਾਸ 12)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-polity-12","Political Science (ਰਾਜਨੀਤੀ ਸ਼ਾਸਤਰ)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-psychology-12","Psychology (ਮਨੋਵਿਗਿਆਨ)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-public-admin-12","Public Administration (ਲੋਕ ਪ੍ਰਸ਼ਾਸਨ)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-sociology-12","Sociology (ਸਮਾਜ ਸ਼ਾਸਤਰ)","N/A","Class 12 Humanities","Stream Specific",205,75,280
+"pseb-punjab","pseb-biology-12","Biology (ਜੀਵ ਵਿਗਿਆਨ)","N/A","Class 12 Science","Stream Specific",205,75,280
+"pseb-punjab","pseb-chemistry-12","Chemistry (ਰਸਾਇਣ ਵਿਗਿਆਨ)","N/A","Class 12 Science","Stream Specific",205,75,280
+"pseb-punjab","pseb-cs-12","Computer Science (ਕੰਪਿਊਟਰ ਸਾਇੰਸ 12)","N/A","Class 12 Science","Stream Specific",205,75,280
+"pseb-punjab","pseb-gen-english-12","General English (Class 12)","N/A","Class 12 Science","Stream Specific",205,75,280
+"pseb-punjab","pseb-gen-punjabi-12","General Punjabi (ਲਾਜ਼ਮੀ ਪੰਜਾਬੀ)","N/A","Class 12 Science","Stream Specific",205,75,280
+"pseb-punjab","pseb-math-12","Mathematics (ਗਣਿਤ 12)","N/A","Class 12 Science","Stream Specific",205,75,280
+"pseb-punjab","pseb-physics-12","Physics (ਭੌਤਿਕ ਵਿਗਿਆਨ)","N/A","Class 12 Science","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-english-10","English (अंग्रेजी)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-gujarati-10","Gujarati (तृतीय भाषा - गुजराती)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-hindi-10","Hindi (हिन्दी - अनिवार्य)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-math-10","Mathematics (गणित)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-punjabi-10","Punjabi (तृतीय भाषा - पंजाबी)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-sanskrit-10","Sanskrit (तृतीय भाषा - संस्कृत)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-science-10","Science (विज्ञान)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-sindhi-10","Sindhi (तृतीय भाषा - सिंधी)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-social-10","Social Science (सामाजिक विज्ञान)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-urdu-10","Urdu (तृतीय भाषा - उर्दू)","N/A","Class 10","Core / General",205,75,280
+"rbse-rajasthan","rbse-accountancy-12","Accountancy (लेखाशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-agriculture-12","Agriculture (कृषि विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-biology-12","Biology (जीव विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-bst-12","Business Studies (व्यवसाय अध्ययन)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-chemistry-12","Chemistry (रसायन विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-cs-12","Computer Science (कंप्यूटर विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-economics-12","Economics (अर्थशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-economics-hum-12","Economics (Humanities)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-english-comp-12","English Compulsory (अंग्रेजी अनिवार्य)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-english-comp-com-12","English Compulsory (Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-geography-12","Geography (भूगोल)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-hindi-comp-12","Hindi Compulsory (हिन्दी अनिवार्य)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-hindi-comp-com-12","Hindi Compulsory (Commerce)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-history-12","History (इतिहास)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-homesci-12","Home Science (गृह विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-ip-com-12","Informatics Practices (सूचना प्रौद्योगिकी)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-math-12","Mathematics (गणित)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-physics-12","Physics (भौतिक विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-polscience-12","Political Science (राजनीति विज्ञान)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-public-admin-12","Public Administration (लोक प्रशासन)","N/A","Class 12","Stream Specific",205,75,280
+"rbse-rajasthan","rbse-sociology-12","Sociology (समाजशास्त्र)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-bengali-10","Bengali (বাংলা - দশম শ্রেণী)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-english-10","English (Class 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-hindi-10","Hindi (हिन्दी - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-homesci-10","Home Science (गृह विज्ञान - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-math-10","Mathematics (गणित - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-punjabi-10","Punjabi (ਪੰਜਾਬੀ - ਦਸਵੀਂ)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-sanskrit-10","Sanskrit (संस्कृत - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-science-10","Science (विज्ञान - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-social-10","Social Science (सामाजिक विज्ञान - कक्षा 10)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-urdu-10","Urdu (اردو - جماعت دہم)","N/A","Class 10","Core / General",205,75,280
+"ubse-uttarakhand","ubse-accountancy-12","Accountancy (बहीखाता तथा लेखाशास्त्र 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-agri-12","Agriculture (कृषि विज्ञान 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-biology-12","Biology (जीव विज्ञान 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-business-12","Business Studies (व्यापारिक संगठन 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-chemistry-12","Chemistry (रसायन विज्ञान 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-cs-12","Computer Science (Class 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-economics-12","Economics (अर्थशास्त्र 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-economics-arts-12","Economics (Arts 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-education-12","Education (शिक्षाशास्त्र 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-english-12","English (Class 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-english-com-12","English (Commerce 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-geography-12","Geography (भूगोल 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-hindi-12","Hindi (हिन्दी 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-hindi-com-12","Hindi (Commerce 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-history-12","History (इतिहास 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-math-12","Mathematics (गणित 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-math-com-12","Mathematics (Commerce 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-physics-12","Physics (भौतिक विज्ञान 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-polity-12","Political Science (नागरिक शास्त्र / राजनीति विज्ञान 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-psychology-12","Psychology (मनोविज्ञान 12)","N/A","Class 12","Stream Specific",205,75,280
+"ubse-uttarakhand","ubse-sociology-12","Sociology (समाजशास्त्र 12)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-bengali-10","Bengali (বাংলা - कोड 906)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-english-10","English (Code 917)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-hindi-10","Hindi (हिन्दी - कोड 901)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-homesci-10","Home Science (गृह विज्ञान - कोड 930)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-math-10","Mathematics (गणित - कोड 928)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-punjabi-10","Punjabi (ਪੰਜਾਬੀ - कोड 905)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-sanskrit-10","Sanskrit (संस्कृत - कोड 923)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-science-10","Science (विज्ञान - कोड 931)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-social-10","Social Science (सामाजिक विज्ञान - कोड 932)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-urdu-10","Urdu (اردو - कोड 904)","N/A","Class 10","Core / General",205,75,280
+"upmsp-uttar-pradesh","upmsp-accountancy-12","Accountancy (बहीखाता तथा लेखाशास्त्र - कोड 156)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-agri-12","Agriculture (कृषि विज्ञान एवं प्रौद्योगिकी - कोड 163-167)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-biology-12","Biology (जीव विज्ञान - कोड 153)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-bst-12","Business Studies (व्यापारिक संगठन - कोड 157)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-chemistry-12","Chemistry (रसायन विज्ञान - कोड 152)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-civics-12","Civics (नागरिक शास्त्र - कोड 130)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-cs-12","Computer (कंप्यूटर - कोड 144)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-economics-12","Economics (अर्थशास्त्र - कोड 136)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-economics-hum-12","Economics (Humanities 12 - Code 136)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-english-12","English (Class 12 - Code 117)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-english-com-12","English (Commerce 12 - Code 117)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-genhindi-12","General Hindi (सामान्य हिन्दी - कोड 102)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-genhindi-com-12","General Hindi (Commerce 12 - Code 102)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-geography-12","Geography (भूगोल - कोड 129)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-history-12","History (इतिहास - कोड 128)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-math-12","Mathematics (गणित - कोड 131)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-math-com-12","Mathematics (Commerce 12 - Code 131)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-physics-12","Physics (भौतिक विज्ञान - कोड 151)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-psychology-12","Psychology (मनोविज्ञान - कोड 133)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-sanskrit-12","Sanskrit (संस्कृत 12 - कोड 103)","N/A","Class 12","Stream Specific",205,75,280
+"upmsp-uttar-pradesh","upmsp-sociology-12","Sociology (समाजशास्त्र - कोड 142)","N/A","Class 12","Stream Specific",205,75,280

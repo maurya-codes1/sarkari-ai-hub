@@ -1,0 +1,252 @@
+{
+  "board_id": "bseb-bihar",
+  "board_name": "Bihar School Examination Board",
+  "authority_url": "https://biharboardonline.com/",
+  "generated_at": "2026-10-03T19:55:46.265Z",
+  "total_questions": 8400,
+  "total_mcqs": 6150,
+  "total_subjectives": 2250,
+  "subject_instances": 30,
+  "subjects": [
+    {
+      "subject_id": "bseb-adv-math-10",
+      "subject_name": "Advanced Mathematics (उच्च गणित - कोड 114)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-english-10",
+      "subject_name": "English (Class 10 - कोड 113)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-hindi-10",
+      "subject_name": "Hindi (MIL हिन्दी - कोड 101)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-maithili-10",
+      "subject_name": "Maithili (MIL मैथिली - कोड 104)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-math-10",
+      "subject_name": "Mathematics (गणित - कोड 110)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-sanskrit-10",
+      "subject_name": "Sanskrit (SIL संस्कृत - कोड 105)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-science-10",
+      "subject_name": "Science (विज्ञान - कोड 112)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-social-10",
+      "subject_name": "Social Science (सामाजिक विज्ञान - कोड 111)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-urdu-10",
+      "subject_name": "Urdu (MIL اردو - कोड 103)",
+      "stage": "Class 10",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-accountancy-12",
+      "subject_name": "Accountancy (लेखाशास्त्र - कोड 217)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-agri-12",
+      "subject_name": "Agriculture (कृषि विज्ञान - कोड 120)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-biology-12",
+      "subject_name": "Biology (जीव विज्ञान - कोड 119)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-business-12",
+      "subject_name": "Business Studies (व्यवसाय अध्ययन - कोड 218)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-chemistry-12",
+      "subject_name": "Chemistry (रसायन शास्त्र - कोड 118)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-cs-12",
+      "subject_name": "Computer Science (I.Sc. - कोड 122)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-economics-arts-12",
+      "subject_name": "Economics (I.A. अर्थशास्त्र - कोड 326)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-economics-12",
+      "subject_name": "Economics (I.Com. अर्थशास्त्र - कोड 219)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-english-com-12",
+      "subject_name": "English (I.Com. - कोड 205)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-english-12",
+      "subject_name": "English (I.Sc. - कोड 105)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-entrepreneurship-12",
+      "subject_name": "Entrepreneurship (उद्यमिता - कोड 220)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-geography-12",
+      "subject_name": "Geography (भूगोल - कोड 323)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-hindi-com-12",
+      "subject_name": "Hindi (I.Com. हिन्दी - कोड 206)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-hindi-12",
+      "subject_name": "Hindi (I.Sc. हिन्दी - कोड 106)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-history-12",
+      "subject_name": "History (इतिहास - कोड 321)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-math-12",
+      "subject_name": "Mathematics (गणित 12 - कोड 121)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-philosophy-12",
+      "subject_name": "Philosophy (दर्शनशास्त्र - कोड 327)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-physics-12",
+      "subject_name": "Physics (भौतिकी - कोड 117)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-polity-12",
+      "subject_name": "Political Science (राजनीति शास्त्र - कोड 322)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-psychology-12",
+      "subject_name": "Psychology (मनोविज्ञान - कोड 324)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    },
+    {
+      "subject_id": "bseb-sociology-12",
+      "subject_name": "Sociology (समाजशास्त्र - कोड 325)",
+      "stage": "Class 12",
+      "mcq_count": 205,
+      "subj_count": 75,
+      "total_count": 280
+    }
+  ]
+}

@@ -89,8 +89,10 @@ class QuestionRepository {
     const params = [];
 
     if (subjectId && subjectId !== 'all') {
-      query += ` AND q.subject_id = ?`;
-      params.push(normalizeSubjectId(subjectId));
+      const normSub = normalizeSubjectId(subjectId);
+      const cleanSub = normSub.replace(/^subj-/, '');
+      query += ` AND (q.subject_id = ? OR q.subject_id LIKE ?)`;
+      params.push(normSub, `%${cleanSub}%`);
     }
 
     if (onlyFullExamEligible) {
@@ -210,11 +212,12 @@ class QuestionRepository {
       params.push(...normIds);
     } else if (subjectId && subjectId !== 'all') {
       const normSub = normalizeSubjectId(subjectId);
+      const cleanSub = normSub.replace(/^subj-/, '');
       if (resolvedStage === 'Class 12' && normSub === 'subj-math') {
         query += ` AND q.subject_id IN ('subj-math', 'subj-math12')`;
       } else {
-        query += ` AND q.subject_id = ?`;
-        params.push(normSub);
+        query += ` AND (q.subject_id = ? OR q.subject_id LIKE ?)`;
+        params.push(normSub, `%${cleanSub}%`);
       }
     }
 

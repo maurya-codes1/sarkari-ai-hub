@@ -1,0 +1,6 @@
+Question Type ID,Question Type Description,Marks,Target Count per Subject,Exam Mode,Notes & PDF Mode
+short_answer,Short Answer Questions (लघु उत्तरीय प्रश्न),2,24,NO,YES
+medium_answer,Medium Answer / Analytical (मध्यम उत्तरीय प्रश्न),3,24,NO,YES
+case_study,Case Study / Competency / Practical (केस स्टडी / योग्यता आधारित),4,12,NO,YES
+long_answer,Long Answer / Theorems / Derivations (दीर्घ उत्तरीय प्रश्न),5,15,NO,YES
+TOTAL SUBJECTIVES PER SUBJECT,-,-,75,NO,YES

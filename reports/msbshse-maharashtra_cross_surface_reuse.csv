@@ -1,0 +1,5 @@
+"Surface A","Surface B","Permitted Reuse Type","Isolation Rule"
+"Study Note PDF","Revision Vault","Canonical Question Content","Zero duplicates within single asset"
+"Revision Vault","Learning Mock","Studied Questions Priority","Zero duplicates within single session"
+"Learning Mock","Practice Mock","Combined Studied + New Practice","Zero duplicates within single session"
+"Practice Mock","Full Exam Engine","Blueprint-governed Eligible MCQs","Strict blueprint question count"

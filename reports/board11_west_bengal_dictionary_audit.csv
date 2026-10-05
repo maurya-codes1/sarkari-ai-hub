@@ -1,0 +1,4 @@
+Dictionary File,Board ID,Authority Count,Authorities Declared,Foreign Import Found,Isolation Status
+"data/boards/wbbse-wbchse-west-bengal.json","wbbse-wbchse-west-bengal",2,"WBBSE, WBCHSE",0,"PERFECTLY_ISOLATED"
+"data/boards/wbbse-west-bengal.json","wbbse-west-bengal",1,"WBBSE",0,"PERFECTLY_ISOLATED"
+"data/boards/wbchse-west-bengal.json","wbchse-west-bengal",1,"WBCHSE",0,"PERFECTLY_ISOLATED"

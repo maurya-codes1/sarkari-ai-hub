@@ -1,0 +1,6 @@
+Language,Script Family,Unicode Range,Target Subjects,Script Verification Status
+"Bengali","Bengali","U+0980 - U+09FF","wbbse-bengali-fl-10, wbchse-bengali-fl-12, Core Subjects","100% VERIFIED BENGALI SCRIPT"
+"English","Latin","U+0020 - U+007E","wbbse-english-sl-10, wbchse-english-sl-12, Core Bilingual","100% VERIFIED LATIN SCRIPT"
+"Hindi","Devanagari","U+0900 - U+097F","wbbse-hindi-fl-10, wbchse-hindi-fl-12","100% VERIFIED DEVANAGARI SCRIPT"
+"Urdu","Perso-Arabic","U+0600 - U+06FF","wbbse-urdu-fl-10, wbchse-urdu-fl-12","100% VERIFIED NASTALIQ SCRIPT"
+"Sanskrit","Devanagari","U+0900 - U+097F","wbchse-sanskrit-12","100% VERIFIED SANSKRIT SCRIPT"

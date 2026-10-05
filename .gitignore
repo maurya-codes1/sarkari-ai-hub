@@ -8,6 +8,7 @@ backup_*/
 frontend_backup_*/
 backend/db/sarkari_core.db
 backend/db/sarkari_core_*.db
+backend/db/*.json
 !backend/db/sarkari_core.db.gz.*
 !backend/db/sarkari_core.sha256
 

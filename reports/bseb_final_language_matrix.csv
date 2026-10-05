@@ -1,0 +1,7 @@
+Language ID,Language / Script,Subjects Applicable,Medium Format,Character Encoding Verification
+hi,Hindi (Devanagari),"MIL-Hindi (101), SIL-Hindi (106), Class 12 Hindi",Single Medium (Devanagari),Unicode U+0900 to U+097F
+en,English,Class 10 English & Class 12 English,Single Medium (English),Standard Latin
+ur,Urdu (Nastaliq),MIL-Urdu (103),Single Medium (Urdu),Unicode U+0600 to U+06FF
+mai,Maithili,MIL-Maithili (104),Single Medium (Maithili),Mithilakshar / Devanagari Unicode
+sa,Sanskrit (Devanagari),SIL-Sanskrit (105),Single Medium (Sanskrit),Unicode U+0900 to U+097F
+hi+en,Hindi & English Bilingual,"Math, Science, Social Science, Physics, Chemistry, Biology, Commerce, Agriculture",Dual Medium Parallel,Devanagari + Latin Parallel

@@ -1,0 +1,6 @@
+Language ID,Language / Script,Subjects Applicable,Medium Format,Character Encoding Verification
+pa,Punjabi (Gurmukhi),"Punjabi, History of Punjab, Humanities Punjabi",Single Medium (Gurmukhi),Unicode U+0A00 to U+0A7F
+ur,Urdu (Nastaliq),Class 10 Urdu,Single Medium (Urdu),Unicode U+0600 to U+06FF
+hi,Hindi (Devanagari),Class 10 Hindi,Single Medium (Devanagari),Unicode U+0900 to U+097F
+en,English,Class 10 English & Class 12 General English,Single Medium (English),Standard Latin
+pa+en,Punjabi & English Bilingual,"Math, Science, Social Science, Physics, Chemistry, Biology, Commerce, Agriculture",Dual Medium Parallel,Gurmukhi + English Side-by-Side

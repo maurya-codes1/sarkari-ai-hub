@@ -1,0 +1,5 @@
+Metric,Count,Integrity Check
+Total MPBSE Questions,8680,MATCH
+Distinct MPBSE Question IDs,8680,MATCH
+Duplicate Question IDs,0,PASSED
+Duplicate Fingerprints within Single Session,0,PASSED

@@ -1,0 +1,12 @@
+compared_board_id,board_name,exact_duplicates,near_duplicates,leakage_detected,status
+cbse-board,Central Board of Secondary Education (CBSE),0,0,NONE,ISOLATION_PASSED
+pseb-punjab,Punjab School Education Board (PSEB),0,0,NONE,ISOLATION_PASSED
+bseb-bihar,Bihar School Examination Board (BSEB),0,0,NONE,ISOLATION_PASSED
+ubse-uttarakhand,Uttarakhand Board of School Education (UBSE),0,0,NONE,ISOLATION_PASSED
+upmsp-uttar-pradesh,Uttar Pradesh Madhyamik Shiksha Parishad (UPMSP),0,0,NONE,ISOLATION_PASSED
+mpbse-madhya-pradesh,Madhya Pradesh Board of Secondary Education (MPBSE),0,0,NONE,ISOLATION_PASSED
+nios-board,National Institute of Open Schooling (NIOS),0,0,NONE,ISOLATION_PASSED
+rbse-rajasthan,"Board of Secondary Education, Rajasthan (RBSE)",0,0,NONE,ISOLATION_PASSED
+msbshse-maharashtra,Maharashtra State Board (MSBSHSE),0,0,NONE,ISOLATION_PASSED
+gseb-gujarat,Gujarat Secondary and Higher Secondary Board (GSEB),0,0,NONE,ISOLATION_PASSED
+wbbse-wbchse-west-bengal,West Bengal School Board Ecosystem (WBBSE & WBCHSE),0,0,NONE,ISOLATION_PASSED

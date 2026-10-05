@@ -1,0 +1,7 @@
+Language ID,Language Name,Applicable Subjects,Script,Validation Rule
+hi,Hindi,MIL-Hindi (101) & SIL-Hindi (106) & Class 12 Hindi,Devanagari,Unicode U+0900 to U+097F
+en,English,Class 10 English & Class 12 English,Latin,Standard English Latin
+ur,Urdu,MIL-Urdu (103),Nastaliq / Arabic,Unicode U+0600 to U+06FF
+mai,Maithili,MIL-Maithili (104),Mithilakshar / Devanagari,Unicode authentic Maithili text
+sa,Sanskrit,SIL-Sanskrit (105),Devanagari,Unicode U+0900 to U+097F
+hi+en,Hindi & English Bilingual,Math, Science, Social Science, Physics, Chemistry, Biology, Commerce, Agriculture,Devanagari + Latin,Authentic Parallel Bilingual

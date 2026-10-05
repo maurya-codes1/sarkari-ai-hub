@@ -1,0 +1,11 @@
+Language Name,ISO Code,Script Family,Unicode Range,Boards Offering Curriculum,Text Verification Status
+"English","en","Latin","U+0020 - U+007E","All 10 Boards","100% VERIFIED"
+"Hindi","hi","Devanagari","U+0900 - U+097F","CBSE, PSEB, BSEB, UBSE, UPMSP, MPBSE, NIOS, RBSE, MSBSHSE, GSEB","100% VERIFIED"
+"Punjabi","pa","Gurmukhi","U+0A00 - U+0A7F","PSEB, UBSE, UPMSP, RBSE","100% VERIFIED GURMUKHI"
+"Gujarati","gu","Gujarati","U+0A80 - U+0AFF","GSEB, RBSE, MSBSHSE","100% VERIFIED GUJARATI"
+"Marathi","mr","Devanagari","U+0900 - U+097F","MSBSHSE, MPBSE","100% VERIFIED MARATHI"
+"Urdu","ur","Perso-Arabic","U+0600 - U+06FF","PSEB, BSEB, UBSE, UPMSP, MPBSE, NIOS, RBSE, MSBSHSE, GSEB","100% VERIFIED NASTALIQ"
+"Sanskrit","sa","Devanagari","U+0900 - U+097F","All State Boards","100% VERIFIED SANSKRIT"
+"Kannada","kn","Kannada","U+0C80 - U+0CFF","MSBSHSE (Minority Medium)","100% VERIFIED KANNADA"
+"Sindhi","sd","Devanagari / Arabic","U+0900 - U+097F / U+0600 - U+06FF","RBSE, GSEB Registry","100% VERIFIED SINDHI"
+"Bengali","bn","Bengali","U+0980 - U+09FF","UBSE, UPMSP, BSEB Registry","100% VERIFIED BENGALI"

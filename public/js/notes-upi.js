@@ -7364,14 +7364,46 @@ async function generateAndDownloadHighResPdf(token = '') {
   }
 }
 
+function showInlineNotesFallback(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
+  const existing = document.getElementById('notesFallbackModal');
+  if (existing) existing.remove();
+
+  const modal = document.createElement('div');
+  modal.id = 'notesFallbackModal';
+  modal.className = 'fixed inset-0 z-[9999] bg-slate-950/80 backdrop-blur-md flex flex-col items-center justify-start p-2 sm:p-4 overflow-y-auto';
+  modal.innerHTML = `
+    <div class="bg-white text-slate-900 w-full max-w-4xl rounded-2xl shadow-2xl overflow-hidden flex flex-col my-auto max-h-[92vh]">
+      <div class="bg-slate-900 text-white px-4 py-3 flex items-center justify-between no-print">
+        <div class="font-bold text-sm truncate flex items-center gap-2">
+          <span>📄</span>
+          <span>${title}</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="window.print()" class="px-3 py-1.5 bg-orange-600 hover:bg-orange-700 text-white rounded-lg text-xs font-bold transition flex items-center gap-1">
+            🖨️ Save PDF / Print
+          </button>
+          <button onclick="document.getElementById('notesFallbackModal').remove()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded-lg text-xs font-bold transition">
+            ✕ Close
+          </button>
+        </div>
+      </div>
+      <div class="p-4 sm:p-6 overflow-y-auto flex-1 bg-white text-slate-900 notes-print-content">
+        ${htmlContent}
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+}
+
 function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
-  const win = window.open('', '_blank', 'width=900,height=950');
+  let win = null;
+  try {
+    win = window.open('', '_blank', 'width=900,height=950');
+  } catch(e) {
+    win = null;
+  }
   if (!win) {
-    if (typeof showAppAlert === 'function') {
-      showAppAlert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि आपकी PDF खुल सके।', 'Popup Blocked', '🖨️');
-    } else {
-      alert('पॉप-अप ब्लॉक हो गया है। कृपया ब्राउज़र सेटिंग्स में Pop-up Allow करें ताकि आपकी PDF खुल सके।');
-    }
+    showInlineNotesFallback(htmlContent, title);
     return;
   }
   win.document.write(`

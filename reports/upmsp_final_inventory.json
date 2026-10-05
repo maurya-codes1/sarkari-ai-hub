@@ -1,0 +1,228 @@
+{
+  "board_id": "upmsp-uttar-pradesh",
+  "board_name": "Uttar Pradesh Madhyamik Shiksha Parishad",
+  "state": "Uttar Pradesh",
+  "total_questions": 8680,
+  "total_mcqs": 6355,
+  "total_subjectives": 2325,
+  "subjects_count": 31,
+  "subjects": [
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-bengali-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-english-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-hindi-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-homesci-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-math-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-punjabi-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-sanskrit-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-science-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-social-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 10",
+      "subject_id": "upmsp-urdu-10",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-accountancy-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-agri-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-biology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-bst-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-chemistry-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-civics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-cs-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-economics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-economics-hum-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-english-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-english-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-genhindi-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-genhindi-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-geography-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-history-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-math-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-math-com-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-physics-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-psychology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-sanskrit-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    },
+    {
+      "stage": "Class 12",
+      "subject_id": "upmsp-sociology-12",
+      "mcq_count": 205,
+      "sub_count": 75,
+      "total_count": 280
+    }
+  ]
+}

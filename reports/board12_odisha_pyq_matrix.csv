@@ -1,0 +1,32 @@
+subject_id,subject_name,authority,exam_year_range,pyq_count,source_verified
+od-c10-english-fl,First Language English (FLE),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-english-sl,Second Language English (SLE),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-general-science,General Science (GSC - ସାଧାରଣ ବିଜ୍ଞାନ: ଭୌତିକ ଓ ଜୀବ ବିଜ୍ଞାନ),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-hindi-fl,First Language Hindi (FLH - प्रथम भाषा हिन्दी),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-hindi-tl,Third Language Hindi (TLH - तृतीय भाषा हिन्दी),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-mathematics,"Mathematics (MTH - ଗଣିତ: ପାଟିଗଣିତ, ବୀଜଗଣିତ ଓ ଜ୍ୟାମିତି)",BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-odia-fl,First Language Odia (FLO - ପ୍ରଥମ ଭାଷା ଓଡ଼ିଆ),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-sanskrit-tl,Third Language Sanskrit (TLS - तृतीय भाषा संस्कृतम्),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-social-science,"Social Science (SSC - ସାମାଜିକ ବିଜ୍ଞାନ: ଇତିହାସ, ରାଜନୀତି, ଭୂଗୋଳ, ଅର୍ଥନୀତି)",BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c10-urdu-fl,First Language Urdu (FLU - اردو پہلی زبان),BSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-accountancy,Accountancy (ହିସାବ ଶାସ୍ତ୍ର - CHSE Code ACT),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-biology,Biology (ଜୀବ ବିଜ୍ଞାନ: ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ ବିଜ୍ଞାନ - CHSE Code BIO),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-business-mathematics,Business Mathematics & Statistics (BMS - CHSE Code BMS),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-business-studies,Business Studies and Management (BSM - CHSE Code BSM),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-chemistry,Chemistry (ରସାୟନ ବିଜ୍ଞାନ - CHSE Code CHE),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-costing-taxation,Costing and Taxation (CHSE Code CTX),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-economics-com,Commercial Economics (CHSE Code CEC),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-education,Education (ଶିକ୍ଷା - CHSE Code EDN),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-english-compulsory,Compulsory English (CHSE Code ENG),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-history,History (ଇତିହାସ - CHSE Code HIST),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-information-technology,Information Technology (IT - CHSE Code IT),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-logic-philosophy,Logic & Philosophy (ତର୍କଶାସ୍ତ୍ର ଓ ଦର୍ଶନ - CHSE Code LOG),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-mathematics,Mathematics (ଗଣିତ - CHSE Code MTH),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-mil-hindi,M.I.L. Hindi (मातृभाषा हिन्दी - CHSE Code HIN),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-mil-odia,M.I.L. Odia (ମାତୃଭାଷା ଓଡ଼ିଆ - CHSE Code ODIA),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-mil-sanskrit,M.I.L. / Classical Sanskrit (संस्कृतम् - CHSE Code SKT),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-mil-urdu,M.I.L. Urdu (اردو لازمی - CHSE Code URD),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-physics,Physics (ପଦାର୍ଥ ବିଜ୍ଞାନ - CHSE Code PHY),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-political-science,Political Science (ରାଜନୀତି ବିଜ୍ଞାନ - CHSE Code POLS),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-sociology,Sociology (ସମାଜଶାସ୍ତ୍ର - CHSE Code SOC),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE
+od-c12-statistics,Statistics (ପରିସଂଖ୍ୟାନ - CHSE Code STAT),CHSE Odisha,2019-2026,40,YES_OFFICIAL_ARCHIVE

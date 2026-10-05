@@ -1,0 +1,6 @@
+stage,authority,portal_url,registration_type,mandatory_prerequisites,verification_status
+Class 9,bse-odisha,https://www.bseodisha.ac.in/,School Enrolment & Advance Student Registration for Matric,"Enrolled in recognized High School, CCE continuous record",OFFICIAL_PORTAL_VERIFIED
+Class 10,bse-odisha,https://www.bseodisha.ac.in/,Annual High School Certificate (HSC) Candidate Form Fill-up,"Passed Class 9, min 75% attendance, pre-test pass, age 14+ on 1st March",OFFICIAL_PORTAL_VERIFIED
+Class 10 Special,bse-odisha,https://www.bseodisha.ac.in/,Single Subject Examination in Odia (Class X Standard),Citizen requiring state employment language qualification,OFFICIAL_PORTAL_VERIFIED
+Class 11,chse-odisha,https://samsodisha.gov.in/,SAMS Higher Secondary e-Admission & Council Student Registration,"Passed HSC or equivalent, SAMS selection merit list",OFFICIAL_PORTAL_VERIFIED
+Class 12,chse-odisha,https://chseodisha.nic.in/,Annual Higher Secondary Examination (AHSE) Form Fill-up,"Passed Class 11 annual internal college exam, 75% attendance in theory & practical",OFFICIAL_PORTAL_VERIFIED

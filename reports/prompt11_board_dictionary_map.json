@@ -1,0 +1,4264 @@
+{
+  "cbse-board": {
+    "board_id": "cbse-board",
+    "name": "Central Board of Secondary Education",
+    "short_name": "CBSE",
+    "authority": "Ministry of Education, Government of India",
+    "official_urls": {
+      "portal": "https://cbse.gov.in/",
+      "academic": "https://cbseacademic.nic.in/",
+      "curriculum_2027": "https://cbseacademic.nic.in/curriculum_2027.html",
+      "sqp_class_x": "https://cbseacademic.nic.in/SQP_CLASSX_2026-27.html",
+      "sqp_class_xii": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html",
+      "pariksha_sangam": "https://cbse.nic.in/parikshasangam"
+    },
+    "academic_year": "2026-27",
+    "applicable_classes": [
+      "Class 9",
+      "Class 10",
+      "Class 11",
+      "Class 12"
+    ],
+    "class_9_structure": {
+      "status": "SCHOOL_ASSESSED_INTERNAL_PROGRESSION",
+      "full_exam_eligible": false,
+      "curriculum_offerings": [
+        "Language 1",
+        "Language 2",
+        "Mathematics / Mathematics Advanced",
+        "Science / Science Advanced",
+        "Social Science",
+        "Vocational Education",
+        "Individuals in Society",
+        "Art Education",
+        "Physical Education and Well Being",
+        "Computational Thinking & AI Modules"
+      ]
+    },
+    "class_11_structure": {
+      "status": "SCHOOL_ASSESSED_INTERNAL_PROGRESSION",
+      "full_exam_eligible": false,
+      "curriculum_offerings": [
+        "Language Core / Elective",
+        "Elective 1",
+        "Elective 2",
+        "Elective 3",
+        "Elective 4 / Optional",
+        "General Studies",
+        "Health & Physical Education",
+        "Work Experience"
+      ]
+    },
+    "class_10": {
+      "status": "PUBLIC_BOARD_EXAM",
+      "full_exam_eligible": true,
+      "languages_dictionary": [
+        {
+          "code": "016",
+          "name": "Arabic"
+        },
+        {
+          "code": "014",
+          "name": "Assamese"
+        },
+        {
+          "code": "099",
+          "name": "Bahasa Melayu"
+        },
+        {
+          "code": "012",
+          "name": "Bengali"
+        },
+        {
+          "code": "079",
+          "name": "Bhoti"
+        },
+        {
+          "code": "095",
+          "name": "Bhutia"
+        },
+        {
+          "code": "092",
+          "name": "Bodo"
+        },
+        {
+          "code": "184",
+          "name": "English - Language and Literature",
+          "is_primary": true
+        },
+        {
+          "code": "101",
+          "name": "English Communicative"
+        },
+        {
+          "code": "018",
+          "name": "French"
+        },
+        {
+          "code": "020",
+          "name": "German"
+        },
+        {
+          "code": "010",
+          "name": "Gujarati"
+        },
+        {
+          "code": "132",
+          "name": "Gurung"
+        },
+        {
+          "code": "002",
+          "name": "Hindi Course-A",
+          "is_primary": true
+        },
+        {
+          "code": "085",
+          "name": "Hindi Course-B",
+          "is_primary": true
+        },
+        {
+          "code": "094",
+          "name": "Japanese"
+        },
+        {
+          "code": "015",
+          "name": "Kannada"
+        },
+        {
+          "code": "097",
+          "name": "Kashmiri"
+        },
+        {
+          "code": "096",
+          "name": "Kokborok"
+        },
+        {
+          "code": "026",
+          "name": "Lepcha"
+        },
+        {
+          "code": "025",
+          "name": "Limboo"
+        },
+        {
+          "code": "011",
+          "name": "Malayalam"
+        },
+        {
+          "code": "017",
+          "name": "Manipuri"
+        },
+        {
+          "code": "009",
+          "name": "Marathi"
+        },
+        {
+          "code": "098",
+          "name": "Mizo"
+        },
+        {
+          "code": "024",
+          "name": "Nepali"
+        },
+        {
+          "code": "013",
+          "name": "Odia"
+        },
+        {
+          "code": "023",
+          "name": "Persian"
+        },
+        {
+          "code": "004",
+          "name": "Punjabi"
+        },
+        {
+          "code": "131",
+          "name": "Rai"
+        },
+        {
+          "code": "021",
+          "name": "Russian"
+        },
+        {
+          "code": "122",
+          "name": "Sanskrit"
+        },
+        {
+          "code": "119",
+          "name": "Sanskrit Communicative"
+        },
+        {
+          "code": "008",
+          "name": "Sindhi"
+        },
+        {
+          "code": "090",
+          "name": "Spanish"
+        },
+        {
+          "code": "133",
+          "name": "Sherpa"
+        },
+        {
+          "code": "134",
+          "name": "Tamang"
+        },
+        {
+          "code": "006",
+          "name": "Tamil"
+        },
+        {
+          "code": "093",
+          "name": "Tangkhul"
+        },
+        {
+          "code": "007",
+          "name": "Telugu AP"
+        },
+        {
+          "code": "089",
+          "name": "Telugu Telangana"
+        },
+        {
+          "code": "019",
+          "name": "Tibetan"
+        },
+        {
+          "code": "136",
+          "name": "Thai"
+        },
+        {
+          "code": "003",
+          "name": "Urdu Course A"
+        },
+        {
+          "code": "303",
+          "name": "Urdu Course B"
+        }
+      ],
+      "main_subjects": [
+        {
+          "code": "041",
+          "name": "Mathematics Standard",
+          "subject_id": "subj-math",
+          "theory_marks": 80,
+          "ia_marks": 20,
+          "is_primary": true
+        },
+        {
+          "code": "241",
+          "name": "Mathematics Basic",
+          "subject_id": "subj-math-basic",
+          "theory_marks": 80,
+          "ia_marks": 20
+        },
+        {
+          "code": "086",
+          "name": "Science",
+          "subject_id": "subj-science",
+          "theory_marks": 80,
+          "ia_marks": 20,
+          "is_primary": true
+        },
+        {
+          "code": "087",
+          "name": "Social Science",
+          "subject_id": "subj-social",
+          "theory_marks": 80,
+          "ia_marks": 20,
+          "is_primary": true
+        }
+      ],
+      "other_academic_electives": [
+        {
+          "code": "031",
+          "name": "Carnatic Music (Vocal)"
+        },
+        {
+          "code": "032",
+          "name": "Carnatic Music (Melodic Instruments)"
+        },
+        {
+          "code": "033",
+          "name": "Carnatic Music (Percussion Instruments)"
+        },
+        {
+          "code": "034",
+          "name": "Hindustani Music (Vocal)"
+        },
+        {
+          "code": "035",
+          "name": "Hindustani Music (Melodic Instruments)"
+        },
+        {
+          "code": "036",
+          "name": "Hindustani Music (Percussion Instruments)"
+        },
+        {
+          "code": "049",
+          "name": "Painting"
+        },
+        {
+          "code": "064",
+          "name": "Home Science"
+        },
+        {
+          "code": "076",
+          "name": "National Cadet Corps (NCC)"
+        },
+        {
+          "code": "165",
+          "name": "Computer Applications",
+          "subject_id": "subj-computer-app",
+          "is_primary": true
+        },
+        {
+          "code": "154",
+          "name": "Elements of Business",
+          "subject_id": "subj-elements-business",
+          "is_primary": true
+        },
+        {
+          "code": "254",
+          "name": "Elements of Book Keeping and Accountancy",
+          "subject_id": "subj-elements-bookkeeping",
+          "is_primary": true
+        }
+      ],
+      "internal_assessment_areas": [
+        "Health and Physical Education (506)",
+        "Work Experience (500)",
+        "Art Education (502)"
+      ],
+      "primary_preparation_package": [
+        "subj-math",
+        "subj-science",
+        "subj-social",
+        "subj-english",
+        "subj-hindi",
+        "subj-hindi-b",
+        "subj-computer-app",
+        "subj-elements-bookkeeping",
+        "subj-elements-business"
+      ]
+    },
+    "class_12": {
+      "status": "PUBLIC_BOARD_EXAM",
+      "full_exam_eligible": true,
+      "streams": {
+        "science": {
+          "display_name": "Science Stream (PCM / PCB / PCMB)",
+          "primary_subjects": [
+            {
+              "code": "042",
+              "name": "Physics",
+              "subject_id": "subj-physics",
+              "theory_marks": 70,
+              "practical_marks": 30
+            },
+            {
+              "code": "043",
+              "name": "Chemistry",
+              "subject_id": "subj-chemistry",
+              "theory_marks": 70,
+              "practical_marks": 30
+            },
+            {
+              "code": "041",
+              "name": "Mathematics",
+              "subject_id": "subj-math12",
+              "theory_marks": 80,
+              "ia_marks": 20
+            },
+            {
+              "code": "044",
+              "name": "Biology",
+              "subject_id": "subj-biology",
+              "theory_marks": 70,
+              "practical_marks": 30
+            },
+            {
+              "code": "301",
+              "name": "English Core",
+              "subject_id": "subj-english",
+              "theory_marks": 80,
+              "ia_marks": 20
+            },
+            {
+              "code": "083",
+              "name": "Computer Science",
+              "subject_id": "subj-cs",
+              "theory_marks": 70,
+              "practical_marks": 30
+            },
+            {
+              "code": "048",
+              "name": "Physical Education",
+              "subject_id": "subj-pe",
+              "theory_marks": 70,
+              "practical_marks": 30
+            }
+          ]
+        },
+        "commerce": {
+          "display_name": "Commerce Stream",
+          "primary_subjects": [
+            {
+              "code": "055",
+              "name": "Accountancy",
+              "subject_id": "subj-accountancy",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "054",
+              "name": "Business Studies",
+              "subject_id": "subj-business",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "030",
+              "name": "Economics",
+              "subject_id": "subj-economics",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "241",
+              "name": "Applied Mathematics",
+              "subject_id": "subj-applied-math",
+              "theory_marks": 80,
+              "ia_marks": 20
+            },
+            {
+              "code": "066",
+              "name": "Entrepreneurship",
+              "subject_id": "subj-entrepreneurship",
+              "theory_marks": 70,
+              "project_marks": 30
+            },
+            {
+              "code": "301",
+              "name": "English Core",
+              "subject_id": "subj-english",
+              "theory_marks": 80,
+              "ia_marks": 20
+            }
+          ]
+        },
+        "humanities": {
+          "display_name": "Humanities / Arts Stream",
+          "primary_subjects": [
+            {
+              "code": "027",
+              "name": "History",
+              "subject_id": "subj-history",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "028",
+              "name": "Political Science",
+              "subject_id": "subj-polity",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "029",
+              "name": "Geography",
+              "subject_id": "subj-geography",
+              "theory_marks": 70,
+              "practical_marks": 30
+            },
+            {
+              "code": "039",
+              "name": "Sociology",
+              "subject_id": "subj-sociology",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "037",
+              "name": "Psychology",
+              "subject_id": "subj-psychology",
+              "theory_marks": 70,
+              "practical_marks": 30
+            },
+            {
+              "code": "030",
+              "name": "Economics",
+              "subject_id": "subj-economics",
+              "theory_marks": 80,
+              "project_marks": 20
+            },
+            {
+              "code": "301",
+              "name": "English Core",
+              "subject_id": "subj-english",
+              "theory_marks": 80,
+              "ia_marks": 20
+            }
+          ]
+        }
+      },
+      "internal_assessment_areas": [
+        "Health and Physical Education (502)",
+        "Work Experience (500)",
+        "General Studies (503)"
+      ]
+    }
+  },
+  "pseb-punjab": {
+    "board_id": "pseb-punjab",
+    "board_name": "Punjab School Education Board",
+    "short_name": "PSEB",
+    "state": "Punjab",
+    "country": "India",
+    "official_website": "https://www.pseb.ac.in/",
+    "official_urls": {
+      "home": "https://www.pseb.ac.in/",
+      "syllabus": "https://www.pseb.ac.in/syllabus",
+      "academic_notices": "https://www.pseb.ac.in/academic-notice-board",
+      "question_paper_manager": "https://www.pseb.ac.in/public/question-paper-manager",
+      "nsqf_sqp": "https://www.pseb.ac.in/nsqf_sqp2026-27",
+      "nsqf_msp": "https://www.pseb.ac.in/nsqf_msp2026-27",
+      "results": "https://punjab.indiaresults.com"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "historical": [
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_pseb": true
+    },
+    "language_script_registry": [
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "mandatory_for": [
+          "Punjabi",
+          "General Punjabi",
+          "Punjabi Elective"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English",
+          "General English",
+          "English Elective",
+          "Computer Science"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi",
+          "Hindi Elective"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Urdu",
+        "mandatory_for": [
+          "Urdu (in lieu of Hindi)",
+          "Urdu Elective"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Support, Syllabus, Chapter Notes & Foundation Practice",
+      "progression_to_class_10": "Satisfactory completion of Class 9 annual assessment and minimum attendance requirement."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level Examination",
+      "board_exam_eligible": false,
+      "service_type": "Stream Selection, Syllabus, Notes, Practical & Progression Support",
+      "progression_to_class_12": "Stream continuity, internal and annual examination clearance, and PSEB continuation registration."
+    },
+    "class_10": {
+      "total_subjects_per_candidate": 8,
+      "structure_groups": {
+        "group_a": {
+          "name": "Compulsory Group-A Subjects",
+          "description": "Six compulsory academic papers for all matriculation candidates",
+          "subjects": [
+            {
+              "id": "pseb-punjabi-10",
+              "name": "Punjabi (Paper-A & Paper-B)",
+              "subject_code": "01",
+              "language": "pa",
+              "script": "Gurmukhi",
+              "theory_marks": 70,
+              "ina_marks": 20,
+              "total_marks": 90,
+              "choice_alternative": "pseb-phc-10"
+            },
+            {
+              "id": "pseb-phc-10",
+              "name": "Punjab History and Culture (Part-A & Part-B)",
+              "subject_code": "02",
+              "language": "bilingual",
+              "theory_marks": 70,
+              "ina_marks": 20,
+              "total_marks": 90,
+              "condition": "Eligible candidates who have not studied Punjabi at middle standard"
+            },
+            {
+              "id": "pseb-english-10",
+              "name": "English",
+              "subject_code": "03",
+              "language": "en",
+              "script": "Latin",
+              "theory_marks": 80,
+              "ina_marks": 20,
+              "total_marks": 100
+            },
+            {
+              "id": "pseb-hindi-10",
+              "name": "Hindi",
+              "subject_code": "04",
+              "language": "hi",
+              "script": "Devanagari",
+              "theory_marks": 80,
+              "ina_marks": 20,
+              "total_marks": 100,
+              "choice_alternative": "pseb-urdu-10"
+            },
+            {
+              "id": "pseb-urdu-10",
+              "name": "Urdu (in lieu of Hindi)",
+              "subject_code": "05",
+              "language": "ur",
+              "script": "Urdu",
+              "theory_marks": 80,
+              "ina_marks": 20,
+              "total_marks": 100
+            },
+            {
+              "id": "pseb-math-10",
+              "name": "Mathematics",
+              "subject_code": "06",
+              "language": "bilingual",
+              "theory_marks": 80,
+              "ina_marks": 20,
+              "total_marks": 100
+            },
+            {
+              "id": "pseb-science-10",
+              "name": "Science",
+              "subject_code": "07",
+              "language": "bilingual",
+              "theory_marks": 80,
+              "ina_marks": 20,
+              "total_marks": 100
+            },
+            {
+              "id": "pseb-social-10",
+              "name": "Social Science",
+              "subject_code": "08",
+              "language": "bilingual",
+              "theory_marks": 80,
+              "ina_marks": 20,
+              "total_marks": 100
+            }
+          ]
+        },
+        "group_b": {
+          "name": "Compulsory Computer Science & Elective / NSQF",
+          "description": "Computer Science compulsory plus one elective or NSQF trade",
+          "compulsory": [
+            {
+              "id": "pseb-cs-10",
+              "name": "Computer Science",
+              "subject_code": "09",
+              "language": "bilingual",
+              "theory_marks": 50,
+              "practical_marks": 40,
+              "ina_marks": 10,
+              "total_marks": 100
+            }
+          ],
+          "electives": [
+            {
+              "id": "pseb-pe-10",
+              "name": "Health and Physical Education",
+              "code": "10"
+            },
+            {
+              "id": "pseb-agri-10",
+              "name": "Agriculture",
+              "code": "11"
+            },
+            {
+              "id": "pseb-home-sci-10",
+              "name": "Home Science",
+              "code": "12"
+            },
+            {
+              "id": "pseb-sanskrit-10",
+              "name": "Sanskrit",
+              "code": "13"
+            },
+            {
+              "id": "pseb-urdu-elec-10",
+              "name": "Urdu (Elective)",
+              "code": "14"
+            },
+            {
+              "id": "pseb-cutting-tailoring-10",
+              "name": "Cutting and Tailoring",
+              "code": "15"
+            },
+            {
+              "id": "pseb-drawing-10",
+              "name": "Mechanical Drawing and Painting",
+              "code": "16"
+            },
+            {
+              "id": "pseb-music-vocal-10",
+              "name": "Music (Vocal)",
+              "code": "17"
+            },
+            {
+              "id": "pseb-music-tabla-10",
+              "name": "Music (Tabla)",
+              "code": "18"
+            },
+            {
+              "id": "pseb-music-inst-10",
+              "name": "Music (Instrumental)",
+              "code": "19"
+            }
+          ],
+          "nsqf_trades_count": 20
+        },
+        "group_c": {
+          "name": "Activity Based Subjects",
+          "subjects": [
+            {
+              "id": "pseb-welcome-life-10",
+              "name": "Welcome Life",
+              "evaluation": "Activity-Based School Internal Assessment",
+              "full_exam_eligible": false
+            }
+          ]
+        }
+      }
+    },
+    "class_12": {
+      "total_subjects_per_candidate": 8,
+      "compulsory_subjects": [
+        {
+          "id": "pseb-gen-english-12",
+          "name": "General English",
+          "code": "01",
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "pseb-gen-punjabi-12",
+          "name": "General Punjabi",
+          "code": "02",
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "pseb-phc-12",
+          "name": "Punjab History and Culture",
+          "code": "03",
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "pseb-cs-12",
+          "name": "Computer Science",
+          "code": "04",
+          "theory_marks": 50,
+          "practical_marks": 40,
+          "ina_marks": 10
+        },
+        {
+          "id": "pseb-env-self-12",
+          "name": "Environment and Self",
+          "evaluation": "School Level Evaluation Only",
+          "full_exam_eligible": false
+        },
+        {
+          "id": "pseb-entrepreneurship-12",
+          "name": "Entrepreneurship",
+          "evaluation": "School Level Evaluation Only",
+          "full_exam_eligible": false
+        }
+      ],
+      "streams": {
+        "science": {
+          "group_id": "Group-II",
+          "name": "Science Stream",
+          "primary_subjects": [
+            {
+              "id": "pseb-physics-12",
+              "name": "Physics",
+              "code": "11",
+              "theory": 70,
+              "practical": 25,
+              "ina": 5
+            },
+            {
+              "id": "pseb-chemistry-12",
+              "name": "Chemistry",
+              "code": "12",
+              "theory": 70,
+              "practical": 25,
+              "ina": 5
+            },
+            {
+              "id": "pseb-biology-12",
+              "name": "Biology",
+              "code": "13",
+              "theory": 70,
+              "practical": 25,
+              "ina": 5
+            },
+            {
+              "id": "pseb-math-12",
+              "name": "Mathematics",
+              "code": "14",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-ca-12",
+              "name": "Computer Application",
+              "code": "15",
+              "theory": 50,
+              "practical": 40,
+              "ina": 10
+            },
+            {
+              "id": "pseb-pe-12",
+              "name": "Physical Education and Sports",
+              "code": "16",
+              "theory": 50,
+              "practical": 40,
+              "ina": 10
+            }
+          ]
+        },
+        "commerce": {
+          "group_id": "Group-III",
+          "name": "Commerce Stream",
+          "primary_subjects": [
+            {
+              "id": "pseb-business-12",
+              "name": "Business Studies",
+              "code": "21",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-accountancy-12",
+              "name": "Accountancy",
+              "code": "22",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-economics-12",
+              "name": "Economics",
+              "code": "23",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-ebusiness-12",
+              "name": "Fundamentals of E-Business",
+              "code": "24",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-math-12",
+              "name": "Mathematics",
+              "code": "14",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-ca-12",
+              "name": "Computer Application",
+              "code": "15",
+              "theory": 50,
+              "practical": 40,
+              "ina": 10
+            }
+          ]
+        },
+        "humanities": {
+          "group_id": "Group-I",
+          "name": "Humanities Stream",
+          "primary_subjects": [
+            {
+              "id": "pseb-history-12",
+              "name": "History",
+              "code": "31",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-polity-12",
+              "name": "Political Science",
+              "code": "32",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-economics-12",
+              "name": "Economics",
+              "code": "23",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-geography-12",
+              "name": "Geography",
+              "code": "33",
+              "theory": 70,
+              "practical": 20,
+              "ina": 10
+            },
+            {
+              "id": "pseb-sociology-12",
+              "name": "Sociology",
+              "code": "34",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-psychology-12",
+              "name": "Psychology",
+              "code": "35",
+              "theory": 70,
+              "practical": 20,
+              "ina": 10
+            },
+            {
+              "id": "pseb-public-admin-12",
+              "name": "Public Administration",
+              "code": "36",
+              "theory": 80,
+              "ina": 20
+            }
+          ]
+        },
+        "agriculture": {
+          "group_id": "Group-IV",
+          "name": "Agriculture Stream",
+          "primary_subjects": [
+            {
+              "id": "pseb-agri-12",
+              "name": "Agriculture",
+              "code": "41",
+              "theory": 70,
+              "practical": 20,
+              "ina": 10
+            },
+            {
+              "id": "pseb-physics-12",
+              "name": "Physics",
+              "code": "11",
+              "theory": 70,
+              "practical": 25,
+              "ina": 5
+            },
+            {
+              "id": "pseb-chemistry-12",
+              "name": "Chemistry",
+              "code": "12",
+              "theory": 70,
+              "practical": 25,
+              "ina": 5
+            },
+            {
+              "id": "pseb-economics-12",
+              "name": "Economics",
+              "code": "23",
+              "theory": 80,
+              "ina": 20
+            },
+            {
+              "id": "pseb-geography-12",
+              "name": "Geography",
+              "code": "33",
+              "theory": 70,
+              "practical": 20,
+              "ina": 10
+            }
+          ]
+        }
+      }
+    },
+    "question_banks_architecture": {
+      "mcq_target_per_primary_subject": 205,
+      "subjective_revision_multiplier": "3x Board Paper Pattern",
+      "subjective_target_per_primary_subject": 75,
+      "total_target_per_primary_subject": 280,
+      "subjective_breakdown": {
+        "very_short_answer_2m": 24,
+        "short_answer_3m": 24,
+        "case_study_4m": 12,
+        "long_answer_5m": 15
+      }
+    }
+  },
+  "bseb-bihar": {
+    "board_id": "bseb-bihar",
+    "board_name": "Bihar School Examination Board",
+    "short_name": "BSEB",
+    "state": "Bihar",
+    "country": "India",
+    "official_website": "https://biharboardonline.com/",
+    "official_urls": {
+      "home": "https://biharboardonline.com/",
+      "secondary": "https://secondary.biharboardonline.org/",
+      "senior_secondary": "https://seniorsecondary.biharboardonline.com/",
+      "exam": "https://exam.biharboardonline.org/",
+      "model_paper_matric": "https://biharboardonline.com/modelpapermatric.html",
+      "model_paper_inter": "https://biharboardonline.com/modelpaperinter.html",
+      "ofss_inter": "https://www.ofssbihar.org/"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "historical": [
+        "2018-19",
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_bseb": true,
+      "bbose_isolation_enforced": true
+    },
+    "language_script_registry": [
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "MIL-Hindi",
+          "SIL-Hindi",
+          "Hindi (Inter)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English (Matric)",
+          "English (Inter)",
+          "Computer Science"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "MIL-Urdu",
+          "Urdu (Inter)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "mai",
+        "name": "Maithili",
+        "script": "Mithilakshar / Devanagari",
+        "mandatory_for": [
+          "MIL-Maithili",
+          "Maithili (Inter)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "SIL-Sanskrit",
+          "Sanskrit (Inter)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "bn",
+        "name": "Bangla",
+        "script": "Bengali",
+        "mandatory_for": [
+          "MIL-Bangla",
+          "Bangla (Inter)"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Support, Foundation Syllabus, Revision Notes & Practice Mode",
+      "progression_to_class_10": "Successful evaluation in Class 9 annual examination and valid registration on secondary.biharboardonline.org."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level Examination / Internal College Exam",
+      "board_exam_eligible": false,
+      "service_type": "Stream Selection, OFSS Enrolment, Core Theory Notes, Practical Practice & Foundation Tests",
+      "progression_to_class_12": "Satisfactory performance in Class 11 promotional examination and valid continuation registration."
+    },
+    "class_10": {
+      "official_scheme": "BSEB Matriculation Examination Scheme",
+      "compulsory_papers": 5,
+      "total_marks": 500,
+      "primary_preparation_subjects": [
+        {
+          "id": "bseb-hindi-10",
+          "name": "Hindi (MIL हिन्दी)",
+          "subject_code": "101",
+          "language": "hi",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-english-10",
+          "name": "English (Class 10)",
+          "subject_code": "113",
+          "language": "en",
+          "script": "Latin",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-math-10",
+          "name": "Mathematics (गणित)",
+          "subject_code": "110",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-science-10",
+          "name": "Science (विज्ञान)",
+          "subject_code": "112",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "practical_marks": 20,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-social-10",
+          "name": "Social Science (सामाजिक विज्ञान)",
+          "subject_code": "111",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "practical_marks": 20,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-sanskrit-10",
+          "name": "Sanskrit (SIL संस्कृत)",
+          "subject_code": "105",
+          "language": "sa",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-urdu-10",
+          "name": "Urdu (MIL اردو)",
+          "subject_code": "103",
+          "language": "ur",
+          "script": "Nastaliq / Arabic",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-maithili-10",
+          "name": "Maithili (MIL मैथिली)",
+          "subject_code": "104",
+          "language": "mai",
+          "script": "Mithilakshar / Devanagari",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        },
+        {
+          "id": "bseb-adv-math-10",
+          "name": "Advanced Mathematics (उच्च गणित)",
+          "subject_code": "114",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 100,
+          "pass_marks": 30
+        }
+      ]
+    },
+    "class_12": {
+      "official_scheme": "BSEB Intermediate Examination Scheme",
+      "compulsory_papers": 5,
+      "total_marks": 500,
+      "streams": {
+        "science": {
+          "stream_name": "I.Sc. (Intermediate of Science)",
+          "primary_subjects": [
+            {
+              "id": "bseb-physics-12",
+              "name": "Physics (भौतिकी)",
+              "subject_code": "117",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-chemistry-12",
+              "name": "Chemistry (रसायन शास्त्र)",
+              "subject_code": "118",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-biology-12",
+              "name": "Biology (जीव विज्ञान)",
+              "subject_code": "119",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-math-12",
+              "name": "Mathematics (गणित 12)",
+              "subject_code": "121",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-english-12",
+              "name": "English (Class 12)",
+              "subject_code": "105",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "en"
+            },
+            {
+              "id": "bseb-hindi-12",
+              "name": "Hindi (हिन्दी 12)",
+              "subject_code": "106",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "hi"
+            },
+            {
+              "id": "bseb-cs-12",
+              "name": "Computer Science",
+              "subject_code": "122",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "en"
+            }
+          ]
+        },
+        "commerce": {
+          "stream_name": "I.Com. (Intermediate of Commerce)",
+          "primary_subjects": [
+            {
+              "id": "bseb-accountancy-12",
+              "name": "Accountancy (लेखाशास्त्र)",
+              "subject_code": "217",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-business-12",
+              "name": "Business Studies (व्यवसाय अध्ययन)",
+              "subject_code": "218",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-economics-12",
+              "name": "Economics (अर्थशास्त्र)",
+              "subject_code": "219",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-entrepreneurship-12",
+              "name": "Entrepreneurship (उद्यमिता)",
+              "subject_code": "220",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-english-12",
+              "name": "English (Class 12)",
+              "subject_code": "205",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "en"
+            },
+            {
+              "id": "bseb-hindi-12",
+              "name": "Hindi (हिन्दी 12)",
+              "subject_code": "206",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "hi"
+            }
+          ]
+        },
+        "humanities": {
+          "stream_name": "I.A. (Intermediate of Arts)",
+          "primary_subjects": [
+            {
+              "id": "bseb-history-12",
+              "name": "History (इतिहास)",
+              "subject_code": "321",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-polity-12",
+              "name": "Political Science (राजनीति शास्त्र)",
+              "subject_code": "322",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-geography-12",
+              "name": "Geography (भूगोल)",
+              "subject_code": "323",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-economics-arts-12",
+              "name": "Economics (Arts)",
+              "subject_code": "326",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-sociology-12",
+              "name": "Sociology (समाजशास्त्र)",
+              "subject_code": "325",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-psychology-12",
+              "name": "Psychology (मनोविज्ञान)",
+              "subject_code": "324",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "bseb-philosophy-12",
+              "name": "Philosophy (दर्शनशास्त्र)",
+              "subject_code": "327",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            }
+          ]
+        },
+        "agriculture": {
+          "stream_name": "I.Agri. (Intermediate of Agriculture)",
+          "primary_subjects": [
+            {
+              "id": "bseb-agri-12",
+              "name": "Agriculture (कृषि विज्ञान)",
+              "subject_code": "120",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ubse-uttarakhand": {
+    "board_id": "ubse-uttarakhand",
+    "board_name": "Uttarakhand Board of School Education",
+    "short_name": "UBSE",
+    "state": "Uttarakhand",
+    "country": "India",
+    "official_website": "https://ubse.uk.gov.in/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "current_academic_session": "2026-27",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "official_urls": {
+      "home": "https://ubse.uk.gov.in/",
+      "syllabus": "https://ubse.uk.gov.in/pages/display/97-syllabus",
+      "old_question_papers": "https://ubse.uk.gov.in/pages/display/98-old-model-question-paper",
+      "results": "https://uaresults.nic.in/"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_ubse": true
+    },
+    "language_script_registry": [
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi (Class 10)",
+          "Hindi (Class 12)",
+          "Hindi Agriculture"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English (Class 10)",
+          "English (Class 12)",
+          "Computer Science"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Sanskrit (Class 10)",
+          "Sanskrit (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "Urdu (Class 10)",
+          "Urdu (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "mandatory_for": [
+          "Punjabi (Class 10)",
+          "Punjabi (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "bn",
+        "name": "Bengali",
+        "script": "Bengali",
+        "mandatory_for": [
+          "Bengali (Class 10)",
+          "Bengali (Class 12)"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Foundation, NCERT/UBSE Syllabus Notes, Continuous Assessment & Practice",
+      "progression_to_class_10": "Satisfactory evaluation in Class 9 annual school examination and valid registration."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level Examination / Internal College Exam",
+      "board_exam_eligible": false,
+      "service_type": "Stream Enrolment, Core Theory Notes, Practical Framework & Foundation Practice",
+      "progression_to_class_12": "Pass in Class 11 promotional annual examination and confirmation of subject stream registration."
+    },
+    "class_10": {
+      "official_scheme": "UBSE High School Examination Scheme (Ramnagar)",
+      "compulsory_papers": 6,
+      "total_marks": 600,
+      "primary_preparation_subjects": [
+        {
+          "id": "ubse-hindi-10",
+          "name": "Hindi (हिन्दी)",
+          "language": "hi",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-english-10",
+          "name": "English",
+          "language": "en",
+          "script": "Latin",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-math-10",
+          "name": "Mathematics (गणित)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-science-10",
+          "name": "Science (विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "ubse-social-10",
+          "name": "Social Science (सामाजिक विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-sanskrit-10",
+          "name": "Sanskrit (संस्कृत)",
+          "language": "sa",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-urdu-10",
+          "name": "Urdu (اردو)",
+          "language": "ur",
+          "script": "Nastaliq / Arabic",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-punjabi-10",
+          "name": "Punjabi (ਪੰਜਾਬੀ)",
+          "language": "pa",
+          "script": "Gurmukhi",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-bengali-10",
+          "name": "Bengali (বাংলা)",
+          "language": "bn",
+          "script": "Bengali",
+          "total_marks": 100,
+          "theory_marks": 80,
+          "ina_marks": 20
+        },
+        {
+          "id": "ubse-homesci-10",
+          "name": "Home Science (गृह विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        }
+      ]
+    },
+    "class_12": {
+      "official_scheme": "UBSE Intermediate Examination Scheme (Ramnagar)",
+      "compulsory_papers": 5,
+      "total_marks": 500,
+      "streams": {
+        "science": {
+          "stream_name": "Intermediate Science Stream",
+          "primary_subjects": [
+            {
+              "id": "ubse-physics-12",
+              "name": "Physics (भौतिक विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-chemistry-12",
+              "name": "Chemistry (रसायन विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-biology-12",
+              "name": "Biology (जीव विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-math-12",
+              "name": "Mathematics (गणित 12)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-english-12",
+              "name": "English (Class 12)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "en"
+            },
+            {
+              "id": "ubse-hindi-12",
+              "name": "Hindi (Class 12)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "hi"
+            },
+            {
+              "id": "ubse-cs-12",
+              "name": "Computer Science",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "en"
+            }
+          ]
+        },
+        "commerce": {
+          "stream_name": "Intermediate Commerce Stream",
+          "primary_subjects": [
+            {
+              "id": "ubse-accountancy-12",
+              "name": "Accountancy (बहीखाता तथा लेखाशास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-business-12",
+              "name": "Business Studies (व्यापारिक संगठन)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-economics-12",
+              "name": "Economics (अर्थशास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-english-com-12",
+              "name": "English (Commerce)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "en"
+            },
+            {
+              "id": "ubse-hindi-com-12",
+              "name": "Hindi (Commerce)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "hi"
+            },
+            {
+              "id": "ubse-math-com-12",
+              "name": "Mathematics (Commerce)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            }
+          ]
+        },
+        "humanities": {
+          "stream_name": "Intermediate Humanities / Arts Stream",
+          "primary_subjects": [
+            {
+              "id": "ubse-history-12",
+              "name": "History (इतिहास)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-geography-12",
+              "name": "Geography (भूगोल)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-polity-12",
+              "name": "Political Science (राजनीति विज्ञान)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-economics-arts-12",
+              "name": "Economics (Arts)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-sociology-12",
+              "name": "Sociology (समाजशास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-psychology-12",
+              "name": "Psychology (मनोविज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "ubse-education-12",
+              "name": "Education (शिक्षाशास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            }
+          ]
+        },
+        "agriculture": {
+          "stream_name": "Intermediate Agriculture Stream",
+          "primary_subjects": [
+            {
+              "id": "ubse-agri-12",
+              "name": "Agriculture (कृषि विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "upmsp-uttar-pradesh": {
+    "board_id": "upmsp-uttar-pradesh",
+    "board_name": "Uttar Pradesh Madhyamik Shiksha Parishad",
+    "short_name": "UPMSP",
+    "common_name": "UP Board",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "official_website": "https://upmsp.edu.in/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "current_academic_session": "2026-27",
+    "current_exam_year": "2027",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "official_urls": {
+      "home": "https://upmsp.edu.in/",
+      "syllabus": "https://www.upmsp.edu.in/Board_Syllabus.aspx",
+      "model_papers": "https://www.upmsp.edu.in/Board_ModelPaper.aspx",
+      "instructions": "https://upmsp.edu.in/Instruction.aspx",
+      "exampvt": "https://exampvt.upmsp.edu.in/",
+      "results": "https://upresults.nic.in"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "exam_year": "2027",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_upmsp": true
+    },
+    "advance_registration_rules": {
+      "class_9_rule": "Recognized schools must complete advance registration for Class 9 students in 2026-27 for the 2027 High School examination cycle.",
+      "class_11_rule": "Recognized schools must complete advance registration for Class 11 students in 2026-27 for the 2027 Intermediate examination cycle."
+    },
+    "language_script_registry": [
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi (Class 10)",
+          "General Hindi (Class 12)",
+          "Hindi (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English (Class 10)",
+          "English (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Sanskrit (Class 10)",
+          "Sanskrit (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "Urdu (Class 10)",
+          "Urdu (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "mandatory_for": [
+          "Punjabi (Class 10)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "bn",
+        "name": "Bengali",
+        "script": "Bengali",
+        "mandatory_for": [
+          "Bengali (Class 10)"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Examination with Advance Board Registration",
+      "board_exam_eligible": false,
+      "service_type": "Academic Foundation, NCERT/UPMSP Syllabus Notes, Continuous Assessment & Practice",
+      "advance_registration": "Mandatory advance registration in Class 9 for High School Exam 2027.",
+      "progression_to_class_10": "Pass in Class 9 annual school examination and valid UPMSP advance registration."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level / College Examination with Advance Board Registration",
+      "board_exam_eligible": false,
+      "service_type": "Stream Enrolment, Core Theory Notes, Practical Framework & Foundation Practice",
+      "advance_registration": "Mandatory advance registration in Class 11 for Intermediate Exam 2027.",
+      "progression_to_class_12": "Pass in Class 11 promotional annual examination and confirmation of subject stream registration."
+    },
+    "class_10": {
+      "official_scheme": "UPMSP High School Examination Scheme (Prayagraj)",
+      "combination_rule": "5 Compulsory Subjects + 1 Optional Subject (Total 6 Subjects)",
+      "compulsory_papers": 6,
+      "total_marks": 600,
+      "primary_preparation_subjects": [
+        {
+          "id": "upmsp-hindi-10",
+          "code": "901",
+          "name": "Hindi (हिन्दी)",
+          "language": "hi",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-english-10",
+          "code": "917",
+          "name": "English",
+          "language": "en",
+          "script": "Latin",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-math-10",
+          "code": "928",
+          "name": "Mathematics (गणित)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-science-10",
+          "code": "931",
+          "name": "Science (विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-social-10",
+          "code": "932",
+          "name": "Social Science (सामाजिक विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-sanskrit-10",
+          "code": "923",
+          "name": "Sanskrit (संस्कृत)",
+          "language": "sa",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-urdu-10",
+          "code": "904",
+          "name": "Urdu (اردو)",
+          "language": "ur",
+          "script": "Nastaliq / Arabic",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-punjabi-10",
+          "code": "905",
+          "name": "Punjabi (ਪੰਜਾਬੀ)",
+          "language": "pa",
+          "script": "Gurmukhi",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-bengali-10",
+          "code": "906",
+          "name": "Bengali (বাংলা)",
+          "language": "bn",
+          "script": "Bengali",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        },
+        {
+          "id": "upmsp-homesci-10",
+          "code": "930",
+          "name": "Home Science (गृह विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 70,
+          "ina_marks": 30
+        }
+      ]
+    },
+    "class_12": {
+      "official_scheme": "UPMSP Intermediate Examination Scheme (Prayagraj)",
+      "compulsory_papers": 5,
+      "total_marks": 500,
+      "streams": {
+        "science": {
+          "stream_name": "Group B — Intermediate Science Stream",
+          "primary_subjects": [
+            {
+              "id": "upmsp-physics-12",
+              "code": "151",
+              "name": "Physics (भौतिक विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-chemistry-12",
+              "code": "152",
+              "name": "Chemistry (रसायन विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-biology-12",
+              "code": "153",
+              "name": "Biology (जीव विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-math-12",
+              "code": "131",
+              "name": "Mathematics (गणित)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-english-12",
+              "code": "117",
+              "name": "English",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "en"
+            },
+            {
+              "id": "upmsp-genhindi-12",
+              "code": "102",
+              "name": "General Hindi (सामान्य हिन्दी)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "hi"
+            },
+            {
+              "id": "upmsp-cs-12",
+              "code": "144",
+              "name": "Computer",
+              "theory_marks": 60,
+              "practical_marks": 40,
+              "language": "en"
+            }
+          ]
+        },
+        "commerce": {
+          "stream_name": "Group C — Intermediate Commerce Stream",
+          "primary_subjects": [
+            {
+              "id": "upmsp-accountancy-12",
+              "code": "156",
+              "name": "Accountancy (बहीखाता तथा लेखाशास्त्र)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-bst-12",
+              "code": "157",
+              "name": "Business Studies (व्यापारिक संगठन एवं पत्र व्यवहार)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-economics-12",
+              "code": "136",
+              "name": "Economics (अर्थशास्त्र)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-math-com-12",
+              "code": "131",
+              "name": "Mathematics (Commerce)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-english-com-12",
+              "code": "117",
+              "name": "English (Commerce)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "en"
+            },
+            {
+              "id": "upmsp-genhindi-com-12",
+              "code": "102",
+              "name": "General Hindi (Commerce)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "hi"
+            }
+          ]
+        },
+        "humanities": {
+          "stream_name": "Group A — Intermediate Humanities / Arts Stream",
+          "primary_subjects": [
+            {
+              "id": "upmsp-history-12",
+              "code": "128",
+              "name": "History (इतिहास)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-civics-12",
+              "code": "130",
+              "name": "Civics (नागरिक शास्त्र)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-geography-12",
+              "code": "129",
+              "name": "Geography (भूगोल)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-economics-hum-12",
+              "code": "136",
+              "name": "Economics (Humanities)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-sociology-12",
+              "code": "142",
+              "name": "Sociology (समाजशास्त्र)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-psychology-12",
+              "code": "133",
+              "name": "Psychology (मनोविज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "upmsp-sanskrit-12",
+              "code": "103",
+              "name": "Sanskrit (संस्कृत 12)",
+              "theory_marks": 100,
+              "practical_marks": 0,
+              "language": "sa"
+            }
+          ]
+        },
+        "agriculture": {
+          "stream_name": "Group F1 — Intermediate Agriculture Stream",
+          "primary_subjects": [
+            {
+              "id": "upmsp-agri-12",
+              "code": "163-167",
+              "name": "Agriculture (कृषि विज्ञान एवं प्रौद्योगिकी)",
+              "theory_marks": 50,
+              "practical_marks": 50,
+              "language": "bilingual"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "mpbse-madhya-pradesh": {
+    "board_id": "mpbse-madhya-pradesh",
+    "board_name": "Madhya Pradesh Board of Secondary Education",
+    "short_name": "MPBSE",
+    "common_name": "MP Board",
+    "state": "Madhya Pradesh",
+    "country": "India",
+    "official_website": "https://mpbse.nic.in/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "current_academic_session": "2026-27",
+    "current_exam_year": "2027",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "official_urls": {
+      "home": "https://mpbse.nic.in/",
+      "academics": "https://mpbse.nic.in/academics.html",
+      "syllabus": "https://mpbse.nic.in/syllabus.htm",
+      "blueprint_10th": "https://mpbse.nic.in/blueprint10th.htm",
+      "blueprint_12th": "https://mpbse.nic.in/blueprint12th.htm",
+      "qbank_10th": "https://mpbse.nic.in/qbank10.htm",
+      "qbank_12th": "https://mpbse.nic.in/qbank12.htm",
+      "student_services": "https://mpbse.nic.in/Student_Services.html",
+      "timetable": "https://mpbse.nic.in/ttable.html"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "exam_year": "2027",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_mpbse": true
+    },
+    "mathematics_scheme_rule": {
+      "status": "UNIFIED_MATHEMATICS_CURRICULUM",
+      "official_notice": "MPBSE official circular dated September 2026 confirms unified single Mathematics syllabus (no compulsory basic/standard bifurcation in current blueprint).",
+      "effective_session": "2026-27"
+    },
+    "english_scheme_rule": {
+      "status": "SOURCE_VERSIONED_ENGLISH_OFFERING",
+      "official_notice": "MPBSE official circular provides standard English Special / English General curricular frameworks as per official 2026-27 scheme of studies.",
+      "effective_session": "2026-27"
+    },
+    "language_script_registry": [
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi Special (Class 10)",
+          "Hindi General (Class 10)",
+          "Hindi General (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English Special (Class 10)",
+          "English General (Class 10)",
+          "English General (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Sanskrit General (Class 10)",
+          "Sanskrit General (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "Urdu General (Class 10)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "mandatory_for": [
+          "Punjabi (Class 10)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "bn",
+        "name": "Bengali",
+        "script": "Bengali",
+        "mandatory_for": [
+          "Bengali (Class 10)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "mr",
+        "name": "Marathi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Marathi (Class 10)"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Foundation, NCERT/MPBSE Syllabus Notes, Continuous Assessment & Practice",
+      "progression_to_class_10": "Pass in Class 9 annual school examination and valid MPBSE enrolment."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level / College Examination",
+      "board_exam_eligible": false,
+      "service_type": "Stream Enrolment, Core Theory Notes, Practical Framework & Foundation Practice",
+      "progression_to_class_12": "Pass in Class 11 promotional annual examination and confirmation of subject stream registration."
+    },
+    "class_10": {
+      "official_scheme": "MPBSE High School Certificate Examination Scheme (Bhopal)",
+      "compulsory_papers": 6,
+      "total_marks": 600,
+      "primary_preparation_subjects": [
+        {
+          "id": "mpbse-hindi-spl-10",
+          "name": "Hindi Special (हिन्दी विशिष्ट)",
+          "language": "hi",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-english-spl-10",
+          "name": "English Special",
+          "language": "en",
+          "script": "Latin",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-math-10",
+          "name": "Mathematics (गणित)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-science-10",
+          "name": "Science (विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-social-10",
+          "name": "Social Science (सामाजिक विज्ञान)",
+          "language": "bilingual",
+          "script": "Devanagari + Latin",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-sanskrit-gen-10",
+          "name": "Sanskrit General (संस्कृत सामान्य)",
+          "language": "sa",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-urdu-gen-10",
+          "name": "Urdu General (اردو عمومی)",
+          "language": "ur",
+          "script": "Nastaliq / Arabic",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-punjabi-10",
+          "name": "Punjabi (ਪੰਜਾਬੀ)",
+          "language": "pa",
+          "script": "Gurmukhi",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-bengali-10",
+          "name": "Bengali (বাংলা)",
+          "language": "bn",
+          "script": "Bengali",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        },
+        {
+          "id": "mpbse-marathi-10",
+          "name": "Marathi (मराठी)",
+          "language": "mr",
+          "script": "Devanagari",
+          "total_marks": 100,
+          "theory_marks": 75,
+          "ina_marks": 25
+        }
+      ]
+    },
+    "class_12": {
+      "official_scheme": "MPBSE Higher Secondary Certificate Examination Scheme (Bhopal)",
+      "compulsory_papers": 5,
+      "total_marks": 500,
+      "streams": {
+        "science": {
+          "stream_name": "Higher Secondary Science Stream",
+          "primary_subjects": [
+            {
+              "id": "mpbse-physics-12",
+              "name": "Physics (भौतिक शास्त्र)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-chemistry-12",
+              "name": "Chemistry (रसायन शास्त्र)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-biology-12",
+              "name": "Biology (जीव विज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-math-12",
+              "name": "Mathematics (गणित)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-english-gen-12",
+              "name": "English General",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "en"
+            },
+            {
+              "id": "mpbse-hindi-gen-12",
+              "name": "Hindi General (हिन्दी सामान्य)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "hi"
+            },
+            {
+              "id": "mpbse-cs-12",
+              "name": "Computer Application / IP",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "en"
+            }
+          ]
+        },
+        "commerce": {
+          "stream_name": "Higher Secondary Commerce Stream",
+          "primary_subjects": [
+            {
+              "id": "mpbse-accountancy-12",
+              "name": "Book Keeping and Accountancy (बहीखाता एवं लेखाकर्म)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-bst-12",
+              "name": "Business Studies (व्यवसाय अध्ययन)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-economics-12",
+              "name": "Economics (अर्थशास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-math-com-12",
+              "name": "Business Mathematics (व्यावसायिक गणित)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-english-com-12",
+              "name": "English General (Commerce)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "en"
+            },
+            {
+              "id": "mpbse-hindi-com-12",
+              "name": "Hindi General (Commerce)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "hi"
+            }
+          ]
+        },
+        "humanities": {
+          "stream_name": "Higher Secondary Humanities / Arts Stream",
+          "primary_subjects": [
+            {
+              "id": "mpbse-history-12",
+              "name": "History (इतिहास)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-polscience-12",
+              "name": "Political Science (राजनीति शास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-geography-12",
+              "name": "Geography (भूगोल)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-economics-arts-12",
+              "name": "Economics (Humanities)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-sociology-12",
+              "name": "Sociology (समाजशास्त्र)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-psychology-12",
+              "name": "Psychology (मनोविज्ञान)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            },
+            {
+              "id": "mpbse-sanskrit-gen-12",
+              "name": "Sanskrit General (संस्कृत सामान्य 12)",
+              "theory_marks": 80,
+              "practical_marks": 20,
+              "language": "sa"
+            }
+          ]
+        },
+        "agriculture": {
+          "stream_name": "Higher Secondary Agriculture Stream",
+          "primary_subjects": [
+            {
+              "id": "mpbse-agri-12",
+              "name": "Elements of Science & Maths for Agriculture, Crop Production & Animal Husbandry (कृषि विज्ञान एवं प्रौद्योगिकी)",
+              "theory_marks": 70,
+              "practical_marks": 30,
+              "language": "bilingual"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "nios-board": {
+    "board_id": "nios-board",
+    "board_name": "National Institute of Open Schooling",
+    "short_name": "NIOS",
+    "common_name": "National Open School",
+    "institution_type": "National Open Schooling / Open and Distance School Education Institution",
+    "state": "National / Pan-India",
+    "country": "India",
+    "official_website": "https://www.nios.ac.in/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "courses": [
+      "Secondary Course (Class 10 Equivalent)",
+      "Senior Secondary Course (Class 12 Equivalent)"
+    ],
+    "current_academic_session": "2026-27",
+    "current_exam_cycle": "October-November 2026 / April-May 2027",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "official_urls": {
+      "home": "https://www.nios.ac.in/",
+      "digital_academic": "https://digital.nios.ac.in/",
+      "sdmis": "https://sdmis.nios.ac.in/",
+      "notifications": "https://sdmis.nios.ac.in/registration/home-notifications",
+      "course_material_secondary": "https://www.nios.ac.in/online-course-material/secondary-courses.aspx",
+      "course_material_sr_secondary": "https://www.nios.ac.in/online-course-material/sr-secondary-courses.aspx",
+      "tma": "https://www.nios.ac.in/student-information-section/tutor-marked-assignment.aspx",
+      "ode": "https://www.nios.ac.in/on-demand-examination.aspx",
+      "timetable": "https://www.nios.ac.in/exam-result.aspx"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "exam_year": "2027",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_nios": true
+    },
+    "admission_streams": {
+      "stream_1": {
+        "stream_id": "Stream 1",
+        "description": "Online admission for all learners in Secondary and Senior Secondary for April/May and October/November Public Examinations.",
+        "tma_eligible": true
+      },
+      "stream_2": {
+        "stream_id": "Stream 2",
+        "description": "Online admission for learners who appeared but could not clear or were eligible but could not appear in Public Examination of recognized boards for October/November.",
+        "tma_eligible": false
+      },
+      "stream_3": {
+        "stream_id": "Stream 3",
+        "description": "On-Demand Examination System (ODES) at Secondary level throughout the year.",
+        "tma_eligible": false
+      },
+      "stream_4": {
+        "stream_id": "Stream 4",
+        "description": "On-Demand Examination System (ODES) at Senior Secondary level throughout the year.",
+        "tma_eligible": false
+      }
+    },
+    "certification_rules": {
+      "minimum_subjects": 5,
+      "minimum_languages": 1,
+      "maximum_languages": 2,
+      "maximum_total_subjects": 7,
+      "passing_criteria": "Minimum 33% marks in aggregate as well as separately in theory and practicals (where applicable)",
+      "toc_facility": "Transfer of Credit (TOC) up to two subjects allowed from recognized boards"
+    },
+    "examination_modes": {
+      "public_examination": {
+        "mode": "Public Examination",
+        "frequency": "Twice a year (Block 1: April-May, Block 2: October-November)",
+        "centres": "Nationwide accredited examination centres"
+      },
+      "on_demand_examination": {
+        "mode": "On-Demand Examination (ODE)",
+        "frequency": "Conducted round the year at HQ and Regional Centres except during Public Examination months",
+        "flexibility": "Learner chooses date and examination venue"
+      }
+    },
+    "assessment_components": {
+      "tma_policy": "Tutor Marked Assignment (TMA) carries 20% weightage in theory marks for Stream 1 learners, providing continuous self-evaluation.",
+      "practical_component": "Mandatory separate passing in practical examinations for practical subjects (Science, Data Entry, Painting, Home Science, etc.)."
+    },
+    "language_script_registry": [
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "codes": [
+          201,
+          301
+        ]
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "codes": [
+          202,
+          302
+        ]
+      },
+      {
+        "language_id": "bn",
+        "name": "Bengali",
+        "script": "Bengali",
+        "codes": [
+          203,
+          303
+        ]
+      },
+      {
+        "language_id": "mr",
+        "name": "Marathi",
+        "script": "Devanagari",
+        "codes": [
+          204
+        ]
+      },
+      {
+        "language_id": "te",
+        "name": "Telugu",
+        "script": "Telugu",
+        "codes": [
+          205
+        ]
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "codes": [
+          206,
+          306
+        ]
+      },
+      {
+        "language_id": "gu",
+        "name": "Gujarati",
+        "script": "Gujarati",
+        "codes": [
+          207,
+          307
+        ]
+      },
+      {
+        "language_id": "kn",
+        "name": "Kannada",
+        "script": "Kannada",
+        "codes": [
+          208
+        ]
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "codes": [
+          209,
+          309
+        ]
+      },
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "codes": [
+          210,
+          310
+        ]
+      },
+      {
+        "language_id": "as",
+        "name": "Assamese",
+        "script": "Bengali / Assamese",
+        "codes": [
+          228
+        ]
+      },
+      {
+        "language_id": "ne",
+        "name": "Nepali",
+        "script": "Devanagari",
+        "codes": [
+          231
+        ]
+      },
+      {
+        "language_id": "ml",
+        "name": "Malayalam",
+        "script": "Malayalam",
+        "codes": [
+          232,
+          343
+        ]
+      },
+      {
+        "language_id": "od",
+        "name": "Odia",
+        "script": "Odia",
+        "codes": [
+          233,
+          305
+        ]
+      },
+      {
+        "language_id": "ar",
+        "name": "Arabic",
+        "script": "Arabic",
+        "codes": [
+          235,
+          341
+        ]
+      },
+      {
+        "language_id": "fa",
+        "name": "Persian",
+        "script": "Perso-Arabic",
+        "codes": [
+          236,
+          342
+        ]
+      },
+      {
+        "language_id": "ta",
+        "name": "Tamil",
+        "script": "Tamil",
+        "codes": [
+          237,
+          304
+        ]
+      },
+      {
+        "language_id": "sd",
+        "name": "Sindhi",
+        "script": "Devanagari / Arabic",
+        "codes": [
+          238
+        ]
+      }
+    ],
+    "study_mediums": {
+      "secondary": [
+        "English",
+        "Hindi",
+        "Urdu",
+        "Marathi",
+        "Telugu",
+        "Gujarati",
+        "Malayalam",
+        "Odia"
+      ],
+      "senior_secondary": [
+        "English",
+        "Hindi",
+        "Urdu",
+        "Bengali"
+      ]
+    },
+    "class_9": {
+      "examination_status": "No Public Board Examination",
+      "board_exam_eligible": false,
+      "service_type": "Preparatory foundation study towards Secondary Course",
+      "progression_to_class_10": "Learners above 14 years age are eligible for direct admission to NIOS Secondary Course."
+    },
+    "class_11": {
+      "examination_status": "No Public Board Examination",
+      "board_exam_eligible": false,
+      "service_type": "Preparatory foundation study towards Senior Secondary Course",
+      "progression_to_class_12": "Learners with verified Secondary Pass and minimum 15 years age pursue Senior Secondary Course directly."
+    },
+    "secondary_course": {
+      "course_name": "NIOS Secondary Course (Class 10 Level)",
+      "official_scheme": "Open and Distance Learning Secondary Scheme",
+      "group_a_languages": [
+        {
+          "code": 201,
+          "name": "Hindi",
+          "id": "nios-hindi-201"
+        },
+        {
+          "code": 202,
+          "name": "English",
+          "id": "nios-english-202"
+        },
+        {
+          "code": 203,
+          "name": "Bengali",
+          "id": "nios-bengali-203"
+        },
+        {
+          "code": 204,
+          "name": "Marathi",
+          "id": "nios-marathi-204"
+        },
+        {
+          "code": 205,
+          "name": "Telugu",
+          "id": "nios-telugu-205"
+        },
+        {
+          "code": 206,
+          "name": "Urdu",
+          "id": "nios-urdu-206"
+        },
+        {
+          "code": 207,
+          "name": "Gujarati",
+          "id": "nios-gujarati-207"
+        },
+        {
+          "code": 208,
+          "name": "Kannada",
+          "id": "nios-kannada-208"
+        },
+        {
+          "code": 209,
+          "name": "Sanskrit",
+          "id": "nios-sanskrit-209"
+        },
+        {
+          "code": 210,
+          "name": "Punjabi",
+          "id": "nios-punjabi-210"
+        },
+        {
+          "code": 228,
+          "name": "Assamese",
+          "id": "nios-assamese-228"
+        },
+        {
+          "code": 231,
+          "name": "Nepali",
+          "id": "nios-nepali-231"
+        },
+        {
+          "code": 232,
+          "name": "Malayalam",
+          "id": "nios-malayalam-232"
+        },
+        {
+          "code": 233,
+          "name": "Odia",
+          "id": "nios-odia-233"
+        },
+        {
+          "code": 235,
+          "name": "Arabic",
+          "id": "nios-arabic-235"
+        },
+        {
+          "code": 236,
+          "name": "Persian",
+          "id": "nios-persian-236"
+        },
+        {
+          "code": 237,
+          "name": "Tamil",
+          "id": "nios-tamil-237"
+        },
+        {
+          "code": 238,
+          "name": "Sindhi",
+          "id": "nios-sindhi-238"
+        }
+      ],
+      "group_b_academic_subjects": [
+        {
+          "code": 211,
+          "name": "Mathematics",
+          "id": "nios-math-211",
+          "practical": true,
+          "theory_marks": 85,
+          "practical_marks": 15
+        },
+        {
+          "code": 212,
+          "name": "Science and Technology",
+          "id": "nios-science-212",
+          "practical": true,
+          "theory_marks": 85,
+          "practical_marks": 15
+        },
+        {
+          "code": 213,
+          "name": "Social Science",
+          "id": "nios-social-213",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 214,
+          "name": "Economics",
+          "id": "nios-economics-214",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 215,
+          "name": "Business Studies",
+          "id": "nios-bst-215",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 216,
+          "name": "Home Science",
+          "id": "nios-homesci-216",
+          "practical": true,
+          "theory_marks": 85,
+          "practical_marks": 15
+        },
+        {
+          "code": 222,
+          "name": "Psychology",
+          "id": "nios-psychology-222",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 223,
+          "name": "Indian Culture & Heritage",
+          "id": "nios-indian-culture-223",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 224,
+          "name": "Accountancy",
+          "id": "nios-accountancy-224",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 225,
+          "name": "Painting",
+          "id": "nios-painting-225",
+          "practical": true,
+          "theory_marks": 30,
+          "practical_marks": 70
+        },
+        {
+          "code": 229,
+          "name": "Data Entry Operations",
+          "id": "nios-dataentry-229",
+          "practical": true,
+          "theory_marks": 40,
+          "practical_marks": 60
+        },
+        {
+          "code": 242,
+          "name": "Hindustani Sangeet",
+          "id": "nios-hindustani-sangeet-242",
+          "practical": true
+        },
+        {
+          "code": 243,
+          "name": "Carnatic Sangeet",
+          "id": "nios-carnatic-sangeet-243",
+          "practical": true
+        },
+        {
+          "code": 245,
+          "name": "Veda Adhyan",
+          "id": "nios-veda-adhyan-245",
+          "practical": false
+        },
+        {
+          "code": 246,
+          "name": "Sanskrit Vyakaran",
+          "id": "nios-sanskrit-vyakaran-246",
+          "practical": false
+        },
+        {
+          "code": 247,
+          "name": "Bharatiya Darshan",
+          "id": "nios-bharatiya-darshan-247",
+          "practical": false
+        },
+        {
+          "code": 248,
+          "name": "Sanskrit Sahitya",
+          "id": "nios-sanskrit-sahitya-248",
+          "practical": false
+        }
+      ]
+    },
+    "senior_secondary_course": {
+      "course_name": "NIOS Senior Secondary Course (Class 12 Level)",
+      "official_scheme": "Open and Distance Learning Senior Secondary Scheme",
+      "group_a_languages": [
+        {
+          "code": 301,
+          "name": "Hindi",
+          "id": "nios-hindi-301"
+        },
+        {
+          "code": 302,
+          "name": "English",
+          "id": "nios-english-302"
+        },
+        {
+          "code": 303,
+          "name": "Bengali",
+          "id": "nios-bengali-303"
+        },
+        {
+          "code": 304,
+          "name": "Tamil",
+          "id": "nios-tamil-304"
+        },
+        {
+          "code": 305,
+          "name": "Odia",
+          "id": "nios-odia-305"
+        },
+        {
+          "code": 306,
+          "name": "Urdu",
+          "id": "nios-urdu-306"
+        },
+        {
+          "code": 307,
+          "name": "Gujarati",
+          "id": "nios-gujarati-307"
+        },
+        {
+          "code": 309,
+          "name": "Sanskrit",
+          "id": "nios-sanskrit-309"
+        },
+        {
+          "code": 310,
+          "name": "Punjabi",
+          "id": "nios-punjabi-310"
+        },
+        {
+          "code": 341,
+          "name": "Arabic",
+          "id": "nios-arabic-341"
+        },
+        {
+          "code": 342,
+          "name": "Persian",
+          "id": "nios-persian-342"
+        },
+        {
+          "code": 343,
+          "name": "Malayalam",
+          "id": "nios-malayalam-343"
+        }
+      ],
+      "group_b_academic_subjects": [
+        {
+          "code": 311,
+          "name": "Mathematics",
+          "id": "nios-math-311",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 321,
+          "name": "Home Science",
+          "id": "nios-homesci-321",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 328,
+          "name": "Psychology",
+          "id": "nios-psychology-328",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 316,
+          "name": "Geography",
+          "id": "nios-geography-316",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 318,
+          "name": "Economics",
+          "id": "nios-economics-318",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 319,
+          "name": "Business Studies",
+          "id": "nios-bst-319",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 332,
+          "name": "Painting",
+          "id": "nios-painting-332",
+          "practical": true,
+          "theory_marks": 30,
+          "practical_marks": 70
+        },
+        {
+          "code": 336,
+          "name": "Data Entry Operations",
+          "id": "nios-dataentry-336",
+          "practical": true,
+          "theory_marks": 40,
+          "practical_marks": 60
+        },
+        {
+          "code": 345,
+          "name": "Veda Adhyan",
+          "id": "nios-veda-adhyan-345",
+          "practical": false
+        },
+        {
+          "code": 346,
+          "name": "Sanskrit Vyakaran",
+          "id": "nios-sanskrit-vyakaran-346",
+          "practical": false
+        },
+        {
+          "code": 347,
+          "name": "Bharatiya Darshan",
+          "id": "nios-bharatiya-darshan-347",
+          "practical": false
+        },
+        {
+          "code": 348,
+          "name": "Sanskrit Sahitya",
+          "id": "nios-sanskrit-sahitya-348",
+          "practical": false
+        }
+      ],
+      "science_and_other_groups": [
+        {
+          "code": 312,
+          "name": "Physics",
+          "id": "nios-physics-312",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 313,
+          "name": "Chemistry",
+          "id": "nios-chemistry-313",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 314,
+          "name": "Biology",
+          "id": "nios-biology-314",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 315,
+          "name": "History",
+          "id": "nios-history-315",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 317,
+          "name": "Political Science",
+          "id": "nios-polscience-317",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 320,
+          "name": "Accountancy",
+          "id": "nios-accountancy-320",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 333,
+          "name": "Environmental Science",
+          "id": "nios-environmental-333",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 335,
+          "name": "Mass Communication",
+          "id": "nios-masscomm-335",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 338,
+          "name": "Introduction to Law",
+          "id": "nios-law-338",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 339,
+          "name": "Library and Information Science",
+          "id": "nios-libsci-339",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 330,
+          "name": "Computer Science",
+          "id": "nios-cs-330",
+          "practical": true,
+          "theory_marks": 60,
+          "practical_marks": 40
+        },
+        {
+          "code": 331,
+          "name": "Sociology",
+          "id": "nios-sociology-331",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 337,
+          "name": "Tourism",
+          "id": "nios-tourism-337",
+          "practical": true,
+          "theory_marks": 80,
+          "practical_marks": 20
+        },
+        {
+          "code": 373,
+          "name": "Physical Education and Yog",
+          "id": "nios-phyedu-373",
+          "practical": true,
+          "theory_marks": 70,
+          "practical_marks": 30
+        },
+        {
+          "code": 374,
+          "name": "Military Studies",
+          "id": "nios-milstudies-374",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 375,
+          "name": "Military History",
+          "id": "nios-milhistory-375",
+          "practical": false,
+          "theory_marks": 100
+        },
+        {
+          "code": 376,
+          "name": "Early Childhood Care and Education",
+          "id": "nios-ecce-376",
+          "practical": true,
+          "theory_marks": 60,
+          "practical_marks": 40
+        },
+        {
+          "code": 350,
+          "name": "Employability Skills",
+          "id": "nios-emp-skills-350",
+          "practical": false,
+          "theory_marks": 100
+        }
+      ]
+    },
+    "vocational_subjects": [
+      {
+        "code": 251,
+        "title": "Typewriting (Hindi / English)",
+        "level": "Secondary"
+      },
+      {
+        "code": 252,
+        "title": "Secretarial Practice",
+        "level": "Secondary"
+      },
+      {
+        "code": 253,
+        "title": "Carpentry",
+        "level": "Secondary"
+      },
+      {
+        "code": 254,
+        "title": "Solar Energy Technician",
+        "level": "Secondary"
+      },
+      {
+        "code": 255,
+        "title": "Bio Gas Technician",
+        "level": "Secondary"
+      },
+      {
+        "code": 256,
+        "title": "Laundry Services",
+        "level": "Secondary"
+      },
+      {
+        "code": 257,
+        "title": "Bakery & Confectionery",
+        "level": "Secondary"
+      },
+      {
+        "code": 258,
+        "title": "Welding Technology",
+        "level": "Secondary"
+      },
+      {
+        "code": 259,
+        "title": "Jute Production",
+        "level": "Secondary"
+      },
+      {
+        "code": 351,
+        "title": "Plant Protection",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 352,
+        "title": "Water Management for Crop Production",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 353,
+        "title": "Oyster Mushroom Production Technology",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 354,
+        "title": "Poultry Farming",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 355,
+        "title": "Fish Farming",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 356,
+        "title": "House Keeping",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 357,
+        "title": "Catering Management",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 358,
+        "title": "Food Processing",
+        "level": "Senior Secondary"
+      },
+      {
+        "code": 359,
+        "title": "Play School Management",
+        "level": "Senior Secondary"
+      }
+    ],
+    "academic_dependencies": {
+      "secondary_to_senior_secondary": {
+        "prerequisite": "Secondary / Class 10 passing certificate from NIOS or any recognized Board of School Education",
+        "minimum_age": 15,
+        "rule": "Direct admission to Senior Secondary is strictly prohibited. Learner must have successfully passed Secondary examination.",
+        "gap_requirement": "To obtain Senior Secondary certificate in all subjects, a minimum gap of two years is required from the year of passing Secondary."
+      }
+    }
+  },
+  "rbse-rajasthan": {
+    "board_id": "rbse-rajasthan",
+    "board_name": "Board of Secondary Education, Rajasthan, Ajmer",
+    "short_name": "RBSE",
+    "common_name": "Rajasthan Board",
+    "state": "Rajasthan",
+    "headquarters": "Ajmer, Rajasthan",
+    "country": "India",
+    "official_website": "https://rajeduboard.rajasthan.gov.in/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "current_academic_session": "2026-27",
+    "current_exam_year": "2027",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "official_urls": {
+      "home": "https://rajeduboard.rajasthan.gov.in/",
+      "syllabus": "https://rajeduboard.rajasthan.gov.in/anudeshika-etc/anudeshika-syllabus.htm",
+      "papers_2026": "https://rajeduboard.rajasthan.gov.in/books/PAPERS-2026/index.htm",
+      "model_papers": "https://rajeduboard.rajasthan.gov.in/books/model.htm",
+      "student_services": "https://rajeduboard.rajasthan.gov.in/student/student.htm",
+      "results": "https://rajeduboard.rajasthan.gov.in/results.htm"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "exam_year": "2027",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_rbse": true
+    },
+    "special_examination_categories": {
+      "praveshika": {
+        "level": "Secondary Equivalent",
+        "focus": "Sanskrit Traditional Stream (प्रवेशिका परीक्षा)",
+        "status": "SEPARATE_OFFICIAL_EXAM"
+      },
+      "varishth_upadhyay": {
+        "level": "Senior Secondary Equivalent",
+        "focus": "Sanskrit Traditional Stream (वरिष्ठ उपाध्याय परीक्षा)",
+        "status": "SEPARATE_OFFICIAL_EXAM"
+      },
+      "deaf_and_dumb_variants": {
+        "description": "Special examination paper variants for Deaf & Dumb candidates (D&D)",
+        "subjects": [
+          "Hindi D&D",
+          "English D&D",
+          "Science D&D",
+          "Social Science D&D",
+          "Mathematics D&D",
+          "Sanskrit D&D",
+          "Urdu D&D",
+          "Punjabi D&D"
+        ],
+        "status": "OFFICIAL_PAPER_VARIANT"
+      },
+      "vocational_secondary": {
+        "description": "Secondary vocational skill examination papers",
+        "subjects": [
+          "Automobile",
+          "Beauty & Wellness",
+          "Health Care",
+          "Information Technology",
+          "Retail",
+          "Travel & Tourism",
+          "Security",
+          "Home Furnishing",
+          "Electrical & Electronics",
+          "Micro Irrigation Agriculture",
+          "Plumber",
+          "Telecom",
+          "Banking & Financial Services",
+          "Construction",
+          "Food Processing"
+        ],
+        "status": "OFFICIAL_VOCATIONAL_REGISTRY"
+      }
+    },
+    "language_script_registry": [
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi Compulsory (Secondary & Sr Secondary)",
+          "Hindi Sahitya"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English Compulsory (Secondary & Sr Secondary)",
+          "English Literature"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Sanskrit (Class 10)",
+          "Sanskrit Sahitya (Class 12)",
+          "Sanskrit Vangmay"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "Urdu (Class 10)",
+          "Urdu Sahitya (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "mandatory_for": [
+          "Punjabi (Class 10)",
+          "Punjabi Sahitya (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "gu",
+        "name": "Gujarati",
+        "script": "Gujarati",
+        "mandatory_for": [
+          "Gujarati (Class 10)",
+          "Gujarati Sahitya (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sd",
+        "name": "Sindhi",
+        "script": "Devanagari / Perso-Arabic",
+        "mandatory_for": [
+          "Sindhi (Class 10)",
+          "Sindhi (Class 12)"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "raj",
+        "name": "Rajasthani",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Rajasthani Sahitya (Class 12)"
+        ],
+        "permitted_medium": false
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Internal Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Foundation, RBSE Syllabus Notes, Continuous Assessment & Practice",
+      "progression_to_class_10": {
+        "rule": "Promotion to Class 10 requires minimum 33% in each subject and satisfactory attendance (minimum 75%) along with continuous comprehensive evaluation (CCE)."
+      }
+    },
+    "class_10": {
+      "examination_status": "Secondary Public Board Examination",
+      "board_exam_eligible": true,
+      "service_type": "Public Board Examination, Verified Practice, Model Papers & Revision Compendiums",
+      "scheme_of_examination": "6 Papers Scheme (Hindi, English, Mathematics, Science, Social Science, Third Language). Total Marks per Subject: 100 (80 Board Theory Exam + 20 Sessional/Internal Assessment)."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level Internal Examination",
+      "board_exam_eligible": false,
+      "service_type": "Senior Secondary Stream Foundation, RBSE Curricular Studies & Practice",
+      "progression_to_class_12": {
+        "rule": "Promotion to Class 12 requires passing Class 11 internal annual exam in chosen stream (Science, Commerce, Arts, Agriculture) with minimum 33% marks separately in theory, practical, and sessional."
+      }
+    },
+    "class_12": {
+      "examination_status": "Senior Secondary Public Board Examination",
+      "board_exam_eligible": true,
+      "service_type": "Public Board Examination, Stream-wise Preparation, Blueprint Practice & Full Exam",
+      "scheme_of_examination": "Compulsory subjects (Hindi Compulsory, English Compulsory) + 3 Stream Elective Subjects. Non-practical subjects: 80 Theory + 20 Sessional = 100. Practical subjects: 56 Theory + 14 Sessional + 30 Practical = 100."
+    },
+    "passing_rules": {
+      "minimum_percentage_per_subject": 33,
+      "minimum_aggregate_percentage": 33,
+      "separate_passing_required": "Must secure minimum 33% separately in Board Theory, Sessional Assessment, and Practicals (where applicable).",
+      "grace_marks": "Permissible up to 1% of total marks in maximum two subjects as per RBSE examination regulations."
+    }
+  },
+  "msbshse-maharashtra": {
+    "board_id": "msbshse-maharashtra",
+    "board_name": "Maharashtra State Board of Secondary & Higher Secondary Education, Pune",
+    "short_name": "MSBSHSE",
+    "common_name": "Maharashtra State Board",
+    "state": "Maharashtra",
+    "headquarters": "Shivajinagar, Pune, Maharashtra",
+    "divisional_boards": [
+      "Pune",
+      "Nagpur",
+      "Chhatrapati Sambhaji Nagar (Aurangabad)",
+      "Mumbai",
+      "Kolhapur",
+      "Amravati",
+      "Nashik",
+      "Latur",
+      "Konkan"
+    ],
+    "country": "India",
+    "official_website": "https://mahahsscboard.in/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "current_academic_session": "2026-27",
+    "current_exam_year": "2027",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "official_urls": {
+      "home": "https://mahahsscboard.in/",
+      "ssc_portal": "https://mahahsscboard.in/mr/ssc-examination",
+      "hsc_portal": "https://mahahsscboard.in/mr/hsc-examination",
+      "syllabus": "https://mahahsscboard.in/mr/curriculum-syllabus",
+      "question_bank": "https://mahahsscboard.in/mr/question-bank-prashnpedhi",
+      "results": "https://mahresult.nic.in/"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "exam_year": "2027",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_msbshse": true
+    },
+    "special_examination_categories": {
+      "private_candidates_form_17": {
+        "level": "SSC and HSC Private Candidates (Form 17 / अर्ज १७)",
+        "focus": "External candidates appearing for SSC / HSC without regular school enrollment",
+        "status": "OFFICIAL_REGULATORY_STREAM"
+      },
+      "class_improvement_scheme": {
+        "level": "SSC & HSC (श्रेणी सुधार योजना)",
+        "focus": "Two consecutive attempts allowed to improve division/percentage after passing",
+        "status": "OFFICIAL_SCHEME"
+      },
+      "bifocal_vocational_stream": {
+        "level": "HSC Technical / Vocational Stream (द्विलक्षी अभ्यासक्रम)",
+        "focus": "200 marks practical-oriented vocational subjects (Electronics, Computer Science, Mechanical Maintenance)",
+        "status": "OFFICIAL_STREAM"
+      },
+      "divyangjan_concessions": {
+        "description": "Special concessions for 21 categories of Persons with Benchmark Disabilities including scribe, extra time, and alternative subjects",
+        "status": "OFFICIAL_POLICY"
+      }
+    },
+    "language_script_registry": [
+      {
+        "language_id": "mr",
+        "name": "Marathi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Marathi (First Language - अनिवार्य)",
+          "Marathi (Second/Third Language)",
+          "Marathi HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi (Second/Third Language - Lokbharati)",
+          "Hindi HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English (First Language / Compulsory)",
+          "English HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Sanskrit (Class 10 Composite / Entire)",
+          "Sanskrit HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "Urdu (Class 10)",
+          "Urdu HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "gu",
+        "name": "Gujarati",
+        "script": "Gujarati",
+        "mandatory_for": [
+          "Gujarati (Class 10)",
+          "Gujarati HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "kn",
+        "name": "Kannada",
+        "script": "Kannada",
+        "mandatory_for": [
+          "Kannada (Class 10)",
+          "Kannada HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ta",
+        "name": "Tamil",
+        "script": "Tamil",
+        "mandatory_for": [
+          "Tamil (Class 10)",
+          "Tamil HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "te",
+        "name": "Telugu",
+        "script": "Telugu",
+        "mandatory_for": [
+          "Telugu (Class 10)",
+          "Telugu HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ml",
+        "name": "Malayalam",
+        "script": "Malayalam",
+        "mandatory_for": [
+          "Malayalam (Class 10)",
+          "Malayalam HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "bn",
+        "name": "Bengali",
+        "script": "Bengali",
+        "mandatory_for": [
+          "Bengali (Class 10)",
+          "Bengali HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sd",
+        "name": "Sindhi",
+        "script": "Devanagari / Perso-Arabic",
+        "mandatory_for": [
+          "Sindhi (Class 10)",
+          "Sindhi HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "pa",
+        "name": "Punjabi",
+        "script": "Gurmukhi",
+        "mandatory_for": [
+          "Punjabi (Class 10)",
+          "Punjabi HSC"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Internal Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Foundation, SCERT Maharashtra Syllabus Notes & Continuous Comprehensive Evaluation",
+      "progression_to_class_10": {
+        "rule": "Promotion to Class 10 requires minimum 35% in aggregate and individual subjects under CCE and annual school exam regulations."
+      }
+    },
+    "class_10": {
+      "examination_status": "Secondary School Certificate (SSC) Public Board Examination",
+      "board_exam_eligible": true,
+      "service_type": "Public Board Examination, Practice Quizzes, Model Prashnapedi & Revision Bundles",
+      "scheme_of_examination": "Best of 5 policy: Total score evaluated on best 5 subjects out of 6. Theory 80/40 + Internal/Practical 20/10 per subject = 100/50 marks. Total 600 marks evaluated out of 500."
+    },
+    "class_11": {
+      "examination_status": "Annual Junior College Internal Examination",
+      "board_exam_eligible": false,
+      "service_type": "Junior College Foundation, Stream Studies & Practice",
+      "progression_to_class_12": {
+        "rule": "Promotion to Class 12 requires minimum 35% in each subject (theory and practical separately where applicable) in chosen stream (Science, Commerce, Arts, Vocational)."
+      }
+    },
+    "class_12": {
+      "examination_status": "Higher Secondary Certificate (HSC) Public Board Examination",
+      "board_exam_eligible": true,
+      "service_type": "Public Board Examination, Stream-wise Preparation, Blueprint Practice & Full Exam",
+      "scheme_of_examination": "Compulsory English + Second Language/IT + 4 Stream Subjects = 6 Subjects (600 marks). Non-practical: 80 Theory + 20 Internal = 100. Practical subjects (Physics, Chem, Bio): 70 Theory + 30 Practical = 100. Maths: 80 Theory + 20 Practical/Internal = 100."
+    },
+    "passing_rules": {
+      "minimum_percentage_per_subject": 35,
+      "minimum_aggregate_percentage": 35,
+      "separate_passing_required": "Must secure minimum 35% separately in theory and practicals/internal assessment where specified by MSBSHSE regulations.",
+      "best_of_five_ssc": "Applicable for SSC (Class 10) whereby total percentage is calculated from top 5 highest scoring subjects out of 6.",
+      "condonation_grace_marks": "Permissible up to maximum 15 grace marks in 1 to 3 subjects to achieve passing standard as per MSBSHSE Rule 40."
+    }
+  },
+  "gseb-gujarat": {
+    "board_id": "gseb-gujarat",
+    "board_name": "Gujarat Secondary and Higher Secondary Education Board, Gandhinagar",
+    "short_name": "GSEB",
+    "short_name_alt": "GSHSEB",
+    "common_name": "Gujarat Board",
+    "state": "Gujarat",
+    "headquarters": "Sector 10-B, Near Old Sachivalaya, Gandhinagar - 382010, Gujarat",
+    "country": "India",
+    "official_website": "https://www.gseb.org/",
+    "classes": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "current_academic_session": "2026-27",
+    "current_exam_year": "2027",
+    "source_status": "OFFICIAL_SOURCE_VERIFIED",
+    "textbook_repository": "https://gsstb.gujarat.gov.in/ (Gujarat State School Textbook Board - Gandhinagar)",
+    "official_urls": {
+      "home": "https://www.gseb.org/",
+      "portal_mirror": "https://website.gseb.org/",
+      "question_bank": "https://questionbank.gseb.org/",
+      "school_registration": "https://schoolreg.gseb.org/",
+      "results": "https://result.gseb.org/",
+      "ssc_portal": "https://ssc.gseb.org/",
+      "hsc_general_portal": "https://hsc.gseb.org/",
+      "hsc_science_portal": "https://sci.gseb.org/"
+    },
+    "academic_years": {
+      "current": "2026-27",
+      "exam_year": "2027",
+      "historical": [
+        "2019-20",
+        "2020-21",
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25",
+        "2025-26"
+      ]
+    },
+    "board_isolation_policy": {
+      "strict_board_id_enforcement": true,
+      "cross_board_import_forbidden": true,
+      "no_cross_board_pyq": true,
+      "zero_cross_board_syllabus": true,
+      "quarantine_non_gseb": true
+    },
+    "question_bank_2026_alignment": {
+      "official_prashna_bank_repository": "https://www.gseb.org",
+      "question_banks_released": true,
+      "description": "Comprehensive item bank issued by Gujarat Secondary and Higher Secondary Education Board Gandhinagar covering SSC and HSC streams."
+    },
+    "mathematics_dual_track_policy": {
+      "mathematics_basic_code_18": {
+        "code": "18",
+        "name": "Mathematics Basic (ગણિત બેઝિક)",
+        "target_students": "Students intending to pursue Commerce, Arts, or non-mathematical vocational diplomas.",
+        "blueprint_structure": "Focuses on fundamental computations, standard formulas, procedural arithmetic, and direct textbook theorems."
+      },
+      "mathematics_standard_code_12": {
+        "code": "12",
+        "name": "Mathematics Standard (ગણિત સ્ટાન્ડર્ડ)",
+        "target_students": "Mandatory prerequisite for Class 11/12 Science Stream Group A (Engineering) and Group AB.",
+        "blueprint_structure": "Focuses on rigorous proofs, multi-step algebraic derivations, advanced geometry theorems, and analytical applications."
+      }
+    },
+    "special_examination_categories": {
+      "gujarat_state_open_school_gsos": {
+        "level": "Gujarat State Open School (GSOS) SSC & HSC General",
+        "focus": "External and private candidates appearing through GSOS examination framework",
+        "status": "OFFICIAL_OPEN_SCHOOL"
+      },
+      "supplementary_purak_pariksha": {
+        "level": "SSC & HSC Supplementary (પૂરક પરીક્ષા)",
+        "focus": "Opportunity for candidates failing in up to two subjects (SSC) or one subject (HSC Science) to appear in July supplementary examinations",
+        "status": "OFFICIAL_POLICY"
+      },
+      "mathematics_basic_reentry_to_science": {
+        "level": "SSC to HSC Science Bridge",
+        "focus": "Students who passed Mathematics Basic can appear for Mathematics Standard in supplementary exam to qualify for HSC Science Group A",
+        "status": "OFFICIAL_REGULATORY_PROVISION"
+      },
+      "divyangjan_concessions": {
+        "level": "Inclusive Education for Children with Special Needs",
+        "focus": "Extra 20 minutes per hour, scribe facility, and alternative questions for visually impaired candidates",
+        "status": "OFFICIAL_CONCESSION"
+      }
+    },
+    "language_script_registry": [
+      {
+        "language_id": "gu",
+        "name": "Gujarati",
+        "script": "Gujarati",
+        "mandatory_for": [
+          "Gujarati First Language (પ્રથમ ભાષા)",
+          "Gujarati Second Language (દ્વિતીય ભાષા)",
+          "Gujarati HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "hi",
+        "name": "Hindi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Hindi First Language",
+          "Hindi Second Language",
+          "Hindi HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "en",
+        "name": "English",
+        "script": "Latin",
+        "mandatory_for": [
+          "English First Language",
+          "English Second Language",
+          "English HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sa",
+        "name": "Sanskrit",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Sanskrit (Class 10)",
+          "Sanskrit HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "ur",
+        "name": "Urdu",
+        "script": "Nastaliq / Arabic",
+        "mandatory_for": [
+          "Urdu First Language",
+          "Urdu Second Language",
+          "Urdu HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "sd",
+        "name": "Sindhi",
+        "script": "Devanagari / Perso-Arabic",
+        "mandatory_for": [
+          "Sindhi (Class 10)",
+          "Sindhi HSC"
+        ],
+        "permitted_medium": true
+      },
+      {
+        "language_id": "mr",
+        "name": "Marathi",
+        "script": "Devanagari",
+        "mandatory_for": [
+          "Marathi (Class 10 minority medium)"
+        ],
+        "permitted_medium": true
+      }
+    ],
+    "class_9": {
+      "examination_status": "Annual School-Level Internal Examination",
+      "board_exam_eligible": false,
+      "service_type": "Academic Foundation, GSEB Question Bank Access, Continuous Assessment & Practice",
+      "progression_to_class_10": {
+        "rule": "Promotion to Class 10 requires minimum 33% marks in each subject through annual internal school examination and minimum 75% attendance under GSEB school affiliation norms."
+      }
+    },
+    "class_10": {
+      "examination_status": "Secondary School Certificate (SSC) Public Board Examination",
+      "board_exam_eligible": true,
+      "service_type": "Public Board Examination, Verified Practice, Question Bank & Master Revision Compendiums",
+      "scheme_of_examination": "6 Core Subjects Scheme (First Language, Second Language, Mathematics Basic or Standard, Science & Technology, Social Science, Third Language/Vocational). Total Marks: 100 per subject (80 External Board Theory + 20 Internal Assessment). Total: 600 Marks."
+    },
+    "class_11": {
+      "examination_status": "Annual School-Level Internal Examination",
+      "board_exam_eligible": false,
+      "service_type": "Higher Secondary Stream Foundation (Science / Commerce / Arts), GSEB Curricular Studies & Practice",
+      "progression_to_class_12": {
+        "rule": "Promotion to Class 12 requires passing Class 11 internal annual exam in chosen stream (Science Group A/B/AB, General/Commerce, Arts) with minimum 33% marks separately in theory and practicals."
+      }
+    },
+    "class_12": {
+      "examination_status": "Higher Secondary Certificate (HSC) Public Board Examination",
+      "board_exam_eligible": true,
+      "service_type": "Public Board Examination, Stream-wise Preparation, Question Bank Alignment, Blueprint Practice & Full Exam",
+      "scheme_of_examination": "HSC Science: 100 Marks per subject (50 MCQs OMR + 50 Descriptive Section B/C/D or 70 Theory + 30 Practical depending on format). HSC General (Commerce/Arts): 100 Marks per subject (80 Theory + 20 Internal or 100 Theory as per stream blueprint).",
+      "streams": {
+        "science": {
+          "groups": {
+            "group_A": "Physics, Chemistry, Mathematics, English, Computer/Language",
+            "group_B": "Physics, Chemistry, Biology, English, Computer/Language",
+            "group_AB": "Physics, Chemistry, Mathematics, Biology, English"
+          }
+        },
+        "general_commerce": {
+          "subjects": [
+            "Elements of Accountancy",
+            "Statistics",
+            "Economics",
+            "Business Administration",
+            "Secretarial Practice & CC",
+            "English",
+            "Gujarati"
+          ]
+        },
+        "arts_humanities": {
+          "subjects": [
+            "History",
+            "Geography",
+            "Political Science",
+            "Sociology",
+            "Psychology",
+            "Philosophy & Logic"
+          ]
+        },
+        "vocational": {
+          "subjects": [
+            "Vocational & Technical Skills Foundation",
+            "Commercial & Technical Trades"
+          ]
+        }
+      }
+    },
+    "passing_criteria_and_grading": "33% minimum marks in each subject (Theory and Practical/Internal assessed separately) and 33% aggregate. Grades awarded from A1 (91-100) down to D (33-40). Marks below 33% receive Grade E1/E2 (Needs Improvement / Eligible for Supplementary Purak Pariksha).",
+    "passing_rules": {
+      "minimum_percentage_per_subject": 33,
+      "minimum_aggregate_percentage": 33,
+      "separate_passing_required": "Must secure minimum 33% in Board Theory and Internal Assessment / Practicals separately as mandated by GSEB examination bylaws.",
+      "grace_marks": "Permissible up to 5 grace marks in aggregate or across maximum 2 subjects to enable eligible candidate to pass."
+    }
+  }
+}

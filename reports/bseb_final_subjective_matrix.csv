@@ -1,0 +1,5 @@
+Question Type ID,Question Type Description,Marks per Question,Total Count in BSEB,Exam Mode Eligible,Notes & PDF Eligible
+"very_short_answer","Very Short Answer (अति लघु उत्तरीय प्रश्न)",2,720,NO,YES
+"short_answer","Short Answer (लघु उत्तरीय प्रश्न)",3,720,NO,YES
+"case_study","Case Study / Practical Competency (केस स्टडी / योग्यता आधारित)",4,360,NO,YES
+"long_answer","Long Answer / Theorems / Essays (दीर्घ उत्तरीय प्रश्न)",5,450,NO,YES

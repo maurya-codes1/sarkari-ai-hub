@@ -1,0 +1,11 @@
+Board ID,Dictionary Path,Classes Documented,Streams Documented,Pass Criteria,Dual Track / Special Schemes,Cross Import Found,Isolation Status
+"cbse-board","data/boards/cbse-board.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"pseb-punjab","data/boards/pseb-punjab.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"bseb-bihar","data/boards/bseb-bihar.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"ubse-uttarakhand","data/boards/ubse-uttarakhand.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"upmsp-uttar-pradesh","data/boards/upmsp-uttar-pradesh.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"mpbse-madhya-pradesh","data/boards/mpbse-madhya-pradesh.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"nios-board","data/boards/nios-board.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"rbse-rajasthan","data/boards/rbse-rajasthan.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"msbshse-maharashtra","data/boards/msbshse-maharashtra.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"
+"gseb-gujarat","data/boards/gseb-gujarat.json","9, 10, 11, 12","Science, Commerce, Arts, Vocational","33%-35%","Yes",0,"100% DEDICATED & ISOLATED"

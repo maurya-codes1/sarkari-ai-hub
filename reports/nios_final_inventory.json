@@ -1,0 +1,30 @@
+{
+  "board_id": "nios-board",
+  "organization_id": "org-national-institute-of-open-schooling-min",
+  "total_questions": 8680,
+  "mcqs_total": 6355,
+  "subjectives_total": 2325,
+  "subjects_count": 31,
+  "stages": {
+    "secondary": {
+      "subjects": 10,
+      "mcqs": 2050,
+      "subjectives": 750,
+      "total": 2800
+    },
+    "senior_secondary": {
+      "science_subjects": 7,
+      "commerce_subjects": 7,
+      "humanities_subjects": 7,
+      "total_subjects": 21,
+      "mcqs": 4305,
+      "subjectives": 1575,
+      "total": 5880
+    }
+  },
+  "bundled_notes": 4,
+  "database_integrity": "OK",
+  "foreign_keys": "PASS",
+  "pre_sha256": "3710890F5DE43A50A47CDD702A5D8A6403FA6A0AE3874D31D2881BBA5DD77AEC",
+  "post_sha256": "0AF3004EB7D5E92B950C0065773C30107FCCCFC77475C18013CED7ED222D1384"
+}

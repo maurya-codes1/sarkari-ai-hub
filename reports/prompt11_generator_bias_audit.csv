@@ -1,0 +1,11 @@
+Board ID,Generator Script,Hardcoded Answer Found,Answer Distribution Pattern,Classification,Repair Recommendation
+"cbse-board","build_cbse_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"pseb-punjab","build_pseb_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"bseb-bihar","build_bseb_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"ubse-uttarakhand","build_ubse_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"upmsp-uttar-pradesh","build_upmsp_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"mpbse-madhya-pradesh","build_mpbse_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"nios-board","build_nios_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"rbse-rajasthan","build_rbse_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"msbshse-maharashtra","build_msbshse_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"
+"gseb-gujarat","build_gseb_*.py","YES (correct_answer = "A")","100% Option A (index 0)","GENERATOR_BIAS (AI Practice Pool)","REPAIR_GENERATOR_OR_DYNAMIC_SHUFFLE_IN_MOCK_ENGINE"

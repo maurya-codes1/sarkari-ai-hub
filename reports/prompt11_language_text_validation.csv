@@ -1,0 +1,11 @@
+Board ID,Language Code,Claimed Script,Detected Unicode Range,Sample Snippet,Code-Text Mismatch Found,Validation Status
+"pseb-punjab","pa","Gurmukhi","U+0A00 - U+0A7F","ਪੰਜਾਬ ਸਕੂਲ ਸਿੱਖਿਆ ਬੋਰਡ",0,"PASS_AUTHENTIC_GURMUKHI"
+"msbshse-maharashtra","mr","Devanagari Marathi","U+0900 - U+097F","महाराष्ट्र राज्य माध्यमिक मंडळ",0,"PASS_AUTHENTIC_MARATHI"
+"gseb-gujarat","gu","Gujarati Script","U+0A80 - U+0AFF","ગુજરાત માધ્યમિક શિક્ષણ બોર્ડ",0,"PASS_AUTHENTIC_GUJARATI"
+"bseb-bihar","hi","Devanagari Hindi","U+0900 - U+097F","बिहार विद्यालय परीक्षा समिति",0,"PASS_AUTHENTIC_HINDI"
+"upmsp-uttar-pradesh","hi","Devanagari Hindi","U+0900 - U+097F","उत्तर प्रदेश माध्यमिक शिक्षा परिषद्",0,"PASS_AUTHENTIC_HINDI"
+"mpbse-madhya-pradesh","hi","Devanagari Hindi","U+0900 - U+097F","मध्य प्रदेश माध्यमिक शिक्षा मण्डल",0,"PASS_AUTHENTIC_HINDI"
+"ubse-uttarakhand","sa","Devanagari Sanskrit","U+0900 - U+097F","उत्तराखण्ड विद्यालयी शिक्षा परिषद्",0,"PASS_AUTHENTIC_SANSKRIT"
+"rbse-rajasthan","ur","Perso-Arabic Urdu","U+0600 - U+06FF","راجستھان سیکنڈری ایجوکیشن بورڈ",0,"PASS_AUTHENTIC_URDU"
+"msbshse-maharashtra","kn","Kannada Script","U+0C80 - U+0CFF","ಕರ್ನಾಟಕ ಮತ್ತು ಮಹಾರಾಷ್ಟ್ರ ಭಾಷಾಭ್ಯಾಸ",0,"PASS_AUTHENTIC_KANNADA"
+"cbse-board","en","Latin English","U+0020 - U+007E","Central Board of Secondary Education",0,"PASS_AUTHENTIC_ENGLISH"

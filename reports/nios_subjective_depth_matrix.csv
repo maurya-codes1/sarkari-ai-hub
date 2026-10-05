@@ -1,0 +1,6 @@
+"Question Type ID","Question Category","Official Paper Quota","Depth Multiplier","Generated Target per Subject","Total NIOS Questions","Marks per Q"
+"very_short_answer","Very Short Answer (VSA)","8 Questions","3.0x","24 Questions","744","2.0"
+"short_answer","Short Answer (SA)","8 Questions","3.0x","24 Questions","744","3.0"
+"case_study","Case Study / Competency","4 Questions","3.0x","12 Questions","372","4.0"
+"long_answer","Long Answer (LA)","5 Questions","3.0x","15 Questions","465","5.0"
+"TOTAL","Complete Subjective Suite","25 Questions","3.0x","75 Questions","2325","N/A"

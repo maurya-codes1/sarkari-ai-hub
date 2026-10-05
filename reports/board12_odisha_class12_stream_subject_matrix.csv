@@ -1,0 +1,22 @@
+stream_id,stream_name,subject_id,subject_name,subject_type,total_questions,mcq_count,subjective_count,theory_marks,practical_project_marks
+science,Science (+2 Science),od-c12-physics,Physics (ପଦାର୍ଥ ବିଜ୍ଞାନ - CHSE Code PHY),Elective,280,205,75,70,30
+science,Science (+2 Science),od-c12-chemistry,Chemistry (ରସାୟନ ବିଜ୍ଞାନ - CHSE Code CHE),Elective,280,205,75,70,30
+science,Science (+2 Science),od-c12-mathematics,Mathematics (ଗଣିତ - CHSE Code MTH),Elective,280,205,75,80,20
+science,Science (+2 Science),od-c12-biology,Biology (ଜୀବ ବିଜ୍ଞାନ: ଉଦ୍ଭିଦ ଓ ପ୍ରାଣୀ ବିଜ୍ଞାନ - CHSE Code BIO),Elective,280,205,75,70,30
+science,Science (+2 Science),od-c12-information-technology,Information Technology (IT - CHSE Code IT),Elective,280,205,75,70,30
+science,Science (+2 Science),od-c12-statistics,Statistics (ପରିସଂଖ୍ୟାନ - CHSE Code STAT),Elective,280,205,75,70,30
+commerce,Commerce (+2 Commerce),od-c12-accountancy,Accountancy (ହିସାବ ଶାସ୍ତ୍ର - CHSE Code ACT),Elective,280,205,75,80,20
+commerce,Commerce (+2 Commerce),od-c12-business-studies,Business Studies and Management (BSM - CHSE Code BSM),Elective,280,205,75,80,20
+commerce,Commerce (+2 Commerce),od-c12-business-mathematics,Business Mathematics & Statistics (BMS - CHSE Code BMS),Elective,280,205,75,80,20
+commerce,Commerce (+2 Commerce),od-c12-costing-taxation,Costing and Taxation (CHSE Code CTX),Elective,280,205,75,80,20
+commerce,Commerce (+2 Commerce),od-c12-economics-com,Commercial Economics (CHSE Code CEC),Elective,280,205,75,80,20
+arts,Arts / Humanities (+2 Arts),od-c12-history,History (ଇତିହାସ - CHSE Code HIST),Elective,280,205,75,80,20
+arts,Arts / Humanities (+2 Arts),od-c12-political-science,Political Science (ରାଜନୀତି ବିଜ୍ଞାନ - CHSE Code POLS),Elective,280,205,75,80,20
+arts,Arts / Humanities (+2 Arts),od-c12-education,Education (ଶିକ୍ଷା - CHSE Code EDN),Elective,280,205,75,70,30
+arts,Arts / Humanities (+2 Arts),od-c12-sociology,Sociology (ସମାଜଶାସ୍ତ୍ର - CHSE Code SOC),Elective,280,205,75,80,20
+arts,Arts / Humanities (+2 Arts),od-c12-logic-philosophy,Logic & Philosophy (ତର୍କଶାସ୍ତ୍ର ଓ ଦର୍ଶନ - CHSE Code LOG),Elective,280,205,75,80,20
+languages,Languages,od-c12-english-compulsory,Compulsory English (CHSE Code ENG),Compulsory,280,205,75,80,20
+languages,Languages,od-c12-mil-odia,M.I.L. Odia (ମାତୃଭାଷା ଓଡ଼ିଆ - CHSE Code ODIA),Compulsory,280,205,75,80,20
+languages,Languages,od-c12-mil-hindi,M.I.L. Hindi (मातृभाषा हिन्दी - CHSE Code HIN),Compulsory,280,205,75,80,20
+languages,Languages,od-c12-mil-urdu,M.I.L. Urdu (اردو لازمی - CHSE Code URD),Compulsory,280,205,75,80,20
+languages,Languages,od-c12-mil-sanskrit,M.I.L. / Classical Sanskrit (संस्कृतम् - CHSE Code SKT),Elective/Compulsory,280,205,75,80,20

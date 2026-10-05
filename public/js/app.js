@@ -317,6 +317,11 @@ function openDesktopToolsMenu() {
   const btn = document.getElementById('desktopToolsBtn');
   if (!menu) return;
 
+  // Teleport to document.body so parent overflow-x-auto or backdrop-filter cannot clip it
+  if (menu.parentElement !== document.body) {
+    document.body.appendChild(menu);
+  }
+
   positionDesktopToolsMenu();
   menu.classList.remove('hidden');
   if (arrow) arrow.textContent = '▲';

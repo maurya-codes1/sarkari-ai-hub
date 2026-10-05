@@ -80,15 +80,24 @@ function getBoardDisplayName(boardKey = '') {
   return b ? b.fullName : 'All-India State Board Examination 2026';
 }
 
+const NOTES_CACHE = new Map();
+
 function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '') {
   const s = (subject || '').toLowerCase();
   const e = (exam || '').toLowerCase();
+  const cacheKey = `${e}_${s}_${String(board || '').toLowerCase()}`.trim();
+
+  if (NOTES_CACHE.has(cacheKey)) {
+    return JSON.parse(JSON.stringify(NOTES_CACHE.get(cacheKey)));
+  }
   
   // Competitive exams (SSC, Railway, Police, UPSC, Defence, Banking, Teaching, Entrance) take strict precedence
   const isExplicitCompetitive = e.includes('ssc') || e.includes('police') || e.includes('railway') || e.includes('rrb') || e.includes('upsc') || e.includes('nda') || e.includes('agniveer') || e.includes('banking') || e.includes('ibps') || e.includes('sbi') || e.includes('neet') || e.includes('jee') || e.includes('cuet') || e.includes('clat') || e.includes('ctet') || e.includes('tet') || e.includes('bpsc') || e.includes('reet') || e.includes('ugc');
 
   const isBoardExam = !isExplicitCompetitive && (e.startsWith('board-') || e.includes('class 10') || e.includes('class 12') || e.includes('10th') || e.includes('12th') || e.includes('मैट्रिक') || e.includes('इंटर') || e.includes('hsc') || (Boolean(board) && !isExplicitCompetitive));
   const boardKey = resolveBoardKey(board, exam);
+
+  let resultGuide = null;
 
   if (isBoardExam) {
     const classLevel = (e.includes('12th') || e.includes('inter') || e.includes('इंटर') || e.includes('hsc')) ? '12th' : '10th';
@@ -110,14 +119,29 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '') {
     else if (s.includes('socio') || s.includes('समाजशास्त्र')) subjectKey = 'sociology';
     else if (s.includes('all') || s.includes('सभी') || s.includes('bundle')) subjectKey = 'all';
 
-    const guide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey);
-    return guide;
+    resultGuide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey);
+  } else {
+    // All Competitive, Police, Defence, Entrance, and Teaching Exams (250-300 MCQs)
+    const compKey = resolveCompetitiveExamKey(exam);
+    resultGuide = generateCompetitiveStudyGuide(compKey, subject);
   }
 
-  // All Competitive, Police, Defence, Entrance, and Teaching Exams (250-300 MCQs)
-  const compKey = resolveCompetitiveExamKey(exam);
-  const compGuide = generateCompetitiveStudyGuide(compKey, subject);
-  return compGuide;
+  // Cap questions to an optimal high-yield volume (120 for single subject, 150 for all-subjects bundle)
+  // Prevents mobile/desktop browser freezes during PDF rendering and print window creation
+  const maxObj = (s.includes('all') || s.includes('bundle') || resultGuide.isBundle) ? 150 : 120;
+  if (resultGuide && Array.isArray(resultGuide.objectives) && resultGuide.objectives.length > maxObj) {
+    resultGuide.objectives = resultGuide.objectives.slice(0, maxObj);
+  }
+  if (resultGuide && Array.isArray(resultGuide.subjectives) && resultGuide.subjectives.length > 25) {
+    resultGuide.subjectives = resultGuide.subjectives.slice(0, 25);
+  }
+  if (resultGuide) {
+    const qCount = (resultGuide.objectives?.length || 0) + (resultGuide.subjectives?.length || 0);
+    resultGuide.pages = `${Math.max(12, Math.min(24, Math.ceil(qCount / 8)))} Pages Master PDF`;
+  }
+
+  NOTES_CACHE.set(cacheKey, JSON.parse(JSON.stringify(resultGuide)));
+  return resultGuide;
 }
 
 module.exports = {

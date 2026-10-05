@@ -1,0 +1,11 @@
+subject_id,subject_name,category,language,script,total_questions,mcq_count,subjective_count,theory_marks,ia_marks,exam_duration_mins
+od-c10-odia-fl,First Language Odia (FLO - ପ୍ରଥମ ଭାଷା ଓଡ଼ିଆ),First Language,or,Odia,280,205,75,80,20,150
+od-c10-english-fl,First Language English (FLE),First Language,en,Latin,280,205,75,80,20,150
+od-c10-hindi-fl,First Language Hindi (FLH - प्रथम भाषा हिन्दी),First Language,hi,Devanagari,280,205,75,80,20,150
+od-c10-urdu-fl,First Language Urdu (FLU - اردو پہلی زبان),First Language,ur,Nastaliq,280,205,75,80,20,150
+od-c10-english-sl,Second Language English (SLE),Second Language,en,Latin,280,205,75,80,20,150
+od-c10-sanskrit-tl,Third Language Sanskrit (TLS - तृतीय भाषा संस्कृतम्),Third Language,sa,Devanagari,280,205,75,80,20,150
+od-c10-hindi-tl,Third Language Hindi (TLH - तृतीय भाषा हिन्दी),Third Language,hi,Devanagari,280,205,75,80,20,150
+od-c10-mathematics,"Mathematics (MTH - ଗଣିତ: ପାଟିଗଣିତ, ବୀଜଗଣିତ ଓ ଜ୍ୟାମିତି)",Core Mathematics,or_en,Odia/Latin,280,205,75,80,20,165
+od-c10-general-science,General Science (GSC - ସାଧାରଣ ବିଜ୍ଞାନ: ଭୌତିକ ଓ ଜୀବ ବିଜ୍ଞାନ),Core Science,or_en,Odia/Latin,280,205,75,80,20,150
+od-c10-social-science,"Social Science (SSC - ସାମାଜିକ ବିଜ୍ଞାନ: ଇତିହାସ, ରାଜନୀତି, ଭୂଗୋଳ, ଅର୍ଥନୀତି)",Core Social Science,or_en,Odia/Latin,280,205,75,80,20,150

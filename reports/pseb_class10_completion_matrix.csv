@@ -1,0 +1,12 @@
+subject_id,subject_name,language,group_type,current_mcq,current_sub,current_total,target_mcq,target_sub,gap_status
+pseb-punjabi-10,Punjabi (Paper-A & B),Gurmukhi (pa),Group-A Compulsory,0,0,0,205,75,EMPTY
+pseb-phc-10,Punjab History and Culture (A & B),Bilingual (pa/en),Group-A Alternate,0,0,0,205,75,EMPTY
+pseb-english-10,English,English (en),Group-A Compulsory,0,0,0,205,75,EMPTY
+pseb-hindi-10,Hindi,Devanagari (hi),Group-A Compulsory,0,0,0,205,75,EMPTY
+pseb-urdu-10,Urdu (in lieu of Hindi),Urdu (ur),Group-A Alternate,0,0,0,205,75,EMPTY
+pseb-math-10,Mathematics,Bilingual (pa/en),Group-A Compulsory,0,0,0,205,75,EMPTY
+pseb-science-10,Science,Bilingual (pa/en),Group-A Compulsory,0,0,0,205,75,EMPTY
+pseb-social-10,Social Science,Bilingual (pa/en),Group-A Compulsory,0,0,0,205,75,EMPTY
+pseb-cs-10,Computer Science,Bilingual (pa/en),Group-B Compulsory,0,0,0,205,75,EMPTY
+pseb-pe-10,Health and Physical Education,Bilingual (pa/en),Group-B Elective,0,0,0,205,75,EMPTY
+pseb-welcome-life-10,Welcome Life,Bilingual (pa/en),Group-C Activity,0,0,0,0,0,ACTIVITY_INA_ONLY

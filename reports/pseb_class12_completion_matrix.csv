@@ -1,0 +1,22 @@
+subject_id,subject_name,language,stream_group,current_mcq,current_sub,current_total,target_mcq,target_sub,gap_status
+pseb-gen-english-12,General English,English (en),All Streams Compulsory,0,0,0,205,75,EMPTY
+pseb-gen-punjabi-12,General Punjabi,Gurmukhi (pa),All Streams Compulsory,0,0,0,205,75,EMPTY
+pseb-phc-12,Punjab History and Culture,Bilingual (pa/en),All Streams Alternate,0,0,0,205,75,EMPTY
+pseb-cs-12,Computer Science,Bilingual (pa/en),All Streams Compulsory,0,0,0,205,75,EMPTY
+pseb-env-self-12,Environment and Self,Bilingual (pa/en),Compulsory (School Evaluation),0,0,0,0,0,SCHOOL_EVAL_ONLY
+pseb-entrepreneurship-12,Entrepreneurship,Bilingual (pa/en),Compulsory (School Evaluation),0,0,0,0,0,SCHOOL_EVAL_ONLY
+pseb-physics-12,Physics,Bilingual (pa/en),Science Group-II,0,0,0,205,75,EMPTY
+pseb-chemistry-12,Chemistry,Bilingual (pa/en),Science Group-II,0,0,0,205,75,EMPTY
+pseb-biology-12,Biology,Bilingual (pa/en),Science Group-II,0,0,0,205,75,EMPTY
+pseb-math-12,Mathematics,Bilingual (pa/en),Science Group-II,0,0,0,205,75,EMPTY
+pseb-business-12,Business Studies,Bilingual (pa/en),Commerce Group-III,0,0,0,205,75,EMPTY
+pseb-accountancy-12,Accountancy,Bilingual (pa/en),Commerce Group-III,0,0,0,205,75,EMPTY
+pseb-economics-12,Economics,Bilingual (pa/en),Commerce Group-III,0,0,0,205,75,EMPTY
+pseb-ebusiness-12,Fundamentals of E-Business,English (en),Commerce Group-III,0,0,0,205,75,EMPTY
+pseb-history-12,History,Bilingual (pa/en),Humanities Group-I,0,0,0,205,75,EMPTY
+pseb-polity-12,Political Science,Bilingual (pa/en),Humanities Group-I,0,0,0,205,75,EMPTY
+pseb-geography-12,Geography,Bilingual (pa/en),Humanities Group-I,0,0,0,205,75,EMPTY
+pseb-sociology-12,Sociology,Bilingual (pa/en),Humanities Group-I,0,0,0,205,75,EMPTY
+pseb-psychology-12,Psychology,Bilingual (pa/en),Humanities Group-I,0,0,0,205,75,EMPTY
+pseb-public-admin-12,Public Administration,Bilingual (pa/en),Humanities Group-I,0,0,0,205,75,EMPTY
+pseb-agri-12,Agriculture,Bilingual (pa/en),Agriculture Group-IV,0,0,0,205,75,EMPTY

@@ -1107,8 +1107,14 @@ class MockService {
       }
     }
 
-    const pOpts = pData.options || [];
-    const sOpts = sData.options || [];
+    const normalizeOptsList = (opts) => {
+      if (Array.isArray(opts)) return opts;
+      if (opts && typeof opts === 'object') return Object.values(opts);
+      return [];
+    };
+
+    const pOpts = normalizeOptsList(pData.options);
+    const sOpts = normalizeOptsList(sData.options);
     let formattedOptions = [];
 
     if (isLanguageSubject) {
