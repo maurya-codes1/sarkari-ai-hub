@@ -1,0 +1,142 @@
+{
+  "exam_id": "nta-jee-main",
+  "name": "JEE Main (Joint Entrance Examination Main for NITs, IIITs, CFTIs & JEE Advanced Eligibility)",
+  "short_name": "NTA JEE Main",
+  "exam_category": "engineering_entrance",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-national-testing-agency-nta",
+    "name": "National Testing Agency (NTA)",
+    "short_name": "NTA",
+    "headquarters": "First Floor, NSIC-MDBP Building, Okhla Industrial Estate, New Delhi 110020",
+    "official_website": "https://jeemain.nta.nic.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-jee-main-nta-portal",
+      "name": "NTA JEE Main Official Portal (jeemain.nta.nic.in)",
+      "url": "https://jeemain.nta.nic.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-jee-main-bulletin-2026",
+      "name": "JEE (Main) - 2026 Information Bulletin, Examination Scheme & Admissions Guidelines",
+      "url": "https://jeemain.nta.nic.in/information-bulletin-2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-jee-main-syllabus-2026",
+      "name": "JEE Main Prescribed Core Engineering Curriculum & Syllabus Guidelines (NTA)",
+      "url": "https://jeemain.nta.nic.in/syllabus-jee-main-2026.pdf",
+      "type": "STATUTORY_REGULATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "jee_main_cbt": {
+      "stage_name": "JEE Main Computer Based Test (CBT) for B.E./B.Tech (Paper 1)",
+      "mode": "Computer Based Test (CBT)",
+      "duration_minutes": 180,
+      "total_questions": 90,
+      "questions_to_attempt": 75,
+      "total_marks": 300,
+      "marks_per_question": 4.0,
+      "negative_marking": 1.0,
+      "sections": [
+        {
+          "name": "Physics",
+          "questions_weightage": "30 Questions (Section A: 20 MCQs, Section B: 10 Numerical Qs attempt 5) / 100 Marks",
+          "scope": "Physics and Measurement, Kinematics, Laws of Motion, Work Energy and Power, Rotational Motion, Gravitation, Properties of Solids and Liquids, Thermodynamics, Kinetic Theory of Gases, Oscillations and Waves, Electrostatics, Current Electricity, Magnetic Effects of Current and Magnetism, Electromagnetic Induction and Alternating Currents, Electromagnetic Waves, Optics, Dual Nature of Matter and Radiation, Atoms and Nuclei, Electronic Devices."
+        },
+        {
+          "name": "Chemistry",
+          "questions_weightage": "30 Questions (Section A: 20 MCQs, Section B: 10 Numerical Qs attempt 5) / 100 Marks",
+          "scope": "Physical Chemistry: Some Basic Concepts in Chemistry, Atomic Structure, Chemical Bonding and Molecular Structure, Chemical Thermodynamics, Solutions, Equilibrium, Redox Reactions and Electrochemistry, Chemical Kinetics. Inorganic Chemistry: Classification of Elements and Periodicity, p-Block Elements (Groups 13-18), d- and f-Block Elements, Coordination Compounds. Organic Chemistry: Purification and Characterization of Organic Compounds, Some Basic Principles of Organic Chemistry (GOC), Hydrocarbons, Organic Compounds Containing Halogens, Oxygen, and Nitrogen, Biomolecules, Principles Related to Practical Chemistry."
+        },
+        {
+          "name": "Mathematics",
+          "questions_weightage": "30 Questions (Section A: 20 MCQs, Section B: 10 Numerical Qs attempt 5) / 100 Marks",
+          "scope": "Sets Relations and Functions, Complex Numbers and Quadratic Equations, Matrices and Determinants, Permutations and Combinations, Binomial Theorem, Sequences and Series, Limit Continuity and Differentiability, Integral Calculus (Definite and Indefinite), Differential Equations, Coordinate Geometry (Straight Lines, Circles, Conic Sections: Parabola, Ellipse, Hyperbola), Three Dimensional Geometry, Vector Algebra, Statistics and Probability, Trigonometry."
+        }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "jee-main-physics",
+        "name": "Physics (भौतिक विज्ञान)",
+        "short_name": "JEE Physics",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Physics and Measurement: Dimensions, Significant figures, Units, Vernier caliper, Screw gauge",
+          "Kinematics: Rectilinear motion, Projectile motion, Relative velocity, Uniform and non-uniform circular motion",
+          "Laws of Motion: Newton laws, Impulse, Momentum conservation, Friction (static, kinetic, rolling), Centripetal force",
+          "Work, Energy and Power: Work-energy theorem, Conservative forces, Potential energy curves, Elastic and inelastic collisions",
+          "Rotational Motion: Center of mass, Moment of inertia, Parallel and perpendicular axis theorems, Torque, Angular momentum conservation, Rolling motion",
+          "Gravitation: Kepler laws, Universal gravitational law, Gravitational potential and field, Orbital and escape velocity, Satellite motion",
+          "Properties of Solids and Liquids: Hooke law, Youngs bulk shear moduli, Streamline and turbulent flow, Viscosity, Stokes law, Terminal velocity, Surface tension, Capillarity",
+          "Thermodynamics & Kinetic Theory: Zeroth, First and Second laws, Isothermal and adiabatic processes, Heat engines, Carnot cycle, Ideal gas equation, RMS speed, Degrees of freedom, Law of equipartition",
+          "Oscillations and Waves: SHM equations, Energy in SHM, Simple and physical pendulum, Forced oscillations and resonance, Wave equation, Superposition, Beats, Doppler effect",
+          "Electrostatics: Coulomb law, Electric field and potential, Gauss law and applications, Capacitors in series and parallel, Energy stored in capacitor, Dielectrics",
+          "Current Electricity: Ohm law, Drift velocity, Temperature coefficient of resistance, Kirchhoff laws, Wheatstone bridge, Metre bridge, Potentiometer",
+          "Magnetic Effects of Current & Magnetism: Biot-Savart law, Ampere circuital law, Force on current carrying wire, Galvanometer to ammeter/voltmeter conversion, Magnetic dip, Hysteresis",
+          "Electromagnetic Induction & AC: Faraday law, Lenz law, Self and mutual inductance, AC circuits (LCR series), Resonance, Q-factor, Power factor, AC generator and transformer",
+          "Optics: Reflection and refraction at spherical surfaces, Lens maker formula, Total internal reflection, Optical instruments, Huygens principle, Interference (YDSE), Diffraction, Polarization",
+          "Dual Nature, Atoms, Nuclei & Electronics: Photoelectric effect, de Broglie relation, Rutherford and Bohr models, Mass defect and binding energy, Nuclear fission and fusion, p-n junction diode, LEDs, Photodiodes, Solar cells, Zener diode, Logic gates"
+        ]
+      },
+      {
+        "subject_id": "jee-main-chemistry",
+        "name": "Chemistry (रसायन विज्ञान)",
+        "short_name": "JEE Chemistry",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Some Basic Concepts in Chemistry: Mole concept, Molar mass, Percentage composition, Empirical and molecular formula, Stoichiometry, Limiting reagent",
+          "Atomic Structure: Bohr model, Dual nature of matter, Heisenberg uncertainty principle, Quantum numbers, Aufbau principle, Pauli exclusion principle, Hund rule",
+          "Chemical Bonding & Molecular Structure: Ionic and covalent bonding, VSEPR theory, Hybridization (sp, sp2, sp3, dsp2, sp3d2), Molecular orbital theory, Hydrogen bonding",
+          "Chemical Thermodynamics: System and surroundings, State functions, First law, Enthalpy, Heat capacity, Hess law, Second law, Entropy, Gibbs energy and spontaneity criteria",
+          "Solutions: Concentration units (Molarity, Molality, Mole fraction), Raoult law, Ideal and non-ideal solutions, Colligative properties, van t Hoff factor",
+          "Equilibrium: Chemical equilibrium constant, Le Chatelier principle, Ionic equilibrium, Ostwald dilution law, pH, Buffer solutions, Solubility product (Ksp)",
+          "Redox Reactions & Electrochemistry: Oxidation numbers, Balancing redox reactions, Galvanic cells, Nernst equation, Conductance, Kohlrausch law, Faraday laws of electrolysis",
+          "Chemical Kinetics: Rate of reaction, Order and molecularity, Zero and first order integrated rate laws, Half-life, Arrhenius equation, Activation energy, Catalysis",
+          "Inorganic Chemistry - Classification & Periodic Properties: Modern periodic table, Trends in atomic radius, Ionization enthalpy, Electron gain enthalpy, Electronegativity",
+          "Inorganic Chemistry - p-Block Elements: Group 13 to 18 properties, Allotropes of carbon, Boranes, Silicones, Nitric acid, Phosphoric acid, Oxoacids of sulphur and halogens",
+          "Inorganic Chemistry - d- and f-Block Elements: Transition metal configurations, Variable oxidation states, Catalytic properties, Magnetic properties, Lanthanoid contraction",
+          "Inorganic Chemistry - Coordination Compounds: Werner theory, IUPAC nomenclature, Valence bond theory, Crystal field theory (CFSE, high spin/low spin), Isomerism",
+          "Organic Chemistry - GOC & Purification: Inductive, Resonance, Hyperconjugation effects, Electrophiles, Nucleophiles, Carbocations, Carbanions, Free radicals stability",
+          "Organic Chemistry - Hydrocarbons: Alkanes (free radical halogenation), Alkenes (Markovnikov and anti-Markovnikov additions, ozonolysis), Alkynes (acidity, additions), Aromaticity",
+          "Organic Functional Groups: Alkyl halides (SN1 and SN2 mechanisms), Alcohols (Lucas test, oxidation), Phenols (Kolbe, Reimer-Tiemann), Ethers (cleavage by HI), Aldehydes and Ketones (Nucleophilic addition, Aldol, Cannizzaro, Clemmensen, Wolff-Kishner), Carboxylic acids, Amines (Hoffmann bromamide, Carbylamine, Diazonium coupling), Biomolecules (Carbohydrates, Amino acids, Peptide bond, Nucleic acids)"
+        ]
+      },
+      {
+        "subject_id": "jee-main-mathematics",
+        "name": "Mathematics (गणित)",
+        "short_name": "JEE Mathematics",
+        "total_questions": 300,
+        "marks_per_question": 4.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Sets, Relations and Functions: Types of relations (equivalence), Domain and range, One-one, onto and invertible functions, Composite functions",
+          "Complex Numbers and Quadratic Equations: Modulus and argument, Complex conjugate, Triangle inequality, Roots of quadratic equations, Relation between roots and coefficients",
+          "Matrices and Determinants: Matrix operations, Transpose, Symmetric and skew-symmetric, Invertible matrices, Determinant properties, Adjoint, Cramer rule, System of linear equations",
+          "Permutations and Combinations: Fundamental counting principles, Permutations, Combinations, Circular permutations, Division into groups, Combinatorial identities",
+          "Binomial Theorem & Sequences: Binomial expansion for positive integral index, General and middle terms, Greatest term, AP, GP, Sum to n terms, AM-GM inequality, Arithmetic-geometric progressions",
+          "Limit, Continuity and Differentiability: Evaluation of limits (L Hospital rule, standard limits), Continuity at a point and interval, Differentiability, Chain rule, Implicit differentiation",
+          "Applications of Derivatives: Tangents and normals, Rate of change, Monotonicity (increasing/decreasing), Maxima and minima, Rolle and Mean Value Theorems",
+          "Indefinite and Definite Integrals: Standard integrals, Integration by substitution, by parts, partial fractions, Fundamental theorem of calculus, Properties of definite integrals, Leibniz rule",
+          "Applications of Integrals: Area bounded by simple curves, Area between intersecting parabolas, circles, and straight lines",
+          "Differential Equations: Order and degree, Formation of differential equations, Variable separable method, Homogeneous differential equations, First-order linear differential equations (Integrating factor)",
+          "Coordinate Geometry - Straight Lines: Slope, Various forms of equations of line, Angle between lines, Distance of a point from a line, Family of lines, Concurrent lines",
+          "Coordinate Geometry - Circles: Standard and general equation, Tangent and normal, Parametric equations, Chord of contact, Intersection of circles, Orthogonal circles",
+          "Coordinate Geometry - Conic Sections: Parabola (standard forms, focal chord, tangent), Ellipse (eccentricity, foci, directrices, tangent), Hyperbola (asymptotes, rectangular hyperbola)",
+          "Three Dimensional Geometry: Direction cosines and direction ratios, Equation of a line in 3D, Shortest distance between skew lines, Angle between lines",
+          "Vector Algebra, Statistics & Probability: Vectors (dot and cross products, scalar triple product), Measures of dispersion (variance and standard deviation), Classical and axiomatic probability, Conditional probability, Bayes theorem, Independent events"
+        ]
+      }
+    ]
+  }
+}

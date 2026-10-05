@@ -1,0 +1,7 @@
+Metric Category,Pre-Deployment Count,Post-Deployment Count,Net Delta,Status / Verification
+Total Repository Questions,"304,520","305,420",+900,100% Verified Match
+School Board Questions (31 Boards),"261,520","261,520",0,100% Strictly Untouched & Preserved
+JEE Main Ingested Questions,0,900,+900,3 Subjects x 300 Qs
+JEE Main Master Notes,0,5,+5,5 Master Notes (50% sampling)
+Foreign Key Integrity Violations,0,0,0,PRAGMA foreign_key_check = OK
+Database Structural Integrity,ok,ok,0,PRAGMA integrity_check = OK
