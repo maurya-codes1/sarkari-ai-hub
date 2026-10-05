@@ -1,0 +1,149 @@
+{
+  "exam_id": "clat-law",
+  "name": "CLAT (Common Law Admission Test for NLUs - BA LLB & LLM)",
+  "short_name": "CLAT Law Entrance",
+  "exam_category": "law_entrance",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-consortium-of-national-law-universities-",
+    "name": "Consortium of National Law Universities (Consortium of NLUs)",
+    "short_name": "Consortium of NLUs",
+    "headquarters": "PO Bag 7201, Nagarbhavi, Bengaluru, Karnataka 560072",
+    "official_website": "https://consortiumofnlus.ac.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-clat-consortium-portal",
+      "name": "Consortium of National Law Universities Official Portal (consortiumofnlus.ac.in)",
+      "url": "https://consortiumofnlus.ac.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-clat-notification-bulletin-2026",
+      "name": "CLAT Official Information Brochure, Examination Scheme & Syllabus 2026",
+      "url": "https://consortiumofnlus.ac.in/clat-2026/information-brochure.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-clat-academic-syllabus-guidelines",
+      "name": "CLAT UG Syllabus Guidelines and Question Pattern Regulations",
+      "url": "https://consortiumofnlus.ac.in/clat-2026/ug-syllabus.html",
+      "type": "SYLLABUS_REGULATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "clat_ug_omr": {
+      "stage_name": "CLAT Undergraduate (BA LLB / BBA LLB) Offline Written Examination",
+      "mode": "Offline Pen-and-Paper (OMR)",
+      "duration_minutes": 120,
+      "total_questions": 120,
+      "total_marks": 120,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.25,
+      "sections": [
+        {
+          "name": "English Language",
+          "questions_weightage": "~24 Questions (20%)",
+          "scope": "Passages of around 450 words derived from contemporary and historically significant fiction and non-fiction writing. Focus on reading comprehension, central themes, inferences, word meanings, metaphors, and grammatical syntax."
+        },
+        {
+          "name": "Current Affairs, including General Knowledge",
+          "questions_weightage": "~30 Questions (25%)",
+          "scope": "Passages derived from news articles, journalistic sources, non-fiction writing covering contemporary events in India and the world, arts and culture, international affairs, historical events of ongoing significance, and public policy."
+        },
+        {
+          "name": "Legal Reasoning",
+          "questions_weightage": "~32 Questions (25%)",
+          "scope": "Passages relating to legal matters, public policy questions, moral philosophical inquiries. Evaluation of candidate's ability to identify legal principles from facts, apply legal rules to scenarios, and evaluate changes in application."
+        },
+        {
+          "name": "Logical Reasoning",
+          "questions_weightage": "~24 Questions (20%)",
+          "scope": "Short passages evaluating ability to recognize arguments, premises and conclusions, identify patterns of reasoning, assess strengths and weaknesses, draw inferences, and identify logical fallacies."
+        },
+        {
+          "name": "Quantitative Techniques",
+          "questions_weightage": "~10 Questions (10%)",
+          "scope": "Short sets of facts or propositions, textual representations of numerical information, followed by questions requiring derivation, manipulation, and application of mathematical operations (10th standard arithmetic, ratios, percentages, mensuration, data analysis)."
+        }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "clat-english-language",
+        "name": "English Language & Reading Comprehension (अंग्रेजी भाषा एवं बोध)",
+        "short_name": "CLAT English Language",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Reading Comprehension: Identifying central idea, main theme, and supporting arguments in discursive and argumentative passages",
+          "Inference and Deduction: Drawing logical inferences and conclusions based on contextual clues",
+          "Vocabulary in Context: Contextual word meanings, archaic and specialized terminology, antonyms, synonyms",
+          "Idiomatic Expressions & Figurative Language: Metaphors, similes, irony, paradox, analogies in prose",
+          "Author's Tone and Perspective: Objective, analytical, critical, satirical, appreciative, polemical",
+          "Structural Analysis: Paragraph organization, transitions, sentence re-arrangements, cohesion",
+          "Grammar & Syntax Mastery: Subject-verb agreement, modifier placement, parallel structure, conditional clauses",
+          "Critical Reading: Distinguishing facts from opinions, identifying underlying assumptions in textual rhetoric"
+        ]
+      },
+      {
+        "subject_id": "clat-current-affairs-gk",
+        "name": "Current Affairs & General Knowledge (समसामयिक घटनाएं एवं सामान्य ज्ञान)",
+        "short_name": "CLAT Current Affairs & GK",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "National Current Events: Landmark judicial rulings, legislative enactments, policy reforms, constitutional amendments",
+          "International Affairs & Geopolitics: UN bodies, multilateral treaties, bilateral summits, global conflicts, diplomatic conventions",
+          "Economic Developments: Union Budget, monetary policy directives, global economic institutions (IMF, World Bank, WTO), inflation indicators",
+          "Science, Technology & Environment: Space missions, climate summits (COP declarations), AI policy frameworks, renewable energy transitions",
+          "Historical & Cultural Heritage: Indian freedom movement, constitutional history, cultural landmarks, archaeological discoveries",
+          "Awards, Honors & Sports: Nobel Prizes, Bharat Ratna, Gallantry awards, Olympic and international sports championships",
+          "Social Issues & Human Rights: Socio-economic indices, SDG rankings, human rights covenants, public health and education initiatives",
+          "Legal & Constitutional Current Affairs: Collegium decisions, Law Commission reports, landmark Supreme Court constitutional bench hearings"
+        ]
+      },
+      {
+        "subject_id": "clat-legal-reasoning",
+        "name": "Legal Reasoning, Constitutional Law & Jurisprudence (विधिक अभिक्षमता, संवैधानिक विधि एवं विधिशास्त्र)",
+        "short_name": "CLAT Legal Reasoning",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Constitutional Law: Fundamental Rights (Articles 12-35), Directive Principles of State Policy, Basic Structure doctrine, Judicial review",
+          "Law of Torts: Negligence, Nuisance, Defamation, Trespass, Strict liability (Rylands v. Fletcher), Absolute liability (M.C. Mehta case)",
+          "Law of Contracts: Offer and Acceptance, Consideration, Capacity to contract, Free consent (Coercion, Undue influence, Fraud, Misrepresentation), Breach and Damages",
+          "Criminal Law & Penal Code: Mens Rea and Actus Reus, General Exceptions (Private defense, Insanity, Intoxication), Offences against body (Homicide, Murder) and property (Theft, Extortion)",
+          "Family Law & Personal Laws: Marriage, Divorce, Maintenance, Adoption, Succession across personal legal frameworks and Uniform Civil Code principles",
+          "Environmental Law: Precautionary principle, Polluter pays principle, Public trust doctrine, National Green Tribunal jurisdiction",
+          "Intellectual Property Rights: Copyrights, Patents, Trademarks, Geographical indications, Fair dealing provisions",
+          "Legal Maxims & Terminology: Volenti non fit injuria, Res ipsa loquitur, Nemo judex in causa sua, Audi alteram partem, Actus non facit reum nisi mens sit rea",
+          "Application of Legal Principles: Fact-principle-reasoning analysis, applying codified rules strictly without bringing external personal prejudices"
+        ]
+      },
+      {
+        "subject_id": "clat-logical-quantitative",
+        "name": "Logical Reasoning, Critical Thinking & Quantitative Techniques (तार्किक क्षमता, गहन चिंतन एवं परिमाणात्मक तकनीकें)",
+        "short_name": "CLAT Logic & Quantitative",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.25,
+        "domains": [
+          "Critical Reasoning: Identifying arguments, identifying premises, unstated assumptions, and logical conclusions",
+          "Argument Evaluation: Strengthening and weakening arguments, identifying flaws in reasoning, parallel reasoning patterns",
+          "Deductive & Analytical Reasoning: Categorical propositions, syllogisms, conditional statements (Modus Ponens, Modus Tollens)",
+          "Logical Relations & Analogies: Cause and effect relationships, course of action, assertions and reasons",
+          "Data Interpretation: Reading and deriving insights from short caselets, numerical passages, tabular charts, bar graphs",
+          "Arithmetic Fundamentals: Ratios and Proportions, Percentages, Profit and Loss, Simple and Compound Interest, Averages",
+          "Time, Speed, Distance & Work: Rates of work, relative speed, travel time calculations applied in practical scenarios",
+          "Mensuration & Statistical Estimation: Basic geometric measurements, perimeter, area, volume, median, mean, statistical data evaluation"
+        ]
+      }
+    ]
+  }
+}

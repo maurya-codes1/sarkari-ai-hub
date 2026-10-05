@@ -1,0 +1,7 @@
+Metric Category,Pre-Deployment Count,Post-Deployment Count,Net Delta,Status / Verification
+Total Repository Questions,"302,120","303,320","+1,200",100% Verified Match
+School Board Questions (31 Boards),"261,520","261,520",0,100% Strictly Untouched & Preserved
+CLAT Law Ingested Questions,0,"1,200","+1,200",4 Subjects x 300 Qs
+CLAT Law Master Notes,0,5,+5,5 Master Notes (50% sampling)
+Foreign Key Integrity Violations,0,0,0,PRAGMA foreign_key_check = OK
+Database Structural Integrity,ok,ok,0,PRAGMA integrity_check = OK

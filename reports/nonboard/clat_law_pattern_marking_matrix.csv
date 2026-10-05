@@ -1,0 +1,13 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Body,Consortium of National Law Universities (Consortium of NLUs),org-consortium-of-national-law-universities-
+Official Exam Version ID,ver-clat-law-2026,ver-clat-law-2026
+Examination Mode,Offline Pen-and-Paper (OMR Answer Sheet),Objective Single Choice MCQ
+Total Exam Duration,120 Minutes (2 Hours),120 Minutes Standard
+Total Question Count in Live Exam,120 Questions (Comprehension Passage Based),120 Questions Standard
+Total Marks in Live Exam,120 Marks,120 Marks Standard
+Marks for Correct Answer,+1.0 Mark,+1.0 Mark across all questions
+Penalty for Incorrect Answer,-0.25 Mark (Negative Marking 25%),0.25 Negative Marking
+Medium of Exam,English (with Hindi portal bilingual access),Bilingual Dual JSON (en + hi)
+Total Repository Question Bank,"1,200 Official Questions (4 Subjects x 300 Qs)","1,200 Questions Ingested"
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database
