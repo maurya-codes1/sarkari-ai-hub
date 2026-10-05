@@ -1,0 +1,11 @@
+Parameter,Official Standard Value,Portal Ingestion Specification
+Examination Conducting Body,Organizing IIT on behalf of JAB (Joint Admission Board),org-organizing-iit-on-behalf-of-jab-joint-ad
+Official Exam Version ID,ver-nta-jee-adv-2026,ver-nta-jee-adv-2026
+Examination Mode,Computer Based Test (CBT Online) - 2 Compulsory Papers,Objective Single Choice MCQ Standard
+Total Exam Duration,360 Minutes (Paper 1: 180 Mins + Paper 2: 180 Mins),360 Minutes Total Standard
+Marks for Correct Answer (Single MCQ),+3.0 Marks,+3.0 Marks across all questions
+Penalty for Incorrect Answer,-1.0 Mark (Negative Marking 33.3%),1.0 Negative Marking
+Medium of Exam,English & Hindi (Bilingual CBT),Bilingual Dual JSON (en + hi)
+Total Repository Question Bank,900 Official Questions (3 Subjects x 300 Qs),900 Questions Ingested
+Subject Option Key Balance,"Equal 25.0% distribution (75 A, 75 B, 75 C, 75 D)",Strictly Verified 75 each
+Study Notes & Simulation Bundles,5 Master Revision Bundles sampling 50% questions,5 Notes deployed in database

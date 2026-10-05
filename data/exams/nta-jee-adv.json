@@ -1,0 +1,122 @@
+{
+  "exam_id": "nta-jee-adv",
+  "name": "JEE Advanced (Joint Entrance Examination Advanced for Indian Institutes of Technology - IITs)",
+  "short_name": "JEE Advanced (IITs)",
+  "exam_category": "engineering_entrance",
+  "exam_level": "National",
+  "conducting_body": {
+    "organization_id": "org-organizing-iit-on-behalf-of-jab-joint-ad",
+    "name": "Organizing IIT on behalf of JAB (Joint Admission Board)",
+    "short_name": "JAB / IITs",
+    "headquarters": "Joint Admission Board (JAB), IIT Campus",
+    "official_website": "https://jeeadv.ac.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-jee-adv-official-portal",
+      "name": "JEE Advanced Official Examination Portal (jeeadv.ac.in)",
+      "url": "https://jeeadv.ac.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-jee-adv-information-brochure-2026",
+      "name": "JEE (Advanced) 2026 Information Brochure & Admission Rules",
+      "url": "https://jeeadv.ac.in/brochure-2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    },
+    {
+      "source_id": "src-jee-adv-syllabus-2026",
+      "name": "JEE Advanced Prescribed Core Curriculum & Comprehensive Syllabus Guidelines",
+      "url": "https://jeeadv.ac.in/syllabus-jee-advanced-2026.pdf",
+      "type": "STATUTORY_REGULATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "jee_advanced_cbt": {
+      "stage_name": "JEE (Advanced) Computer Based Test (Paper 1 & Paper 2)",
+      "mode": "Computer Based Test (CBT Online)",
+      "duration_minutes": 360,
+      "total_papers": 2,
+      "paper_duration_minutes": 180,
+      "marks_per_single_mcq": 3.0,
+      "negative_marking_single_mcq": 1.0,
+      "sections": [
+        {
+          "name": "Physics",
+          "scope": "General Physics, Kinematics, Newtonian Mechanics, Work Energy Power, Systems of Particles and Rotational Dynamics, Gravitation, Mechanics of Solids and Fluids, Thermal Physics and Thermodynamics, Oscillations and Waves, Electrostatics, Capacitance, Electric Current and Circuit Networks, Magnetic Field and Lorentz Force, Biot-Savart and Ampere Laws, Electromagnetic Induction and Alternating Current, Optics (Ray and Wave Optics), Modern Physics (Atomic, Nuclear, Photoelectric), and Experimental Physics."
+        },
+        {
+          "name": "Chemistry",
+          "scope": "Physical Chemistry (General Topics, States of Matter: Gases and Liquids, Atomic Structure, Chemical Bonding, Chemical Thermodynamics, Chemical and Ionic Equilibrium, Electrochemistry, Chemical Kinetics, Solid State, Solutions, Surface Chemistry). Inorganic Chemistry (Classification of Elements and Periodic Properties, Principles and Metallurgy, Hydrogen and s-block, p-block Elements, d-block and f-block Elements, Coordination Compounds, Qualitative Analysis). Organic Chemistry (Basic Principles of Organic Chemistry, Hydrocarbons, Haloalkanes and Haloarenes, Alcohols, Phenols and Ethers, Aldehydes and Ketones, Carboxylic Acids and Derivatives, Amines and Diazonium Salts, Polymers, Biomolecules, Practical Organic Chemistry)."
+        },
+        {
+          "name": "Mathematics",
+          "scope": "Algebra (Sets, Relations, Functions, Complex Numbers, Quadratic Equations, Sequences and Series, Logarithms, Permutations and Combinations, Binomial Theorem, Matrices and Determinants, Probability, Statistics). Trigonometry (Trigonometric Functions, Identities, Trigonometric Equations, Inverse Trigonometric Functions, Properties of Triangles). Vectors and Three-Dimensional Geometry (Vector Algebra, Scalar and Vector Products, Direction Cosines, Straight Lines and Planes in 3D). Differential Calculus (Real-valued Functions, Limits, Continuity, Differentiability, Tangents and Normals, Monotonicity, Maxima and Minima). Integral Calculus (Indefinite Integrals, Definite Integrals, Fundamental Theorem of Calculus, Areas bounded by Curves, Differential Equations). Analytical Geometry (Cartesian Coordinates, Straight Lines, Circles, Conic Sections: Parabola, Ellipse, Hyperbola)."
+        }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "jee-adv-physics",
+        "name": "Physics (भौतिक विज्ञान - उच्च स्तरीय)",
+        "short_name": "JEE Adv Physics",
+        "total_questions": 300,
+        "marks_per_question": 3.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "General Physics & Error Analysis: Vernier calipers, Screw gauge, Error propagation, Dimensional analysis",
+          "Classical Mechanics & Rigid Body Dynamics: Variable mass systems, Center of mass frame, Moment of inertia tensors, Rolling with slipping, Gyroscopic precession basics, Conservation of angular momentum",
+          "Fluid Mechanics & Elasticity: Navier-Stokes approximations, Bernoulli equation with variable head, Torricelli theorem, Viscous flow in capillaries (Poiseuille law), Surface energy and excess pressure",
+          "Thermal Physics & Statistical Thermodynamics: Real gas Van der Waals equation, Reversible and irreversible cyclic processes, Entropy calculation, Blackbody radiation and Wien displacement law, Heat conduction through composite bars",
+          "Wave Motion & Sound: Non-linear wave equations, Doppler effect with moving source, observer and wind medium, Standing waves in clamped strings and organ pipes, Resonance columns",
+          "Electrostatics & Dielectrics: Boundary conditions at conductor-dielectric interfaces, Method of images, Non-spherical charge distributions, Energy density of electric fields",
+          "Current Electricity & Networks: Non-planar resistive lattices, Infinite grid impedances, Temperature dependence of conductivity, Galvanometer damping and ballistic measurements",
+          "Magnetostatics & Electromagnetism: Magnetic scalar and vector potential, Hall effect, Relativistic Lorentz transformations of fields, Magnetic dipole-dipole interactions",
+          "Electromagnetic Induction & Maxwell Equations: Displacement current, Maxwell curl equations, Eddy current damping, Self and mutual coupling in branched circuits, Energy in LC oscillators",
+          "Optics (Geometrical & Physical): Matrix methods in paraxial optics, Chromatic and spherical aberration, Resolving power of optical instruments, Fresnel and Fraunhofer diffraction, Polarization and Brewster angle",
+          "Modern Physics & Quantum Phenomena: Compton scattering, Davisson-Germer experiment, Wave packet uncertainty, Nuclear binding energy and Q-value calculations, Radioactive decay chains, Semiconductor devices and tunnel diodes"
+        ]
+      },
+      {
+        "subject_id": "jee-adv-chemistry",
+        "name": "Chemistry (रसायन विज्ञान - उच्च स्तरीय)",
+        "short_name": "JEE Adv Chemistry",
+        "total_questions": 300,
+        "marks_per_question": 3.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Physical Chemistry - Thermodynamics & Equilibrium: Maxwell thermodynamic relations, Fugacity and activity, Gibbs-Helmholtz equation, Le Chatelier principle in multiphase systems, Buffer capacity and polyprotic acid equilibria, Solubility product in complexing media",
+          "Physical Chemistry - Electrochemistry & Kinetics: Nernst equation for concentration cells with transference, Fuel cells, Overpotential, Multi-step reaction mechanisms, Steady-state approximation, Arrhenius activation energy and transition state theory",
+          "Physical Chemistry - Solid State & Surface Chemistry: Bragg reflection in cubic and hexagonal close-packed crystals, Schottky and Frenkel defect equilibria, Langmuir and Freundlich adsorption isotherms, Colloidal stability and Schulze-Hardy rule",
+          "Inorganic Chemistry - Chemical Bonding & Coordination: Molecular Orbital Theory of heteronuclear diatomics, Crystal Field Theory (octahedral, tetrahedral, square planar), Jahn-Teller distortion, Spectrochemical series, Isomerism in coordination complexes, Organometallics and Zeise salt",
+          "Inorganic Chemistry - Main Group & Transition Metallurgy: Boranes (3c-2e bonding), Silicates and silicones, Oxyacids of phosphorus, sulfur and halogens, Extraction metallurgy (Ellingham diagrams, Hall-Heroult process), Lanthanoid contraction and actinides separation",
+          "Inorganic Chemistry - Qualitative Inorganic Analysis: Systematic cation group separation (Groups I to VI), Flame tests, Confirmatory tests for acid radicals (borax bead, sodium nitroprusside, chromyl chloride, Nessler reagent)",
+          "Organic Chemistry - Reaction Mechanisms & Stereochemistry: Chirality, Enantiomers, Diastereomers, Optical resolution, E1, E2, E1cB elimination competition, SN1, SN2, SNi nucleophilic substitution stereochemistry, Neighboring group participation (NGP)",
+          "Organic Chemistry - Functional Group Transformations: Electrophilic aromatic substitution (directing groups, Friedel-Crafts alkylation/acylation), Nucleophilic acyl substitution, Organometallic reagents (Grignard, Gilman, Organolithium)",
+          "Organic Chemistry - Carbonyl Chemistry & Condensations: Aldol, Cannizzaro, Claisen, Dieckmann, Perkin, Knoevenagel, Reformatsky condensations, Michael addition, Wittig reaction, Carbene additions",
+          "Organic Chemistry - Biomolecules & Polymers: Fisher and Haworth projections of carbohydrates, Amino acid zwitterions and isoelectric point, Peptide synthesis, Nucleic acid pairing, Addition and condensation polymers"
+        ]
+      },
+      {
+        "subject_id": "jee-adv-mathematics",
+        "name": "Mathematics (गणित - उच्च स्तरीय)",
+        "short_name": "JEE Adv Mathematics",
+        "total_questions": 300,
+        "marks_per_question": 3.0,
+        "negative_marks": 1.0,
+        "domains": [
+          "Advanced Algebra: De Moivre theorem, Roots of unity and polynomial factorization, Theory of equations, Location of roots, Symmetric functions of roots, Determinants and Cramer rule, Matrix characteristic polynomials and Cayley-Hamilton theorem",
+          "Combinatorics & Probability: Advanced permutations and combinations, Principle of Inclusion-Exclusion, Derangements, Binomial and multinomial theorem expansions, Conditional probability, Bayes theorem, Independent events, Geometric probability distributions",
+          "Trigonometry & Complex Functions: Summation of finite trigonometric series, Inverse trigonometric identities, Complex trigonometric functions, Properties of triangles, Circumcircle, Incircle and Excircles relations",
+          "Differential Calculus: Epsilon-delta continuity, Mean Value Theorems (Rolle, Lagrange, Cauchy), L'Hopital rule with indeterminate powers, Successive differentiation and Leibniz theorem, Curve sketching, Points of inflection, Tangents and normals",
+          "Integral Calculus: Advanced definite integral properties, Leibniz rule for differentiation under integral sign, Walli formulas, Beta and Gamma functions basics, Area between intersecting curves, Arc length and surface of revolution",
+          "Differential Equations: First-order linear and Bernoulli equations, Exact differential equations, Integrating factors, Orthogonal trajectories, Second-order linear differential equations with constant coefficients",
+          "Coordinate Geometry (2D): Homogeneous second degree equations representing pair of lines, Orthocenter, circumcenter, centroid loci, Director circle, Pole and polar, Normal chords of parabola, Ellipse auxiliary circle, Hyperbola asymptotes and conjugate hyperbola",
+          "Vectors & Three-Dimensional Geometry: Scalar and vector triple products, Reciprocal system of vectors, Vector equations of lines and planes, Shortest distance between skew lines, Angle between planes, Intersection of line and sphere"
+        ]
+      }
+    ]
+  }
+}
