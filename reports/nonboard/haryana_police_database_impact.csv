@@ -1,0 +1,7 @@
+Metric / Table,Pre-Deployment Baseline,Post-Deployment Value,Delta Added,Integrity Status
+Total Questions in Database,294620,295820,"+1,200",Verified Correct
+School Board Questions (31 Boards),"261,520",261520,0 (Untouched),100% PRESERVED
+Haryana Police Questions,0,1200,"+1,200",100% Fresh & Aligned
+Haryana Police Master Notes,0,5,+5,Verified 50% Sampling
+Foreign Key Violations,0,0,0,0 Errors (Clean)
+Database PRAGMA integrity_check,ok,ok,None,Database Healthy

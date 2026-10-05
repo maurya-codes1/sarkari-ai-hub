@@ -1,0 +1,124 @@
+{
+  "exam_id": "haryana-police",
+  "name": "Haryana Police Male & Female Constable General Duty Examination (हरियाणा पुलिस सिपाही भर्ती परीक्षा - HSSC)",
+  "short_name": "Haryana Police HSSC",
+  "exam_category": "police_recruitment",
+  "exam_level": "State",
+  "conducting_body": {
+    "organization_id": "org-haryana-staff-selection-commission-hssc-",
+    "name": "Haryana Staff Selection Commission (HSSC), Panchkula",
+    "short_name": "HSSC Panchkula",
+    "headquarters": "Bays No. 67-70, Sector-2, Panchkula, Haryana 134151",
+    "official_website": "https://hssc.gov.in"
+  },
+  "official_sources": [
+    {
+      "source_id": "src-haryana-police-portal",
+      "name": "Haryana Staff Selection Commission Official Portal (hssc.gov.in)",
+      "url": "https://hssc.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-haryana-police-dept-portal",
+      "name": "Haryana Police Department Official Portal (haryanapolice.gov.in)",
+      "url": "https://haryanapolice.gov.in",
+      "type": "OFFICIAL_PORTAL"
+    },
+    {
+      "source_id": "src-haryana-police-constable-notice-2026",
+      "name": "Haryana Police Constable Recruitment Official Notification & Syllabus 2026",
+      "url": "https://hssc.gov.in/hssc_police_constable_2026.pdf",
+      "type": "EXAM_NOTIFICATION"
+    }
+  ],
+  "scheme_of_examination": {
+    "knowledge_test": {
+      "stage_name": "Knowledge Test (CBT / OMR - 100 Objective Questions / 94.5 Marks normalized)",
+      "duration_minutes": 105,
+      "total_questions": 100,
+      "total_marks": 100,
+      "marks_per_question": 1.0,
+      "negative_marking": 0.0,
+      "sections": [
+        { "name": "Haryana General Knowledge, History, Geography & Culture", "questions": 25, "marks": 25 },
+        { "name": "Agriculture, Animal Husbandry & General Science", "questions": 25, "marks": 25 },
+        { "name": "Reasoning Ability & Numerical Aptitude (Mathematics)", "questions": 25, "marks": 25 },
+        { "name": "Computer Knowledge, General Studies & Police Administration", "questions": 25, "marks": 25 }
+      ]
+    }
+  },
+  "curriculum_structure": {
+    "subjects": [
+      {
+        "subject_id": "haryana-police-haryana-gk",
+        "name": "Haryana General Knowledge, History, Geography, Culture & Administration (हरियाणा सामान्य ज्ञान, इतिहास, भूगोल एवं संस्कृति)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Ancient & Medieval History of Haryana: Vedic civilization on banks of Saraswati, Kurukshetra battle of Mahabharata, Harshavardhana capital Thanesar, Three Battles of Panipat (1526 Babur vs Ibrahim Lodi, 1556 Akbar vs Hemu, 1761 Marathas vs Ahmad Shah Abdali)",
+          "1857 Revolt & Freedom Struggle in Haryana: Rao Tula Ram (Rewari), Dhanu Singh (Farrukhnagar), Ambala Cantonment uprising, Lala Lajpat Rai (Hisar कर्मभूमि), Sir Chhotu Ram (Peasant welfare, Unionist Party)",
+          "State Formation & Geography of Haryana: Formed on 1 November 1966 on recommendation of Shah Commission (17th state of India), 22 Districts, 6 Administrative Divisions (Ambala, Faridabad, Gurugram, Hisar, Rohtak, Karnal)",
+          "Physiography & Rivers: Shivalik hills in north (Karoh Peak 1467m in Morni Hills - highest point), Aravalli hills in south (Dhosi Hill 652m), Ghaggar-Hakra, Yamuna (eastern boundary), Markanda, Tangri, Saraswati, Sahibi, Krishnavati rivers",
+          "Wildlife Sanctuaries & National Parks: Sultanpur National Park (Gurugram - migratory birds, Ramsar Site), Kalesar National Park (Yamunanagar - Sal forest), Bhindawas Sanctuary (Jhajjar - Ramsar Site), Khaparwas, Bir Shikargah (Panchkula), Chhilchhila (Kurukshetra)",
+          "Art, Culture & Literature: Swang / Saang folk theatre (Deep Chand Bahman, Lakhmi Chand - 'Surya Kavi of Haryana', Dayachand Mayna), Ragini music, Folk dances (Dhamal - from Mahabharata times, Loor, Khoria, Phag, Gugga dance), Surajkund International Crafts Mela (Faridabad)",
+          "State Symbols of Haryana: State Animal (Blackbuck / काला हिरण), State Bird (Black Francolin / काला तीतर), State Tree (Peepal), State Flower (Lotus)",
+          "Haryana Police Administration: Motto ('सेवा, सुरक्षा, सहयोग' - Service, Security, Cooperation), Headquarters at Sector-6 Panchkula, Police Commissionerates (Gurugram, Faridabad, Panchkula, Sonipat), Haryana Armed Police (HAP Madhuban), Haryana Police Academy Madhuban, Dial 112 (ERSS), Operation Durga (women safety)"
+        ]
+      },
+      {
+        "subject_id": "haryana-police-agriculture-animal-husbandry",
+        "name": "Agriculture, Animal Husbandry & General Science (कृषि, पशुपालन एवं सामान्य विज्ञान)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Agriculture in Haryana: Major Kharif crops (Paddy, Cotton, Bajra, Sugarcane) and Rabi crops (Wheat, Mustard, Gram, Barley), Green Revolution in Haryana, CCS Haryana Agricultural University (HAU Hisar, 1970)",
+          "Soils & Irrigation: Alluvial soil, Sandy loam, Canals (Western Yamuna Canal, Bhakra Canal, Indira Gandhi Feeder), Micro-irrigation, Fertilizer NPK ratios, Soil testing, PM Fasal Bima Yojana, Bhavantar Bharpai Yojana",
+          "Animal Husbandry & Dairy Farming: Haryana as 'Milk Pail of India' (दूध की हांड़ी), National Dairy Research Institute (NDRI Karnal, 1955), Central Institute for Research on Buffaloes (CIRB Hisar), Lala Lajpat Rai University of Veterinary and Animal Sciences (LUVAS Hisar)",
+          "Cattle & Buffalo Breeds: Murrah Buffalo (known as 'Black Gold of Haryana' / काला सोना), Hariana Cattle (dual-purpose breed), Sahiwal, Tharparkar, Gir cow, Beetal goat, Nili-Ravi",
+          "Animal Health, Nutrition & Management: Animal diseases (Foot-and-Mouth Disease / खुरपका-मुंहपका, Rinderpest, Anthrax, Black Quarter, Mastitis), Artificial Insemination (AI), Balanced cattle feed, Colostrum feeding, De-worming vaccines",
+          "General Science - Physics: Motion, Newton's laws, Work and Energy, Pressure, Atmospheric pressure, Archimedes principle, Optics, Electric circuit, Magnetism",
+          "General Science - Chemistry: Structure of Atom, Periodic table, Acids, Bases & Salts, Metals and Alloys, Carbon and its compounds, Fertilizers (Urea, DAP)",
+          "General Science - Biology & Health: Cell division, Human organ systems, Vitamins and deficiency diseases (Night blindness, Beriberi, Scurvy, Rickets), Infectious diseases (Bacteria, Virus, Fungi, Protozoa), Immunity and Vaccines"
+        ]
+      },
+      {
+        "subject_id": "haryana-police-reasoning-maths",
+        "name": "Reasoning Ability, Mental Logic & Numerical Aptitude (तर्कशक्ति एवं अंकगणित)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Logical Reasoning & Mental Ability: Analogies, Classification / Odd One Out, Coding-Decoding (Letter shift, substitution, matrix), Alphabet test",
+          "Series & Missing Character: Number series (differences, prime, square, cube), Alphabet series, Alphanumeric series, Missing term in geometric matrices",
+          "Direction & Distance Sense: Four cardinal and four intercardinal directions, Turns, Angles, Pythagoras theorem distance calculations, Shadow orientation",
+          "Blood Relations: Family tree relations, Pointing statements, Decoded relations (P + Q, P - Q)",
+          "Clock & Calendar: Angle between hour and minute hands, Overlapping and perpendicular frequency, Odd days, Day of the week calculation, Leap years",
+          "Order & Ranking, Seating Arrangement: Position from left/right, Total persons, Linear single-row seating, Circular seating facing center",
+          "Syllogisms & Venn Diagrams: Statements and Conclusions, Universal and particular propositions, Venn diagram set relations",
+          "Non-Verbal Reasoning: Mirror images, Water images, Paper folding, Embedded figures, Pattern completion, Dice and Cube faces",
+          "Number System & Simplification: Natural numbers, Prime numbers, Divisibility rules, BODMAS / VBODMAS rule, Square roots and Cube roots, LCM and HCF",
+          "Arithmetic Problems: Average and Problems on Ages, Ratio and Proportion, Partnership, Percentage, Profit and Loss, Discount, Simple Interest and Compound Interest, Time and Work, Pipes and Cisterns, Speed, Distance, Time and Train problems, Mensuration 2D and 3D"
+        ]
+      },
+      {
+        "subject_id": "haryana-police-computer-general-studies",
+        "name": "Computer Knowledge, General Studies & Police Administration (कंप्यूटर ज्ञान, सामान्य अध्ययन एवं पुलिस प्रशासन)",
+        "total_questions": 300,
+        "marks_per_question": 1.0,
+        "negative_marks": 0.0,
+        "domains": [
+          "Computer Fundamentals (Mandatory 10% HSSC Curriculum): History and Generations of Computers, Hardware architecture (CPU, ALU, Control Unit, Registers), Input/Output devices, Computer Memory (RAM, ROM, Cache, Secondary SSD/HDD)",
+          "Operating Systems & Software: System software vs Application software, Windows OS, Linux, Android, File management, Task Manager, File extensions",
+          "MS Office Suite: MS Word (Text formatting, Shortcuts, Tables, Mail Merge), MS Excel (Formulas, Functions SUM/AVERAGE/IF, Cell referencing, Charts), MS PowerPoint (Slide transitions, Animations)",
+          "Networking, Internet & Cyber Security: LAN, WAN, MAN, IP Address (IPv4, IPv6), DNS, HTTP, HTTPS, Web Browsers, Search Engines, Phishing, Malware, Trojans, Ransomware, Firewall, IT Act 2000, Cyber Crime Portal (cybercrime.gov.in)",
+          "Indian Polity & Constitution: Preamble, Fundamental Rights, Fundamental Duties, DPSP, President, Prime Minister, Parliament, Supreme Court, High Court of Punjab and Haryana (Chandigarh), 73rd/74th Constitutional Amendments",
+          "Indian History & National Movement: Ancient India (Harappan civilization - Rakhigarhi in Hisar largest IVC site), Medieval India, Modern India (1857 Revolt, INC, Non-Cooperation, Civil Disobedience, Quit India)",
+          "National & International Current Affairs, Awards & Sports: Olympics, Asian Games, Commonwealth Games (Haryana athletes' dominance - Neeraj Chopra, Bajrang Punia, Vinesh Phogat, Manu Bhaker), Khel Ratna, Arjuna Award, Bhim Award (Haryana's highest sports award)",
+          "Police Administration & Legal Awareness: Haryana Police Ranks (DGP, ADGP, IG, DIG, SP, DSP, Inspector, SI, ASI, Head Constable, Constable), Dial 112 ERSS, Motor Vehicles Act rules (Section 129 Helmet, Section 185 Drunk Driving), Basic criminal laws (BNS / IPC awareness)"
+        ]
+      }
+    ]
+  }
+}
