@@ -1,0 +1,198 @@
+{
+  "board_id": "odisha-bse-chse",
+  "board_name": "Odisha School Board Ecosystem (BSE Odisha & CHSE Odisha)",
+  "short_name": "OD-ECOSYSTEM",
+  "common_name": "Odisha Board",
+  "state": "Odisha",
+  "headquarters": "Cuttack & Bhubaneswar, Odisha",
+  "country": "India",
+  "authorities": {
+    "BSE": {
+      "authority_id": "bse-odisha",
+      "name": "Board of Secondary Education, Odisha",
+      "short_name": "BSE Odisha",
+      "headquarters": "Bajrakabati Road, Cuttack - 753001, Odisha",
+      "official_website": "https://www.bseodisha.ac.in/",
+      "portal_results": "http://orissaresults.nic.in/",
+      "jurisdiction": "Secondary Education (Class 9 Academic Support & Class 10 High School Certificate Examination)"
+    },
+    "CHSE": {
+      "authority_id": "chse-odisha",
+      "name": "Council of Higher Secondary Education, Odisha",
+      "short_name": "CHSE Odisha",
+      "headquarters": "Prajnapitha, Samantapur, Bhubaneswar - 751013, Odisha",
+      "official_website": "https://chseodisha.nic.in/",
+      "portal_results": "http://orissaresults.nic.in/",
+      "sams_portal": "https://samsodisha.gov.in/",
+      "jurisdiction": "Higher Secondary Education (Class 11 +2 1st Year Foundation & Class 12 +2 2nd Year Annual Examination)"
+    }
+  },
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "bse_home": "https://www.bseodisha.ac.in/",
+    "chse_home": "https://chseodisha.nic.in/",
+    "results_portal": "http://orissaresults.nic.in/",
+    "sams_odisha": "https://samsodisha.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_odisha": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "or",
+      "name": "Odia",
+      "script": "Odia",
+      "unicode_range": "U+0B00 - U+0B7F",
+      "mandatory_for": ["First Language Odia (FLO)", "MIL Odia", "Third Language Odia (TLO)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["First Language English (FLE)", "Second Language English (SLE)", "Compulsory English"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["First Language Hindi (FLH)", "Second Language Hindi (SLH)", "Third Language Hindi (TLH)", "MIL Hindi"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Perso-Arabic / Nastaliq",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["First Language Urdu (FLU)", "MIL Urdu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Third Language Sanskrit (TLS)", "MIL Sanskrit"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "unicode_range": "U+0C00 - U+0C7F",
+      "mandatory_for": ["First Language Telugu (FLT)", "MIL Telugu"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["First Language Bengali (FLB)", "MIL Bengali"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "authority": "bse-odisha",
+    "examination_status": "Annual School-Level Internal Assessment & Official BSE Odisha Advance Registration",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, Continuous Evaluation, Advance Student Registration for Matric",
+    "progression_to_class_10": {
+      "rule": "Progression to Class 10 requires qualifying the school-based Class 9 annual assessment under BSE Odisha Continuous and Comprehensive Evaluation guidelines and completing the official BSE candidate registration."
+    }
+  },
+  "class_10": {
+    "authority": "bse-odisha",
+    "examination_name": "High School Certificate (HSC) Examination / Annual Matric Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Secondary Board Examination, Verified Practice, Model Papers & Revision Compendiums",
+    "examination_schedule_and_duration": {
+      "standard_hours": "10:00 AM to 12:30 PM (2 hours 30 minutes; Mathematics 2 hours 45 minutes)",
+      "omr_duration": "50 minutes for 50 MCQs OMR sheet",
+      "subjective_duration": "1 hour 40 minutes for subjective booklet"
+    },
+    "first_languages_official": [
+      "Odia (FLO)", "Bengali (FLB)", "Hindi (FLH)", "Urdu (FLU)", "Telugu (FLT)", "English (FLE)"
+    ],
+    "second_languages_official": [
+      "English (SLE - for non-English FL)", "Hindi (SLH - for English FL)", "Odia (SLO - for English FL)"
+    ],
+    "third_languages_official": [
+      "Hindi (TLH)", "Sanskrit (TLS)", "Odia (TLO)", "Persian (TLP)"
+    ],
+    "core_academic_subjects": [
+      { "subject_id": "od-c10-mathematics", "name": "Mathematics (Patiganita, Bijaganita o Jyamiti)" },
+      { "subject_id": "od-c10-general-science", "name": "General Science (Bhoutika Bigyan o Jiba Bigyan)" },
+      { "subject_id": "od-c10-social-science", "name": "Social Science (Itihasa, Rajaniti Bigyan, Bhugola o Arthaniti)" }
+    ],
+    "scheme_of_examination": "6 Compulsory Subjects (First Language, Second Language, Third Language, Mathematics, General Science, Social Science). Each subject carries 100 Marks (80 Marks Summative Board Examination: 50 MCQs OMR + 30 Subjective Written + 20 Marks Internal Formative Assessment). Total: 600 Marks.",
+    "passing_criteria": {
+      "minimum_percentage_per_subject": 30,
+      "minimum_aggregate_percentage": 33,
+      "minimum_total_marks": 198,
+      "grading_system": "Grade A1 (90-100%, 540-600), A2 (80-89%, 480-539), B1 (70-79%, 420-479), B2 (60-69%, 360-419), C (50-59%, 300-359), D (40-49%, 240-299), E (33-39%, 198-239 / Pass Threshold), F (Below 33% / Below 198 Failed)."
+    },
+    "special_examinations": {
+      "single_subject_odia": "BSE Odisha conducts Half-Yearly / Annual Single Subject Examination in Odia (Class X standard) for in-service candidates and job aspirants."
+    }
+  },
+  "class_11": {
+    "authority": "chse-odisha",
+    "examination_status": "+2 First Year Foundation & SAMS Sourced Enrolment",
+    "board_exam_eligible": false,
+    "service_type": "Council-Monitored Institutional Assessment, Stream Selection, SAMS Online Registration",
+    "progression_to_class_12": {
+      "rule": "Promotion to Class 12 (+2 2nd Year) requires passing Class 11 annual internal college examination and maintaining minimum 75% attendance in theory and practicals."
+    }
+  },
+  "class_12": {
+    "authority": "chse-odisha",
+    "examination_name": "Annual Higher Secondary Examination (AHSE) / +2 Second Year Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Higher Secondary Board Examination, Stream Specialization, Full Exam Simulator & Practice",
+    "streams_official": {
+      "science": {
+        "stream_name": "Science Stream (+2 Science)",
+        "compulsory": ["English", "M.I.L. (Odia/Hindi/Bengali/Telugu/Urdu/Sanskrit/Alt English)", "Environmental Education", "Yoga", "Basic Computer Education"],
+        "electives": ["Physics", "Chemistry", "Mathematics", "Biology (Botany & Zoology)", "Information Technology", "Computer Science", "Statistics", "Geology", "Electronics", "Economics"]
+      },
+      "commerce": {
+        "stream_name": "Commerce Stream (+2 Commerce)",
+        "compulsory": ["English", "M.I.L."],
+        "electives": ["Accountancy", "Business Studies & Management", "Business Mathematics & Statistics", "Costing & Taxation", "Commercial Law", "Economics", "Computer Application"]
+      },
+      "arts": {
+        "stream_name": "Arts / Humanities Stream (+2 Arts)",
+        "compulsory": ["English", "M.I.L."],
+        "electives": ["History", "Political Science", "Economics", "Education", "Sociology", "Logic & Philosophy", "Geography", "Psychology", "Home Science", "Sanskrit"]
+      },
+      "vocational": {
+        "stream_name": "Vocational Stream (+2 Vocational)",
+        "compulsory": ["English", "M.I.L."],
+        "electives": ["Automobile Technology", "Information Technology & ITeS", "Retail Management", "Healthcare Services", "Agriculture", "Tourism & Hospitality"]
+      }
+    },
+    "scheme_of_examination": "Total 6 Subjects (2 Compulsory Languages: English + MIL; 3 Compulsory Electives; 1 Optional 4th Elective). Each subject carries 100 Marks (Lab subjects: 70 Theory + 30 Practical; Non-lab subjects: 80 Theory + 20 Project/Internal). Total Marks: 600.",
+    "passing_criteria": {
+      "minimum_theory_percentage": 30,
+      "minimum_practical_percentage": 30,
+      "minimum_aggregate_percentage": 33,
+      "grading_system": "Division 1 (>= 60%), Division 2 (45% to < 60%), Division 3 (33% to < 45%). Fail (< 33%)."
+    }
+  }
+}

@@ -29,15 +29,23 @@ async function packageDatabase() {
   const gzip = zlib.createGzip({ level: 9 });
   const readStream = fs.createReadStream(DB_PATH);
   const writeStream = fs.createWriteStream(TMP_GZ_PATH);
+  const { Transform } = require('stream');
+
+  const hashTransform = new Transform({
+    transform(chunk, encoding, callback) {
+      hasher.update(chunk);
+      callback(null, chunk);
+    }
+  });
 
   await new Promise((resolve, reject) => {
-    readStream.on('data', chunk => hasher.update(chunk));
     readStream.on('error', reject);
+    hashTransform.on('error', reject);
     gzip.on('error', reject);
     writeStream.on('error', reject);
     writeStream.on('finish', resolve);
 
-    readStream.pipe(gzip).pipe(writeStream);
+    readStream.pipe(hashTransform).pipe(gzip).pipe(writeStream);
   });
 
   const sha256 = hasher.digest('hex');

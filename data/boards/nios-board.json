@@ -1,0 +1,246 @@
+{
+  "board_id": "nios-board",
+  "board_name": "National Institute of Open Schooling",
+  "short_name": "NIOS",
+  "common_name": "National Open School",
+  "institution_type": "National Open Schooling / Open and Distance School Education Institution",
+  "state": "National / Pan-India",
+  "country": "India",
+  "official_website": "https://www.nios.ac.in/",
+  "classes": [9, 10, 11, 12],
+  "courses": [
+    "Secondary Course (Class 10 Equivalent)",
+    "Senior Secondary Course (Class 12 Equivalent)"
+  ],
+  "current_academic_session": "2026-27",
+  "current_exam_cycle": "October-November 2026 / April-May 2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "home": "https://www.nios.ac.in/",
+    "digital_academic": "https://digital.nios.ac.in/",
+    "sdmis": "https://sdmis.nios.ac.in/",
+    "notifications": "https://sdmis.nios.ac.in/registration/home-notifications",
+    "course_material_secondary": "https://www.nios.ac.in/online-course-material/secondary-courses.aspx",
+    "course_material_sr_secondary": "https://www.nios.ac.in/online-course-material/sr-secondary-courses.aspx",
+    "tma": "https://www.nios.ac.in/student-information-section/tutor-marked-assignment.aspx",
+    "ode": "https://www.nios.ac.in/on-demand-examination.aspx",
+    "timetable": "https://www.nios.ac.in/exam-result.aspx"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_nios": true
+  },
+  "admission_streams": {
+    "stream_1": {
+      "stream_id": "Stream 1",
+      "description": "Online admission for all learners in Secondary and Senior Secondary for April/May and October/November Public Examinations.",
+      "tma_eligible": true
+    },
+    "stream_2": {
+      "stream_id": "Stream 2",
+      "description": "Online admission for learners who appeared but could not clear or were eligible but could not appear in Public Examination of recognized boards for October/November.",
+      "tma_eligible": false
+    },
+    "stream_3": {
+      "stream_id": "Stream 3",
+      "description": "On-Demand Examination System (ODES) at Secondary level throughout the year.",
+      "tma_eligible": false
+    },
+    "stream_4": {
+      "stream_id": "Stream 4",
+      "description": "On-Demand Examination System (ODES) at Senior Secondary level throughout the year.",
+      "tma_eligible": false
+    }
+  },
+  "certification_rules": {
+    "minimum_subjects": 5,
+    "minimum_languages": 1,
+    "maximum_languages": 2,
+    "maximum_total_subjects": 7,
+    "passing_criteria": "Minimum 33% marks in aggregate as well as separately in theory and practicals (where applicable)",
+    "toc_facility": "Transfer of Credit (TOC) up to two subjects allowed from recognized boards"
+  },
+  "examination_modes": {
+    "public_examination": {
+      "mode": "Public Examination",
+      "frequency": "Twice a year (Block 1: April-May, Block 2: October-November)",
+      "centres": "Nationwide accredited examination centres"
+    },
+    "on_demand_examination": {
+      "mode": "On-Demand Examination (ODE)",
+      "frequency": "Conducted round the year at HQ and Regional Centres except during Public Examination months",
+      "flexibility": "Learner chooses date and examination venue"
+    }
+  },
+  "assessment_components": {
+    "tma_policy": "Tutor Marked Assignment (TMA) carries 20% weightage in theory marks for Stream 1 learners, providing continuous self-evaluation.",
+    "practical_component": "Mandatory separate passing in practical examinations for practical subjects (Science, Data Entry, Painting, Home Science, etc.)."
+  },
+  "language_script_registry": [
+    { "language_id": "hi", "name": "Hindi", "script": "Devanagari", "codes": [201, 301] },
+    { "language_id": "en", "name": "English", "script": "Latin", "codes": [202, 302] },
+    { "language_id": "bn", "name": "Bengali", "script": "Bengali", "codes": [203, 303] },
+    { "language_id": "mr", "name": "Marathi", "script": "Devanagari", "codes": [204] },
+    { "language_id": "te", "name": "Telugu", "script": "Telugu", "codes": [205] },
+    { "language_id": "ur", "name": "Urdu", "script": "Nastaliq / Arabic", "codes": [206, 306] },
+    { "language_id": "gu", "name": "Gujarati", "script": "Gujarati", "codes": [207, 307] },
+    { "language_id": "kn", "name": "Kannada", "script": "Kannada", "codes": [208] },
+    { "language_id": "sa", "name": "Sanskrit", "script": "Devanagari", "codes": [209, 309] },
+    { "language_id": "pa", "name": "Punjabi", "script": "Gurmukhi", "codes": [210, 310] },
+    { "language_id": "as", "name": "Assamese", "script": "Bengali / Assamese", "codes": [228] },
+    { "language_id": "ne", "name": "Nepali", "script": "Devanagari", "codes": [231] },
+    { "language_id": "ml", "name": "Malayalam", "script": "Malayalam", "codes": [232, 343] },
+    { "language_id": "od", "name": "Odia", "script": "Odia", "codes": [233, 305] },
+    { "language_id": "ar", "name": "Arabic", "script": "Arabic", "codes": [235, 341] },
+    { "language_id": "fa", "name": "Persian", "script": "Perso-Arabic", "codes": [236, 342] },
+    { "language_id": "ta", "name": "Tamil", "script": "Tamil", "codes": [237, 304] },
+    { "language_id": "sd", "name": "Sindhi", "script": "Devanagari / Arabic", "codes": [238] }
+  ],
+  "study_mediums": {
+    "secondary": ["English", "Hindi", "Urdu", "Marathi", "Telugu", "Gujarati", "Malayalam", "Odia"],
+    "senior_secondary": ["English", "Hindi", "Urdu", "Bengali"]
+  },
+  "class_9": {
+    "examination_status": "No Public Board Examination",
+    "board_exam_eligible": false,
+    "service_type": "Preparatory foundation study towards Secondary Course",
+    "progression_to_class_10": "Learners above 14 years age are eligible for direct admission to NIOS Secondary Course."
+  },
+  "class_11": {
+    "examination_status": "No Public Board Examination",
+    "board_exam_eligible": false,
+    "service_type": "Preparatory foundation study towards Senior Secondary Course",
+    "progression_to_class_12": "Learners with verified Secondary Pass and minimum 15 years age pursue Senior Secondary Course directly."
+  },
+  "secondary_course": {
+    "course_name": "NIOS Secondary Course (Class 10 Level)",
+    "official_scheme": "Open and Distance Learning Secondary Scheme",
+    "group_a_languages": [
+      { "code": 201, "name": "Hindi", "id": "nios-hindi-201" },
+      { "code": 202, "name": "English", "id": "nios-english-202" },
+      { "code": 203, "name": "Bengali", "id": "nios-bengali-203" },
+      { "code": 204, "name": "Marathi", "id": "nios-marathi-204" },
+      { "code": 205, "name": "Telugu", "id": "nios-telugu-205" },
+      { "code": 206, "name": "Urdu", "id": "nios-urdu-206" },
+      { "code": 207, "name": "Gujarati", "id": "nios-gujarati-207" },
+      { "code": 208, "name": "Kannada", "id": "nios-kannada-208" },
+      { "code": 209, "name": "Sanskrit", "id": "nios-sanskrit-209" },
+      { "code": 210, "name": "Punjabi", "id": "nios-punjabi-210" },
+      { "code": 228, "name": "Assamese", "id": "nios-assamese-228" },
+      { "code": 231, "name": "Nepali", "id": "nios-nepali-231" },
+      { "code": 232, "name": "Malayalam", "id": "nios-malayalam-232" },
+      { "code": 233, "name": "Odia", "id": "nios-odia-233" },
+      { "code": 235, "name": "Arabic", "id": "nios-arabic-235" },
+      { "code": 236, "name": "Persian", "id": "nios-persian-236" },
+      { "code": 237, "name": "Tamil", "id": "nios-tamil-237" },
+      { "code": 238, "name": "Sindhi", "id": "nios-sindhi-238" }
+    ],
+    "group_b_academic_subjects": [
+      { "code": 211, "name": "Mathematics", "id": "nios-math-211", "practical": true, "theory_marks": 85, "practical_marks": 15 },
+      { "code": 212, "name": "Science and Technology", "id": "nios-science-212", "practical": true, "theory_marks": 85, "practical_marks": 15 },
+      { "code": 213, "name": "Social Science", "id": "nios-social-213", "practical": false, "theory_marks": 100 },
+      { "code": 214, "name": "Economics", "id": "nios-economics-214", "practical": false, "theory_marks": 100 },
+      { "code": 215, "name": "Business Studies", "id": "nios-bst-215", "practical": false, "theory_marks": 100 },
+      { "code": 216, "name": "Home Science", "id": "nios-homesci-216", "practical": true, "theory_marks": 85, "practical_marks": 15 },
+      { "code": 222, "name": "Psychology", "id": "nios-psychology-222", "practical": false, "theory_marks": 100 },
+      { "code": 223, "name": "Indian Culture & Heritage", "id": "nios-indian-culture-223", "practical": false, "theory_marks": 100 },
+      { "code": 224, "name": "Accountancy", "id": "nios-accountancy-224", "practical": false, "theory_marks": 100 },
+      { "code": 225, "name": "Painting", "id": "nios-painting-225", "practical": true, "theory_marks": 30, "practical_marks": 70 },
+      { "code": 229, "name": "Data Entry Operations", "id": "nios-dataentry-229", "practical": true, "theory_marks": 40, "practical_marks": 60 },
+      { "code": 242, "name": "Hindustani Sangeet", "id": "nios-hindustani-sangeet-242", "practical": true },
+      { "code": 243, "name": "Carnatic Sangeet", "id": "nios-carnatic-sangeet-243", "practical": true },
+      { "code": 245, "name": "Veda Adhyan", "id": "nios-veda-adhyan-245", "practical": false },
+      { "code": 246, "name": "Sanskrit Vyakaran", "id": "nios-sanskrit-vyakaran-246", "practical": false },
+      { "code": 247, "name": "Bharatiya Darshan", "id": "nios-bharatiya-darshan-247", "practical": false },
+      { "code": 248, "name": "Sanskrit Sahitya", "id": "nios-sanskrit-sahitya-248", "practical": false }
+    ]
+  },
+  "senior_secondary_course": {
+    "course_name": "NIOS Senior Secondary Course (Class 12 Level)",
+    "official_scheme": "Open and Distance Learning Senior Secondary Scheme",
+    "group_a_languages": [
+      { "code": 301, "name": "Hindi", "id": "nios-hindi-301" },
+      { "code": 302, "name": "English", "id": "nios-english-302" },
+      { "code": 303, "name": "Bengali", "id": "nios-bengali-303" },
+      { "code": 304, "name": "Tamil", "id": "nios-tamil-304" },
+      { "code": 305, "name": "Odia", "id": "nios-odia-305" },
+      { "code": 306, "name": "Urdu", "id": "nios-urdu-306" },
+      { "code": 307, "name": "Gujarati", "id": "nios-gujarati-307" },
+      { "code": 309, "name": "Sanskrit", "id": "nios-sanskrit-309" },
+      { "code": 310, "name": "Punjabi", "id": "nios-punjabi-310" },
+      { "code": 341, "name": "Arabic", "id": "nios-arabic-341" },
+      { "code": 342, "name": "Persian", "id": "nios-persian-342" },
+      { "code": 343, "name": "Malayalam", "id": "nios-malayalam-343" }
+    ],
+    "group_b_academic_subjects": [
+      { "code": 311, "name": "Mathematics", "id": "nios-math-311", "practical": false, "theory_marks": 100 },
+      { "code": 321, "name": "Home Science", "id": "nios-homesci-321", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 328, "name": "Psychology", "id": "nios-psychology-328", "practical": false, "theory_marks": 100 },
+      { "code": 316, "name": "Geography", "id": "nios-geography-316", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 318, "name": "Economics", "id": "nios-economics-318", "practical": false, "theory_marks": 100 },
+      { "code": 319, "name": "Business Studies", "id": "nios-bst-319", "practical": false, "theory_marks": 100 },
+      { "code": 332, "name": "Painting", "id": "nios-painting-332", "practical": true, "theory_marks": 30, "practical_marks": 70 },
+      { "code": 336, "name": "Data Entry Operations", "id": "nios-dataentry-336", "practical": true, "theory_marks": 40, "practical_marks": 60 },
+      { "code": 345, "name": "Veda Adhyan", "id": "nios-veda-adhyan-345", "practical": false },
+      { "code": 346, "name": "Sanskrit Vyakaran", "id": "nios-sanskrit-vyakaran-346", "practical": false },
+      { "code": 347, "name": "Bharatiya Darshan", "id": "nios-bharatiya-darshan-347", "practical": false },
+      { "code": 348, "name": "Sanskrit Sahitya", "id": "nios-sanskrit-sahitya-348", "practical": false }
+    ],
+    "science_and_other_groups": [
+      { "code": 312, "name": "Physics", "id": "nios-physics-312", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 313, "name": "Chemistry", "id": "nios-chemistry-313", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 314, "name": "Biology", "id": "nios-biology-314", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 315, "name": "History", "id": "nios-history-315", "practical": false, "theory_marks": 100 },
+      { "code": 317, "name": "Political Science", "id": "nios-polscience-317", "practical": false, "theory_marks": 100 },
+      { "code": 320, "name": "Accountancy", "id": "nios-accountancy-320", "practical": false, "theory_marks": 100 },
+      { "code": 333, "name": "Environmental Science", "id": "nios-environmental-333", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 335, "name": "Mass Communication", "id": "nios-masscomm-335", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 338, "name": "Introduction to Law", "id": "nios-law-338", "practical": false, "theory_marks": 100 },
+      { "code": 339, "name": "Library and Information Science", "id": "nios-libsci-339", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 330, "name": "Computer Science", "id": "nios-cs-330", "practical": true, "theory_marks": 60, "practical_marks": 40 },
+      { "code": 331, "name": "Sociology", "id": "nios-sociology-331", "practical": false, "theory_marks": 100 },
+      { "code": 337, "name": "Tourism", "id": "nios-tourism-337", "practical": true, "theory_marks": 80, "practical_marks": 20 },
+      { "code": 373, "name": "Physical Education and Yog", "id": "nios-phyedu-373", "practical": true, "theory_marks": 70, "practical_marks": 30 },
+      { "code": 374, "name": "Military Studies", "id": "nios-milstudies-374", "practical": false, "theory_marks": 100 },
+      { "code": 375, "name": "Military History", "id": "nios-milhistory-375", "practical": false, "theory_marks": 100 },
+      { "code": 376, "name": "Early Childhood Care and Education", "id": "nios-ecce-376", "practical": true, "theory_marks": 60, "practical_marks": 40 },
+      { "code": 350, "name": "Employability Skills", "id": "nios-emp-skills-350", "practical": false, "theory_marks": 100 }
+    ]
+  },
+  "vocational_subjects": [
+    { "code": 251, "title": "Typewriting (Hindi / English)", "level": "Secondary" },
+    { "code": 252, "title": "Secretarial Practice", "level": "Secondary" },
+    { "code": 253, "title": "Carpentry", "level": "Secondary" },
+    { "code": 254, "title": "Solar Energy Technician", "level": "Secondary" },
+    { "code": 255, "title": "Bio Gas Technician", "level": "Secondary" },
+    { "code": 256, "title": "Laundry Services", "level": "Secondary" },
+    { "code": 257, "title": "Bakery & Confectionery", "level": "Secondary" },
+    { "code": 258, "title": "Welding Technology", "level": "Secondary" },
+    { "code": 259, "title": "Jute Production", "level": "Secondary" },
+    { "code": 351, "title": "Plant Protection", "level": "Senior Secondary" },
+    { "code": 352, "title": "Water Management for Crop Production", "level": "Senior Secondary" },
+    { "code": 353, "title": "Oyster Mushroom Production Technology", "level": "Senior Secondary" },
+    { "code": 354, "title": "Poultry Farming", "level": "Senior Secondary" },
+    { "code": 355, "title": "Fish Farming", "level": "Senior Secondary" },
+    { "code": 356, "title": "House Keeping", "level": "Senior Secondary" },
+    { "code": 357, "title": "Catering Management", "level": "Senior Secondary" },
+    { "code": 358, "title": "Food Processing", "level": "Senior Secondary" },
+    { "code": 359, "title": "Play School Management", "level": "Senior Secondary" }
+  ],
+  "academic_dependencies": {
+    "secondary_to_senior_secondary": {
+      "prerequisite": "Secondary / Class 10 passing certificate from NIOS or any recognized Board of School Education",
+      "minimum_age": 15,
+      "rule": "Direct admission to Senior Secondary is strictly prohibited. Learner must have successfully passed Secondary examination.",
+      "gap_requirement": "To obtain Senior Secondary certificate in all subjects, a minimum gap of two years is required from the year of passing Secondary."
+    }
+  }
+}

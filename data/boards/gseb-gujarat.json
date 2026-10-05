@@ -1,0 +1,183 @@
+{
+  "board_id": "gseb-gujarat",
+  "board_name": "Gujarat Secondary and Higher Secondary Education Board, Gandhinagar",
+  "short_name": "GSEB",
+  "short_name_alt": "GSHSEB",
+  "common_name": "Gujarat Board",
+  "state": "Gujarat",
+  "headquarters": "Sector 10-B, Near Old Sachivalaya, Gandhinagar - 382010, Gujarat",
+  "country": "India",
+  "official_website": "https://www.gseb.org/",
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "textbook_repository": "https://gsstb.gujarat.gov.in/ (Gujarat State School Textbook Board - Gandhinagar)",
+  "official_urls": {
+    "home": "https://www.gseb.org/",
+    "portal_mirror": "https://website.gseb.org/",
+    "question_bank": "https://questionbank.gseb.org/",
+    "school_registration": "https://schoolreg.gseb.org/",
+    "results": "https://result.gseb.org/",
+    "ssc_portal": "https://ssc.gseb.org/",
+    "hsc_general_portal": "https://hsc.gseb.org/",
+    "hsc_science_portal": "https://sci.gseb.org/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_gseb": true
+  },
+  "question_bank_2026_alignment": {
+    "official_prashna_bank_repository": "https://www.gseb.org",
+    "question_banks_released": true,
+    "description": "Comprehensive item bank issued by Gujarat Secondary and Higher Secondary Education Board Gandhinagar covering SSC and HSC streams."
+  },
+  "mathematics_dual_track_policy": {
+    "mathematics_basic_code_18": {
+      "code": "18",
+      "name": "Mathematics Basic (ગણિત બેઝિક)",
+      "target_students": "Students intending to pursue Commerce, Arts, or non-mathematical vocational diplomas.",
+      "blueprint_structure": "Focuses on fundamental computations, standard formulas, procedural arithmetic, and direct textbook theorems."
+    },
+    "mathematics_standard_code_12": {
+      "code": "12",
+      "name": "Mathematics Standard (ગણિત સ્ટાન્ડર્ડ)",
+      "target_students": "Mandatory prerequisite for Class 11/12 Science Stream Group A (Engineering) and Group AB.",
+      "blueprint_structure": "Focuses on rigorous proofs, multi-step algebraic derivations, advanced geometry theorems, and analytical applications."
+    }
+  },
+  "special_examination_categories": {
+    "gujarat_state_open_school_gsos": {
+      "level": "Gujarat State Open School (GSOS) SSC & HSC General",
+      "focus": "External and private candidates appearing through GSOS examination framework",
+      "status": "OFFICIAL_OPEN_SCHOOL"
+    },
+    "supplementary_purak_pariksha": {
+      "level": "SSC & HSC Supplementary (પૂરક પરીક્ષા)",
+      "focus": "Opportunity for candidates failing in up to two subjects (SSC) or one subject (HSC Science) to appear in July supplementary examinations",
+      "status": "OFFICIAL_POLICY"
+    },
+    "mathematics_basic_reentry_to_science": {
+      "level": "SSC to HSC Science Bridge",
+      "focus": "Students who passed Mathematics Basic can appear for Mathematics Standard in supplementary exam to qualify for HSC Science Group A",
+      "status": "OFFICIAL_REGULATORY_PROVISION"
+    },
+    "divyangjan_concessions": {
+      "level": "Inclusive Education for Children with Special Needs",
+      "focus": "Extra 20 minutes per hour, scribe facility, and alternative questions for visually impaired candidates",
+      "status": "OFFICIAL_CONCESSION"
+    }
+  },
+  "language_script_registry": [
+    {
+      "language_id": "gu",
+      "name": "Gujarati",
+      "script": "Gujarati",
+      "mandatory_for": ["Gujarati First Language (પ્રથમ ભાષા)", "Gujarati Second Language (દ્વિતીય ભાષા)", "Gujarati HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi First Language", "Hindi Second Language", "Hindi HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English First Language", "English Second Language", "English HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["Sanskrit (Class 10)", "Sanskrit HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["Urdu First Language", "Urdu Second Language", "Urdu HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sd",
+      "name": "Sindhi",
+      "script": "Devanagari / Perso-Arabic",
+      "mandatory_for": ["Sindhi (Class 10)", "Sindhi HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "mr",
+      "name": "Marathi",
+      "script": "Devanagari",
+      "mandatory_for": ["Marathi (Class 10 minority medium)"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Internal Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, GSEB Question Bank Access, Continuous Assessment & Practice",
+    "progression_to_class_10": {
+      "rule": "Promotion to Class 10 requires minimum 33% marks in each subject through annual internal school examination and minimum 75% attendance under GSEB school affiliation norms."
+    }
+  },
+  "class_10": {
+    "examination_status": "Secondary School Certificate (SSC) Public Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Board Examination, Verified Practice, Question Bank & Master Revision Compendiums",
+    "scheme_of_examination": "6 Core Subjects Scheme (First Language, Second Language, Mathematics Basic or Standard, Science & Technology, Social Science, Third Language/Vocational). Total Marks: 100 per subject (80 External Board Theory + 20 Internal Assessment). Total: 600 Marks."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level Internal Examination",
+    "board_exam_eligible": false,
+    "service_type": "Higher Secondary Stream Foundation (Science / Commerce / Arts), GSEB Curricular Studies & Practice",
+    "progression_to_class_12": {
+      "rule": "Promotion to Class 12 requires passing Class 11 internal annual exam in chosen stream (Science Group A/B/AB, General/Commerce, Arts) with minimum 33% marks separately in theory and practicals."
+    }
+  },
+  "class_12": {
+    "examination_status": "Higher Secondary Certificate (HSC) Public Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Board Examination, Stream-wise Preparation, Question Bank Alignment, Blueprint Practice & Full Exam",
+    "scheme_of_examination": "HSC Science: 100 Marks per subject (50 MCQs OMR + 50 Descriptive Section B/C/D or 70 Theory + 30 Practical depending on format). HSC General (Commerce/Arts): 100 Marks per subject (80 Theory + 20 Internal or 100 Theory as per stream blueprint).",
+    "streams": {
+      "science": {
+        "groups": {
+          "group_A": "Physics, Chemistry, Mathematics, English, Computer/Language",
+          "group_B": "Physics, Chemistry, Biology, English, Computer/Language",
+          "group_AB": "Physics, Chemistry, Mathematics, Biology, English"
+        }
+      },
+      "general_commerce": {
+        "subjects": ["Elements of Accountancy", "Statistics", "Economics", "Business Administration", "Secretarial Practice & CC", "English", "Gujarati"]
+      },
+      "arts_humanities": {
+        "subjects": ["History", "Geography", "Political Science", "Sociology", "Psychology", "Philosophy & Logic"]
+      },
+      "vocational": {
+        "subjects": ["Vocational & Technical Skills Foundation", "Commercial & Technical Trades"]
+      }
+    }
+  },
+  "passing_criteria_and_grading": "33% minimum marks in each subject (Theory and Practical/Internal assessed separately) and 33% aggregate. Grades awarded from A1 (91-100) down to D (33-40). Marks below 33% receive Grade E1/E2 (Needs Improvement / Eligible for Supplementary Purak Pariksha).",
+  "passing_rules": {
+    "minimum_percentage_per_subject": 33,
+    "minimum_aggregate_percentage": 33,
+    "separate_passing_required": "Must secure minimum 33% in Board Theory and Internal Assessment / Practicals separately as mandated by GSEB examination bylaws.",
+    "grace_marks": "Permissible up to 5 grace marks in aggregate or across maximum 2 subjects to enable eligible candidate to pass."
+  }
+}

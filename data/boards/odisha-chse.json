@@ -1,0 +1,93 @@
+{
+  "board_id": "chse-odisha",
+  "authority_id": "chse-odisha",
+  "official_name": "Council of Higher Secondary Education, Odisha",
+  "short_name": "CHSE Odisha",
+  "common_name": "Odisha Higher Secondary Council",
+  "state": "Odisha",
+  "headquarters": "Prajnapitha, Samantapur, Bhubaneswar - 751013, Odisha",
+  "country": "India",
+  "official_website": "https://chseodisha.nic.in/",
+  "official_result_url": "http://orissaresults.nic.in/",
+  "classes": [11, 12],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1",
+  "source_urls": {
+    "chse_portal": "https://chseodisha.nic.in/",
+    "sams_portal": "https://samsodisha.gov.in/",
+    "results_portal": "http://orissaresults.nic.in/"
+  },
+  "class_11_scope": {
+    "is_board_exam": false,
+    "assessment_type": "Institutional College-Level Annual Assessment under Council Framework",
+    "registration": "SAMS e-Admission registration and Council Student Enrolment",
+    "progression_rule": "Minimum 33% aggregate in Class 11 annual internal and 75% attendance mandatory for promotion to Class 12."
+  },
+  "class_12_exam": {
+    "exam_name": "Annual Higher Secondary Examination (AHSE)",
+    "is_board_exam": true,
+    "pattern_breakdown": {
+      "total_subjects": 6,
+      "marks_per_subject": 100,
+      "total_marks": 600,
+      "lab_subjects": "70 Theory + 30 Practical",
+      "non_lab_subjects": "80 Theory + 20 Project/Internal",
+      "exam_duration_hours": 3
+    },
+    "passing_rule": {
+      "min_theory_percentage": 30,
+      "min_practical_percentage": 30,
+      "min_aggregate_percentage": 33
+    },
+    "streams": [
+      {
+        "stream_id": "science",
+        "stream_name": "Science",
+        "subjects": [
+          { "code": "od-c12-physics", "name": "Physics", "type": "Elective", "theory_marks": 70, "practical_marks": 30 },
+          { "code": "od-c12-chemistry", "name": "Chemistry", "type": "Elective", "theory_marks": 70, "practical_marks": 30 },
+          { "code": "od-c12-mathematics", "name": "Mathematics", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-biology", "name": "Biology (Botany & Zoology)", "type": "Elective", "theory_marks": 70, "practical_marks": 30 },
+          { "code": "od-c12-information-technology", "name": "Information Technology", "type": "Elective", "theory_marks": 70, "practical_marks": 30 },
+          { "code": "od-c12-statistics", "name": "Statistics", "type": "Elective", "theory_marks": 70, "practical_marks": 30 }
+        ]
+      },
+      {
+        "stream_id": "commerce",
+        "stream_name": "Commerce",
+        "subjects": [
+          { "code": "od-c12-accountancy", "name": "Accountancy", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-business-studies", "name": "Business Studies and Management (BSM)", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-business-mathematics", "name": "Business Mathematics & Statistics (BMS)", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-costing-taxation", "name": "Costing and Taxation", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-economics-com", "name": "Commercial Economics", "type": "Elective", "theory_marks": 80, "project_marks": 20 }
+        ]
+      },
+      {
+        "stream_id": "arts",
+        "stream_name": "Arts / Humanities",
+        "subjects": [
+          { "code": "od-c12-history", "name": "History", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-political-science", "name": "Political Science", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-education", "name": "Education", "type": "Elective", "theory_marks": 70, "practical_marks": 30 },
+          { "code": "od-c12-sociology", "name": "Sociology", "type": "Elective", "theory_marks": 80, "project_marks": 20 },
+          { "code": "od-c12-logic-philosophy", "name": "Logic & Philosophy", "type": "Elective", "theory_marks": 80, "project_marks": 20 }
+        ]
+      },
+      {
+        "stream_id": "languages",
+        "stream_name": "Languages",
+        "subjects": [
+          { "code": "od-c12-english-compulsory", "name": "Compulsory English", "type": "Compulsory", "theory_marks": 80, "internal_marks": 20 },
+          { "code": "od-c12-mil-odia", "name": "M.I.L. Odia", "type": "Compulsory Language", "theory_marks": 80, "internal_marks": 20 },
+          { "code": "od-c12-mil-hindi", "name": "M.I.L. Hindi", "type": "Compulsory Language", "theory_marks": 80, "internal_marks": 20 },
+          { "code": "od-c12-mil-urdu", "name": "M.I.L. Urdu", "type": "Compulsory Language", "theory_marks": 80, "internal_marks": 20 },
+          { "code": "od-c12-mil-sanskrit", "name": "M.I.L. / Classical Sanskrit", "type": "Compulsory / Elective", "theory_marks": 80, "internal_marks": 20 }
+        ]
+      }
+    ]
+  }
+}

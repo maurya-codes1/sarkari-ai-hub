@@ -1,0 +1,232 @@
+{
+  "board_id": "bseb-bihar",
+  "board_name": "Bihar School Examination Board",
+  "short_name": "BSEB",
+  "state": "Bihar",
+  "country": "India",
+  "official_website": "https://biharboardonline.com/",
+  "official_urls": {
+    "home": "https://biharboardonline.com/",
+    "secondary": "https://secondary.biharboardonline.org/",
+    "senior_secondary": "https://seniorsecondary.biharboardonline.com/",
+    "exam": "https://exam.biharboardonline.org/",
+    "model_paper_matric": "https://biharboardonline.com/modelpapermatric.html",
+    "model_paper_inter": "https://biharboardonline.com/modelpaperinter.html",
+    "ofss_inter": "https://www.ofssbihar.org/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "historical": ["2018-19", "2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_bseb": true,
+    "bbose_isolation_enforced": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["MIL-Hindi", "SIL-Hindi", "Hindi (Inter)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English (Matric)", "English (Inter)", "Computer Science"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["MIL-Urdu", "Urdu (Inter)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "mai",
+      "name": "Maithili",
+      "script": "Mithilakshar / Devanagari",
+      "mandatory_for": ["MIL-Maithili", "Maithili (Inter)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["SIL-Sanskrit", "Sanskrit (Inter)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bangla",
+      "script": "Bengali",
+      "mandatory_for": ["MIL-Bangla", "Bangla (Inter)"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Support, Foundation Syllabus, Revision Notes & Practice Mode",
+    "progression_to_class_10": "Successful evaluation in Class 9 annual examination and valid registration on secondary.biharboardonline.org."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level Examination / Internal College Exam",
+    "board_exam_eligible": false,
+    "service_type": "Stream Selection, OFSS Enrolment, Core Theory Notes, Practical Practice & Foundation Tests",
+    "progression_to_class_12": "Satisfactory performance in Class 11 promotional examination and valid continuation registration."
+  },
+  "class_10": {
+    "official_scheme": "BSEB Matriculation Examination Scheme",
+    "compulsory_papers": 5,
+    "total_marks": 500,
+    "primary_preparation_subjects": [
+      {
+        "id": "bseb-hindi-10",
+        "name": "Hindi (MIL हिन्दी)",
+        "subject_code": "101",
+        "language": "hi",
+        "script": "Devanagari",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-english-10",
+        "name": "English (Class 10)",
+        "subject_code": "113",
+        "language": "en",
+        "script": "Latin",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-math-10",
+        "name": "Mathematics (गणित)",
+        "subject_code": "110",
+        "language": "bilingual",
+        "script": "Devanagari + Latin",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-science-10",
+        "name": "Science (विज्ञान)",
+        "subject_code": "112",
+        "language": "bilingual",
+        "script": "Devanagari + Latin",
+        "total_marks": 100,
+        "theory_marks": 80,
+        "practical_marks": 20,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-social-10",
+        "name": "Social Science (सामाजिक विज्ञान)",
+        "subject_code": "111",
+        "language": "bilingual",
+        "script": "Devanagari + Latin",
+        "total_marks": 100,
+        "theory_marks": 80,
+        "practical_marks": 20,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-sanskrit-10",
+        "name": "Sanskrit (SIL संस्कृत)",
+        "subject_code": "105",
+        "language": "sa",
+        "script": "Devanagari",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-urdu-10",
+        "name": "Urdu (MIL اردو)",
+        "subject_code": "103",
+        "language": "ur",
+        "script": "Nastaliq / Arabic",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-maithili-10",
+        "name": "Maithili (MIL मैथिली)",
+        "subject_code": "104",
+        "language": "mai",
+        "script": "Mithilakshar / Devanagari",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      },
+      {
+        "id": "bseb-adv-math-10",
+        "name": "Advanced Mathematics (उच्च गणित)",
+        "subject_code": "114",
+        "language": "bilingual",
+        "script": "Devanagari + Latin",
+        "total_marks": 100,
+        "theory_marks": 100,
+        "pass_marks": 30
+      }
+    ]
+  },
+  "class_12": {
+    "official_scheme": "BSEB Intermediate Examination Scheme",
+    "compulsory_papers": 5,
+    "total_marks": 500,
+    "streams": {
+      "science": {
+        "stream_name": "I.Sc. (Intermediate of Science)",
+        "primary_subjects": [
+          { "id": "bseb-physics-12", "name": "Physics (भौतिकी)", "subject_code": "117", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "bseb-chemistry-12", "name": "Chemistry (रसायन शास्त्र)", "subject_code": "118", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "bseb-biology-12", "name": "Biology (जीव विज्ञान)", "subject_code": "119", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "bseb-math-12", "name": "Mathematics (गणित 12)", "subject_code": "121", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-english-12", "name": "English (Class 12)", "subject_code": "105", "theory_marks": 100, "practical_marks": 0, "language": "en" },
+          { "id": "bseb-hindi-12", "name": "Hindi (हिन्दी 12)", "subject_code": "106", "theory_marks": 100, "practical_marks": 0, "language": "hi" },
+          { "id": "bseb-cs-12", "name": "Computer Science", "subject_code": "122", "theory_marks": 70, "practical_marks": 30, "language": "en" }
+        ]
+      },
+      "commerce": {
+        "stream_name": "I.Com. (Intermediate of Commerce)",
+        "primary_subjects": [
+          { "id": "bseb-accountancy-12", "name": "Accountancy (लेखाशास्त्र)", "subject_code": "217", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-business-12", "name": "Business Studies (व्यवसाय अध्ययन)", "subject_code": "218", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-economics-12", "name": "Economics (अर्थशास्त्र)", "subject_code": "219", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-entrepreneurship-12", "name": "Entrepreneurship (उद्यमिता)", "subject_code": "220", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "bseb-english-12", "name": "English (Class 12)", "subject_code": "205", "theory_marks": 100, "practical_marks": 0, "language": "en" },
+          { "id": "bseb-hindi-12", "name": "Hindi (हिन्दी 12)", "subject_code": "206", "theory_marks": 100, "practical_marks": 0, "language": "hi" }
+        ]
+      },
+      "humanities": {
+        "stream_name": "I.A. (Intermediate of Arts)",
+        "primary_subjects": [
+          { "id": "bseb-history-12", "name": "History (इतिहास)", "subject_code": "321", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-polity-12", "name": "Political Science (राजनीति शास्त्र)", "subject_code": "322", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-geography-12", "name": "Geography (भूगोल)", "subject_code": "323", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "bseb-economics-arts-12", "name": "Economics (Arts)", "subject_code": "326", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-sociology-12", "name": "Sociology (समाजशास्त्र)", "subject_code": "325", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "bseb-psychology-12", "name": "Psychology (मनोविज्ञान)", "subject_code": "324", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "bseb-philosophy-12", "name": "Philosophy (दर्शनशास्त्र)", "subject_code": "327", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" }
+        ]
+      },
+      "agriculture": {
+        "stream_name": "I.Agri. (Intermediate of Agriculture)",
+        "primary_subjects": [
+          { "id": "bseb-agri-12", "name": "Agriculture (कृषि विज्ञान)", "subject_code": "120", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" }
+        ]
+      }
+    }
+  }
+}

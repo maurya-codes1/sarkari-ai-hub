@@ -1,0 +1,35 @@
+{
+  "board_id": "wbbse-west-bengal",
+  "authority_id": "WBBSE",
+  "ecosystem_id": "wbbse-wbchse-west-bengal",
+  "board_name": "West Bengal Board of Secondary Education",
+  "short_name": "WBBSE",
+  "common_name": "Madhyamik Board",
+  "state": "West Bengal",
+  "headquarters": "Nivedita Bhaban, DJ-8, Sector-II, Karunamoyee, Bidhannagar, Kolkata - 700091",
+  "country": "India",
+  "official_website": "https://wbbse.wb.gov.in/",
+  "classes": [9, 10],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "class_9": {
+    "examination_status": "Annual School-Level Internal Examination with Official WBBSE Registration",
+    "board_exam_eligible": false,
+    "progression_to_class_10": {
+      "rule": "Promotion to Class 10 requires passing Class IX internal evaluation and online registration."
+    }
+  },
+  "class_10": {
+    "examination_name": "Madhyamik Pariksha (Secondary Examination)",
+    "board_exam_eligible": true,
+    "standard_duration": "10:45 AM to 2:00 PM (3 hours writing + 15 mins reading)",
+    "first_languages": [
+      "Bengali", "English", "Gujarati", "Hindi", "Modern Tibetan",
+      "Nepali", "Odia", "Gurumukhi (Punjabi)", "Telugu", "Tamil", "Urdu", "Santali"
+    ],
+    "second_language_rule": "If First Language != English -> English. If First Language == English -> Bengali or Nepali.",
+    "core_subjects": ["Mathematics", "Physical Science", "Life Science", "History", "Geography"],
+    "passing_criteria": "Minimum 34% (Grade C) in each compulsory subject and aggregate."
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "board_id": "mpbse-madhya-pradesh",
+  "board_name": "Madhya Pradesh Board of Secondary Education",
+  "short_name": "MPBSE",
+  "common_name": "MP Board",
+  "state": "Madhya Pradesh",
+  "country": "India",
+  "official_website": "https://mpbse.nic.in/",
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "home": "https://mpbse.nic.in/",
+    "academics": "https://mpbse.nic.in/academics.html",
+    "syllabus": "https://mpbse.nic.in/syllabus.htm",
+    "blueprint_10th": "https://mpbse.nic.in/blueprint10th.htm",
+    "blueprint_12th": "https://mpbse.nic.in/blueprint12th.htm",
+    "qbank_10th": "https://mpbse.nic.in/qbank10.htm",
+    "qbank_12th": "https://mpbse.nic.in/qbank12.htm",
+    "student_services": "https://mpbse.nic.in/Student_Services.html",
+    "timetable": "https://mpbse.nic.in/ttable.html"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_mpbse": true
+  },
+  "mathematics_scheme_rule": {
+    "status": "UNIFIED_MATHEMATICS_CURRICULUM",
+    "official_notice": "MPBSE official circular dated September 2026 confirms unified single Mathematics syllabus (no compulsory basic/standard bifurcation in current blueprint).",
+    "effective_session": "2026-27"
+  },
+  "english_scheme_rule": {
+    "status": "SOURCE_VERSIONED_ENGLISH_OFFERING",
+    "official_notice": "MPBSE official circular provides standard English Special / English General curricular frameworks as per official 2026-27 scheme of studies.",
+    "effective_session": "2026-27"
+  },
+  "language_script_registry": [
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi Special (Class 10)", "Hindi General (Class 10)", "Hindi General (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English Special (Class 10)", "English General (Class 10)", "English General (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["Sanskrit General (Class 10)", "Sanskrit General (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["Urdu General (Class 10)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "mandatory_for": ["Punjabi (Class 10)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "mandatory_for": ["Bengali (Class 10)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "mr",
+      "name": "Marathi",
+      "script": "Devanagari",
+      "mandatory_for": ["Marathi (Class 10)"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, NCERT/MPBSE Syllabus Notes, Continuous Assessment & Practice",
+    "progression_to_class_10": "Pass in Class 9 annual school examination and valid MPBSE enrolment."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level / College Examination",
+    "board_exam_eligible": false,
+    "service_type": "Stream Enrolment, Core Theory Notes, Practical Framework & Foundation Practice",
+    "progression_to_class_12": "Pass in Class 11 promotional annual examination and confirmation of subject stream registration."
+  },
+  "class_10": {
+    "official_scheme": "MPBSE High School Certificate Examination Scheme (Bhopal)",
+    "compulsory_papers": 6,
+    "total_marks": 600,
+    "primary_preparation_subjects": [
+      { "id": "mpbse-hindi-spl-10", "name": "Hindi Special (हिन्दी विशिष्ट)", "language": "hi", "script": "Devanagari", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-english-spl-10", "name": "English Special", "language": "en", "script": "Latin", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-math-10", "name": "Mathematics (गणित)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-science-10", "name": "Science (विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-social-10", "name": "Social Science (सामाजिक विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-sanskrit-gen-10", "name": "Sanskrit General (संस्कृत सामान्य)", "language": "sa", "script": "Devanagari", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-urdu-gen-10", "name": "Urdu General (اردو عمومی)", "language": "ur", "script": "Nastaliq / Arabic", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-punjabi-10", "name": "Punjabi (ਪੰਜਾਬੀ)", "language": "pa", "script": "Gurmukhi", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-bengali-10", "name": "Bengali (বাংলা)", "language": "bn", "script": "Bengali", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "mpbse-marathi-10", "name": "Marathi (मराठी)", "language": "mr", "script": "Devanagari", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 }
+    ]
+  },
+  "class_12": {
+    "official_scheme": "MPBSE Higher Secondary Certificate Examination Scheme (Bhopal)",
+    "compulsory_papers": 5,
+    "total_marks": 500,
+    "streams": {
+      "science": {
+        "stream_name": "Higher Secondary Science Stream",
+        "primary_subjects": [
+          { "id": "mpbse-physics-12", "name": "Physics (भौतिक शास्त्र)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "mpbse-chemistry-12", "name": "Chemistry (रसायन शास्त्र)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "mpbse-biology-12", "name": "Biology (जीव विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "mpbse-math-12", "name": "Mathematics (गणित)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-english-gen-12", "name": "English General", "theory_marks": 80, "practical_marks": 20, "language": "en" },
+          { "id": "mpbse-hindi-gen-12", "name": "Hindi General (हिन्दी सामान्य)", "theory_marks": 80, "practical_marks": 20, "language": "hi" },
+          { "id": "mpbse-cs-12", "name": "Computer Application / IP", "theory_marks": 70, "practical_marks": 30, "language": "en" }
+        ]
+      },
+      "commerce": {
+        "stream_name": "Higher Secondary Commerce Stream",
+        "primary_subjects": [
+          { "id": "mpbse-accountancy-12", "name": "Book Keeping and Accountancy (बहीखाता एवं लेखाकर्म)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-bst-12", "name": "Business Studies (व्यवसाय अध्ययन)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-economics-12", "name": "Economics (अर्थशास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-math-com-12", "name": "Business Mathematics (व्यावसायिक गणित)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-english-com-12", "name": "English General (Commerce)", "theory_marks": 80, "practical_marks": 20, "language": "en" },
+          { "id": "mpbse-hindi-com-12", "name": "Hindi General (Commerce)", "theory_marks": 80, "practical_marks": 20, "language": "hi" }
+        ]
+      },
+      "humanities": {
+        "stream_name": "Higher Secondary Humanities / Arts Stream",
+        "primary_subjects": [
+          { "id": "mpbse-history-12", "name": "History (इतिहास)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-polscience-12", "name": "Political Science (राजनीति शास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-geography-12", "name": "Geography (भूगोल)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "mpbse-economics-arts-12", "name": "Economics (Humanities)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-sociology-12", "name": "Sociology (समाजशास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "mpbse-psychology-12", "name": "Psychology (मनोविज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "mpbse-sanskrit-gen-12", "name": "Sanskrit General (संस्कृत सामान्य 12)", "theory_marks": 80, "practical_marks": 20, "language": "sa" }
+        ]
+      },
+      "agriculture": {
+        "stream_name": "Higher Secondary Agriculture Stream",
+        "primary_subjects": [
+          { "id": "mpbse-agri-12", "name": "Elements of Science & Maths for Agriculture, Crop Production & Animal Husbandry (कृषि विज्ञान एवं प्रौद्योगिकी)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" }
+        ]
+      }
+    }
+  }
+}

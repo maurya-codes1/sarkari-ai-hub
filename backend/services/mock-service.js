@@ -23,13 +23,12 @@ const { normalizeSubjectId } = require('../utils/subject-utils');
 function cleanQuestionText(text) {
   if (!text || typeof text !== 'string') return '';
   let cleaned = text.trim();
-  // Strip leading metadata in brackets e.g. [RRB NTPC CBT-1 Exam Practice Q1] or [सामान्य विज्ञान]
-  cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
+  // Strip leading metadata in brackets ONLY if it contains known prefix keywords
+  cleaned = cleaned.replace(/^\[(?:RRB|SSC|UPSC|BSEB|CBSE|TBSE|UPMSP|MPBSE|RBSE|Practice|Question|Exam|Class|कक्षा|बोर्ड|अभ्यास|\d+)[^\]\r\n]*\]\s*/gi, '');
   // Strip exam/board/class/subject names followed by question numbering or colon:
-  // e.g. "CBSE विज्ञान प्रश्न 13:", "CBSE Science Q13:", "UPMSP गणित प्रश्न 5 -", "Class 10 Science Q.4:", "NCERT प्रश्न 2:"
-  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u097F\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   // Strip general board/exam/class labels:
-  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
+  cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
   // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:, Q13:
   cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
@@ -44,7 +43,12 @@ function cleanQuestionText(text) {
   }
   // Strip inline English tags like \n[English: ...] or [English: ...]
   cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
-  return cleaned.trim();
+
+  // Safeguard: Never return empty if original text had meaningful characters
+  if (!cleaned && text.trim()) {
+    return text.trim();
+  }
+  return cleaned.trim() || text.trim();
 }
 
 function cleanExplanationText(text) {
@@ -917,8 +921,8 @@ class MockService {
           sectionName: sec.name,
           subjectName: qRow.subject_name || sec.name,
           questionType: qRow.question_type_id || 'single_mcq',
-          questionText: hiData.q || enData.q || '',
-          secondaryQuestionText: enData.q || '',
+          questionText: hiData.q || hiData.question || hiData.question_text || enData.q || enData.question || enData.question_text || qRow.question_text || '',
+          secondaryQuestionText: enData.q || enData.question || enData.question_text || '',
           options: hiData.options || enData.options || [],
           candidateAnswer: candidateAns,
           candidateIndex: isAttempted ? parseInt(candidateAns, 10) : null,
@@ -1095,13 +1099,15 @@ class MockService {
         qRow.subject_id.includes('assamese') || qRow.subject_id.includes('marathi')
       ));
 
-    const cleanPrimaryQ = cleanQuestionText(pData.q || '');
-    let cleanSecondaryQ = isLanguageSubject ? '' : cleanQuestionText(sData.q || '');
+    const rawPrimaryQ = pData.stem || pData.q || pData.question || pData.question_text || pData.prompt || pData.text || sData.stem || sData.q || sData.question || sData.question_text || sData.prompt || sData.text || qRow.question_text || '';
+    const cleanPrimaryQ = cleanQuestionText(rawPrimaryQ) || rawPrimaryQ;
+    let rawSecondaryQ = isLanguageSubject ? '' : (sData.stem || sData.q || sData.question || sData.question_text || sData.prompt || sData.text || '');
+    let cleanSecondaryQ = cleanQuestionText(rawSecondaryQ) || rawSecondaryQ;
     if (cleanSecondaryQ.toLowerCase() === cleanPrimaryQ.toLowerCase()) {
       cleanSecondaryQ = '';
     }
     if (!cleanSecondaryQ && !isLanguageSubject) {
-      const match = (pData.q || '').match(/\[(?:English|अंग्रेजी|अंग्रेज़ी):\s*([^\]]+)\]/i) || (pData.q || '').match(/\n\[([^\]]+)\]/);
+      const match = (rawPrimaryQ || '').match(/\[(?:English|अंग्रेजी|अंग्रेज़ी):\s*([^\]]+)\]/i) || (rawPrimaryQ || '').match(/\n\[([^\]]+)\]/);
       if (match) {
         cleanSecondaryQ = (match[1] || match[0]).replace(/^\[|\]$/g, '').trim();
       }
@@ -1141,11 +1147,24 @@ class MockService {
       }
     }
 
+    let resolvedSubjId = qRow.subject_id;
+    if (sec.subject_id && sec.subject_id !== 'all') {
+      if (sec.subject_id === 'subj-english' && (resolvedSubjId.includes('english') || resolvedSubjId.includes('eng'))) {
+        resolvedSubjId = 'subj-english';
+      } else if (sec.subject_id === 'subj-math' && (resolvedSubjId.includes('math') || resolvedSubjId.includes('quant'))) {
+        resolvedSubjId = 'subj-math';
+      } else if (sec.subject_id === 'subj-reasoning' && (resolvedSubjId.includes('reason') || resolvedSubjId.includes('intel') || resolvedSubjId.includes('gi'))) {
+        resolvedSubjId = 'subj-reasoning';
+      } else if (sec.subject_id === 'subj-gk' && (resolvedSubjId.includes('gk') || resolvedSubjId.includes('ga') || resolvedSubjId.includes('awareness') || resolvedSubjId.includes('general'))) {
+        resolvedSubjId = 'subj-gk';
+      }
+    }
+
     const clientQ = {
       id: qRow.question_id,
       sectionId: sec.section_id || sec.sectionId || 'sec-default',
       sectionName: sec.name || 'Default Section',
-      subjectId: (qRow.subject_id === 'subj-math12' && (sec.subject_id === 'subj-math' || sec.subjectId === 'subj-math' || sec.subject_id === 'math')) ? 'subj-math' : qRow.subject_id,
+      subjectId: resolvedSubjId,
       subjectName: qRow.subject_name || sec.name || 'General',
       questionType: qRow.question_type_id || 'single_mcq',
       q: cleanPrimaryQ,

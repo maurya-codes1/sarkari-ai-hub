@@ -1,0 +1,149 @@
+{
+  "board_id": "ubse-uttarakhand",
+  "board_name": "Uttarakhand Board of School Education",
+  "short_name": "UBSE",
+  "state": "Uttarakhand",
+  "country": "India",
+  "official_website": "https://ubse.uk.gov.in/",
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "home": "https://ubse.uk.gov.in/",
+    "syllabus": "https://ubse.uk.gov.in/pages/display/97-syllabus",
+    "old_question_papers": "https://ubse.uk.gov.in/pages/display/98-old-model-question-paper",
+    "results": "https://uaresults.nic.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_ubse": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi (Class 10)", "Hindi (Class 12)", "Hindi Agriculture"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English (Class 10)", "English (Class 12)", "Computer Science"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["Sanskrit (Class 10)", "Sanskrit (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["Urdu (Class 10)", "Urdu (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "mandatory_for": ["Punjabi (Class 10)", "Punjabi (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "mandatory_for": ["Bengali (Class 10)", "Bengali (Class 12)"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, NCERT/UBSE Syllabus Notes, Continuous Assessment & Practice",
+    "progression_to_class_10": "Satisfactory evaluation in Class 9 annual school examination and valid registration."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level Examination / Internal College Exam",
+    "board_exam_eligible": false,
+    "service_type": "Stream Enrolment, Core Theory Notes, Practical Framework & Foundation Practice",
+    "progression_to_class_12": "Pass in Class 11 promotional annual examination and confirmation of subject stream registration."
+  },
+  "class_10": {
+    "official_scheme": "UBSE High School Examination Scheme (Ramnagar)",
+    "compulsory_papers": 6,
+    "total_marks": 600,
+    "primary_preparation_subjects": [
+      { "id": "ubse-hindi-10", "name": "Hindi (हिन्दी)", "language": "hi", "script": "Devanagari", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-english-10", "name": "English", "language": "en", "script": "Latin", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-math-10", "name": "Mathematics (गणित)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-science-10", "name": "Science (विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 75, "ina_marks": 25 },
+      { "id": "ubse-social-10", "name": "Social Science (सामाजिक विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-sanskrit-10", "name": "Sanskrit (संस्कृत)", "language": "sa", "script": "Devanagari", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-urdu-10", "name": "Urdu (اردو)", "language": "ur", "script": "Nastaliq / Arabic", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-punjabi-10", "name": "Punjabi (ਪੰਜਾਬੀ)", "language": "pa", "script": "Gurmukhi", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-bengali-10", "name": "Bengali (বাংলা)", "language": "bn", "script": "Bengali", "total_marks": 100, "theory_marks": 80, "ina_marks": 20 },
+      { "id": "ubse-homesci-10", "name": "Home Science (गृह विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 }
+    ]
+  },
+  "class_12": {
+    "official_scheme": "UBSE Intermediate Examination Scheme (Ramnagar)",
+    "compulsory_papers": 5,
+    "total_marks": 500,
+    "streams": {
+      "science": {
+        "stream_name": "Intermediate Science Stream",
+        "primary_subjects": [
+          { "id": "ubse-physics-12", "name": "Physics (भौतिक विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "ubse-chemistry-12", "name": "Chemistry (रसायन विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "ubse-biology-12", "name": "Biology (जीव विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "ubse-math-12", "name": "Mathematics (गणित 12)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-english-12", "name": "English (Class 12)", "theory_marks": 80, "practical_marks": 20, "language": "en" },
+          { "id": "ubse-hindi-12", "name": "Hindi (Class 12)", "theory_marks": 80, "practical_marks": 20, "language": "hi" },
+          { "id": "ubse-cs-12", "name": "Computer Science", "theory_marks": 70, "practical_marks": 30, "language": "en" }
+        ]
+      },
+      "commerce": {
+        "stream_name": "Intermediate Commerce Stream",
+        "primary_subjects": [
+          { "id": "ubse-accountancy-12", "name": "Accountancy (बहीखाता तथा लेखाशास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-business-12", "name": "Business Studies (व्यापारिक संगठन)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-economics-12", "name": "Economics (अर्थशास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-english-com-12", "name": "English (Commerce)", "theory_marks": 80, "practical_marks": 20, "language": "en" },
+          { "id": "ubse-hindi-com-12", "name": "Hindi (Commerce)", "theory_marks": 80, "practical_marks": 20, "language": "hi" },
+          { "id": "ubse-math-com-12", "name": "Mathematics (Commerce)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" }
+        ]
+      },
+      "humanities": {
+        "stream_name": "Intermediate Humanities / Arts Stream",
+        "primary_subjects": [
+          { "id": "ubse-history-12", "name": "History (इतिहास)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-geography-12", "name": "Geography (भूगोल)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "ubse-polity-12", "name": "Political Science (राजनीति विज्ञान)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-economics-arts-12", "name": "Economics (Arts)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-sociology-12", "name": "Sociology (समाजशास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" },
+          { "id": "ubse-psychology-12", "name": "Psychology (मनोविज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "ubse-education-12", "name": "Education (शिक्षाशास्त्र)", "theory_marks": 80, "practical_marks": 20, "language": "bilingual" }
+        ]
+      },
+      "agriculture": {
+        "stream_name": "Intermediate Agriculture Stream",
+        "primary_subjects": [
+          { "id": "ubse-agri-12", "name": "Agriculture (कृषि विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "board_id": "wbbse-wbchse-west-bengal",
+  "board_name": "West Bengal School Board Ecosystem (WBBSE & WBCHSE)",
+  "short_name": "WB-ECOSYSTEM",
+  "common_name": "West Bengal Board",
+  "state": "West Bengal",
+  "headquarters": "Kolkata, West Bengal",
+  "country": "India",
+  "authorities": {
+    "WBBSE": {
+      "authority_id": "WBBSE",
+      "name": "West Bengal Board of Secondary Education",
+      "short_name": "WBBSE",
+      "headquarters": "Nivedita Bhaban, DJ-8, Sector-II, Karunamoyee, Bidhannagar, Kolkata - 700091",
+      "official_website": "https://wbbse.wb.gov.in/",
+      "portal_results": "https://wbresults.nic.in/",
+      "jurisdiction": "Secondary Education (Class 9 academic support & Class 10 Madhyamik Pariksha)"
+    },
+    "WBCHSE": {
+      "authority_id": "WBCHSE",
+      "name": "West Bengal Council of Higher Secondary Education",
+      "short_name": "WBCHSE",
+      "headquarters": "Vidyasagar Bhavan, 9/2, Block DJ, Sector-II, Salt Lake, Kolkata - 700091",
+      "official_website": "https://wbchse.wb.gov.in/",
+      "portal_results": "https://wbresults.nic.in/",
+      "jurisdiction": "Higher Secondary Education (Class 11 Foundation & Class 12 Uchcha Madhyamik)"
+    }
+  },
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "wbbse_home": "https://wbbse.wb.gov.in/",
+    "wbchse_home": "https://wbchse.wb.gov.in/",
+    "results_portal": "https://wbresults.nic.in/",
+    "banglar_shiksha": "https://school.banglarshiksha.gov.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_wb": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "unicode_range": "U+0980 - U+09FF",
+      "mandatory_for": ["Bengali First Language (বাংলা প্রথম ভাষা)", "Bengali Second Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "unicode_range": "U+0020 - U+007E",
+      "mandatory_for": ["English First Language", "English Second Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Hindi First Language", "Hindi Second Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Perso-Arabic / Nastaliq",
+      "unicode_range": "U+0600 - U+06FF",
+      "mandatory_for": ["Urdu First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Sanskrit Classical Elective (WBCHSE)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ne",
+      "name": "Nepali",
+      "script": "Devanagari",
+      "unicode_range": "U+0900 - U+097F",
+      "mandatory_for": ["Nepali First Language", "Nepali Second Language (Hill regions)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pa",
+      "name": "Gurmukhi (Punjabi)",
+      "script": "Gurmukhi",
+      "unicode_range": "U+0A00 - U+0A7F",
+      "mandatory_for": ["Gurmukhi Punjabi First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sat",
+      "name": "Santali",
+      "script": "Ol Chiki / Bengali / Latin",
+      "unicode_range": "U+1C50 - U+1C7F",
+      "mandatory_for": ["Santali First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "or",
+      "name": "Odia",
+      "script": "Odia",
+      "unicode_range": "U+0B00 - U+0B7F",
+      "mandatory_for": ["Odia First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "unicode_range": "U+0C00 - U+0C7F",
+      "mandatory_for": ["Telugu First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ta",
+      "name": "Tamil",
+      "script": "Tamil",
+      "unicode_range": "U+0B80 - U+0BFF",
+      "mandatory_for": ["Tamil First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "gu",
+      "name": "Gujarati",
+      "script": "Gujarati",
+      "unicode_range": "U+0A80 - U+0AFF",
+      "mandatory_for": ["Gujarati First Language"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bo",
+      "name": "Modern Tibetan",
+      "script": "Tibetan",
+      "unicode_range": "U+0F00 - U+0FFF",
+      "mandatory_for": ["Modern Tibetan First Language"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "authority": "WBBSE",
+    "examination_status": "Annual School-Level Internal Examination with Official WBBSE Registration",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, School-Based Evaluation, Class IX Advance Registration for Madhyamik",
+    "progression_to_class_10": {
+      "rule": "Promotion to Class 10 requires passing Class IX annual internal evaluation under WBBSE continuous and comprehensive evaluation (CCE) guidelines and mandatory completion of WBBSE Class IX student online registration."
+    }
+  },
+  "class_10": {
+    "authority": "WBBSE",
+    "examination_name": "Madhyamik Pariksha (Secondary Examination)",
+    "board_exam_eligible": true,
+    "service_type": "Public Secondary Board Examination, Verified Practice, Model Papers & Revision Compendiums",
+    "examination_schedule_and_duration": {
+      "standard_hours": "10:45 AM to 2:00 PM (3 hours writing + 15 minutes reading time)",
+      "special_durations": {
+        "sewing_and_needle_work": "4 hours 15 minutes",
+        "music_vocal_instrumental": "2 hours 15 minutes",
+        "computer_application": "2 hours 45 minutes",
+        "vocational_subjects": "1 hour 45 minutes"
+      }
+    },
+    "first_languages_official": [
+      "Bengali", "English", "Gujarati", "Hindi", "Modern Tibetan",
+      "Nepali", "Odia", "Gurumukhi (Punjabi)", "Telugu", "Tamil", "Urdu", "Santali"
+    ],
+    "second_language_rule": {
+      "rule_description": "If a language other than English is offered as First Language, English is the compulsory Second Language. If English is the First Language, Second Language must be Bengali or Nepali."
+    },
+    "core_academic_subjects": [
+      { "subject_id": "wbbse-mathematics-10", "name": "Mathematics (গণিত)" },
+      { "subject_id": "wbbse-physical-science-10", "name": "Physical Science (ভৌতবিজ্ঞান ও পরিবেশ)" },
+      { "subject_id": "wbbse-life-science-10", "name": "Life Science (জীবনবিজ্ঞান ও পরিবেশ)" },
+      { "subject_id": "wbbse-history-10", "name": "History & Environment (ইতিহাস ও পরিবেশ)" },
+      { "subject_id": "wbbse-geography-10", "name": "Geography & Environment (ভূগোল ও পরিবেশ)" }
+    ],
+    "optional_elective_and_skill_subjects": [
+      "Sewing and Needle Work", "Music Vocal", "Music Instrumental",
+      "Computer Application", "Vocational Subjects", "Physical Education and Social Service", "Work Education"
+    ],
+    "scheme_of_examination": "7 Compulsory Subjects Scheme (First Language, Second Language, History, Geography, Mathematics, Physical Science, Life Science). Each subject carries 100 Marks (90 Written External Board Theory + 10 Internal Formative Evaluation). Total: 700 Marks.",
+    "passing_criteria": {
+      "minimum_percentage_per_subject": 34,
+      "minimum_aggregate_percentage": 34,
+      "grading_system": "Grade AA (90-100), A+ (80-89), A (60-79), B+ (45-59), B (35-44), C (25-34/Pass Threshold), D (Below 25 / Needs Improvement)."
+    }
+  },
+  "class_11": {
+    "authority": "WBCHSE",
+    "examination_status": "Semester-Based Higher Secondary Foundation (Semester I & II)",
+    "board_exam_eligible": false,
+    "service_type": "Council-Monitored Institutional Semester Evaluation, Foundation for Class 12, Stream & Subject Combination Enrollment",
+    "progression_to_class_12": {
+      "rule": "Progression to Class 12 requires satisfactory completion and qualifying in Class 11 Semester I & Semester II assessments in accordance with WBCHSE semester progression regulations."
+    }
+  },
+  "class_12": {
+    "authority": "WBCHSE",
+    "examination_name": "Higher Secondary (HS) Examination / Uchcha Madhyamik",
+    "board_exam_eligible": true,
+    "service_type": "Public Higher Secondary Board Examination, Stream-wise Specialization, Blueprint Mock Practice & Full Exam",
+    "curriculum_version": {
+      "current_pattern": "CURRENT_SEMESTER_SYSTEM (Semester III & IV Board Evaluations)",
+      "historical_pattern": "HISTORICAL_ANNUAL_SYSTEM (Pre-2026 Annual Higher Secondary Pattern Preserved)"
+    },
+    "language_structure": "Two compulsory languages: One First Language (from approved regional languages) + One Second Language (English for non-English FL; Bengali/Nepali/Alternative English for English FL).",
+    "subject_sets_and_electives": {
+      "set_I_science": {
+        "set_name": "Science Group / Set I",
+        "description": "Physics, Chemistry, Mathematics, Biological Science, Computer Science, Statistics, Nutrition, Anthropology, Science of Well Being, Cyber Security, Artificial Intelligence & Data Science"
+      },
+      "set_II_commerce": {
+        "set_name": "Commerce Group / Set II",
+        "description": "Accountancy, Business Studies, Commercial Law and Preliminaries of Auditing (CLPA), Costing & Taxation, Economics, Commercial Geography, Applied AI, Modern Computer Application"
+      },
+      "set_III_humanities": {
+        "set_name": "Humanities Group / Set III",
+        "description": "History, Geography, Political Science, Philosophy, Sociology, Education, Sanskrit Classical, Psychology, Music, Visual Arts"
+      },
+      "vocational": {
+        "set_name": "Vocational & Applied Skill Subjects",
+        "description": "IT & ITES, Automobile, Healthcare, Tourism & Hospitality, Apparel, Beauty & Wellness, Agriculture, Electronics, Plumbing, Banking & Insurance"
+      }
+    },
+    "scheme_of_examination": "Total 5 Compulsory Subjects (2 Languages + 3 Compulsory Electives) + 1 Optional 6th Elective. Each subject carries 100 Marks (70 Theory + 30 Practical for lab subjects, or 80 Theory + 20 Project for non-lab subjects). Total Evaluated Marks: 500 (Best of 5 rule applies).",
+    "passing_criteria": {
+      "minimum_theory_percentage": 30,
+      "minimum_practical_percentage": 30,
+      "minimum_aggregate_percentage": 30,
+      "rule": "Student must obtain minimum 30% marks in Theory and 30% marks in Practical/Project separately in each subject to qualify."
+    }
+  }
+}

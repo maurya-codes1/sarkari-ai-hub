@@ -1,0 +1,35 @@
+{
+  "board_id": "wbchse-west-bengal",
+  "authority_id": "WBCHSE",
+  "ecosystem_id": "wbbse-wbchse-west-bengal",
+  "board_name": "West Bengal Council of Higher Secondary Education",
+  "short_name": "WBCHSE",
+  "common_name": "Higher Secondary Council",
+  "state": "West Bengal",
+  "headquarters": "Vidyasagar Bhavan, 9/2, Block DJ, Sector-II, Salt Lake, Kolkata - 700091",
+  "country": "India",
+  "official_website": "https://wbchse.wb.gov.in/",
+  "classes": [11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "class_11": {
+    "examination_status": "Semester-Based Higher Secondary Foundation (Semester I & II)",
+    "board_exam_eligible": false,
+    "progression_to_class_12": {
+      "rule": "Promotion to Class 12 requires qualifying Class 11 Semester assessments under WBCHSE regulations."
+    }
+  },
+  "class_12": {
+    "examination_name": "Higher Secondary (HS) Examination / Uchcha Madhyamik",
+    "board_exam_eligible": true,
+    "current_model": "Semester System (Semester III & IV)",
+    "language_structure": "1 First Language + 1 Second Language",
+    "subject_sets": {
+      "set_I": "Science Group (Physics, Chemistry, Math, Bio Science, CS, Stat, etc.)",
+      "set_II": "Commerce Group (Accountancy, Business Studies, CLPA, Costing & Tax, Econ, etc.)",
+      "set_III": "Humanities Group (History, Geography, Pol Sci, Philosophy, Sociology, etc.)"
+    },
+    "passing_criteria": "Minimum 30% in Theory and 30% in Practical/Project separately, with minimum 30% aggregate."
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "board_id": "upmsp-uttar-pradesh",
+  "board_name": "Uttar Pradesh Madhyamik Shiksha Parishad",
+  "short_name": "UPMSP",
+  "common_name": "UP Board",
+  "state": "Uttar Pradesh",
+  "country": "India",
+  "official_website": "https://upmsp.edu.in/",
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "home": "https://upmsp.edu.in/",
+    "syllabus": "https://www.upmsp.edu.in/Board_Syllabus.aspx",
+    "model_papers": "https://www.upmsp.edu.in/Board_ModelPaper.aspx",
+    "instructions": "https://upmsp.edu.in/Instruction.aspx",
+    "exampvt": "https://exampvt.upmsp.edu.in/",
+    "results": "https://upresults.nic.in"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_upmsp": true
+  },
+  "advance_registration_rules": {
+    "class_9_rule": "Recognized schools must complete advance registration for Class 9 students in 2026-27 for the 2027 High School examination cycle.",
+    "class_11_rule": "Recognized schools must complete advance registration for Class 11 students in 2026-27 for the 2027 Intermediate examination cycle."
+  },
+  "language_script_registry": [
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi (Class 10)", "General Hindi (Class 12)", "Hindi (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English (Class 10)", "English (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["Sanskrit (Class 10)", "Sanskrit (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["Urdu (Class 10)", "Urdu (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "mandatory_for": ["Punjabi (Class 10)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "mandatory_for": ["Bengali (Class 10)"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Examination with Advance Board Registration",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, NCERT/UPMSP Syllabus Notes, Continuous Assessment & Practice",
+    "advance_registration": "Mandatory advance registration in Class 9 for High School Exam 2027.",
+    "progression_to_class_10": "Pass in Class 9 annual school examination and valid UPMSP advance registration."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level / College Examination with Advance Board Registration",
+    "board_exam_eligible": false,
+    "service_type": "Stream Enrolment, Core Theory Notes, Practical Framework & Foundation Practice",
+    "advance_registration": "Mandatory advance registration in Class 11 for Intermediate Exam 2027.",
+    "progression_to_class_12": "Pass in Class 11 promotional annual examination and confirmation of subject stream registration."
+  },
+  "class_10": {
+    "official_scheme": "UPMSP High School Examination Scheme (Prayagraj)",
+    "combination_rule": "5 Compulsory Subjects + 1 Optional Subject (Total 6 Subjects)",
+    "compulsory_papers": 6,
+    "total_marks": 600,
+    "primary_preparation_subjects": [
+      { "id": "upmsp-hindi-10", "code": "901", "name": "Hindi (हिन्दी)", "language": "hi", "script": "Devanagari", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-english-10", "code": "917", "name": "English", "language": "en", "script": "Latin", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-math-10", "code": "928", "name": "Mathematics (गणित)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-science-10", "code": "931", "name": "Science (विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-social-10", "code": "932", "name": "Social Science (सामाजिक विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-sanskrit-10", "code": "923", "name": "Sanskrit (संस्कृत)", "language": "sa", "script": "Devanagari", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-urdu-10", "code": "904", "name": "Urdu (اردو)", "language": "ur", "script": "Nastaliq / Arabic", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-punjabi-10", "code": "905", "name": "Punjabi (ਪੰਜਾਬੀ)", "language": "pa", "script": "Gurmukhi", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-bengali-10", "code": "906", "name": "Bengali (বাংলা)", "language": "bn", "script": "Bengali", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 },
+      { "id": "upmsp-homesci-10", "code": "930", "name": "Home Science (गृह विज्ञान)", "language": "bilingual", "script": "Devanagari + Latin", "total_marks": 100, "theory_marks": 70, "ina_marks": 30 }
+    ]
+  },
+  "class_12": {
+    "official_scheme": "UPMSP Intermediate Examination Scheme (Prayagraj)",
+    "compulsory_papers": 5,
+    "total_marks": 500,
+    "streams": {
+      "science": {
+        "stream_name": "Group B — Intermediate Science Stream",
+        "primary_subjects": [
+          { "id": "upmsp-physics-12", "code": "151", "name": "Physics (भौतिक विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "upmsp-chemistry-12", "code": "152", "name": "Chemistry (रसायन विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "upmsp-biology-12", "code": "153", "name": "Biology (जीव विज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "upmsp-math-12", "code": "131", "name": "Mathematics (गणित)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-english-12", "code": "117", "name": "English", "theory_marks": 100, "practical_marks": 0, "language": "en" },
+          { "id": "upmsp-genhindi-12", "code": "102", "name": "General Hindi (सामान्य हिन्दी)", "theory_marks": 100, "practical_marks": 0, "language": "hi" },
+          { "id": "upmsp-cs-12", "code": "144", "name": "Computer", "theory_marks": 60, "practical_marks": 40, "language": "en" }
+        ]
+      },
+      "commerce": {
+        "stream_name": "Group C — Intermediate Commerce Stream",
+        "primary_subjects": [
+          { "id": "upmsp-accountancy-12", "code": "156", "name": "Accountancy (बहीखाता तथा लेखाशास्त्र)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-bst-12", "code": "157", "name": "Business Studies (व्यापारिक संगठन एवं पत्र व्यवहार)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-economics-12", "code": "136", "name": "Economics (अर्थशास्त्र)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-math-com-12", "code": "131", "name": "Mathematics (Commerce)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-english-com-12", "code": "117", "name": "English (Commerce)", "theory_marks": 100, "practical_marks": 0, "language": "en" },
+          { "id": "upmsp-genhindi-com-12", "code": "102", "name": "General Hindi (Commerce)", "theory_marks": 100, "practical_marks": 0, "language": "hi" }
+        ]
+      },
+      "humanities": {
+        "stream_name": "Group A — Intermediate Humanities / Arts Stream",
+        "primary_subjects": [
+          { "id": "upmsp-history-12", "code": "128", "name": "History (इतिहास)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-civics-12", "code": "130", "name": "Civics (नागरिक शास्त्र)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-geography-12", "code": "129", "name": "Geography (भूगोल)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "upmsp-economics-hum-12", "code": "136", "name": "Economics (Humanities)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-sociology-12", "code": "142", "name": "Sociology (समाजशास्त्र)", "theory_marks": 100, "practical_marks": 0, "language": "bilingual" },
+          { "id": "upmsp-psychology-12", "code": "133", "name": "Psychology (मनोविज्ञान)", "theory_marks": 70, "practical_marks": 30, "language": "bilingual" },
+          { "id": "upmsp-sanskrit-12", "code": "103", "name": "Sanskrit (संस्कृत 12)", "theory_marks": 100, "practical_marks": 0, "language": "sa" }
+        ]
+      },
+      "agriculture": {
+        "stream_name": "Group F1 — Intermediate Agriculture Stream",
+        "primary_subjects": [
+          { "id": "upmsp-agri-12", "code": "163-167", "name": "Agriculture (कृषि विज्ञान एवं प्रौद्योगिकी)", "theory_marks": 50, "practical_marks": 50, "language": "bilingual" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "board_id": "msbshse-maharashtra",
+  "board_name": "Maharashtra State Board of Secondary & Higher Secondary Education, Pune",
+  "short_name": "MSBSHSE",
+  "common_name": "Maharashtra State Board",
+  "state": "Maharashtra",
+  "headquarters": "Shivajinagar, Pune, Maharashtra",
+  "divisional_boards": [
+    "Pune",
+    "Nagpur",
+    "Chhatrapati Sambhaji Nagar (Aurangabad)",
+    "Mumbai",
+    "Kolhapur",
+    "Amravati",
+    "Nashik",
+    "Latur",
+    "Konkan"
+  ],
+  "country": "India",
+  "official_website": "https://mahahsscboard.in/",
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "home": "https://mahahsscboard.in/",
+    "ssc_portal": "https://mahahsscboard.in/mr/ssc-examination",
+    "hsc_portal": "https://mahahsscboard.in/mr/hsc-examination",
+    "syllabus": "https://mahahsscboard.in/mr/curriculum-syllabus",
+    "question_bank": "https://mahahsscboard.in/mr/question-bank-prashnpedhi",
+    "results": "https://mahresult.nic.in/"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_msbshse": true
+  },
+  "special_examination_categories": {
+    "private_candidates_form_17": {
+      "level": "SSC and HSC Private Candidates (Form 17 / अर्ज १७)",
+      "focus": "External candidates appearing for SSC / HSC without regular school enrollment",
+      "status": "OFFICIAL_REGULATORY_STREAM"
+    },
+    "class_improvement_scheme": {
+      "level": "SSC & HSC (श्रेणी सुधार योजना)",
+      "focus": "Two consecutive attempts allowed to improve division/percentage after passing",
+      "status": "OFFICIAL_SCHEME"
+    },
+    "bifocal_vocational_stream": {
+      "level": "HSC Technical / Vocational Stream (द्विलक्षी अभ्यासक्रम)",
+      "focus": "200 marks practical-oriented vocational subjects (Electronics, Computer Science, Mechanical Maintenance)",
+      "status": "OFFICIAL_STREAM"
+    },
+    "divyangjan_concessions": {
+      "description": "Special concessions for 21 categories of Persons with Benchmark Disabilities including scribe, extra time, and alternative subjects",
+      "status": "OFFICIAL_POLICY"
+    }
+  },
+  "language_script_registry": [
+    {
+      "language_id": "mr",
+      "name": "Marathi",
+      "script": "Devanagari",
+      "mandatory_for": ["Marathi (First Language - अनिवार्य)", "Marathi (Second/Third Language)", "Marathi HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi (Second/Third Language - Lokbharati)", "Hindi HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English (First Language / Compulsory)", "English HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["Sanskrit (Class 10 Composite / Entire)", "Sanskrit HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["Urdu (Class 10)", "Urdu HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "gu",
+      "name": "Gujarati",
+      "script": "Gujarati",
+      "mandatory_for": ["Gujarati (Class 10)", "Gujarati HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "kn",
+      "name": "Kannada",
+      "script": "Kannada",
+      "mandatory_for": ["Kannada (Class 10)", "Kannada HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ta",
+      "name": "Tamil",
+      "script": "Tamil",
+      "mandatory_for": ["Tamil (Class 10)", "Tamil HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "te",
+      "name": "Telugu",
+      "script": "Telugu",
+      "mandatory_for": ["Telugu (Class 10)", "Telugu HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ml",
+      "name": "Malayalam",
+      "script": "Malayalam",
+      "mandatory_for": ["Malayalam (Class 10)", "Malayalam HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "bn",
+      "name": "Bengali",
+      "script": "Bengali",
+      "mandatory_for": ["Bengali (Class 10)", "Bengali HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sd",
+      "name": "Sindhi",
+      "script": "Devanagari / Perso-Arabic",
+      "mandatory_for": ["Sindhi (Class 10)", "Sindhi HSC"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "mandatory_for": ["Punjabi (Class 10)", "Punjabi HSC"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Internal Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, SCERT Maharashtra Syllabus Notes & Continuous Comprehensive Evaluation",
+    "progression_to_class_10": {
+      "rule": "Promotion to Class 10 requires minimum 35% in aggregate and individual subjects under CCE and annual school exam regulations."
+    }
+  },
+  "class_10": {
+    "examination_status": "Secondary School Certificate (SSC) Public Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Board Examination, Practice Quizzes, Model Prashnapedi & Revision Bundles",
+    "scheme_of_examination": "Best of 5 policy: Total score evaluated on best 5 subjects out of 6. Theory 80/40 + Internal/Practical 20/10 per subject = 100/50 marks. Total 600 marks evaluated out of 500."
+  },
+  "class_11": {
+    "examination_status": "Annual Junior College Internal Examination",
+    "board_exam_eligible": false,
+    "service_type": "Junior College Foundation, Stream Studies & Practice",
+    "progression_to_class_12": {
+      "rule": "Promotion to Class 12 requires minimum 35% in each subject (theory and practical separately where applicable) in chosen stream (Science, Commerce, Arts, Vocational)."
+    }
+  },
+  "class_12": {
+    "examination_status": "Higher Secondary Certificate (HSC) Public Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Board Examination, Stream-wise Preparation, Blueprint Practice & Full Exam",
+    "scheme_of_examination": "Compulsory English + Second Language/IT + 4 Stream Subjects = 6 Subjects (600 marks). Non-practical: 80 Theory + 20 Internal = 100. Practical subjects (Physics, Chem, Bio): 70 Theory + 30 Practical = 100. Maths: 80 Theory + 20 Practical/Internal = 100."
+  },
+  "passing_rules": {
+    "minimum_percentage_per_subject": 35,
+    "minimum_aggregate_percentage": 35,
+    "separate_passing_required": "Must secure minimum 35% separately in theory and practicals/internal assessment where specified by MSBSHSE regulations.",
+    "best_of_five_ssc": "Applicable for SSC (Class 10) whereby total percentage is calculated from top 5 highest scoring subjects out of 6.",
+    "condonation_grace_marks": "Permissible up to maximum 15 grace marks in 1 to 3 subjects to achieve passing standard as per MSBSHSE Rule 40."
+  }
+}

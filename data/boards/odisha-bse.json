@@ -1,0 +1,58 @@
+{
+  "board_id": "bse-odisha",
+  "authority_id": "bse-odisha",
+  "official_name": "Board of Secondary Education, Odisha",
+  "short_name": "BSE Odisha",
+  "common_name": "Odisha Secondary Board",
+  "state": "Odisha",
+  "headquarters": "Bajrakabati Road, Cuttack - 753001, Odisha",
+  "country": "India",
+  "official_website": "https://www.bseodisha.ac.in/",
+  "official_result_url": "http://orissaresults.nic.in/",
+  "classes": [9, 10],
+  "academic_year": "2026-27",
+  "exam_year": "2027",
+  "verification_status": "OFFICIAL_SOURCE_VERIFIED",
+  "last_verified": "2026-10-04",
+  "version": "2026.1",
+  "source_urls": {
+    "bse_portal": "https://www.bseodisha.ac.in/",
+    "results_portal": "http://orissaresults.nic.in/"
+  },
+  "class_9_scope": {
+    "is_board_exam": false,
+    "assessment_type": "School-Based Continuous & Comprehensive Evaluation (CCE)",
+    "advance_registration": "Mandatory BSE Odisha Class IX student enrollment for HSC eligibility",
+    "progression_rule": "Class 9 CCE pass and attendance >= 75% required for Class 10 promotion."
+  },
+  "class_10_exam": {
+    "exam_name": "High School Certificate (HSC) Examination",
+    "is_board_exam": true,
+    "pattern_breakdown": {
+      "total_subjects": 6,
+      "marks_per_subject": 100,
+      "total_marks": 600,
+      "omr_mcqs_marks": 50,
+      "subjective_marks": 30,
+      "internal_assessment_marks": 20,
+      "exam_duration_minutes": 150
+    },
+    "passing_rule": {
+      "min_per_subject": 30,
+      "min_aggregate": 33,
+      "min_aggregate_marks": 198
+    },
+    "subjects": [
+      { "code": "od-c10-odia-fl", "name": "First Language Odia (FLO)", "category": "First Language", "language": "or", "script": "Odia" },
+      { "code": "od-c10-english-fl", "name": "First Language English (FLE)", "category": "First Language", "language": "en", "script": "Latin" },
+      { "code": "od-c10-hindi-fl", "name": "First Language Hindi (FLH)", "category": "First Language", "language": "hi", "script": "Devanagari" },
+      { "code": "od-c10-urdu-fl", "name": "First Language Urdu (FLU)", "category": "First Language", "language": "ur", "script": "Nastaliq" },
+      { "code": "od-c10-english-sl", "name": "Second Language English (SLE)", "category": "Second Language", "language": "en", "script": "Latin" },
+      { "code": "od-c10-sanskrit-tl", "name": "Third Language Sanskrit (TLS)", "category": "Third Language", "language": "sa", "script": "Devanagari" },
+      { "code": "od-c10-hindi-tl", "name": "Third Language Hindi (TLH)", "category": "Third Language", "language": "hi", "script": "Devanagari" },
+      { "code": "od-c10-mathematics", "name": "Mathematics (Patiganita, Bijaganita o Jyamiti)", "category": "Core Mathematics", "language": "or_en", "script": "Odia/Latin" },
+      { "code": "od-c10-general-science", "name": "General Science (Bhoutika Bigyan o Jiba Bigyan)", "category": "Core Science", "language": "or_en", "script": "Odia/Latin" },
+      { "code": "od-c10-social-science", "name": "Social Science (Itihasa, Rajaniti Bigyan, Bhugola o Arthaniti)", "category": "Core Social Science", "language": "or_en", "script": "Odia/Latin" }
+    ]
+  }
+}

@@ -31,9 +31,13 @@ function unpackDatabase(force = false) {
     const writeStream = fs.createWriteStream(tmpPath);
     const gunzip = zlib.createGunzip();
     const hasher = crypto.createHash('sha256');
+    const { Transform } = require('stream');
 
-    gunzip.on('data', (chunk) => {
-      hasher.update(chunk);
+    const hashTransform = new Transform({
+      transform(chunk, encoding, callback) {
+        hasher.update(chunk);
+        callback(null, chunk);
+      }
     });
 
     writeStream.on('finish', () => {
@@ -65,7 +69,13 @@ function unpackDatabase(force = false) {
       reject(err);
     });
 
-    gunzip.pipe(writeStream);
+    hashTransform.on('error', (err) => {
+      console.error('[Unpack] HashTransform error:', err.message);
+      try { fs.unlinkSync(tmpPath); } catch (e) {}
+      reject(err);
+    });
+
+    gunzip.pipe(hashTransform).pipe(writeStream);
 
     const s1 = fs.createReadStream(PART1_PATH);
     s1.on('error', (err) => {

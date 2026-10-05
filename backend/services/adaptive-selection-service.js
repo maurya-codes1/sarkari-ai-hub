@@ -7,14 +7,17 @@ const { getDb } = require('../db/database');
 function cleanQuestionText(text) {
   if (!text || typeof text !== 'string') return '';
   let cleaned = text.trim();
-  // Strip leading metadata in brackets e.g. [RRB NTPC CBT-1 Exam Practice Q1] or [सामान्य विज्ञान]
-  cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
-  // Strip leading exam/board prefix like CBSE Class 10 Science: or कक्षा 10 विज्ञान:
-  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास)[^:\n]{0,80}:\s*/i, '');
-  // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:
-  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.-]\s*/i, '');
-  cleaned = cleaned.replace(/^#?\d+\s*[:.-]\s*/, '');
+  // Strip leading metadata in brackets ONLY if it contains known prefix keywords
+  cleaned = cleaned.replace(/^\[(?:RRB|SSC|UPSC|BSEB|CBSE|TBSE|UPMSP|MPBSE|RBSE|Practice|Question|Exam|Class|कक्षा|बोर्ड|अभ्यास|\d+)[^\]\r\n]*\]\s*/gi, '');
+  // Strip exam/board/class/subject names followed by question numbering or colon:
+  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  // Strip general board/exam/class labels:
+  cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
+  // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:, Q13:
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
   cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
+  cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');
   // Strip trailing provenance/noise in parentheses e.g. (सीबीएसई कक्षा 10 विज्ञान नमूना प्रश्न 15)? or (Question #26)
   const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
   const match = cleaned.match(trailingNoiseRegex);
@@ -22,7 +25,14 @@ function cleanQuestionText(text) {
     const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
     cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
   }
-  return cleaned.trim();
+  // Strip inline English tags like \n[English: ...] or [English: ...]
+  cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
+
+  // Safeguard: Never return empty if original text had meaningful characters
+  if (!cleaned && text.trim()) {
+    return text.trim();
+  }
+  return cleaned.trim() || text.trim();
 }
 
 class AdaptiveSelectionService {
@@ -113,6 +123,7 @@ class AdaptiveSelectionService {
       baseParams.push(subjectId);
     }
 
+    baseSql += ' LIMIT 150';
     let candidates = db.prepare(baseSql).all(...baseParams);
 
     const extractOptsList = (opts) => {
@@ -224,8 +235,8 @@ class AdaptiveSelectionService {
         options: []
       };
 
-      const rawQ = content.q || content.question_text || 'Question text unavailable';
-      const cleanQ = cleanQuestionText(rawQ);
+      const rawQ = content.stem || content.question || content.q || content.question_text || content.prompt || content.text || q.question_text || 'Question text unavailable';
+      const cleanQ = cleanQuestionText(rawQ) || rawQ;
 
       const rawOpts = extractOptsList(content.options);
       const cleanOpts = rawOpts.map((opt, oIdx) => {

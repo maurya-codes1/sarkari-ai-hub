@@ -1,0 +1,153 @@
+{
+  "board_id": "rbse-rajasthan",
+  "board_name": "Board of Secondary Education, Rajasthan, Ajmer",
+  "short_name": "RBSE",
+  "common_name": "Rajasthan Board",
+  "state": "Rajasthan",
+  "headquarters": "Ajmer, Rajasthan",
+  "country": "India",
+  "official_website": "https://rajeduboard.rajasthan.gov.in/",
+  "classes": [9, 10, 11, 12],
+  "current_academic_session": "2026-27",
+  "current_exam_year": "2027",
+  "source_status": "OFFICIAL_SOURCE_VERIFIED",
+  "official_urls": {
+    "home": "https://rajeduboard.rajasthan.gov.in/",
+    "syllabus": "https://rajeduboard.rajasthan.gov.in/anudeshika-etc/anudeshika-syllabus.htm",
+    "papers_2026": "https://rajeduboard.rajasthan.gov.in/books/PAPERS-2026/index.htm",
+    "model_papers": "https://rajeduboard.rajasthan.gov.in/books/model.htm",
+    "student_services": "https://rajeduboard.rajasthan.gov.in/student/student.htm",
+    "results": "https://rajeduboard.rajasthan.gov.in/results.htm"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "exam_year": "2027",
+    "historical": ["2019-20", "2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_rbse": true
+  },
+  "special_examination_categories": {
+    "praveshika": {
+      "level": "Secondary Equivalent",
+      "focus": "Sanskrit Traditional Stream (प्रवेशिका परीक्षा)",
+      "status": "SEPARATE_OFFICIAL_EXAM"
+    },
+    "varishth_upadhyay": {
+      "level": "Senior Secondary Equivalent",
+      "focus": "Sanskrit Traditional Stream (वरिष्ठ उपाध्याय परीक्षा)",
+      "status": "SEPARATE_OFFICIAL_EXAM"
+    },
+    "deaf_and_dumb_variants": {
+      "description": "Special examination paper variants for Deaf & Dumb candidates (D&D)",
+      "subjects": ["Hindi D&D", "English D&D", "Science D&D", "Social Science D&D", "Mathematics D&D", "Sanskrit D&D", "Urdu D&D", "Punjabi D&D"],
+      "status": "OFFICIAL_PAPER_VARIANT"
+    },
+    "vocational_secondary": {
+      "description": "Secondary vocational skill examination papers",
+      "subjects": [
+        "Automobile", "Beauty & Wellness", "Health Care", "Information Technology",
+        "Retail", "Travel & Tourism", "Security", "Home Furnishing",
+        "Electrical & Electronics", "Micro Irrigation Agriculture", "Plumber",
+        "Telecom", "Banking & Financial Services", "Construction", "Food Processing"
+      ],
+      "status": "OFFICIAL_VOCATIONAL_REGISTRY"
+    }
+  },
+  "language_script_registry": [
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi Compulsory (Secondary & Sr Secondary)", "Hindi Sahitya"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English Compulsory (Secondary & Sr Secondary)", "English Literature"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sa",
+      "name": "Sanskrit",
+      "script": "Devanagari",
+      "mandatory_for": ["Sanskrit (Class 10)", "Sanskrit Sahitya (Class 12)", "Sanskrit Vangmay"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Arabic",
+      "mandatory_for": ["Urdu (Class 10)", "Urdu Sahitya (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "mandatory_for": ["Punjabi (Class 10)", "Punjabi Sahitya (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "gu",
+      "name": "Gujarati",
+      "script": "Gujarati",
+      "mandatory_for": ["Gujarati (Class 10)", "Gujarati Sahitya (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "sd",
+      "name": "Sindhi",
+      "script": "Devanagari / Perso-Arabic",
+      "mandatory_for": ["Sindhi (Class 10)", "Sindhi (Class 12)"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "raj",
+      "name": "Rajasthani",
+      "script": "Devanagari",
+      "mandatory_for": ["Rajasthani Sahitya (Class 12)"],
+      "permitted_medium": false
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Internal Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Foundation, RBSE Syllabus Notes, Continuous Assessment & Practice",
+    "progression_to_class_10": {
+      "rule": "Promotion to Class 10 requires minimum 33% in each subject and satisfactory attendance (minimum 75%) along with continuous comprehensive evaluation (CCE)."
+    }
+  },
+  "class_10": {
+    "examination_status": "Secondary Public Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Board Examination, Verified Practice, Model Papers & Revision Compendiums",
+    "scheme_of_examination": "6 Papers Scheme (Hindi, English, Mathematics, Science, Social Science, Third Language). Total Marks per Subject: 100 (80 Board Theory Exam + 20 Sessional/Internal Assessment)."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level Internal Examination",
+    "board_exam_eligible": false,
+    "service_type": "Senior Secondary Stream Foundation, RBSE Curricular Studies & Practice",
+    "progression_to_class_12": {
+      "rule": "Promotion to Class 12 requires passing Class 11 internal annual exam in chosen stream (Science, Commerce, Arts, Agriculture) with minimum 33% marks separately in theory, practical, and sessional."
+    }
+  },
+  "class_12": {
+    "examination_status": "Senior Secondary Public Board Examination",
+    "board_exam_eligible": true,
+    "service_type": "Public Board Examination, Stream-wise Preparation, Blueprint Practice & Full Exam",
+    "scheme_of_examination": "Compulsory subjects (Hindi Compulsory, English Compulsory) + 3 Stream Elective Subjects. Non-practical subjects: 80 Theory + 20 Sessional = 100. Practical subjects: 56 Theory + 14 Sessional + 30 Practical = 100."
+  },
+  "passing_rules": {
+    "minimum_percentage_per_subject": 33,
+    "minimum_aggregate_percentage": 33,
+    "separate_passing_required": "Must secure minimum 33% separately in Board Theory, Sessional Assessment, and Practicals (where applicable).",
+    "grace_marks": "Permissible up to 1% of total marks in maximum two subjects as per RBSE examination regulations."
+  }
+}

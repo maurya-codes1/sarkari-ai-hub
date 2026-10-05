@@ -1,0 +1,273 @@
+{
+  "board_id": "pseb-punjab",
+  "board_name": "Punjab School Education Board",
+  "short_name": "PSEB",
+  "state": "Punjab",
+  "country": "India",
+  "official_website": "https://www.pseb.ac.in/",
+  "official_urls": {
+    "home": "https://www.pseb.ac.in/",
+    "syllabus": "https://www.pseb.ac.in/syllabus",
+    "academic_notices": "https://www.pseb.ac.in/academic-notice-board",
+    "question_paper_manager": "https://www.pseb.ac.in/public/question-paper-manager",
+    "nsqf_sqp": "https://www.pseb.ac.in/nsqf_sqp2026-27",
+    "nsqf_msp": "https://www.pseb.ac.in/nsqf_msp2026-27",
+    "results": "https://punjab.indiaresults.com"
+  },
+  "academic_years": {
+    "current": "2026-27",
+    "historical": ["2020-21", "2021-22", "2022-23", "2023-24", "2024-25", "2025-26"]
+  },
+  "board_isolation_policy": {
+    "strict_board_id_enforcement": true,
+    "cross_board_import_forbidden": true,
+    "no_cross_board_pyq": true,
+    "zero_cross_board_syllabus": true,
+    "quarantine_non_pseb": true
+  },
+  "language_script_registry": [
+    {
+      "language_id": "pa",
+      "name": "Punjabi",
+      "script": "Gurmukhi",
+      "mandatory_for": ["Punjabi", "General Punjabi", "Punjabi Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "en",
+      "name": "English",
+      "script": "Latin",
+      "mandatory_for": ["English", "General English", "English Elective", "Computer Science"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "hi",
+      "name": "Hindi",
+      "script": "Devanagari",
+      "mandatory_for": ["Hindi", "Hindi Elective"],
+      "permitted_medium": true
+    },
+    {
+      "language_id": "ur",
+      "name": "Urdu",
+      "script": "Nastaliq / Urdu",
+      "mandatory_for": ["Urdu (in lieu of Hindi)", "Urdu Elective"],
+      "permitted_medium": true
+    }
+  ],
+  "class_9": {
+    "examination_status": "Annual School-Level Examination",
+    "board_exam_eligible": false,
+    "service_type": "Academic Support, Syllabus, Chapter Notes & Foundation Practice",
+    "progression_to_class_10": "Satisfactory completion of Class 9 annual assessment and minimum attendance requirement."
+  },
+  "class_11": {
+    "examination_status": "Annual School-Level Examination",
+    "board_exam_eligible": false,
+    "service_type": "Stream Selection, Syllabus, Notes, Practical & Progression Support",
+    "progression_to_class_12": "Stream continuity, internal and annual examination clearance, and PSEB continuation registration."
+  },
+  "class_10": {
+    "total_subjects_per_candidate": 8,
+    "structure_groups": {
+      "group_a": {
+        "name": "Compulsory Group-A Subjects",
+        "description": "Six compulsory academic papers for all matriculation candidates",
+        "subjects": [
+          {
+            "id": "pseb-punjabi-10",
+            "name": "Punjabi (Paper-A & Paper-B)",
+            "subject_code": "01",
+            "language": "pa",
+            "script": "Gurmukhi",
+            "theory_marks": 70,
+            "ina_marks": 20,
+            "total_marks": 90,
+            "choice_alternative": "pseb-phc-10"
+          },
+          {
+            "id": "pseb-phc-10",
+            "name": "Punjab History and Culture (Part-A & Part-B)",
+            "subject_code": "02",
+            "language": "bilingual",
+            "theory_marks": 70,
+            "ina_marks": 20,
+            "total_marks": 90,
+            "condition": "Eligible candidates who have not studied Punjabi at middle standard"
+          },
+          {
+            "id": "pseb-english-10",
+            "name": "English",
+            "subject_code": "03",
+            "language": "en",
+            "script": "Latin",
+            "theory_marks": 80,
+            "ina_marks": 20,
+            "total_marks": 100
+          },
+          {
+            "id": "pseb-hindi-10",
+            "name": "Hindi",
+            "subject_code": "04",
+            "language": "hi",
+            "script": "Devanagari",
+            "theory_marks": 80,
+            "ina_marks": 20,
+            "total_marks": 100,
+            "choice_alternative": "pseb-urdu-10"
+          },
+          {
+            "id": "pseb-urdu-10",
+            "name": "Urdu (in lieu of Hindi)",
+            "subject_code": "05",
+            "language": "ur",
+            "script": "Urdu",
+            "theory_marks": 80,
+            "ina_marks": 20,
+            "total_marks": 100
+          },
+          {
+            "id": "pseb-math-10",
+            "name": "Mathematics",
+            "subject_code": "06",
+            "language": "bilingual",
+            "theory_marks": 80,
+            "ina_marks": 20,
+            "total_marks": 100
+          },
+          {
+            "id": "pseb-science-10",
+            "name": "Science",
+            "subject_code": "07",
+            "language": "bilingual",
+            "theory_marks": 80,
+            "ina_marks": 20,
+            "total_marks": 100
+          },
+          {
+            "id": "pseb-social-10",
+            "name": "Social Science",
+            "subject_code": "08",
+            "language": "bilingual",
+            "theory_marks": 80,
+            "ina_marks": 20,
+            "total_marks": 100
+          }
+        ]
+      },
+      "group_b": {
+        "name": "Compulsory Computer Science & Elective / NSQF",
+        "description": "Computer Science compulsory plus one elective or NSQF trade",
+        "compulsory": [
+          {
+            "id": "pseb-cs-10",
+            "name": "Computer Science",
+            "subject_code": "09",
+            "language": "bilingual",
+            "theory_marks": 50,
+            "practical_marks": 40,
+            "ina_marks": 10,
+            "total_marks": 100
+          }
+        ],
+        "electives": [
+          { "id": "pseb-pe-10", "name": "Health and Physical Education", "code": "10" },
+          { "id": "pseb-agri-10", "name": "Agriculture", "code": "11" },
+          { "id": "pseb-home-sci-10", "name": "Home Science", "code": "12" },
+          { "id": "pseb-sanskrit-10", "name": "Sanskrit", "code": "13" },
+          { "id": "pseb-urdu-elec-10", "name": "Urdu (Elective)", "code": "14" },
+          { "id": "pseb-cutting-tailoring-10", "name": "Cutting and Tailoring", "code": "15" },
+          { "id": "pseb-drawing-10", "name": "Mechanical Drawing and Painting", "code": "16" },
+          { "id": "pseb-music-vocal-10", "name": "Music (Vocal)", "code": "17" },
+          { "id": "pseb-music-tabla-10", "name": "Music (Tabla)", "code": "18" },
+          { "id": "pseb-music-inst-10", "name": "Music (Instrumental)", "code": "19" }
+        ],
+        "nsqf_trades_count": 20
+      },
+      "group_c": {
+        "name": "Activity Based Subjects",
+        "subjects": [
+          {
+            "id": "pseb-welcome-life-10",
+            "name": "Welcome Life",
+            "evaluation": "Activity-Based School Internal Assessment",
+            "full_exam_eligible": false
+          }
+        ]
+      }
+    }
+  },
+  "class_12": {
+    "total_subjects_per_candidate": 8,
+    "compulsory_subjects": [
+      { "id": "pseb-gen-english-12", "name": "General English", "code": "01", "theory_marks": 80, "ina_marks": 20 },
+      { "id": "pseb-gen-punjabi-12", "name": "General Punjabi", "code": "02", "theory_marks": 80, "ina_marks": 20 },
+      { "id": "pseb-phc-12", "name": "Punjab History and Culture", "code": "03", "theory_marks": 80, "ina_marks": 20 },
+      { "id": "pseb-cs-12", "name": "Computer Science", "code": "04", "theory_marks": 50, "practical_marks": 40, "ina_marks": 10 },
+      { "id": "pseb-env-self-12", "name": "Environment and Self", "evaluation": "School Level Evaluation Only", "full_exam_eligible": false },
+      { "id": "pseb-entrepreneurship-12", "name": "Entrepreneurship", "evaluation": "School Level Evaluation Only", "full_exam_eligible": false }
+    ],
+    "streams": {
+      "science": {
+        "group_id": "Group-II",
+        "name": "Science Stream",
+        "primary_subjects": [
+          { "id": "pseb-physics-12", "name": "Physics", "code": "11", "theory": 70, "practical": 25, "ina": 5 },
+          { "id": "pseb-chemistry-12", "name": "Chemistry", "code": "12", "theory": 70, "practical": 25, "ina": 5 },
+          { "id": "pseb-biology-12", "name": "Biology", "code": "13", "theory": 70, "practical": 25, "ina": 5 },
+          { "id": "pseb-math-12", "name": "Mathematics", "code": "14", "theory": 80, "ina": 20 },
+          { "id": "pseb-ca-12", "name": "Computer Application", "code": "15", "theory": 50, "practical": 40, "ina": 10 },
+          { "id": "pseb-pe-12", "name": "Physical Education and Sports", "code": "16", "theory": 50, "practical": 40, "ina": 10 }
+        ]
+      },
+      "commerce": {
+        "group_id": "Group-III",
+        "name": "Commerce Stream",
+        "primary_subjects": [
+          { "id": "pseb-business-12", "name": "Business Studies", "code": "21", "theory": 80, "ina": 20 },
+          { "id": "pseb-accountancy-12", "name": "Accountancy", "code": "22", "theory": 80, "ina": 20 },
+          { "id": "pseb-economics-12", "name": "Economics", "code": "23", "theory": 80, "ina": 20 },
+          { "id": "pseb-ebusiness-12", "name": "Fundamentals of E-Business", "code": "24", "theory": 80, "ina": 20 },
+          { "id": "pseb-math-12", "name": "Mathematics", "code": "14", "theory": 80, "ina": 20 },
+          { "id": "pseb-ca-12", "name": "Computer Application", "code": "15", "theory": 50, "practical": 40, "ina": 10 }
+        ]
+      },
+      "humanities": {
+        "group_id": "Group-I",
+        "name": "Humanities Stream",
+        "primary_subjects": [
+          { "id": "pseb-history-12", "name": "History", "code": "31", "theory": 80, "ina": 20 },
+          { "id": "pseb-polity-12", "name": "Political Science", "code": "32", "theory": 80, "ina": 20 },
+          { "id": "pseb-economics-12", "name": "Economics", "code": "23", "theory": 80, "ina": 20 },
+          { "id": "pseb-geography-12", "name": "Geography", "code": "33", "theory": 70, "practical": 20, "ina": 10 },
+          { "id": "pseb-sociology-12", "name": "Sociology", "code": "34", "theory": 80, "ina": 20 },
+          { "id": "pseb-psychology-12", "name": "Psychology", "code": "35", "theory": 70, "practical": 20, "ina": 10 },
+          { "id": "pseb-public-admin-12", "name": "Public Administration", "code": "36", "theory": 80, "ina": 20 }
+        ]
+      },
+      "agriculture": {
+        "group_id": "Group-IV",
+        "name": "Agriculture Stream",
+        "primary_subjects": [
+          { "id": "pseb-agri-12", "name": "Agriculture", "code": "41", "theory": 70, "practical": 20, "ina": 10 },
+          { "id": "pseb-physics-12", "name": "Physics", "code": "11", "theory": 70, "practical": 25, "ina": 5 },
+          { "id": "pseb-chemistry-12", "name": "Chemistry", "code": "12", "theory": 70, "practical": 25, "ina": 5 },
+          { "id": "pseb-economics-12", "name": "Economics", "code": "23", "theory": 80, "ina": 20 },
+          { "id": "pseb-geography-12", "name": "Geography", "code": "33", "theory": 70, "practical": 20, "ina": 10 }
+        ]
+      }
+    }
+  },
+  "question_banks_architecture": {
+    "mcq_target_per_primary_subject": 205,
+    "subjective_revision_multiplier": "3x Board Paper Pattern",
+    "subjective_target_per_primary_subject": 75,
+    "total_target_per_primary_subject": 280,
+    "subjective_breakdown": {
+      "very_short_answer_2m": 24,
+      "short_answer_3m": 24,
+      "case_study_4m": 12,
+      "long_answer_5m": 15
+    }
+  }
+}

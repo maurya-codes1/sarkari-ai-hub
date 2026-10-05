@@ -6,13 +6,12 @@
 function cleanQuestionText(text) {
   if (!text || typeof text !== 'string') return '';
   let cleaned = text.trim();
-  // Strip leading metadata in brackets e.g. [RRB NTPC CBT-1 Exam Practice Q1] or [सामान्य विज्ञान]
-  cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/g, '');
+  // Strip leading metadata in brackets ONLY if it contains known prefix keywords (not rule codes or bracketed questions)
+  cleaned = cleaned.replace(/^\[(?:RRB|SSC|UPSC|BSEB|CBSE|TBSE|UPMSP|MPBSE|RBSE|Practice|Question|Exam|Class|कक्षा|बोर्ड|अभ्यास|\d+)[^\]\r\n]*\]\s*/gi, '');
   // Strip exam/board/class/subject names followed by question numbering or colon:
-  // e.g. "CBSE विज्ञान प्रश्न 13:", "CBSE Science Q13:", "UPMSP गणित प्रश्न 5 -", "Class 10 Science Q.4:", "NCERT प्रश्न 2:"
-  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u097F\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   // Strip general board/exam/class labels:
-  cleaned = cleaned.replace(/^[\u0900-\u097F\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
+  cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
   // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:, Q13:
   cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
@@ -27,7 +26,12 @@ function cleanQuestionText(text) {
   }
   // Strip inline English tags like \n[English: ...] or [English: ...]
   cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
-  return cleaned.trim();
+
+  // Safeguard: Never return empty if original text had meaningful characters
+  if (!cleaned && text.trim()) {
+    return text.trim();
+  }
+  return cleaned.trim() || text.trim();
 }
 
 let activeQuiz = window.activeQuiz = {
@@ -1584,16 +1588,17 @@ function generateLocalSessionFallback(examId, subjectId, requestedCount, boardId
 
       const secQuestions = localQuestions.slice(qOffset, qOffset + secCount);
       secQuestions.forEach((q, idx) => {
+        const resolvedQ = q.q || q.question || q.questionText || q.question_text || q.prompt || q.text || '';
         partitionedQuestions.push({
           id: q.id || `q-local-${sIdx}-${idx}`,
           sectionId: secId,
           sectionName: sec.name,
           questionType: q.questionType || 'single_mcq',
-          q: q.q,
-          secondaryQ: q.secondaryQ || '',
+          q: resolvedQ,
+          secondaryQ: q.secondaryQ || q.secondaryQuestion || q.secondary_question || '',
           options: q.options || [],
           correct: q.correct !== undefined ? q.correct : q.ans,
-          explanation: q.explanation || '',
+          explanation: q.explanation || q.exp || '',
           marksCorrect: secMarks,
           marksWrong: secNeg
         });
@@ -1616,16 +1621,17 @@ function generateLocalSessionFallback(examId, subjectId, requestedCount, boardId
       const lastSec = sections[sections.length - 1];
       for (let i = partitionedQuestions.length; i < localQuestions.length; i++) {
         const q = localQuestions[i];
+        const resolvedQ = q.q || q.question || q.questionText || q.question_text || q.prompt || q.text || '';
         partitionedQuestions.push({
           id: q.id || `q-local-rem-${i}`,
           sectionId: lastSec.sectionId,
           sectionName: lastSec.name,
           questionType: q.questionType || 'single_mcq',
-          q: q.q,
-          secondaryQ: q.secondaryQ || '',
+          q: resolvedQ,
+          secondaryQ: q.secondaryQ || q.secondaryQuestion || q.secondary_question || '',
           options: q.options || [],
           correct: q.correct !== undefined ? q.correct : q.ans,
-          explanation: q.explanation || '',
+          explanation: q.explanation || q.exp || '',
           marksCorrect: lastSec.marksCorrect,
           marksWrong: lastSec.marksWrong
         });
@@ -1644,19 +1650,22 @@ function generateLocalSessionFallback(examId, subjectId, requestedCount, boardId
       attemptRuleType: 'ATTEMPT_ALL'
     };
     sections = [defaultSection];
-    partitionedQuestions = localQuestions.map((q, idx) => ({
-      id: q.id || `q-local-${idx}`,
-      sectionId: 'sec-local-1',
-      sectionName: defaultSection.name,
-      questionType: q.questionType || 'single_mcq',
-      q: q.q,
-      secondaryQ: q.secondaryQ || '',
-      options: q.options || [],
-      correct: q.correct !== undefined ? q.correct : q.ans,
-      explanation: q.explanation || '',
-      marksCorrect: marksCorr,
-      marksWrong: isNeg ? negVal : 0.0
-    }));
+    partitionedQuestions = localQuestions.map((q, idx) => {
+      const resolvedQ = q.q || q.question || q.questionText || q.question_text || q.prompt || q.text || '';
+      return {
+        id: q.id || `q-local-${idx}`,
+        sectionId: 'sec-local-1',
+        sectionName: defaultSection.name,
+        questionType: q.questionType || 'single_mcq',
+        q: resolvedQ,
+        secondaryQ: q.secondaryQ || q.secondaryQuestion || q.secondary_question || '',
+        options: q.options || [],
+        correct: q.correct !== undefined ? q.correct : q.ans,
+        explanation: q.explanation || q.exp || '',
+        marksCorrect: marksCorr,
+        marksWrong: isNeg ? negVal : 0.0
+      };
+    });
   }
 
   return {
@@ -1825,8 +1834,10 @@ function renderActiveQuestion() {
   // Bilingual Question Text Rendering
   const qElem = document.getElementById('quizQuestionText');
   if (qElem) {
-    const primaryText = cleanQuestionText(q.q || '');
-    let secondaryText = cleanQuestionText(q.secondaryQ || '');
+    const rawPrimary = q.q || q.question || q.questionText || q.question_text || q.prompt || q.text || '';
+    const primaryText = cleanQuestionText(rawPrimary) || rawPrimary;
+    const rawSecondary = q.secondaryQ || q.secondaryQuestion || q.secondary_question || '';
+    let secondaryText = cleanQuestionText(rawSecondary) || rawSecondary;
     if (secondaryText.toLowerCase() === primaryText.toLowerCase()) {
       secondaryText = '';
     }

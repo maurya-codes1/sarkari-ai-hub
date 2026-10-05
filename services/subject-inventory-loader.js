@@ -45,7 +45,7 @@ function normalizeStem(text = '') {
     .toLowerCase()
     .replace(/^[0-9]+[\.\)]\s*/, '')
     .replace(/\[[^\]]*\]/g, '')
-    .replace(/[^a-z0-9\u0900-\u097F]/gi, '')
+    .replace(/[^a-z0-9\u0900-\u0DFF]/gi, '')
     .trim();
 }
 
@@ -145,12 +145,26 @@ function seededShuffle(array, seedStr = '') {
  */
 function normalizeSubjectId(sub = '') {
   const s = (sub || '').toLowerCase().trim();
+  if (s.includes('bengali') || s.includes('বাংলা') || s.includes('bangla')) return 'bengali';
+  if (s.includes('tamil') || s.includes('தமிழ்')) return 'tamil';
+  if (s.includes('telugu') || s.includes('తెలుగు')) return 'telugu';
+  if (s.includes('marathi') || s.includes('मराठी')) return 'marathi';
+  if (s.includes('gujarati') || s.includes('ગુજરાતી')) return 'gujarati';
+  if (s.includes('punjabi') || s.includes('ਪੰਜਾਬੀ')) return 'punjabi';
+  if (s.includes('odia') || s.includes('ଓଡ଼ିଆ')) return 'odia';
+  if (s.includes('assamese') || s.includes('অসমীয়া')) return 'assamese';
+  if (s.includes('urdu') || s.includes('اردو')) return 'urdu';
+  if (s.includes('kannada') || s.includes('ಕನ್ನಡ')) return 'kannada';
+  if (s.includes('malayalam') || s.includes('മലയാളം')) return 'malayalam';
+  if (s.includes('kokborok')) return 'kokborok';
+  if (s.includes('mizo')) return 'mizo';
+  if (s.includes('nepali')) return 'nepali';
   if (s.includes('math') || s.includes('quant') || s.includes('गणित')) return 'math';
   if (s.includes('sci') || s.includes('विज्ञान')) return 'science';
   if (s.includes('gk') || s.includes('general') || s.includes('gs') || s.includes('जागरूकता')) return 'gk';
   if (s.includes('reason') || s.includes('तर्क') || s.includes('तार्किक') || s.includes('बुद्धिमत्ता')) return 'reasoning';
   if (s.includes('hindi') || s.includes('हिन्दी')) return 'hindi';
-  if (s.includes('eng') || s.includes('अंग्रेजी')) return 'english';
+  if (s.includes('english') || s === 'eng' || s.startsWith('eng-') || s.startsWith('eng_') || s.includes('अंग्रेजी') || s.includes('अंग्रेज़ी')) return 'english';
   if (s.includes('sanskrit') || s.includes('संस्कृत')) return 'sanskrit';
   if (s.includes('law') || s.includes('विधि') || s.includes('मूलविधि') || s.includes('संविधान')) return 'law';
   if (s.includes('tech') || s.includes('railway-sci')) return 'railway-sci';
@@ -167,6 +181,37 @@ function normalizeSubjectId(sub = '') {
   return s;
 }
 
+const BOARD_PREFIX_MAP = {
+  tbse: 'tr', tr: 'tr', tripura: 'tr',
+  goa: 'goa',
+  hp: 'hp', hpbose: 'hp',
+  jk: 'jk', jkbose: 'jk',
+  kerala: 'kerala',
+  ap: 'ap', bieap: 'ap', bseap: 'ap',
+  mn: 'mn', bsem: 'mn', cohsem: 'mn',
+  ml: 'ml', mbose: 'ml',
+  mz: 'mz', mbse: 'mz',
+  nl: 'nl', nbse: 'nl',
+  sk: 'sk', sbse: 'sk',
+  as: 'as', seba: 'as', ahsec: 'as',
+  cg: 'cg', cgbse: 'cg',
+  od: 'od', bseodisha: 'od', chse: 'od',
+  kar: 'kar', karnataka: 'kar', kseab: 'kar',
+  tn: 'tn', tndge: 'tn',
+  pseb: 'pseb', punjab: 'pseb',
+  hbse: 'hbse', haryana: 'hbse', bseh: 'hbse',
+  jac: 'jac', jharkhand: 'jac',
+  mpbse: 'mpbse', mp: 'mpbse',
+  rbse: 'rbse', rajasthan: 'rbse',
+  upmsp: 'upmsp', up: 'upmsp',
+  bseb: 'bseb', bihar: 'bseb',
+  wb: 'wbbse', wbbse: 'wbbse', wbchse: 'wbchse',
+  telangana: 'telangana', bsetelangana: 'telangana', tsbie: 'telangana',
+  gseb: 'gseb', gujarat: 'gseb',
+  msbshse: 'msbshse', maharashtra: 'msbshse',
+  nios: 'nios', cbse: 'cbse', icse: 'icse'
+};
+
 /**
  * Retrieves database questions for a given subject identifier or subject code.
  */
@@ -176,24 +221,39 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
     if (!db) return [];
 
     const is12th = Boolean(options.is12th);
+    const targetClass = options.targetClass || (is12th ? '12' : '10');
+    const boardKey = (options.boardId || '').toLowerCase().trim();
+    const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
     const normKey = normalizeSubjectId(subjectId);
     let targetSubId = normKey;
     if (!targetSubId.startsWith('subj-')) {
       targetSubId = 'subj-' + targetSubId;
     }
 
-    const rows = db.prepare(`
+    const exactBoardSubId = dbPrefix ? `${dbPrefix}-c${targetClass}-${normKey}` : targetSubId;
+    const queryPatterns = [targetSubId, `%${normKey}%`, `%${subjectId}%`];
+    let querySql = `
       SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
              qv.language_content, qv.correct_answer
       FROM questions q
       JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
-      WHERE (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?)
+      WHERE (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?
+    `;
+
+    if (dbPrefix) {
+      querySql += ` OR q.subject_id = ? OR q.subject_id LIKE ?`;
+      queryPatterns.push(exactBoardSubId, `%${dbPrefix}%${normKey}%`);
+    }
+    querySql += `)
         AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
         AND q.question_type_id NOT IN ('short_answer', 'long_answer', 'case_study', 'subjective')
-      ORDER BY q.question_id ASC
-    `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`);
+      ORDER BY (CASE WHEN q.subject_id = ? OR q.subject_id LIKE ? THEN 0 ELSE 1 END), q.question_id ASC
+    `;
+    queryPatterns.push(exactBoardSubId, `%${dbPrefix}%`);
 
-    const LANGUAGE_SUBJECTS = new Set(['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi']);
+    const rows = db.prepare(querySql).all(...queryPatterns);
+
+    const LANGUAGE_SUBJECTS = new Set(['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi', 'kokborok', 'mizo', 'nepali']);
     const isLangSub = LANGUAGE_SUBJECTS.has(normKey) || (rSub => LANGUAGE_SUBJECTS.has(rSub.replace(/^subj-/, '')))(targetSubId);
 
     const validList = [];
@@ -204,31 +264,57 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
         continue;
       }
 
+      const langKeys = Object.keys(parsed);
+      if (langKeys.length === 0) continue;
+
+      let primaryLang = null;
+      if (options.langMode && parsed[options.langMode]) primaryLang = parsed[options.langMode];
+      else if (parsed.bn) primaryLang = parsed.bn;
+      else if (parsed.ta) primaryLang = parsed.ta;
+      else if (parsed.te) primaryLang = parsed.te;
+      else if (parsed.mr) primaryLang = parsed.mr;
+      else if (parsed.gu) primaryLang = parsed.gu;
+      else if (parsed.od || parsed.or) primaryLang = parsed.od || parsed.or;
+      else if (parsed.pa) primaryLang = parsed.pa;
+      else if (parsed.as) primaryLang = parsed.as;
+      else if (parsed.kn) primaryLang = parsed.kn;
+      else if (parsed.ml) primaryLang = parsed.ml;
+      else if (parsed.ur) primaryLang = parsed.ur;
+      else if (parsed.hi) primaryLang = parsed.hi;
+      else if (parsed.en) primaryLang = parsed.en;
+      else primaryLang = parsed[langKeys[0]];
+
       const hi = parsed.hi || {};
       const en = parsed.en || {};
 
-      const cleanHi = cleanQuestionText(hi.q || '');
-      const cleanEn = cleanQuestionText(en.q || '');
-      if (!cleanHi && !cleanEn) continue;
+      const cleanPrimaryQ = cleanQuestionText(primaryLang ? (primaryLang.question || primaryLang.q || primaryLang.prompt || primaryLang.text || '') : '');
+      const cleanHi = cleanQuestionText(hi.question || hi.q || '');
+      const cleanEn = cleanQuestionText(en.question || en.q || '');
+      if (!cleanPrimaryQ && !cleanHi && !cleanEn) continue;
 
       let qText = '';
       let opts = [];
 
-      if (isLangSub) {
-        // Pure single language for language subjects
-        qText = cleanHi || cleanEn;
-        opts = (hi.options || en.options || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
+      let rawOpts = primaryLang ? primaryLang.options : (hi.options || en.options);
+      if (rawOpts && typeof rawOpts === 'object' && !Array.isArray(rawOpts)) {
+        rawOpts = [rawOpts.A, rawOpts.B, rawOpts.C, rawOpts.D].filter(Boolean);
+      }
+
+      if (isLangSub || primaryLang !== hi && primaryLang !== en) {
+        // Pure single language for regional / language subjects
+        qText = cleanPrimaryQ || cleanHi || cleanEn;
+        opts = (rawOpts || hi.options || en.options || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
       } else {
         // Bilingual for core subjects (Math, Science, History, etc.)
         if (cleanHi && cleanEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
           qText = `${cleanHi}\n[English: ${cleanEn}]`;
         } else {
-          qText = cleanHi || cleanEn;
+          qText = cleanPrimaryQ || cleanHi || cleanEn;
         }
 
-        const hiOpts = hi.options || [];
-        const enOpts = en.options || [];
-        const optCount = Math.max(hiOpts.length, enOpts.length, 4);
+        const hiOpts = Array.isArray(hi.options) ? hi.options : (hi.options && typeof hi.options === 'object' ? Object.values(hi.options) : []);
+        const enOpts = Array.isArray(en.options) ? en.options : (en.options && typeof en.options === 'object' ? Object.values(en.options) : []);
+        const optCount = Math.max(hiOpts.length, enOpts.length, (rawOpts && rawOpts.length) || 0, 4);
         opts = [];
         for (let i = 0; i < optCount; i++) {
           const hRaw = hiOpts[i] !== undefined && hiOpts[i] !== null ? String(hiOpts[i]) : '';
@@ -242,6 +328,8 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
             opts.push(`${prefix} ${h}`);
           } else if (e) {
             opts.push(`${prefix} ${e}`);
+          } else if (rawOpts && rawOpts[i]) {
+            opts.push(String(rawOpts[i]).trim());
           } else {
             opts.push(`${prefix} Option ${i + 1}`);
           }
@@ -260,7 +348,7 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       const correctIdx = typeof parsedCa.index === 'number' ? parsedCa.index : (typeof parsedCa.correct_index === 'number' ? parsedCa.correct_index : ((typeof hi.correct === 'number') ? hi.correct : 0));
       const correctAnsText = parsedCa.value || parsedCa.correct_value || (Array.isArray(opts) && opts[correctIdx] ? opts[correctIdx] : (hi.ans || en.ans || ''));
 
-      let rawExp = hi.exp || en.exp || 'Authentic solution with conceptual explanation.';
+      let rawExp = (primaryLang && (primaryLang.explanation || primaryLang.exp)) || hi.exp || en.exp || 'Authentic solution with conceptual explanation.';
       // Clean duplicate explanation tags e.g. 💡 सही उत्तर: A) ... — 💡 Correct Answer: A) ...
       rawExp = rawExp.replace(/—\s*💡\s*Correct Answer:[^—\n]+/gi, '').trim();
       rawExp = cleanQuestionText(rawExp);
@@ -377,14 +465,14 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
   const dbList = fetchDbQuestionsForSubject(normSub, options);
 
   let combined = [];
-  const seenStems = new Set();
+  const seenKeys = new Set();
 
   function pushItem(item, source) {
     if (!item || !item.q) return;
-    const stem = normalizeStem(item.q);
-    if (!stem || stem.length < 5) return;
-    if (seenStems.has(stem)) return;
-    seenStems.add(stem);
+    const dedupKey = item.id || normalizeStem(item.q);
+    if (!dedupKey || dedupKey.length < 3) return;
+    if (seenKeys.has(dedupKey)) return;
+    seenKeys.add(dedupKey);
 
     let cleanQ = cleanQuestionText(item.q);
     // Ensure clean question text without fake repetitive tags
@@ -405,7 +493,20 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
     });
   }
 
-  // 1. If exam-specific questions exist for this exam, prioritize them first
+  const boardKey = (options.boardId || '').toLowerCase().trim();
+  const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
+
+  // 1. If boardId is provided, STRICTLY prioritize questions originating from that specific board
+  if (dbPrefix) {
+    for (const item of dbList) {
+      const qId = (item.id || '').toLowerCase();
+      if (qId.startsWith(`${dbPrefix}-`) || qId.includes(`-${dbPrefix}-`)) {
+        pushItem(item, 'DB');
+      }
+    }
+  }
+
+  // 2. If exam-specific questions exist for this exam, prioritize them
   if (examId) {
     for (const item of dbList) {
       const qId = (item.id || '').toLowerCase();
@@ -415,17 +516,25 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
     }
   }
 
-  // 2. Prioritize authentic Master Bank questions
-  for (const item of masterList) {
-    pushItem(item, 'MASTER_BANK');
+  // 3. For boards, only include master bank if not enough board questions
+  if (!dbPrefix || combined.length < 50) {
+    for (const item of masterList) {
+      pushItem(item, 'MASTER_BANK');
+    }
   }
 
-  // 3. Enrich with remaining clean database questions
+  // 4. Enrich with remaining clean database questions (avoiding conflicting boards)
   for (const item of dbList) {
+    if (combined.length >= 250) break;
+    if (dbPrefix) {
+      const qId = (item.id || '').toLowerCase();
+      const hasOtherBoard = Object.values(BOARD_PREFIX_MAP).some(p => p !== dbPrefix && qId.startsWith(`${p}-`));
+      if (hasOtherBoard) continue;
+    }
     pushItem(item, 'DB');
   }
 
-  // 4. Seeded differentiation by examId to prevent SSC GD, SSC MTS etc. from having identical question order
+  // 5. Seeded differentiation by examId to prevent duplicate ordering
   if (examId && combined.length > 1) {
     combined = seededShuffle(combined, `${examId}-${normSub}`);
   }
