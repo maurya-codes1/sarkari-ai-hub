@@ -240,16 +240,6 @@ const BOARD_REGISTRY = {
     nativeLangId: "assamese",
     nativeLangName: "অসমীয়া ভাষা আৰু সাহিত্য (Assamese)"
   },
-  bsetelangana: {
-    id: "bsetelangana",
-    name: "Telangana Board (TSBIE / BSE)",
-    fullName: "తెలంగాణ సెకండరీ ఎడ్యుకేషన్ బోర్డ్ (TSBIE హైదరాబాద్)",
-    state: "Telangana",
-    langMode: "bilingual-telugu",
-    langTitle: "తెలుగు & English (Dual Text)",
-    nativeLangId: "telugu",
-    nativeLangName: "తెలుగు ప్రథమ భాష (Telugu)"
-  },
   telangana: {
     id: "telangana",
     name: "Telangana Board (TSBIE / BSE)",
@@ -263,7 +253,7 @@ const BOARD_REGISTRY = {
   ap: {
     id: "ap",
     name: "Andhra Pradesh Board (BIEAP / BSEAP)",
-    fullName: "ఆంధ్రప్రదేశ్ సెకండరీ ఎడ్యుకేషన్ బోర్డ్ (BSEAP అమరావతి)",
+    fullName: "ఆంధ్రప్రదేశ్ సెకండరీ ఎడ್ಯుకేషన్ బోర్డ్ (BSEAP అమరావతి)",
     state: "Andhra Pradesh",
     langMode: "bilingual-telugu",
     langTitle: "తెలుగు & English (Dual Text)",
@@ -272,16 +262,6 @@ const BOARD_REGISTRY = {
   },
   tbse: {
     id: "tbse",
-    name: "Tripura Board (TBSE)",
-    fullName: "ত্রিপুরা মধ্যশিক্ষা পর্ষদ (TBSE আগরতলা)",
-    state: "Tripura",
-    langMode: "bilingual-bengali",
-    langTitle: "বাংলা & English (Dual Text)",
-    nativeLangId: "bengali",
-    nativeLangName: "বাংলা সাহিত্য ও ব্যাকরণ (Bengali)"
-  },
-  tr: {
-    id: "tr",
     name: "Tripura Board (TBSE)",
     fullName: "ত্রিপুরা মধ্যশিক্ষা পর্ষদ (TBSE আগরতলা)",
     state: "Tripura",

@@ -490,18 +490,34 @@ class PdfGenerationService {
 
         for (const sec of blueprint.sections) {
           const needed = sec.question_count || 25;
-          const questions = db.prepare(`
+          let questions = db.prepare(`
             SELECT q.question_id, q.source_question_number, q.marks,
                    qv.language_content, qv.correct_answer
             FROM questions q
             JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
             WHERE q.subject_id = ? AND q.full_exam_eligible = 1
               AND (q.answer_state IS NULL OR q.answer_state != 'DROPPED')
+              AND (q.exam_version_id = ? OR (? IS NULL AND q.exam_version_id IS NULL))
               AND q.question_id NOT LIKE 'q-c12-his-%'
               AND q.question_id NOT LIKE 'q-c12-pol-%'
               AND q.question_id NOT LIKE 'q-c12-geo-%'
             LIMIT ?
-          `).all(sec.subject_id, needed);
+          `).all(sec.subject_id, versionId, versionId, needed);
+
+          if (questions.length < needed) {
+            questions = db.prepare(`
+              SELECT q.question_id, q.source_question_number, q.marks,
+                     qv.language_content, qv.correct_answer
+              FROM questions q
+              JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+              WHERE q.subject_id = ? AND q.full_exam_eligible = 1
+                AND (q.answer_state IS NULL OR q.answer_state != 'DROPPED')
+                AND q.question_id NOT LIKE 'q-c12-his-%'
+                AND q.question_id NOT LIKE 'q-c12-pol-%'
+                AND q.question_id NOT LIKE 'q-c12-geo-%'
+              LIMIT ?
+            `).all(sec.subject_id, needed);
+          }
 
           const uniqueSecQuestions = [];
           for (const q of questions) {
@@ -1066,7 +1082,7 @@ class PdfGenerationService {
         { subject_id: 'subj-math', name: 'Mathematics' },
         { subject_id: 'subj-reasoning', name: 'Reasoning' }
       ]).map(s => {
-        const rawQs = getCompleteSubjectInventory(s.subject_id.replace(/^subj-/, ''));
+        const rawQs = getCompleteSubjectInventory(s.subject_id.replace(/^subj-/, ''), { examId, versionId });
         return {
           subjectId: s.subject_id,
           subjectName: s.name,
@@ -1083,7 +1099,7 @@ class PdfGenerationService {
     } else {
       // Single Subject: preserve full inventory unless questionCount is explicitly passed
       const resolvedSub = (subjectId || 'math').replace(/^subj-/, '');
-      const rawQs = getCompleteSubjectInventory(resolvedSub);
+      const rawQs = getCompleteSubjectInventory(resolvedSub, { examId, versionId });
       const isCompleteBank = (docType === this.DOCUMENT_TYPES.SUBJECT_COMPLETE_QUESTION_BANK || docType === this.DOCUMENT_TYPES.SUBJECT_PRACTICE_PAPER);
       if (isCompleteBank) {
         // Complete Question Bank: preserve 100% of available inventory

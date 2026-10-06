@@ -260,6 +260,119 @@ const BOARD_PREFIX_MAP = {
   nios: 'nios', cbse: 'cbse', icse: 'icse'
 };
 
+const COMPETITIVE_EXAM_VERSION_MAP = {
+  'ssc-gd': 'ver-ssc-gd-2026',
+  'ssc-cgl': 'ver-ssc-cgl-2026',
+  'ssc-chsl': 'ver-ssc-chsl-2026',
+  'ssc-mts': 'ver-ssc-mts-2026',
+  'railway-alp': 'ver-rrb-alp-2026',
+  'rrb-alp': 'ver-rrb-alp-2026',
+  'railway-group-d': 'ver-rrb-group-d-2026',
+  'rrb-group-d': 'ver-rrb-group-d-2026',
+  'rrb-ntpc': 'ver-rrb-ntpc-2026',
+  'rrb-technician': 'ver-rrb-technician-2026',
+  'upsc-cse': 'ver-upsc-cse-2026',
+  'upsc-nda': 'ver-upsc-nda-2026',
+  'army-agniveer': 'ver-agniveer-army-2026',
+  'agniveer-army': 'ver-agniveer-army-2026',
+  'iaf-agniveer': 'ver-agniveer-airforce-2026',
+  'agniveer-airforce': 'ver-agniveer-airforce-2026',
+  'navy-agniveer': 'ver-agniveer-navy-2026',
+  'agniveer-navy': 'ver-agniveer-navy-2026',
+  'banking': 'ver-ibps-po-clerk-2026',
+  'ibps-po-clerk': 'ver-ibps-po-clerk-2026',
+  'up-police': 'ver-up-police-constable-2026',
+  'up-police-constable': 'ver-up-police-constable-2026',
+  'bihar-police': 'ver-bihar-police-constable-2026',
+  'bihar-police-constable': 'ver-bihar-police-constable-2026',
+  'delhi-police': 'ver-delhi-police-2026',
+  'rajasthan-police': 'ver-rajasthan-police-2026',
+  'mp-police': 'ver-mp-police-2026',
+  'haryana-police': 'ver-haryana-police-2026',
+  'wb-police': 'ver-wb-police-2026',
+  'maharashtra-police': 'ver-maharashtra-police-2026',
+  'nta-neet': 'ver-nta-neet-2026',
+  'nta-jee': 'ver-nta-jee-main-2026',
+  'nta-jee-main': 'ver-nta-jee-main-2026',
+  'nta-jee-adv': 'ver-nta-jee-adv-2026',
+  'nta-cuet': 'ver-nta-cuet-ug-2026',
+  'nta-cuet-ug': 'ver-nta-cuet-ug-2026',
+  'clat-law': 'ver-clat-law-2026',
+  'ctet': 'ver-ctet-exam-2026',
+  'ctet-exam': 'ver-ctet-exam-2026',
+  'up-tet': 'ver-uptet-supertet-2026',
+  'uptet-supertet': 'ver-uptet-supertet-2026',
+  'bpsc-tre': 'ver-bpsc-tre-2026',
+  'reet': 'ver-reet-rajasthan-2026',
+  'reet-rajasthan': 'ver-reet-rajasthan-2026',
+  'ugc-net': 'ver-ugc-net-2026'
+};
+
+function getMatchingCompSubjectIds(db, examVersion, normSub) {
+  if (!db || !examVersion) return [];
+  const allSubs = db.prepare('SELECT DISTINCT subject_id FROM questions WHERE exam_version_id = ?').all(examVersion).map(s => s.subject_id);
+  const s = (normSub || '').toLowerCase();
+  
+  if (s === 'all' || s.includes('bundle') || s.includes('सभी') || s.includes('simulation') || s.includes('mock')) {
+    return allSubs;
+  }
+
+  const matched = allSubs.filter(sub => {
+    const sl = sub.toLowerCase();
+    if (s.includes('math') || s.includes('arithmetic') || s.includes('quant') || s.includes('गणित')) {
+      return sl.includes('math') || sl.includes('quant') || sl.includes('arithmetic') || sl.includes('numerical');
+    }
+    if (s.includes('reason') || s.includes('intelligence') || s.includes('तर्क') || s.includes('तार्किक')) {
+      return (sl.includes('reason') || sl.includes('intelligence') || sl.includes('aptitude')) && !sl.includes('quant');
+    }
+    if (s.includes('gk') || s.includes('awareness') || s.includes('general knowledge') || s.includes('सामान्य ज्ञान') || s.includes('gs') || s.includes('special')) {
+      return sl.includes('awareness') || sl.includes('knowledge') || sl.includes('general-knowledge') || sl.includes('gk') || sl.includes('studies') || sl.includes('current');
+    }
+    if (s.includes('tech') || s.includes('engineering') || s.includes('drawing')) {
+      return sl.includes('basic-science') || sl.includes('technical') || sl.includes('engineering');
+    }
+    if (s.includes('science') || s.includes('विज्ञान')) {
+      return sl.includes('science') || sl.includes('physics') || sl.includes('chemistry') || sl.includes('biology');
+    }
+    if (s.includes('hindi') || s.includes('हिन्दी')) {
+      return sl.includes('hindi');
+    }
+    if (s.includes('english') || s.includes('अंग्रेजी')) {
+      return sl.includes('english');
+    }
+    if (s.includes('physic') || s.includes('भौतिक')) {
+      return sl.includes('physics');
+    }
+    if (s.includes('chem') || s.includes('रसायन')) {
+      return sl.includes('chemistry');
+    }
+    if (s.includes('bio') || s.includes('जीव') || s.includes('botany') || s.includes('zoology')) {
+      return sl.includes('bio') || sl.includes('botany') || sl.includes('zoology');
+    }
+    if (s.includes('hist') || s.includes('इतिहास')) {
+      return sl.includes('history');
+    }
+    if (s.includes('polity') || s.includes('संविधान') || s.includes('law') || s.includes('legal')) {
+      return sl.includes('polity') || sl.includes('legal') || sl.includes('law');
+    }
+    if (s.includes('geog') || s.includes('भूगोल')) {
+      return sl.includes('geography');
+    }
+    if (s.includes('eco') || s.includes('अर्थशास्त्र')) {
+      return sl.includes('economy') || sl.includes('economic');
+    }
+    if (s.includes('pedagogy') || s.includes('teaching') || s.includes('child')) {
+      return sl.includes('pedagogy') || sl.includes('teaching') || sl.includes('child');
+    }
+    if (s.includes('computer') || s.includes('कम्प्यूटर')) {
+      return sl.includes('computer');
+    }
+    return sl.includes(s);
+  });
+
+  return matched.length > 0 ? matched : allSubs.filter(sub => sub.toLowerCase().includes(s));
+}
+
 /**
  * Retrieves database questions for a given subject identifier or subject code.
  * Optimized with index on (board_id, stage) to resolve in < 10ms.
@@ -281,48 +394,83 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       targetSubId = 'subj-' + targetSubId;
     }
 
+    const examId = (options.examId || '').toLowerCase().trim();
+    const examVersionId = COMPETITIVE_EXAM_VERSION_MAP[examId] || (examId ? `ver-${examId}-2026` : null);
+
     let rows = [];
 
-    // 1. High-speed indexed query using (board_id, stage)
-    if (canonicalBoard) {
-      rows = db.prepare(`
-        SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
-               qv.language_content, qv.correct_answer
-        FROM questions q
-        JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
-        WHERE q.board_id = ?
-          AND (q.stage = ? OR q.stage LIKE ?)
-          AND (q.subject_id LIKE ? OR q.subject_id = ? OR q.subject_id LIKE ?)
-          AND q.is_published = 1
-          AND q.quality_state != 'SYNTHETIC_QUARANTINE'
-          AND q.trust_status != 'QUARANTINED'
-          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
-        ORDER BY (CASE WHEN q.quality_state = 'AUTHENTIC_VERIFIED' THEN 0 ELSE 1 END), q.question_id ASC
-        LIMIT 2500
-      `).all(canonicalBoard, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
-    }
+    // =========================================================================
+    // 1. COMPETITIVE EXAM: STRICT MULTI-TIER ISOLATION
+    // Must ONLY query its own exam_version_id and its own subject.
+    // Zero board questions, zero other competitive exam questions!
+    // =========================================================================
+    if (examVersionId) {
+      const matchingSubjectIds = getMatchingCompSubjectIds(db, examVersionId, subjectId);
+      if (matchingSubjectIds.length > 0) {
+        const placeholders = matchingSubjectIds.map(() => '?').join(',');
+        rows = db.prepare(`
+          SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
+                 qv.language_content, qv.correct_answer
+          FROM questions q
+          JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+          WHERE q.exam_version_id = ?
+            AND q.subject_id IN (${placeholders})
+            AND q.is_published = 1
+            AND q.quality_state != 'SYNTHETIC_QUARANTINE'
+            AND q.trust_status != 'QUARANTINED'
+            AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+          ORDER BY (CASE WHEN q.quality_state = 'AUTHENTIC_VERIFIED' THEN 0 ELSE 1 END), q.question_id ASC
+          LIMIT 2500
+        `).all(examVersionId, ...matchingSubjectIds);
+      }
+      // CRITICAL: Under NO circumstance fall back to school boards for competitive exams!
+    } else {
+      // =======================================================================
+      // 2. SCHOOL BOARDS: STRICT BOARD ISOLATION (Class 10 vs Class 12)
+      // Must ONLY query this specific board's questions.
+      // =======================================================================
+      if (canonicalBoard) {
+        rows = db.prepare(`
+          SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
+                 qv.language_content, qv.correct_answer
+          FROM questions q
+          JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+          WHERE (q.board_id = ? OR q.subject_id LIKE ?)
+            AND (q.stage = ? OR q.stage LIKE ?)
+            AND (q.subject_id LIKE ? OR q.subject_id = ? OR q.subject_id LIKE ?)
+            AND q.is_published = 1
+            AND q.quality_state != 'SYNTHETIC_QUARANTINE'
+            AND q.trust_status != 'QUARANTINED'
+            AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+          ORDER BY (CASE WHEN q.quality_state = 'AUTHENTIC_VERIFIED' THEN 0 ELSE 1 END), q.question_id ASC
+          LIMIT 2500
+        `).all(canonicalBoard, `${dbPrefix}-%`, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
+      }
 
-    // 2. High-yield National/NCERT Enrichment if board-specific pool is under 150
-    if (rows.length < 150) {
-      const existingIds = new Set(rows.map(r => r.question_id));
-      const fallbackRows = db.prepare(`
-        SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
-               qv.language_content, qv.correct_answer
-        FROM questions q
-        JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
-        WHERE (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?)
-          AND (q.stage = ? OR q.stage LIKE ? OR q.stage IS NULL)
-          AND q.is_published = 1
-          AND q.quality_state != 'SYNTHETIC_QUARANTINE'
-          AND q.trust_status != 'QUARANTINED'
-          AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
-        LIMIT 2500
-      `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`, `Class ${targetClass}`, `Class ${targetClass}%`);
+      // Safe Central Reference Fallback: ONLY if under 150 AND strictly from cbse-board (central NCERT)
+      // Explicitly block any other state board's questions!
+      if (rows.length < 150) {
+        const existingIds = new Set(rows.map(r => r.question_id));
+        const fallbackRows = db.prepare(`
+          SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
+                 qv.language_content, qv.correct_answer
+          FROM questions q
+          JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+          WHERE q.board_id = 'cbse-board'
+            AND (q.subject_id = ? OR q.subject_id LIKE ? OR q.subject_id LIKE ?)
+            AND (q.stage = ? OR q.stage LIKE ? OR q.stage IS NULL)
+            AND q.is_published = 1
+            AND q.quality_state != 'SYNTHETIC_QUARANTINE'
+            AND q.trust_status != 'QUARANTINED'
+            AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
+          LIMIT 2500
+        `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`, `Class ${targetClass}`, `Class ${targetClass}%`);
 
-      for (const fb of fallbackRows) {
-        if (!existingIds.has(fb.question_id)) {
-          existingIds.add(fb.question_id);
-          rows.push(fb);
+        for (const fb of fallbackRows) {
+          if (!existingIds.has(fb.question_id)) {
+            existingIds.add(fb.question_id);
+            rows.push(fb);
+          }
         }
       }
     }
@@ -361,23 +509,33 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       const hi = parsed.hi || {};
       const en = parsed.en || {};
 
-      const cleanPrimaryQ = cleanQuestionText(primaryLang ? (primaryLang.question || primaryLang.q || primaryLang.prompt || primaryLang.text || '') : '');
-      const cleanHi = cleanQuestionText(hi.question || hi.q || '');
-      const cleanEn = cleanQuestionText(en.question || en.q || '');
+      const extractStem = (obj) => {
+        if (!obj) return '';
+        return obj.question_text || obj.stem || obj.question || obj.q || obj.prompt || obj.text || '';
+      };
+      const cleanPrimaryQ = cleanQuestionText(primaryLang ? extractStem(primaryLang) : '');
+      const cleanHi = cleanQuestionText(extractStem(hi));
+      const cleanEn = cleanQuestionText(extractStem(en));
       if (!cleanPrimaryQ && !cleanHi && !cleanEn) continue;
 
       let qText = '';
       let opts = [];
 
-      let rawOpts = primaryLang ? primaryLang.options : (hi.options || en.options);
-      if (rawOpts && typeof rawOpts === 'object' && !Array.isArray(rawOpts)) {
-        rawOpts = [rawOpts.A, rawOpts.B, rawOpts.C, rawOpts.D].filter(Boolean);
-      }
+      const extractRawOpts = (obj) => {
+        if (!obj || !obj.options) return null;
+        if (Array.isArray(obj.options)) return obj.options;
+        if (typeof obj.options === 'object') {
+          return [obj.options.A, obj.options.B, obj.options.C, obj.options.D].filter(v => v !== undefined && v !== null);
+        }
+        return null;
+      };
+
+      let rawOpts = primaryLang ? extractRawOpts(primaryLang) : (extractRawOpts(hi) || extractRawOpts(en));
 
       if (isLangSub || primaryLang !== hi && primaryLang !== en) {
         // Pure single language for regional / language subjects
         qText = cleanPrimaryQ || cleanHi || cleanEn;
-        opts = (rawOpts || hi.options || en.options || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
+        opts = (rawOpts || extractRawOpts(hi) || extractRawOpts(en) || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
       } else {
         // Bilingual for core subjects (Math, Science, History, etc.)
         if (cleanHi && cleanEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
@@ -386,8 +544,8 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
           qText = cleanPrimaryQ || cleanHi || cleanEn;
         }
 
-        const hiOpts = Array.isArray(hi.options) ? hi.options : (hi.options && typeof hi.options === 'object' ? Object.values(hi.options) : []);
-        const enOpts = Array.isArray(en.options) ? en.options : (en.options && typeof en.options === 'object' ? Object.values(en.options) : []);
+        const hiOpts = extractRawOpts(hi) || [];
+        const enOpts = extractRawOpts(en) || [];
         const optCount = Math.max(hiOpts.length, enOpts.length, (rawOpts && rawOpts.length) || 0, 4);
         opts = [];
         for (let i = 0; i < optCount; i++) {
@@ -419,10 +577,20 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
 
       let parsedCa = {};
       try { parsedCa = JSON.parse(r.correct_answer || '{}'); } catch (e) {}
-      const correctIdx = typeof parsedCa.index === 'number' ? parsedCa.index : (typeof parsedCa.correct_index === 'number' ? parsedCa.correct_index : ((typeof hi.correct === 'number') ? hi.correct : 0));
+      let correctIdx = 0;
+      if (typeof parsedCa.index === 'number') correctIdx = parsedCa.index;
+      else if (typeof parsedCa.correct_index === 'number') correctIdx = parsedCa.correct_index;
+      else if (typeof hi.correct === 'number') correctIdx = hi.correct;
+      else if (typeof parsedCa === 'string' && /^[A-D]$/i.test(parsedCa)) {
+        correctIdx = { A: 0, B: 1, C: 2, D: 3 }[parsedCa.toUpperCase()] || 0;
+      }
       const correctAnsText = parsedCa.value || parsedCa.correct_value || (Array.isArray(opts) && opts[correctIdx] ? opts[correctIdx] : (hi.ans || en.ans || ''));
 
-      let rawExp = (primaryLang && (primaryLang.explanation || primaryLang.exp)) || hi.exp || en.exp || 'Authentic solution with conceptual explanation.';
+      const extractExp = (obj) => {
+        if (!obj) return '';
+        return obj.explanation || obj.solution || obj.exp || '';
+      };
+      let rawExp = (primaryLang && extractExp(primaryLang)) || extractExp(hi) || extractExp(en) || 'Authentic solution with conceptual explanation.';
       // Clean duplicate explanation tags e.g. 💡 सही उत्तर: A) ... — 💡 Correct Answer: A) ...
       rawExp = rawExp.replace(/—\s*💡\s*Correct Answer:[^—\n]+/gi, '').trim();
       rawExp = cleanQuestionText(rawExp);
@@ -449,13 +617,46 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
 /**
  * Maps subject identifier to master in-memory question banks.
  */
-function getMasterBankForSubject(subjectId = '', is12th = false) {
+function getMasterBankForSubject(subjectId = '', is12th = false, isCompetitive = false) {
   const s = (subjectId || '').toLowerCase();
   const hy = HIGH_YIELD_BANKS || {};
   const cb = COMP_BANKS || {};
   const c12 = CLASS12_BANKS || {};
   const mv = MASTER_VAULT || {};
 
+  if (isCompetitive) {
+    // Purely Competitive CBT Banks - ZERO School Board Questions
+    if (s.includes('reason') || s.includes('तर्क') || s.includes('तार्किक') || s.includes('intelligence')) {
+      return [
+        ...(cb.COMPETITIVE_REASONING_BANK || []),
+        ...(mv.REASONING_OBJECTIVES || [])
+      ];
+    }
+    if (s.includes('law') || s.includes('मूलविधि') || s.includes('संविधान')) {
+      return cb.UP_POLICE_LAW_SPECIAL_BANK || [];
+    }
+    if (s.includes('tech') || s.includes('engineering') || s.includes('railway-sci') || (s.includes('science') && s.includes('rail'))) {
+      return cb.RAILWAY_SCIENCE_TECH_BANK || [];
+    }
+    if (s.includes('math') || s.includes('quant') || s.includes('गणित') || s.includes('arithmetic')) {
+      return [
+        ...(cb.COMPETITIVE_MATH_BANK || []),
+        ...(mv.MATHS_OBJECTIVES || [])
+      ];
+    }
+    if (s.includes('gk') || s.includes('gs') || s.includes('general') || s.includes('सामान्य ज्ञान') || s.includes('awareness')) {
+      return [
+        ...(cb.COMPETITIVE_GK_GS_BANK || []),
+        ...(mv.GK_POLITY_OBJECTIVES || [])
+      ];
+    }
+    if (s.includes('hindi') || s.includes('हिन्दी')) {
+      return cb.UP_POLICE_HINDI_SPECIAL_BANK || [];
+    }
+    return [];
+  }
+
+  // School Board Banks (Class 12th vs 10th)
   if (is12th) {
     if (s.includes('phys')) return c12.CLASS12_PHYSICS_BANK || [];
     if (s.includes('chem')) return c12.CLASS12_CHEMISTRY_BANK || [];
@@ -469,47 +670,18 @@ function getMasterBankForSubject(subjectId = '', is12th = false) {
     if (s.includes('geog')) return c12.CLASS12_GEOGRAPHY_BANK || [];
   }
 
-  // General & Competitive mapping
-  if (s.includes('reason') || s.includes('तर्क') || s.includes('तार्किक')) {
-    return [
-      ...(cb.COMPETITIVE_REASONING_BANK || []),
-      ...(mv.REASONING_OBJECTIVES || [])
-    ];
-  }
-  if (s.includes('law') || s.includes('मूलविधि') || s.includes('संविधान')) {
-    return cb.UP_POLICE_LAW_SPECIAL_BANK || [];
-  }
-  if (s.includes('tech') || s.includes('railway-sci') || (s.includes('science') && s.includes('rail'))) {
-    return cb.RAILWAY_SCIENCE_TECH_BANK || [];
-  }
-  if (s.includes('math') || s.includes('quant') || s.includes('गणित')) {
-    return [
-      ...(cb.COMPETITIVE_MATH_BANK || []),
-      ...(mv.MATHS_OBJECTIVES || []),
-      ...(hy.HIGH_YIELD_MATH_BANK || [])
-    ];
-  }
-  if (s.includes('gk') || s.includes('gs') || s.includes('general') || s.includes('सामान्य ज्ञान')) {
-    return [
-      ...(cb.COMPETITIVE_GK_GS_BANK || []),
-      ...(mv.GK_POLITY_OBJECTIVES || []),
-      ...(hy.HIGH_YIELD_SOCIAL_BANK || [])
-    ];
+  // Class 10th School Boards
+  if (s.includes('math') || s.includes('गणित')) {
+    return hy.HIGH_YIELD_MATH_BANK || [];
   }
   if (s.includes('science') || s.includes('विज्ञान')) {
-    return [
-      ...(hy.HIGH_YIELD_SCIENCE_BANK || []),
-      ...(mv.SCIENCE_OBJECTIVES || [])
-    ];
+    return hy.HIGH_YIELD_SCIENCE_BANK || [];
   }
   if (s.includes('social') || s.includes('सामाजिक') || s.includes('sst')) {
     return hy.HIGH_YIELD_SOCIAL_BANK || [];
   }
   if (s.includes('hindi') || s.includes('हिन्दी')) {
-    return [
-      ...(hy.HIGH_YIELD_HINDI_BANK || []),
-      ...(mv.HINDI_OBJECTIVES || [])
-    ];
+    return hy.HIGH_YIELD_HINDI_BANK || [];
   }
   if (s.includes('english') || s.includes('अंग्रेजी')) {
     return hy.HIGH_YIELD_ENGLISH_BANK || [];
@@ -526,16 +698,16 @@ function getMasterBankForSubject(subjectId = '', is12th = false) {
  * Integrates Master Bank + DB Questions + High Yield Vault.
  * 
  * @param {string} subjectId
- * @param {object} [options] - { is12th: boolean, examName: string, examId: string }
+ * @param {object} [options] - { is12th: boolean, examName: string, examId: string, boardId: string }
  * @returns {Array<object>} Full distinct question inventory
  */
 function getCompleteSubjectInventory(subjectId = '', options = {}) {
   const normSub = (subjectId || '').toLowerCase();
   const is12th = Boolean(options.is12th);
-  const examName = options.examName || 'Competitive & Board Exam';
   const examId = (options.examId || '').toLowerCase();
+  const isCompetitive = Boolean(examId);
 
-  const masterList = getMasterBankForSubject(normSub, is12th);
+  const masterList = getMasterBankForSubject(normSub, is12th, isCompetitive);
   const dbList = fetchDbQuestionsForSubject(normSub, options);
 
   let combined = [];
@@ -549,7 +721,6 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
     seenKeys.add(dedupKey);
 
     let cleanQ = cleanQuestionText(item.q);
-    // Ensure clean question text without fake repetitive tags
     cleanQ = cleanQ.replace(/\n\[.*TCS\/NTA Model.*\]/g, '').trim();
 
     const provLabel = item.provLabel || (source === 'DB' ? (item.provenance === 'OFFICIAL_PYQ' ? 'Official PYQ' : 'Curated Bank') : 'High-Yield Practice Question');
@@ -567,52 +738,51 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
     });
   }
 
-  const boardKey = (options.boardId || '').toLowerCase().trim();
-  const canonicalBoard = CANONICAL_BOARD_MAP[boardKey] || boardKey;
-  const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
-
-  // 1. If boardId is provided, STRICTLY prioritize questions originating from that specific board
-  if (dbPrefix || canonicalBoard) {
+  if (isCompetitive) {
+    // -------------------------------------------------------------------------
+    // COMPETITIVE EXAM: PURE AUTHENTIC DB QUESTIONS FOR THIS EXAM ONLY
+    // -------------------------------------------------------------------------
     for (const item of dbList) {
-      const qId = (item.id || '').toLowerCase();
-      if ((dbPrefix && (qId.startsWith(`${dbPrefix}-`) || qId.includes(`-${dbPrefix}-`))) ||
-          (boardKey && (qId.startsWith(`${boardKey}-`) || qId.includes(`-${boardKey}-`))) ||
-          (canonicalBoard && (qId.startsWith(`${canonicalBoard}-`) || qId.includes(`-${canonicalBoard}-`)))) {
-        pushItem(item, 'DB');
+      pushItem(item, 'DB');
+    }
+    // Only if DB has fewer than 25 items, supplement from pure competitive bank
+    if (combined.length < 25) {
+      for (const item of masterList) {
+        pushItem(item, 'MASTER_BANK');
       }
     }
-  }
+  } else {
+    // -------------------------------------------------------------------------
+    // SCHOOL BOARDS: STRICT BOARD QUESTIONS + SAFE CENTRAL REFERENCE ONLY
+    // -------------------------------------------------------------------------
+    const boardKey = (options.boardId || '').toLowerCase().trim();
+    const canonicalBoard = CANONICAL_BOARD_MAP[boardKey] || boardKey;
+    const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
 
-  // 2. If exam-specific questions exist for this exam, prioritize them
-  if (examId) {
-    for (const item of dbList) {
-      const qId = (item.id || '').toLowerCase();
-      if (qId.includes(examId)) {
-        pushItem(item, 'DB');
+    if (dbPrefix || canonicalBoard) {
+      for (const item of dbList) {
+        const qId = (item.id || '').toLowerCase();
+        if ((dbPrefix && (qId.startsWith(`${dbPrefix}-`))) ||
+            (boardKey && (qId.startsWith(`${boardKey}-`))) ||
+            (canonicalBoard && (qId.startsWith(`${canonicalBoard}-`)))) {
+          pushItem(item, 'DB');
+        }
       }
     }
-  }
 
-  // 3. For boards, only include master bank if not enough board questions
-  if (!dbPrefix || combined.length < 50) {
-    for (const item of masterList) {
-      pushItem(item, 'MASTER_BANK');
+    if (combined.length < 50) {
+      for (const item of masterList) {
+        pushItem(item, 'MASTER_BANK');
+      }
     }
-  }
 
-  // 4. Enrich with remaining clean database questions (avoiding conflicting boards)
-  for (const item of dbList) {
-    if (dbPrefix) {
+    // Add any remaining clean central questions from dbList (strictly no other regional boards)
+    for (const item of dbList) {
       const qId = (item.id || '').toLowerCase();
       const hasOtherBoard = Object.values(BOARD_PREFIX_MAP).some(p => p !== dbPrefix && qId.startsWith(`${p}-`));
       if (hasOtherBoard) continue;
+      pushItem(item, 'DB');
     }
-    pushItem(item, 'DB');
-  }
-
-  // 5. Seeded differentiation by examId to prevent duplicate ordering
-  if (examId && combined.length > 1) {
-    combined = seededShuffle(combined, `${examId}-${normSub}`);
   }
 
   return combined;

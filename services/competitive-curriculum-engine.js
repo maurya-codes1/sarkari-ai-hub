@@ -53,7 +53,7 @@ const COMPETITIVE_EXAMS_REGISTRY = {
   },
   "ssc-cgl": {
     id: "ssc-cgl",
-    name: "SSC CGL / CHSL 2026 (Tier-1)",
+    name: "SSC CGL 2026 (Tier-1)",
     category: "central",
     langMode: "bilingual-hindi",
     subjects: [
@@ -62,6 +62,19 @@ const COMPETITIVE_EXAMS_REGISTRY = {
       { id: "reasoning", name: "🧠 General Intelligence & Logical Reasoning" },
       { id: "english", name: "📖 English Comprehension, Spotting Errors & Vocab" },
       { id: "gk", name: "🏛️ General Awareness, Science & Current Affairs" }
+    ]
+  },
+  "ssc-chsl": {
+    id: "ssc-chsl",
+    name: "SSC CHSL (10+2) 2026",
+    category: "central",
+    langMode: "bilingual-hindi",
+    subjects: [
+      { id: "all", name: "🎯 Full Tier-1 Simulation (100 Qs Standard)" },
+      { id: "math", name: "📐 Quantitative Aptitude (Basic Arithmetic Skills)" },
+      { id: "reasoning", name: "🧠 General Intelligence & Logical Reasoning" },
+      { id: "english", name: "📖 English Language (Basic Knowledge)" },
+      { id: "gk", name: "🏛️ General Awareness (Current Affairs & Static GK)" }
     ]
   },
   "ssc-mts": {
@@ -79,7 +92,7 @@ const COMPETITIVE_EXAMS_REGISTRY = {
   },
   "railway-alp": {
     id: "railway-alp",
-    name: "Railway ALP & Technician (Grade I & III) 2026",
+    name: "Railway ALP 2026 (Assistant Loco Pilot)",
     category: "central",
     langMode: "bilingual-hindi",
     subjects: [
@@ -90,9 +103,35 @@ const COMPETITIVE_EXAMS_REGISTRY = {
       { id: "reasoning", name: "🧠 General Intelligence & Reasoning" }
     ]
   },
+  "rrb-technician": {
+    id: "rrb-technician",
+    name: "Railway Technician (Grade I & III) 2026",
+    category: "central",
+    langMode: "bilingual-hindi",
+    subjects: [
+      { id: "all", name: "🎯 Full CBT Simulation Mock" },
+      { id: "science", name: "⚡ General Science (Physics, Chemistry & Life Science)" },
+      { id: "tech", name: "🛠️ Basic Science and Engineering & Technical Concepts" },
+      { id: "math", name: "📐 Mathematics" },
+      { id: "reasoning", name: "🧠 General Intelligence & Reasoning" },
+      { id: "gk", name: "🏛️ General Awareness" }
+    ]
+  },
+  "rrb-ntpc": {
+    id: "rrb-ntpc",
+    name: "Railway NTPC (Graduate & Under-Graduate) 2026",
+    category: "central",
+    langMode: "bilingual-hindi",
+    subjects: [
+      { id: "all", name: "🎯 Full CBT-1 Simulation (100 Qs Standard)" },
+      { id: "gk", name: "🏛️ General Awareness & Current Affairs (40 Qs)" },
+      { id: "math", name: "📐 Mathematics & Speed Arithmetic (30 Qs)" },
+      { id: "reasoning", name: "🧠 General Intelligence and Reasoning (30 Qs)" }
+    ]
+  },
   "railway-group-d": {
     id: "railway-group-d",
-    name: "Railway Group D & NTPC 2026",
+    name: "Railway Group D 2026",
     category: "central",
     langMode: "bilingual-hindi",
     subjects: [
@@ -307,7 +346,7 @@ const COMPETITIVE_EXAMS_REGISTRY = {
   },
   "nta-jee": {
     id: "nta-jee",
-    name: "JEE Main & JEE Advanced 2026 (Engineering)",
+    name: "JEE Main 2026 (Engineering)",
     category: "entrance",
     langMode: "bilingual-hindi",
     subjects: [
@@ -315,6 +354,18 @@ const COMPETITIVE_EXAMS_REGISTRY = {
       { id: "physics", name: "⚡ Physics (Kinematics, Electrodynamics, Modern Physics)" },
       { id: "chemistry", name: "🧪 Chemistry (Chemical Bonding, Coordination, Thermodynamics)" },
       { id: "math", name: "📐 Mathematics (Calculus, Coordinate Geometry, Vectors, Algebra)" }
+    ]
+  },
+  "nta-jee-adv": {
+    id: "nta-jee-adv",
+    name: "JEE Advanced 2026 (IIT Engineering)",
+    category: "entrance",
+    langMode: "bilingual-hindi",
+    subjects: [
+      { id: "all", name: "🎯 Full Advanced Simulation Mock" },
+      { id: "physics", name: "⚡ Physics (Mechanics, Wave Optics, Modern Physics)" },
+      { id: "chemistry", name: "🧪 Chemistry (Advanced Inorganic, Reaction Mechanisms)" },
+      { id: "math", name: "📐 Mathematics (Calculus, Probability, Vectors 3D)" }
     ]
   },
   "nta-cuet": {
@@ -417,23 +468,6 @@ const COMPETITIVE_EXAMS_REGISTRY = {
       { id: "higher-edu", name: "🏛️ Higher Education System (Policies, Governance)" },
       { id: "ict", name: "💻 Information & Communication Technology (ICT)" },
       { id: "data-interp", name: "📊 Data Interpretation & Mathematical Reasoning" }
-    ]
-  },
-
-  // 5. MASTER ALL-INDIA MIX
-  "all-india-mix": {
-    id: "all-india-mix",
-    name: "All-India Competition Master Mix Mock",
-    category: "master",
-    langMode: "bilingual-hindi",
-    subjects: [
-      { id: "all", name: "🎯 100 Questions All-India Competition Mix" },
-      { id: "gk", name: "🏛️ General Knowledge & 10-Year Repeated PYQs" },
-      { id: "science", name: "⚡ General Science High-Yield" },
-      { id: "math", name: "📐 Elementary Mathematics & Speed Tricks" },
-      { id: "reasoning", name: "🧠 Logical & Analytical Reasoning" },
-      { id: "hindi", name: "📖 सामान्य हिन्दी" },
-      { id: "english", name: "📖 General English" }
     ]
   }
 };
@@ -577,24 +611,6 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     }));
   }
 
-  // Active High-Yield SQLite Database Enrichment (includes ALL authentic MCQs for competitive exams)
-  if (typeof fetchDbQuestionsForSubject === 'function') {
-    const rawDbQs = fetchDbQuestionsForSubject(normSub, { examId: meta.id });
-    if (rawDbQs && rawDbQs.length > 0) {
-      const seenKeys = new Set(mcqs.map(m => m.id || ((m.q || '').substring(0, 30) + (m.options ? m.options[0] : ''))));
-      for (const q of rawDbQs) {
-        const key = q.id || ((q.q || '').substring(0, 30) + (q.options ? q.options[0] : ''));
-        if (!seenKeys.has(key)) {
-          seenKeys.add(key);
-          mcqs.push({
-            ...q,
-            num: mcqs.length + 1,
-            id: q.id || `${examId}-${subjectId}-db-${mcqs.length + 1}`
-          });
-        }
-      }
-    }
-  }
 
   // Fallback to core templates only if both inventory and DB have zero questions
   if (mcqs.length === 0) {

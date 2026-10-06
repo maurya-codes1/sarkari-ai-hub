@@ -42,7 +42,7 @@ function resolveBoardKey(board = '', exam = '') {
   if (combined.includes('odisha') || combined.includes('ଓଡ଼ିଶା') || combined.includes('ओडिशा') || combined.includes('chse')) return 'bseodisha';
   if (combined.includes('uttarakhand') || combined.includes('उत्तराखंड') || combined.includes('ubse')) return 'ubse';
   if (combined.includes('assam') || combined.includes('অসম') || combined.includes('असम') || combined.includes('seba') || combined.includes('ahsec')) return 'seba';
-  if (combined.includes('telangana') || combined.includes('తెలుగు') || combined.includes('तेलंगाना') || combined.includes('tsbie')) return 'bsetelangana';
+  if (combined.includes('telangana') || combined.includes('తెలుగు') || combined.includes('तेलंगाना') || combined.includes('tsbie')) return 'telangana';
   if (combined.includes('icse') || combined.includes('isc')) return 'icse';
   if (combined.includes('cbse')) return 'cbse';
   return 'cbse';
@@ -55,11 +55,15 @@ function resolveCompetitiveExamKey(exam = '') {
       return key;
     }
   }
-  if (e.includes('cgl') || e.includes('chsl')) return 'ssc-cgl';
+  if (e.includes('chsl')) return 'ssc-chsl';
+  if (e.includes('cgl')) return 'ssc-cgl';
   if (e.includes('mts')) return 'ssc-mts';
   if (e.includes('gd')) return 'ssc-gd';
-  if (e.includes('alp') || e.includes('technician')) return 'railway-alp';
-  if (e.includes('group d') || e.includes('ntpc')) return 'railway-group-d';
+  if (e.includes('technician')) return 'rrb-technician';
+  if (e.includes('ntpc')) return 'rrb-ntpc';
+  if (e.includes('alp')) return 'railway-alp';
+  if (e.includes('group d') || e.includes('group-d')) return 'railway-group-d';
+  if (e.includes('jee adv') || e.includes('jee-adv')) return 'nta-jee-adv';
   if (e.includes('upsc') || e.includes('civil') || e.includes('ias') || e.includes('ips')) return 'upsc-cse';
   if (e.includes('nda')) return 'upsc-nda';
   if (e.includes('air force') || e.includes('vayu')) return 'iaf-agniveer';

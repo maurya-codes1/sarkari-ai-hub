@@ -204,7 +204,7 @@ async function runTest(testNum, testName, fn) {
 
   // 18. Subject complete bank
   await runTest(18, 'Subject complete bank preserves 100% of available inventory', async () => {
-    const rawQs = getCompleteSubjectInventory('math');
+    const rawQs = getCompleteSubjectInventory('math', { examId: 'ssc-cgl' });
     const res = await pdfGenService.generatePdf({
       examId: 'ssc-cgl',
       documentType: 'SUBJECT_COMPLETE_QUESTION_BANK',
