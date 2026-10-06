@@ -302,7 +302,7 @@ router.get('/candidate/hierarchical-weakness/:userId/:examId', (req, res) => {
 // -------------------------------------------------------------
 router.post('/adaptive/select', (req, res) => {
   try {
-    const { userId, examId, practiceMode, questionCount, subjectId, targetLanguage } = req.body;
+    const { userId, examId, practiceMode, questionCount, subjectId, targetLanguage, stage, classGrade } = req.body;
     if (!userId || !examId) {
       return res.status(400).json({ success: false, error: 'userId and examId are required' });
     }
@@ -312,7 +312,8 @@ router.post('/adaptive/select', (req, res) => {
       practiceMode,
       questionCount,
       subjectId,
-      targetLanguage
+      targetLanguage,
+      stage: stage || classGrade
     });
     res.json({ success: true, selection });
   } catch (err) {

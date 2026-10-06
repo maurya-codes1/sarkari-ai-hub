@@ -70,7 +70,8 @@ class AdaptiveSelectionService {
       practiceMode = 'MIXED_ADAPTIVE',
       questionCount = 10,
       subjectId = null,
-      targetLanguage = 'en'
+      targetLanguage = 'en',
+      stage = null
     } = params;
 
     if (!userId || !examId) {
@@ -84,9 +85,73 @@ class AdaptiveSelectionService {
 
     const count = Math.max(1, Math.min(100, parseInt(questionCount, 10) || 10));
 
-    // Determine if exam is a school board
-    const isBoardExam = examId.includes('board') || examId.includes('cbse') || examId.includes('bseb') ||
-      examId.includes('upmsp') || examId.includes('icse') || examId.includes('class');
+    // Canonical Board Mapping for All 31 Boards
+    const BOARD_MAP = {
+      'cbse': 'cbse-board', 'cbse-board': 'cbse-board', 'icse': 'cbse-board', 'icse-cisce': 'cbse-board',
+      'upmsp': 'upmsp-uttar-pradesh', 'upmsp-board': 'upmsp-uttar-pradesh', 'upmsp-uttar-pradesh': 'upmsp-uttar-pradesh',
+      'bseb': 'bseb-bihar', 'bseb-bihar': 'bseb-bihar',
+      'maharashtra': 'msbshse-maharashtra', 'maharashtra-board': 'msbshse-maharashtra', 'msbshse': 'msbshse-maharashtra', 'msbshse-maharashtra': 'msbshse-maharashtra',
+      'rbse': 'rbse-rajasthan', 'rbse-rajasthan': 'rbse-rajasthan',
+      'mpbse': 'mpbse-madhya-pradesh', 'mpbse-board': 'mpbse-madhya-pradesh', 'mpbse-madhya-pradesh': 'mpbse-madhya-pradesh',
+      'wb': 'wbbse-wbchse-west-bengal', 'wbbse-wb': 'wbbse-wbchse-west-bengal', 'wbbse': 'wbbse-wbchse-west-bengal', 'wbbse-wbchse-west-bengal': 'wbbse-wbchse-west-bengal',
+      'tn': 'tamil-nadu-dge', 'tndge-tamilnadu': 'tamil-nadu-dge', 'tamil-nadu-dge': 'tamil-nadu-dge',
+      'karnataka': 'karnataka-kseab-pue', 'kseab-karnataka': 'karnataka-kseab-pue', 'karnataka-kseab-pue': 'karnataka-kseab-pue',
+      'gujarat': 'gseb-gujarat', 'gseb-gujarat': 'gseb-gujarat',
+      'haryana': 'hbse-haryana', 'bseh-haryana': 'hbse-haryana', 'hbse': 'hbse-haryana', 'hbse-haryana': 'hbse-haryana',
+      'jac': 'jac-jharkhand', 'jac-jharkhand': 'jac-jharkhand',
+      'pseb': 'pseb-punjab', 'pseb-punjab': 'pseb-punjab',
+      'nios': 'nios-board', 'nios-board': 'nios-board',
+      'cgbse': 'cgbse-chhattisgarh', 'cgbse-chhattisgarh': 'cgbse-chhattisgarh',
+      'bseodisha': 'odisha-bse-chse', 'chse-bse-odisha': 'odisha-bse-chse', 'odisha-bse-chse': 'odisha-bse-chse',
+      'ubse': 'ubse-uttarakhand', 'ubse-uttarakhand': 'ubse-uttarakhand',
+      'seba': 'asseb-assam', 'seba-ahsec-assam': 'asseb-assam', 'asseb-assam': 'asseb-assam', 'assam': 'asseb-assam',
+      'bsetelangana': 'telangana-bsetg-tsbie', 'bsetg': 'telangana-bsetg-tsbie', 'bsetg-telangana': 'telangana-bsetg-tsbie', 'telangana-bsetg-tsbie': 'telangana-bsetg-tsbie',
+      'hpbose': 'hpbose-himachal-pradesh', 'hpbose-himachal': 'hpbose-himachal-pradesh', 'hpbose-himachal-pradesh': 'hpbose-himachal-pradesh',
+      'jkbose': 'jkbose-jammu-kashmir', 'jkbose-jk': 'jkbose-jammu-kashmir', 'jkbose-jammu-kashmir': 'jkbose-jammu-kashmir',
+      'kerala': 'kerala-general-scert-dhse', 'kerala-board': 'kerala-general-scert-dhse', 'kerala-general-scert-dhse': 'kerala-general-scert-dhse',
+      'gbshse': 'gbshse-goa', 'gbshse-goa': 'gbshse-goa',
+      'bsem': 'manipur-bsem-cohsem', 'bsem-manipur': 'manipur-bsem-cohsem', 'manipur-bsem-cohsem': 'manipur-bsem-cohsem',
+      'mbose': 'mbose-meghalaya', 'mbose-meghalaya': 'mbose-meghalaya',
+      'mbse': 'mbse-mizoram', 'mbse-mizoram': 'mbse-mizoram',
+      'nbse': 'nbse-nagaland', 'nbse-nagaland': 'nbse-nagaland',
+      'tbse': 'tbse-tripura', 'tbse-tripura': 'tbse-tripura',
+      'bseap': 'andhra-pradesh-bse-bieap', 'bseap-andhra': 'andhra-pradesh-bse-bieap', 'andhra-pradesh-bse-bieap': 'andhra-pradesh-bse-bieap',
+      'sbosse': 'sbosse-sikkim', 'sbosse-sikkim': 'sbosse-sikkim',
+      'apsbe': 'apsbe-arunachal-pradesh', 'apsbe-arunachal-pradesh': 'apsbe-arunachal-pradesh'
+    };
+
+    const examLower = String(examId).toLowerCase();
+    const resolvedBoardId = BOARD_MAP[examId] || BOARD_MAP[examLower] || null;
+    const isBoardExam = Boolean(
+      resolvedBoardId ||
+      examLower.includes('board') || examLower.includes('cbse') || examLower.includes('bseb') ||
+      examLower.includes('upmsp') || examLower.includes('icse') || examLower.includes('class') ||
+      examLower.includes('pseb') || examLower.includes('ubse') || examLower.includes('mpbse') ||
+      examLower.includes('nios') || examLower.includes('rbse') || examLower.includes('msbshse') ||
+      examLower.includes('gseb') || examLower.includes('wbbse') || examLower.includes('odisha') ||
+      examLower.includes('bieap') || examLower.includes('kseab') || examLower.includes('kerala') ||
+      examLower.includes('tamil-nadu') || examLower.includes('telangana') || examLower.includes('assam') ||
+      examLower.includes('jac') || examLower.includes('cgbse') || examLower.includes('hpbose') ||
+      examLower.includes('jkbose') || examLower.includes('bseh') || examLower.includes('tripura') ||
+      examLower.includes('manipur') || examLower.includes('meghalaya') || examLower.includes('mizoram') ||
+      examLower.includes('nagaland') || examLower.includes('goa') || examLower.includes('bse-')
+    );
+
+    // Resolve stage (Class 10 vs Class 12)
+    let normalizedStage = null;
+    const rawStage = stage || (params && (params.classGrade || params.classStage));
+    if (rawStage) {
+      const sLower = String(rawStage).toLowerCase();
+      if (sLower.includes('10')) normalizedStage = 'Class 10';
+      else if (sLower.includes('12')) normalizedStage = 'Class 12';
+      else normalizedStage = rawStage;
+    } else if (isBoardExam) {
+      if (examLower.includes('10th') || examLower.includes('class-10') || examLower.includes('c10') || examLower.includes('matric')) {
+        normalizedStage = 'Class 10';
+      } else if (examLower.includes('12th') || examLower.includes('class-12') || examLower.includes('c12') || examLower.includes('inter')) {
+        normalizedStage = 'Class 12';
+      }
+    }
 
     // Base query for candidate questions with strict MCQ filter
     let baseSql = `
@@ -105,8 +170,13 @@ class AdaptiveSelectionService {
     const baseParams = [];
 
     if (isBoardExam) {
-      baseSql += ` AND (q.board_id = ? OR q.board_id LIKE ? OR q.question_id LIKE ?)`;
-      baseParams.push(examId, `%${examId}%`, `%${examId}%`);
+      const targetBoard = resolvedBoardId || examId;
+      baseSql += ` AND (q.board_id = ? OR q.board_id = ? OR q.board_id LIKE ? OR q.question_id LIKE ?)`;
+      baseParams.push(targetBoard, examId, `%${targetBoard}%`, `%${targetBoard}%`);
+      if (normalizedStage) {
+        baseSql += ` AND (q.stage = ? OR q.stage LIKE ?)`;
+        baseParams.push(normalizedStage, `${normalizedStage}%`);
+      }
     } else {
       // Competitive exam: strictly exclude school board questions
       baseSql += ` AND (q.board_id IS NULL OR q.board_id = '') AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
@@ -119,8 +189,8 @@ class AdaptiveSelectionService {
     }
 
     if (subjectId && subjectId !== 'all') {
-      baseSql += ' AND q.subject_id = ?';
-      baseParams.push(subjectId);
+      baseSql += ' AND (q.subject_id = ? OR q.subject_id LIKE ?)';
+      baseParams.push(subjectId, `%${subjectId}%`);
     }
 
     baseSql += ' LIMIT 150';
@@ -161,14 +231,19 @@ class AdaptiveSelectionService {
       `;
       const fallbackParams = [];
       if (isBoardExam) {
-        fallbackSql += ` AND (q.board_id = ? OR q.board_id LIKE ?)`;
-        fallbackParams.push(examId, `%${examId}%`);
+        const targetBoard = resolvedBoardId || examId;
+        fallbackSql += ` AND (q.board_id = ? OR q.board_id = ? OR q.board_id LIKE ?)`;
+        fallbackParams.push(targetBoard, examId, `%${targetBoard}%`);
+        if (normalizedStage) {
+          fallbackSql += ` AND (q.stage = ? OR q.stage LIKE ?)`;
+          fallbackParams.push(normalizedStage, `${normalizedStage}%`);
+        }
       } else {
         fallbackSql += ` AND (q.board_id IS NULL OR q.board_id = '') AND (q.stage IS NULL OR q.stage = '' OR q.stage NOT LIKE 'Class%')`;
       }
       if (subjectId && subjectId !== 'all') {
-        fallbackSql += ' AND q.subject_id = ?';
-        fallbackParams.push(subjectId);
+        fallbackSql += ' AND (q.subject_id = ? OR q.subject_id LIKE ?)';
+        fallbackParams.push(subjectId, `%${subjectId}%`);
       }
       fallbackSql += ' ORDER BY RANDOM() LIMIT 50';
       const rawFallback = db.prepare(fallbackSql).all(...fallbackParams);
@@ -254,6 +329,8 @@ class AdaptiveSelectionService {
       return {
         questionId: q.question_id,
         serialNumber: qIdx + 1,
+        boardId: q.board_id || null,
+        stage: q.stage || null,
         subjectId: q.subject_id,
         chapterId: q.chapter_id,
         topicId: q.topic_id,

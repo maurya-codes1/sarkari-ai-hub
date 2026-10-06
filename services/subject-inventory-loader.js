@@ -117,12 +117,7 @@ function isSyntheticJunk(qRow, parsedContent, is12th = false) {
     /Primary authoritative premise/i,
     /Secondary scholarly interpretation/i,
     /Tertiary observational corollary/i,
-    /Systematic empirical synthesis/i,
-    /Option [A-D]:\s*'/i,
-    /विकल्प [क-घ1-4]:\s*'/i,
-    /বিকল্প [ক-ঘ]:\s*'/i,
-    /ஆப்ஷன் [A-D]:\s*'/i,
-    /Option [A-D] for /i
+    /Systematic empirical synthesis/i
   ];
 
   for (const pat of junkPatterns) {
@@ -788,9 +783,77 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
   return combined;
 }
 
+function fetchDbSubjectivesForSubject(subjectId, options = {}) {
+  try {
+    const db = getDb();
+    if (!db) return [];
+
+    const is12th = Boolean(options.is12th);
+    const rawClass = options.targetClass || (is12th ? '12' : '10');
+    const targetClass = String(rawClass).replace(/th|st|nd|rd/gi, '').trim() || (is12th ? '12' : '10');
+    const boardKey = (options.boardId || '').toLowerCase().trim();
+    const canonicalBoard = CANONICAL_BOARD_MAP[boardKey] || boardKey;
+    const dbPrefix = BOARD_PREFIX_MAP[boardKey] || boardKey;
+    const normKey = normalizeSubjectId(subjectId);
+    let targetSubId = normKey.startsWith('subj-') ? normKey : 'subj-' + normKey;
+
+    if (!canonicalBoard) return [];
+
+    const rows = db.prepare(`
+      SELECT q.question_id, q.subject_id, q.question_type_id, q.marks, q.stage,
+             qv.language_content, qv.correct_answer
+      FROM questions q
+      JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
+      WHERE (q.board_id = ? OR q.subject_id LIKE ?)
+        AND (q.stage = ? OR q.stage LIKE ?)
+        AND (q.subject_id LIKE ? OR q.subject_id = ? OR q.subject_id LIKE ?)
+        AND q.question_type_id IN ('very_short_answer', 'short_answer', 'long_answer', 'case_study', 'subjective')
+      ORDER BY (CASE 
+        WHEN q.question_type_id = 'very_short_answer' THEN 1
+        WHEN q.question_type_id = 'short_answer' THEN 2
+        WHEN q.question_type_id = 'long_answer' THEN 3
+        WHEN q.question_type_id = 'case_study' THEN 4
+        ELSE 5 END), q.question_id ASC
+      LIMIT 150
+    `).all(canonicalBoard, `${dbPrefix}-%`, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
+
+    return rows.map((r, idx) => {
+      let parsed = {};
+      try { parsed = JSON.parse(r.language_content); } catch (e) {}
+      const langKeys = Object.keys(parsed);
+      let content = parsed[options.langMode] || parsed.as || parsed.bn || parsed.ta || parsed.te || parsed.mr || parsed.gu || parsed.od || parsed.pa || parsed.kn || parsed.ml || parsed.hi || parsed.en || (langKeys.length ? parsed[langKeys[0]] : {});
+      let qText = content.question || content.q || content.stem || content.prompt || '';
+      let aText = '';
+      if (content.explanation) aText = content.explanation;
+      else if (content.model_answer) aText = content.model_answer;
+      else if (r.correct_answer) {
+        try {
+          const ansObj = JSON.parse(r.correct_answer);
+          aText = ansObj.model_answer || ansObj.text || '';
+        } catch (e) {
+          aText = String(r.correct_answer);
+        }
+      }
+      return {
+        id: r.question_id,
+        num: idx + 1,
+        type: r.question_type_id,
+        marks: r.marks || (r.question_type_id === 'long_answer' ? 5 : 2),
+        q: qText,
+        a: aText
+      };
+    }).filter(q => q.q);
+  } catch (err) {
+    console.error('fetchDbSubjectivesForSubject error:', err);
+    return [];
+  }
+}
+
 module.exports = {
   fetchDbQuestionsForSubject,
+  fetchDbSubjectivesForSubject,
   getMasterBankForSubject,
   getCompleteSubjectInventory,
   normalizeStem
 };
+

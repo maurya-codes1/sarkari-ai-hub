@@ -212,6 +212,34 @@
             <option value="tbse-tripura">TBSE Tripura Board (Madhyamik 10th & HS 12th)</option>
           </optgroup>
         </select>
+
+        <!-- School Board Class / Stage Selector Container (Dynamically toggled for Board Exams) -->
+        <div id="boardClassContainer" class="hidden mt-4 p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3">
+          <div class="flex items-center justify-between">
+            <label class="block text-xs font-bold text-amber-400 uppercase tracking-wider">
+              🏫 कक्षा एवं संकाय चयन (Select Class & Stream):
+            </label>
+            <span class="text-[11px] text-slate-400 font-medium">10वीं एवं 12वीं का अलग पाठ्यक्रम एवं प्रश्न बैंक</span>
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="classStageButtonGroup">
+            <button type="button" data-stage="Class 10" data-stream="all" class="class-stage-btn active px-3.5 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-amber-500/20 border-amber-500 text-amber-300 cursor-pointer">
+              <div class="font-extrabold text-sm mb-0.5">📘 Class 10th</div>
+              <div class="text-[10px] text-slate-300 font-normal">मैट्रिक / हाई स्कूल (All Subjects)</div>
+            </button>
+            <button type="button" data-stage="Class 12" data-stream="all" class="class-stage-btn px-3.5 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700 cursor-pointer">
+              <div class="font-extrabold text-sm mb-0.5">📙 12th (All Streams)</div>
+              <div class="text-[10px] text-slate-400 font-normal">इंटरमीडिएट / +2 (सभी संकाय)</div>
+            </button>
+            <button type="button" data-stage="Class 12" data-stream="science" class="class-stage-btn px-3.5 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700 cursor-pointer">
+              <div class="font-extrabold text-sm mb-0.5">🔬 12th Science</div>
+              <div class="text-[10px] text-slate-400 font-normal">Physics, Chem, Math, Bio</div>
+            </button>
+            <button type="button" data-stage="Class 12" data-stream="arts-commerce" class="class-stage-btn px-3.5 py-2.5 rounded-xl border text-xs font-bold text-left transition bg-slate-900 border-slate-800 text-slate-300 hover:border-slate-700 cursor-pointer">
+              <div class="font-extrabold text-sm mb-0.5">📚 12th Arts / Comm</div>
+              <div class="text-[10px] text-slate-400 font-normal">Arts, Humanities & Commerce</div>
+            </button>
+          </div>
+        </div>
       </div>
 
       <!-- Practice Controls: Subject, Difficulty, Timer Mode, Question Count -->
@@ -346,6 +374,7 @@
         <div class="flex flex-wrap items-center justify-between gap-2 border-b border-slate-800 pb-4">
           <div class="flex items-center space-x-2">
             <span class="px-2.5 py-1 rounded-md bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-bold" id="qProvenance">OFFICIAL_PYQ</span>
+            <span class="hidden px-2.5 py-1 rounded-md bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-bold" id="qStageBadge">Class 10</span>
             <span class="px-2.5 py-1 rounded-md bg-blue-500/10 border border-blue-500/30 text-blue-400 text-xs font-semibold" id="qDifficulty">MEDIUM</span>
             <span class="px-2.5 py-1 rounded-md bg-purple-500/10 border border-purple-500/30 text-purple-400 text-xs font-semibold" id="qTopic">Topic: General</span>
           </div>
@@ -471,10 +500,170 @@
     let activeTimerMode = 'COUNTDOWN';
     let selectedOptionValue = null;
     let selectedOptionIndex = null;
+    let selectedBoardStage = 'Class 10';
+    let selectedBoardStream = 'all';
+
+    const BOARD_KEYS = {
+      'cbse-board': { name: 'CBSE Board', nativeLang: 'Hindi', nativeId: 'hindi' },
+      'icse-cisce': { name: 'CISCE (ICSE/ISC)', nativeLang: 'Hindi', nativeId: 'hindi' },
+      'nios-board': { name: 'NIOS Board', nativeLang: 'Hindi', nativeId: 'hindi' },
+      'bseb-bihar': { name: 'BSEB Bihar Board', nativeLang: 'Maithili / Urdu', nativeId: 'maithili', extra: ['urdu', 'sanskrit'] },
+      'upmsp-board': { name: 'UPMSP UP Board', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'rbse-rajasthan': { name: 'RBSE Rajasthan Board', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'mpbse-board': { name: 'MPBSE MP Board', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'wbbse-wb': { name: 'West Bengal Board', nativeLang: 'Bengali (বাংলা)', nativeId: 'bengali' },
+      'maharashtra-board': { name: 'Maharashtra Board', nativeLang: 'Marathi (मराठी)', nativeId: 'marathi' },
+      'gseb-gujarat': { name: 'GSEB Gujarat Board', nativeLang: 'Gujarati (ગુજરાતી)', nativeId: 'gujarati' },
+      'kseab-karnataka': { name: 'KSEAB Karnataka Board', nativeLang: 'Kannada (ಕನ್ನಡ)', nativeId: 'kannada' },
+      'tndge-tamilnadu': { name: 'Tamil Nadu Board', nativeLang: 'Tamil (தமிழ்)', nativeId: 'tamil' },
+      'kerala-board': { name: 'Kerala Board', nativeLang: 'Malayalam (മലയാളം)', nativeId: 'malayalam' },
+      'chse-bse-odisha': { name: 'Odisha Board', nativeLang: 'Odia (ଓଡ଼ିଆ)', nativeId: 'odia' },
+      'pseb-punjab': { name: 'Punjab Board (PSEB)', nativeLang: 'Punjabi (ਪੰਜਾਬੀ)', nativeId: 'punjabi' },
+      'bseh-haryana': { name: 'Haryana Board (BSEH)', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'jac-jharkhand': { name: 'JAC Jharkhand Board', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'cgbse-chhattisgarh': { name: 'CGBSE Chhattisgarh', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'seba-ahsec-assam': { name: 'Assam Board (SEBA/AHSEC)', nativeLang: 'Assamese (অসমীয়া)', nativeId: 'assamese', extra: ['bodo', 'bengali'] },
+      'hpbose-himachal': { name: 'HPBOSE Himachal', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'jkbose-jk': { name: 'JKBOSE (J&K)', nativeLang: 'Urdu (اردو)', nativeId: 'urdu', extra: ['hindi'] },
+      'bseap-andhra': { name: 'BSEAP Andhra Pradesh', nativeLang: 'Telugu (తెలుగు)', nativeId: 'telugu', extra: ['urdu'] },
+      'bsetg-telangana': { name: 'BSETG Telangana', nativeLang: 'Telugu (తెలుగు)', nativeId: 'telugu', extra: ['urdu'] },
+      'ubse-uttarakhand': { name: 'UBSE Uttarakhand', nativeLang: 'Hindi', nativeId: 'hindi', extra: ['sanskrit'] },
+      'gbshse-goa': { name: 'Goa Board (GBSHSE)', nativeLang: 'Konkani (कोंकणी)', nativeId: 'konkani' },
+      'bsem-manipur': { name: 'Manipur Board', nativeLang: 'Manipuri (মৈতৈলোন্)', nativeId: 'manipuri' },
+      'mbose-meghalaya': { name: 'Meghalaya Board', nativeLang: 'Khasi / Garo', nativeId: 'khasi' },
+      'mbse-mizoram': { name: 'Mizoram Board', nativeLang: 'Mizo', nativeId: 'mizo' },
+      'nbse-nagaland': { name: 'Nagaland Board', nativeLang: 'Tenyidie', nativeId: 'tenyidie' },
+      'tbse-tripura': { name: 'Tripura Board', nativeLang: 'Bengali (বাংলা)', nativeId: 'bengali', extra: ['kokborok'] }
+    };
+
+    function isBoardExamId(examId) {
+      return Boolean(
+        BOARD_KEYS[examId] ||
+        examId.includes('board') || examId.includes('cbse') || examId.includes('bseb') ||
+        examId.includes('upmsp') || examId.includes('icse') || examId.includes('class') ||
+        examId.includes('pseb') || examId.includes('ubse') || examId.includes('mpbse') ||
+        examId.includes('nios') || examId.includes('rbse') || examId.includes('msbshse') ||
+        examId.includes('gseb') || examId.includes('wbbse') || examId.includes('odisha') ||
+        examId.includes('bieap') || examId.includes('kseab') || examId.includes('kerala') ||
+        examId.includes('tamil-nadu') || examId.includes('telangana') || examId.includes('assam') ||
+        examId.includes('jac') || examId.includes('cgbse') || examId.includes('hpbose') ||
+        examId.includes('jkbose') || examId.includes('bseh') || examId.includes('tripura') ||
+        examId.includes('manipur') || examId.includes('meghalaya') || examId.includes('mizoram') ||
+        examId.includes('nagaland') || examId.includes('goa') || examId.includes('bse-')
+      );
+    }
+
+    function updateSubjectDropdown() {
+      const examSelect = document.getElementById('examSelect');
+      const subjectSelect = document.getElementById('subjectSelect');
+      const boardClassContainer = document.getElementById('boardClassContainer');
+      if (!examSelect || !subjectSelect) return;
+      const examId = examSelect.value;
+      const isBoard = isBoardExamId(examId);
+
+      if (!isBoard) {
+        if (boardClassContainer) boardClassContainer.classList.add('hidden');
+        subjectSelect.innerHTML = `
+          <option value="all" selected>All Subjects (सभी विषय)</option>
+          <option value="subj-reasoning">General Intelligence & Reasoning (तर्कशक्ति)</option>
+          <option value="subj-general-awareness">General Knowledge & Awareness (सामान्य ज्ञान एवं अध्ययन)</option>
+          <option value="subj-math">Quantitative Aptitude & Mathematics (प्रारंभिक गणित)</option>
+          <option value="subj-hindi">General Hindi (सामान्य हिंदी)</option>
+          <option value="subj-english">General English (सामान्य अंग्रेजी)</option>
+          <option value="subj-science">General Science & Tech (सामान्य विज्ञान)</option>
+        `;
+        return;
+      }
+
+      if (boardClassContainer) boardClassContainer.classList.remove('hidden');
+      const bInfo = BOARD_KEYS[examId] || { name: 'Board', nativeLang: 'Regional Language', nativeId: 'regional' };
+      const opts = [];
+
+      if (selectedBoardStage === 'Class 10') {
+        opts.push({ id: 'all', name: `🎯 Class 10th - All Subjects (${bInfo.name})` });
+        opts.push({ id: 'science', name: '⚡ विज्ञान (General Science)' });
+        opts.push({ id: 'math', name: '📐 गणित (Mathematics)' });
+        opts.push({ id: 'social', name: '🌍 सामाजिक विज्ञान (Social Science)' });
+        opts.push({ id: 'english', name: '📖 English Language & Literature' });
+        opts.push({ id: 'hindi', name: '📜 सामान्य हिन्दी (General Hindi)' });
+
+        if (bInfo.nativeId && bInfo.nativeId !== 'hindi') {
+          opts.push({ id: bInfo.nativeId, name: `📜 ${bInfo.nativeLang} (मातृभाषा / क्षेत्रीय भाषा)` });
+        }
+        if (bInfo.extra) {
+          bInfo.extra.forEach(ex => {
+            if (ex !== 'hindi') opts.push({ id: ex, name: `📜 ${ex.toUpperCase()} भाषा` });
+          });
+        }
+      } else {
+        // Class 12
+        if (selectedBoardStream === 'science') {
+          opts.push({ id: 'all', name: `🔬 12th Science - All Subjects (${bInfo.name})` });
+          opts.push({ id: 'physics', name: '⚡ भौतिक विज्ञान (Physics)' });
+          opts.push({ id: 'chemistry', name: '🧪 रसायन विज्ञान (Chemistry)' });
+          opts.push({ id: 'math', name: '📐 गणित (Mathematics)' });
+          opts.push({ id: 'biology', name: '🧬 जीव विज्ञान (Biology)' });
+          opts.push({ id: 'english', name: '📖 English Core' });
+          opts.push({ id: 'cs', name: '💻 Computer Science / IT' });
+        } else if (selectedBoardStream === 'arts-commerce') {
+          opts.push({ id: 'all', name: `📚 12th Arts & Commerce - All Subjects (${bInfo.name})` });
+          opts.push({ id: 'accountancy', name: '📊 लेखाशास्त्र (Accountancy)' });
+          opts.push({ id: 'business', name: '🏢 व्यावसायिक अध्ययन (Business Studies)' });
+          opts.push({ id: 'economics', name: '📈 अर्थशास्त्र (Economics)' });
+          opts.push({ id: 'history', name: '🏛️ इतिहास (History)' });
+          opts.push({ id: 'polity', name: '⚖️ राजनीति विज्ञान (Political Science)' });
+          opts.push({ id: 'geography', name: '🗺️ भूगोल (Geography)' });
+          opts.push({ id: 'sociology', name: '👥 समाजशास्त्र (Sociology)' });
+          opts.push({ id: 'english', name: '📖 English Core' });
+        } else {
+          opts.push({ id: 'all', name: `🎯 12th All Streams (${bInfo.name})` });
+          opts.push({ id: 'physics', name: '⚡ भौतिक विज्ञान (Physics)' });
+          opts.push({ id: 'chemistry', name: '🧪 रसायन विज्ञान (Chemistry)' });
+          opts.push({ id: 'math', name: '📐 गणित (Mathematics)' });
+          opts.push({ id: 'biology', name: '🧬 जीव विज्ञान (Biology)' });
+          opts.push({ id: 'accountancy', name: '📊 लेखाशास्त्र (Accountancy)' });
+          opts.push({ id: 'business', name: '🏢 व्यावसायिक अध्ययन (Business Studies)' });
+          opts.push({ id: 'economics', name: '📈 अर्थशास्त्र (Economics)' });
+          opts.push({ id: 'history', name: '🏛️ इतिहास (History)' });
+          opts.push({ id: 'polity', name: '⚖️ राजनीति विज्ञान (Political Science)' });
+          opts.push({ id: 'geography', name: '🗺️ भूगोल (Geography)' });
+          opts.push({ id: 'english', name: '📖 English Core' });
+        }
+
+        opts.push({ id: 'hindi', name: '📜 सामान्य हिन्दी (General Hindi)' });
+        if (bInfo.nativeId && bInfo.nativeId !== 'hindi') {
+          opts.push({ id: bInfo.nativeId, name: `📜 ${bInfo.nativeLang} (मातृभाषा / क्षेत्रीय भाषा)` });
+        }
+        if (bInfo.extra) {
+          bInfo.extra.forEach(ex => {
+            if (ex !== 'hindi') opts.push({ id: ex, name: `📜 ${ex.toUpperCase()} भाषा` });
+          });
+        }
+      }
+
+      subjectSelect.innerHTML = opts.map(o => `<option value="${o.id}">${o.name}</option>`).join('');
+    }
+
+    // Attach exam selector change event
+    document.getElementById('examSelect').addEventListener('change', updateSubjectDropdown);
+
+    // Class/Stage button group listener
+    document.querySelectorAll('.class-stage-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.class-stage-btn').forEach(b => {
+          b.classList.remove('active', 'bg-amber-500/20', 'border-amber-500', 'text-amber-300');
+          b.classList.add('bg-slate-900', 'border-slate-800', 'text-slate-300');
+        });
+        btn.classList.add('active', 'bg-amber-500/20', 'border-amber-500', 'text-amber-300');
+        btn.classList.remove('bg-slate-900', 'border-slate-800', 'text-slate-300');
+        selectedBoardStage = btn.getAttribute('data-stage') || 'Class 10';
+        selectedBoardStream = btn.getAttribute('data-stream') || 'all';
+        updateSubjectDropdown();
+      });
+    });
 
     // Reset Controls Handler
     document.getElementById('resetControlsBtn').addEventListener('click', () => {
-      document.getElementById('subjectSelect').value = 'all';
       document.getElementById('difficultySelect').value = 'MIXED';
       document.getElementById('timerModeSelect').value = 'COUNTDOWN';
       document.getElementById('countSelect').value = '10';
@@ -489,6 +678,20 @@
         defBtn.classList.remove('bg-slate-950', 'border-slate-800', 'text-slate-300');
       }
       selectedMode = 'MIXED_ADAPTIVE';
+
+      // Reset Board Stage to Class 10 default
+      selectedBoardStage = 'Class 10';
+      selectedBoardStream = 'all';
+      document.querySelectorAll('.class-stage-btn').forEach(b => {
+        b.classList.remove('active', 'bg-amber-500/20', 'border-amber-500', 'text-amber-300');
+        b.classList.add('bg-slate-900', 'border-slate-800', 'text-slate-300');
+      });
+      const defStageBtn = document.querySelector('.class-stage-btn[data-stage="Class 10"]');
+      if (defStageBtn) {
+        defStageBtn.classList.add('active', 'bg-amber-500/20', 'border-amber-500', 'text-amber-300');
+        defStageBtn.classList.remove('bg-slate-900', 'border-slate-800', 'text-slate-300');
+      }
+      updateSubjectDropdown();
     });
 
     // Mode button selector
@@ -511,6 +714,8 @@
       const count = document.getElementById('countSelect').value;
       activeTimerMode = document.getElementById('timerModeSelect').value;
       const lang = localStorage.getItem('portal_language') || 'hi';
+      const isBoard = isBoardExamId(examId);
+      const stage = isBoard ? selectedBoardStage : null;
 
       document.getElementById('startPracticeBtn').disabled = true;
       document.getElementById('startPracticeBtn').innerText = 'Loading Questions...';
@@ -525,7 +730,8 @@
             practiceMode: selectedMode,
             questionCount: count,
             subjectId: subjectId !== 'all' ? subjectId : null,
-            targetLanguage: lang
+            targetLanguage: lang,
+            stage: stage
           })
         });
         const data = await res.json();
@@ -560,6 +766,9 @@
       }
     });
 
+    // Initialize subject dropdown on page load
+    updateSubjectDropdown();
+
     function loadQuestion(index) {
       if (index >= currentQuestions.length) {
         finishSession();
@@ -574,6 +783,17 @@
       document.getElementById('progressText').innerText = `Question ${index + 1} of ${currentQuestions.length}`;
       document.getElementById('sessionScore').innerText = `Score: ${sessionScore} / ${index}`;
       document.getElementById('qProvenance').innerText = q.provenance || 'PRACTICE';
+
+      const stageBadgeEl = document.getElementById('qStageBadge');
+      if (stageBadgeEl) {
+        if (q.stage) {
+          stageBadgeEl.innerText = q.stage;
+          stageBadgeEl.classList.remove('hidden');
+        } else {
+          stageBadgeEl.classList.add('hidden');
+        }
+      }
+
       document.getElementById('qDifficulty').innerText = q.difficulty || 'MEDIUM';
       document.getElementById('qTopic').innerText = `Topic: ${q.topicId || 'General'}`;
       document.getElementById('selectionReasonText').innerText = `ℹ️ ${q.selectionReason}`;
