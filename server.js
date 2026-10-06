@@ -1,29 +1,4 @@
-// Strict memory cap guard for 512MB RAM containers (Render free tier)
-const hasMemCap = process.execArgv.some(arg => arg.includes('--max-old-space-size')) ||
-                  (process.env.NODE_OPTIONS && process.env.NODE_OPTIONS.includes('--max-old-space-size'));
-
-if (!hasMemCap && !process.env._SARKARI_CAPPED) {
-  const { spawn } = require('child_process');
-  const child = spawn(
-    process.execPath,
-    ['--max-old-space-size=256', '--expose-gc', ...process.argv.slice(1)],
-    {
-      stdio: 'inherit',
-      env: { ...process.env, _SARKARI_CAPPED: '1' }
-    }
-  );
-  ['SIGTERM', 'SIGINT', 'SIGHUP'].forEach(sig => {
-    process.on(sig, () => {
-      try { child.kill(sig); } catch (_) {}
-    });
-  });
-  child.on('exit', (code, signal) => {
-    process.exit(code !== null ? code : (signal ? 1 : 0));
-  });
-  return;
-}
-
-// Aggressive periodic garbage collection when exposed (keeps RSS < 120MB)
+// Lean memory profile for 512MB RAM containers (Render free tier)
 if (global.gc) {
   setInterval(() => {
     try { global.gc(); } catch (_) {}
