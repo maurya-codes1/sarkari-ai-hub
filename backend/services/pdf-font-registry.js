@@ -273,6 +273,94 @@ class PdfFontRegistry {
   }
 
   /**
+   * Registers Unicode fonts (Nirmala UI collection, Arial) on a PDFDocument instance
+   * enabling native vector rendering for all 13 Indian language scripts, Urdu RTL, and Latin.
+   */
+  registerDocFonts(doc, options = {}) {
+    if (!doc) return this.getDocFontFamily(options.langCode || 'en');
+
+    if (!doc._registeredUniversalFonts) {
+      doc._registeredUniversalFonts = true;
+
+      // 1. Register Nirmala collection for Pan-Indic scripts (Devanagari, Telugu, Tamil, Bengali, Assamese, Gujarati, Punjabi, Kannada, Malayalam, Odia)
+      if (fs.existsSync(this.FONT_PATHS.NIRMALA_TTC)) {
+        try {
+          doc.registerFont('NirmalaUI', this.FONT_PATHS.NIRMALA_TTC, 'NirmalaUI');
+          doc.registerFont('NirmalaUI-Bold', this.FONT_PATHS.NIRMALA_TTC, 'NirmalaUI-Bold');
+          doc.registerFont('NirmalaText', this.FONT_PATHS.NIRMALA_TTC, 'NirmalaText');
+          doc.registerFont('NirmalaText-Bold', this.FONT_PATHS.NIRMALA_TTC, 'NirmalaText-Bold');
+          doc._hasNirmala = true;
+        } catch (err) {
+          console.warn('[PdfFontRegistry] Failed to register Nirmala font collection:', err.message);
+        }
+      }
+
+      // 2. Register Arial for Latin and Urdu / Arabic script
+      if (fs.existsSync(this.FONT_PATHS.ARIAL_TTF)) {
+        try {
+          doc.registerFont('SystemArial', this.FONT_PATHS.ARIAL_TTF);
+          if (fs.existsSync(this.FONT_PATHS.ARIAL_BOLD_TTF)) {
+            doc.registerFont('SystemArial-Bold', this.FONT_PATHS.ARIAL_BOLD_TTF);
+          }
+          doc._hasArial = true;
+        } catch (err) {
+          console.warn('[PdfFontRegistry] Failed to register Arial font:', err.message);
+        }
+      }
+    }
+
+    return this.getDocFontFamily(options.langCode || options.preferredMedium || 'en', doc);
+  }
+
+  /**
+   * Resolves the font family pair { regular, bold, direction } to use for text rendering
+   */
+  getDocFontFamily(langCode = 'en', doc = null) {
+    const cleanLang = (langCode || 'en').toLowerCase().trim();
+    const spec = this.resolveFontForLanguage(cleanLang);
+
+    const hasNirmala = doc ? !!doc._hasNirmala : fs.existsSync(this.FONT_PATHS.NIRMALA_TTC);
+    const hasArial = doc ? !!doc._hasArial : fs.existsSync(this.FONT_PATHS.ARIAL_TTF);
+
+    if (spec.script === 'arabic') {
+      return {
+        regular: hasArial ? 'SystemArial' : 'Helvetica',
+        bold: hasArial ? 'SystemArial-Bold' : 'Helvetica-Bold',
+        direction: 'rtl',
+        script: 'arabic'
+      };
+    }
+
+    if (spec.script === 'latin') {
+      // Latin can use NirmalaUI (which has full Latin ASCII) or standard Helvetica
+      return {
+        regular: hasNirmala ? 'NirmalaUI' : 'Helvetica',
+        bold: hasNirmala ? 'NirmalaUI-Bold' : 'Helvetica-Bold',
+        direction: 'ltr',
+        script: 'latin'
+      };
+    }
+
+    // All Indic scripts (Devanagari, Telugu, Tamil, Bengali, Assamese, Gujarati, Punjabi, Kannada, Malayalam, Odia)
+    if (hasNirmala) {
+      return {
+        regular: 'NirmalaUI',
+        bold: 'NirmalaUI-Bold',
+        direction: 'ltr',
+        script: spec.script
+      };
+    }
+
+    // Fallback if Nirmala is not available
+    return {
+      regular: 'Helvetica',
+      bold: 'Helvetica-Bold',
+      direction: 'ltr',
+      script: spec.script
+    };
+  }
+
+  /**
    * Helper alias returning structured font configuration for a script or language code
    */
   getFontForLanguage(langCode) {

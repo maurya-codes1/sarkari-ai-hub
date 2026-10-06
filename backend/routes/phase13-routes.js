@@ -14,6 +14,7 @@ const candidateProfileService = require('../services/candidate-profile-service')
 const adaptiveSelectionService = require('../services/adaptive-selection-service');
 const weaknessDetectionService = require('../services/weakness-detection-service');
 const mockIntelligenceService = require('../services/mock-intelligence-service');
+const boardMediumGovernanceService = require('../services/board-medium-governance-service');
 const { getDb } = require('../db/database');
 
 // -------------------------------------------------------------
@@ -94,6 +95,26 @@ router.get('/boards/:id/classes', (req, res) => {
       return res.status(404).json({ success: true, data: [], status: 'NO_DATA_AVAILABLE', message: 'Board not found' });
     }
     res.json({ success: true, count: profile.offerings.length, classes: profile.offerings });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/boards/medium-registry', (req, res) => {
+  try {
+    const registry = boardMediumGovernanceService.getAllBoardsMediumRegistry();
+    res.json({ success: true, count: Object.keys(registry).length, registry });
+  } catch (err) {
+    res.status(500).json({ success: false, error: err.message });
+  }
+});
+
+router.get('/boards/:id/medium-capabilities', (req, res) => {
+  try {
+    const { id } = req.params;
+    const { subjectId, subjectName } = req.query;
+    const capabilities = boardMediumGovernanceService.getSubjectMediumCapabilities(id, subjectId, subjectName);
+    res.json({ success: true, capabilities });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
@@ -302,7 +323,7 @@ router.get('/candidate/hierarchical-weakness/:userId/:examId', (req, res) => {
 // -------------------------------------------------------------
 router.post('/adaptive/select', (req, res) => {
   try {
-    const { userId, examId, practiceMode, questionCount, subjectId, targetLanguage, stage, classGrade } = req.body;
+    const { userId, examId, practiceMode, questionCount, subjectId, targetLanguage, stage, classGrade, preferredMedium, medium } = req.body;
     if (!userId || !examId) {
       return res.status(400).json({ success: false, error: 'userId and examId are required' });
     }
@@ -313,7 +334,8 @@ router.post('/adaptive/select', (req, res) => {
       questionCount,
       subjectId,
       targetLanguage,
-      stage: stage || classGrade
+      stage: stage || classGrade,
+      preferredMedium: preferredMedium || medium || targetLanguage
     });
     res.json({ success: true, selection });
   } catch (err) {

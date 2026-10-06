@@ -91,7 +91,9 @@ class MockService {
       boardId = null,
       stage = null,
       stream = null,
-      userId = null
+      userId = null,
+      preferredMedium = null,
+      medium = null
     } = options;
 
     const effectiveCount = requestedCount || questionCount || count || size || 30;
@@ -184,6 +186,21 @@ class MockService {
           optionMode: 'bilingual'
         };
       }
+    }
+
+    if (preferredMedium || medium) {
+      const chosenMed = preferredMedium || medium;
+      languageConfig = {
+        ...(languageConfig || {}),
+        primary: chosenMed,
+        preferredMedium: chosenMed,
+        boardId: resolvedBoardId
+      };
+    } else if (resolvedBoardId) {
+      languageConfig = {
+        ...(languageConfig || {}),
+        boardId: resolvedBoardId
+      };
     }
 
     if (!isDbReady) {
@@ -962,15 +979,47 @@ class MockService {
           totalUnattempted++;
         }
 
+        let revQuestionText = hiData.q || hiData.question || hiData.question_text || enData.q || enData.question || enData.question_text || qRow.question_text || '';
+        let revSecondaryQText = enData.q || enData.question || enData.question_text || '';
+        let revOptions = hiData.options || enData.options || [];
+        let revExplanation = hiData.exp || enData.exp || 'No detailed explanation available.';
+        let revModelAnswer = revExplanation;
+        let revKeyPoints = [];
+        let revMarkingGuidance = '';
+
+        // Apply 31-Board Medium Governance Matrix to Detailed Review
+        let boardGovService = null;
+        try {
+          boardGovService = require('./board-medium-governance-service');
+        } catch (e) {}
+
+        if (boardGovService && (qRow.board_id || session.language_config?.boardId)) {
+          try {
+            const chosenMed = session.language_config?.preferredMedium || session.language_config?.primary || 'en';
+            const resolvedGov = boardGovService.resolveQuestionMedium(qRow, chosenMed);
+            if (resolvedGov) {
+              revQuestionText = resolvedGov.questionText;
+              revSecondaryQText = '';
+              if (Array.isArray(resolvedGov.options) && resolvedGov.options.length > 0) {
+                revOptions = resolvedGov.options;
+              }
+              revExplanation = resolvedGov.modelAnswer || resolvedGov.explanation || revExplanation;
+              revModelAnswer = resolvedGov.modelAnswer || revExplanation;
+              revKeyPoints = resolvedGov.keyPoints || [];
+              revMarkingGuidance = resolvedGov.markingGuidance || '';
+            }
+          } catch (e) {}
+        }
+
         detailedReview.push({
           questionId: qId,
           sectionId: sec.sectionId,
           sectionName: sec.name,
           subjectName: qRow.subject_name || sec.name,
           questionType: qRow.question_type_id || 'single_mcq',
-          questionText: hiData.q || hiData.question || hiData.question_text || enData.q || enData.question || enData.question_text || qRow.question_text || '',
-          secondaryQuestionText: enData.q || enData.question || enData.question_text || '',
-          options: hiData.options || enData.options || [],
+          questionText: revQuestionText,
+          secondaryQuestionText: revSecondaryQText,
+          options: revOptions,
           candidateAnswer: candidateAns,
           candidateIndex: isAttempted ? parseInt(candidateAns, 10) : null,
           correctIndex,
@@ -978,7 +1027,10 @@ class MockService {
           isAttempted,
           isCorrect,
           isEvaluated,
-          explanation: hiData.exp || enData.exp || 'No detailed explanation available.',
+          explanation: revExplanation,
+          modelAnswer: revModelAnswer,
+          keyPoints: revKeyPoints,
+          markingGuidance: revMarkingGuidance,
           topic: qRow.topic_tags || 'General'
         });
       }
@@ -1240,6 +1292,40 @@ class MockService {
             : (parsedCorrectAns.option !== undefined ? parsedCorrectAns.option : 0));
       clientQ.explanation = cleanExplanationText(pData.explanation || pData.exp || sData.explanation || sData.exp || (parsedCorrectAns.explanation || ''));
       clientQ.ans = parsedCorrectAns.text || (clientQ.options[clientQ.correct] || '');
+    }
+
+    // Apply 31-Board Medium Governance Matrix
+    let boardGovService = null;
+    try {
+      boardGovService = require('./board-medium-governance-service');
+    } catch (e) {}
+
+    let resolvedGov = null;
+    if (boardGovService && (qRow.board_id || languageConfig?.boardId)) {
+      try {
+        const chosen = languageConfig?.preferredMedium || languageConfig?.primary || 'en';
+        resolvedGov = boardGovService.resolveQuestionMedium(qRow, chosen);
+      } catch (e) {}
+    }
+
+    if (resolvedGov) {
+      clientQ.q = resolvedGov.questionText;
+      clientQ.secondaryQ = '';
+      if (Array.isArray(resolvedGov.options) && resolvedGov.options.length > 0) {
+        clientQ.options = resolvedGov.options;
+      }
+      if (isPracticeSession && (resolvedGov.modelAnswer || resolvedGov.explanation)) {
+        clientQ.explanation = resolvedGov.modelAnswer || resolvedGov.explanation;
+        clientQ.modelAnswer = resolvedGov.modelAnswer || resolvedGov.explanation;
+        clientQ.keyPoints = resolvedGov.keyPoints || [];
+        clientQ.markingGuidance = resolvedGov.markingGuidance || '';
+      }
+      clientQ.isDualLanguage = resolvedGov.isDualLanguage;
+      clientQ.isLanguageSubject = resolvedGov.isLanguageSubject;
+      clientQ.resolvedMedium = resolvedGov.resolvedMedium;
+      if (resolvedGov.marks !== undefined) {
+        clientQ.marks = resolvedGov.marks;
+      }
     }
 
     return clientQ;

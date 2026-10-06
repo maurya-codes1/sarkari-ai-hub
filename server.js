@@ -1,8 +1,34 @@
-// Enforce lean memory profile for 512MB RAM containers (Render free tier)
-try {
-  const v8 = require('v8');
-  v8.setFlagsFromString('--max-old-space-size=256');
-} catch (_) {}
+// Strict memory cap guard for 512MB RAM containers (Render free tier)
+const hasMemCap = process.execArgv.some(arg => arg.includes('--max-old-space-size')) ||
+                  (process.env.NODE_OPTIONS && process.env.NODE_OPTIONS.includes('--max-old-space-size'));
+
+if (!hasMemCap && !process.env._SARKARI_CAPPED) {
+  const { spawn } = require('child_process');
+  const child = spawn(
+    process.execPath,
+    ['--max-old-space-size=256', '--expose-gc', ...process.argv.slice(1)],
+    {
+      stdio: 'inherit',
+      env: { ...process.env, _SARKARI_CAPPED: '1' }
+    }
+  );
+  ['SIGTERM', 'SIGINT', 'SIGHUP'].forEach(sig => {
+    process.on(sig, () => {
+      try { child.kill(sig); } catch (_) {}
+    });
+  });
+  child.on('exit', (code, signal) => {
+    process.exit(code !== null ? code : (signal ? 1 : 0));
+  });
+  return;
+}
+
+// Aggressive periodic garbage collection when exposed (keeps RSS < 120MB)
+if (global.gc) {
+  setInterval(() => {
+    try { global.gc(); } catch (_) {}
+  }, 60 * 1000);
+}
 
 const express = require('express');
 const cors = require('cors');
@@ -162,7 +188,9 @@ function initPortalSettings() {
     console.warn('[PortalSettings] Init warning:', err.message);
   }
 }
-initPortalSettings();
+setImmediate(() => {
+  initPortalSettings();
+});
 
 function getPortalSetting(key, defaultValue = '') {
   try {
@@ -1168,7 +1196,16 @@ app.get('/api/v2/full-exam/rotations/:examId', (req, res) => {
 // =========================================================================
 // PHASE 8: PRODUCTION PDF ENGINE, MULTILINGUAL PAPERS & OMR APIS
 // =========================================================================
-const pdfGenerationService = require('./backend/services/pdf-generation-service');
+// Lazy-load PDF Generation Service so heavy font engines (pdfkit, fontkit) do not load at startup
+let _pdfServiceInstance = null;
+const pdfGenerationService = new Proxy({}, {
+  get(target, prop) {
+    if (!_pdfServiceInstance) {
+      _pdfServiceInstance = require('./backend/services/pdf-generation-service');
+    }
+    return _pdfServiceInstance[prop];
+  }
+});
 
 // 51. POST /api/v2/pdf/generate: Generate verified PDF document
 app.post('/api/v2/pdf/generate', async (req, res) => {
@@ -1270,6 +1307,17 @@ app.post('/api/v2/pdf/answer-key', async (req, res) => {
 app.post('/api/v2/pdf/solutions', async (req, res) => {
   try {
     const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'SOLUTIONS' });
+    const statusCode = result.success ? 200 : 400;
+    res.status(statusCode).json(result);
+  } catch (err) {
+    res.status(500).json({ success: false, status: 'SERVER_ERROR', error: err.message });
+  }
+});
+
+// 51h. POST /api/v2/pdf/board-paper: Generate Board Question Paper PDF
+app.post('/api/v2/pdf/board-paper', async (req, res) => {
+  try {
+    const result = await pdfGenerationService.generatePdf({ ...req.body, documentType: 'BOARD_QUESTION_PAPER' });
     const statusCode = result.success ? 200 : 400;
     res.status(statusCode).json(result);
   } catch (err) {
@@ -2182,7 +2230,8 @@ Format output strictly as a JSON object:
 Language strictly: ${language}. Return raw JSON only, no markdown wrapping.`;
 
     // Always fetch authentic 100+ questions from Master Notes Vault
-    const masterNotes = getSubjectSpecificStudyMaterial(exam, subject, req.body.board);
+    const chosenMedium = req.body.preferredMedium || req.body.medium || req.body.language || 'hi';
+    const masterNotes = getSubjectSpecificStudyMaterial(exam, subject, req.body.board, chosenMedium);
 
     if (userApiKey) {
       try {

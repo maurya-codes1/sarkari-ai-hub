@@ -33,3 +33,4 @@ backend/generated_pdfs/*.pdf
 .deploy_hook
 __pycache__/
 *.pyc
+test_output_phase5/

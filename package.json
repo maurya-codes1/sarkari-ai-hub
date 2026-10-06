@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node --max-old-space-size=256 server.js",
+    "start": "node --max-old-space-size=256 --expose-gc server.js",
     "deploy:render": "node scripts/trigger_render_deploy.js",
     "dev": "node --watch server.js",
     "postinstall": "node scripts/unpack_database.js",

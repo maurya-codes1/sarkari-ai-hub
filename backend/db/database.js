@@ -58,25 +58,9 @@ function getDb(options = {}) {
     dbInstance.pragma('journal_mode = WAL');
     dbInstance.pragma('synchronous = NORMAL');
     dbInstance.pragma('busy_timeout = 5000');
-    dbInstance.pragma('cache_size = -8000');  // 8 MB cache (lean memory profile for Render 512MB)
+    dbInstance.pragma('cache_size = -2000');  // 2 MB cache (lean memory profile for Render 512MB)
     dbInstance.pragma('mmap_size = 0');       // Disable mmap to prevent Linux cgroup page cache OOM
     dbInstance.pragma('temp_store = FILE');   // File-backed temporary store
-
-    // Immediately truncate WAL file to prevent memory and disk bloat on Render
-    try {
-      dbInstance.pragma('wal_checkpoint(TRUNCATE)');
-    } catch (walErr) {}
-
-    // Ensure high-performance composite indexes exist on startup
-    try {
-      dbInstance.exec(`
-        CREATE INDEX IF NOT EXISTS idx_questions_board ON questions(board_id);
-        CREATE INDEX IF NOT EXISTS idx_questions_board_stage ON questions(board_id, stage);
-        CREATE INDEX IF NOT EXISTS idx_questions_board_stage_subj ON questions(board_id, stage, subject_id);
-        CREATE INDEX IF NOT EXISTS idx_questions_exam_ver_subj ON questions(exam_version_id, subject_id);
-        CREATE INDEX IF NOT EXISTS idx_questions_type_elig ON questions(question_type_id, current_eligibility);
-      `);
-    } catch (idxErr) {}
 
     isDbAvailable = true;
     return dbInstance;

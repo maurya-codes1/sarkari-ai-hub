@@ -516,6 +516,19 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       let qText = '';
       let opts = [];
 
+      let boardGovService = null;
+      try {
+        boardGovService = require('../backend/services/board-medium-governance-service');
+      } catch (e) {}
+
+      const requestedMedium = options.preferredMedium || options.medium || options.langMode || 'en';
+      let resolvedGov = null;
+      if (boardGovService) {
+        try {
+          resolvedGov = boardGovService.resolveQuestionMedium(r, requestedMedium);
+        } catch (e) {}
+      }
+
       const extractRawOpts = (obj) => {
         if (!obj || !obj.options) return null;
         if (Array.isArray(obj.options)) return obj.options;
@@ -527,7 +540,14 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
 
       let rawOpts = primaryLang ? extractRawOpts(primaryLang) : (extractRawOpts(hi) || extractRawOpts(en));
 
-      if (isLangSub || primaryLang !== hi && primaryLang !== en) {
+      if (resolvedGov && resolvedGov.questionText) {
+        qText = resolvedGov.questionText;
+        if (Array.isArray(resolvedGov.options) && resolvedGov.options.length) {
+          opts = resolvedGov.options;
+        } else {
+          opts = (rawOpts || extractRawOpts(hi) || extractRawOpts(en) || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
+        }
+      } else if (isLangSub || (primaryLang !== hi && primaryLang !== en)) {
         // Pure single language for regional / language subjects
         qText = cleanPrimaryQ || cleanHi || cleanEn;
         opts = (rawOpts || extractRawOpts(hi) || extractRawOpts(en) || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
@@ -800,7 +820,7 @@ function fetchDbSubjectivesForSubject(subjectId, options = {}) {
     if (!canonicalBoard) return [];
 
     const rows = db.prepare(`
-      SELECT q.question_id, q.subject_id, q.question_type_id, q.marks, q.stage,
+      SELECT q.question_id, q.board_id, q.subject_id, q.question_type_id, q.marks, q.stage,
              qv.language_content, qv.correct_answer
       FROM questions q
       JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
@@ -817,30 +837,55 @@ function fetchDbSubjectivesForSubject(subjectId, options = {}) {
       LIMIT 150
     `).all(canonicalBoard, `${dbPrefix}-%`, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
 
+    let boardGovService = null;
+    try {
+      boardGovService = require('../backend/services/board-medium-governance-service');
+    } catch (e) {}
+
+    const requestedMedium = options.preferredMedium || options.medium || options.langMode || 'en';
+
     return rows.map((r, idx) => {
-      let parsed = {};
-      try { parsed = JSON.parse(r.language_content); } catch (e) {}
-      const langKeys = Object.keys(parsed);
-      let content = parsed[options.langMode] || parsed.as || parsed.bn || parsed.ta || parsed.te || parsed.mr || parsed.gu || parsed.od || parsed.pa || parsed.kn || parsed.ml || parsed.hi || parsed.en || (langKeys.length ? parsed[langKeys[0]] : {});
-      let qText = content.question || content.q || content.stem || content.prompt || '';
+      let qText = '';
       let aText = '';
-      if (content.explanation) aText = content.explanation;
-      else if (content.model_answer) aText = content.model_answer;
-      else if (r.correct_answer) {
+      let resolvedGov = null;
+
+      if (boardGovService) {
         try {
-          const ansObj = JSON.parse(r.correct_answer);
-          aText = ansObj.model_answer || ansObj.text || '';
-        } catch (e) {
-          aText = String(r.correct_answer);
+          resolvedGov = boardGovService.resolveQuestionMedium(r, requestedMedium);
+        } catch (e) {}
+      }
+
+      if (resolvedGov) {
+        qText = resolvedGov.questionText;
+        aText = resolvedGov.modelAnswer || resolvedGov.explanation || '';
+      } else {
+        let parsed = {};
+        try { parsed = JSON.parse(r.language_content); } catch (e) {}
+        const langKeys = Object.keys(parsed);
+        let content = parsed[options.langMode] || parsed.as || parsed.bn || parsed.ta || parsed.te || parsed.mr || parsed.gu || parsed.od || parsed.pa || parsed.kn || parsed.ml || parsed.hi || parsed.en || (langKeys.length ? parsed[langKeys[0]] : {});
+        qText = content.question || content.q || content.stem || content.prompt || '';
+        if (content.model_answer || content.modelAnswer) aText = content.model_answer || content.modelAnswer;
+        else if (content.explanation) aText = content.explanation;
+        else if (r.correct_answer) {
+          try {
+            const ansObj = JSON.parse(r.correct_answer);
+            aText = ansObj.model_answer || ansObj.modelAnswer || ansObj.text || '';
+          } catch (e) {
+            aText = String(r.correct_answer);
+          }
         }
       }
+
       return {
         id: r.question_id,
         num: idx + 1,
         type: r.question_type_id,
         marks: r.marks || (r.question_type_id === 'long_answer' ? 5 : 2),
         q: qText,
-        a: aText
+        a: aText,
+        modelAnswer: aText,
+        keyPoints: resolvedGov?.keyPoints || [],
+        markingGuidance: resolvedGov?.markingGuidance || ''
       };
     }).filter(q => q.q);
   } catch (err) {

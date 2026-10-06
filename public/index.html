@@ -2056,6 +2056,24 @@
               <option value="bsetg">तेलंगाना बोर्ड (BSETG हैदराबाद)</option>
             </select>
           </div>
+
+          <!-- Board Medium Selection Container (Dynamically toggled for Board Exams) -->
+          <div id="quizMediumContainer" class="hidden sm:col-span-2 p-4 rounded-2xl bg-rose-50/60 dark:bg-slate-800/80 border border-rose-200 dark:border-slate-700 space-y-2.5">
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <label class="block text-xs font-bold text-rose-700 dark:text-rose-400 flex items-center space-x-1.5">
+                <span>🌐 परीक्षा माध्यम (Examination Medium):</span>
+              </label>
+              <span id="quizLangLockBadge" class="hidden px-2.5 py-1 rounded-full text-[10px] font-black bg-rose-500/20 text-rose-600 dark:text-rose-300 border border-rose-400/40">
+                🔒 मूल भाषा परीक्षा (Native Language Locked — No Medium Switch)
+              </span>
+              <span id="quizDualLangBadge" class="hidden px-2.5 py-1 rounded-full text-[10px] font-black bg-emerald-500/20 text-emerald-700 dark:text-emerald-300 border border-emerald-400/40">
+                ⚡ Dual-Language Active (State + English)
+              </span>
+            </div>
+            <div id="quizMediumButtons" class="flex flex-wrap gap-2 pt-0.5">
+              <!-- Dynamically populated mediums -->
+            </div>
+          </div>
         </div>
 
         <!-- FULL EXAM MODE: Verified Blueprint Summary Display -->
@@ -2098,7 +2116,7 @@
 
           <div class="flex items-center space-x-2 text-xs text-slate-300 pt-1">
             <span>🌐 Exam Medium:</span>
-            <span class="font-bold text-amber-300">हिन्दी + English (Bilingual Dual Medium)</span>
+            <span id="quizBpMediumText" class="font-bold text-amber-300">हिन्दी + English (Bilingual Dual Medium)</span>
           </div>
         </div>
 
@@ -2742,6 +2760,20 @@
                 <option value="ubse">उत्तराखंड बोर्ड (UBSE रामनगर)</option>
                 <option value="seba">असम बोर्ड (SEBA/AHSEC)</option>
                 <option value="bsetelangana">तेलंगाना एवं आंध्र प्रदेश बोर्ड</option>
+              </select>
+            </div>
+
+            <!-- Notes Medium Selection Container (Dynamically toggled for Board Exams) -->
+            <div id="aiNoteMediumContainer" class="hidden">
+              <div class="flex items-center justify-between mb-1">
+                <label class="block text-xs font-bold text-amber-800">माध्यम (Examination Medium):</label>
+                <span id="aiNoteLangLockBadge" class="hidden text-[10px] font-black text-rose-600 bg-rose-100 px-2 py-0.5 rounded-full border border-rose-300">
+                  🔒 मूल भाषा लॉक
+                </span>
+              </div>
+              <select id="aiNoteMediumSelect" class="w-full bg-amber-50 border-2 border-amber-300 rounded-xl p-3 text-xs font-bold text-slate-800 focus:ring-2 focus:ring-amber-500">
+                <option value="hi">हिन्दी Medium</option>
+                <option value="en">English Medium</option>
               </select>
             </div>
 

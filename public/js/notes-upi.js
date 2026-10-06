@@ -6742,16 +6742,119 @@ function populateNotesDropdowns() {
   examSelect.innerHTML = html;
 }
 
+const NOTES_BOARD_MEDIUMS = {
+  'cbse': ['en', 'hi'],
+  'icse': ['en', 'hi'],
+  'upmsp': ['hi', 'en', 'ur'],
+  'bseb': ['hi', 'en', 'ur'],
+  'maharashtra': ['mr', 'en', 'hi', 'ur', 'gu'],
+  'rbse': ['hi', 'en', 'ur'],
+  'mpbse': ['hi', 'en', 'ur'],
+  'wb': ['bn', 'en', 'hi', 'ur'],
+  'tn': ['ta', 'en'],
+  'karnataka': ['kn', 'en'],
+  'gujarat': ['gu', 'en', 'hi'],
+  'haryana': ['hi', 'en', 'ur'],
+  'jac': ['hi', 'en', 'ur'],
+  'pseb': ['pa', 'en', 'hi'],
+  'nios': ['hi', 'en'],
+  'cgbse': ['hi', 'en', 'ur'],
+  'bseodisha': ['or', 'en'],
+  'ubse': ['hi', 'en', 'ur'],
+  'seba': ['as', 'en', 'bn'],
+  'bsetelangana': ['te', 'en', 'ur'],
+  'bsetg': ['te', 'en', 'ur'],
+  'bseap': ['te', 'en', 'ur'],
+  'hpbose': ['hi', 'en', 'ur'],
+  'jkbose': ['ur', 'en', 'hi'],
+  'kerala': ['ml', 'en']
+};
+
+function isNotesLanguageSubject(subjId) {
+  if (!subjId || subjId === 'all') return false;
+  const s = String(subjId).toLowerCase();
+  return (
+    s.includes('hindi') || s.includes('english') || s.includes('sanskrit') ||
+    s.includes('urdu') || s.includes('telugu') || s.includes('tamil') ||
+    s.includes('punjabi') || s.includes('bengali') || s.includes('gujarati') ||
+    s.includes('marathi') || s.includes('kannada') || s.includes('malayalam') ||
+    s.includes('odia') || s.includes('assamese') || s.includes('maithili') ||
+    s.includes('bodo') || s.includes('khasi') || s.includes('mizo')
+  );
+}
+
+function updateNotesMediumSelector() {
+  const examSelect = document.getElementById('aiNoteExamSelect');
+  const boardSelect = document.getElementById('aiNoteBoardSelect');
+  const subjectSelect = document.getElementById('aiNoteSubjectSelect');
+  const medContainer = document.getElementById('aiNoteMediumContainer');
+  const medSelect = document.getElementById('aiNoteMediumSelect');
+  const langBadge = document.getElementById('aiNoteLangLockBadge');
+
+  if (!medContainer || !medSelect) return;
+
+  const examId = examSelect ? examSelect.value : '';
+  const examObj = (typeof EXAMS_CONFIG !== 'undefined') ? EXAMS_CONFIG.find(e => e.id === examId) : null;
+  const isBoard = examObj ? Boolean(examObj.isBoard) : (typeof examId === 'string' && (examId.startsWith('board-') || examId.includes('10th') || examId.includes('12th')));
+
+  if (!isBoard) {
+    medContainer.classList.add('hidden');
+    return;
+  }
+
+  medContainer.classList.remove('hidden');
+
+  const boardId = boardSelect ? boardSelect.value : 'bseb';
+  const subjectId = subjectSelect ? subjectSelect.value : 'all';
+  const isLang = isNotesLanguageSubject(subjectId);
+  const mediums = NOTES_BOARD_MEDIUMS[boardId] || ['hi', 'en'];
+
+  const mediumLabelMap = {
+    'hi': '🇮🇳 हिन्दी Medium',
+    'en': '🇬🇧 English Medium',
+    'te': '🏛️ తెలుగు Medium',
+    'ta': '🏛️ தமிழ் Medium',
+    'bn': '🏛️ বাংলা Medium',
+    'gu': '🏛️ ગુજરાતી Medium',
+    'mr': '🏛️ मराठी Medium',
+    'pa': '🏛️ ਪੰਜਾਬੀ Medium',
+    'kn': '🏛️ ಕನ್ನಡ Medium',
+    'ml': '🏛️ മലയാളം Medium',
+    'or': '🏛️ ଓଡ଼ିଆ Medium',
+    'as': '🏛️ অসমীয়া Medium',
+    'ur': '🏛️ اردو Medium'
+  };
+
+  if (isLang) {
+    if (langBadge) langBadge.classList.remove('hidden');
+    medSelect.disabled = true;
+    medSelect.innerHTML = `<option value="native" selected>🔒 मूल भाषा परीक्षा (No Medium Switch)</option>`;
+  } else {
+    if (langBadge) langBadge.classList.add('hidden');
+    medSelect.disabled = false;
+    medSelect.innerHTML = mediums.map(m => `
+      <option value="${m}">${mediumLabelMap[m] || m.toUpperCase() + ' Medium'}</option>
+    `).join('');
+  }
+}
+
 let notesDropdownsInitialized = false;
 function setupNotesDynamicDropdowns() {
   if (notesDropdownsInitialized) return;
   const examSelect = document.getElementById('aiNoteExamSelect');
   const boardSelect = document.getElementById('aiNoteBoardSelect');
+  const subjectSelect = document.getElementById('aiNoteSubjectSelect');
   if (examSelect) {
     examSelect.addEventListener('change', updateNotesDependentDropdowns);
   }
   if (boardSelect) {
-    boardSelect.addEventListener('change', updateNotesBoardSubjects);
+    boardSelect.addEventListener('change', () => {
+      updateNotesBoardSubjects();
+      updateNotesMediumSelector();
+    });
+  }
+  if (subjectSelect) {
+    subjectSelect.addEventListener('change', updateNotesMediumSelector);
   }
   notesDropdownsInitialized = true;
 }
@@ -6771,6 +6874,7 @@ function updateNotesBoardSubjects() {
     `).join('');
     if (subjects.length > 0) subjectSelect.value = subjects[0].id;
   }
+  updateNotesMediumSelector();
 }
 
 function updateNotesDependentDropdowns() {
@@ -6816,6 +6920,7 @@ function updateNotesDependentDropdowns() {
       }
     }
   }
+  updateNotesMediumSelector();
 }
 
 function initNotesVault() {
@@ -7086,6 +7191,7 @@ function payAndDownloadGeneratedNote() {
     title: latestAiGeneratedNote.title,
     exam: latestAiGeneratedNote.exam || 'All-India Board / Competitive Exam 2026',
     board: latestAiGeneratedNote.board || '',
+    preferredMedium: latestAiGeneratedNote.preferredMedium || '',
     price: (latestAiGeneratedNote.isBundle || (latestAiGeneratedNote.subject && (latestAiGeneratedNote.subject === 'all' || latestAiGeneratedNote.subject.includes('all')))) ? 19 : 9,
     pages: latestAiGeneratedNote.pages || "32 Pages Master PDF",
     badge: latestAiGeneratedNote.badge || "✓ Verified 2026 Edition",
@@ -7217,6 +7323,7 @@ async function generateAndDownloadHighResPdf(token = '') {
       <h2 style="color: #0f172a; font-size: 15px; font-weight: 800; margin: 0 0 6px 0;">${note.title}</h2>
       <div style="display: flex; flex-wrap: wrap; gap: 14px; font-size: 11px; color: #475569; font-weight: 600;">
         <span>🎯 Target Exam: <strong style="color: #0f172a;">${examName}${boardName}</strong></span>
+        ${note.preferredMedium ? `<span>🌐 Medium: <strong style="color: #0284c7;">${note.preferredMedium.toUpperCase()}</strong></span>` : ''}
         <span>📄 Questions: <strong style="color: #047857;">${objectives.length} MCQs ${subjectives.length ? '+ ' + subjectives.length + ' Subjective Proofs' : ''}</strong></span>
         <span>⚡ Mode: <strong style="color: #0f172a;">${isPaperOnly ? 'Unassisted Question Paper (Use OMR)' : 'Complete Solved Guide with Explanations'}</strong></span>
       </div>
@@ -7284,7 +7391,7 @@ async function generateAndDownloadHighResPdf(token = '') {
             <div style="font-weight: 700; font-size: 11.5px; color: #581c87; white-space: pre-line;">${item.q}</div>
             ${!isPaperOnly ? `
               <div style="font-size: 11px; color: #1e293b; font-weight: 600; margin-top: 6px; line-height: 1.5; white-space: pre-line;">
-                ${item.ans || item.a}
+                ${item.modelAnswer || item.ans || item.a}
               </div>
             ` : `
               <div style="border: 1px dashed #c084fc; border-radius: 6px; height: 50px; margin-top: 6px; background: #ffffff; display: flex; align-items: center; justify-content: center; color: #a855f7; font-size: 10px; font-weight: 600;">
@@ -7751,6 +7858,7 @@ async function generateAiExamNotes() {
         exam: exam,
         subject: subject,
         board: board,
+        preferredMedium: (document.getElementById('aiNoteMediumSelect')?.value || (typeof currentLanguage !== 'undefined' ? currentLanguage : 'hi')),
         language: (typeof currentLanguage !== 'undefined' ? currentLanguage : 'hi')
       })
     });

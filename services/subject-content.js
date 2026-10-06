@@ -97,10 +97,10 @@ function getBoardDisplayName(boardKey = '') {
 
 const NOTES_CACHE = new Map();
 
-function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '') {
+function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '', preferredMedium = null) {
   const s = (subject || '').toLowerCase();
   const e = (exam || '').toLowerCase();
-  const cacheKey = `${e}_${s}_${String(board || '').toLowerCase()}`.trim();
+  const cacheKey = `${e}_${s}_${String(board || '').toLowerCase()}_${String(preferredMedium || '').toLowerCase()}`.trim();
 
   if (NOTES_CACHE.has(cacheKey)) {
     return JSON.parse(JSON.stringify(NOTES_CACHE.get(cacheKey)));
@@ -160,7 +160,7 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '') {
     else if (s.includes('socio') || s.includes('समाजशास्त्र')) subjectKey = classLevel === '10th' ? 'social' : 'sociology';
     else if (s.includes('all') || s.includes('सभी') || s.includes('bundle') || s.includes('full mock') || s.includes('science stream')) subjectKey = 'all';
 
-    resultGuide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey);
+    resultGuide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey, { preferredMedium });
   } else {
     // All Competitive, Police, Defence, Entrance, and Teaching Exams (250-300 MCQs)
     const compKey = resolveCompetitiveExamKey(exam);

@@ -240,6 +240,24 @@
             </button>
           </div>
         </div>
+
+        <!-- School Board Medium Selector Container (Dynamically toggled for Board Exams) -->
+        <div id="boardMediumContainer" class="hidden mt-3 p-4 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-2.5">
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <label class="block text-xs font-bold text-sky-400 uppercase tracking-wider flex items-center space-x-1.5">
+              <span>🌐 परीक्षा माध्यम (Medium of Examination):</span>
+            </label>
+            <span id="langLockBadge" class="hidden px-2.5 py-1 rounded-full text-[10px] font-black bg-rose-500/20 text-rose-300 border border-rose-400/40">
+              🔒 मूल भाषा परीक्षा (Native Language Locked — No Medium Switch)
+            </span>
+            <span id="dualLangBadge" class="hidden px-2.5 py-1 rounded-full text-[10px] font-black bg-emerald-500/20 text-emerald-300 border border-emerald-400/40">
+              ⚡ Dual-Language Active (State + English)
+            </span>
+          </div>
+          <div id="mediumButtonsContainer" class="flex flex-wrap gap-2 pt-1">
+            <!-- Dynamically populated mediums -->
+          </div>
+        </div>
       </div>
 
       <!-- Practice Controls: Subject, Difficulty, Timer Mode, Question Count -->
@@ -384,7 +402,7 @@
         </div>
 
         <!-- Question Text -->
-        <div class="text-lg font-semibold text-white leading-relaxed" id="qQuestionText">
+        <div class="text-lg font-semibold text-white leading-relaxed whitespace-pre-line" id="qQuestionText">
           Loading question text...
         </div>
 
@@ -553,6 +571,138 @@
       );
     }
 
+    let selectedPreferredMedium = 'hi';
+
+    const BOARD_MEDIUMS_CONFIG = {
+      'cbse-board': ['en', 'hi'],
+      'nios-board': ['hi', 'en'],
+      'icse-cisce': ['en', 'hi'],
+      'bseb-bihar': ['hi', 'en', 'ur'],
+      'upmsp-board': ['hi', 'en', 'ur'],
+      'mpbse-board': ['hi', 'en', 'ur'],
+      'rbse-rajasthan': ['hi', 'en', 'ur'],
+      'ubse-uttarakhand': ['hi', 'en', 'ur'],
+      'cgbse-chhattisgarh': ['hi', 'en', 'ur'],
+      'jac-jharkhand': ['hi', 'en', 'ur'],
+      'bseh-haryana': ['hi', 'en', 'ur'],
+      'hpbose-himachal': ['hi', 'en', 'ur'],
+      'pseb-punjab': ['pa', 'en', 'hi'],
+      'wbbse-wb': ['bn', 'en', 'hi', 'ur'],
+      'tbse-tripura': ['bn', 'en'],
+      'chse-bse-odisha': ['or', 'en'],
+      'seba-ahsec-assam': ['as', 'en', 'bn'],
+      'bsetg-telangana': ['te', 'en', 'ur'],
+      'bseap-andhra': ['te', 'en', 'ur'],
+      'kseab-karnataka': ['kn', 'en'],
+      'tndge-tamilnadu': ['ta', 'en'],
+      'kerala-board': ['ml', 'en'],
+      'maharashtra-board': ['mr', 'en', 'hi', 'ur', 'gu'],
+      'gseb-gujarat': ['gu', 'en', 'hi'],
+      'gbshse-goa': ['en', 'mr', 'hi'],
+      'bsem-manipur': ['en', 'mni'],
+      'mbose-meghalaya': ['en'],
+      'mbse-mizoram': ['en'],
+      'nbse-nagaland': ['en'],
+      'jkbose-jk': ['ur', 'en', 'hi']
+    };
+
+    const MEDIUM_LABELS = {
+      'hi': { label: 'हिन्दी Medium', flag: '🇮🇳' },
+      'en': { label: 'English Medium', flag: '🇬🇧' },
+      'te': { label: 'తెలుగు Medium', flag: '🏛️' },
+      'ta': { label: 'தமிழ் Medium', flag: '🏛️' },
+      'bn': { label: 'বাংলা Medium', flag: '🏛️' },
+      'gu': { label: 'ગુજરાતી Medium', flag: '🏛️' },
+      'mr': { label: 'मराठी Medium', flag: '🏛️' },
+      'pa': { label: 'ਪੰਜਾਬੀ Medium', flag: '🏛️' },
+      'kn': { label: 'ಕನ್ನಡ Medium', flag: '🏛️' },
+      'ml': { label: 'മലയാളം Medium', flag: '🏛️' },
+      'or': { label: 'ଓଡ଼ିଆ Medium', flag: '🏛️' },
+      'as': { label: 'অসমীয়া Medium', flag: '🏛️' },
+      'ur': { label: 'اردو Medium', flag: '🏛️' },
+      'mni': { label: 'মৈতৈলোন্ Medium', flag: '🏛️' }
+    };
+
+    function isLanguageSubject(subjId) {
+      if (!subjId || subjId === 'all') return false;
+      const s = subjId.toLowerCase();
+      return (
+        s.includes('hindi') || s.includes('english') || s.includes('sanskrit') ||
+        s.includes('urdu') || s.includes('telugu') || s.includes('tamil') ||
+        s.includes('punjabi') || s.includes('bengali') || s.includes('gujarati') ||
+        s.includes('marathi') || s.includes('kannada') || s.includes('malayalam') ||
+        s.includes('odia') || s.includes('assamese') || s.includes('maithili') ||
+        s.includes('bodo') || s.includes('khasi') || s.includes('mizo') ||
+        s.includes('tenyidie') || s.includes('manipuri') || s.includes('konkani') ||
+        s.includes('kokborok')
+      );
+    }
+
+    function updateMediumSelector() {
+      const examSelect = document.getElementById('examSelect');
+      const subjectSelect = document.getElementById('subjectSelect');
+      const container = document.getElementById('boardMediumContainer');
+      const langLockBadge = document.getElementById('langLockBadge');
+      const dualLangBadge = document.getElementById('dualLangBadge');
+      const buttonsContainer = document.getElementById('mediumButtonsContainer');
+
+      if (!container || !buttonsContainer) return;
+
+      const examId = examSelect ? examSelect.value : '';
+      const subjectId = subjectSelect ? subjectSelect.value : 'all';
+      const isBoard = isBoardExamId(examId);
+
+      if (!isBoard) {
+        container.classList.add('hidden');
+        return;
+      }
+
+      container.classList.remove('hidden');
+
+      const isLang = isLanguageSubject(subjectId);
+      const mediums = BOARD_MEDIUMS_CONFIG[examId] || ['hi', 'en'];
+
+      // Ensure valid selected medium for current board
+      if (!mediums.includes(selectedPreferredMedium)) {
+        selectedPreferredMedium = mediums[0] || 'hi';
+      }
+
+      if (isLang) {
+        // Native Language Locked
+        if (langLockBadge) langLockBadge.classList.remove('hidden');
+        if (dualLangBadge) dualLangBadge.classList.add('hidden');
+        buttonsContainer.innerHTML = `
+          <div class="px-3.5 py-1.5 rounded-xl bg-slate-900 border border-slate-700 text-rose-300 text-xs font-bold flex items-center space-x-2">
+            <span>🔒</span>
+            <span>यह विषय केवल अपनी मूल लिपि / भाषा में ही संचालित होता है (No Medium Switching)</span>
+          </div>
+        `;
+      } else {
+        // STEM / Social Science / Non-Language: Dual-language enabled, allow medium switching
+        if (langLockBadge) langLockBadge.classList.add('hidden');
+        if (dualLangBadge) dualLangBadge.classList.remove('hidden');
+
+        buttonsContainer.innerHTML = mediums.map(m => {
+          const info = MEDIUM_LABELS[m] || { label: m.toUpperCase() + ' Medium', flag: '🌐' };
+          const isActive = (selectedPreferredMedium === m);
+          const activeClasses = isActive
+            ? 'bg-sky-500 text-white border-sky-400 shadow-md font-black ring-2 ring-sky-300/40'
+            : 'bg-slate-900 hover:bg-slate-800 text-slate-300 border-slate-700 font-bold';
+          return `
+            <button type="button" onclick="selectMedium('${m}')" class="px-3.5 py-1.5 rounded-xl text-xs border transition flex items-center space-x-1.5 cursor-pointer ${activeClasses}">
+              <span>${info.flag}</span>
+              <span>${info.label}</span>
+            </button>
+          `;
+        }).join('');
+      }
+    }
+
+    window.selectMedium = function(m) {
+      selectedPreferredMedium = m;
+      updateMediumSelector();
+    };
+
     function updateSubjectDropdown() {
       const examSelect = document.getElementById('examSelect');
       const subjectSelect = document.getElementById('subjectSelect');
@@ -572,6 +722,7 @@
           <option value="subj-english">General English (सामान्य अंग्रेजी)</option>
           <option value="subj-science">General Science & Tech (सामान्य विज्ञान)</option>
         `;
+        updateMediumSelector();
         return;
       }
 
@@ -642,10 +793,12 @@
       }
 
       subjectSelect.innerHTML = opts.map(o => `<option value="${o.id}">${o.name}</option>`).join('');
+      updateMediumSelector();
     }
 
     // Attach exam selector change event
     document.getElementById('examSelect').addEventListener('change', updateSubjectDropdown);
+    document.getElementById('subjectSelect').addEventListener('change', updateMediumSelector);
 
     // Class/Stage button group listener
     document.querySelectorAll('.class-stage-btn').forEach(btn => {
@@ -731,6 +884,8 @@
             questionCount: count,
             subjectId: subjectId !== 'all' ? subjectId : null,
             targetLanguage: lang,
+            preferredMedium: selectedPreferredMedium,
+            medium: selectedPreferredMedium,
             stage: stage
           })
         });
@@ -928,7 +1083,7 @@
             <div class="font-black text-base flex items-center space-x-2 text-emerald-400">
               <span>✅ Correct Answer! (+1 Mark)</span>
             </div>
-            <div class="text-xs text-slate-300 leading-relaxed font-normal">${q.explanation || 'Verified canonical answer.'}</div>
+            <div class="text-xs text-slate-300 leading-relaxed font-normal whitespace-pre-line">${q.explanation || 'Verified canonical answer.'}</div>
           `;
         } else {
           fb.className = 'p-5 rounded-2xl border text-sm transition bg-rose-500/10 border-rose-500/40 text-rose-300 space-y-2';
@@ -937,7 +1092,7 @@
               <span>❌ Incorrect Response (0 Marks)</span>
             </div>
             <div class="text-xs font-bold text-amber-300">Correct Option: [${correctLetter}] ${q.options[correctIdx] || ''}</div>
-            <div class="text-xs text-slate-300 leading-relaxed font-normal mt-1">${q.explanation || 'Verified canonical answer.'}</div>
+            <div class="text-xs text-slate-300 leading-relaxed font-normal mt-1 whitespace-pre-line">${q.explanation || 'Verified canonical answer.'}</div>
           `;
         }
         fb.classList.remove('hidden');

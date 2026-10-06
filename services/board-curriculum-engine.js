@@ -1270,7 +1270,7 @@ const SUBJECT_TOPIC_REGISTRY = {
 };
 
 // Generates exactly 200 MCQs, 50 2-Mark Short Answer, and 25 5-Mark Long Answer Questions
-function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjectId = "science") {
+function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjectId = "science", options = {}) {
   const b = BOARD_REGISTRY[boardId] || BOARD_REGISTRY["bseb"];
   const langMode = b.langMode || "bilingual-hindi";
   const is12th = classLevel.includes("12");
@@ -1343,7 +1343,7 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     }
 
     const subjectSections = boardSubjects.map(sub => {
-      const qPool = getCompleteSubjectInventory(sub.id, { is12th, targetClass, boardId, langMode: b.langMode, examName: `${b.name} Class ${targetClass}` });
+      const qPool = getCompleteSubjectInventory(sub.id, { is12th, targetClass, boardId, langMode: b.langMode, preferredMedium: options.preferredMedium || options.medium, examName: `${b.name} Class ${targetClass}` });
       // Balanced proportion: 30-35 questions per subject for full mock bundle (approx 40%-60% coverage, 210-245 total)
       const sampleCount = Math.min(qPool.length, Math.max(30, Math.floor(qPool.length * 0.5)));
       return {
@@ -1361,7 +1361,7 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     }));
   } else {
     // Single Subject Guide: Preserves FULL legitimate subject inventory without artificial clamp
-    const questions = getCompleteSubjectInventory(normSubject, { is12th, targetClass, boardId, langMode: b.langMode, examName: `${b.name} Class ${targetClass}` });
+    const questions = getCompleteSubjectInventory(normSubject, { is12th, targetClass, boardId, langMode: b.langMode, preferredMedium: options.preferredMedium || options.medium, examName: `${b.name} Class ${targetClass}` });
     mcqs = questions.map((item, idx) => ({
       ...item,
       num: idx + 1,
@@ -1370,7 +1370,7 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
   }
 
   // Active High-Yield SQLite Database Enrichment (includes ALL authentic MCQs for this subject)
-  const rawDbQs = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass, boardId });
+  const rawDbQs = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass, boardId, preferredMedium: options.preferredMedium || options.medium });
   if (rawDbQs && rawDbQs.length > 0) {
     const seenKeys = new Set(mcqs.map(m => (m.q || '').substring(0, 40).trim()));
     for (const q of rawDbQs) {
@@ -1391,7 +1391,7 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
   const longSubjectives = [];
 
   // Priority 1: Check Database for authentic subjective questions of this board & subject
-  const dbSubjectives = fetchDbSubjectivesForSubject(normSubject, { is12th, targetClass, boardId, langMode: b.langMode });
+  const dbSubjectives = fetchDbSubjectivesForSubject(normSubject, { is12th, targetClass, boardId, langMode: b.langMode, preferredMedium: options.preferredMedium || options.medium });
   if (dbSubjectives && dbSubjectives.length > 0) {
     dbSubjectives.forEach((item, idx) => {
       const isLong = item.marks >= 4 || item.type === 'long_answer' || item.type === 'case_study';
@@ -1538,9 +1538,24 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
   };
 }
 
+function compileBoardSubjectBooklet(subjectId, options = {}) {
+  const boardId = options.boardId || 'cbse-board';
+  const targetClass = options.targetClass || '10';
+  const preferredLang = options.preferredMedium || options.preferredLanguage || 'hi';
+  const guide = generateSubjectStudyGuide(boardId, subjectId, targetClass, preferredLang, options);
+  return {
+    ...guide,
+    sections: {
+      objective: guide.objectives || [],
+      subjective: guide.subjectives || []
+    }
+  };
+}
+
 module.exports = {
   BOARD_REGISTRY,
   getBoardSubjects,
   generateSubjectStudyGuide,
+  compileBoardSubjectBooklet,
   ACADEMIC_BLUEPRINTS
 };

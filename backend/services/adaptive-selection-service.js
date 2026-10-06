@@ -71,7 +71,8 @@ class AdaptiveSelectionService {
       questionCount = 10,
       subjectId = null,
       targetLanguage = 'en',
-      stage = null
+      stage = null,
+      preferredMedium = null
     } = params;
 
     if (!userId || !examId) {
@@ -297,7 +298,20 @@ class AdaptiveSelectionService {
     }
 
     // Format questions and extract localized content
+    const chosenMed = preferredMedium || targetLanguage || 'en';
+    let boardGovService = null;
+    try {
+      boardGovService = require('./board-medium-governance-service');
+    } catch (e) {}
+
     const formatted = selectedQuestions.map((q, qIdx) => {
+      let resolvedMediumData = null;
+      if ((isBoardExam || q.board_id) && boardGovService) {
+        try {
+          resolvedMediumData = boardGovService.resolveQuestionMedium(q, chosenMed);
+        } catch (e) {}
+      }
+
       let langObj = {};
       try {
         langObj = JSON.parse(q.language_content || '{}');
@@ -305,15 +319,15 @@ class AdaptiveSelectionService {
         langObj = {};
       }
 
-      const content = langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0] || {
+      const content = langObj[chosenMed] || langObj[targetLanguage] || langObj['hi'] || langObj['en'] || Object.values(langObj)[0] || {
         q: 'Question text unavailable',
         options: []
       };
 
-      const rawQ = content.stem || content.question || content.q || content.question_text || content.prompt || content.text || q.question_text || 'Question text unavailable';
+      const rawQ = resolvedMediumData?.questionText || content.stem || content.question || content.q || content.question_text || content.prompt || content.text || q.question_text || 'Question text unavailable';
       const cleanQ = cleanQuestionText(rawQ) || rawQ;
 
-      const rawOpts = extractOptsList(content.options);
+      const rawOpts = extractOptsList(resolvedMediumData?.options || content.options);
       const cleanOpts = rawOpts.map((opt, oIdx) => {
         const stripped = String(opt).replace(/^[A-D][).:\-]\s*/i, '').trim();
         const letter = ['A)', 'B)', 'C)', 'D)'][oIdx] || `${oIdx + 1})`;
@@ -326,6 +340,8 @@ class AdaptiveSelectionService {
       const correctLetter = ['A', 'B', 'C', 'D'][correctIdx] || 'A';
       const correctVal = cleanOpts[correctIdx] || parsedCa.value || parsedCa.correct_value || '';
 
+      const explText = resolvedMediumData?.modelAnswer || resolvedMediumData?.explanation || content.explanation || content.exp || 'Detailed verified pedagogical explanation.';
+
       return {
         questionId: q.question_id,
         serialNumber: qIdx + 1,
@@ -334,6 +350,8 @@ class AdaptiveSelectionService {
         subjectId: q.subject_id,
         chapterId: q.chapter_id,
         topicId: q.topic_id,
+        questionType: q.question_type_id || 'single_mcq',
+        marks: q.marks !== undefined ? q.marks : (resolvedMediumData?.marks !== undefined ? resolvedMediumData.marks : 1),
         difficulty: q.difficulty || 'MEDIUM',
         provenance: q.provenance,
         historicalYear: q.historical_year,
@@ -343,9 +361,15 @@ class AdaptiveSelectionService {
         correctAnswer: correctIdx,
         correctOptionKey: correctLetter,
         correctOptionValue: correctVal,
-        explanation: cleanQuestionText(content.explanation || content.exp || 'Detailed verified pedagogical explanation.'),
+        explanation: cleanQuestionText(explText),
+        modelAnswer: resolvedMediumData?.modelAnswer || explText,
+        keyPoints: resolvedMediumData?.keyPoints || [],
+        markingGuidance: resolvedMediumData?.markingGuidance || '',
         selectionReason: q.selectionReason || 'Selected by adaptive learning algorithm',
-        timeLimitSeconds: q.timeLimitSeconds || null
+        timeLimitSeconds: q.timeLimitSeconds || null,
+        resolvedMedium: resolvedMediumData?.resolvedMedium || chosenMed,
+        isDualLanguage: Boolean(resolvedMediumData?.isDualLanguage),
+        isLanguageSubject: Boolean(resolvedMediumData?.isLanguageSubject)
       };
     });
 

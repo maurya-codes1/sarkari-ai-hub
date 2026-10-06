@@ -1282,6 +1282,146 @@ function populateExamDropdown() {
   examSelect.innerHTML = html;
 }
 
+const QUIZ_BOARD_MEDIUMS = {
+  'cbse': ['en', 'hi'],
+  'icse': ['en', 'hi'],
+  'upmsp': ['hi', 'en', 'ur'],
+  'bseb': ['hi', 'en', 'ur'],
+  'maharashtra': ['mr', 'en', 'hi', 'ur', 'gu'],
+  'rbse': ['hi', 'en', 'ur'],
+  'mpbse': ['hi', 'en', 'ur'],
+  'wb': ['bn', 'en', 'hi', 'ur'],
+  'tn': ['ta', 'en'],
+  'karnataka': ['kn', 'en'],
+  'gujarat': ['gu', 'en', 'hi'],
+  'haryana': ['hi', 'en', 'ur'],
+  'jac': ['hi', 'en', 'ur'],
+  'pseb': ['pa', 'en', 'hi'],
+  'nios': ['hi', 'en'],
+  'cgbse': ['hi', 'en', 'ur'],
+  'bseodisha': ['or', 'en'],
+  'ubse': ['hi', 'en', 'ur'],
+  'seba': ['as', 'en', 'bn'],
+  'bsetelangana': ['te', 'en', 'ur'],
+  'bsetg': ['te', 'en', 'ur'],
+  'bseap': ['te', 'en', 'ur'],
+  'hpbose': ['hi', 'en', 'ur'],
+  'jkbose': ['ur', 'en', 'hi'],
+  'kerala': ['ml', 'en'],
+  'gbshse': ['en', 'mr', 'hi'],
+  'bsem': ['en', 'mni'],
+  'mbose': ['en'],
+  'mbse': ['en'],
+  'nbse': ['en'],
+  'tbse': ['bn', 'en']
+};
+
+let selectedQuizMedium = 'hi';
+
+function isQuizLanguageSubject(subjId) {
+  if (!subjId || subjId === 'all') return false;
+  const s = String(subjId).toLowerCase();
+  return (
+    s.includes('hindi') || s.includes('english') || s.includes('sanskrit') ||
+    s.includes('urdu') || s.includes('telugu') || s.includes('tamil') ||
+    s.includes('punjabi') || s.includes('bengali') || s.includes('gujarati') ||
+    s.includes('marathi') || s.includes('kannada') || s.includes('malayalam') ||
+    s.includes('odia') || s.includes('assamese') || s.includes('maithili') ||
+    s.includes('bodo') || s.includes('khasi') || s.includes('mizo') ||
+    s.includes('tenyidie') || s.includes('manipuri') || s.includes('konkani') ||
+    s.includes('kokborok')
+  );
+}
+
+function updateQuizMediumSelector() {
+  const examSelect = document.getElementById('quizExamSelect');
+  const boardContainer = document.getElementById('quizBoardContainer');
+  const boardSelect = document.getElementById('quizBoardSelect');
+  const subjectSelect = document.getElementById('quizSubjectSelect');
+  const mediumContainer = document.getElementById('quizMediumContainer');
+  const langLockBadge = document.getElementById('quizLangLockBadge');
+  const dualLangBadge = document.getElementById('quizDualLangBadge');
+  const buttonsContainer = document.getElementById('quizMediumButtons');
+  const bpMediumText = document.getElementById('quizBpMediumText');
+
+  if (!mediumContainer || !buttonsContainer) return;
+
+  const examId = examSelect ? examSelect.value : '';
+  const examObj = (typeof EXAMS_CONFIG !== 'undefined') ? EXAMS_CONFIG.find(e => e.id === examId) : null;
+  const isBoardExam = examObj ? Boolean(examObj.isBoard) : (typeof examId === 'string' && (examId.startsWith('board-') || examId.includes('10th') || examId.includes('12th')));
+
+  if (!isBoardExam || (boardContainer && boardContainer.classList.contains('hidden'))) {
+    mediumContainer.classList.add('hidden');
+    if (bpMediumText) bpMediumText.textContent = 'हिन्दी + English (Bilingual Dual Medium)';
+    return;
+  }
+
+  mediumContainer.classList.remove('hidden');
+
+  const boardId = boardSelect ? boardSelect.value : 'bseb';
+  const subjectId = subjectSelect ? subjectSelect.value : 'all';
+  const isLang = isQuizLanguageSubject(subjectId);
+  const mediums = QUIZ_BOARD_MEDIUMS[boardId] || ['hi', 'en'];
+
+  if (!mediums.includes(selectedQuizMedium)) {
+    selectedQuizMedium = mediums[0] || 'hi';
+  }
+
+  const mediumLabelMap = {
+    'hi': { label: 'हिन्दी Medium', flag: '🇮🇳' },
+    'en': { label: 'English Medium', flag: '🇬🇧' },
+    'te': { label: 'తెలుగు Medium', flag: '🏛️' },
+    'ta': { label: 'தமிழ் Medium', flag: '🏛️' },
+    'bn': { label: 'বাংলা Medium', flag: '🏛️' },
+    'gu': { label: 'ગુજરાતી Medium', flag: '🏛️' },
+    'mr': { label: 'मराठी Medium', flag: '🏛️' },
+    'pa': { label: 'ਪੰਜਾਬੀ Medium', flag: '🏛️' },
+    'kn': { label: 'ಕನ್ನಡ Medium', flag: '🏛️' },
+    'ml': { label: 'മലയാളം Medium', flag: '🏛️' },
+    'or': { label: 'ଓଡ଼ିଆ Medium', flag: '🏛️' },
+    'as': { label: 'অসমীয়া Medium', flag: '🏛️' },
+    'ur': { label: 'اردو Medium', flag: '🏛️' },
+    'mni': { label: 'মৈতৈলোন্ Medium', flag: '🏛️' }
+  };
+
+  if (isLang) {
+    if (langLockBadge) langLockBadge.classList.remove('hidden');
+    if (dualLangBadge) dualLangBadge.classList.add('hidden');
+    buttonsContainer.innerHTML = `
+      <div class="px-3.5 py-1.5 rounded-xl bg-rose-50 dark:bg-slate-900 border border-rose-300 dark:border-rose-800 text-rose-700 dark:text-rose-300 text-xs font-bold flex items-center space-x-2">
+        <span>🔒</span>
+        <span>यह भाषा विषय केवल अपनी मूल लिपि में ही संचालित होता है (No Medium Switch)</span>
+      </div>
+    `;
+    if (bpMediumText) bpMediumText.textContent = 'मूल भाषा परीक्षा (Native Language Locked)';
+  } else {
+    if (langLockBadge) langLockBadge.classList.add('hidden');
+    if (dualLangBadge) dualLangBadge.classList.remove('hidden');
+
+    buttonsContainer.innerHTML = mediums.map(m => {
+      const info = mediumLabelMap[m] || { label: m.toUpperCase() + ' Medium', flag: '🌐' };
+      const isActive = (selectedQuizMedium === m);
+      const activeClasses = isActive
+        ? 'bg-rose-600 text-white border-rose-500 shadow-md font-black ring-2 ring-rose-400/50'
+        : 'bg-white dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 border-slate-300 dark:border-slate-700 font-bold';
+      return `
+        <button type="button" onclick="setQuizMedium('${m}')" class="px-3.5 py-1.5 rounded-xl text-xs border transition flex items-center space-x-1.5 cursor-pointer ${activeClasses}">
+          <span>${info.flag}</span>
+          <span>${info.label}</span>
+        </button>
+      `;
+    }).join('');
+
+    const activeInfo = mediumLabelMap[selectedQuizMedium] || { label: selectedQuizMedium.toUpperCase() };
+    if (bpMediumText) bpMediumText.textContent = `${activeInfo.label} + English (Dual Medium)`;
+  }
+}
+
+window.setQuizMedium = function(m) {
+  selectedQuizMedium = m;
+  updateQuizMediumSelector();
+};
+
 function setupDynamicEventListeners() {
   const examSelect = document.getElementById('quizExamSelect');
   const subjectSelect = document.getElementById('quizSubjectSelect');
@@ -1300,6 +1440,13 @@ function setupDynamicEventListeners() {
     boardSelect.addEventListener('change', () => {
       updateBoardSubjects();
       updateBlueprintSummaryDisplay();
+      updateQuizMediumSelector();
+    });
+  }
+
+  if (subjectSelect) {
+    subjectSelect.addEventListener('change', () => {
+      updateQuizMediumSelector();
     });
   }
 
@@ -1325,6 +1472,7 @@ function updateBoardSubjects() {
       subjectSelect.value = subjects[0].id;
     }
   }
+  updateQuizMediumSelector();
 }
 
 function updateDependentDropdowns() {
@@ -1365,6 +1513,7 @@ function updateDependentDropdowns() {
     }
   }
 
+  updateQuizMediumSelector();
   updateQuizPaidPdfBanner();
 }
 
@@ -1452,7 +1601,9 @@ async function startNewQuiz() {
         subjectId: isFullExamMode ? 'all' : subjectId,
         difficulty,
         timerMode,
-        studiedQuestionIds
+        studiedQuestionIds,
+        preferredMedium: selectedQuizMedium,
+        medium: selectedQuizMedium
       })
     });
 
@@ -1871,10 +2022,10 @@ function renderActiveQuestion() {
 
     if (secondaryText && secondaryText !== primaryText) {
       qElem.innerHTML = `
-        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${primaryText}</div>
+        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${primaryText}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
           <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">${dualLabel}</span>
-          <div>${secondaryText}</div>
+          <div class="whitespace-pre-line">${secondaryText}</div>
         </div>
       `;
     } else if (primaryText.includes('\n[English:')) {
@@ -1882,14 +2033,14 @@ function renderActiveQuestion() {
       const hindiPart = cleanQuestionText(parts[0].trim());
       const engPart = cleanQuestionText(parts[1].replace(/\]\s*$/, '').trim());
       qElem.innerHTML = `
-        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${hindiPart}</div>
+        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${hindiPart}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
           <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">${dualLabel}</span>
-          <div>${engPart}</div>
+          <div class="whitespace-pre-line">${engPart}</div>
         </div>
       `;
     } else {
-      qElem.innerHTML = `<div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug">${primaryText}</div>`;
+      qElem.innerHTML = `<div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${primaryText}</div>`;
     }
   }
 
@@ -2011,7 +2162,7 @@ function renderActiveQuestion() {
       const expBody = q.explanation || q.exp || (q.ans ? `💡 सही उत्तर: ${q.ans}` : 'Detailed conceptual breakdown verified against official syllabus.');
       expText.innerHTML = `
         ${badgeHtml}
-        <div class="text-slate-800 dark:text-slate-200 leading-relaxed font-medium pt-1">${expBody}</div>
+        <div class="text-slate-800 dark:text-slate-200 leading-relaxed font-medium pt-1 whitespace-pre-line">${expBody}</div>
       `;
     } else {
       expCard.classList.add('hidden');
