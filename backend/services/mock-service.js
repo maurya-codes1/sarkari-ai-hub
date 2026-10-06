@@ -996,10 +996,10 @@ class MockService {
         if (boardGovService && (qRow.board_id || session.language_config?.boardId)) {
           try {
             const chosenMed = session.language_config?.preferredMedium || session.language_config?.primary || 'en';
-            const resolvedGov = boardGovService.resolveQuestionMedium(qRow, chosenMed);
+            const resolvedGov = boardGovService.resolveQuestionMedium(qRow, chosenMed, { boardId: qRow.board_id || session.language_config?.boardId });
             if (resolvedGov) {
-              revQuestionText = resolvedGov.questionText;
-              revSecondaryQText = '';
+              revQuestionText = resolvedGov.primaryQuestionText || resolvedGov.questionText;
+              revSecondaryQText = resolvedGov.secondaryQuestionText || '';
               if (Array.isArray(resolvedGov.options) && resolvedGov.options.length > 0) {
                 revOptions = resolvedGov.options;
               }
@@ -1304,13 +1304,13 @@ class MockService {
     if (boardGovService && (qRow.board_id || languageConfig?.boardId)) {
       try {
         const chosen = languageConfig?.preferredMedium || languageConfig?.primary || 'en';
-        resolvedGov = boardGovService.resolveQuestionMedium(qRow, chosen);
+        resolvedGov = boardGovService.resolveQuestionMedium(qRow, chosen, { boardId: qRow.board_id || languageConfig?.boardId });
       } catch (e) {}
     }
 
     if (resolvedGov) {
-      clientQ.q = resolvedGov.questionText;
-      clientQ.secondaryQ = '';
+      clientQ.q = resolvedGov.primaryQuestionText || resolvedGov.questionText;
+      clientQ.secondaryQ = resolvedGov.secondaryQuestionText || '';
       if (Array.isArray(resolvedGov.options) && resolvedGov.options.length > 0) {
         clientQ.options = resolvedGov.options;
       }

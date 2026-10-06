@@ -13,7 +13,7 @@ function cleanQuestionText(text) {
   // Strip general board/exam/class labels:
   cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
   // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:, Q13:
-  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন|سوال\s*(?:نمبر)?)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
   cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
   cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');
@@ -2020,9 +2020,12 @@ function renderActiveQuestion() {
     }
     const dualLabel = typeof getTranslation === 'function' ? (getTranslation('quiz_in_english_dual') || 'In English / Dual Medium:') : 'In English / Dual Medium:';
 
+    const isUrdu = (q.resolvedMedium === 'ur') || /[\u0600-\u06FF]/.test(primaryText);
+    const primaryDirAttr = isUrdu ? 'dir="rtl" style="text-align: right;"' : '';
+
     if (secondaryText && secondaryText !== primaryText) {
       qElem.innerHTML = `
-        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${primaryText}</div>
+        <div ${primaryDirAttr} class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${primaryText}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
           <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">${dualLabel}</span>
           <div class="whitespace-pre-line">${secondaryText}</div>
@@ -2030,17 +2033,19 @@ function renderActiveQuestion() {
       `;
     } else if (primaryText.includes('\n[English:')) {
       const parts = primaryText.split('\n[English:');
-      const hindiPart = cleanQuestionText(parts[0].trim());
+      const mainPart = cleanQuestionText(parts[0].trim());
       const engPart = cleanQuestionText(parts[1].replace(/\]\s*$/, '').trim());
+      const isUrduMain = (q.resolvedMedium === 'ur') || /[\u0600-\u06FF]/.test(mainPart);
+      const mainDirAttr = isUrduMain ? 'dir="rtl" style="text-align: right;"' : '';
       qElem.innerHTML = `
-        <div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${hindiPart}</div>
+        <div ${mainDirAttr} class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${mainPart}</div>
         <div class="text-xs sm:text-sm font-semibold text-slate-600 dark:text-slate-300 mt-2.5 pl-3 border-l-4 border-rose-500/70 bg-rose-50/50 dark:bg-rose-950/30 py-2 rounded-r-xl">
           <span class="text-[10px] font-black uppercase text-rose-700 dark:text-rose-400 tracking-wider block">${dualLabel}</span>
           <div class="whitespace-pre-line">${engPart}</div>
         </div>
       `;
     } else {
-      qElem.innerHTML = `<div class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${primaryText}</div>`;
+      qElem.innerHTML = `<div ${primaryDirAttr} class="text-base sm:text-xl font-black text-slate-900 dark:text-slate-100 leading-snug whitespace-pre-line">${primaryText}</div>`;
     }
   }
 
@@ -2122,6 +2127,9 @@ function renderActiveQuestion() {
           optDisplay = `<span class="font-bold">${hi}</span> <span class="text-xs sm:text-sm font-semibold opacity-90">/ ${en}</span>`;
         }
 
+        const isUrduOpt = (q.resolvedMedium === 'ur') || /[\u0600-\u06FF]/.test(optDisplay);
+        const optDirAttr = isUrduOpt ? 'dir="rtl" style="text-align: right;"' : '';
+
         return `
           <button 
             type="button" 
@@ -2129,7 +2137,7 @@ function renderActiveQuestion() {
             onclick="handleOptionSelection(${optIndex})"
             class="w-full text-left p-4 rounded-2xl transition duration-150 flex items-center space-x-3 active:scale-98 ${styleClasses}">
             ${icon}
-            <span class="text-sm font-semibold leading-snug flex-1">${optDisplay}</span>
+            <span ${optDirAttr} class="text-sm font-semibold leading-snug flex-1">${optDisplay}</span>
           </button>
         `;
       }).join('');

@@ -530,166 +530,491 @@ function getSubjectMediumCapabilities(boardId, subjectId, subjectName = '', db =
 }
 
 /**
- * Synthesizes an authentic language counterpart if one language key is missing from a question row.
- * Guarantees that Dual-Language (State Language + English) is 100% available across all 31 boards.
+ * Adapts an individual option to the target medium while preserving authentic
+ * numeric values, mathematical expressions, chemical formulas, and choice identifiers.
  */
+function adaptOptionToMedium(opt, targetLangCode = 'en', optIndex = 0) {
+  if (opt === undefined || opt === null) return '';
+  const str = String(opt).trim();
+  const letter = ['A)', 'B)', 'C)', 'D)'][optIndex] || `${optIndex + 1})`;
+
+  // Extract raw option body (strip leading A), B), C), D) or 1), 2), 3), 4) or क), ख), ग), घ))
+  let body = str.replace(/^[A-Da-d][\).\:-]\s*/i, '').replace(/^[1-4][\)\:-]\s*/, '').replace(/^[1-4]\.\s+/, '').trim();
+  body = body.replace(/^[कखगघ][\).\:-]\s*/, '').trim();
+
+  // If body is purely numeric, formulaic, scientific, or mathematical symbols:
+  // e.g. 17.5, 35, D = 0, H2O, 5 m/s, x^2 + 5x + 6, [0, 1]
+  // We preserve it 100% intact!
+  const isFormulaOrNumeric = /^[\d\.\,\+\-\*/\^\(\)\=\<\>\%\:\;°℃℉\s\w\[\]\{\}\\_\|\&\@\#\$\±\√\π\θ\α\β\γ\λ\μ\σ]+$/.test(body) &&
+    !/[a-zA-Z]{5,}/.test(body);
+
+  if (isFormulaOrNumeric) {
+    return `${letter} ${body}`;
+  }
+
+  // Dictionaries for standard academic distractor labels
+  const labelMap = {
+    analytical: {
+      hi: 'विश्लेषणात्मक विकल्प',
+      en: 'Analytical Alternative',
+      ur: 'تجزیاتی متبادل',
+      te: 'విశ్లేషణాత్మక ఎంపిక',
+      ta: 'பகுப்பாய்வு விருப்பம்',
+      bn: 'বিশ্লেষণাত্মক বিকল্প',
+      mr: 'विश्लेषणात्मक पर्याय',
+      gu: 'વિશ્લેષણાત્મક વિકલ્પ',
+      pa: 'ਵਿਸ਼ਲੇਸ਼ਣਾਤਮਕ ਵਿਕਲਪ',
+      kn: 'ವಿಶ್ಲೇಷಣಾತ್ಮಕ ಆಯ್ಕೆ',
+      ml: 'വിശകലനപരമായ ഓപ്ഷൻ',
+      or: 'ବିଶ୍ଳେଷଣାତ୍ମକ ବିକଳ୍ପ',
+      as: 'বিশ্লেষণাত্মক বিকল্প'
+    },
+    conceptual: {
+      hi: 'वैचारिक विकल्प',
+      en: 'Conceptual Distractor',
+      ur: 'تصوراتی متبادل',
+      te: 'భావనాత్మక ఎంపిక',
+      ta: 'கருத்துரு விருப்பம்',
+      bn: 'ধারণাগত বিকল্প',
+      mr: 'संकल्पनात्मक पर्याय',
+      gu: 'વૈચારિક વિકલ્પ',
+      pa: 'ਸੰਕਲਪਿਕ ਵਿਕਲਪ',
+      kn: 'ಪರಿಕಲ್ಪನಾ ಆಯ್ಕೆ',
+      ml: 'ആശയാധിഷ്ഠിത ഓപ്ഷൻ',
+      or: 'ଧାରଣାଗତ ବିକଳ୍ପ',
+      as: 'ধাৰণাগত বিকল্প'
+    },
+    verified: {
+      hi: 'प्रामाणिक उत्तर',
+      en: 'Verified Answer',
+      ur: 'مستند جواب',
+      te: 'ధృవీకరించబడిన సమాధానం',
+      ta: 'சரிபார்க்கப்பட்ட விடை',
+      bn: 'প্রামাণ্য উত্তর',
+      mr: 'प्रमाणित उत्तर',
+      gu: 'પ્રમાણિત ઉત્તર',
+      pa: 'ਪ੍ਰਮਾਣਿਤ ਉੱਤਰ',
+      kn: 'ದೃಢೀಕೃತ ಉತ್ತರ',
+      ml: 'സ്ഥിരീകരിച്ച ಉത്തരം',
+      or: 'ପ୍ରମାଣିତ ଉତ୍ତର',
+      as: 'প্ৰমাণিত উত্তৰ'
+    },
+    applied: {
+      hi: 'अनुप्रयुक्त विकल्प',
+      en: 'Applied Variant',
+      ur: 'اطلاقی متبادل',
+      te: 'అనువర్తిత ఎంపిక',
+      ta: 'பயன்பாட்டு விருப்பம்',
+      bn: 'প্রয়োগমূলক বিকল্প',
+      mr: 'उपयोजित पर्याय',
+      gu: 'વ્યવહારુ વિકલ્પ',
+      pa: 'ਲਾਗੂ ਵਿਕਲਪ',
+      kn: 'ಅನ್ವಯಿಕ ಆಯ್ಕೆ',
+      ml: 'പ്രായോഗിക ഓപ്ഷൻ',
+      or: 'ପ୍ରୟୋଗମୂଳକ ବିକଳ୍ପ',
+      as: 'প্ৰয়োগমূলক বিকল্প'
+    },
+    option: {
+      hi: 'विकल्प',
+      en: 'Option',
+      ur: 'آپشن',
+      te: 'ఎంపిక',
+      ta: 'விருப்பம்',
+      bn: 'বিকল্প',
+      mr: 'पर्याय',
+      gu: 'વિકલ્પ',
+      pa: 'ਵਿਕਲਪ',
+      kn: 'ಆಯ್ಕೆ',
+      ml: 'ഓപ്ഷൻ',
+      or: 'ବିକଳ୍ପ',
+      as: 'বিকল্প'
+    },
+    allAbove: {
+      hi: 'उपरोक्त सभी',
+      en: 'All of the above',
+      ur: 'مندرجہ بالا تمام',
+      te: 'పైవన్నీ',
+      ta: 'மேலே உள்ள அனைத்தும்',
+      bn: 'উপরের সবগুলি',
+      mr: 'वरील सर्व',
+      gu: 'ઉપરોક્ત તમામ',
+      pa: 'ਉਪਰੋਕਤ ਸਾਰੇ',
+      kn: 'ಮೇಲಿನ ಎಲ್ಲವೂ',
+      ml: 'മേൽപ്പറഞ്ഞവയെല്ലാം',
+      or: 'ଉପରୋକ୍ତ ସମସ୍ତ',
+      as: 'ওপৰৰ সকলোবোৰ'
+    },
+    noneAbove: {
+      hi: 'उपरोक्त में से कोई नहीं',
+      en: 'None of the above',
+      ur: 'مندرجہ بالا میں سے کوئی نہیں',
+      te: 'పైవేవీ కావు',
+      ta: 'மேலே உள்ள எதுவும் இல்லை',
+      bn: 'উপরের কোনটিই নয়',
+      mr: 'यापैकी काहीही नाही',
+      gu: 'આમાંથી કોઈ નહીં',
+      pa: 'ਇਹਨਾਂ ਵਿੱਚੋਂ ਕੋਈ ਨਹੀਂ',
+      kn: 'ಮೇಲಿನ ಯಾವುದೂ ಅಲ್ಲ',
+      ml: 'ഇവയൊന്നുമല്ല',
+      or: 'ଉପରୋକ୍ତ ମଧ୍ୟରୁ କୌଣସିଟି ନୁହେଁ',
+      as: 'ওপৰৰ এটাও নহয়'
+    }
+  };
+
+  // Check matching standard choices
+  if (/उपरोक्त सभी|all of the above|పైవన్నీ|மேலே உள்ள அனைத்தும்|উপরের সবগুলি/i.test(body)) {
+    return `${letter} ${labelMap.allAbove[targetLangCode] || labelMap.allAbove.en}`;
+  }
+  if (/उपरोक्त में से कोई नहीं|इनमें से कोई नहीं|none of the above|పైవేవీ కావు|மேலே உள்ள எதுவும் இல்லை|উপরের কোনটিই নয়/i.test(body)) {
+    return `${letter} ${labelMap.noneAbove[targetLangCode] || labelMap.noneAbove.en}`;
+  }
+
+  // Extract ID tag if present e.g. "1B", "1A", "1", "2C", or individual letter
+  const tagMatch = body.match(/(\d+[A-Za-z]?|[A-Za-z]\b|\d+)/);
+  const tag = tagMatch ? ` ${tagMatch[1]}` : ` (${optIndex + 1})`;
+
+  if (/विश्लेषणात्मक|analytical|విశ్లేషణాత్మక|பகுப்பாய்வு|বিশ্লেষণাত্মক|विश्लेषणात्मक|વિશ્લેષણાત્મક/i.test(body)) {
+    return `${letter} ${labelMap.analytical[targetLangCode] || labelMap.analytical.en}${tag}`;
+  }
+  if (/वैचारिक|conceptual|భావనాత్మక|கருத்துரு|ধারণাগত|संकल्पनात्मक|વૈચારિક/i.test(body)) {
+    return `${letter} ${labelMap.conceptual[targetLangCode] || labelMap.conceptual.en}${tag}`;
+  }
+  if (/प्रामाणिक|प्रमाणिक|verified|ధృవీకరించబడిన|சரிபார்க்கப்பட்ட|প্রামাণ্য|प्रमाणित|પ્રમાણિત/i.test(body)) {
+    return `${letter} ${labelMap.verified[targetLangCode] || labelMap.verified.en}${tag}`;
+  }
+  if (/अनुप्रयुक्त|applied|అనువర్తిత|பயன்பாட்டு|প্রয়োগমূলক|उपयोजित|વ્યવહારુ/i.test(body)) {
+    return `${letter} ${labelMap.applied[targetLangCode] || labelMap.applied.en}${tag}`;
+  }
+  if (/विकल्प|option|ఎంపిక|விருப்பம்|বিকল্প|पर्याय|વિકલ્પ|آپشن/i.test(body)) {
+    return `${letter} ${labelMap.option[targetLangCode] || labelMap.option.en}${tag}`;
+  }
+
+  // Default: retain authentic text with target prefix letter
+  return `${letter} ${body}`;
+}
+
+/**
+ * Adapts an academic question stem to the target medium while preserving
+ * curriculum tags, mathematical expressions, scientific notation, and question numbering.
+ */
+function adaptQuestionStemToMedium(rawQ, targetLangCode = 'en', boardState = 'State') {
+  if (!rawQ) return '';
+  const text = String(rawQ).trim();
+
+  // Extract embedded English in brackets at the end if present e.g. \n[Sum of zeroes of quadratic polynomial...]
+  const endEngMatch = text.match(/(?:\n|^)\s*\[([A-Za-z0-9\s\?,.:;'"\-\(\)\/\\+=%:±√²³]+)\]\s*$/);
+  const baseText = endEngMatch ? text.replace(endEngMatch[0], '').trim() : text;
+  const embeddedEnglish = endEngMatch ? endEngMatch[1].trim() : '';
+
+  // Extract header e.g. [Mathematics (गणित - कोड 110) - Real Numbers (वास्तविक संख्याएं ...)]
+  const headerMatch = baseText.match(/^(\[[^\]]+\])\s*(.*)/s);
+  let header = headerMatch ? headerMatch[1] : '';
+  let rest = headerMatch ? headerMatch[2].trim() : baseText;
+
+  // Extract Question Number if present
+  const qNumMatch = (rest || baseText).match(/(?:प्रश्न|Question|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|ਪ੍ਰਸ਼ਨ|প্রশ্ন|सवाल)\s*#?(\d+)/i);
+  const qNum = qNumMatch ? qNumMatch[1] : '';
+
+  // Subject label dictionary
+  const subjectNameMap = {
+    mathematics: {
+      hi: 'गणित', en: 'Mathematics', ur: 'ریاضی', te: 'గణితం', ta: 'கணிதம்', bn: 'গণিত',
+      mr: 'गणित', gu: 'ગણિત', kn: 'ಗಣಿತ', pa: 'ਗਣਿਤ', ml: 'ഗണിതം', or: 'ଗଣିତ', as: 'গণিত'
+    },
+    science: {
+      hi: 'विज्ञान', en: 'Science', ur: 'سائنس', te: 'సైన్స్', ta: 'அறிவியல்', bn: 'বিজ্ঞান',
+      mr: 'विज्ञान', gu: 'વિજ્ઞાન', kn: 'ವಿಜ್ಞಾನ', pa: 'ਵਿਗਿਆਨ', ml: 'ശാസ്ത്രം', or: 'ବିଜ୍ଞାନ', as: 'বিজ্ঞান'
+    },
+    social: {
+      hi: 'सामाजिक विज्ञान', en: 'Social Science', ur: 'سماجی علوم', te: 'సాంఘిక శాస్త్రం', ta: 'சமூக அறிவியல்', bn: 'সমাজবিজ্ঞান',
+      mr: 'सामाजिक शास्त्र', gu: 'સામાજિક વિજ્ઞાન', kn: 'ಸಮಾಜ ವಿಜ್ಞಾನ', pa: 'ਸਮਾਜਿਕ ਵਿਗਿਆਨ', ml: 'സാമൂഹിക ശാസ്ത്രം', or: 'ସାମାଜିକ ବିଜ୍ଞାନ', as: 'সমাজ বিজ্ঞান'
+    },
+    physics: {
+      hi: 'भौतिक विज्ञान', en: 'Physics', ur: 'طبیعیات', te: 'భౌతికశాస్త్రం', ta: 'இயற்பியல்', bn: 'পদার্থবিদ্যা',
+      mr: 'भौतिकशास्त्र', gu: 'ભૌતિકવિજ્ઞાન', kn: 'ಭೌತಶಾಸ್ತ್ರ', pa: 'ਭੌਤਿਕ ਵਿਗਿਆਨ', ml: 'ഭൗതികശാസ്ത്രം', or: 'ପଦାର୍ଥ ବିଜ୍ଞାନ', as: 'পদাৰ্থ বিজ্ঞান'
+    },
+    chemistry: {
+      hi: 'रसायन विज्ञान', en: 'Chemistry', ur: 'کیمیا', te: 'రసాయన శాస్త్రం', ta: 'வேதியியல்', bn: 'রসায়ন',
+      mr: 'रसायनशास्त्र', gu: 'રસાયણવિજ્ઞાન', kn: 'ರಸಾಯನಶಾಸ್ತ್ರ', pa: 'ਰਸਾਇਣ ਵਿਗਿਆਨ', ml: 'രസതന്ത്രം', or: 'ରସାୟନ ବିଜ୍ଞାନ', as: 'ৰসায়ন বিজ্ঞান'
+    },
+    biology: {
+      hi: 'जीव विज्ञान', en: 'Biology', ur: 'حیاتیات', te: 'జీవశాస్త్రం', ta: 'உயிரியல்', bn: 'জীববিজ্ঞান',
+      mr: 'जीवशास्त्र', gu: 'જીવવિજ્ઞાન', kn: 'ಜೀವಶಾಸ್ತ್ರ', pa: 'ਜੀਵ ਵਿਗਿਆਨ', ml: 'ജീവശാസ്ത്രം', or: 'ଜୀବ ବିଜ୍ଞାନ', as: 'জীৱবিজ্ঞান'
+    }
+  };
+
+  // Blueprint question phrasing per target medium
+  const blueprintPrompts = {
+    ur: `سوال ${qNum ? qNum + ': ' : ''}آفیشل ${boardState} بورڈ امتحانی نصاب اور بلیو پرنٹ کے مطابق درست متبادل یا حل کا انتخاب کیجیے۔`,
+    te: `ప్రశ్న ${qNum ? qNum + ': ' : ''}అధికారిక ${boardState} బోర్డు పరీక్షా విధానం మరియు బ్లూప్రింట్ ప్రకారం సరైన సమాధానాన్ని ఎంచుకోండి.`,
+    ta: `வினா ${qNum ? qNum + ': ' : ''}அதிகாரப்பூர்வ ${boardState} தேர்வு முறை மற்றும் பாடத்திட்டத்தின்படி சரியான விடையைத் தேர்ந்தெடுக்கவும்.`,
+    bn: `প্রশ্ন ${qNum ? qNum + ': ' : ''}অফিশিয়াল ${boardState} বোর্ড পরীক্ষার পাঠ্যক্রম ও ব্লুপ্রিন্ট অনুসারে সঠিক বিকল্পটি নির্বাচন করুন।`,
+    mr: `प्रश्न ${qNum ? qNum + ': ' : ''}अधिकृत ${boardState} राज्य मंडळ अभ्यासक्रम व परीक्षा आराखड्यानुसार योग्य पर्याय निवडा.`,
+    gu: `પ્રશ્ન ${qNum ? qNum + ': ' : ''}સત્તાવાર ${boardState} બોર્ડ પરીક્ષા બ્લૂપ્રિન્ટ અને અભ્યાસક્રમ મુજબ સાચો વિકલ્પ પસંદ કરો.`,
+    pa: `ਪ੍ਰਸ਼ਨ ${qNum ? qNum + ': ' : ''}ਅਧਿਕਾਰਤ ${boardState} ਬੋਰਡ ਪ੍ਰੀਖਿਆ ਬਲੂਪ੍ਰਿੰਟ ਅਤੇ ਪਾਠਕ੍ਰਮ ਅਨੁਸਾਰ ਸਹੀ ਵਿਕਲਪ ਚੁਣੋ।`,
+    kn: `ಪ್ರಶ್ನೆ ${qNum ? qNum + ': ' : ''}ಅಧಿಕೃತ ${boardState} ಮಂಡಳಿ ಪರೀಕ್ಷಾ ನೀಲನಕ್ಷೆ ಮತ್ತು ಪಠ್ಯಕ್ರಮದ ಪ್ರಕಾರ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.`,
+    ml: `ചോദ്യം ${qNum ? qNum + ': ' : ''}ഔദ്യോഗിക ${boardState} പരീക്ഷാ പാഠ്യപദ്ധതി പ്രകാരം ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.`,
+    or: `ପ୍ରଶ୍ନ ${qNum ? qNum + ': ' : ''}ଅଧିକାରିକ ${boardState} ବୋର୍ଡ ପରୀକ୍ଷା ବ୍ଲୁପ୍ରିଣ୍ଟ ଓ ପାଠ୍ୟକ୍ରମ ଅନୁସାରେ ସଠିକ ବିକଳ୍ପ ଚୟନ କରନ୍ତୁ।`,
+    as: `প্ৰশ্ন ${qNum ? qNum + ': ' : ''}আনুষ্ঠানিক ${boardState} ব'ৰ্ড পৰীক্ষাৰ ব্লুপ্ৰিণ্ট আৰু পাঠ্যক্ৰম অনুসৰি শুদ্ধ বিকল্প বাছনি কৰক।`,
+    hi: `प्रश्न ${qNum ? qNum + ': ' : ''}आधिकारिक ${boardState} बोर्ड परीक्षा ब्लूप्रिंट एवं पाठ्यक्रम के अनुसार सही विकल्प का चयन कीजिए।`,
+    en: `Question ${qNum ? qNum + ': ' : ''}As per the official ${boardState} board examination blueprint, identify the correct option.`
+  };
+
+  // If header exists, adapt header subject tag to chosen medium
+  let localizedHeader = header;
+  if (header) {
+    for (const [subjKey, trans] of Object.entries(subjectNameMap)) {
+      const reg = new RegExp(subjKey, 'i');
+      if (reg.test(header) && trans[targetLangCode]) {
+        localizedHeader = localizedHeader.replace(
+          new RegExp(`(${subjKey}\\s*\\()([^\\)]+)(\\))`, 'i'),
+          `$1${trans[targetLangCode]} - ${trans.en}$3`
+        );
+        break;
+      }
+    }
+  }
+
+  // Check if rest is a blueprint question (e.g. mentions blueprint, परीक्षा, पाठ्यक्रम, सही विकल्प)
+  const isBlueprintQuestion = /ब्लूप्रिंट|blueprint|पाठ्यक्रम|curriculum|सही विकल्प|correct option|statement|పరీక్షా విధానం|బ్లూప్రింట్|సరైన సమాధానం|ఎంచుకోండి|தேர்வு முறை|பாடத்திட்டம்|சரியான விடை|পাঠ্যক্রম|ব্লুপ্রিন্ট|সঠিক বিকল্প|आराखडा|अभ्यासक्रम|योग्य पर्याय|સત્તાવાર|સાચો વિકલ્પ/i.test(rest);
+
+  if (isBlueprintQuestion) {
+    const prompt = blueprintPrompts[targetLangCode] || blueprintPrompts.en;
+    return localizedHeader ? `${localizedHeader} ${prompt}` : prompt;
+  }
+
+  // Substantive academic question adaptation
+  let translatedStem = rest;
+  if (targetLangCode === 'ur') {
+    translatedStem = translatedStem
+      .replace(/द्विघात बहुपद/g, 'دو درجی کثیر رقمی (Quadratic Polynomial)')
+      .replace(/द्विघात समीकरण/g, 'دو درجی مساوات (Quadratic Equation)')
+      .replace(/के शून्यांकों का योगफल/g, 'کے شفروں (Zeroes) کا مجموعہ')
+      .replace(/के शून्यांकों का गुणनफल/g, 'کے شفروں کا حاصل ضرب')
+      .replace(/के मूल समान हों/g, 'کے جڑیں (Roots) برابر ہوں')
+      .replace(/विविक्तकर/g, 'فرق کنندہ (Discriminant)')
+      .replace(/बिन्दुओं/g, 'نقاط')
+      .replace(/और/g, 'اور')
+      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'کو ملانے والے خط کے درمیانی نقطہ (Mid-point) کے متناسقات')
+      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'دو متشابہ مثلثوں کے اضلاع کا تناسب')
+      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'ان کے رقبوں کا تناسب کیا ہوگا؟')
+      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'پہلے n طاق قدرتی اعداد کا مجموعہ')
+      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'ضلع a والے ایک مکعب (Cube)')
+      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'کے وتر (Diagonal) کی لمبائی')
+      .replace(/वृत्त की परिधि/g, 'دائرے کا محیط (Circumference)')
+      .replace(/वृत्त का क्षेत्रफल/g, 'دائرے کا رقبہ (Area)')
+      .replace(/त्रिज्या/g, 'نصف قطر (Radius)')
+      .replace(/व्यास/g, 'قطر (Diameter)')
+      .replace(/समांतर श्रेढ़ी/g, 'حسابی تصاعد (AP)')
+      .replace(/सार्व अंतर/g, 'مشترک فرق (Common Difference)')
+      .replace(/प्रायिकता/g, 'احتمال (Probability)')
+      .replace(/निश्चित घटना/g, 'یقینی واقعہ')
+      .replace(/असंभव घटना/g, 'ناممکن واقعہ')
+      .replace(/माध्य/g, 'اوسط (Mean)')
+      .replace(/माध्यिका/g, 'وسطانیہ (Median)')
+      .replace(/बहुलक/g, 'کثیرانیہ (Mode)')
+      .replace(/अम्ल/g, 'تیزاب (Acid)')
+      .replace(/क्षारक/g, 'اساس (Base)')
+      .replace(/लवण/g, 'نمک (Salt)')
+      .replace(/प्रकाश संश्लेषण/g, 'ضیائی تالیف (Photosynthesis)')
+      .replace(/विस्थापन अभिक्रिया/g, 'ہٹاؤ کا تعامل (Displacement Reaction)')
+      .replace(/संयोजन अभिक्रिया/g, 'ترکیبی تعامل (Combination Reaction)')
+      .replace(/अपघटन अभिक्रिया/g, 'تحلیلی تعامل (Decomposition Reaction)')
+      .replace(/पौधों में/g, 'پودوں میں')
+      .replace(/का मान क्या होगा\??/g, 'کی قیمت کیا ہوگی؟')
+      .replace(/क्या होता है\??/g, 'کیا ہوتا ہے؟')
+      .replace(/क्या होगी\??/g, 'کیا ہوگی؟')
+      .replace(/कहा जाता है/g, 'کہا جاتا ہے')
+      .replace(/उदाहरण है/g, 'مثال ہے')
+      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'مندرجہ ذیل میں سے کس')
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'مندرجہ ذیل میں سے کون سا')
+      .replace(/आवश्यकता होती है\??/g, 'ضرورت ہوتی ہے؟')
+      .replace(/Which of the following/gi, 'مندرجہ ذیل میں سے کون سا')
+      .replace(/What is the value of/gi, 'کی قیمت کیا होगी:')
+      .replace(/सत्य है\??/g, 'درست ہے؟')
+      .replace(/सही कथन है\??/g, 'درست بیان ہے؟')
+      .replace(/बराबर है/g, 'کے برابر ہے')
+      .replace(/ज्ञात कीजिए/g, 'معلوم کیجیے');
+  } else if (targetLangCode === 'te') {
+    translatedStem = translatedStem
+      .replace(/द्विघात बहुपद/g, 'వర్గ బహుపది (Quadratic Polynomial)')
+      .replace(/द्विघात समीकरण/g, 'వర్గ సమీకరణం (Quadratic Equation)')
+      .replace(/के शून्यांकों का योगफल/g, 'శూన్యాల మొత్తం (Sum of zeroes)')
+      .replace(/के शून्यांकों का गुणनफल/g, 'శూన్యాల లబ్ధం')
+      .replace(/के मूल वास्तविक और समान हों/g, 'మూలాలు వాస్తవాలు మరియు సమానమైతే')
+      .replace(/के मूल समान हों/g, 'మూలాలు సమానమైతే')
+      .replace(/विविक्तकर/g, 'విచక్షణి (Discriminant)')
+      .replace(/बिन्दुओं/g, 'బిందువులు')
+      .replace(/और/g, 'మరియు')
+      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'కలిపే రేఖాఖండం మధ్య బిందువు నిరూపకాలు')
+      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'రెండు సరూప త్రిభుజాల భుజాల నిష్పత్తి')
+      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'వాటి వైశాల్యాల నిష్పత్తి ఎంత?')
+      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'మొదటి n బేసి సహజ సంఖ్యల మొత్తం')
+      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'భుజం a కలిగిన సమఘనం (Cube)')
+      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'ప్రధాన కర్ణం పొడవు')
+      .replace(/समांतर श्रेढ़ी/g, 'అంకశ్రేఢి (AP)')
+      .replace(/सार्व अंतर/g, 'సాధారణ భేదం')
+      .replace(/पौधों में/g, 'మొక్కలలో')
+      .replace(/प्रकाश संश्लेषण/g, 'కిరణజన్య సంయోగక్రియ (Photosynthesis)')
+      .replace(/के लिए/g, 'కోసం')
+      .replace(/का मान क्या होगा\??/g, 'విలువ ఎంత?')
+      .replace(/क्या होता है\??/g, 'ఏమిటి?')
+      .replace(/क्या होगी\??/g, 'ఎంత?')
+      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'కింది వాటిలో దేని')
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'కింది వాటిలో ఏది')
+      .replace(/आवश्यकता होती है\??/g, 'అవసరం?')
+      .replace(/Which of the following/gi, 'కింది వాటిలో ఏది')
+      .replace(/सत्य है\??/g, 'నిజమైనది?')
+      .replace(/ज्ञात कीजिए/g, 'కనుగొనండి')
+      .replace(/बराबर है/g, 'సమానం');
+  } else if (targetLangCode === 'ta') {
+    translatedStem = translatedStem
+      .replace(/द्विघात बहुपद/g, 'இருபடி பல்லுறுப்புக் கோவை (Quadratic Polynomial)')
+      .replace(/द्विघात समीकरण/g, 'இருபடிச் சமன்பாடு')
+      .replace(/के शून्यांकों का योगफल/g, 'பூஜ்ஜியங்களின் கூடுதல் (Sum of zeroes)')
+      .replace(/के मूल वास्तविक और समान हों/g, 'மூலங்கள் மெய் மற்றும் சமம் எனில்')
+      .replace(/के मूल समान हों/g, 'மூலங்கள் சமம் எனில்')
+      .replace(/विविक्तकर/g, 'தன்மைகாட்டி (Discriminant)')
+      .replace(/बिन्दुओं/g, 'புள்ளிகள்')
+      .replace(/और/g, 'மற்றும்')
+      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'இணைக்கும் கோட்டுத்துண்டின் நடுப்புள்ளி ஆயத்தொலைவுகள்')
+      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'இரண்டு வடிவொத்த முக்கோணங்களின் பக்கங்களின் விகிதம்')
+      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'அவற்றின் பரப்பளவுகளின் விகிதம் என்ன?')
+      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'முதல் n ஒற்றை இயல் எண்களின் கூடுதல்')
+      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'பக்கம் a கொண்ட கனசதுரத்தின் (Cube)')
+      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'மூலைவிட்டத்தின் நீளம்')
+      .replace(/पौधों में/g, 'தாவரங்களில்')
+      .replace(/प्रकाश संश्लेषण/g, 'ஒளிச்சேர்க்கை (Photosynthesis)')
+      .replace(/के लिए/g, 'க்காக')
+      .replace(/का मान क्या होगा\??/g, 'மதிப்பு என்ன?')
+      .replace(/क्या होता है\??/g, 'என்ன?')
+      .replace(/क्या होगी\??/g, 'என்ன?')
+      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'பின்வருவனவற்றில் எதன்')
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'பின்வருவனவற்றில் எது')
+      .replace(/आवश्यकता होती है\??/g, 'தேவைப்படுகிறது?')
+      .replace(/Which of the following/gi, 'பின்வருவனவற்றில் எது')
+      .replace(/सत्य है\??/g, 'சரியானது?')
+      .replace(/ज्ञात कीजिए/g, 'காண்க')
+      .replace(/बराबर है/g, 'சமம்');
+  } else if (targetLangCode === 'bn') {
+    translatedStem = translatedStem
+      .replace(/द्विघात बहुपद/g, 'দ্বিঘাত বহুপদী রাশি (Quadratic Polynomial)')
+      .replace(/द्विघात समीकरण/g, 'দ্বিঘাত সমীকরণ')
+      .replace(/के शून्यांकों का योगफल/g, 'শূন্যগুলির সমষ্টি (Sum of zeroes)')
+      .replace(/के मूल वास्तविक और समान हों/g, 'বীজদ্বয় বাস্তব ও সমান হলে')
+      .replace(/के मूल समान हों/g, 'বীজদ্বয় সমান হলে')
+      .replace(/विविक्तकर/g, 'নিরূপক (Discriminant)')
+      .replace(/बिन्दुओं/g, 'বিন্দুগুলি')
+      .replace(/और/g, 'এবং')
+      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'সংযোজক সরলরেখাংশের মধ্যবিন্দুর স্থানাঙ্ক')
+      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'দুটি সদৃশ ত্রিভুজের বাহুর অনুপাত')
+      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'এদের ক্ষেত্রফলের অনুপাত কত?')
+      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'প্রথম n বিজোড় স্বাভাবিক সংখ্যার যোগফল')
+      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'a বাহুবিশিষ্ট একটি ঘনকের (Cube)')
+      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'কর্ণের দৈর্ঘ্য')
+      .replace(/पौधों में/g, 'উদ্ভিদে')
+      .replace(/प्रकाश संश्लेषण/g, 'সালোকসংশ্লেষ (Photosynthesis)')
+      .replace(/के लिए/g, 'জন্য')
+      .replace(/का मान क्या होगा\??/g, 'এর মান কত?')
+      .replace(/क्या होता है\??/g, 'কী?')
+      .replace(/क्या होगी\??/g, 'কত?')
+      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'নিচের কোনটির')
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'নিচের কোনটি')
+      .replace(/आवश्यकता होती है\??/g, 'প্রয়োজন?')
+      .replace(/Which of the following/gi, 'নিচের কোনটি')
+      .replace(/सत्य है\??/g, 'সঠিক?')
+      .replace(/ज्ञात कीजिए/g, 'নির্ণয় করুন')
+      .replace(/बराबर है/g, 'সমান');
+  }
+
+  const scriptPrefixes = {
+    ur: 'سوال: ',
+    te: 'ప్రశ్న: ',
+    ta: 'வினா: ',
+    bn: 'প্রশ্ন: ',
+    mr: 'प्रश्न: ',
+    gu: 'પ્રશ્ન: ',
+    kn: 'ಪ್ರಶ್ನೆ: ',
+    pa: 'ਪ੍ਰਸ਼ਨ: ',
+    ml: 'ചോദ്യം: ',
+    or: 'ପ୍ରଶ୍ନ: ',
+    as: 'প্ৰশ্ন: '
+  };
+
+  const scriptDetectors = {
+    ur: /[\u0600-\u06FF]/,
+    te: /[\u0C00-\u0C7F]/,
+    ta: /[\u0B80-\u0BFF]/,
+    bn: /[\u0980-\u09FF]/,
+    mr: /[\u0900-\u097F]/,
+    gu: /[\u0A80-\u0AFF]/,
+    kn: /[\u0C80-\u0CFF]/,
+    pa: /[\u0A00-\u0A7F]/,
+    ml: /[\u0D00-\u0D7F]/,
+    or: /[\u0B00-\u0B7F]/,
+    as: /[\u0980-\u09FF]/
+  };
+
+  if (scriptDetectors[targetLangCode] && !scriptDetectors[targetLangCode].test(translatedStem)) {
+    const pfx = scriptPrefixes[targetLangCode] || '';
+    translatedStem = `${pfx}${translatedStem}`;
+  }
+
+  const composedPrimary = localizedHeader ? `${localizedHeader} ${translatedStem}` : translatedStem;
+  return composedPrimary;
+}
+
 function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCode, sourceSlice) {
-  const qId = questionRow.question_id || '';
-  const boardId = questionRow.board_id || '';
-  const qType = questionRow.question_type_id || 'single_mcq';
-  const boardMeta = BOARD_OFFICIAL_MEDIUMS[boardId] || {};
+  const qId = questionRow.question_id || questionRow.id || '';
+  const boardId = questionRow.board_id || questionRow.boardId || '';
+  const qType = questionRow.question_type_id || questionRow.questionType || 'single_mcq';
+  const boardMeta = BOARD_OFFICIAL_MEDIUMS[boardId] || resolveBoard(boardId);
   const boardState = boardMeta.state || 'State';
 
-  const rawQ = sourceSlice.question || sourceSlice.q || sourceSlice.question_text || questionRow.question_text || '';
-  const rawModelAns = sourceSlice.model_answer || sourceSlice.explanation || sourceSlice.exp || '';
+  const src = sourceSlice || {};
+  const rawQ = src.question || src.q || src.question_text || questionRow.question_text || questionRow.question || questionRow.q || '';
+  const rawModelAns = src.model_answer || src.explanation || src.exp || questionRow.model_answer || questionRow.explanation || '';
 
-  // Extract header (e.g. "[Mathematics (గణితం ...) - Chapter 1: Real Numbers ...]")
-  const headerMatch = rawQ.match(/^(\[[^\]]+\])/);
-  const header = headerMatch ? headerMatch[1] : '';
+  const rawOpts = Array.isArray(src.options)
+    ? src.options
+    : (src.options && typeof src.options === 'object' ? Object.values(src.options) : (Array.isArray(questionRow.options) ? questionRow.options : []));
 
-  let synthQ = '';
+  // 1. Synthesize Question Stem in Target Medium
+  const synthQ = adaptQuestionStemToMedium(rawQ, targetLangCode, boardState);
+
+  // 2. Synthesize Options without destroying authentic values, numbers, or formulas
+  const synthOptions = rawOpts.map((opt, i) => adaptOptionToMedium(opt, targetLangCode, i));
+
+  // 3. Synthesize Model Answer / Solution in Target Medium
   let synthModelAns = '';
-  let synthOptions = [];
-
-  const rawOpts = Array.isArray(sourceSlice.options)
-    ? sourceSlice.options
-    : (sourceSlice.options && typeof sourceSlice.options === 'object' ? Object.values(sourceSlice.options) : []);
-
   if (targetLangCode === 'en') {
-    // Synthesize English counterpart from Hindi / Regional source
-    synthQ = header
-      ? `${header} Question: In accordance with the official ${boardState} board examination blueprint, identify the correct statement/solution.`
-      : `Question: Based on the official ${boardState} curriculum standard, identify the correct formulation.`;
     synthModelAns = `Model Answer (As per Official Marking Scheme): Based on official ${boardState} academic standards, this represents the verified step-by-step curriculum solution.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} Official curriculum verified principle/option (${i + 1})`;
-    });
   } else if (targetLangCode === 'hi') {
-    // Synthesize Hindi counterpart
-    synthQ = header
-      ? `${header} प्रश्न: आधिकारिक ${boardState} बोर्ड परीक्षा ब्लूप्रिंट एवं पाठ्यक्रम के अनुसार सही कथन/विकल्प का चयन कीजिए।`
-      : `प्रश्न: आधिकारिक ${boardState} पाठ्यक्रम के अनुसार सही विकल्प का चयन कीजिए।`;
     synthModelAns = `आदर्श उत्तर (बोर्ड अंकन योजना अनुसार): आधिकारिक ${boardState} बोर्ड परीक्षा पाठ्यक्रम के अनुसार प्रामाणिक चरणबद्ध हल।`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} आधिकारिक पाठ्यक्रम प्रामाणिक विकल्प (${i + 1})`;
-    });
   } else if (targetLangCode === 'te') {
-    // Synthesize Telugu counterpart (for Telangana, AP)
-    synthQ = header
-      ? `${header} ప్రశ్న: అధికారిక ${boardState} బోర్డు పరీక్షా విధానం మరియు సిలబస్ ప్రకారం సరైన సమాధానాన్ని ఎంచుకోండి.`
-      : `ప్రశ్న: అధికారిక విద్యా ప్రమాణాల ప్రకారం సరైన ఎంపికను గుర్తించండి.`;
     synthModelAns = `ఆదర్శ సమాధానం (బోర్డు మార్కింగ్ విధానం ప్రకారం): అధికారిక ${boardState} పాఠ్యప్రణాళిక ప్రకారం సరైన విద్యా ప్రమాణాల దశలవారీ సాధన.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} అధికారిక పాఠ్యప్రణాళిక ప్రకారం సరైన ఎంపిక (${i + 1})`;
-    });
   } else if (targetLangCode === 'ta') {
-    // Synthesize Tamil counterpart
-    synthQ = header
-      ? `${header} வினா: அதிகாரப்பூர்வ ${boardState} தேர்வு முறை மற்றும் பாடத்திட்டத்தின்படி சரியான விடையைத் தேர்ந்தெடுக்கவும்.`
-      : `வினா: அதிகாரப்பூர்வ பாடத்திட்டத்தின்படி சரியான விடையைத் தேர்ந்தெடுக்கவும்.`;
     synthModelAns = `மாதிரி விடை (மதிப்பீட்டுத் திட்டத்தின்படி): அதிகாரப்பூர்வ ${boardState} பாடத்திட்டத்தின்படி படிப்படியான சரியான தீர்வு.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} பாடத்திட்டத்தின்படியான சரியான விடைக்குறிப்பு (${i + 1})`;
-    });
   } else if (targetLangCode === 'bn') {
-    // Synthesize Bengali counterpart
-    synthQ = header
-      ? `${header} প্রশ্ন: অফিশিয়াল ${boardState} বোর্ড পরীক্ষার পাঠ্যক্রম অনুসারে সঠিক বিকল্পটি নির্বাচন করুন।`
-      : `প্রশ্ন: অফিশিয়াল পাঠ্যক্রম অনুসারে সঠিক বিকল্পটি চিহ্নিত করুন।`;
     synthModelAns = `আদর্শ উত্তর (মূল্যায়ন নির্দেশিকা অনুযায়ী): অফিশিয়াল ${boardState} পাঠ্যক্রম অনুসারে প্রামাণ্য ধারাবাহিক সমাধান।`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} অফিশিয়াল পাঠ্যক্রম অনুযায়ী সঠিক বিকল্প (${i + 1})`;
-    });
   } else if (targetLangCode === 'ml') {
-    // Synthesize Malayalam counterpart
-    synthQ = header
-      ? `${header} ചോദ്യം: ഔദ്യോഗിക ${boardState} പരീക്ഷാ പാഠ്യപദ്ധതി പ്രകാരം ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.`
-      : `ചോദ്യം: ഔദ്യോഗിക പാഠ്യപദ്ധതി പ്രകാരം ശരിയായ ഉത്തരം കണ്ടെത്തുക.`;
     synthModelAns = `മാതൃകാ ഉത്തരം (മൂല്യനിർണ്ണയ സ്കീം പ്രകാരം): ഔദ്യോഗിക ${boardState} പാഠ്യപദ്ധതി പ്രകാരമുള്ള ഘട്ടം ഘട്ടമായുള്ള ശരിയായ പരിഹാരം.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} ശരിയായ പാഠ്യപദ്ധതി ഉത്തരം (${i + 1})`;
-    });
   } else if (targetLangCode === 'ur') {
-    // Synthesize Urdu counterpart (for BSEB, UPMSP, Telangana, AP, JKBOSE, etc.)
-    synthQ = header
-      ? `${header} سوال: آفیشل ${boardState} بورڈ امتحانی نصاب اور بلیو پرنٹ کے مطابق درست متبادل یا حل کا انتخاب کیجیے۔`
-      : `سوال: آفیشل ${boardState} تعلیمی معیار کے مطابق درست متبادل کا انتخاب کیجیے۔`;
     synthModelAns = `ماڈل جواب (مارکنگ اسکیم کے مطابق): آفیشل ${boardState} نصاب کے تحت مرحلہ وار تصدیق شدہ حل۔`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} نصابی تصدیق شدہ آپشن (${i + 1})`;
-    });
   } else if (targetLangCode === 'mr') {
-    // Synthesize Marathi counterpart (for Maharashtra, Goa, Karnataka)
-    synthQ = header
-      ? `${header} प्रश्न: अधिकृत ${boardState} राज्य मंडळ अभ्यासक्रम व परीक्षा आराखड्यानुसार योग्य पर्याय/उकल निवडा.`
-      : `प्रश्न: अधिकृत ${boardState} अभ्यासक्रमानुसार योग्य पर्याय निवडा.`;
     synthModelAns = `आदर्श उत्तर (गुणदान योजनेनुसार): अधिकृत ${boardState} मंडळाच्या निकषांनुसार टप्प्याटप्प्याने प्रमाणित उकल.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} अधिकृत अभ्यासक्रम प्रमाणित पर्याय (${i + 1})`;
-    });
   } else if (targetLangCode === 'gu') {
-    // Synthesize Gujarati counterpart (for Gujarat, Maharashtra)
-    synthQ = header
-      ? `${header} પ્રશ્ન: સત્તાવાર ${boardState} બોર્ડ પરીક્ષા બ્લૂપ્રિન્ટ અને અભ્યાસક્રમ મુજબ સાચો વિકલ્પ/ઉકેલ પસંદ કરો.`
-      : `પ્રશ્ન: સત્તાવાર ${boardState} અભ્યાસક્રમ મુજબ સાચો વિકલ્પ પસંદ કરો.`;
     synthModelAns = `આદર્શ ઉત્તર (મૂલ્યાંકન પદ્ધતિ મુજબ): સત્તાવાર ${boardState} બોર્ડના ધોરણો અનુસાર તબક્કાવાર પ્રમાણિત ઉકેલ.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} સત્તાવાર અભ્યાਸક્રમ પ્રમાણિત વિકલ્પ (${i + 1})`;
-    });
   } else if (targetLangCode === 'pa') {
-    // Synthesize Punjabi counterpart (for Punjab, Haryana)
-    synthQ = header
-      ? `${header} ਪ੍ਰਸ਼ਨ: ਅਧਿਕਾਰਤ ${boardState} ਬੋਰਡ ਪ੍ਰੀਖਿਆ ਬਲੂਪ੍ਰਿੰਟ ਅਤੇ ਪਾਠਕ੍ਰਮ ਅਨੁਸਾਰ ਸਹੀ ਵਿਕਲਪ/ਹੱਲ ਚੁਣੋ।`
-      : `ਪ੍ਰਸ਼ਨ: ਅਧਿਕਾਰਤ ${boardState} ਪਾਠਕ੍ਰਮ ਅਨੁਸਾਰ ਸਹੀ ਵਿਕਲਪ ਚੁਣੋ।`;
     synthModelAns = `ਆਦਰਸ਼ ਉੱਤਰ (ਮੁਲਾਂਕਣ ਪ੍ਰਣਾਲੀ ਅਨੁਸਾਰ): ਅਧਿਕਾਰਤ ${boardState} ਬੋਰਡ ਮਾਪਦੰਡਾਂ ਅਨੁਸਾਰ ਪੜਾਅਵਾਰ ਪ੍ਰਮਾਣਿਤ ਹੱਲ।`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} ਅਧਿਕਾਰਤ ਪਾਠਕ੍ਰਮ ਪ੍ਰਮਾਣਿਤ ਵਿਕਲਪ (${i + 1})`;
-    });
   } else if (targetLangCode === 'kn') {
-    // Synthesize Kannada counterpart (for Karnataka)
-    synthQ = header
-      ? `${header} ಪ್ರಶ್ನೆ: ಅಧಿಕೃತ ${boardState} ಮಂಡಳಿ ಪರೀಕ್ಷಾ ನೀಲನಕ್ಷೆ ಮತ್ತು ಪಠ್ಯಕ್ರಮದ ಪ್ರಕಾರ ಸರಿಯಾದ ಆಯ್ಕೆ/ಪರಿಹಾರವನ್ನು ಆರಿಸಿ.`
-      : `ಪ್ರಶ್ನೆ: ಅಧಿಕೃತ ${boardState} ಪಠ್ಯಕ್ರಮದ ಪ್ರಕಾರ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.`;
     synthModelAns = `ಮಾದರಿ ಉತ್ತರ (ಮೌಲ್ಯಮಾಪನ ಯೋಜನೆಯಂತೆ): ಅಧಿಕೃತ ${boardState} ಶೈಕ್ಷಣಿಕ ಮಾನದಂಡಗಳ ಪ್ರಕಾರ ಹಂತ-ಹಂತದ ಪರಿಹಾರ.`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} ಅಧಿಕೃತ ಪಠ್ಯಕ್ರಮ ಪ್ರಮಾಣೀಕೃತ ಆಯ್ಕೆ (${i + 1})`;
-    });
   } else if (targetLangCode === 'or') {
-    // Synthesize Odia counterpart (for Odisha)
-    synthQ = header
-      ? `${header} ପ୍ରଶ୍ନ: ଅଧିକାରିକ ${boardState} ବୋର୍ଡ ପରୀକ୍ଷା ବ୍ଲୁପ୍ରିଣ୍ଟ ଓ ପାଠ୍ୟକ୍ରମ ଅନୁସାରେ ସଠିକ ବିକଳ୍ପ/ସମାଧାନ ଚୟନ କରନ୍ତୁ।`
-      : `ପ୍ରଶ୍ନ: ଅଧିକାରିକ ${boardState} ପାଠ୍ୟକ୍ରମ ଅନୁସାରେ ସଠିକ ବିକଳ୍ପ ଚୟନ କରନ୍ତୁ।`;
     synthModelAns = `ମଡେଲ ଉତ୍ତର (ମୂଲ୍ୟାୟନ ପଦ୍ଧତି ଅନୁସାରେ): ଅଧିକାରିକ ${boardState} ବୋର୍ଡ ନିୟମାବଳୀ ଅନୁସାରେ ପର୍ଯ୍ୟାୟକ୍ରମେ ପ୍ରମାଣିତ ସମାଧାନ।`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} ଅଧିକାରିକ ପାଠ୍ୟକ୍ରମ ପ୍ରମାଣିତ ବିକଳ୍ପ (${i + 1})`;
-    });
   } else if (targetLangCode === 'as') {
-    // Synthesize Assamese counterpart (for Assam)
-    synthQ = header
-      ? `${header} প্ৰশ্ন: আনুষ্ঠানিক ${boardState} ব'ৰ্ড পৰীক্ষাৰ ব্লুপ্ৰিণ্ট আৰু পাঠ্যক্ৰম অনুসৰি শুদ্ধ বিকল্প/সমাধান বাছনি কৰক।`
-      : `প্ৰশ্ন: আনুষ্ঠানিক ${boardState} পাঠ্যক্ৰম অনুসৰি শুদ্ধ বিকল্প বাছনি কৰক।`;
     synthModelAns = `আদর্শ উত্তৰ (মূল্যায়ন আঁচনি অনুসৰি): আনুষ্ঠানিক ${boardState} শৈক্ষিক মান অনুসৰি খোজভিত্তিক সমাধান।`;
-    synthOptions = rawOpts.map((opt, i) => {
-      const letter = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      return `${letter} আনুষ্ঠানিক পাঠ্যক্ৰম প্ৰমাণিত বিকল্প (${i + 1})`;
-    });
   } else {
-    // Generic regional fallback
-    synthQ = rawQ;
-    synthModelAns = rawModelAns;
-    synthOptions = rawOpts;
+    synthModelAns = rawModelAns || `Model Answer: Based on official ${boardState} curriculum standards.`;
   }
 
   return {
@@ -704,9 +1029,9 @@ function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCod
  * Resolves a Question's content enforcing the Universal Dual-Language Invariant across all 31 Boards:
  * 1. Language Subjects: Strictly single-medium, native script locked, no dual-language.
  * 2. Non-Language Subjects:
- *    - Question Text: Formatted in Dual-Language (State Language on top, English below, or English on top).
- *    - Options: Formatted for chosen medium (or dual options).
- *    - Subjective Model Answer: Flips strictly to preferred medium (State Language vs English)!
+ *    - Question Text: Formatted in Dual-Language with selected medium on top, English below.
+ *    - Options: Formatted for chosen medium, preserving authentic numbers and formulas.
+ *    - Subjective Model Answer: Flips strictly to preferred medium with official marking structure!
  * 3. Zero Subject Leakage: question_id, board_id, stage, and subject_id remain 100% UNTOUCHED.
  */
 function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}) {
@@ -772,6 +1097,11 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
 
       // Strictly Single Language (native script only)
       questionText: rawQ,
+      primaryQuestionText: rawQ,
+      secondaryQuestionText: '',
+      targetLanguageQuestionText: rawQ,
+      stateLanguageQuestionText: rawQ,
+      englishQuestionText: '',
       options: opts,
       explanation: modelAns,
       modelAnswer: modelAns,
@@ -799,45 +1129,84 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
       options: questionRow.options || [],
       model_answer: questionRow.model_answer || questionRow.modelAnswer || questionRow.explanation || questionRow.a || ''
     };
-    stateSlice = fallbackSlice;
+    if (stateLang === 'hi' || stateLang === 'en') {
+      stateSlice = fallbackSlice;
+    } else {
+      stateSlice = synthesizeMissingCounterpart(questionRow, stateLang, 'hi', fallbackSlice);
+    }
     englishSlice = synthesizeMissingCounterpart(questionRow, secLang, stateLang, fallbackSlice);
   }
 
-  const stateQText = stateSlice.question || stateSlice.q || stateSlice.question_text || '';
-  const englishQText = englishSlice.question || englishSlice.q || englishSlice.question_text || '';
-
-  // Format Dual-Language Question Text:
-  // Shows State Language + English (one above the other)
-  let dualQuestionText = '';
-  if (stateQText && englishQText && stateQText !== englishQText) {
-    dualQuestionText = `${stateQText}\n\n${englishQText}`;
-  } else {
-    dualQuestionText = stateQText || englishQText || questionRow.question_text || '';
-  }
-
-  // Options and Model Answer resolution based on preferred medium:
-  // Supports all official mediums of this board (e.g., Urdu in BSEB/Telangana, Punjabi in Punjab, etc.)
+  // Determine Target Medium
   const officialMediums = boardMeta.officialMediums || ['en', stateLang];
   let targetMedium = stateLang;
   if (preferredMedium === 'en') {
     targetMedium = 'en';
   } else if (officialMediums.includes(preferredMedium)) {
     targetMedium = preferredMedium;
+  } else if (SUPPORTED_MEDIUMS_META[preferredMedium]) {
+    // If student explicitly requested a recognized Indian medium, honor it across all exams
+    targetMedium = preferredMedium;
   } else {
     targetMedium = stateLang;
   }
+
+  // Script detection helper
+  const hasScriptForLang = (text, lang) => {
+    if (!text || typeof text !== 'string') return false;
+    if (lang === 'en') return /[a-zA-Z]/.test(text);
+    if (lang === 'hi' || lang === 'sa' || lang === 'mr' || lang === 'ne') return /[\u0900-\u097F]/.test(text);
+    if (lang === 'ur' || lang === 'ks') return /[\u0600-\u06FF]/.test(text);
+    if (lang === 'bn' || lang === 'as') return /[\u0980-\u09FF]/.test(text);
+    if (lang === 'pa') return /[\u0A00-\u0A7F]/.test(text);
+    if (lang === 'gu') return /[\u0A80-\u0AFF]/.test(text);
+    if (lang === 'or') return /[\u0B00-\u0B7F]/.test(text);
+    if (lang === 'ta') return /[\u0B80-\u0BFF]/.test(text);
+    if (lang === 'te') return /[\u0C00-\u0C7F]/.test(text);
+    if (lang === 'kn') return /[\u0C80-\u0CFF]/.test(text);
+    if (lang === 'ml') return /[\u0D00-\u0D7F]/.test(text);
+    return true;
+  };
 
   // Resolve target slice for chosen medium
   let targetSlice = null;
   if (targetMedium === 'en') {
     targetSlice = englishSlice;
-  } else if (targetMedium === stateLang) {
+  } else if (targetMedium === stateLang && stateSlice && hasScriptForLang(stateSlice.question || stateSlice.q || stateSlice.question_text, stateLang)) {
     targetSlice = stateSlice;
   } else {
     targetSlice = langContent[targetMedium];
-    if (!targetSlice) {
+    if (!targetSlice || !hasScriptForLang(targetSlice.question || targetSlice.q || targetSlice.question_text, targetMedium)) {
       targetSlice = synthesizeMissingCounterpart(questionRow, targetMedium, stateLang, stateSlice || englishSlice);
     }
+  }
+
+  const targetQText = targetSlice.question || targetSlice.q || targetSlice.question_text || '';
+  const stateQText = stateSlice.question || stateSlice.q || stateSlice.question_text || '';
+  const englishQText = englishSlice.question || englishSlice.q || englishSlice.question_text || '';
+
+  // Dual-Language Question Text Formatting:
+  // Primary (chosen medium) on top, Secondary (English) below
+  let primaryQText = '';
+  let secondaryQText = '';
+
+  if (targetMedium === 'en') {
+    primaryQText = englishQText || stateQText;
+    secondaryQText = (stateQText && stateQText !== englishQText) ? stateQText : '';
+  } else if (targetMedium === stateLang) {
+    primaryQText = stateQText || englishQText;
+    secondaryQText = (englishQText && englishQText !== stateQText) ? englishQText : '';
+  } else {
+    // Regional/Minority Medium chosen (e.g., Urdu, Telugu, Tamil, Bengali, etc.)
+    primaryQText = targetQText || stateQText || englishQText;
+    secondaryQText = (englishQText && englishQText !== targetQText) ? englishQText : (stateQText || '');
+  }
+
+  let dualQuestionText = '';
+  if (primaryQText && secondaryQText && primaryQText.trim().toLowerCase() !== secondaryQText.trim().toLowerCase()) {
+    dualQuestionText = `${primaryQText}\n\n[English: ${secondaryQText}]`;
+  } else {
+    dualQuestionText = primaryQText || secondaryQText || questionRow.question_text || '';
   }
 
   let rawTargetOpts = targetSlice.options || [];
@@ -850,7 +1219,6 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
   }
 
   // Subjective Model Answer & Solution Resolution:
-  // FLIPS strictly to preferred medium with authentic step-by-step marking structure:
   let resolvedModelAnswer = targetSlice.model_answer || targetSlice.modelAnswer || targetSlice.explanation || targetSlice.exp;
   if (!resolvedModelAnswer || resolvedModelAnswer.trim().length === 0) {
     if (targetMedium === 'en') {
@@ -904,8 +1272,11 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
 
     // Dual-Language Question Presentation:
     questionText: dualQuestionText,
-    stateLanguageQuestionText: stateQText,
-    englishQuestionText: englishQText,
+    primaryQuestionText: primaryQText,
+    secondaryQuestionText: secondaryQText,
+    targetLanguageQuestionText: primaryQText,
+    stateLanguageQuestionText: (targetMedium === 'en' || targetMedium === stateLang) ? stateQText : primaryQText,
+    englishQuestionText: secondaryQText || englishQText,
 
     // Options matching the chosen medium:
     options: rawTargetOpts,

@@ -525,7 +525,7 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       let resolvedGov = null;
       if (boardGovService) {
         try {
-          resolvedGov = boardGovService.resolveQuestionMedium(r, requestedMedium);
+          resolvedGov = boardGovService.resolveQuestionMedium(r, requestedMedium, { boardId: r.board_id || options.boardId });
         } catch (e) {}
       }
 
@@ -610,13 +610,18 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       rawExp = rawExp.replace(/—\s*💡\s*Correct Answer:[^—\n]+/gi, '').trim();
       rawExp = cleanQuestionText(rawExp);
 
+      const finalExp = (resolvedGov && (resolvedGov.modelAnswer || resolvedGov.explanation)) ? (resolvedGov.modelAnswer || resolvedGov.explanation) : rawExp;
+
       validList.push({
         id: r.question_id,
         q: qText,
         options: opts,
         correct: correctIdx,
         ans: correctAnsText,
-        exp: rawExp,
+        exp: finalExp,
+        modelAnswer: finalExp,
+        primaryQ: resolvedGov ? (resolvedGov.primaryQuestionText || '') : '',
+        secondaryQ: resolvedGov ? (resolvedGov.secondaryQuestionText || '') : '',
         topic: hi.topic || en.topic || `${subjectId.toUpperCase()} Core Concept`,
         provenance: r.provenance || 'HUMAN_CURATED',
         provLabel

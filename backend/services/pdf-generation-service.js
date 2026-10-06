@@ -892,12 +892,12 @@ class PdfGenerationService {
             for (let i = 0; i < Math.min(boardSubjectives.length, 30); i++) {
               const item = boardSubjectives[i];
               questionIds.push(item.id || `q-sol-${i + 1}`);
-              const qLines = (item.q || '').split('\n');
+              const qParts = (item.q || '').split('\n').map(l => l.trim()).filter(Boolean);
               solutionsList.push({
                 qNum: i + 1,
                 subject: subjectId.toUpperCase(),
-                prompt: cleanQuestionText(qLines[0]),
-                altPrompt: qLines[1] ? cleanQuestionText(qLines[1]) : '',
+                prompt: cleanQuestionText(qParts[0] || ''),
+                altPrompt: qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '',
                 marks: item.marks || 2,
                 modelAnswer: item.modelAnswer || item.a || 'Model answer not available.'
               });
@@ -906,12 +906,12 @@ class PdfGenerationService {
             for (let i = 0; i < Math.min(boardMcqs.length, 25); i++) {
               const item = boardMcqs[i];
               questionIds.push(item.id || `q-sol-${i + 1}`);
-              const qLines = (item.q || '').split('\n');
+              const qParts = (item.q || '').split('\n').map(l => l.trim()).filter(Boolean);
               solutionsList.push({
                 qNum: i + 1,
                 subject: subjectId.toUpperCase(),
-                prompt: cleanQuestionText(qLines[0]),
-                altPrompt: qLines[1] ? cleanQuestionText(qLines[1]) : '',
+                prompt: cleanQuestionText(qParts[0] || ''),
+                altPrompt: qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '',
                 marks: 1,
                 correctAnswer: item.ans || 'Correct Option',
                 modelAnswer: item.exp || item.explanation || 'Detailed concept explanation.'
@@ -1135,9 +1135,9 @@ class PdfGenerationService {
               if (doc.y > 690) doc.addPage();
               questionIds.push(item.id || `q-mcq-${currentQNum}`);
 
-              const qLines = (item.q || 'Question').split('\n');
-              const cleanP = cleanQuestionText(qLines[0]);
-              const cleanS = qLines[1] ? cleanQuestionText(qLines[1].replace(/^\[[^:]+:\s*/i, '').replace(/\]\s*$/, '')) : '';
+              const qParts = (item.q || 'Question').split('\n').map(l => l.trim()).filter(Boolean);
+              const cleanP = cleanQuestionText(qParts[0] || '');
+              const cleanS = qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '';
 
               doc.fontSize(9.5).font(fBold).fillColor('#1a365d')
                 .text(`Q.${currentQNum}.`, 40, doc.y, { continued: true })
@@ -1176,9 +1176,9 @@ class PdfGenerationService {
               if (doc.y > 680) doc.addPage();
               questionIds.push(item.id || `q-sub-${currentQNum}`);
 
-              const qLines = (item.q || 'Subjective Question').split('\n');
-              const cleanP = cleanQuestionText(qLines[0]);
-              const cleanS = qLines[1] ? cleanQuestionText(qLines[1].replace(/^\[[^:]+:\s*/i, '').replace(/\]\s*$/, '')) : '';
+              const qParts = (item.q || 'Subjective Question').split('\n').map(l => l.trim()).filter(Boolean);
+              const cleanP = cleanQuestionText(qParts[0] || '');
+              const cleanS = qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '';
 
               doc.fontSize(9.5).font(fBold).fillColor('#1a365d')
                 .text(`Q.${currentQNum} [${item.marks || 2} Marks]:`, 40, doc.y, { continued: true })
