@@ -44,6 +44,8 @@ try {
   } catch (e2) {}
 }
 
+const { applyNaturalOptionDistribution } = require('../backend/utils/option-shuffler');
+
 const { getCompleteSubjectInventory, fetchDbQuestionsForSubject } = require('./subject-inventory-loader');
 const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
 
@@ -1509,6 +1511,9 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     `⚡ Dual Medium Advantage: प्रश्न को समझने में कठिनाई होने पर अंग्रेजी व मातृभाषा दोनों रूप पढ़ें।`,
     `⚡ Topper Presentation: उत्तर में मुख्य परिभाषा, रासायनिक समीकरण अथवा गणितीय सूत्र को काले पेन से रेखांकित करें।`
   ];
+
+  // Apply Natural Realistic Option Shuffling across all Board MCQs
+  mcqs = applyNaturalOptionDistribution(mcqs);
 
   return {
     board: b.fullName,

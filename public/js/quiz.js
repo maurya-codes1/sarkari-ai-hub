@@ -1428,6 +1428,17 @@ async function startNewQuiz() {
 
   let sessionData = null;
 
+  // Retrieve previous attempted / studied question IDs for 20-30% spaced repetition
+  let studiedQuestionIds = [];
+  const storageKey = `sarkari_studied_${examId}_${boardId || 'default'}_${subjectId || 'all'}`;
+  try {
+    const saved = localStorage.getItem(storageKey);
+    if (saved) {
+      studiedQuestionIds = JSON.parse(saved);
+      if (!Array.isArray(studiedQuestionIds)) studiedQuestionIds = [];
+    }
+  } catch (e) {}
+
   try {
     const res = await fetch('/api/v2/mock/start', {
       method: 'POST',
@@ -1440,7 +1451,8 @@ async function startNewQuiz() {
         requestedCount,
         subjectId: isFullExamMode ? 'all' : subjectId,
         difficulty,
-        timerMode
+        timerMode,
+        studiedQuestionIds
       })
     });
 
@@ -1505,6 +1517,12 @@ async function startNewQuiz() {
   activeQuiz.blueprint = sessionData.blueprint || resolveLocalBlueprint(examId);
   activeQuiz.sections = sessionData.sections || [];
   activeQuiz.questions = sessionData.questions;
+  // Update studied question history in localStorage for future 20-30% spaced repetition
+  try {
+    const newIds = sessionData.questions.map(q => q.id || q.question_id).filter(Boolean);
+    const merged = Array.from(new Set([...newIds, ...studiedQuestionIds])).slice(0, 300);
+    localStorage.setItem(storageKey, JSON.stringify(merged));
+  } catch (e) {}
   activeQuiz.currentIndex = 0;
   activeQuiz.currentSectionIndex = 0;
   activeQuiz.userAnswers = {};
@@ -1835,8 +1853,16 @@ function renderActiveQuestion() {
   const qElem = document.getElementById('quizQuestionText');
   if (qElem) {
     const rawPrimary = q.q || q.question || q.questionText || q.question_text || q.prompt || q.text || '';
+    let extractedEnglish = '';
+    const engMatch = rawPrimary.match(/\[(?:English|अंग्रेजी|अंग्रेज़ी|In English|English Translation):\s*([^\]]+)\]/i)
+      || rawPrimary.match(/\n\[English:\s*([^\]]+)\]/i)
+      || (rawPrimary.includes('\n[') && rawPrimary.match(/\n\[([A-Za-z0-9\s\?,.:;'"\-\(\)\/\\+=]+)\]/));
+    if (engMatch) {
+      extractedEnglish = engMatch[1].trim();
+    }
+
     const primaryText = cleanQuestionText(rawPrimary) || rawPrimary;
-    const rawSecondary = q.secondaryQ || q.secondaryQuestion || q.secondary_question || '';
+    const rawSecondary = q.secondaryQ || q.secondaryQuestion || q.secondary_question || extractedEnglish || '';
     let secondaryText = cleanQuestionText(rawSecondary) || rawSecondary;
     if (secondaryText.toLowerCase() === primaryText.toLowerCase()) {
       secondaryText = '';

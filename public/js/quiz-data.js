@@ -5694,12 +5694,108 @@ function getSubjectDisplayName(subjectKey = "") {
     sociology: "👥 समाजशास्त्र (Sociology)",
     hindi: "📖 सामान्य हिन्दी (Hindi)",
     english: "📖 General English",
+    marathi: "📖 मराठी भाषा व साहित्य (Marathi)",
+    bengali: "📖 বাংলা ভাষা ও সাহিত্য (Bengali)",
+    tamil: "📖 தமிழ் மொழி மற்றும் இலக்கியம் (Tamil)",
+    telugu: "📖 తెలుగు భాష మరియు సాహిత్యం (Telugu)",
+    gujarati: "📖 ગુજરાતી ભાષા અને સાહિત્ય (Gujarati)",
+    punjabi: "📖 ਪੰਜਾਬੀ ਭਾਸ਼ਾ ਅਤੇ ਸਾਹਿਤ (Punjabi)",
+    urdu: "📖 اردو زبان و ادب (Urdu)",
     reasoning: "🧠 तर्कशक्ति (Reasoning Ability)",
     gk: "🏛️ सामान्य ज्ञान (GK & Current Affairs)",
     tech: "🛠️ Basic Science & Engineering"
   };
   return map[subjectKey.toLowerCase()] || (subjectKey ? subjectKey.toUpperCase() : "General Target");
 }
+
+const REGIONAL_LANGUAGE_BANKS = {
+  marathi: [
+    {
+      q: "मराठी वर्णमालेत एकूण किती मूलभूत स्वर आहेत?\n[How many basic vowels are there in standard Marathi script?]",
+      options: ["A) 10", "B) 12 (अ, आ, इ, ई, उ, ऊ, ऋ, ऌ, ए, ऐ, ओ, औ)", "C) 14", "D) 16"],
+      correct: 1,
+      ans: "B) 12 (अ, आ, इ, ई, उ, ऊ, ऋ, ऌ, ए, ऐ, ओ, औ)",
+      exp: "💡 अचूक उत्तर: B) 12 मूलभूत स्वर. आधुनिक वर्णमालेत ऑ व ॲ मिळून 14 स्वर मानले जातात.",
+      topic: "मराठी व्याकरण (Marathi Grammar)"
+    },
+    {
+      q: "'ज्ञानेश्वरी' (भावार्थ दीपिका) या पवित्र ग्रंथाची रचना कोणी केली?\n[Who composed the holy treatise Bhavartha Deepika (Dnyaneshwari)?]",
+      options: ["A) संत तुकाराम महाराज", "B) संत ज्ञानेश्वर महाराज (इ.स. 1290)", "C) संत एकनाथ महाराज", "D) संत नामदेव महाराज"],
+      correct: 1,
+      ans: "B) संत ज्ञानेश्वर महाराज (इ.स. 1290)",
+      exp: "💡 अचूक उत्तर: B) संत ज्ञानेश्वर. भगवद्गीतेवरील मराठीतील सर्वश्रेष्ठ टीका.",
+      topic: "मराठी साहित्य (Marathi Literature)"
+    },
+    {
+      q: "मराठी भाषेचे 'पाणिनी' म्हणून कोणाचा गौरव केला जातो?\n[Who is revered as the Panini of Marathi Language?]",
+      options: ["A) बाळशास्त्री जांभेकर", "B) दादोबा पांडुरंग तर्खडकर", "C) विष्णूशास्त्री चिपळूणकर", "D) गोपाळ गणेश आगरकर"],
+      correct: 1,
+      ans: "B) दादोबा पांडुरंग तर्खडकर",
+      exp: "💡 अचूक उत्तर: B) दादोबा पांडुरंग तर्खडकर यांना मराठी भाषेचे व्याकरणकार म्हणून 'मराठीचे पाणिनी' म्हणतात.",
+      topic: "मराठी भाषा इतिहास"
+    },
+    {
+      q: "'पाणी' या शब्दाचा समानार्थी शब्द खालीलपैकी कोणता?\n[Which is the correct synonym for 'Water' in Marathi?]",
+      options: ["A) अनल", "B) पावक", "C) जल / जीवन / तोय / उदक", "D) समीर"],
+      correct: 2,
+      ans: "C) जल / जीवन / तोय / उदक",
+      exp: "💡 अचूक उत्तर: C) जल/तोय/उदक. अनल आणि पावक म्हणजे अग्नी; समीर म्हणजे वारा.",
+      topic: "शब्दसंग्रह व व्याकरण"
+    },
+    {
+      q: "खालीलपैकी कोणता संयुक्त व्यंजन आहे?\n[Which among the following is a conjunct consonant in Marathi?]",
+      options: ["A) क्ष (क् + ष् + अ)", "B) म", "C) क", "D) ल"],
+      correct: 0,
+      ans: "A) क्ष (क् + ष् + अ)",
+      exp: "💡 अचूक उत्तर: A) क्ष आणि ज्ञ हे मराठी वर्णमालेतील विशेष संयुक्त व्यंजने आहेत.",
+      topic: "मराठी वर्णमाला"
+    },
+    {
+      q: "मराठी राजभाषा दिन दरवर्षी कोणत्या दिवशी साजरा केला जातो?\n[On which day is Marathi Rajbhasha Din celebrated every year?]",
+      options: ["A) 1 मे", "B) 15 ऑगस्ट", "C) 27 फेब्रुवारी (कुसुमाग्रज जन्मदिवस)", "D) 26 जानेवारी"],
+      correct: 2,
+      ans: "C) 27 फेब्रुवारी (कुसुमाग्रज जन्मदिवस)",
+      exp: "💡 अचूक उत्तर: C) 27 फेब्रुवारी. कविवर्य कुसुमाग्रज (वि. वा. शिरवाडकर) यांच्या जन्मदिनानिमित्त.",
+      topic: "मराठी राजभाषा दिन"
+    }
+  ],
+  bengali: [
+    {
+      q: "বাংলা সাহিত্যের প্রাচীনতম নিদর্শন কোনটি?\n[What is the oldest specimen of Bengali literature?]",
+      options: ["A) চর্যাপদ (হরপ্রসাদ শাস্ত্রী কর্তৃক আবিষ্কৃত)", "B) শ্রীকৃষ্ণকীর্তন", "C) রামায়ণ", "D) মহাভারত"],
+      correct: 0,
+      ans: "A) চর্যাপদ (হরপ্রসাদ শাস্ত্রী কর্তৃক আবিষ্কৃত)",
+      exp: "💡 সঠিক উত্তর: A) চর্যাপদ (১৯০৭ সালে নেপালের রাজদরবার থেকে আবিষ্কৃত)।",
+      topic: "বাংলা সাহিত্যের ইতিহাস"
+    },
+    {
+      q: "'গীতাঞ্জলি' কাব্যের জন্য রবীন্দ্রনাথ ঠাকুর কোন সালে নোবেল পুরস্কার লাভ করেন?\n[In which year did Rabindranath Tagore receive the Nobel Prize for Gitanjali?]",
+      options: ["A) ১৯১১", "B) ১৯১৩", "C) ১৯১৫", "D) ১৯১৯"],
+      correct: 1,
+      ans: "B) ১৯১৩",
+      exp: "💡 সঠিক উত্তর: B) ১৯১৩ সালে সাহিত্যে নোবেল পুরস্কার পান।",
+      topic: "রবীন্দ্র সাহিত্য"
+    }
+  ],
+  tamil: [
+    {
+      q: "தமிழ் மொழியின் மிகத் தொன்மையான இலக்கண நூல் எது?\n[Which is the oldest extant Tamil grammar work?]",
+      options: ["A) தொல்காப்பியம் (Tolkappiyam)", "B) நன்னூல்", "C) சிலப்பதிகாரம்", "D) மணிமேகலை"],
+      correct: 0,
+      ans: "A) தொல்காப்பியம் (Tolkappiyam)",
+      exp: "💡 சரியான விடை: A) தொல்காப்பியம்.",
+      topic: "தமிழ் இலக்கணம்"
+    },
+    {
+      q: "திருக்குறளை இயற்றியவர் யார் மற்றும் அதில் எத்தனை அதிகாரங்கள் உள்ளன?\n[Who authored Thirukkural and how many chapters are there?]",
+      options: ["A) கம்பர் (100)", "B) திருவள்ளுவர் (133 அதிகாரங்கள், 1330 குறள்கள்)", "C) ஔவையார் (120)", "D) இளங்கோவடிகள் (150)"],
+      correct: 1,
+      ans: "B) திருவள்ளுவர் (133 அதிகாரங்கள், 1330 குறள்கள்)",
+      exp: "💡 சரியான விடை: B) திருவள்ளுவர்.",
+      topic: "தமிழ் இலக்கியம்"
+    }
+  ]
+};
 
 // Generate fully localized questions for any of the 20 Indian Boards
 // Helper to retrieve the High-Yield Master Question Banks (10th, 12th Streams & Competitive)
@@ -5713,6 +5809,10 @@ function getHighYieldVault() {
       social: window.HIGH_YIELD_SOCIAL_BANK || (typeof HIGH_YIELD_SOCIAL_BANK !== 'undefined' ? HIGH_YIELD_SOCIAL_BANK : []),
       english: window.HIGH_YIELD_ENGLISH_BANK || (typeof HIGH_YIELD_ENGLISH_BANK !== 'undefined' ? HIGH_YIELD_ENGLISH_BANK : []),
       sanskrit: window.HIGH_YIELD_SANSKRIT_BANK || (typeof HIGH_YIELD_SANSKRIT_BANK !== 'undefined' ? HIGH_YIELD_SANSKRIT_BANK : []),
+      // Regional Language Banks
+      marathi: REGIONAL_LANGUAGE_BANKS.marathi || [],
+      bengali: REGIONAL_LANGUAGE_BANKS.bengali || [],
+      tamil: REGIONAL_LANGUAGE_BANKS.tamil || [],
       // 12th Stream-Specific Banks
       physics: window.CLASS12_PHYSICS_BANK || (typeof CLASS12_PHYSICS_BANK !== 'undefined' ? CLASS12_PHYSICS_BANK : []),
       chemistry: window.CLASS12_CHEMISTRY_BANK || (typeof CLASS12_CHEMISTRY_BANK !== 'undefined' ? CLASS12_CHEMISTRY_BANK : []),
@@ -5872,6 +5972,15 @@ function getBoardLocalizedQuestions(boardId = "bseb", classLevel = "10th", subje
     } else if (normSub === 'english' || normSub.includes('english') || normSub.includes('अंग्रेजी')) {
       specificBank = vault.english;
       cleanSub = 'english';
+    } else if (normSub === 'marathi' || normSub.includes('marathi') || normSub.includes('मराठी')) {
+      specificBank = vault.marathi;
+      cleanSub = 'marathi';
+    } else if (normSub === 'bengali' || normSub.includes('bengali') || normSub.includes('বাংলা')) {
+      specificBank = vault.bengali;
+      cleanSub = 'bengali';
+    } else if (normSub === 'tamil' || normSub.includes('tamil') || normSub.includes('தமிழ்')) {
+      specificBank = vault.tamil;
+      cleanSub = 'tamil';
     }
   } else {
     // 10th Core subjects
@@ -5893,6 +6002,15 @@ function getBoardLocalizedQuestions(boardId = "bseb", classLevel = "10th", subje
     } else if (normSub === 'sanskrit' || normSub.includes('sanskrit') || normSub.includes('संस्कृत')) {
       specificBank = vault.sanskrit;
       cleanSub = 'sanskrit';
+    } else if (normSub === 'marathi' || normSub.includes('marathi') || normSub.includes('मराठी')) {
+      specificBank = vault.marathi;
+      cleanSub = 'marathi';
+    } else if (normSub === 'bengali' || normSub.includes('bengali') || normSub.includes('বাংলা')) {
+      specificBank = vault.bengali;
+      cleanSub = 'bengali';
+    } else if (normSub === 'tamil' || normSub.includes('tamil') || normSub.includes('தமிழ்')) {
+      specificBank = vault.tamil;
+      cleanSub = 'tamil';
     }
   }
 
@@ -6047,6 +6165,12 @@ function getBoardLocalizedQuestions(boardId = "bseb", classLevel = "10th", subje
     candidates = CLIENT_BLUEPRINTS.filter(bp => bp.subject === subjectId);
   }
   const isRegionalLang = ['bengali', 'tamil', 'telugu', 'marathi', 'gujarati', 'punjabi', 'odia', 'assamese', 'urdu', 'kannada', 'malayalam'].some(l => normSub.includes(l));
+  if (candidates.length === 0 && isRegionalLang) {
+    const regList = REGIONAL_LANGUAGE_BANKS[cleanSub] || REGIONAL_LANGUAGE_BANKS.marathi || [];
+    if (regList.length > 0) {
+      return regList.slice(0, requestedCount).map((item, idx) => formatHyItem(item, cleanSub, idx));
+    }
+  }
   if (candidates.length === 0 && !isRegionalLang) {
     candidates = CLIENT_BLUEPRINTS.filter(bp => bp.class === classLevel);
   }

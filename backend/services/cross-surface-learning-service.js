@@ -12,16 +12,22 @@ const crypto = require('crypto');
 const { matchesSubject, normalizeSubjectId } = require('../utils/subject-utils');
 
 const BOARD_MAP = {
-  'cbse': 'cbse-board', 'icse': 'icse-cisce', 'upmsp': 'upmsp-board',
-  'bseb': 'bseb-bihar', 'maharashtra': 'maharashtra-board', 'rbse': 'rbse-rajasthan',
-  'mpbse': 'mpbse-board', 'wb': 'wbbse-wb', 'tn': 'tndge-tamilnadu',
-  'karnataka': 'kseab-karnataka', 'gujarat': 'gseb-gujarat', 'haryana': 'bseh-haryana',
+  'cbse': 'cbse-board', 'icse': 'cbse-board', 'upmsp': 'upmsp-uttar-pradesh',
+  'bseb': 'bseb-bihar', 'maharashtra': 'msbshse-maharashtra', 'rbse': 'rbse-rajasthan',
+  'mpbse': 'mpbse-madhya-pradesh', 'wb': 'wbbse-wbchse-west-bengal', 'tn': 'tamil-nadu-dge',
+  'karnataka': 'karnataka-kseab-pue', 'gujarat': 'gseb-gujarat', 'haryana': 'hbse-haryana',
   'jac': 'jac-jharkhand', 'pseb': 'pseb-punjab', 'nios': 'nios-board',
-  'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'chse-bse-odisha', 'ubse': 'ubse-uttarakhand',
-  'seba': 'seba-ahsec-assam', 'bsetelangana': 'tsbie-bieap', 'hpbose': 'hpbose-board',
-  'jkbose': 'jkbose-board', 'kerala': 'kerala-board', 'gbshse': 'gbshse-board',
-  'bsem': 'bsem-board', 'mbose': 'mbose-board', 'mbse': 'mbse-board',
-  'nbse': 'nbse-board', 'tbse': 'tbse-board', 'bseap': 'bseap-board', 'bsetg': 'bsetg-board'
+  'cgbse': 'cgbse-chhattisgarh', 'bseodisha': 'odisha-bse-chse', 'ubse': 'ubse-uttarakhand',
+  'seba': 'asseb-assam', 'bsetelangana': 'telangana-bsetg-tsbie', 'bsetg': 'telangana-bsetg-tsbie',
+  'hpbose': 'hpbose-himachal-pradesh', 'jkbose': 'jkbose-jammu-kashmir', 'kerala': 'kerala-general-scert-dhse',
+  'gbshse': 'gbshse-goa', 'bsem': 'manipur-bsem-cohsem', 'mbose': 'mbose-meghalaya',
+  'mbse': 'mbse-mizoram', 'nbse': 'nbse-nagaland', 'tbse': 'tbse-tripura',
+  'bseap': 'andhra-pradesh-bse-bieap', 'sbosse': 'sbosse-sikkim', 'apsbe': 'apsbe-arunachal-pradesh',
+  // Common aliases
+  'msbshse': 'msbshse-maharashtra', 'wbbse': 'wbbse-wbchse-west-bengal', 'tndge': 'tamil-nadu-dge',
+  'kseab': 'karnataka-kseab-pue', 'hbse': 'hbse-haryana', 'bseh': 'hbse-haryana',
+  'asseb': 'asseb-assam', 'odisha': 'odisha-bse-chse', 'chse': 'odisha-bse-chse',
+  'tsbie': 'telangana-bsetg-tsbie', 'bieap': 'andhra-pradesh-bse-bieap'
 };
 
 class CrossSurfaceLearningService {
@@ -424,8 +430,10 @@ class CrossSurfaceLearningService {
       const queryParams = [];
 
       if (subjectId && subjectId !== 'all') {
-        query += ' AND q.subject_id = ?';
-        queryParams.push(subjectId);
+        const normSub = normalizeSubjectId(subjectId);
+        const cleanSub = normSub.replace(/^subj-/, '').toLowerCase();
+        query += ' AND (q.subject_id = ? OR q.subject_id LIKE ?)';
+        queryParams.push(normSub, `%${cleanSub}%`);
       }
       if (resolvedBoard) {
         query += ' AND q.board_id = ?';
@@ -521,8 +529,9 @@ class CrossSurfaceLearningService {
       dbStudied.forEach(id => candidateStudiedIds.add(id));
     }
 
-    // 2. Select a subset of studied questions (e.g. up to 40% of requested count)
-    const maxStudied = Math.max(1, Math.min(candidateStudiedIds.size, Math.floor(count * 0.40)));
+    // 2. Select a subset of studied questions (20-30% spaced repetition, ~25%)
+    const targetStudied = Math.max(1, Math.round(count * 0.25));
+    const maxStudied = Math.min(candidateStudiedIds.size, targetStudied);
     if (candidateStudiedIds.size > 0 && maxStudied > 0) {
       const placeholders = Array.from(candidateStudiedIds).map(() => '?').join(',');
       const rows = db.prepare(`
@@ -563,8 +572,10 @@ class CrossSurfaceLearningService {
       const queryParams = [];
 
       if (subjectId && subjectId !== 'all') {
-        query += ' AND q.subject_id = ?';
-        queryParams.push(subjectId);
+        const normSub = normalizeSubjectId(subjectId);
+        const cleanSub = normSub.replace(/^subj-/, '').toLowerCase();
+        query += ' AND (q.subject_id = ? OR q.subject_id LIKE ?)';
+        queryParams.push(normSub, `%${cleanSub}%`);
       }
       if (resolvedBoard) {
         query += ' AND q.board_id = ?';

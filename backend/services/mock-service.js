@@ -612,7 +612,7 @@ class MockService {
     let freshVerifiedCount = 0;
 
     const isLearningMock = practiceType === 'LEARNING_MOCK' || testMode === 'LEARNING_MOCK' || testMode === 'REVISION_MOCK';
-    const isPracticeMock = testMode === 'PRACTICE_MOCK';
+    const isPracticeMock = testMode === 'PRACTICE_MOCK' || (Array.isArray(studiedQuestionIds) && studiedQuestionIds.length > 0);
 
     if (isLearningMock) {
       // Mode A: Learning / Revision Mock Question Selection (Priority: PDF -> Revision -> Verified Context)
@@ -631,7 +631,7 @@ class MockService {
       studiedReuseCount = selection.studiedReuseCount;
       freshVerifiedCount = selection.freshVerifiedCount;
     } else if (isPracticeMock) {
-      // Mode B: Practice Mock Question Selection (Balanced Mix: Studied PDF/Revision + Broader Verified Pool)
+      // Mode B: Practice Mock Question Selection (Balanced Mix: 20-30% Studied PDF/Revision + 70-80% Broader Verified Pool)
       const selection = crossSurfaceLearningService.selectQuestionsForPracticeMock({
         examId,
         boardId,
@@ -646,6 +646,25 @@ class MockService {
       questionsFromDb = selection.questions;
       studiedReuseCount = selection.studiedReuseCount;
       freshVerifiedCount = selection.broaderPoolCount;
+
+      // Top-up if broader pool in selection needed more questions
+      if (questionsFromDb.length < validCount) {
+        const topUpNeeded = validCount - questionsFromDb.length;
+        const existingIds = questionsFromDb.map(q => q.question_id || q.id);
+        const topUpRows = questionRepository.getPracticeQuestions({
+          examId,
+          subjectId: (practiceType === 'SUBJECT_PRACTICE' && subjectId !== 'all') ? subjectId : null,
+          subjectIds: (practiceType === 'ALL_SUBJECTS_PRACTICE' && subjectIds && subjectIds.length > 0) ? subjectIds : null,
+          boardId,
+          stage,
+          difficulty,
+          count: topUpNeeded,
+          excludeIds: existingIds
+        });
+        if (topUpRows && topUpRows.length > 0) {
+          questionsFromDb = questionsFromDb.concat(topUpRows);
+        }
+      }
     } else {
       // Standard practice selection
       questionsFromDb = questionRepository.getPracticeQuestions({

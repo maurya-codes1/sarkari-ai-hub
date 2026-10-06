@@ -1,3 +1,25 @@
+// Strict memory cap guard for 512MB RAM containers (Render free tier)
+if (!process.execArgv.some(arg => arg.includes('--max-old-space-size')) && !process.env._SARKARI_CAPPED) {
+  const { spawn } = require('child_process');
+  const child = spawn(
+    process.execPath,
+    ['--max-old-space-size=256', ...process.argv.slice(1)],
+    {
+      stdio: 'inherit',
+      env: { ...process.env, _SARKARI_CAPPED: '1' }
+    }
+  );
+  ['SIGTERM', 'SIGINT', 'SIGHUP'].forEach(sig => {
+    process.on(sig, () => {
+      try { child.kill(sig); } catch (_) {}
+    });
+  });
+  child.on('exit', (code, signal) => {
+    process.exit(code !== null ? code : (signal ? 1 : 0));
+  });
+  return;
+}
+
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
@@ -92,11 +114,18 @@ app.use('/api/pay', payRateLimiter);
 app.use('/api/admin/login', adminLoginLimiter);
 
 // Database Layer Integration (Phase 3)
-const { checkDbAvailable, getDb } = require('./backend/db/database');
+const { checkDbAvailable, getDb, checkpointWal } = require('./backend/db/database');
 const legacyAdapter = require('./backend/db/adapters/legacy-adapter');
 const examRepo = require('./backend/db/repositories/exam-repository');
 const questionRepo = require('./backend/db/repositories/question-repository');
 const blueprintRepo = require('./backend/db/repositories/blueprint-repository');
+
+// Periodic WAL Checkpoint to keep Render 512MB memory profile strictly lean
+setInterval(() => {
+  try {
+    if (typeof checkpointWal === 'function') checkpointWal();
+  } catch (e) {}
+}, 10 * 60 * 1000);
 
 // Portal Dynamic Settings Management (persisted in SQLite)
 function initPortalSettings() {

@@ -30,6 +30,8 @@ try {
   } catch (e2) {}
 }
 
+const { applyNaturalOptionDistribution } = require('../backend/utils/option-shuffler');
+
 const { getCompleteSubjectInventory } = require('./subject-inventory-loader');
 const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
 
@@ -698,6 +700,9 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     `⚡ Elimination Trick: 4 विकल्पों में से 2 अत्यधिक असंभावित विकल्पों को पहले चरण में ही निरस्त करें।`,
     `⚡ Negative Marking Strategy: जिस प्रश्न में 2 विकल्पों में संदेह हो, उसमें तुक्का लगाना गणितीय रूप से लाभकारी होता है।`
   ];
+
+  // Apply Natural Realistic Option Shuffling across all competitive MCQs
+  mcqs = applyNaturalOptionDistribution(mcqs);
 
   return {
     title: `${meta.name} - Master Practice Guide & ${mcqs.length} High-Yield Questions (2026 Edition)`,

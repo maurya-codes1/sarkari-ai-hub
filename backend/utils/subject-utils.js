@@ -126,7 +126,10 @@ function matchesSubject(qSubjectId, targetSubjectId) {
   if (!targetSubjectId || targetSubjectId === 'all') return true;
   const normTarget = normalizeSubjectId(targetSubjectId);
   const normQ = normalizeSubjectId(qSubjectId);
-  return normQ === normTarget;
+  if (normQ === normTarget) return true;
+  const cleanTarget = normTarget.replace(/^subj-/, '').toLowerCase();
+  const cleanQ = normQ.replace(/^subj-/, '').toLowerCase();
+  return cleanQ.includes(cleanTarget) || cleanTarget.includes(cleanQ);
 }
 
 module.exports = {

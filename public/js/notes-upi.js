@@ -7355,6 +7355,31 @@ async function generateAndDownloadHighResPdf(token = '') {
     </div>
   `;
 
+  // Link PDF objectives directly to studied questions pool for spaced repetition in mock tests
+  try {
+    const rawExam = String(note.exam || note.examId || (isCompetitive ? 'ssc-gd' : 'board-10th')).toLowerCase();
+    let normExam = 'ssc-gd';
+    if (rawExam.includes('cgl')) normExam = 'ssc-cgl';
+    else if (rawExam.includes('chsl')) normExam = 'ssc-chsl';
+    else if (rawExam.includes('police')) normExam = 'up-police';
+    else if (rawExam.includes('rail')) normExam = 'rrb-ntpc';
+    else if (rawExam.includes('12th')) normExam = 'board-12th';
+    else if (rawExam.includes('10th') || rawExam.includes('board')) normExam = 'board-10th';
+    
+    const rawBoard = String(note.board || note.boardId || 'default').toLowerCase().replace(/\s+/g, '-');
+    const rawSub = String(note.subject || note.category || 'all').toLowerCase();
+    const storageKey = `sarkari_studied_${normExam}_${rawBoard}_${rawSub}`;
+    const objIds = (objectives || []).map((o, idx) => o.id || `pdf-${normExam}-${idx + 1}`);
+    let existing = [];
+    try {
+      const saved = localStorage.getItem(storageKey);
+      if (saved) existing = JSON.parse(saved);
+      if (!Array.isArray(existing)) existing = [];
+    } catch(e) {}
+    const merged = Array.from(new Set([...objIds, ...existing])).slice(0, 300);
+    localStorage.setItem(storageKey, JSON.stringify(merged));
+  } catch(e) {}
+
   // Always use 100% Crisp Vector Browser PDF Print Engine (Zero Blank Pages, Selectable Text)
   closeUpiModal();
   openPrintWindow(printArea.innerHTML, note.title);
@@ -7412,11 +7437,10 @@ function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study 
     <head>
       <meta charset="UTF-8">
       <title>${title}</title>
-      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@500;700;800;900&display=swap" rel="stylesheet">
       <style>
         * { box-sizing: border-box; }
         body {
-          font-family: 'Noto Sans Devanagari', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Devanagari", "Helvetica Neue", Arial, sans-serif;
           padding: 20px 24px;
           color: #0f172a;
           background: #ffffff;
@@ -7502,11 +7526,15 @@ function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study 
       ${htmlContent}
 
       <script>
-        window.addEventListener('load', () => {
-          setTimeout(() => {
-            window.print();
-          }, 600);
-        });
+        function triggerPrint() {
+          try { window.print(); } catch(e) {}
+        }
+        if (document.readyState === 'complete') {
+          setTimeout(triggerPrint, 150);
+        } else {
+          window.addEventListener('DOMContentLoaded', () => setTimeout(triggerPrint, 150));
+          window.addEventListener('load', () => setTimeout(triggerPrint, 150));
+        }
       </script>
     </body>
     </html>
