@@ -1389,22 +1389,19 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     }));
   }
 
-  // Active High-Yield SQLite Database Enrichment (ensures 150-200+ authentic MCQs for every subject)
-  if (mcqs.length < 150) {
-    const rawDbQs = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass, boardId });
-    if (rawDbQs && rawDbQs.length > 0) {
-      const seenKeys = new Set(mcqs.map(m => m.id || ((m.q || '').substring(0, 30) + (m.options ? m.options[0] : ''))));
-      for (const q of rawDbQs) {
-        const key = q.id || ((q.q || '').substring(0, 30) + (q.options ? q.options[0] : ''));
-        if (!seenKeys.has(key)) {
-          seenKeys.add(key);
-          mcqs.push({
-            ...q,
-            num: mcqs.length + 1,
-            id: q.id || `${boardId}-${targetClass}-${normSubject}-db-${mcqs.length + 1}`
-          });
-        }
-        if (mcqs.length >= 200) break;
+  // Active High-Yield SQLite Database Enrichment (includes ALL authentic MCQs for this subject)
+  const rawDbQs = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass, boardId });
+  if (rawDbQs && rawDbQs.length > 0) {
+    const seenKeys = new Set(mcqs.map(m => m.id || ((m.q || '').substring(0, 30) + (m.options ? m.options[0] : ''))));
+    for (const q of rawDbQs) {
+      const key = q.id || ((q.q || '').substring(0, 30) + (q.options ? q.options[0] : ''));
+      if (!seenKeys.has(key)) {
+        seenKeys.add(key);
+        mcqs.push({
+          ...q,
+          num: mcqs.length + 1,
+          id: q.id || `${boardId}-${targetClass}-${normSubject}-db-${mcqs.length + 1}`
+        });
       }
     }
   }

@@ -577,8 +577,8 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     }));
   }
 
-  // Active High-Yield SQLite Database Enrichment (ensures 150-200+ authentic MCQs for competitive exams)
-  if (mcqs.length < 150 && typeof fetchDbQuestionsForSubject === 'function') {
+  // Active High-Yield SQLite Database Enrichment (includes ALL authentic MCQs for competitive exams)
+  if (typeof fetchDbQuestionsForSubject === 'function') {
     const rawDbQs = fetchDbQuestionsForSubject(normSub, { examId: meta.id });
     if (rawDbQs && rawDbQs.length > 0) {
       const seenKeys = new Set(mcqs.map(m => m.id || ((m.q || '').substring(0, 30) + (m.options ? m.options[0] : ''))));
@@ -592,7 +592,6 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
             id: q.id || `${examId}-${subjectId}-db-${mcqs.length + 1}`
           });
         }
-        if (mcqs.length >= 200) break;
       }
     }
   }

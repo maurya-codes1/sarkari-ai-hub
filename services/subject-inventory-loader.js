@@ -298,7 +298,7 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
           AND q.trust_status != 'QUARANTINED'
           AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
         ORDER BY (CASE WHEN q.quality_state = 'AUTHENTIC_VERIFIED' THEN 0 ELSE 1 END), q.question_id ASC
-        LIMIT 300
+        LIMIT 2500
       `).all(canonicalBoard, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
     }
 
@@ -316,7 +316,7 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
           AND q.quality_state != 'SYNTHETIC_QUARANTINE'
           AND q.trust_status != 'QUARANTINED'
           AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
-        LIMIT 250
+        LIMIT 2500
       `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`, `Class ${targetClass}`, `Class ${targetClass}%`);
 
       for (const fb of fallbackRows) {
@@ -324,7 +324,6 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
           existingIds.add(fb.question_id);
           rows.push(fb);
         }
-        if (rows.length >= 200) break;
       }
     }
 
@@ -603,7 +602,6 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
 
   // 4. Enrich with remaining clean database questions (avoiding conflicting boards)
   for (const item of dbList) {
-    if (combined.length >= 250) break;
     if (dbPrefix) {
       const qId = (item.id || '').toLowerCase();
       const hasOtherBoard = Object.values(BOARD_PREFIX_MAP).some(p => p !== dbPrefix && qId.startsWith(`${p}-`));
