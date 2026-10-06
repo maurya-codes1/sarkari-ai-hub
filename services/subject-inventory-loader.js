@@ -302,9 +302,10 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
       `).all(canonicalBoard, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normKey}%`, targetSubId, `%${subjectId}%`);
     }
 
-    // 2. Fallback query if no board results found or boardId not provided
-    if (rows.length === 0) {
-      rows = db.prepare(`
+    // 2. High-yield National/NCERT Enrichment if board-specific pool is under 150
+    if (rows.length < 150) {
+      const existingIds = new Set(rows.map(r => r.question_id));
+      const fallbackRows = db.prepare(`
         SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
                qv.language_content, qv.correct_answer
         FROM questions q
@@ -315,8 +316,16 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
           AND q.quality_state != 'SYNTHETIC_QUARANTINE'
           AND q.trust_status != 'QUARANTINED'
           AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
-        LIMIT 200
+        LIMIT 250
       `).all(targetSubId, `%${normKey}%`, `%${subjectId}%`, `Class ${targetClass}`, `Class ${targetClass}%`);
+
+      for (const fb of fallbackRows) {
+        if (!existingIds.has(fb.question_id)) {
+          existingIds.add(fb.question_id);
+          rows.push(fb);
+        }
+        if (rows.length >= 200) break;
+      }
     }
 
     const LANGUAGE_SUBJECTS = new Set(['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi', 'kokborok', 'mizo', 'nepali']);

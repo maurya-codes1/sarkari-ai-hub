@@ -32,7 +32,7 @@ try {
 
 const { applyNaturalOptionDistribution } = require('../backend/utils/option-shuffler');
 
-const { getCompleteSubjectInventory } = require('./subject-inventory-loader');
+const { getCompleteSubjectInventory, fetchDbQuestionsForSubject } = require('./subject-inventory-loader');
 const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
 
 const COMPETITIVE_EXAMS_REGISTRY = {
@@ -575,6 +575,26 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
       num: idx + 1,
       id: `${examId}-${subjectId}-${idx + 1}`
     }));
+  }
+
+  // Active High-Yield SQLite Database Enrichment (ensures 150-200+ authentic MCQs for competitive exams)
+  if (mcqs.length < 150 && typeof fetchDbQuestionsForSubject === 'function') {
+    const rawDbQs = fetchDbQuestionsForSubject(normSub, { examId: meta.id });
+    if (rawDbQs && rawDbQs.length > 0) {
+      const seenKeys = new Set(mcqs.map(m => m.id || ((m.q || '').substring(0, 30) + (m.options ? m.options[0] : ''))));
+      for (const q of rawDbQs) {
+        const key = q.id || ((q.q || '').substring(0, 30) + (q.options ? q.options[0] : ''));
+        if (!seenKeys.has(key)) {
+          seenKeys.add(key);
+          mcqs.push({
+            ...q,
+            num: mcqs.length + 1,
+            id: q.id || `${examId}-${subjectId}-db-${mcqs.length + 1}`
+          });
+        }
+        if (mcqs.length >= 200) break;
+      }
+    }
   }
 
   // Fallback to core templates only if both inventory and DB have zero questions

@@ -7149,9 +7149,11 @@ async function generateAndDownloadHighResPdf(token = '') {
   }
   const seenObjSet = new Set();
   objectives = objectives.filter(item => {
-    const raw = (item.q || '').split('\n')[0].replace(/^[0-9]+[\.\)]\s*/, '').trim();
-    if (!raw || seenObjSet.has(raw)) return false;
-    seenObjSet.add(raw);
+    const qClean = (item.q || '').replace(/^[0-9]+[\.\)]\s*/, '').trim();
+    const opt0 = (item.options && item.options[0]) ? item.options[0].replace(/^[A-D]\)\s*/i, '').trim() : '';
+    const fingerprint = item.id || `${qClean}:::${opt0}:::${item.ans || ''}`;
+    if (!fingerprint || seenObjSet.has(fingerprint)) return false;
+    seenObjSet.add(fingerprint);
     return true;
   });
 

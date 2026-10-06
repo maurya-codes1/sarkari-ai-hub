@@ -140,20 +140,20 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '') {
     else if (s.includes('mizo')) subjectKey = 'mizo';
     else if (s.includes('nepali')) subjectKey = 'nepali';
     else if (s.includes('math') || s.includes('गणित')) subjectKey = 'math';
-    else if (s.includes('physics') || s.includes('भौतिक')) subjectKey = 'physics';
-    else if (s.includes('chem') || s.includes('रसायन')) subjectKey = 'chemistry';
-    else if (s.includes('bio') || s.includes('जीव')) subjectKey = 'biology';
+    else if (s.includes('physics') || s.includes('भौतिक')) subjectKey = classLevel === '10th' ? 'science' : 'physics';
+    else if (s.includes('chem') || s.includes('रसायन')) subjectKey = classLevel === '10th' ? 'science' : 'chemistry';
+    else if (s.includes('bio') || s.includes('जीव')) subjectKey = classLevel === '10th' ? 'science' : 'biology';
     else if (s.includes('social') || s.includes('सामाजिक') || s.includes('sst')) subjectKey = 'social';
     else if (s.includes('eng') || s.includes('अंग्रेजी')) subjectKey = 'english';
     else if (s.includes('hindi') || s.includes('हिन्दी')) subjectKey = 'hindi';
     else if (s.includes('sanskrit') || s.includes('संस्कृत')) subjectKey = 'sanskrit';
     else if (s.includes('account') || s.includes('लेखा')) subjectKey = 'accountancy';
     else if (s.includes('business') || s.includes('व्यावसायिक')) subjectKey = 'business';
-    else if (s.includes('eco') || s.includes('अर्थशास्त्र')) subjectKey = 'economics';
-    else if (s.includes('hist') || s.includes('इतिहास')) subjectKey = 'history';
-    else if (s.includes('polit') || s.includes('राजनीति')) subjectKey = 'polity';
-    else if (s.includes('geog') || s.includes('भूगोल')) subjectKey = 'geography';
-    else if (s.includes('socio') || s.includes('समाजशास्त्र')) subjectKey = 'sociology';
+    else if (s.includes('eco') || s.includes('अर्थशास्त्र')) subjectKey = classLevel === '10th' ? 'social' : 'economics';
+    else if (s.includes('hist') || s.includes('इतिहास')) subjectKey = classLevel === '10th' ? 'social' : 'history';
+    else if (s.includes('polit') || s.includes('राजनीति')) subjectKey = classLevel === '10th' ? 'social' : 'polity';
+    else if (s.includes('geog') || s.includes('भूगोल')) subjectKey = classLevel === '10th' ? 'social' : 'geography';
+    else if (s.includes('socio') || s.includes('समाजशास्त्र')) subjectKey = classLevel === '10th' ? 'social' : 'sociology';
     else if (s.includes('all') || s.includes('सभी') || s.includes('bundle') || s.includes('full mock') || s.includes('science stream')) subjectKey = 'all';
 
     resultGuide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey);
