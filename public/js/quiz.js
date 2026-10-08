@@ -6,14 +6,19 @@
 function cleanQuestionText(text) {
   if (!text || typeof text !== 'string') return '';
   let cleaned = text.trim();
-  // Strip leading metadata in brackets ONLY if it contains known prefix keywords (not rule codes or bracketed questions)
-  cleaned = cleaned.replace(/^\[(?:RRB|SSC|UPSC|BSEB|CBSE|TBSE|UPMSP|MPBSE|RBSE|Practice|Question|Exam|Class|कक्षा|बोर्ड|अभ्यास|\d+)[^\]\r\n]*\]\s*/gi, '');
+  // Strip all leading metadata in brackets
+  while (/^\[[^\]\r\n]+\]\s*/.test(cleaned)) {
+    cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/, '');
+  }
+  // Strip board/exam/class syllabus clauses
+  cleaned = cleaned.replace(/^(?:(?:According to|As per|के अनुसार|पाठ्यक्रम के अनुसार)\s*)+[^,.:\n]{0,80}[,.:\-]\s*/i, '');
+  cleaned = cleaned.replace(/^[A-Z0-9\s\-]+(?:\d{4}-\d{2,4})?\s*(?:ब्लूप्रिंट|blueprint|पाठ्यक्रम|syllabus)\s*(?:के अनुसार|according to)?[^,.:\n]{0,60}[,.:\-]\s*/i, '');
   // Strip exam/board/class/subject names followed by question numbering or colon:
   cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   // Strip general board/exam/class labels:
   cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
   // Strip leading question labels & numbering: Question #1:, प्रश्न 15:, Q.12 -, #4590:, Q13:
-  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন|سوال\s*(?:نمبر)?)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|প্রশ্ন|ചോദ്യം|سوال\s*(?:نمبر)?)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
   cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
   cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');

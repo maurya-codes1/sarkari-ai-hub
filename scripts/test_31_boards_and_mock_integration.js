@@ -48,17 +48,17 @@ console.log('✅ BOARD_METADATA contains all 31 boards!');
 const mockService = require('../backend/services/mock-service');
 
 const regionalTests = [
-  { boardId: 'tn', langCheck: 'ta', regex: /[\u0B80-\u0BFF]/, name: 'Tamil Nadu (Tamil)' },
-  { boardId: 'maharashtra', langCheck: 'mr', regex: /[\u0900-\u097F]/, name: 'Maharashtra (Marathi)' },
-  { boardId: 'kerala', langCheck: 'ml', regex: /[\u0D00-\u0D7F]/, name: 'Kerala (Malayalam)' },
-  { boardId: 'wb', langCheck: 'bn', regex: /[\u0980-\u09FF]/, name: 'West Bengal (Bengali)' }
+  { boardId: 'tn', langCheck: 'ta', regex: /[\u0B80-\u0BFF]/, name: 'Tamil Nadu (Tamil)', subjectId: 'tamil' },
+  { boardId: 'maharashtra', langCheck: 'mr', regex: /[\u0900-\u097F]/, name: 'Maharashtra (Marathi)', subjectId: 'marathi' },
+  { boardId: 'kerala', langCheck: 'ml', regex: /[\u0D00-\u0D7F]/, name: 'Kerala (Malayalam)', subjectId: 'malayalam' },
+  { boardId: 'wb', langCheck: 'bn', regex: /[\u0980-\u09FF]/, name: 'West Bengal (Bengali)', subjectId: 'bengali' }
 ];
 
 regionalTests.forEach(t => {
   const session = mockService.startMockSession({
-    examId: 'board-12th-science',
+    examId: 'board-12th-arts',
     boardId: t.boardId,
-    subjectId: 'physics',
+    subjectId: t.subjectId,
     testMode: 'SUBJECT_PRACTICE',
     count: 5
   });

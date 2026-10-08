@@ -51,8 +51,8 @@ async function main() {
 
   // TEST 1: Exact duplicate rejection
   runTest('TEST 1: Exact duplicate rejection via content fingerprint', () => {
-    // Pick an existing question from DB
-    const existing = db.prepare('SELECT q.question_id, q.fingerprint, qv.language_content FROM questions q JOIN question_versions qv ON q.question_id = qv.question_id LIMIT 1').get();
+    // Pick canonical phase 5 question from DB
+    const existing = db.prepare("SELECT q.question_id, q.fingerprint, qv.language_content FROM questions q JOIN question_versions qv ON q.question_id = qv.question_id WHERE q.question_id = 'q-hy-hi-0001'").get();
     assert(existing, 'Existing question must exist in DB');
     const lang = JSON.parse(existing.language_content);
     const primary = lang.hi || lang.en || Object.values(lang)[0];

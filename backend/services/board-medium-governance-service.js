@@ -1028,6 +1028,30 @@ function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCod
   };
 }
 
+function cleanQuestionText(text) {
+  if (!text || typeof text !== 'string') return '';
+  let cleaned = text.trim();
+  while (/^\[[^\]\r\n]+\]\s*/.test(cleaned)) {
+    cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/, '');
+  }
+  cleaned = cleaned.replace(/^(?:(?:According to|As per|के अनुसार|पाठ्यक्रम के अनुसार)\s*)+[^,.:\n]{0,80}[,.:\-]\s*/i, '');
+  cleaned = cleaned.replace(/^[A-Z0-9\s\-]+(?:\d{4}-\d{2,4})?\s*(?:ब्लूप्रिंट|blueprint|पाठ्यक्रम|syllabus)\s*(?:के अनुसार|according to)?[^,.:\n]{0,60}[,.:\-]\s*/i, '');
+  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్ന|प्रश्न|ചോദ്യം|سوال\s*(?:نمبر)?)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+  cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
+  cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
+  cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');
+  const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
+  const match = cleaned.match(trailingNoiseRegex);
+  if (match) {
+    const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
+    cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
+  }
+  cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
+  return cleaned.trim() || text.trim();
+}
+
 /**
  * Resolves a Question's content enforcing the Universal Dual-Language Invariant across all 31 Boards:
  * 1. Language Subjects: Strictly single-medium, native script locked, no dual-language.
@@ -1099,13 +1123,15 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
       secondaryLanguage: null,
 
       // Strictly Single Language (native script only)
-      questionText: rawQ,
-      primaryQuestionText: rawQ,
+      questionText: cleanQuestionText(rawQ),
+      primaryQuestionText: cleanQuestionText(rawQ),
       secondaryQuestionText: '',
-      targetLanguageQuestionText: rawQ,
-      stateLanguageQuestionText: rawQ,
+      targetLanguageQuestionText: cleanQuestionText(rawQ),
+      stateLanguageQuestionText: cleanQuestionText(rawQ),
       englishQuestionText: '',
-      options: opts,
+      options: opts.map(o => String(o).trim()),
+      singleLanguageOptions: opts.map(o => String(o).trim()),
+      bilingualOptions: opts.map(o => String(o).trim()),
       explanation: modelAns,
       modelAnswer: modelAns,
       keyPoints,
@@ -1205,16 +1231,22 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
     secondaryQText = (englishQText && englishQText !== targetQText) ? englishQText : (stateQText || '');
   }
 
+  const cleanP = cleanQuestionText(primaryQText);
+  let cleanS = cleanQuestionText(secondaryQText);
+  if (cleanS.toLowerCase() === cleanP.toLowerCase()) {
+    cleanS = '';
+  }
+
   let dualQuestionText = '';
-  if (primaryQText && secondaryQText && primaryQText.trim().toLowerCase() !== secondaryQText.trim().toLowerCase()) {
+  if (cleanP && cleanS && cleanP.trim().toLowerCase() !== cleanS.trim().toLowerCase()) {
     let secLabel = 'English';
     if (targetMedium === 'en') {
       const stateMeta = SUPPORTED_MEDIUMS_META[stateLang];
       secLabel = stateMeta ? (stateMeta.label || 'Regional') : 'Regional';
     }
-    dualQuestionText = `${primaryQText}\n\n[${secLabel}: ${secondaryQText}]`;
+    dualQuestionText = `${cleanP}\n\n[${secLabel}: ${cleanS}]`;
   } else {
-    dualQuestionText = primaryQText || secondaryQText || questionRow.question_text || '';
+    dualQuestionText = cleanP || cleanS || cleanQuestionText(questionRow.question_text) || '';
   }
 
   let rawTargetOpts = targetSlice.options || [];
@@ -1224,6 +1256,32 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
   if (rawTargetOpts.length === 0) {
     const altSlice = (targetMedium === 'en') ? stateSlice : englishSlice;
     rawTargetOpts = Array.isArray(altSlice.options) ? altSlice.options : Object.values(altSlice.options || {});
+  }
+
+  // Format options: Dual-Language (Option P / Option S) for STEM subjects
+  let formattedOpts = [];
+  const altSlice = (targetMedium === 'en') ? (stateSlice || {}) : (englishSlice || {});
+  const sOpts = Array.isArray(altSlice.options) ? altSlice.options : Object.values(altSlice.options || {});
+  if (rawTargetOpts.length > 0 && sOpts.length > 0) {
+    const optCount = Math.max(rawTargetOpts.length, sOpts.length, 4);
+    for (let i = 0; i < optCount; i++) {
+      const pRaw = rawTargetOpts[i] !== undefined && rawTargetOpts[i] !== null ? String(rawTargetOpts[i]) : '';
+      const sRaw = sOpts[i] !== undefined && sOpts[i] !== null ? String(sOpts[i]) : '';
+      const pClean = pRaw.replace(/^[A-D]\)\s*/i, '').trim();
+      const sClean = sRaw.replace(/^[A-D]\)\s*/i, '').trim();
+      const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
+      if (pClean && sClean && pClean.toLowerCase() !== sClean.toLowerCase()) {
+        formattedOpts.push(`${prefix} ${pClean} / ${sClean}`);
+      } else if (pClean) {
+        formattedOpts.push(`${prefix} ${pClean}`);
+      } else if (sClean) {
+        formattedOpts.push(`${prefix} ${sClean}`);
+      } else {
+        formattedOpts.push(`${prefix} Option ${i + 1}`);
+      }
+    }
+  } else {
+    formattedOpts = rawTargetOpts.map(o => String(o).trim());
   }
 
   // Subjective Model Answer & Solution Resolution:
@@ -1280,14 +1338,16 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
 
     // Dual-Language Question Presentation:
     questionText: dualQuestionText,
-    primaryQuestionText: primaryQText,
-    secondaryQuestionText: secondaryQText,
-    targetLanguageQuestionText: primaryQText,
-    stateLanguageQuestionText: (targetMedium === 'en' || targetMedium === stateLang) ? stateQText : primaryQText,
-    englishQuestionText: secondaryQText || englishQText,
+    primaryQuestionText: cleanP,
+    secondaryQuestionText: cleanS,
+    targetLanguageQuestionText: cleanP,
+    stateLanguageQuestionText: (targetMedium === 'en' || targetMedium === stateLang) ? cleanQuestionText(stateQText) : cleanP,
+    englishQuestionText: cleanS || cleanQuestionText(englishQText),
 
     // Options matching the chosen medium:
-    options: rawTargetOpts,
+    options: formattedOpts,
+    singleLanguageOptions: rawTargetOpts.map(o => String(o).trim()),
+    bilingualOptions: formattedOpts,
 
     // Model Answer strictly adhering to chosen medium:
     modelAnswer: resolvedModelAnswer,

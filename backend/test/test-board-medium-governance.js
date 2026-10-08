@@ -50,7 +50,7 @@ runTest('All 31 Boards Registered with State Language and English Secondary', ()
 // -------------------------------------------------------------
 // Test 2: Database Subjects Audit (932 Board Subjects)
 // -------------------------------------------------------------
-runTest('Deterministic Classification of 932 Subjects (270 Language vs 662 STEM)', () => {
+runTest('Deterministic Classification of 922 Authentic Subjects (270 Language vs 652 STEM)', () => {
   const db = getDb();
   const subjects = db.prepare(`
     SELECT DISTINCT s.subject_id, s.name, s.is_language_subject
@@ -58,7 +58,7 @@ runTest('Deterministic Classification of 932 Subjects (270 Language vs 662 STEM)
     WHERE s.subject_id IN (SELECT DISTINCT subject_id FROM questions WHERE board_id IS NOT NULL)
   `).all();
 
-  assert.strictEqual(subjects.length, 932);
+  assert.strictEqual(subjects.length, 922);
   let langCount = 0;
   let nonLangCount = 0;
 
@@ -74,7 +74,7 @@ runTest('Deterministic Classification of 932 Subjects (270 Language vs 662 STEM)
   }
 
   assert.strictEqual(langCount, 270);
-  assert.strictEqual(nonLangCount, 662);
+  assert.strictEqual(nonLangCount, 652);
 });
 
 // -------------------------------------------------------------

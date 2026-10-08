@@ -26,10 +26,19 @@ class ContentVersioningService {
       ORDER BY version_number ASC
     `).all(questionId);
 
+    const safeParse = (val) => {
+      if (typeof val !== 'string') return val;
+      try {
+        return JSON.parse(val);
+      } catch {
+        return val;
+      }
+    };
+
     return rows.map(r => ({
       ...r,
-      languageContent: typeof r.language_content === 'string' ? JSON.parse(r.language_content) : r.language_content,
-      correctAnswer: typeof r.correct_answer === 'string' ? JSON.parse(r.correct_answer) : r.correct_answer
+      languageContent: safeParse(r.language_content),
+      correctAnswer: safeParse(r.correct_answer)
     }));
   }
 
