@@ -56,6 +56,10 @@ function cleanQuestionText(text) {
   while (/^\[[^\]\r\n]+\]\s*/.test(cleaned)) {
     cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/, '');
   }
+  // Strip session boilerplate e.g. (सत्र 2026-27), (2026-27 Edition), (2026-27 SQP Blueprint)
+  cleaned = cleaned.replace(/\((?:सत्र\s*)?\d{4}-\d{2,4}(?:\s*(?:Edition|SQP|Blueprint))?\)\s*[:.\-–—]?\s*/gi, '');
+  cleaned = cleaned.replace(/\(सत्र\s*2026-27\)\s*[:.\-–—]?\s*/gi, '');
+
   // Strip board/exam/class syllabus clauses
   cleaned = cleaned.replace(/^(?:(?:According to|As per|के अनुसार|पाठ्यक्रम के अनुसार)\s*)+[^,.:\n]{0,80}[,.:\-]\s*/i, '');
   cleaned = cleaned.replace(/^[A-Z0-9\s\-]+(?:\d{4}-\d{2,4})?\s*(?:ब्लूप्रिंट|blueprint|पाठ्यक्रम|syllabus)\s*(?:के अनुसार|according to)?[^,.:\n]{0,60}[,.:\-]\s*/i, '');
@@ -70,9 +74,9 @@ function cleanQuestionText(text) {
   cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');
   // Strip trailing provenance/noise in parentheses
   const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+|जांच संदर्भ|Inquiry|अभ्यास संदर्भ|प्रैक्टिस संदर्भ)[^)]*\)\s*(\??)$/i;
-  const match = cleaned.match(trailingNoiseRegex);
-  if (match) {
-    const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
+  while (trailingNoiseRegex.test(cleaned)) {
+    const match = cleaned.match(trailingNoiseRegex);
+    const hasQuestionMark = cleaned.endsWith('?') || (match && match[1] === '?');
     cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
   }
   cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
@@ -136,7 +140,15 @@ function isSyntheticJunk(qRow, parsedContent, is12th = false) {
     /Primary authoritative premise/i,
     /Secondary scholarly interpretation/i,
     /Tertiary observational corollary/i,
-    /Systematic empirical synthesis/i
+    /Systematic empirical synthesis/i,
+    /Option 1 \(Accurate/i,
+    /Option \d+ \(Accurate and verified\)/i,
+    /विकल्प 1 \(सर्वथा उपयुक्त/i,
+    /विकल्प \d+ \(सर्वथा उपयुक्त/i,
+    /Select the correct option according to/i,
+    /प्रस्तुत संदर्भ के आधार पर सही विकल्प/i,
+    /विस्तृत आदर्श उत्तर \(\d+ अंक\):/i,
+    /पाठ्यपुस्तक के आधार पर यह कथन पूर्णतः सटीक है/i
   ];
 
   for (const pat of junkPatterns) {
@@ -571,33 +583,66 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
         qText = cleanPrimaryQ || cleanHi || cleanEn;
         opts = (rawOpts || extractRawOpts(hi) || extractRawOpts(en) || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
       } else {
-        // Bilingual for core subjects (Math, Science, History, etc.)
-        if (cleanHi && cleanEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
-          qText = `${cleanHi}\n[English: ${cleanEn}]`;
-        } else {
-          qText = cleanPrimaryQ || cleanHi || cleanEn;
-        }
-
-        const hiOpts = extractRawOpts(hi) || [];
-        const enOpts = extractRawOpts(en) || [];
-        const optCount = Math.max(hiOpts.length, enOpts.length, (rawOpts && rawOpts.length) || 0, 4);
-        opts = [];
-        for (let i = 0; i < optCount; i++) {
-          const hRaw = hiOpts[i] !== undefined && hiOpts[i] !== null ? String(hiOpts[i]) : '';
-          const eRaw = enOpts[i] !== undefined && enOpts[i] !== null ? String(enOpts[i]) : '';
-          const h = hRaw.replace(/^[A-D]\)\s*/i, '').trim();
-          const e = eRaw.replace(/^[A-D]\)\s*/i, '').trim();
-          const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-          if (h && e && h.toLowerCase() !== e.toLowerCase()) {
-            opts.push(`${prefix} ${h} / ${e}`);
-          } else if (h) {
-            opts.push(`${prefix} ${h}`);
-          } else if (e) {
-            opts.push(`${prefix} ${e}`);
-          } else if (rawOpts && rawOpts[i]) {
-            opts.push(String(rawOpts[i]).trim());
+        // Dual-Language for core non-language subjects (STEM, Math, Science, GS, GK, Reasoning)
+        if (requestedMedium === 'en') {
+          // English chosen: English on top, State/Hindi below, NO bracket wrapper
+          if (cleanEn && cleanHi && cleanEn.toLowerCase() !== cleanHi.toLowerCase()) {
+            qText = `${cleanEn}\n${cleanHi}`;
           } else {
-            opts.push(`${prefix} Option ${i + 1}`);
+            qText = cleanEn || cleanHi || cleanPrimaryQ;
+          }
+
+          const enOpts = extractRawOpts(en) || [];
+          const hiOpts = extractRawOpts(hi) || [];
+          const optCount = Math.max(enOpts.length, hiOpts.length, (rawOpts && rawOpts.length) || 0, 4);
+          opts = [];
+          for (let i = 0; i < optCount; i++) {
+            const eRaw = enOpts[i] !== undefined && enOpts[i] !== null ? String(enOpts[i]) : '';
+            const hRaw = hiOpts[i] !== undefined && hiOpts[i] !== null ? String(hiOpts[i]) : '';
+            const e = eRaw.replace(/^[A-D]\)\s*/i, '').trim();
+            const h = hRaw.replace(/^[A-D]\)\s*/i, '').trim();
+            const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
+            if (e && h && e.toLowerCase() !== h.toLowerCase()) {
+              opts.push(`${prefix} ${e} / ${h}`);
+            } else if (e) {
+              opts.push(`${prefix} ${e}`);
+            } else if (h) {
+              opts.push(`${prefix} ${h}`);
+            } else if (rawOpts && rawOpts[i]) {
+              opts.push(String(rawOpts[i]).trim());
+            } else {
+              opts.push(`${prefix} Option ${i + 1}`);
+            }
+          }
+        } else {
+          // Hindi / State medium chosen: Hindi/State on top, English below, NO bracket wrapper
+          if (cleanHi && cleanEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
+            qText = `${cleanHi}\n${cleanEn}`;
+          } else {
+            qText = cleanHi || cleanEn || cleanPrimaryQ;
+          }
+
+          const hiOpts = extractRawOpts(hi) || [];
+          const enOpts = extractRawOpts(en) || [];
+          const optCount = Math.max(hiOpts.length, enOpts.length, (rawOpts && rawOpts.length) || 0, 4);
+          opts = [];
+          for (let i = 0; i < optCount; i++) {
+            const hRaw = hiOpts[i] !== undefined && hiOpts[i] !== null ? String(hiOpts[i]) : '';
+            const eRaw = enOpts[i] !== undefined && enOpts[i] !== null ? String(enOpts[i]) : '';
+            const h = hRaw.replace(/^[A-D]\)\s*/i, '').trim();
+            const e = eRaw.replace(/^[A-D]\)\s*/i, '').trim();
+            const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
+            if (h && e && h.toLowerCase() !== e.toLowerCase()) {
+              opts.push(`${prefix} ${h} / ${e}`);
+            } else if (h) {
+              opts.push(`${prefix} ${h}`);
+            } else if (e) {
+              opts.push(`${prefix} ${e}`);
+            } else if (rawOpts && rawOpts[i]) {
+              opts.push(String(rawOpts[i]).trim());
+            } else {
+              opts.push(`${prefix} Option ${i + 1}`);
+            }
           }
         }
       }
@@ -764,13 +809,42 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
 
     let cleanQ = cleanQuestionText(item.q);
     cleanQ = cleanQ.replace(/\n\[.*TCS\/NTA Model.*\]/g, '').trim();
+    if (isLangSub) {
+      cleanQ = cleanQ.replace(/\s*(?:\\n|\n)\s*\[[^\]]+\]\s*$/i, '').trim();
+      const lines = cleanQ.split('\n').map(l => l.trim()).filter(Boolean);
+      if (lines.length > 1) {
+        if (normSub === 'english' && /[\u0900-\u0DFF]/.test(lines[1])) {
+          cleanQ = lines[0];
+        } else if (normSub !== 'english' && /[a-zA-Z]/.test(lines[1])) {
+          cleanQ = lines[0];
+        }
+      }
+    }
 
     const provLabel = item.provLabel || (source === 'DB' ? (item.provenance === 'OFFICIAL_PYQ' ? 'Official PYQ' : 'Curated Bank') : 'High-Yield Practice Question');
+
+    let cleanOpts = Array.isArray(item.options) ? item.options : ['A)', 'B)', 'C)', 'D)'];
+    if (isLangSub) {
+      cleanOpts = cleanOpts.map((o, idx) => {
+        let str = String(o).trim();
+        const prefix = ['A)', 'B)', 'C)', 'D)'][idx] || `${idx + 1})`;
+        let body = str.replace(/^[A-Da-d][\).\:-]\s*/i, '').replace(/^[1-4][\)\:-]\s*/, '').trim();
+        if (body.includes(' / ')) {
+          const parts = body.split(' / ');
+          if (normSub === 'english') {
+            body = parts.find(p => /[a-zA-Z]/.test(p)) || parts[0];
+          } else {
+            body = parts.find(p => /[\u0900-\u0DFF]/.test(p)) || parts[0];
+          }
+        }
+        return `${prefix} ${body}`;
+      });
+    }
 
     combined.push({
       id: item.id || `q-${normSub}-${combined.length + 1}`,
       q: cleanQ,
-      options: Array.isArray(item.options) ? item.options : ['A)', 'B)', 'C)', 'D)'],
+      options: cleanOpts,
       correct: (typeof item.correct === 'number') ? item.correct : 0,
       ans: item.ans || (item.options ? item.options[0] : 'A) Correct'),
       explanation: item.exp || item.explanation || '💡 Conceptual explanation based on official syllabus.',

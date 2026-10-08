@@ -1173,7 +1173,7 @@ class PdfGenerationService {
 
               if (cleanS && cleanS.toLowerCase() !== cleanP.toLowerCase()) {
                 doc.fontSize(9).font(fReg).fillColor('#4a5568')
-                  .text(`     [${sLabel}]: ${cleanS}`);
+                  .text(`     ${cleanS}`);
               }
 
               const opts = Array.isArray(item.options) ? item.options : ['(A)', '(B)', '(C)', '(D)'];
@@ -1216,7 +1216,7 @@ class PdfGenerationService {
 
               if (cleanS && cleanS.toLowerCase() !== cleanP.toLowerCase()) {
                 doc.fontSize(9).font(fReg).fillColor('#4a5568')
-                  .text(`     [${sSubLabel}]: ${cleanS}`);
+                  .text(`     ${cleanS}`);
               }
               doc.moveDown(0.6);
               currentQNum++;
@@ -1437,7 +1437,7 @@ class PdfGenerationService {
 
           if (cleanS && cleanS.toLowerCase() !== cleanP.toLowerCase()) {
             doc.fontSize(9).font(fReg).fillColor('#4a5568')
-              .text(`     [English]: ${cleanS}`);
+              .text(`     ${cleanS}`);
           }
 
           const opts = Array.isArray(item.options) ? item.options : ['A)', 'B)', 'C)', 'D)'];

@@ -1370,20 +1370,39 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
   }
 
   // Active High-Yield SQLite Database Enrichment (includes ALL authentic MCQs for this subject)
+  const isLangSubject = ['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi'].includes(normSubject);
   const rawDbQs = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass, boardId, preferredMedium: options.preferredMedium || options.medium });
   if (rawDbQs && rawDbQs.length > 0) {
     const seenKeys = new Set(mcqs.map(m => (m.q || '').substring(0, 40).trim()));
-    for (const q of rawDbQs) {
-      const key = (q.q || '').substring(0, 40).trim();
+    for (let q of rawDbQs) {
+      let finalQText = q.q || '';
+      if (isLangSubject && finalQText) {
+        finalQText = finalQText.replace(/\s*(?:\\n|\n)\s*\[[^\]]+\]\s*$/i, '').trim();
+        const lines = finalQText.split('\n').map(l => l.trim()).filter(Boolean);
+        if (lines.length > 1) {
+          if (normSubject === 'english' && /[\u0900-\u0DFF]/.test(lines[1])) {
+            finalQText = lines[0];
+          } else if (normSubject !== 'english' && /[a-zA-Z]/.test(lines[1])) {
+            finalQText = lines[0];
+          }
+        }
+      }
+      const key = finalQText.substring(0, 40).trim();
       if (!seenKeys.has(key)) {
         seenKeys.add(key);
         mcqs.push({
           ...q,
+          q: finalQText,
           num: mcqs.length + 1,
           id: q.id || `${boardId}-${targetClass}-${normSubject}-db-${mcqs.length + 1}`
         });
       }
     }
+  }
+
+  // Safe memory ceiling: Cap MCQs to target quota (max 250)
+  if (mcqs.length > 250) {
+    mcqs = mcqs.slice(0, 250);
   }
 
   // 3. Compile Authentic Subjective Questions (Short & Long Answers)

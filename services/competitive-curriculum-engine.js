@@ -473,7 +473,8 @@ const COMPETITIVE_EXAMS_REGISTRY = {
 };
 
 // Generates competitive study material strictly obeying 250-300 MCQs + Subjective outlines
-function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
+function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all", options = {}) {
+  const preferredMedium = options.preferredMedium || options.medium || 'hi';
   const meta = COMPETITIVE_EXAMS_REGISTRY[examId] || COMPETITIVE_EXAMS_REGISTRY["ssc-gd"];
   const langMode = meta.langMode;
   const isStatePolice = meta.category === "police";
@@ -583,7 +584,7 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     ]);
 
     const subjectSections = sectionsToBuild.map(sub => {
-      const qPool = getCompleteSubjectInventory(sub.id, { examId: meta.id, examName: meta.name });
+      const qPool = getCompleteSubjectInventory(sub.id, { examId: meta.id, examName: meta.name, preferredMedium });
       return {
         subjectId: sub.id,
         subjectName: sub.name.replace(/^[^\w\s\u0900-\u097F]+/, '').trim(),
@@ -591,7 +592,7 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
       };
     });
 
-    const reconciled = reconcileAllSubjectBundle(subjectSections, { examId });
+    const reconciled = reconcileAllSubjectBundle(subjectSections, { examId, explicitTargetCount: 35 });
     mcqs = reconciled.bundledQuestions.map((item, idx) => ({
       ...item,
       num: idx + 1,
@@ -603,7 +604,7 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all") {
     // Preserves FULL legitimate subject inventory without artificial clamp
     // If 150, 200, 250 questions exist, ALL are included
     // -------------------------------------------------------------
-    const questions = getCompleteSubjectInventory(normSub, { examId: meta.id, examName: meta.name });
+    const questions = getCompleteSubjectInventory(normSub, { examId: meta.id, examName: meta.name, preferredMedium });
     mcqs = questions.map((item, idx) => ({
       ...item,
       num: idx + 1,

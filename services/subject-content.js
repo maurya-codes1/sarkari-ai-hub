@@ -69,7 +69,7 @@ function resolveCompetitiveExamKey(exam = '') {
   if (e.includes('air force') || e.includes('vayu')) return 'iaf-agniveer';
   if (e.includes('navy')) return 'navy-agniveer';
   if (e.includes('army') || e.includes('agniveer')) return 'army-agniveer';
-  if (e.includes('bank') || e.includes('ibps') || e.includes('sbi')) return 'banking';
+  if (e.includes('bank') || e.includes('ibps') || (e.includes('sbi') && !e.includes('tsbie'))) return 'banking';
   if (e.includes('up police') || e.includes('up si') || e.includes('उत्तर प्रदेश पुलिस')) return 'up-police';
   if (e.includes('bihar police') || e.includes('csbc') || e.includes('बिहार पुलिस')) return 'bihar-police';
   if (e.includes('delhi police') || e.includes('दिल्ली पुलिस')) return 'delhi-police';
@@ -96,18 +96,39 @@ function getBoardDisplayName(boardKey = '') {
 }
 
 const NOTES_CACHE = new Map();
+const MAX_NOTES_CACHE_SIZE = 3;
+
+function cacheSetNotes(key, val) {
+  if (NOTES_CACHE.size >= MAX_NOTES_CACHE_SIZE) {
+    const oldest = NOTES_CACHE.keys().next().value;
+    NOTES_CACHE.delete(oldest);
+  }
+  NOTES_CACHE.set(key, val);
+}
 
 function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '', preferredMedium = null) {
+  let targetMedium = preferredMedium;
+  let targetBoard = board;
+  if (typeof board === 'object' && board !== null) {
+    targetMedium = board.preferredMedium || board.medium || targetMedium;
+    targetBoard = board.boardId || board.board || '';
+  }
+  targetMedium = targetMedium || 'hi';
+
   const s = (subject || '').toLowerCase();
   const e = (exam || '').toLowerCase();
-  const cacheKey = `${e}_${s}_${String(board || '').toLowerCase()}_${String(preferredMedium || '').toLowerCase()}`.trim();
+  const cacheKey = `${e}_${s}_${String(targetBoard || '').toLowerCase()}_${String(targetMedium).toLowerCase()}`.trim();
 
   if (NOTES_CACHE.has(cacheKey)) {
     return JSON.parse(JSON.stringify(NOTES_CACHE.get(cacheKey)));
   }
   
   // Competitive exams (SSC, Railway, Police, UPSC, Defence, Banking, Teaching, Entrance) take strict precedence
-  const isExplicitCompetitive = e.includes('ssc') || e.includes('police') || e.includes('railway') || e.includes('rrb') || e.includes('upsc') || e.includes('nda') || e.includes('agniveer') || e.includes('banking') || e.includes('ibps') || e.includes('sbi') || e.includes('neet') || e.includes('jee') || e.includes('cuet') || e.includes('clat') || e.includes('ctet') || e.includes('tet') || e.includes('bpsc') || e.includes('reet') || e.includes('ugc');
+  const isExplicitCompetitive = Boolean(COMPETITIVE_EXAMS_REGISTRY[e]) || (
+    !targetBoard && (
+      e.includes('ssc') || e.includes('police') || e.includes('railway') || e.includes('rrb') || e.includes('upsc') || e.includes('nda') || e.includes('agniveer') || e.includes('banking') || e.includes('ibps') || (e.includes('sbi') && !e.includes('tsbie')) || e.includes('neet') || e.includes('jee') || e.includes('cuet') || e.includes('clat') || e.includes('ctet') || (e.includes('tet') && !e.includes('bset')) || e.includes('bpsc') || e.includes('reet') || e.includes('ugc')
+    )
+  );
 
   const isBoardExam = !isExplicitCompetitive && (
     e.startsWith('board-') || 
@@ -120,14 +141,16 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '', pr
     e.includes('इंटर') || 
     e.includes('hsc') || 
     Object.keys(BOARD_REGISTRY).some(b => e.includes(b)) ||
-    (Boolean(board) && !isExplicitCompetitive)
+    (Boolean(targetBoard) && !isExplicitCompetitive)
   );
-  const boardKey = resolveBoardKey(board, exam);
+  const boardKey = resolveBoardKey(targetBoard, exam);
 
   let resultGuide = null;
 
   if (isBoardExam) {
-    const classLevel = (e.includes('12th') || e.includes('-12') || e.includes('inter') || e.includes('इंटर') || e.includes('hsc')) ? '12th' : '10th';
+    const targetClassId = (typeof board === 'object' && (board.classId || board.classLevel || board.targetClass)) || '';
+    const is12th = String(targetClassId).includes('12') || e.includes('12th') || e.includes('-12') || e.includes('inter') || e.includes('इंटर') || e.includes('hsc');
+    const classLevel = is12th ? '12th' : '10th';
     let subjectKey = 'science';
     if (s.includes('bengali') || s.includes('বাংলা') || s.includes('bangla')) subjectKey = 'bengali';
     else if (s.includes('tamil') || s.includes('தமிழ்')) subjectKey = 'tamil';
@@ -160,11 +183,11 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '', pr
     else if (s.includes('socio') || s.includes('समाजशास्त्र')) subjectKey = classLevel === '10th' ? 'social' : 'sociology';
     else if (s.includes('all') || s.includes('सभी') || s.includes('bundle') || s.includes('full mock') || s.includes('science stream')) subjectKey = 'all';
 
-    resultGuide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey, { preferredMedium });
+    resultGuide = generateSubjectStudyGuide(boardKey, classLevel, subjectKey, { preferredMedium: targetMedium });
   } else {
     // All Competitive, Police, Defence, Entrance, and Teaching Exams (250-300 MCQs)
     const compKey = resolveCompetitiveExamKey(exam);
-    resultGuide = generateCompetitiveStudyGuide(compKey, subject);
+    resultGuide = generateCompetitiveStudyGuide(compKey, subject, { preferredMedium: targetMedium });
   }
 
   // Preserve 100% of authentic inventory without artificial clamps
@@ -173,7 +196,7 @@ function getSubjectSpecificStudyMaterial(exam = '', subject = '', board = '', pr
     resultGuide.pages = `${Math.max(16, Math.ceil(qCount / 7))} Pages Master PDF`;
   }
 
-  NOTES_CACHE.set(cacheKey, JSON.parse(JSON.stringify(resultGuide)));
+  cacheSetNotes(cacheKey, resultGuide);
   return resultGuide;
 }
 

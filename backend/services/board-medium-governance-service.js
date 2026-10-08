@@ -460,8 +460,16 @@ function isLanguageSubject(subjectId, subjectName = '', db = null) {
     }
   }
 
-  // 4. Common language indicators
-  if (sId.includes('-fl-') || sId.includes('-sl-') || sId.includes('-tl-') || sId.includes('-mil-') || sId.includes('-first-lang') || sId.includes('-second-lang')) {
+  // 4. Common language indicators & pedagogy
+  if (
+    sId.includes('-fl-') || sId.includes('-sl-') || sId.includes('-tl-') || sId.includes('-mil-') ||
+    sId.includes('-first-lang') || sId.includes('-second-lang') ||
+    sId.includes('lang') || sName.includes('lang') ||
+    sId.includes('bhasha') || sId.includes('bhasa') ||
+    sId.includes('vyakaran') || sId.includes('grammar') ||
+    sId.includes('sahitya') || sId.includes('literature') ||
+    sId.includes('pedagogy') || sId.includes('shikshan')
+  ) {
     return true;
   }
 
@@ -533,6 +541,11 @@ function getSubjectMediumCapabilities(boardId, subjectId, subjectName = '', db =
  * Adapts an individual option to the target medium while preserving authentic
  * numeric values, mathematical expressions, chemical formulas, and choice identifiers.
  */
+function extractSliceText(slice) {
+  if (!slice) return '';
+  return slice.question || slice.stem || slice.q || slice.question_text || slice.prompt || slice.text || '';
+}
+
 function adaptOptionToMedium(opt, targetLangCode = 'en', optIndex = 0) {
   if (opt === undefined || opt === null) return '';
   const str = String(opt).trim();
@@ -689,6 +702,33 @@ function adaptOptionToMedium(opt, targetLangCode = 'en', optIndex = 0) {
     return `${letter} ${labelMap.option[targetLangCode] || labelMap.option.en}${tag}`;
   }
 
+  // Contextual translation for common bilingual options (Articles, Units, Multipliers)
+  if (targetLangCode === 'en') {
+    let optBody = body
+      .replace(/अनुच्छेद\s*(\d+)/gi, 'Article $1')
+      .replace(/भाग\s*(\d+)/gi, 'Part $1')
+      .replace(/अनुसूची\s*(\d+)/gi, 'Schedule $1')
+      .replace(/वर्ष\s*(\d+)/gi, 'Year $1')
+      .replace(/चार गुना/g, 'Four times')
+      .replace(/दोगुना/g, 'Twice')
+      .replace(/आधा/g, 'Half')
+      .replace(/अपरिवर्तित/g, 'Unchanged')
+      .replace(/बढ़ता है/g, 'Increases')
+      .replace(/घटता है/g, 'Decreases')
+      .replace(/समान रहता है/g, 'Remains constant');
+    return `${letter} ${optBody}`;
+  } else if (targetLangCode === 'hi') {
+    let optBody = body
+      .replace(/Article\s*(\d+)/gi, 'अनुच्छेद $1')
+      .replace(/Part\s*(\d+)/gi, 'भाग $1')
+      .replace(/Schedule\s*(\d+)/gi, 'अनुसूची $1')
+      .replace(/Four times/gi, 'चार गुना')
+      .replace(/Twice/gi, 'दोगुना')
+      .replace(/Half/gi, 'आधा')
+      .replace(/Unchanged/gi, 'अपरिवर्तित');
+    return `${letter} ${optBody}`;
+  }
+
   // Default: retain authentic text with target prefix letter
   return `${letter} ${body}`;
 }
@@ -701,94 +741,150 @@ function adaptQuestionStemToMedium(rawQ, targetLangCode = 'en', boardState = 'St
   if (!rawQ) return '';
   const text = String(rawQ).trim();
 
-  // Extract embedded English in brackets at the end if present e.g. \n[Sum of zeroes of quadratic polynomial...]
-  const endEngMatch = text.match(/(?:\n|^)\s*\[([A-Za-z0-9\s\?,.:;'"\-\(\)\/\\+=%:±√²³]+)\]\s*$/);
+  // Extract embedded English in brackets e.g. [English: ...] or [In which medium...]
+  const endEngMatch = text.match(/(?:\s*\n\s*|\s+)\[(?:(?:English|अंग्रेज़ी|अंग्रेजी):\s*)?([A-Za-z0-9\s\?,.:;'"\-\(\)\/\\+=%:±√²³]+)\]\s*$/is);
   const baseText = endEngMatch ? text.replace(endEngMatch[0], '').trim() : text;
   const embeddedEnglish = endEngMatch ? endEngMatch[1].trim() : '';
 
-  // Extract header e.g. [Mathematics (गणित - कोड 110) - Real Numbers (वास्तविक संख्याएं ...)]
+  // Extract bracketed metadata header e.g. [Mathematics - Real Numbers]
   const headerMatch = baseText.match(/^(\[[^\]]+\])\s*(.*)/s);
-  let header = headerMatch ? headerMatch[1] : '';
-  let rest = headerMatch ? headerMatch[2].trim() : baseText;
+  const rest = headerMatch ? headerMatch[2].trim() : baseText;
 
-  // Extract Question Number if present
-  const qNumMatch = (rest || baseText).match(/(?:प्रश्न|Question|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|ਪ੍ਰਸ਼ਨ|প্রশ্ন|सवाल)\s*#?(\d+)/i);
-  const qNum = qNumMatch ? qNumMatch[1] : '';
-
-  // Subject label dictionary
-  const subjectNameMap = {
-    mathematics: {
-      hi: 'गणित', en: 'Mathematics', ur: 'ریاضی', te: 'గణితం', ta: 'கணிதம்', bn: 'গণিত',
-      mr: 'गणित', gu: 'ગણિત', kn: 'ಗಣಿತ', pa: 'ਗਣਿਤ', ml: 'ഗണിതം', or: 'ଗଣିତ', as: 'গণিত'
-    },
-    science: {
-      hi: 'विज्ञान', en: 'Science', ur: 'سائنس', te: 'సైన్స్', ta: 'அறிவியல்', bn: 'বিজ্ঞান',
-      mr: 'विज्ञान', gu: 'વિજ્ઞાન', kn: 'ವಿಜ್ಞಾನ', pa: 'ਵਿਗਿਆਨ', ml: 'ശാസ്ത്രം', or: 'ବିଜ୍ଞାନ', as: 'বিজ্ঞান'
-    },
-    social: {
-      hi: 'सामाजिक विज्ञान', en: 'Social Science', ur: 'سماجی علوم', te: 'సాంఘిక శాస్త్రం', ta: 'சமூக அறிவியல்', bn: 'সমাজবিজ্ঞান',
-      mr: 'सामाजिक शास्त्र', gu: 'સામાજિક વિજ્ઞાન', kn: 'ಸಮಾಜ ವಿಜ್ಞಾನ', pa: 'ਸਮਾਜਿਕ ਵਿਗਿਆਨ', ml: 'സാമൂഹിക ശാസ്ത്രം', or: 'ସାମାଜିକ ବିଜ୍ଞାନ', as: 'সমাজ বিজ্ঞান'
-    },
-    physics: {
-      hi: 'भौतिक विज्ञान', en: 'Physics', ur: 'طبیعیات', te: 'భౌతికశాస్త్రం', ta: 'இயற்பியல்', bn: 'পদার্থবিদ্যা',
-      mr: 'भौतिकशास्त्र', gu: 'ભૌતિકવિજ્ઞાન', kn: 'ಭೌತಶಾಸ್ತ್ರ', pa: 'ਭੌਤਿਕ ਵਿਗਿਆਨ', ml: 'ഭൗതികശാസ്ത്രം', or: 'ପଦାର୍ଥ ବିଜ୍ଞାନ', as: 'পদাৰ্থ বিজ্ঞান'
-    },
-    chemistry: {
-      hi: 'रसायन विज्ञान', en: 'Chemistry', ur: 'کیمیا', te: 'రసాయన శాస్త్రం', ta: 'வேதியியல்', bn: 'রসায়ন',
-      mr: 'रसायनशास्त्र', gu: 'રસાયણવિજ્ઞાન', kn: 'ರಸಾಯನಶಾಸ್ತ್ರ', pa: 'ਰਸਾਇਣ ਵਿਗਿਆਨ', ml: 'രസതന്ത്രം', or: 'ରସାୟନ ବିଜ୍ଞାନ', as: 'ৰসায়ন বিজ্ঞান'
-    },
-    biology: {
-      hi: 'जीव विज्ञान', en: 'Biology', ur: 'حیاتیات', te: 'జీవశాస్త్రం', ta: 'உயிரியல்', bn: 'জীববিজ্ঞান',
-      mr: 'जीवशास्त्र', gu: 'જીવવિજ્ઞાન', kn: 'ಜೀವಶಾಸ್ತ್ರ', pa: 'ਜੀਵ ਵਿਗਿਆਨ', ml: 'ജീവശാസ്ത്രം', or: 'ଜୀବ ବିଜ୍ଞାନ', as: 'জীৱবিজ্ঞান'
-    }
-  };
-
-  // Blueprint question phrasing per target medium
-  const blueprintPrompts = {
-    ur: `سوال ${qNum ? qNum + ': ' : ''}آفیشل ${boardState} بورڈ امتحانی نصاب اور بلیو پرنٹ کے مطابق درست متبادل یا حل کا انتخاب کیجیے۔`,
-    te: `ప్రశ్న ${qNum ? qNum + ': ' : ''}అధికారిక ${boardState} బోర్డు పరీక్షా విధానం మరియు బ్లూప్రింట్ ప్రకారం సరైన సమాధానాన్ని ఎంచుకోండి.`,
-    ta: `வினா ${qNum ? qNum + ': ' : ''}அதிகாரப்பூர்வ ${boardState} தேர்வு முறை மற்றும் பாடத்திட்டத்தின்படி சரியான விடையைத் தேர்ந்தெடுக்கவும்.`,
-    bn: `প্রশ্ন ${qNum ? qNum + ': ' : ''}অফিশিয়াল ${boardState} বোর্ড পরীক্ষার পাঠ্যক্রম ও ব্লুপ্রিন্ট অনুসারে সঠিক বিকল্পটি নির্বাচন করুন।`,
-    mr: `प्रश्न ${qNum ? qNum + ': ' : ''}अधिकृत ${boardState} राज्य मंडळ अभ्यासक्रम व परीक्षा आराखड्यानुसार योग्य पर्याय निवडा.`,
-    gu: `પ્રશ્ન ${qNum ? qNum + ': ' : ''}સત્તાવાર ${boardState} બોર્ડ પરીક્ષા બ્લૂપ્રિન્ટ અને અભ્યાસક્રમ મુજબ સાચો વિકલ્પ પસંદ કરો.`,
-    pa: `ਪ੍ਰਸ਼ਨ ${qNum ? qNum + ': ' : ''}ਅਧਿਕਾਰਤ ${boardState} ਬੋਰਡ ਪ੍ਰੀਖਿਆ ਬਲੂਪ੍ਰਿੰਟ ਅਤੇ ਪਾਠਕ੍ਰਮ ਅਨੁਸਾਰ ਸਹੀ ਵਿਕਲਪ ਚੁਣੋ।`,
-    kn: `ಪ್ರಶ್ನೆ ${qNum ? qNum + ': ' : ''}ಅಧಿಕೃತ ${boardState} ಮಂಡಳಿ ಪರೀಕ್ಷಾ ನೀಲನಕ್ಷೆ ಮತ್ತು ಪಠ್ಯಕ್ರಮದ ಪ್ರಕಾರ ಸರಿಯಾದ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಿ.`,
-    ml: `ചോദ്യം ${qNum ? qNum + ': ' : ''}ഔദ്യോഗിക ${boardState} പരീക്ഷാ പാഠ്യപദ്ധതി പ്രകാരം ശരിയായ ഉത്തരം തിരഞ്ഞെടുക്കുക.`,
-    or: `ପ୍ରଶ୍ନ ${qNum ? qNum + ': ' : ''}ଅଧିକାରିକ ${boardState} ବୋର୍ଡ ପରୀକ୍ଷା ବ୍ଲୁପ୍ରିଣ୍ଟ ଓ ପାଠ୍ୟକ୍ରମ ଅନୁସାରେ ସଠିକ ବିକଳ୍ପ ଚୟନ କରନ୍ତୁ।`,
-    as: `প্ৰশ্ন ${qNum ? qNum + ': ' : ''}আনুষ্ঠানিক ${boardState} ব'ৰ্ড পৰীক্ষাৰ ব্লুপ্ৰিণ্ট আৰু পাঠ্যক্ৰম অনুসৰি শুদ্ধ বিকল্প বাছনি কৰক।`,
-    hi: `प्रश्न ${qNum ? qNum + ': ' : ''}आधिकारिक ${boardState} बोर्ड परीक्षा ब्लूप्रिंट एवं पाठ्यक्रम के अनुसार सही विकल्प का चयन कीजिए।`,
-    en: `Question ${qNum ? qNum + ': ' : ''}As per the official ${boardState} board examination blueprint, identify the correct option.`
-  };
-
-  // If header exists, adapt header subject tag to chosen medium
-  let localizedHeader = header;
-  if (header) {
-    for (const [subjKey, trans] of Object.entries(subjectNameMap)) {
-      const reg = new RegExp(subjKey, 'i');
-      if (reg.test(header) && trans[targetLangCode]) {
-        localizedHeader = localizedHeader.replace(
-          new RegExp(`(${subjKey}\\s*\\()([^\\)]+)(\\))`, 'i'),
-          `$1${trans[targetLangCode]} - ${trans.en}$3`
-        );
-        break;
-      }
-    }
-  }
-
-  // If target is English and we have authentic embedded English text in brackets, use it directly!
+  // If target is English and authentic embedded English text exists, return it cleanly
   if (targetLangCode === 'en' && embeddedEnglish) {
-    return localizedHeader ? `${localizedHeader} ${embeddedEnglish}` : embeddedEnglish;
+    return cleanQuestionText(embeddedEnglish);
   }
 
-  // If rest is empty, use blueprint prompt fallback
-  if (!rest) {
-    const prompt = blueprintPrompts[targetLangCode] || blueprintPrompts.en;
-    return localizedHeader ? `${localizedHeader} ${prompt}` : prompt;
-  }
+  if (!rest) return '';
 
-  // Substantive academic question adaptation
   let translatedStem = rest;
-  if (targetLangCode === 'ur') {
+
+  if (targetLangCode === 'en') {
+    // Academic translation from Hindi to English
+    translatedStem = translatedStem
+      // Question openers & patterns
+      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'Which of the following')
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'Which of the following')
+      .replace(/निम्नलिखित में से क्या/g, 'Which of the following')
+      .replace(/इनमें से कौन(?:-सा| सा)?/g, 'Which of the following')
+      .replace(/का मान क्या होगा\??/g, 'is the value of?')
+      .replace(/का मान ज्ञात कीजिए[।\.]?/g, 'Find the value of.')
+      .replace(/का मान है\??/g, 'is the value of?')
+      .replace(/क्या होता है\??/g, 'is?')
+      .replace(/क्या होती है\??/g, 'is?')
+      .replace(/क्या है\??/g, 'is?')
+      .replace(/किसे कहा जाता है\??/g, 'is known as?')
+      .replace(/कहाँ स्थित है\??/g, 'is located in?')
+      .replace(/कहाँ पर स्थित है\??/g, 'is located in?')
+      .replace(/कब हुआ था\??/g, 'took place in?')
+      .replace(/कब लागू हुआ था\??/g, 'came into force in?')
+      .replace(/की खोज किसने की थी\??/g, 'discovered?')
+      .replace(/के लेखक कौन हैं\??/g, 'is the author of?')
+      .replace(/का मुख्य कारण क्या है\??/g, 'is the primary cause of?')
+      .replace(/का मुख्य उद्देश्य क्या है\??/g, 'is the main objective of?')
+      .replace(/का SI मात्रक क्या है\??/g, 'is the SI unit of?')
+      .replace(/का मात्रक क्या होता है\??/g, 'is the unit of?')
+      .replace(/का मात्रक क्या है\??/g, 'is the unit of?')
+      .replace(/का रासायनिक सूत्र क्या है\??/g, 'is the chemical formula of?')
+      .replace(/किस सूत्र द्वारा निरूपित किया जाता है\??/g, 'is represented by which formula?')
+      .replace(/किस सिद्धांत पर कार्य करता है\??/g, 'operates on which principle?')
+      .replace(/पर क्या प्रभाव पड़ेगा\??/g, 'what effect will it have on?')
+      .replace(/किस पर निर्भर करता है\??/g, 'depends on which of the following?')
+      .replace(/सही कथन है\??/g, 'is the correct statement?')
+      .replace(/उदाहरण है/g, 'is an example of')
+
+      // Core Physics & Chemistry terms
+      .replace(/ओम का नियम/g, "Ohm's Law")
+      .replace(/गतिज ऊर्जा/g, 'Kinetic Energy')
+      .replace(/स्थितिज ऊर्जा/g, 'Potential Energy')
+      .replace(/पलायन वेग/g, 'Escape Velocity')
+      .replace(/प्रकाश संश्लेषण/g, 'Photosynthesis')
+      .replace(/विद्युत ट्रांसफॉर्मर/g, 'Electrical Transformer')
+      .replace(/विद्युत धारा/g, 'Electric Current')
+      .replace(/विभवांतर/g, 'Potential Difference')
+      .replace(/प्रतिरोध/g, 'Resistance')
+      .replace(/प्रकाश का अपवर्तन/g, 'Refraction of Light')
+      .replace(/प्रकाश का परावर्तन/g, 'Reflection of Light')
+      .replace(/लेंस की क्षमता/g, 'Power of Lens')
+      .replace(/मानव नेत्र/g, 'Human Eye')
+      .replace(/आधुनिक आवर्त सारणी/g, 'Modern Periodic Table')
+      .replace(/आवर्त सारणी/g, 'Periodic Table')
+      .replace(/अम्ल/g, 'Acid')
+      .replace(/क्षारक/g, 'Base')
+      .replace(/लवण/g, 'Salt')
+      .replace(/परमाणु क्रमांक/g, 'Atomic Number')
+      .replace(/द्रव्यमान संख्या/g, 'Mass Number')
+      .replace(/रक्त समूह/g, 'Blood Group')
+      .replace(/सार्वभौमिक दाता/g, 'Universal Donor')
+      .replace(/सार्वभौमिक ग्राही/g, 'Universal Recipient')
+      .replace(/विस्थापन अभिक्रिया/g, 'Displacement Reaction')
+      .replace(/संयोजन अभिक्रिया/g, 'Combination Reaction')
+      .replace(/अपघटन अभिक्रिया/g, 'Decomposition Reaction')
+      .replace(/पौधों में/g, 'in plants')
+      .replace(/मानव में/g, 'in humans')
+
+      // Mathematics terms
+      .replace(/द्विघात समीकरण\s*(.+?)\s*के मूल ज्ञात कीजिए[।\\.]?/g, 'Find the roots of the quadratic equation $1.')
+      .replace(/के मूल ज्ञात कीजिए[।\\.]?/g, 'Find the roots of.')
+      .replace(/के मूल/g, 'roots of')
+      .replace(/के शून्यक ज्ञात कीजिए[।\\.]?/g, 'Find the zeroes of.')
+      .replace(/के शून्यक/g, 'zeroes of')
+      .replace(/द्विघात समीकरण/g, 'quadratic equation')
+      .replace(/द्विघात बहुपद/g, 'quadratic polynomial')
+      .replace(/के शून्यांकों का योगफल/g, 'sum of zeroes of')
+      .replace(/के शून्यांकों का गुणनफल/g, 'product of zeroes of')
+      .replace(/के मूल वास्तविक और समान हों/g, 'roots are real and equal')
+      .replace(/के मूल समान हों/g, 'roots are equal')
+      .replace(/विविक्तकर/g, 'Discriminant')
+      .replace(/समांतर श्रेढ़ी/g, 'Arithmetic Progression (AP)')
+      .replace(/सार्व अंतर/g, 'Common Difference')
+      .replace(/प्रथम पद/g, 'First Term')
+      .replace(/प्रायिकता/g, 'Probability')
+      .replace(/निश्चित घटना/g, 'Certain Event')
+      .replace(/असंभव घटना/g, 'Impossible Event')
+      .replace(/माध्यिका/g, 'Median')
+      .replace(/माध्य/g, 'Mean')
+      .replace(/बहुलक/g, 'Mode')
+      .replace(/वृत्त की परिधि/g, 'Circumference of Circle')
+      .replace(/वृत्त का क्षेत्रफल/g, 'Area of Circle')
+      .replace(/त्रिज्या/g, 'Radius')
+      .replace(/व्यास/g, 'Diameter')
+      .replace(/साधारण ब्याज/g, 'Simple Interest')
+      .replace(/चक्रवृद्धि ब्याज/g, 'Compound Interest')
+      .replace(/मासिक बचत/g, 'monthly savings')
+      .replace(/मासिक वेतन/g, 'monthly salary')
+
+      // Social Science, Polity, History, Economy terms
+      .replace(/भारतीय संविधान का कौन सा अनुच्छेद/g, 'Which Article of the Indian Constitution')
+      .replace(/संविधान के किस अनुच्छेद के अंतर्गत/g, 'Under which Article of the Constitution')
+      .replace(/संविधान के किस अनुच्छेद में/g, 'In which Article of the Constitution')
+      .replace(/अनुच्छेद\s*(\d+)/g, 'Article $1')
+      .replace(/अस्पृश्यता के उन्मूलन से संबंधित है\??/g, 'deals with the abolition of untouchability?')
+      .replace(/अस्पृश्यता का अंत/g, 'Abolition of Untouchability')
+      .replace(/अस्पृश्यता/g, 'Untouchability')
+      .replace(/उन्मूलन/g, 'Abolition')
+      .replace(/भारतीय संविधान/g, 'Indian Constitution')
+      .replace(/मौलिक अधिकार/g, 'Fundamental Rights')
+      .replace(/मौलिक कर्तव्यों/g, 'Fundamental Duties')
+      .replace(/मौलिक कर्तव्य/g, 'Fundamental Duties')
+      .replace(/नीति निर्देशक तत्व/g, 'Directive Principles of State Policy')
+      .replace(/भारतीय रिज़र्व बैंक/g, 'Reserve Bank of India (RBI)')
+      .replace(/मुद्रास्फीति/g, 'Inflation')
+      .replace(/सर्वोच्च न्यायालय/g, 'Supreme Court')
+      .replace(/उच्च न्यायालय/g, 'High Court')
+      .replace(/संसद/g, 'Parliament')
+      .replace(/लोकसभा/g, 'Lok Sabha')
+      .replace(/राज्यसभा/g, 'Rajya Sabha')
+      .replace(/राष्ट्रपति/g, 'President')
+      .replace(/प्रधानमंत्री/g, 'Prime Minister')
+      .replace(/सिंधु घाटी सभ्यता/g, 'Indus Valley Civilisation')
+      .replace(/राष्ट्रीय उद्यान/g, 'National Park')
+      .replace(/राजधानी/g, 'Capital')
+      .replace(/सत्य है\??/g, 'is true?')
+      .replace(/बराबर है/g, 'is equal to')
+      .replace(/की गणना कीजिए/g, 'Calculate')
+      .replace(/ज्ञात कीजिए/g, 'Find');
+  } else if (targetLangCode === 'ur') {
     translatedStem = translatedStem
       .replace(/द्विघात बहुपद/g, 'دو درجی کثیر رقمی (Quadratic Polynomial)')
       .replace(/द्विघात समीकरण/g, 'دو درجی مساوات (Quadratic Equation)')
@@ -796,175 +892,31 @@ function adaptQuestionStemToMedium(rawQ, targetLangCode = 'en', boardState = 'St
       .replace(/के शून्यांकों का गुणनफल/g, 'کے شفروں کا حاصل ضرب')
       .replace(/के मूल समान हों/g, 'کے جڑیں (Roots) برابر ہوں')
       .replace(/विविक्तकर/g, 'فرق کنندہ (Discriminant)')
-      .replace(/बिन्दुओं/g, 'نقاط')
-      .replace(/और/g, 'اور')
-      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'کو ملانے والے خط کے درمیانی نقطہ (Mid-point) کے متناسقات')
-      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'دو متشابہ مثلثوں کے اضلاع کا تناسب')
-      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'ان کے رقبوں کا تناسب کیا ہوگا؟')
-      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'پہلے n طاق قدرتی اعداد کا مجموعہ')
-      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'ضلع a والے ایک مکعب (Cube)')
-      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'کے وتر (Diagonal) کی لمبائی')
-      .replace(/वृत्त की परिधि/g, 'دائرے کا محیط (Circumference)')
-      .replace(/वृत्त का क्षेत्रफल/g, 'دائرے کا رقبہ (Area)')
-      .replace(/त्रिज्या/g, 'نصف قطر (Radius)')
-      .replace(/व्यास/g, 'قطر (Diameter)')
       .replace(/समांतर श्रेढ़ी/g, 'حسابی تصاعد (AP)')
-      .replace(/सार्व अंतर/g, 'مشترک فرق (Common Difference)')
-      .replace(/प्रायिकता/g, 'احتمال (Probability)')
-      .replace(/निश्चित घटना/g, 'یقینی واقعہ')
-      .replace(/असंभव घटना/g, 'ناممکن واقعہ')
-      .replace(/माध्य/g, 'اوسط (Mean)')
-      .replace(/माध्यिका/g, 'وسطانیہ (Median)')
-      .replace(/बहुलक/g, 'کثیرانیہ (Mode)')
-      .replace(/अम्ल/g, 'تیزاب (Acid)')
-      .replace(/क्षारक/g, 'اساس (Base)')
-      .replace(/लवण/g, 'نمک (Salt)')
       .replace(/प्रकाश संश्लेषण/g, 'ضیائی تالیف (Photosynthesis)')
-      .replace(/विस्थापन अभिक्रिया/g, 'ہٹاؤ کا تعامل (Displacement Reaction)')
-      .replace(/संयोजन अभिक्रिया/g, 'ترکیبی تعامل (Combination Reaction)')
-      .replace(/अपघटन अभिक्रिया/g, 'تحلیلی تعامل (Decomposition Reaction)')
-      .replace(/पौधों में/g, 'پودوں میں')
-      .replace(/का मान क्या होगा\??/g, 'کی قیمت کیا ہوگی؟')
-      .replace(/क्या होता है\??/g, 'کیا ہوتا ہے؟')
-      .replace(/क्या होगी\??/g, 'کیا ہوگی؟')
-      .replace(/कहा जाता है/g, 'کہا جاتا ہے')
-      .replace(/उदाहरण है/g, 'مثال ہے')
-      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'مندرجہ ذیل میں سے کس')
-      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'مندرجہ ذیل میں سے کون سا')
-      .replace(/आवश्यकता होती है\??/g, 'ضرورت ہوتی ہے؟')
-      .replace(/Which of the following/gi, 'مندرجہ ذیل میں سے کون سا')
-      .replace(/What is the value of/gi, 'کی قیمت کیا होगी:')
-      .replace(/सत्य है\??/g, 'درست ہے؟')
-      .replace(/सही कथन है\??/g, 'درست بیان ہے؟')
-      .replace(/बराबर है/g, 'کے برابر ہے')
-      .replace(/ज्ञात कीजिए/g, 'معلوم کیجیے');
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'مندرجہ ذیل में से कौन سا');
   } else if (targetLangCode === 'te') {
     translatedStem = translatedStem
       .replace(/द्विघात बहुपद/g, 'వర్గ బహుపది (Quadratic Polynomial)')
       .replace(/द्विघात समीकरण/g, 'వర్గ సమీకరణం (Quadratic Equation)')
       .replace(/के शून्यांकों का योगफल/g, 'శూన్యాల మొత్తం (Sum of zeroes)')
-      .replace(/के शून्यांकों का गुणनफल/g, 'శూన్యాల లబ్ధం')
-      .replace(/के मूल वास्तविक और समान हों/g, 'మూలాలు వాస్తవాలు మరియు సమానమైతే')
-      .replace(/के मूल समान हों/g, 'మూలాలు సమానమైతే')
-      .replace(/विविक्तकर/g, 'విచక్షణి (Discriminant)')
-      .replace(/बिन्दुओं/g, 'బిందువులు')
-      .replace(/और/g, 'మరియు')
-      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'కలిపే రేఖాఖండం మధ్య బిందువు నిరూపకాలు')
-      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'రెండు సరూప త్రిభుజాల భుజాల నిష్పత్తి')
-      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'వాటి వైశాల్యాల నిష్పత్తి ఎంత?')
-      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'మొదటి n బేసి సహజ సంఖ్యల మొత్తం')
-      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'భుజం a కలిగిన సమఘనం (Cube)')
-      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'ప్రధాన కర్ణం పొడవు')
-      .replace(/समांतर श्रेढ़ी/g, 'అంకశ్రేఢి (AP)')
-      .replace(/सार्व अंतर/g, 'సాధారణ భేదం')
-      .replace(/पौधों में/g, 'మొక్కలలో')
       .replace(/प्रकाश संश्लेषण/g, 'కిరణజన్య సంయోగక్రియ (Photosynthesis)')
-      .replace(/के लिए/g, 'కోసం')
-      .replace(/का मान क्या होगा\??/g, 'విలువ ఎంత?')
-      .replace(/क्या होता है\??/g, 'ఏమిటి?')
-      .replace(/क्या होगी\??/g, 'ఎంత?')
-      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'కింది వాటిలో దేని')
-      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'కింది వాటిలో ఏది')
-      .replace(/आवश्यकता होती है\??/g, 'అవసరం?')
-      .replace(/Which of the following/gi, 'కింది వాటిలో ఏది')
-      .replace(/सत्य है\??/g, 'నిజమైనది?')
-      .replace(/ज्ञात कीजिए/g, 'కనుగొనండి')
-      .replace(/बराबर है/g, 'సమానం');
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'కింది వాటిలో ఏది');
   } else if (targetLangCode === 'ta') {
     translatedStem = translatedStem
       .replace(/द्विघात बहुपद/g, 'இருபடி பல்லுறுப்புக் கோவை (Quadratic Polynomial)')
       .replace(/द्विघात समीकरण/g, 'இருபடிச் சமன்பாடு')
-      .replace(/के शून्यांकों का योगफल/g, 'பூஜ்ஜியங்களின் கூடுதல் (Sum of zeroes)')
-      .replace(/के मूल वास्तविक और समान हों/g, 'மூலங்கள் மெய் மற்றும் சமம் எனில்')
-      .replace(/के मूल समान हों/g, 'மூலங்கள் சமம் எனில்')
-      .replace(/विविक्तकर/g, 'தன்மைகாட்டி (Discriminant)')
-      .replace(/बिन्दुओं/g, 'புள்ளிகள்')
-      .replace(/और/g, 'மற்றும்')
-      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'இணைக்கும் கோட்டுத்துண்டின் நடுப்புள்ளி ஆயத்தொலைவுகள்')
-      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'இரண்டு வடிவொத்த முக்கோணங்களின் பக்கங்களின் விகிதம்')
-      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'அவற்றின் பரப்பளவுகளின் விகிதம் என்ன?')
-      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'முதல் n ஒற்றை இயல் எண்களின் கூடுதல்')
-      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'பக்கம் a கொண்ட கனசதுரத்தின் (Cube)')
-      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'மூலைவிட்டத்தின் நீளம்')
-      .replace(/पौधों में/g, 'தாவரங்களில்')
       .replace(/प्रकाश संश्लेषण/g, 'ஒளிச்சேர்க்கை (Photosynthesis)')
-      .replace(/के लिए/g, 'க்காக')
-      .replace(/का मान क्या होगा\??/g, 'மதிப்பு என்ன?')
-      .replace(/क्या होता है\??/g, 'என்ன?')
-      .replace(/क्या होगी\??/g, 'என்ன?')
-      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'பின்வருவனவற்றில் எதன்')
-      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'பின்வருவனவற்றில் எது')
-      .replace(/आवश्यकता होती है\??/g, 'தேவைப்படுகிறது?')
-      .replace(/Which of the following/gi, 'பின்வருவனவற்றில் எது')
-      .replace(/सत्य है\??/g, 'சரியானது?')
-      .replace(/ज्ञात कीजिए/g, 'காண்க')
-      .replace(/बराबर है/g, 'சமம்');
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'பின்வருவனவற்றில் எது');
   } else if (targetLangCode === 'bn') {
     translatedStem = translatedStem
       .replace(/द्विघात बहुपद/g, 'দ্বিঘাত বহুপদী রাশি (Quadratic Polynomial)')
       .replace(/द्विघात समीकरण/g, 'দ্বিঘাত সমীকরণ')
-      .replace(/के शून्यांकों का योगफल/g, 'শূন্যগুলির সমষ্টি (Sum of zeroes)')
-      .replace(/के मूल वास्तविक और समान हों/g, 'বীজদ্বয় বাস্তব ও সমান হলে')
-      .replace(/के मूल समान हों/g, 'বীজদ্বয় সমান হলে')
-      .replace(/विविक्तकर/g, 'নিরূপক (Discriminant)')
-      .replace(/बिन्दुओं/g, 'বিন্দুগুলি')
-      .replace(/और/g, 'এবং')
-      .replace(/को मिलाने वाले रेखाखंड के मध्य-बिन्दु के निर्देशांक/g, 'সংযোজক সরলরেখাংশের মধ্যবিন্দুর স্থানাঙ্ক')
-      .replace(/दो समरूप त्रिभुजों की भुजाओं का अनुपात/g, 'দুটি সদৃশ ত্রিভুজের বাহুর অনুপাত')
-      .replace(/इनके क्षेत्रफलों का अनुपात क्या होगा\??/g, 'এদের ক্ষেত্রফলের অনুপাত কত?')
-      .replace(/प्रथम n विषम प्राकृत संख्याओं का योगफल/g, 'প্রথম n বিজোড় স্বাভাবিক সংখ্যার যোগফল')
-      .replace(/भुजा a वाले एक घन \(Cube\)/g, 'a বাহুবিশিষ্ট একটি ঘনকের (Cube)')
-      .replace(/के मुख्य विकर्ण \(Diagonal\) की लम्बाई/g, 'কর্ণের দৈর্ঘ্য')
-      .replace(/पौधों में/g, 'উদ্ভিদে')
       .replace(/प्रकाश संश्लेषण/g, 'সালোকসংশ্লেষ (Photosynthesis)')
-      .replace(/के लिए/g, 'জন্য')
-      .replace(/का मान क्या होगा\??/g, 'এর মান কত?')
-      .replace(/क्या होता है\??/g, 'কী?')
-      .replace(/क्या होगी\??/g, 'কত?')
-      .replace(/निम्नलिखित में से किस(?:की|के|को|का)?/g, 'নিচের কোনটির')
-      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'নিচের কোনটি')
-      .replace(/आवश्यकता होती है\??/g, 'প্রয়োজন?')
-      .replace(/Which of the following/gi, 'নিচের কোনটি')
-      .replace(/सत्य है\??/g, 'সঠিক?')
-      .replace(/ज्ञात कीजिए/g, 'নির্ণয় করুন')
-      .replace(/बराबर है/g, 'সমান');
+      .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'নিচের কোনটি');
   }
 
-  const scriptPrefixes = {
-    ur: 'سوال: ',
-    te: 'ప్రశ్న: ',
-    ta: 'வினா: ',
-    bn: 'প্রশ্ন: ',
-    mr: 'प्रश्न: ',
-    gu: 'પ્રશ્ન: ',
-    kn: 'ಪ್ರಶ್ನೆ: ',
-    pa: 'ਪ੍ਰਸ਼ਨ: ',
-    ml: 'ചോദ്യം: ',
-    or: 'ପ୍ରଶ୍ନ: ',
-    as: 'প্ৰশ্ন: '
-  };
-
-  const scriptDetectors = {
-    ur: /[\u0600-\u06FF]/,
-    te: /[\u0C00-\u0C7F]/,
-    ta: /[\u0B80-\u0BFF]/,
-    bn: /[\u0980-\u09FF]/,
-    mr: /[\u0900-\u097F]/,
-    gu: /[\u0A80-\u0AFF]/,
-    kn: /[\u0C80-\u0CFF]/,
-    pa: /[\u0A00-\u0A7F]/,
-    ml: /[\u0D00-\u0D7F]/,
-    or: /[\u0B00-\u0B7F]/,
-    as: /[\u0980-\u09FF]/
-  };
-
-  if (scriptDetectors[targetLangCode] && !scriptDetectors[targetLangCode].test(translatedStem)) {
-    const pfx = scriptPrefixes[targetLangCode] || '';
-    translatedStem = `${pfx}${translatedStem}`;
-  }
-
-  const composedPrimary = localizedHeader ? `${localizedHeader} ${translatedStem}` : translatedStem;
-  return composedPrimary;
+  return cleanQuestionText(translatedStem);
 }
 
 function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCode, sourceSlice) {
@@ -975,7 +927,7 @@ function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCod
   const boardState = boardMeta.state || 'State';
 
   const src = sourceSlice || {};
-  const rawQ = src.question || src.q || src.question_text || questionRow.question_text || questionRow.question || questionRow.q || '';
+  const rawQ = extractSliceText(src) || extractSliceText(questionRow) || '';
   const rawModelAns = src.model_answer || src.explanation || src.exp || questionRow.model_answer || questionRow.explanation || '';
 
   const rawOpts = Array.isArray(src.options)
@@ -1028,27 +980,67 @@ function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCod
   };
 }
 
-function cleanQuestionText(text) {
+function cleanQuestionText(text, targetLang = null) {
   if (!text || typeof text !== 'string') return '';
   let cleaned = text.trim();
+
+  // If text is wrapped in [English: XYZ] or [Regional: XYZ], unwrap it
+  const wrapMatch = cleaned.match(/^\[(?:English|अंग्रेज़ी|अंग्रेजी|Regional|Hindi|हिन्दी|Secondary):\s*([^\]]+)\]$/i);
+  if (wrapMatch) {
+    cleaned = wrapMatch[1].trim();
+  }
+
+  // If dual-text is present and targetLang is specified
+  if (targetLang === 'en') {
+    const enMatch = cleaned.match(/\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*([^\]]+)\]/i);
+    if (enMatch) {
+      cleaned = enMatch[1].trim();
+    }
+  } else if (targetLang && targetLang !== 'en') {
+    cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\\\]]+\]/gi, '').trim();
+  }
+
+  // Strip all leading metadata in brackets e.g. [Mathematics - Real Numbers]
   while (/^\[[^\]\r\n]+\]\s*/.test(cleaned)) {
     cleaned = cleaned.replace(/^\[[^\]\r\n]+\]\s*/, '');
   }
-  cleaned = cleaned.replace(/^(?:(?:According to|As per|के अनुसार|पाठ्यक्रम के अनुसार)\s*)+[^,.:\n]{0,80}[,.:\-]\s*/i, '');
-  cleaned = cleaned.replace(/^[A-Z0-9\s\-]+(?:\d{4}-\d{2,4})?\s*(?:ब्लूप्रिंट|blueprint|पाठ्यक्रम|syllabus)\s*(?:के अनुसार|according to)?[^,.:\n]{0,60}[,.:\-]\s*/i, '');
-  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:प्रश्न|प्रश्‍न|Question|Q|Ques|Que)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+
+  // Strip session boilerplate e.g. (सत्र 2026-27), (2026-27 Edition), (2026-27 SQP Blueprint)
+  cleaned = cleaned.replace(/\((?:सत्र\s*)?\d{4}-\d{2,4}(?:\s*(?:Edition|SQP|Blueprint))?\)\s*[:.\-–—]?\s*/gi, '');
+  cleaned = cleaned.replace(/\(सत्र\s*2026-27\)\s*[:.\-–—]?\s*/gi, '');
+
+  // Strip syllabus and blueprint clauses
+  cleaned = cleaned.replace(/^(?:(?:According to|As per|के अनुसार|पाठ्यक्रम के अनुसार)\s*)+[^,.:\n]{0,100}[,.:\-]\s*/i, '');
+  cleaned = cleaned.replace(/^[A-Z0-9\s\-]+(?:\d{4}-\d{2,4})?\s*(?:ब्लूप्रिंट|blueprint|पाठ्यक्रम|syllabus)\s*(?:के अनुसार|according to)?[^,.:\n]{0,80}[,.:\-]\s*/i, '');
+  cleaned = cleaned.replace(/^(?:(?:CBSE|ICSE|CISCE|UPMSP|BSEB|RBSE|MPBSE|WBBSE|TNDGE|KSEAB|GSEB|PSEB|NIOS|CGBSE|CHSE|UBSE|SEBA|TSBIE|BIEAP|JKBOSE|DHSE|TBSE|NCERT|Class\s*\d+|कक्षा\s*\d+)\s*)+[\u0900-\u0DFF\w\s\-—]*(?:अध्याय\s*['"][^'"]+['"]\s*)?(?:से\s*\d+\s*अंक\s*का\s*प्रश्न)?\s*[:.\-–—\n]\s*/i, '');
   cleaned = cleaned.replace(/^[\u0900-\u0DFF\w\s\-—]+(Board|Exam|Class|कक्षा|बोर्ड|प्रैक्टिस|अभ्यास|Science|विज्ञान|Math|गणित|English|Hindi|Chemistry|Physics|Biology)[^:\n]{0,80}:\s*/i, '');
-  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్ന|प्रश्न|ചോദ്യം|سوال\s*(?:نمبر)?)\s*#?\d+\s*[:.\-–—]\s*/i, '');
+
+  // Strip chapter/passage question openers
+  cleaned = cleaned.replace(/^(?:Question|Q\.)\s*#?\d+\s+from\s+['"][^'"]+['"]\s*[:.\-–—]?\s*/i, '');
+  cleaned = cleaned.replace(/^(?:पाठ|अध्याय|यूनिट)\s*['"][^'"]+['"]\s*से\s*संबंधित\s*(?:प्रश्न\s*#?\d+)?\s*[:.\-–—]?\s*/i, '');
+
+  // Strip leading question labels & numbering
+  cleaned = cleaned.replace(/^(?:प्रश्न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्‍न\s*(?:सं\.?|संख्या|क्र\.?)|प्रश्न|प्रश्‍न|Question|Q\.|Ques|Que|Q|ਪ੍ਰਸ਼ਨ\s*(?:ਨੰ\.?)?|ಪ್ರಶ್ನೆ|வினா|ప్రశ్న|प्रश्न|ചോദ്യം|سوال\s*(?:نمबर)?)\s*#?\d+\s*[:.\-–—]\s*/i, '');
   cleaned = cleaned.replace(/^#?\d+\s*[:.\-–—]\s*/, '');
   cleaned = cleaned.replace(/^\(\d+\)\s*/, '');
   cleaned = cleaned.replace(/^\d+[\.)]\s+/, '');
-  const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|\#\d+)[^)]*\)\s*(\??)$/i;
-  const match = cleaned.match(trailingNoiseRegex);
-  if (match) {
-    const hasQuestionMark = cleaned.endsWith('?') || (match[1] === '?');
+
+  // Strip trailing question type markers
+  cleaned = cleaned.replace(/\s*\((?:Very\s*Short\s*Answer|Short\s*Answer|Long\s*Answer|Case\s*Study)[^)]*\)\s*(\??)$/i, '$1');
+
+  // Strip trailing provenance/noise in parentheses e.g. (अभ्यास प्रश्न #112), (Exercise #170)
+  const trailingNoiseRegex = /\s*\([^)]*(?:सीबीएसई|CBSE|कक्षा|Class|बोर्ड|Board|नमूना|Sample|पेपर|Paper|Item|प्रश्न|Question|अभ्यास|Exercise|\#\d+|जांच संदर्भ|अभ्यास संदर्भ)[^)]*\)\s*(\??)$/i;
+  while (trailingNoiseRegex.test(cleaned)) {
+    const m = cleaned.match(trailingNoiseRegex);
+    const hasQuestionMark = cleaned.endsWith('?') || (m && m[1] === '?');
     cleaned = cleaned.replace(trailingNoiseRegex, hasQuestionMark ? '?' : '').trim();
   }
-  cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी):\s*[^\]]+\]/gi, '').trim();
+
+  // Strip any leftover bracket wrappers
+  cleaned = cleaned.replace(/\s*(?:\\n|\n)?\[(?:English|अंग्रेज़ी|अंग्रेजी|Regional|Hindi|हिन्दी|Secondary):?\s*[^\]]*\]/gi, '').trim();
+  // Strip trailing bracketed translations/notes e.g. \n[How many...] or \n[Choose the correct verb form:]
+  cleaned = cleaned.replace(/\s*(?:\\n|\n)\s*\[[^\]]+\]\s*$/i, '').trim();
+
   return cleaned.trim() || text.trim();
 }
 
@@ -1099,9 +1091,35 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
     const nativeCode = getNativeLanguageCodeForSubject(subjectId, questionRow.subject_name || '');
     const chosenSlice = langContent[nativeCode] || Object.values(langContent)[0] || {};
 
-    const rawQ = chosenSlice.question || chosenSlice.q || chosenSlice.question_text || chosenSlice.stem || chosenSlice.prompt || questionRow.question_text || questionRow.question || questionRow.q || '';
+    let rawQ = chosenSlice.question || chosenSlice.q || chosenSlice.question_text || chosenSlice.stem || chosenSlice.prompt || questionRow.question_text || questionRow.question || questionRow.q || '';
+    let cleanedQ = cleanQuestionText(rawQ);
+
+    // Enforce strictly single language without any foreign second line
+    const qLines = cleanedQ.split('\n').map(l => l.trim()).filter(Boolean);
+    if (qLines.length > 1) {
+      if (nativeCode === 'en' && /[\u0900-\u0DFF]/.test(qLines[1])) {
+        cleanedQ = qLines[0];
+      } else if (nativeCode !== 'en' && /[a-zA-Z]/.test(qLines[1]) && !hasScriptForLang(qLines[1], nativeCode)) {
+        cleanedQ = qLines[0];
+      }
+    }
+
     let opts = chosenSlice.options || questionRow.options || [];
     if (!Array.isArray(opts) && typeof opts === 'object') opts = Object.values(opts);
+    const cleanOpts = opts.map((o, idx) => {
+      let str = String(o).trim();
+      const prefix = ['A)', 'B)', 'C)', 'D)'][idx] || `${idx + 1})`;
+      let body = str.replace(/^[A-Da-d][\).\:-]\s*/i, '').replace(/^[1-4][\)\:-]\s*/, '').trim();
+      if (body.includes(' / ')) {
+        const parts = body.split(' / ');
+        if (nativeCode === 'en') {
+          body = parts.find(p => /[a-zA-Z]/.test(p)) || parts[0];
+        } else {
+          body = parts.find(p => hasScriptForLang(p, nativeCode)) || parts[0];
+        }
+      }
+      return `${prefix} ${body}`;
+    });
 
     const modelAns = chosenSlice.model_answer || chosenSlice.modelAnswer || chosenSlice.explanation || chosenSlice.exp || chosenSlice.ans || questionRow.model_answer || questionRow.modelAnswer || questionRow.explanation || questionRow.a || '';
     const keyPoints = chosenSlice.key_points || chosenSlice.keyPoints || [];
@@ -1123,15 +1141,15 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
       secondaryLanguage: null,
 
       // Strictly Single Language (native script only)
-      questionText: cleanQuestionText(rawQ),
-      primaryQuestionText: cleanQuestionText(rawQ),
+      questionText: cleanedQ,
+      primaryQuestionText: cleanedQ,
       secondaryQuestionText: '',
-      targetLanguageQuestionText: cleanQuestionText(rawQ),
-      stateLanguageQuestionText: cleanQuestionText(rawQ),
+      targetLanguageQuestionText: cleanedQ,
+      stateLanguageQuestionText: cleanedQ,
       englishQuestionText: '',
-      options: opts.map(o => String(o).trim()),
-      singleLanguageOptions: opts.map(o => String(o).trim()),
-      bilingualOptions: opts.map(o => String(o).trim()),
+      options: cleanOpts,
+      singleLanguageOptions: cleanOpts,
+      bilingualOptions: cleanOpts,
       explanation: modelAns,
       modelAnswer: modelAns,
       keyPoints,
@@ -1147,12 +1165,45 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
   // 2. Resolve English Slice
   let englishSlice = langContent[secLang];
 
-  // Synthesize missing slice if one is absent, guaranteeing 100% dual-language coverage
-  if (!stateSlice && englishSlice) {
+  // Helper: check if a slice has authentic text for the given language
+  const isSliceAuthentic = (slice, lang) => {
+    if (!slice) return false;
+    const q = slice.question || slice.q || slice.question_text || slice.stem || '';
+    if (!q || typeof q !== 'string') return false;
+    if (lang === 'en') {
+      const dev = (q.match(/[\u0900-\u097F]/g) || []).length;
+      const lat = (q.match(/[a-zA-Z]/g) || []).length;
+      return lat > 6 && lat >= dev;
+    }
+    if (lang === 'hi') {
+      const dev = (q.match(/[\u0900-\u097F]/g) || []).length;
+      const lat = (q.match(/[a-zA-Z]/g) || []).length;
+      return dev > 4 && dev >= lat;
+    }
+    return hasScriptForLang(q, lang);
+  };
+
+  // Check if either slice has embedded [English: ...] tag to separate
+  for (const s of [stateSlice, englishSlice]) {
+    if (s) {
+      const qText = s.question || s.q || s.question_text || s.stem || '';
+      const m = qText.match(/^(.*?)(?:\s*\n\s*|\s+)\[(?:(?:English|अंग्रेज़ी|अंग्रेजी):\s*)?([A-Za-z0-9\s\?,.:;'"\-\(\)\/\\+=%:±√²³]+)\]\s*$/is);
+      if (m) {
+        if (!stateSlice) stateSlice = { ...s };
+        if (!englishSlice) englishSlice = { ...s };
+        stateSlice.question = m[1].trim();
+        englishSlice.question = m[2].trim();
+        break;
+      }
+    }
+  }
+
+  // Synthesize missing slice if absent or not authentic
+  if (!isSliceAuthentic(stateSlice, stateLang) && isSliceAuthentic(englishSlice, secLang)) {
     stateSlice = synthesizeMissingCounterpart(questionRow, stateLang, secLang, englishSlice);
-  } else if (!englishSlice && stateSlice) {
+  } else if (!isSliceAuthentic(englishSlice, secLang) && isSliceAuthentic(stateSlice, stateLang)) {
     englishSlice = synthesizeMissingCounterpart(questionRow, secLang, stateLang, stateSlice);
-  } else if (!stateSlice && !englishSlice) {
+  } else if (!isSliceAuthentic(stateSlice, stateLang) && !isSliceAuthentic(englishSlice, secLang)) {
     const fallbackSlice = Object.values(langContent)[0] || {
       question: questionRow.question_text || questionRow.question || questionRow.q || '',
       options: questionRow.options || [],
@@ -1210,9 +1261,9 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
     }
   }
 
-  const targetQText = targetSlice.question || targetSlice.q || targetSlice.question_text || '';
-  const stateQText = stateSlice.question || stateSlice.q || stateSlice.question_text || '';
-  const englishQText = englishSlice.question || englishSlice.q || englishSlice.question_text || '';
+  const targetQText = extractSliceText(targetSlice);
+  const stateQText = extractSliceText(stateSlice);
+  const englishQText = extractSliceText(englishSlice);
 
   // Dual-Language Question Text Formatting:
   // Primary (chosen medium) on top, Secondary (English / State) below
@@ -1239,12 +1290,7 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
 
   let dualQuestionText = '';
   if (cleanP && cleanS && cleanP.trim().toLowerCase() !== cleanS.trim().toLowerCase()) {
-    let secLabel = 'English';
-    if (targetMedium === 'en') {
-      const stateMeta = SUPPORTED_MEDIUMS_META[stateLang];
-      secLabel = stateMeta ? (stateMeta.label || 'Regional') : 'Regional';
-    }
-    dualQuestionText = `${cleanP}\n\n[${secLabel}: ${cleanS}]`;
+    dualQuestionText = `${cleanP}\n${cleanS}`;
   } else {
     dualQuestionText = cleanP || cleanS || cleanQuestionText(questionRow.question_text) || '';
   }
