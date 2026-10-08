@@ -893,11 +893,13 @@ class PdfGenerationService {
               const item = boardSubjectives[i];
               questionIds.push(item.id || `q-sol-${i + 1}`);
               const qParts = (item.q || '').split('\n').map(l => l.trim()).filter(Boolean);
+              const sMatch = qParts[1] ? qParts[1].match(/^\[([^:]+):\s*(.*)\]$/) : null;
               solutionsList.push({
                 qNum: i + 1,
                 subject: subjectId.toUpperCase(),
                 prompt: cleanQuestionText(qParts[0] || ''),
-                altPrompt: qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '',
+                altPrompt: qParts[1] ? cleanQuestionText(sMatch ? sMatch[2] : qParts[1].replace(/^\[[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '',
+                altLabel: sMatch ? sMatch[1] : 'Secondary',
                 marks: item.marks || 2,
                 modelAnswer: item.modelAnswer || item.a || 'Model answer not available.'
               });
@@ -907,11 +909,13 @@ class PdfGenerationService {
               const item = boardMcqs[i];
               questionIds.push(item.id || `q-sol-${i + 1}`);
               const qParts = (item.q || '').split('\n').map(l => l.trim()).filter(Boolean);
+              const sMatch = qParts[1] ? qParts[1].match(/^\[([^:]+):\s*(.*)\]$/) : null;
               solutionsList.push({
                 qNum: i + 1,
                 subject: subjectId.toUpperCase(),
                 prompt: cleanQuestionText(qParts[0] || ''),
-                altPrompt: qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '',
+                altPrompt: qParts[1] ? cleanQuestionText(sMatch ? sMatch[2] : qParts[1].replace(/^\[[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '',
+                altLabel: sMatch ? sMatch[1] : 'Secondary',
                 marks: 1,
                 correctAnswer: item.ans || 'Correct Option',
                 modelAnswer: item.exp || item.explanation || 'Detailed concept explanation.'
@@ -1137,7 +1141,9 @@ class PdfGenerationService {
 
               const qParts = (item.q || 'Question').split('\n').map(l => l.trim()).filter(Boolean);
               const cleanP = cleanQuestionText(qParts[0] || '');
-              const cleanS = qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '';
+              const sMatch = qParts[1] ? qParts[1].match(/^\[([^:]+):\s*(.*)\]$/) : null;
+              const sLabel = sMatch ? sMatch[1] : 'Secondary';
+              const cleanS = qParts[1] ? cleanQuestionText(sMatch ? sMatch[2] : qParts[1].replace(/^\[[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '';
 
               doc.fontSize(9.5).font(fBold).fillColor('#1a365d')
                 .text(`Q.${currentQNum}.`, 40, doc.y, { continued: true })
@@ -1146,7 +1152,7 @@ class PdfGenerationService {
 
               if (cleanS && cleanS.toLowerCase() !== cleanP.toLowerCase()) {
                 doc.fontSize(9).font(fReg).fillColor('#4a5568')
-                  .text(`     [English / Alt]: ${cleanS}`);
+                  .text(`     [${sLabel}]: ${cleanS}`);
               }
 
               const opts = Array.isArray(item.options) ? item.options : ['(A)', '(B)', '(C)', '(D)'];
@@ -1178,7 +1184,9 @@ class PdfGenerationService {
 
               const qParts = (item.q || 'Subjective Question').split('\n').map(l => l.trim()).filter(Boolean);
               const cleanP = cleanQuestionText(qParts[0] || '');
-              const cleanS = qParts[1] ? cleanQuestionText(qParts[1].replace(/^\[(?:English|Alt|Secondary)[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '';
+              const sSubMatch = qParts[1] ? qParts[1].match(/^\[([^:]+):\s*(.*)\]$/) : null;
+              const sSubLabel = sSubMatch ? sSubMatch[1] : 'Secondary';
+              const cleanS = qParts[1] ? cleanQuestionText(sSubMatch ? sSubMatch[2] : qParts[1].replace(/^\[[^:]*:\s*/i, '').replace(/\]\s*$/, '')) : '';
 
               doc.fontSize(9.5).font(fBold).fillColor('#1a365d')
                 .text(`Q.${currentQNum} [${item.marks || 2} Marks]:`, 40, doc.y, { continued: true })
@@ -1187,7 +1195,7 @@ class PdfGenerationService {
 
               if (cleanS && cleanS.toLowerCase() !== cleanP.toLowerCase()) {
                 doc.fontSize(9).font(fReg).fillColor('#4a5568')
-                  .text(`     [English / Alt]: ${cleanS}`);
+                  .text(`     [${sSubLabel}]: ${cleanS}`);
               }
               doc.moveDown(0.6);
               currentQNum++;

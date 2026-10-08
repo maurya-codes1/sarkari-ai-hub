@@ -77,7 +77,7 @@ async function main() {
   // --------------------------------------------------------------------------
   // TEST 2: Multi-Medium Board Invariance — Maharashtra MSBSHSE (5 Mediums)
   // --------------------------------------------------------------------------
-  runTest('Test 2: Multi-Medium Board Invariance — Maharashtra MSBSHSE (5 Mediums: mr, en, hi, ur, gu)', () => {
+  runTest('Test 2: Multi-Medium Board Invariance — Maharashtra MSBSHSE (4 Mediums: mr, en, hi, gu)', () => {
     const rawQ = {
       id: 'q-mah-math-01',
       boardId: 'msbshse-maharashtra',
@@ -89,14 +89,14 @@ async function main() {
       modelAnswer: 'अवयव पद्धत: 2x² + 2x + 3x + 3 = 0 => 2x(x + 1) + 3(x + 1) = 0 => x = -1 किंवा x = -3/2'
     };
 
-    const mediums = ['mr', 'en', 'hi', 'ur', 'gu'];
+    const mediums = ['mr', 'en', 'hi', 'gu'];
     const resolvedOutputs = {};
 
     for (const med of mediums) {
       const res = boardMediumGovService.resolveQuestionMedium(rawQ, med);
       resolvedOutputs[med] = res;
 
-      // Invariance 1: Identical Question ID across all 5 mediums
+      // Invariance 1: Identical Question ID across all mediums
       assert.strictEqual(res.questionId, 'q-mah-math-01', `Question ID must remain identical for medium ${med}`);
       assert.strictEqual(res.marks, 4, `Marks must remain 4 for medium ${med}`);
 
@@ -108,14 +108,17 @@ async function main() {
     assert.ok(resolvedOutputs.mr.modelAnswer.includes('अवयव') || resolvedOutputs.mr.modelAnswer.includes('आदर्श उत्तर') || resolvedOutputs.mr.modelAnswer.includes('गुणदान'), 'Marathi solution must have authentic Marathi content');
     assert.ok(resolvedOutputs.en.modelAnswer.includes('Model Answer') || resolvedOutputs.en.modelAnswer.includes('Marking Scheme'), 'English solution must have English header');
     assert.ok(resolvedOutputs.hi.modelAnswer.includes('आदर्श उत्तर'), 'Hindi solution must have Hindi header');
-    assert.ok(resolvedOutputs.ur.modelAnswer.includes('ماڈل جواب'), 'Urdu solution must have Urdu header');
     assert.ok(resolvedOutputs.gu.modelAnswer.includes('આદર્શ ઉત્તર'), 'Gujarati solution must have Gujarati header');
+
+    // Urdu removal safety check: requesting 'ur' safely falls back to native state medium ('mr')
+    const urRes = boardMediumGovService.resolveQuestionMedium(rawQ, 'ur');
+    assert.strictEqual(urRes.resolvedMedium, 'mr', 'Urdu request must safely fall back to native Marathi medium');
   });
 
   // --------------------------------------------------------------------------
   // TEST 3: Multi-Medium Board Invariance — West Bengal WBBSE (4 Mediums)
   // --------------------------------------------------------------------------
-  runTest('Test 3: Multi-Medium Board Invariance — West Bengal WBBSE (4 Mediums: bn, en, hi, ur)', () => {
+  runTest('Test 3: Multi-Medium Board Invariance — West Bengal WBBSE (3 Mediums: bn, en, hi)', () => {
     const rawQ = {
       id: 'q-wb-physical-sci-01',
       boardId: 'wbbse-wbchse-west-bengal',
@@ -127,7 +130,7 @@ async function main() {
       modelAnswer: 'বয়েলের সূত্র: স্থির তাপমাত্রায় নির্দিষ্ট ভরের কোনো গ্যাসের আয়তন তার চাপের সাথে ব্যস্তানুপাতে পরিবর্তিত হয়। গাণিতিক রূপ: V ∝ 1/P বা PV = K (ধ্রুবক)।'
     };
 
-    const mediums = ['bn', 'en', 'hi', 'ur'];
+    const mediums = ['bn', 'en', 'hi'];
     for (const med of mediums) {
       const res = boardMediumGovService.resolveQuestionMedium(rawQ, med);
       assert.strictEqual(res.questionId, 'q-wb-physical-sci-01', 'Question ID must be invariant');
@@ -136,17 +139,19 @@ async function main() {
 
     const bnRes = boardMediumGovService.resolveQuestionMedium(rawQ, 'bn');
     const enRes = boardMediumGovService.resolveQuestionMedium(rawQ, 'en');
+    const hiRes = boardMediumGovService.resolveQuestionMedium(rawQ, 'hi');
     const urRes = boardMediumGovService.resolveQuestionMedium(rawQ, 'ur');
 
     assert.ok(bnRes.modelAnswer.includes('বয়েলের সূত্র') || bnRes.modelAnswer.includes('আদর্শ উত্তর'), 'Bengali solution retains Bengali script');
     assert.ok(enRes.modelAnswer.includes('Model Answer') || enRes.modelAnswer.includes('Boyle'), 'English solution formats in English');
-    assert.ok(urRes.modelAnswer.includes('ماڈل جواب'), 'Urdu solution formats in Urdu');
+    assert.ok(hiRes.modelAnswer.includes('आदर्श उत्तर'), 'Hindi solution formats in Hindi');
+    assert.strictEqual(urRes.resolvedMedium, 'bn', 'Urdu request must safely fall back to native Bengali medium');
   });
 
   // --------------------------------------------------------------------------
-  // TEST 4: Multi-Medium Board Invariance — Telangana & Andhra Pradesh (3 Mediums)
+  // TEST 4: Multi-Medium Board Invariance — Telangana & Andhra Pradesh (2 Mediums: te, en)
   // --------------------------------------------------------------------------
-  runTest('Test 4: Multi-Medium Board Invariance — Telangana & AP (3 Mediums: te, en, ur)', () => {
+  runTest('Test 4: Multi-Medium Board Invariance — Telangana & AP (2 Mediums: te, en)', () => {
     const rawQ = {
       id: 'q-tel-sci-01',
       boardId: 'tsbie-bieap',
@@ -163,11 +168,11 @@ async function main() {
     const urRes = boardMediumGovService.resolveQuestionMedium(rawQ, 'ur');
 
     assert.strictEqual(teRes.questionId, enRes.questionId, 'Question ID invariant between te and en');
-    assert.strictEqual(enRes.questionId, urRes.questionId, 'Question ID invariant between en and ur');
+    assert.strictEqual(enRes.questionId, urRes.questionId, 'Question ID invariant between en and ur fallback');
 
     assert.ok(teRes.modelAnswer.includes('సమీకరణం') || teRes.modelAnswer.includes('ఆదర్శ సమాధానం'), 'Telugu model answer has Telugu script');
     assert.ok(enRes.modelAnswer.includes('Model Answer'), 'English model answer has English header');
-    assert.ok(urRes.modelAnswer.includes('ماڈل جواب'), 'Urdu model answer has Urdu header');
+    assert.strictEqual(urRes.resolvedMedium, 'te', 'Urdu request must safely fall back to Telugu');
   });
 
   // --------------------------------------------------------------------------

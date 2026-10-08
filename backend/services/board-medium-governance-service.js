@@ -79,7 +79,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'hi',
     secondaryLanguage: 'en',
     primaryMedium: 'hi',
-    officialMediums: ['hi', 'en', 'ur'],
+    officialMediums: ['hi', 'en'],
     allowMediumSelection: true
   },
   'upmsp-uttar-pradesh': {
@@ -89,7 +89,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'hi',
     secondaryLanguage: 'en',
     primaryMedium: 'hi',
-    officialMediums: ['hi', 'en', 'ur'],
+    officialMediums: ['hi', 'en'],
     allowMediumSelection: true
   },
   'mpbse-madhya-pradesh': {
@@ -99,7 +99,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'hi',
     secondaryLanguage: 'en',
     primaryMedium: 'hi',
-    officialMediums: ['hi', 'en', 'ur'],
+    officialMediums: ['hi', 'en'],
     allowMediumSelection: true
   },
   'rbse-rajasthan': {
@@ -109,7 +109,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'hi',
     secondaryLanguage: 'en',
     primaryMedium: 'hi',
-    officialMediums: ['hi', 'en', 'ur'],
+    officialMediums: ['hi', 'en'],
     allowMediumSelection: true
   },
   'ubse-uttarakhand': {
@@ -139,7 +139,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'hi',
     secondaryLanguage: 'en',
     primaryMedium: 'hi',
-    officialMediums: ['hi', 'en', 'bn', 'ur'],
+    officialMediums: ['hi', 'en', 'bn'],
     allowMediumSelection: true
   },
   'hbse-haryana': {
@@ -171,7 +171,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'mr',
     secondaryLanguage: 'en',
     primaryMedium: 'mr',
-    officialMediums: ['mr', 'en', 'hi', 'ur', 'gu'],
+    officialMediums: ['mr', 'en', 'hi', 'gu'],
     allowMediumSelection: true
   },
   'gseb-gujarat': {
@@ -203,7 +203,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'bn',
     secondaryLanguage: 'en',
     primaryMedium: 'bn',
-    officialMediums: ['bn', 'en', 'hi', 'ur'],
+    officialMediums: ['bn', 'en', 'hi'],
     allowMediumSelection: true
   },
   'odisha-bse-chse': {
@@ -235,7 +235,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'kn',
     secondaryLanguage: 'en',
     primaryMedium: 'kn',
-    officialMediums: ['kn', 'en', 'ur', 'mr'],
+    officialMediums: ['kn', 'en', 'mr'],
     allowMediumSelection: true
   },
   'andhra-pradesh-bse-bieap': {
@@ -245,7 +245,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'te',
     secondaryLanguage: 'en',
     primaryMedium: 'te',
-    officialMediums: ['te', 'en', 'ur'],
+    officialMediums: ['te', 'en'],
     allowMediumSelection: true
   },
   'telangana-bsetg-tsbie': {
@@ -255,7 +255,7 @@ const BOARD_OFFICIAL_MEDIUMS = {
     stateLanguage: 'te',
     secondaryLanguage: 'en',
     primaryMedium: 'te',
-    officialMediums: ['te', 'en', 'ur'],
+    officialMediums: ['te', 'en'],
     allowMediumSelection: true
   },
   'tamil-nadu-dge': {
@@ -294,10 +294,10 @@ const BOARD_OFFICIAL_MEDIUMS = {
     boardId: 'jkbose-jammu-kashmir',
     state: 'Jammu & Kashmir',
     fullName: 'Jammu and Kashmir State Board of School Education (JKBOSE)',
-    stateLanguage: 'ur',
+    stateLanguage: 'ks',
     secondaryLanguage: 'en',
     primaryMedium: 'en',
-    officialMediums: ['en', 'ur', 'hi'],
+    officialMediums: ['en', 'hi'],
     allowMediumSelection: true
   },
 
@@ -775,10 +775,13 @@ function adaptQuestionStemToMedium(rawQ, targetLangCode = 'en', boardState = 'St
     }
   }
 
-  // Check if rest is a blueprint question (e.g. mentions blueprint, परीक्षा, पाठ्यक्रम, सही विकल्प)
-  const isBlueprintQuestion = /ब्लूप्रिंट|blueprint|पाठ्यक्रम|curriculum|सही विकल्प|correct option|statement|పరీక్షా విధానం|బ్లూప్రింట్|సరైన సమాధానం|ఎంచుకోండి|தேர்வு முறை|பாடத்திட்டம்|சரியான விடை|পাঠ্যক্রম|ব্লুপ্রিন্ট|সঠিক বিকল্প|आराखडा|अभ्यासक्रम|योग्य पर्याय|સત્તાવાર|સાચો વિકલ્પ/i.test(rest);
+  // If target is English and we have authentic embedded English text in brackets, use it directly!
+  if (targetLangCode === 'en' && embeddedEnglish) {
+    return localizedHeader ? `${localizedHeader} ${embeddedEnglish}` : embeddedEnglish;
+  }
 
-  if (isBlueprintQuestion) {
+  // If rest is empty, use blueprint prompt fallback
+  if (!rest) {
     const prompt = blueprintPrompts[targetLangCode] || blueprintPrompts.en;
     return localizedHeader ? `${localizedHeader} ${prompt}` : prompt;
   }
@@ -1144,8 +1147,8 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
     targetMedium = 'en';
   } else if (officialMediums.includes(preferredMedium)) {
     targetMedium = preferredMedium;
-  } else if (SUPPORTED_MEDIUMS_META[preferredMedium]) {
-    // If student explicitly requested a recognized Indian medium, honor it across all exams
+  } else if (preferredMedium !== 'ur' && SUPPORTED_MEDIUMS_META[preferredMedium]) {
+    // If student explicitly requested another recognized Indian medium, honor it across all exams
     targetMedium = preferredMedium;
   } else {
     targetMedium = stateLang;
@@ -1186,7 +1189,7 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
   const englishQText = englishSlice.question || englishSlice.q || englishSlice.question_text || '';
 
   // Dual-Language Question Text Formatting:
-  // Primary (chosen medium) on top, Secondary (English) below
+  // Primary (chosen medium) on top, Secondary (English / State) below
   let primaryQText = '';
   let secondaryQText = '';
 
@@ -1197,14 +1200,19 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
     primaryQText = stateQText || englishQText;
     secondaryQText = (englishQText && englishQText !== stateQText) ? englishQText : '';
   } else {
-    // Regional/Minority Medium chosen (e.g., Urdu, Telugu, Tamil, Bengali, etc.)
+    // Regional/Minority Medium chosen (e.g., Telugu, Tamil, Bengali, etc.)
     primaryQText = targetQText || stateQText || englishQText;
     secondaryQText = (englishQText && englishQText !== targetQText) ? englishQText : (stateQText || '');
   }
 
   let dualQuestionText = '';
   if (primaryQText && secondaryQText && primaryQText.trim().toLowerCase() !== secondaryQText.trim().toLowerCase()) {
-    dualQuestionText = `${primaryQText}\n\n[English: ${secondaryQText}]`;
+    let secLabel = 'English';
+    if (targetMedium === 'en') {
+      const stateMeta = SUPPORTED_MEDIUMS_META[stateLang];
+      secLabel = stateMeta ? (stateMeta.label || 'Regional') : 'Regional';
+    }
+    dualQuestionText = `${primaryQText}\n\n[${secLabel}: ${secondaryQText}]`;
   } else {
     dualQuestionText = primaryQText || secondaryQText || questionRow.question_text || '';
   }

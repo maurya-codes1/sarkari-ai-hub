@@ -51,11 +51,11 @@ runTest('Registry returns 31 distinct boards with official examination mediums',
   assert(wb, 'West Bengal must exist in registry');
 
   // Check multi-medium configurations
-  assert.deepStrictEqual(bseb.officialMediums, ['hi', 'en', 'ur']);
-  assert.deepStrictEqual(telangana.officialMediums, ['te', 'en', 'ur']);
+  assert.deepStrictEqual(bseb.officialMediums, ['hi', 'en']);
+  assert.deepStrictEqual(telangana.officialMediums, ['te', 'en']);
   assert.deepStrictEqual(punjab.officialMediums, ['pa', 'en', 'hi']);
   assert.deepStrictEqual(assam.officialMediums, ['as', 'en', 'bn']);
-  assert.deepStrictEqual(wb.officialMediums, ['bn', 'en', 'hi', 'ur']);
+  assert.deepStrictEqual(wb.officialMediums, ['bn', 'en', 'hi']);
 });
 
 // -------------------------------------------------------------
@@ -66,7 +66,7 @@ runTest('Capabilities accurately distinguishes STEM (Dual-Lang) vs Language (Nat
   assert.strictEqual(bsebMath.isLanguageSubject, false);
   assert.strictEqual(bsebMath.isDualLanguage, true);
   assert.strictEqual(bsebMath.allowMediumSelection, true);
-  assert.deepStrictEqual(bsebMath.officialMediums, ['hi', 'en', 'ur']);
+  assert.deepStrictEqual(bsebMath.officialMediums, ['hi', 'en']);
 
   const bsebHindi = boardMediumGovernanceService.getSubjectMediumCapabilities('bseb-bihar', 'subj-hindi', 'General Hindi');
   assert.strictEqual(bsebHindi.isLanguageSubject, true);
