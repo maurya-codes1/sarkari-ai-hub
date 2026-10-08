@@ -2510,4 +2510,18 @@ if (require.main === module) {
   });
 }
 
+// Production Keep-Alive Ping (prevents Render free tier from sleeping after 15 min of inactivity)
+const KEEP_ALIVE_URL = process.env.RENDER_EXTERNAL_URL || 'https://bharatexamshub.com/health';
+if (process.env.NODE_ENV === 'production' || process.env.RENDER) {
+  console.log(`[Keep-Alive] Initializing 9-minute heartbeat to ${KEEP_ALIVE_URL}`);
+  setInterval(() => {
+    try {
+      const https = require('https');
+      https.get(KEEP_ALIVE_URL, (res) => {
+        res.resume();
+      }).on('error', () => {});
+    } catch (_) {}
+  }, 9 * 60 * 1000);
+}
+
 module.exports = app;
