@@ -32,7 +32,7 @@ try {
 
 const { applyNaturalOptionDistribution } = require('../backend/utils/option-shuffler');
 
-const { getCompleteSubjectInventory, fetchDbQuestionsForSubject } = require('./subject-inventory-loader');
+const { getCompleteSubjectInventory, fetchDbQuestionsForSubject, normalizeStem } = require('./subject-inventory-loader');
 const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
 
 const COMPETITIVE_EXAMS_REGISTRY = {
@@ -736,6 +736,19 @@ function generateCompetitiveStudyGuide(examId = "ssc-gd", subjectId = "all", opt
     `⚡ Elimination Trick: 4 विकल्पों में से 2 अत्यधिक असंभावित विकल्पों को पहले चरण में ही निरस्त करें।`,
     `⚡ Negative Marking Strategy: जिस प्रश्न में 2 विकल्पों में संदेह हो, उसमें तुक्का लगाना गणितीय रूप से लाभकारी होता है।`
   ];
+
+  // Final Stem Deduplication Pass
+  const finalCompStems = new Set();
+  mcqs = mcqs.filter(m => {
+    const s = normalizeStem(m.q);
+    if (!s || s.length < 5) return false;
+    if (finalCompStems.has(s)) return false;
+    const l1 = normalizeStem(m.q.split('\n')[0]);
+    if (l1 && l1.length >= 5 && finalCompStems.has(l1)) return false;
+    finalCompStems.add(s);
+    if (l1 && l1.length >= 5) finalCompStems.add(l1);
+    return true;
+  }).map((m, idx) => ({ ...m, num: idx + 1 }));
 
   // Apply Natural Realistic Option Shuffling across all competitive MCQs
   mcqs = applyNaturalOptionDistribution(mcqs);

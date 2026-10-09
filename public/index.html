@@ -63,6 +63,31 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/style.css">
+  <style>
+    @media print {
+      body > *:not(#notesFallbackModal):not(#sarkariPrintIframe) {
+        display: none !important;
+      }
+      #notesFallbackModal {
+        position: static !important;
+        background: transparent !important;
+        padding: 0 !important;
+        overflow: visible !important;
+        max-height: none !important;
+        inset: auto !important;
+      }
+      #notesFallbackModal > div {
+        max-width: 100% !important;
+        max-height: none !important;
+        box-shadow: none !important;
+        border: none !important;
+        margin: 0 !important;
+      }
+      .no-print {
+        display: none !important;
+      }
+    }
+  </style>
   
   <!-- Instant Dark Mode Initialization to prevent screen flash -->
   <script>

@@ -82,14 +82,25 @@ function selectRepresentativeSubset(questions = [], targetCount, options = {}) {
   const selected = [];
   const seenQ = new Set();
 
+  function normStem(text = '') {
+    const line1 = (text || '').split('\n')[0];
+    return line1
+      .toLowerCase()
+      .replace(/^[0-9]+[\.\)]\s*/, '')
+      .replace(/\[[^\]]*\]/g, '')
+      .replace(/[^a-z0-9\u0900-\u0DFF]/gi, '')
+      .trim();
+  }
+
   function addQuestion(q) {
-    const key = (q.id || q.q || JSON.stringify(q)).trim();
-    if (!seenQ.has(key)) {
-      seenQ.add(key);
-      selected.push(q);
-      return true;
-    }
-    return false;
+    if (!q || !q.q) return false;
+    const key = normStem(q.q);
+    if (!key || key.length < 5) return false;
+    if (seenQ.has(key)) return false;
+    seenQ.add(key);
+    if (q.id) seenQ.add(q.id);
+    selected.push(q);
+    return true;
   }
 
   // If questions are stratified by topics (>= 2 topics)
@@ -141,7 +152,18 @@ function selectRepresentativeSubset(questions = [], targetCount, options = {}) {
 function reconcileAllSubjectBundle(subjectSections = [], options = {}) {
   const bundledQuestions = [];
   const allocationReport = [];
+  const globalSeenStems = new Set();
   let globalNum = 1;
+
+  function normStem(text = '') {
+    const line1 = (text || '').split('\n')[0];
+    return line1
+      .toLowerCase()
+      .replace(/^[0-9]+[\.\)]\s*/, '')
+      .replace(/\[[^\]]*\]/g, '')
+      .replace(/[^a-z0-9\u0900-\u0DFF]/gi, '')
+      .trim();
+  }
 
   for (const sec of subjectSections) {
     const questions = Array.isArray(sec.questions) ? sec.questions : [];
@@ -149,8 +171,13 @@ function reconcileAllSubjectBundle(subjectSections = [], options = {}) {
     const targetCount = computeBundleSubjectAllocation(eligibleCount, options);
     const selected = selectRepresentativeSubset(questions, targetCount, options);
 
-    // Annotate questions with Section and clean numbering
+    // Annotate questions with Section and clean numbering, discarding any duplicate stem
     for (const q of selected) {
+      const stem = normStem(q.q);
+      if (stem && stem.length >= 5) {
+        if (globalSeenStems.has(stem)) continue;
+        globalSeenStems.add(stem);
+      }
       bundledQuestions.push({
         ...q,
         num: globalNum,

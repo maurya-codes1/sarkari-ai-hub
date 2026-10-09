@@ -7251,17 +7251,24 @@ async function generateAndDownloadHighResPdf(token = '') {
   // Objectives (100+ questions) with 100% duplicate elimination
   let objectives = (note.objectives && note.objectives.length > 0) ? note.objectives : [];
   if (objectives.length === 0) {
-    objectives = isCompetitive ? sscGdObjectives : boardPassObjectives;
+    const fallbackNote = NOTES_CATALOG.find(n => isCompetitive ? (n.id && n.id.includes('ssc-gd')) : (n.id && n.id.includes('board-pass')));
+    objectives = fallbackNote && fallbackNote.objectives ? fallbackNote.objectives : [];
   }
-  const seenObjSet = new Set();
+  const seenObjStems = new Set();
   objectives = objectives.filter(item => {
-    const qClean = (item.q || '').replace(/^[0-9]+[\.\)]\s*/, '').trim();
-    const opt0 = (item.options && item.options[0]) ? item.options[0].replace(/^[A-D]\)\s*/i, '').trim() : '';
-    const fingerprint = item.id || `${qClean}:::${opt0}:::${item.ans || ''}`;
-    if (!fingerprint || seenObjSet.has(fingerprint)) return false;
-    seenObjSet.add(fingerprint);
+    const rawQ = item.q || item.question || '';
+    const line1 = rawQ.split('\n')[0];
+    const stem = line1
+      .toLowerCase()
+      .replace(/^[0-9]+[\.\)]\s*/, '')
+      .replace(/\[[^\]]*\]/g, '')
+      .replace(/[^a-z0-9\u0900-\u0DFF]/gi, '')
+      .trim();
+    if (!stem || stem.length < 5) return false;
+    if (seenObjStems.has(stem)) return false;
+    seenObjStems.add(stem);
     return true;
-  });
+  }).map((item, idx) => ({ ...item, num: idx + 1 }));
 
   // Subjectives (Strictly Board Exams only; Never for competitive exams)
   let subjectives = [];
@@ -7498,59 +7505,37 @@ async function generateAndDownloadHighResPdf(token = '') {
   }
 }
 
-function showInlineNotesFallback(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
-  const existing = document.getElementById('notesFallbackModal');
-  if (existing) existing.remove();
+function printHtmlViaIframe(htmlContent, title = 'BharatExams Hub Official Study Notes') {
+  let iframe = document.getElementById('sarkariPrintIframe');
+  if (iframe) iframe.remove();
+  iframe = document.createElement('iframe');
+  iframe.id = 'sarkariPrintIframe';
+  iframe.style.position = 'fixed';
+  iframe.style.right = '0';
+  iframe.style.bottom = '0';
+  iframe.style.width = '0';
+  iframe.style.height = '0';
+  iframe.style.border = '0';
+  iframe.style.zIndex = '-9999';
+  document.body.appendChild(iframe);
 
-  const modal = document.createElement('div');
-  modal.id = 'notesFallbackModal';
-  modal.className = 'fixed inset-0 z-[9999] bg-slate-950/80 backdrop-blur-md flex flex-col items-center justify-start p-2 sm:p-4 overflow-y-auto';
-  modal.innerHTML = `
-    <div class="bg-white text-slate-900 w-full max-w-4xl rounded-2xl shadow-2xl overflow-hidden flex flex-col my-auto max-h-[92vh]">
-      <div class="bg-slate-900 text-white px-4 py-3 flex items-center justify-between no-print">
-        <div class="font-bold text-sm truncate flex items-center gap-2">
-          <span>📄</span>
-          <span>${title}</span>
-        </div>
-        <div class="flex items-center gap-2">
-          <button onclick="window.print()" class="px-3 py-1.5 bg-orange-600 hover:bg-orange-700 text-white rounded-lg text-xs font-bold transition flex items-center gap-1">
-            🖨️ Save PDF / Print
-          </button>
-          <button onclick="document.getElementById('notesFallbackModal').remove()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded-lg text-xs font-bold transition">
-            ✕ Close
-          </button>
-        </div>
-      </div>
-      <div class="p-4 sm:p-6 overflow-y-auto flex-1 bg-white text-slate-900 notes-print-content">
-        ${htmlContent}
-      </div>
-    </div>
-  `;
-  document.body.appendChild(modal);
-}
-
-function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
-  let win = null;
-  try {
-    win = window.open('', '_blank', 'width=900,height=950');
-  } catch(e) {
-    win = null;
-  }
-  if (!win) {
-    showInlineNotesFallback(htmlContent, title);
-    return;
-  }
-  win.document.write(`
+  const doc = iframe.contentWindow.document;
+  doc.open();
+  doc.write(`
     <!DOCTYPE html>
     <html lang="hi">
     <head>
       <meta charset="UTF-8">
       <title>${title}</title>
       <style>
+        @page {
+          size: A4 portrait;
+          margin: 10mm 12mm 12mm 12mm;
+        }
         * { box-sizing: border-box; }
         body {
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans Devanagari", "Helvetica Neue", Arial, sans-serif;
-          padding: 20px 24px;
+          padding: 8px 12px;
           color: #0f172a;
           background: #ffffff;
           margin: 0;
@@ -7568,87 +7553,75 @@ function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study 
           page-break-inside: avoid !important;
         }
         @media print {
-          @page {
-            size: A4 portrait;
-            margin: 10mm 12mm 12mm 12mm;
-          }
-          body { padding: 0 !important; }
           .no-print { display: none !important; }
           .pdf-avoid-break { page-break-inside: avoid !important; break-inside: avoid !important; }
           .pdf-section-hdr { page-break-after: avoid !important; break-after: avoid !important; page-break-inside: avoid !important; }
         }
-        .action-bar {
-          background: #0f172a;
-          color: white;
-          padding: 12px 18px;
-          border-radius: 12px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          margin-bottom: 20px;
-          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        .action-btn {
-          background: #ea580c;
-          color: white;
-          border: none;
-          padding: 8px 18px;
-          border-radius: 8px;
-          font-weight: 800;
-          cursor: pointer;
-          font-size: 13px;
-          display: inline-flex;
-          align-items: center;
-          gap: 6px;
-        }
-        .action-btn:hover { background: #c2410c; }
-        .tip-banner {
-          background: #ecfdf5;
-          border: 1px solid #10b981;
-          color: #065f46;
-          padding: 10px 14px;
-          border-radius: 8px;
-          font-size: 12px;
-          font-weight: 700;
-          margin-bottom: 18px;
-        }
       </style>
     </head>
     <body>
-      <div class="no-print">
-        <div class="action-bar">
-          <div style="font-weight: 800; font-size: 14px;">🇮🇳 BharatExams Hub • Study Notes & Formula Sheet</div>
-          <div style="display: flex; gap: 8px;">
-            <button onclick="window.print()" class="action-btn">
-              🖨️ Download / Print PDF
-            </button>
-            <button onclick="window.close()" style="background: #334155; color: white; border: none; padding: 8px 14px; border-radius: 8px; font-weight: 700; cursor: pointer; font-size: 12px;">
-              ✕ Close
-            </button>
-          </div>
-        </div>
-        <div class="tip-banner">
-          💡 <strong>PDF सेव करने का सबसे आसान तरीका:</strong> नीचे खुले प्रिंट डायलॉग में Destination पर <strong>"Save as PDF"</strong> चुनें। इससे पूरी सामग्री 100% वेक्टर टेक्स्ट के रूप में बिना किसी ब्लैंक पेज के सेव हो जाएगी।
-        </div>
-      </div>
-
       ${htmlContent}
-
-      <script>
-        function triggerPrint() {
-          try { window.print(); } catch(e) {}
-        }
-        if (document.readyState === 'complete') {
-          setTimeout(triggerPrint, 150);
-        } else {
-          window.addEventListener('DOMContentLoaded', () => setTimeout(triggerPrint, 150));
-          window.addEventListener('load', () => setTimeout(triggerPrint, 150));
-        }
-      </script>
     </body>
     </html>
   `);
-  win.document.close();
+  doc.close();
+
+  setTimeout(() => {
+    try {
+      iframe.contentWindow.focus();
+      iframe.contentWindow.print();
+    } catch (e) {
+      console.error('Iframe print error:', e);
+    }
+  }, 400);
+}
+
+function triggerNotesPrint(title = 'BharatExams Hub - Official Study Notes') {
+  const content = document.querySelector('.notes-print-content')?.innerHTML;
+  if (content) {
+    printHtmlViaIframe(content, title);
+  } else {
+    window.print();
+  }
+}
+
+function showInlineNotesFallback(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
+  const existing = document.getElementById('notesFallbackModal');
+  if (existing) existing.remove();
+
+  const safeTitle = (title || 'BharatExams Hub - Official Study Notes').replace(/'/g, "\\'");
+  const modal = document.createElement('div');
+  modal.id = 'notesFallbackModal';
+  modal.className = 'fixed inset-0 z-[9999] bg-slate-950/80 backdrop-blur-md flex flex-col items-center justify-start p-2 sm:p-4 overflow-y-auto';
+  modal.innerHTML = `
+    <div class="bg-white text-slate-900 w-full max-w-4xl rounded-2xl shadow-2xl overflow-hidden flex flex-col my-auto max-h-[92vh]">
+      <div class="bg-slate-900 text-white px-4 py-3 flex items-center justify-between no-print">
+        <div class="font-bold text-sm truncate flex items-center gap-2">
+          <span>📄</span>
+          <span>${title}</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="triggerNotesPrint('${safeTitle}')" class="px-3 py-1.5 bg-orange-600 hover:bg-orange-700 text-white rounded-lg text-xs font-bold transition flex items-center gap-1 cursor-pointer">
+            🖨️ Save PDF / Print
+          </button>
+          <button onclick="document.getElementById('notesFallbackModal').remove()" class="px-3 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded-lg text-xs font-bold transition cursor-pointer">
+            ✕ Close
+          </button>
+        </div>
+      </div>
+      <div class="p-4 sm:p-6 overflow-y-auto flex-1 bg-white text-slate-900 notes-print-content">
+        ${htmlContent}
+      </div>
+    </div>
+  `;
+  document.body.appendChild(modal);
+}
+
+function openPrintWindow(htmlContent, title = 'BharatExams Hub - Official Study Notes') {
+  // Always trigger isolated iframe print so background website is never printed
+  printHtmlViaIframe(htmlContent, title);
+  // Also show clean inline notes modal for preview
+  showInlineNotesFallback(htmlContent, title);
 }
 
 function handleSavePdfFromReader() {

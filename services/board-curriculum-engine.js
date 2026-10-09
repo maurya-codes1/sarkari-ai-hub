@@ -46,7 +46,7 @@ try {
 
 const { applyNaturalOptionDistribution } = require('../backend/utils/option-shuffler');
 
-const { getCompleteSubjectInventory, fetchDbQuestionsForSubject, fetchDbSubjectivesForSubject } = require('./subject-inventory-loader');
+const { getCompleteSubjectInventory, fetchDbQuestionsForSubject, fetchDbSubjectivesForSubject, normalizeStem } = require('./subject-inventory-loader');
 const { reconcileAllSubjectBundle, computeBundleSubjectAllocation } = require('./content-allocation-policy');
 
 const BOARD_REGISTRY = {
@@ -1369,37 +1369,6 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     }));
   }
 
-  // Active High-Yield SQLite Database Enrichment (includes ALL authentic MCQs for this subject)
-  const isLangSubject = ['hindi', 'english', 'sanskrit', 'urdu', 'tamil', 'telugu', 'punjabi', 'bengali', 'gujarati', 'kannada', 'malayalam', 'odia', 'assamese', 'marathi'].includes(normSubject);
-  const rawDbQs = fetchDbQuestionsForSubject(normSubject, { is12th, targetClass, boardId, preferredMedium: options.preferredMedium || options.medium });
-  if (rawDbQs && rawDbQs.length > 0) {
-    const seenKeys = new Set(mcqs.map(m => (m.q || '').substring(0, 40).trim()));
-    for (let q of rawDbQs) {
-      let finalQText = q.q || '';
-      if (isLangSubject && finalQText) {
-        finalQText = finalQText.replace(/\s*(?:\\n|\n)\s*\[[^\]]+\]\s*$/i, '').trim();
-        const lines = finalQText.split('\n').map(l => l.trim()).filter(Boolean);
-        if (lines.length > 1) {
-          if (normSubject === 'english' && /[\u0900-\u0DFF]/.test(lines[1])) {
-            finalQText = lines[0];
-          } else if (normSubject !== 'english' && /[a-zA-Z]/.test(lines[1])) {
-            finalQText = lines[0];
-          }
-        }
-      }
-      const key = finalQText.substring(0, 40).trim();
-      if (!seenKeys.has(key)) {
-        seenKeys.add(key);
-        mcqs.push({
-          ...q,
-          q: finalQText,
-          num: mcqs.length + 1,
-          id: q.id || `${boardId}-${targetClass}-${normSubject}-db-${mcqs.length + 1}`
-        });
-      }
-    }
-  }
-
   // Safe memory ceiling: Cap MCQs to target quota (max 250)
   if (mcqs.length > 250) {
     mcqs = mcqs.slice(0, 250);
@@ -1534,6 +1503,19 @@ function generateSubjectStudyGuide(boardId = "bseb", classLevel = "10th", subjec
     `⚡ Dual Medium Advantage: प्रश्न को समझने में कठिनाई होने पर अंग्रेजी व मातृभाषा दोनों रूप पढ़ें।`,
     `⚡ Topper Presentation: उत्तर में मुख्य परिभाषा, रासायनिक समीकरण अथवा गणितीय सूत्र को काले पेन से रेखांकित करें।`
   ];
+
+  // Final Stem Deduplication Pass
+  const finalSeenStems = new Set();
+  mcqs = mcqs.filter(m => {
+    const s = normalizeStem(m.q);
+    if (!s || s.length < 5) return false;
+    if (finalSeenStems.has(s)) return false;
+    const l1 = normalizeStem(m.q.split('\n')[0]);
+    if (l1 && l1.length >= 5 && finalSeenStems.has(l1)) return false;
+    finalSeenStems.add(s);
+    if (l1 && l1.length >= 5) finalSeenStems.add(l1);
+    return true;
+  }).map((m, idx) => ({ ...m, num: idx + 1 }));
 
   // Apply Natural Realistic Option Shuffling across all Board MCQs
   mcqs = applyNaturalOptionDistribution(mcqs);
