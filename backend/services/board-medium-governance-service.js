@@ -802,6 +802,8 @@ function adaptQuestionStemToMedium(rawQ, targetLangCode = 'en', boardState = 'St
       .replace(/विद्युत ट्रांसफॉर्मर/g, 'Electrical Transformer')
       .replace(/विद्युत धारा/g, 'Electric Current')
       .replace(/विभवांतर/g, 'Potential Difference')
+      .replace(/विद्युत प्रतिरोध/g, 'Electric Resistance')
+      .replace(/प्रतिरोधक/g, 'Resistor')
       .replace(/प्रतिरोध/g, 'Resistance')
       .replace(/प्रकाश का अपवर्तन/g, 'Refraction of Light')
       .replace(/प्रकाश का परावर्तन/g, 'Reflection of Light')
@@ -916,6 +918,15 @@ function adaptQuestionStemToMedium(rawQ, targetLangCode = 'en', boardState = 'St
       .replace(/निम्नलिखित में से कौन(?:-सा| सा)?/g, 'নিচের কোনটি');
   }
 
+  if (targetLangCode === 'en') {
+    const lat = (translatedStem.match(/[a-zA-Z]/g) || []).length;
+    const dev = (translatedStem.match(/[\u0900-\u097F]/g) || []).length;
+    // If not genuinely translated to English (still predominant Devanagari), return original clean text
+    if (lat < 8 || dev > lat) {
+      return cleanQuestionText(rest);
+    }
+  }
+
   return cleanQuestionText(translatedStem);
 }
 
@@ -940,11 +951,12 @@ function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCod
   // 2. Synthesize Options without destroying authentic values, numbers, or formulas
   const synthOptions = rawOpts.map((opt, i) => adaptOptionToMedium(opt, targetLangCode, i));
 
-  // 3. Synthesize Model Answer / Solution in Target Medium
-  let synthModelAns = '';
-  if (targetLangCode === 'en') {
-    synthModelAns = `Model Answer (As per Official Marking Scheme): Based on official ${boardState} academic standards, this represents the verified step-by-step curriculum solution.`;
-  } else if (targetLangCode === 'hi') {
+  // 3. Synthesize Model Answer / Solution in Target Medium (Preserve authentic solution if available!)
+  let synthModelAns = rawModelAns;
+  if (!synthModelAns || synthModelAns.trim().length === 0) {
+    if (targetLangCode === 'en') {
+      synthModelAns = `Model Answer (As per Official Marking Scheme): Based on official ${boardState} academic standards, this represents the verified step-by-step curriculum solution.`;
+    } else if (targetLangCode === 'hi') {
     synthModelAns = `आदर्श उत्तर (बोर्ड अंकन योजना अनुसार): आधिकारिक ${boardState} बोर्ड परीक्षा पाठ्यक्रम के अनुसार प्रामाणिक चरणबद्ध हल।`;
   } else if (targetLangCode === 'te') {
     synthModelAns = `ఆదర్శ సమాధానం (బోర్డు మార్కింగ్ విధానం ప్రకారం): అధికారిక ${boardState} పాఠ్యప్రణాళిక ప్రకారం సరైన విద్యా ప్రమాణాల దశలవారీ సాధన.`;
@@ -970,6 +982,7 @@ function synthesizeMissingCounterpart(questionRow, targetLangCode, sourceLangCod
     synthModelAns = `আদর্শ উত্তৰ (মূল্যায়ন আঁচনি অনুসৰি): আনুষ্ঠানিক ${boardState} শৈক্ষিক মান অনুসৰি খোজভিত্তিক সমাধান।`;
   } else {
     synthModelAns = rawModelAns || `Model Answer: Based on official ${boardState} curriculum standards.`;
+  }
   }
 
   return {
@@ -1270,26 +1283,66 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
   let primaryQText = '';
   let secondaryQText = '';
 
+  const countScript = (str) => {
+    if (!str || typeof str !== 'string') return { lat: 0, indic: 0 };
+    const lat = (str.match(/[a-zA-Z]/g) || []).length;
+    const indic = (str.match(/[\u0900-\u0DFF\u0600-\u06FF]/g) || []).length;
+    return { lat, indic };
+  };
+
+  const isGenuineEnglish = (str) => {
+    const { lat, indic } = countScript(str);
+    return lat >= 6 && lat > indic;
+  };
+
+  const isGenuineIndic = (str) => {
+    const { lat, indic } = countScript(str);
+    return indic >= 4 && indic >= lat;
+  };
+
   if (targetMedium === 'en') {
-    primaryQText = englishQText || stateQText;
-    secondaryQText = (stateQText && stateQText !== englishQText) ? stateQText : '';
+    if (isGenuineEnglish(englishQText)) {
+      primaryQText = englishQText;
+      secondaryQText = (stateQText && isGenuineIndic(stateQText)) ? stateQText : '';
+    } else {
+      // Authentic English text not available - output single clean native stem, NEVER two lines of Hindi!
+      primaryQText = stateQText || englishQText || questionRow.question_text || '';
+      secondaryQText = '';
+    }
   } else if (targetMedium === stateLang) {
-    primaryQText = stateQText || englishQText;
-    secondaryQText = (englishQText && englishQText !== stateQText) ? englishQText : '';
+    primaryQText = stateQText || targetQText || questionRow.question_text || '';
+    secondaryQText = (englishQText && isGenuineEnglish(englishQText)) ? englishQText : '';
   } else {
     // Regional/Minority Medium chosen (e.g., Telugu, Tamil, Bengali, etc.)
-    primaryQText = targetQText || stateQText || englishQText;
-    secondaryQText = (englishQText && englishQText !== targetQText) ? englishQText : (stateQText || '');
+    primaryQText = targetQText || stateQText || questionRow.question_text || '';
+    secondaryQText = (englishQText && isGenuineEnglish(englishQText)) ? englishQText : '';
   }
 
-  const cleanP = cleanQuestionText(primaryQText);
+  let cleanP = cleanQuestionText(primaryQText);
   let cleanS = cleanQuestionText(secondaryQText);
-  if (cleanS.toLowerCase() === cleanP.toLowerCase()) {
-    cleanS = '';
+
+  // Strict Script-Separation Invariant:
+  // If both lines share the same script family or if one is empty/duplicate, NEVER print two lines!
+  if (cleanP && cleanS) {
+    const pIsEn = isGenuineEnglish(cleanP);
+    const sIsEn = isGenuineEnglish(cleanS);
+    if ((pIsEn && sIsEn) || (!pIsEn && !sIsEn) || cleanP.trim().toLowerCase() === cleanS.trim().toLowerCase()) {
+      cleanS = '';
+    } else if (targetMedium === 'en' && !pIsEn && sIsEn) {
+      // Ensure English is on line 1
+      const tmp = cleanP;
+      cleanP = cleanS;
+      cleanS = tmp;
+    } else if (targetMedium !== 'en' && pIsEn && !sIsEn) {
+      // Ensure Indic is on line 1
+      const tmp = cleanP;
+      cleanP = cleanS;
+      cleanS = tmp;
+    }
   }
 
   let dualQuestionText = '';
-  if (cleanP && cleanS && cleanP.trim().toLowerCase() !== cleanS.trim().toLowerCase()) {
+  if (cleanP && cleanS) {
     dualQuestionText = `${cleanP}\n${cleanS}`;
   } else {
     dualQuestionText = cleanP || cleanS || cleanQuestionText(questionRow.question_text) || '';
@@ -1316,14 +1369,29 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
       const pClean = pRaw.replace(/^[A-D]\)\s*/i, '').trim();
       const sClean = sRaw.replace(/^[A-D]\)\s*/i, '').trim();
       const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-      if (pClean && sClean && pClean.toLowerCase() !== sClean.toLowerCase()) {
-        formattedOpts.push(`${prefix} ${pClean} / ${sClean}`);
-      } else if (pClean) {
-        formattedOpts.push(`${prefix} ${pClean}`);
-      } else if (sClean) {
-        formattedOpts.push(`${prefix} ${sClean}`);
+
+      const pIsEn = isGenuineEnglish(pClean);
+      const sIsEn = isGenuineEnglish(sClean);
+
+      // Only combine into "Option P / Option S" if one is genuine English and other is genuine Indic
+      if (pClean && sClean &&
+          pClean.toLowerCase() !== sClean.toLowerCase() &&
+          ((pIsEn && !sIsEn) || (!pIsEn && sIsEn))) {
+        if (targetMedium === 'en') {
+          const engOpt = pIsEn ? pClean : sClean;
+          const indicOpt = pIsEn ? sClean : pClean;
+          formattedOpts.push(`${prefix} ${engOpt} / ${indicOpt}`);
+        } else {
+          const indicOpt = !pIsEn ? pClean : sClean;
+          const engOpt = !pIsEn ? sClean : pClean;
+          formattedOpts.push(`${prefix} ${indicOpt} / ${engOpt}`);
+        }
       } else {
-        formattedOpts.push(`${prefix} Option ${i + 1}`);
+        // Monolingual: pick the one matching target medium if possible
+        const chosen = (targetMedium === 'en' && (pIsEn || !sClean)) ? pClean :
+                       (targetMedium === 'en' && sIsEn) ? sClean :
+                       (pClean || sClean);
+        formattedOpts.push(`${prefix} ${chosen || `Option ${i + 1}`}`);
       }
     }
   } else {
@@ -1331,7 +1399,18 @@ function resolveQuestionMedium(questionRow, preferredMedium = 'en', options = {}
   }
 
   // Subjective Model Answer & Solution Resolution:
-  let resolvedModelAnswer = targetSlice.model_answer || targetSlice.modelAnswer || targetSlice.explanation || targetSlice.exp;
+  let resolvedModelAnswer = targetSlice.model_answer || targetSlice.modelAnswer || targetSlice.explanation || targetSlice.exp ||
+                            (stateSlice && (stateSlice.model_answer || stateSlice.modelAnswer || stateSlice.explanation || stateSlice.exp)) ||
+                            (englishSlice && (englishSlice.model_answer || englishSlice.modelAnswer || englishSlice.explanation || englishSlice.exp)) ||
+                            questionRow.model_answer || questionRow.modelAnswer || questionRow.explanation || questionRow.a;
+
+  // Filter out generic boilerplate text if authentic solution exists
+  if (resolvedModelAnswer && resolvedModelAnswer.includes('Based on official') && resolvedModelAnswer.includes('academic standards')) {
+    const altExp = questionRow.explanation || questionRow.model_answer || (stateSlice && (stateSlice.explanation || stateSlice.model_answer)) || '';
+    if (altExp && !altExp.includes('Based on official')) {
+      resolvedModelAnswer = altExp;
+    }
+  }
   if (!resolvedModelAnswer || resolvedModelAnswer.trim().length === 0) {
     if (targetMedium === 'en') {
       resolvedModelAnswer = `Model Answer (As per Official Marking Scheme): Step-by-step verified derivation and pedagogical solution as per official blueprint standards. [Marks: ${marks}]`;

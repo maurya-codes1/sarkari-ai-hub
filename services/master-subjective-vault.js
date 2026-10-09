@@ -423,6 +423,256 @@ Selfing F₁ (Tt × Tt) gives F₂ Generation:
 1. Phenotypic Ratio = 3 Tall : 1 Dwarf (3:1)
 2. Genotypic Ratio = 1 TT : 2 Tt : 1 tt (1:2:1)
 Conclusion: The reappearance of the recessive dwarf trait in F₂ confirms that alleles do not blend and segregate purely.`
+      },
+      {
+        topic: "संयोजन एवं वियोजन अभिक्रिया (Combination vs Decomposition Reactions)",
+        q_hi: "संयोजन अभिक्रिया एवं वियोजन अभिक्रिया में अंतर स्पष्ट कीजिए तथा दोनों के एक-एक संतुलित रासायनिक समीकरण लिखिए।",
+        q_en: "Differentiate between Combination and Decomposition Reactions with balanced chemical equations.",
+        a_hi: `आदर्श उत्तर (2/3 अंक पूर्ण रासायनिक हल):
+1. संयोजन अभिक्रिया (Combination Reaction):
+जब दो या दो से अधिक अभिकारक परस्पर संयोग करके केवल एक नया उत्पाद बनाते हैं।
+समीकरण: C(s) + O₂(g) ⎯⎯→ CO₂(g) + ऊष्मा
+अथवा: CaO(s) + H₂O(l) ⎯⎯→ Ca(OH)₂(aq) + ऊष्मा (बिना बुझा चूना + जल → बुझा हुआ चूना)
+
+2. वियोजन (अपघटन) अभिक्रिया (Decomposition Reaction):
+जब एक एकल अभिकारक टूटकर दो या अधिक सरल उत्पादों में विभाजित होता है।
+समीकरण: 2FeSO₄(s) ⎯⎯(ऊष्मा)⎯⎯→ Fe₂O₃(s) + SO₂(g) + SO₃(g)
+अथवा: 2Pb(NO₃)₂(s) ⎯⎯(ऊष्मा)⎯⎯→ 2PbO(s) + 4NO₂(g) + O₂(g)
+
+★ परीक्षक अंकन निर्देश: भौतिक अवस्थाएं (s, l, g, aq) व ऊष्मा का संकेत लिखने पर पूरे 3/3 अंक मिलते हैं।`,
+        a_en: `Model Solution (2/3 Marks):
+1. Combination Reaction:
+Two or more reactants combine to form a single product.
+Equation: C(s) + O₂(g) ⎯⎯→ CO₂(g) + Heat
+or: CaO(s) + H₂O(l) ⎯⎯→ Ca(OH)₂(aq) + Heat
+
+2. Decomposition Reaction:
+A single reactant breaks down into two or more simpler products upon heating, light, or electricity.
+Equation: 2FeSO₄(s) ⎯⎯(Heat)⎯⎯→ Fe₂O₃(s) + SO₂(g) + SO₃(g)
+or: 2Pb(NO₃)₂(s) ⎯⎯(Heat)⎯⎯→ 2PbO(s) + 4NO₂(g) + O₂(g)`
+      },
+      {
+        topic: "विरंजक चूर्ण एवं प्लास्टर ऑफ पेरिस (Bleaching Powder & Plaster of Paris)",
+        q_hi: "विरंजक चूर्ण (Bleaching Powder) एवं प्लास्टर ऑफ पेरिस (POP) के रासायनिक सूत्र, निर्माण समीकरण तथा दो-दो प्रमुख उपयोग लिखिए।",
+        q_en: "Write chemical formula, preparation equations, and two uses each for Bleaching Powder and Plaster of Paris.",
+        a_hi: `आदर्श उत्तर (3 अंक सम्पूर्ण हल):
+1. विरंजक चूर्ण (Bleaching Powder - CaOCl₂):
+- निर्माण: शुष्क बुझे हुए चूने पर क्लोरीन गैस प्रवाहित करने से।
+समीकरण: Ca(OH)₂ + Cl₂ ⎯⎯→ CaOCl₂ + H₂O
+- उपयोग: (i) पीने के जल को जीवाणुमुक्त (Disinfectant) करने में। (ii) वस्त्र उद्योग में सूती व लिनन के विरंजन में।
+
+2. प्लास्टर ऑफ पेरिस (Plaster of Paris - CaSO₄·½H₂O):
+- निर्माण: जिप्सम को 373 K (100°C) पर सावधानीपूर्वक गर्म करने से।
+समीकरण: CaSO₄·2H₂O ⎯⎯(373 K)⎯⎯→ CaSO₄·½H₂O + 1½ H₂O
+- उपयोग: (i) टूटी हड्डियों को सही स्थान पर स्थिर रखने हेतु प्लास्टर चढ़ाने में। (ii) खिलौने, सजावटी मूर्तियां एवं चिकनी सतह बनाने में।`,
+        a_en: `Model Solution (3 Marks):
+1. Bleaching Powder (CaOCl₂):
+- Preparation: Action of chlorine gas on dry slaked lime.
+Equation: Ca(OH)₂ + Cl₂ ⎯⎯→ CaOCl₂ + H₂O
+- Uses: (i) Disinfecting drinking water. (ii) Bleaching cotton and linen in textile industry.
+
+2. Plaster of Paris (CaSO₄·½H₂O):
+- Preparation: Heating gypsum at 373 K (100°C).
+Equation: CaSO₄·2H₂O ⎯⎯(373 K)⎯⎯→ CaSO₄·½H₂O + 1½ H₂O
+- Uses: (i) Plaster for supporting fractured bones. (ii) Making toys, statues, and smooth surfaces.`
+      },
+      {
+        topic: "भर्जन एवं निस्तापन में अंतर (Roasting vs Calcination)",
+        q_hi: "भर्जन (Roasting) और निस्तापन (Calcination) में मुख्य अंतर क्या है? दोनों के एक-एक रासायनिक समीकरण दीजिए।",
+        q_en: "Differentiate between Roasting and Calcination with one balanced chemical equation for each.",
+        a_hi: `आदर्श उत्तर (2/3 अंक पूर्ण धातु कर्म हल):
+| बिंदु | भर्जन (Roasting) | निस्तापन (Calcination) |
+|---|---|---|
+| प्रयुक्त अयस्क | सल्फाइड अयस्क (Sulfide ores) | कार्बोनेट अयस्क (Carbonate ores) या जलयोजित ऑक्साइड |
+| वायु की स्थिति | वायु की अत्यधिक (नियंत्रित) उपस्थिति में गर्म किया जाता है। | वायु की अनुपस्थिति या अत्यंत सीमित उपस्थिति में गर्म किया जाता है। |
+| गैस निकास | SO₂ (सल्फर डाइऑक्साइड) गैस निकलती है। | CO₂ (कार्बन डाइऑक्साइड) या जलवाष्प निकलती है। |
+| समीकरण | 2ZnS(s) + 3O₂(g) ⎯⎯(Δ)⎯⎯→ 2ZnO(s) + 2SO₂(g) | ZnCO₃(s) ⎯⎯(Δ)⎯⎯→ ZnO(s) + CO₂(g) |
+
+★ मुख्य उद्देश्य: दोनों ही विधियों का मुख्य उद्देश्य अयस्क को धातु ऑक्साइड में परिवर्तित करना है ताकि उसका आसानी से अपचयन किया जा सके।`,
+        a_en: `Model Solution (2/3 Marks):
+1. Roasting:
+Sulfide ores are heated strongly in the presence of excess air.
+Equation: 2ZnS(s) + 3O₂(g) ⎯⎯(Δ)⎯⎯→ 2ZnO(s) + 2SO₂(g)
+
+2. Calcination:
+Carbonate ores or hydrated oxides are heated strongly in the absence or limited supply of air.
+Equation: ZnCO₃(s) ⎯⎯(Δ)⎯⎯→ ZnO(s) + CO₂(g)
+Purpose: Both processes convert carbonate/sulfide ores into metal oxides for easy reduction.`
+      },
+      {
+        topic: "धातुओं की संक्षारण सुरक्षा (Corrosion Prevention & Reactivity)",
+        q_hi: "संक्षारण (Corrosion) क्या है? लोहे को जंग लगने से बचाने के किन्हीं तीन उपायों की व्याख्या कीजिए।",
+        q_en: "What is corrosion? Explain any three methods to prevent rusting of iron.",
+        a_hi: `आदर्श उत्तर (2/3 अंक सम्पूर्ण हल):
+परिभाषा: जब कोई धातु अपने आसपास की नमी (आर्द्रता), वायु (ऑक्सीजन) या अम्लों के संपर्क में आती है, तो उसकी सतह धीरे-धीरे नष्ट होने लगती है। इसे संक्षारण कहते हैं। (लोहे पर Fe₂O₃·xH₂O की भूरी परत जमना)।
+
+लोहे को जंग से बचाने के 3 उपाय:
+1. यशदलेपन / गैल्वेनीकरण (Galvanisation):
+लोहे व इस्पात की वस्तुओं पर पिघले हुए जस्ते (Zinc - Zn) की पतली परत चढ़ाना। जिंक लोहे से अधिक क्रियाशील होने के कारण स्वयं आहुत होकर लोहे की रक्षा करता है।
+2. पेंट अथवा ग्रीस लगाना (Painting / Greasing):
+लोहे की सतह पर पेंट या तेल की परत लगाने से लोहा वायु और नमी के प्रत्यक्ष संपर्क में नहीं आ पाता।
+3. मिश्रधातु बनाना (Alloying):
+लोहे में निकल (Ni) और क्रोमियम (Cr) मिलाकर 'स्टेनलेस स्टील' बनाया जाता है, जिसमें जंग कभी नहीं लगती।`,
+        a_en: `Model Solution (2/3 Marks):
+Corrosion Definition:
+Gradual deterioration of a metal caused by chemical reaction with atmospheric oxygen, moisture, or acids.
+Rusting of Iron: 4Fe + 3O₂ + 2xH₂O ⎯⎯→ 2Fe₂O₃·xH₂O (Hydrated ferric oxide).
+
+Three Prevention Methods:
+1. Galvanisation: Coating iron with a thin protective layer of zinc. Zinc protects iron sacrificially.
+2. Painting / Greasing: Prevents direct contact of iron surface with air and moisture.
+3. Alloying: Mixing iron with chromium and nickel to produce stainless steel, which never rusts.`
+      },
+      {
+        topic: "समजातीय श्रेणी की विशेषताएं (Homologous Series)",
+        q_hi: "समजातीय श्रेणी (Homologous Series) किसे कहते हैं? इसके कोई तीन प्रमुख लक्षण उदाहरण सहित समझाइए।",
+        q_en: "What is a Homologous Series? Explain any three characteristics with examples.",
+        a_hi: `आदर्श उत्तर (2/3 अंक कार्बनिक रसायन हल):
+परिभाषा: कार्बनिक यौगिकों की ऐसी श्रेणी जिसमें समान क्रियात्मक समूह उपस्थित हो तथा किन्हीं दो क्रमागत सदस्यों के बीच '-CH₂-' इकाई का अंतर हो, समजातीय श्रेणी कहलाती है। (जैसे एल्केन: CH₄, C₂H₆, C₃H₈)।
+
+तीन प्रमुख लक्षण:
+1. सामान्य सूत्र: श्रेणी के सभी सदस्यों को एक ही सामान्य सूत्र द्वारा प्रदर्शित किया जा सकता है (जैसे एल्केन का सूत्र CₙH₂ₙ₊₂)।
+2. अणुभार में अंतर: किन्हीं दो क्रमागत सदस्यों के आण्विक द्रव्यमान में 14 u का अंतर होता है (C = 12, H = 2 × 1 ⇒ 14 u)।
+3. रासायनिक एवं भौतिक गुण: सभी सदस्यों के रासायनिक गुण समान होते हैं (क्योंकि क्रियात्मक समूह समान है), जबकि आण्विक द्रव्यमान बढ़ने के साथ भौतिक गुणों (क्वथनांक, गलनांक) में क्रमिक परिवर्तन होता है।`,
+        a_en: `Model Solution (2/3 Marks):
+Definition:
+A series of carbon compounds having the same functional group where any two successive members differ by a '-CH₂-' unit. Example: Alkanes (CH₄, C₂H₆, C₃H₈).
+
+Three Characteristics:
+1. Same General Formula: All members share the same general formula (e.g. CₙH₂ₙ₊₂ for alkanes).
+2. Molecular Mass Difference: Consecutive members differ by molecular mass of 14 u.
+3. Chemical & Physical Properties: Chemical properties are similar due to the same functional group, while physical properties (melting/boiling points) show a gradual gradation with increasing molecular mass.`
+      },
+      {
+        topic: "स्वपोषी एवं विषमपोषी पोषण (Autotrophic vs Heterotrophic Nutrition)",
+        q_hi: "स्वपोषी पोषण तथा विषमपोषी पोषण में मुख्य अंतर स्पष्ट कीजिए। प्रकाश संश्लेषण की रासायनिक समीकरण भी लिखिए।",
+        q_en: "Differentiate between Autotrophic and Heterotrophic nutrition. Write the chemical equation for photosynthesis.",
+        a_hi: `आदर्श उत्तर (2/3 अंक सम्पूर्ण जैव प्रक्रम हल):
+| बिंदु | स्वपोषी पोषण (Autotrophic) | विषमपोषी पोषण (Heterotrophic) |
+|---|---|---|
+| भोजन का स्रोत | सजीव अकार्बनिक पदार्थों (CO₂, H₂O) व सौर ऊर्जा से भोजन स्वयं बनाते हैं। | सजीव अपने भोजन हेतु प्रत्यक्ष/अप्रत्यक्ष रूप से स्वपोषी जीवों पर निर्भर रहते हैं। |
+| क्लोरोफिल की आवश्यकता | क्लोरोफिल एवं सूर्य के प्रकाश की अनिवार्य आवश्यकता होती है। | क्लोरोफिल की कोई आवश्यकता नहीं होती। |
+| उदाहरण | सभी हरे पौधे, नील-हरित शैवाल (सायनोबैक्टीरिया)। | मानव, सभी जंतु, कवक, परजीवी। |
+
+प्रकाश संश्लेषण की रासायनिक समीकरण:
+6CO₂ + 12H₂O ⎯⎯(सूर्य का प्रकाश / क्लोरोफिल)⎯⎯→ C₆H₁₂O₆ (ग्लूकोज) + 6O₂↑ + 6H₂O`,
+        a_en: `Model Solution (2/3 Marks):
+1. Autotrophic Nutrition: Organisms synthesize their own organic food from simple inorganic raw materials (CO₂, H₂O) using sunlight and chlorophyll. Example: Green plants.
+2. Heterotrophic Nutrition: Organisms cannot synthesize their own food and depend on autotrophs directly or indirectly. Example: Animals, fungi, humans.
+
+Photosynthesis Equation:
+6CO₂ + 12H₂O ⎯⎯(Sunlight / Chlorophyll)⎯⎯→ C₆H₁₂O₆ + 6O₂ + 6H₂O`
+      },
+      {
+        topic: "तंत्रिका कोशिका एवं प्रतिवर्ती चाप (Neuron Structure & Reflex Arc)",
+        q_hi: "तंत्रिका कोशिका (Neuron) का नामांकित चित्र के प्रमुख भाग बताइए तथा प्रतिवर्ती चाप (Reflex Arc) का प्रवाह आरेख बनाइए।",
+        q_en: "State the main parts of a Neuron and outline the pathway of a Reflex Arc.",
+        a_hi: `आदर्श उत्तर (3 अंक सम्पूर्ण नियंत्रण एवं समन्वय हल):
+1. न्यूरॉन के तीन मुख्य भाग:
+- द्रुमिका (Dendrite): यह ग्राहियों से रासायनिक/विद्युत सूचना प्राप्त करती है।
+- कोशिकाकाय (Cyton / Cell Body): सूचना को विद्युत आवेग (Electrical Impulse) में परिवर्तित करती है।
+- तंत्रिकाक्ष (Axon): आवेग को कोशिकाकाय से अगले न्यूरॉन के सिनेप्स (Synapse) तक पहुंचाता है।
+
+2. प्रतिवर्ती चाप का प्रवाह आरेख (Reflex Arc Pathway):
+उद्दीपन (जैसे गर्म वस्तु छूना)
+  ⬇
+ग्राही अंग (त्वचा के रिसेप्टर)
+  ⬇
+संवेदी तंत्रिका कोशिका (Sensory Neuron)
+  ⬇
+मेरुरज्जु (Spinal Cord - रिले न्यूरॉन)
+  ⬇
+प्रेरक तंत्रिका कोशिका (Motor Neuron)
+  ⬇
+कार्यकारी अंग (पेशियां - हाथ तुरंत पीछे खींचना)`,
+        a_en: `Model Solution (3 Marks):
+1. Three Main Parts of a Neuron:
+- Dendrite: Receives sensory stimuli.
+- Cyton (Cell Body): Converts stimuli into electrical impulse.
+- Axon: Transmits impulse from cell body across synapse.
+
+2. Reflex Arc Pathway:
+Stimulus (Hot object) ➔ Receptor (Skin) ➔ Sensory Neuron ➔ Spinal Cord ➔ Motor Neuron ➔ Effector (Arm Muscle contracts).`
+      },
+      {
+        topic: "मानव में लिंग निर्धारण (Sex Determination in Humans)",
+        q_hi: "मानव में बच्चे का लिंग निर्धारण किस प्रकार होता है? क्रॉसह आरेख द्वारा सिद्ध कीजिए कि बच्चे के लिंग के लिए पिता उत्तरदायी है।",
+        q_en: "Explain the mechanism of sex determination in human beings with a genetic cross. Why is the father responsible for the sex of the child?",
+        a_hi: `आदर्श उत्तर (3 अंक सम्पूर्ण आनुवंशिकी हल):
+1. गुणसूत्र संरचना:
+- मानव में कुल 23 जोड़े (46) गुणसूत्र होते हैं।
+- 22 जोड़े ऑटोसोम (अलिंग गुणसूत्र) दोनों में समान होते हैं।
+- 23वां जोड़ा लिंग गुणसूत्र होता है:
+  माता (मादा) = XX (केवल X युक्त अंडाणु उत्पन्न करती है)
+  पिता (नर) = XY (50% X युक्त तथा 50% Y युक्त शुक्राणु उत्पन्न करता है)
+
+2. लिंग निर्धारण क्रॉस (Genetic Cross):
+- यदि अंडाणु (X) + शुक्राणु (X) संलयन करते हैं ⟹ XX = पुत्री (लड़की)
+- यदि अंडाणु (X) + शुक्राणु (Y) संलयन करते हैं ⟹ XY = पुत्र (लड़का)
+
+★ वैज्ञानिक निष्कर्ष:
+चूंकि माता केवल X गुणसूत्र दे सकती है, अतः लड़का (XY) होगा या लड़की (XX), यह पूरी तरह से पिता से आने वाले शुक्राणु (X अथवा Y) पर निर्भर करता है।`,
+        a_en: `Model Solution (3 Marks):
+Mechanism:
+Humans have 23 pairs of chromosomes. Female genotype is XX (homogametic, producing only X-bearing ova). Male genotype is XY (heterogametic, producing 50% X-bearing and 50% Y-bearing sperms).
+
+Genetic Cross:
+- Ovum (X) + Sperm (X) ⟹ XX (Female Child - 50%)
+- Ovum (X) + Sperm (Y) ⟹ XY (Male Child - 50%)
+Conclusion: The sex of the child is entirely determined by whether the father contributes an X or Y chromosome.`
+      },
+      {
+        topic: "जूल का तापन नियम एवं विद्युत शक्ति (Joule's Law of Heating & Electric Power)",
+        q_hi: "जूल का तापन नियम लिखिए। इसका गणितीय सूत्र निगमित कीजिए तथा विद्युत शक्ति की परिभाषा व SI मात्रक लिखिए।",
+        q_en: "State Joule's Law of Heating. Give its mathematical formula and define Electric Power with its SI unit.",
+        a_hi: `आदर्श उत्तर (3 अंक भौतिक विज्ञान हल):
+1. जूल का तापन नियम (Joule's Law of Heating):
+किसी चालक तार में विद्युत धारा प्रवाहित करने पर उत्पन्न ऊष्मा (H):
+(क) विद्युत धारा के वर्ग के समानुपाती होती है: H ∝ I²
+(ख) चालक के प्रतिरोध के समानुपाती होती है: H ∝ R
+(ग) धारा प्रवाह के समय के समानुपाती होती है: H ∝ t
+सूत्र: H = I²Rt जूल (Joule)
+
+2. विद्युत शक्ति (Electric Power):
+विद्युत परिपथ में विद्युत ऊर्जा के व्यय होने की दर को विद्युत शक्ति कहते हैं।
+सूत्र: P = W / t = V × I = I²R = V² / R
+SI मात्रक: वॉट (Watt - W)। 1 Watt = 1 Joule / 1 Second।`,
+        a_en: `Model Solution (3 Marks):
+Joule's Law of Heating:
+Heat produced in a conductor of resistance R with current I flowing for time t:
+H = I²Rt Joules
+1. Directly proportional to square of current (H ∝ I²)
+2. Directly proportional to resistance (H ∝ R)
+3. Directly proportional to time (H ∝ t)
+
+Electric Power: Rate at which electrical energy is consumed in an electrical circuit.
+P = V × I = I²R = V²/R
+SI Unit: Watt (W). 1 W = 1 J/s.`
+      },
+      {
+        topic: "गोलीय दर्पण एवं लेंस सूत्र व आवर्धन (Mirror & Lens Formula, Magnification)",
+        q_hi: "गोलीय दर्पण सूत्र एवं पतले लेंस सूत्र लिखिए। रेखीय आवर्धन (m) की परिभाषा तथा दोनों स्थितियों में इसके सूत्र स्पष्ट कीजिए।",
+        q_en: "Write the mirror formula and lens formula. Define linear magnification (m) and write its formula in both cases.",
+        a_hi: `आदर्श उत्तर (2/3 अंक पूर्ण प्रकाशीय हल):
+1. गोलीय दर्पण सूत्र (Mirror Formula):
+1/f = 1/v + 1/u
+जहाँ f = फोकस दूरी, v = प्रतिबिंब दूरी, u = बिंब (वस्तु) दूरी।
+
+2. पतले लेंस का सूत्र (Lens Formula):
+1/f = 1/v - 1/u
+
+3. रेखीय आवर्धन (Linear Magnification - m):
+प्रतिबिंब की ऊंचाई (h₂) और बिंब की ऊंचाई (h₁) के अनुपात को रेखीय आवर्धन कहते हैं।
+- दर्पण हेतु आवर्धन: m = h₂ / h₁ = -v / u
+- लेंस हेतु आवर्धन: m = h₂ / h₁ = +v / u
+चिह्न परिपाटी: यदि m ऋणात्मक (-) है तो प्रतिबिंब वास्तविक व उल्टा होता है; यदि m धनात्मक (+) है तो आभासी व सीधा होता है।`,
+        a_en: `Model Solution (2/3 Marks):
+1. Mirror Formula: 1/f = 1/v + 1/u
+2. Lens Formula: 1/f = 1/v - 1/u
+3. Linear Magnification (m): Ratio of height of image (h₂) to height of object (h₁).
+- For Spherical Mirrors: m = h₂ / h₁ = -v / u
+- For Thin Lenses: m = h₂ / h₁ = +v / u
+Sign rule: Negative m indicates real & inverted image; Positive m indicates virtual & erect image.`
       }
     ],
     long: [
@@ -491,6 +741,128 @@ A soap molecule (e.g., sodium stearate C₁₇H₃₅COONa) consists of two part
 2. Mechanism of Cleansing Action:
 Oily dirt is insoluble in water. When soap is applied to dirty clothes in water, the hydrophobic tails embed into the oil droplet while the hydrophilic heads project outward into the water.
 This spherical cluster is called a 'Micelle'. The grease is trapped in the micelle core. Because of electrostatic repulsion between ionic heads, micelles remain suspended as an emulsion and are easily rinsed away with water.`
+      },
+      {
+        topic: "मानव उत्सर्जन तंत्र एवं नेफ्रॉन की कार्यविधि (Excretory System & Nephron)",
+        q_hi: "मानव के उत्सर्जन तंत्र का सचित्र वर्णन कीजिए तथा वृक्काणु (नेफ्रॉन - Nephron) की संरचना एवं मूत्र निर्माण के तीन चरणों को स्पष्ट कीजिए।",
+        q_en: "Describe the human excretory system. Explain the structure of a Nephron and the three stages of urine formation.",
+        a_hi: `आदर्श उत्तर (5 अंक विस्तृत स्टेप मार्किंग):
+1. मानव उत्सर्जन तंत्र के 4 प्रमुख अंग:
+- एक जोड़ी वृक्क (Kidneys): रक्त को छानकर मूत्र बनाते हैं।
+- एक जोड़ी मूत्रवाहिनियां (Ureters): मूत्र को मूत्राशय तक ले जाती हैं।
+- एक मूत्राशय (Urinary Bladder): पेशीय थैली जिसमें मूत्र एकत्र होता है।
+- एक मूत्रमार्ग (Urethra): मूत्र शरीर से बाहर निकालने का मार्ग।
+
+2. वृक्काणु (नेफ्रॉन) की संरचना:
+नेफ्रॉन वृक्क की संरचनात्मक एवं कार्यात्मक इकाई है। इसके मुख्य भाग हैं:
+(क) बोमन संपुट (Bowman's Capsule) व केशिका गुच्छ (Glomerulus)
+(ख) वृक्क नलिका (समीपस्थ कुंडलित नलिका, हेनले का लूप, दूरस्थ कुंडलित नलिका)
+(ग) संग्रह वाहिनी (Collecting Duct)
+
+3. मूत्र निर्माण के 3 चरण:
+चरण 1: परानिस्यंदन (Glomerular Filtration):
+रक्त उच्च दाब पर ग्लोमेरुलस में आता है। ग्लूकोज, अमीनो अम्ल, लवण, यूरिया व जल छनकर बोमन संपुट में आ जाते हैं।
+चरण 2: चयनात्मक पुनःअवशोषण (Tubular Reabsorption):
+प्रारंभिक निस्यंद में से उपयोगी पदार्थ (ग्लूकोज, अमीनो अम्ल, अधिकांश जल व आवश्यक आयन) नलिका के चारों ओर लिपटी रक्त कोशिकाओं द्वारा पुनः अवशोषित कर लिए जाते हैं।
+चरण 3: नलिका स्रावण (Tubular Secretion):
+अतिरिक्त पोटैशियम व अमोनिया नलिका में स्रावित होते हैं। शेष द्रव यूरिया युक्त 'मूत्र' बनकर संग्रह वाहिनी में चला जाता है।`,
+        a_en: `Model Solution (5 Marks Comprehensive Answer):
+1. Organs of Excretory System: Pair of kidneys, pair of ureters, urinary bladder, urethra.
+2. Structure of Nephron:
+- Bowman's capsule enclosing glomerulus (capillary knot).
+- Renal tubule (Proximal convoluted tubule, Loop of Henle, Distal convoluted tubule).
+- Collecting duct.
+3. Three Steps of Urine Formation:
+(a) Glomerular Ultrafiltration: Blood filtered under high pressure; nitrogenous wastes (urea, uric acid), glucose, water enter Bowman's capsule.
+(b) Selective Reabsorption: Useful substances (glucose, amino acids, essential salts, water) reabsorbed back into capillaries.
+(c) Tubular Secretion: Extra ions (H⁺, K⁺) secreted into tubular fluid, forming final urine.`
+      },
+      {
+        topic: "मानव नेत्र के दृष्टि दोष एवं निवारण (Defects of Vision & Correction)",
+        q_hi: "मानव नेत्र के दो प्रमुख दोषों—निकट दृष्टि दोष (Myopia) एवं दूर दृष्टि दोष (Hypermetropia) के लक्षण, कारण, किरण आरेख तथा निवारक लेंस की विस्तृत व्याख्या कीजिए।",
+        q_en: "Explain the two major defects of human vision: Myopia and Hypermetropia. Discuss their causes, ray diagrams, and corrective lenses.",
+        a_hi: `आदर्श उत्तर (5 अंक सम्पूर्ण हल):
+1. निकट दृष्टि दोष (मायोपिया - Myopia / Near-sightedness):
+- लक्षण: पास की वस्तुएं स्पष्ट दिखती हैं, परन्तु दूर की वस्तुएं धुंधली दिखाई देती हैं (दूर बिंदु अनंत से पास आ जाता है)।
+- कारण: (i) नेत्र लेंस की वक्रता अधिक होना (फोकस दूरी कम होना)। (ii) नेत्र गोलक का लंबा हो जाना। इससे दूर की वस्तु का प्रतिबिंब रेटिना के आगे (सामने) बन जाता है।
+- निवारण: 'अवतल लेंस' (Concave Lens) का चश्मा प्रयुक्त होता है, जो समानांतर किरणों को अपसारित कर पुनः रेटिना पर फोकसित करता है।
+
+2. दूर दृष्टि दोष (हाइपरमेट्रोपिया - Hypermetropia / Far-sightedness):
+- लक्षण: दूर की वस्तुएं स्पष्ट दिखती हैं, परन्तु पास की वस्तुएं (25 सेमी पर) स्पष्ट नहीं दिखाई देतीं (निकट बिंदु 25 सेमी से दूर खिसक जाता है)।
+- कारण: (i) नेत्र लेंस की फोकस दूरी अत्यधिक बढ़ जाना। (ii) नेत्र गोलक का छोटा हो जाना। इससे प्रतिबिंब रेटिना के पीछे बनता है।
+- निवारण: 'उत्तल लेंस' (Convex Lens) का चश्मा प्रयुक्त होता है, जो निकट से आने वाली किरणों को अभिसारित कर ठीक रेटिना पर फोकसित करता है।`,
+        a_en: `Model Solution (5 Marks):
+1. Myopia (Short-sightedness):
+- Symptoms: Can see near objects clearly, but distant objects appear blurry.
+- Causes: (i) Excessive curvature of eye lens (short focal length). (ii) Elongation of eyeball. Image forms in front of retina.
+- Correction: Concave lens of suitable power diverges rays so they focus on the retina.
+
+2. Hypermetropia (Long-sightedness):
+- Symptoms: Can see distant objects clearly, but nearby objects appear blurry.
+- Causes: (i) Focal length of eye lens is too long. (ii) Eyeball has become too short. Image forms behind the retina.
+- Correction: Convex lens of suitable power converges incoming rays onto the retina.`
+      },
+      {
+        topic: "कांच के प्रिज्म द्वारा प्रकाश का विक्षेपण (Dispersion of Light through Prism)",
+        q_hi: "कांच के त्रिभुजाकार प्रिज्म द्वारा श्वेत प्रकाश के विक्षेपण (Dispersion) का सचित्र वर्णन कीजिए तथा स्पष्ट कीजिए कि स्पेक्ट्रम के वर्णों का क्रम क्या होता है और लाल रंग का विचलन सबसे कम क्यों होता है?",
+        q_en: "Describe the dispersion of white light through a triangular glass prism. Explain why red deviates least and violet deviates most.",
+        a_hi: `आदर्श उत्तर (5 अंक प्रकाशीय हल):
+1. प्रकाश का विक्षेपण (Dispersion of Light):
+जब सूर्य का श्वेत प्रकाश किसी पारदर्शी कांच के प्रिज्म से गुजरता है, तो यह अपने 7 संघटक रंगों की पट्टी में विभाजित हो जाता है। इस परिघटना को प्रकाश का विक्षेपण कहते हैं तथा प्राप्त 7 रंगों की पट्टी को 'स्पेक्ट्रम' (वर्णक्रम) कहते हैं।
+
+2. रंगों का क्रम (VIBGYOR):
+नीचे से ऊपर:
+V = Violet (बैंगनी)
+I = Indigo (जामुनी)
+B = Blue (नीला)
+G = Green (हरा)
+Y = Yellow (पीला)
+O = Orange (नारंगी)
+R = Red (लाल)
+
+3. विचलन में अंतर का वैज्ञानिक कारण:
+- कॉची के सूत्र के अनुसार, किसी माध्यम का अपवर्तनांक प्रकाश की तरंगदैर्घ्य (λ) के व्युत्क्रमानुपाती होता है (n ∝ 1/λ²)।
+- लाल प्रकाश की तरंगदैर्घ्य (λ ≈ 700 nm) दृश्य प्रकाश में सबसे अधिक होती है, अतः कांच में इसकी चाल सर्वाधिक तथा अपवर्तनांक सबसे कम होता है। फलस्वरूप लाल रंग सबसे कम विचलित होता है।
+- बैंगनी प्रकाश की तरंगदैर्घ्य (λ ≈ 400 nm) सबसे कम होती है, अतः इसका अपवर्तनांक सर्वाधिक और विचलन सबसे अधिक होता है।`,
+        a_en: `Model Solution (5 Marks):
+Dispersion: The splitting of white light into its seven constituent colours when passing through a prism is called dispersion. The band of seven colours is called a spectrum.
+
+Sequence of Colours: VIBGYOR (Violet, Indigo, Blue, Green, Yellow, Orange, Red from base to apex).
+
+Scientific Cause of Different Angles of Deviation:
+- Different colours of light bend through different angles with respect to the incident ray because speed of light in glass varies with wavelength (v = fλ).
+- Red light has the longest wavelength (λ ≈ 700 nm) in the visible spectrum; it travels fastest in glass and deviates the least.
+- Violet light has the shortest wavelength (λ ≈ 400 nm); it travels slowest in glass and deviates the most.`
+      },
+      {
+        topic: "विद्युत मोटर एवं फ्लेमिंग का वाम-हस्त नियम (Electric Motor & Working)",
+        q_hi: "विद्युत मोटर का मूल सिद्धांत क्या है? इसकी संरचना एवं कार्यप्रणाली का सचित्र वर्णन कीजिए तथा इसमें विभक्त वलय (कम्यूटेटर) की भूमिका स्पष्ट कीजिए।",
+        q_en: "State the principle of an Electric Motor. Describe its construction, working, and the role of split rings (commutator).",
+        a_hi: `आदर्श उत्तर (5 अंक विस्तृत स्टेप मार्किंग):
+1. सिद्धांत (Principle):
+विद्युत मोटर विद्युत धारा के चुंबकीय प्रभाव पर आधारित युक्ति है जो विद्युत ऊर्जा को यांत्रिक ऊर्जा में परिवर्तित करती है। जब किसी धारावाही चालक कुंडली को चुंबकीय क्षेत्र में रखा जाता है, तो उस पर एक चुंबकीय बल (टॉर्क) कार्य करता है जो कुंडली को अपनी धुरी पर घुमाता है (फ्लेमिंग का वामहस्त नियम)।
+
+2. मुख्य भाग (Construction):
+- आर्मेचर कुंडली (ABCD): तांबे के विद्युतरोधी तार की आयताकार कुंडली।
+- प्रबल चुंबक: एक स्थायी चुंबक (N-S ध्रुव) जिसके बीच कुंडली घूमती है।
+- विभक्त वलय (कम्यूटेटर - P और Q): दो अर्ध-वृत्ताकार धातु के छल्ले जो कुंडली के सिरों से जुड़े होते हैं।
+- कार्बन ब्रश (X और Y): स्थिर ग्रेफाइट ब्रश जो बाह्य परिपथ से धारा की आपूर्ति करते हैं।
+
+3. कार्यप्रणाली (Working) व विभक्त वलय की भूमिका:
+- जब परिपथ में धारा प्रवाहित की जाती है, तो भुजा AB में धारा अंदर तथा भुजा CD में धारा बाहर बहती है।
+- फ्लेमिंग के बाएं हाथ के नियम के अनुसार, भुजा AB पर नीचे की ओर तथा CD पर ऊपर की ओर बल लगता है। इससे कुंडली वामावर्त (anti-clockwise) घूमती है।
+- आधे घूर्णन (180°) के पश्चात, विभक्त वलय P और Q के संपर्क ब्रश X और Y से बदल जाते हैं। इससे कुंडली में धारा की दिशा स्वतः उलट जाती है।
+- विभक्त वलय का कार्य: कुंडली में धारा की दिशा को प्रत्येक आधे चक्कर के बाद उलट देना, जिससे कुंडली निरंतर एक ही दिशा में घूमती रहती है।`,
+        a_en: `Model Solution (5 Marks):
+Principle: Electric motor converts electrical energy into mechanical energy. A current-carrying coil placed in a magnetic field experiences a mechanical torque (Fleming's Left-Hand Rule).
+
+Construction:
+- Armature Coil (ABCD): Insulated copper wire coil.
+- Strong Field Magnet: Provides uniform magnetic field.
+- Split Rings / Commutator (P & Q): Half-rings that reverse current direction every half rotation.
+- Carbon Brushes (X & Y): Press against split rings to maintain electrical contact.
+
+Role of Split Rings: Acts as a commutator to reverse the direction of current flowing through the coil every half-rotation (180°), ensuring unidirectional rotation.`
       }
     ]
   },

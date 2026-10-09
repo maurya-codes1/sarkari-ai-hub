@@ -7273,10 +7273,26 @@ async function generateAndDownloadHighResPdf(token = '') {
   // Subjectives (Strictly Board Exams only; Never for competitive exams)
   let subjectives = [];
   if (!isCompetitive) {
-    subjectives = (note.subjectives && note.subjectives.length > 0) ? note.subjectives : [
+    const rawSubj = (note.subjectives && note.subjectives.length > 0) ? note.subjectives : [
       ...MASTER_BOARD_2M,
       ...MASTER_BOARD_5M
     ];
+    const seenSubjPrint = new Set();
+    subjectives = rawSubj.filter(item => {
+      const qText = item.q || item.question || '';
+      const line1 = qText.split('\n')[0];
+      const stem = line1
+        .toLowerCase()
+        .replace(/^[0-9]+[\.\)]\s*/, '')
+        .replace(/^(?:प्रश्न|दीर्घ उत्तरीय प्रश्न|question|long answer question)\s*[0-9]+[\.\:]?\s*\[[^\]]+\]/i, '')
+        .replace(/\[[^\]]*\]/g, '')
+        .replace(/[^a-z0-9\u0900-\u0DFF]/gi, '')
+        .trim();
+      if (!stem || stem.length < 5) return false;
+      if (seenSubjPrint.has(stem)) return false;
+      seenSubjPrint.add(stem);
+      return true;
+    });
   }
 
   // Hall of Fame
@@ -7391,7 +7407,7 @@ async function generateAndDownloadHighResPdf(token = '') {
     ${subjectives && subjectives.length ? `
       <div style="margin-bottom: 22px;">
         <div class="pdf-section-hdr" style="background: #7c3aed; color: white; padding: 8px 14px; font-weight: 800; font-size: 13px; border-radius: 8px; margin-bottom: 10px; margin-top: 14px;">
-          भाग 2: विषयनिष्ठ एवं व्याख्यात्मक मॉडल प्रश्न व प्रमेय उपपत्ति (Section 2: Step-by-Step Proofs & Model Answers)
+          ${(String(note.langMode || note.preferredMedium || note.medium || '').toLowerCase() === 'english' || String(note.langMode || note.preferredMedium || note.medium || '').toLowerCase() === 'en') ? 'Section 2: High-Yield Subjective Questions & Step-by-Step Proofs' : 'भाग 2: विषयनिष्ठ एवं व्याख्यात्मक मॉडल प्रश्न व प्रमेय उपपत्ति (Section 2: Step-by-Step Proofs & Model Answers)'}
         </div>
         ${subjectives.map(item => `
           <div class="pdf-avoid-break" style="margin-bottom: 10px; padding: 10px 14px; background: #fdf4ff; border-left: 4px solid #a855f7; border-radius: 6px;">

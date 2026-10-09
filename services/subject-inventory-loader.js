@@ -90,13 +90,30 @@ function cleanQuestionText(text) {
 /**
  * Filter out auto-generated synthetic test fixtures, machine stubs, and irrelevant templates.
  */
-function isSyntheticJunk(qRow, parsedContent, is12th = false) {
+function isSyntheticJunk(qRow, parsedContent, is12th = false, targetBoardId = '') {
   if (qRow.quality_state === 'SYNTHETIC_QUARANTINE' || qRow.trust_status === 'QUARANTINED' || qRow.is_published === 0) return true;
   const qId = qRow.question_id || '';
   if (qId.includes('p17c') || qId.includes('p17b') || qId.startsWith('q-p17') || qId.startsWith('q-c12')) return true;
   if (!is12th && (qRow.subject_id === 'subj-math12' || qId.includes('math12'))) return true;
   
   const contentStr = JSON.stringify(parsedContent || {});
+
+  // Cross-Board Isolation & Script Guard
+  if (targetBoardId) {
+    const boardKey = (targetBoardId || '').toLowerCase().trim();
+    const canonicalTargetBoard = (typeof CANONICAL_BOARD_MAP !== 'undefined' && CANONICAL_BOARD_MAP[boardKey]) ? CANONICAL_BOARD_MAP[boardKey] : boardKey;
+    const qBoard = (qRow.board_id || '').toLowerCase().trim();
+    if (qBoard && canonicalTargetBoard && qBoard !== canonicalTargetBoard && qBoard !== 'cbse-board') {
+      return true; // Foreign board question!
+    }
+    if (boardKey === 'cbse' || boardKey === 'cbse-board') {
+      // Non-language subjects in CBSE must never contain regional scripts (Urdu, Assamese, Bengali, Tamil, etc.)
+      if (/[\u0600-\u06FF\u0980-\u09FF\u0A00-\u0D7F]/.test(contentStr)) {
+        return true;
+      }
+    }
+  }
+
   const junkPatterns = [
     /statement i is uniquely false/i,
     /canonical verified doctrine/i,
@@ -164,7 +181,14 @@ function isSyntheticJunk(qRow, parsedContent, is12th = false) {
     /Solve \/ Explain this concept in detail for/i,
     /अंकन योजना के अनुसार चरणबद्ध हल/i,
     /Step-by-step verified practical solution as per/i,
-    /पाठ्यक्रम के अनुसार इस प्रश्न का सही उत्तर/i
+    /पाठ्यक्रम के अनुसार इस प्रश्न का सही उत्तर/i,
+    /अध्याय से संबंधित बोर्ड परीक्षा का मानक/i,
+    /के संदर्भ में सही विकल्प का चयन कीजिए/i,
+    /बोर्ड परीक्षा 2027 हेतु/i,
+    /हिमाचल बोर्ड मैट्रिक/i,
+    /माध्यमिक शिक्षा परिषद उत्तर प्रदेश/i,
+    /ASSEB.*ৰ माध्यमिक पाठ্যক/i,
+    /অসম ৰাজ্যিক বিদ্যালয় শিক্ষা পৰিষদ/i
   ];
 
   for (const pat of junkPatterns) {
@@ -525,7 +549,7 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
     for (const r of rows) {
       let parsed = {};
       try { parsed = JSON.parse(r.language_content); } catch (e) {}
-      if (isSyntheticJunk(r, parsed, is12th)) {
+      if (isSyntheticJunk(r, parsed, is12th, options.boardId)) {
         continue;
       }
 
@@ -603,12 +627,16 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
         opts = (rawOpts || extractRawOpts(hi) || extractRawOpts(en) || ['A)', 'B)', 'C)', 'D)']).map(o => String(o).trim());
       } else {
         // Dual-Language for core non-language subjects (STEM, Math, Science, GS, GK, Reasoning)
+        const latEn = (cleanEn.match(/[a-zA-Z]/g) || []).length;
+        const devEn = (cleanEn.match(/[\u0900-\u097F]/g) || []).length;
+        const isGenuineEn = latEn >= 6 && latEn > devEn;
+
         if (requestedMedium === 'en') {
           // English chosen: English on top, State/Hindi below, NO bracket wrapper
-          if (cleanEn && cleanHi && cleanEn.toLowerCase() !== cleanHi.toLowerCase()) {
+          if (isGenuineEn && cleanHi && cleanEn.toLowerCase() !== cleanHi.toLowerCase()) {
             qText = `${cleanEn}\n${cleanHi}`;
           } else {
-            qText = cleanEn || cleanHi || cleanPrimaryQ;
+            qText = isGenuineEn ? cleanEn : (cleanHi || cleanPrimaryQ);
           }
 
           const enOpts = extractRawOpts(en) || [];
@@ -621,24 +649,30 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
             const e = eRaw.replace(/^[A-D]\)\s*/i, '').trim();
             const h = hRaw.replace(/^[A-D]\)\s*/i, '').trim();
             const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-            if (e && h && e.toLowerCase() !== h.toLowerCase()) {
+            const eIsEn = (e.match(/[a-zA-Z]/g) || []).length >= 2;
+            const hIsIndic = (h.match(/[\u0900-\u0DFF]/g) || []).length >= 2;
+            if (e && h && e.toLowerCase() !== h.toLowerCase() && eIsEn && hIsIndic) {
               opts.push(`${prefix} ${e} / ${h}`);
-            } else if (e) {
+            } else if (e && eIsEn) {
               opts.push(`${prefix} ${e}`);
-            } else if (h) {
+            } else if (h && hIsIndic) {
               opts.push(`${prefix} ${h}`);
             } else if (rawOpts && rawOpts[i]) {
               opts.push(String(rawOpts[i]).trim());
             } else {
-              opts.push(`${prefix} Option ${i + 1}`);
+              opts.push(`${prefix} ${e || h || `Option ${i + 1}`}`);
             }
           }
         } else {
           // Hindi / State medium chosen: Hindi/State on top, English below, NO bracket wrapper
-          if (cleanHi && cleanEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
+          const latEn = (cleanEn.match(/[a-zA-Z]/g) || []).length;
+          const devEn = (cleanEn.match(/[\u0900-\u097F]/g) || []).length;
+          const isGenuineEn = latEn >= 6 && latEn > devEn;
+
+          if (cleanHi && isGenuineEn && cleanHi.toLowerCase() !== cleanEn.toLowerCase()) {
             qText = `${cleanHi}\n${cleanEn}`;
           } else {
-            qText = cleanHi || cleanEn || cleanPrimaryQ;
+            qText = cleanHi || (isGenuineEn ? cleanEn : '') || cleanPrimaryQ;
           }
 
           const hiOpts = extractRawOpts(hi) || [];
@@ -651,16 +685,18 @@ function fetchDbQuestionsForSubject(subjectId, options = {}) {
             const h = hRaw.replace(/^[A-D]\)\s*/i, '').trim();
             const e = eRaw.replace(/^[A-D]\)\s*/i, '').trim();
             const prefix = ['A)', 'B)', 'C)', 'D)'][i] || `${i + 1})`;
-            if (h && e && h.toLowerCase() !== e.toLowerCase()) {
+            const hIsIndic = (h.match(/[\u0900-\u0DFF]/g) || []).length >= 2;
+            const eIsEn = (e.match(/[a-zA-Z]/g) || []).length >= 2;
+            if (h && e && h.toLowerCase() !== e.toLowerCase() && hIsIndic && eIsEn) {
               opts.push(`${prefix} ${h} / ${e}`);
-            } else if (h) {
+            } else if (h && hIsIndic) {
               opts.push(`${prefix} ${h}`);
-            } else if (e) {
+            } else if (e && eIsEn) {
               opts.push(`${prefix} ${e}`);
             } else if (rawOpts && rawOpts[i]) {
               opts.push(String(rawOpts[i]).trim());
             } else {
-              opts.push(`${prefix} Option ${i + 1}`);
+              opts.push(`${prefix} ${h || e || `Option ${i + 1}`}`);
             }
           }
         }
@@ -1032,12 +1068,22 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
       }
     }
 
+    const isForeignBoardQuestion = (id, targetPfx) => {
+      const clean = (id || '').toLowerCase();
+      for (const [k, p] of Object.entries(BOARD_PREFIX_MAP)) {
+        if (p !== targetPfx && p !== 'cbse') {
+          if (clean.startsWith(`${p}-`) || clean.includes(`-${p}-`) || clean.includes(`-${k}-`)) {
+            return true;
+          }
+        }
+      }
+      return false;
+    };
+
     // If board questions alone are under targetQuota, supplement with safe central NCERT reference
     if (combined.length < targetQuota && !isLangSub) {
       for (const item of dbList) {
-        const qId = (item.id || '').toLowerCase();
-        const hasOtherRegionalBoard = Object.values(BOARD_PREFIX_MAP).some(p => p !== dbPrefix && p !== 'cbse' && qId.startsWith(`${p}-`));
-        if (hasOtherRegionalBoard) continue;
+        if (isForeignBoardQuestion(item.id, dbPrefix)) continue;
         pushItem(item, 'DB');
         if (combined.length >= targetQuota) break;
       }
@@ -1058,40 +1104,63 @@ function getCompleteSubjectInventory(subjectId = '', options = {}) {
         if (db) {
           const targetClass = String(options.targetClass || (is12th ? '12' : '10')).replace(/th|st|nd|rd/gi, '').trim() || (is12th ? '12' : '10');
           const extraRows = db.prepare(`
-            SELECT q.question_id, q.subject_id, q.provenance, q.source_type, q.difficulty,
+            SELECT q.question_id, q.subject_id, q.board_id, q.provenance, q.source_type, q.difficulty,
                    qv.language_content, qv.correct_answer
             FROM questions q
             JOIN question_versions qv ON q.question_id = qv.question_id AND q.current_version = qv.version_number
-            WHERE (q.stage = ? OR q.stage LIKE ?)
+            WHERE (q.board_id = ? OR (q.board_id = 'cbse-board' AND ? != 'pseb-punjab') OR q.board_id IS NULL)
+              AND (q.stage = ? OR q.stage LIKE ?)
               AND (q.subject_id LIKE ? OR q.subject_id = ?)
               AND q.is_published = 1
               AND q.quality_state != 'SYNTHETIC_QUARANTINE'
               AND q.trust_status != 'QUARANTINED'
               AND q.question_type_id IN ('single_mcq', 'assertion_reason', 'numerical', 'mcq')
             LIMIT 500
-          `).all(`Class ${targetClass}`, `Class ${targetClass}%`, `%${normSub}%`, `subj-${normSub}`);
+          `).all(canonicalBoard, canonicalBoard, `Class ${targetClass}`, `Class ${targetClass}%`, `%${normSub}%`, `subj-${normSub}`);
 
           for (const er of extraRows) {
             let p = {};
             try { p = JSON.parse(er.language_content); } catch (e) {}
-            const lk = Object.keys(p);
-            if (lk.length === 0) continue;
-            const primaryL = p[options.langMode] || p.hi || p.en || p[lk[0]] || {};
-            const qStem = primaryL.question || primaryL.q || primaryL.stem || primaryL.prompt || '';
-            const cleanQ = cleanQuestionText(qStem);
-            if (!cleanQ) continue;
-            let opts = primaryL.options || ['A)', 'B)', 'C)', 'D)'];
-            if (!Array.isArray(opts) && typeof opts === 'object') opts = Object.values(opts);
-            pushItem({
-              id: er.question_id,
-              q: cleanQ,
-              options: opts.map(o => String(o).trim()),
-              correct: 0,
-              ans: opts[0] || 'A)',
-              exp: primaryL.explanation || 'Authentic conceptual explanation based on official curriculum.',
-              topic: `${normSub.toUpperCase()} Core Concept`,
-              provenance: er.provenance || 'AUTHENTIC_VERIFIED'
-            }, 'DB');
+            if (isSyntheticJunk(er, p, is12th, options.boardId)) continue;
+
+            let boardGovService = null;
+            try { boardGovService = require('../backend/services/board-medium-governance-service'); } catch (e) {}
+            let resGov = null;
+            if (boardGovService) {
+              try { resGov = boardGovService.resolveQuestionMedium(er, options.preferredMedium || options.medium || options.langMode || 'hi', { boardId: er.board_id || options.boardId }); } catch (e) {}
+            }
+
+            if (resGov && resGov.questionText) {
+              pushItem({
+                id: er.question_id,
+                q: resGov.questionText,
+                options: resGov.options,
+                correct: 0,
+                ans: (resGov.options && resGov.options[0]) || 'A)',
+                exp: resGov.modelAnswer || resGov.explanation || 'Authentic conceptual explanation based on official curriculum.',
+                topic: `${normSub.toUpperCase()} Core Concept`,
+                provenance: er.provenance || 'AUTHENTIC_VERIFIED'
+              }, 'DB');
+            } else {
+              const lk = Object.keys(p);
+              if (lk.length === 0) continue;
+              const primaryL = p[options.langMode] || p.hi || p.en || p[lk[0]] || {};
+              const qStem = primaryL.question || primaryL.q || primaryL.stem || primaryL.prompt || '';
+              const cleanQ = cleanQuestionText(qStem);
+              if (!cleanQ) continue;
+              let opts = primaryL.options || ['A)', 'B)', 'C)', 'D)'];
+              if (!Array.isArray(opts) && typeof opts === 'object') opts = Object.values(opts);
+              pushItem({
+                id: er.question_id,
+                q: cleanQ,
+                options: opts.map(o => String(o).trim()),
+                correct: 0,
+                ans: opts[0] || 'A)',
+                exp: primaryL.explanation || 'Authentic conceptual explanation based on official curriculum.',
+                topic: `${normSub.toUpperCase()} Core Concept`,
+                provenance: er.provenance || 'AUTHENTIC_VERIFIED'
+              }, 'DB');
+            }
             if (combined.length >= targetQuota) break;
           }
         }
